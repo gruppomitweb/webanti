@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="71324710">
+  <CodifyName>arpg_inviomese</CodifyName>
+  <Name>arpg_inviomese.pagedef</Name>
+  <Title>Estrazione Dati da A.U.I per Agenzia Entrate (Rapporti)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="180561835"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_inviomese_usr_1</JPG>
+    <Item type="variabile" x1="288" y1="70" x2="744" y2="91">
+      <Name LinkID="88068904">iniz</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="288" y1="126" x2="744" y2="147">
+      <Name LinkID="180363631">seco</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="288" y1="182" x2="354" y2="202">
+      <Name LinkID="187192187">dadata</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="456" y1="182" x2="522" y2="202">
+      <Name LinkID="187192185">a_data</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="360" y1="217" x2="400" y2="245">
+      <Name LinkID="180333530">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>Elabora()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="416" y1="217" x2="456" y2="245">
+      <Name LinkID="180333530">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

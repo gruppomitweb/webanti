@@ -1,0 +1,909 @@
+ 2
+"Rapporto Titolari Effettivi"
+"rapotit"
+"rapotit"
+ 0
+ 0
+*
+"Dipendenze"
+"anadip"
+"anadip"
+ 0
+ 0
+*
+ 56
+"idbase"
+"rapotit.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Numero Progressivo"
+"rapotit.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Inizio / Fine Rapporto"
+"rapotit.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.TIPOINTER"
+"TIPOINTER"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Interm."
+"rapotit.CODINTER"
+"CODINTER"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.TIPOINF"
+"TIPOINF"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.IDEREG"
+"IDEREG"
+"C"
+ 20
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Dipendenza"
+"rapotit.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Citta Int."
+"rapotit.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Provincia"
+"rapotit.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"CAB"
+"rapotit.CODCAB"
+"CODCAB"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.FLAGFRAZ"
+"FLAGFRAZ"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.FLAGCONT"
+"FLAGCONT"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.CODVOC"
+"CODVOC"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.TIPOINT2"
+"TIPOINT2"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.CODINT2"
+"CODINT2"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.DESC2"
+"DESC2"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.PROV2"
+"PROV2"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.CODCAB2"
+"CODCAB2"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Note Brevi"
+"rapotit.DESCINTER"
+"DESCINTER"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.FLAGRAP"
+"FLAGRAP"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Legame Sogg."
+"rapotit.TIPOLEG"
+"TIPOLEG"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Registrazione"
+"rapotit.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.OPRAP"
+"OPRAP"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Informazione"
+"rapotit.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.FLAGLIRE"
+"FLAGLIRE"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.TOTLIRE"
+"TOTLIRE"
+"N"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.TOTCONT"
+"TOTCONT"
+"N"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato Registrazione"
+"rapotit.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.OPERAZMOD"
+"OPERAZMOD"
+"C"
+ 20
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.DATARETT"
+"DATARETT"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Soggetto Operante Conto Terzi"
+"rapotit.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.CONNESBEN"
+"CONNESBEN"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.COLLEG"
+"COLLEG"
+"C"
+ 12
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.CAMBIO"
+"CAMBIO"
+"N"
+ 9
+ 4
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.RAPPORTBEN"
+"RAPPORTBEN"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.FLAGRAP2"
+"FLAGRAP2"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.OPERATORE"
+"OPERATORE"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.AUTOM"
+"AUTOM"
+"C"
+ 5
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.RESPINS"
+"RESPINS"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.INFORM"
+"INFORM"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.DATAAGE"
+"DATAAGE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.UCODE"
+"UCODE"
+"C"
+ 7
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Progressivo Importo"
+"rapotit.PRGIMPTIT"
+"PRGIMPTIT"
+"N"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice univoco per importazioni di n sogetti operanti"
+"rapotit.UNIQUECODE"
+"UNIQUECODE"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Operazione (Letterale)"
+"rapotit.CDATOPE"
+"CDATOPE"
+"C"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Registrazione"
+"rapotit.CDATREG"
+"CDATREG"
+"C"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Città"
+"anadip.DESCCIT"
+"DIPCIT"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Provincia"
+"anadip.PROVINCIA"
+"DIPPRV"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"CAB"
+"anadip.CAB"
+"DIPCAB"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 1
+"Dipendenze(Codice Dipendenza)"
+"anadip.CODDIP=rapotit.CODDIPE"
+"Right outer"
+"anadip"
+"rapotit"
+*
+ 10
+"rapotit.CDATOPE"
+""
+">="
+"?w_c_dadata"
+"AND"
+""
+""
+*
+"rapotit.CDATOPE"
+""
+"<="
+"?w_c_adata"
+"AND"
+""
+""
+*
+"rapotit.CODDIPE"
+""
+">="
+"?w_daCodDip"
+"AND"
+""
+""
+*
+"rapotit.CODDIPE"
+""
+"<="
+"?w_aCodDip"
+"AND"
+""
+""
+*
+"rapotit.CONNESCLI"
+""
+">="
+"?w_daCodCli"
+"AND"
+""
+""
+*
+"rapotit.CONNESCLI"
+""
+"<="
+"?w_aCodCli"
+"AND"
+""
+""
+*
+"((rapotit.CDATREG"
+""
+">="
+"?w_dacdatreg"
+"AND"
+""
+""
+*
+"rapotit.CDATREG"
+""
+"<="
+"?w_acdatreg)"
+"OR"
+""
+""
+*
+"(rapotit.DATARETT"
+""
+">="
+"?w_DaDatReg"
+"AND"
+""
+""
+*
+"rapotit.DATARETT"
+""
+"<="
+"?w_ADatReg))"
+"AND"
+""
+""
+*
+ 3
+"Data Inizio / Fine Rapporto"
+"DATAOPE"
+"Ascending"
+*
+"Numero Progressivo"
+"NUMPROG"
+"Ascending"
+*
+"Stato Registrazione"
+"STATOREG"
+"Ascending"
+*
+ 0
+ 0
+ 10
+"w_c_dadata"
+"Data Operazione (Letterale)"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+*
+"w_c_adata"
+"Data Operazione (Letterale)"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+*
+"w_daCodDip"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+""
+""
+*
+"w_aCodDip"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+""
+""
+*
+"w_daCodCli"
+"Soggetto"
+"C"
+"16"
+"0"
+"Remove"
+""
+""
+*
+"w_aCodCli"
+"Soggetto"
+"C"
+"16"
+"0"
+"Remove"
+""
+""
+*
+"w_dacdatreg"
+"Data Registrazione (Letterale)"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+*
+"w_acdatreg"
+"Data Registrazione (Letterale)"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+*
+"w_DaDatReg"
+""
+"D"
+"8"
+"0"
+"Remove"
+""
+""
+*
+"w_ADatReg"
+""
+"D"
+"8"
+"0"
+"Remove"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 46
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"CH9%2CMUwMx3%1F%25%3C%29%221T%232%24%24%11B%2B%26%5B.D%3E%5DC6%2B%1CE%5E6%3CW_6%235FL%23%3D-OH%24WN%2C%24BC%22IPFEJAV%3A%1F%40%3EA%06Z%23TICA2%12%22%401W4%07I%5EN%25%21%26%5BGv%3A%26_%5E1%1F%3BX%2F.%5BEKZY%23MC%21SSVF%257%21-8.R1%24vAO4R%2F4*Q%22SRuT%2746E%2B%3FS%3FYAU7+%13N%1FsN.-T%2B%3BV%267O%5B1%25+Q0%24OH5%12%21.2YM%3B%143.%1B%3CW%3C%2CMW%227T9%3B%3F%223%29%25Hk%268%1CH%111I15N%24%163M%3F%40p%3E%40CIH755NF%25%3F%24%5BtjQ5+C%3C%3B%7DF%3E%273%3F1OGM%00"
+"QO0%24Z3wSDI%3B%3D%3EUK1Z8%3B-%26-%28%22%22LBOmU%3D%078L.S%12%07%27R%3A+6%27%23%21%5CQ%3BMK%29%2B%26%23LEWP%23-7%5ECU%3F%22O%00%40%5B%3FHXB%40%2FE*T%22CI%18QDU%3D37%2C%5D%2CM%5BRXR%179%3B%5D%3D%27%04%5DX%2B7%3DJN%3CNA3%26%5D9%3BB%3E%40FU-ISX%5D%221K4%5DO%28%05SS%40Y%1C+08KPS%22Q3%3B%3E%228%29SF%5CL%258%2C6+I%29%29%3DPM%3By%3D%28F%28%2FA%40M9-%3E%2F%2F%2F2%2B%5B%2Fv6ARR%3B6%1A%223.%26uLT_8%3F*%3B%24G%3ACU%269%23H%3EraQZTsc%5E8%1F%29.%3D2%5CX5Z%5EN9LTKZB%2C%29I%5E*N7%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+*

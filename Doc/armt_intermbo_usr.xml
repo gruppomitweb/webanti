@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="177452794">
+  <CodifyName>armt_intermbo</CodifyName>
+  <Name>armt_intermbo.mstdef</Name>
+  <Title>Intermediario</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="57214265">Dati Intermediario</Title>
+    <Note></Note>
+    <JPG x="8" y="7">armt_intermbo_usr_1</JPG>
+    <Item type="campo" x1="128" y1="14" x2="644" y2="34">
+      <Name LinkID="188294170">TIPINTER</Name>
+      <Comment>Tipo Intermediario</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="42" x2="560" y2="62">
+      <Name LinkID="224447869">RAGSOC</Name>
+      <Comment>Ragione Sociale</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="70" x2="374" y2="90">
+      <Name LinkID="263528585">DESCCIT</Name>
+      <Comment>Città</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="568" y1="70" x2="592" y2="90">
+      <Name LinkID="20215733">PROVINCIA</Name>
+      <Comment>Provincia</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="640" y1="70" x2="706" y2="90">
+      <Name LinkID="240929110">CAP</Name>
+      <Comment>CAP</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="762" y1="70" x2="816" y2="90">
+      <Name LinkID="27218310">CODCAB</Name>
+      <Comment>CAB</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="98" x2="350" y2="118">
+      <Name LinkID="54337763">DOMICILIO</Name>
+      <Comment>Indirizzo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="440" y1="98" x2="470" y2="118">
+      <Name LinkID="190616443">PAESE</Name>
+      <Comment>Stato</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="126" x2="236" y2="146">
+      <Name LinkID="22755670">CODFISC</Name>
+      <Comment>Codice Fiscale</Comment>
+      <Key>key3</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="312" y1="126" x2="408" y2="146">
+      <Name LinkID="195229592">PARTIVA</Name>
+      <Comment>Partita IVA</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="528" y1="126" x2="600" y2="146">
+      <Name LinkID="65252202">DATANASC</Name>
+      <Comment>Data Passaggio EURO</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="128" y1="154" x2="208" y2="174">
+      <Name LinkID="190952314">PWDSER</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="512" y1="154" x2="818" y2="174">
+      <Name LinkID="22631591">SOSPMAF</Name>
+      <Comment>Passato EURO</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="182" x2="158" y2="202">
+      <Name LinkID="21893174">SOTGRUP</Name>
+      <Comment>Sottogruppo Att. Ec.</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="210" x2="158" y2="230">
+      <Name LinkID="45528387">RAMOGRUP</Name>
+      <Comment>Ramo Gruppo Att. Ec.</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="238" x2="158" y2="258">
+      <Name LinkID="66007450">SETTSINT</Name>
+      <Comment>Settorizzazione UIC</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="273" x2="344" y2="293">
+      <Name LinkID="5995962">TIPODOC</Name>
+      <Comment>Tipo Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="424" y1="273" x2="508" y2="293">
+      <Name LinkID="240950665">SESSO</Name>
+      <Comment>Sesso</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="301" x2="230" y2="321">
+      <Name LinkID="243649683">NUMDOCUM</Name>
+      <Comment>Numero Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="304" y1="301" x2="376" y2="321">
+      <Name LinkID="155373718">DATARILASC</Name>
+      <Comment>Data Rilascio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="616" y1="301" x2="808" y2="321">
+      <Name LinkID="187541638">AUTRILASC</Name>
+      <Comment>Autorità Competente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="336" x2="176" y2="356">
+      <Name LinkID="22636918">CODDIPE</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="364" x2="816" y2="420">
+      <Name LinkID="111391318">NOTE</Name>
+      <Comment>Annotazioni</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="728" y1="42" x2="814" y2="62">
+      <Name LinkID="205071398">CODINTER</Name>
+      <Comment>Codice</Comment>
+      <Key>key1</Key>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="704" y1="245" x2="816" y2="261">
+      <Name LinkID="52548712">Estrazione UIC DIANA</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="444" y1="301" x2="516" y2="321">
+      <Name LinkID="71086954">DATAVALI</Name>
+      <Comment>Data Rilascio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="712" y1="126" x2="814" y2="146">
+      <Name LinkID="147902356">CONTATORE</Name>
+      <Comment>Contatore</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="96" y1="455" x2="216" y2="475">
+      <Name LinkID="246428719">CFINVIO</Name>
+      <Comment>Codice Fiscale Organo Invio File</Comment>
+      <Help>Codice fiscale dell&apos;intermediario che effettua la trasmissione</Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="272" y1="455" x2="320" y2="475">
+      <Name LinkID="60488668">CAFINVIO</Name>
+      <Comment>Codice CAF Organo Invio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="360" y1="455" x2="656" y2="475">
+      <Name LinkID="179865950">FILEINVIO</Name>
+      <Comment>Tipo Preparazione FIle</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="736" y1="455" x2="808" y2="475">
+      <Name LinkID="55015018">DATAINVIO</Name>
+      <Comment>Data Impegno</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="2">
+    <Title LinkID="2872176">Settaggi Applicativo</Title>
+    <Note></Note>
+    <JPG x="0" y="7">armt_intermbo_usr_2</JPG>
+    <Item type="campo" x1="120" y1="14" x2="612" y2="34">
+      <Name LinkID="196185818">PATHAPP</Name>
+      <Comment>Path applicazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="120" y1="42" x2="612" y2="62">
+      <Name LinkID="11378018">URLAPPL</Name>
+      <Comment>URL Applicazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="120" y1="91" x2="280" y2="112">
+      <Name LinkID="245297907">FLGLOG</Name>
+      <Comment>Attivazione Log Procedura</Comment>
+      <Help>Attiva Monitoraggio Applicazione</Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="120" y1="70" x2="280" y2="91">
+      <Name LinkID="245248931">FLGAOS</Name>
+      <Comment>Collegamento con AOS</Comment>
+      <Help>Collegamento con Antiterrorismo</Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="280" y1="70" x2="440" y2="91">
+      <Name LinkID="239829347">FLGEAOS</Name>
+      <Comment>Ereditarietà Fattori Rischio</Comment>
+      <Help>Eredità fattori di rischio da dati anagrafici</Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="280" y1="91" x2="440" y2="112">
+      <Name LinkID="240877187">FLGCDOC</Name>
+      <Comment>Collegamento anagrafica documenti</Comment>
+      <Help>Attiva stampa con documenti originali</Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="448" y1="70" x2="632" y2="91">
+      <Name LinkID="239423571">FLGFRAZ</Name>
+      <Comment>Aggerega solo frazionate</Comment>
+      <Help>Aggrega le frazionate senza considerare le operazioni</Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="120" y1="119" x2="584" y2="139">
+      <Name LinkID="152900259">FLGAPERS</Name>
+      <Comment>Campo Aggiuntivo In ARCHPERS</Comment>
+      <Help>Aggrega le frazionate senza considerare le operazioni</Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="147" x2="792" y2="167">
+      <Name LinkID="83142447">DTINIATT</Name>
+      <Comment>Data Inizio Attività</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="120" y1="147" x2="282" y2="166">
+      <Name LinkID="108697485">FLGTIPIMP</Name>
+      <Comment>Tipo Import per Scheduler</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="408" y1="147" x2="584" y2="168">
+      <Name LinkID="76849789">FLGSTPCON</Name>
+      <Comment>Crea Stampa Controllo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="120" y1="175" x2="584" y2="195">
+      <Name LinkID="185768669">FLGIMPAGE</Name>
+      <Comment>Tipo Import Age</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="448" y1="90" x2="640" y2="111">
+      <Name LinkID="245587011">FLGWU</Name>
+      <Comment>Gestione Western Union</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="120" y1="203" x2="160" y2="223">
+      <Name LinkID="130222511">GGYELWAR</Name>
+      <Comment>Giorni Semaforo Giallo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="296" y1="203" x2="336" y2="223">
+      <Name LinkID="130220456">GGREDWAR</Name>
+      <Comment>Giorni Semaforo Rosso</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="203" x2="816" y2="223">
+      <Name LinkID="246471654">IMPINTOPE</Name>
+      <Comment>Importo per raggruppamento frazionate</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="120" y1="230" x2="648" y2="251">
+      <Name LinkID="150531645">FLGOPEXTR</Name>
+      <Comment>Crea movimento modifica in anagrafe operazioni extraconto</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="120" y1="267" x2="312" y2="287">
+      <Name LinkID="152236618">SKT_SERVER</Name>
+      <Comment>Socket Server</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="267" x2="762" y2="287">
+      <Name LinkID="202141878">SKT_PORT</Name>
+      <Comment>Porta Socket</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="120" y1="295" x2="492" y2="315">
+      <Name LinkID="104116042">SKT_PATHS</Name>
+      <Comment>Socket Script Path</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="294" x2="816" y2="314">
+      <Name LinkID="116755530">SKT_MODET</Name>
+      <Comment>Modalità</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="296" y1="332" x2="608" y2="352">
+      <Name LinkID="229302105">RASPAUI</Name>
+      <Comment>Responsabile Antiriciclaggio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="296" y1="360" x2="608" y2="380">
+      <Name LinkID="229302105">RESPAUI</Name>
+      <Comment>Responsabile</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

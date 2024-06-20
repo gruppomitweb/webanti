@@ -1,0 +1,243 @@
+﻿* --- Resource Vers. 0.9
+arrt_imp_ariu_m
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:36
+description='Import dati da ARIU_M
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:16
+module_name='
+name='arrt_imp_ariu_m
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.codcab
+'personbo.ragsoc
+'personbo.domicilio
+'personbo.codfisc
+'personbo.sotgrup
+'personbo.ramogrup
+'personbo.settsint
+'personbo.desccit
+'personbo.provincia
+'personbo.paese
+'personbo.cap
+'personbo.tipopers
+'tbstati.sigla
+'tbstati.descri
+'tbcitta.sigla
+'tbcitta.citta
+'tbcitta.prov
+'personbo.datanasc
+'personbo.tipodoc
+'personbo.numdocum
+'personbo.datarilasc
+'personbo.autrilasc
+'personbo.sesso
+'personbo.nascomun
+'personbo.tipinter
+'personbo.nasstato
+'xnarapbo.rapporto
+'xnarapbo.descrap
+'xnarapbo.tiporap
+'xnarapbo.flaglire
+'xnarapbo.valuta
+'xnarapbo.idrapporto
+'xnarapbo.tipoag
+'knarapbo.rapporto
+'knarapbo.descrap
+'knarapbo.tiporap
+'xapopebo.idbase
+'xapopebo.numprog
+'xapopebo.dataope
+'xapopebo.tipointer
+'xapopebo.codinter
+'xapopebo.idereg
+'xapopebo.coddipe
+'xapopebo.desccit
+'xapopebo.provincia
+'xapopebo.codcab
+'xapopebo.rapporto
+'xapopebo.tipoleg
+'xapopebo.datareg
+'xapopebo.tipooprap
+'xapopebo.flagrap
+'xapopebo.tipoinf
+'xapopebo.oprap
+'xapopebo.cdatope
+'xapopebo.cdatreg
+'xapopebo.statoreg
+'xntestbo.idbase
+'xntestbo.cprownum
+'xntestbo.dataini
+'xntestbo.codinter
+'xntestbo.numprog1
+'xntestbo.rapporto
+'xntestbo.tiporap
+'xntestbo.prgimpsog
+'xapopebo.prgimpinf
+'xapotit.idbase
+'xapotit.numprog
+'xapotit.dataope
+'xapotit.tipointer
+'xapotit.codinter
+'xapotit.idereg
+'xapotit.coddipe
+'xapotit.desccit
+'xapotit.provincia
+'xapotit.codcab
+'xapotit.tipoleg
+'xapotit.datareg
+'xapotit.tipooprap
+'xapotit.tipoinf
+'xapotit.oprap
+'xapotit.cdatope
+'xapotit.cdatreg
+'xapotit.prgimptit
+'xapotit.connescli
+'xapotit.connesoper
+'xapotit.statoreg
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'xnarapbo<table>
+'ariu_tabrap<table>
+'xapopebo<table>
+'personbo<table>
+'ariu_tabsog<table>
+'tbstati<table>
+'tbcitta<table>
+'ariu_tabrelrap<table>
+'xntestbo<table>
+'xlientiope<table>
+'xlientifrz<table>
+'xraziobo<table>
+'xperazbo<table>
+'ariu_tabmov<table>
+'ariu_tabrelmov<table>
+'knarapbo<table>
+'xapotit<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_imp_ariu_m|Error|core::document|Update dependencies|Field "personbo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:16
+message='Field "personbo.1" not found.
+resource_key='arrt_imp_ariu_m
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_imp_ariu_m|Error|core::document|Update dependencies|Field "xntestbo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:16
+message='Field "xntestbo.1" not found.
+resource_key='arrt_imp_ariu_m
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_imp_ariu_m|Error|core::document|Update dependencies|Field "xapopebo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:16
+message='Field "xapopebo.1" not found.
+resource_key='arrt_imp_ariu_m
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_imp_ariu_m|Error|core::document|Update dependencies|Field "xnarapbo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:16
+message='Field "xnarapbo.1" not found.
+resource_key='arrt_imp_ariu_m
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_imp_ariu_m|Error|core::document|Update dependencies|Field "knarapbo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:16
+message='Field "knarapbo.1" not found.
+resource_key='arrt_imp_ariu_m
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_imp_ariu_m|Error|core::document|Update dependencies|Field "xapotit.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:16
+message='Field "xapotit.1" not found.
+resource_key='arrt_imp_ariu_m
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

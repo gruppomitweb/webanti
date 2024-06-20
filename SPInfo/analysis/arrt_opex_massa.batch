@@ -1,0 +1,72 @@
+﻿* --- Resource Vers. 0.9
+arrt_opex_massa
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Ricostruisce operazioni extraconto
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:23
+module_name='
+name='arrt_opex_massa
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.dataope
+'opextrbo.idbase
+'opextrbo.coint
+'opextrbo.numprog1
+'opextrbo.idfile
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_uic_ope_minmax.vqr
+'qbe_operazbo_uic.vqr
+'qbe_uic_frz_minmax.vqr
+'qbe_fraziobo_uic.vqr
+'qbe_age_ope_minmax.vqr
+'qbe_jperazbo_uic.vqr
+]
+'Tables
+[
+'operazbo<table>
+'opextrbo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_opex_massa|Error|core::document|Update dependencies|Field "opextrbo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:23
+message='Field "opextrbo.1" not found.
+resource_key='arrt_opex_massa
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

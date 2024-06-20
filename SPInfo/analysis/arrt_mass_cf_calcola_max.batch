@@ -1,0 +1,35 @@
+﻿* --- Resource Vers. 0.9
+arrt_mass_cf_calcola_max
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Calcola N. Massimo Invii MassCF
+file_modified_on=#2019-12-13 18:39:26
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:22
+module_name='
+name='arrt_mass_cf_calcola_max
+state=1
+type='batch
+used_resource_keys={
+'Queries
+[
+'qbe_opextrbo_count_year.vqr
+'qbe_opextrbo_max_year.vqr
+]
+'Routines
+[
+'arrt_mass_cf_calcola_max
+]
+}
+I
+*--*
+￼[]
+*--*

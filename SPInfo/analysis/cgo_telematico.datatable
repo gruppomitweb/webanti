@@ -1,0 +1,448 @@
+﻿* --- Resource Vers. 0.9
+cgo_telematico<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='CGO Telematico
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cgo_telematico
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cgo_telematico.snainumope
+'cgo_telematico.env
+'cgo_telematico.coddipe
+'cgo_telematico.rapporto
+'cgo_telematico.totlire
+'cgo_telematico.cacodice
+'cgo_telematico.cadataora
+'cgo_telematico.caidbiglietto
+'cgo_telematico.csmf_cod
+'cgo_telematico.num_conc
+'cgo_telematico.p_vend
+'cgo_telematico.ipcolleg
+'cgo_telematico.oracolleg
+'cgo_telematico.ducolleg
+'cgo_telematico.iban
+'cgo_telematico.mezpagam
+'cgo_telematico.tipogioco
+'cgo_telematico.codlob
+'cgo_telematico.catipgio
+'cgo_telematico.catipcon
+'cgo_telematico.capv_cod
+'cgo_telematico.vpcodice
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cgo_telematico.cacodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Causale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CACODICE
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.cadataora
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data e Ora Movimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CADATAORA
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.caidbiglietto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID BIGLIETTO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAIDBIGLIETTO
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.capv_cod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='PV_COD
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAPV_COD
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.catipcon
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Concessione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATIPCON
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.catipgio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Gioco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATIPGIO
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.codlob
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Line of business
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODLOB
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.csmf_cod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CSMF_COD
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.ducolleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Durata Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DUCOLLEG
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.env
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Web - Agenzia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ENV
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.iban
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='IBAN
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IBAN
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.ipcolleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='IP Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IPCOLLEG
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.mezpagam
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MEZPAGAM
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.num_conc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUM_CONC
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.oracolleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Inizio Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORACOLLEG
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.p_vend
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Punto Vendita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='P_VEND
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto Collegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.snainumope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='N° Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SNAINUMOPE
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.tipogioco
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo gioco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOGIOCO
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.totlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTLIRE
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+'cgo_telematico.vpcodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Piattaforma
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPCODICE
+state=3
+table_name='cgo_telematico
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cgo_telematico.cacodice
+[]
+'cgo_telematico.cadataora
+[]
+'cgo_telematico.caidbiglietto
+[]
+'cgo_telematico.capv_cod
+[]
+'cgo_telematico.catipcon
+[]
+'cgo_telematico.catipgio
+[]
+'cgo_telematico.coddipe
+[]
+'cgo_telematico.codlob
+[]
+'cgo_telematico.csmf_cod
+[]
+'cgo_telematico.ducolleg
+[]
+'cgo_telematico.env
+[]
+'cgo_telematico.iban
+[]
+'cgo_telematico.ipcolleg
+[]
+'cgo_telematico.mezpagam
+[]
+'cgo_telematico.num_conc
+[]
+'cgo_telematico.oracolleg
+[]
+'cgo_telematico.p_vend
+[]
+'cgo_telematico.rapporto
+[]
+'cgo_telematico.snainumope
+[]
+'cgo_telematico.tipogioco
+[]
+'cgo_telematico.totlire
+[]
+'cgo_telematico.vpcodice
+[]
+}
+*--*

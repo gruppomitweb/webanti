@@ -1,0 +1,151 @@
+ 3
+"GIROS"
+"vt_giros"
+"vt_giros"
+ 0
+ 0
+*
+"CIS_MIT_CLIENTES_CONNES"
+"vt_cis_mit_cliente_connes"
+"vt_cis_mit_cliente_connes"
+ 0
+ 0
+*
+"CIS_PTOS_PRUEBA"
+"vt_cis_ptos_prueba"
+"vt_cis_ptos_prueba"
+ 0
+ 0
+*
+ 8
+"Codice Interno"
+"vt_giros.folio"
+"folio"
+"C"
+ 20
+ 0
+*
+"Codice Agente"
+"vt_giros.cod_agente"
+"cod_agente"
+"N"
+ 10
+ 0
+*
+"Modo Pagamento"
+"vt_giros.id_forma_pago"
+"id_forma_pago"
+"C"
+ 18
+ 0
+*
+"Codice Cliente"
+"vt_giros.cod_cliente"
+"cod_cliente"
+"N"
+ 10
+ 0
+*
+"Data Operazione"
+"vt_giros.fec_captura"
+"fec_captura"
+"D"
+ 8
+ 0
+*
+"NDG Cliente"
+"vt_cis_mit_cliente_connes.connes"
+"connes"
+"C"
+ 16
+ 0
+*
+"Agente di prova"
+"vt_cis_ptos_prueba.cod_agente"
+"age_prueba"
+"N"
+ 10
+ 0
+*
+"Stato"
+"vt_giros.cod_status"
+"cod_status"
+"C"
+ 1
+ 0
+*
+ 2
+"Codice Cliente"
+"vt_cis_mit_cliente_connes.cod_cliente=vt_giros.cod_cliente"
+"Right outer"
+"vt_cis_mit_cliente_connes"
+"vt_giros"
+*
+"Codice Agente"
+"vt_cis_ptos_prueba.cod_agente=vt_giros.cod_agente"
+"Right outer"
+"vt_cis_ptos_prueba"
+"vt_giros"
+*
+ 3
+"vt_giros.fec_captura"
+""
+"="
+"?_dataestrai"
+"AND"
+""
+*
+"vt_giros.cod_status"
+""
+"not in"
+"(ýSý,ýCý)"
+"AND"
+""
+*
+"vt_giros.cod_cliente"
+""
+"not in"
+"qbe_vt_cliente_prueba"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"_dataestrai"
+""
+"D"
+"8"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 9
+.f.
+""
+.t.
+.f.
+""
+ 0
+ 0
+""
+""
+"FXRT%3C7BBZj%13%1F%1F%02l%7C%7B%1B%13%19%11C%27%40IS_%5E%3EVJ*J0%2C%3B%3E%5E2uU%29%5CO%2C6%25%263h%40VC%5C%2F6.p5%25GAr3.%3AHO%28H1Q.S%23IN46%23ZT%3B%3AX1%2B%3F%28FNR%26%25PE4+I%3DL7%3B%296HIGJ%3D%3B3Z%5EhS%26R.%5E%2BMIr%3E%2BH9-_%5EM%3A%18%5CE%2F%2C%21k%40R1G%221+ih%1B%3D4.%12I1OU%2C%26M%21b%3AM%1F%40W%23%3A%2BY%5DLF%3E%2F6%3FUN7%3A21%2F%273J%5DR*BHX1%3C%3C0%23-3%2C%25%228I%5BNA%3D7SAjI%5B-8%12%1BFY3%2FN1%40%3C%29%3D%21J%3E%12X%2B%2FMDAIA%3FWQ%5B%5DAT%14U%3DM%28%00"
+"UrXX8YHhU9%1C%3A%2F-_%5E%3E%17%0E%02%14%17%18%1C%7Dv%7CC2%2FV6K%3F4%01%22%28*.S%239%28%2C%2C2G7SA7%15P5%3AHMRM+XENQJA%27YOUT%24PGX%2F%29L%5D%21FKN4%237AG%22%2CM%27_%40W%5B%23OB%26%29%3A%3AW*XXXEHN%24I76%4042RK+3%2F9U%218pO%25%2C%27%29%289.3%29%40xn3E5%24OQJ%2B5%3F3%21%2B%21MZ%5DI2XC%06-0%3E%251%27%24-6y0*F%2FS%405C%3FYJ+2KI%5B%40uR8%5D%3B%252C7%283%27%26I7JH79A%2C%7EMI%26VOW%3BE2-%3C%21%21ED%3F78L%3E*%11*S%5D4_7%40%2B4_-Y3B%3E%3D7*A%3D%00"
+""
+""
+"native"
+ 0
+ 0
+*

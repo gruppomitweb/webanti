@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>Per estrazione Saldi</description>
+    <note></note>
+    <variable>
+        <name>RAPPORTO</name>
+        <description>Rapporto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATAINI</name>
+        <description>Data Inizio</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>DATAFINE</name>
+        <description>Data Fine</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>TIPOAG</name>
+        <description>Tipo Agenzia Entrate</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TIPORAP</name>
+        <description>Tipo Rapporto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DESCRAP</name>
+        <description>Descrizione Rapporto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>VALUTA</name>
+        <description>Codice Valuta</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>INVIATO</name>
+        <description>Inviato</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>TIPO</name>
+        <description>Tipo Registrazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CAB</name>
+        <description>Codice CAB</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>UNIQUECODE</name>
+        <description>Codice Univoco</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>OLDINTER</name>
+        <description>Vecchio Intermediario</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SALDO</name>
+        <description>Saldo</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>QUANTITA</name>
+        <description>Quantità</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>NATURA</name>
+        <description>Natura</description>
+        <type>C</type>
+    </variable>
+</class>

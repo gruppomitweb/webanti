@@ -1,0 +1,51 @@
+﻿* --- Resource Vers. 0.9
+arrt_riallinea
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Riallinea Rapporti con informazioni
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:23
+module_name='
+name='arrt_riallinea
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'intestbo.rapporto
+'intestbo.dataini
+'intestbo.numprog1
+'intestbo.datafine
+'intestbo.numprog2
+'jntestbo.rapporto
+'jntestbo.dataini
+'jntestbo.numprog1
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Tables
+[
+'rapopebo<table>
+'intestbo<table>
+'anarapbo<table>
+'jnarapbo<table>
+'jntestbo<table>
+'japopebo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

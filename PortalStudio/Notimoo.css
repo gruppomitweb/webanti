@@ -1,0 +1,30 @@
+.notimoo {
+	font:					12px/14px "Lucida Grande", Arial, Helvetica, Verdana, sans-serif;
+  /* Don't touch here */
+  position: absolute;
+  z-index: 10003; /* There are some cases where you'll need to change this if you're currently using a greater one in your project*/
+  cursor: pointer;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+
+  /* Change this to fit your needs*/
+  padding:10px;
+  background: #333333;
+  color: #FFFFFF;
+}
+
+.notimoo .nt-title {
+  font-weight: bold;
+	font-size:13px;
+}
+
+.notimoo .nt-message {
+  margin-top: 2px;
+	font-size:11px;
+	padding-top:5px;
+}
+
+.notimoo a {
+  color: #FFFFFF;
+}

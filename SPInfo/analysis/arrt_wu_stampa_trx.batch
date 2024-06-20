@@ -1,0 +1,49 @@
+﻿* --- Resource Vers. 0.9
+arrt_wu_stampa_trx
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Estrae operazioni per stampa xls
+file_modified_on=#2021-02-22 16:29:00
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='arrt_wu_stampa_trx
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_listafile.nomefile
+'tmp_listafile.priorita
+'tmp_listafile.hyperlynk
+]
+'Queries
+[
+'qbe_wu_stampa_trx.vqr
+'qbe_wu_stampa_trx_cases.vqr
+]
+'Routines
+[
+'arfn_fdate
+'arfn_fdatetime
+'arrt_wu_stampa_trx
+]
+'Tables
+[
+'wutrxchk<table>
+'cpusers<table>
+'tmp_listafile<table>
+]
+}
+I
+*--*
+￼[]
+*--*

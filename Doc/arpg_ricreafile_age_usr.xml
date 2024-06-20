@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="55174380">
+  <CodifyName>arpg_ricreafile_age</CodifyName>
+  <Name>arpg_ricreafile_age.pagedef</Name>
+  <Title>Ricrea file per Agenzia Entrate</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="98825403"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_ricreafile_age_usr_1</JPG>
+    <Item type="variabile" x1="312" y1="63" x2="378" y2="83">
+      <Name LinkID="120590744">dadata</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="312" y1="91" x2="378" y2="111">
+      <Name LinkID="118296984">a_data</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="688" y1="203" x2="728" y2="231">
+      <Name LinkID="54785260">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>centrale</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="480" y1="70" x2="744" y2="98">
+      <Name LinkID="16522040">Crea Comunicazione Aperture / Chiusure Rapporti</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="480" y1="152" x2="744" y2="180">
+      <Name LinkID="161758108">Crea Modifiche / Annullamento Rapporti</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="72" y1="154" x2="138" y2="174">
+      <Name LinkID="181398840">darett</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="248" y1="154" x2="314" y2="174">
+      <Name LinkID="183692600">a_rett</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="56" y1="77" x2="92" y2="97">
+      <Name LinkID="33360660">anno</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="136" y1="77" x2="248" y2="97">
+      <Name LinkID="159839468">mese</Name>
+      <Comment></Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="640" y1="203" x2="680" y2="231">
+      <Name LinkID="54785260">images/search.gif</Name>
+      <Image>images/search.gif</Image>
+      <Hyperlink>arpg_filesage</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Visualizza file creati</Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

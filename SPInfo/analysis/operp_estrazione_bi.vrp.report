@@ -1,0 +1,52 @@
+﻿* --- Resource Vers. 0.9
+operp_estrazione_bi.vrp
+￼Iresource.ResourceReport
+created_on=#2024-05-10 18:24:43
+description='stampa dati per BI
+file_modified_on=#2022-12-19 10:15:18
+location='JavaServletSrc\
+measures={}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='operp_estrazione_bi.vrp
+state=1
+type='report
+used_resource_keys={
+'Others
+[
+'ardt_informazioni
+'ardt_intestit
+]
+'Queries
+[
+'qbe_boopemt_operazbo_all.vqr
+'qbe_personbo_cli.vqr
+'qbe_personbo_real.vqr
+'qbe_personbo_ben.vqr
+'qbe_personbo_ser.vqr
+'qbe_personbo_con.vqr
+'qbe_personbo_tit.vqr
+'qbe_personbo_leg.vqr
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]operp_estrazione_bi.vrp|Error|core::document|Update dependencies|Resource "armt_anarapbo" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Resource "armt_anarapbo" not found.
+resource_key='operp_estrazione_bi.vrp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

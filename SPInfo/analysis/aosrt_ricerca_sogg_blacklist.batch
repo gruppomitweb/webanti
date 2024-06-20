@@ -1,0 +1,66 @@
+﻿* --- Resource Vers. 0.9
+aosrt_ricerca_sogg_blacklist
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:27
+description='Ricerca tra Soggetti Segnalati (Black List Interna)
+file_modified_on=#2021-09-30 16:31:56
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:47
+module_name='
+name='aosrt_ricerca_sogg_blacklist
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_seek_sogg.appoggio
+'tmp_seek_sogg.cosafare
+'tmp_seek_sogg.codfisc
+'tmp_seek_sogg.idbase
+'tmp_seek_sogg.note
+'tmp_seek_sogg.ragsoc
+'tmp_seek_sogg.ragsocblk
+'tmp_seek_sogg.ragsocx
+'tmp_seek_sogg.riferim
+'tmp_seek_sogg.spec
+'tmp_seek_sogg.tipo
+'tmp_seek_sogg.datanas
+'tmp_seek_sogg.luogonas
+'tmp_seek_sogg.respaese
+'tmp_seek_sogg.rescitta
+'tmp_seek_sogg.resind
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_ric_denom_blacklist.vqr
+'qbe_ric_denom_afon_blacklist.vqr
+]
+'Routines
+[
+'aosfn_unifonia
+'arfn_fdatetime
+]
+'Tables
+[
+'cptsrvr<table>
+'tmp_seek_sogg<table>
+'webaos_soggetti<table>
+'webaos_soggettiweb<table>
+]
+}
+I
+*--*
+￼[]
+*--*

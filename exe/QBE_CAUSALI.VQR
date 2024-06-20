@@ -1,0 +1,95 @@
+ 2
+"Causali Analitiche"
+"tbcauana"
+"tbcauana"
+ 5
+ 5
+*
+"Causali Sintetiche"
+"tbcausin"
+"tbcausin"
+ 195
+ 115
+*
+ 6
+"Codice"
+"tbcauana.CODCAU"
+"CODCAU"
+"C"
+ 4
+ 0
+*
+"Descrizione"
+"tbcauana.DESCRI"
+"DESCRI"
+"C"
+ 165
+ 0
+*
+"Causale Sintetica"
+"tbcauana.CAUSINT"
+"CAUSINT"
+"Char"
+ 2
+ 0
+*
+"Descrizione"
+"tbcausin.DESCRIZ"
+"DESCRIZ"
+"C"
+ 165
+ 0
+*
+"Segno"
+"tbcauana.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+*
+"ID BASE"
+"tbcauana.idbase"
+"IDBASE"
+"Char"
+ 4
+ 0
+*
+ 1
+"Causali Sintetiche(Causale Sintetica)"
+"tbcausin.CODVOC=tbcauana.CAUSINT"
+"Right outer"
+"tbcausin"
+"tbcauana"
+*
+ 1
+"tbcauana.idbase"
+""
+"in"
+"QBE_CAUSALI1"
+"AND"
+""
+*
+ 2
+"Codice"
+"tbcauana.CODCAU"
+"Ascending"
+*
+"Causale Sintetica"
+"tbcauana.CAUSINT"
+"Ascending"
+*
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 6
+*

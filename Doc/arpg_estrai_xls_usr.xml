@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="66340611">
+  <CodifyName>arpg_estrai_xls</CodifyName>
+  <Name>arpg_estrai_xls.pagedef</Name>
+  <Title>Estrazione Movimenti (Operazioni-Frazionate)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="69993571"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_estrai_xls_usr_1</JPG>
+    <Item type="variabile" x1="144" y1="42" x2="516" y2="62">
+      <Name LinkID="178168965">ragosc</Name>
+      <Comment>Nominativo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="70" x2="396" y2="90">
+      <Name LinkID="193765878">citnas</Name>
+      <Comment>Citta di nascita</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="98" x2="396" y2="118">
+      <Name LinkID="193761206">stanas</Name>
+      <Comment>Stato di nascita</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="504" y1="98" x2="570" y2="118">
+      <Name LinkID="193765751">datnas</Name>
+      <Comment>Data di nascita</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="126" x2="224" y2="146">
+      <Name LinkID="176079223">dadata</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="360" y1="126" x2="440" y2="146">
+      <Name LinkID="73199268">adata</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="154" x2="208" y2="174">
+      <Name LinkID="66688166">cDIP</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="296" y1="371" x2="336" y2="403">
+      <Name LinkID="66340611">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_estrai_xls</Hyperlink>
+      <HyperlinkOpenOn>Frame</HyperlinkOpenOn>
+      <Help>Premere il bottone per produrre il file excel</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="344" y1="371" x2="384" y2="403">
+      <Name LinkID="66340611">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="248" y1="371" x2="288" y2="403">
+      <Name LinkID="66340611">images/excel.gif</Name>
+      <Image>images/excel.gif</Image>
+      <Hyperlink>arrt_send_doc</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Premere il bottone per prelevare il file excel (dopo averlo elaborato)</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="182" x2="224" y2="202">
+      <Name LinkID="71749686">cMTCN</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="360" y1="182" x2="468" y2="202">
+      <Name LinkID="70329706">cCODFISC</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

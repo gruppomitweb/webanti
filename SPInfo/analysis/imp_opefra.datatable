@@ -1,0 +1,790 @@
+﻿* --- Resource Vers. 0.9
+imp_opefra<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Appoggio per import Operazioni / Frazionate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='imp_opefra
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'imp_opefra.dataope
+'imp_opefra.flagcont
+'imp_opefra.codana
+'imp_opefra.codvoc
+'imp_opefra.tipoint2
+'imp_opefra.codint2
+'imp_opefra.paese
+'imp_opefra.desc2
+'imp_opefra.prov2
+'imp_opefra.codcab2
+'imp_opefra.descinter
+'imp_opefra.rapporto
+'imp_opefra.flagrap
+'imp_opefra.tipoleg
+'imp_opefra.datareg
+'imp_opefra.flaglire
+'imp_opefra.valuta
+'imp_opefra.segno
+'imp_opefra.totlire
+'imp_opefra.totcont
+'imp_opefra.connescli
+'imp_opefra.connesoper
+'imp_opefra.cambio
+'imp_opefra.numprog
+'imp_opefra.tipooprap
+'imp_opefra.tipointer
+'imp_opefra.codinter
+'imp_opefra.coddipe
+'imp_opefra.desccit
+'imp_opefra.provincia
+'imp_opefra.codcab
+'imp_opefra.flagfraz
+'imp_opefra.connesben
+'imp_opefra.uniquecode
+'imp_opefra.agoper
+'imp_opefra.inform
+'imp_opefra.zcparte
+'imp_opefra.ragio
+'imp_opefra.modsvol
+'imp_opefra.areageo
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'imp_opefra.agoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo operazione per agenzia entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AGOPER
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Area Geograifca Destinazione Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AREAGEO
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.cambio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cambio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAMBIO
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.codana
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Causale Analitica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODANA
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.codcab2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB2
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.codint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINT2
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.codvoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Causale Sintetica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODVOC
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.connesben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Beneficiario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESBEN
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.connescli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Cliente Occasionale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESCLI
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.connesoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Soggetto Operante Conto Terzi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESOPER
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.datareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAREG
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.desc2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Denominazione Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESC2
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.descinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Intermediario Banca Estera
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCINTER
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.flagcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Flag Contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGCONT
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.flagfraz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Frazionata (S/N)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGFRAZ
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.flaglire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Lire Euro Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGLIRE
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.flagrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto Collegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGRAP
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.inform
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Solo per gestione cancellazioni successive
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INFORM
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.modsvol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Modalità svolgimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MODSVOL
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Progressivo (VUOTO)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESE
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.prov2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROV2
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.ragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragionevolezza Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGIO
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto Collegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.segno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Segno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SEGNO
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.tipoint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINT2
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.tipointer
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediaro
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINTER
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.tipoleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Legame sogg. Operante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOLEG
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.tipooprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Operazione Completa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOOPRAP
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.totcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='di cui contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTCONT
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.totlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTLIRE
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.uniquecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Solo se abbiamo + soggenti operanti conto terzi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUECODE
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Divisa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+'imp_opefra.zcparte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Solo se TIPOOPRAP = 18 o 19
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ZCPARTE
+state=3
+table_name='imp_opefra
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'imp_opefra.agoper
+[]
+'imp_opefra.areageo
+[]
+'imp_opefra.cambio
+[]
+'imp_opefra.codana
+[]
+'imp_opefra.codcab
+[]
+'imp_opefra.codcab2
+[]
+'imp_opefra.coddipe
+[]
+'imp_opefra.codint2
+[]
+'imp_opefra.codinter
+[]
+'imp_opefra.codvoc
+[]
+'imp_opefra.connesben
+[]
+'imp_opefra.connescli
+[]
+'imp_opefra.connesoper
+[]
+'imp_opefra.dataope
+[]
+'imp_opefra.datareg
+[]
+'imp_opefra.desc2
+[]
+'imp_opefra.desccit
+[]
+'imp_opefra.descinter
+[]
+'imp_opefra.flagcont
+[]
+'imp_opefra.flagfraz
+[]
+'imp_opefra.flaglire
+[]
+'imp_opefra.flagrap
+[]
+'imp_opefra.inform
+[]
+'imp_opefra.modsvol
+[]
+'imp_opefra.numprog
+[]
+'imp_opefra.paese
+[]
+'imp_opefra.prov2
+[]
+'imp_opefra.provincia
+[]
+'imp_opefra.ragio
+[]
+'imp_opefra.rapporto
+[]
+'imp_opefra.segno
+[]
+'imp_opefra.tipoint2
+[]
+'imp_opefra.tipointer
+[]
+'imp_opefra.tipoleg
+[]
+'imp_opefra.tipooprap
+[]
+'imp_opefra.totcont
+[]
+'imp_opefra.totlire
+[]
+'imp_opefra.uniquecode
+[]
+'imp_opefra.valuta
+[]
+'imp_opefra.zcparte
+[]
+}
+*--*

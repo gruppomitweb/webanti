@@ -1,0 +1,92 @@
+﻿* --- Resource Vers. 0.9
+arrt_genera_rettifiche
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Genera rettifche su Operazioni ExtraConto per una mensilità
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:14
+module_name='
+name='arrt_genera_rettifiche
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aeopstor.idbase
+'aeopstor.rapporto
+'aeopstor.connesint
+'aeopstor.aspedito
+'aeopstor.adata
+'aeopstor.aprog
+'aeopstor.afile
+'aeopstor.adataret
+'aeopstor.cspedito
+'aeopstor.cdata
+'aeopstor.cprog
+'aeopstor.cfile
+'aeopstor.cdataret
+'aeopstor.idrif
+'aeopstor.tipoag
+'aeopstor.coint
+'aeopstor.nocodfisc
+'aeopstor.progres
+'aeopstor.adtpre
+'aeopstor.cdtpre
+'aeoprig.idbase
+'aeoprig.adata
+'aeoprig.aoldprog
+'aeoprig.aoldfile
+'aeoprig.adataret
+'aeoprig.nocodfisc
+'aeoprig.rspedito
+'aeoprig.coldfile
+'aeoprig.coldprog
+]
+'Libraries
+[
+'LibreriaMit<project>
+'FileLibMit<project>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_invio_delope_ape_6_max_min_glob.vqr
+'qbe_invio_delope_ape_6_rettifiche.vqr
+]
+'Tables
+[
+'intermbo<table>
+'aeoprig<table>
+'aeopstor<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_genera_rettifiche|Error|core::document|Update dependencies|Field "aeopstor.RIFRIGA" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:14
+message='Field "aeopstor.RIFRIGA" not found.
+resource_key='arrt_genera_rettifiche
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

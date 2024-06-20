@@ -1,0 +1,73 @@
+﻿* --- Resource Vers. 0.9
+arrt_allinea_anagrafiche
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Allinea Anagrafiche
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_allinea_anagrafiche
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbcitta.cab
+'tbcitta.citta
+'tbcitta.prov
+'tbcitta.cap
+'tbcitta.pktbstati
+'tmp_errpersonbo.idbase
+'tmp_errpersonbo.errore
+'tmp_errpersonbo.tipo
+'tmp_errpersonbo.ragsoc
+'tmp_errpersonbo.progerrore
+'tmp_errpersonbo.progerr_c
+'personbo.connes
+'personbo.desccit
+'personbo.cap
+'personbo.provincia
+'personbo.paese
+'personbo.sesso
+'tbcitta.sigla
+'tbstati.sigla
+'tbstati.descri
+'personbo.datanasc
+'personbo.nascomun
+'personbo.tipinter
+'personbo.nasstato
+'personbo.ragsoc
+'personbo.nome
+'personbo.cognome
+'personbo.allineato
+]
+'Queries
+[
+'qbe_max_personbo.vqr
+]
+'Routines
+[
+'arfn_chkcodfis
+'arfn_fdatetime
+]
+'Tables
+[
+'personbo<table>
+'tbcitta<table>
+'tbstati<table>
+'tmp_errpersonbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

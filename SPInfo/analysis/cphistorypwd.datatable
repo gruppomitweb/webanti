@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+cphistorypwd<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Storico Password
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cphistorypwd
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cphistorypwd.code
+'cphistorypwd.pwpassword
+'cphistorypwd.pwdatcreate
+'cphistorypwd.pwdtrevoke
+'cphistorypwd.pwactive
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cphistorypwd.code
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='code
+state=3
+table_name='cphistorypwd
+type='field
+used_resource_keys={}
+I
+'cphistorypwd.pwactive
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Password Attiva
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='pwactive
+state=3
+table_name='cphistorypwd
+type='field
+used_resource_keys={}
+I
+'cphistorypwd.pwdatcreate
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Creazione password
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='pwdatcreate
+state=3
+table_name='cphistorypwd
+type='field
+used_resource_keys={}
+I
+'cphistorypwd.pwdtrevoke
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Revoca
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='pwdtrevoke
+state=3
+table_name='cphistorypwd
+type='field
+used_resource_keys={}
+I
+'cphistorypwd.pwpassword
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Password
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='pwpassword
+state=3
+table_name='cphistorypwd
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cphistorypwd.code
+[]
+'cphistorypwd.pwactive
+[]
+'cphistorypwd.pwdatcreate
+[]
+'cphistorypwd.pwdtrevoke
+[]
+'cphistorypwd.pwpassword
+[]
+}
+*--*

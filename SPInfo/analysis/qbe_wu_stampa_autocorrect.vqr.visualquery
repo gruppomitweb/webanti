@@ -1,0 +1,69 @@
+﻿* --- Resource Vers. 0.9
+qbe_wu_stampa_autocorrect.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:24
+description='
+file_modified_on=#2021-05-17 13:09:20
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:42
+module_name='
+name='qbe_wu_stampa_autocorrect.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'wuautocorrect_mtcn.mtcn
+'wuautocorrect_mtcn.idprog
+'wuautocorrect_mtcn.dataope
+'wuautocorrect_mtcn.aucognom
+'wuautocorrect_mtcn.aunome
+'wuautocorrect_mtcn.auluonas
+'wuautocorrect_mtcn.audatnas
+'wuautocorrect_mtcn.ausesso
+'wuautocorrect_mtcn.autipdoc
+'wuautocorrect_mtcn.aunumdoc
+'wuautocorrect_mtcn.aucodfisc
+'wuautocorrect_mtcn.auocognom
+'wuautocorrect_mtcn.auonome
+'wuautocorrect_mtcn.auoluonas
+'wuautocorrect_mtcn.auodatnas
+'wuautocorrect_mtcn.auosesso
+'wuautocorrect_mtcn.auotipdoc
+'wuautocorrect_mtcn.auonumdoc
+'wuautocorrect_mtcn.auocodfisc
+'wuautocorrect_mtcn.dcorrection
+]
+'Tables
+[
+'wuautocorrect_mtcn<table>
+]
+}
+I
+*--*
+￼[]
+*--*

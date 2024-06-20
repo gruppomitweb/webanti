@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="164396517">
+  <CodifyName>arpg_list_procs</CodifyName>
+  <Name>arpg_list_procs.pagedef</Name>
+  <Title>Lista Processi Eseguiti</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="168049477"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_list_procs_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="75" x2="1380" y2="88">
+      <Name LinkID="25780582">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="62" x2="1380" y2="75">
+      <Name LinkID="164842073">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="44" x2="40" y2="60">
+      <Name LinkID="164396517">c_PR_TIPO</Name>
+      <Help></Help>
+      <Expression>c_PR_TIPO</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="48" y1="44" x2="120" y2="60">
+      <Name LinkID="164396517">c_PRCODICE</Name>
+      <Help></Help>
+      <Expression>c_PRCODICE</Expression>
+      <Hyperlink>arpg_list_dprocs</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="600" y1="44" x2="688" y2="60">
+      <Name LinkID="164396517">c_PRDOSTART</Name>
+      <Help></Help>
+      <Expression>c_PRDOSTART</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="128" y1="44" x2="592" y2="60">
+      <Name LinkID="164396517">c_PRDESCRI</Name>
+      <Help></Help>
+      <Expression>c_PRDESCRI</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="696" y1="44" x2="784" y2="60">
+      <Name LinkID="164396517">c_PRDOSTOP</Name>
+      <Help></Help>
+      <Expression>c_PRDOSTOP</Expression>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

@@ -1,0 +1,54 @@
+﻿* --- Resource Vers. 0.9
+arrt_revimp
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Reverse Import
+file_modified_on=#2022-08-04 12:09:17
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:23
+module_name='
+name='arrt_revimp
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'intermbo.sblritorno
+]
+'Libraries
+[
+'LibreriaMit<project>
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_ri_xersonbo.vqr
+'qbe_ri_xarchope.vqr
+'qbe_ri_xarchfraz.vqr
+'qbe_ri_xnadip.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'xersonbo<table>
+'xnadip<table>
+'xarchope<table>
+'xarchfraz<table>
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

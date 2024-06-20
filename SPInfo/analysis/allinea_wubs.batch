@@ -1,0 +1,88 @@
+﻿* --- Resource Vers. 0.9
+allinea_wubs
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:27
+description='Importa i dati (TIPO WUBS)
+file_modified_on=#2019-10-17 10:40:56
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:47
+module_name='
+name='allinea_wubs
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'operazbo.rifimp
+'operazbo.idbase
+'fraziobo.rifimp
+'fraziobo.idbase
+'tbstati.iso2
+'tbstati.codsta
+'operazbo.paese
+'fraziobo.paese
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Tables
+[
+'personbo<table>
+'xraziobo<table>
+'fraziobo<table>
+'tbcauana<table>
+'anadip<table>
+'tbcitta<table>
+'tmp_list_imprich<table>
+'intermbo<table>
+'wucodes<table>
+'wersonbo<table>
+'docfrabo<table>
+'xocfrabo<table>
+'opextrbo<table>
+'aeoprig<table>
+'kersonbo<table>
+'mtimport<table>
+'mtimperr<table>
+'tbstati<table>
+'mtstati<table>
+'xperazbo<table>
+'xocopebo<table>
+'operazbo<table>
+'docopebo<table>
+'tmp_impwu<table>
+'wuchkimp<table>
+'rapopebo<table>
+'anarapbo<table>
+'intestbo<table>
+'wurapporti<table>
+'xnarapbo<table>
+'xapopebo<table>
+'xntestbo<table>
+'knarapbo<table>
+'tbvalute<table>
+'xlientifrz<table>
+'xeneficfrz<table>
+'inter2bo<table>
+'clientifrz<table>
+'beneficfrz<table>
+'xlientiope<table>
+'xeneficope<table>
+'clientiope<table>
+'beneficope<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+tbricevutesid<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Errori SID Ricevute
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbricevutesid
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbricevutesid.esicodice
+'tbricevutesid.esitipo
+'tbricevutesid.esidescri
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbricevutesid.esicodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ESICODICE
+state=3
+table_name='tbricevutesid
+type='field
+used_resource_keys={}
+I
+'tbricevutesid.esidescri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ESIDESCRI
+state=3
+table_name='tbricevutesid
+type='field
+used_resource_keys={}
+I
+'tbricevutesid.esitipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo (A - B)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ESITIPO
+state=3
+table_name='tbricevutesid
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbricevutesid.esicodice
+[]
+'tbricevutesid.esidescri
+[]
+'tbricevutesid.esitipo
+[]
+}
+*--*

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Controllo Periodale AGE (Negativa) -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_fam_stpperiodo_neg||version||4.6||title||Stampa Controllo Periodale AGE (Negativa)||query||qbe_stp_famperiodo||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||true||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2016-03-04||date_rev||2016-04-21||form_class|| ||grid_dx|| ||grid_dy|| ||grid_show||0||grid_use||0||snaplines_show||0||language|| ||merge||false||modcnt||28||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding||ISO-8859-1||hsl||false||lock_items||false||maxcount||90||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||62||uid||PSNOTBFSZO||sequence||2||bb_sequence||3||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||104||uid||TKKSZGYDUQ||sequence||3||bb_sequence||4||page||1|||type||Group_top||comment||group3||exp||qbe_stp_famperiodo.c_CODINVIO1||name||group1||y||65||uid||WLDBCRWUES||sequence||6||bb_sequence||7||page||1||start_each_on_page||true||print_group_footer||true||reprint_header||true|||type||Group_down||comment||group3||exp||qbe_stp_famperiodo.c_CODINVIO1||name||group1||y||102||uid||ABHDFUMURR||sequence||7||bb_sequence||8||page||1||start_each_on_page||true||print_group_footer||true||reprint_header||true|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||name||label0_28||uid||VIYQTTLPHX||page||1||x||18||y||4||w||1100||h||21||sequence||8||global_font||false||font||Arial||font_size||11||font_weight||bold||removefromout||CSV,CSVS,XLS|||type||Label||value||&#39;Stampa Contenuto File AGE - Periodo: &#39;+annoc+&quot;-&quot;+mese||text_type||expression||name||label0||uid||AMIDJQCRUA||page||1||x||16||y||28||w||1104||h||32||sequence||26||align||center||global_font||false||font||Arial||font_size||16||font_weight||bold|||type||Box||name||Box14_43||x||16||y||68||w||1104||h||0||uid||KONCISDCNP||sequence||16||page||1||border_width||1||stretch_to_right||true|||type||Label||value||NON CI SONO COMUNICAZIONI PER IL PERIODO CONSIDERATO||text_type||constant||name||label89||uid||UVNMFWRRXM||page||1||x||19||y||72||w||683||h||24||sequence||89||global_font||false||font||Tahoma||font_size||12||font_weight||bold|||type||Box||name||Box14_43_89||x||16||y||98||w||1104||h||0||uid||FETCSAKKSY||sequence||16||page||1||border_width||1||stretch_to_right||true|||type||Label||value||&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;||text_type||expression||name||label4||uid||MQQPMFPXLC||page||1||x||778||y||107||w||225||h||17||sequence||30||align||right||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||Str(nTotalPages, 4, 0)||text_type||expression||name||label5||uid||CWREMDZJND||page||1||x||1008||y||107||w||103||h||17||sequence||31||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)||text_type||expression||name||label3||uid||SYYCKDTYOA||page||1||x||16||y||107||w||341||h||17||sequence||29||global_font||false||font||Arial||font_size||8||font_weight||normal||| -->
+
+<REPORT NAME="arrp_fam_stpperiodo_neg" TITLE="Stampa Controllo Periodale AGE (Negativa)" QUERY="qbe_stp_famperiodo" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="true" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_stp_famperiodo.CODINVIO1" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.TIPINVIO1" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.TPCINVIO1" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.RAPINVIO1" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.TPRINVIO1" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.INIINVIO1" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.FININVIO1" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.CABINVIO1" TYPE="C" LEN="5" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="62" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="4" X="18" YY="25" XX="1118"
+                    ALIGN="L"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Stampa Contenuto File AGE - Periodo: &#39;+annoc+&quot;-&quot;+mese" EXPRTYPE="expression"
+                    Y="28" X="16" YY="60" XX="1120"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="16"
+                    FONTSTYLE="B"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="2" FOOTH="1" SYMNAME="" UID="WLDBCRWUES" TOP="64" BOTTOM="100" EXPRESSION="qbe_stp_famperiodo.c_CODINVIO1" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="true" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="true" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+          <SECTION TYPE="group" HEADH="36" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="h_line" Y="2" X="16" XX="1121" BORDERWIDTH="1"
+                            ALIGN="L"
+                            STRETCH="true"
+                            />
+                      <ITEM OBJ="stringa" NAME="NON CI SONO COMUNICAZIONI PER IL PERIODO CONSIDERATO" EXPRTYPE="constant"
+                            Y="6" X="19" YY="30" XX="702"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="12"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="h_line" Y="32" X="16" XX="1121" BORDERWIDTH="1"
+                            ALIGN="L"
+                            STRETCH="true"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="101" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="2" X="16" YY="19" XX="357"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="2" X="778" YY="19" XX="1003"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="2" X="1008" YY="19" XX="1111"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

@@ -1,0 +1,351 @@
+ 1
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Detail)"
+"aerighe"
+"aerighe"
+ 45
+ 45
+*
+ 34
+"Codice Rapporto"
+"aerighe.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"N° Riga"
+"aerighe.CPROWNUM"
+"CPROWNUM"
+"N"
+ 4
+ 0
+*
+"Codice Intestatario"
+"aerighe.CONNESINT"
+"CONNESINT"
+"C"
+ 16
+ 0
+*
+"Apertura Spedita"
+"aerighe.ASPEDITO"
+"ASPEDITO"
+"N"
+ 1
+ 0
+*
+"Data Apertura"
+"aerighe.ADATA"
+"ADATA"
+"D"
+ 8
+ 0
+*
+"Riferimento Spedizione Apertura"
+"aerighe.APROG"
+"APROG"
+"C"
+ 25
+ 0
+*
+"Precedente progressivo spedizione"
+"aerighe.AOLDPROG"
+"AOLDPROG"
+"C"
+ 25
+ 0
+*
+"Riferimento file spedizione"
+"aerighe.AFILE"
+"AFILE"
+"C"
+ 15
+ 0
+*
+"Riferimento file vecchia spedizione"
+"aerighe.AOLDFILE"
+"AOLDFILE"
+"C"
+ 15
+ 0
+*
+"Data rettifica apertura"
+"aerighe.ADATARET"
+"ADATARET"
+"D"
+ 8
+ 0
+*
+"Data Spedizione Chiusura"
+"aerighe.CSPEDITO"
+"CSPEDITO"
+"N"
+ 1
+ 0
+*
+"Data Chiusura Rapporto"
+"aerighe.CDATA"
+"CDATA"
+"D"
+ 8
+ 0
+*
+"Riferimento spedizione chiusura"
+"aerighe.CPROG"
+"CPROG"
+"C"
+ 25
+ 0
+*
+"Precedente riferimento chiusura"
+"aerighe.COLDPROG"
+"COLDPROG"
+"C"
+ 25
+ 0
+*
+"File spedizione Chiusura"
+"aerighe.CFILE"
+"CFILE"
+"C"
+ 15
+ 0
+*
+"Precedente file spedizione chiusura"
+"aerighe.COLDFILE"
+"COLDFILE"
+"C"
+ 15
+ 0
+*
+"Data rettifica chiusura"
+"aerighe.CDATARET"
+"CDATARET"
+"D"
+ 8
+ 0
+*
+""
+"aerighe.IDRIF"
+"IDRIF"
+"C"
+ 10
+ 0
+*
+"No codice fiscale (Non assegnato agenzia entrate)"
+"aerighe.NOCODFISC"
+"NOCODFISC"
+"C"
+ 1
+ 0
+*
+"IDBASE"
+"aerighe.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"N° Riga Riferimento"
+"aerighe.NRIGRIF"
+"NRIGRIF"
+"N"
+ 4
+ 0
+*
+"Data Rettifica Apertura"
+"aerighe.ADTPRE"
+"ADTPRE"
+"D"
+ 8
+ 0
+*
+"Data Rettifica Chiusura"
+"aerighe.CDTPRE"
+"CDTPRE"
+"D"
+ 8
+ 0
+*
+"Progressivo Riga"
+"aerighe.PROGAER"
+"PROGAER"
+"N"
+ 15
+ 0
+*
+"ID ESITO AGE"
+"aerighe.IDESITO"
+"IDESITO"
+"C"
+ 8
+ 0
+*
+"Data Generazione Esito"
+"aerighe.DATESITO"
+"DATESITO"
+"D"
+ 8
+ 0
+*
+""
+"aerighe.ABBINATO"
+"ABBINATO"
+"N"
+ 1
+ 0
+*
+"Rettifica Inviata"
+"aerighe.RSPEDITO"
+"RSPEDITO"
+"N"
+ 1
+ 0
+*
+""
+"aerighe.ANNO"
+"ANNO"
+"C"
+ 4
+ 0
+*
+""
+"aerighe.PROG1"
+"PROG1"
+"C"
+ 10
+ 0
+*
+""
+"aerighe.PROG2"
+"PROG2"
+"C"
+ 5
+ 0
+*
+""
+"aerighe.PROGREC"
+"PROGREC"
+"C"
+ 9
+ 0
+*
+""
+"aerighe.ESITOANNO"
+"ESITOANNO"
+"C"
+ 10
+ 0
+*
+""
+"aerighe.FILEANNO"
+"FILEANNO"
+"C"
+ 50
+ 0
+*
+ 0
+ 8
+"[NOTEMPTYSTR(aerighe.CONNESINT)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYSTR(aerighe.APROG)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYSTR(aerighe.AFILE)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"aerighe.PROGAER"
+""
+">="
+"?_bottom"
+"AND"
+""
+*
+"aerighe.PROGAER"
+""
+"<="
+"?_top"
+"AND"
+""
+*
+"aerighe.ADATA"
+""
+"<="
+"?w_a_data"
+"AND"
+""
+*
+"([NOTEMPTYDATE(aerighe.CDATA)]"
+""
+"="
+"0"
+"OR"
+""
+*
+"aerighe.CDATA"
+""
+">="
+"?w_dadata)"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 4
+"w_dadata"
+""
+"Date"
+"8"
+"0"
+""
+*
+"w_a_data"
+""
+"Date"
+"8"
+"0"
+""
+*
+"_bottom"
+"Progressivo Riga"
+"Numeric"
+"15"
+"0"
+""
+*
+"_top"
+"Progressivo Riga"
+"Numeric"
+"15"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 6
+.f.
+""
+.f.
+*

@@ -1,0 +1,143 @@
+ 1
+"Operazioni Frazionate"
+"fraziobo"
+"fraziobo"
+ 0
+ 0
+*
+ 2
+"Rapporto Collegato"
+"fraziobo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Totale"
+"SUM(fraziobo.TOTLIRE)"
+"TOTALE"
+"N"
+ 15
+ 0
+*
+ 0
+ 7
+"fraziobo.CDATOPE"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"fraziobo.CDATOPE"
+""
+"<="
+"?w_adata"
+"AND"
+""
+*
+"[NOTEMPTYSTR(fraziobo.RAPPORTO)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"fraziobo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+*
+"fraziobo.SEGNO"
+""
+"="
+"?w_segno"
+"AND"
+""
+*
+"fraziobo.TOTLIRE"
+""
+">="
+"?w_minfraz"
+"AND"
+""
+*
+"SUM(fraziobo.TOTLIRE)"
+""
+">="
+"?w_importo"
+"AND"
+"Having"
+*
+ 0
+ 1
+"Rapporto Collegato"
+"RAPPORTO"
+*
+ 0
+ 5
+"w_dadata"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+*
+"w_adata"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+*
+"w_minfraz"
+"Minimo Operazione"
+"N"
+"15"
+"0"
+""
+*
+"w_importo"
+"Totale Operazione"
+"N"
+"15"
+"0"
+""
+*
+"w_segno"
+"Segno Operazione"
+"C"
+"1"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 7
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"uPY+DC%25%40OQMK%29%5D%7F%3Ai%294H%01%2F%400%24R-MT%25a+7JO%004S9*5y%5B++.ULPF%3E%5C%25%3D2%3E6CG%26%28%3BV16MK%22%25%40_%28FH%2FJ4%22L%3A%2F1LF5%16%3F%10%3F0_2NXV%24ZP%15%1C%2C%24%29%3F%29uAxlO9%24%3B%22E1H%23%3D%26%277NPK%29%5B%5D%244%06%40%3F2S+%3E%23-D%7B88%29%280H%5C%5BIP%3E%3FI%19*q%3C%25%28%3ACI%3F%16%27%22+8P2F1HR2%3F%26%3BL%3FD9_03%21%3CD%23NtZ%3CTOQ%3BG*%223-%26E2y%3A%25%17*%21*AA%2FQ-%2F%23I%27JLW%22%3B%27059%1D.2%276%21V%3DHF%1E6%2B%3A%26Kk%27U%15%23197%00"
+"K%235J%40WSOML%40OC%26%22O6%1B508-%29C%26WR.I.a%06%28%26%24%5DH%5BY-SNML%3B%11%25VVCCZ-+%3D%3D%1F%23Q_W%3C%25M3%3C414A+ZLU%2F%3D%3C%15%3E%08T000%3F%26%5B%2F%3EC%5EI%27-GAaV-L%28%5D%116Z%269%40%3B%40B9%3A%7Dh0IR5%5C%21IJDBFEEWa7%22%1E8X%236%07H%3B-%3E%3B7%3E5%28iJH6%17%5ECMF.%60%5CYICD%04%2B%3AM%3B.%3E6w_.31%22+%27*Lj%3E8+%25%27I%26%226uC%5D%29O-D%1D%3E%223%21%26M%3DL8+%3E0%09%5E%5DT%25.%3AQ%3FF--NGMAM8+593_%2F%29%21%40k%5DH8%3A%40%26LT0%2F%29N%2F%13%25%25%00"
+""
+""
+"native"
+ 0
+ 0
+*

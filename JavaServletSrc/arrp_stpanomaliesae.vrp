@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Anomalie SAE -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_stpanomaliesae||version||4.6||title||Stampa Anomalie SAE||query||qbe_stpanomaliesae||font||Arial||font_size||9||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||true||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2014-12-31||date_rev||2014-12-31||form_class|| ||grid_dx|| ||grid_dy|| ||grid_show||0||grid_use||0||snaplines_show||0||language|| ||merge||false||modcnt||12||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding||ISO-8859-1||hsl||false||lock_items||false||maxcount||27||rotation||landscape||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||79||uid||PCHVGQAJGX||sequence||2||bb_sequence||3||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||132||uid||DHRCEJQMXQ||sequence||3||bb_sequence||4||page||1|||type||Group_top||comment||group3||exp||1=1||name||group1||y||106||uid||YBGPPRNVKV||sequence||6||bb_sequence||7||page||1||start_each_on_page||true||reprint_header||true|||type||Group_down||comment||group3||exp||1=1||name||group1||y||129||uid||TVOATJGMXB||sequence||7||bb_sequence||8||page||1||reprint_header||true|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||name||label0_22||uid||DDXXEOBXAL||page||1||x||16||y||4||w||719||h||21||sequence||11||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Expr||exp||w_dataseg||type_exp||date||len||8||dec||0||name||expr14||uid||HISBUHUVDP||page||0||x||241||y||27||w||220||h||18||sequence||17|||type||Label||value||Data Controllo||text_type||constant||name||label13||uid||LGZWTWTZNI||page||0||x||12||y||27||w||220||h||18||sequence||16||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Box||name||Box25||x||16||y||27||w||1071||h||31||uid||OHGRDOKYTV||sequence||25||page||1||border_width||1|||type||Label||value||Stampa Anomalie SAE||text_type||constant||name||label0||uid||DTYVDGHWRM||page||1||x||16||y||30||w||1074||h||25||sequence||18||align||center||global_font||false||font||Arial||font_size||16||font_weight||bold|||type||Label||value||&#39;Data di controllo: &#39;+arfn_fdate(w_dataseg)||text_type||expression||name||label3_23||uid||ENRJVWJCFI||page||1||x||16||y||61||w||720||h||16||sequence||3||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Errore||text_type||constant||name||label8||uid||BYPREPXYGL||page||1||x||654||y||83||w||126||h||19||sequence||10||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Codice Cliente||text_type||constant||name||label6||uid||JAFGVKOMPU||page||1||x||16||y||83||w||126||h||19||sequence||8||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Ragione Sociale||text_type||constant||name||label7||uid||GXGEHEXAMJ||page||1||x||152||y||83||w||126||h||19||sequence||9||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Box||name||Box9||x||16||y||103||w||1068||h||0||uid||NEXZGZYVTY||sequence||11||page||1||border_width||1||stretch_to_right||true|||type||Expr||exp||qbe_stpanomaliesae.c_RAGSOC||len||70||dec||0||name||expr11||uid||LYVLBOFNYZ||output_name||RagioneSociale||page||1||x||152||y||109||w||492||h||18||sequence||14|||type||Expr||exp||qbe_stpanomaliesae.c_MSGELAB||len||120||dec||0||name||expr12||uid||DIKNDARGZN||output_name||Messaggio||page||1||x||654||y||109||w||430||h||18||sequence||15|||type||Expr||exp||qbe_stpanomaliesae.c_CONNES||len||16||dec||0||name||expr10||uid||MKDIBEKUMM||output_name||CodiceCliente||page||1||x||16||y||109||w||120||h||18||sequence||13|||type||Box||name||Box9_25||x||16||y||135||w||1068||h||0||uid||RRSHYXKUGH||sequence||11||page||1||border_width||1||stretch_to_right||true|||type||Label||value||Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)||text_type||expression||name||label3||uid||ASOUSAZAXC||page||1||x||16||y||138||w||341||h||17||sequence||21||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;||text_type||expression||name||label4||uid||IIJRLMZHDF||page||1||x||751||y||138||w||225||h||17||sequence||22||align||right||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||Str(nTotalPages, 4, 0)||text_type||expression||name||label5||uid||YSPXAQCLDN||page||1||x||979||y||138||w||103||h||17||sequence||23||global_font||false||font||Arial||font_size||8||font_weight||normal||| -->
+
+<REPORT NAME="arrp_stpanomaliesae" TITLE="Stampa Anomalie SAE" QUERY="qbe_stpanomaliesae" MAXDEPTH="1" GLBFONTNAME="Arial" GLBFONTSIZE="9" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="true" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="landscape" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_stpanomaliesae.CONNES" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stpanomaliesae.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stpanomaliesae.MSGELAB" TYPE="C" LEN="120" DEC="0" />
+  <COVER Y="0" H="46" EXPRESSION="Cover">
+              <ITEM OBJ="stringa" NAME="Data Controllo" EXPRTYPE="constant"
+                    Y="27" X="12" YY="45" XX="232"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="w_dataseg" ITEMTYPE="D" EXPRTYPE="expression"
+                    Y="27" X="241" YY="45" XX="461"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                    LEN="8"
+                    />
+  </COVER>
+  <PAGEHEADER Y="0" H="79" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="4" X="16" YY="25" XX="735"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="27" X="16" YY="58" XX="1087"
+                    ALIGN="L"
+                    UID="OHGRDOKYTV" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="Stampa Anomalie SAE" EXPRTYPE="constant"
+                    Y="30" X="16" YY="55" XX="1090"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="16"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="OHGRDOKYTV"/>
+              <ITEM OBJ="stringa" NAME="&#39;Data di controllo: &#39;+arfn_fdate(w_dataseg)" EXPRTYPE="expression"
+                    Y="61" X="16" YY="77" XX="736"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="26" FOOTH="2" SYMNAME="" UID="YBGPPRNVKV" TOP="105" BOTTOM="127" EXPRESSION="1=1" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="true" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+              <ITEM OBJ="stringa" NAME="Codice Cliente" EXPRTYPE="constant"
+                    Y="3" X="16" YY="22" XX="142"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Ragione Sociale" EXPRTYPE="constant"
+                    Y="3" X="152" YY="22" XX="278"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Errore" EXPRTYPE="constant"
+                    Y="3" X="654" YY="22" XX="780"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="23" X="16" XX="1085" BORDERWIDTH="1"
+                    ALIGN="L"
+                    STRETCH="true"
+                    />
+          <SECTION TYPE="group" HEADH="22" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="espressione" NAME="qbe_stpanomaliesae.c_CONNES" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="16" YY="20" XX="136"
+                            SYMNAME="CodiceCliente"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stpanomaliesae.c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="152" YY="20" XX="644"
+                            SYMNAME="RagioneSociale"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stpanomaliesae.c_MSGELAB" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="654" YY="20" XX="1084"
+                            SYMNAME="Messaggio"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="120"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="129" H="23" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="2" X="16" XX="1085" BORDERWIDTH="1"
+                    ALIGN="L"
+                    STRETCH="true"
+                    />
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="5" X="16" YY="22" XX="357"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="5" X="751" YY="22" XX="976"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="5" X="979" YY="22" XX="1082"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

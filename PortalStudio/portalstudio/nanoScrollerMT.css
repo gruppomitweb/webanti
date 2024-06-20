@@ -1,0 +1,52 @@
+.nano {
+  position : relative;
+  width : 100%;
+  height : 100%;
+  overflow : hidden;
+}
+.nano .content {
+  position : relative;
+  overflow : scroll;
+  overflow-x : hidden;
+  width: 100%;
+  top : 0;
+  right : 0;
+  bottom : 0;
+  left : 0;
+  padding-right : 11px;
+  padding-left : 6px;
+}
+.nano .content::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+.nano > .pane {
+  position : absolute;
+  width : 8px;
+  right : 0;
+  top : 0;
+  bottom : 0;
+}
+.nano > .pane > .slider {
+  position : relative;
+  margin : 0 1px;
+/*   -moz-border-radius : 3px;
+  -webkit-border-radius : 3px;
+  border-radius : 3px; */
+  background: #8f8f8f;
+}
+
+.nano > .pane {
+   /*-webkit-transition : .2s;
+  transition : .2s;*/
+  -moz-transition : .2s;
+  -ms-transition : .2s;
+  -o-transition : .2s;
+  /* -moz-border-radius : 5px;
+  -webkit-border-radius : 5px;
+  border-radius : 5px; */
+  opacity :0;
+  background: #e3e3e3;
+  width: 6px;
+  right: 1px;
+}
+

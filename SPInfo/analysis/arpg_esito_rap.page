@@ -1,0 +1,73 @@
+﻿* --- Resource Vers. 0.9
+arpg_esito_rap
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:30
+description='Import Esiti Agenzia Entrate
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={}
+modified_on=#2024-05-10 18:25:01
+module_name='
+name='arpg_esito_rap
+state=1
+type='page
+used_resource_keys={
+'Hyperlinks
+[
+'arrt_esito_rap
+'arrt_esito_rap_report
+'arrt_esito_rap_cf
+]
+'Others
+[
+'jsp\showmsg_portlet.jsp
+'jsp\showlog_portlet.jsp
+'jsp\list_imprich_portlet.jsp
+'arrt_imp_dati
+'arrt_imp_dati_multipli
+'arrt_imp_dati_ac
+'arrt_imp_dati_wubs
+]
+'Tables
+[
+'tbmacage<table>
+'tbtipdoc<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_esito_rap|Error|core::document|Update dependencies|Resource "arrt_imp_dati_telepass" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "arrt_imp_dati_telepass" not found.
+resource_key='arpg_esito_rap
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_esito_rap|Error|core::document|Update dependencies|Resource "arrt_imp_dati_multipli_telepass" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "arrt_imp_dati_multipli_telepass" not found.
+resource_key='arpg_esito_rap
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

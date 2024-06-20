@@ -1,0 +1,47 @@
+﻿* --- Resource Vers. 0.9
+arrt_wutrxchk_save_mask
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Crea i record per le operazioni salvate (Scheduler)
+file_modified_on=#2022-09-28 16:02:43
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='public
+I
+}
+modified_on=#2024-05-10 18:25:31
+module_name='
+name='arrt_wutrxchk_save_mask
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_list_imprich.nomefile
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_imp_dati_rtra
+'arrt_wutrxchk_save_mask
+]
+'Tables
+[
+'tmp_list_imprich<table>
+'intermbo<table>
+'wutrxchk_checked<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,48 @@
+﻿* --- Resource Vers. 0.9
+arrt_new_opextrbo
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Salva Nuova Operazione Extraconto
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:23
+module_name='
+name='arrt_new_opextrbo
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.idbase
+'opextrbo.dataope
+'opextrbo.coint
+'opextrbo.note
+'opextrbo.progopex
+'opextrbo.saldo
+'opextrbo.quantita
+'opextrbo.valuta
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Tables
+[
+'opextrbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

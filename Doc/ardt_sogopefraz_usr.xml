@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="119502832">
+  <CodifyName>ardt_sogopefraz</CodifyName>
+  <Name>ardt_sogopefraz.dtldef</Name>
+  <Title>Soggetti Agenti per Conto Oper. Frazionate</Title>
+  <Type>Detail</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="123155792"></Title>
+    <Note/>
+    <JPG x="5" y="9">ardt_sogopefraz_usr_1</JPG>
+    <Item type="campo" x1="8" y1="27" x2="133" y2="49">
+      <Name LinkID="199487779">CODSOG</Name>
+      <Comment>Codice Soggetto</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="456" y1="27" x2="494" y2="49">
+      <Name LinkID="197186444">LEGAME</Name>
+      <Comment>Tipo Legame</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="27" x2="448" y2="49">
+      <Name LinkID="242659192">xragsoc</Name>
+      <Comment>Ragione Sociale</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="96" y1="225" x2="459" y2="247">
+      <Name LinkID="128586664">xdescriz</Name>
+      <Comment>Descrizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

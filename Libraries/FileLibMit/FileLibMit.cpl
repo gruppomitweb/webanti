@@ -1,0 +1,7 @@
+import GenericLibrary
+
+class FileLibMit(GenericLibrary.Library)
+  proc Init()
+    LoadXML(thismodule.SourceName.Strtran(".cpl",".xml"))
+  end
+end

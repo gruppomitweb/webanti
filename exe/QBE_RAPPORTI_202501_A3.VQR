@@ -1,0 +1,153 @@
+ 2
+"Soggetti conto informazioni"
+"intestbo"
+"intestbo"
+ 5
+ 5
+*
+"Anagrafica Rapporti"
+"anarapbo"
+"anarapbo"
+ 214
+ 113
+*
+ 8
+"Rapporto (Copia della testata)"
+"intestbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Data Inizio"
+"intestbo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+"Data Fine"
+"intestbo.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+"Numero riga"
+"intestbo.CPROWNUM"
+"CPROWNUM"
+"N"
+ 10
+ 0
+*
+"Intestatario (Non Intermediario)"
+"intestbo.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+*
+"Tipo Agenzia Entrate"
+"anarapbo.TIPOAG"
+"TIPOAG"
+"Char"
+ 2
+ 0
+*
+"Tipo Rapporto"
+"anarapbo.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+*
+"Non inviare agenzia entrate"
+"anarapbo.NOPROT"
+"NOPROT"
+"N"
+ 1
+ 0
+*
+ 1
+"Rapporti"
+"anarapbo.RAPPORTO=intestbo.RAPPORTO"
+"Inner"
+"anarapbo"
+"intestbo"
+*
+ 5
+"intestbo.ABBINATO"
+""
+"="
+"0"
+"AND"
+""
+*
+"anarapbo.NOPROT"
+""
+"="
+"0"
+"AND"
+""
+*
+"intestbo.CODINTER"
+""
+"="
+"?pCODINTER"
+"AND"
+""
+*
+"intestbo.DATAINI"
+""
+"="
+"?pDATAINI"
+"AND"
+""
+*
+"intestbo.DATAFINE"
+""
+"="
+"?pDATAFINE"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 3
+"pCODINTER"
+"Intestatario (Non Intermediario)"
+"Char"
+"16"
+"0"
+"Remove"
+*
+"pDATAINI"
+"Data Inizio"
+"Date"
+"8"
+"0"
+"Remove"
+*
+"pDATAFINE"
+"Data Fine"
+"Date"
+"8"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 4
+.f.
+""
+.f.
+*

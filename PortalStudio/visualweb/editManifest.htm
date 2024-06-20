@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Manifest</title>
+ <script type="text/javascript" src="../stdFunctions.js"></script>
+ <script type="text/javascript" src="../controls.js"></script>
+ <script type="text/javascript" src="../mootools.js"></script>
+ <script type="text/javascript" src="../mootools_more.js"></script>
+ <link rel="stylesheet" href="editItemEvent.css">
+ <link rel="stylesheet" href="../codemirror/lib/codemirror.css">
+ <link rel="stylesheet" href="../codemirror/theme/ambiance.css">
+ <link rel="stylesheet" href="../codemirror/theme/blackboard.css">
+ <link rel="stylesheet" href="../codemirror/theme/neat.css">
+ <link rel="stylesheet" href="../codemirror/theme/elegant.css">
+ <link rel="stylesheet" href="../codemirror/theme/erlang-dark.css">
+ <link rel="stylesheet" href="../codemirror/theme/lesser-dark.css">
+ <link rel="stylesheet" href="../codemirror/theme/night.css">
+ <link rel="stylesheet" href="../codemirror/theme/monokai.css">
+ <link rel="stylesheet" href="../codemirror/theme/cobalt.css">
+ <link rel="stylesheet" href="../codemirror/theme/eclipse.css">
+ <link rel="stylesheet" href="../codemirror/theme/midnight.css">
+ <link rel="stylesheet" href="../codemirror/theme/solarized.css">
+ <link rel="stylesheet" href="../codemirror/theme/rubyblue.css">
+ <link rel="stylesheet" href="../codemirror/theme/twilight.css">
+ <link rel="stylesheet" href="../codemirror/theme/vibrant-ink.css">
+ <link rel="stylesheet" href="../codemirror/theme/xq-dark.css">
+ <link rel="stylesheet" href="../codemirror/theme/xq-light.css">
+ <link rel="stylesheet" href="../codemirror/addon/dialog/dialog.css">
+ <script type='text/javascript' src="../codemirror/lib/codemirror.js"></script>
+ <script type='text/javascript' src="../codemirror/mode/javascript/javascript.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/edit/matchbrackets.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/edit/continuecomment.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/comment/comment.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/dialog/dialog.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/search/searchcursor.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/search/search.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/selection/active-line.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/selection/mark-selection.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/search/match-highlighter.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/fold/foldcode.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/fold/brace-fold.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/fold/xml-fold.js"></script>
+</head>
+<body>
+  <div id='topbar'>
+    <div style="height:49px;">
+      <div id='topbar_right' class='topbar_sides float_right'></div>
+      <div class='float_right'>
+        <a id="toolbar_cancel" class="" href="javascript:void(0)" title='Cancel'>CANCEL</a>
+      </div>
+      <div class='float_right'>
+        <a id="toolbar_ok" class="" href="javascript:void(0)" title='Save and Close'>SAVE</a>
+      </div>
+    </div>
+  </div>
+  <div id='editor'>
+      <div id="loader"></div>
+  </div>
+  <div id="opt_pane_top">
+    <div id="opt_pane_top_wrapper">
+      <div id='opt_pane_topbar_left' title='Show/Hide style pane' class='float_left'></div>
+      <div id="opt_pane_topbar" class='float_left'>
+        <p class='label'>Styles</p>
+      </div>
+    </div>
+  </div>
+  <div id="opt_pane">
+    <div id="opt_pane_wrapper">
+      <div id="opt_pane_content">
+         <div>
+          <a class='opt_pane_mode' id="change_style_ambiance" href="javascript:void(0)">Ambiance</a>
+          <a class='opt_pane_mode' id="change_style_blackboard" href="javascript:void(0)">Blackboard</a>
+          <a class='opt_pane_mode' id="change_style_cobalt" href="javascript:void(0)">Cobalt</a>
+          <a class='opt_pane_mode' id="change_style_eclipse" href="javascript:void(0)">Eclipse</a>
+          <a class='opt_pane_mode' id="change_style_elegant" href="javascript:void(0)">Elegant</a>
+          <a class='opt_pane_mode' id="change_style_erlang-dark" href="javascript:void(0)">Erlang-dark</a>
+          <a class='opt_pane_mode' id="change_style_lesser-dark" href="javascript:void(0)">Lesser-dark</a>
+          <a class='opt_pane_mode' id="change_style_default" href="javascript:void(0)">Light</a>
+          <a class='opt_pane_mode' id="change_style_midnight" href="javascript:void(0)">Midnight</a>
+          <a class='opt_pane_mode' id="change_style_monokai" href="javascript:void(0)">Monokai</a>
+          <a class='opt_pane_mode' id="change_style_neat" href="javascript:void(0)">Neat</a>
+          <a class='opt_pane_mode' id="change_style_night" href="javascript:void(0)">Night</a>
+          <a class='opt_pane_mode' id="change_style_rubyblue" href="javascript:void(0)">Rubyblue</a>
+          <a class='opt_pane_mode' id="change_style_solarized" href="javascript:void(0)">Solarized</a>
+          <a class='opt_pane_mode' id="change_style_twilight" href="javascript:void(0)">Twilight</a>
+          <a class='opt_pane_mode' id="change_style_vibrant-ink" href="javascript:void(0)">Vibrant-ink</a>
+          <a class='opt_pane_mode' id="change_style_xq-dark" href="javascript:void(0)">Xq-dark</a>
+          <a class='opt_pane_mode' id="change_style_xq-light" href="javascript:void(0)">Xq-light</a>
+         </div>
+        <p style="margin:0;margin-top:8px;padding:0;padding-bottom:3px;font-size:9px; color:#777777;">Slide to change font size:</p>
+        <div style="padding-left:5px;">
+          <div id="fontSlider" class="slider">
+            <div class="knob">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<script type="text/javascript">
+(function(w){
+  'use strict';
+  // initialisation of codemirrorOptionObj
+  var code
+  	,	codeEditor
+  	,	funct_evt
+  	,	RetVal
+    , z_ac_style = localStorage.getItem('zucchetti_ac_style')
+  	,	ac_style = !Empty(z_ac_style) ? JSON.parse(z_ac_style) : { fontSize: "", theme: "" }
+    , changed=false
+    , codeMirrorOpt={}
+    , opt_paneOpened = false
+    , opt_paneToggle
+    , opt_paneTopToggle
+    , resizeTimer
+  ;
+  /****** Gestione del LocalStorage *******/
+  localStorage.setItem('zucchetti_ac_style',JSON.encode(ac_style));
+
+  /*******codemirror options*******/
+  codeMirrorOpt.mode="javascript";
+  CodeMirror.extendMode("javascript", {lineComment: "//"});
+  codeMirrorOpt.extraKeys= {"Ctrl-R": "replace", "F3": "findNext", "Shift-F3": "findPrev", "Ctrl-Q": "toggleComment","Ctrl-S":function(){
+      (parent.parent.saveTool?parent.parent.saveTool():(parent.save?parent.save():void(0)));parent.managed=true
+    }
+  }
+  codeMirrorOpt.tabMode= "shift";
+  codeMirrorOpt.theme=  ac_style && ac_style.theme ? ac_style.theme : 'default' ;
+  codeMirrorOpt.tabSize = 2;
+  codeMirrorOpt.indentUnit =2;
+  codeMirrorOpt.statementIndent =2;
+  codeMirrorOpt.lineNumbers =true;
+  codeMirrorOpt.styleActiveLine= true;
+  codeMirrorOpt.highlightSelectionMatches= true;
+  codeMirrorOpt.enterMode ='keep';
+  codeMirrorOpt.matchBrackets=true;
+  //codeMirrorOpt.gutters= ["CodeMirror-linenumbers", "breakpoints"];
+  codeMirrorOpt.onChange=function(){changed=true};
+
+  function createCodeArea(){
+    if(opt_paneOpened)
+      toggleOptPane();
+    var h = $('editor').offsetHeight-50;
+    codeEditor = CodeMirror($('editor'),codeMirrorOpt);
+    var foldFunc = CodeMirror.newFoldFunction(CodeMirror.braceRangeFinder);
+    codeEditor.on("gutterClick", foldFunc);
+    codeEditor.getScrollerElement().style.height =h +'px';
+    LibJavascript.CssClassNameUtils.addClass(codeEditor,'eventcode')
+    codeEditor.getWrapperElement().id='eventcode';
+    codeEditor.getWrapperElement().style.height='100%';
+    $(codeEditor.getWrapperElement()).setStyle('font-size',ac_style.fontSize)
+    codeEditor.getWrapperElement().value = codeEditor.getValue();
+
+    /* Breakpoints
+    codeEditor.on("gutterClick", function(cm, n) {
+     var info = cm.lineInfo(n);
+     cm.setGutterMarker(n, "breakpoints", info.markers ? null : makeMarker());
+    });
+    function makeMarker() {
+      var marker = document.createElement("div");
+      marker.innerHTML = "<b>a</b>";
+      marker.style.color="#822";
+      marker.style.width=".8em";
+      marker.className = "breakpoint";
+      return marker;
+    }
+    */
+    codeEditor.refresh();
+  }
+
+  function buildSlider(){
+    // Create the new slider instance
+    var el = $('fontSlider');
+    var font = $('eventcode');
+    new Slider(el, el.getElement('.knob'), {
+      steps: 35,  // There are 35 steps
+      range: [12],  // Minimum value is 8
+      initialStep :ac_style.fontSize ? ac_style.fontSize : 13,
+      onChange: function(value){
+        // Everytime the value changes, we change the font of an element
+        ac_style.fontSize = value;
+        localStorage.setItem('zucchetti_ac_style', JSON.encode(ac_style));
+        font.setStyle('font-size', value);
+        $(codeEditor.getWrapperElement()).setStyle('font-size',value);
+      }
+    }).set(font.getStyle('font-size').toInt());
+
+  }
+
+  function toggleOptPane(){
+    var range;
+    if(opt_paneOpened){
+      range = [0,-155];
+      opt_paneToggle.slideOut();
+      var fnToDelay = function(){
+        opt_paneTopToggle.start({
+          'right':range
+        });
+        document.getElementById('opt_pane_topbar_left').style.backgroundImage = "url(../portalstudio/images/ac_optpane_btn_open.png)";
+        opt_paneOpened = !opt_paneOpened;
+      }
+      fnToDelay.delay(301);
+    }else{
+      range = [-155,0];
+      opt_paneTopToggle.start({
+        'right':range
+      });
+      var fnToDelay = function(){
+        opt_paneToggle.slideIn();
+        document.getElementById('opt_pane_topbar_left').style.backgroundImage = "url(../portalstudio/images/ac_optpane_btn_close.png)";
+        opt_paneOpened = !opt_paneOpened;
+      }
+      fnToDelay.delay(201);
+    }
+  }
+
+  function SaveAndClose(){
+    parent.codeManifest = codeEditor.getValue();
+    parent.window.codeOpen=false;
+    parent.window.ActionCodeLayer.close();
+  }
+
+  function Save() {
+    parent.codeManifest = codeEditor.getValue();
+    changed = false;
+  }
+
+  function ResizeEditor(){
+    clearTimeout(resizeTimer);
+    var size = $('editor').getSize();
+    ac_style.width = size.x;
+    ac_style.height = size.y;
+    localStorage.setItem('zucchetti_ac_style', JSON.encode(ac_style));
+  }
+  /*********Gestione degli eventi************/
+  window.addEvent('domready',function(){
+    code = codeMirrorOpt.value = loadCode();
+    window.fireEvent('createEditorComponent');
+    $('opt_pane_wrapper').setStyle('opacity','0.9')
+    opt_paneToggle = new Fx.Slide('opt_pane_wrapper',{
+      'transition':Fx.Transitions.Bounce.easeOut,
+      'duration':300
+    }).hide();
+    opt_paneTopToggle = new Fx.Morph('opt_pane_top_wrapper',{
+      'duration':200
+    });
+    $$('.opt_pane_mode').each(function(i){
+      i.addEvent('click',function(){
+        var theme=Strtran(i.id,'change_style_','');
+        codeEditor.setOption('theme',theme);
+        ac_style.theme = theme;
+        localStorage.setItem('zucchetti_ac_style', JSON.encode(ac_style));
+      });
+    });
+    createCodeArea();
+    buildSlider.delay(300);
+    setTimeout(function(){codeEditor.getScrollerElement().style.height =$('editor').offsetHeight +'px';},300);
+  });
+  document.getElementById('opt_pane_topbar_left').addEvent('click',toggleOptPane);
+  document.getElementById('toolbar_ok').addEvent('click',SaveAndClose);
+  document.getElementById('toolbar_cancel').addEvent('click',function CheckClosefromX(){
+    if(changed){
+        if (confirm("Do you want to save Actions code ?\n\nClick OK to save\nClick Cancel to ignore changes"))
+          SaveAndClose()
+        else{
+          parent.window.codeOpen=false;
+          parent.window.ActionCodeLayer.close();
+        }
+    }else{
+      parent.window.codeOpen=false;
+      parent.window.ActionCodeLayer.close();
+    }
+  })
+  document.body.addEvent('keydown',function(e){
+    var domevt = new DOMEvent(e);
+    var code = domevt.code;
+    if(domevt.control && code==82){ //ctrl+r
+      //Annullo il Ctrl-r di default
+      if(e.preventDefault)e.preventDefault();
+    }
+  });
+  window.addEvents({
+    'restoreSize': function(spmodallayer){
+      ac_style.maximized = false;
+      localStorage.setItem('zucchetti_ac_style', JSON.encode(ac_style));
+    }
+  , 'maximized': function(spmodallayer){
+      ac_style.maximized = true;
+      localStorage.setItem('zucchetti_ac_style', JSON.encode(ac_style));
+    }
+  , 'resize': function(){ resizeTimer = ResizeEditor.delay(50) }
+  , 'save': Save
+  });
+
+  /**********Gestione dello specifico editor***************/
+  function loadCode(){
+    var queryString = window.location.search.parseQueryString();
+    var c;
+    if(!Empty(queryString.name) && unescape(queryString.name)!='Custom manifest'){
+      c = new JSURL("../servlet/JSPReader?action=manifest&name="+queryString.name,true).Response();
+    }else{
+      c = parent.codeManifest;
+    }
+    if(Empty(c)){
+      c= "\n"
+      c+= " NETWORK:\n";
+      c+= "#insert here resources that will not be cached\n"
+      c+= "\n"
+      c+= " CACHE:\n";
+      c+= "#insert here resources that will be cached\n"
+      c+= "\n"
+      c+= " FALLBACK:\n";
+      c+= "#insert here resources that will not be cached and will have a fallback shown instead\n"
+      c+= "\n"
+    }
+    return c;
+  }
+})()
+</script>

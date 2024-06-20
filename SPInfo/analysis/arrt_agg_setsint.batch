@@ -1,0 +1,56 @@
+﻿* --- Resource Vers. 0.9
+arrt_agg_setsint
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Aggiorna Settore Sintetico SARA XBRL
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_agg_setsint
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.oldsetsin
+'personbo.sotgrup
+'personbo.settsint
+'tmp_newpers.connes
+'tmp_newpers.ragsoc
+'tmp_newpers.msgelab
+'tbstgru.sotgru
+'tbstgru.tiposot
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Routines
+[
+'arfn_calcolasett
+'arfn_fdatetime
+]
+'Tables
+[
+'personbo<table>
+'tbsetsin<table>
+'tmp_newpers<table>
+'tbstgru<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ReportDescription v5.0 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Estrazione Operazioni Sale Conta -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:[{"type":"report","name":"operp_estrazione_contante_bi","version":"5.0","title":"Estrazione Operazioni Sale Conta","query":"qbe_estrazione_contante_bi","queries_list":"","font":"Arial","font_size":"9","font_weight":"normal","font_effect":"","picture_date":"","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"false","security_public":"true","dict_name":"","security_access":"true","security_roles":"","author":"","client":"","date_creat":"2022-01-03","date_rev":"2022-01-25","modcnt":"23","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":"UTF-8","hsl":"false","lock_items":"false","maxcount":"46","check_values":"","rotation":"","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","privacy":"0","identifier":"false","contentprivacy":"0","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"15","uid":"VC9RKSYBS3","sequence":"52","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"87","uid":"DOUDBSKEG6","sequence":"53","page":"1"},{"type":"AutoCover","name":"autocoverwiz","uid":"KDPNBSJI16","page":"0","y":"17"},{"type":"Group_top","comment":"group36","name":"group36","uid":"WRFSIHJMHS","page":"1","exp":"qbe_estrazione_contante_bi.c_NUMPROG","x":"0","y":"41","w":"1272","h":"0","sequence":"85"},{"type":"Group_down","comment":"group36","name":"group36","uid":"WPNPBDPZRO","page":"1","exp":"qbe_estrazione_contante_bi.c_NUMPROG","x":"0","y":"65","w":"1272","h":"0","sequence":"86"},{"type":"Expr","comment":"N° Progressivo","name":"expr7","uid":"A09Y3SK3DR","page":"1","exp":"qbe_estrazione_contante_bi.c_NUMPROG","len":"11","dec":"0","output_name":"NProgressivo","x":"2","y":"44","w":"33","h":"19","sequence":"1","global_font":"false","font":"Arial","font_size":"10","font_weight":"normal"},{"type":"Expr","comment":"Data Operazione","name":"expr9","uid":"FY8KVS7H1O","page":"1","exp":"opefn_fdate(qbe_estrazione_contante_bi.c_DATAOPE)","dec":"0","output_name":"DataOperazione","x":"40","y":"44","w":"43","h":"19","sequence":"3","global_font":"false","font":"Arial","font_size":"10","font_weight":"normal"},{"type":"Expr","comment":"GLN Sala Conta","name":"expr11","uid":"ABT8USML1X","page":"1","exp":"qbe_estrazione_contante_bi.c_CODICEGLN","len":"13","dec":"0","output_name":"GLNSalaConta","x":"88","y":"44","w":"52","h":"19","sequence":"4","global_font":"false","font":"Arial","font_size":"10","font_weight":"normal"},{"type":"Expr","comment":"Cliente","name":"expr13","uid":"V34ZMS6MOV","page":"1","exp":"qbe_estrazione_contante_bi.c_CONNESCLI","len":"16","dec":"0","output_name":"Cliente","x":"145","y":"44","w":"52","h":"19","sequence":"5","global_font":"false","font":"Arial","font_size":"10","font_weight":"normal"},{"type":"Expr","comment":"Ragione Sociale","name":"expr15","uid":"FSYB6S52VU","page":"1","exp":"qbe_estrazione_contante_bi.c_RAGSOCCLI","len":"70","dec":"0","output_name":"RagioneSocialeCliente","x":"202","y":"44","w":"48","h":"19","sequence":"6","global_font":"false","font":"Arial","font_size":"10","font_weight":"normal"},{"type":"Expr","comment":"CF Cliente","name":"Expr38","uid":"ENHSSRCDUR","page":"1","exp":"qbe_estrazione_contante_bi.c_CODFISC","len":"16","dec":"0","output_name":"CFCliente","x":"255","y":"44","w":"33","h":"19","sequence":"7"},{"type":"Expr","comment":"PIVA CLiente","name":"Expr39","uid":"EKPSDEVPND","page":"1","exp":"qbe_estrazione_contante_bi.c_PARTIVA","len":"11","dec":"0","output_name":"PIVACliente","x":"293","y":"44","w":"33","h":"19","sequence":"8"},{"type":"Expr","comment":"ATECO Cliente","name":"Expr40","uid":"NDMSXGZDAZ","page":"1","exp":"qbe_estrazione_contante_bi.c_ATTIV","dec":"0","output_name":"ATECOCliente","x":"331","y":"44","w":"33","h":"19","sequence":"9"},{"type":"Expr","comment":"Tipo Soggetto","name":"Expr44","uid":"ZPZUVTUFOL","page":"1","exp":"qbe_estrazione_contante_bi.c_TIPOSOG","len":"50","dec":"0","output_name":"TipoSoggetto","x":"369","y":"44","w":"72","h":"19","sequence":"10"},{"type":"Expr","comment":"Tipo Punto Servito","name":"expr21","uid":"MYDAXS6SG4","page":"1","exp":"qbe_estrazione_contante_bi.c_TIPOSOGGETTO","len":"60","dec":"0","output_name":"TipoPuntoServito","x":"446","y":"44","w":"38","h":"19","sequence":"10","global_font":"false","font":"Arial","font_size":"10","font_weight":"normal"},{"type":"Expr","comment":"Rapporto con Segnalante","name":"expr21_46","uid":"PKJSYYRYIM","page":"1","exp":"iif(qbe_estrazione_contante_bi.c_TIPOPUNTO='a',qbe_estrazione_contante_bi.c_RAPSEGNA,'')","len":"60","dec":"0","output_name":"RapportoConSegnalante","x":"489","y":"44","w":"38","h":"19","sequence":"11","global_font":"false","font":"Arial","font_size":"10","font_weight":"normal"},{"type":"Expr","comment":"Codice CLM","name":"Expr44_45","uid":"EONIWKHZRW","page":"1","exp":"qbe_estrazione_contante_bi.c_CODCLICON","len":"20","dec":"0","output_name":"CodiceCLM","x":"532","y":"44","w":"52","h":"19","sequence":"12"},{"type":"Expr","comment":"Tipo attività","name":"expr23","uid":"JFE4TSA497","page":"1","exp":"iif(qbe_estrazione_contante_bi.c_TIPATT='RIT','Ritiro',iif(qbe_estrazione_contante_bi.c_TIPATT='SOV','Sovvenzione',''))","len":"3","dec":"0","output_name":"Tipoattivita","x":"589","y":"44","w":"33","h":"19","sequence":"13","global_font":"false","font":"Arial","font_size":"10","font_weight":"normal"},{"type":"Expr","comment":"Taglio Banconota","name":"expr25","uid":"BRQVKSG1BS","page":"1","exp":"qbe_estrazione_contante_bi.c_TAGLIO","type_exp":"numeric","len":"7","dec":"2","output_name":"TaglioBanconota","x":"627","y":"44","w":"29","h":"19","sequence":"14","align":"right","global_font":"false","font":"Arial","font_size":"10","font_weight":"normal"},{"type":"Expr","comment":"N. Banconote","name":"expr27","uid":"MIN4QSTZ0I","page":"1","exp":"qbe_estrazione_contante_bi.c_NBANCONOTE","type_exp":"numeric","len":"5","dec":"0","output_name":"NBanconote","x":"661","y":"44","w":"44","h":"19","sequence":"15","align":"right","global_font":"false","font":"Arial","font_size":"10","font_weight":"normal"}] -->
+
+<REPORT NAME="operp_estrazione_contante_bi" TITLE="Estrazione Operazioni Sale Conta" QUERY="qbe_estrazione_contante_bi" MAXDEPTH="1" VERSION="5.0" PUBLIC="true" ACCESS="true" ROLES=""
+  GLBFONTNAME="Arial" GLBFONTSIZE="9"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="17" EXPRESSION="Cover">
+          <AUTOCOVER TYPE="autocover" UID="KDPNBSJI16" TOP="17"
+                LEFTMARGIN="0" RIGHTMARGIN="0" LINEHEIGHT="1"
+                />
+  </COVER>
+  <PAGEHEADER Y="0" H="15" EXPRESSION="Page header">
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="25" FOOTH="21" UID="WRFSIHJMHS" TOP="40" BOTTOM="63" EXPRESSION="qbe_estrazione_contante_bi.c_NUMPROG">
+          <SECTION TYPE="group" HEADH="23" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_contante_bi.c_NUMPROG" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="2" YY="21" XX="35"
+                            SYMNAME="NProgressivo"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            GLBPICTURE="true"
+                            LEN="11"
+                            />
+                      <ITEM OBJ="espressione" NAME="opefn_fdate(qbe_estrazione_contante_bi.c_DATAOPE)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="40" YY="21" XX="83"
+                            SYMNAME="DataOperazione"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_contante_bi.c_CODICEGLN" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="88" YY="21" XX="140"
+                            SYMNAME="GLNSalaConta"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            GLBPICTURE="true"
+                            LEN="13"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_contante_bi.c_CONNESCLI" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="145" YY="21" XX="197"
+                            SYMNAME="Cliente"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            GLBPICTURE="true"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_contante_bi.c_RAGSOCCLI" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="202" YY="21" XX="250"
+                            SYMNAME="RagioneSocialeCliente"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            GLBPICTURE="true"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_contante_bi.c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="255" YY="21" XX="288"
+                            SYMNAME="CFCliente"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_contante_bi.c_PARTIVA" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="293" YY="21" XX="326"
+                            SYMNAME="PIVACliente"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="11"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_contante_bi.c_ATTIV" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="331" YY="21" XX="364"
+                            SYMNAME="ATECOCliente"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_contante_bi.c_TIPOSOG" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="369" YY="21" XX="441"
+                            SYMNAME="TipoSoggetto"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="50"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_contante_bi.c_TIPOSOGGETTO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="446" YY="21" XX="484"
+                            SYMNAME="TipoPuntoServito"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            GLBPICTURE="true"
+                            LEN="60"
+                            />
+                      <ITEM OBJ="espressione" NAME="iif(qbe_estrazione_contante_bi.c_TIPOPUNTO=&#39;a&#39;,qbe_estrazione_contante_bi.c_RAPSEGNA,&#39;&#39;)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="489" YY="21" XX="527"
+                            SYMNAME="RapportoConSegnalante"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            GLBPICTURE="true"
+                            LEN="60"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_contante_bi.c_CODCLICON" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="532" YY="21" XX="584"
+                            SYMNAME="CodiceCLM"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="20"
+                            />
+                      <ITEM OBJ="espressione" NAME="iif(qbe_estrazione_contante_bi.c_TIPATT=&#39;RIT&#39;,&#39;Ritiro&#39;,iif(qbe_estrazione_contante_bi.c_TIPATT=&#39;SOV&#39;,&#39;Sovvenzione&#39;,&#39;&#39;))" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="589" YY="21" XX="622"
+                            SYMNAME="Tipoattivita"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            GLBPICTURE="true"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_contante_bi.c_TAGLIO" ITEMTYPE="N" EXPRTYPE="expression"
+                            Y="2" X="627" YY="21" XX="656"
+                            SYMNAME="TaglioBanconota"
+                            REPEATED="true"
+                            ALIGN="R"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            GLBPICTURE="true"
+                            LEN="7" DEC="2"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_contante_bi.c_NBANCONOTE" ITEMTYPE="N" EXPRTYPE="expression"
+                            Y="2" X="661" YY="21" XX="705"
+                            SYMNAME="NBanconote"
+                            REPEATED="true"
+                            ALIGN="R"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            GLBPICTURE="true"
+                            LEN="5"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="84" H="1" EXPRESSION="Page footer">
+  </PAGEFOOTER>
+</REPORT>

@@ -1,0 +1,49 @@
+﻿* --- Resource Vers. 0.9
+utpg_chgpwd
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:24
+description='Cambio Password
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={}
+modified_on=#2024-05-10 18:25:42
+module_name='
+name='utpg_chgpwd
+state=1
+type='page
+used_resource_keys={
+'Fields
+[
+'utenti.utcodice
+'utenti.utpasswd
+]
+'Hyperlinks
+[
+'centrale
+]
+'Tables
+[
+'utenti<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]utpg_chgpwd|Error|core::document|Update dependencies|Table "utentiagenzia" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:42
+message='Table "utentiagenzia" not found.
+resource_key='utpg_chgpwd
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

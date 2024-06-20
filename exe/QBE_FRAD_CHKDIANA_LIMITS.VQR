@@ -1,0 +1,224 @@
+ 1
+"Frazionate"
+"fraziobo"
+"fraziobo"
+ 0
+ 0
+*
+ 3
+"Progressivo Import"
+"MIN(fraziobo.PRGIMPFRZ)"
+"MINFRZ"
+"N"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Progressivo Import"
+"MAX(fraziobo.PRGIMPFRZ)"
+"MAXFRZ"
+"N"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tot. Record"
+"COUNT(*)"
+"TOTFRZ"
+"N"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 0
+ 8
+"fraziobo.CDATOPE"
+""
+">="
+"?w_cdadata"
+"AND"
+""
+""
+*
+"fraziobo.CDATOPE"
+""
+"<="
+"?w_c_adata"
+"AND"
+""
+""
+*
+"fraziobo.CODDIPE"
+""
+"="
+"?w_codage"
+"AND"
+""
+""
+*
+"fraziobo.C_RAG"
+""
+"="
+"?w_ragben"
+"AND"
+""
+""
+*
+"fraziobo.CDATREG"
+""
+">="
+"?w_cdareg"
+"AND"
+""
+""
+*
+"fraziobo.CDATREG"
+""
+"<="
+"?w_c_areg"
+"AND"
+""
+""
+*
+"fraziobo.CONNESCLI"
+""
+"="
+"?w_codcli"
+"AND"
+""
+""
+*
+"fraziobo.STATOREG"
+""
+"between"
+"ý0ý AND ý1ý"
+"AND"
+""
+"?w_flgsto=ýNý"
+*
+ 0
+ 0
+ 0
+ 8
+"w_cdadata"
+"Data Operazione in Carattere"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_c_adata"
+"Data Operazione in Carattere"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_codage"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_ragben"
+"Controparte"
+"C"
+"70"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_cdareg"
+"Data Registrazione in carattere"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_c_areg"
+"Data Registrazione in carattere"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_codcli"
+"Codice Cliente Occasionale"
+"C"
+"16"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_flgsto"
+"Scrivere anche Cancellate e Modificate (S/N)"
+"C"
+"1"
+"0"
+""
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 32
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%5C%24HKZQ%5E%3D%25%5D%25%27%3A%2FZ6ZLV%23%3C6%3C6LW-Q6ZZ%2CBE%2F%5B1%2F%23YiM8%3E13%3BA%40H%275E%3E%3B%1A%3D_5%5E%22Q%2BR%2B+MA%2F3Y0HEN4OG11F4K21+3%24%28%25F1Z%5CM%295%21-%1F%2B%01%28TVVB%27nK82%5BP1Q1%2924%3C%29%24%225%27HY%27K-N%217%3D%22Y%26tT%5D4%3D4%21%27%5DKN%22%2C-%28%2B%2F9%5BM%5C%22IPZ*I%3FE%5B+%275*1%260O779%5CIiL%06IQ3%3F9ENL*n%28GT%15%1CJ%223%2B%26R%40JNBK9.%29%3F%403Z%26_%21%23+PaHX%5C.c2M%2497N%5D%28BDPmF%29%114T%5D%5C%3B%21%264N%27%1F%00"
+"*_7%40UA%26Dz2F7I%2C%2BEV%19%3CJUDIJK5Bu5%5DJ%3FG%3FJ%24-%26%5C%23R%24Q2-%3B%3F%5C%3FL0%5D-P%3EJI%2F%3A%28%5CL%5B9%2F%3FJH%226P%29J%3C+9%3FLJ%23YH%3CD92_J*%29r%3CYN4%28%5ET%3A%29%3A%23%40*%24T%3AYD%27%179%28I%3A%3C%3D%22I.2%257D_%2B%26SA%3F%26%28D%1BW%2B%07Y-iS%3B5%28%2B%5D%5D7%5D3QL%3A%10%2B-+IVEOJM6%21D%294%268T%5B%3A%5EVF%26+%2CVSV%19_%3DZ%2B%1B6LI_KBXJ%3C%29%1C%3D%223%2F%25BW%26MC%24%12%08P8%3D%2CXK7B9%28CH-_1T%3E%5C%3C%3D%3C%21K%24%5B%28%3E+%5D%29J%29%3E%21G8E4%26%215-%29%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

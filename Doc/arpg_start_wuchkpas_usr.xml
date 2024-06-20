@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="96258125">
+  <CodifyName>arpg_start_wuchkpas</CodifyName>
+  <Name>arpg_start_wuchkpas.pagedef</Name>
+  <Title>Elaborazione record modificati</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="128526308"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_start_wuchkpas_usr_1</JPG>
+    <Item type="variabile" x1="88" y1="14" x2="249" y2="33">
+      <Name LinkID="22339943">tipodest</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="88" y1="35" x2="244" y2="56">
+      <Name LinkID="155701673">opextc</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="288" y1="14" x2="449" y2="33">
+      <Name LinkID="66952361">destfin</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="704" y1="28" x2="744" y2="58">
+      <Name LinkID="95869005">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_wuchkpas</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Esecuzione trasferimento operazioni selezionate</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="656" y1="28" x2="696" y2="58">
+      <Name LinkID="95869005">images/search.gif</Name>
+      <Image>images/search.gif</Image>
+      <Hyperlink>arrt_start_wuchkpas</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Visualizza registrazioni comprese nel periodo</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="608" y1="28" x2="648" y2="58">
+      <Name LinkID="95869005">images/save.gif</Name>
+      <Image>images/save.gif</Image>
+      <Hyperlink>Update()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Conferma i record selezionati</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="560" y1="28" x2="600" y2="58">
+      <Name LinkID="95869005">images/dese_all.gif</Name>
+      <Image>images/dese_all.gif</Image>
+      <Hyperlink>arrt_seldes_wuchkpas</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Deseleziona tutte le operazioni</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="512" y1="28" x2="552" y2="58">
+      <Name LinkID="95869005">images/sel_all.gif</Name>
+      <Image>images/sel_all.gif</Image>
+      <Hyperlink>arrt_seldes_wuchkpas</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Seleziona tutte le operazioni</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="752" y1="28" x2="792" y2="58">
+      <Name LinkID="95869005">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="148" x2="1380" y2="161">
+      <Name LinkID="36675736">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="135" x2="1380" y2="148">
+      <Name LinkID="113059763">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="116" x2="136" y2="132">
+      <Name LinkID="95869005">c_WUNOMEFILE</Name>
+      <Help></Help>
+      <Expression>c_WUNOMEFILE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="144" y1="116" x2="216" y2="132">
+      <Name LinkID="95869005">c_WURIFEMTCN</Name>
+      <Help></Help>
+      <Expression>c_WURIFEMTCN</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="224" y1="116" x2="272" y2="132">
+      <Name LinkID="95869005">c_WUCODDIPEN</Name>
+      <Help></Help>
+      <Expression>c_WUCODDIPEN</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="280" y1="116" x2="528" y2="132">
+      <Name LinkID="95869005">c_WUNCLIENTE</Name>
+      <Help></Help>
+      <Expression>c_WUNCLIENTE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="536" y1="114" x2="603" y2="135">
+      <Name LinkID="168480214">WUFLGSEL</Name>
+      <Comment>Selezionato per il passaggio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

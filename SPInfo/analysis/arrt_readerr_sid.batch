@@ -1,0 +1,88 @@
+﻿* --- Resource Vers. 0.9
+arrt_readerr_sid
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Stampa Ricevute SID Ricevute
+file_modified_on=#2019-10-17 08:06:38
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:23
+module_name='
+name='arrt_readerr_sid
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbricevutesid.esicodice
+'tbricevutesid.esidescri
+'tmp_esitosid.annorif
+'tmp_esitosid.numprog
+'tmp_esitosid.protocollo
+'tmp_esitosid.fileprot
+'tmp_esitosid.txtmsg
+'aeannora.anno
+'aeannora.prog1
+'aeannora.prog2
+'aeannora.fileanno
+'aeannora.idbase
+'aeannora.rapporto
+'aeoprig.anno
+'aeoprig.prog1
+'aeoprig.prog2
+'aeoprig.fileanno
+'aeoprig.idbase
+'aeoprig.connesint
+'tmp_esitosid.rapporto
+'aerighe.afile
+'aerighe.aprog
+'aerighe.idbase
+'aerighe.rapporto
+'aederig.afile
+'aederig.aprog
+'aederig.idbase
+'aederig.rapporto
+'aeoprig.afile
+'aeoprig.aprog
+'aeopcanc.idbase
+'aeopcanc.spedito
+'aeopcanc.progres
+]
+'Libraries
+[
+'FileLibMit<project>
+'LibreriaMit<project>
+]
+'Routines
+[
+'arfn_delzero
+]
+'Tables
+[
+'intermbo<table>
+'cpwarn<table>
+'tberrorisid<table>
+'tberrsiddgn<table>
+'tbricevutesid<table>
+'aesaldi<table>
+'tmp_esitosid<table>
+'tberrdge<table>
+'aerighe<table>
+'aederig<table>
+'aeoprig<table>
+'aeannora<table>
+'aeinvio<table>
+'aeopcanc<table>
+]
+}
+I
+*--*
+￼[]
+*--*

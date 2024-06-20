@@ -1,0 +1,76 @@
+/* ----------- PSTOOLTIP ----------- */
+
+.pstooltip-info {
+  position: absolute;
+  width: 22px;
+  font-style: normal;
+  text-align: center;
+  cursor: help;
+}
+
+.pstooltip-info::before {
+  display: inline-block;
+  content: "\e6f7";
+  font-family: "iMobileIcon";
+  font-size: 11px;
+  color: #00a0bd;
+}
+
+.pstooltip {
+  position: absolute;
+  font-family: "Open Sans";
+  z-index: 999999;
+  max-width: 196px;
+  font-size: 11px;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .8);
+  transition: visibility 0.25s linear, opacity 0.25s linear;
+}
+
+.pstooltip .icon.arrow:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.pstooltip.right .icon.arrow {
+  position: absolute;
+  left: 0;
+}
+
+.pstooltip.right .icon.arrow:before {
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid rgba(0, 0, 0, .8);
+  left: -8px;
+}
+
+.pstooltip.left .icon.arrow {
+  position: absolute;
+  right: 0;
+}
+
+.pstooltip.left .icon.arrow:before {
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid rgba(0, 0, 0, .8);
+  right: -8px;
+}
+
+.pstooltip ul {
+  margin-left: 1.4em;
+  margin-top: .5em;
+  padding: 0;
+}
+
+.pstooltip ul li {
+  margin-bottom: .5em;
+}
+
+.pstooltiphelp {
+  border : 2px solid #a3a3a3;
+}

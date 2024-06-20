@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>Flusso Rapporti per import da Saggio3D</description>
+    <note></note>
+    <variable>
+        <name>CodiceIstituto</name>
+        <description>Codice istituto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DataElaborazione</name>
+        <description>Data Elaborazione (AAAAMMGG)</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>ProceduraOrigine</name>
+        <description>Procedura Originante</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NumeroElettronicoOperante</name>
+        <description>Numero Elettronico Operante</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SottoNumeroOperazione</name>
+        <description>Sotto numero dell&apos;operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TipoRegistrazione</name>
+        <description>Tipo Registrazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DataOperazione</name>
+        <description>Data Operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>FilialeOperante</name>
+        <description>Filiale Operante</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CodiceOperatore</name>
+        <description>Codice Operatore</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TerminaleOperante</name>
+        <description>Terminale Operante</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>Transazione</name>
+        <description>Transazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>OperazioneCassa</name>
+        <description>Operazione di Cassa</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CausaleInterna</name>
+        <description>Causale Interna</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CodiceCausale</name>
+        <description>Codice Causale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>FlagContanti</name>
+        <description>Flag Contanti</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>ImportoTotale</name>
+        <description>Importo Totale</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>ImportoContante</name>
+        <description>Importo Contante</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>Segno</name>
+        <description>Segno</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CodiceDivisa</name>
+        <description>Codice Divisa</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NumeroRapporto</name>
+        <description>Numero Rapporto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TipoRapportoAUI</name>
+        <description>Tipo Rapporto Antiriciclaggio</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>FormaTecnica</name>
+        <description>Forma Tecnica del Rapporto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TipoRapportoIntermediario</name>
+        <description>Tipo Rapporto Intermediario</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CABSportello</name>
+        <description>CAB dello Sportello</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>Note</name>
+        <description>Note</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>FlagSaggio</name>
+        <description>Flag Saggio</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>FlagPostRep</name>
+        <description>Flag PostRep</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>FILLER1</name>
+        <description>Filler 1</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>Ragionevolezza</name>
+        <description>Ragionevolezza operazione in base attività svolta</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>Tipologia</name>
+        <description>Tipologia dell&apos;operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>Motivazione</name>
+        <description>Motivazione dell&apos;operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NaturaScopo</name>
+        <description>Natura/Scopo del rapporto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TipoVerifica</name>
+        <description>Tipo Verifica</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>ObbTitolareEff</name>
+        <description>Obbligatorietà Titolare Effettivo</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SocFiduciaria</name>
+        <description>Società Fiduciaria</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NumeroOperazione</name>
+        <description>Numero delloperazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>ImportoFineMese</name>
+        <description>Importo fine mese precedente</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>FlagObbFiduciante</name>
+        <description>Flag Obbligatorietà Fiduciante</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>FlagObbNumOpeLegame</name>
+        <description>Flag obbligatorietà numero operazione per connessione con legame</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NumOpeLegame</name>
+        <description>Numero operazione per connessione con legame</description>
+        <type>C</type>
+    </variable>
+</class>

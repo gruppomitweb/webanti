@@ -1,0 +1,358 @@
+@import url("../fonts/OpenSans.css");
+@font-face {
+  font-family: 'iMobileIcon';
+  src: url('../../fonts/iMobileIcon.eot');
+  src:  url('../../fonts/iMobileIcon.eot#iMobileIcon') format('embedded-opentype'),
+    url('../fonts/iMobileIcon.svg#iMobileIcon') format('svg'),
+    url('../fonts/iMobileIcon.woff') format('woff'),
+    url('../fonts/iMobileIcon.ttf') format('truetype');
+}
+body{
+  border:0;
+  overflow:hidden;
+  margin:0;
+  background-color:#fff;
+  font-family: Open Sans;
+  font-weight: 300;
+}
+
+label{
+  font-family:Open Sans;
+  font-weight: 700;
+  color:#000;
+  font-size:13px;
+  padding-left:2px;
+}
+
+table{
+  border-spacing:0;
+  border-collapse:collapse;
+}
+
+#content{
+  width: 100%;
+  overflow: auto;
+  height:440px;
+  background: none repeat scroll 0% 0% #f3f3f3;
+}
+
+#title{
+  text-align:left;
+  padding-left:8px;
+  font-family:Open Sans;
+  font-weight: 600;
+  padding-bottom:2px;
+  padding-top:7px;
+  font-size:14px;
+  color:#000;
+}
+
+.disabledButton {
+  background-color:#dddddd;
+  font-size: 11px;
+  font-family:Open Sans;
+  font-weight: 300;
+  color:#FFFFFF;
+  text-decoration: none;
+  padding:3px 5px;
+  margin:0px 2px 0px 0px;
+  border:none;
+}
+
+.columnDx{
+  float:right;
+  width:50%;
+}
+
+.columnSx{
+  float:left;
+  width:50%;
+}
+
+.column{
+  float:left;
+  width:100%;
+}
+
+.selectedRow{
+  /* border:1px solid #e3e3e3;  */
+  background:#f3f3f3;
+  color:#000;
+  /* font-weight:bold; */
+  padding-left:5px;
+  font-size:11px;
+  border-left:0 none;
+  /* padding:6px; */
+}
+
+.selectedTr{
+  border:2px solid #43afc3;
+  background:#f3f3f3;
+}
+
+.standardRow{
+  /* border:1px solid #e3e3e3;  */
+  color:#000;
+  font-weight:normal;
+  font-size:11px;
+  padding-left:5px;
+  border-left:0 none;
+}
+
+li:hover{
+  background-color:#f3f3f3;
+}
+
+tr{
+  background-color:#ffffff;
+  border-bottom:1px solid #E3E3E3;
+}
+
+.queryPar{
+  text-align:right;
+}
+
+.right{
+  border-right:0 none;
+}
+
+#tableContent{
+  padding:0;
+  background-color:#fff;
+  margin:0;
+  width:483px;
+}
+
+
+.list{
+  background-color:#fff;
+  margin:0;
+  padding:0px;
+  height:107px;
+}
+
+.list span{
+  width:236px;
+  display:inline-block;
+  font-size:13px;
+}
+
+.btn{
+  background:#fff;
+  border:0;
+  width:100%;
+  padding-bottom:2px;
+  height:21px;
+  text-align:right;
+}
+
+.titoli{
+  background:#f3f3f3;
+  border:1px solid #e3e3e3;
+}
+
+.title{
+  background:#f3f3f3;
+  border:1px solid #e3e3e3;
+  text-align:left;
+  padding-left:8px;
+  font-family:Open Sans;
+  font-weight: 600;
+  padding-bottom:2px;
+  padding-top:7px;
+  font-size:14px;
+  color:#000;
+
+}
+
+.selectedField{
+  background-color:#f3f3f3;
+  border: 2px solid #43afc3;
+}
+
+.lbl{
+  font-weight:bold;
+  font-size:12px;
+  color:#000;
+  font-family:Open Sans;
+  font-weight: 300;
+}
+
+li{
+  list-style-type:none;
+  border-bottom:1px solid #e3e3e3;
+}
+
+.standardRow{
+  font-family:Open Sans;
+  font-weight: 600;
+  font-size:13px;
+  color:#000;
+}
+
+.selectedRow{
+  font-family:Open Sans;
+  font-weight: 600;
+  font-size:13px;
+  color:#000;
+}
+
+.right{
+  font-family:Open Sans;
+  font-weight: 300;
+  color:#9e9e9e;
+}
+
+li p{
+  margin:0;
+}
+
+#CancelButton{
+  background-color:#000;
+}
+
+#footer{
+  padding-left:0px;
+  height:28px;
+  padding-top:3px;
+}
+
+.light{
+  font-family:Open Sans;
+  font-weight: 300;
+  padding:6px;
+}
+
+#removeValue{
+  background:#000;
+}
+
+.selectedTr td{
+  background-color:#f3f3f3;
+}
+
+input, select{
+  background-color:transparent;
+  color:#000;
+  font-size:13px;
+  font-family:Open Sans;
+  font-weight: 600;
+  padding:0px 0px 0px 2px;
+  line-height:18px;
+  margin:0px 2px 0px 0px;
+  border-width: 4px 1px;
+  border-style:solid;
+  border-color:transparent;
+  border-radius: 0px;
+  -webkit-border-image: url(../portalstudio/images/border_search.png)  4 4 7 4 round round;
+  -moz-border-image: url(../portalstudio/images/border_search.png)  4 4 7 4 round round;
+  border-image-source: url(../portalstudio/images/border_search.png);
+  border-image-slice: 0 4 7 4;
+  border-image-width: 1 1 ;
+  border-image-repeat: round round;
+  box-sizing: border-box;
+}
+
+#result{
+  position:relative;
+  bottom:2px;
+}
+
+#maskSearch{
+  border:1px solid #e3e3e3;
+  background-color:#f3f3f3;
+
+}
+
+#maskSearch label{
+  font-family:Open Sans;
+  font-weight: 300;
+  color:#818181;
+  font-size:11px;
+}
+
+.tab{
+  font-size:11px;
+  color:#000;
+  background:#d5d5d5;
+  cursor:pointer;
+  margin:0px 4px 0px 0px;
+  padding:2px 3px;
+  float:right;
+}
+
+.tabSelected{
+  color:#fff;
+  background-color:#00A0BD;
+}
+
+#search{
+  margin-top:10px;
+  margin-left:5px;
+  margin-right:5px;
+}
+ .bottoni,.disabledButton{
+  cursor:pointer;
+}
+
+#missingFields, #updatedFields{
+  height:190px;
+}
+
+#selectQuery, #editQuery{
+  width:20px;
+  height:20px;
+  font-family: iMobileIcon;
+  color: #00A0BD;
+  font-size: 16px;
+  vertical-align: bottom;
+  line-height: 18px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.zicon {
+  font-family: iMobileIcon;
+  width: 20px;
+  height: 20px;
+  color: #00A0BD;
+  font-size: 10px;
+  line-height: 16px;
+  cursor: pointer;
+  font-style: normal;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #00A0BD;
+  box-sizing: border-box;
+}
+
+.add-zicon::after {
+  content: '\e702';
+}
+
+.remove-zicon::after {
+  content: '\e701';
+}
+
+.customTable li {
+  padding: .5em;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: 'Open Sans';
+}
+
+.customTable li > * {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.customTable li > .field {
+  font-weight: 600;
+}
+
+.customTable li > .description {
+  font-weight: 300;
+  color: #9e9e9e;
+  font-size: 13px;
+}

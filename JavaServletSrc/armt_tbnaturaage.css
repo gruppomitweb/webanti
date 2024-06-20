@@ -1,0 +1,17 @@
+.FormDefault {margin:0;position:relative;font-family:Tahoma;font-size:8pt;}
+INPUT {font-family:Tahoma;font-size:8pt;}
+SELECT {font-family:Tahoma;font-size:8pt;}
+TEXTAREA {font-family:Tahoma;font-size:8pt;}
+IMG {border:0;}
+#NJXTDVWJFG {top:7px;position:absolute;left:96px;height:20px;width:32px;font-family:Tahoma;font-size:8pt;font-weight:bold;z-index:1; }
+#QRMXWDHUWA_DIV {top:11px;position:absolute;text-align:right;font-family:Tahoma;font-size:8pt;font-weight:bold;z-index:1;}
+BODY:not([ettl]) #QRMXWDHUWA_DIV {left:8px;height:16px;width:87px;}
+BODY[ettl='old'] #QRMXWDHUWA_DIV {left:8px;height:16px;width:87px;}
+BODY[ettl='yes'] #QRMXWDHUWA_DIV {right:calc(100% - 95px);}
+#BSZSUVSKNS {top:35px;position:absolute;left:96px;height:20px;width:612px;z-index:1; }
+#ECMZYXKEML_DIV {top:39px;position:absolute;text-align:right;z-index:1;}
+BODY:not([ettl]) #ECMZYXKEML_DIV {left:0px;height:16px;width:95px;}
+BODY[ettl='old'] #ECMZYXKEML_DIV {left:0px;height:16px;width:95px;}
+BODY[ettl='yes'] #ECMZYXKEML_DIV {right:calc(100% - 95px);}
+#QRMXWDHUWA_DIV, #ECMZYXKEML_DIV {overflow:hidden;}
+#NJXTDVWJFG, #BSZSUVSKNS {box-sizing : border-box;}

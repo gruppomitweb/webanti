@@ -1,0 +1,40 @@
+﻿* --- Resource Vers. 0.9
+arrt_aggstatorapprv
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Aggiorna Stato Intestatari / Delegati Rapporti Provvisori
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_aggstatorapprv
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'xtatorap.rapporto
+'xtatorap.codinter
+'xtatorap.dataini
+'xtatorap.datafine
+'xtatorap.tipopers
+'xtatorap.statorap
+]
+'Tables
+[
+'statorap<table>
+'xtatorap<table>
+]
+}
+I
+*--*
+￼[]
+*--*

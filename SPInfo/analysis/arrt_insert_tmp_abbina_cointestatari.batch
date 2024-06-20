@@ -1,0 +1,51 @@
+﻿* --- Resource Vers. 0.9
+arrt_insert_tmp_abbina_cointestatari
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:38
+description='Selezione abbinamento cointestati
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:21
+module_name='
+name='arrt_insert_tmp_abbina_cointestatari
+state=1
+type='batch
+used_resource_keys={
+'Queries
+[
+'qbe_ae_abbina_cointestati_1.vqr
+]
+'Tables
+[
+'tmp_abbina_cointestatari<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_insert_tmp_abbina_cointestatari|Error|core::document|Update dependencies|Resource "arpg_abbina_cointestatari" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:21
+message='Resource "arpg_abbina_cointestatari" not found.
+resource_key='arrt_insert_tmp_abbina_cointestatari
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

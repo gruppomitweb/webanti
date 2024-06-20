@@ -1,0 +1,198 @@
+ 1
+"Operazioni Frazionate"
+"fraziobo"
+"fraziobo"
+ 0
+ 0
+*
+ 11
+"Data Operazione"
+"fraziobo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Numero Progressivo"
+"fraziobo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data registrazione"
+"fraziobo.DATAREG"
+"DATAREG"
+"D"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Causale Analitica"
+"fraziobo.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Causale Sintetica"
+"fraziobo.CODVOC"
+"CODVOC"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Divisa"
+"fraziobo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Totale Operazione"
+"[CASE(valuta,ý018ý,TOTLIRE,TOTLIRE/100)]"
+"TOTLIRE"
+"N"
+ 13
+ 2
+ 0
+.f.
+""
+""
+.f.
+*
+"di cui contanti"
+"[CASE(valuta,ý018ý,TOTCONT,TOTCONT/100)]"
+"TOTCONT"
+"N"
+ 15
+ 2
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato registrazione"
+"fraziobo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Idbase"
+"fraziobo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato Registrazione"
+"[CASE(fraziobo.STATOREG,ý0ý,ý#00FF00ý,ý1ý,ý#0000FFý,ý2ý,ý#FF0000ý,ý#FFFF00ý)]"
+"COLORE"
+"C"
+ 7
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 0
+ 1
+"fraziobo.CONNESCLI"
+""
+"="
+"?w_CONNES"
+"AND"
+""
+""
+*
+ 1
+"Data Operazione"
+"DATAOPE"
+"Descending"
+*
+ 0
+ 0
+ 1
+"w_CONNES"
+"Codice Cliente Occasionale"
+"C"
+"16"
+"0"
+""
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 4
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"CsF%23M%3DV%3D%298%3A%28L%22*%5CLA%24%23%2B%21F%22%25DU.Q_%40U5H%1B%3B%22P%04ABy%3C2B8%24%25__7%5B%26%29%2F%26GXMOOMJWQEF%1B9%26%258C4%5Do2%27%3E%3D%7E7%5E%189%2FT45%3FWU%23S6H0*KO%2B%5B%3E-%06%5BRY%5D%2C.%3A%3C-A%3D.%29%28T%3AE1E%3EK%2C%3A%2BV8%15D%3F%244%3FV%5CVM3%28*%10%23Q%3CN%25%25%3AW%3DB%2FS8%5Dt3sN%06%23*%3F%3A1Q%05IYD%5C%3BM+%3B%24ZOA%2BH4%3A%26%26%21FtDAGIV1%24%3B%223%24%26OM%22%5B%1C%2C%11%0B%2BPIG%5E%27SO%18%1EHa%5CS%5BKA-.%29%2F%2BN%22T%23%40XBI6G%2B%7CA4%1AT%238EFB%00"
+"V%27h%2BUWt9%21I9%40%28%5EE%5C%3E1P%2F+3H%24%5D%5DYBT+6_AK*%26BX.Y7W4%3C-%13%2FJQR%27_6QO%3C%2BK6%23X7Y%5CR%3BG%29%01%3A%3A5%5BJR%5C%3D%14%2CWS%3FT71E%24LA%27AMuJ8%29V%045*51%2C7%05%269%7BU%23%3B%25%26%7D%40KB%3B%23S%22%24%26%26K%25%27%5BKLTJO4XFX%3A%23%40D%3C%227N%3C%26iE%3C%05%16ZM%3EEI_A%25%3DE87%227%257I%3A%5D_Y%5C%3C%3A%40%23*_9B%3B%2F%2B*2E%22DH%24A%3B%5CH%3A%2F8E%223%28%26Z%5CW4DH16%7EA%5E3RH0%29%28I*UOR7D%3E-%28.I%29%13P6LA%2670%141%2F.UG%22%3A4%3EKG%2B%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

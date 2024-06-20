@@ -1,0 +1,169 @@
+ 4
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Master)"
+"aetesta"
+"aetesta"
+ 0
+ 0
+*
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Detail)"
+"aerighe"
+"aerighe"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+"Tipi Rapporti Agenzia Entrate"
+"tbrapp"
+"tbrapp"
+ 0
+ 0
+*
+ 13
+"Codice Rapporto"
+"aetesta.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Codice Intestatario"
+"aerighe.CONNESINT"
+"CONNESINT"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Data Apertura"
+"aerighe.ADATA"
+"ADATA"
+"D"
+ 8
+ 0
+*
+"Riferimento Spedizione Apertura"
+"aerighe.APROG"
+"APROG"
+"C"
+ 25
+ 0
+*
+"Data Chiusura Rapporto"
+"aerighe.CDATA"
+"CDATA"
+"D"
+ 8
+ 0
+*
+"Riferimento spedizione chiusura"
+"aerighe.CPROG"
+"CPROG"
+"C"
+ 25
+ 0
+*
+"File Apertura"
+"aerighe.AFILE"
+"AFILE"
+"C"
+ 15
+ 0
+*
+"File Chiusura"
+"aerighe.CFILE"
+"CFILE"
+"C"
+ 15
+ 0
+*
+"Tipo Conto"
+"[CASE(aetesta.COINT,ý1ý,ýCointestatoý,ý2ý,ýNon Cointestatoý)]"
+"DESCINT"
+"C"
+ 20
+ 0
+*
+"Tipo Rapporto"
+"aetesta.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbrapp.DESCRI"
+"DESCRI"
+"C"
+ 50
+ 0
+*
+"Tipo Conto"
+"aetesta.COINT"
+"COINT"
+"C"
+ 1
+ 0
+*
+ 3
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Detail)(Codice Rapporto)"
+"aetesta.RAPPORTO=aerighe.RAPPORTO"
+"Left outer"
+"aetesta"
+"aerighe"
+*
+"Soggetti"
+"personbo.CONNES=aerighe.CONNESINT"
+"Right outer"
+"personbo"
+"aerighe"
+*
+"Tipo Rapporto"
+"tbrapp.CODICE=aetesta.TIPOAG"
+"Right outer"
+"tbrapp"
+"aetesta"
+*
+ 0
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 6
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"wYVLTCAO%2FRM9D%5B%27UO%25%3C%40%01%11I%3DBZ%29%5DnOF8I%3A%22%2F%3D4*t3G41G9WWJ%3C7S%21*6%40L%27DZ%29Y%241%3DB0NQ%22%260H%5DyP52%105PW%3FC%23%25%29N2%3BP2-U%5BO%5E**D9Z%25%28%5C%5CjMU.M74_9I%3FZ%2B%27B%1B%3FK%3CAL0SZ+B-%3A8%3F%2B%24%5B1T8%28%3A64FRQ7W%158O%406P%5C%29%217%2CY6C8L8K%27%5B-7x%5D%3DGL%08L%3Ai%24%282QLO9BJ%26S1Db%3A%235D%223%22%25J1YH2-%3D%26PJEN%3D5%3AM*+%5B%3CGPm.%3E-H%3C%21T%2CP%29*7zI%3B%3F2X%5DM8%3B-L%3E%23D%29%00"
+"VU%3EG7UI%3A%24C6BMV%7FQ43%2B-_%23EBTU+%5EH+I5%40%3BKSE4W%2C%3DMT106YEWU1%2BEU%28%2C%25ADFwP%21Q%25L%3CL8H9%2C%2F4z2%1F%244%0BRR_G%5B%27%3B%27H.H%3FF%2C%3C%2B03HMDXB%21%5EHZQV%27%2B4+KI%3A%26%3F%2F%3A%29K%2CNPwV%3DZ47J%22%28%00I%2FR%23P%24EE%24O%3CQZL%1A_%25%25%2FB0OHZ-oZ_S6K%29%5EN8%3CAY%27BL*M%3E%7E0A%21%2BE6A4%1D%40cAEHVL%27%2B.%23%223-%26%2BYVC-J%25%5BZR%5D%22%2B790AJ%2FSDNJ%23b%04%405-%00%26%5BPK%3EzHDA%3F%5D%2C%40%3A%1A%3F%2F70%2B%29%00"
+""
+""
+"native"
+ 0
+ 0
+*

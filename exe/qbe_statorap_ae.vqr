@@ -1,0 +1,88 @@
+ 2
+"Intestatari rapprorto"
+"jntestbo"
+"jntestbo"
+ 0
+ 0
+*
+"Anagrafica Persone/Clienti/Società/Fornitori"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 5
+"Intestatario (Non Intermediario)"
+"jntestbo.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Data Inizio"
+"jntestbo.DATAINI"
+"DATAINI"
+"D"
+ 10
+ 0
+*
+"Data Fine"
+"jntestbo.DATAFINE"
+"DATAFINE"
+"D"
+ 10
+ 0
+*
+"Tipo Soggetto"
+"jntestbo.TIPOPERS"
+"TIPOPERS"
+"C"
+ 1
+ 0
+*
+ 1
+"Anagrafica Persone"
+"personbo.CONNES=jntestbo.CODINTER"
+"Right outer"
+"personbo"
+"jntestbo"
+*
+ 1
+"jntestbo.RAPPORTO"
+""
+"="
+"?w_rapporto"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"w_rapporto"
+"Rapporto"
+"C"
+"25"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 13
+.f.
+*

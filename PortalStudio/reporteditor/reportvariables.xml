@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ReportVariables>
+  <variable>
+    <name>nNumPage</name>
+    <comment>Page number</comment>
+    <description>Page number as numeric
+    Can be used for condition expression
+    Can be used with transformation, (ex. Str(nNumPage, 4, 0))
+    </description>
+    <type_value>numeric</type_value>
+    <len>4</len>
+    <dec>0</dec>
+  </variable>
+  <variable>
+    <name>nNumPageStr</name>
+    <comment>Page number as character</comment>
+    <description>Page number as character
+    Can NOT be used for condition expression :  cannot be evaluated as string
+    <b>MUST be used WITHOUT transformation (ex. 'Page ' + nNumPageStr) : nNumPageStr will be replaced as string in expression</b>
+    </description>
+    <type_value>character</type_value>
+    <len>4</len>
+    <dec>0</dec>
+  </variable>
+  <variable>
+    <name>nTotalPages</name>
+    <comment>Total page number</comment>
+    <description>Total page number as numeric
+    Can NOT be used for condition expression :  cannot be evaluated until document is finished
+    <b>Can NOT be used with transformation, (ex. Str(nTotalPages, 4, 0)) : expression will be replaced by nTotalPages</b>
+    </description>
+    <type_value>numeric</type_value>
+    <len>4</len>
+    <dec>0</dec>
+  </variable>
+  <variable>
+    <name>nTotalPagesStr</name>
+    <comment>Total page number as character</comment>
+    <description>Total page number as character
+    Can NOT be used for condition expression :  cannot be evaluated as string
+    <b>MUST be used WITHOUT transformation (ex. 'Page ' + nTotalPagesStr) : nTotalPagesStr will be replaced as string in expression</b>
+    </description>
+    <type_value>character</type_value>
+    <len>4</len>
+    <dec>0</dec>
+  </variable>
+</ReportVariables>

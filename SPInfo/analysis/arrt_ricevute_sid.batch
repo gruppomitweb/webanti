@@ -1,0 +1,104 @@
+﻿* --- Resource Vers. 0.9
+arrt_ricevute_sid
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Lancia Esecuzione SID Ricevute
+file_modified_on=#2020-06-10 16:04:40
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:24
+module_name='
+name='arrt_ricevute_sid
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbricevutesid.esicodice
+'tbricevutesid.esidescri
+'tmp_esitosid.annorif
+'tmp_esitosid.numprog
+'tmp_esitosid.protocollo
+'tmp_esitosid.fileprot
+'tmp_esitosid.txtmsg
+'aeannora.anno
+'aeannora.prog1
+'aeannora.fileanno
+'aeannora.idbase
+'aeannora.rapporto
+'aeannora.prog2
+'aeannora.esitoanno
+'aeoprig.anno
+'aeoprig.prog1
+'aeoprig.prog2
+'aeoprig.fileanno
+'aeoprig.idbase
+'aeoprig.connesint
+'aeoprig.esitoanno
+'aeinvio.anno
+'aeinvio.prog1
+'aeinvio.prog2
+'aeinvio.fileanno
+'aeinvio.esitoanno
+'tmp_esitosid.rapporto
+'aesaldi.anno
+'aesaldi.nomefile
+'aesaldi.protocollo
+'aesaldi.idbase
+'aesaldi.fileinv1
+'aesaldi.fileinv2
+'aesaldi.tipo
+'aerighe.afile
+'aerighe.aprog
+'aerighe.idbase
+'aerighe.rapporto
+'aerighe.esitoanno
+'aederig.afile
+'aederig.aprog
+'aederig.idbase
+'aederig.rapporto
+'aederig.esitoanno
+'aeoprig.afile
+'aeoprig.aprog
+]
+'Libraries
+[
+'FileLibMit<project>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_tot_annoora.vqr
+]
+'Routines
+[
+'arfn_delzero
+]
+'Tables
+[
+'intermbo<table>
+'cpwarn<table>
+'tberrorisid<table>
+'tberrsiddgn<table>
+'tbricevutesid<table>
+'aesaldi<table>
+'tmp_esitosid<table>
+'tberrdge<table>
+'aerighe<table>
+'aederig<table>
+'aeoprig<table>
+'aeannora<table>
+'aeinvio<table>
+]
+}
+I
+*--*
+￼[]
+*--*

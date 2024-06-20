@@ -1,0 +1,74 @@
+﻿* --- Resource Vers. 0.9
+arrt_stpverage_do_wu
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:41
+description='Crea file per stampa verifica AGE WU
+file_modified_on=#2022-08-04 12:35:04
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:28
+module_name='
+name='arrt_stpverage_do_wu
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbcitta.sigla
+'tbcitta.citta
+'tbcitta.prov
+'tbstati.sigla
+'tbstati.descri
+'tmp_stpverage_do.numrap
+'tmp_stpverage_do.descriz
+'tmp_stpverage_do.tipoerr
+'tmp_stpverage_do.motivo
+'opextrbo.colleg
+'opextrbo.dataope
+'opextrbo.cfestero
+'tmp_stpverage_do.datope
+'tmp_stpverage_do.tipo
+'tmp_stpverage_do.idbase
+]
+'Libraries
+[
+'ReportLibrary<painter>
+]
+'Queries
+[
+'qbe_stpverage_do_wu_count.vqr
+'qbe_chkopex_wu_1_minmax.vqr
+'qbe_chkopex_wu_1.vqr
+'qbe_chkopex_wu_2_minmax.vqr
+'qbe_chkopex_wu_2.vqr
+]
+'Routines
+[
+'arfn_chkcodfis
+'arfn_fdate
+'arrt_calccodfis
+]
+'Tables
+[
+'intermbo<table>
+'tmp_stpverage_do<table>
+'personbo<table>
+'tbcitta<table>
+'tbstati<table>
+'aederig<table>
+'aeoprig<table>
+'tmp_aafiles<table>
+'opextrbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

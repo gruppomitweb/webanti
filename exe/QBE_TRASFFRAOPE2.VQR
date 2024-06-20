@@ -1,0 +1,160 @@
+ 1
+"Operazioni Frazionate"
+"fraziobo"
+"fraziobo"
+ 0
+ 0
+*
+ 4
+"Codice Cliente Occasionale"
+"fraziobo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Segno"
+"fraziobo.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+*
+"Totale Operazione"
+"SUM(fraziobo.TOTLIRE)"
+"TOTLIRE"
+"N"
+ 15
+ 0
+*
+"di cui contanti"
+"SUM(fraziobo.TOTCONT)"
+"TOTCONT"
+"N"
+ 15
+ 0
+*
+ 0
+ 8
+"fraziobo.DATAOPE"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"fraziobo.DATAOPE"
+""
+"<="
+"?w_adata"
+"AND"
+""
+*
+"[NOTEMPTYSTR(fraziobo.CONNESCLI)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYSTR(fraziobo.RAPPORTO)]"
+""
+"="
+"0"
+"AND"
+""
+*
+"fraziobo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+*
+"fraziobo.SEGNO"
+""
+"="
+"ýAý"
+"AND"
+""
+*
+"fraziobo.TOTLIRE"
+""
+">="
+"?w_minfraz"
+"AND"
+""
+*
+"SUM(fraziobo.TOTLIRE)"
+""
+">="
+"?w_importo"
+"AND"
+"Having"
+*
+ 0
+ 2
+"Codice Cliente Occasionale"
+"CONNESCLI"
+*
+"Segno"
+"SEGNO"
+*
+ 0
+ 4
+"w_dadata"
+"Data Operazione"
+"D"
+"8"
+"0"
+""
+*
+"w_adata"
+"Data Operazione"
+"D"
+"8"
+"0"
+""
+*
+"w_minfraz"
+"Totale Operazione"
+"N"
+"15"
+"0"
+""
+*
+"w_importo"
+"Totale Operazione"
+"N"
+"15"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 5
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"_Wj%5DGRDFFo%1D%24D%21%27%5D18%5D.Q%3D2%1F%5C1v%23CB%3D%2C%3EB7YG4%21%23_Q%3F%2C%3B7%26.%3C%5D+X2.K%3D9T%5DORDI0S%213-%25%25%22%29U6H%5BGDO1_K%3B%2BQF3-%1BGXLUGo%24%3A8E%2C%19%02H%22%3EN%3D%2BE-G%3D+%2Fj%40CP5_C93VW%24MI%22%3D-ILO%5C%278Vt5%2B%4069%3D%24U8EK-G%3DM2.r%3E*%5En%254W6G%40%3D%267%04%2BQ%27Q%21%15%27%2BAKK91GZJ%2FA-%5D%5ELAFN%29%17MD%223%29%25%5BTOm9F0%3F-TZ%3F%26+%29K%18H%2BD*%22UR6%25*M53%11%2F%3FE2xo%1F%3E%27%24%40PSDWGW%3CL%27%00"
+"HC6O47.P%5D9D%3E57E%3C8%1AX8%2F2ML%21%60%26%231N%5D2%2BJ%251+SUKh%28PG%14%2F%29Ehh%22Y3%0013%2C*N+I%3CQ0%5DC%25%3FZ%3EZTADx2L8%22_H%5D%5EB_+TO4A%249%28%5E1EN8%21%40F%3F%3BY%29N4%21UKD*%5DQ%3EjG%073%285B%2CsTVQ8NaW%2F%29LUF%27_KDWJ%3AK-+%5C7%3D%3B9A%3D%138%28PHQ%5BMV%3D%25%16L8%25%1050AjJ8KB%3DQ%2FO5%21%2B9%2C%12%3C0%29Z%23A0_%5C%2B5%2F6%223.%25%5B8J5KL%10QQHA%3A%2F*%3D%10+ARK%27%27%3ENG%2F%28%23%29XI%2FUtIXH3C1WBO%5E*%07%3F0%2B2J%00"
+""
+""
+"native"
+ 0
+ 0
+*

@@ -1,0 +1,110 @@
+ 2
+"Soggetti conto informazioni"
+"intestbo"
+"intestbo"
+ 5
+ 5
+*
+"Anagrafica Rapporti"
+"anarapbo"
+"anarapbo"
+ 179
+ 139
+*
+ 1
+"Progressivo Import"
+"MAX(intestbo.PRGIMPSOG)"
+"MAXIMPSOG"
+"Numeric"
+ 15
+ 0
+*
+ 1
+"Anagrafica Rapporti"
+"anarapbo.RAPPORTO=intestbo.RAPPORTO"
+"Right outer"
+"anarapbo"
+"intestbo"
+*
+ 7
+"[NOTEMPTYSTR(intestbo.CODINTER)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(intestbo.DATAFINE)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(intestbo.DATAINI)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"intestbo.TIPOPERS"
+""
+"<>"
+"ýDý"
+"AND"
+""
+*
+"intestbo.DATAFINE"
+""
+">="
+"?w_datprf"
+"AND"
+""
+*
+"intestbo.DATAFINE"
+""
+"<="
+"?w_datpri"
+"AND"
+""
+*
+"anarapbo.NOPROT"
+""
+"="
+"0"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_datpri"
+"Data Inizio"
+"Date"
+"8"
+"0"
+""
+*
+"w_datprf"
+"Data Fine"
+"Date"
+"8"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 13
+.f.
+""
+*

@@ -1,0 +1,42 @@
+﻿* --- Resource Vers. 0.9
+arrt_start_test_vlt
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:40
+description='Lancia Test VLT
+file_modified_on=#2020-08-11 15:15:40
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:25
+module_name='
+name='arrt_start_test_vlt
+state=1
+type='batch
+used_resource_keys={}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_start_test_vlt|Error|core::document|Update dependencies|Resource "vlt.htm" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:25
+message='Resource "vlt.htm" not found.
+resource_key='arrt_start_test_vlt
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

@@ -1,0 +1,133 @@
+/*overwrite pstooltip.css*/
+.pstooltip {
+    background-color: transparent;
+    padding: 0;
+    transition:all .5s ease;
+	max-width:250px;
+}
+.pstooltip.right {
+    margin-left: 10px;
+}
+.pstooltip.left {
+    margin-left: -10px;
+}
+.pstooltiphelp {
+    border: 0px solid yellow;
+    background-color: yellow;
+}
+label.pstooltiphelp {
+    top:0;
+    position:absolute;
+    z-index:-1;
+    border: 0px solid yellow !important;
+    background-color: yellow !important;
+}
+.pstooltip.right .icon.arrow:before {
+    border-right: 8px solid #00000089;
+}
+.pstooltip.left .icon.arrow:before {
+    border-left: 8px solid #00000089;
+}
+/* end  overwrite pstooltip.css*/
+
+.wizard_layer_custom {
+	position:relative;
+}
+.wizardform_custom {
+	display: flex;
+	justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+	font-family:'Open Sans', sans-serif;
+	color: #fff;
+	background-color: #00000089;
+	padding: 0 15px;
+}
+.lab_wiz_stepper_custom {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	width:auto;
+}
+.lab_wiz_toolbar_custom {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.lab_wiz_fase_evid_custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 7px;
+    /* left: -30px; */
+    background-color: #1BBAE1;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.15), 2px 2px 3px rgba(0,0,0,.2);
+}
+.lab_wiz_titolo_custom {
+    font-size: 18px;
+    line-height: 18px;
+    color: #1BBAE1;
+    font-weight: 600;
+    text-align: left;
+    width: calc(100% - 76px);
+    height: auto;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.lab_wiz_desc_custom {
+	font-size:15px;
+	width:100%;
+    max-height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+	margin-top: 15px;
+}
+.lab_wiz_func_custom,
+.lab_wiz_fase_custom,
+.lab_wiz_fasi_custom,
+.wiz_prec_custom,
+.wiz_succ_custom,
+.lab_wiz_close_custom {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width: 30px;
+    height: 36px;
+}
+.lab_wiz_func_custom::before,
+.wiz_prec_custom::before,
+.wiz_succ_custom::before,
+.lab_wiz_close_custom::before {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-family: icons8_win10;
+	color: #fff;
+	font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.wiz_prec_custom::before {
+	content: '\f144';
+}
+.wiz_succ_custom::before {
+	content: '\f145';
+}
+.lab_wiz_close_custom::before {
+	content: '\f048';
+}
+.lab_wiz_close_custom {
+	position: relative;
+    right: -15px;
+}
+

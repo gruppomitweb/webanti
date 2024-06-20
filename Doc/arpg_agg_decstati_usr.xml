@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="164658295">
+  <CodifyName>arpg_agg_decstati</CodifyName>
+  <Name>arpg_agg_decstati.pagedef</Name>
+  <Title>Aggiorna Decodifica Stati</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="34805383"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_agg_decstati_usr_1</JPG>
+    <Item type="immagine" x1="744" y1="12" x2="786" y2="44">
+      <Name LinkID="164656775">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Chiudi la procedura senza elaborare i dati</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="688" y1="12" x2="730" y2="44">
+      <Name LinkID="164656775">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_agg_decstati</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Aggiorna e trasferisci i movimenti collegati agli stati modificati</Help>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="134" x2="1380" y2="147">
+      <Name LinkID="51581097">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="121" x2="1380" y2="134">
+      <Name LinkID="50594439">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="103" x2="80" y2="119">
+      <Name LinkID="164656775">c_id</Name>
+      <Help></Help>
+      <Expression>c_id</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="88" y1="103" x2="464" y2="119">
+      <Name LinkID="164656775">c_account</Name>
+      <Help></Help>
+      <Expression>c_account</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="472" y1="101" x2="520" y2="121">
+      <Name LinkID="5718919">CODSTA</Name>
+      <Comment>Codice</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="632" y1="12" x2="674" y2="44">
+      <Name LinkID="164656775">images/save.gif</Name>
+      <Image>images/save.gif</Image>
+      <Hyperlink>Update()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Conferma i dati modificati</Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

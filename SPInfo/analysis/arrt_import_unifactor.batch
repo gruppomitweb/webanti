@@ -1,0 +1,75 @@
+﻿* --- Resource Vers. 0.9
+arrt_import_unifactor
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:36
+description='Import Dati (Unifactor / IFIR)
+file_modified_on=#2024-02-29 14:57:17
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:16
+module_name='
+name='arrt_import_unifactor
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'tbstati.iso
+'tbstati.descri
+'anarapbo.rapporto
+'anarapbo.tiporap
+'anarapbo.tipoag
+'knarapbo.rapporto
+'knarapbo.tiporap
+]
+'Libraries
+[
+'FileLibMit<project>
+'LibreriaMit<project>
+]
+'Others
+[
+'armt_personbo
+'armt_rapotit
+'armt_informazioni
+'armt_ofrazionate
+'armt_operazioni
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_ae_agg_aetesta
+'arrt_ae_agg_aetesta_tit
+'arrt_crea_idereg
+'arrt_import_unifactor
+'arrt_writelog
+]
+'Tables
+[
+'anarapbo<table>
+'fraziobo<table>
+'knarapbo<table>
+'operazbo<table>
+'opextrbo<table>
+'personbo<table>
+'personbo_agg<table>
+'tbcauana<table>
+'tbcitta<table>
+'tbstati<table>
+'tmp_list_imprich<table>
+'wersonbo<table>
+'xersonbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

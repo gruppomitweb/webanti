@@ -1,0 +1,1417 @@
+* --- CodePainter Revolution Batch Vers. 4.7
+Icpbatch.CPBatch
+Items=[
+Icpitembatch.CPBeginEnd
+comment='variabili caller e globali
+h=[
+19
+19
+]
+next=Icpitembatch.CPBeginEnd
+comment='Definizione variabili locali x dati
+h=[
+19
+19
+]
+next=Icpitembatch.CPBeginEnd
+comment='variabili locali XLS
+h=[
+19
+19
+]
+next=Icpitembatch.CPBeginEnd
+comment='Variabli per suddivisione
+h=[
+19
+19
+]
+next=Icpitembatch.CPVarDecl
+len=3
+name='_nrep
+next=Icpitembatch.CPDropTemporaryTable
+next=Icpitembatch.CPServerTemporaryTable
+next=Icpitembatch.CPVarDecl
+frm_calc=''esiti'+DateTimeToChar(DateTime())+".xls"
+len=50
+name='nomeesito
+next=Icpitembatch.CPVarDecl
+frm_calc='LRTrim(gPathApp)+"/output/"+nomeesito
+len=50
+name='nomefilexls
+next=Icpitembatch.CPBeginEnd
+comment='creo testata + dati base
+h=[
+19
+19
+]
+next=Icpitembatch.CPRemark
+frm_calc='leggo la tabella ordinata x esito
+next=Icpitembatch.CPSelect
+h=[
+19
+19
+]
+next=Icpitembatch.CPBeginEnd
+comment='aggiusta ultimo foglio e chiude file
+h=[
+19
+19
+]
+next=Icpitembatch.CPVarDecl
+comment='Messaggio allineamento 1
+frm_calc=''Fine Elaborazione.'
+global=True
+len=10
+name='gMsgImp
+next=Icpitembatch.CPInsert
+arch='tmp_prnesiti
+next=Icpitembatch.CPVarDecl
+frm_calc='_nrep + 1
+len=3
+name='_nrep
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'_nrep = 0
+]
+h=[
+19
+19
+19
+]
+haselse=True
+obj='If
+pag=1
+prev=O25
+sons=[
+Icpitembatch.CPItemSon
+instr=Ispitembatch.CPReturn
+father=O26
+fatherSonIndex=0
+lnk_page='arpg_allinea_anagrafiche_noreport
+lnk_type='page
+obj='Return
+pag=1
+page_return=Nil
+I
+I
+Icpitembatch.CPItemSon
+instr=Ispitembatch.CPReturn
+father=O26
+fatherSonIndex=1
+lnk_page='arpg_import_esito_dettaglio_report
+lnk_type='page
+obj='Return
+pag=1
+page_return=Nil
+I
+I
+]
+w=[
+150
+150
+150
+]
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O24
+var_op='asgn
+I
+obj='Insert
+pag=1
+prev=O23
+rd_kfield=[
+'ESITO
+'NOMREP
+]
+rd_kvar=[
+''File excel di esito'
+'nomeesito
+]
+I
+nonlocal=True
+obj='Var
+obj_type='M
+pag=1
+prev=O21
+var_op='asgn
+I
+obj='Begin
+pag=1
+prev=O19
+sons=[
+Icpitembatch.CPItemSon
+collapsed=True
+instr=Icpitembatch.CPExec
+check='man
+father=O21
+fatherSonIndex=0
+frm_calc="//Aggiusta le colonne
+CellView cf = new CellView();
+cf.setAutosize(true);
+foglio.setColumnView(0, 110);
+foglio.setColumnView(1, cf);
+foglio.setColumnView(2, cf);
+foglio.setColumnView(3, cf);
+foglio.setColumnView(4, cf);
+foglio.setColumnView(5, cf);
+foglio.setColumnView(6, cf);
+foglio.setColumnView(7, cf);
+foglio.setColumnView(8, cf);
+foglio.setColumnView(9, cf);
+foglio.setColumnView(10, cf);
+foglio.setColumnView(11, cf);
+foglio.setColumnView(12, cf);
+foglio.setColumnView(13, cf);
+foglio.setColumnView(14, cf);
+foglio.setColumnView(15, cf);
+foglio.setColumnView(16, cf);
+foglio.setColumnView(17, cf);
+foglio.setColumnView(18, cf);
+file.write();
+file.close();
+°--°
+obj='Exec
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Select
+pag=1
+prev=O18
+sel_name='qbe_st_impesitis
+sel_type='sqry
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Descrizione dell'esito
+father=O19
+fatherSonIndex=0
+frm_calc='qbe_st_impesitis->esito
+len=200
+name='_esito
+next=Icpitembatch.CPVarDecl
+comment='Contatore d'esito
+frm_calc='qbe_st_impesitis->tot
+len=6
+name='Countesito
+next=Icpitembatch.CPVarDecl
+comment='conteggio per esito
+frm_calc='0
+len=6
+name='_contaEsito
+next=Icpitembatch.CPSelect
+h=[
+19
+19
+]
+next=Icpitembatch.CPVarDecl
+frm_calc='iif(Mod(_max,10000) <> 0,Int(_max/10000) + 1,Int(_max/10000))
+len=15
+name='_cicli
+next=Icpitembatch.CPVarDecl
+frm_calc='1
+len=15
+name='_contacilci
+next=Icpitembatch.CPWhile
+frm_calc='_contacilci<= _cicli
+h=[
+19
+19
+]
+obj='While
+pag=1
+prev=O49
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O50
+fatherSonIndex=0
+frm_calc='((_contacilci -1 ) * 10000) + 1
+len=15
+name='_bottom
+next=Icpitembatch.CPVarDecl
+frm_calc='_contacilci * 10000
+len=15
+name='_top
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'_top>=_min
+]
+h=[
+19
+19
+]
+next=Icpitembatch.CPRemark
+frm_calc='Se ho già raggiunto il numero di presenze per l'esito controllato passo al successivo
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'_contaEsito=Countesito
+]
+h=[
+19
+19
+19
+]
+haselse=True
+obj='If
+pag=1
+prev=O59
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPExitLoop
+father=O60
+fatherSonIndex=0
+obj='ExitLoop
+pag=1
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O60
+fatherSonIndex=1
+frm_calc='_contacilci+1
+len=15
+name='_contacilci
+obj='Var
+obj_type='N
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+150
+]
+I
+obj='Remark
+pag=1
+prev=O56
+I
+obj='If
+pag=1
+prev=O55
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPSelect
+father=O56
+fatherSonIndex=0
+h=[
+19
+19
+]
+obj='Select
+pag=1
+sel_field='*
+sel_name='tmp_impesiti
+sel_where='tmp_impesiti->PROGIMPESITI>=_bottom and tmp_impesiti->PROGIMPESITI<=_top and tmp_impesiti->esito=_esito
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Messaggio allineamento 1
+father=O71
+fatherSonIndex=0
+frm_calc=''Elaborazione esito: ' + _esito + '. Al ' + LRTrim(Str(((tmp_impesiti->PROGIMPESITI-(_min-1))/(_max-(_min-1)))*100,5,2)) + '%.'
+global=True
+len=10
+name='gMsgImp
+next=Icpitembatch.CPRemark
+frm_calc='prima imposto le variabili
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->esito
+len=200
+name='esito
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->nprog
+len=25
+name='nprog
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->nomefile
+len=30
+name='nomefile
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->trueident
+len=15
+name='ident
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->rapporto
+len=25
+name='rapporto
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'not(Empty(tmp_impesiti->tipoac))
+]
+h=[
+19
+19
+19
+]
+haselse=True
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->connes
+len=16
+name='connes
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->ragsoc
+len=30
+name='ragsoc
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->codfisc
+len=16
+name='codfisc
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->persona
+len=10
+name='persona
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->cognome
+len=26
+name='cognome
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->nome
+len=25
+name='nome
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'not(Empty(tmp_impesiti->sesso))
+]
+h=[
+19
+19
+19
+]
+haselse=True
+next=Icpitembatch.CPVarDecl
+frm_calc='iif(Empty(tmp_impesiti->datanasc),'',DateToChar(tmp_impesiti->datanasc))
+len=10
+name='datanasc
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->nascomun
+len=30
+name='nascomun
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->tipinter
+len=2
+name='tipinter
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->desccit
+len=30
+name='desccit
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->provincia
+len=2
+name='provincia
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->codcab
+len=6
+name='codcab
+next=Icpitembatch.CPVarDecl
+frm_calc='tmp_impesiti->afile
+len=15
+name='idfile
+next=Icpitembatch.CPVarDecl
+frm_calc='arfn_delzero(tmp_impesiti->aprog)
+len=25
+name='idprog
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'riga=32000
+]
+h=[
+19
+19
+]
+next=Icpitembatch.CPRemark
+frm_calc='imposto campi
+next=Icpitembatch.CPExec
+check='man
+frm_calc="stringa = new Label(0,riga,esito);
+foglio.addCell(stringa);
+stringa = new Label(1,riga,nprog);
+foglio.addCell(stringa); 
+stringa = new Label(2,riga,nomefile);
+foglio.addCell(stringa); 
+stringa = new Label(3,riga,ident);
+foglio.addCell(stringa); 
+stringa = new Label(4,riga,rapporto);
+foglio.addCell(stringa); 
+stringa = new Label(5,riga,tipoac);
+foglio.addCell(stringa); 
+stringa = new Label(6,riga,connes);
+foglio.addCell(stringa); 
+stringa = new Label(7,riga,ragsoc,unlock);
+foglio.addCell(stringa); 
+stringa = new Label(8,riga,codfisc,unlock);
+foglio.addCell(stringa);
+stringa = new Label(9,riga,persona);
+foglio.addCell(stringa);  
+stringa = new Label(10,riga,cognome);
+foglio.addCell(stringa); 
+stringa = new Label(11,riga,nome);
+foglio.addCell(stringa); 
+stringa = new Label(12,riga,sesso);
+foglio.addCell(stringa); 
+stringa = new Label(13,riga,datanasc);
+foglio.addCell(stringa); 
+stringa = new Label(14,riga,nascomun);
+foglio.addCell(stringa); 
+stringa = new Label(15,riga,tipinter);
+foglio.addCell(stringa); 
+stringa = new Label(16,riga,desccit);
+foglio.addCell(stringa); 
+stringa = new Label(17,riga,provincia);
+foglio.addCell(stringa); 
+stringa = new Label(18,riga,codcab,unlock);
+foglio.addCell(stringa); 
+stringa = new Label(19,riga,idfile,unlock);
+foglio.addCell(stringa); 
+stringa = new Label(20,riga,idprog,unlock);
+foglio.addCell(stringa); 
+riga = riga +1;
+°--°
+next=Icpitembatch.CPVarDecl
+comment='Conteggio per esito
+frm_calc='_contaEsito+1
+len=6
+name='_contaEsito
+obj='Var
+obj_type='N
+pag=1
+prev=O106
+var_op='asgn
+I
+obj='Exec
+pag=1
+prev=O105
+I
+obj='Remark
+pag=1
+prev=O102
+I
+obj='If
+pag=1
+prev=O101
+sons=[
+Icpitembatch.CPItemSon
+collapsed=True
+comment='compilazione nuova testata
+instr=Icpitembatch.CPExec
+check='man
+father=O102
+fatherSonIndex=0
+frm_calc="//Aggiusta le colonne
+CellView cf = new CellView();
+cf.setAutosize(true);
+foglio.setColumnView(0, 110);
+foglio.setColumnView(1, cf);
+foglio.setColumnView(2, cf);
+foglio.setColumnView(3, cf);
+foglio.setColumnView(4, cf);
+foglio.setColumnView(5, cf);
+foglio.setColumnView(6, cf);
+foglio.setColumnView(7, cf);
+foglio.setColumnView(8, cf);
+foglio.setColumnView(9, cf);
+foglio.setColumnView(10, cf);
+foglio.setColumnView(11, cf);
+foglio.setColumnView(12, cf);
+foglio.setColumnView(13, cf);
+foglio.setColumnView(14, cf);
+foglio.setColumnView(15, cf);
+foglio.setColumnView(16, cf);
+foglio.setColumnView(17, cf);
+foglio.setColumnView(18, cf);
+°--°
+next=Icpitembatch.CPExec
+check='man
+frm_calc="//aggiungo foglio
+riga =1;
+conta = conta+1;
+nomefoglio="Foglio"+conta;
+foglio = file.createSheet(nomefoglio, conta);
+foglio.getSettings().setPassword("123");
+foglio.setProtected(true);
+stringa = new Label(0,0,"Esito",arial11format);
+foglio.addCell(stringa); 
+stringa = new Label(1,0,"Numero progressivo",arial11format);
+foglio.addCell(stringa); 
+stringa = new Label(2,0,"Nome File",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(3,0,"Identificativo",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(4,0,"Codice rapporto",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(5,0,"Tipo informazione",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(6,0,"Connes intestatario",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(7,0,"Intestatario",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(8,0,"CF intestatario",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(9,0,"Persona",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(10,0,"Cognome",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(11,0,"Nome",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(12,0,"Sesso",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(13,0,"Data di nascita",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(14,0,"Comune di nascita",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(15,0,"Provincia di nascita",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(16,0,"Comune di residenza",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(17,0,"Provincia di residenza",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(18,0,"CAB di residenza",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(19,0,"IDFILE (Terna)",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(20,0,"IDPROG (Terna)",arial11format);
+foglio.addCell(stringa);
+°--°
+obj='Exec
+pag=1
+prev=O110
+I
+obj='Exec
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+pag=1
+prev=O100
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O99
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O98
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O97
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O96
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O95
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O94
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O91
+var_op='asgn
+I
+obj='If
+pag=1
+prev=O90
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O91
+fatherSonIndex=0
+frm_calc='iif(tmp_impesiti->sesso='1' or tmp_impesiti->sesso='M','M','F')
+len=1
+name='sesso
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O91
+fatherSonIndex=1
+frm_calc='''
+len=1
+name='sesso
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+150
+]
+I
+obj='Var
+pag=1
+prev=O89
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O88
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O87
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O86
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O85
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O82
+var_op='asgn
+I
+obj='If
+pag=1
+prev=O81
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O82
+fatherSonIndex=0
+frm_calc='iif(tmp_impesiti->tipoac='A','Apertura rapporto',iif(tmp_impesiti->tipoac='C','Chiusura rapporto',iif(tmp_impesiti->tipoac='O','Operazione extraconto',iif(tmp_impesiti->tipoac='D','Apertura Delega','Chiusura delega'))))
+len=50
+name='tipoac
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O82
+fatherSonIndex=1
+frm_calc='''
+len=50
+name='tipoac
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+150
+]
+I
+obj='Var
+pag=1
+prev=O80
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O79
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O78
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O77
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O76
+var_op='asgn
+I
+obj='Remark
+pag=1
+prev=O75
+I
+nonlocal=True
+obj='Var
+obj_type='M
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O54
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O48
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O46
+var_op='asgn
+I
+obj='Select
+pag=1
+prev=O45
+sel_name='qbe_tmp_impesiti_max_min
+sel_type='sqry
+sons=[
+Icpitembatch.CPItemSon
+collapsed=True
+comment='Massimo e Minimo
+instr=Icpitembatch.CPVarDecl
+father=O46
+fatherSonIndex=0
+frm_calc='qbe_tmp_impesiti_max_min->MAXPROGIMPESITI
+len=15
+name='_max
+next=Icpitembatch.CPVarDecl
+frm_calc='qbe_tmp_impesiti_max_min->MINPROGIMPESITI
+len=15
+name='_min
+obj='Var
+obj_type='N
+pag=1
+prev=O130
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O44
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O43
+var_op='asgn
+I
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Remark
+pag=1
+prev=O16
+I
+obj='Begin
+pag=1
+prev=O15
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPExec
+check='man
+father=O16
+fatherSonIndex=0
+frm_calc="//base
+riga = 1;
+conta = 0;
+nomefoglio="Foglio"+conta;
+WorkbookSettings ws = new WorkbookSettings();
+WritableWorkbook file = Workbook.createWorkbook(new File(nomefilexls), ws);
+WritableSheet foglio = file.createSheet(nomefoglio, conta);
+WritableFont arial11font = new WritableFont(WritableFont.ARIAL, 11, WritableFont.BOLD, true);
+WritableCellFormat arial11format = new WritableCellFormat (arial11font);
+WritableCellFormat unlock = new WritableCellFormat();
+unlock.setLocked(false); 
+unlock.setBackground(jxl.format.Colour.LIGHT_TURQUOISE);
+unlock.setBorder(jxl.format.Border.ALL,jxl.format.BorderLineStyle.THIN,jxl.format.Colour.BLACK);
+
+foglio.getSettings().setPassword("123");
+foglio.setProtected(true);
+
+Label stringa = new Label(0,0,"Esito",arial11format);
+foglio.addCell(stringa); 
+stringa = new Label(1,0,"Numero progressivo",arial11format);
+foglio.addCell(stringa); 
+stringa = new Label(2,0,"Nome File",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(3,0,"Identificativo",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(4,0,"Codice rapporto",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(5,0,"Tipo informazione",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(6,0,"Connes intestatario",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(7,0,"Intestatario",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(8,0,"CF intestatario",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(9,0,"Persona",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(10,0,"Cognome",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(11,0,"Nome",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(12,0,"Sesso",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(13,0,"Data di nascita",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(14,0,"Comune di nascita",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(15,0,"Provincia di nascita",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(16,0,"Comune di residenza",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(17,0,"Provincia di residenza",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(18,0,"CAB di residenza",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(19,0,"IDFILE (Terna)",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(20,0,"IDPROG (Terna)",arial11format);
+foglio.addCell(stringa);
+°--°
+obj='Exec
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+pag=1
+prev=O14
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O13
+var_op='asgn
+I
+obj='TempTable
+pag=1
+prev=O12
+sel_type='def
+server_table='tmp_prnesiti
+I
+obj='DropTempTable
+pag=1
+prev=O11
+server_table='tmp_prnesiti
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O9
+I
+obj='Begin
+pag=1
+prev=O7
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Descrizione dell'esito
+father=O9
+fatherSonIndex=0
+len=200
+name='_esito
+next=Icpitembatch.CPVarDecl
+comment='Contatore d'esito
+len=6
+name='Countesito
+next=Icpitembatch.CPVarDecl
+comment='conteggio per esito
+len=6
+name='_contaEsito
+next=Icpitembatch.CPVarDecl
+len=15
+name='_max
+next=Icpitembatch.CPVarDecl
+len=15
+name='_min
+next=Icpitembatch.CPVarDecl
+len=15
+name='_cicli
+next=Icpitembatch.CPVarDecl
+len=15
+name='_contacilci
+next=Icpitembatch.CPVarDecl
+len=15
+name='_bottom
+next=Icpitembatch.CPVarDecl
+len=15
+name='_top
+obj='Var
+obj_type='N
+pag=1
+prev=O147
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O146
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O145
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O144
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O143
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O142
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O141
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O140
+I
+obj='Var
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Begin
+pag=1
+prev=O5
+sons=[
+Icpitembatch.CPItemSon
+collapsed=True
+instr=Icpitembatch.CPVarDecl
+father=O7
+fatherSonIndex=0
+len=1
+name='file
+next=Icpitembatch.CPVarDecl
+len=1
+name='foglio
+next=Icpitembatch.CPVarDecl
+len=50
+name='nomeesito
+next=Icpitembatch.CPVarDecl
+len=50
+name='nomefilexls
+next=Icpitembatch.CPVarDecl
+len=50
+name='nomefoglio
+next=Icpitembatch.CPVarDecl
+len=1
+name='stringa
+obj='Var
+pag=1
+prev=O156
+I
+obj='Var
+pag=1
+prev=O155
+I
+obj='Var
+pag=1
+prev=O154
+I
+obj='Var
+pag=1
+prev=O153
+I
+obj='Var
+pag=1
+prev=O152
+I
+obj='Var
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Begin
+pag=1
+prev=O3
+sons=[
+Icpitembatch.CPItemSon
+collapsed=True
+instr=Icpitembatch.CPVarDecl
+father=O5
+fatherSonIndex=0
+len=25
+name='rapporto
+next=Icpitembatch.CPVarDecl
+len=50
+name='tipoac
+next=Icpitembatch.CPVarDecl
+len=16
+name='connes
+next=Icpitembatch.CPVarDecl
+len=15
+name='ident
+next=Icpitembatch.CPVarDecl
+len=30
+name='ragsoc
+next=Icpitembatch.CPVarDecl
+len=10
+name='persona
+next=Icpitembatch.CPVarDecl
+len=26
+name='cognome
+next=Icpitembatch.CPVarDecl
+len=25
+name='nome
+next=Icpitembatch.CPVarDecl
+len=1
+name='sesso
+next=Icpitembatch.CPVarDecl
+len=10
+name='datanasc
+next=Icpitembatch.CPVarDecl
+len=30
+name='nascomun
+next=Icpitembatch.CPVarDecl
+len=2
+name='tipinter
+next=Icpitembatch.CPVarDecl
+len=30
+name='desccit
+next=Icpitembatch.CPVarDecl
+len=2
+name='provincia
+next=Icpitembatch.CPVarDecl
+len=16
+name='codfisc
+next=Icpitembatch.CPVarDecl
+len=6
+name='codcab
+next=Icpitembatch.CPVarDecl
+len=25
+name='nprog
+next=Icpitembatch.CPVarDecl
+len=200
+name='esito
+next=Icpitembatch.CPVarDecl
+len=30
+name='nomefile
+next=Icpitembatch.CPVarDecl
+len=15
+name='idfile
+next=Icpitembatch.CPVarDecl
+len=25
+name='idprog
+obj='Var
+pag=1
+prev=O180
+I
+obj='Var
+pag=1
+prev=O179
+I
+obj='Var
+pag=1
+prev=O178
+I
+obj='Var
+pag=1
+prev=O177
+I
+obj='Var
+pag=1
+prev=O176
+I
+obj='Var
+pag=1
+prev=O175
+I
+obj='Var
+pag=1
+prev=O174
+I
+obj='Var
+pag=1
+prev=O173
+I
+obj='Var
+pag=1
+prev=O172
+I
+obj='Var
+pag=1
+prev=O171
+I
+obj='Var
+pag=1
+prev=O170
+I
+obj='Var
+pag=1
+prev=O169
+I
+obj='Var
+pag=1
+prev=O168
+I
+obj='Var
+pag=1
+prev=O167
+I
+obj='Var
+pag=1
+prev=O166
+I
+obj='Var
+pag=1
+prev=O165
+I
+obj='Var
+pag=1
+prev=O164
+I
+obj='Var
+pag=1
+prev=O163
+I
+obj='Var
+pag=1
+prev=O162
+I
+obj='Var
+pag=1
+prev=O161
+I
+obj='Var
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Begin
+pag=1
+sons=[
+Icpitembatch.CPItemSon
+collapsed=True
+instr=Icpitembatch.CPVarDecl
+comment='Path Applicazione
+father=O3
+fatherSonIndex=0
+global=True
+len=80
+name='gPathApp
+next=Icpitembatch.CPVarDecl
+comment='URL Applicazione
+global=True
+len=80
+name='gUrlApp
+next=Icpitembatch.CPVarDecl
+comment='Messaggio Import
+global=True
+len=10
+name='gMsgImp
+nonlocal=True
+obj='Var
+obj_type='M
+pag=1
+prev=O186
+I
+nonlocal=True
+obj='Var
+pag=1
+prev=O185
+I
+nonlocal=True
+obj='Var
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+x=23
+y=25
+I
+Ispitembatch.CPReturn
+lnk_expr=True
+lnk_page='LRTrim(gUrlApp)+'/output/'+nomeesito
+obj='Return
+pag=1
+page_return=Nil
+x=1191
+y=3151
+I
+]
+ManualBlocks={
+BO - Header
+Icpmanualblocks.CPManualBlocks
+code="import java.io.File; 
+import java.lang.Double;
+
+import jxl.CellReferenceHelper;
+import jxl.CellView;
+import jxl.HeaderFooter;
+import jxl.Range;
+import jxl.Workbook;
+import jxl.WorkbookSettings;
+import jxl.format.Alignment;
+import jxl.format.Border;
+import jxl.format.BorderLineStyle;
+import jxl.format.Colour;
+import jxl.format.Orientation;
+import jxl.format.PageOrder;
+import jxl.format.PageOrientation;
+import jxl.format.PaperSize;
+import jxl.format.ScriptStyle;
+import jxl.format.UnderlineStyle;
+import jxl.write.Blank;
+import jxl.write.Boolean;
+import jxl.write.DateFormat;
+import jxl.write.DateFormats;
+import jxl.write.DateTime;
+import jxl.write.Formula;
+import jxl.write.Label;
+import jxl.write.Number;
+import jxl.write.NumberFormat;
+import jxl.write.NumberFormats;
+import jxl.write.WritableCellFeatures;
+import jxl.write.WritableCellFormat;
+import jxl.write.WritableFont;
+import jxl.write.WritableHyperlink;
+import jxl.write.WritableImage;
+import jxl.write.WritableSheet;
+import jxl.write.WritableWorkbook;
+import jxl.write.WriteException;
+°--°
+name='BO - Header
+I
+BO - Properties
+Icpmanualblocks.CPManualBlocks
+code="public int riga;
+public int conta;
+°--°
+name='BO - Properties
+I
+}
+comment='esiti su XLS
+date_creat=#2009-01-23
+date_rev=#2015-04-02
+dic_name='plan
+ev_class='SPBatchEvents
+modcnt=102
+runtime_filters=2
+tpl_name='Routine
+work_file=[
+'tmp_impesiti
+'tmp_prnesiti
+'
+]
+work_filter=[
+'
+'
+]
+I
+*--*
+*----*

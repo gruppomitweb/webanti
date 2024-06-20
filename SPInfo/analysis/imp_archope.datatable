@@ -1,0 +1,1360 @@
+﻿* --- Resource Vers. 0.9
+imp_archope<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='ARCHOPE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='imp_archope
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'imp_archope.dataope
+'imp_archope.flagcont
+'imp_archope.codana
+'imp_archope.codvoc
+'imp_archope.tipoint2
+'imp_archope.codint2
+'imp_archope.paese
+'imp_archope.desc2
+'imp_archope.prov2
+'imp_archope.codcab2
+'imp_archope.descinter
+'imp_archope.rapporto
+'imp_archope.flagrap
+'imp_archope.tipoleg
+'imp_archope.datareg
+'imp_archope.flaglire
+'imp_archope.valuta
+'imp_archope.segno
+'imp_archope.totlire
+'imp_archope.totcont
+'imp_archope.connescli
+'imp_archope.connesoper
+'imp_archope.cambio
+'imp_archope.numprog
+'imp_archope.tipooprap
+'imp_archope.tipointer
+'imp_archope.codinter
+'imp_archope.coddipe
+'imp_archope.desccit
+'imp_archope.provincia
+'imp_archope.codcab
+'imp_archope.flagfraz
+'imp_archope.connesben
+'imp_archope.uniquecode
+'imp_archope.agoper
+'imp_archope.rifimp
+'imp_archope.zcparte
+'imp_archope.ragio
+'imp_archope.modsvol
+'imp_archope.areageo
+'imp_archope.inform
+'imp_archope.ammont
+'imp_archope.durat
+'imp_archope.tipo
+'imp_archope.rragio
+'imp_archope.rcomp
+'imp_archope.rarea
+'imp_archope.rimp
+'imp_archope.rfreq
+'imp_archope.connaltro
+'imp_archope.dataimp
+'imp_archope.rtipo
+'imp_archope.c_rag
+'imp_archope.c_sta
+'imp_archope.c_cta
+'imp_archope.c_cab
+'imp_archope.c_prv
+'imp_archope.c_ind
+'imp_archope.c_cap
+'imp_archope.natura
+'imp_archope.scopo
+'imp_archope.c_rapporto
+'imp_archope.rapportben
+'imp_archope.pagasogop
+'imp_archope.ipcolleg
+'imp_archope.oracolleg
+'imp_archope.ducolleg
+'imp_archope.impin
+'imp_archope.impout
+'imp_archope.contatore
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'imp_archope.agoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo operazione agenzia entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AGOPER
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.ammont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Ammontare Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AMMONT
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Area Geografica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AREAGEO
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.c_cab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_CAB
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.c_cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAp Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_CAP
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.c_cta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_CTA
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.c_ind
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_IND
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.c_prv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_PRV
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.c_rag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nominativo Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_RAG
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.c_rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Conto Intermediario Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_RAPPORTO
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.c_sta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_STA
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.cambio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cambio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAMBIO
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.codana
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Analitica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODANA
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Città Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.codcab2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Città Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB2
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.codint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINT2
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.codvoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Sintetica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODVOC
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.connaltro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Soggetto titolare di un operazione eseguita su rapporto intestato a soggetto diverso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNALTRO
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.connesben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Beneficiario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESBEN
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.connescli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Cliente Occasionale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESCLI
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.connesoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Esecutore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESOPER
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.contatore
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Contatore Riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONTATORE
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.dataimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAIMP
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.datareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAREG
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.desc2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Intermediario/Resistenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESC2
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Intermediario/Resistenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.descinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Intermediario Banca Estera
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCINTER
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.ducolleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Durata Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DUCOLLEG
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.durat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Durata Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DURAT
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.flagcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='S se contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGCONT
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.flagfraz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Se compattata da frazionata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGFRAZ
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.flaglire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGLIRE
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.flagrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGRAP
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.impin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo IN
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPIN
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.impout
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo OUT
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPOUT
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.inform
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Annotazioni Varie
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INFORM
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.ipcolleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='IP Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IPCOLLEG
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.modsvol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Modalità svolgimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MODSVOL
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.natura
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Natura Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NATURA
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.oracolleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Inizio Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORACOLLEG
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Nazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESE
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.pagasogop
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valoriz. con S solo se il Soggetto Operante Conto Terzi è presente ed utilizza mezzi propri
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAGASOGOP
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.prov2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROV2
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.ragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Ragionevolezza rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGIO
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.rapportben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Campo Appoggio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTBEN
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.rarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAREA
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.rcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RCOMP
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.rfreq
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RFREQ
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.rifimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Riferimento Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIFIMP
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.rimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIMP
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.rragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RRAGIO
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.rtipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RTIPO
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.scopo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Scopo Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SCOPO
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.segno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Segno OPerazione (Dare/Avere)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SEGNO
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPO
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.tipoint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINT2
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.tipointer
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINTER
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.tipoleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Legame Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOLEG
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.tipooprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOOPRAP
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.totcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTCONT
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.totlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTLIRE
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.uniquecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Univoco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUECODE
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+'imp_archope.zcparte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Semplifficata Int. Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ZCPARTE
+state=3
+table_name='imp_archope
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'imp_archope.agoper
+[]
+'imp_archope.ammont
+[]
+'imp_archope.areageo
+[]
+'imp_archope.c_cab
+[]
+'imp_archope.c_cap
+[]
+'imp_archope.c_cta
+[]
+'imp_archope.c_ind
+[]
+'imp_archope.c_prv
+[]
+'imp_archope.c_rag
+[]
+'imp_archope.c_rapporto
+[]
+'imp_archope.c_sta
+[]
+'imp_archope.cambio
+[]
+'imp_archope.codana
+[]
+'imp_archope.codcab
+[]
+'imp_archope.codcab2
+[]
+'imp_archope.coddipe
+[]
+'imp_archope.codint2
+[]
+'imp_archope.codinter
+[]
+'imp_archope.codvoc
+[]
+'imp_archope.connaltro
+[]
+'imp_archope.connesben
+[]
+'imp_archope.connescli
+[]
+'imp_archope.connesoper
+[]
+'imp_archope.contatore
+[]
+'imp_archope.dataimp
+[]
+'imp_archope.dataope
+[]
+'imp_archope.datareg
+[]
+'imp_archope.desc2
+[]
+'imp_archope.desccit
+[]
+'imp_archope.descinter
+[]
+'imp_archope.ducolleg
+[]
+'imp_archope.durat
+[]
+'imp_archope.flagcont
+[]
+'imp_archope.flagfraz
+[]
+'imp_archope.flaglire
+[]
+'imp_archope.flagrap
+[]
+'imp_archope.impin
+[]
+'imp_archope.impout
+[]
+'imp_archope.inform
+[]
+'imp_archope.ipcolleg
+[]
+'imp_archope.modsvol
+[]
+'imp_archope.natura
+[]
+'imp_archope.numprog
+[]
+'imp_archope.oracolleg
+[]
+'imp_archope.paese
+[]
+'imp_archope.pagasogop
+[]
+'imp_archope.prov2
+[]
+'imp_archope.provincia
+[]
+'imp_archope.ragio
+[]
+'imp_archope.rapportben
+[]
+'imp_archope.rapporto
+[]
+'imp_archope.rarea
+[]
+'imp_archope.rcomp
+[]
+'imp_archope.rfreq
+[]
+'imp_archope.rifimp
+[]
+'imp_archope.rimp
+[]
+'imp_archope.rragio
+[]
+'imp_archope.rtipo
+[]
+'imp_archope.scopo
+[]
+'imp_archope.segno
+[]
+'imp_archope.tipo
+[]
+'imp_archope.tipoint2
+[]
+'imp_archope.tipointer
+[]
+'imp_archope.tipoleg
+[]
+'imp_archope.tipooprap
+[]
+'imp_archope.totcont
+[]
+'imp_archope.totlire
+[]
+'imp_archope.uniquecode
+[]
+'imp_archope.valuta
+[]
+'imp_archope.zcparte
+[]
+}
+*--*

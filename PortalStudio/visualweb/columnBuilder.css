@@ -1,0 +1,387 @@
+﻿@import url("../fonts/OpenSans.css");
+@font-face {
+  font-family: 'iMobileIcon';
+  src: url('../fonts/iMobileIcon.eot');
+  src:  url('../fonts/iMobileIcon.eot#iMobileIcon') format('embedded-opentype'),
+    url('../fonts/iMobileIcon.svg#iMobileIcon') format('svg'),
+    url('../fonts/iMobileIcon.woff') format('woff'),
+    url('../fonts/iMobileIcon.ttf') format('truetype');
+}
+body, html{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+body{
+  background: #F3F3F3;
+  font-family: Open Sans;
+  font-weight: 400;
+}
+ul, li {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+#table_container {
+  width: auto;
+  height: 285px;
+  border: 1px solid #D5D5D5;
+  background: #FFFFFF;
+}
+
+#table  {
+  width: 100%;
+}
+
+#table  .table_row {
+  height: 30px;
+}
+
+#table .table-title {
+  width: 23%;
+  min-width: 90px;
+}
+#table .table-expr {
+  width: 42%;
+  min-width: 150px;
+}
+#table .table-edit, #table .table-printable {
+  width: 8%;
+  min-width: 30px;
+}
+#table .table-show-extra-title {
+  width: 11%;
+  min-width: 30px;
+}
+#table .table-hidden {
+  width: 8%;
+  min-width: 30px;
+}
+#table .row_selected {
+  background: #F3F3F3;
+}
+#table .table_row .cell {
+ line-height: 30px;
+}
+#table .table_row input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0px;
+  background: transparent;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: middle;
+}
+#table input:disabled {
+  background: transparent;
+}
+#table .table_row input[type=checkbox] {
+  width: auto;
+}
+#table .table-expr, #table .table-edit, #table .table-printable  { /* to contain picker and sort */
+  position: relative;
+}
+
+
+/* Selected-query field table */
+#table-field-list {
+  border: 1px solid #D5D5D5;
+  height: 370px;
+}
+#table-field-list .thead_table{
+  height: 30px;
+}
+#table-field-list .table-query-field,
+#table-field-list .table-query-field-title {
+  width: 170px;
+}
+#table-field-list .table-query-field input,
+#table-field-list .table-query-field-title input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0px;
+  background: transparent;
+  padding: 0px;
+  margin: 0px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+#table-field-list .row_selected{
+  background: #F3F3F3;
+}
+
+
+/* End Selected-query field table */
+.title {
+  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 12px;
+  color: #232323;
+  line-height: 30px;
+  background: #D5D5D5;
+  padding: 0px 4px;
+}
+
+
+.prop_column {
+  width: 33.33%;
+  display: inline-block;
+}
+.page {
+  display: none;
+}
+.page.selected {
+  display: block;
+  background: #E3E3E3;
+}
+.ps-prop-container {
+  padding: 5px;
+}
+
+
+/* Properties */
+/* From properties.css */
+#properties {
+  min-width: none;
+  max-width: none;
+  position: static;
+  height: 760px;
+  background: #F3F3F3;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.ps-prop table, .ps-prop tr, .ps-prop td{
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+  border: 0px;
+  width: 100%;
+}
+#properties .properties_label {
+  margin: 0px;
+}
+#properties .property_item {
+  padding: 0px;
+}
+#properties input[type=checkbox].property_item {
+  width: auto;
+}
+#properties textarea.property_item {
+  background: #FFFFFF;
+  height: 70px;
+  width: 390px;
+  resize: none;
+}
+#properties #table_toolbar_container > div {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+#properties #table_footer_title {
+  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 14px;
+  color: #232323;
+  line-height: 30px;
+  height: 30px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  padding: 0px 4px;
+  width: 530px;
+}
+
+.prop_tab{
+  float: none;
+  display: inline-block;
+}
+.input_inline_btn {
+  position: relative;
+  bottom: 0;
+  right: -2px;
+  width: 20px;
+  height: 18px;
+
+}
+
+.input_inline_btn.color{
+  width: 20px;
+  height: 18px;
+  cursor: pointer;
+  border: 1px solid #00A0BD;
+}
+
+.input_inline_btn.color:after{
+  content: '' !important;
+}
+
+.input_inline_btn.picker:after{
+  content: '\e6f6' !important;
+}
+
+.input_inline_btn.edit:after{
+  content: '\e603' !important;
+}
+
+.input_inline_btn.plus:after{
+  content: '\e626' !important;
+}
+
+.input_inline_btn.info:after{
+  content: '\e6f7' !important;
+}
+
+/* End Properties */
+#tabs_containter {
+  flex: 1 1;
+  overflow: auto;
+}
+.page {
+  height: 100%;
+  overflow: auto;
+}
+
+#tabs_content {
+  height: calc(100% - 30px);
+}
+
+#tabs_containter {
+  height: 100%;
+}
+#tabs{
+  height: 30px;
+}
+
+#table_container {
+  flex: 1 0;
+}
+#footer, #picker-footer {
+  flex: none;
+  height: 25px;
+  width: 100%;
+}
+#select-field,
+ #add,
+ #remove,
+ #ok,
+ #cancel,
+ #picker-ok,
+ #picker-cancel {
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 12px;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 3px 5px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+#ok,
+ #cancel,
+ #picker-ok,
+ #picker-cancel {
+  width: 50px;
+  position: absolute;
+}
+#ok, #picker-ok, #add, #select-field {
+  background: #00A0BD;
+}
+#ok, #picker-ok {
+  left: calc(50% - 75px);
+}
+#cancel, #picker-cancel, #remove {
+  background: #333333;
+}
+#cancel, #picker-cancel {
+  left: calc(50% + 25px);
+}
+
+#table_footer {
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 12px;
+  color: #FFFFFF;
+  width: 250px;
+}
+
+
+#field-picker , #sort-handler{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  color: #00A0BD;
+  font-family: iMobileIcon;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  display: none;
+  right: 0px;
+  top: 0px;
+}
+#field-picker::after{
+  content: '\e6f6';
+}
+#sort-handler::after{
+  content: '\e6dc';
+}
+#dialog {
+  display: none;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 200px);
+  background: #FFFFFF;
+  width: 400px;
+  height: 400px;
+}
+#cinema {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background: rgba( 0,0,0, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#info {
+  position: absolute;
+  bottom: 0px;
+  background: #00A0BD;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 14px;
+  width: 300px;
+  left: calc( 50% - 150px);
+  display: none;
+  padding: 2px 2px 2px 35px;
+}
+#info b{
+  font-family: Open Sans;
+  font-weight: 500;
+}
+#info::after {
+  content: '\e6f5';
+  position: absolute;
+  top: calc( 50% - 15px );
+  height: 30px;
+  left: 2px;
+  color: #FFFFFF;
+  font-family: iMobileIcon;
+  font-weight: normal;
+  font-size: 30px;
+}
+#close-info {
+  font-family: iMobileIcon;
+  font-weight: normal;
+  color: #F00;
+  font-size: 16px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  cursor: pointer;
+}

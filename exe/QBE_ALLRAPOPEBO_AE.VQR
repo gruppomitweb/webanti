@@ -1,0 +1,514 @@
+ 3
+"Anagrafica Rapporti"
+"jnarapbo"
+"jnarapbo"
+ 0
+ 0
+*
+"Soggetti conto informazioni"
+"jntestbo"
+"jntestbo"
+ 0
+ 0
+*
+"Informazioni su rapporti"
+"japopebo"
+"japopebo"
+ 0
+ 0
+*
+ 22
+"Codice Rapporto"
+"jnarapbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"jnarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Rapporto"
+"jnarapbo.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Divisa"
+"jnarapbo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo per Agenzia Entrate"
+"jnarapbo.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Numero Progressivo"
+"japopebo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Inizio / Fine Rapporto"
+"japopebo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Registrazione"
+"japopebo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato Registrazione"
+"japopebo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Idereg"
+"japopebo.IDEREG"
+"IDEREG"
+"C"
+ 20
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Informazione"
+"japopebo.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Soggetto Operante Conto Terzi"
+"japopebo.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Legame Sogg."
+"japopebo.TIPOLEG"
+"TIPOLEG"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Intestatario (Non Intermediario)"
+"jntestbo.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Inizio"
+"jntestbo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Fine"
+"jntestbo.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"japopebo.DATARETT"
+"DATARETT"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Scopo"
+"ýý"
+"SCOPO"
+"C"
+ 50
+ 0
+ 0
+.f.
+"ýý"
+"1=1"
+.f.
+*
+"Natura"
+"ýý"
+"NATURA"
+"C"
+ 50
+ 0
+ 0
+.f.
+"ýý"
+"1=1"
+.f.
+*
+"Rischio Globale"
+"ýý"
+"RISGLOB"
+"C"
+ 1
+ 0
+ 0
+.f.
+"ýý"
+"1=1"
+.f.
+*
+"Data Profilatura"
+"ýý"
+"DATAPROF"
+"D"
+ 8
+ 0
+ 0
+.f.
+"ýý"
+"1=1"
+.f.
+*
+"Data Revisione Profilatura"
+"ýý"
+"DATAREVPROF"
+"D"
+ 8
+ 0
+ 0
+.f.
+"ýý"
+"1=1"
+.f.
+*
+ 2
+"Anagrafica Rapporti"
+"japopebo.RAPPORTO=jnarapbo.RAPPORTO"
+"Right outer"
+"japopebo"
+"jnarapbo"
+*
+"Intestari rapporto"
+"jntestbo.RAPPORTO=jnarapbo.RAPPORTO"
+"Right outer"
+"jntestbo"
+"jnarapbo"
+*
+ 10
+"jnarapbo.RAPPORTO"
+""
+">="
+"?daRappo"
+"AND"
+""
+""
+*
+"jnarapbo.RAPPORTO"
+""
+"<="
+"?aRappo"
+"AND"
+""
+""
+*
+"japopebo.CDATOPE"
+""
+">="
+"?c_dadata"
+"AND"
+""
+""
+*
+"japopebo.CDATOPE"
+""
+"<="
+"?c_adata"
+"AND"
+""
+""
+*
+"japopebo.CODDIPE"
+""
+"="
+"?coddip"
+"AND"
+""
+""
+*
+"jntestbo.CODINTER"
+""
+">="
+"?DaSogg"
+"AND"
+""
+""
+*
+"jntestbo.CODINTER"
+""
+"<="
+"?ASogg"
+"AND"
+""
+""
+*
+"[NOTEMPTYDATE(jntestbo.DATAFINE)]"
+""
+"="
+"0"
+"AND"
+""
+"?tipo=ýAý"
+*
+"[NOTEMPTYDATE(jntestbo.DATAFINE)]"
+""
+">"
+"0"
+"AND"
+""
+"?tipo=ýCý"
+*
+"jnarapbo.TIPOAG"
+""
+"="
+"?pTIPOAG"
+"AND"
+""
+""
+*
+ 3
+"Codice Rapporto"
+"RAPPORTO"
+"Ascending"
+*
+"Numero Progressivo"
+"NUMPROG"
+"Ascending"
+*
+""
+"DATARETT"
+"Descending"
+*
+ 0
+ 0
+ 9
+"daRappo"
+"Codice Rapporto"
+"C"
+"25"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"aRappo"
+"Codice Rapporto"
+"C"
+"25"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"DaSogg"
+"Intestatario (Non Intermediario)"
+"C"
+"16"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"ASogg"
+"Intestatario (Non Intermediario)"
+"C"
+"16"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"c_dadata"
+"Data Operazione (Letterale)"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"c_adata"
+"Data Operazione (Letterale)"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"coddip"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"tipo"
+"Tipo di rapporti richiesti"
+"C"
+"1"
+"0"
+""
+""
+""
+.f.
+*
+"pTIPOAG"
+"Tipo rapporto agenzia entrate"
+"C"
+"2"
+"0"
+"Remove"
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.f.
+ 45
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%25%25h_%5D1F%3CMX*OJW+%3C%3EB%235*%23L+ZQ%5CB%40CU0%229%291%40*.M8%276GJE%2FE%5DY%19Y%25_KK%3F%283KRLAP%3E%251%29V%3B%3A%5CJAJ5EL-%5D.%3DJO%06%29%02%2C%2CH+RVYBLI%28%29%29K+G+1FWJ9%21%27HS%23Ai%26S%2CY%25N%26FN-XYA0%3CE%277%27%12T%3B%22VHX%2F+B*MXGIR93B%3B%1DU%3D%25%5C%40.O%3C540%3F%2C%28%5D%23%3CRC%1D%22%40PF6I1%2FI%24%21%29%26YB%21%40Z+G%26.LK%223%22%25HG%29N88B%23W1A%2B8-%03%101%2BYB%2B%2B0FXQE4-%3D%3C%24%5BE4PX%27K56%2FTLN%3CK%27%40C*%00"
+"TL%5BB9PUB%2B%3E2%2BH3%7E4V%1B%5BE%2582%26%2CSBC%3AUT%5C+O%265BX%23%22ExA%1FI%3A1*O5N0%28V%23%1A5qJ%5E+1.X%3C%3B%40%2728Z%2C%28Y%5BW%24N%22%08JK8*7%3DSF3%40rXCG5pD5G3F17VSZkDF4%14KRY%5E%3BD%05%3C%22M%3EE%5C7MT_sP%05%3DE%19UM.%23ZMGG%2C%28H%22*%3A%5C1V-Q+%269.H%26W1p%3C%2C%23FEV5%28+w%3FRM%22%21%10%5E*4%5E%1B18%3F%2F%1A+%2C7PuEY%3C%21%27%28%25%223%29%25%2CkY9%280%2B%21DPhB%07%25ZNI%24q%40%2BwBB5W%285+%5B%12%28%5DLi_X%2F6C%25%27BT%3E%3AM%3BB%1B%28%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

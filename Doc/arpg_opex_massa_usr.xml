@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="268397289">
+  <CodifyName>arpg_opex_massa</CodifyName>
+  <Name>arpg_opex_massa.pagedef</Name>
+  <Title>Crea Operazioni extra conto globale</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="3614793"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_opex_massa_usr_1</JPG>
+    <Item type="immagine" x1="256" y1="228" x2="296" y2="260">
+      <Name LinkID="268397289">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_opex_massa</Hyperlink>
+      <HyperlinkOpenOn>Frame</HyperlinkOpenOn>
+      <Help>Premere il bottone per la creazione delle operazioni extraconto</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="304" y1="228" x2="344" y2="260">
+      <Name LinkID="268397289">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="40" y1="14" x2="224" y2="35">
+      <Name LinkID="114018575">flgoef</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="400" y1="14" x2="584" y2="35">
+      <Name LinkID="114805007">flgoag</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="40" y1="42" x2="360" y2="63">
+      <Name LinkID="120264975">flgdel</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

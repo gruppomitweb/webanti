@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<class>
+    <description>Import Operazioni e Frazionate</description>
+    <note></note>
+    <variable>
+        <name>DATAOPE</name>
+        <description>Data Operazione</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>FLAGCONT</name>
+        <description>Flag Contanti</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODANA</name>
+        <description>Causale Analitica</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODVOC</name>
+        <description>Causale Sintetica</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TIPOINT2</name>
+        <description>Tipo Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODINT2</name>
+        <description>Codice Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PAESE</name>
+        <description>Paese Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DESC2</name>
+        <description>Comune Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PROV2</name>
+        <description>Provincia Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODCAB2</name>
+        <description>CAB Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DESCINTER</name>
+        <description>Descrizione Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>RAPPORTO</name>
+        <description>Codice Rapporto Continuativo</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>FLAGRAP</name>
+        <description>Tipo Rapporto Continuativo</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TIPOLEG</name>
+        <description>Tipo Legame Soggetto Operante</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATAREG</name>
+        <description>Data Registrazione Operazione</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>FLAGLIRE</name>
+        <description>Tipo Valuta</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>VALUTA</name>
+        <description>Codice Valuta</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SEGNO</name>
+        <description>Segno Operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TOTLIRE</name>
+        <description>Importo Operazione</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>TOTCONT</name>
+        <description>Totale Contanti</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>CONNESCLI</name>
+        <description>Codice Cliente Occasionale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CONNESOPER</name>
+        <description>Codice Soggetto Operante</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CAMBIO</name>
+        <description>Cambio se operazione in valuta</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>NUMPROG</name>
+        <description>N. Progressivo Operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TIPOOPRAP</name>
+        <description>Tipo Registrazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TIPOINTER</name>
+        <description>Tipo Intermediario</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODINTER</name>
+        <description>Codice Intermediario</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODDIPE</name>
+        <description>Codice Dipendenza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DESCCIT</name>
+        <description>Città Intermediario/Dipendenza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PROVINCIA</name>
+        <description>Provincia Intermediario/Dipendenza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODCAB</name>
+        <description>CAB Intermediario/Dipendenza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>FLAGFRAZ</name>
+        <description>Flag Operazione Frazionata/Multipla</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CONNESBEN</name>
+        <description>Codice Beneficiario</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>UNIQUECODE</name>
+        <description>Codice Univoco Operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>AGOPER</name>
+        <description>Tipo Operazione Agenzia Entrate</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>RIFIMP</name>
+        <description>RIferimento Import</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>ZCPARTE</name>
+        <description>Descrizione Completa Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>RAGIO</name>
+        <description>Classe di rischio ragionevolezza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>MODSVOL</name>
+        <description>Classe di rischio Modalità di svolgimento</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>AREAGEO</name>
+        <description>Classe di Rischio area geografica</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>INFORM</name>
+        <description>Annotazioni Varie/Codice esterno operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>AMMONT</name>
+        <description>Classe di rischio Ammontare Operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DURATA</name>
+        <description>Classe di rischio Durata/Frequenza Operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TIPO</name>
+        <description>Classe di ricchio Tipo Operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>RRAGIO</name>
+        <description>Valore Rischio Ragionevolezza</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>RCOMP</name>
+        <description>Valore Rischio Comportamento</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>RAREA</name>
+        <description>Valore Rischio Area Geografica</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>RIMP</name>
+        <description>Valore Rischio Importo</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>RFREQ</name>
+        <description>Valore Rischio Durata/Frequenza</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>CONNALTRO</name>
+        <description>Soggetto per il quale è svolta l&apos;operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATAIMP</name>
+        <description>Data Importazione</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>RTIPO</name>
+        <description>Valore Rischio Tipo Operazione</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>C_RAG</name>
+        <description>Nominativo Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>C_STA</name>
+        <description>Stato Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>C_CTA</name>
+        <description>Città Residenza Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>C_CAB</name>
+        <description>CAB Città Residenza Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>C_PRV</name>
+        <description>Provincia Città Residenza Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>C_IND</name>
+        <description>Indirizzo Città Residenza Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>C_CAP</name>
+        <description>CAP Città Residenza Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NATURA</name>
+        <description>Natura Operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SCOPO</name>
+        <description>Scopo Operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>C_RAPPORTO</name>
+        <description>Conto Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>RAPPORTOBEN</name>
+        <description>Codice rapporto conroparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PAGASOGOP</name>
+        <description>Soggetto Operante paga con mezzi propri</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>IPCOLLEG</name>
+        <description>IP Collegamento</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>ORACOLLEG</name>
+        <description>Data e Ora Collegamento</description>
+        <type>T</type>
+    </variable>
+    <variable>
+        <name>DUCOLLEG</name>
+        <description>Minuti di collegamento</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>IMPIN</name>
+        <description>Importo IN Cambiavalute</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>IMPOUT</name>
+        <description>Importo OUT Cambiavalute</description>
+        <type>N</type>
+    </variable>
+</class>

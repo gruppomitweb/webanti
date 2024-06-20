@@ -1,0 +1,47 @@
+﻿* --- Resource Vers. 0.9
+arrt_login
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Login Utente (Routine)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='public
+I
+}
+modified_on=#2024-05-10 18:25:22
+module_name='
+name='arrt_login
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'utenti.utcodice
+'utenti.utcod_cp
+'utenti.utpasswd
+'utenti.ut_email
+'utenti.utdatacc
+]
+'Hyperlinks
+[
+'arpg_login
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Tables
+[
+'utenti<table>
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

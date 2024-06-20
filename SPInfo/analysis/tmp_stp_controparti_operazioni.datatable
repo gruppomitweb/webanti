@@ -1,0 +1,676 @@
+﻿* --- Resource Vers. 0.9
+tmp_stp_controparti_operazioni<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Appoggio per controparti nelle stampe
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_stp_controparti_operazioni
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_stp_controparti_operazioni.idbase
+'tmp_stp_controparti_operazioni.cconnes
+'tmp_stp_controparti_operazioni.ccodcab
+'tmp_stp_controparti_operazioni.cragsoc
+'tmp_stp_controparti_operazioni.cdomicilio
+'tmp_stp_controparti_operazioni.ccodfisc
+'tmp_stp_controparti_operazioni.cdatanasc
+'tmp_stp_controparti_operazioni.cnascomun
+'tmp_stp_controparti_operazioni.csotgrup
+'tmp_stp_controparti_operazioni.cramogrup
+'tmp_stp_controparti_operazioni.csettsint
+'tmp_stp_controparti_operazioni.ctipodoc
+'tmp_stp_controparti_operazioni.cnumdocum
+'tmp_stp_controparti_operazioni.cdatarilasc
+'tmp_stp_controparti_operazioni.cautrilasc
+'tmp_stp_controparti_operazioni.cdesccit
+'tmp_stp_controparti_operazioni.cprovincia
+'tmp_stp_controparti_operazioni.cpaese
+'tmp_stp_controparti_operazioni.ccap
+'tmp_stp_controparti_operazioni.ccodinter
+'tmp_stp_controparti_operazioni.ctipinter
+'tmp_stp_controparti_operazioni.ctipopers
+'tmp_stp_controparti_operazioni.ccoddipe
+'tmp_stp_controparti_operazioni.cpartiva
+'tmp_stp_controparti_operazioni.cnote
+'tmp_stp_controparti_operazioni.csesso
+'tmp_stp_controparti_operazioni.csospmaf
+'tmp_stp_controparti_operazioni.cidcitta
+'tmp_stp_controparti_operazioni.cdatavali
+'tmp_stp_controparti_operazioni.cnasstato
+'tmp_stp_controparti_operazioni.cdocfile
+'tmp_stp_controparti_operazioni.cnome
+'tmp_stp_controparti_operazioni.ccognome
+'tmp_stp_controparti_operazioni.ccfestero
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_stp_controparti_operazioni.cautrilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Autorità di rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CAUTRILASC
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.ccap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CCAP
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.ccfestero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale Estero
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CCFESTERO
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.ccodcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CCODCAB
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.ccoddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CCODDIPE
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.ccodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CCODFISC
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.ccodinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CCODINTER
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.ccognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Cognome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CCOGNOME
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cconnes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CCONNES
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cdatanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CDATANASC
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cdatarilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Rilascio Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CDATARILASC
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cdatavali
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CDATAVALI
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cdesccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CDESCCIT
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cdocfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CDOCFILE
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cdomicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Indirizzo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CDOMICILIO
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cidcitta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='Cidcitta
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cnascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Luogo di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CNASCOMUN
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cnasstato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CNASSTATO
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cnome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CNOME
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cnote
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Note
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CNOTE
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cnumdocum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Numero Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CNUMDOCUM
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cpaese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CPAESE
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cpartiva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Partita IVA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CPARTIVA
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cprovincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CPROVINCIA
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CRAGSOC
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.cramogrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Ramo Gruppo Att. Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CRAMOGRUP
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.csesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Sesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CSESSO
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.csettsint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Settorizzazione UIC
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CSETTSINT
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.csospmaf
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CSOSPMAF
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.csotgrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Sottogruppo Att. Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CSOTGRUP
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.ctipinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CTIPINTER
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.ctipodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CTIPODOC
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.ctipopers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CTIPOPERS
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_controparti_operazioni.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Idbase
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='tmp_stp_controparti_operazioni
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_stp_controparti_operazioni.cautrilasc
+[]
+'tmp_stp_controparti_operazioni.ccap
+[]
+'tmp_stp_controparti_operazioni.ccfestero
+[]
+'tmp_stp_controparti_operazioni.ccodcab
+[]
+'tmp_stp_controparti_operazioni.ccoddipe
+[]
+'tmp_stp_controparti_operazioni.ccodfisc
+[]
+'tmp_stp_controparti_operazioni.ccodinter
+[]
+'tmp_stp_controparti_operazioni.ccognome
+[]
+'tmp_stp_controparti_operazioni.cconnes
+[]
+'tmp_stp_controparti_operazioni.cdatanasc
+[]
+'tmp_stp_controparti_operazioni.cdatarilasc
+[]
+'tmp_stp_controparti_operazioni.cdatavali
+[]
+'tmp_stp_controparti_operazioni.cdesccit
+[]
+'tmp_stp_controparti_operazioni.cdocfile
+[]
+'tmp_stp_controparti_operazioni.cdomicilio
+[]
+'tmp_stp_controparti_operazioni.cidcitta
+[]
+'tmp_stp_controparti_operazioni.cnascomun
+[]
+'tmp_stp_controparti_operazioni.cnasstato
+[]
+'tmp_stp_controparti_operazioni.cnome
+[]
+'tmp_stp_controparti_operazioni.cnote
+[]
+'tmp_stp_controparti_operazioni.cnumdocum
+[]
+'tmp_stp_controparti_operazioni.cpaese
+[]
+'tmp_stp_controparti_operazioni.cpartiva
+[]
+'tmp_stp_controparti_operazioni.cprovincia
+[]
+'tmp_stp_controparti_operazioni.cragsoc
+[]
+'tmp_stp_controparti_operazioni.cramogrup
+[]
+'tmp_stp_controparti_operazioni.csesso
+[]
+'tmp_stp_controparti_operazioni.csettsint
+[]
+'tmp_stp_controparti_operazioni.csospmaf
+[]
+'tmp_stp_controparti_operazioni.csotgrup
+[]
+'tmp_stp_controparti_operazioni.ctipinter
+[]
+'tmp_stp_controparti_operazioni.ctipodoc
+[]
+'tmp_stp_controparti_operazioni.ctipopers
+[]
+'tmp_stp_controparti_operazioni.idbase
+[]
+}
+*--*

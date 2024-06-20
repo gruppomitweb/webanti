@@ -1,0 +1,714 @@
+﻿* --- Resource Vers. 0.9
+tmp_imp_oper<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Import Operazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_imp_oper
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_imp_oper.tipooper
+'tmp_imp_oper.codstudio
+'tmp_imp_oper.coddipe
+'tmp_imp_oper.numprog
+'tmp_imp_oper.dataope
+'tmp_imp_oper.flagfraz
+'tmp_imp_oper.cauoper
+'tmp_imp_oper.connescli
+'tmp_imp_oper.connesreal
+'tmp_imp_oper.connesben
+'tmp_imp_oper.datareg
+'tmp_imp_oper.statoreg
+'tmp_imp_oper.datarett
+'tmp_imp_oper.valuta
+'tmp_imp_oper.importo
+'tmp_imp_oper.contanti
+'tmp_imp_oper.mezpag
+'tmp_imp_oper.prestaz
+'tmp_imp_oper.posiz
+'tmp_imp_oper.ragio
+'tmp_imp_oper.modsvol
+'tmp_imp_oper.areageo
+'tmp_imp_oper.tipo
+'tmp_imp_oper.ammont
+'tmp_imp_oper.durat
+'tmp_imp_oper.rarea
+'tmp_imp_oper.rragio
+'tmp_imp_oper.rcomp
+'tmp_imp_oper.rtipo
+'tmp_imp_oper.rfreq
+'tmp_imp_oper.rimp
+'tmp_imp_oper.codabi
+'tmp_imp_oper.codcab
+'tmp_imp_oper.connaltro
+'tmp_imp_oper.impprog
+'tmp_imp_oper.despunto
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_imp_oper.ammont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='AMMONT
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Area Geografica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='AREAGEO
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.cauoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CAUOPER
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.codabi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice ABI
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODABI
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODCAB
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODDIPE
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.codstudio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODSTUDIO
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.connaltro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Titolare operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONNALTRO
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.connesben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONNESBEN
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.connescli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONNESCLI
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.connesreal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONNESREAL
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.contanti
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONTANTI
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAOPE
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.datareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAREG
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.datarett
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATARETT
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.despunto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione Punto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESPUNTO
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.durat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DURAT
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.flagfraz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLAGFRAZ
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.importo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IMPORTO
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.impprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Progressivo Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IMPPROG
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.mezpag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MEZPAG
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.modsvol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Modalità Svolgimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MODSVOL
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMPROG
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.posiz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='POSIZ
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.prestaz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PRESTAZ
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.ragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Ragionevolezza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAGIO
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.rarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAREA
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.rcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RCOMP
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.rfreq
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RFREQ
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.rimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RIMP
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.rragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RRAGIO
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.rtipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RTIPO
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.statoreg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='STATOREG
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPO
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.tipooper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOOPER
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+'tmp_imp_oper.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='VALUTA
+state=3
+table_name='tmp_imp_oper
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_imp_oper.ammont
+[]
+'tmp_imp_oper.areageo
+[]
+'tmp_imp_oper.cauoper
+[]
+'tmp_imp_oper.codabi
+[]
+'tmp_imp_oper.codcab
+[]
+'tmp_imp_oper.coddipe
+[]
+'tmp_imp_oper.codstudio
+[]
+'tmp_imp_oper.connaltro
+[]
+'tmp_imp_oper.connesben
+[]
+'tmp_imp_oper.connescli
+[]
+'tmp_imp_oper.connesreal
+[]
+'tmp_imp_oper.contanti
+[]
+'tmp_imp_oper.dataope
+[]
+'tmp_imp_oper.datareg
+[]
+'tmp_imp_oper.datarett
+[]
+'tmp_imp_oper.despunto
+[]
+'tmp_imp_oper.durat
+[]
+'tmp_imp_oper.flagfraz
+[]
+'tmp_imp_oper.importo
+[]
+'tmp_imp_oper.impprog
+[]
+'tmp_imp_oper.mezpag
+[]
+'tmp_imp_oper.modsvol
+[]
+'tmp_imp_oper.numprog
+[]
+'tmp_imp_oper.posiz
+[]
+'tmp_imp_oper.prestaz
+[]
+'tmp_imp_oper.ragio
+[]
+'tmp_imp_oper.rarea
+[]
+'tmp_imp_oper.rcomp
+[]
+'tmp_imp_oper.rfreq
+[]
+'tmp_imp_oper.rimp
+[]
+'tmp_imp_oper.rragio
+[]
+'tmp_imp_oper.rtipo
+[]
+'tmp_imp_oper.statoreg
+[]
+'tmp_imp_oper.tipo
+[]
+'tmp_imp_oper.tipooper
+[]
+'tmp_imp_oper.valuta
+[]
+}
+*--*

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>Per controllo file crittografati</description>
+    <note></note>
+    <variable>
+        <name>NOMEFILE1</name>
+        <description>Nome Primo FIle</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NOMEFILE2</name>
+        <description>Nome Secondo File</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NOMEFILE3</name>
+        <description>Nome Terzo File</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NOMEDIR</name>
+        <description>Nome Cartella dei file</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CRYPPTOKEY</name>
+        <description>Chiave Crittografazione</description>
+        <type>M</type>
+    </variable>
+    <variable>
+        <name>DIRBASE</name>
+        <description>Directory di base</description>
+        <type>C</type>
+    </variable>
+</class>

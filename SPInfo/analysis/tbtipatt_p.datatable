@@ -1,0 +1,106 @@
+﻿* --- Resource Vers. 0.9
+tbtipatt_p<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Tipo Attività Svolta Pers.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbtipatt_p
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbtipatt_p.codice
+'tbtipatt_p.rischio
+'tbtipatt_p.flgpers
+'tbtipatt_p.flgalto
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbtipatt_p.codice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODICE
+state=3
+table_name='tbtipatt_p
+type='field
+used_resource_keys={}
+I
+'tbtipatt_p.flgalto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Attività ad alto rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGALTO
+state=3
+table_name='tbtipatt_p
+type='field
+used_resource_keys={}
+I
+'tbtipatt_p.flgpers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Personalizzato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGPERS
+state=3
+table_name='tbtipatt_p
+type='field
+used_resource_keys={}
+I
+'tbtipatt_p.rischio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indice Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RISCHIO
+state=3
+table_name='tbtipatt_p
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbtipatt_p.codice
+[]
+'tbtipatt_p.flgalto
+[]
+'tbtipatt_p.flgpers
+[]
+'tbtipatt_p.rischio
+[]
+}
+*--*

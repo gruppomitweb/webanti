@@ -1,0 +1,714 @@
+﻿* --- Resource Vers. 0.9
+db_personbo_agg<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='DB PERSONBO_AGG
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='db_personbo_agg
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'db_personbo_agg.connes
+'db_personbo_agg.email
+'db_personbo_agg.flgemail
+'db_personbo_agg.telefono
+'db_personbo_agg.rdcodaut
+'db_personbo_agg.rdlocaut
+'db_personbo_agg.flgbanca
+'db_personbo_agg.flgvalido
+'db_personbo_agg.regres
+'db_personbo_agg.flgbl
+'db_personbo_agg.cloccupa
+'db_personbo_agg.numtel
+'db_personbo_agg.nazione
+'db_personbo_agg.lastoper
+'db_personbo_agg.codcliest
+'db_personbo_agg.flganaval
+'db_personbo_agg.clprvdom
+'db_personbo_agg.mitig
+'db_personbo_agg.mitgdoc
+'db_personbo_agg.categ01
+'db_personbo_agg.categ02
+'db_personbo_agg.categ03
+'db_personbo_agg.categ04
+'db_personbo_agg.categ05
+'db_personbo_agg.categoria
+'db_personbo_agg.flgpregiud
+'db_personbo_agg.flgtrust
+'db_personbo_agg.flgrischio
+'db_personbo_agg.flgequifin
+'db_personbo_agg.flgfalsadic
+'db_personbo_agg.flgricinf
+'db_personbo_agg.wugid
+'db_personbo_agg.wunazrildoc
+'db_personbo_agg.wucognome
+'db_personbo_agg.wunome
+'db_personbo_agg.wuluonas
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'db_personbo_agg.categ01
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG01
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.categ02
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG02
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.categ03
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG03
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.categ04
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG04
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.categ05
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG05
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.categoria
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEGORIA
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.cloccupa
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Occupazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CLOCCUPA
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.clprvdom
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Domicilio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CLPRVDOM
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.codcliest
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Cliente Originale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCLIEST
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNES
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.email
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='EMAIL
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='EMAIL
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.flganaval
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Dati Anagrafici Validati
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGANAVAL
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.flgbanca
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Dati Aggiornati da Banca (WU)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGBANCA
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.flgbl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='BlackList
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGBL
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.flgemail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Flag EMAIL
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGEMAIL
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.flgequifin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Equilibrio Finanziario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGEQUIFIN
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.flgfalsadic
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Falsa dichiarazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGFALSADIC
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.flgpregiud
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Pregiudizievole
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGPREGIUD
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.flgricinf
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Richiamo di Informativa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGRICINF
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.flgrischio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cliente con attività in paesi a rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGRISCHIO
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.flgtrust
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Trust
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGTRUST
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.flgvalido
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Validato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGVALIDO
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.lastoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ultima Operazione Insertita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='LASTOPER
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.mitgdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Path Documentazione Mitigazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MITGDOC
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.mitig
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mitigazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MITIG
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.nazione
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nazionalità
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NAZIONE
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.numtel
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Telefono
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMTEL
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.rdcodaut
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Autorità Rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RDCODAUT
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.rdlocaut
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Località Autorità Rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RDLOCAUT
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.regres
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Regione Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='REGRES
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.telefono
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Telefono
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TELEFONO
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.wucognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cognome RTRA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='WUCOGNOME
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.wugid
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='GID Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='WUGID
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.wuluonas
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Luogo Nascita WU
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='WULUONAS
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.wunazrildoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nazione Rilascio Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='WUNAZRILDOC
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+'db_personbo_agg.wunome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome RTRA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='WUNOME
+state=3
+table_name='db_personbo_agg
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'db_personbo_agg.categ01
+[]
+'db_personbo_agg.categ02
+[]
+'db_personbo_agg.categ03
+[]
+'db_personbo_agg.categ04
+[]
+'db_personbo_agg.categ05
+[]
+'db_personbo_agg.categoria
+[]
+'db_personbo_agg.cloccupa
+[]
+'db_personbo_agg.clprvdom
+[]
+'db_personbo_agg.codcliest
+[]
+'db_personbo_agg.connes
+[]
+'db_personbo_agg.email
+[]
+'db_personbo_agg.flganaval
+[]
+'db_personbo_agg.flgbanca
+[]
+'db_personbo_agg.flgbl
+[]
+'db_personbo_agg.flgemail
+[]
+'db_personbo_agg.flgequifin
+[]
+'db_personbo_agg.flgfalsadic
+[]
+'db_personbo_agg.flgpregiud
+[]
+'db_personbo_agg.flgricinf
+[]
+'db_personbo_agg.flgrischio
+[]
+'db_personbo_agg.flgtrust
+[]
+'db_personbo_agg.flgvalido
+[]
+'db_personbo_agg.lastoper
+[]
+'db_personbo_agg.mitgdoc
+[]
+'db_personbo_agg.mitig
+[]
+'db_personbo_agg.nazione
+[]
+'db_personbo_agg.numtel
+[]
+'db_personbo_agg.rdcodaut
+[]
+'db_personbo_agg.rdlocaut
+[]
+'db_personbo_agg.regres
+[]
+'db_personbo_agg.telefono
+[]
+'db_personbo_agg.wucognome
+[]
+'db_personbo_agg.wugid
+[]
+'db_personbo_agg.wuluonas
+[]
+'db_personbo_agg.wunazrildoc
+[]
+'db_personbo_agg.wunome
+[]
+}
+*--*

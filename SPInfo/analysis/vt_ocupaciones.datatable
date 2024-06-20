@@ -1,0 +1,353 @@
+﻿* --- Resource Vers. 0.9
+vt_ocupaciones<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='OCUPACIONES
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='vt_ocupaciones
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'vt_ocupaciones.id_ocupacion
+'vt_ocupaciones.cod_cliente
+'vt_ocupaciones.id_tipoocupacion
+'vt_ocupaciones.empleadopor
+'vt_ocupaciones.direccion
+'vt_ocupaciones.cod_ciudad
+'vt_ocupaciones.cve_estado
+'vt_ocupaciones.cod_pais
+'vt_ocupaciones.codigopostal
+'vt_ocupaciones.procedenciadinero
+'vt_ocupaciones.telempleador
+'vt_ocupaciones.formatodocto
+'vt_ocupaciones.formatolongitud
+'vt_ocupaciones.comprobantedocto
+'vt_ocupaciones.comprobantelongitud
+'vt_ocupaciones.fecha_alta
+'vt_ocupaciones.status
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'vt_ocupaciones.cod_ciudad
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_ciudad
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.cod_cliente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_cliente
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.cod_pais
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_pais
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.codigopostal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='codigopostal
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.comprobantedocto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='comprobantedocto
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.comprobantelongitud
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='comprobantelongitud
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.cve_estado
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cve_estado
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.direccion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='direccion
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.empleadopor
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='empleadopor
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.fecha_alta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fecha_alta
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.formatodocto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='formatodocto
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.formatolongitud
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='formatolongitud
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.id_ocupacion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_ocupacion
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.id_tipoocupacion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_tipoocupacion
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.procedenciadinero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='procedenciadinero
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.status
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='status
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+'vt_ocupaciones.telempleador
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='telempleador
+state=3
+table_name='vt_ocupaciones
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'vt_ocupaciones.cod_ciudad
+[]
+'vt_ocupaciones.cod_cliente
+[]
+'vt_ocupaciones.cod_pais
+[]
+'vt_ocupaciones.codigopostal
+[]
+'vt_ocupaciones.comprobantedocto
+[]
+'vt_ocupaciones.comprobantelongitud
+[]
+'vt_ocupaciones.cve_estado
+[]
+'vt_ocupaciones.direccion
+[]
+'vt_ocupaciones.empleadopor
+[]
+'vt_ocupaciones.fecha_alta
+[]
+'vt_ocupaciones.formatodocto
+[]
+'vt_ocupaciones.formatolongitud
+[]
+'vt_ocupaciones.id_ocupacion
+[]
+'vt_ocupaciones.id_tipoocupacion
+[]
+'vt_ocupaciones.procedenciadinero
+[]
+'vt_ocupaciones.status
+[]
+'vt_ocupaciones.telempleador
+[]
+}
+*--*

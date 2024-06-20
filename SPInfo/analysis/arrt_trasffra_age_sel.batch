@@ -1,0 +1,55 @@
+﻿* --- Resource Vers. 0.9
+arrt_trasffra_age_sel
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Seleziona le frazionate agenti da trasferire
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:30
+module_name='
+name='arrt_trasffra_age_sel
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'anadip.coddip
+'anadip.agente
+'tmp_trasfope.numprog
+'tmp_trasfope.dataope
+'tmp_trasfope.rapporto
+'tmp_trasfope.valuta
+'tmp_trasfope.totlire
+'tmp_trasfope.totcont
+'tmp_trasfope.connescli
+'tmp_trasfope.flgsel
+'tmp_trasfope.idbase
+'tmp_trasfope.datareg
+'tmp_trasfope.coddip
+]
+'Hyperlinks
+[
+'arpg_trasffra_age
+]
+'Queries
+[
+'qbe_trasffra_age.vqr
+]
+'Tables
+[
+'tmp_trasfope<table>
+'anadip<table>
+]
+}
+I
+*--*
+￼[]
+*--*

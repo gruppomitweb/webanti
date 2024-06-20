@@ -1,0 +1,315 @@
+﻿* --- Resource Vers. 0.9
+cassandra_aefaminvio<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Cassandra Invio Famiglie
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cassandra_aefaminvio
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cassandra_aefaminvio.idbase
+'cassandra_aefaminvio.ididbase
+'cassandra_aefaminvio.tipo
+'cassandra_aefaminvio.tipoinvio
+'cassandra_aefaminvio.anno
+'cassandra_aefaminvio.mese
+'cassandra_aefaminvio.tipocom
+'cassandra_aefaminvio.olddata
+'cassandra_aefaminvio.rapporto
+'cassandra_aefaminvio.nomefile
+'cassandra_aefaminvio.fileinv1
+'cassandra_aefaminvio.fileinv2
+'cassandra_aefaminvio.prog
+'cassandra_aefaminvio.protocollo
+'cassandra_aefaminvio.coderror
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cassandra_aefaminvio.anno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno Riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNO
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.coderror
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODERROR
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.fileinv1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID File Invio 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FILEINV1
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.fileinv2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID FIle Invio 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FILEINV2
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.ididbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Base record aetesta/opextrbo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDIDBASE
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.mese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mese Riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MESE
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.nomefile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome File
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOMEFILE
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.olddata
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data precedente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDDATA
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.prog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROG
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.protocollo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Protocollo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROTOCOLLO
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPO
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.tipocom
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Comunicazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOCOM
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+'cassandra_aefaminvio.tipoinvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Invio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINVIO
+state=3
+table_name='cassandra_aefaminvio
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cassandra_aefaminvio.anno
+[]
+'cassandra_aefaminvio.coderror
+[]
+'cassandra_aefaminvio.fileinv1
+[]
+'cassandra_aefaminvio.fileinv2
+[]
+'cassandra_aefaminvio.idbase
+[]
+'cassandra_aefaminvio.ididbase
+[]
+'cassandra_aefaminvio.mese
+[]
+'cassandra_aefaminvio.nomefile
+[]
+'cassandra_aefaminvio.olddata
+[]
+'cassandra_aefaminvio.prog
+[]
+'cassandra_aefaminvio.protocollo
+[]
+'cassandra_aefaminvio.rapporto
+[]
+'cassandra_aefaminvio.tipo
+[]
+'cassandra_aefaminvio.tipocom
+[]
+'cassandra_aefaminvio.tipoinvio
+[]
+}
+*--*

@@ -1,0 +1,44 @@
+﻿* --- Resource Vers. 0.9
+arrt_chg_connes_xls
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:32
+description='Aggiornamento massivo di codici di collegamento da excel
+file_modified_on=#2020-10-03 07:42:56
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:09
+module_name='
+name='arrt_chg_connes_xls
+state=1
+type='batch
+used_resource_keys={
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_chg_connes
+'arrt_chg_connes_xls
+]
+'Tables
+[
+'opextrbo<table>
+'personbo<table>
+'personbo_agg<table>
+'wersonbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

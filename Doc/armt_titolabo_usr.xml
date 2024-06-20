@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="249807696">
+  <CodifyName>armt_titolabo</CodifyName>
+  <Name>armt_titolabo.mstdef</Name>
+  <Title>Titolari Effettivi</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="128025524">Dati Base</Title>
+    <Note></Note>
+    <JPG x="5" y="7">armt_titolabo_usr_1</JPG>
+    <Item type="campo" x1="128" y1="16" x2="304" y2="36">
+      <Name LinkID="95002409">COGNOME</Name>
+      <Comment>Cognome</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="352" y1="16" x2="520" y2="36">
+      <Name LinkID="183746227">NOME</Name>
+      <Comment>Nome</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="39" x2="703" y2="60">
+      <Name LinkID="257091109">CFESTERO</Name>
+      <Comment>Codice Fiscale Estero</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="64" x2="560" y2="84">
+      <Name LinkID="152092967">RAGSOC</Name>
+      <Comment>Ragione Sociale</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="87" x2="446" y2="107">
+      <Name LinkID="191173683">DESCCIT</Name>
+      <Comment>Città</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="528" y1="87" x2="552" y2="107">
+      <Name LinkID="216296287">PROVINCIA</Name>
+      <Comment>Provincia</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="600" y1="87" x2="666" y2="107">
+      <Name LinkID="168574208">CAP</Name>
+      <Comment>CAP</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="87" x2="752" y2="107">
+      <Name LinkID="99573212">CODCAB</Name>
+      <Comment>CAB</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="111" x2="350" y2="131">
+      <Name LinkID="250418317">DOMICILIO</Name>
+      <Comment>Indirizzo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="400" y1="111" x2="430" y2="131">
+      <Name LinkID="118261541">PAESE</Name>
+      <Comment>Stato</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="162" x2="350" y2="182">
+      <Name LinkID="172384307">NASCOMUN</Name>
+      <Comment>Luogo di Nascita</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="432" y1="162" x2="456" y2="182">
+      <Name LinkID="260649072">TIPINTER</Name>
+      <Comment>Prov.</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="544" y1="164" x2="694" y2="184">
+      <Name LinkID="168595763">SESSO</Name>
+      <Comment>Sesso</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="186" x2="350" y2="206">
+      <Name LinkID="173319731">NASSTATO</Name>
+      <Comment>Stato di nascita</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="210" x2="200" y2="230">
+      <Name LinkID="261332756">DATANASC</Name>
+      <Comment>Data Nascita</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="336" y1="210" x2="582" y2="230">
+      <Name LinkID="78350864">TIPODOC</Name>
+      <Comment>Tipo Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="234" x2="230" y2="254">
+      <Name LinkID="171294781">NUMDOCUM</Name>
+      <Comment>Numero Doc.</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="258" x2="200" y2="278">
+      <Name LinkID="227728620">DATARILASC</Name>
+      <Comment>Data Rilascio Doc.</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="312" y1="258" x2="384" y2="278">
+      <Name LinkID="267167508">DATAVALI</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="520" y1="258" x2="712" y2="278">
+      <Name LinkID="259896540">AUTRILASC</Name>
+      <Comment>Autorità di rilascio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="290" x2="256" y2="310">
+      <Name LinkID="95110572">CODFISC</Name>
+      <Comment>Codice Fiscale</Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="408" y1="290" x2="512" y2="310">
+      <Name LinkID="122874690">PARTIVA</Name>
+      <Comment>Partita IVA</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="314" x2="158" y2="334">
+      <Name LinkID="94248076">SOTGRUP</Name>
+      <Comment>Sottogruppo Att. Ec.</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="338" x2="158" y2="358">
+      <Name LinkID="241608941">RAMOGRUP</Name>
+      <Comment>Ramo Gruppo Att. Ec.</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="362" x2="158" y2="382">
+      <Name LinkID="262088004">SETTSINT</Name>
+      <Comment>Settorizzazione UIC</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="648" y1="16" x2="776" y2="36">
+      <Name LinkID="99502370">CONNES</Name>
+      <Comment>Codice Collegamento</Comment>
+      <Key>key1</Key>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="704" y1="294" x2="776" y2="314">
+      <Name LinkID="34054196">datamodi</Name>
+      <Comment>Data Modifica</Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="258" y1="290" x2="283" y2="310">
+      <Name LinkID="150192976">images/calc.jpg</Name>
+      <Image>images/calc.jpg</Image>
+      <Hyperlink>arrt_calccodfis</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Ricalcola il codice fiscale</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="16" y1="16" x2="40" y2="40">
+      <Name LinkID="150192976">images/search4.gif</Name>
+      <Image>images/search4.gif</Image>
+      <Hyperlink>arpg_ricerca_sogg</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Ricerca su Soggetti Segnalati</Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

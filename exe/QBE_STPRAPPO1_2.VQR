@@ -1,0 +1,231 @@
+ 7
+"Appoggio per stampa rapporto"
+"tmp_stprapporti"
+"tmp_stprapporti"
+ 0
+ 0
+*
+"Divise"
+"tbvalute"
+"tbvalute"
+ 0
+ 0
+*
+"Natura Conti"
+"tbtipnat"
+"tbtipnat"
+ 0
+ 0
+*
+"Tipi Rapporti Agenzia Entrate"
+"tbrapp"
+"tbrapp"
+ 0
+ 0
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+"Tipi Legami"
+"tbtipleg"
+"tbtipleg"
+ 0
+ 0
+*
+ 15
+"Codice Rapporto"
+"tmp_stprapporti.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Descrizione"
+"tmp_stprapporti.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Descrizione"
+"tbtipnat.DESCRI"
+"DESCCON"
+"C"
+ 60
+ 0
+*
+"Descrizione"
+"tbvalute.DESCRI"
+"DESCDIV"
+"C"
+ 30
+ 0
+*
+"Descrizione"
+"tbrapp.DESCRI"
+"DESCAGE"
+"C"
+ 50
+ 0
+*
+"Numero Progressivo"
+"tmp_stprapporti.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Inizio / Fine Rapporto"
+"tmp_stprapporti.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Data Registrazione"
+"tmp_stprapporti.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Descrizione"
+"tbtipreg.CODICE[CONCAT()]ý-ý[CONCAT()]tbtipreg.DES1"
+"DESINFO"
+"C"
+ 90
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"SOPCTER"
+"C"
+ 70
+ 0
+*
+"Descrizione"
+"tbtipleg.DESCRIZ"
+"DESTPLEG"
+"C"
+ 50
+ 0
+*
+"Data Inizio"
+"tmp_stprapporti.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+"Data Fine"
+"tmp_stprapporti.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+""
+"tmp_stprapporti.IDEREG"
+"IDEREG"
+"C"
+ 20
+ 0
+*
+"Stato Registrazione"
+"tmp_stprapporti.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+ 6
+"Divise(Codice Divisa)"
+"tbvalute.CODVAL=tmp_stprapporti.VALUTA"
+"Right outer"
+"tbvalute"
+"tmp_stprapporti"
+*
+"Natura Conti(Tipo Rapporto)"
+"tbtipnat.TIPONAT=tmp_stprapporti.TIPORAP"
+"Right outer"
+"tbtipnat"
+"tmp_stprapporti"
+*
+"Tipo Rapporti Ag.Entrate"
+"tbrapp.CODICE=tmp_stprapporti.TIPOAG"
+"Right outer"
+"tbrapp"
+"tmp_stprapporti"
+*
+"Tipo Registrazione(Tipo Informazione)"
+"tbtipreg.CODICE=tmp_stprapporti.TIPOOPRAP"
+"Right outer"
+"tbtipreg"
+"tmp_stprapporti"
+*
+"Anagrafica Persone/Società/Legali Rappresentanti(Soggetto Operante Conto Terzi)"
+"personbo.CONNES=tmp_stprapporti.CONNESOPER"
+"Right outer"
+"personbo"
+"tmp_stprapporti"
+*
+"Tipi Legami(Tipo Legame Sogg.)"
+"tbtipleg.TIPLEG=tmp_stprapporti.TIPOLEG"
+"Right outer"
+"tbtipleg"
+"tmp_stprapporti"
+*
+ 0
+ 3
+"Codice Rapporto"
+"RAPPORTO"
+"Ascending"
+*
+"Numero Progressivo"
+"NUMPROG"
+"Ascending"
+*
+"Stato Registrazione"
+"STATOREG"
+"Ascending"
+*
+ 0
+ 1
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 46
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%28R5O_%5B*6JHE%2CE3N1CO.%2F0N0%24ALYNHHE0%29%265UH1Q%5DF%5CN3-E%2FB%3Ci%3D%2C*T%12.%2FVHRX6S%5B44%3A%1A.%3C6QVK%255N%29%40S%7FEh%2C%2F%28UK7%21%24%3B%23tT%26A%2CO%1CC%2F%3E3%06%24IyBI%27%26%3C%7F%5BN136Q%3BB%2F%402uVYqZ5%23%3EJ%2FKQ4v_TJ*D1%3C*7XL0G%21K%2FOQ8%29%5BSCP%245E%1B+D-Wu%40R%3C.A67OWV%3E4.%27%3D%3CCRC%5DE%3CpF%22M%23%1A%223.%26M3%28nI6%10%5E%7D95JTO%3B5KD_WML%5BZUQ%270%26%5B%22Q%3FW%5EEG%1E%3BG_+%3BU+3IR08%3F%00"
+"%25F%5DG%5BW%2BBCm%26B%3E8+SO+%29%27V6%299XWGHF%22%3F%21%23%1E%3A1%3FS6NAG8N%27%25V%5CUBH%21%29%29I%27NBR%22SA%21N0%291MV7U%26IA%28n%29D*%3C.OD%24%07*%5D%2C%1B%3CH%5BE%27J%24%3F+K%26AS%25V%29*%3DOn.B1%0B%7E%5E%3D6%3A%26%5E%249GJ%60__W%40%3DV%3E%3BNXOQ0HT*XK%402%3AJhT%23%5C%23%2C%29A+Ca%26%5DM%27%5B%05*%1F%40_NYT%26%3E%5DE%29*%13%5DA%5B7%28%26IR%24F-X7%2F%22B%23%3F%23*%22O%2235%25%5DLR%3D-K1+%7C%3A4441-%2BB%2BLWvQ%5CB9%059%21%28_B9%3CIO%29%5EI%26%29%5BHNW%1BR%3DU%2149%00"
+""
+""
+"native"
+ 0
+ 0
+*

@@ -1,0 +1,275 @@
+ 1
+"BO:opemt_operazbo->tbvalute"
+"opemt_operazbo"
+"BO:opemt_operazbo->tbvalute"
+ 0
+ 0
+*
+ 16
+"Data Operazione"
+"opemt_operazbo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Registrazione"
+"opemt_operazbo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"N° Progressivo"
+"opemt_operazbo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Causale Operazione"
+"opemt_operazbo.CAUOPER"
+"CAUOPER"
+"C"
+ 4
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Cliente"
+"opemt_operazbo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Soggetto Reale"
+"opemt_operazbo.CONNESREAL"
+"CONNESREAL"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Soggetto Servito"
+"opemt_operazbo.CONSERVITO"
+"CONSERVITO"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Beneficiario"
+"opemt_operazbo.CONNESBEN"
+"CONNESBEN"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Controparte"
+"opemt_operazbo.CONNALTRO"
+"CONNALTRO"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato"
+"opemt_operazbo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Rettifica"
+"opemt_operazbo.DATARETT"
+"DATARETT"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Importo"
+"opemt_operazbo.IMPORTO"
+"IMPORTO"
+"N"
+ 15
+ 2
+ 0
+.f.
+""
+""
+.f.
+*
+"Divisa"
+"opemt_operazbo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"opemt_operazbo.w_xdesval"
+"w_xdesval"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Mezzo pagamento"
+"opemt_operazbo.MEZPAG"
+"MEZPAG"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Prestazione"
+"opemt_operazbo.PRESTAZ"
+"PRESTAZ"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 0
+ 2
+"opemt_operazbo.DATAOPE"
+""
+">="
+"?da_data"
+"AND"
+""
+""
+*
+"opemt_operazbo.DATAOPE"
+""
+"<="
+"?a_data"
+"AND"
+""
+""
+*
+ 1
+"N° Progressivo"
+"NUMPROG"
+"Ascending"
+*
+ 0
+ 0
+ 2
+"da_data"
+"Data Operazione"
+"D"
+"8"
+"0"
+""
+""
+""
+.f.
+*
+"a_data"
+"Data Operazione"
+"D"
+"8"
+"0"
+""
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 11
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"tpVzH_+N+B%252NPYWG+S%2F%27I.AqTZ%25nH11%2B*I8N%07%2BE%3D%273+F%26%21%7C%3AM*%5E+%3FGO%2C+E%5ED%5B%2C%3C%056%21%23%24-V-U%3D%2F%3B%3E6L%5B%7FH%3E%28%3E*%29%12%2C%3ApQ%2Bw%3F%2Ca%5BBI.%3CB%05USJ%2CC15%22%29%2BT%5D1%067%3F%25%295XM%5E+3%2B%60%3F%2BO%24%28*T%2FXVU0-8N%21%7E1J%3C+%3AQ7%2BC%2CRA%25Y*L4CN%27%296T%07%25%5D%5BT%27%15.*%5EN%3F%27%5C%3C%03%3C6BPFZLS%29%5D_%2F1.%223+%25%231B7%3B%24F3%7EKE%24%3F%3A4I3NAB%22Rm%2B%5D%078%29O%2220Q%2CS%2C2%1ED65T%3BJM%5C%25-%2C%3B%23%00"
+"Csh+WSTR%5ET%3BF%23%2BMI2%29Z%3BYN%22%23AJ%2Cw_VJSE%1DHY%3A%3E%25N%3AYG*%21%3B+%7EYY%2B%263%02%23%25D%29Ev%29SYc19%21K%02*%272XiYA%1E4A9%5D5%3DDR*04%3CDWBO%247%247%3A%3E%3C%3AV%3BU%5Dt%3EGON52.I_IK66%26%24E%21%401%22J%3A%27%5EW%3CHG%5DC1%27QYzD%25H%2B%08X%3FH%3E34%020C2NcKJ%3E%5CXP7%211%3D%407%2CP%3F%5EL%40%3B%10-C4D3%5B0%3C-%2B%25.1IKP%233-F-0%223%21%26PiSm%3F%3D8%23.53%23%3B%3D%3C%2135JT%25tQ%26Y1%26%22%29%25%2602%288-NL%3DC-*UXGS%2B%5EB%23K%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+*

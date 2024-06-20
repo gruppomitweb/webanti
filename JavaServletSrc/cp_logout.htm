@@ -1,0 +1,11 @@
+<script>
+  var sub = sessionStorage.getItem('i_cEntryPoint') || 'jsp',
+    landing = '../' + sub + '/index.jsp',
+    wnd = window.frameElement ? window.parent : window;
+  try {
+    wnd.location.href = landing;
+  } catch (o_O) {
+    console.error(o_O);
+    location.href = landing;
+  }
+</script>

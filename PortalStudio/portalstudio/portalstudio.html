@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="imagetoolbar" content="no">
+<title>Sitepainter Infinity Portalstudio</title>
+<script src="../stdFunctions.js"></script>
+<script src="../visualweb/mootools-core.js"></script>
+<script src="../visualweb/mootools-more.js"></script>
+<script src="../raphael.js"></script>
+<script>
+  var draw;
+  
+  if(!window.addEventListener)
+    window.attachEvent('onresize',function(){drawPSImage()})
+  else
+    window.addEventListener('resize',function(){drawPSImage()})
+  function CancelEvent(e){
+   e.cancelBubble=true
+   if(e.stopPropagation) e.stopPropagation();
+   if(e.preventDefault) e.preventDefault(true);
+   e.returnValue=false
+  }
+  function CancelHelp() {
+   CancelEvent(event);
+   Help();
+  }    
+	function doLoad(){
+    drawPSImage();
+    document.body.className= "visible";
+  }
+  
+  function drawPSImage(){
+    var offsetLeft = 350;
+	  document.body.onhelp=CancelHelp
+    /*Disegno del grafico tematico*/
+    var size = {'x':document.body.offsetWidth,'y':document.body.offsetHeight-55}
+    if(draw)
+      draw.remove();
+    draw = Raphael(0,0,size.x,size.y)
+    var objsPosX = [
+      (size.x-offsetLeft)*0.3 + offsetLeft, //0
+      (size.x-offsetLeft)*0.3 + offsetLeft,  //1
+      (size.x-offsetLeft)*0.6 + offsetLeft,  //2
+      (size.x-offsetLeft)*0.8 + offsetLeft,  //3
+      (size.x-offsetLeft)*0.8 + offsetLeft,  //4
+      (size.x-offsetLeft)*0.6 + offsetLeft, //5
+      (size.x-offsetLeft)*0.5 + offsetLeft, //6
+      (size.x-offsetLeft)*0.3 + offsetLeft,  //7
+      (size.x-offsetLeft)*0.12 + offsetLeft, //8
+      (size.x-offsetLeft)*0.5 + offsetLeft, //9
+      (size.x-offsetLeft)*0.12 + offsetLeft, //10
+      (size.x-offsetLeft)*0.12 + offsetLeft, //11
+      (size.x-offsetLeft)*0.5 + offsetLeft  //12
+    ]
+    var objsPosY = [
+      size.y*0.30, //0
+      size.y*0.10, //1
+      size.y*0.10, //2
+      size.y*0.30, //3
+      size.y*0.75, //4
+      size.y*0.50, //5 
+      size.y*0.60, //6
+      size.y*0.50, //7
+      size.y*0.75, //8
+      size.y*0.75, //9
+      size.y*0.10, //10
+      size.y*0.30, //11
+      size.y*0.30  //12
+    ]
+    draw.image("../portalstudio/images/background.png",50,200,size.x,size.y);
+    var objs = {
+      'report':     draw.image("../portalstudio/images/report.png",  objsPosX[0],objsPosY[0],64,64), //0
+      'module':     draw.image("../portalstudio/images/module.png",  objsPosX[1],objsPosY[1],64,64), //1
+      'xml':        draw.image("../portalstudio/images/xml.png",     objsPosX[2],objsPosY[2],64,64), //2
+      'plan':       draw.image("../portalstudio/images/plan.png",    objsPosX[3],objsPosY[3],64,64), //3
+      'pagelet':    draw.image("../portalstudio/images/pagelet.png", objsPosX[4],objsPosY[4],64,64), //4
+      'portlet':    draw.image("../portalstudio/images/portlet.png", objsPosX[5],objsPosY[5],64,64), //5
+      'zoom':       draw.image("../portalstudio/images/zoom.png",    objsPosX[6],objsPosY[6],64,64), //6
+      'vqr':        draw.image("../portalstudio/images/vqr.png",     objsPosX[7],objsPosY[7],64,64), //7
+      'db':         draw.image("../portalstudio/images/database.png",objsPosX[8],objsPosY[8],64,64), //8
+      'bo':         draw.image("../portalstudio/images/bo.png",      objsPosX[9],objsPosY[9],64,64), //9
+      'pdf':        draw.image("../portalstudio/images/pdf.png",     objsPosX[10],objsPosY[10],64,64), //10
+      'scan':       draw.image("../portalstudio/images/scan.png",    objsPosX[11],objsPosY[11],64,64), //11
+      'chart':      draw.image("../portalstudio/images/chart.png",   objsPosX[12],objsPosY[12],64,64) //12
+    };
+    var texts = draw.set();
+    
+    texts.push(draw.text(objsPosX[0]+32,objsPosY[0]+74,"Report Editor"));
+    texts.push(draw.text(objsPosX[1]+32,objsPosY[1]+74,"Module Editor"));
+    texts.push(draw.text(objsPosX[2]+32,objsPosY[2]+74,"Xml"));
+    texts.push(draw.text(objsPosX[3]+32,objsPosY[3]+74,"Plan Editor"));
+    texts.push(draw.text(objsPosX[4]+32,objsPosY[4]+74,"Pagelet Editor"));
+    texts.push(draw.text(objsPosX[5]+32,objsPosY[5]+74,"Portlet Editor"));
+    texts.push(draw.text(objsPosX[6]+32,objsPosY[6]+74,"Zoom Editor"));
+    texts.push(draw.text(objsPosX[7]+32,objsPosY[7]+74,"VisualQuery"));
+    texts.push(draw.text(objsPosX[8]+32,objsPosY[8]+74,"Database"));
+    texts.push(draw.text(objsPosX[9]+32,objsPosY[9]+74,"Business Object"));
+    texts.push(draw.text(objsPosX[10]+32,objsPosY[10]+74,"Pdf"));
+    texts.push(draw.text(objsPosX[11]+32,objsPosY[11]+74,"Scan Doc"));
+    texts.push(draw.text(objsPosX[12]+32,objsPosY[12]+74,"Chart Editor"));
+    texts.attr({ 
+      'font-family': 'Open Sans',
+      'font-weight': 300,
+      'font-size': 20,
+      'text-anchor': 'middle',
+      'stroke' : '#000000',
+      'stroke-width': 0.1
+    });
+  /*   1-2-3
+       8   4
+       7-6-5
+  */
+    var paths = { /*draw.set();*/
+      'db_bo':          draw.path("M"+getPoint(objs['db'],4)[0]+' '      +getPoint(objs['db'],4)[1]+" L"      +getPoint(objs['bo'],8)[0]+", "    +getPoint(objs['bo'],8)[1]),
+      'db_vqr':         draw.path("M"+getPoint(objs['db'],3)[0]+' '      +getPoint(objs['db'],3)[1]+" L"      +getPoint(objs['vqr'],6)[0]+", "   +getPoint(objs['vqr'],6)[1]),
+      'bo_zoom':        draw.path("M"+getPoint(objs['bo'],2)[0]+' '      +getPoint(objs['bo'],2)[1]+" L"      +getPoint(objs['zoom'],6)[0]+' '   +getPoint(objs['zoom'],6)[1]),
+      'bo_vqr':         draw.path("M"+getPoint(objs['bo'],8)[0]+' '      +(getPoint(objs['bo'],8)[1]-10)+" L" +getPoint(objs['vqr'],6)[0]+' '    +getPoint(objs['vqr'],6)[1]),
+      'bo_portlet':     draw.path("M"+getPoint(objs['bo'],4)[0]+' '      +getPoint(objs['bo'],4)[1]+" L"      +getPoint(objs['portlet'],6)[0]+' '+getPoint(objs['portlet'],6)[1]),
+      'vqr_report':     draw.path("M"+getPoint(objs['vqr'],2)[0]+' '     +getPoint(objs['vqr'],2)[1]+" L"     +getPoint(objs['report'],6)[0]+' ' +getPoint(objs['report'],6)[1]),
+      'vqr_portlet':    draw.path("M"+getPoint(objs['vqr'],4)[0]+' '     +getPoint(objs['vqr'],4)[1]+" L"     +getPoint(objs['portlet'],8)[0]+' '+getPoint(objs['portlet'],8)[1]),
+      'vqr_zoom':       draw.path("M"+getPoint(objs['vqr'],4)[0]+' '     +getPoint(objs['vqr'],4)[1]+" L"     +getPoint(objs['zoom'],1)[0]+' '   +getPoint(objs['zoom'],1)[1]),
+      'report_xml':     draw.path("M"+getPoint(objs['report'],3)[0]+' '  +getPoint(objs['report'],3)[1]+" L"  +getPoint(objs['xml'],7)[0]+' '    +getPoint(objs['xml'],7)[1]),
+      'xml_module':     draw.path("M"+getPoint(objs['xml'],8)[0]+' '     +getPoint(objs['xml'],8)[1]+" L"     +getPoint(objs['module'],4)[0]+' ' +getPoint(objs['module'],4)[1]),
+      'xml_portlet':    draw.path("M"+getPoint(objs['xml'],6)[0]+' '     +getPoint(objs['xml'],6)[1]+" L"     +getPoint(objs['portlet'],2)[0]+' '+getPoint(objs['portlet'],2)[1]),
+      'plan_pagelet':   draw.path("M"+getPoint(objs['plan'],6)[0]+' '    +getPoint(objs['plan'],6)[1]+" L"    +getPoint(objs['pagelet'],2)[0]+' '+getPoint(objs['pagelet'],2)[1]),
+      'plan_portlet':   draw.path("M"+getPoint(objs['plan'],7)[0]+' '    +getPoint(objs['plan'],7)[1]+" L"    +getPoint(objs['portlet'],3)[0]+' '+getPoint(objs['portlet'],3)[1]),
+      'pagelet_portlet':draw.path("M"+getPoint(objs['pagelet'],1)[0]+' ' +getPoint(objs['pagelet'],1)[1]+" L" +getPoint(objs['portlet'],5)[0]+' '+getPoint(objs['portlet'],5)[1]),
+      
+      
+      'vqr_chart':      draw.path("M"+getPoint(objs['vqr'],3)[0]+' '     +getPoint(objs['vqr'],3)[1]+" L" +getPoint(objs['chart'],7)[0]+' '+getPoint(objs['chart'],7)[1]),
+      
+      'report_pdf':     draw.path("M"+getPoint(objs['report'],1)[0]+' '  +getPoint(objs['report'],1)[1]+" L" +getPoint(objs['pdf'],5)[0]+' '+getPoint(objs['pdf'],5)[1]),
+      'module_pdf':     draw.path("M"+getPoint(objs['module'],8)[0]+' '  +getPoint(objs['module'],8)[1]+" L" +getPoint(objs['pdf'],4)[0]+' '+getPoint(objs['pdf'],4)[1]),
+      
+      'pdf_scan':       draw.path("M"+getPoint(objs['pdf'],6)[0]+' '     +getPoint(objs['pdf'],6)[1]+" L" +getPoint(objs['scan'],2)[0]+' '+getPoint(objs['scan'],2)[1]),
+      
+      'chart_portlet':  draw.path("M"+getPoint(objs['chart'],6)[0]+' '   +getPoint(objs['chart'],6)[1]+" L" +getPoint(objs['portlet'],1)[0]+' '+getPoint(objs['portlet'],1)[1]),
+      'chart_report':   draw.path("M"+getPoint(objs['chart'],8)[0]+' '   +getPoint(objs['chart'],8)[1]+" L" +getPoint(objs['report'],4)[0]+' '+getPoint(objs['report'],4)[1])
+      
+    }
+    for(p in paths){
+      paths[p].attr("arrow-end","block-wide-long")
+      paths[p].attr({stroke:"#454545"})
+      /*paths[p].attr("stroke-width","1")
+    paths[p].mouseover(function(){
+      this.attr("stroke-width","1.5")
+    });
+    paths[p].mouseout(function(){
+      this.attr("stroke-width","1")
+    });*/
+    }
+                
+    objs['report'].click(function(){
+      parent.newCurrentObj('New','report');
+    })
+    objs['module'].click(function(){
+      parent.newCurrentObj('New','module');
+    })
+    objs['plan'].click(function(){
+      parent.newCurrentObj('New','plan');
+    })
+    objs['pagelet'].click(function(){
+      parent.selecttemplate('');
+      //parent.newCurrentObj('New','../pageleteditor/pagelet_editor.jsp');
+    })
+    objs['portlet'].click(function(){
+      parent.newCurrentObj('New','portlet');
+    })
+    objs['vqr'].click(function(){
+      parent.newCurrentObj('New','visualquery')
+    })
+    objs['zoom'].click(function(){
+      parent.openWin('../portalzoom/new.jsp')
+    })
+    
+  }
+
+  function getPoint(obj,point){
+    var gap = 20;
+    switch(point){
+      case 1:
+        return [obj.getBBox().x - gap,obj.getBBox().y - gap]
+      break;
+      case 2:
+        return [(obj.getBBox().x+obj.getBBox().width/2),obj.getBBox().y - gap]
+      break;
+      case 3:
+        return [(obj.getBBox().x+obj.getBBox().width) + gap,obj.getBBox().y - gap]
+      break;
+      case 4:
+        return [(obj.getBBox().x+obj.getBBox().width) + gap,(obj.getBBox().y+obj.getBBox().height/2)]
+      break;
+      case 5:
+        return [(obj.getBBox().x+obj.getBBox().width) + gap,(obj.getBBox().y+obj.getBBox().height) + gap]
+      break;
+      case 6:
+        return [(obj.getBBox().x+obj.getBBox().width/2),(obj.getBBox().y+obj.getBBox().height) + gap]
+      break;
+      case 7:
+        return [(obj.getBBox().x) - gap,(obj.getBBox().y+obj.getBBox().height) + gap]
+      break;
+      case 8:
+        return [(obj.getBBox().x) - gap,(obj.getBBox().y+obj.getBBox().height/2)]
+      break;
+    }
+  }
+	function Help(){
+	  windowOpenForeground('../help/portalstudio/ps_urg_navigator.htm','','toolbar=0,menubar=0,directories=0,width=720,height=600,resizable=1,scrollbars=1');
+	}
+	function DoOnKeyDown(e){
+	  //parent.DoOnKeyDown(e);
+	}
+</script><style>
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Open_Sans/open-sans-latin-300.eot'); /* IE9 Compat Modes */
+    src: local('Open Sans Light'), local('OpenSans-Light'),
+         url('../fonts/Open_Sans/open-sans-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Open_Sans/open-sans-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Open_Sans/open-sans-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Open_Sans/open-sans-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Open_Sans/open-sans-latin-300.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  
+  html{
+		height:100%;
+  }
+	body{
+		margin:0;
+    padding:0;
+		height:100%;
+		cursor:default;
+    background: #FFFFFF;
+    opacity: 0;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+	}
+  body.visible{
+    opacity: 1;
+  }  
+</style>
+
+</head>
+<body onload="doLoad();" onKeyDown="DoOnKeyDown(event)">
+	<div id="draw">
+  </div>
+</body>
+</html>

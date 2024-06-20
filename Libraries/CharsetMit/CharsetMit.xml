@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>Charset detector</description>
+    <note>Indentificazione del Charset di un file</note>
+    <function>
+        <name>detectCharset</name>
+        <description>Indentificazione del Charset ritorno come Charset</description>
+        <type>O</type>
+        <classname>Charset</classname>
+        <parameter>
+            <name>path</name>
+            <description>path intera del file da analizare</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>detectCharsetString</name>
+        <description>Indentificazione del Charset ritorno come stringa</description>
+        <type>C</type>
+        <parameter>
+            <name>path</name>
+            <description></description>
+            <type>C</type>
+        </parameter>
+    </function>
+</class>

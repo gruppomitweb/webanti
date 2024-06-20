@@ -1,0 +1,999 @@
+﻿* --- Resource Vers. 0.9
+wuchkimp_sf<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='WU Import Analisys (Single File)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='wuchkimp_sf
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'wuchkimp_sf.wucodice
+'wuchkimp_sf.wunomefile
+'wuchkimp_sf.wurifmtcn
+'wuchkimp_sf.wutipope
+'wuchkimp_sf.wucoddip
+'wuchkimp_sf.wudatope
+'wuchkimp_sf.wuimporto
+'wuchkimp_sf.wustades
+'wuchkimp_sf.wunomcli
+'wuchkimp_sf.wucogcli
+'wuchkimp_sf.wucitcli
+'wuchkimp_sf.wucapcli
+'wuchkimp_sf.wuindcli
+'wuchkimp_sf.wunomcon
+'wuchkimp_sf.wucogcon
+'wuchkimp_sf.wubcitcli
+'wuchkimp_sf.wubstacli
+'wuchkimp_sf.wudatnas
+'wuchkimp_sf.wusexcli
+'wuchkimp_sf.wucodfis
+'wuchkimp_sf.wutdoccli
+'wuchkimp_sf.wundoccli
+'wuchkimp_sf.wuadocril
+'wuchkimp_sf.wurdoccli
+'wuchkimp_sf.wusdoccli
+'wuchkimp_sf.wuprovcli
+'wuchkimp_sf.wuncoddip
+'wuchkimp_sf.wundatope
+'wuchkimp_sf.wunstades
+'wuchkimp_sf.wuncitcli
+'wuchkimp_sf.wuncapcli
+'wuchkimp_sf.wunbcitcli
+'wuchkimp_sf.wunbstacli
+'wuchkimp_sf.wundatnas
+'wuchkimp_sf.wuntdoccli
+'wuchkimp_sf.wunrdoccli
+'wuchkimp_sf.wunsdoccli
+'wuchkimp_sf.wunprovcli
+'wuchkimp_sf.wuflgall
+'wuchkimp_sf.wutiperr
+'wuchkimp_sf.wuncodfis
+'wuchkimp_sf.wucodmage
+'wuchkimp_sf.wunote
+'wuchkimp_sf.wuflgfrc
+'wuchkimp_sf.wucodclc
+'wuchkimp_sf.wuorigcf
+'wuchkimp_sf.wustacli
+'wuchkimp_sf.wunstacli
+'wuchkimp_sf.wucontanti
+'wuchkimp_sf.wuopetype
+'wuchkimp_sf.wunsexcli
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'wuchkimp_sf.wuadocril
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Autorità Rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUADOCRIL
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wubcitcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Città Nascita Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUBCITCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wubstacli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato Nascita Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUBSTACLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wucapcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAP Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCAPCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wucitcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Città Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCITCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wucodclc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale Ricalcolato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCODCLC
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wucoddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCODDIP
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wucodfis
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCODFIS
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wucodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCODICE
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wucodmage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='MacroAgente (Network)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCODMAGE
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wucogcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Cognome Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCOGCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wucogcon
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Cognome Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCOGCON
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wucontanti
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Importo Contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCONTANTI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wudatnas
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Nascita Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUDATNAS
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wudatope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUDATOPE
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wuflgall
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Completata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUFLGALL
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wuflgfrc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Forza caricamento movimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUFLGFRC
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wuimporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Importo Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUIMPORTO
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wuindcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Indirizzo Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUINDCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wunbcitcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuova Città Nascita Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNBCITCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wunbstacli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuovo Stato Nascita Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNBSTACLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wuncapcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuovo CAP Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNCAPCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wuncitcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuova Città Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNCITCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wuncoddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuovo Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNCODDIP
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wuncodfis
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuovo Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNCODFIS
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wundatnas
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuova Data Nascita Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNDATNAS
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wundatope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuova Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNDATOPE
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wundoccli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='N° Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNDOCCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wunomcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nome Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNOMCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wunomcon
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nome Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNOMCON
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wunomefile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nome File
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNOMEFILE
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wunote
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Elenco Errori
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNOTE
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wunprovcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuova Provincia Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNPROVCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wunrdoccli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuova Data Rilascio Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNRDOCCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wunsdoccli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuova Data Scadenza Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNSDOCCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wunsexcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuovo Sesso Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNSEXCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wunstacli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuovo Stato Residenza Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNSTACLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wunstades
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuovo Stato Destinazione WU
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNSTADES
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wuntdoccli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuovo Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUNTDOCCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wuopetype
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='I - M- D
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUOPETYPE
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wuorigcf
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale Originale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUORIGCF
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wuprovcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Provincia Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUPROVCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wurdoccli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Rilascio Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WURDOCCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wurifmtcn
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='MTCN
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WURIFMTCN
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wusdoccli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Scadenza Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUSDOCCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wusexcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Sesso Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUSEXCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wustacli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato Residenza Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUSTACLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wustades
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato Destinazione WU
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUSTADES
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wutdoccli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUTDOCCLI
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wutiperr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUTIPERR
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+'wuchkimp_sf.wutipope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Send o Payment
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUTIPOPE
+state=3
+table_name='wuchkimp_sf
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'wuchkimp_sf.wuadocril
+[]
+'wuchkimp_sf.wubcitcli
+[]
+'wuchkimp_sf.wubstacli
+[]
+'wuchkimp_sf.wucapcli
+[]
+'wuchkimp_sf.wucitcli
+[]
+'wuchkimp_sf.wucodclc
+[]
+'wuchkimp_sf.wucoddip
+[]
+'wuchkimp_sf.wucodfis
+[]
+'wuchkimp_sf.wucodice
+[]
+'wuchkimp_sf.wucodmage
+[]
+'wuchkimp_sf.wucogcli
+[]
+'wuchkimp_sf.wucogcon
+[]
+'wuchkimp_sf.wucontanti
+[]
+'wuchkimp_sf.wudatnas
+[]
+'wuchkimp_sf.wudatope
+[]
+'wuchkimp_sf.wuflgall
+[]
+'wuchkimp_sf.wuflgfrc
+[]
+'wuchkimp_sf.wuimporto
+[]
+'wuchkimp_sf.wuindcli
+[]
+'wuchkimp_sf.wunbcitcli
+[]
+'wuchkimp_sf.wunbstacli
+[]
+'wuchkimp_sf.wuncapcli
+[]
+'wuchkimp_sf.wuncitcli
+[]
+'wuchkimp_sf.wuncoddip
+[]
+'wuchkimp_sf.wuncodfis
+[]
+'wuchkimp_sf.wundatnas
+[]
+'wuchkimp_sf.wundatope
+[]
+'wuchkimp_sf.wundoccli
+[]
+'wuchkimp_sf.wunomcli
+[]
+'wuchkimp_sf.wunomcon
+[]
+'wuchkimp_sf.wunomefile
+[]
+'wuchkimp_sf.wunote
+[]
+'wuchkimp_sf.wunprovcli
+[]
+'wuchkimp_sf.wunrdoccli
+[]
+'wuchkimp_sf.wunsdoccli
+[]
+'wuchkimp_sf.wunsexcli
+[]
+'wuchkimp_sf.wunstacli
+[]
+'wuchkimp_sf.wunstades
+[]
+'wuchkimp_sf.wuntdoccli
+[]
+'wuchkimp_sf.wuopetype
+[]
+'wuchkimp_sf.wuorigcf
+[]
+'wuchkimp_sf.wuprovcli
+[]
+'wuchkimp_sf.wurdoccli
+[]
+'wuchkimp_sf.wurifmtcn
+[]
+'wuchkimp_sf.wusdoccli
+[]
+'wuchkimp_sf.wusexcli
+[]
+'wuchkimp_sf.wustacli
+[]
+'wuchkimp_sf.wustades
+[]
+'wuchkimp_sf.wutdoccli
+[]
+'wuchkimp_sf.wutiperr
+[]
+'wuchkimp_sf.wutipope
+[]
+}
+*--*

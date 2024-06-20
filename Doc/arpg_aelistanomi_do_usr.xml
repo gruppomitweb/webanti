@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="266004665">
+  <CodifyName>arpg_aelistanomi_do</CodifyName>
+  <Name>arpg_aelistanomi_do.pagedef</Name>
+  <Title>Selezione per Lista Deleghe / Operazioni Extraconto</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="46081814"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_aelistanomi_do_usr_1</JPG>
+    <Item type="variabile" x1="62" y1="21" x2="398" y2="77">
+      <Name LinkID="2742457">iniz</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="112" y1="91" x2="326" y2="110">
+      <Name LinkID="152743828">tipostp</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="96" y1="112" x2="162" y2="132">
+      <Name LinkID="95101123">dadata</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="272" y1="112" x2="338" y2="132">
+      <Name LinkID="97394883">a_data</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="416" y1="112" x2="440" y2="137">
+      <Name LinkID="266393785">images/up.gif</Name>
+      <Image>images/up.gif</Image>
+      <Hyperlink>centrale</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="384" y1="112" x2="408" y2="137">
+      <Name LinkID="266393785">images/printer_ico.gif</Name>
+      <Image>images/printer_ico.gif</Image>
+      <Hyperlink>arrt_aelistanomi_do</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

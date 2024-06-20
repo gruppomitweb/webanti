@@ -1,0 +1,21 @@
+.form_ctrl{
+  border: 1px solid #D5D5D5;
+  position: relative;
+  box-sizing: border-box;
+  background: #FFFFFF;
+}
+.Ctrl{
+  border: 1px solid #D5D5D5;
+  position: absolute;
+  box-sizing: border-box;
+}
+.form_ctrl.form_ctrl_tab{
+  margin-top: 30px;
+  z-index: 0;
+}
+.form_ctrl.form_ctrl_titled{
+  margin-top: 30px;
+}
+.form_ctrl.form_ctrl_tab.form_ctrl_titled{
+  margin-top: 60px;
+}

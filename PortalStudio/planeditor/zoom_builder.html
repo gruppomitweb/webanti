@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>Parameters list</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script type="text/javascript" src="../stdFunctions.js"></script>
+<script type="text/javascript" src="../controls.js"></script>
+<link rel="stylesheet" href="../properties.css" type="text/css">
+<link rel="stylesheet" href="../filewindow.css" type="text/css">
+<style type="text/css">
+	.advanced div img{
+		visibility:hidden;
+	}
+	.on div{
+		background: transparent url(images/arrow_up_blue.gif) fixed center no-repeat;
+	}
+	.off div {
+		background: transparent url(images/arrow_down_blue.gif) fixed center no-repeat;
+	}
+</style>
+
+<script type="text/javascript">
+
+var GET_DATA=function(str){
+	var res={};
+  var getDataString=str||new String(window.location);
+	var questionMarkLocation=getDataString.search(/\?/);
+	if (questionMarkLocation!=-1){
+		getDataString=getDataString.substr(questionMarkLocation+1);
+		var getDataArray=getDataString.split(/&/g);
+    var name_val,idx_eq,p_name,p_value;
+    var e=Lower(document.charset|| document.characterSet);
+    var decodeParam = (e=='utf-8'?decodeURIComponent:unescape);
+		for (var i=0;i<getDataArray.length;i++){
+      name_val=getDataArray[i];
+      idx_eq=name_val.indexOf('=');
+      p_name=name_val.substr(0,idx_eq);
+      p_value=decodeParam(name_val.substr(idx_eq+1,name_val.length));
+      res[p_name]=p_value;
+		}
+	}
+	return res;
+}
+
+var returnObj=GetOpener().document.getElementById(GET_DATA().idx);
+var type=GET_DATA().type;
+var parmsList;
+if(type=='parameters')
+  parmsList=['Table',
+             'ConfigName',
+             'EmitterName',
+             'ReceiverName',
+             'Mode',
+             'Width',
+             'Columns',
+             'MaxFieldWidth',
+             'AddAutoZoom',
+             'EnableEdit',
+             'OperationSelect',
+             'DynamicFilters',
+             'ResetButton',
+             'UseImages',
+             'ToolbarLabels',
+             'ToolbarAlign',
+             'ReportName',
+             'PrintFormat',
+             'PrintOrientation',
+             'OffsetTop',
+             'ReadFieldNewLine',
+             'FilterButtonCaption',
+             'FilterAddButtonCaption',
+             'FilterRefreshButtonCaption']
+else
+  parmsList=['Table',
+						 'Autozoom',
+						 'ConfigName',
+						 'PKFields',
+						 'Caption',
+						 'InheritedPKFields',
+						 'DetailBehavior',
+						 'EntityType',
+						 'EventName',
+						 'EmitterName',
+						 'ReceiverName',
+						 'GridRows',
+             'AllowOrderBy',
+             'QueryCount',
+						 'RowMinHeight',
+						 'ConfigGridElements',
+             'Extensible',
+						 'SetDelMessage',
+						 'Popup',
+						 'PopupH',
+						 'PopupW',
+						 'WaitForFilter',
+						 'FilterOnFields',
+             'ToolsbarState',
+						 'Tools_Position',
+						 'Tools_Urls',
+						 'Tools_Targets',
+						 'Tools_Imgs',
+             'Tools_Tooltips',
+             'InitEntityFields',
+             'MemoChars'];
+
+var window_width;
+function Init(){
+  if(type=='parameters'){
+    Ctrl("zoom_type").innerHTML="Parameters";
+  }
+  if(returnObj.value!=""){
+    var parms= GET_DATA('?'+returnObj.value);
+    var other_parms_tmp=Ctrl("other_parms");
+    for(var i in parms){
+      LibJavascript.Array.indexOf(parmsList,i)>-1?Ctrl(i).value=parms[i]:other_parms_tmp.value+=(i+'='+parms[i]+'&');
+    }
+    if(other_parms_tmp.value.indexOf('&')>-1) other_parms_tmp.value=other_parms_tmp.value.substr(0,other_parms_tmp.value.length-1);
+  }
+  window_width=document.body.offsetWidth;
+}
+
+function renderInput(){
+  var res='<div id="pars_container"><table class="contenuto" border="0" width="100%"  align="center"><tbody>';
+  for(var i=0;i<parmsList.length;i++){
+    if(i==5)
+      res+='<tr><td align="center" class="titoli advanced off" colspan="2" onclick="toggleAdvanced(this);" style="cursor:pointer;"><div style="float:right;"><img src="images/arrow_down_blue.gif"></div><div style="float:left;"><img src="images/arrow_down_blue.gif"></div>Advanced parameters</td></tr></tbody>'+
+                                         '<tbody id="tbl_advanced" style="display:none;">'
+    res+='<tr><td align="right" style="width:5%;"><a href="#1" onclick="javascript:Help(\''+parmsList[i]+'\')">'+parmsList[i]+'</a></td><td><input class="expression_textarea" type="text" id="'+parmsList[i]+'" style="width:95%;"></td></tr>';
+  }
+        res+='<tr><td class="contenuto" align="right" style="width:5%;"><a href="#1" onclick="javascript:Help(\'other_parms\')">other_parms</a></td><td><input class="expression_textarea" type="text" id="other_parms" style="width:95%;"></td></tr></tbody></table></div>';
+  return res;
+}
+
+function toggleAdvanced(td_caller){
+  var cont=Ctrl("pars_container");
+  var tbl=Ctrl("tbl_advanced");
+  cont.style.height='500px'
+  cont.style.overflow='scroll'
+	var style=tbl.style;
+	var hidden= style.display=='none';
+	if(hidden){
+		LibJavascript.CssClassNameUtils.replaceClass(td_caller,'off','on');
+    style.display='';
+    window.resizeTo(window_width+10,Ctrl("main").offsetHeight+88);
+	}else{
+		LibJavascript.CssClassNameUtils.replaceClass(td_caller,'on','off');
+    style.display='none';
+    window.resizeTo(window_width+10,Ctrl("main").offsetHeight+88);
+	}
+}
+
+function onOk(){
+  var parms="";
+  for(var i=0;i<parmsList.length;i++){
+    if(Ctrl(parmsList[i]).value!="") parms+=parmsList[i]+"="+URLenc(Ctrl(parmsList[i]).value)+"&";
+  }
+  parms=parms.substr(0,parms.length-1);
+  if(Ctrl("other_parms").value!='') {
+    var oth_parms = Ctrl("other_parms").value.split('&');
+    for (var ii=0;ii<oth_parms.length;ii++) {
+      var currentparam = oth_parms[ii].split('=');
+      parms+="&"+currentparam[0]+'='+URLenc(currentparam[1]);
+    }
+  }
+  returnObj.focus();
+  returnObj.value=parms;
+  window.close();
+}
+
+function onCancel(){
+	window.close();
+}
+
+function Help(the_property){
+  var i;
+  var anchor='';
+  var prop='';
+  var x=GetOpener();
+  var anchorToFeature=x.GetOpener().anchorToFeature;
+  if(typeof(anchorToFeature)!='undefined'){
+    if(typeof(the_property)!='undefined')
+      prop+="portalzoom_parms_"+type.toLowerCase()+"_"+the_property.toLowerCase();
+    if(prop in  anchorToFeature && prop!='')
+      i= anchorToFeature[prop];
+    else if("portalzoom_parms_"+type.toLowerCase() in anchorToFeature)
+      i= anchorToFeature["portalzoom_parms_"+type.toLowerCase()]
+    else
+      i=  anchorToFeature["planeditor_contentsbuilder_parameters"]
+    windowOpenForeground(m_cHelpUrl+'help/portalstudio/ps_urg_navigator.htm?'+URLenc(i+(prop!=""?'||'+prop:"")),'','toolbar=0,menubar=0,directories=0,width=720,height=600,resizable=1,scrollbars=1');
+  }
+}
+
+</script>
+</head>
+<body style="border:0;overflow:auto;margin:0;background-color:#E4E4E4" onload="Init()" onhelp="CancelHelp()">
+<table id="main" border="0" width="100%" cellpadding="0" cellspacing="1" align="center">
+ <tr style="height:22">
+  <td class="titoli" align="center" onselectstart="return false">
+   <b><u>P</u>arameters for SPPortalZoom<span id="zoom_type"></span></b>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <script type="text/javascript">document.write(renderInput())</script>
+  </td>
+ </tr>
+ <tr>
+  <td class='footer' height="20" valign="middle" align="center" nowrap>
+   <button onclick="onOk()" accesskey="o" class="bottoni"><u>O</u>k</button>&nbsp;
+   <button onclick="window.close()" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+  </td>
+ </tr>
+</table>
+</body>
+<script type="text/javascript" src="../portalstudio/psHelp.js"></script>
+</html>

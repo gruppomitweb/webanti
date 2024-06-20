@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="52672028">
+  <CodifyName>armt_personbo</CodifyName>
+  <Name>armt_personbo.mstdef</Name>
+  <Title>Persone - Società - Legali Rappresentanti</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="56725736">Dati Base</Title>
+    <Note></Note>
+    <JPG x="2" y="8">armt_personbo_usr_1</JPG>
+    <Item type="campo" x1="128" y1="16" x2="416" y2="35">
+      <Name LinkID="206761764">TIPOPERS</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="40" x2="304" y2="60">
+      <Name LinkID="166302197">COGNOME</Name>
+      <Comment>Cognome</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="352" y1="40" x2="520" y2="60">
+      <Name LinkID="255046015">NOME</Name>
+      <Comment>Nome</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="63" x2="703" y2="84">
+      <Name LinkID="185791321">CFESTERO</Name>
+      <Comment>Codice Fiscale Estero</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="88" x2="560" y2="108">
+      <Name LinkID="187642277">RAGSOC</Name>
+      <Comment>Ragione Sociale</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="112" x2="158" y2="132">
+      <Name LinkID="221473703">PAESE</Name>
+      <Comment>Stato</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="136" x2="446" y2="156">
+      <Name LinkID="119873895">DESCCIT</Name>
+      <Comment>Città</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="528" y1="136" x2="552" y2="156">
+      <Name LinkID="144996499">PROVINCIA</Name>
+      <Comment>Provincia</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="600" y1="136" x2="666" y2="156">
+      <Name LinkID="171161036">CAP</Name>
+      <Comment>CAP</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="136" x2="760" y2="156">
+      <Name LinkID="170873000">CODCAB</Name>
+      <Comment>CAB</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="160" x2="350" y2="180">
+      <Name LinkID="179118529">DOMICILIO</Name>
+      <Comment>Indirizzo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="197" x2="350" y2="217">
+      <Name LinkID="167350937">NASCOMUN</Name>
+      <Comment>Luogo di Nascita</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="432" y1="197" x2="464" y2="217">
+      <Name LinkID="204922052">TIPINTER</Name>
+      <Comment>Prov.</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="552" y1="197" x2="640" y2="217">
+      <Name LinkID="97295975">SESSO</Name>
+      <Comment>Sesso</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="221" x2="350" y2="241">
+      <Name LinkID="166415513">NASSTATO</Name>
+      <Comment>Stato di nascita</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="245" x2="214" y2="265">
+      <Name LinkID="78402488">DATANASC</Name>
+      <Comment>Data Nascita</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="336" y1="245" x2="582" y2="265">
+      <Name LinkID="118784804">TIPODOC</Name>
+      <Comment>Tipo Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="269" x2="230" y2="289">
+      <Name LinkID="99994993">NUMDOCUM</Name>
+      <Comment>Numero Doc.</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="293" x2="214" y2="313">
+      <Name LinkID="237842504">DATARILASC</Name>
+      <Comment>Data Rilascio Doc.</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="336" y1="293" x2="422" y2="313">
+      <Name LinkID="72567736">DATAVALI</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="552" y1="293" x2="744" y2="313">
+      <Name LinkID="205674584">AUTRILASC</Name>
+      <Comment>Autorità di rilascio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="328" x2="256" y2="348">
+      <Name LinkID="166410360">CODFISC</Name>
+      <Comment>Codice Fiscale</Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="408" y1="328" x2="512" y2="348">
+      <Name LinkID="216860554">PARTIVA</Name>
+      <Comment>Partita IVA</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="352" x2="158" y2="372">
+      <Name LinkID="165547864">SOTGRUP</Name>
+      <Comment>Sottogruppo Att. Ec.</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="376" x2="158" y2="396">
+      <Name LinkID="98126303">RAMOGRUP</Name>
+      <Comment>Ramo Gruppo Att. Ec.</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="424" x2="158" y2="444">
+      <Name LinkID="190788216">SETTSINT</Name>
+      <Comment>Settorizzazione UIC</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="448" x2="256" y2="468">
+      <Name LinkID="170802158">CONNES</Name>
+      <Comment>Codice Collegamento</Comment>
+      <Key>key1</Key>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="258" y1="328" x2="283" y2="348">
+      <Name LinkID="221492764">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_calccodfis</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Ricalcola il codice fiscale</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="704" y1="329" x2="776" y2="349">
+      <Name LinkID="60493752">DATARETT</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="744" y1="40" x2="776" y2="64">
+      <Name LinkID="221492764">images/search.gif</Name>
+      <Image>images/search.gif</Image>
+      <Hyperlink>arpg_ricerca_sogg</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Ricerca su Soggetti Segnalati</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="704" y1="40" x2="736" y2="64">
+      <Name LinkID="221492764">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>arpg_info_pre_prn_scheda_adeguata_ver_clientela</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Stampa Scheda Adeguata Verifica</Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="584" y1="448" x2="774" y2="469">
+      <Name LinkID="46942772">PEP</Name>
+      <Comment>Persona Politicamente Esposta</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="523" x2="230" y2="543">
+      <Name LinkID="199236295">AREAGEO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="547" x2="230" y2="567">
+      <Name LinkID="4628824">PKTBSPECIE</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="571" x2="230" y2="591">
+      <Name LinkID="63743176">ATTIV</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="595" x2="230" y2="615">
+      <Name LinkID="165298639">COMPORT</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="523" x2="760" y2="543">
+      <Name LinkID="187920506">RAREA</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="547" x2="760" y2="567">
+      <Name LinkID="182049179">RNATGIU</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="571" x2="760" y2="591">
+      <Name LinkID="187565960">RATTIV</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="595" x2="760" y2="615">
+      <Name LinkID="80518915">RCOMP</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="400" x2="198" y2="420">
+      <Name LinkID="63743176">ATTIV</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="13" y1="13" x2="35" y2="37">
+      <Name LinkID="221492764">images/051.gif</Name>
+      <Image>images/051.gif</Image>
+      <Hyperlink>arpg_chg_connes</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="2">
+    <Title LinkID="12027271">Operazioni ExtraConto</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_personbo_usr_2</JPG>
+    <Item type="campo" x1="144" y1="16" x2="576" y2="36">
+      <Name LinkID="187642277">RAGSOC</Name>
+      <Comment>Ragione Sociale</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="344" x2="728" y2="488">
+      <Name LinkID="255046008">NOTE</Name>
+      <Comment>Note</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="3">
+    <Title LinkID="204507623">A.U.I.</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_personbo_usr_3</JPG>
+  </Pag>
+  <Pag number="4">
+    <Title LinkID="204888088">Provvisorie</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_personbo_usr_4</JPG>
+  </Pag>
+  <Pag number="5">
+    <Title LinkID="237712056">Titolarità</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_personbo_usr_5</JPG>
+    <Item type="bottone" x1="576" y1="32" x2="764" y2="57">
+      <Name LinkID="213486180">Inserire Nuovo Titolare in definitivo</Name>
+      <Bitmap></Bitmap>
+      <Help>Premere il bottone per inserire una nuova informazioni di titolarità definitiva</Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="568" y1="328" x2="764" y2="353">
+      <Name LinkID="223220202">Inserire Nuovo Titolare in provvisorio</Name>
+      <Bitmap></Bitmap>
+      <Help>Premere il bottone per inserire una nuova informazioni di titolarità provvisoria</Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="6">
+    <Title LinkID="138382044">Modifiche Anagrafiche</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_personbo_usr_6</JPG>
+  </Pag>
+</Codify>

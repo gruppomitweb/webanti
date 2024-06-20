@@ -1,0 +1,2709 @@
+﻿* --- Resource Vers. 0.9
+db_intermbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='DB INTERMBO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='db_intermbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'db_intermbo.ragsoc
+'db_intermbo.codcab
+'db_intermbo.domicilio
+'db_intermbo.codfisc
+'db_intermbo.datanasc
+'db_intermbo.nascomun
+'db_intermbo.sotgrup
+'db_intermbo.ramogrup
+'db_intermbo.settsint
+'db_intermbo.tipodoc
+'db_intermbo.numdocum
+'db_intermbo.datarilasc
+'db_intermbo.autrilasc
+'db_intermbo.desccit
+'db_intermbo.provincia
+'db_intermbo.paese
+'db_intermbo.cap
+'db_intermbo.codinter
+'db_intermbo.tipinter
+'db_intermbo.tipopers
+'db_intermbo.connes
+'db_intermbo.coddipe
+'db_intermbo.partiva
+'db_intermbo.note
+'db_intermbo.sesso
+'db_intermbo.sospmaf
+'db_intermbo.idcitta
+'db_intermbo.supplem
+'db_intermbo.datavali
+'db_intermbo.dbprot
+'db_intermbo.f_inglese
+'db_intermbo.contatore
+'db_intermbo.pathapp
+'db_intermbo.urlappl
+'db_intermbo.flglog
+'db_intermbo.flgaos
+'db_intermbo.aepath
+'db_intermbo.molti
+'db_intermbo.flgeaos
+'db_intermbo.flgcdoc
+'db_intermbo.flgfraz
+'db_intermbo.flgapers
+'db_intermbo.dtiniatt
+'db_intermbo.flgtipimp
+'db_intermbo.flgstpcon
+'db_intermbo.flgimpage
+'db_intermbo.cfinvio
+'db_intermbo.cafinvio
+'db_intermbo.fileinvio
+'db_intermbo.datainvio
+'db_intermbo.flgwu
+'db_intermbo.impintope
+'db_intermbo.ggyelwar
+'db_intermbo.ggredwar
+'db_intermbo.flgopextr
+'db_intermbo.skt_server
+'db_intermbo.skt_port
+'db_intermbo.skt_paths
+'db_intermbo.skt_modet
+'db_intermbo.raspaui
+'db_intermbo.respaui
+'db_intermbo.testip
+'db_intermbo.flgdataim
+'db_intermbo.flgdatatp
+'db_intermbo.limitvlt
+'db_intermbo.limitvnp
+'db_intermbo.nocodfisc
+'db_intermbo.flgstpdir
+'db_intermbo.patrono
+'db_intermbo.nodom
+'db_intermbo.nosab
+'db_intermbo.codinter2
+'db_intermbo.numinter2
+'db_intermbo.impinter2
+'db_intermbo.datainter
+'db_intermbo.tpsoftae
+'db_intermbo.cognome
+'db_intermbo.nome
+'db_intermbo.nasstato
+'db_intermbo.provna
+'db_intermbo.f_log
+'db_intermbo.imppath
+'db_intermbo.prgaepath
+'db_intermbo.codage
+'db_intermbo.flgchk
+'db_intermbo.flgnodoc
+'db_intermbo.datainter2
+'db_intermbo.idsid
+'db_intermbo.sidpass
+'db_intermbo.flgsidauto
+'db_intermbo.pathsid
+'db_intermbo.pathjava
+'db_intermbo.tipoinst
+'db_intermbo.snaistor
+'db_intermbo.limitefrz
+'db_intermbo.frazdel
+'db_intermbo.flgrapcli
+'db_intermbo.filedapred
+'db_intermbo.fileesiti
+'db_intermbo.filepred
+'db_intermbo.ricevute
+'db_intermbo.ricesiti
+'db_intermbo.ricfatte
+'db_intermbo.pathcert
+'db_intermbo.escludi0
+'db_intermbo.attiv
+'db_intermbo.opgtipo
+'db_intermbo.numgiorn
+'db_intermbo.solofraz
+'db_intermbo.solopers
+'db_intermbo.codoro
+'db_intermbo.flgscdfrz
+'db_intermbo.flgritorno
+'db_intermbo.sblritorno
+'db_intermbo.flgcreaage
+'db_intermbo.dnasc
+'db_intermbo.comnasc
+'db_intermbo.prnasc
+'db_intermbo.cittadina
+'db_intermbo.sogcom
+'db_intermbo.cambi
+'db_intermbo.aggage
+'db_intermbo.dttitage
+'db_intermbo.scadsaldi
+'db_intermbo.flgipmt
+'db_intermbo.giornifrz
+'db_intermbo.minfrzsnai
+'db_intermbo.altsrvmail
+'db_intermbo.altprtmail
+'db_intermbo.altemlmail
+'db_intermbo.altusrmail
+'db_intermbo.altpwdmail
+'db_intermbo.flggesdoc
+'db_intermbo.usrgesdoc
+'db_intermbo.pwdgesdoc
+'db_intermbo.urldesdoc
+'db_intermbo.emaildoc
+'db_intermbo.datadoc
+'db_intermbo.flgddoc
+'db_intermbo.flglight
+'db_intermbo.flgcgopwd
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'db_intermbo.aepath
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AEPATH
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.aggage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Aggiornamento per age
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AGGAGE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.altemlmail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mail Invio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ALTEMLMAIL
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.altprtmail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Porta invio posta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ALTPRTMAIL
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.altpwdmail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Password Invio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ALTPWDMAIL
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.altsrvmail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Server Invio Posta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ALTSRVMAIL
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.altusrmail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Utente Invio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ALTUSRMAIL
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.attiv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ATTIV
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.autrilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Autorità Competente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AUTRILASC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.cafinvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice CAF Organo Invio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAFINVIO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.cambi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAMBI
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAP
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.cfinvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Organo Invio File
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFINVIO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.cittadina
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CITTADINA
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.codage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODAGE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODFISC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.codinter2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER2
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.codoro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODORO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.cognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COGNOME
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.comnasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COMNASC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNES
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.contatore
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Contatore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONTATORE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.datadoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazioni Senza Documenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATADOC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.datainter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINTER
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.datainter2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINTER2
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.datainvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Impegno Organo Invio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINVIO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.datanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Passaggio EURO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATANASC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.datarilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATARILASC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.datavali
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data fine validità
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAVALI
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.dbprot
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Database Prot (Solo versione FOX)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DBPROT
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.dnasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DNASC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOMICILIO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.dtiniatt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio Attività
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DTINIATT
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.dttitage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data da cui inviare i titolari effettivi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DTTITAGE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.emaildoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='EMail Comunicazioni Gestione Documentale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='EMAILDOC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.escludi0
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ESCLUDI0
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.f_inglese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Lingua Inglese
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='F_INGLESE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.f_log
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='F_LOG
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.filedapred
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FILEDAPRED
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.fileesiti
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FILEESITI
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.fileinvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Preparazione FIle
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FILEINVIO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.filepred
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FILEPRED
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgaos
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento con AOS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGAOS
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgapers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Campo Aggiuntivo In ARCHPERS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGAPERS
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgcdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento anagrafica documenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGCDOC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgcgopwd
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cambio Password CGO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGCGOPWD
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgchk
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento a WEBCHK
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGCHK
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgcreaage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Crea rettifiche/cancellazioni per Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGCREAAGE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgdataim
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Forza Data Import = Data Sistema
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGDATAIM
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgdatatp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Forza Data Trasferimento Provvisorio = Data Sistema
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGDATATP
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgddoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Flag Blocco Operazioni No Documenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGDDOC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgeaos
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ereditarietà Fattori Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGEAOS
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgfraz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Raggruppa solo frazionate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGFRAZ
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flggesdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Gestione Documentale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGGESDOC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgimpage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Import Age
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGIMPAGE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgipmt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='IDP MoneyTransfer
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGIPMT
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flglight
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Consenti Soggetti Senza Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGLIGHT
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flglog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Attivazione Log Procedura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGLOG
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgnodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Controlla scadenza documento in import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGNODOC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgopextr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Crea movimento modifica in anagrafe operazioni extraconto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGOPEXTR
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgrapcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Seleziona Automaticamente CLienti da rapport in import operazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGRAPCLI
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgritorno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Creazione Inversa File di Import prima di passaggio a definitivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGRITORNO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgscdfrz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Abilita Schedulazione Raggruppamento Frazionate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGSCDFRZ
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgsidauto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGSIDAUTO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgstpcon
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Crea Stampa Controllo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGSTPCON
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgstpdir
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Download stampa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGSTPDIR
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgtipimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Import per Scheduler
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGTIPIMP
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.flgwu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Gestione Western Union
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGWU
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.frazdel
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cancella frazionate al termine del consolidamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FRAZDEL
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.ggredwar
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Giorni Semaforo Rosso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='GGREDWAR
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.ggyelwar
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Giorni Semaforo Giallo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='GGYELWAR
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.giornifrz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Giorni per Consolidamento Frazionate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='GIORNIFRZ
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.idcitta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDCITTA
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.idsid
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Identificativo SID
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDSID
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.impinter2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPINTER2
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.impintope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo per raggruppamento frazionate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPINTOPE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.imppath
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPPATH
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.limitefrz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Limite minimo frazionate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='LIMITEFRZ
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.limitvlt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Limite VLT
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='LIMITVLT
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.limitvnp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Limite VPN
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='LIMITVNP
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.minfrzsnai
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Minimo Frazionata Snai
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MINFRZSNAI
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.molti
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MOLTI
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.nascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Comune di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASCOMUN
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.nasstato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASSTATO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.nocodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Non effettuare calcolo automatico codice fiscale in anagrafica persone
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOCODFISC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.nodom
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NODOM
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.nome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOME
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.nosab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOSAB
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.note
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Annotazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOTE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.numdocum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMDOCUM
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.numgiorn
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMGIORN
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.numinter2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMINTER2
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.opgtipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPGTIPO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.partiva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Partita IVA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PARTIVA
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.pathapp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Path applicazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PATHAPP
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.pathcert
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PATHCERT
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.pathjava
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PATHJAVA
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.pathsid
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PATHSID
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.patrono
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PATRONO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.prgaepath
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRGAEPATH
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.prnasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRNASC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.provna
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVNA
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.pwdgesdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Password Gestione Documentale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PWDGESDOC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGSOC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.ramogrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ramo Gruppo Ett. Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAMOGRUP
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.raspaui
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Responsabile Antiriciclaggio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RASPAUI
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.respaui
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Responsabile
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RESPAUI
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.ricesiti
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RICESITI
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.ricevute
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RICEVUTE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.ricfatte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RICFATTE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.sblritorno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sblocco Per Creazione Inversa File di Ritorno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SBLRITORNO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.scadsaldi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Scadenza Invio Saldi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SCADSALDI
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.sesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SESSO
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.settsint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Settorizzazione UIC
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SETTSINT
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.sidpass
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Password SID
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SIDPASS
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.skt_modet
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Modo trasporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SKT_MODET
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.skt_paths
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Socket Script Path
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SKT_PATHS
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.skt_port
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Porta Socket
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SKT_PORT
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.skt_server
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Socket Server
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SKT_SERVER
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.snaistor
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Snai Storico
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SNAISTOR
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.sogcom
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOGCOM
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.solofraz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOLOFRAZ
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.solopers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOLOPERS
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.sospmaf
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Passato EURO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOSPMAF
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.sotgrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sottogruppo Att.Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOTGRUP
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.supplem
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SUPPLEM
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.testip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tripletta per controllo ip interni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TESTIP
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.tipinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPINTER
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.tipodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPODOC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.tipoinst
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='(W)indows - (L)inux
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINST
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.tipopers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Persona
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOPERS
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.tpsoftae
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TPSOFTAE
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.urlappl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='URL Applicazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='URLAPPL
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.urldesdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='URL Gestione Documentale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='URLDESDOC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+'db_intermbo.usrgesdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Utente Gestione Documentale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='USRGESDOC
+state=3
+table_name='db_intermbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'db_intermbo.aepath
+[]
+'db_intermbo.aggage
+[]
+'db_intermbo.altemlmail
+[]
+'db_intermbo.altprtmail
+[]
+'db_intermbo.altpwdmail
+[]
+'db_intermbo.altsrvmail
+[]
+'db_intermbo.altusrmail
+[]
+'db_intermbo.attiv
+[]
+'db_intermbo.autrilasc
+[]
+'db_intermbo.cafinvio
+[]
+'db_intermbo.cambi
+[]
+'db_intermbo.cap
+[]
+'db_intermbo.cfinvio
+[]
+'db_intermbo.cittadina
+[]
+'db_intermbo.codage
+[]
+'db_intermbo.codcab
+[]
+'db_intermbo.coddipe
+[]
+'db_intermbo.codfisc
+[]
+'db_intermbo.codinter
+[]
+'db_intermbo.codinter2
+[]
+'db_intermbo.codoro
+[]
+'db_intermbo.cognome
+[]
+'db_intermbo.comnasc
+[]
+'db_intermbo.connes
+[]
+'db_intermbo.contatore
+[]
+'db_intermbo.datadoc
+[]
+'db_intermbo.datainter
+[]
+'db_intermbo.datainter2
+[]
+'db_intermbo.datainvio
+[]
+'db_intermbo.datanasc
+[]
+'db_intermbo.datarilasc
+[]
+'db_intermbo.datavali
+[]
+'db_intermbo.dbprot
+[]
+'db_intermbo.desccit
+[]
+'db_intermbo.dnasc
+[]
+'db_intermbo.domicilio
+[]
+'db_intermbo.dtiniatt
+[]
+'db_intermbo.dttitage
+[]
+'db_intermbo.emaildoc
+[]
+'db_intermbo.escludi0
+[]
+'db_intermbo.f_inglese
+[]
+'db_intermbo.f_log
+[]
+'db_intermbo.filedapred
+[]
+'db_intermbo.fileesiti
+[]
+'db_intermbo.fileinvio
+[]
+'db_intermbo.filepred
+[]
+'db_intermbo.flgaos
+[]
+'db_intermbo.flgapers
+[]
+'db_intermbo.flgcdoc
+[]
+'db_intermbo.flgcgopwd
+[]
+'db_intermbo.flgchk
+[]
+'db_intermbo.flgcreaage
+[]
+'db_intermbo.flgdataim
+[]
+'db_intermbo.flgdatatp
+[]
+'db_intermbo.flgddoc
+[]
+'db_intermbo.flgeaos
+[]
+'db_intermbo.flgfraz
+[]
+'db_intermbo.flggesdoc
+[]
+'db_intermbo.flgimpage
+[]
+'db_intermbo.flgipmt
+[]
+'db_intermbo.flglight
+[]
+'db_intermbo.flglog
+[]
+'db_intermbo.flgnodoc
+[]
+'db_intermbo.flgopextr
+[]
+'db_intermbo.flgrapcli
+[]
+'db_intermbo.flgritorno
+[]
+'db_intermbo.flgscdfrz
+[]
+'db_intermbo.flgsidauto
+[]
+'db_intermbo.flgstpcon
+[]
+'db_intermbo.flgstpdir
+[]
+'db_intermbo.flgtipimp
+[]
+'db_intermbo.flgwu
+[]
+'db_intermbo.frazdel
+[]
+'db_intermbo.ggredwar
+[]
+'db_intermbo.ggyelwar
+[]
+'db_intermbo.giornifrz
+[]
+'db_intermbo.idcitta
+[]
+'db_intermbo.idsid
+[]
+'db_intermbo.impinter2
+[]
+'db_intermbo.impintope
+[]
+'db_intermbo.imppath
+[]
+'db_intermbo.limitefrz
+[]
+'db_intermbo.limitvlt
+[]
+'db_intermbo.limitvnp
+[]
+'db_intermbo.minfrzsnai
+[]
+'db_intermbo.molti
+[]
+'db_intermbo.nascomun
+[]
+'db_intermbo.nasstato
+[]
+'db_intermbo.nocodfisc
+[]
+'db_intermbo.nodom
+[]
+'db_intermbo.nome
+[]
+'db_intermbo.nosab
+[]
+'db_intermbo.note
+[]
+'db_intermbo.numdocum
+[]
+'db_intermbo.numgiorn
+[]
+'db_intermbo.numinter2
+[]
+'db_intermbo.opgtipo
+[]
+'db_intermbo.paese
+[]
+'db_intermbo.partiva
+[]
+'db_intermbo.pathapp
+[]
+'db_intermbo.pathcert
+[]
+'db_intermbo.pathjava
+[]
+'db_intermbo.pathsid
+[]
+'db_intermbo.patrono
+[]
+'db_intermbo.prgaepath
+[]
+'db_intermbo.prnasc
+[]
+'db_intermbo.provincia
+[]
+'db_intermbo.provna
+[]
+'db_intermbo.pwdgesdoc
+[]
+'db_intermbo.ragsoc
+[]
+'db_intermbo.ramogrup
+[]
+'db_intermbo.raspaui
+[]
+'db_intermbo.respaui
+[]
+'db_intermbo.ricesiti
+[]
+'db_intermbo.ricevute
+[]
+'db_intermbo.ricfatte
+[]
+'db_intermbo.sblritorno
+[]
+'db_intermbo.scadsaldi
+[]
+'db_intermbo.sesso
+[]
+'db_intermbo.settsint
+[]
+'db_intermbo.sidpass
+[]
+'db_intermbo.skt_modet
+[]
+'db_intermbo.skt_paths
+[]
+'db_intermbo.skt_port
+[]
+'db_intermbo.skt_server
+[]
+'db_intermbo.snaistor
+[]
+'db_intermbo.sogcom
+[]
+'db_intermbo.solofraz
+[]
+'db_intermbo.solopers
+[]
+'db_intermbo.sospmaf
+[]
+'db_intermbo.sotgrup
+[]
+'db_intermbo.supplem
+[]
+'db_intermbo.testip
+[]
+'db_intermbo.tipinter
+[]
+'db_intermbo.tipodoc
+[]
+'db_intermbo.tipoinst
+[]
+'db_intermbo.tipopers
+[]
+'db_intermbo.tpsoftae
+[]
+'db_intermbo.urlappl
+[]
+'db_intermbo.urldesdoc
+[]
+'db_intermbo.usrgesdoc
+[]
+}
+*--*

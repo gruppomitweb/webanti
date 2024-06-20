@@ -1,0 +1,50 @@
+﻿* --- Resource Vers. 0.9
+arrt_export_confidi
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Estrazione operazioni/frazionate e produzione file excel
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:13
+module_name='
+name='arrt_export_confidi
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.codfisc
+'rapotit.numprog
+'rapotit.dataope
+'rapotit.datareg
+]
+'Queries
+[
+'qbe_confidi_clienti.vqr
+]
+'Tables
+[
+'personbo<table>
+'tbtipdoc<table>
+'docfrabo<table>
+'kersonbo<table>
+'tbstati<table>
+'tmp_newpers<table>
+'intestit<table>
+'intermbo<table>
+'rapotit<table>
+]
+}
+I
+*--*
+￼[]
+*--*

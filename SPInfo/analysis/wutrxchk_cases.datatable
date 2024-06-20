@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+wutrxchk_cases<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Cases
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='wutrxchk_cases
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'wutrxchk_cases.trxcodice
+'wutrxchk_cases.trxcodcase
+'wutrxchk_cases.trxnquery
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'wutrxchk_cases.trxcodcase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Caso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TRXCODCASE
+state=3
+table_name='wutrxchk_cases
+type='field
+used_resource_keys={}
+I
+'wutrxchk_cases.trxcodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Numero transazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TRXCODICE
+state=3
+table_name='wutrxchk_cases
+type='field
+used_resource_keys={}
+I
+'wutrxchk_cases.trxnquery
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Query da lanciare
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TRXNQUERY
+state=3
+table_name='wutrxchk_cases
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'wutrxchk_cases.trxcodcase
+[]
+'wutrxchk_cases.trxcodice
+[]
+'wutrxchk_cases.trxnquery
+[]
+}
+*--*

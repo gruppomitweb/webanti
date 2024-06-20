@@ -1,0 +1,146 @@
+﻿* --- Resource Vers. 0.9
+arrt_allinea_wursi
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Untitled
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_allinea_wursi
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbcittna.citta
+'tbcittna.sigla
+'tbcittna.prov
+'tbcitta.citta
+'tbcitta.prov
+'tbstati.sigla
+'tbstati.descri
+'tbcitta.sigla
+'wersonbo.sanumpro
+'wersonbo.connes
+'wersonbo.codcab
+'wersonbo.ragsoc
+'wersonbo.domicilio
+'wersonbo.codfisc
+'wersonbo.datanasc
+'wersonbo.nascomun
+'wersonbo.sotgrup
+'wersonbo.ramogrup
+'wersonbo.settsint
+'wersonbo.tipodoc
+'wersonbo.numdocum
+'wersonbo.datarilasc
+'wersonbo.autrilasc
+'wersonbo.desccit
+'wersonbo.provincia
+'wersonbo.paese
+'wersonbo.cap
+'wersonbo.codinter
+'wersonbo.tipinter
+'wersonbo.tipopers
+'wersonbo.coddipe
+'wersonbo.partiva
+'wersonbo.note
+'wersonbo.sesso
+'wersonbo.sospmaf
+'wersonbo.idcitta
+'wersonbo.datamodi
+'wersonbo.datavali
+'wersonbo.nasstato
+'wersonbo.docfile
+'wersonbo.nome
+'wersonbo.cognome
+'wersonbo.cfestero
+'wersonbo.oldconnes
+'wersonbo.datextra
+'wersonbo.pktbspecie
+'wersonbo.comport
+'wersonbo.attiv
+'wersonbo.rnatgiu
+'wersonbo.rattiv
+'wersonbo.rcomp
+'wersonbo.rarea
+'wersonbo.allineato
+'wersonbo.allineatonomecnome
+'wersonbo.ragsocold
+'wersonbo.progimport
+'wersonbo.progimp_c
+'wersonbo.areageo
+'wersonbo.pep
+'wersonbo.idfile
+'wersonbo.oldcodfisc
+'wersonbo.macroagente
+'wersonbo.spotid
+'wersonbo.datasegn
+'wersonbo.oldsetsin
+'personbo.connes
+'personbo.tipinter
+'personbo.note
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_wursi_personbo.vqr
+]
+'Tables
+[
+'personbo<table>
+'wersonbo<table>
+'tbcittna<table>
+'tbcitta<table>
+'tbstati<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_allinea_wursi|Error|core::document|Update dependencies|Field "tbcittna.SIGLA_NEW" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:06
+message='Field "tbcittna.SIGLA_NEW" not found.
+resource_key='arrt_allinea_wursi
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_allinea_wursi|Error|core::document|Update dependencies|Field "tbcittna.PROV_NEW" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:06
+message='Field "tbcittna.PROV_NEW" not found.
+resource_key='arrt_allinea_wursi
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

@@ -1,0 +1,391 @@
+﻿* --- Resource Vers. 0.9
+tmp_intestbo_ol<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Appoggio Intestatari OffLINE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_intestbo_ol
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_intestbo_ol.idbase
+'tmp_intestbo_ol.cprownum
+'tmp_intestbo_ol.dataini
+'tmp_intestbo_ol.tipopers
+'tmp_intestbo_ol.codinter
+'tmp_intestbo_ol.datafine
+'tmp_intestbo_ol.numprog1
+'tmp_intestbo_ol.numprog2
+'tmp_intestbo_ol.rapporto
+'tmp_intestbo_ol.tiporap
+'tmp_intestbo_ol.statoreg
+'tmp_intestbo_ol.descinter
+'tmp_intestbo_ol.operazmod
+'tmp_intestbo_ol.datarett
+'tmp_intestbo_ol.idereg
+'tmp_intestbo_ol.collegamen
+'tmp_intestbo_ol.ucode
+'tmp_intestbo_ol.abbinato
+'tmp_intestbo_ol.prgimpsog
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_intestbo_ol.abbinato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ABBINATO
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Intestatario (Non Intermediario)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODINTER
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.collegamen
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='COLLEGAMEN
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.cprownum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Numero riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CPROWNUM
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.datafine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Fine
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAFINE
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Inizio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAINI
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.datarett
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Rettifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATARETT
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.descinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESCINTER
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='idbase
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.idereg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='IDEREG
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDEREG
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.numprog1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Numero Progressivo relativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMPROG1
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.numprog2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Numero Progressivo Relativo Chiusura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMPROG2
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.operazmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Operazione modificata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='OPERAZMOD
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.prgimpsog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Progressivo Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PRGIMPSOG
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rapporto (Copia della testata)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPPORTO
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.statoreg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='STATOREG
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.tipopers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOPERS
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.tiporap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPORAP
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+'tmp_intestbo_ol.ucode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='UCODE
+state=3
+table_name='tmp_intestbo_ol
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_intestbo_ol.abbinato
+[]
+'tmp_intestbo_ol.codinter
+[]
+'tmp_intestbo_ol.collegamen
+[]
+'tmp_intestbo_ol.cprownum
+[]
+'tmp_intestbo_ol.datafine
+[]
+'tmp_intestbo_ol.dataini
+[]
+'tmp_intestbo_ol.datarett
+[]
+'tmp_intestbo_ol.descinter
+[]
+'tmp_intestbo_ol.idbase
+[]
+'tmp_intestbo_ol.idereg
+[]
+'tmp_intestbo_ol.numprog1
+[]
+'tmp_intestbo_ol.numprog2
+[]
+'tmp_intestbo_ol.operazmod
+[]
+'tmp_intestbo_ol.prgimpsog
+[]
+'tmp_intestbo_ol.rapporto
+[]
+'tmp_intestbo_ol.statoreg
+[]
+'tmp_intestbo_ol.tipopers
+[]
+'tmp_intestbo_ol.tiporap
+[]
+'tmp_intestbo_ol.ucode
+[]
+}
+*--*

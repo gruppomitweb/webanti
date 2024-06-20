@@ -1,0 +1,68 @@
+﻿* --- Resource Vers. 0.9
+cpazi<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Amministrazione Aziende
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cpazi
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cpazi.codazi
+'cpazi.desazi
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cpazi.codazi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Azienda
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='codazi
+state=3
+table_name='cpazi
+type='field
+used_resource_keys={}
+I
+'cpazi.desazi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='desazi
+state=3
+table_name='cpazi
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cpazi.codazi
+[]
+'cpazi.desazi
+[]
+}
+*--*

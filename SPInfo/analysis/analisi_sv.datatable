@@ -1,0 +1,391 @@
+﻿* --- Resource Vers. 0.9
+analisi_sv<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Analisi SV
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='analisi_sv
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'analisi_sv.tipo
+'analisi_sv.numprog
+'analisi_sv.dataope
+'analisi_sv.segno
+'analisi_sv.coddipe
+'analisi_sv.descriz
+'analisi_sv.provincia1
+'analisi_sv.tiposv
+'analisi_sv.connescli
+'analisi_sv.ragsoc
+'analisi_sv.sotgrup
+'analisi_sv.provincia
+'analisi_sv.paese
+'analisi_sv.tipocont
+'analisi_sv.impout
+'analisi_sv.rownumber
+'analisi_sv.valuta
+'analisi_sv.sourcepers
+'analisi_sv.flagfraud
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'analisi_sv.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.connescli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Cliente Occasionale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESCLI
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.descriz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCRIZ
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.flagfraud
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazione Fraudolenta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGFRAUD
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.impout
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo OUT
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPOUT
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESE
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.provincia1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA1
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGSOC
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.rownumber
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='N. Riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ROWNUMBER
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.segno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Segno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SEGNO
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.sotgrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sottogruppo Att. Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOTGRUP
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.sourcepers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='W o P
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOURCEPERS
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='TIPO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPO
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.tipocont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Riserva
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOCONT
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.tiposv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Canale Distributivo (SV)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOSV
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+'analisi_sv.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazioni in Euro o Valuta Estera
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='analisi_sv
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'analisi_sv.coddipe
+[]
+'analisi_sv.connescli
+[]
+'analisi_sv.dataope
+[]
+'analisi_sv.descriz
+[]
+'analisi_sv.flagfraud
+[]
+'analisi_sv.impout
+[]
+'analisi_sv.numprog
+[]
+'analisi_sv.paese
+[]
+'analisi_sv.provincia
+[]
+'analisi_sv.provincia1
+[]
+'analisi_sv.ragsoc
+[]
+'analisi_sv.rownumber
+[]
+'analisi_sv.segno
+[]
+'analisi_sv.sotgrup
+[]
+'analisi_sv.sourcepers
+[]
+'analisi_sv.tipo
+[]
+'analisi_sv.tipocont
+[]
+'analisi_sv.tiposv
+[]
+'analisi_sv.valuta
+[]
+}
+*--*

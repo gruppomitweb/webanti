@@ -1,0 +1,34 @@
+﻿* --- Resource Vers. 0.9
+spadministration_maxazi
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:24
+description='Blocca salvataggio se superato numero massimo aziende
+file_modified_on=#2019-10-17 08:06:40
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:42
+module_name='
+name='spadministration_maxazi
+state=1
+type='batch
+used_resource_keys={
+'Libraries
+[
+'FileLibMit<project>
+]
+'Tables
+[
+'cpazi<table>
+]
+}
+I
+*--*
+￼[]
+*--*

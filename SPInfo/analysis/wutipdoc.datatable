@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+wutipdoc<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Tipologie documenti (WU)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='wutipdoc
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'wutipdoc.wutdcodice
+'wutipdoc.wutddescri
+'wutipdoc.wutdtipdoc
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'wutipdoc.wutdcodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Documento WU
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUTDCODICE
+state=3
+table_name='wutipdoc
+type='field
+used_resource_keys={}
+I
+'wutipdoc.wutddescri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUTDDESCRI
+state=3
+table_name='wutipdoc
+type='field
+used_resource_keys={}
+I
+'wutipdoc.wutdtipdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Documento AUI
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUTDTIPDOC
+state=3
+table_name='wutipdoc
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'wutipdoc.wutdcodice
+[]
+'wutipdoc.wutddescri
+[]
+'wutipdoc.wutdtipdoc
+[]
+}
+*--*

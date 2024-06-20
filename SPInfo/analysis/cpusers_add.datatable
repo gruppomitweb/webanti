@@ -1,0 +1,182 @@
+﻿* --- Resource Vers. 0.9
+cpusers_add<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Dati Aggiuntivi Utenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cpusers_add
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cpusers_add.code
+'cpusers_add.coddip
+'cpusers_add.employee
+'cpusers_add.name
+'cpusers_add.surname
+'cpusers_add.email
+'cpusers_add.superdip
+'cpusers_add.datecreate
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cpusers_add.coddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Dipendenza Associata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIP
+state=3
+table_name='cpusers_add
+type='field
+used_resource_keys={}
+I
+'cpusers_add.code
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Utente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODE
+state=3
+table_name='cpusers_add
+type='field
+used_resource_keys={}
+I
+'cpusers_add.datecreate
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Creazione Utente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATECREATE
+state=3
+table_name='cpusers_add
+type='field
+used_resource_keys={}
+I
+'cpusers_add.email
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='EMail
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='EMAIL
+state=3
+table_name='cpusers_add
+type='field
+used_resource_keys={}
+I
+'cpusers_add.employee
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Employee ID
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='EMPLOYEE
+state=3
+table_name='cpusers_add
+type='field
+used_resource_keys={}
+I
+'cpusers_add.name
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NAME
+state=3
+table_name='cpusers_add
+type='field
+used_resource_keys={}
+I
+'cpusers_add.superdip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Utente gestore dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SUPERDIP
+state=3
+table_name='cpusers_add
+type='field
+used_resource_keys={}
+I
+'cpusers_add.surname
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cognome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SURNAME
+state=3
+table_name='cpusers_add
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cpusers_add.coddip
+[]
+'cpusers_add.code
+[]
+'cpusers_add.datecreate
+[]
+'cpusers_add.email
+[]
+'cpusers_add.employee
+[]
+'cpusers_add.name
+[]
+'cpusers_add.superdip
+[]
+'cpusers_add.surname
+[]
+}
+*--*

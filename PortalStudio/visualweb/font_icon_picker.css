@@ -1,0 +1,42 @@
+/* End Properties */
+#footer, #picker-footer {
+  position: absolute;
+  bottom: 26px;
+  width: 100%;
+}
+#select-field,
+ #add,
+ #remove,
+ #ok,
+ #cancel,
+ #picker-ok,
+ #picker-cancel {
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 12px;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 3px 5px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+#ok,
+ #cancel,
+ #picker-ok,
+ #picker-cancel {
+  width: 50px;
+  position: absolute;
+}
+#ok, #picker-ok, #add, #select-field {
+  background: #00A0BD;
+}
+#ok, #picker-ok {
+  left: calc(50% - 75px);
+}
+#cancel, #picker-cancel, #remove {
+  background: #333333;
+}
+#cancel, #picker-cancel {
+  left: calc(50% + 25px);
+}

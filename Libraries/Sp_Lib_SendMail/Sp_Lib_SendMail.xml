@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<library>
+    <description>Libreria per invio Mail</description>
+    <note></note>
+    <function>
+        <name>sendMailPers</name>
+        <description>Send email</description>
+        <type>C</type>
+        <parameter>
+            <name>msgText</name>
+            <description>Txt</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>textType</name>
+            <description>Txttype</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>subject</name>
+            <description>Subject</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>host</name>
+            <description>MailServer</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>to</name>
+            <description>TO (; separator)</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>cc</name>
+            <description>CC (; separator)</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>bcc</name>
+            <description>BCC (; separator)</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>from</name>
+            <description>Sender</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>filename</name>
+            <description>Files ( | separator)</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>username</name>
+            <description>User</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>password</name>
+            <description>Pwd</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>retopt</name>
+            <description>receipt request (&apos;S&apos;)</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>portaSMTP</name>
+            <description>Porta SMTP</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>protezioneSSL</name>
+            <description>Protezione SSL</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>intesta</name>
+            <description>Descrizione Intestatario</description>
+            <type>C</type>
+        </parameter>
+    </function>
+</library>

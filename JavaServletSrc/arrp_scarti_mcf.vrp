@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Scarti Controllo Massivo Codici Fiscali -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_scarti_mcf||version||4.6||title||Scarti Controllo Massivo Codici Fiscali||query||qbe_scarti_mcf||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||true||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2017-01-25||date_rev||2017-01-25||form_class|| ||grid_dx|| ||grid_dy|| ||grid_show||0||grid_use||0||snaplines_show||0||language|| ||merge||false||modcnt||2||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding||ISO-8859-1||hsl||false||lock_items||false||maxcount||28||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||32||uid||EXWADDWIZN||sequence||0||bb_sequence||1||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||88||uid||GTIHCKYUZB||sequence||1||bb_sequence||2||page||1|||type||Group_top||comment||group2||exp||1=1||name||group1||y||62||uid||NKKAVESOAV||sequence||4||bb_sequence||5||page||1||start_each_on_page||true|||type||Group_down||comment||group2||exp||1=1||name||group1||y||85||uid||ZHECJUUSLN||sequence||5||bb_sequence||6||page||1|||type||Label||value||Scarti Controllo Massivo Codici Fiscali||text_type||constant||name||label0||uid||KPZIVXKCNB||page||1||x||7||y||4||w||1106||h||26||sequence||24||global_font||false||font||Arial Narrow||font_size||14||font_weight||bold|||type||Label||value||Codice Errore||text_type||constant||name||label13||uid||PTHWUUGFQT||page||1||x||417||y||40||w||126||h||19||sequence||14||global_font||false||font||Tahoma||font_size||9||font_weight||bold|||type||Label||value||Descrizione Errore||text_type||constant||name||label15||uid||BRHTQKDPHU||page||1||x||553||y||40||w||126||h||19||sequence||16||global_font||false||font||Tahoma||font_size||9||font_weight||bold|||type||Label||value||NDG Soggetto||text_type||constant||name||label7||uid||GPKLJOIMVP||page||1||x||10||y||40||w||120||h||19||sequence||8||global_font||false||font||Tahoma||font_size||9||font_weight||bold|||type||Label||value||Codice Fiscale Soggetto (se presente)||text_type||constant||name||label11||uid||WYIPVTLOWV||page||1||x||281||y||40||w||126||h||19||sequence||12||global_font||false||font||Tahoma||font_size||9||font_weight||bold|||type||Label||value||Nominativo||text_type||constant||name||label9||uid||SBNYTLBGWF||page||1||x||147||y||40||w||126||h||19||sequence||10||global_font||false||font||Tahoma||font_size||9||font_weight||bold|||type||Box||name||Box6||x||7||y||60||w||1106||h||0||uid||BPMQAYVYCK||sequence||6||page||1||border_width||1||stretch_to_right||true|||type||Expr||exp||qbe_scarti_mcf.c_ERTESTO||type_exp||memo||dec||0||name||expr18||uid||ASSCSXADKU||output_name||DescrizioneEstesa||page||1||x||1083||y||65||w||17||h||18||sequence||19||hidecond||true|||type||Expr||exp||qbe_scarti_mcf.c_ERCODICE||len||4||dec||0||name||expr14||uid||TEYHFWNRUF||output_name||CodiceErrore||page||1||x||657||y||65||w||40||h||18||sequence||15|||type||Expr||exp||qbe_scarti_mcf.c_ERRAGSOC||len||70||dec||0||name||expr10||uid||XOYINIALWN||output_name||Nominativo||page||1||x||139||y||65||w||375||h||18||sequence||11|||type||Expr||exp||qbe_scarti_mcf.c_ERCONNES||len||16||dec||0||name||expr8||uid||QKZMJTXAWZ||output_name||NDGSoggetto||page||1||x||10||y||65||w||120||h||18||sequence||9|||type||Expr||exp||qbe_scarti_mcf.c_ERDESCRI||len||70||dec||0||name||expr16||uid||JYJAJTQORW||output_name||DescrizioneErrore||page||1||x||705||y||65||w||375||h||18||sequence||17|||type||Expr||exp||qbe_scarti_mcf.c_ERCODFISC||len||16||dec||0||name||expr12||uid||ODXKORSWHA||output_name||CodiceFiscaleSoggetto(sepresente)||page||1||x||526||y||65||w||120||h||18||sequence||13|||type||Expr||exp||qbe_scarti_mcf.c_ERAZIONE||len||70||dec||0||name||expr20||uid||TELWWRESWF||output_name||Azionedaintraprendere||page||1||x||1103||y||65||w||18||h||18||sequence||21||hidecond||true|||type||Box||name||Box21||x||7||y||91||w||1108||h||0||uid||CZLVHYVYKF||sequence||22||page||1||border_width||1||stretch_to_right||true|||type||Label||value||Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)||text_type||expression||name||label4||uid||SZUJUBPWOZ||page||1||x||11||y||96||w||341||h||17||sequence||27||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;||text_type||expression||name||label3||uid||LXVAUBIIXK||page||1||x||772||y||96||w||225||h||17||sequence||28||align||right||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||Str(nTotalPages, 4, 0)||text_type||expression||name||label5||uid||WMDWNBRNBK||page||1||x||1002||y||96||w||103||h||17||sequence||29||global_font||false||font||Arial||font_size||8||font_weight||normal||| -->
+
+<REPORT NAME="arrp_scarti_mcf" TITLE="Scarti Controllo Massivo Codici Fiscali" QUERY="qbe_scarti_mcf" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="true" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_scarti_mcf.ERCONNES" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_scarti_mcf.ERRAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_scarti_mcf.ERCODFISC" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_scarti_mcf.ERCODICE" TYPE="C" LEN="4" DEC="0" />
+    <FIELD NAME="qbe_scarti_mcf.ERDESCRI" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_scarti_mcf.ERTESTO" TYPE="M" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_scarti_mcf.ERAZIONE" TYPE="C" LEN="70" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="32" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="Scarti Controllo Massivo Codici Fiscali" EXPRTYPE="constant"
+                    Y="4" X="7" YY="30" XX="1113"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial Narrow" FONTSIZE="14"
+                    FONTSTYLE="B"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="29" FOOTH="2" SYMNAME="" UID="NKKAVESOAV" TOP="61" BOTTOM="83" EXPRESSION="1=1" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+              <ITEM OBJ="stringa" NAME="NDG Soggetto" EXPRTYPE="constant"
+                    Y="7" X="10" YY="26" XX="130"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Nominativo" EXPRTYPE="constant"
+                    Y="7" X="147" YY="26" XX="273"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Codice Fiscale Soggetto (se presente)" EXPRTYPE="constant"
+                    Y="7" X="281" YY="26" XX="407"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Codice Errore" EXPRTYPE="constant"
+                    Y="7" X="417" YY="26" XX="543"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Descrizione Errore" EXPRTYPE="constant"
+                    Y="7" X="553" YY="26" XX="679"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="27" X="7" XX="1114" BORDERWIDTH="1"
+                    ALIGN="L"
+                    STRETCH="true"
+                    />
+          <SECTION TYPE="group" HEADH="22" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="espressione" NAME="qbe_scarti_mcf.c_ERCONNES" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="10" YY="20" XX="130"
+                            SYMNAME="NDGSoggetto"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_scarti_mcf.c_ERRAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="139" YY="20" XX="514"
+                            SYMNAME="Nominativo"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_scarti_mcf.c_ERCODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="526" YY="20" XX="646"
+                            SYMNAME="CodiceFiscaleSoggetto(sepresente)"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_scarti_mcf.c_ERCODICE" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="657" YY="20" XX="697"
+                            SYMNAME="CodiceErrore"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="4"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_scarti_mcf.c_ERDESCRI" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="705" YY="20" XX="1080"
+                            SYMNAME="DescrizioneErrore"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_scarti_mcf.c_ERTESTO" ITEMTYPE="M" EXPRTYPE="expression"
+                            Y="2" X="1083" YY="20" XX="1100"
+                            SYMNAME="DescrizioneEstesa"
+                            ALIGN="L"
+                            HIDECONDITION="true"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_scarti_mcf.c_ERAZIONE" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="1103" YY="20" XX="1121"
+                            SYMNAME="Azionedaintraprendere"
+                            ALIGN="L"
+                            HIDECONDITION="true"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="70"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="85" H="25" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="2" X="7" XX="1116" BORDERWIDTH="1"
+                    ALIGN="L"
+                    STRETCH="true"
+                    />
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="7" X="11" YY="24" XX="352"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="7" X="772" YY="24" XX="997"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="7" X="1002" YY="24" XX="1105"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

@@ -1,0 +1,56 @@
+﻿* --- Resource Vers. 0.9
+arrt_tit_prv
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Crea Temporaneo Titolari Effettivi Prov.
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:30
+module_name='
+name='arrt_tit_prv
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_tit_prv.codcli
+'tmp_tit_prv.codinter
+'tmp_tit_prv.descinter
+'tmp_tit_prv.dataini
+'tmp_tit_prv.tiporap
+'tmp_tit_prv.rapporto
+'tmp_tit_prv.datafine
+'tmp_tit_prv_sel.codcli
+'tmp_tit_prv_sel.codinter
+'tmp_tit_prv_sel.descinter
+'tmp_tit_prv_sel.dataini
+'tmp_tit_prv_sel.tiporap
+'tmp_tit_prv_sel.rapporto
+'tmp_tit_prv_sel.datafine
+]
+'Queries
+[
+'qbe_tit_prv.vqr
+'qbe_tit_prv_sel.vqr
+]
+'Tables
+[
+'personbo<table>
+'tbcitta<table>
+'tbstati<table>
+'tmp_tit_prv<table>
+'tmp_tit_prv_sel<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,123 @@
+﻿* --- Resource Vers. 0.9
+arrt_riordina_info
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Riordina gli archivi definitivi di operazioni e informazioni sui rapporti
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:24
+module_name='
+name='arrt_riordina_info
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'anarapbo.rapporto
+'anarapbo.tiporap
+'rapopebo.idbase
+'rapopebo.numprog
+'rapopebo.dataope
+'rapopebo.tipointer
+'rapopebo.codinter
+'rapopebo.tipoinf
+'rapopebo.idereg
+'rapopebo.coddipe
+'rapopebo.desccit
+'rapopebo.provincia
+'rapopebo.codcab
+'rapopebo.flagfraz
+'rapopebo.flagcont
+'rapopebo.codana
+'rapopebo.codvoc
+'rapopebo.tipoint2
+'rapopebo.codint2
+'rapopebo.paese
+'rapopebo.desc2
+'rapopebo.prov2
+'rapopebo.codcab2
+'rapopebo.descinter
+'rapopebo.rapporto
+'rapopebo.flagrap
+'rapopebo.tipoleg
+'rapopebo.datareg
+'rapopebo.oprap
+'rapopebo.tipooprap
+'rapopebo.flaglire
+'rapopebo.valuta
+'rapopebo.segno
+'rapopebo.totlire
+'rapopebo.totcont
+'rapopebo.statoreg
+'rapopebo.operazmod
+'rapopebo.datarett
+'rapopebo.connescli
+'rapopebo.connesoper
+'rapopebo.connesben
+'rapopebo.colleg
+'rapopebo.cambio
+'rapopebo.rapportben
+'rapopebo.flagrap2
+'rapopebo.operatore
+'rapopebo.autom
+'rapopebo.respins
+'rapopebo.inform
+'rapopebo.dataage
+'rapopebo.ucode
+'rapopebo.prgimpinf
+'rapopebo.uniquecode
+'rapopebo.cdatope
+'intestbo.idbase
+'intestbo.cprownum
+'intestbo.numprog1
+'intestbo.numprog2
+'old_praopebo.idbase
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_oldrapope.vqr
+]
+'Tables
+[
+'rapopebo<table>
+'intestbo<table>
+'cpwarn<table>
+'anarapbo<table>
+'old_dataindex<table>
+'old_praopebo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_riordina_info|Error|core::document|Update dependencies|Field "rapopebo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:24
+message='Field "rapopebo.1" not found.
+resource_key='arrt_riordina_info
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

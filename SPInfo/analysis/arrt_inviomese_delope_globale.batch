@@ -1,0 +1,88 @@
+﻿* --- Resource Vers. 0.9
+arrt_inviomese_delope_globale
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:38
+description='Estrazione Dati da A.U.I per Agenzia Entrate (Routine)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:22
+module_name='
+name='arrt_inviomese_delope_globale
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aeoprig.adata
+'aederig.adata
+'opextrbo.numprog1
+'aederig.idbase
+'aederig.rapporto
+'aederig.connesint
+'aederig.tipoag
+'aederig.coint
+'aederig.cdata
+'aederig.idrif
+'aederig.progdlg
+'delegabo.rapporto
+'delegabo.cprownum
+'delegabo.numprog1
+'jelegabo.rapporto
+'jelegabo.cprownum
+'jelegabo.numprog1
+'aeoprig.idbase
+'aeoprig.connesint
+'aeoprig.tipoag
+'aeoprig.coint
+'aeoprig.progopx
+'aeoprig.nocodfisc
+'opextrbo.colleg
+'opextrbo.dataope
+'tmp_stovaria.connes
+'tmp_stovaria.datvaria
+'tmp_stovaria.numvaria
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_inviomens_delope_1.vqr
+'qbe_inviomens_delope_2.vqr
+'qbe_inviomens_delope_3.vqr
+'qbe_inviomens_delope_4.vqr
+'qbe_inviomens_delope_5_min_max.vqr
+'qbe_inviomens_delope_5.vqr
+]
+'Tables
+[
+'anarapbo<table>
+'aetesta<table>
+'aerighe<table>
+'appointestbo<table>
+'intestbo<table>
+'aefiles<table>
+'jnarapbo<table>
+'aederig<table>
+'delegabo<table>
+'jelegabo<table>
+'aeoprig<table>
+'opextrbo<table>
+'tmp_stovaria<table>
+'cpwarn<table>
+]
+}
+I
+*--*
+￼[]
+*--*

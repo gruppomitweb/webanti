@@ -1,0 +1,52 @@
+﻿* --- Resource Vers. 0.9
+arrt_allinea_residenza_soggetti
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Annullamento soggetti inutilizzati
+file_modified_on=#2018-07-05 17:27:10
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_allinea_residenza_soggetti
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.paese
+'personbo.desccit
+'personbo.provincia
+'personbo.cap
+'personbo.codcab
+]
+'Queries
+[
+'qbe_tab_mmc.vqr
+'qbe_wu_conta_rec.vqr
+'qbe_wu_conta_dati.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_allinea_residenza_soggetti
+]
+'Tables
+[
+'personbo<table>
+'tbcitta<table>
+'decodecitta<table>
+]
+}
+I
+*--*
+￼[]
+*--*

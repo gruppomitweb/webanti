@@ -1,0 +1,89 @@
+﻿* --- Resource Vers. 0.9
+arrt_esito_rap_report
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Stampa Rilievi per Agenzia (Routine)
+file_modified_on=#2022-08-04 12:26:10
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:12
+module_name='
+name='arrt_esito_rap_report
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.codfisc
+'personbo.datanasc
+'personbo.nascomun
+'personbo.tipodoc
+'personbo.autrilasc
+'personbo.tipinter
+'personbo.nasstato
+'personbo.nome
+'personbo.cognome
+'personbo.sesso
+'operazbo.dataope
+'operazbo.connescli
+'operazbo.numprog
+'operazbo.totlire
+'operazbo.coddipe
+'fraziobo.dataope
+'fraziobo.connescli
+'fraziobo.numprog
+'fraziobo.totlire
+'fraziobo.coddipe
+'tmp_esiti_age.criga
+'tmp_esiti_age.dataope
+'tmp_esiti_age.connes
+'tmp_esiti_age.impope
+'tmp_esiti_age.coddip
+'tmp_esiti_age.numope
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_esiage_limiti.vqr
+'qbe_esiti_age_prn.vqr
+]
+'Routines
+[
+'arfn_fdate
+'arfn_fdatetime
+]
+'Tables
+[
+'tmp_list_imprich<table>
+'tmp_esiti_age<table>
+'tbesitoae<table>
+'aerighe<table>
+'aederig<table>
+'aeoprig<table>
+'aefiles_esiti<table>
+'personbo<table>
+'operazbo<table>
+'fraziobo<table>
+'tbstati<table>
+'tbtipdoc<table>
+'tmp_newpers<table>
+'tmp_apecod<table>
+]
+}
+I
+*--*
+￼[]
+*--*

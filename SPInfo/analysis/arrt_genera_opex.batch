@@ -1,0 +1,73 @@
+﻿* --- Resource Vers. 0.9
+arrt_genera_opex
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Creazione Operazioni ExtraConto da Archivio Unico/AGE
+file_modified_on=#2023-03-10 10:27:01
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:14
+module_name='
+name='arrt_genera_opex
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.idbase
+'opextrbo.dataope
+'opextrbo.coint
+'opextrbo.progopex
+'opextrbo.note
+'opextrbo.rapporto
+'opextrbo.rifimp
+'opextrbo.inform
+'tbmacage.macodice
+'tbmacage.maflgnox
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_genera_opex_ope.vqr
+'qbe_genera_opex_frz.vqr
+'qbe_genera_opex_limit_jpe.vqr
+'qbe_genera_opex_jpe.vqr
+]
+'Routines
+[
+'arfn_datesum
+'arfn_fdate
+'arfn_fdatetime
+'arrt_genera_opex
+]
+'Tables
+[
+'anarapbo<table>
+'aetesta<table>
+'aerighe<table>
+'appointestbo<table>
+'intestbo<table>
+'aefiles<table>
+'jnarapbo<table>
+'personbo<table>
+'opextrbo<table>
+'tbmacage<table>
+]
+}
+I
+*--*
+￼[]
+*--*

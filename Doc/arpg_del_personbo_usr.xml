@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="250579889">
+  <CodifyName>arpg_del_personbo</CodifyName>
+  <Name>arpg_del_personbo.pagedef</Name>
+  <Title>Richiesta Data Cancellazione Soggetti</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="120726977"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_del_personbo_usr_1</JPG>
+    <Item type="variabile" x1="117" y1="21" x2="183" y2="41">
+      <Name LinkID="228283969">datavaria</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="56" y1="49" x2="96" y2="77">
+      <Name LinkID="250578369">images/save.gif</Name>
+      <Image>images/save.gif</Image>
+      <Hyperlink>armt_personbo</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="128" y1="49" x2="168" y2="77">
+      <Name LinkID="250578369">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>window.close()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="56" x2="48" y2="76">
+      <Name LinkID="188984639">CONNES</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

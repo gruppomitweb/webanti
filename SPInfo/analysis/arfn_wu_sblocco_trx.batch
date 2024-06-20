@@ -1,0 +1,46 @@
+﻿* --- Resource Vers. 0.9
+arfn_wu_sblocco_trx
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Sblocca transazione
+file_modified_on=#2018-08-03 17:15:06
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='public
+I
+}
+modified_on=#2024-05-10 18:24:54
+module_name='
+name='arfn_wu_sblocco_trx
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'wutrxchk.trxcodprg
+'wutrxchk.trxtinilav
+'wutrxchk.trxdinilav
+'wutrxchk.trxutente
+'wutrxchk.trflginlav
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Routines
+[
+'arfn_wu_sblocco_trx
+]
+'Tables
+[
+'wutrxchk<table>
+]
+}
+I
+*--*
+￼[]
+*--*

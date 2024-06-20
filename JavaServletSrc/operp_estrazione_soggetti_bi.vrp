@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ReportDescription v5.0 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Estrazione Soggetti per BI -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:[{"type":"report","name":"operp_estrazione_soggetti_bi","version":"5.0","title":"Estrazione Soggetti per BI","query":"qbe_estrazione_soggetti_bi","queries_list":"","font":"Arial","font_size":"9","font_weight":"normal","font_effect":"","picture_date":"","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"false","reportheadfoot":"false","security_public":"true","dict_name":"","security_access":"true","security_roles":"","author":"","client":"","date_creat":"2022-01-03","date_rev":"2022-01-17","modcnt":"9","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":"UTF-8","hsl":"false","lock_items":"false","maxcount":"41","check_values":"","rotation":"","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","privacy":"0","identifier":"false","contentprivacy":"0","attributes":""},{"type":"AutoCover","name":"autocoverwiz","uid":"LLRIOS79NO","page":"0","y":"17"},{"type":"Group_top","comment":"group1","name":"group1","uid":"F1GUUS4BWC","page":"1","exp":"1=1","x":"0","y":"13","w":"1272","h":"0","sequence":"21","start_each_on_page":"true"},{"type":"Group_down","comment":"group1","name":"group1","uid":"VQYYVSKNCJ","page":"1","exp":"1=1","x":"0","y":"42","w":"1272","h":"0","sequence":"22"},{"type":"Expr","comment":"Cliente","name":"expr8","uid":"K7SK9S4AID","page":"1","exp":"qbe_estrazione_soggetti_bi.c_CONNESCLI","len":"16","dec":"0","output_name":"Cliente","x":"3","y":"17","w":"46","h":"18","sequence":"1"},{"type":"Expr","comment":"Ragione Sociale","name":"expr10","uid":"B5ALWS28EK","page":"1","exp":"qbe_estrazione_soggetti_bi.c_RAGSOCCLI","len":"70","dec":"0","output_name":"RagioneSociale","x":"54","y":"17","w":"99","h":"18","sequence":"3"},{"type":"Expr","comment":"Tipo Soggetto","name":"expr12","uid":"XH6WNSEIDU","page":"1","exp":"qbe_estrazione_soggetti_bi.c_TIPOCLI","len":"20","dec":"0","output_name":"TipoSoggetto","x":"347","y":"17","w":"83","h":"18","sequence":"6"},{"type":"Expr","comment":"Codice ATECO","name":"expr14","uid":"EGNQYSBO82","page":"1","exp":"qbe_estrazione_soggetti_bi.c_ATECO","dec":"0","output_name":"CodiceATECO","x":"436","y":"17","w":"94","h":"18","sequence":"7"},{"type":"Expr","comment":"Descrizione","name":"expr16","uid":"DQTGFSVEST","page":"1","exp":"qbe_estrazione_soggetti_bi.c_DESCRIZIONE","len":"250","dec":"0","output_name":"Descrizione","x":"535","y":"17","w":"74","h":"18","sequence":"8"},{"type":"Expr","comment":"Rischio Globale","name":"expr18","uid":"G6106S62PW","page":"1","exp":"qbe_estrazione_soggetti_bi.c_RISGLOB","len":"3","dec":"0","output_name":"RischioGlobale","x":"618","y":"17","w":"92","h":"18","sequence":"9"},{"type":"Expr","comment":"Persona Esposta Politicamente","name":"expr20","uid":"AMNSASWX4I","page":"1","exp":"qbe_estrazione_soggetti_bi.c_PEP","len":"1","dec":"0","output_name":"PEP","x":"713","y":"17","w":"120","h":"18","sequence":"10"},{"type":"Expr","comment":"Ultima Adeguata Verifica","name":"expr22","uid":"W73BRS2U4O","page":"1","exp":"opefn_fdate(qbe_estrazione_soggetti_bi.c_ULTADEGVER)","dec":"0","output_name":"UltimaAdeguataVerifica","x":"836","y":"17","w":"120","h":"18","sequence":"10"},{"type":"Expr","comment":"Penultima Adeguata Verifica","name":"expr24","uid":"YDCJASNNRL","page":"1","exp":"opefn_fdate(qbe_estrazione_soggetti_bi.c_PULTADEGVER)","dec":"0","output_name":"PenultimaAdeguataVerifica","x":"959","y":"17","w":"33","h":"18","sequence":"11"},{"type":"Expr","comment":"Ultima Valutazione Rischio","name":"expr26","uid":"B7BFASMFNG","page":"1","exp":"opefn_fdate(qbe_estrazione_soggetti_bi.c_DATAPROF)","len":"8","dec":"0","output_name":"UltimaValutazioneRischio","x":"995","y":"17","w":"50","h":"18","sequence":"12"},{"type":"Expr","comment":"Data Inizio Rapporto","name":"expr28","uid":"Q7YP5S9MUQ","page":"1","exp":"opefn_fdate(qbe_estrazione_soggetti_bi.c_RAPPORTO_INI)","dec":"0","output_name":"DataInizioRapporto","x":"1048","y":"17","w":"44","h":"18","sequence":"13"},{"type":"Expr","comment":"Data Fine Rapporto","name":"expr30","uid":"WPVV8SVFHB","page":"1","exp":"opefn_fdate(qbe_estrazione_soggetti_bi.c_RAPPORTO_FIN)","dec":"0","output_name":"DataFineRapporto","x":"1095","y":"17","w":"51","h":"18","sequence":"14"},{"type":"Expr","comment":"Codice Fiscale","name":"Expr40","uid":"YFQEZTQDUC","page":"1","exp":"qbe_estrazione_soggetti_bi.c_CODFISC","len":"16","dec":"0","output_name":"CodiceFiscale","x":"166","y":"17","w":"67","h":"18","sequence":"4"},{"type":"Expr","comment":"Partita IVA","name":"Expr41","uid":"TOELQKGCET","page":"1","exp":"qbe_estrazione_soggetti_bi.c_PARTIVA","len":"11","dec":"0","output_name":"PartitaIVA","x":"241","y":"17","w":"91","h":"18","sequence":"5"}] -->
+
+<REPORT NAME="operp_estrazione_soggetti_bi" TITLE="Estrazione Soggetti per BI" QUERY="qbe_estrazione_soggetti_bi" MAXDEPTH="1" VERSION="5.0" PUBLIC="true" ACCESS="true" ROLES=""
+  GLBFONTNAME="Arial" GLBFONTSIZE="9"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="17" EXPRESSION="Cover">
+          <AUTOCOVER TYPE="autocover" UID="LLRIOS79NO" TOP="17"
+                LEFTMARGIN="0" RIGHTMARGIN="0" LINEHEIGHT="1"
+                />
+  </COVER>
+  <SECTION TYPE="group" HEADH="13" FOOTH="1" UID="F1GUUS4BWC" TOP="13" BOTTOM="41" EXPRESSION="1=1"
+   STARTNEWPAGE="true">
+          <SECTION TYPE="group" HEADH="28" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_soggetti_bi.c_CONNESCLI" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="3" YY="21" XX="49"
+                            SYMNAME="Cliente"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_soggetti_bi.c_RAGSOCCLI" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="54" YY="21" XX="153"
+                            SYMNAME="RagioneSociale"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_soggetti_bi.c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="166" YY="21" XX="233"
+                            SYMNAME="CodiceFiscale"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_soggetti_bi.c_PARTIVA" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="241" YY="21" XX="332"
+                            SYMNAME="PartitaIVA"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="11"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_soggetti_bi.c_TIPOCLI" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="347" YY="21" XX="430"
+                            SYMNAME="TipoSoggetto"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="20"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_soggetti_bi.c_ATECO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="436" YY="21" XX="530"
+                            SYMNAME="CodiceATECO"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_soggetti_bi.c_DESCRIZIONE" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="535" YY="21" XX="609"
+                            SYMNAME="Descrizione"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="250"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_soggetti_bi.c_RISGLOB" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="618" YY="21" XX="710"
+                            SYMNAME="RischioGlobale"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_estrazione_soggetti_bi.c_PEP" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="713" YY="21" XX="833"
+                            SYMNAME="PEP"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="1"
+                            />
+                      <ITEM OBJ="espressione" NAME="opefn_fdate(qbe_estrazione_soggetti_bi.c_ULTADEGVER)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="836" YY="21" XX="956"
+                            SYMNAME="UltimaAdeguataVerifica"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="opefn_fdate(qbe_estrazione_soggetti_bi.c_PULTADEGVER)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="959" YY="21" XX="992"
+                            SYMNAME="PenultimaAdeguataVerifica"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="opefn_fdate(qbe_estrazione_soggetti_bi.c_DATAPROF)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="995" YY="21" XX="1045"
+                            SYMNAME="UltimaValutazioneRischio"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="opefn_fdate(qbe_estrazione_soggetti_bi.c_RAPPORTO_INI)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="1048" YY="21" XX="1092"
+                            SYMNAME="DataInizioRapporto"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="opefn_fdate(qbe_estrazione_soggetti_bi.c_RAPPORTO_FIN)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="1095" YY="21" XX="1146"
+                            SYMNAME="DataFineRapporto"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+          </SECTION>
+  </SECTION>
+</REPORT>

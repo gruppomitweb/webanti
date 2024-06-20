@@ -1,0 +1,150 @@
+ 1
+"Operazioni"
+"operazbo"
+"operazbo"
+ 0
+ 0
+*
+ 10
+"Data Operazione"
+"operazbo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Numero Progressivo"
+"operazbo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Totale Operazione"
+"operazbo.TOTLIRE/100"
+"TOTLIRE"
+"N"
+ 15
+ 2
+*
+"di cui contanti"
+"operazbo.TOTCONT/100"
+"TOTCONT"
+"N"
+ 15
+ 2
+*
+"Stato registrazione"
+"operazbo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+"Divisa"
+"operazbo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+"Tipo Intermediaro"
+"ýOperazione ý"
+"TIPO"
+"C"
+ 11
+ 0
+*
+"Idbase"
+"operazbo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Stato registrazione"
+"[CASE(operazbo.STATOREG,ý0ý,ýAttivaý,ý1ý,ýAttiva dopo modificaý,ý2ý,ýCopia di Modificataý,ý3ý,ýCancellataý,ýStato non rilevatoý)]"
+"STATO"
+"C"
+ 20
+ 0
+*
+"Colore"
+"[CASE(operazbo.STATOREG,ý0ý,ý#00FF00ý,ý1ý,ý#0000FFý,ý2ý,ý#FF0000ý,ý#FFFF00ý)]"
+"COLORE"
+"C"
+ 10
+ 0
+*
+ 0
+ 2
+"operazbo.RAPPORTO"
+""
+"="
+"?w_rapporto"
+"AND"
+""
+*
+"1"
+""
+"="
+"?w_falso"
+"AND"
+""
+*
+ 2
+"Data Operazione"
+"DATAOPE"
+"Descending"
+*
+"Numero Progressivo"
+"NUMPROG"
+"Ascending"
+*
+ 0
+ 0
+ 2
+"w_rapporto"
+"Rapporto Collegato"
+"C"
+"25"
+"0"
+""
+""
+*
+"w_falso"
+"Per la griglia"
+"N"
+"1"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 8
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%29+%3C+%3D%3AuCW%5E%1D%40H5VjOB%29-73%2F2C_C%21R_K%2F5.%225L%063SR%23%3BK%17N%5CC%5DKM%2B%27V%11%1AE%5EAMAn%27SX%3C*DQ%2C%28%05%22LA%3B%3D+C7%24jB%404KU%3BJ7V8tQ4%28G6%3DK7%28%25ST%23h%22B%3C%24JY%29MD%22U%3E%24%294CN%40%22QHWY1%3B%28%40%28A%24PLWzA2%29%3F%23IGIJU%2FVO%3EGZ%5C%27JP.D4%2661.%12%23PQ%3A%27%40%3A%2CH%29%7CD65%24K%3F%22%3E*%405.D5GK%23MF%1B%223%21%26S1BO-%3C80%7FMj%199NQ%3EK%3C%25PAZBFKSL8%3E.HYRtW%2FI2%269SDMN+2%156OBF%00"
+"YIIR9%40H%3FGO%3A7%3CQM%3DEC%077%019%26HHcY%5E%5B%5BV%26N%21508%5DX%23VN7%28%2FA%3C.J%5E%3BULW+F%29pDB.D%2CG%3B%26%26%1AT.X%5EK3%5DNA3JV%2BO1N%07%16%233%192Q5%23TIsc%21+6KXM%07.%5D5Rl6*%3E%3COh%3CN%04%3E%5C%24%197Oa%5B%28M%28Z%27%3B%3A1%3BHVZ_L%5CT%2525%3BZX%5D1-%263%25%3C1W%5DF%23YQG%25%40IASG-6M%5BVA.2%211%7E10OSE_K0A%25%3A%5C%24_K4U%24%3D%1B%223*%25%29K%25G9J%12%22_WOD%061%5D4-%22Y%3F%25%252X7%3CCK%26%25N%29%29XINQI%3FF%3C+6%3FD_0%288G0%00"
+""
+""
+"native"
+ 0
+ 0
+*

@@ -1,0 +1,59 @@
+﻿* --- Resource Vers. 0.9
+allinea_moneytrans
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:26
+description='Untitled
+file_modified_on=#2020-08-11 09:40:16
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:47
+module_name='
+name='allinea_moneytrans
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.idbase
+'opextrbo.saldo
+'opextrbo.quantita
+'opextrbo.valuta
+'opextrbo.uniquer
+'opextrbo.codinter
+'opextrbo.oldinter
+'opextrbo.datamodi
+'opextrbo.inviato
+'opextrbo.datainvio
+'opextrbo.annulla
+'opextrbo.dataannu
+'opextrbo.oldunique
+'opextrbo.dataolduni
+'opextrbo.idesito
+'opextrbo.connesoper
+'opextrbo.rapporto
+'opextrbo.invsaldo
+'opextrbo.dtsaldo
+]
+'Queries
+[
+'qbe_opextrbo_norap.vqr
+]
+'Tables
+[
+'operazbo<table>
+'cgo_operazioni_storico<table>
+'f_opextrbo<table>
+'opextrbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

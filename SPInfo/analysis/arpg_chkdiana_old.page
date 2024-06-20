@@ -1,0 +1,61 @@
+﻿* --- Resource Vers. 0.9
+arpg_chkdiana_old
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:30
+description='Preparazione file per Check Scarico OffLine (Fino al 31/05/2010)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={}
+modified_on=#2024-05-10 18:25:00
+module_name='
+name='arpg_chkdiana_old
+state=1
+type='page
+used_resource_keys={
+'Fields
+[
+'intermbo.codinter
+'intermbo.ragsoc
+'anadip.coddip
+'anadip.descriz
+'personbo.connes
+'personbo.ragsoc
+]
+'Hyperlinks
+[
+'jsp\start_page_logo_portlet.jsp
+]
+'Others
+[
+'jsp\showmsg_portlet.jsp
+'jsp\showlog_portlet.jsp
+]
+'Tables
+[
+'intermbo<table>
+'tbtipint<table>
+'anadip<table>
+'personbo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_chkdiana_old|Error|core::document|Update dependencies|Resource "arrt_chkdiana_old" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:00
+message='Resource "arrt_chkdiana_old" not found.
+resource_key='arpg_chkdiana_old
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

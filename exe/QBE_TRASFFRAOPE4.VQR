@@ -1,0 +1,153 @@
+ 1
+"Operazioni Frazionate"
+"fraziobo"
+"fraziobo"
+ 0
+ 0
+*
+ 4
+"Rapporto Collegato"
+"fraziobo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Segno"
+"fraziobo.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+*
+"Totale Operazione"
+"SUM(fraziobo.TOTLIRE)"
+"TOTLIRE"
+"N"
+ 15
+ 0
+*
+"di cui contanti"
+"SUM(fraziobo.TOTCONT)"
+"TOTCONT"
+"N"
+ 15
+ 0
+*
+ 0
+ 7
+"fraziobo.DATAOPE"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"fraziobo.DATAOPE"
+""
+"<="
+"?w_adata"
+"AND"
+""
+*
+"[NOTEMPTYSTR(fraziobo.RAPPORTO)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"fraziobo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+*
+"fraziobo.SEGNO"
+""
+"="
+"ýAý"
+"AND"
+""
+*
+"fraziobo.TOTLIRE"
+""
+">="
+"?w_minfraz"
+"AND"
+""
+*
+"SUM(fraziobo.TOTLIRE)"
+""
+">="
+"?w_importo"
+"AND"
+"Having"
+*
+ 0
+ 2
+"Rapporto Collegato"
+"RAPPORTO"
+*
+"Segno"
+"SEGNO"
+*
+ 0
+ 4
+"w_dadata"
+"Data Operazione"
+"D"
+"8"
+"0"
+""
+*
+"w_adata"
+"Data Operazione"
+"D"
+"8"
+"0"
+""
+*
+"w_minfraz"
+"Totale Operazione"
+"N"
+"15"
+"0"
+""
+*
+"w_importo"
+"Totale Operazione"
+"N"
+"15"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 5
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%21DD%29_O+T%5CE5%3F%2F2J5i1%22.%3D%23%2F%1F%28GNMnE%3AQ+%2F%3B%00B%22%3B%219%5E%3E%40%2B%296%2FME0.AV%25%220WFL%22Pqb2E%298%3E4Q4%25%3CK%3B6LJ2%7C%5C%406%3F%14%5E%21%29%26.CC%28M%2CU%25J-%3B6F.%3C_%5DzRE*%3B2%27%3BV%3E%3D%3AR%2B%1AD%25USP%3B%2FE9A5%19.L7RWDCCC%15J0YAN%3D%2CC4D5LE4.CF%4059M7I%2C0%06XME%40%3D5200%7D4%5BC%27%3C738+%2F0E%29l-4Z%3B%3D7%223%28%26%5CT%21T6%14%26%24E3L+%5EK%240%251YFTZn%21_%5C8I%21XH_2%5BRz%5D++%2C%2CRKEG%23%3C%3F%24G%2F%00"
+"OF%3A%5BnU_SBW%27%16%3C3OZO1%3F28%3C%40AI0v%22nU%3FRNL%1BUF%29T%221UW%2C%14-%5EI_%3B%3EQ%3B%3B%3AE7IP%2F%2F2%2F5%3DB*OP-%2BRNREQMHC8O6R%28WB%24%3B7%1CV%3AB%28%3C%5DZ%5E6%24K_BS*%5CW%27S-%216-U%3C0%3A%220YM%29%40F%3CPG5%2F%3EZ%256%3C-%10%28%23LUVm%3F%3E%25%29%25_C%3E%06%28%3A%23%2C%22%28I%29YFL%5B+5%25%2C5%3AY2OWz4%28%14%407H%3EL%3FV%159+F%3ABE%29HQFYR52%2B%223%2C%25wG-B.%24%10%29%7CU1%2B2+%03%2F%23%3EHbI%25ZZ4*HAK%3C%11%5E%3F%292.W%2BKH%5D%7EQVK%5C%3A%02%26M%3C%00"
+""
+""
+"native"
+ 0
+ 0
+*

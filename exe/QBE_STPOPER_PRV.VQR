@@ -1,0 +1,235 @@
+ 3
+"Storico Operazioni"
+"xperazbo"
+"xperazbo"
+ 178
+ 32
+*
+"Anagrafica Persone/Clienti/Società/Fornitori"
+"personbo"
+"personbo"
+ 219
+ 156
+*
+"Rapporti Definitivi + Provvisori"
+"knarapbo"
+"knarapbo"
+ 26
+ 173
+*
+ 16
+"Data Operazione"
+"xperazbo.DATAOPE"
+"DATAOPE"
+"Date"
+ 8
+ 0
+*
+"Data Operazione"
+"xperazbo.DATAOPE"
+"DATAOPER"
+"Date"
+ 10
+ 0
+*
+"Numero Progressivo"
+"xperazbo.NUMPROG"
+"NUMPROG"
+"Char"
+ 11
+ 0
+*
+"Data registrazione"
+"xperazbo.DATAREG"
+"DATAREG"
+"Date"
+ 10
+ 0
+*
+"Causale Analitica"
+"xperazbo.CODANA"
+"CODANA"
+"Char"
+ 4
+ 0
+*
+"Causale Sintetica"
+"xperazbo.CODVOC"
+"CODVOC"
+"Char"
+ 2
+ 0
+*
+"Totale Operazione"
+"[CASE(xperazbo.valuta,ý018ý,TOTLIRE,TOTLIRE/100)]"
+"IMPORTO"
+"Numeric"
+ 15
+ 2
+*
+"Divisa"
+"xperazbo.VALUTA"
+"VALUTA"
+"Char"
+ 3
+ 0
+*
+"Stato registrazione"
+"[CASE(STATOREG,ý2ý,ýMý,ý3ý,ýCý,ýAý)]"
+"STATOREG"
+"Char"
+ 1
+ 0
+*
+"Codice Cliente Occasionale"
+"xperazbo.CONNESCLI"
+"CONNESCLI"
+"Char"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"Char"
+ 70
+ 0
+*
+"Rapporto Collegato"
+"xperazbo.RAPPORTO"
+"RAPPORTO"
+"Char"
+ 25
+ 0
+*
+"Totale Operazione"
+"[CASE(xperazbo.VALUTA,ý018ý,xperazbo.TOTLIRE,(xperazbo.TOTLIRE/100)*1936.27)]"
+"TOTLIRE"
+"Numeric"
+ 15
+ 2
+*
+"Totale Operazione"
+"[CASE(xperazbo.VALUTA,ý018ý,xperazbo.TOTLIRE/1936.27,xperazbo.TOTLIRE/100)]"
+"TOTEURO"
+"Numeric"
+ 15
+ 2
+*
+"Tipo Operazione Completa"
+"xperazbo.TIPOOPRAP"
+"TIPOOPRAP"
+"Char"
+ 2
+ 0
+*
+"Descrizione"
+"knarapbo.DESCRAP"
+"DESCRAP"
+"Char"
+ 50
+ 0
+*
+ 2
+"Clienti Occasionali"
+"personbo.CONNES=xperazbo.CONNESCLI"
+"Right outer"
+"personbo"
+"xperazbo"
+*
+"Rapporti"
+"knarapbo.RAPPORTO=xperazbo.RAPPORTO"
+"Right outer"
+"knarapbo"
+"xperazbo"
+*
+ 4
+"xperazbo.CDATOPE"
+""
+">="
+"?w_c_dadata"
+"AND"
+""
+*
+"xperazbo.CDATOPE"
+""
+"<="
+"?w_c_adata"
+"AND"
+""
+*
+"xperazbo.CONNESCLI"
+""
+">="
+"?w_daCodCli"
+"AND"
+""
+*
+"xperazbo.CONNESCLI"
+""
+"<="
+"?w_aCodCli"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 6
+"w_c_dadata"
+"Data Operazione"
+"Char"
+"8"
+"0"
+"Remove"
+*
+"w_c_adata"
+"Data Operazione"
+"Char"
+"8"
+"0"
+"Remove"
+*
+"w_daCodCli"
+"Cliente Occasionale"
+"Char"
+"16"
+"0"
+"Remove"
+*
+"w_aCodCli"
+"Cliente Occasionale"
+"Char"
+"16"
+"0"
+"Remove"
+*
+"w_OrderBy"
+"Ordinamento"
+"Char"
+"7"
+"0"
+""
+*
+"w_DescAzi"
+"Descrizione Azienda"
+"Char"
+"70"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.t.
+ 14
+.f.
+""
+.f.
+*

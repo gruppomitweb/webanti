@@ -1,0 +1,137 @@
+ 1
+"Soggetti conto informazioni"
+"TABELLA"
+"[PARAM2TBL(?TABELLA)]"
+ 0
+ 0
+*
+ 1
+"Intestatario (Non Intermediario)"
+"TABELLA.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+*
+ 0
+ 8
+"((([NOTEMPTYSTR(TABELLA.STATOREG)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"TABELLA.STATOREG"
+""
+"in"
+"([PARAM2IN(?in)]))"
+"OR"
+""
+*
+"[NOTEMPTYSTR(TABELLA.STATOREG)]"
+""
+"="
+"0"
+"AND"
+""
+*
+"1"
+""
+"="
+"?attive)"
+"OR"
+""
+*
+"0"
+""
+"="
+"?attive)"
+"AND"
+""
+*
+"(TABELLA.DATAINI"
+""
+"<="
+"?DaData"
+"AND"
+""
+*
+"(TABELLA.DATAFINE"
+""
+">="
+"?DaData"
+"OR"
+""
+*
+"[NOTEMPTYDATE(TABELLA.DATAFINE)]"
+""
+"="
+"0))"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 4
+"TABELLA"
+""
+"C"
+"200"
+"0"
+""
+""
+*
+"attive"
+""
+"L"
+"1"
+"0"
+"Remove"
+""
+*
+"in"
+""
+"C"
+"200"
+"0"
+"Remove"
+""
+*
+"DaData"
+""
+"D"
+"8"
+"0"
+"Remove"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 16
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"ZUX%2COSWZ-%5B8%24%2B%08%27JRC%25%2F1%2C%218D%5B%21CA%25%5C*A%24MU%3DV%07%40R%22Y%1FA%3D%2COJ%3C%3C%3A-53%25%24+4Z%29LqX%5D%2C6%1A%3B%22%29%23KE*%3FK3%40%3DT%5C8M3+%2CH%216%2CL%2F-K%27H%22%2FM%3ES4%5C%3A%40%3AH6%3C%3C%214N4T%23+%15%266%227%27NG%5DJQ3%2FB%3CN%3E%40%048O5Y2IJ%24%21N%5BI+%5D%17%3E%2F*%1CACQV1.P%3A9I9%3C%21%25ZQUV%5E8JHQChX%3F%5CL.%27*%3EVOZIls%3CZ7G%2C%223%27%26%5DGZEHIBX%28EO%23UE%2884%2B_DQ+K__%2B%17BO%26%2C%04%3B-%5BLO%2232%29TiUB%2F%17%5D%3FE8%00"
+"%22%2F6_CBG6Cm%1C%3A0%28%22JL%3F9%3ASCN%3DTL*QM%220%261.%3D%23%3D7-vP%26_%23%295P%7C3O+5%237%2C.%24HO%26Qmr8%5D5%2BH%27L%5DQTiW%3C%27%265%27S%40Z%2FW4%22I%26%1DZK%22In%2FDTN8%2F%21O4%05%40YRD1%24%12%5C%26M%3DCQ%242%3A%28J%2F4uM9*61++%2F%26G%22%22G%5DOI%40%22E%3BA910%5BK%22G%223%2CXQCI%5DW%2C4%1E%28%230%3EQ%5D%3ARE%262%2B7NUR%3ER%29%3D%11%406s%5C%2CR%40qG%296%1EE%223%2C%25TPKnAD%3C5FOQ%1A4D2%3C5%26r4_K3%25%60.%22%2CD%22%10RSTC%23%3F%28%26F5.H2B%2CMZA%22D%00"
+""
+""
+"native"
+ 0
+ 0
+*

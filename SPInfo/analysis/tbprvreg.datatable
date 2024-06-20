@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+tbprvreg<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Province / Regione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbprvreg
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbprvreg.sigla
+'tbprvreg.provincia
+'tbprvreg.regione
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbprvreg.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='tbprvreg
+type='field
+used_resource_keys={}
+I
+'tbprvreg.regione
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Regione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='REGIONE
+state=3
+table_name='tbprvreg
+type='field
+used_resource_keys={}
+I
+'tbprvreg.sigla
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sigla
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SIGLA
+state=3
+table_name='tbprvreg
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbprvreg.provincia
+[]
+'tbprvreg.regione
+[]
+'tbprvreg.sigla
+[]
+}
+*--*

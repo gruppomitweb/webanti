@@ -1,0 +1,65 @@
+﻿* --- Resource Vers. 0.9
+arrt_cgo_imp_dati
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:31
+description='Importa i dati da SNAITECH
+file_modified_on=#2024-02-27 16:20:46
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:08
+module_name='
+name='arrt_cgo_imp_dati
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_list_imprich.nomefile
+'cgo_tbconvgio.codgio
+'cgo_tbconvgio.tipgio
+'anadip.codloc
+'anadip.coddip
+'cgo_telematico.snainumope
+'cgo_telematico.env
+'cgo_telematico.coddipe
+'cgo_telematico.totlire
+'cgo_telematico.cacodice
+'cgo_telematico.cadataora
+'cgo_telematico.caidbiglietto
+'cgo_telematico.tipogioco
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Routines
+[
+'arfn_datetimefchar
+'arfn_fdatetime
+'arrt_imp_dati_cgo_sched_tabs
+'arrt_writelog
+]
+'Tables
+[
+'anadip<table>
+'cgo_tbconvgio<table>
+'cgo_telematico<table>
+'cpazi<table>
+'intermbo<table>
+'tmp_list_imprich<table>
+'xntestbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,50 @@
+﻿* --- Resource Vers. 0.9
+arrt_esitixls
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='esiti su XLS
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:12
+module_name='
+name='arrt_esitixls
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_prnesiti.esito
+'tmp_prnesiti.nomrep
+]
+'Hyperlinks
+[
+'arpg_allinea_anagrafiche_noreport
+'arpg_import_esito_dettaglio_report
+]
+'Queries
+[
+'qbe_st_impesitis.vqr
+'qbe_tmp_impesiti_max_min.vqr
+]
+'Routines
+[
+'arfn_delzero
+]
+'Tables
+[
+'tmp_impesiti<table>
+'tmp_prnesiti<table>
+]
+}
+I
+*--*
+￼[]
+*--*

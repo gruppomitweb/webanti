@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Elaborazione Ricevuta SID -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_ricevute_sid||version||4.6||title||Stampa Elaborazione Ricevuta SID||query||qbe_ricevute_sid||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-03-16||date_rev||2017-12-15||form_class|| ||grid_dx||8||grid_dy||7||grid_show||1||grid_use||1||snaplines_show||1||language|| ||merge||false||modcnt||29||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding|| ||hsl||false||lock_items||false||maxcount||29||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||61||uid||BAGTFVQCHH||sequence||4||bb_sequence||2||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||183||uid||JDEGWKPDYE||sequence||8||bb_sequence||3||page||1|||type||Group_top||comment||group0||exp||qbe_ricevute_sid.c_ANNORIF||name||group0||y||123||uid||ISFJYZXLZV||sequence||13||bb_sequence||39||page||1||start_each_on_page||true|||type||Group_down||comment||group0||exp||qbe_ricevute_sid.c_ANNORIF||name||group0||y||179||uid||OWAAUYEULA||sequence||12||bb_sequence||38||page||1||start_each_on_page||true|||type||Section_top||comment||section28||hidecond||Empty(qbe_ricevute_sid.c_RAPPORTO)||name||section28||y||125||uid||CZTWAHOMKB||sequence||27||bb_sequence||5||page||1|||type||Section_down||comment||section28||hidecond||Empty(qbe_ricevute_sid.c_RAPPORTO)||name||section28||y||151||uid||RODRULIESD||sequence||28||bb_sequence||6||page||1|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||name||label0||uid||VJZBQLDJHX||page||1||x||8||y||1||w||723||h||21||sequence||14||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Box||name||Box1||x||8||y||24||w||376||h||35||uid||CLNBCNJIJJ||sequence||1||page||1||bb_border_colour||false||border_width||1|||type||Label||value||Stampa Elaborazione Ricevuta SID||text_type||constant||name||label2||uid||MQDHOYFJZU||page||1||x||1||y||31||w||376||h||21||sequence||2||align||center||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Label||value||&#39;Anno di Riferimento: &#39; + Str(qbe_ricevute_sid.c_ANNORIF,4,0)||text_type||expression||name||label22||uid||YIGFOOJLJL||page||1||x||11||y||67||w||283||h||13||sequence||21||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box4||x||8||y||84||w||784||h||0||uid||ZPNYXEZVAP||sequence||16||page||1||bb_border_colour||false||border_width||1|||type||Label||value||&#39;Protocollo:&#39; + qbe_ricevute_sid.c_PROTOCOLLO||text_type||expression||name||label22_23||uid||GMZZTPIWKX||page||1||x||8||y||90||w||311||h||13||sequence||21|||type||Label||value||&#39;Nome File Protocollato:&#39; + qbe_ricevute_sid.c_FILEPROT||text_type||expression||name||label22_23_24||uid||FAUYUCCKEJ||page||1||x||8||y||106||w||311||h||13||sequence||21|||type||Expr||exp||qbe_ricevute_sid.c_RAPPORTO||len||25||name||Expr27||uid||KHVYNQSDMS||page||1||x||211||y||127||w||265||h||22||sequence||26||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||RAPPORTO/CLIENTE OCCASIONALE:||text_type||constant||name||label26||uid||BPGIYTOROA||page||1||x||8||y||131||w||199||h||13||sequence||25||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||qbe_ricevute_sid.c_TXTMSG||type_exp||memo||dec||0||name||Expr25||uid||UVCBQZPSCG||page||1||x||8||y||154||w||778||h||22||sequence||24||stretch||true|||type||Box||name||Box14||x||8||y||185||w||783||h||0||uid||XTQBNIZUAK||sequence||9||page||1||bb_border_colour||false||border_width||1|||type||Label||value||&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))||text_type||expression||name||label15||uid||IXAHFNGJPV||page||1||x||700||y||187||w||88||h||16||sequence||11|||type||Label||value||arfn_fdate(Date())||text_type||expression||name||label16||uid||ALOHEYNHIZ||page||1||x||8||y||188||w||80||h||16||sequence||10||| -->
+
+<REPORT NAME="arrp_ricevute_sid" TITLE="Stampa Elaborazione Ricevuta SID" QUERY="qbe_ricevute_sid" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_ricevute_sid.ANNORIF" TYPE="N" LEN="4" DEC="0" />
+    <FIELD NAME="qbe_ricevute_sid.PROTOCOLLO" TYPE="C" LEN="24" DEC="0" />
+    <FIELD NAME="qbe_ricevute_sid.FILEPROT" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_ricevute_sid.TXTMSG" TYPE="M" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_ricevute_sid.RAPPORTO" TYPE="C" LEN="25" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="61" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="1" X="8" YY="22" XX="731"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="24" X="8" YY="59" XX="384"
+                    ALIGN="L"
+                    UID="CLNBCNJIJJ" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="Stampa Elaborazione Ricevuta SID" EXPRTYPE="constant"
+                    Y="31" X="1" YY="52" XX="377"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="CLNBCNJIJJ"/>
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="61" FOOTH="3" SYMNAME="" UID="ISFJYZXLZV" TOP="122" BOTTOM="175" EXPRESSION="qbe_ricevute_sid.c_ANNORIF" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+              <ITEM OBJ="stringa" NAME="&#39;Anno di Riferimento: &#39; + Str(qbe_ricevute_sid.c_ANNORIF,4,0)" EXPRTYPE="expression"
+                    Y="5" X="11" YY="18" XX="294"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="22" X="8" XX="793" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Protocollo:&#39; + qbe_ricevute_sid.c_PROTOCOLLO" EXPRTYPE="expression"
+                    Y="28" X="8" YY="41" XX="319"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Nome File Protocollato:&#39; + qbe_ricevute_sid.c_FILEPROT" EXPRTYPE="expression"
+                    Y="44" X="8" YY="57" XX="319"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+          <SECTION TYPE="group" HEADH="53" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                        <SECTIONHIDE TYPE="section" UID="CZTWAHOMKB" HEADH="25" TOP="123" BOTTOM="148" EXPRESSION="Empty(qbe_ricevute_sid.c_RAPPORTO)" PRINTASBLOCK="false">
+                              <ITEM OBJ="espressione" NAME="qbe_ricevute_sid.c_RAPPORTO" ITEMTYPE="C" EXPRTYPE="expression"
+                                    Y="2" X="211" YY="24" XX="476"
+                                    ALIGN="L"
+                                    REPEATED="true"
+                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                    FONTSTYLE="B"
+                                    LEN="25"
+                                    />
+                              <ITEM OBJ="stringa" NAME="RAPPORTO/CLIENTE OCCASIONALE:" EXPRTYPE="constant"
+                                    Y="6" X="8" YY="19" XX="207"
+                                    ALIGN="L"
+                                    REPEATED="true"
+                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                    FONTSTYLE="B"
+                                    />
+                        </SECTIONHIDE>
+                      <ITEM OBJ="espressione" NAME="qbe_ricevute_sid.c_TXTMSG" ITEMTYPE="M" EXPRTYPE="expression"
+                            Y="28" X="8" YY="50" XX="786"
+                            ALIGN="L"
+                            STRETCH="true"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="10"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="178" H="21" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="8" XX="792" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))" EXPRTYPE="expression"
+                    Y="3" X="700" YY="19" XX="788"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="4" X="8" YY="20" XX="88"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

@@ -1,0 +1,88 @@
+﻿* --- Resource Vers. 0.9
+arrt_fam_annullafile
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Cancella file e azzera record associati
+file_modified_on=#2021-05-03 16:08:24
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:14
+module_name='
+name='arrt_fam_annullafile
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aesaldi.idbase
+'aesaldi.anno
+'aesaldi.mese
+'aesaldi.tipoinvio
+'aesaldi.tipocomu
+'aesaldi.codinvio
+'opextrbo.rapporto
+'opextrbo.inviato
+'opextrbo.datainvio
+'opextrbo.uniquer
+'aetesta.rapporto
+'aetesta.inviato
+'aetesta.datainvio
+'aetesta.uniquecode
+'aetesta.uniquer
+'opextrbo.datamodi
+'aetesta.datamodi
+'opextrbo.invsaldo
+'opextrbo.dtsaldo
+'aeannora.rapporto
+'aeannora.anno
+'aeannora.inviato
+'aeannora.datainvio
+'opextrbo.annulla
+'aetesta.annulla
+'aetesta.inviatoc
+'aetesta.datainvioc
+'aefaminvio.ididbase
+'sid_invio.codinvio
+'sid_invio1.codinvio1
+'sid_invio2.codinvio2
+'sid_invio3.codinvio3
+]
+'Libraries
+[
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_aefaminvio_min_max.vqr
+'qbe_aefaminvio_select.vqr
+'qbe_famperiodo_opx_min_max.vqr
+]
+'Routines
+[
+'arrt_fam_annullafile
+]
+'Tables
+[
+'aeannora<table>
+'aefaminvio<table>
+'aeoprig<table>
+'aesaldi<table>
+'aetesta<table>
+'opextrbo<table>
+'sid_invio<table>
+'sid_invio1<table>
+'sid_invio2<table>
+'sid_invio3<table>
+]
+}
+I
+*--*
+￼[]
+*--*

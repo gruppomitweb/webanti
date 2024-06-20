@@ -1,0 +1,486 @@
+﻿* --- Resource Vers. 0.9
+aetesta<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description=' Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Master)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='aetesta
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'aetesta.rapporto
+'aetesta.tipoag
+'aetesta.coint
+'aetesta.rifana
+'aetesta.progaet
+'aetesta.flgimp
+'aetesta.descri
+'aetesta.uniquecode
+'aetesta.cab
+'aetesta.valuta
+'aetesta.codinter
+'aetesta.uniquer
+'aetesta.oldinter
+'aetesta.datamodi
+'aetesta.inviato
+'aetesta.datainvio
+'aetesta.annulla
+'aetesta.dataannu
+'aetesta.oldunique
+'aetesta.dataolduni
+'aetesta.idesitofam
+'aetesta.inviatoc
+'aetesta.datainvioc
+'aetesta.flgnoe
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'aetesta.annulla
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNULLA
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.cab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAB
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.coint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Conto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COINT
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.dataannu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAANNU
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.datainvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINVIO
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.datainvioc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINVIOC
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.datamodi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAMODI
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.dataolduni
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOLDUNI
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.descri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCRI
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.flgimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importato da file Esterni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGIMP
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.flgnoe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Non presente in AGE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGNOE
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.idesitofam
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Esito Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDESITOFAM
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.inviato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INVIATO
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.inviatoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INVIATOC
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.oldinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDINTER
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.oldunique
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDUNIQUE
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.progaet
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGAET
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.rifana
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='A=Antiriciclaggio, E=Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIFANA
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.tipoag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOAG
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.uniquecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUECODE
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.uniquer
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUER
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+'aetesta.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='aetesta
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'aetesta.annulla
+[]
+'aetesta.cab
+[]
+'aetesta.codinter
+[]
+'aetesta.coint
+[]
+'aetesta.dataannu
+[]
+'aetesta.datainvio
+[]
+'aetesta.datainvioc
+[]
+'aetesta.datamodi
+[]
+'aetesta.dataolduni
+[]
+'aetesta.descri
+[]
+'aetesta.flgimp
+[]
+'aetesta.flgnoe
+[]
+'aetesta.idesitofam
+[]
+'aetesta.inviato
+[]
+'aetesta.inviatoc
+[]
+'aetesta.oldinter
+[]
+'aetesta.oldunique
+[]
+'aetesta.progaet
+[]
+'aetesta.rapporto
+[]
+'aetesta.rifana
+[]
+'aetesta.tipoag
+[]
+'aetesta.uniquecode
+[]
+'aetesta.uniquer
+[]
+'aetesta.valuta
+[]
+}
+*--*

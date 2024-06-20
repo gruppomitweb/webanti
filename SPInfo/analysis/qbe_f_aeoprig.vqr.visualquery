@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+qbe_f_aeoprig.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:21
+description='
+file_modified_on=#2024-01-11 18:06:52
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:37
+module_name='
+name='qbe_f_aeoprig.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'f_aeoprig.idbase
+'f_aeoprig.rapporto
+'f_aeoprig.connesint
+'f_aeoprig.aspedito
+'f_aeoprig.adata
+'f_aeoprig.aprog
+'f_aeoprig.aoldprog
+'f_aeoprig.afile
+'f_aeoprig.aoldfile
+'f_aeoprig.adataret
+'f_aeoprig.cspedito
+'f_aeoprig.cdata
+'f_aeoprig.cprog
+'f_aeoprig.coldprog
+'f_aeoprig.cfile
+'f_aeoprig.coldfile
+'f_aeoprig.cdataret
+'f_aeoprig.idrif
+'f_aeoprig.nocodfisc
+'f_aeoprig.adtpre
+'f_aeoprig.cdtpre
+'f_aeoprig.tipoag
+'f_aeoprig.coint
+'f_aeoprig.abbinato
+'f_aeoprig.idesito
+'f_aeoprig.rspedito
+'f_aeoprig.saldo
+'f_aeoprig.quantita
+'f_aeoprig.valuta
+'f_aeoprig.anno
+'f_aeoprig.prog1
+'f_aeoprig.prog2
+'f_aeoprig.esitoanno
+'f_aeoprig.unique
+'f_aeoprig.progrec
+'f_aeoprig.progbase
+'f_aeoprig.fileanno
+'f_aeoprig.oldinter
+]
+'Tables
+[
+'f_aeoprig<table>
+]
+}
+I
+*--*
+￼[]
+*--*

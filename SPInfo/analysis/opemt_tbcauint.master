@@ -1,0 +1,160 @@
+﻿* --- Resource Vers. 0.9
+opemt_tbcauint
+￼Iresource.ResourceMaster
+created_on=#2024-05-10 18:24:43
+description='Causali Interne
+file_modified_on=#2020-06-12 10:13:22
+location='
+measures={}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='opemt_tbcauint
+state=1
+type='master
+used_resource_keys={
+'Fields
+[
+'tbcauint.cicodice
+'tbcauint.cicaucod
+'tbcauint.cifinalit
+'tbcauint.cirischio
+]
+'Tables
+[
+'tbcauint<table>
+'intermbo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opemt_tbcauint|Error|core::document|Update dependencies|Table "tipilegbo" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Table "tipilegbo" not found.
+resource_key='opemt_tbcauint
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opemt_tbcauint|Error|core::document|Update dependencies|Table "tbattivita" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Table "tbattivita" not found.
+resource_key='opemt_tbcauint
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opemt_tbcauint|Error|core::document|Update dependencies|Field "intermbo.CODICE" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Field "intermbo.CODICE" not found.
+resource_key='opemt_tbcauint
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opemt_tbcauint|Error|core::document|Update dependencies|Field "intermbo.TIPOOPER" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Field "intermbo.TIPOOPER" not found.
+resource_key='opemt_tbcauint
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opemt_tbcauint|Error|core::document|Update dependencies|Field "tipilegbo.TIPLEG" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Field "tipilegbo.TIPLEG" not found.
+resource_key='opemt_tbcauint
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opemt_tbcauint|Error|core::document|Update dependencies|Field "tipilegbo.TIPOPERAZ" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Field "tipilegbo.TIPOPERAZ" not found.
+resource_key='opemt_tbcauint
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opemt_tbcauint|Error|core::document|Update dependencies|Field "tbattivita.CODICE" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Field "tbattivita.CODICE" not found.
+resource_key='opemt_tbcauint
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opemt_tbcauint|Error|core::document|Update dependencies|Field "tbattivita.DESCRI" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Field "tbattivita.DESCRI" not found.
+resource_key='opemt_tbcauint
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

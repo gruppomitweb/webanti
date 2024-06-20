@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+    <description>File I/O</description>
+    <note></note>
+    <function>
+        <name>Close</name>
+        <description>Closes an input file</description>
+        <type>V</type>
+        <parameter>
+            <name>Id</name>
+            <description>File identifier</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>CopyDirectory</name>
+        <description>Make a recursive copy of the source direcory into the destination directory. All subdirectories and files are copied recursively. Return true if the process ends successfully</description>
+        <type>L</type>
+        <parameter>
+            <name>srcDir</name>
+            <description>Source directory (relative path from web root or absolute path)</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>dstDir</name>
+            <description>Destination directory (relative path from web root or absolute path)</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>CreateDir</name>
+        <description>Creates the directory named by the pathname, including any necessary but nonexistent parent directories</description>
+        <type>L</type>
+        <parameter>
+            <name>path</name>
+            <description>Pathname string</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>DeleteDirectory</name>
+        <description>Delete the selected directory and all its content recursively. Return true if process ends successfully.</description>
+        <type>L</type>
+        <parameter>
+            <name>dir</name>
+            <description>Directory to be deleted (relative path from web root or absolute path)</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>DeleteFile</name>
+        <description>Deletes the specified file</description>
+        <type>L</type>
+        <parameter>
+            <name>filename</name>
+            <description>File name to delete</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Eof</name>
+        <description>Tests for end of file</description>
+        <type>L</type>
+        <parameter>
+            <name>Id</name>
+            <description>File identifier</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>ExistFile</name>
+        <description>Checks if a file exists</description>
+        <type>L</type>
+        <parameter>
+            <name>filename</name>
+            <description>File name</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>OpenAppend</name>
+        <description>Returns an unique identifier for an output file in Append mode</description>
+        <type>C</type>
+        <parameter>
+            <name>filename</name>
+            <description>File name</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>charSet</name>
+            <description>Character set for opening file</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>OpenRead</name>
+        <description>Returns an unique identifier for an input file</description>
+        <type>C</type>
+        <parameter>
+            <name>filename</name>
+            <description>File name</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>charSet</name>
+            <description>Optionally Encoding set</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>OpenWrite</name>
+        <description>Returns an unique identifier for an output file</description>
+        <type>C</type>
+        <parameter>
+            <name>filename</name>
+            <description>File name</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>charSet</name>
+            <description>Optional encoding set</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>ReadLine</name>
+        <description>Reads a line of text from file</description>
+        <type>C</type>
+        <parameter>
+            <name>Id</name>
+            <description>File identifier</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>RenameFile</name>
+        <description>Renames the specified file</description>
+        <type>L</type>
+        <parameter>
+            <name>oldfilename</name>
+            <description>File to rename</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>newfilename</name>
+            <description>New name</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>SetLocation</name>
+        <description>Sets directory for files. All subsequent Open wil be based upon this setting for the entire application therefore the application should call tSetLocation only once.</description>
+        <type>V</type>
+        <parameter>
+            <name>Location</name>
+            <description>Directory name</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Write</name>
+        <description>Writes text to file</description>
+        <type>N</type>
+        <parameter>
+            <name>Id</name>
+            <description>File identifier</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>Line</name>
+            <description>Line to write</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>WriteLine</name>
+        <description>Writes a line of text to file</description>
+        <type>N</type>
+        <parameter>
+            <name>Id</name>
+            <description>File identifier</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>Line</name>
+            <description>Line to write</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>FileCopy</name>
+        <description>Copies a file</description>
+        <type>L</type>
+        <parameter>
+            <name>source</name>
+            <description>Source file</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>destination</name>
+            <description>Destination file</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>GetLocation</name>
+        <description>Gets directory for files</description>
+        <type>C</type>
+    </function>
+    <function>
+        <name>MoveFile</name>
+        <description>Moves a file</description>
+        <type>L</type>
+        <parameter>
+            <name>source</name>
+            <description>Source file</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>destination</name>
+            <description>Destination file</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>GetLastModified</name>
+        <description>Return the last modified datetime of the file</description>
+        <type>T</type>
+        <parameter>
+            <name>filename</name>
+            <description>File to get last modified datetime</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>DeleteFilePath</name>
+        <description>Delete the specified file (with path)</description>
+        <type>L</type>
+        <parameter>
+            <name>filename</name>
+            <description>File to delete (with path)</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>OpenWritePath</name>
+        <description>Returns an unique identifier for an output file (with path)</description>
+        <type>C</type>
+        <parameter>
+            <name>filename</name>
+            <description>Nome File Apertura</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>charSet</name>
+            <description>Optiona Encoding set</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>OpenReadPath</name>
+        <description></description>
+        <type>C</type>
+        <parameter>
+            <name>filename</name>
+            <description>Nome file da aprire</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>charSet</name>
+            <description>Optional Encoding set</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>CreateDirPath</name>
+        <description>Crea Directory con la Path completa</description>
+        <type>L</type>
+        <parameter>
+            <name>path</name>
+            <description>Path completa per creazione cartella.</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>OpenAppendPath</name>
+        <description>Returns an unique identifier for an output file in Append mode</description>
+        <type>C</type>
+        <parameter>
+            <name>filename</name>
+            <description>File Name</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>charSet</name>
+            <description>Character Set for opening file</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>FileCopyPath</name>
+        <description></description>
+        <type>L</type>
+        <parameter>
+            <name>src</name>
+            <description>File Origine</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>dest</name>
+            <description>FIle Destinazione</description>
+            <type>C</type>
+        </parameter>
+    </function>
+</library>

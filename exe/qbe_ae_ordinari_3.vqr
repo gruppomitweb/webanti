@@ -1,0 +1,154 @@
+ 1
+"Operazioni ExtraConto"
+"opextrbo"
+"opextrbo"
+ 0
+ 0
+*
+ 10
+"Rapporto"
+"opextrbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Data Operazione"
+"opextrbo.DATAOPE"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+"Data Operazione"
+"opextrbo.DATAOPE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+"Tipo AGE"
+"ý98ý"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"Tipo Rapporto"
+"ý1ý"
+"TIPORAP"
+"C"
+ 1
+ 0
+*
+"Note"
+"opextrbo.NOTE"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Inviato"
+"opextrbo.INVIATO"
+"INVIATO"
+"N"
+ 1
+ 0
+*
+"Data Invio"
+"opextrbo.DATAINVIO"
+"DATAINVIO"
+"D"
+ 8
+ 0
+*
+"Chiave Riga"
+"opextrbo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"TIPO"
+"ýOý"
+"TIPO"
+"C"
+ 1
+ 0
+*
+ 0
+ 4
+"(opextrbo.INVIATO"
+""
+"is null"
+""
+"OR"
+""
+*
+"opextrbo.INVIATO"
+""
+"<>"
+"1)"
+"AND"
+""
+*
+"opextrbo.DATAOPE"
+""
+">="
+"?pDatini"
+"AND"
+""
+*
+"opextrbo.DATAOPE"
+""
+"<="
+"?pDatfin"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"pDatini"
+"Data Operazione"
+"D"
+"8"
+"0"
+"Remove"
+*
+"pDatfin"
+"Data Operazione"
+"D"
+"8"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 3
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"ZH%5BW%3DR%23iUoFO%2F5%27%3A%3D%3FQ%2F%039%24ATbTpczl%0E%05%0A%0B%02%06%0A%16RL%5BL%2F%2F%24%25Q1PM%2F%3CV8C%3AWF%2B%26GrR8%268%3F%5E%3D15%24JzT%40%27F%2F%7DCR%28934%3C%18%3CGF_W%5BXIZ3%23%19Z.%2FWMF%2539KI8+DDD%06J8%3C%1AKXWP%2BRY_W%23F%21%2B5%211%24DxIA%3E0%3AGj%3E-%050UBN7F2%5E%29OVC7%2802P%3F+%3BSM%29n26O9.j4%3C%05+*J%3A1OXII%3A%5DU%23%24%3C%2C-3.%26%5EVNF%1F-*%3AK%3C%3BA%5CD%3B00CTXTZG.%3CW9H%25%245-%3A%231x8%1D%14%293%5BP76RN%5E2FE%00"
+"vE%5BF68O5%24A2E+5Tj8%2C%0A%1F%17%05%1F%1Frla%7DW%5C_%21B%2FG_4%3BTYL%2CYNG4S%272A6%05%29%26%3D+6%29IQt%5DU8.FI*T%113%22U3UV%3D%2F1%2B-EZ%25%3BA%2CN*N%22%3C%26L0QTQLL7Q%3F%28%26R%3EMWI4%3FPLER6.%23%3C%21%19B%29cE%28D%27cT%3E%40%23+%3C2%5B%2FTV%3F%2F%2FH%0BLk8%3E58Z%29*%1FH%5EJBTMGT%24N%1BY%3C%25%3AL9%2CV%28LJTYFU%2BV%2342DN%26QWuGCJ%0576%2F%283%26%26D5%5D6M%14E%2CNXZ%3D%5E8%22E%29J%29Yt_6OA_%2F%1E%3C6%2FT%06%25J%216%1C%21%12%3AKSh9%3BB%25I%18%2F%00"
+""
+""
+"native"
+ 0
+ 0
+*

@@ -1,0 +1,2436 @@
+* --- Code Painter Extended Dictionary
+"20230517125727"
+ 20
+"cpssomap"
+.F.
+.F.
+.F.
+"cpssomap"
+ 2
+"userid"
+"N"
+ 9
+ 0
+"userid"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"ssoid"
+"C"
+ 100
+ 0
+"ssoid"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"userid"
+.T.
+*---*
+ 0
+"SSOMap"
+"20160128171406"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_ssomap"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpqkmappstore"
+.F.
+.F.
+.F.
+"cpqkmappstore"
+ 5
+"QA_CODE"
+"C"
+ 10
+ 0
+"Codice"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"CPROWNUM"
+"N"
+ 6
+ 0
+"Id riga"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"QA_LABEL"
+"C"
+ 30
+ 0
+"Menu label"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"QA_URL"
+"C"
+ 255
+ 0
+"URL"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"QA_ICON"
+"C"
+ 100
+ 0
+"ICON"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"QA_CODE,CPROWNUM"
+.T.
+*---*
+ 1
+"cpappstore"
+ 2
+"oa__code"
+"QA_CODE"
+*---*
+"Quick menu di applicazione"
+"20160915124004"
+""
+.F.
+.F.
+.F.
+.F.
+"spadministration_dmobapp_qkm"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpusrazi"
+.F.
+.F.
+.F.
+"cpusrazi"
+ 5
+"usercode"
+"N"
+ 9
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"cprownum"
+"N"
+ 5
+ 0
+""
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"company"
+"C"
+ 10
+ 0
+"ADMIN_COMPANY"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datestart"
+"D"
+ 8
+ 0
+"ADMIN_VALIDITY_START"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datestop"
+"D"
+ 8
+ 0
+"ADMIN_VALIDITY_END"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"usercode,cprownum"
+.T.
+*---*
+ 1
+"cpusers"
+ 2
+"code"
+"usercode"
+*---*
+"User companies"
+"20081023145154"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_usercompanies"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpwarn"
+.F.
+.F.
+.F.
+"cpwarn"
+ 4
+"tablecode"
+"C"
+ 100
+ 0
+"ADMIN_TABLE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"warncode"
+"C"
+ 10
+ 0
+"ADMIN_COMPANY"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"autonum"
+"N"
+ 10
+ 0
+"ADMIN_AUTONUM"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"autonum_name"
+"C"
+ 60
+ 0
+"ADMIN_AUTONUM_NAME"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"tablecode,warncode"
+.T.
+*---*
+ 0
+"CP_AUTONUM"
+"20100318123132"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_autonum"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpazi"
+.F.
+.F.
+.F.
+"cpazi"
+ 2
+"codazi"
+"C"
+ 10
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"desazi"
+"C"
+ 30
+ 0
+"ADMIN_DESCRIPTION"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"codazi"
+.T.
+*---*
+ 0
+"CP_COMPANIES"
+"20080923141542"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_companies"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpprgsec"
+.F.
+.F.
+.F.
+"cpprgsec"
+ 7
+"progname"
+"C"
+ 50
+ 0
+"Entity Name"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"grpcode"
+"N"
+ 6
+ 0
+"Group Code"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"usrcode"
+"N"
+ 9
+ 0
+"User Code"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"sec1"
+"N"
+ 4
+ 0
+"Access"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"sec2"
+"N"
+ 4
+ 0
+"Insert"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"sec3"
+"N"
+ 4
+ 0
+"Modify"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"sec4"
+"N"
+ 4
+ 0
+"Delete"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"progname,grpcode,usrcode"
+.T.
+*---*
+ 2
+"cpgroups"
+ 1
+"code"
+"grpcode"
+*---*
+"cpusers"
+ 1
+"code"
+"usrcode"
+*---*
+"cpprgsec"
+"20160128155325"
+""
+.T.
+.F.
+.F.
+.F.
+""
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cppermappstore"
+.F.
+.F.
+.F.
+"cppermappstore"
+ 5
+"pecodice"
+"C"
+ 10
+ 0
+"Codice"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"cprownum"
+"N"
+ 6
+ 0
+"Numero riga"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pe__tipo"
+"N"
+ 1
+ 0
+"Tipo"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pecodute"
+"N"
+ 6
+ 0
+"Codice utente"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pecodgrp"
+"N"
+ 6
+ 0
+"Codice gruppo"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"pecodice,cprownum"
+.T.
+*---*
+ 1
+"cpappstore"
+ 2
+"oa__code"
+"pecodice"
+*---*
+"Gruppi/Utenti"
+"20140410173150"
+""
+.F.
+.F.
+.F.
+.F.
+"spadministration_mobapppermissions"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpappreg"
+.F.
+.F.
+.F.
+"cpappreg"
+ 7
+"ar__code"
+"C"
+ 10
+ 0
+"Codice"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"ar__mail"
+"C"
+ 80
+ 0
+"Mail"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"ar_dtreg"
+"T"
+ 14
+ 0
+"Il"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"arfullname"
+"C"
+ 80
+ 0
+"Cognome,Nome"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"arcompany"
+"C"
+ 80
+ 0
+"Azienda"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"arappurl"
+"C"
+ 120
+ 0
+"App Url"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"ar__note"
+"M"
+ 10
+ 0
+"Note"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 2
+"ar__code"
+.T.
+*---*
+"ar__mail"
+.F.
+*---*
+ 0
+"Demo app registration"
+"20160614123829"
+""
+.F.
+.F.
+.F.
+.F.
+"spadministration_mobappreg"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpgrpgrp"
+.F.
+.F.
+.F.
+"cpgrpgrp"
+ 2
+"groupcode"
+"N"
+ 6
+ 0
+"Group code"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"groupbase"
+"N"
+ 6
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"groupcode,groupbase"
+.T.
+*---*
+ 2
+"cpgroups"
+ 2
+"code"
+"groupcode"
+*---*
+"cpgroups"
+ 1
+"code"
+"groupbase"
+*---*
+"CP_SUBGROUPS"
+"20090206110641"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_subgroups"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cptsrvr"
+.F.
+.F.
+.F.
+"cptsrvr"
+ 6
+"ServerName"
+"C"
+ 10
+ 0
+"ADMIN_NAME"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"ServerDesc"
+"C"
+ 30
+ 0
+"ADMIN_DESCRIPTION"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"ODBCDataSource"
+"C"
+ 200
+ 0
+"ADMIN_DATA_SOURCE"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"WhenConn"
+"N"
+ 4
+ 0
+"WhenConn"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"PostIt"
+"C"
+ 1
+ 0
+"PostIt"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"DatabaseType"
+"C"
+ 60
+ 0
+"ADMIN_DATABASE_TYPE"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"ServerName"
+.T.
+*---*
+ 0
+"CP_SERVERS"
+"20161206155303"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_servers"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpgroups"
+.F.
+.F.
+.F.
+"cpgroups"
+ 11
+"code"
+"N"
+ 6
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"name"
+"C"
+ 50
+ 0
+"ADMIN_NAME"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"grpdescription"
+"M"
+ 10
+ 0
+"ADMIN_DESCRIPTION"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"grptype"
+"C"
+ 1
+ 0
+"ADMIN_TYPE"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datestart"
+"D"
+ 8
+ 0
+"ADMIN_VALIDITY_START"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datestop"
+"D"
+ 8
+ 0
+"ADMIN_VALIDITY_END"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"company"
+"C"
+ 10
+ 0
+"ADMIN_COMPANY"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwdcomplexity"
+"N"
+ 3
+ 0
+"ADMIN_PWDCOMPLEXITY"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwddaysduration"
+"N"
+ 4
+ 0
+"ADMIN_PWDDAYSDURATION"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwdciclicity"
+"N"
+ 4
+ 0
+"ADMIN_PWDCICLICITY"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"captchalevel"
+"N"
+ 4
+ 0
+"ADMIN_CAPTCHA_LEVEL"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"code"
+.T.
+*---*
+ 0
+"CP_GROUPS"
+"20230407165852"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_groups"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpusrgrp"
+.F.
+.F.
+.F.
+"cpusrgrp"
+ 5
+"usercode"
+"N"
+ 9
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"groupcode"
+"N"
+ 6
+ 0
+"ADMIN_GROUP"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datestart"
+"D"
+ 8
+ 0
+"ADMIN_VALIDITY_START"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datestop"
+"D"
+ 8
+ 0
+"ADMIN_VALIDITY_END"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"companies"
+"C"
+ 60
+ 0
+"CP_COMPANIES"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"usercode,groupcode"
+.T.
+*---*
+ 2
+"cpgroups"
+ 1
+"code"
+"groupcode"
+*---*
+"cpusers"
+ 2
+"code"
+"usercode"
+*---*
+"User groups"
+"20090206104352"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_usersgroups"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"spkeys"
+.F.
+.F.
+.F.
+"spkeys"
+ 7
+"guid"
+"C"
+ 10
+ 0
+"guid"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"topic"
+"C"
+ 50
+ 0
+"topic"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"public_key"
+"M"
+ 10
+ 0
+"public key"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"validity_start"
+"T"
+ 14
+ 0
+"validity start"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"validity_stop"
+"T"
+ 14
+ 0
+"validity stop"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"node_uid"
+"C"
+ 50
+ 0
+"node uid"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"extra"
+"J"
+ 10
+ 0
+"extra"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"guid"
+.T.
+*---*
+ 0
+"spkeys"
+"20221004145531"
+""
+.T.
+.F.
+.F.
+.F.
+""
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpprinters"
+.F.
+.F.
+.F.
+"cpprinters"
+ 4
+"code"
+"C"
+ 10
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"prndescription"
+"C"
+ 30
+ 0
+"ADMIN_DESCRIPTION"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"prnconnection"
+"C"
+ 500
+ 0
+"ADMIN_PRINT_SERVER"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"prnconfiguration"
+"M"
+ 10
+ 0
+"PRN_CONFIG"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"code"
+.T.
+*---*
+ 0
+"CP_PRINTERS"
+"20170321103701"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_printers"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpttbls"
+.F.
+.F.
+.F.
+"cpttbls"
+ 4
+"FileName"
+"C"
+ 30
+ 0
+"FileName"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"PhName"
+"C"
+ 50
+ 0
+"PhName"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"ServerName"
+"C"
+ 10
+ 0
+"ServerName"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"DateMod"
+"C"
+ 14
+ 0
+"DateMod"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"FileName"
+.T.
+*---*
+ 1
+"cptsrvr"
+ 1
+"ServerName"
+"ServerName"
+*---*
+"CP_TABLES"
+"20141017120922"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_tables"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cplangs"
+.F.
+.F.
+.F.
+"cplangs"
+ 3
+"code"
+"C"
+ 3
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"name"
+"C"
+ 25
+ 0
+"ADMIN_NAME"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datalanguage"
+"C"
+ 1
+ 0
+"ADMIN_DATA_MULTILANG"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"code"
+.T.
+*---*
+ 0
+"CP_LANGUAGES"
+"20140616145732"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_langs"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"spcluster"
+.F.
+.F.
+.F.
+"spcluster"
+ 4
+"node_uid"
+"C"
+ 50
+ 0
+"uid"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"node_state"
+"C"
+ 50
+ 0
+"node state"
+""
+"0"
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"public_key"
+"M"
+ 10
+ 0
+"public key"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"public_key_id"
+"C"
+ 50
+ 0
+"public key id"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"uid"
+.T.
+*---*
+ 0
+"spcluster"
+"20230223142740"
+""
+.T.
+.F.
+.F.
+.F.
+""
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpappstore"
+.F.
+.F.
+.F.
+"cpappstore"
+ 20
+"oa__code"
+"C"
+ 10
+ 0
+"Codice"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oadescri"
+"M"
+ 10
+ 0
+"Descrizione"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaapptitle"
+"C"
+ 50
+ 0
+"Titolo"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaapplogo"
+"C"
+ 50
+ 0
+"Logo"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaappfavico"
+"C"
+ 50
+ 0
+"Icona"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaappmenu"
+"C"
+ 100
+ 0
+"Menu appl"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaskinname"
+"C"
+ 30
+ 0
+"Nome Skin"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaappvariantname"
+"C"
+ 30
+ 0
+"Variant name"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oareserved"
+"C"
+ 1
+ 0
+"Profilata"
+""
+"'N'"
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaappheader"
+"C"
+ 50
+ 0
+"Header"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaappdescrheader"
+"C"
+ 50
+ 0
+"Description header"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaapplanding"
+"C"
+ 255
+ 0
+"Landing page"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaapphideutilitygroup"
+"N"
+ 1
+ 0
+"Hide utility group"
+""
+"0"
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaapphomelink"
+"C"
+ 255
+ 0
+"Home link of home button"
+""
+"'index'"
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaappchecksum"
+"C"
+ 20
+ 0
+"Cheksum"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"OAAPPACCESSMODE"
+"C"
+ 30
+ 0
+"Access mode"
+""
+"'browser_only'"
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaappreqreg"
+"N"
+ 1
+ 0
+"Require registration"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaappurlreg"
+"C"
+ 255
+ 0
+"Url registration"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaapppublished"
+"N"
+ 1
+ 0
+"Published"
+""
+"1"
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"oaappdevtyp"
+"C"
+ 1
+ 0
+"Designed for"
+""
+"'B'"
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 3
+"oa__code"
+.T.
+*---*
+"oaapptitle"
+.F.
+*---*
+"UNIQUE oaappmenu"
+.F.
+*---*
+ 0
+"Appl mob online"
+"20191122145140"
+""
+.F.
+.F.
+.F.
+.F.
+"spadministration_mobappstore"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpusers"
+.F.
+.F.
+.F.
+"cpusers"
+ 29
+"code"
+"N"
+ 9
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"name"
+"C"
+ 50
+ 0
+"ADMIN_NAME"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"fullname"
+"C"
+ 2048
+ 0
+"ADMIN_FULLNAME"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"passwd"
+"C"
+ 20
+ 0
+"Password"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"language"
+"C"
+ 3
+ 0
+"ADMIN_LANGUAGE"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"enabled"
+"C"
+ 1
+ 0
+"ADMIN_DISABLED"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datestart"
+"D"
+ 8
+ 0
+"ADMIN_VALIDITY_START"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datestop"
+"D"
+ 8
+ 0
+"ADMIN_VALIDITY_END"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"companies"
+"C"
+ 2000
+ 0
+"Companies"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"printserver"
+"C"
+ 60
+ 0
+"ADMIN_PRINT_SERVER"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"failedlogins"
+"N"
+ 3
+ 0
+"ADMIN_NUM_FAILED_LOGIN"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"lastfailedlogin"
+"T"
+ 14
+ 0
+"ADMIN_LAST_FAILED_LOGIN"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"lastsuccessfullogin"
+"T"
+ 14
+ 0
+"ADMIN_LAST_SUCCESS_LOGIN"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"forcepwdchange"
+"L"
+ 1
+ 0
+"ADMIN_FORCEPWDCHANGE"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwdcreate"
+"T"
+ 14
+ 0
+"ADMIN_PWDCREATE"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwdcomplexity"
+"N"
+ 3
+ 0
+"ADMIN_PWDCOMPLEXITY"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwddaysduration"
+"N"
+ 4
+ 0
+"ADMIN_PWDDAYSDURATION"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwdciclicity"
+"N"
+ 4
+ 0
+"ADMIN_PWDCICLICITY"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"captchalevel"
+"N"
+ 4
+ 0
+"ADMIN_CAPTCHA_LEVEL"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"createdwhen"
+"T"
+ 14
+ 0
+"ADMIN_CREATEDWHEN"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"decimalseparator"
+"C"
+ 3
+ 0
+"ADMIN_DECIMALSEPARATOR"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"thousandseparator"
+"C"
+ 3
+ 0
+"ADMIN_THOUSANDSEPARATOR"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datepattern"
+"C"
+ 12
+ 0
+"ADMIN_DATEPATTERN"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datetimepattern"
+"C"
+ 25
+ 0
+"ADMIN_DATETIMEPATTERN"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"usesiarlicense"
+"C"
+ 1
+ 0
+"SPAS_USES_IAR_LICENSE"
+""
+"'F'"
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"cpotp"
+"C"
+ 100
+ 0
+"ADMIN_CPOTP"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"accesstype_human"
+"L"
+ 1
+ 0
+"Human"
+""
+"1"
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"accesstype_service"
+"L"
+ 1
+ 0
+"Service"
+""
+"1"
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"accesstype_machine"
+"L"
+ 1
+ 0
+"Machine"
+""
+"1"
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"code"
+.T.
+*---*
+ 1
+"cplangs"
+ 1
+"code"
+"language"
+*---*
+"CP_USERS"
+"20230517125725"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_users"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cphistorypwd"
+.F.
+.F.
+.F.
+"cphistorypwd"
+ 5
+"code"
+"N"
+ 9
+ 0
+"Codice Utente"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwpassword"
+"C"
+ 20
+ 0
+"Password"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwdatcreate"
+"T"
+ 14
+ 0
+"Data creazione"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwdtrevoke"
+"D"
+ 8
+ 0
+"Data fine"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwactive"
+"L"
+ 1
+ 0
+"Attiva"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"code,pwpassword"
+.T.
+*---*
+ 1
+"cpusers"
+ 2
+"code"
+"code"
+*---*
+"CP_HISTORYPWD"
+"20090612155354"
+""
+.T.
+.F.
+.F.
+.F.
+"spadministration_historypwd"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"[]"
+""
+""

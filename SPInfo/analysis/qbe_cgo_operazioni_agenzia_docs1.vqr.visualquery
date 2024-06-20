@@ -1,0 +1,78 @@
+﻿* --- Resource Vers. 0.9
+qbe_cgo_operazioni_agenzia_docs1.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:20
+description='
+file_modified_on=#2022-01-12 17:55:37
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:35
+module_name='
+name='qbe_cgo_operazioni_agenzia_docs1.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'cgo_operazioni_dl.dataope
+'cgo_operazioni_dl.cacodice
+'cgo_causali.cadescri
+'cgo_operazioni_dl.snainumope
+'cgo_operazioni_dl.totlire
+'cgo_operazioni_dl.segno
+'cgo_operazioni_dl.caidbiglietto
+'cgo_operazioni_dl.coddipe
+'anadip.idbase
+'cgo_operazioni_dl.tipogioco
+'cgo_operazioni_dl.cgodatcon
+'cgo_operazioni_dl.cgoesicon
+'cgo_operazioni_dl.cgonotcon
+'cgo_esiticon.ecdescri
+'anadip.descriz
+'anadip.telefono
+'anadip.codloc
+'cgo_operazioni_dl.flgdocall
+'cgo_operazioni_dl.totcont
+'cgo_operazioni_dl.iddocall
+'cgo_operazioni_dl.caflgope
+'cgo_operazioni_dl.cgotipope
+]
+'Queries
+[
+'qbe_cgo_operazioni_agenzia_docs2.vqr
+]
+'Tables
+[
+'cgo_operazioni_dl<table>
+'cgo_causali<table>
+'anadip<table>
+'cgo_esiticon<table>
+]
+}
+I
+*--*
+￼[]
+*--*

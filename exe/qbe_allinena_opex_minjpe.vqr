@@ -1,0 +1,125 @@
+ 1
+"Operazioni"
+"jperazbo"
+"jperazbo"
+ 0
+ 0
+*
+ 4
+"Codice Cliente Occasionale"
+"jperazbo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Data Operazione"
+"MIN(jperazbo.DATAOPE)"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Tot. Operazioni"
+"COUNT(*)"
+"TOTOPER"
+"N"
+ 10
+ 0
+*
+"Tot. Importo"
+"SUM(jperazbo.TOTLIRE/100)"
+"TOTLIRE"
+"N"
+ 15
+ 2
+*
+ 0
+ 4
+"jperazbo.CDATOPE"
+""
+">="
+"?_cdatini"
+"AND"
+""
+*
+"jperazbo.CDATOPE"
+""
+"<="
+"?_cdatfin"
+"AND"
+""
+*
+"jperazbo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+*
+"jperazbo.CONNESCLI"
+""
+"="
+"?_connes"
+"AND"
+""
+*
+ 0
+ 1
+"Codice Cliente Occasionale"
+"CONNESCLI"
+*
+ 0
+ 3
+"_cdatini"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+""
+*
+"_cdatfin"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+""
+*
+"_connes"
+"Codice Cliente Occasionale"
+"C"
+"16"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 10
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"ZsL%5DY_%5Ch%40m6%3E.1%24%3E%3D%2B5BZ3%1E%10zl%7Cgzac%13%19%0C%258LVP%29kH6DN%3E4Y%3AJD%26%3DPA.%27_0uEAIBQ%221E%3A+83PBDM%1CND%0B+%3C%5C7S0T%3B%2B%27%29OCB%40C106D%26VO%29%3F%5BU%29K5%17%286O1E%19%04N%2B%24K%28%228HZGM%60%29%3C.2%5D57%29%406x2+0E%3E+52%22ZFY%27%1A.%5C%3CRU_+S_%3EG%25%03%22V9v%3E%5DQ*1%3A%5CT%5E1%29_%3BR56GCHu%2FGQQ%04F%1CM-3%23%26F%3A%7B%5DL%3F20X2%3E5V%3B%5E%22O4E0wG_Y%3ARH%1FF%21J2%2CEY%23J%27D%23%22FKT%24%26%29S7%24M%00"
+"%24.%40%2CQ4%2Fj%22%3BIE09E44%1BZ%40%0E%1B%0E%0Av%60tzzzB%23L%217%3C4%29%25%5DJ%27M0-3XIZTL9%2B%01%12E%3F%29%3D%27Y%3DTI%06%2CND0%27%07%29w9%5CDKFL%09%28QV%284I-E%18IY%3CV%23%3FK4634%23%2BA%3B%04E%5BWI%3A%29%404%2F0A.%3A-%3B%294-O0+B_Z%3BS%29%1F%3A-%2CV%2FRDAA%3DB%25_%5CDZ%1BS%15-%286M*C%28AT%27H%04%28%3E5%3A%2CZUV7%22H6MA_RRh1%04%3F0G%3CO%5BR%24Y%3FBbXND%18%283+%26%24k_%5E%28%17%2C*%26E7OUI%24CIF%21%5ESX9F%60Z0B%1B%01O6WZ3+RF%3CO-%7E%3FY%3D4%22Y+%3F%3D%00"
+""
+""
+"native"
+ 0
+ 0
+*

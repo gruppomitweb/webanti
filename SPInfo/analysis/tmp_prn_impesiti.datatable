@@ -1,0 +1,505 @@
+﻿* --- Resource Vers. 0.9
+tmp_prn_impesiti<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Appoggio stampa esiti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_prn_impesiti
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_prn_impesiti.idbase
+'tmp_prn_impesiti.esito
+'tmp_prn_impesiti.nprog
+'tmp_prn_impesiti.nomefile
+'tmp_prn_impesiti.trueident
+'tmp_prn_impesiti.rapporto
+'tmp_prn_impesiti.tipoac
+'tmp_prn_impesiti.connes
+'tmp_prn_impesiti.ragsoc
+'tmp_prn_impesiti.codfisc
+'tmp_prn_impesiti.persona
+'tmp_prn_impesiti.cognome
+'tmp_prn_impesiti.nome
+'tmp_prn_impesiti.sesso
+'tmp_prn_impesiti.datanasc
+'tmp_prn_impesiti.nascomun
+'tmp_prn_impesiti.tipinter
+'tmp_prn_impesiti.desccit
+'tmp_prn_impesiti.provincia
+'tmp_prn_impesiti.codcab
+'tmp_prn_impesiti.progimpesiti
+'tmp_prn_impesiti.aprog
+'tmp_prn_impesiti.afile
+'tmp_prn_impesiti.cprog
+'tmp_prn_impesiti.cfile
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_prn_impesiti.afile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='afile
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.aprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='aprog
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.cfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cfile
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAB residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='codcab
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CF intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='codfisc
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.cognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='cognome intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cognome
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='connes intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='connes
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.cprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cprog
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.datanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='data di nascita intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='datanasc
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='comune di residenza intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='desccit
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.esito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='esito
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='idbase
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.nascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='comune di nascita intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nascomun
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.nome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='nome intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nome
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.nomefile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='nome del file forse identificativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nomefile
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.nprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nprog
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.persona
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='fisica o giuridica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='persona
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.progimpesiti
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Progressivo importazione esiti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PROGIMPESITI
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='provincia di residenza intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='provincia
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='intestatario rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ragsoc
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='codice rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='rapporto
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.sesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='sesso intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='sesso
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.tipinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='provincia di nascita intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tipinter
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.tipoac
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='tipo informazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tipoac
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_prn_impesiti.trueident
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='indentificativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='trueident
+state=3
+table_name='tmp_prn_impesiti
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_prn_impesiti.afile
+[]
+'tmp_prn_impesiti.aprog
+[]
+'tmp_prn_impesiti.cfile
+[]
+'tmp_prn_impesiti.codcab
+[]
+'tmp_prn_impesiti.codfisc
+[]
+'tmp_prn_impesiti.cognome
+[]
+'tmp_prn_impesiti.connes
+[]
+'tmp_prn_impesiti.cprog
+[]
+'tmp_prn_impesiti.datanasc
+[]
+'tmp_prn_impesiti.desccit
+[]
+'tmp_prn_impesiti.esito
+[]
+'tmp_prn_impesiti.idbase
+[]
+'tmp_prn_impesiti.nascomun
+[]
+'tmp_prn_impesiti.nome
+[]
+'tmp_prn_impesiti.nomefile
+[]
+'tmp_prn_impesiti.nprog
+[]
+'tmp_prn_impesiti.persona
+[]
+'tmp_prn_impesiti.progimpesiti
+[]
+'tmp_prn_impesiti.provincia
+[]
+'tmp_prn_impesiti.ragsoc
+[]
+'tmp_prn_impesiti.rapporto
+[]
+'tmp_prn_impesiti.sesso
+[]
+'tmp_prn_impesiti.tipinter
+[]
+'tmp_prn_impesiti.tipoac
+[]
+'tmp_prn_impesiti.trueident
+[]
+}
+*--*

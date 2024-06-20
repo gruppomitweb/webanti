@@ -1,0 +1,144 @@
+﻿* --- Resource Vers. 0.9
+tmp_trasftit<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Appogio Trasferimento Titolarità
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_trasftit
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_trasftit.idbase
+'tmp_trasftit.dataope
+'tmp_trasftit.connescli
+'tmp_trasftit.connesoper
+'tmp_trasftit.tipooper
+'tmp_trasftit.flgsel
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_trasftit.connescli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Azienda Controllata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONNESCLI
+state=3
+table_name='tmp_trasftit
+type='field
+used_resource_keys={}
+I
+'tmp_trasftit.connesoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Titolare/Fiduciante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONNESOPER
+state=3
+table_name='tmp_trasftit
+type='field
+used_resource_keys={}
+I
+'tmp_trasftit.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAOPE
+state=3
+table_name='tmp_trasftit
+type='field
+used_resource_keys={}
+I
+'tmp_trasftit.flgsel
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Campo Selezione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLGSEL
+state=3
+table_name='tmp_trasftit
+type='field
+used_resource_keys={}
+I
+'tmp_trasftit.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Informazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='tmp_trasftit
+type='field
+used_resource_keys={}
+I
+'tmp_trasftit.tipooper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOOPER
+state=3
+table_name='tmp_trasftit
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_trasftit.connescli
+[]
+'tmp_trasftit.connesoper
+[]
+'tmp_trasftit.dataope
+[]
+'tmp_trasftit.flgsel
+[]
+'tmp_trasftit.idbase
+[]
+'tmp_trasftit.tipooper
+[]
+}
+*--*

@@ -1,0 +1,106 @@
+﻿* --- Resource Vers. 0.9
+tmp_errimp<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Stampa Errori Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_errimp
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_errimp.nomearch
+'tmp_errimp.numriga
+'tmp_errimp.errore
+'tmp_errimp.txtini
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_errimp.errore
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='errore
+state=3
+table_name='tmp_errimp
+type='field
+used_resource_keys={}
+I
+'tmp_errimp.nomearch
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nome Archivio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nomearch
+state=3
+table_name='tmp_errimp
+type='field
+used_resource_keys={}
+I
+'tmp_errimp.numriga
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='N° Riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='numriga
+state=3
+table_name='tmp_errimp
+type='field
+used_resource_keys={}
+I
+'tmp_errimp.txtini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione iniziale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='txtini
+state=3
+table_name='tmp_errimp
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_errimp.errore
+[]
+'tmp_errimp.nomearch
+[]
+'tmp_errimp.numriga
+[]
+'tmp_errimp.txtini
+[]
+}
+*--*

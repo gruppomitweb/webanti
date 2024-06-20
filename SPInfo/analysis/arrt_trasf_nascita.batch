@@ -1,0 +1,57 @@
+﻿* --- Resource Vers. 0.9
+arrt_trasf_nascita
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Importa i dati controllo massivo cf
+file_modified_on=#2021-02-17 11:51:52
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:31
+module_name='
+name='arrt_trasf_nascita
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbluonas.descri
+'tbluonas.sigla
+'dersonbo.nasstato
+'dersonbo.nascomun
+'dersonbo.luogonas
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+'FileLibMit<project>
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_trasf_nascita
+]
+'Tables
+[
+'intermbo<table>
+'personbo<table>
+'personbo_agg<table>
+'opextrbo<table>
+'kersonbo<table>
+'wersonbo<table>
+'tmp_list_imprich<table>
+'dersonbo<table>
+'tbluonas<table>
+]
+}
+I
+*--*
+￼[]
+*--*

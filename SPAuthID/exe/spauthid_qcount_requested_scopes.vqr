@@ -1,0 +1,92 @@
+ 1
+"Mapping Client - Scope"
+"spauthid_client_scope_mapping"
+"spauthid_client_scope_mapping"
+ 0
+ 0
+*
+ 1
+"Contatore scope"
+"count(1)"
+"scopeCount"
+"N"
+ 9
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 0
+ 2
+"spauthid_client_scope_mapping.client_code"
+""
+"="
+"?pClientCode"
+"AND"
+""
+""
+*
+"spauthid_client_scope_mapping.scope_name"
+""
+"in"
+"([PARAM2IN( ?pScopes )])"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 0
+ 2
+"pScopes"
+""
+"C"
+"50"
+"0"
+""
+""
+""
+.f.
+*
+"pClientCode"
+"Codice applicazione"
+"N"
+"9"
+"0"
+""
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+"Calcola quanti degli scope passati come parametro sono associati ad un determinato client."
+.f.
+.t.
+ 4
+.f.
+""
+.f.
+.t.
+""
+ 0
+ 0
+""
+""
+"u%276%24GFS1P8%2C9%25*K8Y%19X%3A%29%297N%5EAE%2B%3B-9%26N2%40%21K%25-TL%29I%3EE%3CRDSk28%23%5B%12G.%294YG0S%5D+%26%2C87%27T%29V3%22V4%14%10+%5D3WGU%23T16%3DT%3A%2FNm+%3E%07%2FE%28*N.%23T%3CVM%22%3C%234M96%3A+%211D%2C%23GTuVo%40%60T967VB%2C.Q%3D%24W%3EO-%21Y0T%407*%28%11%2BOpQ%2B%24PN%3D%2CH1H54+*JH%23o%3D%3BE%3BM335%5B%17%02D%2B6%5DP%2FGG_Z%2B4%2F%28%223%21%26AT%2B188%3CP%2B%3DH8S%233%11%1AEsQ%28P%3FW76%3AIB%29.%5E7%24jRo%1F%3E%29%5DBW50%06+1%2FG%28%00"
+"*%257G%5B%5C%2C6%2FT%3F5%11%08VUX%3DPC%5BEH5Q9B%22ZAKV+G%2B%23-Q%2C%294YQF09%5C%25_iGR%29%3E%22%3CMZ%5EYJ%40%21R%25CD%1AP%29X%27%2F8U55ON%3DWF2%2683Q%108+%5DZC.UGQ%05E%1C%24%21%10%3F%22%5CGx1%21N%28%22F%5C15%05%3DR%12%22HNZ%23I%5C%22S+%28LB%3C%28%24%5CZD%233%225.QL4KL85%26.%2B%1DX4%27%23JrM%3D%23%24O%2B6%26%2CFR%5DSD%3FD%22HiT1762HC1%26H%26L%3A%21A%04%3E4+%223%2C%26%21%3D%23EH6%3C%5BA%3D5OY%25%27%3C%1AK_%3D%5B%29%5E%23V.OM.1GY%5CwGGS%27L%2C%2F%7ECTB%07%27%3A%3D%28%3E%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

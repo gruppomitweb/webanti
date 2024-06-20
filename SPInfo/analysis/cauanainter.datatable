@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+cauanainter<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Valida per tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cauanainter
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cauanainter.codcau
+'cauanainter.codvoc
+'cauanainter.tipinter
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cauanainter.codcau
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Causale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='codcau
+state=3
+table_name='cauanainter
+type='field
+used_resource_keys={}
+I
+'cauanainter.codvoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Sintetica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='codvoc
+state=3
+table_name='cauanainter
+type='field
+used_resource_keys={}
+I
+'cauanainter.tipinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valido per tipo intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tipinter
+state=3
+table_name='cauanainter
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cauanainter.codcau
+[]
+'cauanainter.codvoc
+[]
+'cauanainter.tipinter
+[]
+}
+*--*

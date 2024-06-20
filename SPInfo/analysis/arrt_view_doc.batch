@@ -1,0 +1,47 @@
+﻿* --- Resource Vers. 0.9
+arrt_view_doc
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Visualizza documenti
+file_modified_on=#2024-03-13 10:15:45
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:31
+module_name='
+name='arrt_view_doc
+state=1
+type='batch
+used_resource_keys={
+'Libraries
+[
+'FileLibMit<project>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_view_doc|Error|core::document|Update dependencies|Resource "viewdoc" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:31
+message='Resource "viewdoc" not found.
+resource_key='arrt_view_doc
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>Struttura per ritorno CRIME</description>
+    <note></note>
+    <variable>
+        <name>annoDelibera</name>
+        <description>Anno</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>attinenza</name>
+        <description>Attinenza</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>chiaveArticolo</name>
+        <description>Chiave Articolo</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>cognomeNome</name>
+        <description>Nominativo</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>dataNascita</name>
+        <description>Data dio Nascita</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>luogoNascita</name>
+        <description>Luogo di Nascita</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>dataPubblicazione</name>
+        <description>Data Pubblicazione</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>edizione</name>
+        <description>Edizione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>fonte</name>
+        <description>Fonte non codificata dalla quale la persona risulta</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>origine</name>
+        <description>Reato non codificato per cui la persona è stata censita</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>percentuale</name>
+        <description>Percentuale</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>oggetto</name>
+        <description>Oggetto</description>
+        <type>M</type>
+    </variable>
+</class>

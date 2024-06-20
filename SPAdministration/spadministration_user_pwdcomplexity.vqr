@@ -1,0 +1,82 @@
+ 2
+"User groups"
+"cpusrgrp"
+"cpusrgrp"
+ 0
+ 0
+*
+"Gruppi"
+"cpgroups"
+"cpgroups"
+ 0
+ 0
+*
+ 1
+"Complessità password richiesta"
+"MAX(cpgroups.pwdcomplexity)"
+"pwdcomplexity"
+"N"
+ 3
+ 0
+*
+ 1
+"CP_GROUPS(ADMIN_GROUP)"
+"cpgroups.code=cpusrgrp.groupcode"
+"Right outer"
+"cpgroups"
+"cpusrgrp"
+*
+ 2
+"cpusrgrp.usercode"
+""
+"="
+"?usercode"
+"AND"
+""
+*
+"cpgroups.pwdcomplexity"
+""
+">"
+"0"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"usercode"
+"User code"
+"N"
+"9"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 15
+.f.
+""
+.f.
+.t.
+""
+ 0
+ 0
+""
+""
+"GGFXBAE__%5E9NG8ES43Z.%212%1AL%5DDHF%3CAZ%3B%23%1F%28%00%27%06%27%23W-X*%25C%2C%2B1%3A%23%3EM%0021%3DW_w%25N%2B8%5BCH%28RB2%27JNO%5B%25.+6NFi%21%3EJ%25H%3C%2CCbT*T%257ZOA%22V%3E%2C%05%5DQSA%2CI2%2CYk%5B8%5EG8OO%1EB%40%5BL%40%5C4%5CDA0%25%21%04%22ZSY9C%14E5%409%3A%1B%5B%22%3CL%264%25V+O1R_%29%29%3FN0DR2%5EEVnKKG4%403L%3FZ%17SD%3E*+9O.%3CWC%247D%18%223%27%25D%3C%239CIC-OHOM60%5EG*1%217%2F%2C3%22%3A%3AH74%217%5B%23IZ%28U%3B%2CN6%25%4019%5C6_G%2C%2B%00"
+"*A%5DQFP%22C%7BEI%24-_-D33_K%00%25%1BIA%5C_Q%3BGaW%2C%26-V%11%074C%3ARL%3CN66%5DM%5B8T%21%5E%3EKLT0tMG%2CV%24%40.%1A%3C8R%26%2BV%245+3%27%22DjR%22%2923%3C%21%27%5ERB%294%5CW%2CC90%5BD6V%27%3D%25%4003G%2CD5%3E%3C%3F16%2FE3rJVLQ%23%3D%2F%290%1BQ0QV%24DNT%1C%28%21ZBI4%2F2%21+KJ1E7Q%26o%5CU_%3A%2B0Z-S-%29%3A+6A-%3F%5BMK%3EG0C-D%27%2BP%5DHW5Nb%22%3C5K%223-%26DUTQ%29+K%24B39%1A%25%2C%00%12%24-G%3EKBWr_+D.E0OTYW%3E%2F_%2F%3F%23RC2Z%18%3AJ-N%229%00"
+""
+""
+"native"
+ 0
+ 0
+*

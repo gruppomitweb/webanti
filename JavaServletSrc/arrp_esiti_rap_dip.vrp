@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Elenco Esiti Agenzia Entrate -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_esiti_rap_dip||version||4.6||title||Elenco Esiti Agenzia Entrate||query||qbe_esiti_age_dip||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-03-16||date_rev||2013-11-04||form_class|| ||grid_dx||8||grid_dy||7||grid_show||1||grid_use||1||snaplines_show||1||language|| ||merge||false||modcnt||21||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding|| ||hsl||false||lock_items||false||maxcount||21||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||61||uid||BAGTFVQCHH||sequence||4||bb_sequence||2||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||126||uid||JDEGWKPDYE||sequence||8||bb_sequence||3||page||1|||type||Group_top||comment||group0||exp||c_CODDIP||name||group0||y||106||uid||ISFJYZXLZV||sequence||13||bb_sequence||39||page||1||start_each_on_page||true|||type||Group_down||comment||group0||exp||c_CODDIP||name||group0||y||125||uid||OWAAUYEULA||sequence||12||bb_sequence||38||page||1||start_each_on_page||true|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||name||label0||uid||VJZBQLDJHX||page||1||x||8||y||1||w||723||h||21||sequence||14||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Box||name||Box1||x||8||y||24||w||376||h||35||uid||CLNBCNJIJJ||sequence||1||page||1||bb_border_colour||false||border_width||1|||type||Label||value||Stampa Operazioni con Rilievi per Agenzia||text_type||constant||name||label2||uid||MQDHOYFJZU||page||1||x||8||y||31||w||376||h||21||sequence||2||align||center||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Label||value||&#39;Agenzia: &#39;+LRTrim(c_CODDIP)+&quot; - &quot;+LRTrim(c_DESCRIZ)||text_type||expression||name||label3||uid||LTPCFQYOVC||page||1||x||8||y||65||w||408||h||16||sequence||15||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box4||x||8||y||84||w||722||h||0||uid||ZPNYXEZVAP||sequence||16||page||1||bb_border_colour||false||border_width||1|||type||Label||value||N. Operazione||text_type||constant||name||label5||uid||BKCRYGRHVS||page||1||x||8||y||87||w||77||h||16||sequence||17||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Data||text_type||constant||name||label6||uid||OZOLPLGUME||page||1||x||96||y||87||w||118||h||16||sequence||18||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Soggetto||text_type||constant||name||label7||uid||GNQZRVTLUZ||page||1||x||176||y||87||w||118||h||16||sequence||19||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Importo||text_type||constant||name||label8||uid||AHLOAWOIAU||page||1||x||656||y||87||w||72||h||16||sequence||21||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box9||x||8||y||105||w||722||h||0||uid||BCZXJGWEDZ||sequence||3||page||1||bb_border_colour||false||border_width||1|||type||Expr||exp||c_DATAOPE||type_exp||date||len||8||dec||0||name||expr10||uid||PZOIDZNNFM||page||1||x||96||y||108||w||72||h||16||sequence||5|||type||Expr||exp||c_NUMOPE||len||11||dec||0||name||expr11||uid||ZHJPCGZVIK||page||1||x||9||y||108||w||79||h||16||sequence||6||global_font||false||font||Tahoma||font_size||8||font_weight||bold||print_always||false||print_in_newpage||true||print_group||true||print_when_change_group||c_CODDIP||print_when_change_groupuid||ISFJYZXLZV|||type||Expr||exp||LRTrim(c_CONNES)+&quot;-&quot;+LRTrim(c_RAGSOC)||len||80||dec||0||name||expr12||uid||YGJTYMZKYW||page||1||x||176||y||108||w||472||h||16||sequence||7|||type||Expr||exp||c_IMPOPE||type_exp||numeric||dec||2||name||expr13||uid||QRAAKHHCPJ||page||1||x||656||y||108||w||72||h||16||sequence||20||picture||&quot;9,999,999.99&quot;||align||right|||type||Box||name||Box14||x||8||y||128||w||722||h||0||uid||XTQBNIZUAK||sequence||9||page||1||bb_border_colour||false||border_width||1|||type||Label||value||&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))||text_type||expression||name||label15||uid||IXAHFNGJPV||page||1||x||640||y||130||w||88||h||16||sequence||11|||type||Label||value||arfn_fdate(Date())||text_type||expression||name||label16||uid||ALOHEYNHIZ||page||1||x||8||y||131||w||80||h||16||sequence||10||| -->
+
+<REPORT NAME="arrp_esiti_rap_dip" TITLE="Elenco Esiti Agenzia Entrate" QUERY="qbe_esiti_age_dip" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_esiti_age_dip.CODDIP" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_esiti_age_dip.DESCRIZ" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_esiti_age_dip.NUMOPE" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_esiti_age_dip.DATAOPE" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_esiti_age_dip.CONNES" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_esiti_age_dip.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_esiti_age_dip.IMPOPE" TYPE="N" LEN="10" DEC="2" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="61" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="1" X="8" YY="22" XX="731"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="24" X="8" YY="59" XX="384"
+                    ALIGN="L"
+                    UID="CLNBCNJIJJ" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="Stampa Operazioni con Rilievi per Agenzia" EXPRTYPE="constant"
+                    Y="31" X="8" YY="52" XX="384"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="CLNBCNJIJJ"/>
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="44" FOOTH="0" SYMNAME="" UID="ISFJYZXLZV" TOP="105" BOTTOM="123" EXPRESSION="c_CODDIP" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+              <ITEM OBJ="stringa" NAME="&#39;Agenzia: &#39;+LRTrim(c_CODDIP)+&quot; - &quot;+LRTrim(c_DESCRIZ)" EXPRTYPE="expression"
+                    Y="3" X="8" YY="19" XX="416"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="22" X="8" XX="731" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="N. Operazione" EXPRTYPE="constant"
+                    Y="25" X="8" YY="41" XX="85"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Data" EXPRTYPE="constant"
+                    Y="25" X="96" YY="41" XX="214"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Soggetto" EXPRTYPE="constant"
+                    Y="25" X="176" YY="41" XX="294"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Importo" EXPRTYPE="constant"
+                    Y="25" X="656" YY="41" XX="728"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="43" X="8" XX="731" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+          <SECTION TYPE="group" HEADH="18" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="espressione" NAME="c_DATAOPE" ITEMTYPE="D" EXPRTYPE="expression"
+                            Y="1" X="96" YY="17" XX="168"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_NUMOPE" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="9" YY="17" XX="88"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            FONTSTYLE="B"
+                            LEN="11"
+                            PRINTPAGE="true"
+                            PRINTGROUP="true" PRINTGROUPWHERE="ISFJYZXLZV"
+                            />
+                      <ITEM OBJ="espressione" NAME="LRTrim(c_CONNES)+&quot;-&quot;+LRTrim(c_RAGSOC)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="176" YY="17" XX="648"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="80"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_IMPOPE" ITEMTYPE="N" EXPRTYPE="expression"
+                            Y="1" X="656" YY="17" XX="728"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            SAYPIC="&quot;9,999,999.99&quot;"
+                            LEN="10"
+                            DEC="2"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="123" H="21" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="8" XX="731" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))" EXPRTYPE="expression"
+                    Y="3" X="640" YY="19" XX="728"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="4" X="8" YY="20" XX="88"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

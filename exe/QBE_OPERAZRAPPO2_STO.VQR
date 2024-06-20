@@ -1,0 +1,88 @@
+ 1
+"Frazionate"
+"wraziobo"
+"wraziobo"
+ 66
+ 18
+*
+ 7
+"Data Operazione"
+"wraziobo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Numero Progressivo"
+"wraziobo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Totale Operazione"
+"[CASE(valuta,ý242ý,TOTLIRE/100,TOTLIRE)]"
+"TOTLIRE"
+"Numeric"
+ 15
+ 2
+*
+"di cui contanti"
+"[CASE(valuta,ý242ý,TOTCONT/100,TOTCONT)]"
+"TOTCONT"
+"Numeric"
+ 15
+ 2
+*
+"Stato registrazione"
+"wraziobo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+"Divisa"
+"wraziobo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+"Tipo Intermediaro"
+"ýFrazionariaý"
+"TIPO"
+"Char"
+ 11
+ 0
+*
+ 0
+ 1
+"wraziobo.RAPPORTO"
+""
+"="
+"?w_RAPPORTO"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"w_RAPPORTO"
+"Rapporto Collegato"
+"Char"
+"25"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.t.
+*

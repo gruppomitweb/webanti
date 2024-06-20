@@ -1,0 +1,102 @@
+﻿* --- Resource Vers. 0.9
+arrt_inviomese
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:38
+description='Estrazione Dati da A.U.I per Agenzia Entrate (Routine)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:22
+module_name='
+name='arrt_inviomese
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aetesta.rapporto
+'aetesta.tipoag
+'aetesta.rifana
+'aetesta.coint
+'aetesta.progaet
+'aerighe.rapporto
+'aerighe.connesint
+'aerighe.cprownum
+'aerighe.idrif
+'aerighe.adata
+'aerighe.nrigrif
+'aerighe.idbase
+'aerighe.aspedito
+'aerighe.progaer
+'aerighe.abbinato
+'aerighe.cdata
+'aerighe.cspedito
+'aerighe.nocodfisc
+'anarapbo.rapporto
+'anarapbo.impape
+'intestbo.rapporto
+'intestbo.codinter
+'intestbo.abbinato
+'anarapbo.impchiu
+'jnarapbo.rapporto
+'jnarapbo.impape
+'jntestbo.rapporto
+'jntestbo.codinter
+'jntestbo.abbinato
+'jnarapbo.impchiu
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_inviomens_1_max.vqr
+'qbe_inviomens_1.vqr
+'qbe_inviomens_2_max.vqr
+'qbe_inviomens_2.vqr
+'qbe_inviomens_3_max.vqr
+'qbe_inviomens_3.vqr
+'qbe_inviomens_4_max.vqr
+'qbe_inviomens_4.vqr
+'qbe_inviomens_5_max_min.vqr
+'qbe_inviomens_5.vqr
+'qbe_inviomens_6_max_min.vqr
+'qbe_inviomens_6.vqr
+'qbe_inviomens_7_max_min.vqr
+'qbe_inviomens_7.vqr
+'qbe_inviomens_8_max_min.vqr
+'qbe_inviomens_8.vqr
+'qbe_inviomens_9_max_min.vqr
+'qbe_inviomens_9.vqr
+'qbe_inviomens_10_max_min.vqr
+'qbe_inviomens_10.vqr
+'qbe_inviomens_11_max_min.vqr
+'qbe_inviomens_11.vqr
+'qbe_inviomens_12_max_min.vqr
+'qbe_inviomens_12.vqr
+]
+'Tables
+[
+'anarapbo<table>
+'aetesta<table>
+'aerighe<table>
+'intestbo<table>
+'aefiles<table>
+'jnarapbo<table>
+'personbo<table>
+'jntestbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

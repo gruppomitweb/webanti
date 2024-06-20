@@ -1,0 +1,89 @@
+﻿* --- Resource Vers. 0.9
+qbe_stpfrazana_prv.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:23
+description='
+file_modified_on=#2021-05-17 13:09:18
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:40
+module_name='
+name='qbe_stpfrazana_prv.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'xraziobo.dataope
+'xraziobo.numprog
+'xraziobo.codana
+'tbcauana.descri
+'xraziobo.codvoc
+'tbcausin.descriz
+'xraziobo.valuta
+'tbvalute.descri
+'xraziobo.tipooprap
+'tbtipreg.des1
+'xraziobo.segno
+'xraziobo.cambio
+'xraziobo.codint2
+'xraziobo.desc2
+'xraziobo.tipoint2
+'xraziobo.prov2
+'xraziobo.codcab2
+'xraziobo.paese
+'tbstati.descri
+'tbtipint.descri
+'xraziobo.idbase
+'xraziobo.connescli
+'personbo.ragsoc
+'xraziobo.rapporto
+'xraziobo.connesoper
+'xraziobo.connesben
+'xraziobo.tipoleg
+'tbtipleg.descriz
+'xraziobo.datareg
+'knarapbo.descrap
+'xraziobo.cdatope
+]
+'Tables
+[
+'xraziobo<table>
+'personbo<table>
+'tbcausin<table>
+'tbcauana<table>
+'tbvalute<table>
+'tbtipreg<table>
+'tbstati<table>
+'tbtipint<table>
+'tbtipleg<table>
+'knarapbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

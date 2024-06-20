@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Controllo Periodale AGE -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_stp_famperiodo||version||4.6||title||Stampa Controllo Periodale AGE||query||qbe_stp_famperiodo||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||true||security_public||true||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2016-03-04||date_rev||2016-03-04||form_class|| ||grid_dx|| ||grid_dy|| ||grid_show||0||grid_use||0||snaplines_show||0||language|| ||merge||false||modcnt||3||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding||ISO-8859-1||hsl||false||lock_items||false||maxcount||41||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||75||uid||PSNOTBFSZO||sequence||2||bb_sequence||3||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||244||uid||TKKSZGYDUQ||sequence||3||bb_sequence||4||page||1|||type||ReportBar_top||name||bar_ReportHeader_start||x||0||y||49||uid||PJGPLLWVWU||sequence||4||bb_sequence||5||page||1|||type||ReportBar_bottom||name||bar_ReportHeader_end||x||0||y||221||uid||KFYDKIWHXV||sequence||5||bb_sequence||6||page||1|||type||AltQuery_top||comment||altquery30||query||qbe_stp_famperiodo2||exp||qbe_stp_famperiodo2.c_CODINVIO2=qbe_stp_famperiodo.c_CODINVIO1 and qbe_stp_famperiodo2.c_RAPINVIO2=qbe_stp_famperiodo.c_RAPINVIO1||name||altquery30||y||148||uid||HMKMVLIGGT||sequence||29||bb_sequence||30||page||1|||type||AltQuery_down||comment||altquery30||query||qbe_stp_famperiodo2||exp||qbe_stp_famperiodo2.c_CODINVIO2=qbe_stp_famperiodo.c_CODINVIO1 and qbe_stp_famperiodo2.c_RAPINVIO2=qbe_stp_famperiodo.c_RAPINVIO1||name||altquery30||y||176||uid||VMDNUXCEVS||sequence||30||bb_sequence||30||page||1|||type||AltQuery_top||comment||altquery32||query||qbe_stp_famperiodo3||exp||qbe_stp_famperiodo3.c_CODINVIO3=qbe_stp_famperiodo.c_CODINVIO1 and qbe_stp_famperiodo3.c_RAPINVIO3=qbe_stp_famperiodo.c_RAPINVIO1||name||altquery32||y||178||uid||LDEFCBFPRZ||sequence||35||bb_sequence||32||page||1|||type||AltQuery_down||comment||altquery32||query||qbe_stp_famperiodo3||exp||qbe_stp_famperiodo3.c_CODINVIO3=qbe_stp_famperiodo.c_CODINVIO1 and qbe_stp_famperiodo3.c_RAPINVIO3=qbe_stp_famperiodo.c_RAPINVIO1||name||altquery32||y||215||uid||NOBDLXBSOG||sequence||36||bb_sequence||32||page||1|||type||Group_top||comment||group3||exp||1=1||name||group1||y||109||uid||WLDBCRWUES||sequence||6||bb_sequence||7||page||1||start_each_on_page||true||reprint_header||true|||type||Group_down||comment||group3||exp||1=1||name||group1||y||219||uid||ABHDFUMURR||sequence||7||bb_sequence||8||page||1||reprint_header||true|||type||Group_top||comment||group31||exp||qbe_stp_famperiodo2.c_CODINVIO2+qbe_stp_famperiodo2.c_RAPINVIO2||name||group31||y||150||uid||QTJCUCBMGJ||sequence||31||bb_sequence||11||page||1|||type||Group_down||comment||group31||exp||qbe_stp_famperiodo2.c_CODINVIO2+qbe_stp_famperiodo2.c_RAPINVIO2||name||group31||y||173||uid||OXMZVHGVIT||sequence||32||bb_sequence||12||page||1|||type||Group_top||comment||group33||exp||qbe_stp_famperiodo3.c_CODINVIO3+qbe_stp_famperiodo3.c_RAPINVIO3||name||group33||y||188||uid||MUADKGTLNB||sequence||37||bb_sequence||15||page||1|||type||Group_down||comment||group33||exp||qbe_stp_famperiodo3.c_CODINVIO3+qbe_stp_famperiodo3.c_RAPINVIO3||name||group33||y||213||uid||EQCOOUUCZA||sequence||38||bb_sequence||16||page||1|||type||Label||value||Stampa Controllo Periodale AGE||text_type||constant||name||label0||uid||AMIDJQCRUA||page||1||x||16||y||7||w||1104||h||32||sequence||26||align||center||global_font||false||font||Arial||font_size||16||font_weight||bold|||type||Label||value||Page Header||text_type||constant||name||label1||uid||FYRKWQUUXV||page||1||x||16||y||54||w||126||h||18||sequence||27|||type||Label||value||Data Inizio Rapporto||text_type||constant||name||label11||uid||BRFPTUWJUZ||page||1||x||696||y||79||w||126||h||19||sequence||13||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Tipo Comunicazione||text_type||constant||name||label8||uid||KVAWSOTMUL||page||1||x||288||y||79||w||126||h||19||sequence||10||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Codice Univio Rapporto||text_type||constant||name||label9||uid||HKXXSEBQPW||page||1||x||424||y||79||w||126||h||19||sequence||11||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Tipo Rapporto||text_type||constant||name||label10||uid||VJMKWTHXZM||page||1||x||560||y||79||w||126||h||19||sequence||12||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Tipo Invio||text_type||constant||name||label7||uid||NRTJEILTAI||page||1||x||152||y||79||w||126||h||19||sequence||9||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Data Fine Rapporto||text_type||constant||name||label12||uid||YMPHIQKKYW||page||1||x||832||y||79||w||126||h||19||sequence||14||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Codice CAB||text_type||constant||name||label13||uid||ZXJSRQYPVW||page||1||x||968||y||79||w||126||h||19||sequence||15||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Codice Invio||text_type||constant||name||label6||uid||LOZUGYKZXK||page||1||x||16||y||79||w||126||h||19||sequence||8||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Box||name||Box14||x||16||y||103||w||300||h||1||uid||CWUJTBCHCN||sequence||16||page||1||border_width||1||stretch_to_right||true|||type||Expr||exp||qbe_stp_famperiodo.c_TPCINVIO1||len||1||dec||0||name||expr17||uid||JAOZKAZWVI||output_name||TipoComunicazione||page||1||x||288||y||119||w||120||h||18||sequence||20|||type||Expr||exp||qbe_stp_famperiodo.c_RAPINVIO1||len||50||dec||0||name||expr18||uid||AIPYAGHYNX||output_name||CodiceUnivioRapporto||page||1||x||424||y||119||w||120||h||18||sequence||21|||type||Expr||exp||qbe_stp_famperiodo.c_TPRINVIO1||len||2||dec||0||name||expr19||uid||MYZQSUBREE||output_name||TipoRapporto||page||1||x||560||y||119||w||120||h||18||sequence||22|||type||Expr||exp||qbe_stp_famperiodo.c_INIINVIO1||type_exp||date||len||8||dec||0||name||expr20||uid||DOYLMJGJML||output_name||DataInizioRapporto||page||1||x||696||y||119||w||120||h||18||sequence||23|||type||Expr||exp||qbe_stp_famperiodo.c_FININVIO1||type_exp||date||len||8||dec||0||name||expr21||uid||WFOIOENUHV||output_name||DataFineRapporto||page||1||x||832||y||119||w||120||h||18||sequence||24|||type||Expr||exp||qbe_stp_famperiodo.c_CABINVIO1||len||5||dec||0||name||expr22||uid||WWROZLWXFN||output_name||CodiceCAB||page||1||x||968||y||119||w||120||h||18||sequence||25|||type||Expr||exp||qbe_stp_famperiodo.c_CODINVIO1||dec||0||name||expr15||uid||CTFJPMRIAK||output_name||CodiceInvio||page||1||x||16||y||119||w||120||h||18||sequence||18|||type||Expr||exp||qbe_stp_famperiodo.c_TIPINVIO1||len||1||dec||0||name||expr16||uid||UFEHJYBTTY||output_name||TipoInvio||page||1||x||152||y||119||w||120||h||18||sequence||19|||type||Expr||exp||qbe_stp_famperiodo2.c_APRINVIO2||type_exp||numeric||len||9||dec||0||name||Expr30||uid||MBSXQUSNRV||page||1||x||15||y||153||w||30||h||18||sequence||33|||type||Expr||exp||qbe_stp_famperiodo2.c_CFSINVIO2||len||16||dec||0||name||Expr30_35||uid||NUEJNVTOVA||page||1||x||51||y||153||w||116||h||18||sequence||33|||type||Expr||exp||qbe_stp_famperiodo3.c_ANNINVIO3||type_exp||numeric||len||4||dec||0||name||Expr32||uid||DCFXXRYTWM||page||1||x||15||y||193||w||35||h||18||sequence||39|||type||Expr||exp||qbe_stp_famperiodo3.c_IM1INVIO3||type_exp||numeric||len||17||dec||0||name||Expr33||uid||JPLMMRHPMP||page||1||x||60||y||193||w||116||h||18||sequence||40|||type||Label||value||Report Footer||text_type||constant||name||label2||uid||DPYSUDTLZA||page||1||x||16||y||224||w||126||h||18||sequence||28|||type||Label||value||Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)||text_type||expression||name||label3||uid||SYYCKDTYOA||page||1||x||16||y||247||w||341||h||17||sequence||29||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;||text_type||expression||name||label4||uid||MQQPMFPXLC||page||1||x||446||y||247||w||225||h||17||sequence||30||align||right||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||Str(nTotalPages, 4, 0)||text_type||expression||name||label5||uid||CWREMDZJND||page||1||x||676||y||247||w||103||h||17||sequence||31||global_font||false||font||Arial||font_size||8||font_weight||normal||| -->
+
+<REPORT NAME="arrp_stp_famperiodo" TITLE="Stampa Controllo Periodale AGE" QUERY="qbe_stp_famperiodo" MAXDEPTH="3" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="true" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_stp_famperiodo.CODINVIO1" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.TIPINVIO1" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.TPCINVIO1" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.RAPINVIO1" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.TPRINVIO1" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.INIINVIO1" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.FININVIO1" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo.CABINVIO1" TYPE="C" LEN="5" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.CODINVIO2" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.RAPINVIO2" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.APRINVIO2" TYPE="N" LEN="9" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.FCFINVIO2" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.CFSINVIO2" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.RUOINVIO2" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.COGINVIO2" TYPE="C" LEN="26" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.NOMINVIO2" TYPE="C" LEN="25" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.SEXINVIO2" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.DNSINVIO2" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.CNSINVIO2" TYPE="C" LEN="40" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.PNSINVIO2" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.RGSINVIO2" TYPE="C" LEN="60" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.CSLINVIO2" TYPE="C" LEN="40" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.PLSINVIO2" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.INIINVIO2" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo2.FININVIO2" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.CODINVIO3" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.RAPINVIO3" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.ANNINVIO3" TYPE="N" LEN="4" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.IM1INVIO3" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.FI1INVIO3" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.IM2INVIO3" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.FI2INVIO3" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.IM3INVIO3" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.FI3INVIO3" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.IM4INVIO3" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.FI4INVIO3" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.IM5INVIO3" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.FI5INVIO3" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.IM6INVIO3" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_stp_famperiodo3.FI6INVIO3" TYPE="N" LEN="1" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <REPORTHEADER Y="0" H="49" EXPRESSION="Report header">
+              <ITEM OBJ="stringa" NAME="Stampa Controllo Periodale AGE" EXPRTYPE="constant"
+                    Y="7" X="16" YY="39" XX="1120"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="16"
+                    FONTSTYLE="B"
+                    />
+  </REPORTHEADER>
+  <PAGEHEADER Y="49" H="25" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="Page Header" EXPRTYPE="constant"
+                    Y="4" X="16" YY="22" XX="142"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="33" FOOTH="1" SYMNAME="" UID="WLDBCRWUES" TOP="107" BOTTOM="208" EXPRESSION="1=1" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="true" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+              <ITEM OBJ="stringa" NAME="Codice Invio" EXPRTYPE="constant"
+                    Y="3" X="16" YY="22" XX="142"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Tipo Invio" EXPRTYPE="constant"
+                    Y="3" X="152" YY="22" XX="278"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Tipo Comunicazione" EXPRTYPE="constant"
+                    Y="3" X="288" YY="22" XX="414"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Codice Univio Rapporto" EXPRTYPE="constant"
+                    Y="3" X="424" YY="22" XX="550"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Tipo Rapporto" EXPRTYPE="constant"
+                    Y="3" X="560" YY="22" XX="686"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Inizio Rapporto" EXPRTYPE="constant"
+                    Y="3" X="696" YY="22" XX="822"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Fine Rapporto" EXPRTYPE="constant"
+                    Y="3" X="832" YY="22" XX="958"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Codice CAB" EXPRTYPE="constant"
+                    Y="3" X="968" YY="22" XX="1094"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="27" X="16" XX="317" BORDERWIDTH="1"
+                    ALIGN="L"
+                    STRETCH="true"
+                    />
+          <SECTION TYPE="group" HEADH="101" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="espressione" NAME="qbe_stp_famperiodo.c_CODINVIO1" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="9" X="16" YY="27" XX="136"
+                            SYMNAME="CodiceInvio"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stp_famperiodo.c_TIPINVIO1" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="9" X="152" YY="27" XX="272"
+                            SYMNAME="TipoInvio"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="1"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stp_famperiodo.c_TPCINVIO1" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="9" X="288" YY="27" XX="408"
+                            SYMNAME="TipoComunicazione"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="1"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stp_famperiodo.c_RAPINVIO1" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="9" X="424" YY="27" XX="544"
+                            SYMNAME="CodiceUnivioRapporto"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="50"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stp_famperiodo.c_TPRINVIO1" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="9" X="560" YY="27" XX="680"
+                            SYMNAME="TipoRapporto"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="2"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stp_famperiodo.c_INIINVIO1" ITEMTYPE="D" EXPRTYPE="expression"
+                            Y="9" X="696" YY="27" XX="816"
+                            SYMNAME="DataInizioRapporto"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stp_famperiodo.c_FININVIO1" ITEMTYPE="D" EXPRTYPE="expression"
+                            Y="9" X="832" YY="27" XX="952"
+                            SYMNAME="DataFineRapporto"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stp_famperiodo.c_CABINVIO1" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="9" X="968" YY="27" XX="1088"
+                            SYMNAME="CodiceCAB"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="5"
+                            />
+                  <SECTIONQUERY TYPE="alternatequery" UID="HMKMVLIGGT" SYMNAME="" Y="38" TOP="145" BOTTOM="170" ALTERNATEQUERY="qbe_stp_famperiodo2" DISPLAY_EXPRESSION="" HIDECONDITION="" EXPRESSION="qbe_stp_famperiodo2.c_CODINVIO2=qbe_stp_famperiodo.c_CODINVIO1 and qbe_stp_famperiodo2.c_RAPINVIO2=qbe_stp_famperiodo.c_RAPINVIO1">
+                          <SECTION TYPE="group" HEADH="1" FOOTH="2" SYMNAME="" UID="QTJCUCBMGJ" TOP="146" BOTTOM="168" EXPRESSION="qbe_stp_famperiodo2.c_CODINVIO2+qbe_stp_famperiodo2.c_RAPINVIO2" DISPLAY_EXPRESSION=""
+                           STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+                           PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+                                  <SECTION TYPE="group" HEADH="22" FOOTH="0" EXPRESSION="" SYMNAME=""
+                                   STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+                                   REPRINTHEADER="false" REPRINTFOOTER="false">
+                                              <ITEM OBJ="espressione" NAME="qbe_stp_famperiodo2.c_APRINVIO2" ITEMTYPE="N" EXPRTYPE="expression"
+                                                    Y="2" X="15" YY="20" XX="45"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    LEN="9"
+                                                    />
+                                              <ITEM OBJ="espressione" NAME="qbe_stp_famperiodo2.c_CFSINVIO2" ITEMTYPE="C" EXPRTYPE="expression"
+                                                    Y="2" X="51" YY="20" XX="167"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    LEN="16"
+                                                    />
+                                  </SECTION>
+                          </SECTION>
+                  </SECTIONQUERY>
+                  <SECTIONQUERY TYPE="alternatequery" UID="LDEFCBFPRZ" SYMNAME="" Y="1" TOP="171" BOTTOM="205" ALTERNATEQUERY="qbe_stp_famperiodo3" DISPLAY_EXPRESSION="" HIDECONDITION="" EXPRESSION="qbe_stp_famperiodo3.c_CODINVIO3=qbe_stp_famperiodo.c_CODINVIO1 and qbe_stp_famperiodo3.c_RAPINVIO3=qbe_stp_famperiodo.c_RAPINVIO1">
+                          <SECTION TYPE="group" HEADH="9" FOOTH="1" SYMNAME="" UID="MUADKGTLNB" TOP="180" BOTTOM="204" EXPRESSION="qbe_stp_famperiodo3.c_CODINVIO3+qbe_stp_famperiodo3.c_RAPINVIO3" DISPLAY_EXPRESSION=""
+                           STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+                           PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+                                  <SECTION TYPE="group" HEADH="24" FOOTH="0" EXPRESSION="" SYMNAME=""
+                                   STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+                                   REPRINTHEADER="false" REPRINTFOOTER="false">
+                                              <ITEM OBJ="espressione" NAME="qbe_stp_famperiodo3.c_ANNINVIO3" ITEMTYPE="N" EXPRTYPE="expression"
+                                                    Y="4" X="15" YY="22" XX="50"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    LEN="4"
+                                                    />
+                                              <ITEM OBJ="espressione" NAME="qbe_stp_famperiodo3.c_IM1INVIO3" ITEMTYPE="N" EXPRTYPE="expression"
+                                                    Y="4" X="60" YY="22" XX="176"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    LEN="17"
+                                                    />
+                                  </SECTION>
+                          </SECTION>
+                  </SECTIONQUERY>
+          </SECTION>
+  </SECTION>
+  <REPORTFOOTER Y="209" H="22" EXPRESSION="Report footer">
+              <ITEM OBJ="stringa" NAME="Report Footer" EXPRTYPE="constant"
+                    Y="2" X="16" YY="20" XX="142"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </REPORTFOOTER>
+  <PAGEFOOTER Y="231" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="2" X="16" YY="19" XX="357"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="2" X="446" YY="19" XX="671"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="2" X="676" YY="19" XX="779"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

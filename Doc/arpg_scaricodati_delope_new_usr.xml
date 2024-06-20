@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="242750752">
+  <CodifyName>arpg_scaricodati_delope_new</CodifyName>
+  <Name>arpg_scaricodati_delope_new.pagedef</Name>
+  <Title>Estrazione Deleghe/Operazioni Extraconto per Agenzia Entrate</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="17966319"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_scaricodati_delope_new_usr_1</JPG>
+    <Item type="variabile" x1="56" y1="77" x2="92" y2="97">
+      <Name LinkID="114219744">anno</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="136" y1="77" x2="248" y2="97">
+      <Name LinkID="78980384">mese</Name>
+      <Comment></Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="424" y1="70" x2="726" y2="98">
+      <Name LinkID="260892230">Crea Comunicazione Deleghe / Operazioni Extraconto</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="520" y1="154" x2="730" y2="182">
+      <Name LinkID="79112492">Crea Modifiche / Annullamento</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="72" y1="154" x2="138" y2="174">
+      <Name LinkID="100539756">darett</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="248" y1="154" x2="314" y2="174">
+      <Name LinkID="102833516">a_rett</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="312" y1="63" x2="378" y2="83">
+      <Name LinkID="201449828">dadata</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="312" y1="91" x2="378" y2="111">
+      <Name LinkID="199156068">a_data</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="688" y1="196" x2="728" y2="224">
+      <Name LinkID="242361632">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="640" y1="196" x2="680" y2="224">
+      <Name LinkID="242361632">images/search.gif</Name>
+      <Image>images/search.gif</Image>
+      <Hyperlink>arpg_filesage_do</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Visualizza file creati</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="176" y1="259" x2="304" y2="279">
+      <Name LinkID="254881478">CFINVIO</Name>
+      <Comment>Codice Fiscale Organo Invio File</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="616" y1="259" x2="664" y2="279">
+      <Name LinkID="68806258">CAFINVIO</Name>
+      <Comment>Codice CAF Organo Invio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="176" y1="287" x2="440" y2="307">
+      <Name LinkID="222837239">FILEINVIO</Name>
+      <Comment>Tipo Preparazione FIle</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="616" y1="287" x2="688" y2="307">
+      <Name LinkID="171296265">DATAINVIO</Name>
+      <Comment>Data Impegno Organo Invio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

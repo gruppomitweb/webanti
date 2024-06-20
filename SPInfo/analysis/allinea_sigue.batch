@@ -1,0 +1,99 @@
+﻿* --- Resource Vers. 0.9
+allinea_sigue
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:26
+description='Allineamenti SIGUE
+file_modified_on=#2019-10-17 08:25:24
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:47
+module_name='
+name='allinea_sigue
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'operazbo.idbase
+'operazbo.c_cab
+'operazbo.c_cap
+'operazbo.c_prv
+'fraziobo.idbase
+'fraziobo.c_cab
+'fraziobo.c_cap
+'fraziobo.c_prv
+'operazbo.tipoint2
+'operazbo.descinter
+'operazbo.codcab2
+'operazbo.prov2
+'operazbo.paese
+'operazbo.desc2
+'fraziobo.tipoint2
+'fraziobo.descinter
+'fraziobo.codcab2
+'fraziobo.prov2
+'fraziobo.paese
+'fraziobo.desc2
+'operazbo.rapporto
+'operazbo.flagrap
+'fraziobo.rapporto
+'fraziobo.flagrap
+'rapopebo.rapporto
+'rapopebo.flaglire
+'rapopebo.valuta
+'rapopebo.flagrap
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_sigue1.vqr
+'qbe_sigue2.vqr
+'qbe_sigue3.vqr
+'qbe_sigue4.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'fraziobo<table>
+'tbcitta<table>
+'operazbo<table>
+'inter2bo<table>
+'anarapbo<table>
+'rapopebo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]allinea_sigue|Error|core::document|Update dependencies|Table "qbe_sigue1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:47
+message='Table "qbe_sigue1" not found.
+resource_key='allinea_sigue
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

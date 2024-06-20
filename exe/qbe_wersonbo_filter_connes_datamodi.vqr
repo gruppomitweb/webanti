@@ -1,0 +1,461 @@
+ 1
+"Storico Variazioni Anagrafica Persone/Clienti"
+"wersonbo"
+"wersonbo"
+ 0
+ 0
+*
+ 25
+"N° Progressivo"
+"wersonbo.sanumpro"
+"sanumpro"
+"C"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Collegamento"
+"wersonbo.CONNES"
+"CONNES"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ragione Sociale"
+"wersonbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Fiscale"
+"wersonbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Partita IVA"
+"wersonbo.PARTIVA"
+"PARTIVA"
+"C"
+ 14
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Sesso"
+"wersonbo.SESSO"
+"SESSO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Indirizzo"
+"wersonbo.DOMICILIO"
+"DOMICILIO"
+"C"
+ 35
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Città"
+"wersonbo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Provincia"
+"wersonbo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato"
+"wersonbo.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"CAP"
+"wersonbo.CAP"
+"CAP"
+"C"
+ 9
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"CAB"
+"wersonbo.CODCAB"
+"CODCAB"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Nascita"
+"wersonbo.DATANASC"
+"DATANASC"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Luogo di Nascita"
+"wersonbo.NASCOMUN"
+"NASCOMUN"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato di nascita"
+"wersonbo.NASSTATO"
+"NASSTATO"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Provincia Nascita"
+"wersonbo.TIPINTER"
+"TIPINTER"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Documento"
+"wersonbo.TIPODOC"
+"TIPODOC"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Numero Doc."
+"wersonbo.NUMDOCUM"
+"NUMDOCUM"
+"C"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Rilascio Doc."
+"wersonbo.DATARILASC"
+"DATARILASC"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Autorità di rilascio"
+"wersonbo.AUTRILASC"
+"AUTRILASC"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Sottogruppo Att. Ec."
+"wersonbo.SOTGRUP"
+"SOTGRUP"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ramo Gruppo Att. Ec."
+"wersonbo.RAMOGRUP"
+"RAMOGRUP"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Settorizzazione UIC"
+"wersonbo.SETTSINT"
+"SETTSINT"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ateco"
+"wersonbo.ATTIV"
+"ATTIV"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Modifica"
+"MIN(wersonbo.datamodi)"
+"datamodi"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 0
+ 3
+"wersonbo.CONNES"
+""
+"="
+"?pCONNES"
+"AND"
+""
+""
+*
+"wersonbo.datamodi"
+""
+">"
+"?pdatamodi"
+"AND"
+""
+""
+*
+"[NOTEMPTYSTR(wersonbo.sanumpro)]"
+""
+">"
+"0"
+"AND"
+""
+""
+*
+ 1
+"N° Progressivo"
+"sanumpro"
+"Ascending"
+*
+ 24
+"N° Progressivo"
+"sanumpro"
+*
+"Codice Collegamento"
+"CONNES"
+*
+"Ragione Sociale"
+"RAGSOC"
+*
+"Codice Fiscale"
+"CODFISC"
+*
+"Partita IVA"
+"PARTIVA"
+*
+"Sesso"
+"SESSO"
+*
+"Indirizzo"
+"DOMICILIO"
+*
+"Città"
+"DESCCIT"
+*
+"Provincia"
+"PROVINCIA"
+*
+"Stato"
+"PAESE"
+*
+"CAP"
+"CAP"
+*
+"CAB"
+"CODCAB"
+*
+"Data Nascita"
+"DATANASC"
+*
+"Luogo di Nascita"
+"NASCOMUN"
+*
+"Stato di nascita"
+"NASSTATO"
+*
+"Provincia Nascita"
+"TIPINTER"
+*
+"Tipo Documento"
+"TIPODOC"
+*
+"Numero Doc."
+"NUMDOCUM"
+*
+"Data Rilascio Doc."
+"DATARILASC"
+*
+"Autorità di rilascio"
+"AUTRILASC"
+*
+"Sottogruppo Att. Ec."
+"SOTGRUP"
+*
+"Ramo Gruppo Att. Ec."
+"RAMOGRUP"
+*
+"Settorizzazione UIC"
+"SETTSINT"
+*
+"Ateco"
+"ATTIV"
+*
+ 0
+ 2
+"pCONNES"
+"Codice Collegamento"
+"C"
+"16"
+"0"
+"Remove"
+""
+""
+*
+"pdatamodi"
+"Data Modifica"
+"D"
+"8"
+"0"
+"Remove"
+""
+""
+*
+""
+.f.
+"qbe_stp_info_dett_anagrafiche_personbo"
+ 0
+ 0
+ 1
+""
+""
+.t.
+.t.
+ 11
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"+s4A7TIBT4%3BA0Z%7FU%5BJ%2157L%21%27%5EcL%22%40Q1TG%29%28%26%105%05-h%409%262%10%5ELAX3%27%3E%2F%22%18M+%3CQ%5CIO9%3A9-OVNYW+%3BBC%24%14%24%22%5D%3FE%3F%3E*%2532%3D%5CLKJTD8_G%24%27%218%07%29A2VRA4NVFPM%22T%3B7N%18+s%3DYw%5BA%3F0%2C5%240A9%05%5DX+F3*1%3DGK%5DK%3F%3F%2F%105%21VICZG%27R5F96%25%287%3A%21%3E%40l%1DA%29P%21MT%3D%5CM%2B%2B%40%1C%27D%5C%5DC.1%056%21M%223.%26%5E%3DAF9N5%2F%23MU%3FW1%23-2%28%24PXtNU1R%21GA%213W7Q8SZ5%3D%3F3%27EN.UM%3C%28%400%00"
+"%22JXy%5CJ%5E%3DCFI%23%3CZD%40N27%40%29A%19%3ALB%28tCsbQ%17GDWE%3A%5DKK%2CU*%24%2FQ.FL4RB%2FCE%28Y7T%2F6%27%3A%3B6%21AS%2B_%3FG7%2CB++%3C%3AN50%24.1%3DM%3C%1D_V*%2C%3FrT.%3F7BSD4%07%2C3x99%25%2C%2B%5EY8%22%27LT%3C%2B%3AXGP%5DY%21L%04%23%2FL%2839YtH%40Q%2C%270%22%5DC8%25%2C%29%034%2F%3E__EY%3AI2%3D%25%3DJ%5B%3A%07_%2BTEF%27%3D%3D%08%5EY%3F%1B%2C%17S%26I3G0*BXR4UJ%24%29%223%28%25w4%2FN%2347%09%29UZJ0%16U1%3D%3BK%3F%23%26%3C.H%2C**IQ%240%23SDHH%21O%3D%28%5CZ%5CK14X7%24F%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+*

@@ -1,0 +1,353 @@
+﻿* --- Resource Vers. 0.9
+vt_documentos_bit<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='DOCUMENTOS_BIT
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='vt_documentos_bit
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'vt_documentos_bit.id_documento
+'vt_documentos_bit.cod_cliente
+'vt_documentos_bit.id_tipodocumento
+'vt_documentos_bit.id_pais
+'vt_documentos_bit.id_estadoexpide
+'vt_documentos_bit.fecha_vencimiento
+'vt_documentos_bit.institucion_expide
+'vt_documentos_bit.descripcion
+'vt_documentos_bit.num_identificacion
+'vt_documentos_bit.domicilio
+'vt_documentos_bit.fecha_alta
+'vt_documentos_bit.status
+'vt_documentos_bit.fecha_modificacion
+'vt_documentos_bit.usuarioalta
+'vt_documentos_bit.cod_agente
+'vt_documentos_bit.accion
+'vt_documentos_bit.fecha
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'vt_documentos_bit.accion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='accion
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.cod_agente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_agente
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.cod_cliente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_cliente
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.descripcion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='descripcion
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='domicilio
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.fecha
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fecha
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.fecha_alta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fecha_alta
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.fecha_modificacion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fecha_modificacion
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.fecha_vencimiento
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fecha_vencimiento
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.id_documento
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_documento
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.id_estadoexpide
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_estadoexpide
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.id_pais
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_pais
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.id_tipodocumento
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_tipodocumento
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.institucion_expide
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='institucion_expide
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.num_identificacion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='num_identificacion
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.status
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='status
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+'vt_documentos_bit.usuarioalta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='usuarioAlta
+state=3
+table_name='vt_documentos_bit
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'vt_documentos_bit.accion
+[]
+'vt_documentos_bit.cod_agente
+[]
+'vt_documentos_bit.cod_cliente
+[]
+'vt_documentos_bit.descripcion
+[]
+'vt_documentos_bit.domicilio
+[]
+'vt_documentos_bit.fecha
+[]
+'vt_documentos_bit.fecha_alta
+[]
+'vt_documentos_bit.fecha_modificacion
+[]
+'vt_documentos_bit.fecha_vencimiento
+[]
+'vt_documentos_bit.id_documento
+[]
+'vt_documentos_bit.id_estadoexpide
+[]
+'vt_documentos_bit.id_pais
+[]
+'vt_documentos_bit.id_tipodocumento
+[]
+'vt_documentos_bit.institucion_expide
+[]
+'vt_documentos_bit.num_identificacion
+[]
+'vt_documentos_bit.status
+[]
+'vt_documentos_bit.usuarioalta
+[]
+}
+*--*

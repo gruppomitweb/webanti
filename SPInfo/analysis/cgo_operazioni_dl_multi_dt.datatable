@@ -1,0 +1,296 @@
+﻿* --- Resource Vers. 0.9
+cgo_operazioni_dl_multi_dt<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Biglietti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cgo_operazioni_dl_multi_dt
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cgo_operazioni_dl_multi_dt.snainumope
+'cgo_operazioni_dl_multi_dt.cprownum
+'cgo_operazioni_dl_multi_dt.caidbiglietto
+'cgo_operazioni_dl_multi_dt.totlire
+'cgo_operazioni_dl_multi_dt.flgfull
+'cgo_operazioni_dl_multi_dt.cgotipope
+'cgo_operazioni_dl_multi_dt.datope
+'cgo_operazioni_dl_multi_dt.numopedl
+'cgo_operazioni_dl_multi_dt.cacodice
+'cgo_operazioni_dl_multi_dt.codlob
+'cgo_operazioni_dl_multi_dt.tipogioco
+'cgo_operazioni_dl_multi_dt.catipgio
+'cgo_operazioni_dl_multi_dt.catipcon
+'cgo_operazioni_dl_multi_dt.rownumdl
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cgo_operazioni_dl_multi_dt.cacodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Causale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CACODICE
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.caidbiglietto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID BIGLIETTO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAIDBIGLIETTO
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.catipcon
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Concessione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATIPCON
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.catipgio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Gioco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATIPGIO
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.cgotipope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Gioco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CGOTIPOPE
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.codlob
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Line of business
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODLOB
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.cprownum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='N° Riga 
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CPROWNUM
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.datope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATOPE
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.flgfull
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazione completa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGFULL
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.numopedl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazione Associata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMOPEDL
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.rownumdl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Riga Selezionata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ROWNUMDL
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.snainumope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='N° Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SNAINUMOPE
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.tipogioco
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo gioco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOGIOCO
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+'cgo_operazioni_dl_multi_dt.totlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTLIRE
+state=3
+table_name='cgo_operazioni_dl_multi_dt
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cgo_operazioni_dl_multi_dt.cacodice
+[]
+'cgo_operazioni_dl_multi_dt.caidbiglietto
+[]
+'cgo_operazioni_dl_multi_dt.catipcon
+[]
+'cgo_operazioni_dl_multi_dt.catipgio
+[]
+'cgo_operazioni_dl_multi_dt.cgotipope
+[]
+'cgo_operazioni_dl_multi_dt.codlob
+[]
+'cgo_operazioni_dl_multi_dt.cprownum
+[]
+'cgo_operazioni_dl_multi_dt.datope
+[]
+'cgo_operazioni_dl_multi_dt.flgfull
+[]
+'cgo_operazioni_dl_multi_dt.numopedl
+[]
+'cgo_operazioni_dl_multi_dt.rownumdl
+[]
+'cgo_operazioni_dl_multi_dt.snainumope
+[]
+'cgo_operazioni_dl_multi_dt.tipogioco
+[]
+'cgo_operazioni_dl_multi_dt.totlire
+[]
+}
+*--*

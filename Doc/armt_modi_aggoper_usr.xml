@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="227839052">
+  <CodifyName>armt_modi_aggoper</CodifyName>
+  <Name>armt_modi_aggoper.pagedef</Name>
+  <Title>Modifica Dati per Agenzia Entrate (Operazioni)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="179178948"></Title>
+    <Note/>
+    <JPG x="8" y="9">armt_modi_aggoper_usr_1</JPG>
+    <Item type="variabile" x1="160" y1="18" x2="206" y2="38">
+      <Name LinkID="67035452">OPERAG</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="45" x2="352" y2="65">
+      <Name LinkID="68406129">RESPINS</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="72" x2="352" y2="92">
+      <Name LinkID="187712708">INFORM</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="560" y1="45" x2="713" y2="66">
+      <Name LinkID="34197564">NOPROT</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="624" y1="387" x2="664" y2="416">
+      <Name LinkID="227840572">images/save.gif</Name>
+      <Image>images/save.gif</Image>
+      <Hyperlink>SalvaDati()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Salva i dati appena immessi</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="672" y1="387" x2="712" y2="416">
+      <Name LinkID="227840572">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>window.close()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Chiudi la finestra senza salvare i dati</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="324" x2="206" y2="344">
+      <Name LinkID="244321220">RAGIO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="297" x2="206" y2="317">
+      <Name LinkID="116535416">MODSVOL</Name>
+      <Comment>Modalità Svolgimento</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="270" x2="206" y2="290">
+      <Name LinkID="149877643">AREAGEO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="99" x2="472" y2="119">
+      <Name LinkID="180555716">NATURA</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="126" x2="472" y2="146">
+      <Name LinkID="236448452">SCOPO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="351" x2="206" y2="371">
+      <Name LinkID="220629444">TIPO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="680" y1="216" x2="712" y2="236">
+      <Name LinkID="214219716">RFREQ</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="680" y1="270" x2="712" y2="290">
+      <Name LinkID="214240196">RAREA</Name>
+      <Comment>Indice Rischio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="680" y1="297" x2="712" y2="317">
+      <Name LinkID="222817220">RCOMP</Name>
+      <Comment>Indice di rischio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="680" y1="324" x2="712" y2="344">
+      <Name LinkID="78969796">RRAGIO</Name>
+      <Comment>Indice di rischio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="680" y1="351" x2="712" y2="371">
+      <Name LinkID="236772292">RTIPO</Name>
+      <Comment>Indice di Rischio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="680" y1="243" x2="712" y2="263">
+      <Name LinkID="219777988">RIMP</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="243" x2="206" y2="263">
+      <Name LinkID="14066492">AMMONT</Name>
+      <Comment>Importo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="216" x2="206" y2="236">
+      <Name LinkID="168024516">DURAT</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

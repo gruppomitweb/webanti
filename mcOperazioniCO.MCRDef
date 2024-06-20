@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>Operazioni Comunicazioni Oggettive</description>
+    <note></note>
+    <variable>
+        <name>CONTAOPE</name>
+        <description>COntatore Operazioni</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>CODICE_SEGNALANTE</name>
+        <description>Codice Segnalatore</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATA_CONTABILE</name>
+        <description>Data Fine Periodo</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>ID_OPERAZIONE</name>
+        <description>ID Operazione</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>DATA_CONT_OPERAZ</name>
+        <description>Data Operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TIPO_OPERAZIONE</name>
+        <description>Causale Analitica</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SEGNO_OPERAZ</name>
+        <description>Segno</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COD_VALUTA</name>
+        <description>Codice Valuta</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>IMPORTO_OPERAZ</name>
+        <description>Importo Totale Operazione</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>IMPORTO_CONT</name>
+        <description>Importo in contanti</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>CODICE_FILIALE</name>
+        <description>Codice Dipendenza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>UL_BANCARIA_CAB</name>
+        <description>ABI CAB Dipendenza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COMUNE_ESEC</name>
+        <description>CAB Dipendendza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CAT_RAPPORTO</name>
+        <description>Categoria Rapporto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NUMERO_RAPPORTO</name>
+        <description>NUmero Rapporto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>FILIALE</name>
+        <description>ABICAB Filiale</description>
+        <type>C</type>
+    </variable>
+</class>

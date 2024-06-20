@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="96748408">
+  <CodifyName>arpg_viewinfoprv</CodifyName>
+  <Name>arpg_viewinfoprv.pagedef</Name>
+  <Title>Informazioni (Provvisorie)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="38300953"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_viewinfoprv_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="75" x2="1246" y2="88">
+      <Name LinkID="101315928">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="56" y1="44" x2="152" y2="60">
+      <Name LinkID="96748313">c_NUMPROG</Name>
+      <Help></Help>
+      <Expression>c_NUMPROG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="62" x2="1246" y2="75">
+      <Name LinkID="89619417">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="304" y1="44" x2="512" y2="60">
+      <Name LinkID="96748313">c_DES1</Name>
+      <Help></Help>
+      <Expression>c_DES1</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="160" y1="44" x2="224" y2="60">
+      <Name LinkID="96748313">c_DATAOPE</Name>
+      <Help></Help>
+      <Expression>c_DATAOPE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="232" y1="44" x2="296" y2="60">
+      <Name LinkID="96748313">c_DATAREG</Name>
+      <Help></Help>
+      <Expression>c_DATAREG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="8" y1="44" x2="24" y2="60">
+      <Name LinkID="96748313">images/edit.gif</Name>
+      <Image>images/edit.gif</Image>
+      <Hyperlink>armt_provinformazioni</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="32" y1="44" x2="48" y2="60">
+      <Name LinkID="96748313">images/remove.gif</Name>
+      <Image>images/remove.gif</Image>
+      <Hyperlink>armt_provinformazioni</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

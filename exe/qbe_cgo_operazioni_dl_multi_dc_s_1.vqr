@@ -1,0 +1,198 @@
+ 2
+"CGO Operazioni Agenzie"
+"cgo_operazioni"
+"cgo_operazioni"
+ 0
+ 0
+*
+"Tipologie Gioco (CGO)"
+"cgo_tbtipgio"
+"cgo_tbtipgio"
+ 0
+ 0
+*
+ 10
+"Tipo S/M"
+"ýSDCý"
+"TIPOSM"
+"C"
+ 1
+ 0
+*
+"Data Operazione"
+"cgo_operazioni.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Codice Causale"
+"cgo_operazioni.CACODICE"
+"CACODICE"
+"N"
+ 5
+ 0
+*
+"N° Operazione"
+"cgo_operazioni.SNAINUMOPE"
+"SNAINUMOPE"
+"C"
+ 15
+ 0
+*
+"ID BIGLIETTO"
+"cgo_operazioni.CAIDBIGLIETTO"
+"CAIDBIGLIETTO"
+"C"
+ 30
+ 0
+*
+"Descrizione Tipo Gioco"
+"cgo_tbtipgio.DESTPGIO"
+"DESTPGIO"
+"C"
+ 50
+ 0
+*
+"Segno"
+"cgo_operazioni.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+*
+"Totale Operazione"
+"cgo_operazioni.TOTLIRE"
+"TOTLIRE"
+"N"
+ 15
+ 2
+*
+"Tipo Operazione"
+"cgo_operazioni.CAFLGOPE"
+"CAFLGOPE"
+"C"
+ 1
+ 0
+*
+"Tipo gioco"
+"cgo_operazioni.TIPOGIOCO"
+"TIPOGIOCO"
+"C"
+ 3
+ 0
+*
+ 1
+"è una join"
+"cgo_operazioni.TIPOGIOCO = cgo_tbtipgio.CODTPGIO"
+"Left outer"
+"cgo_operazioni"
+"cgo_tbtipgio"
+*
+ 6
+"cgo_operazioni.CODDIPE"
+""
+"="
+"[GLOBALVAR(gCodDip)]"
+"AND"
+""
+*
+"cgo_operazioni.CGODIPCOM"
+""
+"<>"
+"ýSý"
+"AND"
+""
+*
+"cgo_operazioni.SNAINUMOPE"
+""
+"<>"
+"?w_numope"
+"AND"
+""
+*
+"cgo_operazioni.DATAOPE"
+""
+"="
+"?w_datope"
+"AND"
+""
+*
+"cgo_operazioni.TIPOGIOCO"
+""
+"<>"
+"ýVý"
+"AND"
+""
+*
+"cgo_operazioni.SEGNO"
+""
+"="
+"?w_segno"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 4
+"w_datope"
+"Data Operazione"
+"D"
+"8"
+"0"
+"Remove"
+""
+*
+"w_numope"
+"Snainumope"
+"C"
+"15"
+"0"
+""
+""
+*
+"w_segno"
+"Segno dellýoperazione"
+"C"
+"1"
+"0"
+""
+""
+*
+"w_dc"
+"Flag di selezione"
+"C"
+"1"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+"Questa query sta nella UNION con la query che popola il portlet delle operzioni SINGOLE che vengono mostrate nella MULTIPLA DA COMPLETARE"
+.f.
+.t.
+ 9
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"K.8F%3B%3F%21k%272%2B%3E%290%26LP--32H%2C%2B%2FbWu%3A%27%600EH9%21M%3B_%262T62.B%5E_%5BS%18%27%3D_%10%27%27CLHw%5EU%3E%07%3BG%40%27B1%22W%3DV%3A%28%22%11*Y1S9%232%03%279%25Q4%28YmPY_+HKS6Z_YD%21P-M%3ER*HC%3C7N%03%29%27HV%3DUJKH55%3EB%26%3B0%28%24tMVYN%3EN%3CWFSIW%16X%2FE9VAHKHq%5E%3A%162.%21%3FU%07OI-O%21%3F%2B%25+I%401%23N9%267K%21SPL%3DRGU2%1F%28%223%22%26AJVA%2CO-P%7DKL1%2B7%01G-%2BrTLPR%28342K7-FP2u6%5C0-%17A%0A%7DK_%181L%3E%3C%24%3B%00"
+"PT2Vm0%27Hx814%22Y%7DLA%1A80*CL%27Gc_K%3D%26%3D%3D%29%3C7%3F%29%3E%27wU%5C%5CM0%3D%23%281A%3F%2B2%27H%1AK%23V%28%24HHVR%21FF.*%05P%272%5B_%3B%40%3DRWV4C%2FLZ%13%180WQQ%23%3AOPU%23%29J%3B4%3E%5DtW.FF*JWEL_B%04%2B%3B%23I7_HNYBE%5CR.%23J+%26%3B%5CZJ-%3C%25.M%2B*D%3DI%3CO2AMF*%5ERV4CGVD+7%25%10%3D*%28jLo%40L7%22%253%3BB%3F%3F%01%3F6%3EsY%28HoFZZJIF%223%28%25W%5E-RB%3BEXXk79U.%24N%2B%27YR%26%2COM4%3A%2B%27%40%3F%3EZY_WK%3AI6%13%22I%5D%5DL%21O9%282%25%00"
+""
+""
+"native"
+ 0
+ 0
+*

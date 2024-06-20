@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="16676025">
+  <CodifyName>arpg_trasffra_age</CodifyName>
+  <Name>arpg_trasffra_age.pagedef</Name>
+  <Title>Trasferimento frazionate a operazioni (Agenti)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="121906519"></Title>
+    <Note/>
+    <JPG x="8" y="9">arpg_trasffra_age_usr_1</JPG>
+    <Item type="immagine" x1="352" y1="198" x2="392" y2="230">
+      <Name LinkID="16677545">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_trasffra_age</Hyperlink>
+      <HyperlinkOpenOn>Frame</HyperlinkOpenOn>
+      <Help>Esecuzione trasferimento dati da frazionate a operazioni</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="304" y1="18" x2="376" y2="38">
+      <Name LinkID="78064279">DaDatOpe</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="512" y1="18" x2="578" y2="38">
+      <Name LinkID="140248050">ADatOpe</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="400" y1="198" x2="440" y2="228">
+      <Name LinkID="16677545">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

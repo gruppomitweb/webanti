@@ -1,0 +1,78 @@
+﻿* --- Resource Vers. 0.9
+arrt_famesiti
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Lancia Esecuzione SID Ricevute
+file_modified_on=#2022-10-13 11:09:54
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:13
+module_name='
+name='arrt_famesiti
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_list_imprich.nomefile
+'tmp_list_imprich.priorita
+'tbricevutesid.esicodice
+'tbricevutesid.esidescri
+'tmp_esitosid.annorif
+'tmp_esitosid.numprog
+'tmp_esitosid.protocollo
+'tmp_esitosid.fileprot
+'tmp_esitosid.txtmsg
+'tmp_esitosid.tiporiga
+'tmp_esitosid.coderr
+'tbricevutesid.esitipo
+'tmp_esitosid.rapporto
+'tmp_esitosid.tipoanom
+'tmp_esitosid.datoerr
+'aesaldi.idbase
+'aesaldi.protocollo
+'aesaldi.nomefile
+'aesaldi.anno
+'aesaldi.fileinv1
+'aesaldi.fileinv2
+'aesaldi.tipo
+]
+'Libraries
+[
+'FileLibMit<project>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_tot_annoora.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_famesiti
+]
+'Tables
+[
+'intermbo<table>
+'cpwarn<table>
+'tberrorisid<table>
+'tberrsiddgn<table>
+'tbricevutesid<table>
+'aesaldi<table>
+'tmp_esitosid<table>
+'tberrdge<table>
+'aeannora<table>
+'tmp_list_imprich<table>
+]
+}
+I
+*--*
+￼[]
+*--*

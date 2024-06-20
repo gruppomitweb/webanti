@@ -1,0 +1,96 @@
+﻿* --- Resource Vers. 0.9
+qbe_stpoper_ver.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:23
+description='
+file_modified_on=#2023-05-11 17:18:05
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:40
+module_name='
+name='qbe_stpoper_ver.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'tmp_stpoperazioni.dataope
+'tmp_stpoperazioni.numprog
+'tmp_stpoperazioni.datareg
+'tmp_stpoperazioni.codana
+'tmp_stpoperazioni.codvoc
+'tmp_stpoperazioni.totlire
+'tmp_stpoperazioni.valuta
+'tmp_stpoperazioni.statoreg
+'tmp_stpoperazioni.connescli
+'personbo.ragsoc
+'tmp_stpoperazioni.rapporto
+'knarapbo.descrap
+'tmp_stpoperazioni.tipooprap
+'personbo.sotgrup
+'personbo.ramogrup
+'personbo.settsint
+'tmp_stpoperazioni.tipo
+'tmp_stpoperazioni.connescol
+'tmp_stpoperazioni.txtnote
+'tmp_stpoperazioni.err01
+'tmp_stpoperazioni.err02
+'tmp_stpoperazioni.err03
+'tmp_stpoperazioni.err04
+'tmp_stpoperazioni.err05
+'tmp_stpoperazioni.err06
+'tmp_stpoperazioni.err07
+'tmp_stpoperazioni.err08
+'tmp_stpoperazioni.err09
+'tmp_stpoperazioni.inform
+'tmp_stpoperazioni.rifimp
+'tmp_stpoperazioni.codintdip
+'tmp_stpoperazioni.abicabdip
+'tmp_stpoperazioni.codcabdip
+'tmp_stpoperazioni.perpaese
+'tmp_stpoperazioni.percab
+'tmp_stpoperazioni.codvocagg
+'tmp_stpoperazioni.flaglireagg
+'tmp_stpoperazioni.segnoagg
+'tmp_stpoperazioni.settsintagg
+'tmp_stpoperazioni.paesecp
+'tmp_stpoperazioni.codcabcp
+'tmp_stpoperazioni.paeseicp
+'tmp_stpoperazioni.cabicp
+'tmp_stpoperazioni.subtyp
+'tmp_stpoperazioni.prgimpope
+]
+'Tables
+[
+'personbo<table>
+'knarapbo<table>
+'tmp_stpoperazioni<table>
+]
+}
+I
+*--*
+￼[]
+*--*

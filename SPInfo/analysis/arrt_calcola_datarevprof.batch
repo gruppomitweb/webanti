@@ -1,0 +1,43 @@
+﻿* --- Resource Vers. 0.9
+arrt_calcola_datarevprof
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:31
+description='Calcola Data Revisione Profilatura
+file_modified_on=#2021-10-19 16:36:02
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:07
+module_name='
+name='arrt_calcola_datarevprof
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbrisglob.codice
+'tbrisglob.giorni
+'categris.idcateg
+'categris.codice
+'categris.giorni
+]
+'Others
+[
+'armt_personbo
+]
+'Tables
+[
+'tbrisglob<table>
+'categris<table>
+]
+}
+I
+*--*
+￼[]
+*--*

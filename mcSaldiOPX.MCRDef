@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>MC per calcolo saldi</description>
+    <note></note>
+    <variable>
+        <name>CONNESCLI</name>
+        <description>NDG</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>IDFILE</name>
+        <description>ID File</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TOTLIRE</name>
+        <description>Importo Operazione</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>NUMPROG</name>
+        <description>N. Operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>MACODICE</name>
+        <description>Macroagente</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>MAFLGNOX</name>
+        <description>No Operazione Extraconto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COLLEG</name>
+        <description>Operazione Extraconto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>RAPPORTO</name>
+        <description>Codice Rapporto</description>
+        <type>C</type>
+    </variable>
+</class>

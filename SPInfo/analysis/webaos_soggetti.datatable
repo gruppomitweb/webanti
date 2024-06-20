@@ -1,0 +1,372 @@
+﻿* --- Resource Vers. 0.9
+webaos_soggetti<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Soggetti Segnalati AOS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='webaos_soggetti
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'webaos_soggetti.idbase
+'webaos_soggetti.ragsoc
+'webaos_soggetti.datanas
+'webaos_soggetti.luogonas
+'webaos_soggetti.codfisc
+'webaos_soggetti.respaese
+'webaos_soggetti.rescitta
+'webaos_soggetti.resind
+'webaos_soggetti.note
+'webaos_soggetti.tipo
+'webaos_soggetti.fonte
+'webaos_soggetti.ragsocx
+'webaos_soggetti.ragsocblk
+'webaos_soggetti.flag
+'webaos_soggetti.appoggio
+'webaos_soggetti.spec
+'webaos_soggetti.riferim
+'webaos_soggetti.cosafare
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'webaos_soggetti.appoggio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Campo appoggio (Ultetiori sviluppi)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='APPOGGIO
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODFISC
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.cosafare
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Cosa FAre
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='COSAFARE
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.datanas
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATANAS
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.flag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Fonte (U Ufficale - I Interna)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLAG
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.fonte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Fonte informazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FONTE
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice 
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.luogonas
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Luogo di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='LUOGONAS
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.note
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Note
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NOTE
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Ragione Sociale / Nominativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAGSOC
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.ragsocblk
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Ragione sociale con divisore (?)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAGSOCBLK
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.ragsocx
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Ragione sociale senza spazi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAGSOCX
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.rescitta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Città residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RESCITTA
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.resind
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Indirizzo residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RESIND
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.respaese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Paese Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RESPAESE
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.riferim
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Riferimento comunicazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RIFERIM
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.spec
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Specifica di segnalazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SPEC
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+'webaos_soggetti.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo (P Persona - D Società)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPO
+state=3
+table_name='webaos_soggetti
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'webaos_soggetti.appoggio
+[]
+'webaos_soggetti.codfisc
+[]
+'webaos_soggetti.cosafare
+[]
+'webaos_soggetti.datanas
+[]
+'webaos_soggetti.flag
+[]
+'webaos_soggetti.fonte
+[]
+'webaos_soggetti.idbase
+[]
+'webaos_soggetti.luogonas
+[]
+'webaos_soggetti.note
+[]
+'webaos_soggetti.ragsoc
+[]
+'webaos_soggetti.ragsocblk
+[]
+'webaos_soggetti.ragsocx
+[]
+'webaos_soggetti.rescitta
+[]
+'webaos_soggetti.resind
+[]
+'webaos_soggetti.respaese
+[]
+'webaos_soggetti.riferim
+[]
+'webaos_soggetti.spec
+[]
+'webaos_soggetti.tipo
+[]
+}
+*--*

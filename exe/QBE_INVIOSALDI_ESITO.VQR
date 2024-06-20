@@ -1,0 +1,137 @@
+ 3
+"Appoggio per stampa rapporto"
+"tmp_stprapporti"
+"tmp_stprapporti"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+"Anagrafica Rapporti"
+"anarapbo"
+"anarapbo"
+ 0
+ 0
+*
+ 7
+"Tipo Rapporto"
+"tmp_stprapporti.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+*
+"Codice Rapporto"
+"tmp_stprapporti.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Descrizione"
+"tmp_stprapporti.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Intestatario (Non Intermediario)"
+"tmp_stprapporti.CODINTER"
+"CODINTER"
+"C"
+ 26
+ 0
+*
+"Data Inizio"
+"tmp_stprapporti.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+"Data Fine"
+"tmp_stprapporti.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+ 2
+"Soggetti"
+"personbo.CONNES=tmp_stprapporti.CODINTER"
+"Right outer"
+"personbo"
+"tmp_stprapporti"
+*
+"Rapporti"
+"anarapbo.RAPPORTO=tmp_stprapporti.RAPPORTO"
+"Right outer"
+"anarapbo"
+"tmp_stprapporti"
+*
+ 0
+ 2
+"Tipo Rapporto"
+"TIPORAP"
+"Ascending"
+*
+"Codice Rapporto"
+"RAPPORTO"
+"Ascending"
+*
+ 0
+ 0
+ 2
+"w_anno"
+"Anno di riferimento"
+"N"
+"4"
+"0"
+"Remove"
+*
+"w_DescAzi"
+"Intermediario"
+"C"
+"70"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 6
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"Pp6*US_%3BNnF%3B%3C5.X%5C2%26%269%3D%3E%3DYWA%21M%29D%2711%3B%2C2%3B7WiJ6%22%267-%40AH%40%05%16SK5%28%23X%2Fw6sL%27LC%40%27B%279.%3Bz%5C%254F%24.%3EZ%3B%2C3Y%3BB%22%40B%26v%3DM%3B-B%3E3%29I%3F.U4WD%3B%24-8R7h%19.M%00-2%1F%26A%29%5B%5DRT36328%3C8X%2BH%27Q.%15%27+%5DSi4S%22S4*%29%24M%5Bv%5C-U70L.%3FH%3C%06D%3D%28o%29%276+MJ76%232PH%2FLA4TRWB%3B%29%17E*%223%22%26%26kUW82I%3C%5D9D%26%05L%26%2BBIU%5B%2F+1NJ+%17BM%2C%26%04%26%27KJ%3B2%29M%08-69%2FQ%17%2F%40%1A%1D%00"
+"%40+JJ1D%25IMCH%16%2B9-0k89%29%3F++%3BA%3D_%5B%3B%2FFVI%28LT%3CV%04EG_%3C%3E%28%2F3Eh9%24%2714FM%22qDEADDY%3B%3C%21F%22I+X_%3A%2C2%2F%3F%28%2CYX%3FF%05%27-%29M%3D%28%5EM-RA30H8%3EX6T%5C%259CF1%240U%2FPM%198I%26%119%22%269O%2CL%2CA%27%26AM%29%25%22*SG%27B%260%3C%3B%7EM7.W1%03%3A%2FMGNHGXZ0%24N%3AHT%3FP%05EX*oLD%2F%25%2C%3A8.%5D3%3A%12%28-L%3APO3%28%40WH%211%223-%25IX%24V%2544+U_V%2C%26%3D%26%21HD+%3F%28BTDP%05M279I%5B%06SBI9I%297%24%21%3A%3C%28YA%02OC%40%00"
+""
+""
+"native"
+ 0
+ 0
+*

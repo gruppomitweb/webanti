@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Verifica Oper./Fraz. (Controparti) (Standard Tecnici) -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_stp_stdtec_3||version||4.6||title||Stampa Verifica Oper./Fraz. (Controparti) (Standard Tecnici)||query||qbe_stp_stdtec_3||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-03-16||date_rev||2013-12-17||form_class|| ||grid_dx||8||grid_dy||8||grid_show||1||grid_use||1||snaplines_show||1||language|| ||merge||false||modcnt||55||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding|| ||hsl||false||lock_items||false||maxcount||61||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||82||uid||VSKZFNLZNU||sequence||1||bb_sequence||2||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||424||uid||QQSXLXKEPK||sequence||4||bb_sequence||3||page||1|||type||Group_top||comment||group0||exp||c_CONNES||name||group0||y||83||uid||RXDXNVMXRM||sequence||2||bb_sequence||6||page||1||start_each_on_page||true|||type||Group_down||comment||group0||exp||c_CONNES||name||group0||y||423||uid||MJOYCOTZUD||sequence||3||bb_sequence||7||page||1||start_each_on_page||true|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||name||label0||uid||TWPXTLUFTH||page||1||x||4||y||3||w||719||h||21||sequence||8||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Box||name||Box1||x||8||y||27||w||119||h||54||uid||PRLTKAFRPY||sequence||41||page||1||bb_border_colour||false||border_width||1|||type||Label||value||Filtri attivi sulla stampa||text_type||constant||name||label2||uid||TPFOSEFDGQ||page||1||x||128||y||27||w||600||h||19||sequence||42||align||center||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Box||name||Box3||x||128||y||27||w||600||h||54||uid||KGUYZZGEZL||sequence||43||page||1||bb_border_colour||false||border_width||1|||type||Label||value||iif(pTipo=&#39;O&#39;,&#39;OPERAZIONI&#39;,&#39;FRAZIONATE&#39;)||text_type||expression||name||label4||uid||WFAXXURDEI||page||1||x||8||y||32||w||119||h||21||sequence||59||align||center||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Label||value||Da Data Operazione:||text_type||constant||name||label5||uid||LTUYDDXLTN||page||1||x||128||y||44||w||131||h||16||sequence||44||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||c_dadata=&#39;&#39; or Empty(c_dadata)|||type||Label||value||Da Dipendenza:||text_type||constant||name||label9||uid||VDABOAFDNA||page||1||x||560||y||44||w||103||h||16||sequence||54||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||Empty(daCodDip)|||type||Expr||exp||daCodDip||len||6||dec||0||name||expr10||uid||KFDXSNINVU||page||1||x||664||y||44||w||60||h||16||sequence||56||global_font||false||font||Tahoma||font_size||8||font_weight||normal||hidecond||Empty(daCodDip)|||type||Label||value||Da Cliente:||text_type||constant||name||label7||uid||UOTNIWARLD||page||1||x||344||y||44||w||82||h||16||sequence||46||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||Empty(daCodCli)|||type||Expr||exp||arfn_fdate(CharToDate(c_dadata))||dec||0||name||expr6||uid||BSHGRPOMKF||page||1||x||264||y||44||w||80||h||16||sequence||45||global_font||false||font||Tahoma||font_size||8||font_weight||normal||hidecond||c_dadata=&#39;&#39; or Empty(c_dadata)|||type||Expr||exp||daCodCli||len||18||dec||0||name||expr8||uid||AFTZGFPNYR||page||1||x||429||y||44||w||126||h||16||sequence||47||global_font||false||font||Tahoma||font_size||8||font_weight||normal||hidecond||Empty(daCodCli)|||type||Label||value||Filtro da dipendenza a &lt;br&gt;dipendenza disattivato||text_type||constant||name||label11||uid||EFSWEGCROV||page||1||x||576||y||45||w||144||h||29||sequence||58||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||not(Empty(daCodDip) and Empty(aCodDip))|||type||Label||value||Filtro da cliente a cliente&lt;br&gt;disattivato||text_type||constant||name||label12||uid||NGWBDLIRDH||page||1||x||364||y||46||w||148||h||29||sequence||48||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||not(Empty(daCodCli) and Empty(aCodCli))|||type||Label||value||Filtro da data a data &lt;br&gt;disattivato||text_type||constant||name||label13||uid||XKTCGYHCPM||page||1||x||140||y||46||w||120||h||29||sequence||49||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||not((c_dadata=&#39;&#39; or Empty(c_dadata)) and (c_adata=&#39;&#39; or Empty(c_adata)))|||type||Label||value||iif(pAUI=&#39;D&#39;,&#39;A.U.I.&#39;,&#39;Provvisorie&#39;)||text_type||expression||name||label14||uid||YUMUIXBZQV||page||1||x||8||y||55||w||119||h||21||sequence||60||align||center||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Label||value||A Data Operazione:||text_type||constant||name||label16||uid||GFNFZSFVJF||page||1||x||144||y||61||w||115||h||16||sequence||51||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||c_adata=&#39;&#39; or Empty(c_adata)|||type||Label||value||A Cliente:||text_type||constant||name||label15||uid||ZGABCNHETS||page||1||x||344||y||61||w||82||h||16||sequence||50||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||Empty(aCodCli)|||type||Expr||exp||aCodCli||len||18||dec||0||name||expr18||uid||CTMQAAGVKO||page||1||x||429||y||61||w||126||h||16||sequence||53||global_font||false||font||Tahoma||font_size||8||font_weight||normal||hidecond||Empty(aCodCli)|||type||Label||value||A  Dipendenza:||text_type||constant||name||label19||uid||QGIMQSWGGU||page||1||x||560||y||61||w||103||h||16||sequence||55||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||Empty(aCodDip)|||type||Expr||exp||aCodDip||len||6||dec||0||name||expr20||uid||HPBSGXRERD||page||1||x||664||y||61||w||60||h||16||sequence||57||global_font||false||font||Tahoma||font_size||8||font_weight||normal||hidecond||Empty(aCodDip)|||type||Expr||exp||arfn_fdate(CharToDate(c_adata))||dec||0||name||expr17||uid||XWBMPREVEM||page||1||x||264||y||61||w||80||h||16||sequence||52||global_font||false||font||Tahoma||font_size||8||font_weight||normal||hidecond||c_adata=&#39;&#39; or Empty(c_adata)|||type||Label||value||&#39;Operazione: &#39;+c_IDEREG||text_type||expression||name||label21||uid||GCYJTGMZXQ||page||1||x||8||y||88||w||720||h||17||sequence||9||align||center||global_font||false||font||Tahoma||font_size||9||font_weight||bold|||type||Label||value||Soggetto Controparte (TIPO INFORMAZIONE 5)||text_type||constant||name||label21_61||uid||HRPCHBTZSW||page||1||x||8||y||108||w||720||h||17||sequence||9||align||center||global_font||false||font||Tahoma||font_size||9||font_weight||bold|||type||Label||value||IDENTIFICATIVO INFORMAZIONE||text_type||constant||name||label22||uid||CGDTVHPPIR||page||1||x||8||y||132||w||312||h||16||sequence||28|||type||Label||value||A01 - INTERMEDIARIO CHE ESEGUE LA REGISTRAZIONE||text_type||constant||name||label23||uid||IFQYVGARJX||page||1||x||16||y||148||w||312||h||16||sequence||29|||type||Expr||exp||c_TIPOINTER+&quot; - &quot;+arfn_dectabs(&#39;INT&#39;,c_TIPOINTER)||len||62||dec||0||name||expr25||uid||ANITIOTFNF||page||1||x||352||y||164||w||376||h||16||sequence||14|||type||Label||value||A01A - Tipo Intermediario (O)||text_type||constant||name||label24||uid||VQKLICSRVK||page||1||x||32||y||164||w||312||h||16||sequence||10|||type||Label||value||A01B - Codice Intermediario (O)||text_type||constant||name||label26||uid||LDTPBYQYXA||page||1||x||32||y||180||w||312||h||16||sequence||11|||type||Expr||exp||c_CODINTER||len||11||dec||0||name||expr27||uid||GQNXNDIZNL||page||1||x||352||y||180||w||376||h||16||sequence||15|||type||Expr||exp||c_TIPOINF||len||1||dec||0||name||expr29||uid||HBDKAUJOCQ||page||1||x||352||y||196||w||376||h||16||sequence||16|||type||Label||value||A02 - Tipo Informazione (O)||text_type||constant||name||label28||uid||CAIAJURTPE||page||1||x||16||y||196||w||312||h||16||sequence||12|||type||Expr||exp||c_IDEREG||len||20||dec||0||name||expr31||uid||EHPSWEIAQX||page||1||x||352||y||212||w||376||h||16||sequence||17|||type||Label||value||A03 - Identificativo Registrazione (O)||text_type||constant||name||label30||uid||BOAJKCOIPQ||page||1||x||16||y||212||w||312||h||16||sequence||13|||type||Label||value||C31 - NDG/Connessione con Anagrafe (C)||text_type||constant||name||label32||uid||BWQGXVMRUO||page||1||x||16||y||228||w||312||h||16||sequence||32|||type||Expr||exp||c_CONNES||len||16||dec||0||name||expr33||uid||BFLHEGHLTK||page||1||x||352||y||228||w||376||h||16||sequence||33|||type||Label||value||COMPLETE GENERALITA&#39;||text_type||constant||name||label34||uid||KNSRPRGSIW||page||1||x||8||y||244||w||312||h||16||sequence||30|||type||Label||value||F11 - Cognome e Nome/Ragione Sociale (O)||text_type||constant||name||label35||uid||LTYOTCFSHZ||page||1||x||16||y||260||w||312||h||16||sequence||18|||type||Expr||exp||c_RAGSOC||len||70||dec||0||name||expr36||uid||ZWLAWLQOAC||page||1||x||352||y||260||w||376||h||16||sequence||22|||type||Expr||exp||c_PAESE+&quot; - &quot;+arfn_dectabs(&#39;STA&#39;,c_PAESE)||len||62||dec||0||name||expr38||uid||WYPKHEUJAM||page||1||x||352||y||276||w||376||h||16||sequence||35|||type||Label||value||F13 - Paese di Residenza (O)||text_type||constant||name||label37||uid||WSMMZXTRDT||page||1||x||16||y||276||w||312||h||16||sequence||34|||type||Label||value||F14 - Comune di Residenza Anagrafica||text_type||constant||name||label39||uid||OLFIRAAZQY||page||1||x||16||y||292||w||312||h||16||sequence||31|||type||Expr||exp||c_CODCAB||len||6||dec||0||name||expr41||uid||PGAHOJRLUZ||page||1||x||352||y||308||w||376||h||16||sequence||23|||type||Label||value||F14A - Codice CAB Comune (C)||text_type||constant||name||label40||uid||CIXRPGQIOY||page||1||x||32||y||308||w||312||h||16||sequence||19|||type||Expr||exp||c_DESCCIT||len||30||dec||0||name||expr43||uid||VQBCOSWZDT||page||1||x||352||y||324||w||376||h||16||sequence||24|||type||Label||value||F14B - Descrizione in chiaro (C)||text_type||constant||name||label42||uid||BPVGJLNVLL||page||1||x||32||y||324||w||312||h||16||sequence||20|||type||Expr||exp||c_PROVINCIA||len||2||dec||0||name||expr45||uid||PDUJZYEIEM||page||1||x||352||y||340||w||376||h||16||sequence||25|||type||Label||value||F14C - Sigla Provincia (C)||text_type||constant||name||label44||uid||UDMCGYUKMD||page||1||x||32||y||340||w||312||h||16||sequence||21|||type||Expr||exp||c_DOMICILIO||len||35||dec||0||name||expr47||uid||WGUGVPIVHX||page||1||x||352||y||356||w||376||h||16||sequence||37|||type||Label||value||F15 - Domicilio/Sede: Indirizzo (C)||text_type||constant||name||label46||uid||KPUNBZTFRJ||page||1||x||16||y||356||w||312||h||16||sequence||36|||type||Label||value||F16 - Domicilio/Sede: CAP di Residenza (C)||text_type||constant||name||label48||uid||JQPTCMAPTM||page||1||x||16||y||372||w||312||h||16||sequence||26|||type||Expr||exp||c_CAP||len||9||dec||0||name||expr49||uid||HOUPEDWAGC||page||1||x||352||y||372||w||376||h||16||sequence||27|||type||Label||value||DATI SUL RAPPORTO DELLA CONTROPARTE||text_type||constant||name||label50||uid||YSXCOWLEUN||page||1||x||8||y||388||w||312||h||16||sequence||40|||type||Label||value||F31 - Rapporto (C)||text_type||constant||name||label51||uid||UJZXYCKDED||page||1||x||16||y||404||w||312||h||16||sequence||38|||type||Expr||exp||c_RAPPORTO||len||3||dec||0||name||expr52||uid||PUOJEUJZZJ||page||1||x||352||y||404||w||376||h||16||sequence||39|||type||Box||name||Box53||x||12||y||426||w||718||h||0||uid||ALIXGKXVVP||sequence||5||page||1||bb_border_colour||false||border_width||1|||type||Label||value||&#39;Data: &#39;+arfn_fdate(Date())||text_type||expression||name||label54||uid||JYALFCRFEE||page||1||x||12||y||428||w||165||h||16||sequence||6||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))||text_type||expression||name||label55||uid||PRLPKWQQVB||page||1||x||322||y||428||w||405||h||16||sequence||7||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal||| -->
+
+<REPORT NAME="arrp_stp_stdtec_3" TITLE="Stampa Verifica Oper./Fraz. (Controparti) (Standard Tecnici)" QUERY="qbe_stp_stdtec_3" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_stp_stdtec_3.IDBASE" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.TIPOPERS" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.NUMPROG" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.TIPOINTER" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.CODINTER" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.TIPOINF" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.IDEREG" TYPE="C" LEN="20" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.CONNES" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.PAESE" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.CODCAB" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.DESCCIT" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.PROVINCIA" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.DOMICILIO" TYPE="C" LEN="35" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.CAP" TYPE="C" LEN="9" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.CODFISC" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.DATANASC" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.NASCOMUN" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.NASSTATO" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.SOTGRUP" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.RAMOGRUP" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.SETTSINT" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.TIPODOC" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.NUMDOCUM" TYPE="C" LEN="15" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.DATARILASC" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.AUTRILASC" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.SESSO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.ATTIV" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec_3.RAPPORTO" TYPE="C" LEN="25" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="82" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="3" X="4" YY="24" XX="723"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="27" X="8" YY="81" XX="127"
+                    ALIGN="L"
+                    UID="PRLTKAFRPY" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="Filtri attivi sulla stampa" EXPRTYPE="constant"
+                    Y="27" X="128" YY="46" XX="728"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="27" X="128" YY="81" XX="728"
+                    ALIGN="L"
+                    UID="KGUYZZGEZL" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="iif(pTipo=&#39;O&#39;,&#39;OPERAZIONI&#39;,&#39;FRAZIONATE&#39;)" EXPRTYPE="expression"
+                    Y="32" X="8" YY="53" XX="127"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Da Data Operazione:" EXPRTYPE="constant"
+                    Y="44" X="128" YY="60" XX="259"
+                    ALIGN="R"
+                    HIDECONDITION="c_dadata=&#39;&#39; or Empty(c_dadata)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(c_dadata))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="44" X="264" YY="60" XX="344"
+                    ALIGN="L"
+                    HIDECONDITION="c_dadata=&#39;&#39; or Empty(c_dadata)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="Da Cliente:" EXPRTYPE="constant"
+                    Y="44" X="344" YY="60" XX="426"
+                    ALIGN="R"
+                    HIDECONDITION="Empty(daCodCli)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="daCodCli" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="44" X="429" YY="60" XX="555"
+                    ALIGN="L"
+                    HIDECONDITION="Empty(daCodCli)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="18"
+                    />
+              <ITEM OBJ="stringa" NAME="Da Dipendenza:" EXPRTYPE="constant"
+                    Y="44" X="560" YY="60" XX="663"
+                    ALIGN="R"
+                    HIDECONDITION="Empty(daCodDip)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="daCodDip" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="44" X="664" YY="60" XX="724"
+                    ALIGN="L"
+                    HIDECONDITION="Empty(daCodDip)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="6"
+                    />
+              <ITEM OBJ="stringa" NAME="Filtro da dipendenza a &#xA;dipendenza disattivato" EXPRTYPE="constant"
+                    Y="45" X="576" YY="74" XX="720"
+                    ALIGN="L"
+                    HIDECONDITION="not(Empty(daCodDip) and Empty(aCodDip))"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Filtro da cliente a cliente&#xA;disattivato" EXPRTYPE="constant"
+                    Y="46" X="364" YY="75" XX="512"
+                    ALIGN="L"
+                    HIDECONDITION="not(Empty(daCodCli) and Empty(aCodCli))"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Filtro da data a data &#xA;disattivato" EXPRTYPE="constant"
+                    Y="46" X="140" YY="75" XX="260"
+                    ALIGN="L"
+                    HIDECONDITION="not((c_dadata=&#39;&#39; or Empty(c_dadata)) and (c_adata=&#39;&#39; or Empty(c_adata)))"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="iif(pAUI=&#39;D&#39;,&#39;A.U.I.&#39;,&#39;Provvisorie&#39;)" EXPRTYPE="expression"
+                    Y="55" X="8" YY="76" XX="127"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="A Cliente:" EXPRTYPE="constant"
+                    Y="61" X="344" YY="77" XX="426"
+                    ALIGN="R"
+                    HIDECONDITION="Empty(aCodCli)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="A Data Operazione:" EXPRTYPE="constant"
+                    Y="61" X="144" YY="77" XX="259"
+                    ALIGN="R"
+                    HIDECONDITION="c_adata=&#39;&#39; or Empty(c_adata)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(c_adata))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="61" X="264" YY="77" XX="344"
+                    ALIGN="L"
+                    HIDECONDITION="c_adata=&#39;&#39; or Empty(c_adata)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="10"
+                    />
+              <ITEM OBJ="espressione" NAME="aCodCli" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="61" X="429" YY="77" XX="555"
+                    ALIGN="L"
+                    HIDECONDITION="Empty(aCodCli)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="18"
+                    />
+              <ITEM OBJ="stringa" NAME="A  Dipendenza:" EXPRTYPE="constant"
+                    Y="61" X="560" YY="77" XX="663"
+                    ALIGN="R"
+                    HIDECONDITION="Empty(aCodDip)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="aCodDip" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="61" X="664" YY="77" XX="724"
+                    ALIGN="L"
+                    HIDECONDITION="Empty(aCodDip)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="6"
+                    />
+              <ITEM OBJ="box_end" UID="PRLTKAFRPY"/>
+              <ITEM OBJ="box_end" UID="KGUYZZGEZL"/>
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="0" FOOTH="0" SYMNAME="" UID="RXDXNVMXRM" TOP="82" BOTTOM="421" EXPRESSION="c_CONNES" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+          <SECTION TYPE="group" HEADH="339" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="stringa" NAME="&#39;Operazione: &#39;+c_IDEREG" EXPRTYPE="expression"
+                            Y="4" X="8" YY="21" XX="728"
+                            ALIGN="C"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="stringa" NAME="Soggetto Controparte (TIPO INFORMAZIONE 5)" EXPRTYPE="constant"
+                            Y="24" X="8" YY="41" XX="728"
+                            ALIGN="C"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="stringa" NAME="IDENTIFICATIVO INFORMAZIONE" EXPRTYPE="constant"
+                            Y="48" X="8" YY="64" XX="320"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="stringa" NAME="A01 - INTERMEDIARIO CHE ESEGUE LA REGISTRAZIONE" EXPRTYPE="constant"
+                            Y="64" X="16" YY="80" XX="328"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="stringa" NAME="A01A - Tipo Intermediario (O)" EXPRTYPE="constant"
+                            Y="80" X="32" YY="96" XX="344"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_TIPOINTER+&quot; - &quot;+arfn_dectabs(&#39;INT&#39;,c_TIPOINTER)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="80" X="352" YY="96" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="62"
+                            />
+                      <ITEM OBJ="stringa" NAME="A01B - Codice Intermediario (O)" EXPRTYPE="constant"
+                            Y="96" X="32" YY="112" XX="344"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_CODINTER" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="96" X="352" YY="112" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="11"
+                            />
+                      <ITEM OBJ="stringa" NAME="A02 - Tipo Informazione (O)" EXPRTYPE="constant"
+                            Y="112" X="16" YY="128" XX="328"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_TIPOINF" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="112" X="352" YY="128" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="1"
+                            />
+                      <ITEM OBJ="stringa" NAME="A03 - Identificativo Registrazione (O)" EXPRTYPE="constant"
+                            Y="128" X="16" YY="144" XX="328"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_IDEREG" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="128" X="352" YY="144" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="20"
+                            />
+                      <ITEM OBJ="stringa" NAME="C31 - NDG/Connessione con Anagrafe (C)" EXPRTYPE="constant"
+                            Y="144" X="16" YY="160" XX="328"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_CONNES" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="144" X="352" YY="160" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="stringa" NAME="COMPLETE GENERALITA&#39;" EXPRTYPE="constant"
+                            Y="160" X="8" YY="176" XX="320"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="stringa" NAME="F11 - Cognome e Nome/Ragione Sociale (O)" EXPRTYPE="constant"
+                            Y="176" X="16" YY="192" XX="328"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="176" X="352" YY="192" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="stringa" NAME="F13 - Paese di Residenza (O)" EXPRTYPE="constant"
+                            Y="192" X="16" YY="208" XX="328"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_PAESE+&quot; - &quot;+arfn_dectabs(&#39;STA&#39;,c_PAESE)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="192" X="352" YY="208" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="62"
+                            />
+                      <ITEM OBJ="stringa" NAME="F14 - Comune di Residenza Anagrafica" EXPRTYPE="constant"
+                            Y="208" X="16" YY="224" XX="328"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="stringa" NAME="F14A - Codice CAB Comune (C)" EXPRTYPE="constant"
+                            Y="224" X="32" YY="240" XX="344"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_CODCAB" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="224" X="352" YY="240" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="6"
+                            />
+                      <ITEM OBJ="stringa" NAME="F14B - Descrizione in chiaro (C)" EXPRTYPE="constant"
+                            Y="240" X="32" YY="256" XX="344"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DESCCIT" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="240" X="352" YY="256" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="30"
+                            />
+                      <ITEM OBJ="stringa" NAME="F14C - Sigla Provincia (C)" EXPRTYPE="constant"
+                            Y="256" X="32" YY="272" XX="344"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_PROVINCIA" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="256" X="352" YY="272" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="2"
+                            />
+                      <ITEM OBJ="stringa" NAME="F15 - Domicilio/Sede: Indirizzo (C)" EXPRTYPE="constant"
+                            Y="272" X="16" YY="288" XX="328"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DOMICILIO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="272" X="352" YY="288" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="35"
+                            />
+                      <ITEM OBJ="stringa" NAME="F16 - Domicilio/Sede: CAP di Residenza (C)" EXPRTYPE="constant"
+                            Y="288" X="16" YY="304" XX="328"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_CAP" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="288" X="352" YY="304" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="DATI SUL RAPPORTO DELLA CONTROPARTE" EXPRTYPE="constant"
+                            Y="304" X="8" YY="320" XX="320"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="stringa" NAME="F31 - Rapporto (C)" EXPRTYPE="constant"
+                            Y="320" X="16" YY="336" XX="328"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_RAPPORTO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="320" X="352" YY="336" XX="728"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="3"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="421" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="12" XX="731" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="3" X="12" YY="19" XX="177"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+                    Y="3" X="322" YY="19" XX="727"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

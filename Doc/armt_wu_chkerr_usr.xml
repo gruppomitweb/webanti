@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="74413668">
+  <CodifyName>armt_wu_chkerr</CodifyName>
+  <Name>armt_wu_chkerr.mstdef</Name>
+  <Title>WU Import Analisys</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="210570699"></Title>
+    <Note/>
+    <JPG x="8" y="7">armt_wu_chkerr_usr_1</JPG>
+    <Item type="campo" x1="152" y1="14" x2="284" y2="34">
+      <Name LinkID="18455262">WUNOMEFILE</Name>
+      <Comment>Nome File</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="408" y1="14" x2="480" y2="34">
+      <Name LinkID="201401561">WURIFMTCN</Name>
+      <Comment>MTCN</Comment>
+      <Key>key3</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="584" y1="14" x2="712" y2="34">
+      <Name LinkID="37501703">WUTIPOPE</Name>
+      <Comment>Send o Payment</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="217" x2="208" y2="237">
+      <Name LinkID="129496599">WUCODDIP</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="400" y1="217" x2="472" y2="237">
+      <Name LinkID="37487623">WUDATOPE</Name>
+      <Comment>Data Operazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="888" y1="14" x2="960" y2="34">
+      <Name LinkID="52180919">WUIMPORTO</Name>
+      <Comment>Importo Operazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="217" x2="960" y2="237">
+      <Name LinkID="83370007">WUSTADES</Name>
+      <Comment>Stato Destinazione WU</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="16" y1="14" x2="88" y2="34">
+      <Name LinkID="51574295">WUCODICE</Name>
+      <Comment>Progressivo</Comment>
+      <Key>key1</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="400" y1="483" x2="472" y2="503">
+      <Name LinkID="122171495">WUNDATOPE</Name>
+      <Comment>Nuova Data Operazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="511" x2="746" y2="531">
+      <Name LinkID="66309785">WUNCAPCLI</Name>
+      <Comment>Nuovo CAP Cliente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="567" x2="224" y2="587">
+      <Name LinkID="106442855">WUNDATNAS</Name>
+      <Comment>Nuova Data Nascita Cliente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="400" y1="595" x2="472" y2="615">
+      <Name LinkID="183700962">WUNRDOCCLI</Name>
+      <Comment>Nuova Data Rilascio Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="595" x2="776" y2="615">
+      <Name LinkID="183701218">WUNSDOCCLI</Name>
+      <Comment>Nuova Data Scadenza Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="595" x2="304" y2="615">
+      <Name LinkID="183701474">WUNTDOCCLI</Name>
+      <Comment>Tipo Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="483" x2="960" y2="503">
+      <Name LinkID="50983271">WUNSTADES</Name>
+      <Comment>Nuovo Stato Destinazione WU</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="483" x2="222" y2="503">
+      <Name LinkID="252137831">WUNCODDIP</Name>
+      <Comment>Nuovo Codice Dipendenza</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="511" x2="404" y2="531">
+      <Name LinkID="66604697">WUNCITCLI</Name>
+      <Comment>Città Cliente</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="539" x2="942" y2="559">
+      <Name LinkID="181988834">WUNBSTACLI</Name>
+      <Comment>Nuovo Stato Nascita Cliente</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="539" x2="404" y2="559">
+      <Name LinkID="201125346">WUNBCITCLI</Name>
+      <Comment>Nuova Città Nascita Cliente</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="245" x2="404" y2="265">
+      <Name LinkID="243819879">WUNOMCLI</Name>
+      <Comment>Nome Cliente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="245" x2="956" y2="265">
+      <Name LinkID="243844631">WUCOGCLI</Name>
+      <Comment>Cognome Cliente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="273" x2="404" y2="293">
+      <Name LinkID="243792919">WUCITCLI</Name>
+      <Comment>Città Cliente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="273" x2="746" y2="293">
+      <Name LinkID="243811351">WUCAPCLI</Name>
+      <Comment>CAP Cliente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="301" x2="524" y2="321">
+      <Name LinkID="243857079">WUINDCLI</Name>
+      <Comment>Indirizzo Cliente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="329" x2="404" y2="349">
+      <Name LinkID="156788071">WUNOMCON</Name>
+      <Comment>Nome Controparte</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="329" x2="956" y2="349">
+      <Name LinkID="156812823">WUCOGCON</Name>
+      <Comment>Cognome Controparte</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="357" x2="404" y2="377">
+      <Name LinkID="66604505">WUBCITCLI</Name>
+      <Comment>Città Nascita Cliente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="357" x2="956" y2="377">
+      <Name LinkID="65408473">WUBSTACLI</Name>
+      <Comment>Stato Nascita Cliente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="385" x2="224" y2="405">
+      <Name LinkID="86836231">WUDATNAS</Name>
+      <Comment>Data Nascita Cliente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="385" x2="840" y2="405">
+      <Name LinkID="79033879">WUCODFIS</Name>
+      <Comment>Codice Fiscale</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="400" y1="413" x2="562" y2="433">
+      <Name LinkID="65515417">WUNDOCCLI</Name>
+      <Comment>N° Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="441" x2="896" y2="461">
+      <Name LinkID="30912201">WUADOCRIL</Name>
+      <Comment>Autorità Rilascio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="441" x2="224" y2="461">
+      <Name LinkID="65515481">WURDOCCLI</Name>
+      <Comment>Data Rilascio Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="400" y1="441" x2="472" y2="461">
+      <Name LinkID="65515497">WUSDOCCLI</Name>
+      <Comment>Data Scadenza Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="400" y1="385" x2="512" y2="405">
+      <Name LinkID="243777303">WUSEXCLI</Name>
+      <Comment>Sesso Cliente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="413" x2="304" y2="433">
+      <Name LinkID="65515513">WUTDOCCLI</Name>
+      <Comment>Tipo Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="832" y1="595" x2="960" y2="616">
+      <Name LinkID="193644775">WUFLGALL</Name>
+      <Comment>Completata</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="567" x2="824" y2="587">
+      <Name LinkID="250040679">WUNCODFIS</Name>
+      <Comment>Codice Fiscale</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="42" x2="200" y2="62">
+      <Name LinkID="19854871">WUCODMAGE</Name>
+      <Comment>MacroAgente (Network)</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="584" y1="42" x2="632" y2="62">
+      <Name LinkID="129496599">WUCODDIP</Name>
+      <Comment>Agenzia</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="232" y1="77" x2="752" y2="196">
+      <Name LinkID="62524057">WUNOTE</Name>
+      <Comment>Elenco Errori</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="832" y1="567" x2="960" y2="588">
+      <Name LinkID="69585127">WUFLGFRC</Name>
+      <Comment>Forza caricamento movimento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="413" x2="840" y2="433">
+      <Name LinkID="34906711">WUORIGCF</Name>
+      <Comment>Codice Fiscale da ACF</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

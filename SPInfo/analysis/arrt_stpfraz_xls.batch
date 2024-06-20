@@ -1,0 +1,43 @@
+﻿* --- Resource Vers. 0.9
+arrt_stpfraz_xls
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:41
+description='Lancio Stampa Frazionate (Routine)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:26
+module_name='
+name='arrt_stpfraz_xls
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbstati.codsta
+'tbstati.descri
+]
+'Queries
+[
+'qbe_stpfrazana_xls.vqr
+]
+'Routines
+[
+'arfn_fdate
+]
+'Tables
+[
+'tbstati<table>
+]
+}
+I
+*--*
+￼[]
+*--*

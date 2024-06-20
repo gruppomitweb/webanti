@@ -1,0 +1,239 @@
+﻿* --- Resource Vers. 0.9
+xlientiope<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Intestatari Op. Provvisorie
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='xlientiope
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'xlientiope.idfilebo
+'xlientiope.codsog
+'xlientiope.tipofile
+'xlientiope.numcol
+'xlientiope.legame
+'xlientiope.rapcol
+'xlientiope.ucode
+'xlientiope.idbase
+'xlientiope.proquota
+'xlientiope.impsara
+'xlientiope.numimp
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'xlientiope.codsog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODSOG
+state=3
+table_name='xlientiope
+type='field
+used_resource_keys={}
+I
+'xlientiope.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Identificativo riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='xlientiope
+type='field
+used_resource_keys={}
+I
+'xlientiope.idfilebo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDFILEBO
+state=3
+table_name='xlientiope
+type='field
+used_resource_keys={}
+I
+'xlientiope.impsara
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Importo per Sara
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IMPSARA
+state=3
+table_name='xlientiope
+type='field
+used_resource_keys={}
+I
+'xlientiope.legame
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Legame
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='LEGAME
+state=3
+table_name='xlientiope
+type='field
+used_resource_keys={}
+I
+'xlientiope.numcol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMCOL
+state=3
+table_name='xlientiope
+type='field
+used_resource_keys={}
+I
+'xlientiope.numimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Mark Importazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMIMP
+state=3
+table_name='xlientiope
+type='field
+used_resource_keys={}
+I
+'xlientiope.proquota
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Pro Quota
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PROQUOTA
+state=3
+table_name='xlientiope
+type='field
+used_resource_keys={}
+I
+'xlientiope.rapcol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice rapporto Collegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPCOL
+state=3
+table_name='xlientiope
+type='field
+used_resource_keys={}
+I
+'xlientiope.tipofile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo FIle
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOFILE
+state=3
+table_name='xlientiope
+type='field
+used_resource_keys={}
+I
+'xlientiope.ucode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Univoco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='UCODE
+state=3
+table_name='xlientiope
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'xlientiope.codsog
+[]
+'xlientiope.idbase
+[]
+'xlientiope.idfilebo
+[]
+'xlientiope.impsara
+[]
+'xlientiope.legame
+[]
+'xlientiope.numcol
+[]
+'xlientiope.numimp
+[]
+'xlientiope.proquota
+[]
+'xlientiope.rapcol
+[]
+'xlientiope.tipofile
+[]
+'xlientiope.ucode
+[]
+}
+*--*

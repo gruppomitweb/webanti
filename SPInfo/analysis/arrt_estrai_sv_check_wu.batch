@@ -1,0 +1,75 @@
+﻿* --- Resource Vers. 0.9
+arrt_estrai_sv_check_wu
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Estrazione dati Trimestrali per SV (Check)
+file_modified_on=#2024-05-06 14:45:41
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:12
+module_name='
+name='arrt_estrai_sv_check_wu
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'analisi_sv.dataope
+'analisi_sv.tipo
+'analisi_sv.numprog
+'analisi_sv.segno
+'analisi_sv.coddipe
+'analisi_sv.descriz
+'analisi_sv.provincia1
+'analisi_sv.tiposv
+'analisi_sv.connescli
+'analisi_sv.ragsoc
+'analisi_sv.sotgrup
+'analisi_sv.provincia
+'analisi_sv.paese
+'analisi_sv.tipocont
+'analisi_sv.impout
+'analisi_sv.rownumber
+'analisi_sv.valuta
+'analisi_sv.flagfraud
+]
+'Libraries
+[
+'LibreriaMit<project>
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_estrai_sv_ope_tab_wu_minmax.vqr
+'qbe_estrai_sv_ope_tab_wu.vqr
+'qbe_estrai_sv_frz_tab_wu_minmax.vqr
+'qbe_estrai_sv_frz_tab_wu.vqr
+'qbe_estrai_sv_ope_chk_wu.vqr
+'qbe_estrai_copia_sv_wu_minmax.vqr
+'qbe_estrai_copia_sv_wu.vqr
+]
+'Routines
+[
+'arfn_datesum
+'arfn_fdate
+'arfn_fdatetime
+'arrt_estrai_sv_check_wu
+]
+'Tables
+[
+'analisi_sv<table>
+'tbstati<table>
+'personbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

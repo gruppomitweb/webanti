@@ -1,0 +1,106 @@
+ 1
+"Soggetti"
+"soggetti"
+"soggetti"
+ 73
+ 13
+*
+ 7
+"Ragione Sociale / Nominativo"
+"soggetti.RAGSOC"
+"RAGSOC"
+"C"
+ 120
+ 0
+*
+"Data Nascita"
+"soggetti.DATANAS"
+"DATANAS"
+"D"
+ 8
+ 0
+*
+"Luogo di nascita"
+"soggetti.LUOGONAS"
+"LUOGONAS"
+"C"
+ 50
+ 0
+*
+"Codice Fiscale"
+"soggetti.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Paese Residenza"
+"soggetti.RESPAESE"
+"RESPAESE"
+"C"
+ 50
+ 0
+*
+"Città residenza"
+"soggetti.RESCITTA"
+"RESCITTA"
+"C"
+ 50
+ 0
+*
+"Indirizzo residenza"
+"soggetti.RESIND"
+"RESIND"
+"C"
+ 200
+ 0
+*
+ 0
+ 2
+"soggetti.RAGSOC"
+""
+">="
+"?w_danome"
+"AND"
+""
+*
+"soggetti.RAGSOC"
+""
+"<="
+"?w_a_nome"
+"AND"
+""
+*
+ 1
+"Ragione Sociale / Nominativo"
+"soggetti.RAGSOC"
+"Ascending"
+*
+ 0
+ 0
+ 2
+"w_danome"
+"Ragione Sociale / Nominativo"
+"Char"
+"120"
+"0"
+"Remove"
+*
+"w_a_nome"
+"Ragione Sociale / Nominativo"
+"Char"
+"120"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.t.
+*

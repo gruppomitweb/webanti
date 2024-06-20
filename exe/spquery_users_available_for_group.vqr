@@ -1,0 +1,75 @@
+ 2
+"cpusers"
+"cpusers"
+"cpusers"
+ 0
+ 0
+*
+"cpusrgrp"
+"cpusrgrp"
+"cpusrgrp"
+ 0
+ 0
+*
+ 2
+"Code"
+"cpusers.code"
+"code"
+"N"
+ 6
+ 0
+*
+"Name"
+"cpusers.name"
+"name"
+"C"
+ 50
+ 0
+*
+ 1
+"cpusrgrp(User Code)"
+"cpusers.code=cpusrgrp.usercode"
+"Left outer"
+"cpusers"
+"cpusrgrp"
+*
+ 1
+"cpusers.code"
+""
+"not in"
+"SPQUERY_USERCODES_FOR_GROUP"
+"AND"
+""
+*
+ 1
+"Code"
+"cpusers.code"
+"Ascending"
+*
+ 0
+ 1
+ 1
+"groupcode"
+"Group Code"
+"N"
+"6"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 2
+.f.
+""
+.f.
+.f.
+""
+*

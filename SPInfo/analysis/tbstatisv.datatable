@@ -1,0 +1,182 @@
+﻿* --- Resource Vers. 0.9
+tbstatisv<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Stati SV
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbstatisv
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbstatisv.codicensv
+'tbstatisv.denominazione
+'tbstatisv.cod_bi
+'tbstatisv.sigla
+'tbstatisv.iso
+'tbstatisv.iso2
+'tbstatisv.inizio
+'tbstatisv.fine
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbstatisv.cod_bi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codifica Banca D'Italia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COD_BI
+state=3
+table_name='tbstatisv
+type='field
+used_resource_keys={}
+I
+'tbstatisv.codicensv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Stato N.S.V.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODICENSV
+state=3
+table_name='tbstatisv
+type='field
+used_resource_keys={}
+I
+'tbstatisv.denominazione
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DENOMINAZIONE
+state=3
+table_name='tbstatisv
+type='field
+used_resource_keys={}
+I
+'tbstatisv.fine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine Validità
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FINE
+state=3
+table_name='tbstatisv
+type='field
+used_resource_keys={}
+I
+'tbstatisv.inizio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio Validità
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INIZIO
+state=3
+table_name='tbstatisv
+type='field
+used_resource_keys={}
+I
+'tbstatisv.iso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ISO 3 Caratteri
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ISO
+state=3
+table_name='tbstatisv
+type='field
+used_resource_keys={}
+I
+'tbstatisv.iso2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ISO 2 Caratteri
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ISO2
+state=3
+table_name='tbstatisv
+type='field
+used_resource_keys={}
+I
+'tbstatisv.sigla
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Catastale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SIGLA
+state=3
+table_name='tbstatisv
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbstatisv.cod_bi
+[]
+'tbstatisv.codicensv
+[]
+'tbstatisv.denominazione
+[]
+'tbstatisv.fine
+[]
+'tbstatisv.inizio
+[]
+'tbstatisv.iso
+[]
+'tbstatisv.iso2
+[]
+'tbstatisv.sigla
+[]
+}
+*--*

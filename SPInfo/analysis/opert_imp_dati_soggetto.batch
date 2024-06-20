@@ -1,0 +1,293 @@
+﻿* --- Resource Vers. 0.9
+opert_imp_dati_soggetto
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Importa i dati (Inserimento soggetto)
+file_modified_on=#2023-02-27 10:13:53
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:33
+module_name='
+name='opert_imp_dati_soggetto
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_imp_oper.tipooper
+'tmp_imp_oper.codstudio
+'tmp_imp_oper.coddipe
+'tmp_imp_oper.numprog
+'tmp_imp_oper.dataope
+'tmp_imp_oper.flagfraz
+'tmp_imp_oper.cauoper
+'tmp_imp_oper.connescli
+'tmp_imp_oper.connesreal
+'tmp_imp_oper.connesben
+'tmp_imp_oper.datareg
+'tmp_imp_oper.statoreg
+'tmp_imp_oper.datarett
+'tmp_imp_oper.valuta
+'tmp_imp_oper.importo
+'tmp_imp_oper.contanti
+'tmp_imp_oper.mezpag
+'tmp_imp_oper.prestaz
+'tmp_imp_oper.posiz
+'tmp_imp_oper.ragio
+'tmp_imp_oper.modsvol
+'tmp_imp_oper.areageo
+'tmp_imp_oper.ammont
+'tmp_imp_oper.durat
+'tmp_imp_oper.tipo
+'tmp_imp_oper.rragio
+'tmp_imp_oper.rcomp
+'tmp_imp_oper.rarea
+'tmp_imp_oper.rimp
+'tmp_imp_oper.rfreq
+'tmp_imp_oper.rtipo
+'scarti_import.connescli
+'scarti_import.impprog
+'scarti_import.tipooper
+'scarti_import.codstudio
+'scarti_import.coddipe
+'scarti_import.numprog
+'scarti_import.dataope
+'scarti_import.flagfraz
+'scarti_import.cauoper
+'scarti_import.connesreal
+'scarti_import.connesben
+'scarti_import.datareg
+'scarti_import.statoreg
+'scarti_import.datarett
+'scarti_import.valuta
+'scarti_import.importo
+'scarti_import.contanti
+'scarti_import.mezpag
+'scarti_import.prestaz
+'scarti_import.posiz
+'scarti_import.ragio
+'scarti_import.modsvol
+'scarti_import.areageo
+'scarti_import.tipo
+'scarti_import.ammont
+'scarti_import.durat
+'scarti_import.rarea
+'scarti_import.rragio
+'scarti_import.rcomp
+'scarti_import.rtipo
+'scarti_import.rfreq
+'scarti_import.rimp
+'scarti_import.codabi
+'scarti_import.codcab
+'scarti_import.connaltro
+'scarti_import.txterr
+'scarti_import.impprog13
+'scarti_import.despunto
+'xperazbo.idbase
+'xperazbo.coddipe
+'xperazbo.numprog
+'xperazbo.dataope
+'xperazbo.flagfraz
+'xperazbo.connescli
+'xperazbo.connesben
+'xperazbo.datareg
+'xperazbo.statoreg
+'xperazbo.datarett
+'xperazbo.valuta
+'xperazbo.despunto
+'xperazbo.prestaz
+'xperazbo.note
+'xperazbo.impprog
+'xperazbo.ragio
+'xperazbo.modsvol
+'xperazbo.areageo
+'xperazbo.rarea
+'xperazbo.rragio
+'xperazbo.rcomp
+'xperazbo.rtipo
+'xperazbo.rimp
+'xperazbo.rfreq
+'xperazbo.ammont
+'xperazbo.durat
+'xperazbo.tipo
+'xperazbo.scopo
+'xperazbo.causale
+'xpe_contante.idope
+'xpe_contante.billsrit
+'xpe_contante.billssov
+'xpe_contante.tipatt
+'xpe_contante.tipoattiv
+'xpe_contante.codicegln
+'xpe_contante.taglio
+'xpe_contante.nbanconote
+'xpe_contante.abiinter
+'xpe_contante.abipropr
+'xpe_contante.glnaltrosog
+'xpe_contante.glnaltrasc
+'xpe_contante.codclicon
+'xpe_contante.codcomcon
+'xpe_contante.ateco_con
+'xpe_contante.coddipe
+'xpe_contante.totalerig
+'xpe_contante.totalegen
+'scarto_contante.impprog
+]
+'Libraries
+[
+'FileLibrary<painter>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_personbo_ope.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_writelog
+]
+'Tables
+[
+'fraziobo<table>
+'frz_contante<table>
+'intermbo<table>
+'ope_contante<table>
+'operazbo<table>
+'personbo<table>
+'scarti_import<table>
+'scarto_contante<table>
+'tbcauint<table>
+'tbcitta<table>
+'tbstati<table>
+'tbvalute<table>
+'tmp_erroriimp<table>
+'tmp_imp_oper<table>
+'xpe_contante<table>
+'xperazbo<table>
+'xrz_contante<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_imp_dati_soggetto|Error|core::document|Update dependencies|Field "xperazbo.CAUOPER" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Field "xperazbo.CAUOPER" not found.
+resource_key='opert_imp_dati_soggetto
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_imp_dati_soggetto|Error|core::document|Update dependencies|Field "xperazbo.CONNESREAL" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Field "xperazbo.CONNESREAL" not found.
+resource_key='opert_imp_dati_soggetto
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_imp_dati_soggetto|Error|core::document|Update dependencies|Field "xperazbo.IMPORTO" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Field "xperazbo.IMPORTO" not found.
+resource_key='opert_imp_dati_soggetto
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_imp_dati_soggetto|Error|core::document|Update dependencies|Field "xperazbo.CONTANTI" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Field "xperazbo.CONTANTI" not found.
+resource_key='opert_imp_dati_soggetto
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_imp_dati_soggetto|Error|core::document|Update dependencies|Field "xperazbo.TIPOOPER" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Field "xperazbo.TIPOOPER" not found.
+resource_key='opert_imp_dati_soggetto
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_imp_dati_soggetto|Error|core::document|Update dependencies|Field "xperazbo.CODSTUDIO" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Field "xperazbo.CODSTUDIO" not found.
+resource_key='opert_imp_dati_soggetto
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_imp_dati_soggetto|Error|core::document|Update dependencies|Field "xperazbo.RSCOPO" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Field "xperazbo.RSCOPO" not found.
+resource_key='opert_imp_dati_soggetto
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

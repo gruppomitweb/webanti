@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="83648114">
+  <CodifyName>arpg_stprappo_sto</CodifyName>
+  <Name>arpg_stprappo_sto.pagedef</Name>
+  <Title>Stampa Storico Rapporti (Pagina)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="213501026"></Title>
+    <Note/>
+    <JPG x="76" y="9">arpg_stprappo_sto_usr_1</JPG>
+    <Item type="variabile" x1="152" y1="9" x2="280" y2="31">
+      <Name LinkID="77276975">daRappo</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="152" y1="45" x2="280" y2="67">
+      <Name LinkID="60627614">aRappo</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="248" y1="99" x2="396" y2="122">
+      <Name LinkID="257726366">tipstp</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="512" y1="99" x2="552" y2="135">
+      <Name LinkID="83649634">images/printer.jpg</Name>
+      <Image>images/printer.jpg</Image>
+      <Hyperlink>arrt_stprappo_sto</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

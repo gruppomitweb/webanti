@@ -1,0 +1,189 @@
+ 1
+"Soggetti conto informazioni"
+"intestbo"
+"intestbo"
+ 0
+ 0
+*
+ 19
+"idbase"
+"intestbo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Numero riga"
+"intestbo.CPROWNUM"
+"CPROWNUM"
+"N"
+ 10
+ 0
+*
+"Data Inizio"
+"intestbo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+"Tipo Soggetto"
+"intestbo.TIPOPERS"
+"TIPOPERS"
+"C"
+ 1
+ 0
+*
+"Intestatario (Non Intermediario)"
+"intestbo.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+*
+"Data Fine"
+"intestbo.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+"Numero Progressivo relativo"
+"intestbo.NUMPROG1"
+"NUMPROG1"
+"C"
+ 11
+ 0
+*
+"Numero Progressivo Relativo Chiusura"
+"intestbo.NUMPROG2"
+"NUMPROG2"
+"C"
+ 11
+ 0
+*
+"Rapporto (Copia della testata)"
+"intestbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Tipo Rapporto"
+"intestbo.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+*
+"Stato Registrazione"
+"intestbo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+""
+"intestbo.DESCINTER"
+"DESCINTER"
+"C"
+ 70
+ 0
+*
+"Operazione modificata"
+"intestbo.OPERAZMOD"
+"OPERAZMOD"
+"C"
+ 20
+ 0
+*
+"Data Rettifica"
+"intestbo.DATARETT"
+"DATARETT"
+"D"
+ 8
+ 0
+*
+"IDEREG"
+"intestbo.IDEREG"
+"IDEREG"
+"C"
+ 20
+ 0
+*
+"Collegamento"
+"intestbo.COLLEGAMEN"
+"COLLEGAMEN"
+"C"
+ 20
+ 0
+*
+""
+"intestbo.UCODE"
+"UCODE"
+"C"
+ 7
+ 0
+*
+""
+"intestbo.ABBINATO"
+"ABBINATO"
+"N"
+ 1
+ 0
+*
+"Progressivo Import"
+"intestbo.PRGIMPSOG"
+"PRGIMPSOG"
+"N"
+ 15
+ 0
+*
+ 0
+ 2
+"[NOTEMPTYSTR(intestbo.NUMPROG2)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(intestbo.DATAINI)]"
+""
+"="
+"0"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 1
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%23+J%5CJ8%22BP%3C+7O0M8DH%05O%03K%25%2CUGOBNJU+5C%2F%289_4N%3D.H%290J8%40TY.02%3B61+K3%5CAR%2CV%3C%3EE%27%3A%3A%3CY%5DHD0A%2B%263ZHiB%3D2%02*AEUcO%5D%5DGFZ.9+%01A2%3Du6ZQ*%15%261IUR%21%3B93%3E3%2C%286BBU+6Z%40%3E%24%3E%3B2%06*MJB83GROXHG%25%3E4M*4%22%5E%5CU1+%601G%24E%3C%22%07%5E.6V9-H%3EXB%3FL%25Q3%3BMJ1%5DEP%5C%3Es8%5E32%1B%223%26%26+5%5BM%3F-%27RGZ%3C%2B%04%3E1%11N%1E%24OV%247EV%28D%23+V%24%23V%28YJ%3EB%28%259%21%3CI%2F%3B%297%2BG9%00"
+"I%5D%3B%7BS%3FA5E81%21%3D%5B%5C%3A%5D1%24F.F%3DBDHUuZr7_OBN.E%3D1%230zL%226-0%28KPO2K%28%27B%25-R%5C%2CKE%5E_B%22ER4SVK_QI6%28%3A%5CBjX-Z%2B1%2F%292BOw%2Fn%2C%3F8%40%1C%2B_%241%2F+k%5E%3EL+6%25FPZ%227+%22*%3C%3APU_%5CX%21A%27--1-%2B%3E%2CUC%5EZ%27717TDRD%3EO%5D7%25%1CK%5C%5E%29L%25B93C%23+%2496%29AUL%1C1%40R%40P%3D%18%3A%17%22MF%1F%2F8H%5DMF%3E%29%3D%2F%23%223%24%25%5BW%2BJ1%2CG%25%5D9QJ9H%02-L%24PA%24w7rU%280%3AH%25*%21%04RREZC%26%40%09_%5EJ8%216%21%2FB4%00"
+""
+""
+"native"
+ 0
+ 0
+*

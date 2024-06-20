@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ReportDescription v5.0 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description: Trasferimento Provvisorio - Definitivo -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:[{"type":"report","name":"arrp_trasf_prov_aui","version":"5.0","title":" Trasferimento Provvisorio - Definitivo","query":"rows:arrt_trasf_prov_aui","queries_list":"","font":"DejaVu Sans Condensed, sans-serif","font_size":"10","font_weight":"normal","font_effect":"","picture_date":"","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"false","security_public":"false","dict_name":"","security_access":"false","security_roles":"","author":"","client":"","date_creat":"2021-07-05","date_rev":"2022-09-15","modcnt":"37","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":"UTF-8","hsl":"false","lock_items":"false","maxcount":"15","check_values":"","rotation":"","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","privacy":"0","identifier":"false","contentprivacy":"0","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"69","uid":"DWIUODXJCB","sequence":"0","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"89","uid":"NVGAFTDTFH","sequence":"1","page":"1"},{"type":"Label","name":"label1","uid":"ZKZBGIABXZ","page":"1","value":"\"REPORT DI TRASFERIMENTO: Provvisorio a Definitivo\"+iif(pSource='o',' - Operazioni',iif(pSource='f',' - Frazionate',iif(pSource='r',' - Rapporti',' - Legami tra Soggetti')))","text_type":"expression","x":"3","y":"5","w":"765","h":"15","sequence":"3","print_always":"false","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS,XLSX","global_font":"false","font":"Arial","font_size":"11","font_weight":"bold"},{"type":"Expr","name":"Expr8","uid":"CQDCHPKBWK","page":"1","exp":"iif(pSource='o','ID Operazione',iif(pSource='f','ID Frazionata',iif(pSource='r','ID Rapporto','ID Legame')))","x":"3","y":"39","w":"110","h":"23","sequence":"7","print_always":"false","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS,XLSX"},{"type":"Label","name":"label11","uid":"JDZKGGHYDT","page":"1","value":"Descrizione Errore","text_type":"constant","x":"115","y":"39","w":"658","h":"25","sequence":"10","print_always":"false","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS,XLSX"},{"type":"Box","name":"Box12","uid":"TBVDTHUFUD","page":"1","border_width":"1","x":"5","y":"64","w":"758","h":"0","sequence":"11"},{"type":"Expr","comment":"Codice","name":"Expr6","uid":"ZDCARWAALU","page":"1","exp":"rows:arrt_trasf_prov_aui.c_ERCODICE","len":"25","dec":"0","output_name":"Codice","column_title":"Codice","x":"3","y":"70","w":"110","h":"17","sequence":"5","global_font":"false","font":"DejaVu Sans Condensed, sans-serif","font_size":"8","font_weight":"normal"},{"type":"Expr","comment":"Descrizione","name":"Expr9","uid":"OFNRYAXNTE","page":"1","exp":"rows:arrt_trasf_prov_aui.c_ERDESCRI","len":"25","dec":"0","output_name":"Descrizione","column_title":"Descrizione","x":"115","y":"70","w":"658","h":"17","sequence":"8","stretch":"true","global_font":"false","font":"DejaVu Sans Condensed, sans-serif","font_size":"8","font_weight":"normal"},{"type":"Label","name":"label13","uid":"OLILFIZHFU","page":"1","value":"'Data: '+arfn_fdate(Date())","text_type":"expression","x":"3","y":"94","w":"370","h":"15","sequence":"13","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS,XLSX","global_font":"false","font":"DejaVu Sans Condensed, sans-serif","font_size":"8","font_weight":"normal"},{"type":"Label","name":"label14","uid":"IAFIAJCCLL","page":"1","value":"'Pagina: '+ LRTrim(Str(nNumPage,4))","text_type":"expression","x":"385","y":"94","w":"372","h":"15","sequence":"14","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS","align":"right","global_font":"false","font":"DejaVu Sans Condensed, sans-serif","font_size":"8","font_weight":"normal"}] -->
+
+<REPORT NAME="arrp_trasf_prov_aui" TITLE=" Trasferimento Provvisorio - Definitivo" QUERY="rows:arrt_trasf_prov_aui" MAXDEPTH="0" VERSION="5.0" PUBLIC="false" ACCESS="false" ROLES=""
+  GLBFONTNAME="DejaVu Sans Condensed, sans-serif" GLBFONTSIZE="10"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="69" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;REPORT DI TRASFERIMENTO: Provvisorio a Definitivo&quot;+iif(pSource=&#39;o&#39;,&#39; - Operazioni&#39;,iif(pSource=&#39;f&#39;,&#39; - Frazionate&#39;,iif(pSource=&#39;r&#39;,&#39; - Rapporti&#39;,&#39; - Legami tra Soggetti&#39;)))" EXPRTYPE="expression"
+                    Y="5" X="3" YY="20" XX="768"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="iif(pSource=&#39;o&#39;,&#39;ID Operazione&#39;,iif(pSource=&#39;f&#39;,&#39;ID Frazionata&#39;,iif(pSource=&#39;r&#39;,&#39;ID Rapporto&#39;,&#39;ID Legame&#39;)))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="39" X="3" YY="62" XX="113"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="true"
+                    GLBPICTURE="true"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="Descrizione Errore" EXPRTYPE="constant"
+                    Y="39" X="115" YY="64" XX="773"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="true" FONTNAME="DejaVu Sans Condensed, sans-serif" FONTSIZE="10"
+                    />
+              <ITEM OBJ="h_line" Y="64" X="5" XX="764" BORDERWIDTH="1"
+                    UID="TBVDTHUFUD" 
+                    ALIGN="L"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="19" EXPRESSION="">
+              <ITEM OBJ="espressione" NAME="rows:arrt_trasf_prov_aui.c_ERCODICE" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="0" X="3" YY="17" XX="113"
+                    SYMNAME="Codice" COLUMNTITLE="Codice"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="DejaVu Sans Condensed, sans-serif" FONTSIZE="8"
+                    GLBPICTURE="true"
+                    LEN="25"
+                    />
+              <ITEM OBJ="espressione" NAME="rows:arrt_trasf_prov_aui.c_ERDESCRI" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="0" X="115" YY="17" XX="773"
+                    SYMNAME="Descrizione" COLUMNTITLE="Descrizione"
+                    REPEATED="true"
+                    ALIGN="L"
+                    STRETCH="true"
+                    GLBFONT="false" FONTNAME="DejaVu Sans Condensed, sans-serif" FONTSIZE="8"
+                    GLBPICTURE="true"
+                    LEN="25"
+                    />
+  </SECTION>
+  <PAGEFOOTER Y="88" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="4" X="3" YY="19" XX="373"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="DejaVu Sans Condensed, sans-serif" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+                    Y="4" X="385" YY="19" XX="757"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="DejaVu Sans Condensed, sans-serif" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

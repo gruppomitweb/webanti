@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Saving...</title>
+<script>
+ function DoLoad() {
+   document.FormSender.m_cWv.value = window.parent.GetExtenderTablesAsProperties();
+   document.FormSender.m_cAction.value = window.parent.m_cAction;
+   document.FormSender.associateServer.value = window.parent.associateServer;
+   window.setTimeout('SaveXDC()',1);
+ }
+
+ function SaveXDC() {
+   window.parent.m_bUpdated=false;
+   document.FormSender.submit();
+ }
+</script>
+</head>
+
+<body onload="DoLoad()">
+ <form name="FormSender" style="margin:0" method="post" action="../servlet/SPXDCProxy">
+  <input name="m_cWv" type="hidden" value="">
+  <input name="m_cAction" type="hidden" value="">
+  <input name="associateServer" type="hidden" value="">
+ </form>
+</body>
+</html>

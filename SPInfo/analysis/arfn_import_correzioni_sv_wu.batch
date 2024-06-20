@@ -1,0 +1,56 @@
+﻿* --- Resource Vers. 0.9
+arfn_import_correzioni_sv_wu
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:29
+description='Import file excel per correzioni sv
+file_modified_on=#2022-05-10 16:45:33
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:53
+module_name='
+name='arfn_import_correzioni_sv_wu
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'analisi_sv.tipo
+'analisi_sv.numprog
+'analisi_sv.segno
+'analisi_sv.coddipe
+'analisi_sv.descriz
+'analisi_sv.provincia1
+'analisi_sv.tiposv
+'analisi_sv.connescli
+'analisi_sv.ragsoc
+'analisi_sv.sotgrup
+'analisi_sv.provincia
+'analisi_sv.paese
+]
+'Libraries
+[
+'CriptoLibrary<painter>
+'Utilities<painter>
+]
+'Routines
+[
+'arfn_fdatetime
+'arfn_import_correzioni_sv_wu
+]
+'Tables
+[
+'analisi_sv<table>
+'tbstati<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,54 @@
+﻿* --- Resource Vers. 0.9
+arrt_calccodfis_obj
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:31
+description='Calcolo Codice Fiscale (Routine)
+file_modified_on=#2024-03-29 15:38:59
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:07
+module_name='
+name='arrt_calccodfis_obj
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbstatna.idbase
+'tbstatna.sigla
+'tbstatna.siglanew
+'tbstatna.descri
+'tbstati.descri
+'tbstati.sigla
+'tbcittna.idbase
+'tbcittna.sigla
+'tbcittna.citta
+'tbcittna.prov
+'tbcitta.citta
+'tbcitta.prov
+'tbcitta.sigla
+]
+'Others
+[
+'armt_personbo
+]
+'Tables
+[
+'intermbo<table>
+'tbcitta<table>
+'tbcittna<table>
+'tbstatna<table>
+'tbstati<table>
+]
+}
+I
+*--*
+￼[]
+*--*

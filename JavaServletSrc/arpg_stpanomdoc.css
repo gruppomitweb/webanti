@@ -1,0 +1,33 @@
+.FormDefault {margin:0;position:relative;font-family:Tahoma;font-size:8pt;}
+INPUT {font-family:Tahoma;font-size:8pt;}
+SELECT {font-family:Tahoma;font-size:8pt;}
+TEXTAREA {font-family:Tahoma;font-size:8pt;}
+IMG {border:0;}
+#HJLJFAMGNR {top:7px;position:absolute;left:120px;height:20px;width:70px;text-align:right;z-index:1; }
+#HJLJFAMGNR_ZOOM { position:absolute;top:7px;left:191px;height:20px;width:17px;z-index:1;}
+#LQTOQIQYKP_DIV {top:11px;position:absolute;left:9px;height:16px;width:110px;text-align:right;z-index:1;}
+BODY:not([ettl]) #LQTOQIQYKP_DIV {top:11px;position:absolute;left:9px;height:16px;width:110px;}
+BODY[ettl="old"] #LQTOQIQYKP_DIV {top:11px;position:absolute;left:9px;height:16px;width:110px;}
+BODY[ettl="yes"] #LQTOQIQYKP_DIV {top:11px;position:absolute;left:9px;}
+#NACPPABTRW {top:126px;position:absolute;left:368px;font-family:ZucchettiDevelopement;font-weight:normal;font-size:20px;cursor:pointer;z-index:1;clip:rect(0,42px,32px,0);}
+#MAYNQUHJSS {top:126px;position:absolute;left:312px;font-family:ZucchettiDevelopement;font-weight:normal;font-size:20px;cursor:pointer;z-index:1;clip:rect(0,42px,32px,0);}
+#TPYPFPFGCZ_DIV {top:35px;position:absolute;left:24px;height:21px;width:184px;overflow:hidden;white-space:nowrap;z-index:1; }
+#NAIKOMJGHQ_DIV {top:56px;position:absolute;left:24px;height:21px;width:184px;overflow:hidden;white-space:nowrap;z-index:1; }
+#SPCDQJZKCR_DIV {top:77px;position:absolute;left:24px;height:21px;width:184px;overflow:hidden;white-space:nowrap;z-index:1; }
+#XJZTGNCSTU_DIV {top:98px;position:absolute;left:24px;height:21px;width:184px;overflow:hidden;white-space:nowrap;z-index:1; }
+#YVUBYQLEQE_DIV {top:119px;position:absolute;left:24px;height:21px;width:184px;overflow:hidden;white-space:nowrap;z-index:1; }
+#FGMOCXNBFY_DIV {top:168px;position:absolute;left:8px;height:279px;width:768px;text-align:left;z-index:1;}
+#XXKCFDJIUH {top:6px;position:absolute;left:552px;height:20px;width:232px;z-index:1; }
+#XXKCFDJIUH { vertical-align:middle; }
+#CBLVNWXIBV_DIV {top:112px;position:absolute;left:552px;height:21px;width:208px;overflow:hidden;white-space:nowrap;z-index:1; }
+#YADLWQSLYE_DIV {top:35px;position:absolute;left:552px;height:66px;width:161px;z-index:1; }
+#YADLWQSLYE { vertical-align:middle;height:8pt; }
+BODY[ettl="yes"] #TPYPFPFGCZ_DIV, BODY[ettl="yes"] #NAIKOMJGHQ_DIV, BODY[ettl="yes"] #YVUBYQLEQE_DIV {letter-spacing:-1px;}
+#LQTOQIQYKP_DIV, #FGMOCXNBFY_DIV {overflow:hidden;}
+#HJLJFAMGNR, #TPYPFPFGCZ_DIV, #NAIKOMJGHQ_DIV, #SPCDQJZKCR_DIV, #XJZTGNCSTU_DIV, #YVUBYQLEQE_DIV, #XXKCFDJIUH, #CBLVNWXIBV_DIV, #YADLWQSLYE_DIV {box-sizing : border-box;}
+@font-face {
+font-display: block;
+font-family: 'ZucchettiDevelopement';
+src: url('./fonts/ZucchettiDevelopement.woff') format('woff'),
+url('./fonts/ZucchettiDevelopement.ttf') format('ttf');
+}

@@ -1,0 +1,44 @@
+﻿* --- Resource Vers. 0.9
+arrt_lancia_stpesito_semplice
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:38
+description='Lancia stampa esiti sempice
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:22
+module_name='
+name='arrt_lancia_stpesito_semplice
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_prnesiti.esito
+'tmp_prnesiti.nomrep
+]
+'Hyperlinks
+[
+'arpg_allinea_anagrafiche_noreport
+'arpg_import_esito_dettaglio_report
+]
+'Libraries
+[
+'ReportLibrary<painter>
+]
+'Tables
+[
+'tmp_prnesiti<table>
+]
+}
+I
+*--*
+￼[]
+*--*

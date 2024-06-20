@@ -1,0 +1,2215 @@
+﻿* --- Resource Vers. 0.9
+operazbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Operazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='operazbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'operazbo.idbase
+'operazbo.numprog
+'operazbo.dataope
+'operazbo.tipointer
+'operazbo.codinter
+'operazbo.tipoinf
+'operazbo.idereg
+'operazbo.coddipe
+'operazbo.desccit
+'operazbo.provincia
+'operazbo.codcab
+'operazbo.flagfraz
+'operazbo.flagcont
+'operazbo.codana
+'operazbo.codvoc
+'operazbo.tipoint2
+'operazbo.codint2
+'operazbo.paese
+'operazbo.desc2
+'operazbo.prov2
+'operazbo.codcab2
+'operazbo.descinter
+'operazbo.rapporto
+'operazbo.flagrap
+'operazbo.tipoleg
+'operazbo.datareg
+'operazbo.oprap
+'operazbo.tipooprap
+'operazbo.flaglire
+'operazbo.valuta
+'operazbo.segno
+'operazbo.totlire
+'operazbo.totcont
+'operazbo.statoreg
+'operazbo.operazmod
+'operazbo.datarett
+'operazbo.connescli
+'operazbo.connesoper
+'operazbo.connesben
+'operazbo.colleg
+'operazbo.cambio
+'operazbo.rapportben
+'operazbo.flagrap2
+'operazbo.operatore
+'operazbo.autom
+'operazbo.idcauana
+'operazbo.operag
+'operazbo.docfile
+'operazbo.respins
+'operazbo.inform
+'operazbo.cdatope
+'operazbo.noprot
+'operazbo.ucode
+'operazbo.cdataope
+'operazbo.zcparte
+'operazbo.ragio
+'operazbo.modsvol
+'operazbo.areageo
+'operazbo.rifimp
+'operazbo.scopo
+'operazbo.natura
+'operazbo.rtipo
+'operazbo.rcomp
+'operazbo.rimp
+'operazbo.rfreq
+'operazbo.rragio
+'operazbo.rarea
+'operazbo.tipo
+'operazbo.prgimpope
+'operazbo.uniquecode
+'operazbo.ammont
+'operazbo.durat
+'operazbo.connaltro
+'operazbo.connesdoc
+'operazbo.c_rag
+'operazbo.c_sta
+'operazbo.c_cta
+'operazbo.c_cab
+'operazbo.c_prv
+'operazbo.c_ind
+'operazbo.c_cap
+'operazbo.dataimp
+'operazbo.c_rapporto
+'operazbo.pagasogop
+'operazbo.mtcn
+'operazbo.idfile
+'operazbo.cdatreg
+'operazbo.ipcolleg
+'operazbo.oracolleg
+'operazbo.ducolleg
+'operazbo.annoope
+'operazbo.idbase2
+'operazbo.impin
+'operazbo.impout
+'operazbo.mitig
+'operazbo.mitigdoc
+'operazbo.risglob
+'operazbo.sv58550
+'operazbo.proquota
+'operazbo.tipooro
+'operazbo.dac6
+'operazbo.flagdac6
+'operazbo.impsara
+'operazbo.sv58550ma
+'operazbo.nosara
+'operazbo.mezpag
+'operazbo.prestaz
+'operazbo.causale
+'operazbo.numimp
+'operazbo.despunto
+'operazbo.codclicon
+'operazbo.tipatt
+'operazbo.impprog
+'operazbo.note
+'operazbo.vasp
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'operazbo.ammont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AMMONT
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.annoope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno Operazione (MT/IDP)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNOOPE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Area Geografica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AREAGEO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.autom
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importazione da file esterno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AUTOM
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.c_cab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_CAB
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.c_cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_CAP
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.c_cta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_CTA
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.c_ind
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_IND
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.c_prv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_PRV
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.c_rag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_RAG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.c_rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_RAPPORTO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.c_sta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_STA
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.cambio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cambio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAMBIO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.causale
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAUSALE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.cdataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATAOPE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.cdatope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione in Carattere
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATOPE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.cdatreg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Registrazione in carattere
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATREG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.codana
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Analitica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODANA
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.codcab2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB2
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.codclicon
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Cliente Contante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCLICON
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.codint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINT2
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.codvoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Sintetica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODVOC
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.colleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento Operazione Multiple
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLLEG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.connaltro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNALTRO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.connesben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Beneficiario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESBEN
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.connescli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Cliente Occasionale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESCLI
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.connesdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Connessione Tabella Storico Documenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESDOC
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.connesoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Soggetto Operante Conto Terzi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESOPER
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.dac6
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DAC6
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.dataimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAIMP
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.datareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAREG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.datarett
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rettifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATARETT
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.desc2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Denominazione Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESC2
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.descinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCINTER
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.despunto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Punto Contante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESPUNTO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.docfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOCFILE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.ducolleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Durata Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DUCOLLEG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.durat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DURAT
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.flagcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Contanti (S/N)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGCONT
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.flagdac6
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGDAC6
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.flagfraz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Frazionata (S/N)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGFRAZ
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.flaglire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Lire Euro Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGLIRE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.flagrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto Collegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGRAP
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.flagrap2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto Beneficiario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGRAP2
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Idbase
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.idbase2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Gestione IDEREG
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE2
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.idcauana
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID BASE Causale Analitica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='idcauana
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.idereg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDEREG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.idfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Identificativo File
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDFILE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.impin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo IN
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPIN
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.impout
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo OUT
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPOUT
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.impprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo da Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPPROG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.impsara
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPSARA
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.inform
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INFORM
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.ipcolleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='IP Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IPCOLLEG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.mezpag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mezzo pagamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MEZPAG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.mitig
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mitigazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MITIG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.mitigdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Path Documentazione Mitigazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MITIGDOC
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.modsvol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Modalità Svolgimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MODSVOL
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.mtcn
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Riferimento operazione WU
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MTCN
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.natura
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NATURA
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.noprot
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOPROT
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.nosara
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Escludi operazione da SARA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOSARA
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.note
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Note
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOTE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.numimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mark Importazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMIMP
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.operag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPERAG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.operatore
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operatore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPERATORE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.operazmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazione Modificata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPERAZMOD
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.oprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPRAP
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.oracolleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Inizio Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORACOLLEG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.pagasogop
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAGASOGOP
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.prestaz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Prestazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRESTAZ
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.prgimpope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRGIMPOPE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.proquota
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Pro Quota
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROQUOTA
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.prov2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROV2
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.ragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragionevolezza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGIO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.rapportben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto Beneficiario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTBEN
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto Collegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.rarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAREA
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.rcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RCOMP
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.respins
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RESPINS
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.rfreq
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RFREQ
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.rifimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIFIMP
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.rimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIMP
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.risglob
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio Globale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RISGLOB
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.rragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RRAGIO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.rtipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RTIPO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.scopo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SCOPO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.segno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Segno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SEGNO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.statoreg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='STATOREG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.sv58550
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Modalità bonifico in uscita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SV58550
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.sv58550ma
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Modalità di avvio bonifico (SV)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SV58550MA
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.tipatt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo attività
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPATT
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.tipoinf
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Informazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINF
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.tipoint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINT2
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.tipointer
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediaro
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINTER
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.tipoleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Legame sogg. Operante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOLEG
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.tipooprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Operazione Completa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOOPRAP
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.tipooro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOORO
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.totcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='di cui contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTCONT
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.totlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTLIRE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.ucode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UCODE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.uniquecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice univoco per importazioni di n sogetti operanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUECODE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Divisa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.vasp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice VASP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VASP
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+'operazbo.zcparte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ZCPARTE
+state=3
+table_name='operazbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'operazbo.ammont
+[]
+'operazbo.annoope
+[]
+'operazbo.areageo
+[]
+'operazbo.autom
+[]
+'operazbo.c_cab
+[]
+'operazbo.c_cap
+[]
+'operazbo.c_cta
+[]
+'operazbo.c_ind
+[]
+'operazbo.c_prv
+[]
+'operazbo.c_rag
+[]
+'operazbo.c_rapporto
+[]
+'operazbo.c_sta
+[]
+'operazbo.cambio
+[]
+'operazbo.causale
+[]
+'operazbo.cdataope
+[]
+'operazbo.cdatope
+[]
+'operazbo.cdatreg
+[]
+'operazbo.codana
+[]
+'operazbo.codcab
+[]
+'operazbo.codcab2
+[]
+'operazbo.codclicon
+[]
+'operazbo.coddipe
+[]
+'operazbo.codint2
+[]
+'operazbo.codinter
+[]
+'operazbo.codvoc
+[]
+'operazbo.colleg
+[]
+'operazbo.connaltro
+[]
+'operazbo.connesben
+[]
+'operazbo.connescli
+[]
+'operazbo.connesdoc
+[]
+'operazbo.connesoper
+[]
+'operazbo.dac6
+[]
+'operazbo.dataimp
+[]
+'operazbo.dataope
+[]
+'operazbo.datareg
+[]
+'operazbo.datarett
+[]
+'operazbo.desc2
+[]
+'operazbo.desccit
+[]
+'operazbo.descinter
+[]
+'operazbo.despunto
+[]
+'operazbo.docfile
+[]
+'operazbo.ducolleg
+[]
+'operazbo.durat
+[]
+'operazbo.flagcont
+[]
+'operazbo.flagdac6
+[]
+'operazbo.flagfraz
+[]
+'operazbo.flaglire
+[]
+'operazbo.flagrap
+[]
+'operazbo.flagrap2
+[]
+'operazbo.idbase
+[]
+'operazbo.idbase2
+[]
+'operazbo.idcauana
+[]
+'operazbo.idereg
+[]
+'operazbo.idfile
+[]
+'operazbo.impin
+[]
+'operazbo.impout
+[]
+'operazbo.impprog
+[]
+'operazbo.impsara
+[]
+'operazbo.inform
+[]
+'operazbo.ipcolleg
+[]
+'operazbo.mezpag
+[]
+'operazbo.mitig
+[]
+'operazbo.mitigdoc
+[]
+'operazbo.modsvol
+[]
+'operazbo.mtcn
+[]
+'operazbo.natura
+[]
+'operazbo.noprot
+[]
+'operazbo.nosara
+[]
+'operazbo.note
+[]
+'operazbo.numimp
+[]
+'operazbo.numprog
+[]
+'operazbo.operag
+[]
+'operazbo.operatore
+[]
+'operazbo.operazmod
+[]
+'operazbo.oprap
+[]
+'operazbo.oracolleg
+[]
+'operazbo.paese
+[]
+'operazbo.pagasogop
+[]
+'operazbo.prestaz
+[]
+'operazbo.prgimpope
+[]
+'operazbo.proquota
+[]
+'operazbo.prov2
+[]
+'operazbo.provincia
+[]
+'operazbo.ragio
+[]
+'operazbo.rapportben
+[]
+'operazbo.rapporto
+[]
+'operazbo.rarea
+[]
+'operazbo.rcomp
+[]
+'operazbo.respins
+[]
+'operazbo.rfreq
+[]
+'operazbo.rifimp
+[]
+'operazbo.rimp
+[]
+'operazbo.risglob
+[]
+'operazbo.rragio
+[]
+'operazbo.rtipo
+[]
+'operazbo.scopo
+[]
+'operazbo.segno
+[]
+'operazbo.statoreg
+[]
+'operazbo.sv58550
+[]
+'operazbo.sv58550ma
+[]
+'operazbo.tipatt
+[]
+'operazbo.tipo
+[]
+'operazbo.tipoinf
+[]
+'operazbo.tipoint2
+[]
+'operazbo.tipointer
+[]
+'operazbo.tipoleg
+[]
+'operazbo.tipooprap
+[]
+'operazbo.tipooro
+[]
+'operazbo.totcont
+[]
+'operazbo.totlire
+[]
+'operazbo.ucode
+[]
+'operazbo.uniquecode
+[]
+'operazbo.valuta
+[]
+'operazbo.vasp
+[]
+'operazbo.zcparte
+[]
+}
+*--*

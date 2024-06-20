@@ -1,0 +1,37 @@
+<html>
+<head>
+ <title>Select Parameters</title>
+ <link rel="stylesheet" href="../filewindow.css" type="text/css">
+ <script Language="JavaScript">
+  var pippo2
+  var nposition
+  var col
+  var portlet
+  function doLoad(){
+    var pippo2 = window.opener.parpar
+    nposition=pippo2[0]  // array generico degli items
+    col=pippo2[1]      // indice corrente mainitem
+    portlet=pippo2[2]
+    if(portlet.indexOf('?')>-1) document.getElementById("param").value=portlet.substr(portlet.indexOf('?')+1)
+  }
+  function setParameter() {
+    window.opener.setParameters(nposition,col,portlet,document.getElementById("param").value)
+    window.close()
+  }
+ </script>
+</head>
+<body onload="doLoad()" bgcolor="#D6D3CE">
+ <table  border="0px" cellspacing="0px" cellpadding="4" width="100%">
+  <tr>
+   <td class="contorno" align="center" height="20" colspan="2"><b><u>I</u>nsert parameters:</b></td>
+  </tr>
+  <tr>
+   <td style="background:buttonface" valign=center class="contorno" nowrap>?
+    <input type="text" id="param" style='width:195;'>&nbsp
+    <button  onclick="setParameter()" accesskey="i" class="bottoni"><u>I</u>nsert</button>&nbsp
+    <button  onclick="window.close()" accesskey="i" class="bottoni"><u>C</u>ancel</button>
+   </td>
+  </tr>
+ </table>
+</body>
+</html>

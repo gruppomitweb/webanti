@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../properties.css"></link>
+  <link rel="stylesheet" type="text/css" href="../filewindow.css"></link>
+  <script src="../Base.js"></script>
+  <script src="../stdFunctions.js"></script>
+  <script src="../controls.js"></script>
+  <script src="../zdnd_commons.js"></script>
+  <script src="../visualweb/EditableGridCtrl.js"></script>
+  <script src="../portalstudio/styleVariables.js"></script>
+  <script src="../spModalLayer.js"></script>
+  <script src="../portalstudio/jscolor/jscolor.js"></script>
+<script>
+
+var currentSPModalLayer = null;
+
+var GET_DATA=(function(){
+  var res={};
+  var getDataString=new String(window.location);
+  var questionMarkLocation=getDataString.search(/\?/);
+  if (questionMarkLocation!=-1){
+    getDataString=getDataString.substr(questionMarkLocation+1);
+    var getDataArray=getDataString.split(/&/g);
+    for (var i=0;i<getDataArray.length;i++){
+      var nameValuePair=getDataArray[i].split(/=/);
+      res[unescape(nameValuePair[0])]=unescape(nameValuePair[1]);
+    }
+  }
+  return res;
+})();
+function getInternetExplorerVersion(){
+   var rv = -1; // Return value assumes failure.
+   if (navigator.appName == 'Microsoft Internet Explorer')
+   {
+      var ua = navigator.userAgent;
+      var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+      if (re.exec(ua) != null)
+         rv = parseFloat( RegExp.$1 );
+   }
+   return rv;
+}
+function getOpener() {
+  //if(window.parent.spModalLayer )return window.parent.spModalLayer[window.frameElement.id].getOpenerRef(); 
+  return (GetOpener()?GetOpener():(window.caller?window.caller:window.parent));
+}
+
+function CloseWindow(){
+  if (typeof(GET_DATA.SPModalLayerId) != 'undefined') openerWindow.closeSPModalLayer();
+  else window.close()
+}
+
+var openerWindow = getOpener();
+
+var receiverObj;
+if (GET_DATA.objIdx == "null") GET_DATA.objIdx = null;
+if (GET_DATA.objIdx!=null){
+  receiverObj=openerWindow.itemsHTML[GET_DATA.objIdx];
+} else {
+  receiverObj=openerWindow.formProp;
+}
+
+var separatorN=GET_DATA.separatorN;
+var separatorP=GET_DATA.separatorP;
+var separatorTL=GET_DATA.separatorTL;
+var callerFunction=GET_DATA.callerFunction;
+var tlList = GET_DATA.tlList;
+
+var parameters={
+      id: 'parameters',
+      titles: [ 'Label', 'Min', 'Max', 'Percent', 'Color', 'Image path'],
+      options:[ {type:'textbox'}, {type:'textbox'}, {type:'textbox'}, {type:'checkbox'}, {type:'textbox'}, {type:'textbox'}],
+      blank:  [ '', '', '', '', '', '']
+  };
+
+
+Z.Dict=function(){
+  var newkey=function(){
+    var res="";
+    for(var i=0; i++<9; res+=String.fromCharCode(Math.floor(Math.random()*26+97)));
+    return res;
+  }
+  var keys={};
+  this.Add=function(data){
+    var k=newkey();
+    while(k in this){
+      k=this.newkey();
+    }
+    this[k]=data;
+    keys[k]=null;
+    return k;
+  }
+  this.Remove=function(key){
+    return delete this[key] && delete keys[key];
+  }
+  this.Keys=function(){
+    return Z.Merge({}, keys);
+  }
+}
+
+function centerresizeWnd(){
+  var maindiv=Ctrl('maindiv');
+  var nWidth=maindiv.offsetWidth;
+  var nHeight=maindiv.offsetHeight+120;
+  window.resizeTo(nWidth,nHeight);
+  //window.moveTo((screen.availWidth-nWidth)/2>0 ? (screen.availWidth-nWidth)/2 : 0, (screen.availHeight-nHeight)/2>0 ? (screen.availHeight-nHeight)/2 : 0);
+}
+
+function SelectParameter(id){
+  var height = 400;
+  var width = 400;
+  var left = 0;//(screen.width)?(screen.width-width)/2:100;
+  var top = 0;//(screen.height)?(screen.height-height-(height/4))/2:100;
+
+  if (IsNetscape() || IsMozilla()) {
+    width+=5; //Per Netscape e Mozilla, il width e height sono leggermente diversi
+    height+=4;
+  }
+  //window.open("../portalstudio/expression_builder.jsp?ExpressionID="+URLenc(id)+"&callerFunction=ExpressionBuilderReturn","expression","height="+height+",width="+width+",left="+left+",top="+top+",resizable=yes");
+  var url = "../portalstudio/expression_builder.jsp?ExpressionID="+URLenc(id)+"&callerFunction=ExpressionBuilderReturn";
+  if((IsIE() && getInternetExplorerVersion()<=8) || (typeof(GET_DATA.SPModalLayerId) == 'undefined')){
+    window.open(url,"expression","height="+height+",width="+width+",left="+left+",top="+top+",resizable=yes");
+  } else {
+    url+="&expression&SPModalLayerId=kvExpBuildSPModalLayer";
+    currentSPModalLayer=newObjSPModalLayerOpener(url,top,left,width,height,true,1,window,false,true);
+    currentSPModalLayer.open();
+  }
+}
+
+function ExpressionBuilderReturn(id, value){
+  if (id) {
+    var el = document.getElementById(id);
+    if (el){
+      el.value=value;
+      el.focus();
+    }
+  }
+}
+
+function GetFunctionsForExpBuilder(){
+  if(openerWindow.GetFunctionsForExpBuilder) return openerWindow.GetFunctionsForExpBuilder();
+}
+
+function getFieldsOfTables(){
+   if(openerWindow.getFieldsOfTables) return openerWindow.getFieldsOfTables();
+}
+
+function getParametersOfQueries(){
+   if(openerWindow.getParametersOfQueries) return openerWindow.getParametersOfQueries();
+}
+
+function GetVariablesForExpBuilder(){
+   if(openerWindow.GetVariablesForExpBuilder) return openerWindow.GetVariablesForExpBuilder();
+}
+
+function GetExpressionFromId(id){
+  if (id) {
+    var el = document.getElementById(id);
+    if (el)
+      return el.value;
+  }
+  return "";
+}
+
+Z.ParametersEditableGrid= Z.EditableGrid.extend({
+  constructor:function(configuration, data){
+    this.inherit(configuration, data);
+  },
+  inputizeCell:function(srcElem){
+    var objInput = document.createElement("input");
+    var propBtnColor = document.createElement("div");
+    var datarow;
+    if(srcElem.parentNode.getAttribute('datarow') in this.data.rows)
+      datarow = this.data.rows[srcElem.parentNode.getAttribute('datarow')];
+    else{
+      datarow = [].concat(this.data.blank);
+      srcElem.parentNode.setAttribute('datarow',this.data.rows.Add(datarow));
+    }
+    var optIdx=srcElem.getAttribute("dataoptions");
+    var optRow=srcElem.parentNode.getAttribute('datarow');
+    var txtOld = datarow[optIdx];
+    srcElem.innerHTML = "";
+	
+	
+
+    switch (srcElem.getAttribute("TCType")){
+	  case 'checkbox':
+		objInput.onchange = function(){
+			this.value = "" + this.checked;
+		};
+		objInput.setAttribute ("name","input_"+optRow+"_"+optIdx);
+        objInput.setAttribute ("type","checkbox");
+		if(txtOld == 'on' || txtOld == 'true') txtOld = 'true';
+		else txtOld = 'false';
+		objInput.setAttribute("value",txtOld);
+		objInput.checked = CharToBool(txtOld);
+		break;
+    case 'textbox':
+    default:
+	    objInput.setAttribute ("id","input_"+optRow+"_"+optIdx);
+      objInput.setAttribute ("type","TEXT");
+      objInput.setAttribute ("value",txtOld);
+    break;
+    }
+	LibJavascript.Events.addEvent(objInput, 'keydown', this.checkForEnterEsc.closure(this));
+    objInput.style.width = "100%";
+    objInput.style.boxSizing='border-box';
+    objInput.style.MozBoxSizing='border-box';
+    objInput.style.webkitBoxSizing='border-box';
+	srcElem.appendChild(objInput);
+  if(optIdx==4){
+    srcElem.style.position = "relative";
+    objInput.id = "input_"+optRow+"_"+optIdx;
+    objInput.type = 'text';
+    objInput.className = 'properties_input properties_color';
+    objInput.value = txtOld;
+    objInput.style.width = "calc( 100% - 32px)";
+    srcElem.appendChild(objInput);
+    propBtnColor.id = objInput.id+"_btn";
+    propBtnColor.className = 'input_inline_btn properties_button_color';
+    srcElem.appendChild(propBtnColor);
+
+    jsColorPicker('input.properties_color', {
+      size: 1,
+      expires: 365, // durata del cookie contentente i colori salvati
+      noResize: true,
+      init: function(elm, col) { 
+        Ctrl(elm.id+"_btn").style.backgroundColor = elm.value;
+      }
+    });
+  }
+  }
+});
+
+</script>
+<title>Trendlines Edit</title>
+</head>
+<body bgcolor="#E4E4E4" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" scroll="yes" style="border:0px;overflow:auto;margin:0pt" onload='centerresizeWnd()'>
+<div id='maindiv'>
+<table valign='top' class='contenuto' style='width:100%;'>
+  <tr class='titoli' style='width:100%;display:none'>
+    <td align='center' class='titoli' style='width:50%;'><b>Trendlines</b></td>
+  </tr>
+  <tr style='width:100%;'>
+    <td valign='top' id='parametersDiv'>
+    </td>
+  </tr>
+  <tr style='width:100%;'>
+    <td valign='top'>
+      <INPUT class='bottoni' value='+' id="btn_addParameters" title="Add" type="button" onclick="javascript:onBtnAdd(parametersCtrl);">
+      <INPUT class='bottoni' value='-' id="btn_deleteParameters" title="Remove selection" type="button" onclick="javascript:parametersCtrl.deleteRow();">
+    </td>
+  </tr>
+</table>
+
+<table style='width:100%;'>
+  <tr><td valign="middle" align="right" nowrap>
+   <button onclick="javascript:onOk();" accesskey="o" class="bottoni" style="width:40px;"><u>O</u>k</button>&nbsp;&nbsp;
+   <button onclick="javascript:onCancel();" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+  </td></tr>
+</table>
+</div>
+<script>
+function onBtnAdd(obj){
+  obj.addRow();
+  obj.selectLastRow();
+  obj.editSelectedRow();
+}
+
+function onBtnMoveUp(obj){
+  if(obj.objRowSelected && obj.objRowSelected.rowIndex>2){
+    obj.SaveRow(obj.objRowSelected, true);
+    obj.MoveUp();
+  }
+}
+
+function onBtnMoveDown(obj){
+  if(obj.objRowSelected && obj.objRowSelected.rowIndex>2){
+    obj.SaveRow(obj.objRowSelected, true);
+    obj.MoveDown();
+  }
+}
+
+parameters.rows=(function(){
+	var res=new Z.Dict();
+	var bands=tlList.split(separatorTL);
+	if(!Empty(bands) && !Empty(bands[0])){
+		for(var i=0,tBand,minV,maxV,col,lbl,isP,imgPath; i<bands.length; i++){
+			tBand=bands[i].split(separatorP);
+			lbl = Trim(tBand[0]);
+			minV = Trim(tBand[1].substring(0,tBand[1].indexOf(separatorN)));
+			maxV = Trim(tBand[1].substring(tBand[1].indexOf(separatorN)+1,tBand[1].length));
+			col = Trim(tBand[3]);
+			isP = Trim(tBand[2]);
+			imgPath = Trim(tBand[4]);
+			if(minV!='')
+				res.Add([lbl,minV,maxV,col,isP,imgPath]);
+		}
+	}
+	return res;
+})();
+
+var configuration={	blnPointToSelect: false };
+var parametersCtrl=new Z.ParametersEditableGrid(configuration, parameters);
+Ctrl('parametersDiv').insertBefore(parametersCtrl.buildTable(), Ctrl('parametersDiv').firstChild);
+parametersCtrl.init();
+
+
+function onOk(){
+  //salva eventuali righe 
+  if(parametersCtrl.objRowSelected)
+    parametersCtrl.saveRow(parametersCtrl.objRowSelected, true);
+
+  var parms={trendl:[]};
+  var row, rows=parametersCtrl.data.rows;
+  for(var k_row in rows.Keys()){
+    row = rows[k_row];	
+    parms.trendl.push(row[0]+separatorP+row[1]+separatorN+row[2]+separatorP+row[4]+separatorP+row[3]+separatorP+row[5]);
+  }
+  var returnTL = parms.trendl.join(separatorTL);
+  openerWindow[callerFunction](GET_DATA.objIdx,returnTL);
+  CloseWindow();
+}
+function onCancel(){
+  //check for changes: to do
+  CloseWindow();
+}
+</script>
+</body>
+</html>

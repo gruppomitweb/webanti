@@ -1,0 +1,74 @@
+ 1
+"Operazioni Frazionate"
+"fraziobo"
+"fraziobo"
+ 204
+ 88
+*
+ 1
+"Numero Progressivo"
+"fraziobo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+ 0
+ 3
+"fraziobo.PRGIMPFRZ"
+""
+">="
+"?_bottom"
+"AND"
+""
+*
+"fraziobo.PRGIMPFRZ"
+""
+"<="
+"?_top"
+"AND"
+""
+*
+"COUNT(*)"
+""
+">"
+"1"
+"AND"
+"Having"
+*
+ 0
+ 1
+"Numero Progressivo"
+"fraziobo.NUMPROG"
+*
+ 0
+ 2
+"_bottom"
+"Progressivo Import"
+"Numeric"
+"15"
+"0"
+""
+*
+"_top"
+"Progressivo Import"
+"Numeric"
+"15"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 2
+.f.
+""
+.f.
+*

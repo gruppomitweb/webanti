@@ -1,0 +1,68 @@
+﻿* --- Resource Vers. 0.9
+arfn_storicoxbrl
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:29
+description='Scrittura file per invio UIC
+file_modified_on=#2018-09-21 18:03:10
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:54
+module_name='
+name='arfn_storicoxbrl
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_stpoperazioni.abicabdip
+'tmp_stpoperazioni.cabicp
+'tmp_stpoperazioni.codcabcp
+'tmp_stpoperazioni.codcabdip
+'tmp_stpoperazioni.codintdip
+'tmp_stpoperazioni.codvocagg
+'tmp_stpoperazioni.flaglireagg
+'tmp_stpoperazioni.paesecp
+'tmp_stpoperazioni.paeseicp
+'tmp_stpoperazioni.percab
+'tmp_stpoperazioni.perpaese
+'tmp_stpoperazioni.segnoagg
+'tmp_stpoperazioni.settsintagg
+'tmp_stpoperazioni.totlire
+'tmp_stpoperazioni.totcont
+'tmp_stpoperazioni.tope
+'tmp_stpoperazioni.tcon
+'tmp_stpoperazioni.idbase
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Routines
+[
+'arfn_fdatetime
+'arfn_storicoxbrl
+]
+'Tables
+[
+'anadip<table>
+'clientifrz<table>
+'clientiope<table>
+'intermbo<table>
+'intestbo<table>
+'personbo<table>
+'tmp_stpoperazioni<table>
+'clientisara<table>
+'storicoxbrl<table>
+]
+}
+I
+*--*
+￼[]
+*--*

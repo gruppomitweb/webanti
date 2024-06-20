@@ -1,0 +1,429 @@
+﻿* --- Resource Vers. 0.9
+tmp_invio_xbrl<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Copia Invio UIC XBRL
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_invio_xbrl
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_invio_xbrl.codintdip
+'tmp_invio_xbrl.abicabdip
+'tmp_invio_xbrl.codcabdip
+'tmp_invio_xbrl.perpaese
+'tmp_invio_xbrl.percab
+'tmp_invio_xbrl.codvoc
+'tmp_invio_xbrl.flaglire
+'tmp_invio_xbrl.segno
+'tmp_invio_xbrl.settsint
+'tmp_invio_xbrl.paesecp
+'tmp_invio_xbrl.codcabcp
+'tmp_invio_xbrl.paeseicp
+'tmp_invio_xbrl.cabicp
+'tmp_invio_xbrl.totlire
+'tmp_invio_xbrl.totcont
+'tmp_invio_xbrl.operazioni
+'tmp_invio_xbrl.contanti
+'tmp_invio_xbrl.n_ita
+'tmp_invio_xbrl.n_ext
+'tmp_invio_xbrl.n_alt
+'tmp_invio_xbrl.idbase
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_invio_xbrl.abicabdip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ABI CAB della DIPENDENZA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ABICABDIP
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.cabicp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAB Comune Intermediario Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CABICP
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.codcabcp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAB Comune Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODCABCP
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.codcabdip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAB DIPENDENZA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODCABDIP
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.codintdip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODINTDIP
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.codvoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Causale Aggregata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODVOC
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.contanti
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Operazioni in contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONTANTI
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.flaglire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLAGLIRE
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='IDBASE OPERAZIONE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.n_alt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Altre Operazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='N_ALT
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.n_ext
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Contatore Estero
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='N_EXT
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.n_ita
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Contatore ITALIA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='N_ITA
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.operazioni
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Operazioni Totali
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='OPERAZIONI
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.paesecp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='PAESE Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PAESECP
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.paeseicp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Paese Intermediario Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PAESEICP
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.percab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAB Comune Residenza Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PERCAB
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.perpaese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Paese Residenza Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PERPAESE
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.segno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Segno (Dare - Avere)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SEGNO
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.settsint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Settorizzazione Sintetica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SETTSINT
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.totcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Totale Contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TOTCONT
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+'tmp_invio_xbrl.totlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Totale Generale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TOTLIRE
+state=3
+table_name='tmp_invio_xbrl
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_invio_xbrl.abicabdip
+[]
+'tmp_invio_xbrl.cabicp
+[]
+'tmp_invio_xbrl.codcabcp
+[]
+'tmp_invio_xbrl.codcabdip
+[]
+'tmp_invio_xbrl.codintdip
+[]
+'tmp_invio_xbrl.codvoc
+[]
+'tmp_invio_xbrl.contanti
+[]
+'tmp_invio_xbrl.flaglire
+[]
+'tmp_invio_xbrl.idbase
+[]
+'tmp_invio_xbrl.n_alt
+[]
+'tmp_invio_xbrl.n_ext
+[]
+'tmp_invio_xbrl.n_ita
+[]
+'tmp_invio_xbrl.operazioni
+[]
+'tmp_invio_xbrl.paesecp
+[]
+'tmp_invio_xbrl.paeseicp
+[]
+'tmp_invio_xbrl.percab
+[]
+'tmp_invio_xbrl.perpaese
+[]
+'tmp_invio_xbrl.segno
+[]
+'tmp_invio_xbrl.settsint
+[]
+'tmp_invio_xbrl.totcont
+[]
+'tmp_invio_xbrl.totlire
+[]
+}
+*--*

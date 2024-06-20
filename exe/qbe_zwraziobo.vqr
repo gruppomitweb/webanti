@@ -1,0 +1,298 @@
+ 6
+"Operazioni"
+"wraziobo"
+"wraziobo"
+ 0
+ 0
+*
+"Causali Sintetiche"
+"tbcausin"
+"tbcausin"
+ 0
+ 0
+*
+"Causali Analitiche"
+"tbcauana"
+"tbcauana"
+ 0
+ 0
+*
+"Anagrafica Rapporti"
+"knarapbo"
+"knarapbo"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+"Dipendenze"
+"anadip"
+"anadip"
+ 0
+ 0
+*
+ 28
+""
+"[CASE(wraziobo.STATOREG,ý0ý,ý../images/grid_edit.gifý,ý1ý,ý../images/grid_edit.gifý,ý../images/grid_edit_x.gifý)]"
+"BTNEDT"
+"C"
+ 50
+ 0
+*
+""
+"[CASE(wraziobo.STATOREG,ý0ý,ý../images/grid_delete.gifý,ý1ý,ý../images/grid_delete.gifý,ý../images/grid_delete_x.gifý)]"
+"BTNDEL"
+"C"
+ 50
+ 0
+*
+""
+"[CASE(wraziobo.STATOREG,ý0ý,ý../images/stato01.gifý,ý2ý,ý../images/stato2.gifý,ý3ý,ý../images/stato3.gifý,ý1ý,ý../images/stato01.gifý,ýý)]"
+"STATOREG"
+"C"
+ 50
+ 0
+*
+"Idbase"
+"wraziobo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Numero Progressivo"
+"wraziobo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Operazione"
+"wraziobo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Data registrazione"
+"wraziobo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Rapporto Collegato"
+"wraziobo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Totale Operazione"
+"[CASE(wraziobo.VALUTA,ý018ý,wraziobo.TOTLIRE,(wraziobo.TOTLIRE/100))]"
+"TOTLIRE"
+"N"
+ 15
+ 2
+*
+"di cui contanti"
+"[CASE(wraziobo.VALUTA,ý018ý,wraziobo.TOTCONT,(wraziobo.TOTCONT/100))]"
+"TOTCONT"
+"N"
+ 15
+ 2
+*
+"Codice Cliente Occasionale"
+"wraziobo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Soggetto Operante Conto Terzi"
+"wraziobo.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+*
+"Beneficiario"
+"wraziobo.CONNESBEN"
+"CONNESBEN"
+"C"
+ 16
+ 0
+*
+"Rapporto Beneficiario"
+"wraziobo.RAPPORTBEN"
+"RAPPORTBEN"
+"C"
+ 25
+ 0
+*
+"Stato registrazione"
+"wraziobo.STATOREG"
+"STATO"
+"C"
+ 1
+ 0
+*
+"Causale Analitica"
+"wraziobo.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+*
+"Descrizione"
+"tbcauana.DESCRI"
+"DESCRI"
+"C"
+ 165
+ 0
+*
+"Causale Sintetica"
+"wraziobo.CODVOC"
+"CODVOC"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbcausin.DESCRIZ"
+"DESCRIZ"
+"C"
+ 165
+ 0
+*
+"Descrizione"
+"knarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Data Operazione in Carattere"
+"wraziobo.CDATOPE"
+"CDATOPE"
+"C"
+ 8
+ 0
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Codice Dipendenza"
+"wraziobo.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+*
+"Descrizione"
+"anadip.DESCRIZ"
+"DESCDIPE"
+"C"
+ 30
+ 0
+*
+"Riferimento operazione WU"
+"wraziobo.MTCN"
+"MTCN"
+"N"
+ 10
+ 0
+*
+"Identificativo File"
+"wraziobo.IDFILE"
+"IDFILE"
+"C"
+ 60
+ 0
+*
+"Riferimento Import"
+"wraziobo.RIFIMP"
+"RIFIMP"
+"C"
+ 20
+ 0
+*
+ 5
+"Causali Sintetiche(Causale Sintetica)"
+"tbcausin.CODVOC=wraziobo.CODVOC"
+"Right outer"
+"tbcausin"
+"wraziobo"
+*
+"Causali Analitiche(ID BASE Causale Analitica)"
+"tbcauana.idbase=wraziobo.idcauana"
+"Right outer"
+"tbcauana"
+"wraziobo"
+*
+"Rapporti"
+"knarapbo.RAPPORTO=wraziobo.RAPPORTO"
+"Right outer"
+"knarapbo"
+"wraziobo"
+*
+"Clienti"
+"personbo.CONNES=wraziobo.CONNESCLI"
+"Right outer"
+"personbo"
+"wraziobo"
+*
+"Dipendenze"
+"anadip.CODDIP=wraziobo.CODDIPE"
+"Right outer"
+"anadip"
+"wraziobo"
+*
+ 0
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 21
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"XV%5EKHB.UQRL6%11%3B%27BBA*0%02D%3EKLNF%2F1K%5C9%3A*%28*%10%24%26uOKRD%2BMZ%2BSTA%26%1768%25%21%27%5ELHP%40%3F%291G%3B24XWPKSQ%1C%3C%221%2CC06WCZ%2113%5C7O%23AZS%28-AH%3A%12**TiM6N%2BG%3D%28%3F%3D%2F%05+%3E%26%3A4_0QGLN%3C4C%3D386WQUHz8OH%29T%258Q5%5C%21%3B1%40NX3%5CC2*%60%2F%26K5TCS%06%40Gy%3B%2BI*%21C%3EIDZ1%3D5%400L6%2F%2CE+V%287%24%3F%223%2F%26%5CAAO%3F%3F%3D%29%5CUO8%23AY.%2F-r%3CW%40%3A*QR%268-%3E%3C2%24XF%245%1F%3CLV%40PJ%29%07H%3E%407%1F%00"
+"DT%3C.%5CFtSKH1*7%3A%2BHR1%21%27%3A0%3BHSFTtS%24T%22%16J%3B%5EI88BM%2Cm8%27HPZK4-%04FT%215GGO%40%2B3W%3CYG5A%3A4_.w2%25Q%3EL%27%5C%27%3Ej%3CV%24%5E1NDCc%24u%3B+%3C%3A%16M%22%3A55WPFU%40%21%3F-%5DPUDDU%3A%267A%23%5DM%27W8Y88.%40%40%3F.%05%04IhVBO%3D%29%5C%7E2S007U%3DO%3EL%3EDS_WD1%14%1DB-%22%3D%5CP%3AP44JK%29M9%3B3%07%2B%3EE1%24.8CFCq9%2B8%28%3A%223%26%25B%3EA%3BI%2CK9KL%5CB.1%3E*3O%2BT+R7FB%3C%22O8%26L%3F2F3CX2%21%2F%09DDNB%23%2FX%3D%2F%24%00"
+""
+""
+"native"
+ 0
+ 0
+*

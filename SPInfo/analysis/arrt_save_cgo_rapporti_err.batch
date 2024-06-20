@@ -1,0 +1,73 @@
+﻿* --- Resource Vers. 0.9
+arrt_save_cgo_rapporti_err
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:40
+description='Riporta scheda rapporti errati in tabella import
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:24
+module_name='
+name='arrt_save_cgo_rapporti_err
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'cgo_rapporti.rapporto
+'cgo_rapporti.descrap
+'cgo_rapporti.tipomov
+'cgo_rapporti.dataope
+'cgo_rapporti.codintest
+'cgo_telematico.snainumope
+'cgo_telematico.env
+'cgo_telematico.coddipe
+'cgo_telematico.rapporto
+'cgo_telematico.totlire
+'cgo_telematico.cacodice
+'cgo_telematico.cadataora
+'cgo_telematico.caidbiglietto
+'cgo_telematico.csmf_cod
+'cgo_telematico.num_conc
+'cgo_telematico.p_vend
+'cgo_telematico.ipcolleg
+'cgo_telematico.oracolleg
+'cgo_telematico.ducolleg
+'cgo_telematico.iban
+'cgo_telematico.mezpagam
+'cgo_telematico.tipogioco
+'cgo_telematico.codlob
+'cgo_telematico.catipgio
+'cgo_telematico.catipcon
+'cgo_telematico.capv_cod
+'cgo_telematico.vpcodice
+'cgo_telematico_err.snainumope
+'cgo_rapporti_err.prgrap
+]
+'Hyperlinks
+[
+'arpg_cgo_rapporti_err
+]
+'Routines
+[
+'arrt_writelog
+]
+'Tables
+[
+'cgo_rapporti_err<table>
+'cgo_rapporti<table>
+'cgo_telematico_err<table>
+'cgo_telematico<table>
+]
+}
+I
+*--*
+￼[]
+*--*

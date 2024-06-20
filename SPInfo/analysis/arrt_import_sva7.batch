@@ -1,0 +1,75 @@
+﻿* --- Resource Vers. 0.9
+arrt_import_sva7
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:36
+description='Import i dati per SV A7
+file_modified_on=#2023-09-19 15:28:18
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:16
+module_name='
+name='arrt_import_sva7
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'detta7.anno
+'detta7.semestre
+'basea7.anno
+'basea7.semestre
+'detta7.cprownum
+'detta7.voce
+'detta7.sottovoce
+'detta7.resid
+'detta7.provincia
+'detta7.stato
+'detta7.val01217
+'detta7.val02147
+'detta7.val02148
+'detta7.val02149
+'detta7.importo
+'detta7.idbasea7
+]
+'Libraries
+[
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_tb00016.vqr
+]
+'Routines
+[
+'arfn_datefchar
+'arfn_fdatetime
+]
+'Tables
+[
+'xersonbo<table>
+'personbo<table>
+'personbo_agg<table>
+'wersonbo<table>
+'operazbo<table>
+'fraziobo<table>
+'opextrbo<table>
+'sottovocea7<table>
+'tbprovsv<table>
+'tb00016<table>
+'tb01217<table>
+'tb02147<table>
+'basea7<table>
+'detta7<table>
+]
+}
+I
+*--*
+￼[]
+*--*

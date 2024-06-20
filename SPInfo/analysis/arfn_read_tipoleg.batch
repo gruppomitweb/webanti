@@ -1,0 +1,48 @@
+﻿* --- Resource Vers. 0.9
+arfn_read_tipoleg
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:29
+description='Rilegge il tipo legame al cambio della data operazione
+file_modified_on=#2018-06-11 07:20:48
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:54
+module_name='
+name='arfn_read_tipoleg
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'operazbo.idbase
+'operazbo.tipoleg
+'fraziobo.idbase
+'fraziobo.tipoleg
+'xperazbo.idbase
+'xperazbo.tipoleg
+'xraziobo.idbase
+'xraziobo.tipoleg
+]
+'Routines
+[
+'arfn_read_tipoleg
+]
+'Tables
+[
+'operazbo<table>
+'fraziobo<table>
+'xperazbo<table>
+'xraziobo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

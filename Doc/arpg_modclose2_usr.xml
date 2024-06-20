@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="104690268">
+  <CodifyName>arpg_modclose2</CodifyName>
+  <Name>arpg_modclose2.pagedef</Name>
+  <Title>Aggiorna la data di chiusura del rapporto</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="147196277"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_modclose2_usr_1</JPG>
+    <Item type="variabile" x1="136" y1="14" x2="214" y2="34">
+      <Name LinkID="194046395">datarett</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="626" y1="9" x2="666" y2="40">
+      <Name LinkID="146967972">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>window.close()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="578" y1="9" x2="618" y2="40">
+      <Name LinkID="146967972">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_modclose2</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Esegui aggiornamento dati</Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

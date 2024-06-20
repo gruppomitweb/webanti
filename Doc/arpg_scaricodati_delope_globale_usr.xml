@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="229573449">
+  <CodifyName>arpg_scaricodati_delope_globale</CodifyName>
+  <Name>arpg_scaricodati_delope_globale.pagedef</Name>
+  <Title>Estrazione Deleghe/Operazioni Extraconto per Agenzia Entrate</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="233226409"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_scaricodati_delope_globale_usr_1</JPG>
+    <Item type="bottone" x1="424" y1="70" x2="726" y2="98">
+      <Name LinkID="75689413">Crea File Ripristino Deleghe / Ope. Extraconto</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="80" y1="70" x2="146" y2="90">
+      <Name LinkID="70876605">dadata</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="240" y1="70" x2="306" y2="90">
+      <Name LinkID="70876570">a_data</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="176" y1="147" x2="304" y2="167">
+      <Name LinkID="241553172">CFINVIO</Name>
+      <Comment>Codice Fiscale Organo Invio File</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="616" y1="147" x2="664" y2="167">
+      <Name LinkID="207740316">CAFINVIO</Name>
+      <Comment>Codice CAF Organo Invio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="176" y1="175" x2="440" y2="195">
+      <Name LinkID="148677742">FILEINVIO</Name>
+      <Comment>Tipo Preparazione FIle</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="616" y1="175" x2="688" y2="195">
+      <Name LinkID="148663276">DATAINVIO</Name>
+      <Comment>Data Impegno Organo Invio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="680" y1="21" x2="720" y2="49">
+      <Name LinkID="229573449">images/search.gif</Name>
+      <Image>images/search.gif</Image>
+      <Hyperlink>arpg_filesage_do</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Visualizza file creati</Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

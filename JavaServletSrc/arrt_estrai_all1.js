@@ -1,0 +1,53 @@
+function arrt_estrai_all1() {
+var w_DaData;
+var w_AData;
+var w_codage;
+var w_codcli;
+var w_rapporto;
+var w_flgope;
+var w_flgrap;
+var w_flgfrz;
+var w_flgordine;
+var w_stoper;
+var w_tipout;
+var w_rappAttivSel;
+var m_Caller
+arrt_estrai_all1._p=_rargs(arguments,{eval:function(e){eval(e)}})
+function i_BlankParameters() {
+w_DaData=NullDate();
+w_AData=NullDate();
+w_codage='';
+w_codcli='';
+w_rapporto='';
+w_flgope='';
+w_flgrap='';
+w_flgfrz='';
+w_flgordine='';
+w_stoper='';
+w_tipout='';
+w_rappAttivSel='';
+}
+if(arrt_estrai_all1._p.length>0)_rargs([[['w_DaData',arrt_estrai_all1._p[0]],['w_AData',arrt_estrai_all1._p[1]],['w_codage',arrt_estrai_all1._p[2]],['w_codcli',arrt_estrai_all1._p[3]],['w_rapporto',arrt_estrai_all1._p[4]],['w_flgope',arrt_estrai_all1._p[5]],['w_flgrap',arrt_estrai_all1._p[6]],['w_flgfrz',arrt_estrai_all1._p[7]],['w_flgordine',arrt_estrai_all1._p[8]],['w_stoper',arrt_estrai_all1._p[9]],['w_tipout',arrt_estrai_all1._p[10]],['w_rappAttivSel',arrt_estrai_all1._p[11]]]],{eval:function(e){eval(e)}})
+arrt_estrai_all1._s=new BatchJavascript();
+if (Ne(typeof(document.FSender),'undefined') && Ne(typeof(document.FSender.m_cRegionalSettings),'undefined')) {
+arrt_estrai_all1._s.SetParameterString('m_cRegionalSettings',document.FSender.m_cRegionalSettings.value);
+}
+arrt_estrai_all1._s.SetParameterString('w_DaData',WtA(w_DaData,'D'));
+arrt_estrai_all1._s.SetParameterString('w_AData',WtA(w_AData,'D'));
+arrt_estrai_all1._s.SetParameterString('w_codage',WtA(w_codage,'C'));
+arrt_estrai_all1._s.SetParameterString('w_codcli',WtA(w_codcli,'C'));
+arrt_estrai_all1._s.SetParameterString('w_rapporto',WtA(w_rapporto,'C'));
+arrt_estrai_all1._s.SetParameterString('w_flgope',WtA(w_flgope,'C'));
+arrt_estrai_all1._s.SetParameterString('w_flgrap',WtA(w_flgrap,'C'));
+arrt_estrai_all1._s.SetParameterString('w_flgfrz',WtA(w_flgfrz,'C'));
+arrt_estrai_all1._s.SetParameterString('w_flgordine',WtA(w_flgordine,'C'));
+arrt_estrai_all1._s.SetParameterString('w_stoper',WtA(w_stoper,'C'));
+arrt_estrai_all1._s.SetParameterString('w_tipout',WtA(w_tipout,'C'));
+arrt_estrai_all1._s.SetParameterString('w_rappAttivSel',WtA(w_rappAttivSel,'C'));
+arrt_estrai_all1._s.SetParameterString('m_bApplet','true');
+arrt_estrai_all1._s.CallServlet('arrt_estrai_all1');
+if (Eq(typeof(m_bCalculating),'undefined') ||  ! (m_bCalculating)) {
+m_cErrorFromRoutine=arrt_estrai_all1._s.errmsg;
+}
+}
+arrt_estrai_all1.CtxLoad_ = function(){return []}

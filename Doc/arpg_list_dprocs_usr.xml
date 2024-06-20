@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="177164773">
+  <CodifyName>arpg_list_dprocs</CodifyName>
+  <Name>arpg_list_dprocs.pagedef</Name>
+  <Title>Dettaglio Processo</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="235612228"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_list_dprocs_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="76" x2="1380" y2="89">
+      <Name LinkID="161641803">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="63" x2="1380" y2="76">
+      <Name LinkID="184293764">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="45" x2="56" y2="61">
+      <Name LinkID="177164868">c_DPRPROGRE</Name>
+      <Help></Help>
+      <Expression>c_DPRPROGRE</Expression>
+      <Hyperlink>arpg_list_dprocs</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="64" y1="45" x2="688" y2="61">
+      <Name LinkID="177164868">c_DPRTXTMSG</Name>
+      <Help></Help>
+      <Expression>c_DPRTXTMSG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="696" y1="45" x2="768" y2="61">
+      <Name LinkID="177164868">c_DPRNUMRIG</Name>
+      <Help></Help>
+      <Expression>c_DPRNUMRIG</Expression>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

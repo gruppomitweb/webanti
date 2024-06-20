@@ -1,0 +1,163 @@
+﻿* --- Resource Vers. 0.9
+tmp_scarti<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Stampa Errori MASSCF
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_scarti
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_scarti.erconnes
+'tmp_scarti.erragsoc
+'tmp_scarti.ercodfisc
+'tmp_scarti.ercodice
+'tmp_scarti.erdescri
+'tmp_scarti.ertesto
+'tmp_scarti.erazione
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_scarti.erazione
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Azione da intraprendere
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ERAZIONE
+state=3
+table_name='tmp_scarti
+type='field
+used_resource_keys={}
+I
+'tmp_scarti.ercodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale Soggetto (se presente)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ERCODFISC
+state=3
+table_name='tmp_scarti
+type='field
+used_resource_keys={}
+I
+'tmp_scarti.ercodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ERCODICE
+state=3
+table_name='tmp_scarti
+type='field
+used_resource_keys={}
+I
+'tmp_scarti.erconnes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='NDG Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ERCONNES
+state=3
+table_name='tmp_scarti
+type='field
+used_resource_keys={}
+I
+'tmp_scarti.erdescri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ERDESCRI
+state=3
+table_name='tmp_scarti
+type='field
+used_resource_keys={}
+I
+'tmp_scarti.erragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ERRAGSOC
+state=3
+table_name='tmp_scarti
+type='field
+used_resource_keys={}
+I
+'tmp_scarti.ertesto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione Estesa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ERTESTO
+state=3
+table_name='tmp_scarti
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_scarti.erazione
+[]
+'tmp_scarti.ercodfisc
+[]
+'tmp_scarti.ercodice
+[]
+'tmp_scarti.erconnes
+[]
+'tmp_scarti.erdescri
+[]
+'tmp_scarti.erragsoc
+[]
+'tmp_scarti.ertesto
+[]
+}
+*--*

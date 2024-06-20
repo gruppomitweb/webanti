@@ -1,0 +1,92 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_stprappo_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:19
+description='
+file_modified_on=#2024-05-10 18:19:37
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='logged
+I
+}
+modified_on=#2024-05-10 18:25:45
+module_name='
+name='pg_stprappo_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Fields
+[
+'anarapbo.rapporto
+'anarapbo.descrap
+'xnarapbo.rapporto
+'xnarapbo.descrap
+'jnarapbo.rapporto
+'jnarapbo.descrap
+'wnarapbo.rapporto
+'wnarapbo.descrap
+'personbo.connes
+'personbo.ragsoc
+'anadip.coddip
+'anadip.descriz
+'tbrapp.codice
+'tbrapp.descri
+'tbrisglob.codice
+'tbrisglob.descri
+]
+'Hyperlinks
+[
+'arrt_stprappo_all
+]
+'Others
+[
+'jsp\showmsg_portlet.jsp
+'jsp\showlog_portlet.jsp
+]
+'Tables
+[
+'anarapbo<table>
+'xnarapbo<table>
+'jnarapbo<table>
+'wnarapbo<table>
+'personbo<table>
+'anadip<table>
+'tbrapp<table>
+'tbrisglob<table>
+]
+'Zooms
+[
+'[anarapbo] default.vzm
+'[xnarapbo] default.vzm
+'[jnarapbo] default.vzm
+'[wnarapbo] default.vzm
+'[personbo] default.vzm
+'[anadip] default.vzm
+'[tbrapp] default.vzm
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_stprappo_portlet.jsp|Error|core::document|Update dependencies|Resource "[tbrisglob] default.vzm" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:45
+message='Resource "[tbrisglob] default.vzm" not found.
+resource_key='jsp\pg_stprappo_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

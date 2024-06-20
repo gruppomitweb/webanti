@@ -1,0 +1,81 @@
+﻿* --- Resource Vers. 0.9
+opert_estr_trim
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Genera File Estrazione Trimestrale
+file_modified_on=#2022-03-14 10:27:11
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='opert_estr_trim
+state=1
+type='batch
+used_resource_keys={
+'Libraries
+[
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_estr_trim.vqr
+'qbe_estr_trim_agg_a_numdipe.vqr
+'qbe_estr_trim_agg_c_numdipe.vqr
+'qbe_estr_trim_agg_a_numope.vqr
+'qbe_estr_trim_agg_c_numope.vqr
+'qbe_estr_trim_agg_b_numope.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+'opert_estr_trim
+]
+'Tables
+[
+'intermbo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_estr_trim|Error|core::document|Update dependencies|Resource "qbe_estr_trim_agg_d_numope.vqr" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Resource "qbe_estr_trim_agg_d_numope.vqr" not found.
+resource_key='opert_estr_trim
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_estr_trim|Error|core::document|Update dependencies|Resource "qbe_estr_trim_agg_d_numdipe.vqr" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Resource "qbe_estr_trim_agg_d_numdipe.vqr" not found.
+resource_key='opert_estr_trim
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

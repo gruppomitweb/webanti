@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="193516683">
+  <CodifyName>armt_anadip</CodifyName>
+  <Name>armt_anadip.mstdef</Name>
+  <Title>Dipendenze</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="31267750"></Title>
+    <Note/>
+    <JPG x="8" y="9">armt_anadip_usr_1</JPG>
+    <Item type="campo" x1="128" y1="18" x2="184" y2="38">
+      <Name LinkID="229646526">CODDIP</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Key>key1</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="280" y1="18" x2="472" y2="38">
+      <Name LinkID="202472023">DESCRIZ</Name>
+      <Comment>Descrizione</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="45" x2="380" y2="65">
+      <Name LinkID="117767240">DOMICILIO</Name>
+      <Comment>Indirizzo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="72" x2="320" y2="92">
+      <Name LinkID="202470472">DESCCIT</Name>
+      <Comment>Città</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="472" y1="72" x2="496" y2="92">
+      <Name LinkID="154334110">PROVINCIA</Name>
+      <Comment>Provincia</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="544" y1="72" x2="592" y2="92">
+      <Name LinkID="87024779">CAB</Name>
+      <Comment>CAB</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="536" y1="14" x2="591" y2="35">
+      <Name LinkID="30531559">AGENTE</Name>
+      <Comment>Agente</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="99" x2="182" y2="119">
+      <Name LinkID="107787988">MACROAGENTE</Name>
+      <Comment>Denominazione MacroAgente</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="126" x2="230" y2="146">
+      <Name LinkID="5299810">TERMINALID</Name>
+      <Comment>ID Terrminale</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="504" y1="126" x2="592" y2="146">
+      <Name LinkID="83484648">IDBASE</Name>
+      <Comment>CGO Codice Interno</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="472" y1="45" x2="592" y2="65">
+      <Name LinkID="86400683">TELEFONO</Name>
+      <Comment>Telefono</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

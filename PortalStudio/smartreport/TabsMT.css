@@ -1,0 +1,90 @@
+.listTitle{
+  width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+
+.listTitle div{
+  display:inline-block;
+}
+
+.tabs{
+  margin:0;
+  padding-left:5px;
+  padding-right:5px;
+  font-size:11px;
+  font-weight:normal;
+  background: #D5D5D5;
+  color: #000000;
+  cursor:default;
+  display:inline-block;
+  width:auto;
+  height:34px;
+  list-style-type:none;
+  vertical-align:baseline;
+  margin-top:0px;
+  box-sizing: border-box;
+  padding-top:4px;
+}
+
+.tabSelected{  
+  margin:0;
+  color:#ffffff;
+  background: #555555;  
+}
+
+.tabUnselected{
+  color: #ffffff;
+  background: #c3c3c3;
+  cursor:pointer;
+}
+
+.closeTab{
+  cursor:pointer;
+  background:url("./images/closeTab.png") no-repeat center transparent;
+  height: 16px;
+  width: 16px;
+  margin-top:0px;
+  display:block;
+  float:right;
+  margin-left:5px;
+ }
+
+.tabUnselected .closeTab{
+  display:none;
+}
+
+.moveSx{
+  width:10px;
+  height:10px;
+  margin-top:5px;
+  background:url("./images/moveSx.png") no-repeat scroll left top transparent;
+}
+
+.moveDx{
+  width:10px;
+  height:10px;
+  margin-top:5px;
+  background:url("./images/moveDx.png") no-repeat scroll right top transparent;
+}
+
+.move{
+  z-index:999;
+  /*margin-bottom:4px;*/
+  vertical-align:top;
+  position:absolute;
+  width:22px;
+  height:20px;
+  overflow:hidden;
+  box-sizing:border-box;
+}
+
+.divContainerList{
+  height:24px;
+  box-sizing:border-box;
+  overflow:hidden;
+  display:block;
+  position:relative;
+  left:22;
+}

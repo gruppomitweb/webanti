@@ -1,0 +1,126 @@
+<html>
+ <head>
+  <title>Table properties</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <link rel="stylesheet" href="extender.css" type="text/css">
+  <script src="../stdFunctions.js"></script>
+  <script src="../spadministration_help.js"></script>
+  <script>
+QueryString.keys = new Array();
+QueryString.values = new Array();
+var action;
+var m_cProgName="spadministration_table_extender_table";
+
+function QueryString(key) {
+	var value = null;
+  for (var i=0;i<QueryString.keys.length;i++) {
+    if (QueryString.keys[i]==key) {
+			value = QueryString.values[i];
+			break;
+		}
+	}
+	return value;
+}
+
+function QueryString_Parse() {
+	var query = window.location.search.substring(1);
+	var pairs = query.split("&");
+
+  for (var i=0;i<pairs.length;i++) {
+		var pos = pairs[i].indexOf('=');
+    if (pos >= 0) {
+			var argname = pairs[i].substring(0,pos);
+			var value = pairs[i].substring(pos+1);
+			QueryString.keys[QueryString.keys.length] = argname;
+			QueryString.values[QueryString.values.length] = value;
+		}
+	}
+}
+
+function DoLoad() {
+  QueryString_Parse();
+
+  action = QueryString("action");
+
+  if (action=="edit") {
+    var table = GetOpener().allTables[QueryString("t")];
+
+    document.getElementById("data_name").value = table[0];
+    document.getElementById("physical_name").value = table[1];
+    document.getElementById("company").checked = table[4];
+    document.getElementById("check").value = table[3];
+    document.getElementById("external").checked = table[9];
+
+  }
+  document.getElementById("data_name").focus();
+}
+function SetTable() {
+  var table = new Array(document.getElementById("data_name").value,
+                        document.getElementById("physical_name").value,
+                        document.getElementById("company").checked,
+                        document.getElementById("check").value,
+                        document.getElementById("external").checked)
+
+  GetOpener().UpdateTable(table, action, QueryString("et"), QueryString("t"));
+  WindowClose();
+}
+function ToggleCompany() {
+  if(document.getElementById("company").checked){
+    document.getElementById("physical_name").value+="xxx";
+  } else {
+    document.getElementById("physical_name").value=GetOpener().Strtran(document.getElementById("physical_name").value,"xxx","")
+  }
+}
+function SetPhysicalName() {
+  if(document.getElementById("physical_name").value==""){
+    document.getElementById("physical_name").value=document.getElementById("data_name").value;
+  }
+}
+function CloseWindow() {
+  WindowClose();
+}
+function ManageKeys(e) {
+  if(e.keyCode==13) SetTable();
+  else if(e.keyCode==27) CloseWindow();
+}
+function CancelEvent(e){
+ e.cancelBubble=true
+ if(e.stopPropagation) e.stopPropagation();
+ e.returnValue=false
+}
+function CancelHelp(e) {
+ CancelEvent(e);
+ Help();
+}
+  </script>
+ </head>
+
+ <body onload="DoLoad()" onhelp="CancelHelp(event)" onkeydown="ManageKeys(event)">
+  <table align="center" width="432" height="152">
+   <tr>
+    <td>
+     <input id="data_name" type="text" style="position:absolute;top:20;left:109;width:200" maxlength="202" onblur="SetPhysicalName()">
+     <label style="position:absolute;top:24;left:42" onselectstart="return false">Data name:</label>
+
+     <input id="physical_name" type="text" style="position:absolute;top:49;left:109;width:200" maxlength="202">
+     <label style="position:absolute;top:53;left:22" onselectstart="return false">Physical name:</label>
+
+     <input id="company" type="checkbox" style="position:absolute;top:50;left:321" onclick="ToggleCompany()">
+     <label style="position:absolute;top:53;left:341" onselectstart="return false" for="company">Company</label>
+
+     <input id="check" type="text" style="position:absolute;top:79;left:109;width:200" maxlength="202">
+     <label style="position:absolute;top:83;left:68" onselectstart="return false">Check:</label>
+
+     <input id="external" type="checkbox" style="position:absolute;top:80;left:321">
+     <label style="position:absolute;top:83;left:341" onselectstart="return false" for="external">External</label>
+    </td>
+   </tr>
+   <tr style="height:20">
+    <td class="footer-button-container" onselectstart="return false;">
+     <button onclick="SetTable()" accesskey="o" class="bottoni confirm"><u>O</u>K</button>&nbsp;
+     <button onclick="WindowClose();" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+    </td>
+   </tr>
+  </table>
+ </body>
+</html>

@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter Report (http://www.zucchetti.it) -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_stpoperana_sto||version||4.1||title||Stampa Analitica Storico Operazioni (Report)||query||qbe_stpoperana_sto||font||Arial||font_size||9||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||true||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-03-08||date_rev||2013-01-14||form_class|| ||grid_dx||0||grid_dy||0||grid_show||0||grid_use||0||snaplines_show||1||language|| ||merge||false||modcnt||1||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| |||type||HeaderBar_top||name||bar_PageHeader_start||y||61||x||0||uid||TKREPYZBIO||sequence||12||bb_sequence||2|||type||HeaderBar_bottom||name||bar_PageHeader_end||y||574||x||0||uid||RKNZLHWYYO||sequence||106||bb_sequence||3|||type||ReportBar_top||name||bar_ReportHeader_start||y||62||x||0||uid||QWMQSVWGOS||sequence||13||bb_sequence||4|||type||ReportBar_bottom||name||bar_ReportHeader_end||y||448||x||0||uid||TXHZHRLNJP||sequence||83||bb_sequence||5|||type||Group_top||name||group0||y||63||uid||EJEWMAERQD||sequence||14||bb_sequence||6||comment|| ||exp||c_IDBASE||start_each_on_page||false||as_page_header||false||print_group_footer||false||as_page_footer||false||reset_page_number||false||numpage_expr|| ||printblock||false||reprint_header||false||reprint_footer||false||rows||0||output_name|| ||display_expr|| ||ingroup_expr|| ||outgroup_expr|| |||type||Group_down||name||group0||y||438||uid||YWKLWWGUVM||sequence||81||bb_sequence||7||comment|| ||exp||c_IDBASE||start_each_on_page||false||as_page_header||false||print_group_footer||false||as_page_footer||false||reset_page_number||false||numpage_expr|| ||printblock||false||reprint_header||false||reprint_footer||false||rows||0||output_name|| ||display_expr|| ||ingroup_expr|| ||outgroup_expr|| |||type||Box||name||Box0||x||8||y||6||h||27||w||109||uid||MFEMCGCOIG||sequence||1||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Expr||name||expr1||x||416||y||9||h||18||w||80||uid||APFMEAYJEU||sequence||2||exp||DaDatOpe||comment|| ||type_exp||date||len||8||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||EJEWMAERQD||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label2||x||536||y||9||h||18||w||61||uid||DOJTERUKOF||sequence||3||value||Da Cliente:||text_type||constant||comment|| ||align||right||hidecond||Empty(daCodCli)||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label3||x||16||y||9||h||21||w||93||uid||EKIDKMYZQY||sequence||4||value||OPERAZIONI||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||EJEWMAERQD||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||11||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label4||x||296||y||9||h||18||w||115||uid||MMQVVMKMFF||sequence||5||value||Da Data Operazione:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Expr||name||expr5||x||600||y||9||h||18||w||126||uid||ONWPWDYQPN||sequence||6||exp||daCodCli||comment|| ||type_exp||character||len||18||dec||0||picture|| ||output_name|| ||hidecond||Empty(daCodCli)||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label6||x||296||y||36||h||18||w||115||uid||GLKMYTRPMR||sequence||7||value||A Data Operazione:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Expr||name||expr7||x||416||y||36||h||18||w||80||uid||WKDQSODSKR||sequence||8||exp||ADatOpe||comment|| ||type_exp||date||len||8||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||EJEWMAERQD||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label8||x||536||y||36||h||18||w||61||uid||WJDNRZYHQO||sequence||9||value||A Cliente:||text_type||constant||comment|| ||align||right||hidecond||Empty(aCodCli)||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Expr||name||expr9||x||600||y||36||h||18||w||126||uid||YHSZEOBZOJ||sequence||10||exp||aCodCli||comment|| ||type_exp||character||len||18||dec||0||picture|| ||output_name|| ||hidecond||Empty(aCodCli)||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Box||name||Box10||x||8||y||59||h||2||w||720||uid||JZKMKDADWI||sequence||11||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Box||name||Box11||x||8||y||68||h||18||w||280||uid||AAXJTAGGYA||sequence||15||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label12||x||13||y||69||h||18||w||85||uid||PLNJLRQBZA||sequence||16||value||Dati Generali||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box13||x||8||y||85||h||132||w||712||uid||JSJKOHDLTV||sequence||17||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Expr||name||expr14||x||360||y||92||h||18||w||88||uid||CSOUSRFHCM||sequence||18||exp||c_NUMPROG||comment|| ||type_exp||character||len||11||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr15||x||640||y||92||h||18||w||72||uid||EGFXQUPEXS||sequence||19||exp||c_DATAREG||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label16||x||272||y||92||h||18||w||83||uid||LQOVHUOCGV||sequence||20||value||N°Progressivo:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Label||name||label17||x||19||y||92||h||18||w||95||uid||KEMJURGXUJ||sequence||21||value||Data Operazione:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr18||x||120||y||92||h||18||w||72||uid||BTGFYDMSCS||sequence||22||exp||c_DATAOPER||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label19||x||523||y||92||h||18||w||108||uid||OSWISKGXFL||sequence||23||value||Data Registrazione:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Label||name||label20||x||48||y||112||h||18||w||66||uid||TDNOQVHWID||sequence||24||value||Operazione:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr21||x||120||y||112||h||18||w||32||uid||MWKUAFSBYG||sequence||25||exp||c_TIPOOPRAP||comment|| ||type_exp||character||len||2||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr22||x||160||y||112||h||18||w||552||uid||YTMKEAAUCY||sequence||26||exp||c_DES1||comment|| ||type_exp||character||len||90||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label23||x||36||y||132||h||18||w||78||uid||YABFCSXEUU||sequence||27||value||Cau. Analitica:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr24||x||120||y||132||h||18||w||32||uid||CDTEWTULQV||sequence||28||exp||c_CODANA||comment|| ||type_exp||character||len||4||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr25||x||160||y||132||h||18||w||551||uid||SAMFPZYVTY||sequence||29||exp||c_DESCRI||comment|| ||type_exp||character||len||165||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr26||x||160||y||152||h||18||w||551||uid||GNITZNTKAA||sequence||30||exp||c_DESCRIZ||comment|| ||type_exp||character||len||165||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label27||x||35||y||152||h||18||w||79||uid||GOLZNASNUV||sequence||31||value||Cau. Sintetica:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr28||x||120||y||152||h||18||w||32||uid||KPLTKZCITC||sequence||32||exp||c_CODVOC||comment|| ||type_exp||character||len||2||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr29||x||328||y||172||h||18||w||32||uid||KTFPWUDDHU||sequence||33||exp||c_VALUTA||comment|| ||type_exp||character||len||3||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label30||x||592||y||172||h||18||w||47||uid||PTINGAOVDX||sequence||34||value||Cambio:||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Label||name||label31||x||72||y||172||h||18||w||39||uid||AGLTGRYRPG||sequence||35||value||Segno:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Label||name||label32||x||160||y||172||h||18||w||27||uid||FJMNIFYAXI||sequence||36||value||Tipo:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr33||x||368||y||172||h||18||w||210||uid||ZLFGZWUXYT||sequence||37||exp||c_DESCRI1||comment|| ||type_exp||character||len||30||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label34||x||288||y||172||h||18||w||37||uid||UZZATTCJPN||sequence||38||value||Divisa:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr35||x||192||y||172||h||18||w||80||uid||UBWOFZHKTY||sequence||39||exp||iif(c_VALUTA=&#39;242&#39;,&#39;Euro&#39;,iif(c_VALUTA=&#39;018&#39;,&#39;Lire&#39;,&#39;Altro&#39;))||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr36||x||640||y||172||h||18||w||71||uid||DAYLWITBQM||sequence||40||exp||c_CAMBIO||comment|| ||type_exp||numeric||len||9||dec||4||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr37||x||120||y||172||h||18||w||24||uid||SCDNRLOIVE||sequence||41||exp||c_SEGNO||comment|| ||type_exp||character||len||1||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr38||x||624||y||192||h||18||w||88||uid||JBVDSDTKHT||sequence||42||exp||iif(c_STATOREG=&#39;2&#39;,&#39;Modificata&#39;,iif(c_STATOREG=&#39;3&#39;,&#39;Cancellata&#39;,&#39;Attiva&#39;))||comment|| ||type_exp||character||len||12||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr39||x||360||y||192||h||18||w||105||uid||VFWUUPKBWN||sequence||43||exp||c_TOTCONT||comment|| ||type_exp||numeric||len||15||dec||2||picture||iif(c_VALUTA=&quot;018&quot;,&quot;999,999,999,999&quot;,&quot;999,999,999.99&quot;)||output_name|| ||hidecond|| ||stretch||false||align||right||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||EJEWMAERQD||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label40||x||280||y||192||h||18||w||78||uid||MLJYRWDBVU||sequence||44||value||di cui contanti:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Label||name||label41||x||40||y||192||h||18||w||73||uid||ITQOGXHENT||sequence||45||value||Tot.Lire/Euro:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Label||name||label42||x||512||y||192||h||18||w||110||uid||AOOEXLUJXS||sequence||46||value||Stato Registrazione:||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr43||x||120||y||192||h||18||w||105||uid||AOXAZYQGXP||sequence||47||exp||c_IMPORTO||comment|| ||type_exp||numeric||len||15||dec||2||picture||iif(c_VALUTA=&quot;018&quot;,&quot;999,999,999,999&quot;,&quot;999,999,999.99&quot;)||output_name|| ||hidecond|| ||stretch||false||align||right||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||EJEWMAERQD||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Box||name||Box44||x||8||y||221||h||18||w||280||uid||NYONMIEXPG||sequence||48||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label45||x||13||y||222||h||18||w||147||uid||HYKLIDCLBQ||sequence||49||value||Intermediario Controparte||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box46||x||8||y||238||h||72||w||712||uid||HIILPCCSWE||sequence||50||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Expr||name||expr47||x||688||y||243||h||18||w||24||uid||IOOXWETYQD||sequence||51||exp||c_PROV2||comment|| ||type_exp||character||len||2||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label48||x||512||y||245||h||18||w||27||uid||THWZTYXDLO||sequence||52||value||CAB:||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr49||x||544||y||245||h||18||w||42||uid||UZVGCUOQKG||sequence||53||exp||c_CODCAB2||comment|| ||type_exp||character||len||6||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label50||x||656||y||245||h||18||w||30||uid||LEUICOVESV||sequence||54||value||Prov.:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr51||x||120||y||245||h||18||w||77||uid||OPEPVMRTSS||sequence||55||exp||c_CODINT2||comment|| ||type_exp||character||len||11||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label52||x||37||y||245||h||18||w||76||uid||YSYJZLLUDB||sequence||56||value||Intermediario:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr53||x||208||y||245||h||18||w||210||uid||LICNVBVTKH||sequence||57||exp||c_DESC2||comment|| ||type_exp||character||len||30||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr54||x||120||y||266||h||18||w||592||uid||HVWAEHYHZK||sequence||58||exp||c_DESCRI3||comment|| ||type_exp||character||len||80||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label55||x||59||y||266||h||18||w||54||uid||IFEYLNKNTF||sequence||59||value||Tipologia:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr56||x||152||y||286||h||18||w||200||uid||TEKXREPTMC||sequence||60||exp||c_DESCRI3||comment|| ||type_exp||character||len||80||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label57||x||82||y||286||h||18||w||31||uid||HHVSIQLEWT||sequence||61||value||Stato:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr58||x||120||y||286||h||18||w||21||uid||ZSCNLAGLNO||sequence||62||exp||c_PAESE||comment|| ||type_exp||character||len||3||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Box||name||Box59||x||8||y||313||h||18||w||280||uid||KWDTIDAWFI||sequence||63||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label60||x||13||y||314||h||18||w||263||uid||ACKBDWJFKO||sequence||64||value||Dati Soggetti/Rapporti Coinvolti nell&#39;operazione||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||EJEWMAERQD||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box61||x||8||y||330||h||108||w||712||uid||AJXZOQWVDN||sequence||65||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Expr||name||expr62||x||240||y||334||h||18||w||472||uid||TLUXGUDUUI||sequence||66||exp||c_RAGSOC||comment|| ||type_exp||character||len||70||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr63||x||120||y||334||h||18||w||112||uid||PTRDNQJUEO||sequence||67||exp||c_CONNESCLI||comment|| ||type_exp||character||len||16||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label64||x||16||y||334||h||18||w||100||uid||CYDRKJRNTP||sequence||68||value||Cliente Occasion.:||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Label||name||label65||x||62||y||354||h||18||w||54||uid||IGRYCUESKK||sequence||69||value||Rapporto:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr66||x||120||y||354||h||18||w||176||uid||QPVGAJMQRO||sequence||70||exp||c_RAPPORTO||comment|| ||type_exp||character||len||25||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr67||x||304||y||361||h||18||w||350||uid||XQAGHLXKIA||sequence||71||exp||c_DESCRAP||comment|| ||type_exp||character||len||50||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr68||x||240||y||374||h||18||w||472||uid||BNZLQGHWQA||sequence||72||exp||c_RAGSOC1||comment|| ||type_exp||character||len||70||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr69||x||120||y||374||h||18||w||112||uid||WYLQPKIFDJ||sequence||73||exp||c_CONNESOPER||comment|| ||type_exp||character||len||16||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label70||x||12||y||374||h||18||w||104||uid||YZPKVOLQSU||sequence||74||value||Sogg. Op. C. Terzi:||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr71||x||152||y||394||h||18||w||560||uid||USPENUXEOV||sequence||75||exp||arfn_dec_tbtipleg(c_DATAOPE,c_TIPOLEG)||comment|| ||type_exp||character||len||80||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr72||x||120||y||394||h||18||w||24||uid||MBYWUBRWCI||sequence||76||exp||c_TIPOLEG||comment|| ||type_exp||character||len||1||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label73||x||40||y||394||h||18||w||76||uid||HFUPMEJZBW||sequence||77||value||Tipo Legame:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Expr||name||expr74||x||240||y||414||h||18||w||472||uid||IJRSUKENDV||sequence||78||exp||c_RAGSOC2||comment|| ||type_exp||character||len||70||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr75||x||120||y||414||h||18||w||112||uid||AULFZVVCCQ||sequence||79||exp||c_CONNESBEN||comment|| ||type_exp||character||len||16||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label76||x||48||y||414||h||18||w||68||uid||KISSWFPXTG||sequence||80||value||Beneficiario:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false|||type||Box||name||Box77||x||8||y||442||h||2||w||720||uid||XFTFICLKQS||sequence||82||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label78||x||472||y||452||h||18||w||112||uid||NPABZFOAED||sequence||84||value||Totali in Lire||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label79||x||600||y||452||h||18||w||112||uid||DKVQXSYKLW||sequence||85||value||Totali in Euro||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box80||x||591||y||466||h||26||w||128||uid||NKPKJOWGNX||sequence||86||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Box||name||Box81||x||464||y||466||h||26||w||128||uid||XMWNBMCPDE||sequence||87||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Expr||name||expr82||x||600||y||470||h||18||w||112||uid||RIWEIGMVWK||sequence||88||exp||iif(c_STATOREG=&#39;A&#39;,c_TOTEURO,0)||comment|| ||type_exp||numeric||len||11||dec||2||picture||&quot;99,999,999.99&quot;||output_name|| ||hidecond|| ||stretch||false||align||right||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||sum||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr83||x||472||y||470||h||18||w||112||uid||OXSBOLSRKK||sequence||89||exp||iif(c_STATOREG=&#39;A&#39;,c_TOTLIRE,0)||comment|| ||type_exp||numeric||len||11||dec||2||picture||&quot;999,999,999,999&quot;||output_name|| ||hidecond|| ||stretch||false||align||right||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||sum||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label84||x||363||y||472||h||18||w||96||uid||IIRCEDCLSI||sequence||90||value||Operazioni Attive||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box85||x||591||y||491||h||26||w||128||uid||AISFDJICZM||sequence||91||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Box||name||Box86||x||464||y||491||h||26||w||128||uid||SAQKBMWPMH||sequence||92||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Expr||name||expr87||x||600||y||495||h||18||w||112||uid||XZNIETUXUZ||sequence||93||exp||iif(c_STATOREG=&#39;M&#39;,c_TOTEURO,0)||comment|| ||type_exp||numeric||len||15||dec||2||picture||&quot;99,999,999.99&quot;||output_name|| ||hidecond|| ||stretch||false||align||right||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||sum||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr88||x||472||y||495||h||18||w||112||uid||AAESIGLYOG||sequence||94||exp||iif(c_STATOREG=&#39;M&#39;,c_TOTLIRE,0)||comment|| ||type_exp||numeric||len||15||dec||2||picture||&quot;999,999,999,999&quot;||output_name|| ||hidecond|| ||stretch||false||align||right||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||sum||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label89||x||336||y||496||h||18||w||123||uid||WALTYKEMLT||sequence||95||value||Operazioni Modificate||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box90||x||591||y||516||h||26||w||128||uid||QBMDYUXANU||sequence||96||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Box||name||Box91||x||464||y||516||h||26||w||128||uid||WLXPTXYWVX||sequence||97||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Expr||name||expr92||x||600||y||520||h||18||w||112||uid||LWNDNRVPDW||sequence||98||exp||iif(c_STATOREG=&#39;C&#39;,c_TOTEURO,0)||comment|| ||type_exp||numeric||len||11||dec||2||picture||&quot;99,999,999.99&quot;||output_name|| ||hidecond|| ||stretch||false||align||right||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||sum||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr93||x||472||y||520||h||18||w||112||uid||EZBMWEWTPH||sequence||99||exp||iif(c_STATOREG=&#39;C&#39;,c_TOTLIRE,0)||comment|| ||type_exp||numeric||len||15||dec||2||picture||&quot;999,999,999,999&quot;||output_name|| ||hidecond|| ||stretch||false||align||right||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||sum||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label94||x||335||y||521||h||18||w||124||uid||YMVLVCZRUM||sequence||100||value||Operazioni Cancellate||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box95||x||591||y||545||h||26||w||128||uid||NEKGXNCAEI||sequence||101||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Box||name||Box96||x||464||y||545||h||26||w||128||uid||LFKDIJXUZW||sequence||102||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label97||x||335||y||548||h||18||w||124||uid||EVOQWPQXFO||sequence||103||value||Totale Operazioni||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Expr||name||expr98||x||600||y||549||h||18||w||112||uid||UVTVLOQBFS||sequence||104||exp||c_TOTEURO||comment|| ||type_exp||numeric||len||11||dec||2||picture||&quot;99,999,999.99&quot;||output_name|| ||hidecond|| ||stretch||false||align||right||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||sum||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr99||x||472||y||549||h||18||w||112||uid||VBJXUXOSJD||sequence||105||exp||c_TOTLIRE||comment|| ||type_exp||numeric||len||15||dec||2||picture||&quot;999,999,999,999&quot;||output_name|| ||hidecond|| ||stretch||false||align||right||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||sum||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||-->
+
+<REPORT NAME="arrp_stpoperana_sto" TITLE="Stampa Analitica Storico Operazioni (Report)" QUERY="qbe_stpoperana_sto" MAXDEPTH="1" GLBFONTNAME="Arial" GLBFONTSIZE="9" VERSION="4.0" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES="">
+    <FIELD NAME="qbe_stpoperana_sto.DATAOPE" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.DATAOPER" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.NUMPROG" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.DATAREG" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.CODANA" TYPE="C" LEN="4" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.DESCRI" TYPE="C" LEN="165" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.CODVOC" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.DESCRIZ" TYPE="C" LEN="165" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.IMPORTO" TYPE="N" LEN="15" DEC="2" />
+    <FIELD NAME="qbe_stpoperana_sto.VALUTA" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.DESCRI1" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.STATOREG" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.TOTLIRE" TYPE="N" LEN="15" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.TOTEURO" TYPE="N" LEN="15" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.TIPOOPRAP" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.DES1" TYPE="C" LEN="90" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.SEGNO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.CAMBIO" TYPE="N" LEN="9" DEC="4" />
+    <FIELD NAME="qbe_stpoperana_sto.TOTCONT" TYPE="N" LEN="15" DEC="2" />
+    <FIELD NAME="qbe_stpoperana_sto.CODINT2" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.DESC2" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.PROV2" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.CODCAB2" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.PAESE" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.DESCRI3" TYPE="C" LEN="80" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.IDBASE" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.CONNESCLI" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.RAPPORTO" TYPE="C" LEN="25" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.DESCRAP" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.CONNESOPER" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.RAGSOC1" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.CONNESBEN" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.RAGSOC2" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stpoperana_sto.TIPOLEG" TYPE="C" LEN="1" DEC="0" />
+    <PAGEHEADER Y="0" H="61" EXPRESSION="Page header">
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="6" X="8" YY="33" XX="117"
+              ALIGN="L"
+              UID="MFEMCGCOIG"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="espressione" NAME="DaDatOpe" ITEMTYPE="D" EXPRTYPE="expression"
+              Y="9" X="416" YY="27" XX="496"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              LEN="8"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="EJEWMAERQD"
+              />
+        <ITEM OBJ="stringa" NAME="Da Cliente:" EXPRTYPE="constant"
+              Y="9" X="536" YY="27" XX="597"
+              ALIGN="R"
+              HIDECONDITION="Empty(daCodCli)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="OPERAZIONI" EXPRTYPE="constant"
+              Y="9" X="16" YY="30" XX="109"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="EJEWMAERQD"
+              />
+        <ITEM OBJ="stringa" NAME="Da Data Operazione:" EXPRTYPE="constant"
+              Y="9" X="296" YY="27" XX="411"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="espressione" NAME="daCodCli" ITEMTYPE="C" EXPRTYPE="expression"
+              Y="9" X="600" YY="27" XX="726"
+              ALIGN="L"
+              HIDECONDITION="Empty(daCodCli)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              LEN="18"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box_end" UID="MFEMCGCOIG"/>
+        <ITEM OBJ="stringa" NAME="A Data Operazione:" EXPRTYPE="constant"
+              Y="36" X="296" YY="54" XX="411"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="espressione" NAME="ADatOpe" ITEMTYPE="D" EXPRTYPE="expression"
+              Y="36" X="416" YY="54" XX="496"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              LEN="8"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="EJEWMAERQD"
+              />
+        <ITEM OBJ="stringa" NAME="A Cliente:" EXPRTYPE="constant"
+              Y="36" X="536" YY="54" XX="597"
+              ALIGN="R"
+              HIDECONDITION="Empty(aCodCli)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="espressione" NAME="aCodCli" ITEMTYPE="C" EXPRTYPE="expression"
+              Y="36" X="600" YY="54" XX="726"
+              ALIGN="L"
+              HIDECONDITION="Empty(aCodCli)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              LEN="18"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="59" X="8" YY="61" XX="728"
+              ALIGN="L"
+              UID="JZKMKDADWI"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="box_end" UID="JZKMKDADWI"/>
+    </PAGEHEADER>
+    <REPORTHEADER Y="61" H="0" EXPRESSION="Report header">
+    </REPORTHEADER>
+    <SECTION TYPE="group" HEADH="0" FOOTH="9" SYMNAME="" UID="EJEWMAERQD" TOP="61" BOTTOM="435" EXPRESSION="c_IDBASE" DISPLAY_EXPRESSION=""
+     STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+     PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" INWITHEXPR="" OUTWITHEXPR="">
+        <SECTION TYPE="group" HEADH="374" FOOTH="0" EXPRESSION="" SYMNAME=""
+         STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+         REPRINTHEADER="false" REPRINTFOOTER="false">
+            <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                  Y="4" X="8" YY="22" XX="288"
+                  ALIGN="L"
+                  UID="AAXJTAGGYA"
+                  BORDERWIDTH="1"
+                  />
+            <ITEM OBJ="stringa" NAME="Dati Generali" EXPRTYPE="constant"
+                  Y="5" X="13" YY="23" XX="98"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  FONTSTYLE="B"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                  Y="21" X="8" YY="153" XX="720"
+                  ALIGN="L"
+                  UID="JSJKOHDLTV"
+                  BORDERWIDTH="1"
+                  />
+            <ITEM OBJ="box_end" UID="AAXJTAGGYA"/>
+            <ITEM OBJ="espressione" NAME="c_NUMPROG" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="28" X="360" YY="46" XX="448"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="11"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DATAREG" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="28" X="640" YY="46" XX="712"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="N°Progressivo:" EXPRTYPE="constant"
+                  Y="28" X="272" YY="46" XX="355"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Data Operazione:" EXPRTYPE="constant"
+                  Y="28" X="19" YY="46" XX="114"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DATAOPER" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="28" X="120" YY="46" XX="192"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Data Registrazione:" EXPRTYPE="constant"
+                  Y="28" X="523" YY="46" XX="631"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Operazione:" EXPRTYPE="constant"
+                  Y="48" X="48" YY="66" XX="114"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_TIPOOPRAP" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="48" X="120" YY="66" XX="152"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="2"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DES1" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="48" X="160" YY="66" XX="712"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="90"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Cau. Analitica:" EXPRTYPE="constant"
+                  Y="68" X="36" YY="86" XX="114"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CODANA" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="68" X="120" YY="86" XX="152"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="4"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DESCRI" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="68" X="160" YY="86" XX="711"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="165"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DESCRIZ" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="88" X="160" YY="106" XX="711"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="165"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Cau. Sintetica:" EXPRTYPE="constant"
+                  Y="88" X="35" YY="106" XX="114"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CODVOC" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="88" X="120" YY="106" XX="152"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="2"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_VALUTA" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="108" X="328" YY="126" XX="360"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="3"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Cambio:" EXPRTYPE="constant"
+                  Y="108" X="592" YY="126" XX="639"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Segno:" EXPRTYPE="constant"
+                  Y="108" X="72" YY="126" XX="111"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Tipo:" EXPRTYPE="constant"
+                  Y="108" X="160" YY="126" XX="187"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DESCRI1" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="108" X="368" YY="126" XX="578"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="30"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Divisa:" EXPRTYPE="constant"
+                  Y="108" X="288" YY="126" XX="325"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="iif(c_VALUTA=&#39;242&#39;,&#39;Euro&#39;,iif(c_VALUTA=&#39;018&#39;,&#39;Lire&#39;,&#39;Altro&#39;))" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="108" X="192" YY="126" XX="272"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CAMBIO" ITEMTYPE="N" EXPRTYPE="expression"
+                  Y="108" X="640" YY="126" XX="711"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="9"
+                  DEC="4"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_SEGNO" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="108" X="120" YY="126" XX="144"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="1"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="iif(c_STATOREG=&#39;2&#39;,&#39;Modificata&#39;,iif(c_STATOREG=&#39;3&#39;,&#39;Cancellata&#39;,&#39;Attiva&#39;))" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="128" X="624" YY="146" XX="712"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="12"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_TOTCONT" ITEMTYPE="N" EXPRTYPE="expression"
+                  Y="128" X="360" YY="146" XX="465"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  SAYPIC="iif(c_VALUTA='018','999,999,999,999','999,999,999.99')"
+                  LEN="15"
+                  DEC="2"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="EJEWMAERQD"
+                  />
+            <ITEM OBJ="stringa" NAME="di cui contanti:" EXPRTYPE="constant"
+                  Y="128" X="280" YY="146" XX="358"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Tot.Lire/Euro:" EXPRTYPE="constant"
+                  Y="128" X="40" YY="146" XX="113"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Stato Registrazione:" EXPRTYPE="constant"
+                  Y="128" X="512" YY="146" XX="622"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_IMPORTO" ITEMTYPE="N" EXPRTYPE="expression"
+                  Y="128" X="120" YY="146" XX="225"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  SAYPIC="iif(c_VALUTA='018','999,999,999,999','999,999,999.99')"
+                  LEN="15"
+                  DEC="2"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="EJEWMAERQD"
+                  />
+            <ITEM OBJ="box_end" UID="JSJKOHDLTV"/>
+            <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                  Y="157" X="8" YY="175" XX="288"
+                  ALIGN="L"
+                  UID="NYONMIEXPG"
+                  BORDERWIDTH="1"
+                  />
+            <ITEM OBJ="stringa" NAME="Intermediario Controparte" EXPRTYPE="constant"
+                  Y="158" X="13" YY="176" XX="160"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  FONTSTYLE="B"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                  Y="174" X="8" YY="246" XX="720"
+                  ALIGN="L"
+                  UID="HIILPCCSWE"
+                  BORDERWIDTH="1"
+                  />
+            <ITEM OBJ="box_end" UID="NYONMIEXPG"/>
+            <ITEM OBJ="espressione" NAME="c_PROV2" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="179" X="688" YY="197" XX="712"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="2"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="CAB:" EXPRTYPE="constant"
+                  Y="181" X="512" YY="199" XX="539"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CODCAB2" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="181" X="544" YY="199" XX="586"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="6"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Prov.:" EXPRTYPE="constant"
+                  Y="181" X="656" YY="199" XX="686"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CODINT2" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="181" X="120" YY="199" XX="197"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="11"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Intermediario:" EXPRTYPE="constant"
+                  Y="181" X="37" YY="199" XX="113"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DESC2" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="181" X="208" YY="199" XX="418"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="30"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DESCRI3" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="202" X="120" YY="220" XX="712"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="80"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Tipologia:" EXPRTYPE="constant"
+                  Y="202" X="59" YY="220" XX="113"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DESCRI3" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="222" X="152" YY="240" XX="352"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="80"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Stato:" EXPRTYPE="constant"
+                  Y="222" X="82" YY="240" XX="113"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_PAESE" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="222" X="120" YY="240" XX="141"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="3"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="box_end" UID="HIILPCCSWE"/>
+            <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                  Y="249" X="8" YY="267" XX="288"
+                  ALIGN="L"
+                  UID="KWDTIDAWFI"
+                  BORDERWIDTH="1"
+                  />
+            <ITEM OBJ="stringa" NAME="Dati Soggetti/Rapporti Coinvolti nell&#39;operazione" EXPRTYPE="constant"
+                  Y="250" X="13" YY="268" XX="276"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  FONTSTYLE="B"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="EJEWMAERQD"
+                  />
+            <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                  Y="266" X="8" YY="374" XX="720"
+                  ALIGN="L"
+                  UID="AJXZOQWVDN"
+                  BORDERWIDTH="1"
+                  />
+            <ITEM OBJ="box_end" UID="KWDTIDAWFI"/>
+            <ITEM OBJ="espressione" NAME="c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="270" X="240" YY="288" XX="712"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="70"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CONNESCLI" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="270" X="120" YY="288" XX="232"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="16"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Cliente Occasion.:" EXPRTYPE="constant"
+                  Y="270" X="16" YY="288" XX="116"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Rapporto:" EXPRTYPE="constant"
+                  Y="290" X="62" YY="308" XX="116"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_RAPPORTO" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="290" X="120" YY="308" XX="296"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="25"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DESCRAP" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="297" X="304" YY="315" XX="654"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="50"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_RAGSOC1" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="310" X="240" YY="328" XX="712"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="70"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CONNESOPER" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="310" X="120" YY="328" XX="232"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="16"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Sogg. Op. C. Terzi:" EXPRTYPE="constant"
+                  Y="310" X="12" YY="328" XX="116"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="arfn_dec_tbtipleg(c_DATAOPE,c_TIPOLEG)" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="330" X="152" YY="348" XX="712"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="80"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_TIPOLEG" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="330" X="120" YY="348" XX="144"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="1"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Tipo Legame:" EXPRTYPE="constant"
+                  Y="330" X="40" YY="348" XX="116"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_RAGSOC2" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="350" X="240" YY="368" XX="712"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="70"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CONNESBEN" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="350" X="120" YY="368" XX="232"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  LEN="16"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="Beneficiario:" EXPRTYPE="constant"
+                  Y="350" X="48" YY="368" XX="116"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="box_end" UID="AJXZOQWVDN"/>
+        </SECTION>
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="3" X="8" YY="5" XX="728"
+              ALIGN="L"
+              UID="XFTFICLKQS"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="box_end" UID="XFTFICLKQS"/>
+    </SECTION>
+    <REPORTFOOTER Y="444" H="125" EXPRESSION="Report footer">
+        <ITEM OBJ="stringa" NAME="Totali in Lire" EXPRTYPE="constant"
+              Y="3" X="472" YY="21" XX="584"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="Totali in Euro" EXPRTYPE="constant"
+              Y="3" X="600" YY="21" XX="712"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="17" X="591" YY="43" XX="719"
+              ALIGN="L"
+              UID="NKPKJOWGNX"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="17" X="464" YY="43" XX="592"
+              ALIGN="L"
+              UID="XMWNBMCPDE"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="espressione" NAME="iif(c_STATOREG=&#39;A&#39;,c_TOTEURO,0)" ITEMTYPE="N" EXPRTYPE="expression"
+              Y="21" X="600" YY="39" XX="712"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              SAYPIC="'99,999,999.99'"
+              LEN="11"
+              DEC="2"
+              PRINTPAGE="true"
+              CALCULATION="sum"
+              />
+        <ITEM OBJ="espressione" NAME="iif(c_STATOREG=&#39;A&#39;,c_TOTLIRE,0)" ITEMTYPE="N" EXPRTYPE="expression"
+              Y="21" X="472" YY="39" XX="584"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              SAYPIC="'999,999,999,999'"
+              LEN="11"
+              DEC="2"
+              PRINTPAGE="true"
+              CALCULATION="sum"
+              />
+        <ITEM OBJ="stringa" NAME="Operazioni Attive" EXPRTYPE="constant"
+              Y="23" X="363" YY="41" XX="459"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="42" X="591" YY="68" XX="719"
+              ALIGN="L"
+              UID="AISFDJICZM"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="42" X="464" YY="68" XX="592"
+              ALIGN="L"
+              UID="SAQKBMWPMH"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="box_end" UID="NKPKJOWGNX"/>
+        <ITEM OBJ="box_end" UID="XMWNBMCPDE"/>
+        <ITEM OBJ="espressione" NAME="iif(c_STATOREG=&#39;M&#39;,c_TOTEURO,0)" ITEMTYPE="N" EXPRTYPE="expression"
+              Y="46" X="600" YY="64" XX="712"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              SAYPIC="'99,999,999.99'"
+              LEN="15"
+              DEC="2"
+              PRINTPAGE="true"
+              CALCULATION="sum"
+              />
+        <ITEM OBJ="espressione" NAME="iif(c_STATOREG=&#39;M&#39;,c_TOTLIRE,0)" ITEMTYPE="N" EXPRTYPE="expression"
+              Y="46" X="472" YY="64" XX="584"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              SAYPIC="'999,999,999,999'"
+              LEN="15"
+              DEC="2"
+              PRINTPAGE="true"
+              CALCULATION="sum"
+              />
+        <ITEM OBJ="stringa" NAME="Operazioni Modificate" EXPRTYPE="constant"
+              Y="47" X="336" YY="65" XX="459"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="67" X="591" YY="93" XX="719"
+              ALIGN="L"
+              UID="QBMDYUXANU"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="67" X="464" YY="93" XX="592"
+              ALIGN="L"
+              UID="WLXPTXYWVX"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="box_end" UID="AISFDJICZM"/>
+        <ITEM OBJ="box_end" UID="SAQKBMWPMH"/>
+        <ITEM OBJ="espressione" NAME="iif(c_STATOREG=&#39;C&#39;,c_TOTEURO,0)" ITEMTYPE="N" EXPRTYPE="expression"
+              Y="71" X="600" YY="89" XX="712"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              SAYPIC="'99,999,999.99'"
+              LEN="11"
+              DEC="2"
+              PRINTPAGE="true"
+              CALCULATION="sum"
+              />
+        <ITEM OBJ="espressione" NAME="iif(c_STATOREG=&#39;C&#39;,c_TOTLIRE,0)" ITEMTYPE="N" EXPRTYPE="expression"
+              Y="71" X="472" YY="89" XX="584"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              SAYPIC="'999,999,999,999'"
+              LEN="15"
+              DEC="2"
+              PRINTPAGE="true"
+              CALCULATION="sum"
+              />
+        <ITEM OBJ="stringa" NAME="Operazioni Cancellate" EXPRTYPE="constant"
+              Y="72" X="335" YY="90" XX="459"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box_end" UID="QBMDYUXANU"/>
+        <ITEM OBJ="box_end" UID="WLXPTXYWVX"/>
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="96" X="591" YY="122" XX="719"
+              ALIGN="L"
+              UID="NEKGXNCAEI"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="96" X="464" YY="122" XX="592"
+              ALIGN="L"
+              UID="LFKDIJXUZW"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="stringa" NAME="Totale Operazioni" EXPRTYPE="constant"
+              Y="99" X="335" YY="117" XX="459"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="espressione" NAME="c_TOTEURO" ITEMTYPE="N" EXPRTYPE="expression"
+              Y="100" X="600" YY="118" XX="712"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              SAYPIC="'99,999,999.99'"
+              LEN="11"
+              DEC="2"
+              PRINTPAGE="true"
+              CALCULATION="sum"
+              />
+        <ITEM OBJ="espressione" NAME="c_TOTLIRE" ITEMTYPE="N" EXPRTYPE="expression"
+              Y="100" X="472" YY="118" XX="584"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              SAYPIC="'999,999,999,999'"
+              LEN="15"
+              DEC="2"
+              PRINTPAGE="true"
+              CALCULATION="sum"
+              />
+        <ITEM OBJ="box_end" UID="NEKGXNCAEI"/>
+        <ITEM OBJ="box_end" UID="LFKDIJXUZW"/>
+    </REPORTFOOTER>
+    <PAGEFOOTER Y="569" H="1" EXPRESSION="Page footer">
+    </PAGEFOOTER>
+</REPORT>

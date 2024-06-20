@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+imp_opex<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='OPEX
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='imp_opex
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'imp_opex.colleg
+'imp_opex.anno
+'imp_opex.dataope
+'imp_opex.coint
+'imp_opex.rifimp
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'imp_opex.anno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno dell'operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNO
+state=3
+table_name='imp_opex
+type='field
+used_resource_keys={}
+I
+'imp_opex.coint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COINT
+state=3
+table_name='imp_opex
+type='field
+used_resource_keys={}
+I
+'imp_opex.colleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Soggetto che ha effettuato Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLLEG
+state=3
+table_name='imp_opex
+type='field
+used_resource_keys={}
+I
+'imp_opex.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data dell'operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='imp_opex
+type='field
+used_resource_keys={}
+I
+'imp_opex.rifimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Riferimento per import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIFIMP
+state=3
+table_name='imp_opex
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'imp_opex.anno
+[]
+'imp_opex.coint
+[]
+'imp_opex.colleg
+[]
+'imp_opex.dataope
+[]
+'imp_opex.rifimp
+[]
+}
+*--*

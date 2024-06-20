@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="37474111">
+  <CodifyName>arpg_allinea_fileae</CodifyName>
+  <Name>arpg_allinea_fileae.pagedef</Name>
+  <Title>Allinea File Anagrafe Agenzia Entrate</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="262258544"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_allinea_fileae_usr_1</JPG>
+    <Item type="variabile" x1="16" y1="35" x2="680" y2="55">
+      <Name LinkID="111575605">nomefile</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="688" y1="35" x2="776" y2="60">
+      <Name LinkID="88937801">Seleziona</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="688" y1="63" x2="776" y2="88">
+      <Name LinkID="246859332">Esegui</Name>
+      <Bitmap></Bitmap>
+      <Help>Import dei dati</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="119" x2="776" y2="205">
+      <Name LinkID="253810271">msgproc</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="128" y1="63" x2="200" y2="83">
+      <Name LinkID="55196221">dadata</Name>
+      <Comment>Da Data Operazione</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="360" y1="63" x2="432" y2="83">
+      <Name LinkID="57489981">a_data</Name>
+      <Comment>Da Data Operazione</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

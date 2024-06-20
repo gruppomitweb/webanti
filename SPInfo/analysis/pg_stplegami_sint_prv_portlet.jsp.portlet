@@ -1,0 +1,56 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_stplegami_sint_prv_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:19
+description='Stampa Elenco Legami (Provvisorio)
+file_modified_on=#2024-05-10 18:19:37
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='logged
+I
+}
+modified_on=#2024-05-10 18:25:45
+module_name='
+name='pg_stplegami_sint_prv_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.ragsoc
+]
+'Tables
+[
+'personbo<table>
+]
+'Zooms
+[
+'[personbo] default.vzm
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_stplegami_sint_prv_portlet.jsp|Error|core::document|Update dependencies|Resource "arrp_stplegami_sint_prv.vrp.vrp" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:45
+message='Resource "arrp_stplegami_sint_prv.vrp.vrp" not found.
+resource_key='jsp\pg_stplegami_sint_prv_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

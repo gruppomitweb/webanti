@@ -1,0 +1,38 @@
+﻿* --- Resource Vers. 0.9
+arrt_wutrxchk_aua_exit
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Lancia correzioni aua settando l'utente
+file_modified_on=#2018-08-03 16:29:44
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:31
+module_name='
+name='arrt_wutrxchk_aua_exit
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'wutrxchk.trxcodprg
+'wutrxchk.trxutente
+'wutrxchk.trxtinilav
+'wutrxchk.trxdinilav
+'wutrxchk.trflginlav
+]
+'Tables
+[
+'wutrxchk<table>
+]
+}
+I
+*--*
+￼[]
+*--*

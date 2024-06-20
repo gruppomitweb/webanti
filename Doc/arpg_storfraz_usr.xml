@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="202797139">
+  <CodifyName>arpg_storfraz</CodifyName>
+  <Name>arpg_storfraz.pagedef</Name>
+  <Title>Passaggio Storico Frazionate</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="234444790"></Title>
+    <Note/>
+    <JPG x="0" y="9">arpg_storfraz_usr_1</JPG>
+    <Item type="variabile" x1="104" y1="9" x2="510" y2="30">
+      <Name LinkID="108193459">tipoope</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="36" x2="246" y2="58">
+      <Name LinkID="53749081">DaDatOpe</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="424" y1="36" x2="510" y2="58">
+      <Name LinkID="210581772">ADatOpe</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="536" y1="36" x2="560" y2="58">
+      <Name LinkID="33976403">images/search4.gif</Name>
+      <Image>images/search4.gif</Image>
+      <Hyperlink>arpg_storfraz</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Visualizza registrazioni comprese nel periodo</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="568" y1="36" x2="592" y2="58">
+      <Name LinkID="33976403">images/elabora.jpg</Name>
+      <Image>images/elabora.jpg</Image>
+      <Hyperlink>arrt_storfraz</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Esecuzione trasferimento dati da provvisorie a definitive</Help>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="148" x2="964" y2="161">
+      <Name LinkID="113365720">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="135" x2="964" y2="148">
+      <Name LinkID="167348456">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="142" y1="113" x2="238" y2="131">
+      <Name LinkID="33976403">c_DATAOPE</Name>
+      <Help></Help>
+      <Expression>c_DATAOPE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="254" y1="113" x2="334" y2="131">
+      <Name LinkID="33976403">c_NUMPROG</Name>
+      <Help></Help>
+      <Expression>c_NUMPROG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="342" y1="113" x2="447" y2="131">
+      <Name LinkID="33976403">c_TOTLIRE</Name>
+      <Help></Help>
+      <Expression>c_TOTLIRE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="454" y1="113" x2="562" y2="131">
+      <Name LinkID="33976403">c_TOTCONT</Name>
+      <Help></Help>
+      <Expression>c_TOTCONT</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="570" y1="113" x2="650" y2="131">
+      <Name LinkID="33976403">c_COLLEG</Name>
+      <Help></Help>
+      <Expression>c_COLLEG</Expression>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

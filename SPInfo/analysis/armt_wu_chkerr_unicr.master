@@ -1,0 +1,99 @@
+﻿* --- Resource Vers. 0.9
+armt_wu_chkerr_unicr
+￼Iresource.ResourceMaster
+created_on=#2024-05-10 18:24:30
+description='WU Import Unicredit Errors
+file_modified_on=#2018-06-11 07:20:48
+location='
+measures={}
+modified_on=#2024-05-10 18:24:59
+module_name='
+name='armt_wu_chkerr_unicr
+state=1
+type='master
+used_resource_keys={
+'Fields
+[
+'wuchkunicr.wunomefile
+'wuchkunicr.wutipope
+'wuchkunicr.wudatini
+'wuchkunicr.wutiperr
+'wuchkunicr.wucodice
+'wuchkunicr.wuncapcli
+'wuchkunicr.wundatnas
+'wuchkunicr.wunrdoccli
+'wuchkunicr.wunsdoccli
+'wuchkunicr.wuntdoccli
+'wuchkunicr.wuncoddip
+'anadip.coddip
+'wuchkunicr.wuncitcli
+'tbcitta.citta
+'tbcitta.cap
+'wuchkunicr.wunbstacli
+'tbstati.descri
+'wuchkunicr.wunbcitcli
+'wuchkunicr.wunomcli
+'wuchkunicr.wucogcli
+'wuchkunicr.wucitcli
+'wuchkunicr.wucapcli
+'wuchkunicr.wuindcli
+'wuchkunicr.wubcitcli
+'wuchkunicr.wubstacli
+'wuchkunicr.wudatnas
+'wuchkunicr.wucodfis
+'wuchkunicr.wundoccli
+'wuchkunicr.wuadocril
+'wuchkunicr.wurdoccli
+'wuchkunicr.wusdoccli
+'wuchkunicr.wusexcli
+'wuchkunicr.wutdoccli
+'wuchkunicr.wuflgall
+'wuchkunicr.wuncodfis
+'wuchkunicr.wucodmage
+'tbmacage.macodice
+'tbmacage.madescri
+'wuchkunicr.wunote
+'wuchkunicr.wuflgfrc
+'wuchkunicr.wudatfin
+'wuchkunicr.wucodrap
+'wuchkunicr.wundatini
+'wuchkunicr.wundatfin
+'wuchkunicr.wustacli
+'wuchkunicr.wunsexcli
+]
+'Routines
+[
+'arrt_wu_chkerr_unicr_save
+]
+'Tables
+[
+'wuchkunicr<table>
+'wucodes<table>
+'tbcitta<table>
+'anadip<table>
+'tbstati<table>
+'tbmacage<table>
+'tbtipdoc<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]armt_wu_chkerr_unicr|Error|core::document|Update dependencies|Field "wuchkunicr.WUCODDIP" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:59
+message='Field "wuchkunicr.WUCODDIP" not found.
+resource_key='armt_wu_chkerr_unicr
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

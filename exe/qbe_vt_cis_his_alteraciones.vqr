@@ -1,0 +1,93 @@
+ 1
+"CIS_HIS_ALTERACIONES"
+"vt_cis_his_alteraciones"
+"vt_cis_his_alteraciones"
+ 0
+ 0
+*
+ 1
+"Descrizione"
+"vt_cis_his_alteraciones.descripcion"
+"descripcion"
+"C"
+ 500
+ 0
+*
+ 0
+ 4
+"vt_cis_his_alteraciones.fecha_registro"
+""
+"="
+"?pData"
+"AND"
+""
+*
+"vt_cis_his_alteraciones.origen"
+""
+"="
+"?pTipo"
+"AND"
+""
+*
+"[LEFT(vt_cis_his_alteraciones.descripcion,1)]"
+""
+"="
+"ýEý"
+"AND"
+""
+*
+"vt_cis_his_alteraciones.cod_agente"
+""
+"not in"
+"qbe_vt_agentes_prueba"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"pData"
+""
+"D"
+"8"
+"0"
+""
+""
+*
+"pTipo"
+""
+"N"
+"10"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+"Legge i soggetti che hanno variazioni anagrafiche ma non sono di prova"
+.f.
+.t.
+ 8
+.f.
+""
+.t.
+.f.
+""
+ 0
+ 0
+""
+""
+"Vtgrbdd%7Eio%0A%19%03%0BM5O%40%05%27%28.%3C9q1I.4P%5C15NB%3F+V%5CUKNF%1C%22J5%26B0*%29%28%01K%193%5CYN-VEO%043%23I98_%2F-Q%7BPK2+2O5J%181%3E%25%1147%400ZLL%2C%5E%3C2%2B282%24%05%27%5EDL.IH3%2FMk%18%3BJ3*BOVN.%263.R%2CALC%3E%4057E%5CI070KP%281_+%25%17U2CIR%5EP%29SDT%25%23%29D9%3A%5EVB%3FYY%2C4%2C%3CJYR%3FUIYF%24CI%3BN%24%3CJNXK%3E%18-3%24%25Y9K%3F3A%3B%2F%24LS3%27%16-02%26EUN%5E0Bc%26%242.%03%13%22%3D%217%27PKHD%3D%7E%40WA*H%235%3C*%00"
+"w_0%23K5FAxC%13%1F%05%1Czjh%14%13%1FW%26%21%3B%5B4S%2C6%22H%22%3A.2%02HZ%3F%29%3E%28G%3F%3B%223Q%5EhI%07%2F%28%2F%19%3BGP%21Z0L6S.243%2160%2F%3E%24%3BL1%21U%22VX93%3EQ%40C5%287-%219%27%3A%5CA%24%1A_N+%5EI%3E%25MH%27%2C%3DZ%40%5B%29%5B%3E+%11KMr6%5EK%5DK5-%405%23S%123%3AK1ND%1F%3FA%2BW%3EZ1%25%17V%28-%1DU7w+5p%3ES%3FDK%265Z%21Z4S%3C-%27H8%2Fjk39%24T%3D%3D%1E%22%3DV%5CGY3ZL4%2C%283.%25%2BN%24PF%40*%28TCUB%2C0%3D%3F%251%29S%2C%5C6D3T%25*IU8*%28NRXH%40A3%3E%21V%5E*%2C%25R%22G*%00"
+""
+""
+"native"
+ 0
+ 0
+*

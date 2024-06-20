@@ -1,0 +1,44 @@
+﻿* --- Resource Vers. 0.9
+arrt_wu_stp_rapporti
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Estrazione rapporti e produzione file excel
+file_modified_on=#2019-09-17 15:03:42
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='arrt_wu_stp_rapporti
+state=1
+type='batch
+used_resource_keys={
+'Queries
+[
+'qbe_wu_stp_rapporti.vqr
+]
+'Routines
+[
+'arfn_fdate
+'arrt_wu_stp_rapporti
+]
+'Tables
+[
+'personbo<table>
+'tbtipdoc<table>
+'docfrabo<table>
+'kersonbo<table>
+'tbstati<table>
+'tmp_newpers<table>
+]
+}
+I
+*--*
+￼[]
+*--*

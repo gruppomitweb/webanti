@@ -1,0 +1,101 @@
+ 2
+"Informazioni su rapporti"
+"xapopebo"
+"xapopebo"
+ 0
+ 0
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 0
+ 0
+*
+ 7
+"Numero Progressivo"
+"xapopebo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Inizio / Fine Rapporto"
+"xapopebo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Data Registrazione"
+"xapopebo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Tipo Informazione"
+"xapopebo.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DES1"
+"C"
+ 90
+ 0
+*
+"idbase"
+"xapopebo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+""
+"xapopebo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+ 1
+"Tipo Registrazione(Tipo Informazione)"
+"tbtipreg.CODICE=xapopebo.TIPOOPRAP"
+"Right outer"
+"tbtipreg"
+"xapopebo"
+*
+ 1
+"xapopebo.RAPPORTO"
+""
+"="
+"?w_rapporto"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"w_rapporto"
+""
+"C"
+"25"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 2
+*

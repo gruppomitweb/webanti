@@ -1,0 +1,88 @@
+﻿* --- Resource Vers. 0.9
+arpg_import_masscf
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:30
+description='Lettura Esiti Controllo Massivo CF
+file_modified_on=#2019-12-18 12:00:36
+location='
+measures={}
+modified_on=#2024-05-10 18:25:01
+module_name='
+name='arpg_import_masscf
+state=1
+type='page
+used_resource_keys={
+'Hyperlinks
+[
+'arrt_import_masscf
+'arrp_scarti_mcf.vrp
+'jsp\start_page_logo_portlet.jsp
+'arrp_ricevute_sid.vrp
+]
+'Others
+[
+'jsp\showmsg_portlet.jsp
+'jsp\showlog_portlet.jsp
+'arrt_imp_dati
+'arrt_imp_dati_multipli
+'arrt_imp_dati_ac
+'arrt_imp_dati_wubs
+]
+'Routines
+[
+'azzera_messaggi
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_import_masscf|Error|core::document|Update dependencies|Resource "sp_huploadfile" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "sp_huploadfile" not found.
+resource_key='arpg_import_masscf
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_import_masscf|Error|core::document|Update dependencies|Resource "arrt_imp_dati_telepass" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "arrt_imp_dati_telepass" not found.
+resource_key='arpg_import_masscf
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_import_masscf|Error|core::document|Update dependencies|Resource "arrt_imp_dati_multipli_telepass" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "arrt_imp_dati_multipli_telepass" not found.
+resource_key='arpg_import_masscf
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

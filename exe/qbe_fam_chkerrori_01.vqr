@@ -1,0 +1,296 @@
+ 2
+"Controli Periodali"
+"tmp_chkperiodo"
+"tmp_chkperiodo"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 20
+"Rapporto"
+"tmp_chkperiodo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"NDG Soggetto"
+"tmp_chkperiodo.NDG"
+"NDG"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Cognome"
+"personbo.COGNOME"
+"COGNOME"
+"C"
+ 26
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Nome"
+"personbo.NOME"
+"NOME"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Luogo di Nascita"
+"personbo.NASCOMUN"
+"NASCOMUN"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato di nascita"
+"personbo.NASSTATO"
+"NASSTATO"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Provincia di Nascita"
+"personbo.TIPINTER"
+"TIPINTER"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Nascita"
+"personbo.DATANASC"
+"DATANASC"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Sesso"
+"personbo.SESSO"
+"SESSO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Indirizzo"
+"personbo.DOMICILIO"
+"DOMICILIO"
+"C"
+ 35
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Città"
+"personbo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Provincia"
+"personbo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"CAB"
+"personbo.CODCAB"
+"CODCAB"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipologia"
+"tmp_chkperiodo.TIPO"
+"TIPO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Fiscale Estero"
+"personbo.CFESTERO"
+"CFESTERO"
+"N"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Operazione"
+"tmp_chkperiodo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Riferimento Import 1"
+"tmp_chkperiodo.RIFIMP"
+"RIFIMP"
+"C"
+ 9
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Riferimento Import 2"
+"tmp_chkperiodo.INFORM"
+"INFORM"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 1
+"Soggetti"
+"tmp_chkperiodo.NDG=personbo.CONNES"
+"Right outer"
+"personbo"
+"tmp_chkperiodo"
+*
+ 0
+ 0
+ 0
+ 1
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 8
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%26QG%5BlXXK%7Fc%17%18%18%18kzh%0E%08%04%5CE%25%2BV%3C%40%27nT%40%21%29%1EAVJ*P%2BDF%3ED7%12-HWRH%5E%28P604%29%60F%21_TZQ%2B%234%3AB%21%26%40T%2FW%3B%15%2B7JL4H%3D9%253%1B%3EpUuv_%219%5C4%3AI%25E%27%24HOX%3A%1D%16-YVIY%1A%3A%3A5OF2%21NXUA-%3D%3FEG%3F6L%2CYZ%3D%2FNI2%40%21%299S%3AV*%3B3%19%23%5CNLR%3E_cVEHM%03%3A%28%05WE%2BK+%2F8-I%5EhO3%3A6H%19%2BT6S%21R%5BI%043KO-3-%25T3%5DW%21KI%0B%7FS%3E6%3CB%24%3EA7sCPN%3A%23QY%28%2CK%3CH%25Xu5SHF%3F%2F%5D%2F%5E%5C%2BU%1643-6%00"
+"H%25%5EB0l%5E_G%5DD0%3BWra%7D%0D%02%14%02%1C%0E%14.JFMCN4*%168%21_%3C5%3BG7%2F%5D%24%3A%23%24%25i%5DE*2%01%22%18MHXRUPrH50+28%22T%28NFLU%2FD1ZU%3DY4%056%3E3%29%3E%2C6S%2C1KCW%17%29H%03%10QV%23Y%22G%3BN%29%2B-SX5X%3A%27%13-.%2BBH%28%3E%2B%3A6%27HJ+%3ER%05SR%5E%3A%1D%17%2F%21%21%404N%26E%02%10%243Kc-Fm%2350%27%23%25_+%3A5Y%3A%27W7%40%2F-DM6%27%24%2B4%3DK4Pa%28%2FG+_U+1+%283*%25*8_%3AJN%13%5C%26W%3B%1AYL6%2C%3D%28OD%26SCLbZ%263KQ81YE%5CAB%25%15E%09UC01.2%28%12F%1F%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

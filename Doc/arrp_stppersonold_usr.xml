@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="236117339">
+  <CodifyName>arrp_stppersonold</CodifyName>
+  <Name>arrp_stppersonold.repdef</Name>
+  <Title>Stampa Persone / Societ&#224; / Fornitori (Report)</Title>
+  <Type>Report</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="106264427"></Title>
+    <Note/>
+    <JPG x="0" y="30">arrp_stppersonold_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="360" x2="964" y2="373">
+      <Name LinkID="153310196">Page footer</Name>
+      <Section>Page footer</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="342" x2="964" y2="355">
+      <Name LinkID="182025974">c_CONNES</Name>
+      <Section>c_CONNES</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="160" y1="63" x2="656" y2="81">
+      <Name LinkID="236115819">c_RAGSOC</Name>
+      <Help></Help>
+      <Expression>c_RAGSOC</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="473" y1="83" x2="505" y2="101">
+      <Name LinkID="236115819">c_PAESE</Name>
+      <Help></Help>
+      <Expression>c_PAESE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="160" y1="83" x2="416" y2="101">
+      <Name LinkID="236115819">c_DOMICILIO</Name>
+      <Help></Help>
+      <Expression>c_DOMICILIO</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="513" y1="83" x2="723" y2="101">
+      <Name LinkID="236115819">c_DESPAESE</Name>
+      <Help></Help>
+      <Expression>c_DESPAESE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="160" y1="103" x2="376" y2="121">
+      <Name LinkID="236115819">c_DESCCIT</Name>
+      <Help></Help>
+      <Expression>c_DESCCIT</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="432" y1="103" x2="456" y2="121">
+      <Name LinkID="236115819">c_PROVINCIA</Name>
+      <Help></Help>
+      <Expression>c_PROVINCIA</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="672" y1="103" x2="720" y2="121">
+      <Name LinkID="236115819">c_CODCAB</Name>
+      <Help></Help>
+      <Expression>c_CODCAB</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="544" y1="103" x2="607" y2="121">
+      <Name LinkID="236115819">c_CAP</Name>
+      <Help></Help>
+      <Expression>c_CAP</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="624" y1="123" x2="722" y2="141">
+      <Name LinkID="236115819">c_PARTIVA</Name>
+      <Help></Help>
+      <Expression>c_PARTIVA</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="160" y1="123" x2="272" y2="141">
+      <Name LinkID="236115819">c_CODFISC</Name>
+      <Help></Help>
+      <Expression>c_CODFISC</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="200" y1="143" x2="620" y2="161">
+      <Name LinkID="236115819">c_DESSOTGRU</Name>
+      <Help></Help>
+      <Expression>c_DESSOTGRU</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="160" y1="143" x2="192" y2="161">
+      <Name LinkID="236115819">c_SOTGRUP</Name>
+      <Help></Help>
+      <Expression>c_SOTGRUP</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="200" y1="163" x2="690" y2="181">
+      <Name LinkID="236115819">c_DESRAMO</Name>
+      <Help></Help>
+      <Expression>c_DESRAMO</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="160" y1="163" x2="192" y2="181">
+      <Name LinkID="236115819">c_RAMOGRUP</Name>
+      <Help></Help>
+      <Expression>c_RAMOGRUP</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="200" y1="183" x2="620" y2="201">
+      <Name LinkID="236115819">c_DESSETT</Name>
+      <Help></Help>
+      <Expression>c_DESSETT</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="160" y1="183" x2="192" y2="201">
+      <Name LinkID="236115819">c_SETTSINT</Name>
+      <Help></Help>
+      <Expression>c_SETTSINT</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="160" y1="243" x2="370" y2="261">
+      <Name LinkID="236115819">c_NASCOMUN</Name>
+      <Help></Help>
+      <Expression>c_NASCOMUN</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="632" y1="243" x2="712" y2="261">
+      <Name LinkID="236115819">c_DATANASC</Name>
+      <Help></Help>
+      <Expression>c_DATANASC</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="457" y1="243" x2="481" y2="261">
+      <Name LinkID="236115819">c_TIPINTER</Name>
+      <Help></Help>
+      <Expression>c_TIPINTER</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="632" y1="263" x2="702" y2="281">
+      <Name LinkID="236115819">c_SESSO</Name>
+      <Help></Help>
+      <Expression>c_SESSO</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="160" y1="263" x2="184" y2="281">
+      <Name LinkID="236115819">c_TIPODOC</Name>
+      <Help></Help>
+      <Expression>c_TIPODOC</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="192" y1="263" x2="402" y2="281">
+      <Name LinkID="236115819">c_DESCRDoc</Name>
+      <Help></Help>
+      <Expression>c_DESCRDoc</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="632" y1="283" x2="702" y2="301">
+      <Name LinkID="236115819">c_DATARILASC</Name>
+      <Help></Help>
+      <Expression>c_DATARILASC</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="160" y1="283" x2="265" y2="301">
+      <Name LinkID="236115819">c_NUMDOCUM</Name>
+      <Help></Help>
+      <Expression>c_NUMDOCUM</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="328" y1="283" x2="538" y2="301">
+      <Name LinkID="236115819">c_AUTRILASC</Name>
+      <Help></Help>
+      <Expression>c_AUTRILASC</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="608" y1="320" x2="720" y2="338">
+      <Name LinkID="236115819">c_CONNES</Name>
+      <Help></Help>
+      <Expression>c_CONNES</Expression>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

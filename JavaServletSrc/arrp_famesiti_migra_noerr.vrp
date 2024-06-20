@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.8 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Errori Esiti Migrazioni -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:[{"type":"report","name":"arrp_famesiti_migra_noerr","version":"4.8","title":"Stampa Errori Esiti Migrazioni","query":"qbe_famesiti_migra","font":"Arial","font_size":"9","font_weight":"normal","font_effect":"","picture_date":"","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"false","security_public":"true","dict_name":"","security_access":"true","security_roles":"","author":"","client":"","date_creat":"2016-05-25","date_rev":"2018-12-28","modcnt":"8","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":"ISO-8859-1","hsl":"false","lock_items":"false","maxcount":"29","rotation":"","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"60","uid":"MIPZTTXFJK","sequence":"2","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"127","uid":"YIENXAMAEI","sequence":"3","page":"1"},{"type":"Group_top","comment":"Codice Univo Rapporto","exp":"qbe_famesiti_migra.c_UNIQUECODE","name":"group1","y":"84","uid":"QCLVUMABMD","sequence":"6","page":"1","reprint_header":"true"},{"type":"Group_down","comment":"Codice Univo Rapporto","exp":"qbe_famesiti_migra.c_UNIQUECODE","name":"group1","y":"125","uid":"ZXSWBWCJQX","sequence":"7","page":"1","reprint_header":"true"},{"type":"Label","value":"\"SOCIETA': \" + LRTrim(DescAzi)","text_type":"expression","name":"label0_28","uid":"QOCNPWUOSL","page":"1","x":"16","y":"4","w":"1094","h":"21","sequence":"67","global_font":"false","font":"Arial","font_size":"11","font_weight":"bold"},{"type":"Label","value":"Stampa Esiti Fotografia Anagrafe Rapporti","text_type":"constant","name":"label0","uid":"BGSAUUXMHN","page":"1","x":"16","y":"26","w":"1095","h":"32","sequence":"24","align":"center","global_font":"false","font":"Arial","font_size":"16","font_weight":"bold"},{"type":"Box","name":"Box13","x":"16","y":"82","w":"1095","h":"0","uid":"GIEYBTJECT","sequence":"15","page":"1","border_width":"1","stretch_to_right":"true"},{"type":"Label","value":"NON SONO STATE RILEVATE DIFFERENZE TRA I DUE ARCHIVI","text_type":"constant","name":"label29","uid":"YHOMPXJTNG","page":"1","x":"20","y":"94","w":"583","h":"26","sequence":"28","global_font":"false","font":"Arial","font_size":"12","font_weight":"bold"},{"type":"Label","value":"Format(DateTime(), 'DD-MM-YYYY hh:mm:ss')","text_type":"expression","name":"label3","uid":"EDUXAEWFZE","page":"1","x":"16","y":"130","w":"341","h":"17","sequence":"27","global_font":"false","font":"Arial","font_size":"8","font_weight":"normal"},{"type":"Label","value":"'Pag. ' + Str(nNumPage, 4, 0) + ' / '","text_type":"expression","name":"label4","uid":"SVRJRIDFJV","page":"1","x":"772","y":"130","w":"225","h":"17","sequence":"28","align":"right","global_font":"false","font":"Arial","font_size":"8","font_weight":"normal"},{"type":"Label","value":"Str(nTotalPages, 4, 0)","text_type":"expression","name":"label5","uid":"CHFAVISHFH","page":"1","x":"1002","y":"130","w":"103","h":"17","sequence":"29","global_font":"false","font":"Arial","font_size":"8","font_weight":"normal"}] -->
+
+<REPORT NAME="arrp_famesiti_migra_noerr" TITLE="Stampa Errori Esiti Migrazioni" QUERY="qbe_famesiti_migra" MAXDEPTH="1" VERSION="4.8" PUBLIC="true" ACCESS="true" ROLES=""
+  GLBFONTNAME="Arial" GLBFONTSIZE="9"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false" TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="60" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="4" X="16" YY="25" XX="1110"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Stampa Esiti Fotografia Anagrafe Rapporti" EXPRTYPE="constant"
+                    Y="26" X="16" YY="58" XX="1111"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="16"
+                    FONTSTYLE="B"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="23" FOOTH="1" UID="QCLVUMABMD" TOP="83" BOTTOM="123" EXPRESSION="qbe_famesiti_migra.c_UNIQUECODE"
+   REPRINTHEADER="true">
+              <ITEM OBJ="h_line" Y="21" X="16" XX="1112" BORDERWIDTH="1"
+                    UID="GIEYBTJECT" 
+                    STRETCH="true"
+                    ALIGN="L"
+                    />
+          <SECTION TYPE="group" HEADH="40" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="stringa" NAME="NON SONO STATE RILEVATE DIFFERENZE TRA I DUE ARCHIVI" EXPRTYPE="constant"
+                            Y="9" X="20" YY="35" XX="603"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="12"
+                            FONTSTYLE="B"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="124" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="2" X="16" YY="19" XX="357"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="2" X="772" YY="19" XX="997"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="2" X="1002" YY="19" XX="1105"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

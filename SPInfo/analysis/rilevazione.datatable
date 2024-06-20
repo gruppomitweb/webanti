@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+rilevazione<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Dati della rilevazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='rilevazione
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'rilevazione.cprownum
+'rilevazione.idmod
+'rilevazione.connes
+'rilevazione.dtril
+'rilevazione.provenienza
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'rilevazione.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice di collegamento del soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNES
+state=3
+table_name='rilevazione
+type='field
+used_resource_keys={}
+I
+'rilevazione.cprownum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo rilevazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CPROWNUM
+state=3
+table_name='rilevazione
+type='field
+used_resource_keys={}
+I
+'rilevazione.dtril
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data rilevazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DTRIL
+state=3
+table_name='rilevazione
+type='field
+used_resource_keys={}
+I
+'rilevazione.idmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID del modello
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDMOD
+state=3
+table_name='rilevazione
+type='field
+used_resource_keys={}
+I
+'rilevazione.provenienza
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provenienza del dato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVENIENZA
+state=3
+table_name='rilevazione
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'rilevazione.connes
+[]
+'rilevazione.cprownum
+[]
+'rilevazione.dtril
+[]
+'rilevazione.idmod
+[]
+'rilevazione.provenienza
+[]
+}
+*--*

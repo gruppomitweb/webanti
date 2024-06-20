@@ -1,0 +1,106 @@
+﻿* --- Resource Vers. 0.9
+tberrsiddgn<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Errori SID Diagnostico
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tberrsiddgn
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tberrsiddgn.dgntipo
+'tberrsiddgn.dgncodice
+'tberrsiddgn.dgntipoerr
+'tberrsiddgn.dgndescri
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tberrsiddgn.dgncodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DGNCODICE
+state=3
+table_name='tberrsiddgn
+type='field
+used_resource_keys={}
+I
+'tberrsiddgn.dgndescri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DGNDESCRI
+state=3
+table_name='tberrsiddgn
+type='field
+used_resource_keys={}
+I
+'tberrsiddgn.dgntipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo (A - B)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DGNTIPO
+state=3
+table_name='tberrsiddgn
+type='field
+used_resource_keys={}
+I
+'tberrsiddgn.dgntipoerr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DGNTIPOERR
+state=3
+table_name='tberrsiddgn
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tberrsiddgn.dgncodice
+[]
+'tberrsiddgn.dgndescri
+[]
+'tberrsiddgn.dgntipo
+[]
+'tberrsiddgn.dgntipoerr
+[]
+}
+*--*

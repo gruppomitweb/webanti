@@ -1,0 +1,67 @@
+﻿* --- Resource Vers. 0.9
+arfn_loadtransprv
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:29
+description='Carica transitorio provvisorie
+file_modified_on=#2018-06-11 07:20:48
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:53
+module_name='
+name='arfn_loadtransprv
+state=1
+type='batch
+used_resource_keys={
+'Queries
+[
+'qbe_loadbodyinfoprv.vqr
+]
+'Routines
+[
+'arfn_loadtransprv
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arfn_loadtransprv|Error|core::document|Update dependencies|Table "att_ric" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:53
+message='Table "att_ric" not found.
+resource_key='arfn_loadtransprv
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arfn_loadtransprv|Error|core::document|Update dependencies|Table "vocinotaspese" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:53
+message='Table "vocinotaspese" not found.
+resource_key='arfn_loadtransprv
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

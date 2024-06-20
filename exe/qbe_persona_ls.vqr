@@ -1,0 +1,160 @@
+ 2
+"Intestatari Titolarità"
+"intestit"
+"intestit"
+ 0
+ 0
+*
+"Clienti / Persone / Società"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 6
+"Soggetto"
+"intestit.CODCLI"
+"CODCLI"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Città residenza"
+"personbo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Partita IVA"
+"personbo.PARTIVA"
+"PARTIVA"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Chiave Primaria"
+"personbo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 1
+"Soggetti"
+"personbo.CONNES=intestit.CODCLI"
+"Right outer"
+"personbo"
+"intestit"
+*
+ 3
+"intestit.CODINTER"
+""
+"="
+"?pCODINTER"
+"AND"
+""
+""
+*
+"personbo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+""
+*
+"personbo.TIPOPERS"
+""
+"="
+"ýGý"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 0
+ 1
+"pCODINTER"
+""
+"C"
+"16"
+"0"
+""
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 3
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"D*4+XVw%40%24W%3C%3CIUN6%5C2%04.%2725%23L%5CMCQHR%04%149B%2969%29tHKFL%40%406%22ZOC4%3ES%2F0O%2BZI*3%2C2%06%40%22%18%24G%2B8NE_1%1DN5ZC_%3B%3CX5%02%24%3F%3AGC%5C-3M%5B%5DBIH%005X%5DQiJo%3E%26%3EZ%5BEN7%3DG%5E8%2C%25D%3ANQBCY6F%3FL%01E%245%2BW*%3BJ78UZEk%28%04%2F%3F%24%29%1FBBD+SXX.%26FI%5E%2CR%07%5C%3A%5C2%3D%2C9%3A%40JkBY%26024%40%21SD%2C5%24P%25%29%3A7%223%23%26%26kOH%26KO%21Q%40YJW+%21O1FORD%5Bm-48%27+%22%2B%101.SSVlD%3E7%26%7FI28%25B3%10%2B%1E%00"
+"Z%5DL%5B%5EO+BBRL+AT%7E%3DY+.%29%00%3A+9D5%23%5DG.IZ%25%2846%3BW%3E%2CFN%3E%3C%3A+3GLW%40%29B%3B%2F%2F%29P8W%2B8%29a%3B+6%2619P1%24M+%3F%3F7%28%2CKjE%2BSCV.O9%22LW%24CXN%29%14-%2F8*%215P%3FJVC%3A%11.__%3AO1B%27%10%18%2C%22C_%5DKTU%3B%3D%24F%21G-*X1NAOC%3F4FiZ%19%3C0%5D%40%22%1D%24N%5E%23GQJUO66%3D*W2%23%3A%5CLI%3A*%5E%2B06*.G-%24C6%21%5BXv%40YV%3D%3E9J%2235%25uIW%3FA%3A+Q%27WN%211%3D%3F+%28*SQvI%3F%5D2%2BN%273%26D%27%5EC0zo%3DJJ%2CZ36804%00%26EJ%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+*

@@ -1,0 +1,410 @@
+﻿* --- Resource Vers. 0.9
+imp_archinf<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='ARCHINF
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='imp_archinf
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'imp_archinf.dataope
+'imp_archinf.rapporto
+'imp_archinf.flagrap
+'imp_archinf.tipoleg
+'imp_archinf.datareg
+'imp_archinf.tipooprap
+'imp_archinf.flaglire
+'imp_archinf.valuta
+'imp_archinf.connesoper
+'imp_archinf.cambio
+'imp_archinf.connes
+'imp_archinf.numprog
+'imp_archinf.tipointer
+'imp_archinf.codinter
+'imp_archinf.coddipe
+'imp_archinf.desccit
+'imp_archinf.provincia
+'imp_archinf.codcab
+'imp_archinf.uniquecode
+'imp_archinf.notebrev
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'imp_archinf.cambio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cambio Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAMBIO
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Città Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intestatario Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNES
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.connesoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Soggetto Esecutore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESOPER
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.datareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAREG
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Intermediario/Resistenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.flaglire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGLIRE
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.flagrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGRAP
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.notebrev
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Note Brevi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOTEBREV
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Informazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.tipointer
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINTER
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.tipoleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Legame Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOLEG
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.tipooprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOOPRAP
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.uniquecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUECODE
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+'imp_archinf.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='imp_archinf
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'imp_archinf.cambio
+[]
+'imp_archinf.codcab
+[]
+'imp_archinf.coddipe
+[]
+'imp_archinf.codinter
+[]
+'imp_archinf.connes
+[]
+'imp_archinf.connesoper
+[]
+'imp_archinf.dataope
+[]
+'imp_archinf.datareg
+[]
+'imp_archinf.desccit
+[]
+'imp_archinf.flaglire
+[]
+'imp_archinf.flagrap
+[]
+'imp_archinf.notebrev
+[]
+'imp_archinf.numprog
+[]
+'imp_archinf.provincia
+[]
+'imp_archinf.rapporto
+[]
+'imp_archinf.tipointer
+[]
+'imp_archinf.tipoleg
+[]
+'imp_archinf.tipooprap
+[]
+'imp_archinf.uniquecode
+[]
+'imp_archinf.valuta
+[]
+}
+*--*

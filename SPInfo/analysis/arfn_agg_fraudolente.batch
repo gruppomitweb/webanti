@@ -1,0 +1,45 @@
+﻿* --- Resource Vers. 0.9
+arfn_agg_fraudolente
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:27
+description='Aggiorna fraudolente tabellone
+file_modified_on=#2024-01-23 16:38:32
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:50
+module_name='
+name='arfn_agg_fraudolente
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'analisi_sv.flagfraud
+'analisi_sv.tipo
+'analisi_sv.numprog
+]
+'Queries
+[
+'qbe_ope_fraudolente.vqr
+]
+'Routines
+[
+'arfn_agg_fraudolente
+'arfn_fdatetime
+]
+'Tables
+[
+'analisi_sv<table>
+]
+}
+I
+*--*
+￼[]
+*--*

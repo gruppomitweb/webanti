@@ -1,0 +1,46 @@
+﻿* --- Resource Vers. 0.9
+arfn_nuovi_alert
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:29
+description='Verifica Alert da Visualizzare
+file_modified_on=#2020-01-23 07:29:40
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:54
+module_name='
+name='arfn_nuovi_alert
+state=1
+type='batch
+used_resource_keys={
+'Libraries
+[
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_cgo_conta_dc.vqr
+'qbe_cgo_conta_no.vqr
+'qbe_cgo_conta_om.vqr
+'qbe_cgo_conta_in.vqr
+'qbe_cgo_conta_mc.vqr
+]
+'Routines
+[
+'arfn_nuovi_alert
+]
+'Tables
+[
+'cgo_operazioni<table>
+]
+}
+I
+*--*
+￼[]
+*--*

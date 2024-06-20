@@ -1,0 +1,36 @@
+﻿* --- Resource Vers. 0.9
+arrt_delega_noage
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Cambia lo stato del flag agenzia entrate per i delegati
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:10
+module_name='
+name='arrt_delega_noage
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'delegabo.rapporto
+'delegabo.codinter
+'delegabo.noage
+]
+'Tables
+[
+'delegabo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

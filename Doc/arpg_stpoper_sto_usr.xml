@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="148081680">
+  <CodifyName>arpg_stpoper_sto</CodifyName>
+  <Name>arpg_stpoper_sto.pagedef</Name>
+  <Title>Stampa Operazioni Storiche (Pagina)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="89634225"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_stpoper_sto_usr_1</JPG>
+    <Item type="variabile" x1="144" y1="20" x2="210" y2="40">
+      <Name LinkID="231873012">DaDatOpe</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="536" y1="21" x2="608" y2="41">
+      <Name LinkID="57226145">ADatOpe</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="49" x2="238" y2="69">
+      <Name LinkID="253752328">daCodCli</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="77" x2="238" y2="97">
+      <Name LinkID="137908897">aCodCli</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="126" x2="239" y2="145">
+      <Name LinkID="250012815">tipstp</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="512" y1="108" x2="552" y2="144">
+      <Name LinkID="148081585">images/printer.jpg</Name>
+      <Image>images/printer.jpg</Image>
+      <Hyperlink>arrt_stpoper_sto</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="568" y1="108" x2="608" y2="144">
+      <Name LinkID="148081585">images/up.gif</Name>
+      <Image>images/up.gif</Image>
+      <Hyperlink>centrale</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

@@ -1,0 +1,429 @@
+﻿* --- Resource Vers. 0.9
+intestbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Soggetti conto informazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='intestbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'intestbo.idbase
+'intestbo.cprownum
+'intestbo.dataini
+'intestbo.tipopers
+'intestbo.codinter
+'intestbo.datafine
+'intestbo.numprog1
+'intestbo.numprog2
+'intestbo.rapporto
+'intestbo.tiporap
+'intestbo.statoreg
+'intestbo.descinter
+'intestbo.operazmod
+'intestbo.datarett
+'intestbo.idereg
+'intestbo.collegamen
+'intestbo.ucode
+'intestbo.abbinato
+'intestbo.prgimpsog
+'intestbo.proquota
+'intestbo.numimp
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'intestbo.abbinato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABBINATO
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Intestatario (Non Intermediario)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.collegamen
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLLEGAMEN
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.cprownum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CPROWNUM
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.datafine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAFINE
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINI
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.datarett
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rettifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATARETT
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.descinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCINTER
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='idbase
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.idereg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='IDEREG
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDEREG
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.numimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mark Importazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMIMP
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.numprog1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Progressivo relativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG1
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.numprog2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Progressivo Relativo Chiusura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG2
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.operazmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazione modificata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPERAZMOD
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.prgimpsog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRGIMPSOG
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.proquota
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Pro Quota
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROQUOTA
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto (Copia della testata)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.statoreg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='STATOREG
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.tipopers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOPERS
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.tiporap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPORAP
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+'intestbo.ucode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UCODE
+state=3
+table_name='intestbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'intestbo.abbinato
+[]
+'intestbo.codinter
+[]
+'intestbo.collegamen
+[]
+'intestbo.cprownum
+[]
+'intestbo.datafine
+[]
+'intestbo.dataini
+[]
+'intestbo.datarett
+[]
+'intestbo.descinter
+[]
+'intestbo.idbase
+[]
+'intestbo.idereg
+[]
+'intestbo.numimp
+[]
+'intestbo.numprog1
+[]
+'intestbo.numprog2
+[]
+'intestbo.operazmod
+[]
+'intestbo.prgimpsog
+[]
+'intestbo.proquota
+[]
+'intestbo.rapporto
+[]
+'intestbo.statoreg
+[]
+'intestbo.tipopers
+[]
+'intestbo.tiporap
+[]
+'intestbo.ucode
+[]
+}
+*--*

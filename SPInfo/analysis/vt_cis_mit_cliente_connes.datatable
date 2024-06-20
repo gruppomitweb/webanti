@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+vt_cis_mit_cliente_connes<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='CIS_MIT_CLIENTES_CONNES
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='vt_cis_mit_cliente_connes
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'vt_cis_mit_cliente_connes.cod_cliente
+'vt_cis_mit_cliente_connes.connes
+'vt_cis_mit_cliente_connes.dtinsert
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'vt_cis_mit_cliente_connes.cod_cliente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Cliente SITROP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_cliente
+state=3
+table_name='vt_cis_mit_cliente_connes
+type='field
+used_resource_keys={}
+I
+'vt_cis_mit_cliente_connes.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='NDG AUI
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='connes
+state=3
+table_name='vt_cis_mit_cliente_connes
+type='field
+used_resource_keys={}
+I
+'vt_cis_mit_cliente_connes.dtinsert
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data e Ora inserimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='dtinsert
+state=3
+table_name='vt_cis_mit_cliente_connes
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'vt_cis_mit_cliente_connes.cod_cliente
+[]
+'vt_cis_mit_cliente_connes.connes
+[]
+'vt_cis_mit_cliente_connes.dtinsert
+[]
+}
+*--*

@@ -1,0 +1,119 @@
+ 3
+"cpprgsec"
+"cpprgsec"
+"cpprgsec"
+ 0
+ 0
+*
+"cpusers"
+"cpusers"
+"cpusers"
+ 0
+ 0
+*
+"cpgroups"
+"cpgroups"
+"cpgroups"
+ 0
+ 0
+*
+ 6
+"Entity Name"
+"cpprgsec.progname"
+"progname"
+"C"
+ 50
+ 0
+*
+"Group Code"
+"cpprgsec.grpcode"
+"grpcode"
+"N"
+ 6
+ 0
+*
+"Group Name"
+"cpgroups.name"
+"grpname"
+"C"
+ 20
+ 0
+*
+"User Code"
+"cpprgsec.usrcode"
+"usrcode"
+"N"
+ 6
+ 0
+*
+"User Name"
+"cpusers.name"
+"usrname"
+"C"
+ 50
+ 0
+*
+"Access"
+"cpprgsec.sec1"
+"sec1"
+"N"
+ 4
+ 0
+*
+ 2
+"cpusers(User Code)"
+"cpusers.code=cpprgsec.usrcode"
+"Right outer"
+"cpusers"
+"cpprgsec"
+*
+"cpgroups(Group Code)"
+"cpgroups.code=cpprgsec.grpcode"
+"Right outer"
+"cpgroups"
+"cpprgsec"
+*
+ 1
+"cpprgsec.progname"
+""
+"="
+"?progname"
+"AND"
+""
+*
+ 2
+"Group Code"
+"cpprgsec.grpcode"
+"Ascending"
+*
+"User Code"
+"cpprgsec.usrcode"
+"Ascending"
+*
+ 0
+ 0
+ 1
+"progname"
+"Entity Name"
+"C"
+"50"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 2
+.f.
+""
+.f.
+.f.
+""
+*

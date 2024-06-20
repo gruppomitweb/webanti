@@ -1,0 +1,391 @@
+﻿* --- Resource Vers. 0.9
+aeannora<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Saldi Annuali Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='aeannora
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'aeannora.rapporto
+'aeannora.tiprap
+'aeannora.anno
+'aeannora.idbase
+'aeannora.importo1
+'aeannora.importo2
+'aeannora.importo3
+'aeannora.importo4
+'aeannora.importo5
+'aeannora.importo6
+'aeannora.prog1
+'aeannora.prog2
+'aeannora.esitoanno
+'aeannora.progrec
+'aeannora.fileanno
+'aeannora.inviato
+'aeannora.datainvio
+'aeannora.idesito
+'aeannora.natura
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'aeannora.anno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno Riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNO
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.datainvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINVIO
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.esitoanno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Esito 
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ESITOANNO
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.fileanno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome File
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FILEANNO
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Chiave Univoca Riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.idesito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Identificativo Esito
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDESITO
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.importo1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPORTO1
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.importo2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPORTO2
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.importo3
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPORTO3
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.importo4
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPORTO4
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.importo5
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPORTO5
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.importo6
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Giacenza Media
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPORTO6
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.inviato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INVIATO
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.natura
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Natura Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NATURA
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.prog1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Area 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROG1
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.prog2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Area 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROG2
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.progrec
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGREC
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+'aeannora.tiprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPRAP
+state=3
+table_name='aeannora
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'aeannora.anno
+[]
+'aeannora.datainvio
+[]
+'aeannora.esitoanno
+[]
+'aeannora.fileanno
+[]
+'aeannora.idbase
+[]
+'aeannora.idesito
+[]
+'aeannora.importo1
+[]
+'aeannora.importo2
+[]
+'aeannora.importo3
+[]
+'aeannora.importo4
+[]
+'aeannora.importo5
+[]
+'aeannora.importo6
+[]
+'aeannora.inviato
+[]
+'aeannora.natura
+[]
+'aeannora.prog1
+[]
+'aeannora.prog2
+[]
+'aeannora.progrec
+[]
+'aeannora.rapporto
+[]
+'aeannora.tiprap
+[]
+}
+*--*

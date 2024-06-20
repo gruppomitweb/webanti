@@ -1,0 +1,321 @@
+ 2
+"Deleghe"
+"aederig"
+"aederig"
+ 5
+ 5
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 266
+ 52
+*
+ 26
+"Codice Rapporto"
+"aederig.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Codice Delegato"
+"aederig.CONNESINT"
+"CONNESINT"
+"Char"
+ 16
+ 0
+*
+"Spedito Agenzia Entrate"
+"aederig.ASPEDITO"
+"ASPEDITO"
+"N"
+ 1
+ 0
+*
+"data Inizio"
+"aederig.ADATA"
+"ADATA"
+"D"
+ 8
+ 0
+*
+"Progressivo"
+"aederig.APROG"
+"APROG"
+"C"
+ 25
+ 0
+*
+"Nome File Spedizione"
+"aederig.AFILE"
+"AFILE"
+"C"
+ 15
+ 0
+*
+"Spedizione Chiusura"
+"aederig.CSPEDITO"
+"CSPEDITO"
+"N"
+ 1
+ 0
+*
+"Data Chiusura"
+"aederig.CDATA"
+"CDATA"
+"D"
+ 8
+ 0
+*
+"Progressivo Atuale"
+"aederig.CPROG"
+"CPROG"
+"C"
+ 25
+ 0
+*
+"Nome file spedizione chiusura"
+"aederig.CFILE"
+"CFILE"
+"C"
+ 15
+ 0
+*
+"Tipo Agenzia Entrate"
+"aederig.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"Tipo Rapporto"
+"aederig.COINT"
+"COINT"
+"C"
+ 1
+ 0
+*
+""
+"aederig.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Cognome"
+"personbo.COGNOME"
+"COGNOME"
+"Char"
+ 26
+ 0
+*
+"Nome"
+"personbo.NOME"
+"NOME"
+"Char"
+ 25
+ 0
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Luogo di Nascita"
+"personbo.NASCOMUN"
+"NASCOMUN"
+"C"
+ 30
+ 0
+*
+"Stato di nascita"
+"personbo.NASSTATO"
+"NASSTATO"
+"C"
+ 30
+ 0
+*
+"Sesso"
+"personbo.SESSO"
+"SESSO"
+"Char"
+ 1
+ 0
+*
+""
+"personbo.TIPINTER"
+"TIPINTER"
+"C"
+ 2
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Città"
+"personbo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"personbo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"Stato"
+"personbo.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+*
+"Data Nascita"
+"personbo.DATANASC"
+"DATANASC"
+"Date"
+ 8
+ 0
+*
+"Progressivo Riga"
+"aederig.PROGDLG"
+"PROG"
+"Numeric"
+ 15
+ 0
+*
+ 1
+""
+"aederig.CONNESINT=personbo.CONNES"
+"Left outer"
+"aederig"
+"personbo"
+*
+ 9
+"[NOTEMPTYSTR(aederig.CONNESINT)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(aederig.ADATA)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(aederig.ADATARET)]"
+""
+"="
+"0"
+"AND"
+""
+*
+"aederig.ADATA"
+""
+">="
+"?w_a_data"
+"AND"
+""
+*
+"aederig.ADATA"
+""
+"<="
+"?w_dadata"
+"AND"
+""
+*
+"aederig.ASPEDITO"
+""
+"<>"
+"1"
+"AND"
+""
+*
+"aederig.PROGDLG"
+""
+">="
+"?_bottom"
+"AND"
+""
+*
+"aederig.PROGDLG"
+""
+"<="
+"?_top"
+"AND"
+""
+*
+"aederig.NOCODFISC"
+""
+"="
+"?_estero"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 5
+"w_dadata"
+"data Inizio"
+"Date"
+"8"
+"0"
+""
+*
+"w_a_data"
+"data Inizio"
+"Date"
+"8"
+"0"
+""
+*
+"_bottom"
+"Progressivo Riga"
+"Numeric"
+"15"
+"0"
+"Remove"
+*
+"_top"
+"Progressivo Riga"
+"Numeric"
+"15"
+"0"
+"Remove"
+*
+"_estero"
+"Codice Fiscale Estero"
+"Char"
+"1"
+"0"
+""
+*
+""
+.f.
+"QBE_INVIO_DELOPE_APE_6_GLOBALE"
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.t.
+.f.
+ 11
+.f.
+""
+.f.
+*

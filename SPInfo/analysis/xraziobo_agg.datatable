@@ -1,0 +1,524 @@
+﻿* --- Resource Vers. 0.9
+xraziobo_agg<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Dati Aggiuntivi Frazionate Prov.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='xraziobo_agg
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'xraziobo_agg.idbase
+'xraziobo_agg.codlob
+'xraziobo_agg.tipogioco
+'xraziobo_agg.cacodice
+'xraziobo_agg.idbiglietto
+'xraziobo_agg.cadataora
+'xraziobo_agg.catipgio
+'xraziobo_agg.catipcon
+'xraziobo_agg.capv_cod
+'xraziobo_agg.iddocall
+'xraziobo_agg.vpcodice
+'xraziobo_agg.wudatret
+'xraziobo_agg.categ01
+'xraziobo_agg.categ02
+'xraziobo_agg.categ03
+'xraziobo_agg.categ04
+'xraziobo_agg.categ05
+'xraziobo_agg.categoria
+'xraziobo_agg.flagfraud
+'xraziobo_agg.sv58724
+'xraziobo_agg.sv58726sca
+'xraziobo_agg.sv58726sa
+'xraziobo_agg.sv58726pisp
+'xraziobo_agg.c_cognome
+'xraziobo_agg.c_nome
+'xraziobo_agg.sospagam
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'xraziobo_agg.c_cognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Cognome Beneficiario per SOS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='C_COGNOME
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.c_nome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nome Beneficiario per SOS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='C_NOME
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.cacodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Causale SNAI
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CACODICE
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.cadataora
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data e Ora Giocata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CADATAORA
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.capv_cod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='PV_COD
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CAPV_COD
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.categ01
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG01
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.categ02
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG02
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.categ03
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG03
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.categ04
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG04
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.categ05
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG05
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.categoria
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEGORIA
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.catipcon
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Concessione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATIPCON
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.catipgio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Gioco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATIPGIO
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.codlob
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Line Of Business
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODLOB
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.flagfraud
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Operazione Fraudolenta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLAGFRAUD
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.idbiglietto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ID Biglietto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBIGLIETTO
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.iddocall
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Collegamento Documenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDDOCALL
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.sospagam
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Mezzo di Pagamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SOSPAGAM
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.sv58724
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Modalità BONIFICI EFFETTUATI SULLA BASE DI DISPOSIZIONI SINGOLE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SV58724
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.sv58726pisp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Modalità PISP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SV58726PISP
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.sv58726sa
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Schema di addebito
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SV58726SA
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.sv58726sca
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Autorizzazione Forte (S/N)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SV58726SCA
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.tipogioco
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Gioco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOGIOCO
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.vpcodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Piattaforma VLT
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='VPCODICE
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+'xraziobo_agg.wudatret
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Rettifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUDATRET
+state=3
+table_name='xraziobo_agg
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'xraziobo_agg.c_cognome
+[]
+'xraziobo_agg.c_nome
+[]
+'xraziobo_agg.cacodice
+[]
+'xraziobo_agg.cadataora
+[]
+'xraziobo_agg.capv_cod
+[]
+'xraziobo_agg.categ01
+[]
+'xraziobo_agg.categ02
+[]
+'xraziobo_agg.categ03
+[]
+'xraziobo_agg.categ04
+[]
+'xraziobo_agg.categ05
+[]
+'xraziobo_agg.categoria
+[]
+'xraziobo_agg.catipcon
+[]
+'xraziobo_agg.catipgio
+[]
+'xraziobo_agg.codlob
+[]
+'xraziobo_agg.flagfraud
+[]
+'xraziobo_agg.idbase
+[]
+'xraziobo_agg.idbiglietto
+[]
+'xraziobo_agg.iddocall
+[]
+'xraziobo_agg.sospagam
+[]
+'xraziobo_agg.sv58724
+[]
+'xraziobo_agg.sv58726pisp
+[]
+'xraziobo_agg.sv58726sa
+[]
+'xraziobo_agg.sv58726sca
+[]
+'xraziobo_agg.tipogioco
+[]
+'xraziobo_agg.vpcodice
+[]
+'xraziobo_agg.wudatret
+[]
+}
+*--*

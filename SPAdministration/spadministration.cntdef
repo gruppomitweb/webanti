@@ -1,0 +1,364 @@
+NODE SPAdministration/SPAdminSecurityMenu Menu Security
+//TEXT SPAdminSecurityMenuStateIconPosition:right State icon position [left,right,]
+{"name":"SPAdminSecurityMenuStateIconPosition","type":"COMBO","caption":"State icon position","default":"right", "items": [{"value":"left"} , {"value" : "right"} ] }
+
+GROUP Padlock
+{"name":"SPAdmin_security_padlock_margin","type":"TEXT","caption":"Margin(top,right,bottom,left)","default":""}
+{"name":"SPAdmin_security_padlock_padding","type":"TEXT","caption":"Padding(top,right,bottom,left)","default":""}
+GROUP_END
+GROUP Resource visible for group or user selected
+{"name":"SPAdmin_security_menu_opened_resource_icon","type":"ICON","caption":"State icon","default":"../images/icon_open_padlock.png"}
+
+FONT SPAdmin_security_menu_opened_resource_font Font family
+{ "name": "SPAdmin_security_menu_opened_resource_fontsize","type": "FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+TEXT SPAdmin_security_menu_opened_resource_fontweight Font weight
+TEXT SPAdmin_security_menu_opened_resource_valign:"top" Vertical align
+{"name":"SPAdmin_security_menu_opened_resource_background_img","type":"BACKGROUNDIMAGE","caption":"Background Image/gradient","default":""}
+{"name":"SPAdmin_security_menu_opened_resource_background_color","type":"COLOR","caption":"Background color","default":""}
+{"name":"SPAdmin_security_menu_opened_resource_background_repeat","type":"TEXT","caption":"Background repeat","default":""}
+{"name":"SPAdmin_security_menu_opened_resource_background_pos","type":"TEXT","caption":"Background position","default":""}
+{"name":"SPAdmin_security_menu_opened_resource_color","type":"COLOR","caption":"Color"}
+
+GROUP_END
+
+GROUP Resource closed for group or user selected
+{"name":"SPAdmin_security_menu_closed_resource_icon","type":"ICON","caption":"State icon","default":"../images/icon_closed_padlock.png"}
+
+FONT SPAdmin_security_menu_closed_resource_font Font family
+{ "name": "SPAdmin_security_menu_closed_resource_fontsize","type": "FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+TEXT SPAdmin_security_menu_closed_resource_fontweight Font weight
+TEXT SPAdmin_security_menu_closed_resource_valign:"top" Vertical align
+{"name":"SPAdmin_security_menu_closed_resource_background_img","type":"BACKGROUNDIMAGE","caption":"Background Image/gradient","default":""}
+{"name":"SPAdmin_security_menu_closed_resource_background_color","type":"COLOR","caption":"Background color","default":""}
+{"name":"SPAdmin_security_menu_closed_resource_background_repeat","type":"TEXT","caption":"Background repeat","default":""}
+{"name":"SPAdmin_security_menu_closed_resource_background_pos","type":"TEXT","caption":"Background position","default":""}
+{"name":"SPAdmin_security_menu_closed_resource_color","type":"COLOR","caption":"Color"}
+
+GROUP_END
+
+GROUP Resource to initialize security
+
+{"name":"SPAdmin_security_menu_initialize_resource_icon","type":"ICON","caption":"State icon","default":"../images/icon_key.png"}
+
+FONT SPAdmin_security_menu_initialize_resource_font Font family
+{ "name": "SPAdmin_security_menu_initialize_resource_fontsize","type": "FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+TEXT SPAdmin_security_menu_initialize_resource_fontweight Font weight
+TEXT SPAdmin_security_menu_initialize_resource_valign:"top" Vertical align
+{"name":"SPAdmin_security_menu_initialize_resource_background_img","type":"BACKGROUNDIMAGE","caption":"Background Image/gradient","default":""}
+{"name":"SPAdmin_security_menu_initialize_resource_background_color","type":"COLOR","caption":"Background color","default":""}
+{"name":"SPAdmin_security_menu_initialize_resource_background_repeat","type":"TEXT","caption":"Background repeat","default":""}
+{"name":"SPAdmin_security_menu_initialize_resource_background_pos","type":"TEXT","caption":"Background position","default":""}
+{"name":"SPAdmin_security_menu_initialize_resource_color","type":"COLOR","caption":"Color"}
+
+GROUP_END
+
+GROUP Resource with security modified by last role selected
+FONT SPAdmin_security_menu_modified_resource_font Font family
+{ "name": "SPAdmin_security_menu_modified_resource_fontsize","type": "FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+TEXT SPAdmin_security_menu_modified_resource_fontweight Font weight
+TEXT SPAdmin_security_menu_modified_resource_valign Vertical align
+{"name":"SPAdmin_security_menu_modified_resource_background_img","type":"BACKGROUNDIMAGE","caption":"Background Image/gradient","default":""}
+{"name":"SPAdmin_security_menu_modified_resource_background_color","type":"COLOR","caption":"Background color","default":"#ECECEC"}
+{"name":"SPAdmin_security_menu_modified_resource_background_repeat","type":"TEXT","caption":"Background repeat","default":""}
+{"name":"SPAdmin_security_menu_modified_resource_background_pos","type":"TEXT","caption":"Background position","default":""}
+{"name":"SPAdmin_security_menu_modified_resource_color","type":"COLOR","caption":"Color","default":"rgba(0,0,0,.87)"}
+GROUP_END
+
+VARIABLES SPAdmin_security_menu_opened_resource_icon SPAdmin_security_menu_closed_resource_icon SPAdmin_security_menu_initialize_resource_icon SPAdminSecurityMenuStateIconPosition
+TEMPLATE spadministration_security.css
+
+a.security_padlock {
+  margin:\SPAdmin_security_padlock_margin!\;
+  padding:\SPAdmin_security_padlock_padding!\;
+}
+.padlockright .menuview_item a.security_padlock {
+  position:absolute;
+  right:0px;
+}
+
+a.security_padlock a.opened::after {
+  content: \SPAdmin_security_menu_opened_resource_icon.Char!\;
+  font-family: \SPAdmin_security_menu_opened_resource_icon.FontName!\;
+  font-weight: \SPAdmin_security_menu_opened_resource_icon.FontWeight!\;
+  font-size: \SPAdmin_security_menu_opened_resource_icon.Size!\px;
+  color: \SPAdmin_security_menu_opened_resource_icon.Color!\;
+}
+
+a.security_padlock a.opened:hover::after {
+  content: \SPAdmin_security_menu_closed_resource_icon.Char!\;
+  font-family: \SPAdmin_security_menu_closed_resource_icon.FontName!\;
+  font-weight: \SPAdmin_security_menu_closed_resource_icon.FontWeight!\;
+  font-size: \SPAdmin_security_menu_closed_resource_icon.Size!\px;
+  color: \SPAdmin_security_menu_closed_resource_icon.Color!\;
+}
+
+
+a.security_padlock a.closed::after {
+  content: \SPAdmin_security_menu_closed_resource_icon.Char!\;
+  font-family: \SPAdmin_security_menu_closed_resource_icon.FontName!\;
+  font-weight: \SPAdmin_security_menu_closed_resource_icon.FontWeight!\;
+  font-size: \SPAdmin_security_menu_closed_resource_icon.Size!\px;
+  color: \SPAdmin_security_menu_closed_resource_icon.Color!\;
+}
+a.security_padlock a.closed:hover::after {
+  content: \SPAdmin_security_menu_opened_resource_icon.Char!\;
+  font-family: \SPAdmin_security_menu_opened_resource_icon.FontName!\;
+  font-weight: \SPAdmin_security_menu_opened_resource_icon.FontWeight!\;
+  font-size: \SPAdmin_security_menu_opened_resource_icon.Size!\px;
+  color: \SPAdmin_security_menu_opened_resource_icon.Color!\;
+}
+
+a.security_padlock a.initialize::after {
+  content: \SPAdmin_security_menu_initialize_resource_icon.Char!\;
+  font-family: \SPAdmin_security_menu_initialize_resource_icon.FontName!\;
+  font-weight: \SPAdmin_security_menu_initialize_resource_icon.FontWeight!\;
+  font-size: \SPAdmin_security_menu_initialize_resource_icon.Size!\px;
+  color: \SPAdmin_security_menu_initialize_resource_icon.Color!\;
+}
+a.security_padlock a.initialize:hover::after {
+  content: \SPAdmin_security_menu_opened_resource_icon.Char!\;
+  font-family: \SPAdmin_security_menu_opened_resource_icon.FontName!\;
+  font-weight: \SPAdmin_security_menu_opened_resource_icon.FontWeight!\;
+  font-size: \SPAdmin_security_menu_opened_resource_icon.Size!\px;
+  color: \SPAdmin_security_menu_opened_resource_icon.Color!\;
+}
+
+.menuview_content li a.security_element_opened {
+  font-family:\SPAdmin_security_menu_opened_resource_font!\;
+  color:\SPAdmin_security_menu_opened_resource_color!\;
+  font-size:\SPAdmin_security_menu_opened_resource_fontsize!\;
+  font-weight:\SPAdmin_security_menu_opened_resource_fontweight!\;
+  background-color:\SPAdmin_security_menu_opened_resource_background_color!\;
+  background-image: \SPAdmin_security_menu_opened_resource_background_img!\;
+  background-position: \SPAdmin_security_menu_opened_resource_background_pos!\;
+  background-repeat: \SPAdmin_security_menu_opened_resource_background_repeat!\;
+  vertical-align:\SPAdmin_security_menu_opened_resource_valign!\;
+}
+.menuview_content li a.security_element_closed {
+  font-family:\SPAdmin_security_menu_closed_resource_font!\;
+  color:\SPAdmin_security_menu_closed_resource_color!\;
+  font-size:\SPAdmin_security_menu_closed_resource_fontsize!\;
+  font-weight:\SPAdmin_security_menu_closed_resource_fontweight!\;
+  background-color:\SPAdmin_security_menu_closed_resource_background_color!\;
+  background-image: \SPAdmin_security_menu_closed_resource_background_img!\;
+  background-position: \SPAdmin_security_menu_closed_resource_background_pos!\;
+  background-repeat: \SPAdmin_security_menu_closed_resource_background_repeat!\;
+  vertical-align:\SPAdmin_security_menu_closed_resource_valign!\;
+}
+
+.menuview_content li a.security_element_initialize {
+  font-family:\SPAdmin_security_menu_initialize_resource_font!\;
+  color:\SPAdmin_security_menu_initialize_resource_color!\;
+  font-size:\SPAdmin_security_menu_initialize_resource_fontsize!\;
+  font-weight:\SPAdmin_security_menu_initialize_resource_fontweight!\;
+  background-color:\SPAdmin_security_menu_initialize_resource_background_color!\;
+  background-image: \SPAdmin_security_menu_initialize_resource_background_img!\;
+  background-position: \SPAdmin_security_menu_initialize_resource_background_pos!\;
+  background-repeat: \SPAdmin_security_menu_initialize_resource_background_repeat!\;
+  vertical-align:\SPAdmin_security_menu_initialize_resource_valign!\;
+}
+
+.hide_element_closed li.security_element_closed,
+.hide_element_closed div.security_element_closed {
+  display:none;
+}
+
+.menuview_content li.security_element_role_modified {
+  background-color:\SPAdmin_security_menu_modified_resource_background_color!\;
+  background-image: \SPAdmin_security_menu_modified_resource_background_img!\;
+  background-position: \SPAdmin_security_menu_modified_resource_background_pos!\;
+  background-repeat: \SPAdmin_security_menu_modified_resource_background_repeat!\;
+}
+
+.menuview_content li.security_element_role_modified a.security_element_initialize,
+.menuview_content li.security_element_role_modified a.security_element_closed,
+.menuview_content li.security_element_role_modified a.security_element_opened {
+  font-family:\SPAdmin_security_menu_modified_resource_font!\;
+  color:\SPAdmin_security_menu_modified_resource_color!\;
+  font-size:\SPAdmin_security_menu_modified_resource_fontsize!\;
+  font-weight:\SPAdmin_security_menu_modified_resource_fontweight!\;
+  vertical-align:\SPAdmin_security_menu_modified_resource_valign!\;
+}
+NODE_END
+
+NODE SPAdministration/SPAdminSecurityEntity Entity Security
+
+{"name":"SPAdminSecurityEntityStateIconPosition","type":"COMBO","caption":"State icon position","default":"right", "items": [{"value":"left"} , {"value" : "right"} ] }
+{"name":"SPAdminSecurityEntityStateIconSpace","type":"NUMBER","caption":"Space out of icons for boxes","default":"0"}
+{"name":"SPAdminSecurityEntityStateIconColor","type":"COLOR","caption":"Color for tab selected","default":"#FFFFFF"}
+
+GROUP Box with security modified by last role selected
+FONT SPAdmin_security_box_modified_resource_font Font family
+{ "name": "SPAdmin_security_box_modified_resource_fontsize","type": "FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+TEXT SPAdmin_security_box_modified_resource_fontweight Font weight
+TEXT SPAdmin_security_box_modified_resource_valign Vertical align
+{"name":"SPAdmin_security_box_modified_resource_background_img","type":"BACKGROUNDIMAGE","caption":"Background Image/gradient","default":""}
+{"name":"SPAdmin_security_box_modified_resource_background_color","type":"COLOR","caption":"Background color","default":"#ECECEC"}
+{"name":"SPAdmin_security_box_modified_resource_background_repeat","type":"TEXT","caption":"Background repeat","default":""}
+{"name":"SPAdmin_security_box_modified_resource_background_pos","type":"TEXT","caption":"Background position","default":""}
+{"name":"SPAdmin_security_box_modified_resource_color","type":"COLOR","caption":"Color","default":"rgba(0,0,0,.87)"}
+TEXT SPAdmin_security_box_modified_resource_bordersize Border width
+COLOR SPAdmin_security_box_modified_resource_bordercolor Border color
+TEXT SPAdmin_security_box_modified_resource_borderweight Border style
+GROUP_END
+
+GROUP Page with security modified by last role selected
+FONT SPAdmin_security_page_modified_resource_font Font family
+{ "name": "SPAdmin_security_page_modified_resource_fontsize","type": "FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+TEXT SPAdmin_security_page_modified_resource_fontweight Font weight
+TEXT SPAdmin_security_page_modified_resource_valign Vertical align
+{"name":"SPAdmin_security_page_modified_resource_background_img","type":"BACKGROUNDIMAGE","caption":"Background Image/gradient","default":""}
+{"name":"SPAdmin_security_page_modified_resource_background_color","type":"COLOR","caption":"Background color","default":"#ECECEC"}
+{"name":"SPAdmin_security_page_modified_resource_background_repeat","type":"TEXT","caption":"Background repeat","default":""}
+{"name":"SPAdmin_security_page_modified_resource_background_pos","type":"TEXT","caption":"Background position","default":""}
+{"name":"SPAdmin_security_page_modified_resource_color","type":"COLOR","caption":"Color","default":"rgba(0,0,0,.87)"}
+TEXT SPAdmin_security_page_modified_resource_bordersize Border width
+COLOR SPAdmin_security_page_modified_resource_bordercolor Border color
+TEXT SPAdmin_security_page_modified_resource_borderweight Border style
+
+GROUP_END
+
+GROUP Image to open full entity security of item
+{"name":"SPAdmin_security_entity_edit_margin","type":"TEXT","caption":"Margin(top,right,bottom,left)","default":""}
+{"name":"SPAdmin_security_entity_edit_padding","type":"TEXT","caption":"Padding(top,right,bottom,left)","default":""}
+{"name":"SPAdmin_security_entity_edit_icon","type":"ICON","caption":"Icon","default":'{"Char":"60345","Color":"#777777","FontName":"icons8_win10","FontWeight":"bolder","Size":"20"}'}
+GROUP_END
+
+VARIABLES SPAdminSecurityEntityStateIconPosition SPAdmin_security_entity_edit_icon
+TEMPLATE spadministration_security.css
+.tab_item a.security_edit,
+.tab_item a.security_padlock,
+.Tabstrip.tabWrapper.useStyleColor .tab_item a.security_padlock,
+.Tabstrip.tabWrapper.useStyleColor .tab_item a.security_edit{
+  position: relative;
+  padding: 7px 7px 7px 0;
+}
+.padlockright .BoxContainer a.security_padlock {
+  position:absolute;
+  right:\SPAdminSecurityEntityStateIconSpace\px;
+  top:0px;
+}
+.padlockleft .BoxContainer a.security_padlock {
+  position:absolute;
+  left:\SPAdminSecurityEntityStateIconSpace\px;
+  top:0px;
+}
+.padlockright .BoxContainer a.security_edit {
+  position:absolute;
+  right:calc(\SPAdminSecurityEntityStateIconSpace\px + 25px);
+  top:0px;
+}
+.padlockleft .BoxContainer a.security_edit {
+  position:absolute;
+  left:calc(\SPAdminSecurityEntityStateIconSpace\px + 25px);
+  top:0px;
+}
+
+div.BoxContainer.security_element_role_modified {
+  background-color:\SPAdmin_security_box_modified_resource_background_color!\;
+  background-image: \SPAdmin_security_box_modified_resource_background_img!\;
+  background-position: \SPAdmin_security_box_modified_resource_background_pos!\;
+  background-repeat: \SPAdmin_security_box_modified_resource_background_repeat!\;
+  border-width:\SPAdmin_security_box_modified_resource_bordersize!\;
+  border-color:\SPAdmin_security_box_modified_resource_bordercolor!\;
+  border-style:\SPAdmin_security_box_modified_resource_borderweight!\;
+}
+
+div.BoxContainer.security_element_role_modified a.security_element_initialize,
+div.BoxContainer.security_element_role_modified a.security_element_closed,
+div.BoxContainer.security_element_role_modified a.security_element_opened {
+  font-family:\SPAdmin_security_box_modified_resource_font!\;
+  color:\SPAdmin_security_box_modified_resource_color!\;
+  font-size:\SPAdmin_security_box_modified_resource_fontsize!\;
+  font-weight:\SPAdmin_security_box_modified_resource_fontweight!\;
+  vertical-align:\SPAdmin_security_box_modified_resource_valign!\;
+}
+
+div.PageContainer.security_element_role_modified {
+  background-color:\SPAdmin_security_page_modified_resource_background_color!\;
+  background-image: \SPAdmin_security_page_modified_resource_background_img!\;
+  background-position: \SPAdmin_security_page_modified_resource_background_pos!\;
+  background-repeat: \SPAdmin_security_page_modified_resource_background_repeat!\;
+  border-width:\SPAdmin_security_page_modified_resource_bordersize!\;
+  border-color:\SPAdmin_security_page_modified_resource_bordercolor!\;
+  border-style:\SPAdmin_security_page_modified_resource_borderweight!\;
+}
+
+div.PageContainer.security_element_role_modified a.security_element_initialize,
+div.PageContainer.security_element_role_modified a.security_element_closed,
+div.PageContainer.security_element_role_modified a.security_element_opened {
+  font-family:\SPAdmin_security_page_modified_resource_font!\;
+  color:\SPAdmin_security_page_modified_resource_color!\;
+  font-size:\SPAdmin_security_page_modified_resource_fontsize!\;
+  font-weight:\SPAdmin_security_page_modified_resource_fontweight!\;
+  vertical-align:\SPAdmin_security_page_modified_resource_valign!\;
+}
+
+.tab_item a.security_edit {
+  visibility: hidden;
+}
+.tab_item.selected a.security_edit, .BoxContainer a.security_edit {
+  margin:\SPAdmin_security_entity_edit_margin!\;
+  padding:\SPAdmin_security_entity_edit_padding!\;
+  visibility: visible;
+}
+
+.tab_item.selected a.security_edit a::after, .BoxContainer a.security_edit a::after {
+  content: \SPAdmin_security_entity_edit_icon.Char!\;
+  font-family: \SPAdmin_security_entity_edit_icon.FontName!\;
+  font-weight: \SPAdmin_security_entity_edit_icon.FontWeight!\;
+  font-size: \SPAdmin_security_entity_edit_icon.Size!\px;
+  color: \SPAdmin_security_entity_edit_icon.Color!\;
+}
+
+.BoxTabstrip .BoxContainer a.security_edit a::after,
+.BoxTabstrip .tab_item.selected a.security_edit a::after,
+.BoxTabstrip .BoxContainer a.security_padlock a::after,
+.BoxTabstrip .tab_item.selected a.security_padlock a::after {
+  color: \SPAdminSecurityEntityStateIconColor!\;
+}
+a.security_edit a::after,
+a.security_padlock a::after {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+NODE_END
+
+NODE SPAdministration/SPAdminToolbarBtn Control Panel
+
+GROUP Icon size on control panel
+{"name":"controlBoxWidth","type":"TEXT","caption":"Box width","default":"90px"}
+{"name":"controlIconHeight","type":"NUMBER","caption":"Icon height","default":"32"}
+{"name":"controlFontSize","type":"FONT_SIZE","caption":"Font size"}
+{"name":"controlColor","type":"COLOR","caption":"Font color"}
+GROUP_END
+
+GROUP  Toolbar button icon
+{"name":"controlPanelHelp","type":"ICON","caption":"Help image","default":""}
+{"name":"controlPanelBack","type":"ICON","caption":"Back image","default":""}
+{"name":"controlPanelRefresh","type":"ICON","caption":"Refresh image","default":""}
+{"name":"controlPanelDatabase","type":"ICON","caption":"Database image","default":""}
+{"name":"controlPanelDatabaseAccess","type":"ICON","caption":"Database access image","default":""}
+{"name":"controlPanelDatabaseSettings","type":"ICON","caption":"Database settings image","default":""}
+GROUP_END
+
+
+VARIABLES controlPanelHelp controlPanelBack controlPanelRefresh
+
+TEMPLATE portalstudio.css
+
+.withoutclass.gridFloat td {
+  min-width: \controlBoxWidth!\;
+}
+
+.withoutclass.gridFloat .label a {
+  color: \controlColor!\;
+  font-size: \controlFontSize!\;
+}
+
+.withoutclass.gridFloat  img {
+  height: \controlIconHeight!\px;
+}
+
+NODE_END

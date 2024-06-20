@@ -1,0 +1,102 @@
+ 3
+"Import RTRA - AUA"
+"wutrxchk"
+"wutrxchk"
+ 0
+ 0
+*
+"Cases"
+"wutrxchk_cases"
+"wutrxchk_cases"
+ 0
+ 0
+*
+"Cases"
+"wu_cases"
+"wu_cases"
+ 0
+ 0
+*
+ 3
+"ID Transazione"
+"wutrxchk.TRXCODPRG"
+"TRXCODPRG"
+"N"
+ 15
+ 0
+*
+"Caso"
+"wutrxchk_cases.TRXCODCASE"
+"TRXCODCASE"
+"N"
+ 3
+ 0
+*
+"Nome Caso"
+"wu_cases.WCNOMCAS"
+"WCNOMCAS"
+"C"
+ 60
+ 0
+*
+ 2
+"Cases(Numero transazione)"
+"wutrxchk.TRXCODPRG=wutrxchk_cases.TRXCODICE"
+"Left outer"
+"wutrxchk"
+"wutrxchk_cases"
+*
+"Cases(Caso)"
+"wu_cases.WCCODICE=wutrxchk_cases.TRXCODCASE"
+"Right outer"
+"wu_cases"
+"wutrxchk_cases"
+*
+ 1
+"wutrxchk.TRXCODPRG"
+""
+"="
+"?pTRXCODPRG"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"pTRXCODPRG"
+"ID Transazione"
+"N"
+"15"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 5
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"AW%3BO%5CVO_HGC%3E.X%26NC%19%5BFW3%1E%10zl%7Cgzac%13%19%0C51%21%2C%2BwYJ%3F%40D%278%7CA_LT%3DZ7**%40DvYHX%3AV%16%26%3A%5B84PL9L5D%2520%40%3DJ67%3F_%25BK*%3EY%2F1%27a%040%2F%231I%28%21D%3BSI%21%288%3FUA%5E%19%23%2283%40%24%2FTGD8rT%23%16%3FA%26-%5CZ%29NZEOJ%28%26%2FJM%21Y%3D*%129+_c%2B%29%3FRS79%25%3BS.%26T%2BF%5E141KR%5BEGK%23%22.%28%1BL%2FGS%23%5EJ%60*%3F4J-3%23%26%2B%3CMnF%3F%3D-U65A22%2B%3F1K_RD%5DU%273%24G0%3D%2CI%3E%23%297Z%3FK%28GY%5BVHD%5B.-%11%18%3F%00"
+"%29BMC2R*jvg%0A%01%14%09%7Ef%7D%132I-J%3F2%21RRIYN5%5EB-+%03K.5JHQAL%40H%0AJC6%3E.35%22%3CLL1ZWXqORDA%2304%04XPBUT5JH%3BM%5D2E6E_82F+M.P8_%5B8%25%1C%1A%3EB%23%3BW0yG0L%11SU%3D_%231MVM40%267%2C%2FQ%24%3D%2F5*%25%23%3D%5DWEOSO8D4%3DZZTJ8J%2988L+DF%5Bo%22%5B-%23%1C%1A2-4.W5%7B%3CD%17F%24%40KL%23%24-%2C%27%1B%1Fq%5BK%243%5C%3A%05%21IF%283%2C%25_%3E%5BYD7%3E%23_0%3B-7*%29O%216BGt%279%28%3ESM5F%2283+%2FNUl3GC%3C%5D%3FGE%3A%40%3E%10NC%00"
+""
+""
+"native"
+ 0
+ 0
+*

@@ -1,0 +1,480 @@
+ 12
+"Frazionate"
+"xraziobo"
+"xraziobo"
+ 169
+ 10
+*
+"Anagrafica Persone/Clienti/Società/Fornitori"
+"personbo"
+"personbo"
+ 260
+ 10
+*
+"Causali Sintetiche"
+"tbcausin"
+"tbcausin"
+ 285
+ 173
+*
+"Causali Analitiche"
+"tbcauana"
+"tbcauana"
+ 53
+ 102
+*
+"Divise"
+"tbvalute"
+"tbvalute"
+ 269
+ 90
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 368
+ 87
+*
+"Stati"
+"tbstati"
+"tbstati"
+ 193
+ 90
+*
+"Tipo Intermediario"
+"tbtipint"
+"tbtipint"
+ 406
+ 171
+*
+"Anagrafica Persone/Clienti/Società/Fornitori(1)"
+"personbo1"
+"personbo"
+ 3
+ 178
+*
+"Anagrafica Persone/Clienti/Società/Fornitori(2)"
+"personbo2"
+"personbo"
+ 7
+ 252
+*
+"Tipi Legami"
+"tbtipleg"
+"tbtipleg"
+ 287
+ 250
+*
+"Rapporti Definitivi + Provvisori"
+"knarapbo"
+"knarapbo"
+ 387
+ 259
+*
+ 37
+"Data Operazione"
+"xraziobo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Numero Progressivo"
+"xraziobo.NUMPROG"
+"NUMPROG"
+"Char"
+ 11
+ 0
+*
+"Causale Analitica"
+"xraziobo.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+*
+"Descrizione"
+"tbcauana.DESCRI"
+"DESCRI"
+"C"
+ 165
+ 0
+*
+"Causale Sintetica"
+"xraziobo.CODVOC"
+"CODVOC"
+"Char"
+ 2
+ 0
+*
+"Descrizione"
+"tbcausin.DESCRIZ"
+"DESCRIZ"
+"C"
+ 165
+ 0
+*
+"Totale Operazione"
+"[CASE(xraziobo.valuta,ý018ý,TOTLIRE,TOTLIRE/100)]"
+"IMPORTO"
+"Numeric"
+ 15
+ 2
+*
+"Divisa"
+"xraziobo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+"Descrizione"
+"tbvalute.DESCRI"
+"DESCRI1"
+"C"
+ 30
+ 0
+*
+"Stato registrazione"
+"[CASE(STATOREG,ý2ý,ýMý,ý3ý,ýCý,ýAý)]"
+"STATOREG"
+"Char"
+ 1
+ 0
+*
+"Totale Operazione"
+"[CASE(xraziobo.VALUTA,ý018ý,xraziobo.TOTLIRE,(xraziobo.TOTLIRE/100)*1936.27)]"
+"TOTLIRE"
+"Numeric"
+ 15
+ 2
+*
+"Totale Operazione"
+"[CASE(xraziobo.VALUTA,ý018ý,xraziobo.TOTLIRE/1936.27,xraziobo.TOTLIRE/100)]"
+"TOTEURO"
+"Numeric"
+ 15
+ 2
+*
+"Tipo Operazione Completa"
+"xraziobo.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DES1"
+"Char"
+ 90
+ 0
+*
+"Segno"
+"xraziobo.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+*
+"Cambio"
+"xraziobo.CAMBIO"
+"CAMBIO"
+"N"
+ 9
+ 4
+*
+"di cui contanti"
+"[CASE(xraziobo.VALUTA,ý018ý,xraziobo.TOTCONT,xraziobo.TOTCONT/100)]"
+"TOTCONT"
+"Numeric"
+ 15
+ 2
+*
+"Codice Intermediario C/Parte"
+"xraziobo.CODINT2"
+"CODINT2"
+"C"
+ 11
+ 0
+*
+"Denominazione Intermediario C/Parte"
+"xraziobo.DESC2"
+"DESC2"
+"Char"
+ 30
+ 0
+*
+"Tipo Intermediario C/Parte"
+"xraziobo.TIPOINT2"
+"TIPOINT2"
+"C"
+ 2
+ 0
+*
+"Provincia Intermediario C/Parte"
+"xraziobo.PROV2"
+"PROV2"
+"C"
+ 2
+ 0
+*
+"CAB Intermediario C/Parte"
+"xraziobo.CODCAB2"
+"CODCAB2"
+"C"
+ 6
+ 0
+*
+"Stato Intermediario C/Parte"
+"xraziobo.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+*
+"Descrizione"
+"tbstati.DESCRI"
+"DESCRI2"
+"C"
+ 30
+ 0
+*
+"Descrizione"
+"tbtipint.DESCRI"
+"DESCRI3"
+"Char"
+ 80
+ 0
+*
+"Idbase"
+"xraziobo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Codice Cliente Occasionale"
+"xraziobo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Rapporto Collegato"
+"xraziobo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Soggetto Operante Conto Terzi"
+"xraziobo.CONNESOPER"
+"CONNESOPER"
+"Char"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo1.RAGSOC"
+"RAGSOC1"
+"C"
+ 70
+ 0
+*
+"Beneficiario"
+"xraziobo.CONNESBEN"
+"CONNESBEN"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo2.RAGSOC"
+"RAGSOC2"
+"C"
+ 70
+ 0
+*
+"Tipo Legame sogg. Operante"
+"xraziobo.TIPOLEG"
+"TIPOLEG"
+"C"
+ 1
+ 0
+*
+"Descrizione"
+"tbtipleg.DESCRIZ"
+"DESCRIZ1"
+"C"
+ 50
+ 0
+*
+"Data registrazione"
+"xraziobo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Descrizione"
+"knarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+ 11
+"Clienti Occasionali"
+"personbo.CONNES=xraziobo.CONNESCLI"
+"Right outer"
+"personbo"
+"xraziobo"
+*
+"Causali Sintetiche(Causale Sintetica)"
+"tbcausin.CODVOC=xraziobo.CODVOC"
+"Right outer"
+"tbcausin"
+"xraziobo"
+*
+"Divise(Divisa)"
+"tbvalute.CODVAL=xraziobo.VALUTA"
+"Right outer"
+"tbvalute"
+"xraziobo"
+*
+"Causali Analitiche(Causale Sintetica)"
+"tbcauana.idbase=xraziobo.idcauana"
+"Right outer"
+"tbcauana"
+"xraziobo"
+*
+"Tipo Registrazione(Tipo Operazione Completa)"
+"tbtipreg.CODICE=xraziobo.TIPOOPRAP"
+"Right outer"
+"tbtipreg"
+"xraziobo"
+*
+"Stati(Stato Intermediario C/Parte)"
+"tbstati.CODSTA=xraziobo.PAESE"
+"Right outer"
+"tbstati"
+"xraziobo"
+*
+"Tipo Intermediario"
+"tbtipint.TIPOINT=xraziobo.TIPOINT2"
+"Right outer"
+"tbtipint"
+"xraziobo"
+*
+"Sogge. Operante C Terzi"
+"personbo1.CONNES=xraziobo.CONNESOPER"
+"Right outer"
+"personbo1"
+"xraziobo"
+*
+"Beneficiario"
+"personbo2.CONNES=xraziobo.CONNESBEN"
+"Right outer"
+"personbo2"
+"xraziobo"
+*
+"Tipi Legami(Tipo Legame sogg. Operante)"
+"tbtipleg.TIPLEG=xraziobo.TIPOLEG"
+"Right outer"
+"tbtipleg"
+"xraziobo"
+*
+"Rapporti"
+"knarapbo.RAPPORTO=xraziobo.RAPPORTO"
+"Right outer"
+"knarapbo"
+"xraziobo"
+*
+ 4
+"xraziobo.CDATOPE"
+""
+">="
+"?w_cdadata"
+"AND"
+""
+*
+"xraziobo.CDATOPE"
+""
+"<="
+"?w_c_adata"
+"AND"
+""
+*
+"xraziobo.CONNESCLI"
+""
+">="
+"?w_daCodCli"
+"AND"
+""
+*
+"xraziobo.CONNESCLI"
+""
+"<="
+"?w_aCodCli"
+"AND"
+""
+*
+ 1
+"Data Operazione"
+"xraziobo.DATAOPE"
+"Ascending"
+*
+ 0
+ 0
+ 4
+"w_cdadata"
+"Data Operazione"
+"Char"
+"8"
+"0"
+"Remove"
+*
+"w_c_adata"
+"Data Operazione"
+"Char"
+"8"
+"0"
+"Remove"
+*
+"w_daCodCli"
+"Cliente Occasionale"
+"Char"
+"16"
+"0"
+"Remove"
+*
+"w_aCodCli"
+"Cliente Occasionale"
+"Char"
+"16"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.t.
+ 7
+.f.
+""
+.f.
+*

@@ -1,0 +1,581 @@
+﻿* --- Resource Vers. 0.9
+db_opextrbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='DB OPEXTRBO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='db_opextrbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'db_opextrbo.colleg
+'db_opextrbo.anno
+'db_opextrbo.idbase
+'db_opextrbo.dataope
+'db_opextrbo.coint
+'db_opextrbo.note
+'db_opextrbo.numprog1
+'db_opextrbo.rifimp
+'db_opextrbo.idfile
+'db_opextrbo.progopex
+'db_opextrbo.saldo
+'db_opextrbo.quantita
+'db_opextrbo.valuta
+'db_opextrbo.uniquer
+'db_opextrbo.codinter
+'db_opextrbo.oldinter
+'db_opextrbo.datamodi
+'db_opextrbo.inviato
+'db_opextrbo.datainvio
+'db_opextrbo.annulla
+'db_opextrbo.dataannu
+'db_opextrbo.oldunique
+'db_opextrbo.dataolduni
+'db_opextrbo.idesito
+'db_opextrbo.connesoper
+'db_opextrbo.rapporto
+'db_opextrbo.invsaldo
+'db_opextrbo.dtsaldo
+'db_opextrbo.cfestero
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'db_opextrbo.anno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNO
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.annulla
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNULLA
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.cfestero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFESTERO
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.coint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Delega Conto Terzi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COINT
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.colleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLLEG
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.connesoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESOPER
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.dataannu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAANNU
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.datainvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINVIO
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.datamodi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAMODI
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.dataolduni
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOLDUNI
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.dtsaldo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DTSALDO
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Chiave Riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.idesito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDESITO
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.idfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID FIle Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDFILE
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.inviato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INVIATO
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.invsaldo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INVSALDO
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.note
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Note
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOTE
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.numprog1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento a file per agenzia entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG1
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.oldinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDINTER
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.oldunique
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDUNIQUE
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.progopex
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGOPEX
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.quantita
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='QUANTITA
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.rifimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Riferimento Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIFIMP
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.saldo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SALDO
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.uniquer
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUER
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+'db_opextrbo.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='db_opextrbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'db_opextrbo.anno
+[]
+'db_opextrbo.annulla
+[]
+'db_opextrbo.cfestero
+[]
+'db_opextrbo.codinter
+[]
+'db_opextrbo.coint
+[]
+'db_opextrbo.colleg
+[]
+'db_opextrbo.connesoper
+[]
+'db_opextrbo.dataannu
+[]
+'db_opextrbo.datainvio
+[]
+'db_opextrbo.datamodi
+[]
+'db_opextrbo.dataolduni
+[]
+'db_opextrbo.dataope
+[]
+'db_opextrbo.dtsaldo
+[]
+'db_opextrbo.idbase
+[]
+'db_opextrbo.idesito
+[]
+'db_opextrbo.idfile
+[]
+'db_opextrbo.inviato
+[]
+'db_opextrbo.invsaldo
+[]
+'db_opextrbo.note
+[]
+'db_opextrbo.numprog1
+[]
+'db_opextrbo.oldinter
+[]
+'db_opextrbo.oldunique
+[]
+'db_opextrbo.progopex
+[]
+'db_opextrbo.quantita
+[]
+'db_opextrbo.rapporto
+[]
+'db_opextrbo.rifimp
+[]
+'db_opextrbo.saldo
+[]
+'db_opextrbo.uniquer
+[]
+'db_opextrbo.valuta
+[]
+}
+*--*

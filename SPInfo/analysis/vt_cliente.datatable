@@ -1,0 +1,961 @@
+﻿* --- Resource Vers. 0.9
+vt_cliente<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='CLIENTE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='vt_cliente
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'vt_cliente.cod_cliente
+'vt_cliente.cod_identificacion
+'vt_cliente.cod_ciudad
+'vt_cliente.cve_estado
+'vt_cliente.cod_pais
+'vt_cliente.nom_cliente
+'vt_cliente.pri_apellido
+'vt_cliente.seg_apellido
+'vt_cliente.num_operaciones
+'vt_cliente.lada
+'vt_cliente.telefono
+'vt_cliente.domicilio
+'vt_cliente.num_domicilio
+'vt_cliente.colonia
+'vt_cliente.seguro_social
+'vt_cliente.mon_acumulado
+'vt_cliente.fec_alta
+'vt_cliente.fec_baja
+'vt_cliente.fec_ult_tra
+'vt_cliente.status
+'vt_cliente.cod_sospechoso
+'vt_cliente.cod_postal
+'vt_cliente.fec_cambio
+'vt_cliente.fec_nacimiento
+'vt_cliente.cve_cardex
+'vt_cliente.cve_identificacion
+'vt_cliente.ins_expide
+'vt_cliente.dom_identificacion
+'vt_cliente.horario
+'vt_cliente.lada_ofna
+'vt_cliente.tel_ofna
+'vt_cliente.calificacion_chq
+'vt_cliente.num_cheques
+'vt_cliente.profesion
+'vt_cliente.num_tarjeta
+'vt_cliente.fec_exp_id
+'vt_cliente.depura
+'vt_cliente.id_usuario_dep
+'vt_cliente.fec_dep
+'vt_cliente.st_bloqueo
+'vt_cliente.rfc
+'vt_cliente.email
+'vt_cliente.genero
+'vt_cliente.cod_paisnacim
+'vt_cliente.cpf
+'vt_cliente.ofac
+'vt_cliente.pdr
+'vt_cliente.pdrcausas
+'vt_cliente.cod_pais_agt
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'vt_cliente.calificacion_chq
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='calificacion_chq
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.cod_ciudad
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_ciudad
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.cod_cliente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_cliente
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.cod_identificacion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_identificacion
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.cod_pais
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_pais
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.cod_pais_agt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_pais_agt
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.cod_paisnacim
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_paisnacim
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.cod_postal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_postal
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.cod_sospechoso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_sospechoso
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.colonia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='colonia
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.cpf
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cpf
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.cve_cardex
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cve_cardex
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.cve_estado
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cve_estado
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.cve_identificacion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cve_identificacion
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.depura
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='depura
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.dom_identificacion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='dom_identificacion
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='domicilio
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.email
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='email
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.fec_alta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_alta
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.fec_baja
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_baja
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.fec_cambio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_cambio
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.fec_dep
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_dep
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.fec_exp_id
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_exp_id
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.fec_nacimiento
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_nacimiento
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.fec_ult_tra
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_ult_tra
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.genero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='genero
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.horario
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='horario
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.id_usuario_dep
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_usuario_dep
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.ins_expide
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ins_expide
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.lada
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='lada
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.lada_ofna
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='lada_ofna
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.mon_acumulado
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='mon_acumulado
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.nom_cliente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_cliente
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.num_cheques
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='num_cheques
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.num_domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='num_domicilio
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.num_operaciones
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='num_operaciones
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.num_tarjeta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='num_tarjeta
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.ofac
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ofac
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.pdr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='pdr
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.pdrcausas
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='pdrcausas
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.pri_apellido
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='pri_apellido
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.profesion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='profesion
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.rfc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='rfc
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.seg_apellido
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='seg_apellido
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.seguro_social
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='seguro_social
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.st_bloqueo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='st_bloqueo
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.status
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='status
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.tel_ofna
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tel_ofna
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+'vt_cliente.telefono
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='telefono
+state=3
+table_name='vt_cliente
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'vt_cliente.calificacion_chq
+[]
+'vt_cliente.cod_ciudad
+[]
+'vt_cliente.cod_cliente
+[]
+'vt_cliente.cod_identificacion
+[]
+'vt_cliente.cod_pais
+[]
+'vt_cliente.cod_pais_agt
+[]
+'vt_cliente.cod_paisnacim
+[]
+'vt_cliente.cod_postal
+[]
+'vt_cliente.cod_sospechoso
+[]
+'vt_cliente.colonia
+[]
+'vt_cliente.cpf
+[]
+'vt_cliente.cve_cardex
+[]
+'vt_cliente.cve_estado
+[]
+'vt_cliente.cve_identificacion
+[]
+'vt_cliente.depura
+[]
+'vt_cliente.dom_identificacion
+[]
+'vt_cliente.domicilio
+[]
+'vt_cliente.email
+[]
+'vt_cliente.fec_alta
+[]
+'vt_cliente.fec_baja
+[]
+'vt_cliente.fec_cambio
+[]
+'vt_cliente.fec_dep
+[]
+'vt_cliente.fec_exp_id
+[]
+'vt_cliente.fec_nacimiento
+[]
+'vt_cliente.fec_ult_tra
+[]
+'vt_cliente.genero
+[]
+'vt_cliente.horario
+[]
+'vt_cliente.id_usuario_dep
+[]
+'vt_cliente.ins_expide
+[]
+'vt_cliente.lada
+[]
+'vt_cliente.lada_ofna
+[]
+'vt_cliente.mon_acumulado
+[]
+'vt_cliente.nom_cliente
+[]
+'vt_cliente.num_cheques
+[]
+'vt_cliente.num_domicilio
+[]
+'vt_cliente.num_operaciones
+[]
+'vt_cliente.num_tarjeta
+[]
+'vt_cliente.ofac
+[]
+'vt_cliente.pdr
+[]
+'vt_cliente.pdrcausas
+[]
+'vt_cliente.pri_apellido
+[]
+'vt_cliente.profesion
+[]
+'vt_cliente.rfc
+[]
+'vt_cliente.seg_apellido
+[]
+'vt_cliente.seguro_social
+[]
+'vt_cliente.st_bloqueo
+[]
+'vt_cliente.status
+[]
+'vt_cliente.tel_ofna
+[]
+'vt_cliente.telefono
+[]
+}
+*--*

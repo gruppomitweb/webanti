@@ -1,0 +1,42 @@
+﻿* --- Resource Vers. 0.9
+arfn_anomes_opex
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:27
+description='Controlla dati operazione extraconto
+file_modified_on=#2023-01-31 09:46:33
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:50
+module_name='
+name='arfn_anomes_opex
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.codfisc
+]
+'Routines
+[
+'arfn_anomes_opex
+'arfn_anompers
+]
+'Tables
+[
+'opextrbo<table>
+'intestit<table>
+'personbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

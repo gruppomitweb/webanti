@@ -1,0 +1,55 @@
+﻿* --- Resource Vers. 0.9
+arrt_listarapporti
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Crea Lista rapporti
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:22
+module_name='
+name='arrt_listarapporti
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_listarapd.rapporto
+'tmp_listarapd.dataini
+'tmp_listarapd.datafine
+'tmp_listarapd.descrap
+'tmp_listarapd.tiporap
+'tmp_listarapd.flaglire
+'tmp_listarapp.rapporto
+'tmp_listarapp.dataini
+'tmp_listarapp.datafine
+'tmp_listarapp.descrap
+'tmp_listarapp.tiporap
+'tmp_listarapp.flaglire
+]
+'Hyperlinks
+[
+'arpg_pers_rapporti
+'arpg_pers_rapporti_prov
+]
+'Tables
+[
+'intestbo<table>
+'anarapbo<table>
+'xntestbo<table>
+'xnarapbo<table>
+'tmp_listarapd<table>
+'tmp_listarapp<table>
+]
+}
+I
+*--*
+￼[]
+*--*

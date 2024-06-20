@@ -1,0 +1,870 @@
+@import url("../fonts/Roboto.css");
+
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+
+.Tabstrip.tabWrapper{
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.Tabstrip.tabWrapper .tabstripContainer{
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.Tabstrip.tabWrapper .tabBack,
+.Tabstrip.tabWrapper .tabNext {
+  display: none;
+  height: 34px;
+  -ms-flex-preferred-size: 34px;
+  flex-basis: 34px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  z-index:5;
+}
+
+.Tabstrip.tabWrapper .tabBack.active,
+.Tabstrip.tabWrapper .tabNext.active {
+  background-color: transparent;
+}
+
+.hoverable .Tabstrip.tabWrapper .tabBack:hover,
+.hoverable .Tabstrip.tabWrapper .tabNext:hover{
+  background-color: transparent;
+}
+
+.hoverable .Tabstrip.tabWrapper .tabBack.active:hover,
+.hoverable .Tabstrip.tabWrapper .tabNext.active:hover{
+  background-color: transparent;
+}
+
+.Tabstrip.tabWrapper .tabBack::after,
+.Tabstrip.tabWrapper .tabNext::after {
+  line-height: 34px;
+  width: 34px;
+  display: inline-block;
+  text-align: center;
+}
+
+.Tabstrip.tabWrapper .tabBack {
+}
+
+.Tabstrip.tabWrapper .tabBack.active::after {
+  content: "\F144";
+  color: rgba(0,0,0,.93);
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.Tabstrip.tabWrapper .tabBack::after {
+  content: "\0";
+  color: rgba(0,0,0,.93);
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 0px;
+}
+
+.Tabstrip.tabWrapper .tabBack.active {
+}
+
+.Tabstrip.tabWrapper .tabNext{
+}
+
+.Tabstrip.tabWrapper .tabNext.active::after {
+  content: "\F145";
+  color: rgba(0,0,0,.93);
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.Tabstrip.tabWrapper .tabNext.active{
+}
+
+.Tabstrip.tabWrapper .tabNext::after {
+  content: "\0";
+  color: rgba(0,0,0,.93);
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 0px;
+}
+
+.Tabstrip.tabWrapper .tabs_mask{
+  -webkit-box-flex: 100;
+  -ms-flex-positive: 100;
+  flex-grow: 100;  
+  overflow: hidden;
+  height: 30px;
+  position: relative;
+}
+
+.mobile .Tabstrip.tabWrapper .tabs_mask{
+  overflow: auto;
+}
+
+.mobile .Tabstrip .tabs_mask::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.Tabstrip.tabWrapper .tabs_row{
+  height: 30px;
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 20px; 
+}
+
+/*
+.Tabstrip.tabWrapper .tab_item:last-child{
+  margin-right: 34px;
+} 
+*/
+
+.Tabstrip.tabWrapper .tabs_row,
+.Tabstrip.tabWrapper .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Tabstrip.tabWrapper .tab_content{
+  border-width: 0 0 2px 0;
+  border-color: transparent;
+  border-style: solid;
+  transition: all .3 ease;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* height: 30px; */
+  /* padding: 5px 10px 5px 10px; */
+}
+
+.hoverable .Tabstrip.tabWrapper .tab_item:hover .tab_content,
+.Tabstrip.tabWrapper .tab_item:focus .tab_content,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover.selected .tab_content{
+  background-color: rgba(0, 0, 0, .03);    
+}
+
+.Tabstrip.tabWrapper .tab_item.disabled .tab_content,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover.disabled .tab_content {
+  background-color: #E3E3E3;
+}
+
+.Tabstrip.tabWrapper .tab_item.selected .tab_content,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover.selected .tab_content{
+  background-color: #f3f3f3;
+  border-width: 0 0 2px 0;
+  border-color: #357FC4;
+  border-style: solid;
+}
+
+.Tabstrip.tabWrapper .tab_border{
+  height: 30px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+  background-position: center center;
+}
+
+.Tabstrip.tabWrapper .tab_sep{
+  height: 30px;
+  width: 0px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.Tabstrip.tabWrapper .tab_item.selected .tab_sep{
+}
+
+.Tabstrip.tabWrapper .tab_item a.tab_close:before{
+  font-family: icons8_win10;
+  font-size: 12px;
+  content: "\F048";
+  color: rgba(0,0,0,0.87);
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+}
+
+.Tabstrip.tabWrapper .tab_modallayer:before{
+  font-family: icons8_win10;
+  font-size: 12px;
+  content: "\E956";
+  color: rgba(0,0,0,0.87);
+  padding: 9px 10px;
+  display: inline-block;
+}
+
+.Tabstrip.tabWrapper .tab_center_text{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.Tabstrip.tabWrapper .tab_text{
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+}
+
+.Tabstrip.tabWrapper .tab_span,
+.Tabstrip.tabWrapper .tab_item.selected .tab_span {
+  /* height: 30px; */
+  white-space: nowrap;
+}
+
+.Tabstrip.tabWrapper .tab_span a,
+.Tabstrip.tabWrapper .tab_span a:link,
+.Tabstrip.tabWrapper .tab_span a:active,
+.hoverable .Tabstrip.tabWrapper .tab_span a:hover,
+.Tabstrip.tabWrapper .tab_span a:visited{
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: nowrap;
+  color: rgba(0,0,0,.93);
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 600;
+}
+.hoverable .Tabstrip.tabWrapper .tab_item:hover .tab_span a,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover .tab_span a:link,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover .tab_span a:visited,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover .tab_span a:active,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover .tab_span a:hover{
+}
+
+.Tabstrip.tabWrapper .tab_item.disabled .tab_span a,
+.Tabstrip.tabWrapper .tab_item.disabled .tab_span a:link,
+.Tabstrip.tabWrapper .tab_item.disabled .tab_span a:active,
+.hoverable .Tabstrip.tabWrapper .tab_item.disabled .tab_span a:hover,
+.Tabstrip.tabWrapper .tab_item.disabled .tab_span a:visited{
+  cursor: default;
+  pointer-events: none;
+  color: #ADADAD;
+  text-shadow: 1px 1px #eee;
+}
+
+.Tabstrip.tabWrapper .tab_item.selected .tab_span a,
+.Tabstrip.tabWrapper .tab_item.selected .tab_span a:link,
+.Tabstrip.tabWrapper .tab_item.selected .tab_span a:active,
+.hoverable .Tabstrip.tabWrapper .tab_item.selected .tab_span a:hover,
+.Tabstrip.tabWrapper .tab_item.selected .tab_span a:visited{
+  font-size: 12px;
+}
+
+.Tabstrip.tabWrapper .tab_expcoll_box{
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+.Tabstrip.tabWrapper .tab_expcoll_img{
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  background-repeat: no-repeat;
+}
+
+.Tabstrip.tabWrapper .tab_expcoll_img.tab_exp_img::after{
+  content: "\F2C4";
+  color: rgba(0,0,0,.15);
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 12px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hoverable .Tabstrip.tabWrapper .tab_expcoll_img.tab_exp_img:hover::after{
+
+}
+
+.Tabstrip.tabWrapper .tab_expcoll_img.tab_coll_img::after{
+  content: "\F2C5";
+  color: rgba(0,0,0,.87);
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 12px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hoverable .Tabstrip.tabWrapper .tab_expcoll_img.tab_coll_img:hover::after{
+
+}
+
+/*Immagini di default per offline*/
+#_offline_manifest_{
+background-image: url(../images/defaults/tab_strip_button_left.gif);
+background-image: url(../images/defaults/tab_strip_button_left_dis.gif);
+background-image: url(../images/defaults/tab_strip_button_right.gif);
+background-image: url(../images/defaults/tab_strip_button_right_dis.gif);
+background-image: url(../images/defaults/tab_pagebtnleft.gif);
+background-image: url(../images/defaults/tab_pagebtnright.gif);
+background-image: url(../images/defaults/tab_pagebtnleftevid.gif);
+background-image: url(../images/defaults/tab_pagebtncenterevid.gif);
+background-image: url(../images/defaults/tab_pagebtnrightevid.gif);
+background-image: url(../images/defaults/tab_pagebtncenter.gif);
+background-image: url(../images/defaults/tab_expand.gif);
+background-image: url(../images/defaults/tab_collapse.gif);
+}
+
+
+.ZoomTabstrip.tabWrapper{
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.ZoomTabstrip.tabWrapper .tabstripContainer{
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.ZoomTabstrip.tabWrapper .tabBack,
+.ZoomTabstrip.tabWrapper .tabNext {
+  display: none;
+  height: 0px;
+  -ms-flex-preferred-size: 0px;
+  flex-basis: 0px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  z-index:5;
+}
+
+.ZoomTabstrip.tabWrapper .tabBack.active,
+.ZoomTabstrip.tabWrapper .tabNext.active {
+  background-color: transparent;
+}
+
+.hoverable .ZoomTabstrip.tabWrapper .tabBack:hover,
+.hoverable .ZoomTabstrip.tabWrapper .tabNext:hover{
+  background-color: transparent;
+}
+
+.hoverable .ZoomTabstrip.tabWrapper .tabBack.active:hover,
+.hoverable .ZoomTabstrip.tabWrapper .tabNext.active:hover{
+  background-color: transparent;
+}
+
+.ZoomTabstrip.tabWrapper .tabBack::after,
+.ZoomTabstrip.tabWrapper .tabNext::after {
+  line-height: 0px;
+  width: 0px;
+  display: inline-block;
+  text-align: center;
+}
+
+.ZoomTabstrip.tabWrapper .tabBack {
+}
+
+.ZoomTabstrip.tabWrapper .tabBack.active::after {
+}
+
+.ZoomTabstrip.tabWrapper .tabBack::after {
+}
+
+.ZoomTabstrip.tabWrapper .tabBack.active {
+}
+
+.ZoomTabstrip.tabWrapper .tabNext{
+}
+
+.ZoomTabstrip.tabWrapper .tabNext.active::after {
+}
+
+.ZoomTabstrip.tabWrapper .tabNext.active{
+}
+
+.ZoomTabstrip.tabWrapper .tabNext::after {
+}
+
+.ZoomTabstrip.tabWrapper .tabs_mask{
+  -webkit-box-flex: 100;
+  -ms-flex-positive: 100;
+  flex-grow: 100;  
+  overflow: hidden;
+  height: 40px;
+  position: relative;
+}
+
+.mobile .ZoomTabstrip.tabWrapper .tabs_mask{
+  overflow: auto;
+}
+
+.mobile .ZoomTabstrip .tabs_mask::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.ZoomTabstrip.tabWrapper .tabs_row{
+  height: 40px;
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 0px; 
+}
+
+/*
+.ZoomTabstrip.tabWrapper .tab_item:last-child{
+  margin-right: 0px;
+} 
+*/
+
+.ZoomTabstrip.tabWrapper .tabs_row,
+.ZoomTabstrip.tabWrapper .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ZoomTabstrip.tabWrapper .tab_content{
+  background-color: transparent;
+  border-width: 0 0 2px 0;
+  border-color: transparent;
+  border-style: solid;
+  transition: all .3 ease;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* height: 40px; */
+  /* padding: 10px; */
+}
+
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover .tab_content,
+.ZoomTabstrip.tabWrapper .tab_item:focus .tab_content,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover.selected .tab_content{
+  background-color: rgba(0, 0, 0, .03);    
+}
+
+.ZoomTabstrip.tabWrapper .tab_item.disabled .tab_content,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover.disabled .tab_content {
+  background-color: #E3E3E3;
+}
+
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_content,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover.selected .tab_content{
+  background-color: #f3f3f3;
+  border-width: 0px 0px 2px 0px;
+  border-color: #357FC4;
+  border-style: solid;
+}
+
+.ZoomTabstrip.tabWrapper .tab_border{
+  height: 40px;
+  display: inline-block;
+  vertical-align: bottom;
+  background-position: center center;
+}
+
+.ZoomTabstrip.tabWrapper .tab_sep{
+  height: 40px;
+  width: 0px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_sep{
+}
+
+.ZoomTabstrip.tabWrapper .tab_item a.tab_close:before{
+  content: ;
+  display: inline-block;
+}
+
+.ZoomTabstrip.tabWrapper .tab_modallayer:before{
+  content: ;
+  display: inline-block;
+}
+
+.ZoomTabstrip.tabWrapper .tab_center_text{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.ZoomTabstrip.tabWrapper .tab_text{
+  display: inline-block;
+  padding: 10px;
+}
+
+.ZoomTabstrip.tabWrapper .tab_span,
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_span {
+  /* height: 40px; */
+  white-space: nowrap;
+}
+
+.ZoomTabstrip.tabWrapper .tab_span a,
+.ZoomTabstrip.tabWrapper .tab_span a:link,
+.ZoomTabstrip.tabWrapper .tab_span a:active,
+.hoverable .ZoomTabstrip.tabWrapper .tab_span a:hover,
+.ZoomTabstrip.tabWrapper .tab_span a:visited{
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+  color: rgba(0,0,0,.93);
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 600;
+}
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover .tab_span a,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover .tab_span a:link,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover .tab_span a:visited,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover .tab_span a:active,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover .tab_span a:hover{
+}
+
+.ZoomTabstrip.tabWrapper .tab_item.disabled .tab_span a,
+.ZoomTabstrip.tabWrapper .tab_item.disabled .tab_span a:link,
+.ZoomTabstrip.tabWrapper .tab_item.disabled .tab_span a:active,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item.disabled .tab_span a:hover,
+.ZoomTabstrip.tabWrapper .tab_item.disabled .tab_span a:visited{
+  cursor: default;
+  pointer-events: none;
+  color: #ADADAD;
+  text-shadow: 1px 1px #eee;
+}
+
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_span a,
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_span a:link,
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_span a:active,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item.selected .tab_span a:hover,
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_span a:visited{
+  font-size: 13px;
+}
+
+.ZoomTabstrip.tabWrapper .tab_expcoll_box{
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+.ZoomTabstrip.tabWrapper .tab_expcoll_img{
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.ZoomTabstrip.tabWrapper .tab_expcoll_img.tab_exp_img::after{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hoverable .ZoomTabstrip.tabWrapper .tab_expcoll_img.tab_exp_img:hover::after{
+
+}
+
+.ZoomTabstrip.tabWrapper .tab_expcoll_img.tab_coll_img::after{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hoverable .ZoomTabstrip.tabWrapper .tab_expcoll_img.tab_coll_img:hover::after{
+
+}
+
+/*Immagini di default per offline*/
+#_offline_manifest_{
+background-image: url(../images/defaults/tab_strip_button_left.gif);
+background-image: url(../images/defaults/tab_strip_button_left_dis.gif);
+background-image: url(../images/defaults/tab_strip_button_right.gif);
+background-image: url(../images/defaults/tab_strip_button_right_dis.gif);
+background-image: url(../images/defaults/tab_pagebtnleft.gif);
+background-image: url(../images/defaults/tab_pagebtnright.gif);
+background-image: url(../images/defaults/tab_pagebtnleftevid.gif);
+background-image: url(../images/defaults/tab_pagebtncenterevid.gif);
+background-image: url(../images/defaults/tab_pagebtnrightevid.gif);
+background-image: url(../images/defaults/tab_pagebtncenter.gif);
+background-image: url(../images/defaults/tab_expand.gif);
+background-image: url(../images/defaults/tab_collapse.gif);
+}
+
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+
+.WizardTabstrip.wizardWrapper {
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.WizardTabstrip.wizardWrapper .tabstripContainer{
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.WizardTabstrip.wizardWrapper .tabBack,
+.WizardTabstrip.wizardWrapper .tabNext {
+  display: none;
+  height: 40px;
+  -ms-flex-preferred-size: 40px;
+  flex-basis: 40px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index:5;
+  cursor: pointer;
+}
+
+.WizardTabstrip.wizardWrapper .tabBack.active,
+.WizardTabstrip.wizardWrapper .tabNext.active {
+  background-color: transparent;
+}
+
+.hoverable .WizardTabstrip.wizardWrapper .tabBack:hover,
+.hoverable .WizardTabstrip.wizardWrapper .tabNext:hover{
+  background-color: transparent;
+}
+
+.hoverable .WizardTabstrip.wizardWrapper .tabBack.active:hover,
+.hoverable .WizardTabstrip.wizardWrapper .tabNext.active:hover{
+  background-color: transparent;
+}
+
+.WizardTabstrip.wizardWrapper .tabBack{
+}
+
+.WizardTabstrip.wizardWrapper .tabBack::after,
+.WizardTabstrip.wizardWrapper .tabNext::after {
+  line-height: 40px;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+}
+
+.WizardTabstrip.wizardWrapper .tabBack::after {
+  content: "\0";
+  font-family: icons8_win10;
+  font-size: 0px;
+}
+
+.WizardTabstrip.wizardWrapper .tabBack.active{
+}
+
+.WizardTabstrip.wizardWrapper .tabBack.active::after {
+  content: "\F144";
+  color: rgba(0,0,0,.93);
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.WizardTabstrip.wizardWrapper .tabNext{
+}
+.WizardTabstrip.wizardWrapper .tabNext.active::after {
+  content: "\F145";
+  color: rgba(0,0,0,.93);
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 20px;
+}
+.WizardTabstrip.wizardWrapper .tabNext.active{
+}
+
+.WizardTabstrip.wizardWrapper .tabNext::after {
+  content: "\0";
+  font-family: icons8_win10;
+  font-size: 0px;
+}
+
+.WizardTabstrip.wizardWrapper .tabs_mask{
+  -webkit-box-flex: 100;
+  -ms-flex-positive: 100;
+  flex-grow: 100;  
+  overflow: hidden;
+  height: 40px;
+  position: relative;
+}
+
+.mobile .WizardTabstrip.tabWrapper .tabs_mask{
+  overflow: auto;
+}
+
+.mobile .WizardTabstrip .tabs_mask::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.WizardTabstrip.wizardWrapper .tabs_row{
+  position: absolute;
+  height: 40px;
+  position: absolute;
+  padding-left: 20px;
+}
+
+/*
+.WizardTabstrip.wizardWrapper .tab_item:last-child{
+  margin-right: 40px;
+} 
+*/
+
+.WizardTabstrip.wizardWrapper .tabs_row,
+.WizardTabstrip.wizardWrapper .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.WizardTabstrip.wizardWrapper .tab_content,
+.hoverable .WizardTabstrip.wizardWrapper .tab_item:hover .tab_content{
+  background-color: transparent;
+  border-width: 0;
+  border-color: #D6D6D6;
+  border-style: solid;
+  transition: all .3 ease;
+  box-sizing: border-box;
+  cursor: pointer;
+  /* height: 40px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* padding: 10px; */
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_content,
+.hoverable .WizardTabstrip.wizardWrapper .tab_item.actived:hover .tab_content {
+  border-color: #C3C3C3;
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.selected .tab_content,
+.hoverable .WizardTabstrip.wizardWrapper .tab_item.selected:hover .tab_content {
+  border-color: rgba(90, 148,245, .93);
+}
+
+.WizardTabstrip.wizardWrapper .tab_border{
+  height: 40px;
+  width: 0px;
+  display:inline-block;
+  background: transparent no-repeat center center;
+}
+
+.WizardTabstrip.wizardWrapper .tab_border.tab_border_right{
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_border.tab_border_right{
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_border.tab_border_left {
+}
+
+.WizardTabstrip.wizardWrapper .tab_sep{
+  height: 40px;
+  width: 0px;
+  display:inline-block;
+  vertical-align:bottom;
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_sep {
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_sep_between_active_deactive {
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_content{
+}
+.WizardTabstrip.wizardWrapper .tab_center_text{
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: normal;
+}
+
+.WizardTabstrip.wizardWrapper .tab_span {
+  height: 40px;
+  white-space: nowrap;
+}
+
+.WizardTabstrip.wizardWrapper .tab_span a,
+.WizardTabstrip.wizardWrapper .tab_span a:link,
+.WizardTabstrip.wizardWrapper .tab_span a:active,
+.hoverable .WizardTabstrip.wizardWrapper .tab_span a:hover,
+.WizardTabstrip.wizardWrapper .tab_span a:visited{
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #D6D6D6;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.WizardTabstrip .wizardWrapper .tab_item.actived .tab_span a,
+.WizardTabstrip .wizardWrapper .tab_item.actived .tab_span a:link,
+.WizardTabstrip .wizardWrapper .tab_item.actived .tab_span a:visited,
+.WizardTabstrip .wizardWrapper .tab_item.actived .tab_span a:active,
+.hoverable .WizardTabstrip .wizardWrapper .tab_item.actived .tab_span a:hover {
+  color: #C3C3C3;
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.selected .tab_span a,
+.WizardTabstrip.wizardWrapper .tab_item.selected .tab_span a:link,
+.WizardTabstrip.wizardWrapper .tab_item.selected .tab_span a:active,
+.hoverable .WizardTabstrip.wizardWrapper .tab_item.selected .tab_span a:hover,
+.WizardTabstrip.wizardWrapper .tab_item.selected .tab_span a:visited {
+  color: rgba(0,0,0,.93);
+}
+.WizardTabstrip.wizardWrapper .tab_item .tab_span a > span {
+  vertical-align: top;
+  display: inline-block;
+}
+.WizardTabstrip.wizardWrapper .tab_wizard_number {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: #E8E8E8;
+  margin: 5px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-weight: 400;
+}
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_wizard_number {
+  background-color: #C3C3C3;
+}
+.WizardTabstrip.wizardWrapper .tab_item.selected .tab_wizard_number {
+  background-color: rgba(90, 148,245, .93);
+}
+.WizardTabstrip.wizardWrapper .tab_text {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}

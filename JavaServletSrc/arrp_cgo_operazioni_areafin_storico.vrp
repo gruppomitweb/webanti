@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter Report (http://www.zucchetti.it) -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_cgo_operazioni_areafin_storico||version||4.1||title||Storico Operazioni Completate (CGO Area Finanza)||query||qbe_cgo_operazioni_areafin_storico||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-03-16||date_rev||2013-04-19||form_class|| ||grid_dx||8||grid_dy||7||grid_show||1||grid_use||1||snaplines_show||1||language|| ||merge||false||modcnt||9||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| |||type||HeaderBar_top||name||bar_PageHeader_start||y||91||x||0||uid||YKTUBFITPL||sequence||16||bb_sequence||2|||type||HeaderBar_bottom||name||bar_PageHeader_end||y||113||x||0||uid||TSRVRCCJZO||sequence||17||bb_sequence||3|||type||Group_top||name||group0||y||92||uid||QHHTBQKVYQ||sequence||22||bb_sequence||34||comment|| ||exp||True||start_each_on_page||false||as_page_header||false||print_group_footer||false||as_page_footer||false||reset_page_number||false||numpage_expr|| ||printblock||false||reprint_header||false||reprint_footer||false||rows||0||output_name|| ||display_expr|| ||ingroup_expr|| ||outgroup_expr|| |||type||Group_down||name||group0||y||112||uid||HWHSIAVBXL||sequence||21||bb_sequence||33||comment|| ||exp||True||start_each_on_page||false||as_page_header||false||print_group_footer||false||as_page_footer||false||reset_page_number||false||numpage_expr|| ||printblock||false||reprint_header||false||reprint_footer||false||rows||0||output_name|| ||display_expr|| ||ingroup_expr|| ||outgroup_expr|| |||type||Box||name||Box0||x||8||y||7||h||28||w||1064||uid||ZITLIRMTGS||sequence||1||bg_color||#FFFFFF||bb_bg_colour||false||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label1||x||16||y||12||h||19||w||1048||uid||XRXMHDJMYH||sequence||2||value||&#39;AZIENDA: &#39;+ descazi||text_type||expression||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||10||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box2||x||8||y||42||h||21||w||272||uid||VDCHLZLZDD||sequence||3||bg_color||#FFFFFF||bb_bg_colour||false||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label3||x||283||y||42||h||16||w||79||uid||ZJTSBXIMUU||sequence||4||value||Da Data:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||QHHTBQKVYQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Expr||name||expr4||x||368||y||42||h||16||w||151||uid||WSZKDWTZOS||sequence||5||exp||DaData||comment|| ||type_exp||date||len||8||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||QHHTBQKVYQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr5||x||591||y||42||h||16||w||140||uid||IAWJCGGHPE||sequence||6||exp||A_Data||comment|| ||type_exp||date||len||8||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||QHHTBQKVYQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label6||x||528||y||42||h||16||w||61||uid||JXGEXLHZCD||sequence||7||value||A Data:||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||QHHTBQKVYQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label7||x||12||y||44||h||16||w||264||uid||XDNOGVDEAZ||sequence||8||value||STORICO OPERAZIONI COMPLETATE||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||QHHTBQKVYQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box8||x||8||y||70||h||1||w||1064||uid||KERZCSTDJS||sequence||9||bg_color||#FFFFFF||bb_bg_colour||false||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label9||x||168||y||72||h||16||w||104||uid||RNBCAVHKDO||sequence||10||value||ID Biglietto||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label10||x||352||y||72||h||16||w||72||uid||CILFFWXBPD||sequence||11||value||Causale||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label11||x||952||y||72||h||16||w||90||uid||NULWRUXZDV||sequence||12||value||Importo||text_type||constant||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||QHHTBQKVYQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label12||x||8||y||72||h||16||w||55||uid||NGGSVSIRWX||sequence||13||value||Data Reg.||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||QHHTBQKVYQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label13||x||88||y||72||h||16||w||72||uid||YOBESNQXDV||sequence||14||value||Data Oper.||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box14||x||8||y||89||h||1||w||1064||uid||NOLAAUXLPP||sequence||15||bg_color||#FFFFFF||bb_bg_colour||false||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Expr||name||expr15||x||8||y||95||h||16||w||72||uid||PMYTCRNUSP||sequence||23||exp||c_CGODATFINCOM||comment|| ||type_exp||date||len||8||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr16||x||88||y||95||h||16||w||72||uid||VZTKOXIDVV||sequence||24||exp||c_DATAOPE||comment|| ||type_exp||date||len||8||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr17||x||168||y||95||h||16||w||176||uid||GVQUXEBLAQ||sequence||25||exp||c_CAIDBIGLIETTO||comment|| ||type_exp||character||len||28||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr18||x||400||y||95||h||16||w||544||uid||WQRZROQFFB||sequence||26||exp||c_CADESCRI||comment|| ||type_exp||character||len||90||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr19||x||952||y||95||h||16||w||90||uid||NIBAWXOPXQ||sequence||27||exp||c_TOTLIRE||comment|| ||type_exp||numeric||len||15||dec||2||picture||&quot;999,999,999,999.99&quot;||output_name|| ||hidecond|| ||stretch||false||align||right||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr20||x||1048||y||95||h||16||w||16||uid||JPAWIFGUXQ||sequence||28||exp||c_SEGNO||comment|| ||type_exp||character||len||1||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr21||x||352||y||95||h||16||w||40||uid||TPOQVKINIW||sequence||29||exp||c_CACODICE||comment|| ||type_exp||numeric||len||5||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Box||name||Box22||x||8||y||115||h||1||w||1064||uid||NNXHUCACSV||sequence||18||bg_color||#FFFFFF||bb_bg_colour||false||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label23||x||9||y||117||h||18||w||143||uid||ZXLDWHFBBN||sequence||19||value||&#39;Data: &#39; +arfn_fdate(Date())||text_type||expression||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid||DQEXXFKHQL||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Label||name||label24||x||864||y||117||h||18||w||208||uid||CIUHSROEZP||sequence||20||value||&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))||text_type||expression||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid||DQEXXFKHQL||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||-->
+
+<REPORT NAME="arrp_cgo_operazioni_areafin_storico" TITLE="Storico Operazioni Completate (CGO Area Finanza)" QUERY="qbe_cgo_operazioni_areafin_storico" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.0" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES="">
+    <FIELD NAME="qbe_cgo_operazioni_areafin_storico.DATAOPE" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_cgo_operazioni_areafin_storico.CACODICE" TYPE="N" LEN="5" DEC="0" />
+    <FIELD NAME="qbe_cgo_operazioni_areafin_storico.CADESCRI" TYPE="C" LEN="90" DEC="0" />
+    <FIELD NAME="qbe_cgo_operazioni_areafin_storico.SNAINUMOPE" TYPE="C" LEN="15" DEC="0" />
+    <FIELD NAME="qbe_cgo_operazioni_areafin_storico.TOTLIRE" TYPE="N" LEN="15" DEC="2" />
+    <FIELD NAME="qbe_cgo_operazioni_areafin_storico.SEGNO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_cgo_operazioni_areafin_storico.CAIDBIGLIETTO" TYPE="C" LEN="28" DEC="0" />
+    <FIELD NAME="qbe_cgo_operazioni_areafin_storico.CGODATFINCOM" TYPE="D" LEN="8" DEC="0" />
+    <PAGEHEADER Y="0" H="91" EXPRESSION="Page header">
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="7" X="8" YY="35" XX="1072"
+              ALIGN="L"
+              UID="ZITLIRMTGS"
+              BACKGROUNDCOLOR="255,255,255"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="stringa" NAME="&#39;AZIENDA: &#39;+ descazi" EXPRTYPE="expression"
+              Y="12" X="16" YY="31" XX="1064"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box_end" UID="ZITLIRMTGS"/>
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="42" X="8" YY="63" XX="280"
+              ALIGN="L"
+              UID="VDCHLZLZDD"
+              BACKGROUNDCOLOR="255,255,255"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="stringa" NAME="Da Data:" EXPRTYPE="constant"
+              Y="42" X="283" YY="58" XX="362"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="QHHTBQKVYQ"
+              />
+        <ITEM OBJ="espressione" NAME="DaData" ITEMTYPE="D" EXPRTYPE="expression"
+              Y="42" X="368" YY="58" XX="519"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              LEN="8"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="QHHTBQKVYQ"
+              />
+        <ITEM OBJ="espressione" NAME="A_Data" ITEMTYPE="D" EXPRTYPE="expression"
+              Y="42" X="591" YY="58" XX="731"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              LEN="8"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="QHHTBQKVYQ"
+              />
+        <ITEM OBJ="stringa" NAME="A Data:" EXPRTYPE="constant"
+              Y="42" X="528" YY="58" XX="589"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="QHHTBQKVYQ"
+              />
+        <ITEM OBJ="stringa" NAME="STORICO OPERAZIONI COMPLETATE" EXPRTYPE="constant"
+              Y="44" X="12" YY="60" XX="276"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="QHHTBQKVYQ"
+              />
+        <ITEM OBJ="box_end" UID="VDCHLZLZDD"/>
+        <ITEM OBJ="h_line" Y="70" X="8" XX="1073" BORDERWIDTH="1"
+              ALIGN="L"
+              />
+        <ITEM OBJ="stringa" NAME="ID Biglietto" EXPRTYPE="constant"
+              Y="72" X="168" YY="88" XX="272"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="Causale" EXPRTYPE="constant"
+              Y="72" X="352" YY="88" XX="424"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="Importo" EXPRTYPE="constant"
+              Y="72" X="952" YY="88" XX="1042"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="QHHTBQKVYQ"
+              />
+        <ITEM OBJ="stringa" NAME="Data Reg." EXPRTYPE="constant"
+              Y="72" X="8" YY="88" XX="63"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="QHHTBQKVYQ"
+              />
+        <ITEM OBJ="stringa" NAME="Data Oper." EXPRTYPE="constant"
+              Y="72" X="88" YY="88" XX="160"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="h_line" Y="89" X="8" XX="1073" BORDERWIDTH="1"
+              ALIGN="L"
+              />
+    </PAGEHEADER>
+    <SECTION TYPE="group" HEADH="0" FOOTH="0" SYMNAME="" UID="QHHTBQKVYQ" TOP="91" BOTTOM="110" EXPRESSION="True" DISPLAY_EXPRESSION=""
+     STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+     PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" INWITHEXPR="" OUTWITHEXPR="">
+        <SECTION TYPE="group" HEADH="19" FOOTH="0" EXPRESSION="" SYMNAME=""
+         STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+         REPRINTHEADER="false" REPRINTFOOTER="false">
+            <ITEM OBJ="espressione" NAME="c_CGODATFINCOM" ITEMTYPE="D" EXPRTYPE="expression"
+                  Y="2" X="8" YY="18" XX="80"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DATAOPE" ITEMTYPE="D" EXPRTYPE="expression"
+                  Y="2" X="88" YY="18" XX="160"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CAIDBIGLIETTO" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="2" X="168" YY="18" XX="344"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="28"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CADESCRI" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="2" X="400" YY="18" XX="944"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="90"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_TOTLIRE" ITEMTYPE="N" EXPRTYPE="expression"
+                  Y="2" X="952" YY="18" XX="1042"
+                  ALIGN="R"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  SAYPIC="'999,999,999,999.99'"
+                  LEN="15"
+                  DEC="2"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_SEGNO" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="2" X="1048" YY="18" XX="1064"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="1"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CACODICE" ITEMTYPE="N" EXPRTYPE="expression"
+                  Y="2" X="352" YY="18" XX="392"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="5"
+                  PRINTPAGE="true"
+                  />
+        </SECTION>
+    </SECTION>
+    <PAGEFOOTER Y="110" H="22" EXPRESSION="Page footer">
+        <ITEM OBJ="h_line" Y="1" X="8" XX="1073" BORDERWIDTH="1"
+              ALIGN="L"
+              />
+        <ITEM OBJ="stringa" NAME="&#39;Data: &#39; +arfn_fdate(Date())" EXPRTYPE="expression"
+              Y="3" X="9" YY="21" XX="152"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="DQEXXFKHQL"
+              />
+        <ITEM OBJ="stringa" NAME="&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))" EXPRTYPE="expression"
+              Y="3" X="864" YY="21" XX="1072"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="DQEXXFKHQL"
+              />
+    </PAGEFOOTER>
+</REPORT>

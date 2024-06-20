@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="83685383">
+  <CodifyName>arpg_stpfraz_prv</CodifyName>
+  <Name>arpg_stpfraz_prv.pagedef</Name>
+  <Title>Stampa Frazionate (Provvisorie)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="142132838"></Title>
+    <Note/>
+    <JPG x="8" y="9">arpg_stpfraz_prv_usr_1</JPG>
+    <Item type="variabile" x1="144" y1="22" x2="216" y2="42">
+      <Name LinkID="73230837">DaDatOpe</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="45" x2="216" y2="65">
+      <Name LinkID="174540918">ADatOpe</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="72" x2="238" y2="92">
+      <Name LinkID="246450191">daCodCli</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="144" x2="224" y2="210">
+      <Name LinkID="208887462">Tipop</Name>
+      <Comment>Tipo operazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="536" y1="234" x2="677" y2="287">
+      <Name LinkID="55091034">tipstp</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="304" y1="288" x2="344" y2="321">
+      <Name LinkID="83685478">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>arrt_stpfraz_prv</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="360" y1="288" x2="400" y2="321">
+      <Name LinkID="83685478">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="100" x2="238" y2="120">
+      <Name LinkID="93858166">aCodCli</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="243" x2="145" y2="296">
+      <Name LinkID="243836758">OrderBy</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

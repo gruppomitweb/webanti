@@ -1,0 +1,42 @@
+/*JSON_START [{"class_name":"DBAdmin-item","current_state":"normal","font_list":[],"id":"form","selector":".DBAdmin-item","specific_states_value":{":after":{},":before":{},"hover":{"border_color":"","border_type":"","border_width":"","code":"border-color: rgb(14 94 230 \u002f 90%);"},"normal":{"bg_color":"#FFFFFF","border_color":"","border_radius_bl":"6px","border_radius_br":"6px","border_radius_tl":"6px","border_radius_tr":"6px","border_type":"","border_width":"","code":"flex-flow: column;\njustify-content: center;\nalign-items: center;\nbox-shadow: 0 1px 10px rgb(29 33 39 \u002f 25%);\nborder-width: 2px 0 0 0;\nborder-style: solid;\nborder-color: transparent;","display":"flex","mar_bottom":"5px","mar_left":"5px","mar_right":"5px","mar_top":"5px","pad_bottom":"16px","pad_left":"8px","pad_right":"8px","pad_top":"16px"}},"type":"undefined_type","version":2},{"class_name":"DBAdmin-item-container","current_state":"normal","font_list":[],"id":"form","selector":".DBAdmin-item-container","specific_states_value":{":after":{},":before":{},"hover":{},"normal":{"code":"gap: 10px;","display":"flex","pad_bottom":"15px","pad_left":"25px","pad_right":"25px","pad_top":"15px"}},"type":"undefined_type","version":2},{"class_name":"Admin-border-grid","current_state":"normal","font_list":[],"id":"form","selector":".Admin-border-grid","specific_states_value":{":after":{},":before":{},"hover":{},"normal":{"border_color":"#DEDEDE","border_radius_bl":"6px","border_radius_br":"6px","border_radius_tl":"6px","border_radius_tr":"6px","border_type":"solid","border_width":"1px"}},"type":"undefined_type","version":2},{"class_Css":"label","class_name":"label-medium-bold","current_state":"hover","font_list":[],"id":"form","selector":".label-medium-bold a","specific_states_value":{":after":{},":before":{},"hover":{"code":"color: #0156CB;","font_color":""},"normal":{"code":""}},"type":"label","value":"POSTIT_MY_POSTIT","version":2},{"class_name":"gridPostInList","current_state":"normal","font_list":[],"id":"form","selector":".gridPostInList .grid_table","specific_states_value":{":after":{},":before":{},"hover":{},"normal":{"code":"border-radius: 6px;"}},"type":"undefined_type","version":2}] JSON_END*/
+.DBAdmin-item:hover{
+  border-color: rgb(14 94 230 / 90%);
+}
+.DBAdmin-item{
+  display: flex;
+  padding-top: 16px;
+  padding-right: 8px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  border-radius: 6px 6px 6px 6px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  background-color: #FFFFFF;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 10px rgb(29 33 39 / 25%);
+  border-width: 2px 0 0 0;
+  border-style: solid;
+  border-color: transparent;
+}
+.DBAdmin-item-container{
+  display: flex;
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  gap: 10px;
+}
+.Admin-border-grid{
+  border-radius: 6px 6px 6px 6px;
+  border: 1px solid #DEDEDE;
+}
+.label-medium-bold a:hover{
+  color: #0156CB;
+}
+.gridPostInList .grid_table{
+  border-radius: 6px;
+}

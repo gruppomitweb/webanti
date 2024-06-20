@@ -1,0 +1,58 @@
+﻿* --- Resource Vers. 0.9
+arrt_fammigra_allinea
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Allinea Fotografia
+file_modified_on=#2019-02-28 11:13:46
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:13
+module_name='
+name='arrt_fammigra_allinea
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.uniquer
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.inviato
+]
+'Queries
+[
+'qbe_famesiti_minmax.vqr
+'qbe_famesiti_migra_sel.vqr
+]
+'Routines
+[
+'arfn_fammigra_datamax
+'arfn_fdatetime
+'arrt_fammigra_allinea
+]
+'Tables
+[
+'famesiti<table>
+'opextrbo<table>
+'famesitid<table>
+'personbo<table>
+'tbstati<table>
+'tmp_esitierr<table>
+'aetesta<table>
+'aeannora<table>
+'anarapbo<table>
+'jnarapbo<table>
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

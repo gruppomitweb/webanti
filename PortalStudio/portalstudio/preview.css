@@ -1,0 +1,291 @@
+@font-face {
+  font-family: 'icons8_win10';
+  src:url('../fonts/icons8_win10.eot');
+  src: url('../fonts/icons8_win10.eot#icons8_win10') format('embedded-opentype'),
+    url('../fonts/icons8_win10.svg#icons8_win10') format('svg'),
+    url('../fonts/icons8_win10.woff') format('woff'),
+    url('../fonts/icons8_win10.ttf') format('truetype');
+  }
+
+#i_preview_wrapper{
+  position: absolute;
+  display: none;
+  z-index: 305;
+  background: #454550;
+  top:0;
+}
+
+#i_preview_title{
+  width:100%;
+  z-index:2;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size:14px;
+  color:rgba(255,255,255,.70);
+  display: block;
+  cursor:pointer;
+}
+#i_preview_title div{
+  position:absolute;
+}
+#i_preview_close_button{
+  left:5px;
+  top:15px;
+}
+#i_preview_parameters_button{
+  left:35px;
+  top:15px;
+}
+#i_preview_caption{
+  left:70px;
+  top:15px;
+  cursor:default;
+}
+#i_preview_close_button::after{
+  content: '\e736';
+  font-family: iMobileIcon;
+  font-weight: normal;
+  color: #00A0BD;
+  font-size: 22px;
+}
+#i_preview_parameters_button::after{
+  content: '\e68b';
+  font-family: iMobileIcon;
+  font-weight: normal;
+  color: #00A0BD;
+  font-size: 22px;
+}
+#i_preview {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 65px auto 0;
+  border: 0;
+  background: rgba(255,255,255,0.9);
+  transition: all 0.2s;
+}
+#i_preview::-webkit-scrollbar,.myscroll::-webkit-scrollbar{
+	width: 4px;
+	height: 4px;
+	background-color: #555;
+}
+#i_preview::-webkit-scrollbar-track,.myscroll::-webkit-scrollbar-track{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	background-color: #555;
+}
+#i_preview::-webkit-scrollbar-thumb,.myscroll::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #F5F5F5;
+}
+#i_preview_container{
+background: #454550;
+}
+#i_preview_container.desktop #i_preview{
+  margin: 50px auto 0;
+}
+#i_preview_container.ipad #i_preview,
+#i_preview_container.iphone #i_preview {
+  box-sizing: content-box;
+  border-color: #24292f;
+  border-style: solid;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0,0,0,.3);
+}
+#i_preview_container.iphone.vertical #i_preview{
+  border-width: 70px 30px 70px 30px;
+}
+
+#i_preview_container.iphone.horizontal #i_preview{
+  border-width: 30px 70px 30px 70px;
+}
+#i_preview_container.ipad.vertical #i_preview{
+  border-width: 100px 60px 100px 60px;
+}
+#i_preview_container.ipad.horizontal #i_preview{
+  border-width: 60px 100px 60px 100px;
+}
+
+#i_preview_container.ipad::before,
+#i_preview_container.iphone::before {
+  content: '';
+  position: absolute;
+  background-color: #454550;
+  display: block;
+  border-radius: 30px;
+  left: 50%;
+}
+#i_preview_container.iphone.vertical::before{
+  width: 68px;
+  height: 5px;
+  margin-left: -34px;
+  top: 100px;
+}
+
+#i_preview_container.iphone.horizontal::before{
+  width: 5px;
+  height: 68px;
+  margin-left: -318px;
+  top: 220px;
+}
+#i_preview_container.ipad.vertical::before{
+  width: 68px;
+  height: 5px;
+  margin-left: -34px;
+  /*top: 50px;*/
+  top:110px;
+}
+
+#i_preview_container.ipad.horizontal::before{
+  width: 5px;
+  height: 68px;
+  margin-left: -564px;
+  top: 412px;
+}
+
+#i_preview_container.ipad::after,
+#i_preview_container.iphone::after {
+  content: '';
+  position: absolute;
+  background-color: #24292f;
+  border: 6px solid #454550;
+  display: block;
+  border-radius: 10px;
+  left: 50%;
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+}
+#i_preview_container.iphone.vertical::after{
+  top: 722px;
+  margin-left: -16px;
+}
+#i_preview_container.iphone.horizontal::after{
+  top: 242px;
+  margin-left: 303px;
+}
+#i_preview_container.ipad.vertical::after{
+  /*top: 1160px;*/
+  top:1224px;
+  margin-left: -16px;
+}
+#i_preview_container.ipad.horizontal::after{
+  top: 446px;
+  margin-left: 550px;
+}
+
+/*
+#i_preview_container.ipad {
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+*/
+/*
+#i_preview_container.ipad.horizontal {
+  -webkit-transform: scale(0.85, 0.85);
+  -ms-transform: scale(0.85, 0.85);
+  transform: scale(0.85, 0.85);
+}
+#i_preview_container.ipad.vertical {
+  -webkit-transform: scale(0.60, 0.60);
+  -ms-transform: scale(0.60, 0.60);
+  transform: scale(0.60, 0.60);
+}
+*/
+#parameters_wrapper{
+  position:absolute;
+  display:none;
+  top:80px;
+  left:500px;
+  width:400px;
+  height:600px;
+  background-color:rgba(255,255,255,.70);
+}
+.steps_preview{
+  position: absolute;
+  right: 23px;
+  color: rgba(255,255,255,.70);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.steps_preview_container{
+  position:absolute;
+  width:80px;
+  right:0;
+  background: #00A0BD;
+  font-family:Open Sans;
+  font-weight: 600;
+  font-size:14px;
+  list-style:none;
+  padding:0;
+  margin:12px 0 0 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.steps_preview_container li{
+  padding:5px;
+  text-align:right;
+  user-select:none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.steps_preview_container li:hover{
+  color:#232323;
+  background:rgba(255,255,255,.70);
+}
+.steps_preview_container li:first-child:hover{
+  color:rgba(255,255,255,.70);
+  background:#00A0BD;
+}
+.steps_preview_container_selected{
+  color:#232323;
+  background:rgba(255,255,255,.70);
+}
+
+
+.steps_preview_icon {
+  margin-left:10px;
+  vertical-align:middle;
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 50px;
+}
+.steps_preview_icon:hover,
+.steps_preview_icon.steps_preview_active{
+  color:#00A0BD;
+}
+.steps_preview_icon.iphone.horizontal:after,
+.steps_preview_icon.ipad.vertical:after{
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  display: inline-block;
+}
+.steps_preview_icon.iphone::after{
+  content:"\EB2B";
+}
+.steps_preview_icon.ipad:after{
+  content:"\EF62";
+}
+.steps_preview_icon.desktop:after{
+  content:"\ED70";
+}
+.steps_preview_icon.qrcode:after{
+  content:"\EC20";
+}
+#i_preview_qrcode img{
+  margin: 80px auto;
+  border: 60px solid white;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}

@@ -1,0 +1,136 @@
+ 3
+"Informazioni su titolari"
+"japotit"
+"japotit"
+ 0
+ 0
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 8
+"Numero Progressivo"
+"japotit.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Inizio / Fine Rapporto"
+"japotit.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Data Registrazione"
+"japotit.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Tipo Informazione"
+"japotit.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DES1"
+"C"
+ 90
+ 0
+*
+"idbase"
+"japotit.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+""
+"japotit.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+ 2
+"Tipo Registrazione(Tipo Informazione)"
+"tbtipreg.CODICE=japotit.TIPOOPRAP"
+"Right outer"
+"tbtipreg"
+"japotit"
+*
+"Titolari"
+"personbo.CONNES=japotit.CONNESOPER"
+"Right outer"
+"personbo"
+"japotit"
+*
+ 1
+"japotit.CONNESCLI"
+""
+"="
+"?w_CODCLI"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"w_CODCLI"
+""
+"C"
+"16"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 18
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"UpX_Kl-hPA%26%3F58HJS1%2F5%02%23*2ID%5E%5D0T%3A%04+%25%274J67%5Ch%210%238%2B%27%212%3AE%5BO+%121%27VBY%5E3F%3C-KB%2C6%3D%04%04N2%7B%3CF%257%3B%5E05NV%16%3EK%1AE%5DN%23uLKR%5B%26BD%3D%40%3A%28wE%2BQL%26%12QV%3CSBV%3A%3DOM3%40c%28V3.%3DTK%3C%3D7O2%27%2FQ%24m4B%21_.DP-7%228%26.-MRJ.%5C%24VY%2CE*RM%3D%5EP%5EE%5E%1DHD7Z%40D%1A%2BC%01IDAS%3C%21%2B%5BRC+%170%18%223%23%26%2B%5CyD%1C5%12%26%2F%3DB*P0%22-%1AJTY%28%5C8%24%3E%2FDH%3C9%25%5D6G%5EK%3D%298O*%21jZ0Z%22%28%3B%26J%00"
+"%2FG%3D.RT+KV04BA%5B.W0.RL%5EHM%1DZHW_WLa7N%1FK%27.%3B%5BS3%40B1%3E%23%3DSiWJ%5EK22%3BD%28MA-2C%3D%07F%2F%3CP%21T%5BJ%3BIC%26%3E%275%40JP%3E%29+2%3B%23OY1%29%26A%407ZL%40EVO%3E%3COSY%3D%255%3ETPO%3A%21%22%2B%3DC%2CI%40U*OX%2F%5DP95%28%25%2CT8%23U%215%27C%40.+%40Z%27*%3D-%281%2C-G%2FZnEb65M1%5B40%22J6yV%3F%15%3D%09%27WZA*C%2B.24%28%40.-%3C*S03%3FK%223-%25TG%2C%3CO3%228Xk%5B01%22%3D1K.%40S.%22QG0%05B92%23%21%3CVYkxOF%24J4%29%5BJ%3B5G%3CD-%3C%00"
+""
+""
+"native"
+ 0
+ 0
+*

@@ -1,0 +1,429 @@
+﻿* --- Resource Vers. 0.9
+xntestit<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Intestatari Titolarità (Provvisorio)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='xntestit
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'xntestit.codcli
+'xntestit.rapporto
+'xntestit.codinter
+'xntestit.descinter
+'xntestit.dataini
+'xntestit.tiporap
+'xntestit.tipopers
+'xntestit.statoreg
+'xntestit.operazmod
+'xntestit.datarett
+'xntestit.idereg
+'xntestit.collegamen
+'xntestit.datafine
+'xntestit.numprog1
+'xntestit.numprog2
+'xntestit.idbase
+'xntestit.ucode
+'xntestit.abbinato
+'xntestit.prgimptite
+'xntestit.numimp
+'xntestit.noage
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'xntestit.abbinato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ABBINATO
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.codcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODCLI
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODINTER
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.collegamen
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='COLLEGAMEN
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.datafine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAFINE
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAINI
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.datarett
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATARETT
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.descinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESCINTER
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.idereg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDEREG
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.noage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Non inviare ad Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NOAGE
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.numimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Mark Importazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMIMP
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.numprog1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMPROG1
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.numprog2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMPROG2
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.operazmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='OPERAZMOD
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.prgimptite
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PRGIMPTITE
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPPORTO
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.statoreg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='STATOREG
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.tipopers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOPERS
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.tiporap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPORAP
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+'xntestit.ucode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='UCODE
+state=3
+table_name='xntestit
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'xntestit.abbinato
+[]
+'xntestit.codcli
+[]
+'xntestit.codinter
+[]
+'xntestit.collegamen
+[]
+'xntestit.datafine
+[]
+'xntestit.dataini
+[]
+'xntestit.datarett
+[]
+'xntestit.descinter
+[]
+'xntestit.idbase
+[]
+'xntestit.idereg
+[]
+'xntestit.noage
+[]
+'xntestit.numimp
+[]
+'xntestit.numprog1
+[]
+'xntestit.numprog2
+[]
+'xntestit.operazmod
+[]
+'xntestit.prgimptite
+[]
+'xntestit.rapporto
+[]
+'xntestit.statoreg
+[]
+'xntestit.tipopers
+[]
+'xntestit.tiporap
+[]
+'xntestit.ucode
+[]
+}
+*--*

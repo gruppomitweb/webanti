@@ -1,0 +1,2044 @@
+﻿* --- Resource Vers. 0.9
+archmovi_err<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Movimenti OUTPUT Errori
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='archmovi_err
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'archmovi_err.mcodmov
+'archmovi_err.pcodcab
+'archmovi_err.pragsoc
+'archmovi_err.pdomicilio
+'archmovi_err.pconnes
+'archmovi_err.pdatanasc
+'archmovi_err.pnascomun
+'archmovi_err.psotgrup
+'archmovi_err.pramogrup
+'archmovi_err.psettsint
+'archmovi_err.ptipodoc
+'archmovi_err.pnumdocum
+'archmovi_err.pdatarilasc
+'archmovi_err.pautrilasc
+'archmovi_err.pdesccit
+'archmovi_err.pprovincia
+'archmovi_err.ppaese
+'archmovi_err.pcap
+'archmovi_err.ppartiva
+'archmovi_err.psesso
+'archmovi_err.pdatavali
+'archmovi_err.pcognome
+'archmovi_err.pnome
+'archmovi_err.pdocfile
+'archmovi_err.pprovnas
+'archmovi_err.pcfestero
+'archmovi_err.pspecie
+'archmovi_err.pcomport
+'archmovi_err.pattiv
+'archmovi_err.pareageo
+'archmovi_err.prnatgiu
+'archmovi_err.prcomp
+'archmovi_err.prattiv
+'archmovi_err.prarea
+'archmovi_err.pcodfisc
+'archmovi_err.ppep
+'archmovi_err.odataope
+'archmovi_err.oflagcont
+'archmovi_err.ocodana
+'archmovi_err.ocodvoc
+'archmovi_err.otipoint2
+'archmovi_err.ocodint2
+'archmovi_err.opaese
+'archmovi_err.odesc2
+'archmovi_err.oprov2
+'archmovi_err.ocodcab2
+'archmovi_err.odescinter
+'archmovi_err.orapporto
+'archmovi_err.oflagrap
+'archmovi_err.otipoleg
+'archmovi_err.odatareg
+'archmovi_err.oflaglire
+'archmovi_err.ovaluta
+'archmovi_err.osegno
+'archmovi_err.ototlire
+'archmovi_err.ototcont
+'archmovi_err.oconnesoper
+'archmovi_err.ocambio
+'archmovi_err.onumprog
+'archmovi_err.otipooprap
+'archmovi_err.otipointer
+'archmovi_err.ocodinter
+'archmovi_err.odesccit
+'archmovi_err.oprovincia
+'archmovi_err.ocodcab
+'archmovi_err.oflagfraz
+'archmovi_err.oconnesben
+'archmovi_err.ouniquecode
+'archmovi_err.oagoper
+'archmovi_err.orifimp
+'archmovi_err.ozcparte
+'archmovi_err.oragio
+'archmovi_err.omodsvol
+'archmovi_err.oareageo
+'archmovi_err.oinform
+'archmovi_err.oammont
+'archmovi_err.odurat
+'archmovi_err.otipo
+'archmovi_err.orragio
+'archmovi_err.orcomp
+'archmovi_err.orarea
+'archmovi_err.orimp
+'archmovi_err.orfreq
+'archmovi_err.oconnaltro
+'archmovi_err.odataimp
+'archmovi_err.ortipo
+'archmovi_err.oc_rag
+'archmovi_err.oc_sta
+'archmovi_err.oc_cta
+'archmovi_err.oc_cab
+'archmovi_err.oc_prv
+'archmovi_err.oc_ind
+'archmovi_err.oc_cap
+'archmovi_err.onatura
+'archmovi_err.oscopo
+'archmovi_err.oc_rapporto
+'archmovi_err.orapportben
+'archmovi_err.opagasogop
+'archmovi_err.dcoddip
+'archmovi_err.ddescriz
+'archmovi_err.ddesccit
+'archmovi_err.dprovincia
+'archmovi_err.dcab
+'archmovi_err.dagente
+'archmovi_err.rnotescr
+'archmovi_err.rflag
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'archmovi_err.dagente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='S se Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DAGENTE
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.dcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Comune Sede Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DCAB
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.dcoddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DCODDIP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ddesccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DDESCCIT
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ddescriz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DDESCRIZ
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.dprovincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DPROVINCIA
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.mcodmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MCODMOV
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oagoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo operazione agenzia entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OAGOPER
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oammont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Ammontare Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OAMMONT
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oareageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Area Geografica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OAREAGEO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oc_cab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OC_CAB
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oc_cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAp Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OC_CAP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oc_cta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OC_CTA
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oc_ind
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OC_IND
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oc_prv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OC_PRV
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oc_rag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nominativo Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OC_RAG
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oc_rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Conto Intermediario Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OC_RAPPORTO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oc_sta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato Soggetto Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OC_STA
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ocambio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cambio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OCAMBIO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ocodana
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Analitica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OCODANA
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ocodcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Città Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OCODCAB
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ocodcab2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Città Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OCODCAB2
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ocodint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OCODINT2
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ocodinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OCODINTER
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ocodvoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Sintetica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OCODVOC
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oconnaltro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Soggetto titolare di un operazione eseguita su rapporto intestato a soggetto diverso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OCONNALTRO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oconnesben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Beneficiario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OCONNESBEN
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oconnesoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Esecutore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OCONNESOPER
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.odataimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ODATAIMP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.odataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ODATAOPE
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.odatareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ODATAREG
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.odesc2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ODESC2
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.odesccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ODESCCIT
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.odescinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Intermediario Banca Estera
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ODESCINTER
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.odurat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Durata Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ODURAT
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oflagcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='S se contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OFLAGCONT
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oflagfraz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Se compattata da frazionata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OFLAGFRAZ
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oflaglire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OFLAGLIRE
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oflagrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OFLAGRAP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oinform
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Annotazioni Varie
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OINFORM
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.omodsvol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Modalità svolgimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OMODSVOL
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.onatura
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Natura Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ONATURA
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.onumprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ONUMPROG
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.opaese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Nazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPAESE
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.opagasogop
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valoriz. con S solo se il Soggetto Operante Conto Terzi è presente ed utilizza mezzi propri
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPAGASOGOP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oprov2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPROV2
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oprovincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPROVINCIA
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Ragionevolezza rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORAGIO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.orapportben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Campo Appoggio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORAPPORTBEN
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.orapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORAPPORTO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.orarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORAREA
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.orcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORCOMP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.orfreq
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORFREQ
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.orifimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Riferimento Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORIFIMP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.orimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORIMP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.orragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORRAGIO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ortipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORTIPO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.oscopo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Scopo Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OSCOPO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.osegno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Segno OPerazione (Dare/Avere)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OSEGNO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.otipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OTIPO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.otipoint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OTIPOINT2
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.otipointer
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OTIPOINTER
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.otipoleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Legame Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OTIPOLEG
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.otipooprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OTIPOOPRAP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ototcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OTOTCONT
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ototlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OTOTLIRE
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ouniquecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Univoco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OUNIQUECODE
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ovaluta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OVALUTA
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ozcparte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Semplifficata Int. Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OZCPARTE
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pareageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio Area Georgafica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAREAGEO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pattiv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Attività prevalente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PATTIV
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pautrilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Autorità Rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAUTRILASC
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pcap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAP Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PCAP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pcfestero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale non italiano
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PCFESTERO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pcodcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB COMUNE RESIDENZA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PCODCAB
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pcodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PCODFISC
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pcognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cognome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PCOGNOME
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pcomport
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio Comportamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PCOMPORT
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pconnes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PCONNES
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pdatanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PDATANASC
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pdatarilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PDATARILASC
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pdatavali
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Scadenza Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PDATAVALI
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pdesccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PDESCCIT
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pdocfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='File o cartella documenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PDOCFILE
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pdomicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PDOMICILIO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pnascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Comune/ Stato di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PNASCOMUN
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pnome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PNOME
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pnumdocum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='N° Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PNUMDOCUM
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ppaese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nazione Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PPAESE
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ppartiva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Partita IVA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PPARTIVA
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ppep
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Persona Esposta Politicamente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PPEP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pprovincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PPROVINCIA
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pprovnas
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PPROVNAS
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRAGSOC
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pramogrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ramo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRAMOGRUP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.prarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio Area Geografica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRAREA
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.prattiv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio Attività
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRATTIV
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.prcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio Comportamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRCOMP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.prnatgiu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valiore Rischio Natura Giuridica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRNATGIU
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.psesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PSESSO
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.psettsint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Settore Sintetico
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PSETTSINT
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.psotgrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sottogruppo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PSOTGRUP
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.pspecie
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Specie Giuridica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PSPECIE
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.ptipodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PTIPODOC
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.rflag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Flag FININT
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RFLAG
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+'archmovi_err.rnotescr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Motivazione per lo scarto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RNOTESCR
+state=3
+table_name='archmovi_err
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'archmovi_err.dagente
+[]
+'archmovi_err.dcab
+[]
+'archmovi_err.dcoddip
+[]
+'archmovi_err.ddesccit
+[]
+'archmovi_err.ddescriz
+[]
+'archmovi_err.dprovincia
+[]
+'archmovi_err.mcodmov
+[]
+'archmovi_err.oagoper
+[]
+'archmovi_err.oammont
+[]
+'archmovi_err.oareageo
+[]
+'archmovi_err.oc_cab
+[]
+'archmovi_err.oc_cap
+[]
+'archmovi_err.oc_cta
+[]
+'archmovi_err.oc_ind
+[]
+'archmovi_err.oc_prv
+[]
+'archmovi_err.oc_rag
+[]
+'archmovi_err.oc_rapporto
+[]
+'archmovi_err.oc_sta
+[]
+'archmovi_err.ocambio
+[]
+'archmovi_err.ocodana
+[]
+'archmovi_err.ocodcab
+[]
+'archmovi_err.ocodcab2
+[]
+'archmovi_err.ocodint2
+[]
+'archmovi_err.ocodinter
+[]
+'archmovi_err.ocodvoc
+[]
+'archmovi_err.oconnaltro
+[]
+'archmovi_err.oconnesben
+[]
+'archmovi_err.oconnesoper
+[]
+'archmovi_err.odataimp
+[]
+'archmovi_err.odataope
+[]
+'archmovi_err.odatareg
+[]
+'archmovi_err.odesc2
+[]
+'archmovi_err.odesccit
+[]
+'archmovi_err.odescinter
+[]
+'archmovi_err.odurat
+[]
+'archmovi_err.oflagcont
+[]
+'archmovi_err.oflagfraz
+[]
+'archmovi_err.oflaglire
+[]
+'archmovi_err.oflagrap
+[]
+'archmovi_err.oinform
+[]
+'archmovi_err.omodsvol
+[]
+'archmovi_err.onatura
+[]
+'archmovi_err.onumprog
+[]
+'archmovi_err.opaese
+[]
+'archmovi_err.opagasogop
+[]
+'archmovi_err.oprov2
+[]
+'archmovi_err.oprovincia
+[]
+'archmovi_err.oragio
+[]
+'archmovi_err.orapportben
+[]
+'archmovi_err.orapporto
+[]
+'archmovi_err.orarea
+[]
+'archmovi_err.orcomp
+[]
+'archmovi_err.orfreq
+[]
+'archmovi_err.orifimp
+[]
+'archmovi_err.orimp
+[]
+'archmovi_err.orragio
+[]
+'archmovi_err.ortipo
+[]
+'archmovi_err.oscopo
+[]
+'archmovi_err.osegno
+[]
+'archmovi_err.otipo
+[]
+'archmovi_err.otipoint2
+[]
+'archmovi_err.otipointer
+[]
+'archmovi_err.otipoleg
+[]
+'archmovi_err.otipooprap
+[]
+'archmovi_err.ototcont
+[]
+'archmovi_err.ototlire
+[]
+'archmovi_err.ouniquecode
+[]
+'archmovi_err.ovaluta
+[]
+'archmovi_err.ozcparte
+[]
+'archmovi_err.pareageo
+[]
+'archmovi_err.pattiv
+[]
+'archmovi_err.pautrilasc
+[]
+'archmovi_err.pcap
+[]
+'archmovi_err.pcfestero
+[]
+'archmovi_err.pcodcab
+[]
+'archmovi_err.pcodfisc
+[]
+'archmovi_err.pcognome
+[]
+'archmovi_err.pcomport
+[]
+'archmovi_err.pconnes
+[]
+'archmovi_err.pdatanasc
+[]
+'archmovi_err.pdatarilasc
+[]
+'archmovi_err.pdatavali
+[]
+'archmovi_err.pdesccit
+[]
+'archmovi_err.pdocfile
+[]
+'archmovi_err.pdomicilio
+[]
+'archmovi_err.pnascomun
+[]
+'archmovi_err.pnome
+[]
+'archmovi_err.pnumdocum
+[]
+'archmovi_err.ppaese
+[]
+'archmovi_err.ppartiva
+[]
+'archmovi_err.ppep
+[]
+'archmovi_err.pprovincia
+[]
+'archmovi_err.pprovnas
+[]
+'archmovi_err.pragsoc
+[]
+'archmovi_err.pramogrup
+[]
+'archmovi_err.prarea
+[]
+'archmovi_err.prattiv
+[]
+'archmovi_err.prcomp
+[]
+'archmovi_err.prnatgiu
+[]
+'archmovi_err.psesso
+[]
+'archmovi_err.psettsint
+[]
+'archmovi_err.psotgrup
+[]
+'archmovi_err.pspecie
+[]
+'archmovi_err.ptipodoc
+[]
+'archmovi_err.rflag
+[]
+'archmovi_err.rnotescr
+[]
+}
+*--*

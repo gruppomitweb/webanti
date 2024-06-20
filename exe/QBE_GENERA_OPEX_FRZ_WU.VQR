@@ -1,0 +1,140 @@
+ 1
+"Frazionate"
+"fraziobo"
+"fraziobo"
+ 0
+ 0
+*
+ 4
+"Codice Cliente Occasionale"
+"fraziobo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Data Operazione"
+"fraziobo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Identificativo File"
+"fraziobo.IDFILE"
+"IDFILE"
+"C"
+ 60
+ 0
+*
+"Numero Progressivo"
+"fraziobo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+ 0
+ 6
+"fraziobo.CDATOPE"
+""
+">="
+"?w_cdatini"
+"AND"
+""
+*
+"fraziobo.CDATOPE"
+""
+"<="
+"?w_cdatfin"
+"AND"
+""
+*
+"fraziobo.PRGIMPFRZ"
+""
+">="
+"?_bottom"
+"AND"
+""
+*
+"fraziobo.PRGIMPFRZ"
+""
+"<="
+"?_top"
+"AND"
+""
+*
+"fraziobo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+*
+"[NOTEMPTYSTR(fraziobo.RAPPORTO)]"
+""
+"="
+"0"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 4
+"w_cdatini"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+*
+"w_cdatfin"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+*
+"_bottom"
+"Progressivo Import"
+"N"
+"15"
+"0"
+""
+*
+"_top"
+"Progressivo Import"
+"N"
+"15"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 17
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"JKPQYN%26B%26S%23.%40Z.hK.Z%3B%2BH5%25UJ_.%3BB%60_*+%21VN47vT%5Do.788NQW%3A%24G%5D3AKGCU%2FY%5E837+L*%3B%278%22Z%5DU%3D+IZ%7F6Y+%5C+U+I4%40%3DF%21%3BYN%2FAF%1A%01.%28%5B%5B%3E%7B%5D3%16+Q%7DVU%3F2E%3B%3D7IZ%5BS.N*%609%26%29G%24M%3D%3A%28UJ%40%3DF%3C%5B%5ES92%3EB6B%40%23%27%3EN_J%2BTVD%2C4%27%26-*CX+%3CHD%2C%3D%2746%3A0D1O+6LO%5C%5BAAXR%3A%29E%223%28%25.X%22l%2B*I%29Z1%5BH%5B%21%3C1N%1E%23Y.v9OQ%061A%3E9%21%5E%3E%5D8+%3EAI6ROi%5EFY%3AT%29L%2F%00"
+"%2F%40OA8%3D*j%21B%2B%29J%3D-kT%3E%27%17%3EN6%25%26ZQ%28A%22C%3C51%3A.OP%23%40%5ECG%2BBL%29U%3A8%2870%3B05J%40HPu8%5B%5C%5DK4%1B%5B+8QRYBBB%25K%2B%285Q%3ER%3D24ICq%60+%26VD%5C202CSF*QHSB9%3D+%3AWGULA%5E1%27LKKKDZ%2FZVR5%26%403R5YYS_WFA%29%13%26D7YN%23-%275L*%2C%3AUtBIU0J%21%18%3B9-%05OOXT2%27-%22H8%5C78FQ%262L%21%5BT*HAN%23-92%223%29%26wN%28%40L79%24I5%3B%3D02%018%2F-*%60*Q1Q9%5C79%3D5%12X3WWMA%3B%243%27%22T9%24%5E%2C_1%2B%27%00"
+""
+""
+"native"
+ 0
+ 0
+*

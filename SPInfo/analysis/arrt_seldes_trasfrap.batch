@@ -1,0 +1,55 @@
+﻿* --- Resource Vers. 0.9
+arrt_seldes_trasfrap
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:40
+description='Seleziona/Deseleziona tutti i rapporti da trasferire
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:25
+module_name='
+name='arrt_seldes_trasfrap
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_rapportipd.flgsel
+]
+'Hyperlinks
+[
+'arpg_trasfrap
+]
+'Tables
+[
+'tmp_rapportipd<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_seldes_trasfrap|Warning|core::document|Update dependencies|Field "1" not found in temporary table "tmp_rapportipd".{Accuracy:-10}
+explanation='
+found_on=#2024-05-10 18:25:25
+message='Field "1" not found in temporary table "tmp_rapportipd".
+resource_key='arrt_seldes_trasfrap
+solvable=False
+status='unhandled
+tool='core::document
+type='Warning
+weights={
+'Accuracy
+-10
+}
+I
+]
+*--*

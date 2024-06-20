@@ -1,0 +1,733 @@
+ 1
+"Operazioni"
+"kperazbo"
+"kperazbo"
+ 0
+ 0
+*
+ 85
+"Idbase"
+"kperazbo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Numero Progressivo"
+"kperazbo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Operazione"
+"kperazbo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Tipo Intermediaro"
+"kperazbo.TIPOINTER"
+"TIPOINTER"
+"C"
+ 2
+ 0
+*
+"Codice Intermediario"
+"kperazbo.CODINTER"
+"CODINTER"
+"C"
+ 11
+ 0
+*
+"Tipo Informazione"
+"kperazbo.TIPOINF"
+"TIPOINF"
+"C"
+ 1
+ 0
+*
+"ID Registrazione"
+"kperazbo.IDEREG"
+"IDEREG"
+"C"
+ 20
+ 0
+*
+"Codice Dipendenza"
+"kperazbo.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+*
+"Città Dipendenza"
+"kperazbo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia Dipendenza"
+"kperazbo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"CAB Dipendenza"
+"kperazbo.CODCAB"
+"CODCAB"
+"C"
+ 6
+ 0
+*
+"Frazionata (S/N)"
+"kperazbo.FLAGFRAZ"
+"FLAGFRAZ"
+"C"
+ 1
+ 0
+*
+"Contanti (S/N)"
+"kperazbo.FLAGCONT"
+"FLAGCONT"
+"C"
+ 1
+ 0
+*
+"Causale Analitica"
+"kperazbo.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+*
+"Causale Sintetica"
+"kperazbo.CODVOC"
+"CODVOC"
+"C"
+ 2
+ 0
+*
+"Tipo Intermediario C/Parte"
+"kperazbo.TIPOINT2"
+"TIPOINT2"
+"C"
+ 2
+ 0
+*
+"Codice Intermediario C/Parte"
+"kperazbo.CODINT2"
+"CODINT2"
+"C"
+ 11
+ 0
+*
+"Stato Intermediario C/Parte"
+"kperazbo.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+*
+"Denominazione Intermediario C/Parte"
+"kperazbo.DESC2"
+"DESC2"
+"C"
+ 30
+ 0
+*
+"Provincia Intermediario C/Parte"
+"kperazbo.PROV2"
+"PROV2"
+"C"
+ 2
+ 0
+*
+"CAB Intermediario C/Parte"
+"kperazbo.CODCAB2"
+"CODCAB2"
+"C"
+ 6
+ 0
+*
+""
+"kperazbo.DESCINTER"
+"DESCINTER"
+"C"
+ 50
+ 0
+*
+"Rapporto Collegato"
+"kperazbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Tipo Rapporto Collegato"
+"kperazbo.FLAGRAP"
+"FLAGRAP"
+"C"
+ 1
+ 0
+*
+"Tipo Legame sogg. Operante"
+"kperazbo.TIPOLEG"
+"TIPOLEG"
+"C"
+ 1
+ 0
+*
+"Data registrazione"
+"kperazbo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Tipo operazione"
+"kperazbo.OPRAP"
+"OPRAP"
+"C"
+ 1
+ 0
+*
+"Tipo Operazione Completa"
+"kperazbo.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+"Lire Euro Valuta"
+"kperazbo.FLAGLIRE"
+"FLAGLIRE"
+"C"
+ 1
+ 0
+*
+"Divisa"
+"kperazbo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+"Segno"
+"kperazbo.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+*
+"Totale Operazione"
+"kperazbo.TOTLIRE"
+"TOTLIRE"
+"N"
+ 15
+ 0
+*
+"di cui contanti"
+"kperazbo.TOTCONT"
+"TOTCONT"
+"N"
+ 15
+ 0
+*
+"Stato registrazione"
+"kperazbo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+"Operazione Modificata"
+"kperazbo.OPERAZMOD"
+"OPERAZMOD"
+"C"
+ 20
+ 0
+*
+"Data Rettifica"
+"kperazbo.DATARETT"
+"DATARETT"
+"D"
+ 8
+ 0
+*
+"Codice Cliente Occasionale"
+"kperazbo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Soggetto Operante Conto Terzi"
+"kperazbo.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+*
+"Beneficiario"
+"kperazbo.CONNESBEN"
+"CONNESBEN"
+"C"
+ 16
+ 0
+*
+"Collegamento Operazione Multiple"
+"kperazbo.COLLEG"
+"COLLEG"
+"C"
+ 11
+ 0
+*
+"Cambio"
+"kperazbo.CAMBIO"
+"CAMBIO"
+"N"
+ 9
+ 4
+*
+"Rapporto Beneficiario"
+"kperazbo.RAPPORTBEN"
+"RAPPORTBEN"
+"C"
+ 25
+ 0
+*
+"Tipo Rapporto Beneficiario"
+"kperazbo.FLAGRAP2"
+"FLAGRAP2"
+"C"
+ 1
+ 0
+*
+"Operatore"
+"kperazbo.OPERATORE"
+"OPERATORE"
+"C"
+ 70
+ 0
+*
+"Importazione da file esterno"
+"kperazbo.AUTOM"
+"AUTOM"
+"C"
+ 5
+ 0
+*
+"ID BASE Causale Analitica"
+"kperazbo.idcauana"
+"idcauana"
+"C"
+ 4
+ 0
+*
+""
+"kperazbo.OPERAG"
+"OPERAG"
+"C"
+ 3
+ 0
+*
+""
+"kperazbo.DOCFILE"
+"DOCFILE"
+"C"
+ 100
+ 0
+*
+""
+"kperazbo.RESPINS"
+"RESPINS"
+"C"
+ 30
+ 0
+*
+""
+"kperazbo.INFORM"
+"INFORM"
+"C"
+ 30
+ 0
+*
+"Data Operazione in Carattere"
+"kperazbo.CDATOPE"
+"CDATOPE"
+"C"
+ 8
+ 0
+*
+""
+"kperazbo.NOPROT"
+"NOPROT"
+"N"
+ 1
+ 0
+*
+""
+"kperazbo.UCODE"
+"UCODE"
+"C"
+ 7
+ 0
+*
+""
+"kperazbo.CDATAOPE"
+"CDATAOPE"
+"C"
+ 10
+ 0
+*
+""
+"kperazbo.ZCPARTE"
+"ZCPARTE"
+"C"
+ 69
+ 0
+*
+"Ragionevolezza"
+"kperazbo.RAGIO"
+"RAGIO"
+"C"
+ 5
+ 0
+*
+"Modalità Svolgimento"
+"kperazbo.MODSVOL"
+"MODSVOL"
+"C"
+ 5
+ 0
+*
+"Area Geografica"
+"kperazbo.AREAGEO"
+"AREAGEO"
+"C"
+ 5
+ 0
+*
+""
+"kperazbo.RIFIMP"
+"RIFIMP"
+"C"
+ 15
+ 0
+*
+""
+"kperazbo.SCOPO"
+"SCOPO"
+"C"
+ 50
+ 0
+*
+""
+"kperazbo.NATURA"
+"NATURA"
+"C"
+ 50
+ 0
+*
+""
+"kperazbo.RTIPO"
+"RTIPO"
+"N"
+ 3
+ 0
+*
+""
+"kperazbo.RCOMP"
+"RCOMP"
+"N"
+ 3
+ 0
+*
+""
+"kperazbo.RIMP"
+"RIMP"
+"N"
+ 3
+ 0
+*
+""
+"kperazbo.RFREQ"
+"RFREQ"
+"N"
+ 3
+ 0
+*
+""
+"kperazbo.RRAGIO"
+"RRAGIO"
+"N"
+ 3
+ 0
+*
+""
+"kperazbo.RAREA"
+"RAREA"
+"N"
+ 3
+ 0
+*
+""
+"kperazbo.TIPO"
+"TIPO"
+"C"
+ 3
+ 0
+*
+"Progressivo Import"
+"kperazbo.PRGIMPOPE"
+"PRGIMPOPE"
+"N"
+ 15
+ 0
+*
+"Codice univoco per importazioni di n sogetti operanti"
+"kperazbo.UNIQUECODE"
+"UNIQUECODE"
+"C"
+ 10
+ 0
+*
+"Connessione Tabella Storico Documenti"
+"kperazbo.CONNESDOC"
+"CONNESDOC"
+"C"
+ 40
+ 0
+*
+""
+"kperazbo.C_RAG"
+"C_RAG"
+"C"
+ 70
+ 0
+*
+""
+"kperazbo.C_STA"
+"C_STA"
+"C"
+ 3
+ 0
+*
+""
+"kperazbo.C_CTA"
+"C_CTA"
+"C"
+ 30
+ 0
+*
+""
+"kperazbo.C_CAB"
+"C_CAB"
+"C"
+ 6
+ 0
+*
+""
+"kperazbo.C_PRV"
+"C_PRV"
+"C"
+ 2
+ 0
+*
+""
+"kperazbo.C_IND"
+"C_IND"
+"C"
+ 35
+ 0
+*
+""
+"kperazbo.C_CAP"
+"C_CAP"
+"C"
+ 5
+ 0
+*
+""
+"kperazbo.CONNALTRO"
+"CONNALTRO"
+"C"
+ 16
+ 0
+*
+""
+"kperazbo.DATAIMP"
+"DATAIMP"
+"D"
+ 8
+ 0
+*
+""
+"kperazbo.C_RAPPORTO"
+"C_RAPPORTO"
+"C"
+ 25
+ 0
+*
+""
+"kperazbo.PAGASOGOP"
+"PAGASOGOP"
+"C"
+ 1
+ 0
+*
+"Riferimento operazione WU"
+"kperazbo.MTCN"
+"MTCN"
+"C"
+ 10
+ 0
+*
+"Identificativo File"
+"kperazbo.IDFILE"
+"IDFILE"
+"C"
+ 60
+ 0
+*
+"Data Registrazione in carattere"
+"kperazbo.CDATREG"
+"CDATREG"
+"C"
+ 8
+ 0
+*
+ 0
+ 6
+"kperazbo.CDATOPE"
+""
+">="
+"?w_c_dadata"
+"AND"
+""
+*
+"kperazbo.CDATOPE"
+""
+"<="
+"?w_c_adata"
+"AND"
+""
+*
+"kperazbo.CONNESCLI"
+""
+">="
+"?w_daCodCli"
+"AND"
+""
+*
+"kperazbo.CONNESCLI"
+""
+"<="
+"?w_aCodCli"
+"AND"
+""
+*
+"kperazbo.CODDIPE"
+""
+">="
+"?w_daCodDip"
+"AND"
+""
+*
+"kperazbo.CODDIPE"
+""
+"<="
+"?w_aCodDip"
+"AND"
+""
+*
+ 3
+"Data Operazione"
+"DATAOPE"
+"Ascending"
+*
+"Numero Progressivo"
+"NUMPROG"
+"Ascending"
+*
+"Stato registrazione"
+"STATOREG"
+"Ascending"
+*
+ 0
+ 0
+ 6
+"w_c_dadata"
+"Da data operazione"
+"C"
+"8"
+"0"
+"Remove"
+*
+"w_c_adata"
+"A data operazione"
+"C"
+"8"
+"0"
+"Remove"
+*
+"w_daCodCli"
+"Da Cliente  Occasionale"
+"C"
+"16"
+"0"
+"Remove"
+*
+"w_aCodCli"
+"A Cliente Occasionale"
+"C"
+"16"
+"0"
+"Remove"
+*
+"w_daCodDip"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+*
+"w_aCodDip"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 76
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"PF6NY7%2FNYG%3C454WQ%3F%1A.CU%23%3F6Q%3BYZX%24%3D%22*.%40%5BM%24X%28%3DWF%3DL%3C%3D%235L%3D*AW%288%3C%5DR%24VGKK_10**LR%21EhT%3BA%24K%3A-BN5%07%22%5D%3D%19%3A%22%3C*.AW%3B*%3C5%1A1%3B.V%5C9TU%2FH8%24%40%40Y%22P-%2C%3A6LETH%237O3%29E%1E%3F9H0%3BBCRo%29%27%23%3DXQ4%2B%21%17%5B%12%2FB%407%23w8SM%26%3F%29%3DS%401+%23VZ%5CID*+%5DYD6%23.-C%19KP6PMOP8%3EN0E%223+%25t%5DRC%3FML%5B%26%40LDYMSI%279+Y%28%26%3A%22%5C2%2F8A%02L2%26NUKo24%3AY%235%3B%3D%3CM39%3B0%00"
+"*JG%234M%2F1_n-C%13R%260X%28%3D%24%5CH%3C%28TaPZ3sV-%15A4R%27%3A%3DJF%254%237%407%21%5EX258Z%2F8%27%22%3CB.l+8P%2BF%1AY0%3C%3FOYAO%3D%3CI%3EM%5C%3ALX%3D%24%3F%27+LTDR%3ERM%3E%40H%260O%3E-JCYA9%16H%0B%7DG%3DE%07+%22%3BL%26BLF+H%27I%3DG%3D.%2B69%5CHL%5B9%2FK1%2FAA278%40Y09%28IbHERPE8C%1F4%282%23%2C%227%5Eo80G%28C%5B%40JZ0-13%1Fqc%5EuMU%5E*N%3F*%223%27%25GJT_%3D%17MT%5DR%3CAUH+7JHL%5C+%265MHXB%3B%3FV0W%05Z%3CCl+%3DD%24U%3EKF%074.%4064%00"
+""
+""
+"native"
+ 0
+ 0
+*

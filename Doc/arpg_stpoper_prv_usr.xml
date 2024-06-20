@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="83653616">
+  <CodifyName>arpg_stpoper_prv</CodifyName>
+  <Name>arpg_stpoper_prv.pagedef</Name>
+  <Title>Stampa Operazioni (Provvisorie)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="142101071"></Title>
+    <Note/>
+    <JPG x="8" y="9">arpg_stpoper_prv_usr_1</JPG>
+    <Item type="variabile" x1="144" y1="18" x2="214" y2="38">
+      <Name LinkID="263195647">daCodDip</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="46" x2="214" y2="66">
+      <Name LinkID="223892129">aCodDip</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="72" x2="216" y2="92">
+      <Name LinkID="73262604">DaDatOpe</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="368" y1="67" x2="440" y2="87">
+      <Name LinkID="174509151">ADatOpe</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="99" x2="238" y2="119">
+      <Name LinkID="246418424">daCodCli</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="127" x2="238" y2="147">
+      <Name LinkID="93826399">aCodCli</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="180" x2="272" y2="246">
+      <Name LinkID="208855695">Tipop</Name>
+      <Comment>Tipo operazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="279" x2="145" y2="332">
+      <Name LinkID="243804991">OrderBy</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="496" y1="270" x2="637" y2="323">
+      <Name LinkID="55122801">tipstp</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="304" y1="306" x2="344" y2="339">
+      <Name LinkID="83653711">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>arrt_stpoper_prv</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="360" y1="306" x2="400" y2="339">
+      <Name LinkID="83653711">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

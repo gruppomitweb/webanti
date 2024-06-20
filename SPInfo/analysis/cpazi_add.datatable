@@ -1,0 +1,68 @@
+﻿* --- Resource Vers. 0.9
+cpazi_add<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Dati Aggiuntivi Azienda
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cpazi_add
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cpazi_add.codazi
+'cpazi_add.flgotp
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cpazi_add.codazi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Azienda
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='codazi
+state=3
+table_name='cpazi_add
+type='field
+used_resource_keys={}
+I
+'cpazi_add.flgotp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Gestione OTP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='flgotp
+state=3
+table_name='cpazi_add
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cpazi_add.codazi
+[]
+'cpazi_add.flgotp
+[]
+}
+*--*

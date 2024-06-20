@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="117595476">
+  <CodifyName>arpg_trasfope_wu</CodifyName>
+  <Name>arpg_trasfope_wu.pagedef</Name>
+  <Title>Trasferimento Operazioni Provvisorie</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="176042931"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_trasfope_wu_usr_1</JPG>
+    <Item type="variabile" x1="144" y1="12" x2="216" y2="32">
+      <Name LinkID="39320744">DaDatOpe</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="392" y1="9" x2="464" y2="29">
+      <Name LinkID="208451011">ADatOpe</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="257" x2="1380" y2="270">
+      <Name LinkID="221211100">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="244" x2="1380" y2="257">
+      <Name LinkID="124724467">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="225" x2="104" y2="241">
+      <Name LinkID="117595571">c_DATAOPE</Name>
+      <Help></Help>
+      <Expression>c_DATAOPE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="112" y1="225" x2="192" y2="241">
+      <Name LinkID="117595571">c_NUMPROG</Name>
+      <Help></Help>
+      <Expression>c_NUMPROG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="464" y1="225" x2="569" y2="241">
+      <Name LinkID="117595571">c_TOTLIRE</Name>
+      <Help></Help>
+      <Expression>c_TOTLIRE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="576" y1="225" x2="681" y2="241">
+      <Name LinkID="117595571">c_TOTCONT</Name>
+      <Help></Help>
+      <Expression>c_TOTCONT</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="200" y1="225" x2="350" y2="241">
+      <Name LinkID="117595571">c_RAPPORTO</Name>
+      <Help></Help>
+      <Expression>c_RAPPORTO</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="360" y1="225" x2="456" y2="241">
+      <Name LinkID="117595571">c_CONNESCLI</Name>
+      <Help></Help>
+      <Expression>c_CONNESCLI</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="704" y1="17" x2="744" y2="47">
+      <Name LinkID="117595571">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_trasfope_wu</Hyperlink>
+      <HyperlinkOpenOn>Frame</HyperlinkOpenOn>
+      <Help>Esecuzione trasferimento dati da provvisorie a definitive</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="656" y1="17" x2="696" y2="47">
+      <Name LinkID="117595571">images/search.gif</Name>
+      <Image>images/search.gif</Image>
+      <Hyperlink>arrt_trasfope_sel</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Visualizza registrazioni comprese nel periodo</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="608" y1="17" x2="648" y2="47">
+      <Name LinkID="117595571">images/save.gif</Name>
+      <Image>images/save.gif</Image>
+      <Hyperlink>Update()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Conferma i record selezionati</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="560" y1="17" x2="600" y2="47">
+      <Name LinkID="117595571">images/dese_all.gif</Name>
+      <Image>images/dese_all.gif</Image>
+      <Hyperlink>arrt_seldes_trasfope</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Deseleziona tutti i rapporti</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="512" y1="17" x2="552" y2="47">
+      <Name LinkID="117595571">images/sel_all.gif</Name>
+      <Image>images/sel_all.gif</Image>
+      <Hyperlink>arrt_seldes_trasfope</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Seleziona tutti i rapporti</Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="688" y1="223" x2="771" y2="244">
+      <Name LinkID="139846125">FLGSEL</Name>
+      <Comment>Flag record selezionato</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="752" y1="17" x2="792" y2="47">
+      <Name LinkID="117595571">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="36" x2="216" y2="56">
+      <Name LinkID="11010906">DaDatReg</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="392" y1="33" x2="464" y2="53">
+      <Name LinkID="27047363">ADatReg</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

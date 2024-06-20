@@ -1,0 +1,370 @@
+ 1
+"Stampa Soggetti Collegati a operazioni"
+"tmp_soggettioper"
+"tmp_soggettioper"
+ 0
+ 0
+*
+ 31
+"Idbase"
+"tmp_soggettioper.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"I=Intestatario - T=Terzo - C=Controparte"
+"tmp_soggettioper.TIPOPERS"
+"TIPOPERS"
+"C"
+ 1
+ 0
+*
+"Numero Progressivo"
+"tmp_soggettioper.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Tipo Intermediaro"
+"tmp_soggettioper.TIPOINTER"
+"TIPOINTER"
+"C"
+ 2
+ 0
+*
+"Codice Intermediario"
+"tmp_soggettioper.CODINTER"
+"CODINTER"
+"C"
+ 11
+ 0
+*
+"Tipo Informazione"
+"tmp_soggettioper.TIPOINF"
+"TIPOINF"
+"C"
+ 1
+ 0
+*
+"ID Registrazione"
+"tmp_soggettioper.IDEREG"
+"IDEREG"
+"C"
+ 20
+ 0
+*
+"Codice Collegamento"
+"tmp_soggettioper.CONNES"
+"CONNES"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"tmp_soggettioper.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Stato"
+"tmp_soggettioper.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+*
+"CAB"
+"tmp_soggettioper.CODCAB"
+"CODCAB"
+"C"
+ 6
+ 0
+*
+"Città"
+"tmp_soggettioper.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"tmp_soggettioper.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"Indirizzo"
+"tmp_soggettioper.DOMICILIO"
+"DOMICILIO"
+"C"
+ 35
+ 0
+*
+"CAP"
+"tmp_soggettioper.CAP"
+"CAP"
+"C"
+ 9
+ 0
+*
+"Codice Fiscale"
+"tmp_soggettioper.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Data Nascita"
+"tmp_soggettioper.DATANASC"
+"DATANASC"
+"D"
+ 8
+ 0
+*
+"Luogo di Nascita"
+"tmp_soggettioper.NASCOMUN"
+"NASCOMUN"
+"C"
+ 30
+ 0
+*
+"Stato di nascita"
+"tmp_soggettioper.NASSTATO"
+"NASSTATO"
+"C"
+ 30
+ 0
+*
+"Sottogruppo Att. Ec."
+"tmp_soggettioper.SOTGRUP"
+"SOTGRUP"
+"C"
+ 3
+ 0
+*
+"Ramo Gruppo Att. Ec."
+"tmp_soggettioper.RAMOGRUP"
+"RAMOGRUP"
+"C"
+ 3
+ 0
+*
+"Settorizzazione UIC"
+"tmp_soggettioper.SETTSINT"
+"SETTSINT"
+"C"
+ 3
+ 0
+*
+"Tipo Documento"
+"tmp_soggettioper.TIPODOC"
+"TIPODOC"
+"C"
+ 2
+ 0
+*
+"Numero Doc."
+"tmp_soggettioper.NUMDOCUM"
+"NUMDOCUM"
+"C"
+ 15
+ 0
+*
+"Data Rilascio Doc."
+"tmp_soggettioper.DATARILASC"
+"DATARILASC"
+"D"
+ 8
+ 0
+*
+"Autorità di rilascio"
+"tmp_soggettioper.AUTRILASC"
+"AUTRILASC"
+"C"
+ 30
+ 0
+*
+"Sesso"
+"tmp_soggettioper.SESSO"
+"SESSO"
+"C"
+ 1
+ 0
+*
+""
+"tmp_soggettioper.ATTIV"
+"ATTIV"
+"C"
+ 10
+ 0
+*
+"Rapporto"
+"tmp_soggettioper.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Tipo Rapporto"
+"tmp_soggettioper.FLAGRAP"
+"FLAGRAP"
+"C"
+ 1
+ 0
+*
+"Provincia di Nascita"
+"tmp_soggettioper.PROVANAS"
+"PROVANAS"
+"C"
+ 2
+ 0
+*
+ 0
+ 1
+"tmp_soggettioper.TIPOPERS"
+""
+"="
+"ýIý"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 13
+"w_c_dadata"
+"Data Operazione"
+"C"
+"8"
+"0"
+"Remove"
+""
+*
+"w_c_adata"
+"Data Operazione"
+"C"
+"8"
+"0"
+"Remove"
+""
+*
+"w_daCodCli"
+"Cliente Occasionale"
+"C"
+"16"
+"0"
+"Remove"
+""
+*
+"w_aCodCli"
+"Cliente Occasionale"
+"C"
+"16"
+"0"
+"Remove"
+""
+*
+"w_DescAzi"
+"Ragione Sociale"
+"C"
+"70"
+"0"
+"Remove"
+""
+*
+"w_daCodDip"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+""
+*
+"w_aCodDip"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+""
+*
+"w_pTipo"
+"Tipo Operazioni"
+"C"
+"1"
+"0"
+"Remove"
+""
+*
+"w_pAUI"
+"Tipo Archivio"
+"C"
+"1"
+"0"
+"Remove"
+""
+*
+"w_dacdatreg"
+"Da Data Registrazione (carattere)"
+"C"
+"8"
+"0"
+"Remove"
+""
+*
+"w_acdatreg"
+"A Data Registrazione (carattere)"
+"C"
+"8"
+"0"
+"Remove"
+""
+*
+"w_DaDatReg"
+"Da Data Registrazione"
+"D"
+"8"
+"0"
+"Remove"
+""
+*
+"w_ADatReg"
+"A Data Registrazione"
+"D"
+"8"
+"0"
+"Remove"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 50
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%5DR%5C%23%5EL%21%3Ey%3FE5%23%3BBHJ25%268%23-%1F%2CQLWHS8PL%2CH6I%27-HU%27F%1E%237%22%2733M%228RDDOPc%21GPs2%24L1%3C%291%2F%5BJZE%408N%3C%2C.%40NBZI%3F%3EC%24S%5BS%25LL%5B7%297I*%3B%29%3C%23VRo%1C%17J9%2B5WF%04*%02E%18KZIvt7%29D%05%3B%2BJV%3D7QvN%5Co%25%3DB+.k%408%3F4ZB%26OZ%3C%40%5D%5E%25Q%27%3CIN0D%2F_uL%5BH%28+MV%241V%22%04%28Z%24-MOF%23tWRM1O7%1B%223%2B%25HCHN49D%3FYI%3F%22%24363%25%1CS2OXN%5BW%3FL3N_2%3D%3FH%3DB5%3C%248X%5C6%5D%1A8%3A%5DB2%3E%00"
+"ZI%3ENM_Z4G%3E*%24.5%2702%1A%3AA%019%184O9I%5C0%2F1%06I1A%3BK%2F%05TSW2J%23%3D%29G_E8%3DH%033%25.XU%22G%3CWH%3C%21%27%29%236%28QVU.7OB%13P%23GBN3MQMGC+%5BL+XXV%5DO%2FGW%10*T-JOZJ%3DDV%5EkF9%2BC7%21%3A0XXROR%22Y%055FHU1%3C%3A%21OF%3CLA%3E%27%2BS%3F0%07%23%2F2%2F%3EOWtOoTY*%28%2F3R2%5E%3A%5B1%23%3D8%28%26%3B_h%5B.%5B0%228%19%3Ep%3AB%22P_B%3A+%2FE%223%23%25%5E9x%40%2B37Y%7CC%3B+%2BG%00%3D*%26XJ%27u9TK%2CF4%2C%5E%28R%23u9_I%25%2B-%5C%7DY%3D3W%3ES%40%29%3F%00"
+""
+""
+"native"
+ 0
+ 0
+*

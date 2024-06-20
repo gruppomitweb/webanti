@@ -1,0 +1,733 @@
+﻿* --- Resource Vers. 0.9
+dw_operazioni<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Estrazione movimenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='dw_operazioni
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'dw_operazioni.progope
+'dw_operazioni.tipo
+'dw_operazioni.coddip
+'dw_operazioni.agenzia
+'dw_operazioni.sede_agenzia
+'dw_operazioni.numope
+'dw_operazioni.importo
+'dw_operazioni.ndg
+'dw_operazioni.cognome
+'dw_operazioni.nome
+'dw_operazioni.sesso
+'dw_operazioni.luogonas
+'dw_operazioni.datanas
+'dw_operazioni.codfisc
+'dw_operazioni.tipodoc
+'dw_operazioni.numdoc
+'dw_operazioni.dataril
+'dw_operazioni.autril
+'dw_operazioni.cittares
+'dw_operazioni.capres
+'dw_operazioni.prvres
+'dw_operazioni.indirizzo
+'dw_operazioni.statores
+'dw_operazioni.tipoopeuic
+'dw_operazioni.cauana
+'dw_operazioni.causin
+'dw_operazioni.segno
+'dw_operazioni.dataope
+'dw_operazioni.ragsoccont
+'dw_operazioni.paesecont
+'dw_operazioni.statoope
+'dw_operazioni.datareg
+'dw_operazioni.opefrz
+'dw_operazioni.mtcn
+'dw_operazioni.macroagente
+'dw_operazioni.cfestero
+'dw_operazioni.codinter
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'dw_operazioni.agenzia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Agenzia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AGENZIA
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.autril
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Autorità Rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AUTRIL
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.capres
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAP Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAPRES
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.cauana
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Analitica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAUANA
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.causin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Sintetica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAUSIN
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.cfestero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Fittizio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFESTERO
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.cittares
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città di Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CITTARES
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.coddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Agenzia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIP
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODFISC
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.cognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cognome Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COGNOME
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.datanas
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATANAS
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.datareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAREG
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.dataril
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATARIL
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.importo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPORTO
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.indirizzo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INDIRIZZO
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.luogonas
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Luogo di Nascita Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='LUOGONAS
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.macroagente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Macro Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MACROAGENTE
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.mtcn
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='MTCN
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MTCN
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.ndg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='NDG Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NDG
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.nome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOME
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.numdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='N. Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMDOC
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.numope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Prog. UIC
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMOPE
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.opefrz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazione/Frazionata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPEFRZ
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.paesecont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Paese Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESECONT
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.progope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGOPE
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.prvres
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRVRES
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.ragsoccont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGSOCCONT
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.sede_agenzia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sede Agenzia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SEDE_AGENZIA
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.segno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Segno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SEGNO
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.sesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sesso Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SESSO
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.statoope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='STATOOPE
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.statores
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato di Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='STATORES
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPO
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.tipodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPODOC
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+'dw_operazioni.tipoopeuic
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOOPEUIC
+state=3
+table_name='dw_operazioni
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'dw_operazioni.agenzia
+[]
+'dw_operazioni.autril
+[]
+'dw_operazioni.capres
+[]
+'dw_operazioni.cauana
+[]
+'dw_operazioni.causin
+[]
+'dw_operazioni.cfestero
+[]
+'dw_operazioni.cittares
+[]
+'dw_operazioni.coddip
+[]
+'dw_operazioni.codfisc
+[]
+'dw_operazioni.codinter
+[]
+'dw_operazioni.cognome
+[]
+'dw_operazioni.datanas
+[]
+'dw_operazioni.dataope
+[]
+'dw_operazioni.datareg
+[]
+'dw_operazioni.dataril
+[]
+'dw_operazioni.importo
+[]
+'dw_operazioni.indirizzo
+[]
+'dw_operazioni.luogonas
+[]
+'dw_operazioni.macroagente
+[]
+'dw_operazioni.mtcn
+[]
+'dw_operazioni.ndg
+[]
+'dw_operazioni.nome
+[]
+'dw_operazioni.numdoc
+[]
+'dw_operazioni.numope
+[]
+'dw_operazioni.opefrz
+[]
+'dw_operazioni.paesecont
+[]
+'dw_operazioni.progope
+[]
+'dw_operazioni.prvres
+[]
+'dw_operazioni.ragsoccont
+[]
+'dw_operazioni.sede_agenzia
+[]
+'dw_operazioni.segno
+[]
+'dw_operazioni.sesso
+[]
+'dw_operazioni.statoope
+[]
+'dw_operazioni.statores
+[]
+'dw_operazioni.tipo
+[]
+'dw_operazioni.tipodoc
+[]
+'dw_operazioni.tipoopeuic
+[]
+}
+*--*

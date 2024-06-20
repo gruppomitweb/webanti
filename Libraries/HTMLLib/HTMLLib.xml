@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+    <description>Libreria javascript di manipolazione DOM</description>
+    <note></note>
+    <function>
+        <name>splitWithStyle</name>
+        <description>Splitta una parola e applica la classe passata come parametro alla seconda parte del testo</description>
+        <type>C</type>
+        <parameter>
+            <name>pText</name>
+            <description>Testo da elaborare</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>pSplit</name>
+            <description>Carattere per cui splittare</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>pClass</name>
+            <description>Classe css che viene applicata</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>getWindowSize</name>
+        <description>Questa funzione restituisce altezza o larghezza dell&apos;oggetto window a seconda della modalità con cui viene richiamata.</description>
+        <type>N</type>
+        <parameter>
+            <name>pMode</name>
+            <description>Modalità:&#x0A;- h: restituisce altezza&#x0A;- w: restituisce larghezza </description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>getScrollTop</name>
+        <description>Restituisce altezza delle scrollbar</description>
+        <type>N</type>
+    </function>
+    <function>
+        <name>decodeDate</name>
+        <description></description>
+        <type>C</type>
+    </function>
+    <function>
+        <name>getPortletDecoratorId</name>
+        <description></description>
+        <type>C</type>
+    </function>
+    <function>
+        <name>getControlIdByName</name>
+        <description>Ritorna l&apos;id di un elemento recuperato attraverso il nome</description>
+        <type>C</type>
+        <parameter>
+            <name>pName</name>
+            <description>Nome dell&apos;elemento</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>changeBg</name>
+        <description>Si occupa di associare una immagine di background al controllo HTML passato come parametro</description>
+        <type>V</type>
+        <parameter>
+            <name>oCtrl</name>
+            <description>Controllo HTML</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>setGadgetStyle</name>
+        <description></description>
+        <type>V</type>
+        <parameter>
+            <name>caller</name>
+            <description>Portlet chiamante</description>
+            <type>O</type>
+            <classname></classname>
+        </parameter>
+        <parameter>
+            <name>hideTitle</name>
+            <description>Nasconde titolo del gadget se impostato a true</description>
+            <type>L</type>
+        </parameter>
+        <parameter>
+            <name>hideCard</name>
+            <description>Nasconde effetto card</description>
+            <type>L</type>
+        </parameter>
+    </function>
+</library>

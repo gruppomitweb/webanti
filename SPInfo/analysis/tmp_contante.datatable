@@ -1,0 +1,353 @@
+﻿* --- Resource Vers. 0.9
+tmp_contante<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Import Contante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_contante
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_contante.numprog
+'tmp_contante.tipatt
+'tmp_contante.tipoattiv
+'tmp_contante.codicegln
+'tmp_contante.totbanknote
+'tmp_contante.taglio
+'tmp_contante.nbanconote
+'tmp_contante.abiinter
+'tmp_contante.abipropr
+'tmp_contante.glnaltrosog
+'tmp_contante.glnaltrasc
+'tmp_contante.codclicon
+'tmp_contante.codcomcon
+'tmp_contante.ateco_con
+'tmp_contante.coddipe
+'tmp_contante.impprog
+'tmp_contante.totriga
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_contante.abiinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ABI Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ABIINTER
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.abipropr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ABI Proprietario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ABIPROPR
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.ateco_con
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Ateco Cliente Contante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ATECO_CON
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.codclicon
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Cliente Contante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODCLICON
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.codcomcon
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice ISTAT Comune Cliente Contante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODCOMCON
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODDIPE
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.codicegln
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='GLN Sala Conta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODICEGLN
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.glnaltrasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='GLN Sala Conta Altro Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='GLNALTRASC
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.glnaltrosog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='GLN Altro Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='GLNALTROSOG
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.impprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Progressivo Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IMPPROG
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.nbanconote
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='N. Banconote
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NBANCONOTE
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Collegamento Operazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMPROG
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.taglio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Taglio Banconota
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TAGLIO
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.tipatt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo attività
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPATT
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.tipoattiv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='SPortello/CashDispenser
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOATTIV
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.totbanknote
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Banconote Ritirate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TOTBANKNOTE
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+'tmp_contante.totriga
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Totale Riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TOTRIGA
+state=3
+table_name='tmp_contante
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_contante.abiinter
+[]
+'tmp_contante.abipropr
+[]
+'tmp_contante.ateco_con
+[]
+'tmp_contante.codclicon
+[]
+'tmp_contante.codcomcon
+[]
+'tmp_contante.coddipe
+[]
+'tmp_contante.codicegln
+[]
+'tmp_contante.glnaltrasc
+[]
+'tmp_contante.glnaltrosog
+[]
+'tmp_contante.impprog
+[]
+'tmp_contante.nbanconote
+[]
+'tmp_contante.numprog
+[]
+'tmp_contante.taglio
+[]
+'tmp_contante.tipatt
+[]
+'tmp_contante.tipoattiv
+[]
+'tmp_contante.totbanknote
+[]
+'tmp_contante.totriga
+[]
+}
+*--*

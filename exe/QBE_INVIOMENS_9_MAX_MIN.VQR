@@ -1,0 +1,71 @@
+ 1
+"Soggetti conto informazioni"
+"intestbo"
+"intestbo"
+ 5
+ 5
+*
+ 2
+"Progressivo Import"
+"MAX(intestbo.PRGIMPSOG)"
+"MAXPRGIMPSOG"
+"Numeric"
+ 15
+ 0
+*
+"Progressivo Import"
+"MIN(intestbo.PRGIMPSOG)"
+"MINPRGIMPSOG"
+"Numeric"
+ 15
+ 0
+*
+ 0
+ 2
+"intestbo.DATAINI"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"intestbo.DATAINI"
+""
+"<="
+"?w_a_data"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_dadata"
+"Data Inizio"
+"Date"
+"8"
+"0"
+""
+*
+"w_a_data"
+"Data Fine"
+"Date"
+"8"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 24
+.f.
+""
+.f.
+*

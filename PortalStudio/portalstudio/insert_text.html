@@ -1,0 +1,103 @@
+<html>
+<head>
+ <title>Insert Text</title>
+ <script type="text/javascript" src="../stdFunctions.js"></script>
+ <script type="text/javascript" src="../controls.js"></script>
+ <link rel="stylesheet" href="../filewindow.css" type="text/css">
+ <script type="text/javascript">
+	var GET_DATA=(function(){
+
+	  var res={};
+	  var getDataString=new String(window.location);
+	  var questionMarkLocation=getDataString.search(/\?/);
+	  if (questionMarkLocation!=-1){
+		getDataString=getDataString.substr(questionMarkLocation+1);
+		var getDataArray=getDataString.split(/&/g);
+		for (var i=0;i<getDataArray.length;i++){
+		  var nameValuePair=getDataArray[i].split(/=/);
+		  res[unescape(nameValuePair[0])]=unescape(nameValuePair[1]);
+		}
+	  }
+	  return res;
+	})();
+
+  var openerWindow;
+  QueryString.keys = new Array();
+  QueryString.values = new Array();
+  function QueryString(key) {
+    var value = null;
+    for (var i=0;i<QueryString.keys.length;i++) {
+      if (QueryString.keys[i]==key) {
+        value = QueryString.values[i];
+        break;
+      }
+    }
+    return value;
+  }
+  function QueryString_Parse() {
+    var query = window.location.search.substring(1);
+    var pairs = query.split("&");
+
+    for (var i=0;i<pairs.length;i++) {
+      var pos = pairs[i].indexOf('=');
+      if (pos >= 0) {
+        var argname = pairs[i].substring(0,pos);
+        var value = pairs[i].substring(pos+1);
+        QueryString.keys[QueryString.keys.length] = argname;
+        QueryString.values[QueryString.values.length] = value;
+      }
+    }
+  }
+  function getOpener() {
+    if(QueryString("SPModalLayerId") =='notesSPModalLayer') return window.parent;
+    return window.opener;
+  }
+  function CloseWindow(){
+    if (QueryString("SPModalLayerId")) openerWindow.closeSPModalLayer();
+    else window.close()
+  }
+  
+  var ReturnObjectId=null;
+  var callerFunction=null;
+  
+  function Init(){
+    QueryString_Parse();
+    openerWindow = getOpener();
+	if (GET_DATA.ExpressionID == "null") GET_DATA.ExpressionID = null;
+	if (GET_DATA.ExpressionID !=null) {
+		ReturnObjectId=GET_DATA.ExpressionID;
+		document.getElementById('desc').value=openerWindow.document.getElementById(ReturnObjectId).value
+	}
+	if (GET_DATA.callerFunction == "null") GET_DATA.callerFunction = null;
+	if (GET_DATA.callerFunction !=null) callerFunction=GET_DATA.callerFunction;
+    window.focus();
+  }
+  
+  function setField(){
+    if(getOpener() && callerFunction && ReturnObjectId)
+		getOpener()[callerFunction](ReturnObjectId,document.getElementById("desc").value);
+    CloseWindow();
+  }
+  
+  
+ </script>
+</head>
+<body style="border:0;overflow:hidden;margin:0;background-color:#E4E4E4" onload="Init()">
+ <table border="1" width="100%" height="100%" cellpadding="0" cellspacing="1" align="center">
+  <tr>
+   <td class="titoli" align="center" height="20"><b><u>I</u>nsert Text</td>
+  </tr>
+  <tr>
+   <td class="contenuto">
+    <textarea id="desc" style="width:100%;height:100%;" accesskey="d"></textarea>
+   </td>
+  </tr>
+  <tr>
+   <td class='footer' height="20" valign="middle" align="center" nowrap>
+    <button onclick="setField();" accesskey="i" class="bottoni"><u>I</u>nsert</button>&nbsp;
+    <button onclick="CloseWindow();" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+   </td>
+  </tr>
+ </table>
+</body>
+</html>

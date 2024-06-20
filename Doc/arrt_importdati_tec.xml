@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="Routine.xsl"?>
+<Routine LinkID="190941936">arrt_importdati
+<Name>arrt_importdati.btcdef</Name>
+<Title>Import Tabelle</Title>
+<Type>Batch</Type>
+<Template>Routine entity (Routine)</Template>
+<Author></Author>
+<User></User>
+<Version></Version>
+<Created>2004-11-03</Created>
+<Lastrevision>2004-11-03</Lastrevision>
+<Pag number="1">
+  <Title LinkID="190941936"></Title>
+  <Item type="remark">
+    <Text>Variabili Locali</Text>
+    <Expression>Variabili Locali</Expression>
+  </Item>
+  <Item type="var">
+    <Text>w_idbase Char(4)</Text>
+    <Name>w_idbase</Name>
+    <Lenght>4</Lenght>
+    <Dec>0</Dec>
+    <Operation>def</Operation>
+    <Type>C</Type>
+    <Class></Class>
+    <Key>nokey</Key>
+    <Local>TRUE</Local>
+    <Parameter>FALSE</Parameter>
+    <Comment></Comment>
+  </Item>
+  <Item type="var">
+    <Text>nIdbase Numeric(4, 0)</Text>
+    <Name>nIdbase</Name>
+    <Lenght>4</Lenght>
+    <Dec>0</Dec>
+    <Operation>def</Operation>
+    <Type>N</Type>
+    <Class></Class>
+    <Key>nokey</Key>
+    <Local>TRUE</Local>
+    <Parameter>FALSE</Parameter>
+    <Comment></Comment>
+  </Item>
+  <Item type="remark">
+    <Text>Importa le tabelle base</Text>
+    <Expression>Importa le tabelle base</Expression>
+  </Item>
+  <Item type="delete">
+    <Text>Delete from tbcauana</Text>
+    <TableName>tbcauana</TableName>
+    <KeyFields>
+    <Field name="1" value="1"></Field>
+    </KeyFields>
+    <Type>values</Type>
+    <SelectTable></SelectTable>
+  </Item>
+  <Item type="var">
+    <Text>nIdbase := 0</Text>
+    <Name>nIdbase</Name>
+    <Expression>0</Expression>
+    <Lenght>4</Lenght>
+    <Dec>0</Dec>
+    <Operation>asgn</Operation>
+    <Type>N</Type>
+    <Class></Class>
+    <Key>nokey</Key>
+    <Local>TRUE</Local>
+    <Parameter>FALSE</Parameter>
+    <Comment></Comment>
+  </Item>
+  <Item type="var">
+    <Text>w_idbase := ''</Text>
+    <Name>w_idbase</Name>
+    <Expression>''</Expression>
+    <Lenght>4</Lenght>
+    <Dec>0</Dec>
+    <Operation>asgn</Operation>
+    <Type>C</Type>
+    <Class></Class>
+    <Key>nokey</Key>
+    <Local>TRUE</Local>
+    <Parameter>FALSE</Parameter>
+    <Comment></Comment>
+  </Item>
+  <Item type="select">
+    <Text>Select from f_tbcauana</Text>
+    <Type>fltb</Type>
+    <SelectTable>f_tbcauana</SelectTable>
+    <TableName>f_tbcauana</TableName>
+    <Field>*</Field>
+    <Where></Where>
+    <Order></Order>
+    <Group></Group>
+    <condition value="" number="1">
+    <Item type="var">
+      <Text>nIdbase := nIdbase + 1</Text>
+      <Name>nIdbase</Name>
+      <Expression>nIdbase + 1</Expression>
+      <Lenght>4</Lenght>
+      <Dec>0</Dec>
+      <Operation>asgn</Operation>
+      <Type>N</Type>
+      <Class></Class>
+      <Key>nokey</Key>
+      <Local>TRUE</Local>
+      <Parameter>FALSE</Parameter>
+      <Comment></Comment>
+    </Item>
+    <Item type="var">
+      <Text>w_idbase := Right('0000'+LRTrim(Str(nIdbase,4,0)),4)</Text>
+      <Name>w_idbase</Name>
+      <Expression>Right('0000'+LRTrim(Str(nIdbase,4,0)),4)</Expression>
+      <Lenght>4</Lenght>
+      <Dec>0</Dec>
+      <Operation>asgn</Operation>
+      <Type>C</Type>
+      <Class></Class>
+      <Key>nokey</Key>
+      <Local>TRUE</Local>
+      <Parameter>FALSE</Parameter>
+      <Comment></Comment>
+    </Item>
+    <Item type="insert">
+      <Text>Insert into tbcauana</Text>
+      <TableName>tbcauana</TableName>
+      <KeyFields>
+      <Field name="idbase" value="w_idbase"></Field>
+      <Field name="DESCRI" value="f_tbcauana-&gt;DESCRI"></Field>
+      <Field name="CODCAU" value="f_tbcauana-&gt;CODCAU"></Field>
+      <Field name="SEGNO" value="f_tbcauana-&gt;SEGNO"></Field>
+      <Field name="CAUSINT" value="f_tbcauana-&gt;CAUSINT"></Field>
+      </KeyFields>
+      <Type>values</Type>
+      <SelectTable></SelectTable>
+    </Item>
+    </condition>
+  </Item>
+</Pag>
+</Routine>

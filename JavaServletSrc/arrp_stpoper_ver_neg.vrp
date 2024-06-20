@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter Report (http://www.zucchetti.it) -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_stpoper_ver_neg||version||4.1||title||Stampa Controllo Dati Aggregati Negativa (Report)||query||qbe_stpoper_ver||font||Arial||font_size||9||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name||plan||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-03-16||date_rev||2010-09-15||form_class|| ||grid_dx||0||grid_dy||0||grid_show||0||grid_use||0||snaplines_show||1||language|| ||merge||false||modcnt||11||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| |||type||Variable||name||Descazi||value||w_gDescAzi||type_value||character||len||70||dec||0|||type||HeaderBar_top||name||bar_PageHeader_start||y||85||x||0||uid||IQSHCOANMM||sequence||1||bb_sequence||4|||type||HeaderBar_bottom||name||bar_PageHeader_end||y||222||x||0||uid||ANLQXGOPIM||sequence||4||bb_sequence||5|||type||Group_top||name||group0||y||87||uid||FGGUYMYNFQ||sequence||2||bb_sequence||6||comment|| ||exp||True||start_each_on_page||false||as_page_header||false||print_group_footer||false||as_page_footer||false||reset_page_number||false||numpage_expr|| ||printblock||false||reprint_header||false||reprint_footer||false||rows||0||output_name|| ||display_expr|| ||ingroup_expr|| ||outgroup_expr|| |||type||Group_down||name||group0||y||219||uid||ZTCMUJITLM||sequence||3||bb_sequence||7||comment|| ||exp||True||start_each_on_page||false||as_page_header||false||print_group_footer||false||as_page_footer||false||reset_page_number||false||numpage_expr|| ||printblock||false||reprint_header||false||reprint_footer||false||rows||0||output_name|| ||display_expr|| ||ingroup_expr|| ||outgroup_expr|| |||type||Label||name||label0||x||8||y||4||h||21||w||719||uid||GMGPGYROGO||sequence||16||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||FGGUYMYNFQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||11||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box1||x||10||y||27||h||22||w||319||uid||SQPOSTMDVZ||sequence||8||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Box||name||Box2||x||348||y||28||h||53||w||383||uid||YNRIPZTLYD||sequence||9||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label3||x||338||y||28||h||35||w||119||uid||TWQOYOTNIZ||sequence||10||value||Filtri attivi &lt;br&gt;sulla stampa||text_type||constant||comment|| ||align||center||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||FGGUYMYNFQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||10||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label4||x||12||y||30||h||21||w||315||uid||ARZAQDLYWG||sequence||11||value||STAMPA VERIFICA PER DATI AGGREGATI||text_type||constant||comment|| ||align||center||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||FGGUYMYNFQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||11||font_weight||bold||font_effect|| ||global_font||false|||type||Expr||name||expr5||x||643||y||34||h||18||w||80||uid||ETTSMHGPEZ||sequence||14||exp||arfn_fdate(CharToDate(cdadata))||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond||cdadata=&#39;&#39; or Empty(cdadata)||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||FGGUYMYNFQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on|| ||calculate_onuid|| ||bb_calculate_on||true||note|| ||technote|| |||type||Label||name||label6||x||477||y||34||h||18||w||161||uid||IIVZEBGKXL||sequence||15||value||Da Data Operazione:||text_type||constant||comment|| ||align||right||hidecond||cdadata=&#39;&#39; or Empty(cdadata)||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||FGGUYMYNFQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label7||x||472||y||57||h||18||w||166||uid||JDGOKLIRZM||sequence||12||value||A Data Operazione:||text_type||constant||comment|| ||align||right||hidecond||c_adata=&#39;&#39; or Empty(c_adata)||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||FGGUYMYNFQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Expr||name||expr8||x||643||y||57||h||18||w||80||uid||HAUMOQAPMU||sequence||13||exp||arfn_fdate(CharToDate(c_adata))||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond||c_adata=&#39;&#39; or Empty(c_adata)||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||FGGUYMYNFQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on|| ||calculate_onuid|| ||bb_calculate_on||true||note|| ||technote|| |||type||Label||name||label9||x||9||y||155||h||17||w||721||uid||UAZKRHXTTU||sequence||17||value||Non stati rilevati dati da aggregare per il periodo considerato||text_type||constant||comment|| ||align||center||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid||FGGUYMYNFQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box10||x||8||y||225||h||1||w||722||uid||DBZTWDTXLD||sequence||5||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label11||x||7||y||227||h||16||w||80||uid||RULTCKPYMA||sequence||6||value||arfn_fdate(Date())||text_type||expression||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||true|||type||Label||name||label12||x||655||y||228||h||16||w||72||uid||VFDTZVFDYO||sequence||7||value||&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))||text_type||expression||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||FGGUYMYNFQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||9||font_weight||normal||font_effect|| ||global_font||true|||-->
+
+<REPORT NAME="arrp_stpoper_ver_neg" TITLE="Stampa Controllo Dati Aggregati Negativa (Report)" QUERY="qbe_stpoper_ver" MAXDEPTH="1" GLBFONTNAME="Arial" GLBFONTSIZE="9" VERSION="4.0" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES="">
+    <VARIABLE VARNAME="w_Descazi" VARTYPE="C" VARLEN="70" VARDEC="0" VARVALUE="w_gDescAzi" />
+    <FIELD NAME="qbe_stpoper_ver.DATAOPE" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.DATAOPER" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.NUMPROG" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.DATAREG" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.CODANA" TYPE="C" LEN="4" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.CODVOC" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.IMPORTO" TYPE="N" LEN="15" DEC="2" />
+    <FIELD NAME="qbe_stpoper_ver.VALUTA" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.STATOREG" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.CONNESCLI" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.RAPPORTO" TYPE="C" LEN="25" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.DESCRAP" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.TOTLIRE" TYPE="N" LEN="15" DEC="2" />
+    <FIELD NAME="qbe_stpoper_ver.TOTEURO" TYPE="N" LEN="15" DEC="2" />
+    <FIELD NAME="qbe_stpoper_ver.TIPOOPRAP" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.SOTGRUP" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.RAMOGRUP" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.SETTSINT" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.TIPO" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stpoper_ver.CONNESCOL" TYPE="C" LEN="16" DEC="0" />
+    <PAGEHEADER Y="0" H="85" EXPRESSION="Page header">
+        <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+              Y="4" X="8" YY="25" XX="727"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="FGGUYMYNFQ"
+              />
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="27" X="10" YY="49" XX="329"
+              ALIGN="L"
+              UID="SQPOSTMDVZ"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="28" X="348" YY="81" XX="731"
+              ALIGN="L"
+              UID="YNRIPZTLYD"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="stringa" NAME="Filtri attivi &#10;sulla stampa" EXPRTYPE="constant"
+              Y="28" X="338" YY="63" XX="457"
+              ALIGN="C"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="FGGUYMYNFQ"
+              />
+        <ITEM OBJ="stringa" NAME="STAMPA VERIFICA PER DATI AGGREGATI" EXPRTYPE="constant"
+              Y="30" X="12" YY="51" XX="327"
+              ALIGN="C"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="FGGUYMYNFQ"
+              />
+        <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(cdadata))" ITEMTYPE="C" EXPRTYPE="expression"
+              Y="34" X="643" YY="52" XX="723"
+              ALIGN="L"
+              HIDECONDITION="cdadata=&#39;&#39; or Empty(cdadata)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              LEN="10"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="FGGUYMYNFQ"
+              />
+        <ITEM OBJ="stringa" NAME="Da Data Operazione:" EXPRTYPE="constant"
+              Y="34" X="477" YY="52" XX="638"
+              ALIGN="R"
+              HIDECONDITION="cdadata=&#39;&#39; or Empty(cdadata)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="FGGUYMYNFQ"
+              />
+        <ITEM OBJ="box_end" UID="SQPOSTMDVZ"/>
+        <ITEM OBJ="stringa" NAME="A Data Operazione:" EXPRTYPE="constant"
+              Y="57" X="472" YY="75" XX="638"
+              ALIGN="R"
+              HIDECONDITION="c_adata=&#39;&#39; or Empty(c_adata)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="FGGUYMYNFQ"
+              />
+        <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(c_adata))" ITEMTYPE="C" EXPRTYPE="expression"
+              Y="57" X="643" YY="75" XX="723"
+              ALIGN="L"
+              HIDECONDITION="c_adata=&#39;&#39; or Empty(c_adata)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+              LEN="10"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="FGGUYMYNFQ"
+              />
+        <ITEM OBJ="box_end" UID="YNRIPZTLYD"/>
+    </PAGEHEADER>
+    <SECTION TYPE="group" HEADH="1" FOOTH="2" SYMNAME="" UID="FGGUYMYNFQ" TOP="86" BOTTOM="217" EXPRESSION="True" DISPLAY_EXPRESSION=""
+     STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+     PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" INWITHEXPR="" OUTWITHEXPR="">
+        <SECTION TYPE="group" HEADH="131" FOOTH="0" EXPRESSION="" SYMNAME=""
+         STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+         REPRINTHEADER="false" REPRINTFOOTER="false">
+            <ITEM OBJ="stringa" NAME="Non stati rilevati dati da aggregare per il periodo considerato" EXPRTYPE="constant"
+                  Y="67" X="9" YY="84" XX="730"
+                  ALIGN="C"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                  FONTSTYLE="B"
+                  PRINTPAGE="true"
+                  />
+        </SECTION>
+    </SECTION>
+    <PAGEFOOTER Y="219" H="22" EXPRESSION="Page footer">
+        <ITEM OBJ="h_line" Y="2" X="8" XX="731" BORDERWIDTH="1"
+              ALIGN="L"
+              />
+        <ITEM OBJ="stringa" NAME="arfn_fdate(Date())" EXPRTYPE="expression"
+              Y="4" X="7" YY="20" XX="87"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))" EXPRTYPE="expression"
+              Y="5" X="655" YY="21" XX="727"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="FGGUYMYNFQ"
+              />
+    </PAGEFOOTER>
+</REPORT>

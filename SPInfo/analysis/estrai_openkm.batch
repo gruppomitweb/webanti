@@ -1,0 +1,39 @@
+﻿* --- Resource Vers. 0.9
+estrai_openkm
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Estrae Documenti da openkm
+file_modified_on=#2023-10-02 08:56:46
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='estrai_openkm
+state=1
+type='batch
+used_resource_keys={
+'Libraries
+[
+'FileLibMit<project>
+]
+'Routines
+[
+'arfn_catchfile
+]
+'Tables
+[
+'cgo_operazioni_storico<table>
+'cgo_docope<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,236 @@
+ 2
+"CGO Operazioni Agenzie (DL)"
+"cgo_operazioni_dl"
+"cgo_operazioni_dl"
+ 0
+ 0
+*
+"Tipologie Registrazione"
+"cgo_tgtiporeg"
+"cgo_tgtiporeg"
+ 0
+ 0
+*
+ 12
+"Data Operazione"
+"cgo_operazioni_dl.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Causale"
+"cgo_operazioni_dl.CAFLGOPE"
+"CACODICE"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"cgo_tgtiporeg.TRDESREG"
+"TRDESREG"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"N° Operazione"
+"cgo_operazioni_dl.SNAINUMOPE"
+"SNAINUMOPE"
+"C"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Totale Operazione"
+"cgo_operazioni_dl.TOTLIRE"
+"TOTLIRE"
+"N"
+ 15
+ 2
+ 0
+.f.
+""
+""
+.f.
+*
+"Segno"
+"cgo_operazioni_dl.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"ID BIGLIETTO"
+"cgo_operazioni_dl.CAIDBIGLIETTO"
+"CAIDBIGLIETTO"
+"C"
+ 28
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Cognome"
+"cgo_operazioni_dl.COGNOME"
+"COGNOME"
+"C"
+ 26
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Nome"
+"cgo_operazioni_dl.NOME"
+"NOME"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"N° Operazione"
+"cgo_operazioni_dl.SNAINUMOPE"
+"IDCODICE"
+"C"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"ID BIGLIETTO"
+"cgo_operazioni_dl.CAIDBIGLIETTO"
+"BIGLIETTO"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Dipendenza"
+"cgo_operazioni_dl.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 1
+"Tipo Ticket"
+"cgo_tgtiporeg.TRCODGIO=cgo_operazioni_dl.TIPOGIOCO and cgo_tgtiporeg.TRTIPREG=cgo_operazioni_dl.CAFLGOPE"
+"Right outer"
+"cgo_tgtiporeg"
+"cgo_operazioni_dl"
+*
+ 2
+"cgo_operazioni_dl.CODDIPE"
+""
+"="
+"[GLOBALVAR(gCodDip)]"
+"AND"
+""
+""
+*
+"cgo_operazioni_dl.SNAINUMOPE"
+""
+"="
+"?pSNAINUMOPE"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 1
+ 2
+"w_dataoggi"
+"Data Operazione"
+"D"
+"8"
+"0"
+""
+""
+""
+.f.
+*
+"pSNAINUMOPE"
+"N° Operazione"
+"C"
+"15"
+"0"
+"Remove"
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 24
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"HR5FOM%25%3CQA%1DM%137%2FJN%4051%5CF%29BI%5EQS%3D%2CK65%3A5%27I2SHU*2N%285+%7EX%5E2YE5%3E%23%28%5BLJI%3Fp%3BV*%3D7%5C%3C0PO%40Vn%3D%29JSRE8%22_F6%2FB%2BAUS.0%5EZ5%23%1E0%024V8%22BUB%25%3CJ%3A%29P4%1A*9%3B%2F%3C%29%24QFL5CG6%170%3A%00%24%3E3J2%5DL%1DKN%26M%3B3L8J%5BF%1AD%5ET%5DOl%27E%3C+%1E%1AX-%3B%3E%27GZB%2BG.%5BEM1A2NU-%404P%5E*.QSI%5B%3FD%29%223.%26Mi%25IJ0A%5ESG%5EK%07-%3B%288K%232t-l%2BK.G%23%3F%23%2F%253X0C%3C%3B%21*T_Rj%28%5E9T0%3FK%00"
+"Q-P.S6%269*T0%40%12%25%40F9-%3E%3AW.%2C%24qH%40%29osM+%254%18%3B%25U7%5ECU%3EH79%3A%24%5BX%18+G.%3F%23%2C+Xu%29N%5E%5BWE%3A%24W%11%3D%2BJS+FF678%28WAH%3C%2FQG%3COrVT.3L2Q%2395%3E6R1F%3ESH4L%3DZUY%3CB5E*9%2B%2F%5EbNNJZ%5B+%3F4%408+%25Yw8.%3DO4B%5EDPJK%5E%3F%25%3C%3B%1F%5B_.+AZP07%1D%26%5EK*-%28W%2FSJ%14.2%27AT%2B3C4%22CCZN%28T1OZ%05.01%223+%26Lk%2FI%210N4%5DT%3C%21%27+%2B4%3AJWR.BM%2130%40E%2F3%3C%297W%3CD9-%3B0S%40VhK%2C%29%28NJ.%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

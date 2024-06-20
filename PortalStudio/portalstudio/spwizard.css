@@ -1,0 +1,545 @@
+@import url("../fonts/OpenSans.css");
+@font-face {
+  font-family: 'iMobileIcon';
+  src: url('../fonts/iMobileIcon.eot');
+  src:  url('../fonts/iMobileIcon.eot#iMobileIcon') format('embedded-opentype'),
+    url('../fonts/iMobileIcon.svg#iMobileIcon') format('svg'),
+    url('../fonts/iMobileIcon.woff') format('woff'),
+    url('../fonts/iMobileIcon.ttf') format('truetype');
+}
+
+body{
+  font-family: Open Sans,lucida grande,tahoma,verdana,arial,sans-serif;
+  font-weight: 400;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cwizlabeldesc{
+  font-family: Open Sans,lucida grande,tahoma,verdana,arial,sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  cursor: default;
+}
+
+.cwizlabeldescstyle{
+  font-size: 13px;
+  font-family: Open Sans;
+  font-weight: 300;
+}
+
+.cwizsel{
+  cursor: pointer;
+}
+
+.cwizinputtxt{
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #C3C3C3;
+  padding-left: 5px;
+  font-weight: bold;
+  margin-left: 20px !important;
+  width: 250px !important;
+}
+
+.typessubcont{
+	width: 99%;
+  float: left;
+}
+
+.typesublabel{
+	font-size: 13px;
+	width: 99%;
+	height: 100%;
+	cursor: default;
+  float: left;
+}
+
+.charttypes{
+  float: left;
+}
+
+.ctcont{
+}
+
+.chartcont{
+	float: left;
+  cursor: pointer;
+  margin: 0 3px 0 3px;
+  opacity: 0.5;
+  border: thin solid transparent;
+}
+
+.chartpic{
+	float: left;
+	width: 100%;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.charttext{
+	height: 32px;
+	line-height: 32px;
+	margin-left: 5px;
+	font-size: 13px;
+  font-family: Open Sans;
+  font-weight: 300;
+  float:left;
+}
+
+.cwizselected{
+	border: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+.cwizsavebtn{
+  border: 0;
+  background-color: #00A0BD;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: Open Sans;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.cwizcancbtn{
+  border: 0;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: Open Sans;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.cwizlabeldescplot{
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 42px;
+}
+
+.cwizboxtransparent{
+  background-image: url(../portalstudio/images/icon/btn_bck_transparent.png);
+}
+
+.cwizsnow{
+  border: 1px solid #F0F0F0;
+}
+
+.cwizboxplot {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 150px 110px;
+}
+
+.cwizlabelcolors{
+  width: 99%;
+  height: 20px;
+  line-height: 20px;
+  float: left;
+  margin: 3px 0 0 0;
+  text-align: center;
+  font-size: 11px;
+}
+
+.cwizlabelplotcolors{
+  width: 99%;
+  line-height: 15px;
+  float:left;
+  height: 15px;
+  margin: 0;
+  text-align: center;
+  font-size: 11px;
+}
+
+.cwizelemcolors{
+  width: 18px;
+  height: 10px;
+  float: left;
+  border: thin solid #FFFFFF;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.cwizplotcolors{
+  width: 85px;
+  height: 20px;
+  float: left;
+  margin: 2px;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.cwizlabelplotgrid{
+  width: 99%;
+  height: 20px;
+  line-height: 20px;
+  float: left;
+  margin: 2px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.cwizdivcont{
+  width: 105px;
+  float:left;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.cwizdivcontlayout{
+  cursor: pointer;
+  width: 136px;
+  height: 115px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+
+.cwizloading{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1095px;
+  height: 100%;
+  background-image: url(../portalstudio/images/list_loader.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  z-index: 1300;
+}
+
+.cwizhide{
+  display: none;
+}
+
+.cwiztabmdiv{
+  height: 77px;
+}
+
+.cwiztabpdiv{
+  width: 99%;
+  height: 125px;
+}
+
+.cwiztabradiobtn{
+  width: 11px;
+  height: 11px;
+}
+
+.cwiztabcolordiv{
+  height: 264px;
+}
+
+.cwizcolpalettetype{
+  font-family: Open Sans;
+  font-weight: 600 !important;
+  padding-left: 5px;
+}
+
+.cwiztabdesc{
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 13px;
+  /*padding-left: 20px;*/
+}
+
+.cwizcolorpoly{
+  width: 409px;
+  height: 224px;
+  margin-left: 5px;
+  float: left;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #FFFFFF;
+}
+
+.cwizcolorpolymea{
+  width: 409px;
+  height: 40px;
+  margin-left: 5px;
+  float: left;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #FFFFFF;
+}
+
+.cwizcolorpolylab{
+  margin-left: 5px;
+  background-color: #FFFFFF;
+  width: 409px;
+  float: left;
+}
+
+.cwizcolormono{
+  width: 222px;
+  height: 224px;
+  float: left;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #FFFFFF;
+}
+
+.cwizcolormonolab{
+  background-color: #FFFFFF;
+  width: 205px;
+  float: left;
+}
+
+.cwizradiom{
+  margin-left: 47px;
+}
+
+.cwizradiomonom{
+  margin-left: 98px;
+}
+
+.cwiztabcont{
+  background-color: #F3F3F3;
+  overflow: hidden;
+}
+
+.cwiztabnosel{
+  background-color: #DEDEDE;
+}
+
+.cwiztablabel{
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.cwizplotcolorsm{
+  margin-left: 41px !important;
+  margin-top: 4px;
+}
+
+.cwizborderw{
+  border: thin solid #F5F5F5;
+}
+
+.cwizlabeltabm{
+  margin-left: 20px;
+}
+
+.cwizchartc{
+  margin-left: 3px;
+  border: thin solid #E6E6E6;
+  overflow: hidden !important;
+  width: 130px;
+  height: 80px;
+}
+
+.cwizradiochart{
+  margin-left: 69px;
+}
+
+.cwiztabldiv{
+  width: 99%;
+  height: 130px;
+}
+/*
+.cwiztabch{
+  height: 590px !important;
+}
+*/
+.cwiztextsel{
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+.cwiztabsel{
+  background-color: #DEDEDE !important;
+}
+
+.cwizchromecontainerpoly{
+  float: left;
+  width: 189px;
+  height: 28px;
+  margin: 0 4px 2px 0;
+  cursor: pointer;
+  opacity: 0.5;
+  border: thin solid transparent;
+}
+
+.cwizchromecontainerpoly:hover{
+  opacity: 1;
+}
+
+.cwizchromecontainerpolymea{
+  float: left;
+  width: 40px;
+  height: 28px;
+  margin: 0 4px 2px 0;
+  cursor: pointer;
+  opacity: 0.5;
+  border: thin solid transparent;
+}
+
+.cwizchromecontainerpolymea:hover{
+  opacity: 1;
+}
+
+.cwizimg{
+  width: 116px;
+  height: 84px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+}
+
+.cwizimgdemo{
+  background-image: url(../portalstudio/images/database.png);
+}
+
+.cwizimgvqr{
+  background-image: url(../portalstudio/images/vqr.png);
+}
+
+.cwizimgcat{
+  height: 30px;
+  margin-top: 5px;
+  background-image: url(../portalstudio/images/categorycharts.png);
+}
+
+.cwizimgxyz{
+  height: 30px;
+  margin-top: 5px;
+  background-image: url(../portalstudio/images/xyzcharts.png);
+}
+
+.cwizimgmea{
+  height: 30px;
+  margin-top: 5px;
+  background-image: url(../portalstudio/images/measurecharts.png);
+}
+
+.cwiztabd{
+  width: 99%;
+  /*margin-left: 145px;*/
+  float: left;
+}
+
+.cwizlabds{
+  float: left;
+  width: 647px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.cwiztabdl{
+  width: 99%;
+  float: left;
+}
+
+.cwizmtypecont{
+  float: left; 
+  width: 116px;
+  height: 60px;
+  margin-left: 5px;
+}
+
+.cwizctypescont{
+  height: 295px;
+  float:left;
+  margin-left: 5px;
+  width: 98%;
+  background-color: #FFFFFF;
+  padding-top: 8px;
+}
+
+.cwiztextarea{
+  border: thin solid #DEDEDE;
+  margin-left: 20px;
+  width: 250px;
+  height: 50px;
+}
+
+.cwizbtnselect{
+  float: right;
+  cursor: pointer;
+}
+
+.cwizbtnselect:after{
+  content: attr(icon-data);
+  font-family: iMobileIcon;
+  font-weight: normal;
+  color: #00A0BD;
+  font-size: 20px;
+  -vertical-align: top;
+  line-height: 30px;
+}
+
+.cwizdefbtnselect:after{
+  content: attr(icon-data);
+  font-family: iMobileIcon;
+  font-weight: normal;
+  color: #00A0BD;
+  font-size: 20px;
+  -vertical-align: top;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.cwizbtnok{
+  float: left;
+  cursor: default;
+  text-align: right;
+  width: 98%;
+  line-height: 5px;
+  margin-top: 2px;
+}
+
+.cwizbtnok:after{
+  content: attr(icon-data);
+  font-family: iMobileIcon;
+  font-weight: normal;
+  color: #00A0BD;
+  font-size: 11px;
+}
+
+.cwizmheight{
+  height: 49%;
+}
+
+.cwizselborder{
+  border: thin solid #E3E3E3;
+  opacity: 1;
+}
+
+.chartcont:hover{
+  opacity: 1;
+}
+
+.cwizcolorsp{
+  margin-left: 2px;
+  margin-bottom: 4px;
+}
+
+.cwizctypelab{
+  line-height: 5px;
+  height: 10px;
+}
+
+.cwizcolorpolymeaw{
+  width: 547px;
+}
+
+.cwizdisabled{
+  background-color: #F3F3F3;
+}
+
+.cwizchartover{
+  overflow: visible !important;
+}

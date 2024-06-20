@@ -1,0 +1,1508 @@
+* --- CodePainter Revolution Batch Vers. 4.7
+Icpbatch.CPBatch
+Items=[
+Icpitembatch.CPBeginEnd
+comment='Dichiarazione variabili locali
+h=[
+19
+19
+]
+next=Icpitembatch.CPBeginEnd
+comment='Variabili per scrittura EXCEL
+h=[
+19
+19
+]
+next=Icpitembatch.CPMessage
+frm_calc=''Invio dati alert operazioni'
+msg_type='Debug
+next=Icpitembatch.CPExec
+frm_calc='Utilities.SetUserCode(1)
+next=Icpitembatch.CPVarDecl
+frm_calc='Utilities.GetCompany()
+len=10
+name='_oldazi
+next=Icpitembatch.CPVarDecl
+frm_calc=''Ora Inizio Processo: '+ arfn_fdatetime(DateTime()) + NL
+len=10
+name='_gMsgProc
+next=Icpitembatch.CPVarDecl
+comment='Path Applicazione
+frm_calc='Strtran(FileLibMit.GetLocation(),'\','/')
+len=80
+name='_gPathApp
+next=Icpitembatch.CPSelect
+h=[
+19
+19
+]
+next=Icpitembatch.CPExec
+frm_calc='Utilities.SetCompany(_oldazi)
+next=Icpitembatch.CPVarDecl
+frm_calc='_gMsgProc + 'Ora Fine Processo: '+ arfn_fdatetime(DateTime()) + NL
+len=10
+name='_gMsgProc
+obj='Var
+obj_type='M
+pag=1
+prev=O14
+var_op='asgn
+I
+obj='Exec
+pag=1
+prev=O12
+I
+obj='Select
+pag=1
+prev=O11
+sel_field='cpazi->codazi
+sel_name='cpazi
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPExec
+father=O12
+fatherSonIndex=0
+frm_calc='Utilities.SetCompany(LRTrim(cpazi->codazi))
+next=Icpitembatch.CPVarDecl
+comment='Azienda
+frm_calc='LRTrim(cpazi->codazi)
+len=10
+name='_gAzienda
+next=Icpitembatch.CPTransaction
+next=Icpitembatch.CPTry
+h=[
+19
+19
+19
+]
+obj='Try
+pag=1
+prev=O20
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPSelect
+father=O21
+fatherSonIndex=0
+h=[
+19
+19
+]
+next=Icpitembatch.CPVarDecl
+frm_calc='0
+len=1
+name='_10start
+next=Icpitembatch.CPVarDecl
+frm_calc='0
+len=1
+name='_20start
+next=Icpitembatch.CPBeginEnd
+comment='10 Giorni
+h=[
+19
+19
+]
+next=Icpitembatch.CPBeginEnd
+comment='20 Giorni
+h=[
+19
+19
+]
+next=Icpitembatch.CPTransaction
+frm_calc='commit
+obj='Transaction
+pag=1
+prev=O31
+I
+obj='Begin
+pag=1
+prev=O29
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPBeginEnd
+comment='Crea la Prima Riga
+father=O31
+fatherSonIndex=0
+h=[
+19
+19
+]
+next=Icpitembatch.CPSelect
+h=[
+19
+19
+]
+next=Icpitembatch.CPBeginEnd
+comment='Chiude il file 
+h=[
+19
+19
+]
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'_20start=1
+]
+h=[
+19
+19
+]
+obj='If
+pag=1
+prev=O40
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPSelect
+father=O42
+fatherSonIndex=0
+h=[
+19
+19
+]
+obj='Select
+pag=1
+sel_field='*
+sel_name='cgo_dest_alert
+sel_where='cgo_dest_alert->DATIPALT='2'
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPExec
+father=O47
+fatherSonIndex=0
+frm_calc='Sp_Lib_SendMail.sendMailPers(_mail20,'TXT','Segnalazione Operazioni non chiuse',LRTrim(_srvmail),LRTrim(cgo_dest_alert->DAEMAIL),'','',LRTrim(_emlmail),LRTrim(nomefile),LRTrim(_usrmail),LRTrim(_pwdmail),'N',LRTrim(_prtmail),'','WEBANTI')
+obj='Exec
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Begin
+pag=1
+prev=O38
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPExec
+check='man
+father=O40
+fatherSonIndex=0
+frm_calc="//Aggiusta le colonne
+cf = new CellView();
+cf.setAutosize(true);
+foglio.setColumnView(0, cf);
+foglio.setColumnView(1, cf);
+foglio.setColumnView(2, cf);
+foglio.setColumnView(3, cf);
+foglio.setColumnView(4, cf);
+foglio.setColumnView(5, cf);
+foglio.setColumnView(6, cf);
+foglio.setColumnView(7, cf);
+foglio.setColumnView(8, cf);
+// Scrive il foglio e lo chiude
+prova.write();
+prova.close();
+°--°
+obj='Exec
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Select
+pag=1
+prev=O36
+sel_field='*
+sel_name='cgo_operazioni
+sel_where='cgo_operazioni->CGOFLGVLT <> 'S'
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O38
+fatherSonIndex=0
+frm_calc='arfn_fdate(cgo_operazioni->DATAOPE)
+len=10
+name='_col1
+next=Icpitembatch.CPVarDecl
+frm_calc='LRTrim(cgo_operazioni->CAIDBIGLIETTO)
+len=28
+name='_col2
+next=Icpitembatch.CPVarDecl
+dec=2
+frm_calc='cgo_operazioni->TOTLIRE
+len=12
+name='_col3
+next=Icpitembatch.CPVarDecl
+frm_calc='LRTrim(_desgio)
+len=60
+name='_col8
+next=Icpitembatch.CPVarDecl
+frm_calc=' LRTrim(arfn_dectabs('TPO', LRTrim(cgo_operazioni->CAFLGOPE)))
+len=60
+name='_col9
+next=Icpitembatch.CPBeginEnd
+comment='Legge dati agenzia
+h=[
+19
+19
+]
+next=Icpitembatch.CPBeginEnd
+comment='Legge il tipo gioco
+h=[
+19
+19
+]
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'DateDiff(cgo_operazioni->DATAOPE,Date()) >= 20
+]
+h=[
+19
+19
+]
+obj='If
+pag=1
+prev=O67
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPIfElse
+father=O69
+fatherSonIndex=0
+frm_calc=[
+'_20start=0
+]
+h=[
+19
+19
+]
+next=Icpitembatch.CPBeginEnd
+comment='Scrive la stringa
+h=[
+19
+19
+]
+obj='Begin
+pag=1
+prev=O74
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPExec
+check='man
+father=O77
+fatherSonIndex=0
+frm_calc="// Scrive i dati 
+stringa = new Label(0,riga,_col1);
+foglio.addCell(stringa); 
+stringa = new Label(1,riga,_col2);
+foglio.addCell(stringa);
+Number num1 = new Number(2,riga,_col3,dblNum);
+foglio.addCell(num1); 
+stringa = new Label(3,riga,_codloc);
+foglio.addCell(stringa);
+stringa = new Label(4,riga,_nomloc);
+foglio.addCell(stringa);
+stringa = new Label(5,riga,_indloc);
+foglio.addCell(stringa);
+stringa = new Label(6,riga,_citloc);
+foglio.addCell(stringa);
+stringa = new Label(7,riga,_col8);
+foglio.addCell(stringa);
+stringa = new Label(8,riga,_col9);
+foglio.addCell(stringa);
+riga = riga + 1;
+°--°
+obj='Exec
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='If
+pag=1
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O74
+fatherSonIndex=0
+frm_calc=''Segnalazione operazioni non chiuse registrate da almeno 20 giorni'
+len=10
+name='_mail20
+next=Icpitembatch.CPVarDecl
+frm_calc='1
+len=1
+name='_20start
+obj='Var
+obj_type='N
+pag=1
+prev=O85
+var_op='asgn
+I
+obj='Var
+obj_type='M
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Begin
+pag=1
+prev=O65
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O67
+fatherSonIndex=0
+frm_calc='''
+len=50
+name='_desgio
+next=Icpitembatch.CPRead
+arch='cgo_tbtipgio
+obj='Read
+pag=1
+prev=O91
+rd_field=[
+'DESTPGIO
+]
+rd_kfield=[
+'CODTPGIO
+]
+rd_kvar=[
+'cgo_operazioni->TIPOGIOCO
+]
+rd_var=[
+'_desgio
+]
+I
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Begin
+pag=1
+prev=O64
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O65
+fatherSonIndex=0
+frm_calc='''
+len=25
+name='_codloc
+next=Icpitembatch.CPVarDecl
+frm_calc='''
+len=30
+name='_nomloc
+next=Icpitembatch.CPVarDecl
+frm_calc='''
+len=40
+name='_indloc
+next=Icpitembatch.CPVarDecl
+frm_calc='''
+len=30
+name='_citloc
+next=Icpitembatch.CPRead
+arch='anadip
+obj='Read
+pag=1
+prev=O103
+rd_field=[
+'DESCRIZ
+'DOMICILIO
+'CODLOC
+'DESCCIT
+]
+rd_kfield=[
+'CODDIP
+]
+rd_kvar=[
+'cgo_operazioni->CODDIPE
+]
+rd_var=[
+'_nomloc
+'_indloc
+'_codloc
+'_citloc
+]
+I
+obj='Var
+pag=1
+prev=O102
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O101
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O100
+var_op='asgn
+I
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+pag=1
+prev=O63
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O62
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O61
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O60
+var_op='asgn
+I
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Begin
+pag=1
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O36
+fatherSonIndex=0
+frm_calc='"Operazioni_20_giorni_"+DateToChar(Date())+".xls"
+len=50
+name='_testa
+next=Icpitembatch.CPVarDecl
+frm_calc='LRTrim(_gPathApp)+"/export/"+LRTrim(_gAzienda)+"/"+LRTrim(_testa)
+len=50
+name='nomefile
+next=Icpitembatch.CPExec
+check='man
+frm_calc="// Crea il foglio e scrive la testata
+ws = new WorkbookSettings();
+prova = Workbook.createWorkbook(new File(nomefile), ws);
+foglio = prova.createSheet("Operazioni", 0);
+stringa = new Label(0,0,"Data Operazione",arial11format);
+foglio.addCell(stringa); 
+stringa = new Label(1,0,"ID Ticket",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(2,0,"Importo",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(3,0,"Punto Vendita",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(4,0,"Descrizione",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(5,0,"Indirizzo",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(6,0,"Comune",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(7,0,"Tipo Gioco",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(8,0,"Tipo Operazione",arial11format);
+foglio.addCell(stringa);
+riga=2;
+°--°
+obj='Exec
+pag=1
+prev=O114
+I
+obj='Var
+pag=1
+prev=O113
+var_op='asgn
+I
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Begin
+pag=1
+prev=O28
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPBeginEnd
+comment='Crea la Prima Riga
+father=O29
+fatherSonIndex=0
+h=[
+19
+19
+]
+next=Icpitembatch.CPSelect
+h=[
+19
+19
+]
+next=Icpitembatch.CPBeginEnd
+comment='Chiude il file 
+h=[
+19
+19
+]
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'_10start=1
+]
+h=[
+19
+19
+]
+obj='If
+pag=1
+prev=O124
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPSelect
+father=O126
+fatherSonIndex=0
+h=[
+19
+19
+]
+obj='Select
+pag=1
+sel_field='*
+sel_name='cgo_dest_alert
+sel_where='cgo_dest_alert->DATIPALT='1'
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPExec
+father=O131
+fatherSonIndex=0
+frm_calc='Sp_Lib_SendMail.sendMailPers(_mail10,'TXT','Segnalazione Operazioni non chiuse',LRTrim(_srvmail),LRTrim(cgo_dest_alert->DAEMAIL),'','',LRTrim(_emlmail),LRTrim(nomefile),LRTrim(_usrmail),LRTrim(_pwdmail),'N',LRTrim(_prtmail),'','WEBANTI')
+obj='Exec
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Begin
+pag=1
+prev=O122
+sons=[
+Icpitembatch.CPItemSon
+collapsed=True
+instr=Icpitembatch.CPExec
+check='man
+father=O124
+fatherSonIndex=0
+frm_calc="//Aggiusta le colonne
+CellView cf = new CellView();
+cf.setAutosize(true);
+foglio.setColumnView(0, cf);
+foglio.setColumnView(1, cf);
+foglio.setColumnView(2, cf);
+foglio.setColumnView(3, cf);
+foglio.setColumnView(4, cf);
+foglio.setColumnView(5, cf);
+foglio.setColumnView(6, cf);
+foglio.setColumnView(7, cf);
+foglio.setColumnView(8, cf);
+// Scrive il foglio e lo chiude
+prova.write();
+prova.close();
+°--°
+obj='Exec
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Select
+pag=1
+prev=O120
+sel_field='*
+sel_name='cgo_operazioni
+sel_where='cgo_operazioni->CGOFLGVLT <> 'S'
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O122
+fatherSonIndex=0
+frm_calc='arfn_fdate(cgo_operazioni->DATAOPE)
+len=10
+name='_col1
+next=Icpitembatch.CPVarDecl
+frm_calc='LRTrim(cgo_operazioni->CAIDBIGLIETTO)
+len=28
+name='_col2
+next=Icpitembatch.CPVarDecl
+dec=2
+frm_calc='cgo_operazioni->TOTLIRE
+len=12
+name='_col3
+next=Icpitembatch.CPBeginEnd
+comment='Legge dati agenzia
+h=[
+19
+19
+]
+next=Icpitembatch.CPBeginEnd
+comment='Legge il tipo gioco
+h=[
+19
+19
+]
+next=Icpitembatch.CPVarDecl
+frm_calc='LRTrim(_desgio)
+len=60
+name='_col8
+next=Icpitembatch.CPVarDecl
+frm_calc=' LRTrim(arfn_dectabs('TPO', LRTrim(cgo_operazioni->CAFLGOPE)))
+len=60
+name='_col9
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'DateDiff(cgo_operazioni->DATAOPE,Date()) >= 10
+]
+h=[
+19
+19
+]
+obj='If
+pag=1
+prev=O152
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPIfElse
+father=O153
+fatherSonIndex=0
+frm_calc=[
+'_10start=0
+]
+h=[
+19
+19
+]
+next=Icpitembatch.CPBeginEnd
+comment='Scrive la stringa
+h=[
+19
+19
+]
+obj='Begin
+pag=1
+prev=O158
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPExec
+check='man
+father=O161
+fatherSonIndex=0
+frm_calc="// Scrive i dati 
+stringa = new Label(0,riga,_col1);
+foglio.addCell(stringa); 
+stringa = new Label(1,riga,_col2);
+foglio.addCell(stringa);
+Number num1 = new Number(2,riga,_col3,dblNum);
+foglio.addCell(num1); 
+stringa = new Label(3,riga,_codloc);
+foglio.addCell(stringa);
+stringa = new Label(4,riga,_nomloc);
+foglio.addCell(stringa);
+stringa = new Label(5,riga,_indloc);
+foglio.addCell(stringa);
+stringa = new Label(6,riga,_citloc);
+foglio.addCell(stringa);
+stringa = new Label(7,riga,_col8);
+foglio.addCell(stringa);
+stringa = new Label(8,riga,_col9);
+foglio.addCell(stringa);
+riga = riga + 1;
+°--°
+obj='Exec
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='If
+pag=1
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O158
+fatherSonIndex=0
+frm_calc=''Segnalazione operazioni non chiuse registrate da almeno 10 giorni'
+len=10
+name='_mail10
+next=Icpitembatch.CPVarDecl
+frm_calc='1
+len=1
+name='_10start
+obj='Var
+obj_type='N
+pag=1
+prev=O169
+var_op='asgn
+I
+obj='Var
+obj_type='M
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+pag=1
+prev=O151
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O149
+var_op='asgn
+I
+obj='Begin
+pag=1
+prev=O147
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O149
+fatherSonIndex=0
+frm_calc='''
+len=50
+name='_desgio
+next=Icpitembatch.CPRead
+arch='cgo_tbtipgio
+obj='Read
+pag=1
+prev=O175
+rd_field=[
+'DESTPGIO
+]
+rd_kfield=[
+'CODTPGIO
+]
+rd_kvar=[
+'cgo_operazioni->TIPOGIOCO
+]
+rd_var=[
+'_desgio
+]
+I
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Begin
+pag=1
+prev=O146
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O147
+fatherSonIndex=0
+frm_calc='''
+len=25
+name='_codloc
+next=Icpitembatch.CPVarDecl
+frm_calc='''
+len=30
+name='_nomloc
+next=Icpitembatch.CPVarDecl
+frm_calc='''
+len=40
+name='_indloc
+next=Icpitembatch.CPVarDecl
+frm_calc='''
+len=30
+name='_citloc
+next=Icpitembatch.CPRead
+arch='anadip
+obj='Read
+pag=1
+prev=O187
+rd_field=[
+'DESCRIZ
+'DOMICILIO
+'CODLOC
+'DESCCIT
+]
+rd_kfield=[
+'CODDIP
+]
+rd_kvar=[
+'cgo_operazioni->CODDIPE
+]
+rd_var=[
+'_nomloc
+'_indloc
+'_codloc
+'_citloc
+]
+I
+obj='Var
+pag=1
+prev=O186
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O185
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O184
+var_op='asgn
+I
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O145
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O144
+var_op='asgn
+I
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Begin
+pag=1
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O120
+fatherSonIndex=0
+frm_calc='"Operazioni_10_giorni_"+DateToChar(Date())+".xls"
+len=50
+name='_testa
+next=Icpitembatch.CPVarDecl
+frm_calc='LRTrim(_gPathApp)+"/export/"+LRTrim(_gAzienda)+"/"+LRTrim(_testa)
+len=50
+name='nomefile
+next=Icpitembatch.CPExec
+check='man
+frm_calc="// Crea il foglio e scrive la testata
+WorkbookSettings ws = new WorkbookSettings();
+WritableWorkbook prova = Workbook.createWorkbook(new File(nomefile), ws);
+WritableSheet foglio = prova.createSheet("Operazioni", 0);
+WritableFont arial11font = new WritableFont(WritableFont.ARIAL, 11, WritableFont.BOLD, true);
+WritableCellFormat arial11format = new WritableCellFormat (arial11font);
+WritableCellFormat intNum = new WritableCellFormat(NumberFormats.INTEGER);
+WritableCellFormat dblNum = new WritableCellFormat(NumberFormats.FLOAT);
+DateFormat df = new DateFormat("dd-mm-yyyy");
+WritableCellFormat cf1 = new WritableCellFormat(df);
+Label stringa = new Label(0,0,"Data Operazione",arial11format);
+foglio.addCell(stringa); 
+stringa = new Label(1,0,"ID Ticket",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(2,0,"Importo",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(3,0,"Punto Vendita",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(4,0,"Descrizione",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(5,0,"Indirizzo",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(6,0,"Comune",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(7,0,"Tipo Gioco",arial11format);
+foglio.addCell(stringa);
+stringa = new Label(8,0,"Tipo Operazione",arial11format);
+foglio.addCell(stringa);
+riga=2;
+°--°
+obj='Exec
+pag=1
+prev=O198
+I
+obj='Var
+pag=1
+prev=O197
+var_op='asgn
+I
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O27
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O25
+var_op='asgn
+I
+obj='Select
+pag=1
+sel_field='intermbo->ALTSRVMAIL,intermbo->ALTPRTMAIL,intermbo->ALTEMLMAIL,intermbo->ALTUSRMAIL,intermbo->ALTPWDMAIL
+sel_name='intermbo
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O25
+fatherSonIndex=0
+frm_calc='intermbo->ALTSRVMAIL
+len=50
+name='_srvmail
+next=Icpitembatch.CPVarDecl
+frm_calc='iif(Empty(LRTrim(intermbo->ALTPRTMAIL)),'25',LRTrim(intermbo->ALTPRTMAIL))
+len=5
+name='_prtmail
+next=Icpitembatch.CPVarDecl
+frm_calc='intermbo->ALTEMLMAIL
+len=50
+name='_emlmail
+next=Icpitembatch.CPVarDecl
+frm_calc='intermbo->ALTUSRMAIL
+len=50
+name='_usrmail
+next=Icpitembatch.CPVarDecl
+frm_calc='intermbo->ALTPWDMAIL
+len=30
+name='_pwdmail
+obj='Var
+pag=1
+prev=O207
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O206
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O205
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O204
+var_op='asgn
+I
+obj='Var
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O21
+fatherSonIndex=1
+frm_calc='_gMsgProc + "Rilevati errori nell'elaborazione delle email" + NL
+len=10
+name='_gMsgProc
+next=Icpitembatch.CPVarDecl
+frm_calc='_gMsgProc + 'Errore SQL: ' + m_Sql.TransactionErrorMessage() + NL
+len=10
+name='_gMsgProc
+next=Icpitembatch.CPTransaction
+frm_calc='rollback
+obj='Transaction
+pag=1
+prev=O212
+I
+obj='Var
+obj_type='M
+pag=1
+prev=O211
+var_op='asgn
+I
+obj='Var
+obj_type='M
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+150
+]
+I
+obj='Transaction
+pag=1
+prev=O19
+I
+obj='Var
+pag=1
+prev=O18
+var_op='asgn
+I
+obj='Exec
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+pag=1
+prev=O10
+var_op='asgn
+I
+obj='Var
+obj_type='M
+pag=1
+prev=O9
+var_op='asgn
+I
+obj='Var
+pag=1
+prev=O8
+var_op='asgn
+I
+obj='Exec
+pag=1
+prev=O7
+I
+obj='Message
+pag=1
+prev=O5
+I
+obj='Begin
+pag=1
+prev=O3
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+father=O5
+fatherSonIndex=0
+len=10
+name='_col1
+next=Icpitembatch.CPVarDecl
+len=28
+name='_col2
+next=Icpitembatch.CPVarDecl
+dec=2
+len=12
+name='_col3
+next=Icpitembatch.CPVarDecl
+len=60
+name='_col8
+next=Icpitembatch.CPVarDecl
+len=60
+name='_col9
+obj='Var
+pag=1
+prev=O221
+I
+obj='Var
+pag=1
+prev=O220
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O219
+I
+obj='Var
+pag=1
+prev=O218
+I
+obj='Var
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Begin
+pag=1
+sons=[
+Icpitembatch.CPItemSon
+collapsed=True
+instr=Icpitembatch.CPVarDecl
+father=O3
+fatherSonIndex=0
+len=10
+name='_oldazi
+next=Icpitembatch.CPVarDecl
+comment='Azienda
+len=10
+name='_gAzienda
+next=Icpitembatch.CPVarDecl
+len=10
+name='_gMsgProc
+next=Icpitembatch.CPVarDecl
+comment='Path Applicazione
+len=80
+name='_gPathApp
+next=Icpitembatch.CPVarDecl
+len=10
+name='_mail10
+next=Icpitembatch.CPVarDecl
+len=10
+name='_mail20
+next=Icpitembatch.CPVarDecl
+len=1
+name='_10start
+next=Icpitembatch.CPVarDecl
+len=1
+name='_20start
+next=Icpitembatch.CPVarDecl
+len=25
+name='_codloc
+next=Icpitembatch.CPVarDecl
+len=30
+name='_nomloc
+next=Icpitembatch.CPVarDecl
+len=40
+name='_indloc
+next=Icpitembatch.CPVarDecl
+len=50
+name='_desgio
+next=Icpitembatch.CPVarDecl
+len=50
+name='_srvmail
+next=Icpitembatch.CPVarDecl
+len=5
+name='_prtmail
+next=Icpitembatch.CPVarDecl
+len=50
+name='_emlmail
+next=Icpitembatch.CPVarDecl
+len=50
+name='_usrmail
+next=Icpitembatch.CPVarDecl
+len=30
+name='_pwdmail
+next=Icpitembatch.CPVarDecl
+len=50
+name='_testa
+next=Icpitembatch.CPVarDecl
+len=50
+name='nomefile
+next=Icpitembatch.CPVarDecl
+len=30
+name='_citloc
+obj='Var
+pag=1
+prev=O244
+I
+obj='Var
+pag=1
+prev=O243
+I
+obj='Var
+pag=1
+prev=O242
+I
+obj='Var
+pag=1
+prev=O241
+I
+obj='Var
+pag=1
+prev=O240
+I
+obj='Var
+pag=1
+prev=O239
+I
+obj='Var
+pag=1
+prev=O238
+I
+obj='Var
+pag=1
+prev=O237
+I
+obj='Var
+pag=1
+prev=O236
+I
+obj='Var
+pag=1
+prev=O235
+I
+obj='Var
+pag=1
+prev=O234
+I
+obj='Var
+pag=1
+prev=O233
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O232
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O231
+I
+obj='Var
+obj_type='M
+pag=1
+prev=O230
+I
+obj='Var
+obj_type='M
+pag=1
+prev=O229
+I
+obj='Var
+pag=1
+prev=O228
+I
+obj='Var
+obj_type='M
+pag=1
+prev=O227
+I
+obj='Var
+pag=1
+prev=O226
+I
+obj='Var
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+x=23
+y=21
+I
+]
+ManualBlocks={
+BO - Header
+Icpmanualblocks.CPManualBlocks
+code="import java.io.File; 
+import java.lang.Double;
+
+import jxl.CellReferenceHelper;
+import jxl.CellView;
+import jxl.HeaderFooter;
+import jxl.Range;
+import jxl.Workbook;
+import jxl.WorkbookSettings;
+import jxl.format.Alignment;
+import jxl.format.Border;
+import jxl.format.BorderLineStyle;
+import jxl.format.Colour;
+import jxl.format.Orientation;
+import jxl.format.PageOrder;
+import jxl.format.PageOrientation;
+import jxl.format.PaperSize;
+import jxl.format.ScriptStyle;
+import jxl.format.UnderlineStyle;
+import jxl.write.Blank;
+import jxl.write.Boolean;
+import jxl.write.DateFormat;
+import jxl.write.DateFormats;
+import jxl.write.DateTime;
+import jxl.write.Formula;
+import jxl.write.Label;
+import jxl.write.Number;
+import jxl.write.NumberFormat;
+import jxl.write.NumberFormats;
+import jxl.write.WritableCellFeatures;
+import jxl.write.WritableCellFormat;
+import jxl.write.WritableFont;
+import jxl.write.WritableHyperlink;
+import jxl.write.WritableImage;
+import jxl.write.WritableSheet;
+import jxl.write.WritableWorkbook;
+import jxl.write.WriteException;
+°--°
+name='BO - Header
+I
+BO - Properties
+Icpmanualblocks.CPManualBlocks
+code="public int riga;
+public DateTime dt;
+°--°
+name='BO - Properties
+I
+}
+comment='Invio alert per operazioni non chiuse
+date_creat=#2015-08-18
+date_rev=#2016-10-14
+dic_name='plan
+ev_class='SPBatchEvents
+libraries=[
+'FileLibMit
+'Sp_Lib_SendMail
+'Utilities
+]
+modcnt=25
+runtime_filters=2
+tpl_name='Routine
+work_file=[
+'cgo_operazioni
+'cpazi
+'anadip
+'cgo_tbtipgio
+'cgo_dest_alert
+'intermbo
+]
+work_filter=[
+'
+'
+'
+'
+'
+]
+I
+*--*
+*----*

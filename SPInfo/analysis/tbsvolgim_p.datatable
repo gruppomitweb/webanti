@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+tbsvolgim_p<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Modalità Svolgimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbsvolgim_p
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbsvolgim_p.codice
+'tbsvolgim_p.rischio
+'tbsvolgim_p.flgpers
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbsvolgim_p.codice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODICE
+state=3
+table_name='tbsvolgim_p
+type='field
+used_resource_keys={}
+I
+'tbsvolgim_p.flgpers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore personalizzato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGPERS
+state=3
+table_name='tbsvolgim_p
+type='field
+used_resource_keys={}
+I
+'tbsvolgim_p.rischio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indice di rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RISCHIO
+state=3
+table_name='tbsvolgim_p
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbsvolgim_p.codice
+[]
+'tbsvolgim_p.flgpers
+[]
+'tbsvolgim_p.rischio
+[]
+}
+*--*

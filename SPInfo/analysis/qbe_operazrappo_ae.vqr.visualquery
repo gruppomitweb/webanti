@@ -1,0 +1,54 @@
+﻿* --- Resource Vers. 0.9
+qbe_operazrappo_ae.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:22
+description='
+file_modified_on=#2021-05-17 13:09:18
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='protected
+I
+}
+modified_on=#2024-05-10 18:25:38
+module_name='
+name='qbe_operazrappo_ae.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'jperazbo.dataope
+'jperazbo.numprog
+'jperazbo.statoreg
+'jperazbo.valuta
+'jperazbo.rapporto
+]
+'Tables
+[
+'jperazbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

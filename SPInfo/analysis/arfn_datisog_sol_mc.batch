@@ -1,0 +1,43 @@
+﻿* --- Resource Vers. 0.9
+arfn_datisog_sol_mc
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:28
+description='Ritorna dati soggetto per scarico offline
+file_modified_on=#2023-04-19 12:44:02
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:52
+module_name='
+name='arfn_datisog_sol_mc
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbstgru.sotgru
+'tbstgru.tiposot
+]
+'Routines
+[
+'arfn_agechar
+'arfn_chkspers
+'arfn_datisog_sol_mc
+]
+'Tables
+[
+'personbo<table>
+'wersonbo<table>
+'tbstgru<table>
+]
+}
+I
+*--*
+￼[]
+*--*

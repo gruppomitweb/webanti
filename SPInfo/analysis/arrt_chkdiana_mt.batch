@@ -1,0 +1,88 @@
+﻿* --- Resource Vers. 0.9
+arrt_chkdiana_mt
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:32
+description='Crea il file campione.txt (MoneyTransfer)
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:10
+module_name='
+name='arrt_chkdiana_mt
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'intermbo.codinter
+'intermbo.codcab
+'intermbo.desccit
+'intermbo.provincia
+'intermbo.coddipe
+'anadip.coddip
+'anadip.cab
+'anadip.desccit
+'anadip.provincia
+]
+'Libraries
+[
+'LibreriaMit<project>
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_oped_chkdiana_limits.vqr
+'qbe_oped_chkdiana.vqr
+'qbe_opep_chkdiana_limits.vqr
+'qbe_opep_chkdiana.vqr
+'qbe_rapd_chkdiana.vqr
+'qbe_rapp_chkdiana.vqr
+'qbe_frad_chkdiana_limits.vqr
+'qbe_frad_chkdiana.vqr
+'qbe_frap_chkdiana_limits.vqr
+'qbe_frap_chkdiana.vqr
+]
+'Tables
+[
+'operazbo<table>
+'intermbo<table>
+'anadip<table>
+'personbo<table>
+'intestbo<table>
+'rapopebo<table>
+'anarapbo<table>
+'fraziobo<table>
+'xntestbo<table>
+'xnarapbo<table>
+'kersonbo<table>
+'clientiope<table>
+'sogopebo<table>
+'beneficope<table>
+'terzistiope<table>
+'xlientiope<table>
+'xogopebo<table>
+'xeneficope<table>
+'xerzistiope<table>
+'clientifrz<table>
+'sogopefbo<table>
+'beneficfrz<table>
+'terzistifrz<table>
+'xlientifrz<table>
+'xogopefbo<table>
+'xeneficfrz<table>
+'xerzistifrz<table>
+'rapotit<table>
+'knarapbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

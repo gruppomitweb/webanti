@@ -1,0 +1,65 @@
+﻿* --- Resource Vers. 0.9
+arpg_import_fileae_vg
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:30
+description='Import File Anagrafe Agenzia Entrate
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={}
+modified_on=#2024-05-10 18:25:01
+module_name='
+name='arpg_import_fileae_vg
+state=1
+type='page
+used_resource_keys={
+'Fields
+[
+'tbvalute.codval
+'tbvalute.descri
+]
+'Routines
+[
+'arfn_readgmsgproc
+]
+'Tables
+[
+'tbvalute<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_import_fileae_vg|Error|core::document|Update dependencies|Resource "arrt_import_fileae_vg" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "arrt_import_fileae_vg" not found.
+resource_key='arpg_import_fileae_vg
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_import_fileae_vg|Error|core::document|Update dependencies|Resource "arrt_import_fileae_xls" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "arrt_import_fileae_xls" not found.
+resource_key='arpg_import_fileae_vg
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

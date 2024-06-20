@@ -1,0 +1,336 @@
+@import url('../fonts/OpenSans.css');
+
+@font-face {
+  font-family: 'iMobileIcon';
+  src: url('../fonts/iMobileIcon.eot');
+  src: url('../fonts/iMobileIcon.eot#iMobileIcon') format('embedded-opentype'),
+  url('../fonts/iMobileIcon.svg#iMobileIcon') format('svg'),
+  url('../fonts/iMobileIcon.woff') format('woff'),
+  url('../fonts/iMobileIcon.ttf') format('truetype');
+}
+@font-face {
+  font-display: block;
+  font-family: 'icons8_win10';
+  src: url('../fonts/icons8_win10.woff2') format('woff2'),
+  url('../fonts/icons8_win10.woff') format('woff'),
+  url('../fonts/icons8_win10.ttf') format('ttf')
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background: #F9F9F9;
+  font-family: "Open Sans";
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  height: 100%;
+}
+#topbar {
+  width: 100%;
+  min-width: 810px;
+  position: relative;
+  z-index: 100;
+  background: #E1E1E1;
+  float: left;
+}
+#topbar a,
+#topbar a:hover,
+#topbar a:active {
+  text-decoration: none;
+}
+#topbar .title {
+  padding-left: 50px;
+  color: #474948;
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  display: inline-block;
+  margin: 5px;
+}
+.action_bar {
+  padding-left: 20px;
+  border-width: 1px 0;
+  border-color: #DADADA;
+  border-style: solid;
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+}
+.topbar_separator {
+  width: 20px;
+  height: 100%;
+}
+.topbar_sides {
+  width: 12px;
+  height: 100%;
+}
+.topbar_padding {
+  padding: 5px 0;
+  margin-right: 10px;
+}
+.title_btn {
+  text-decoration: none;
+  color: #00A0BD;
+  vertical-align: bottom;
+  font-size: 18px;
+}
+.title_btn:hover {
+  color: #02c7ea;
+  text-shadow: 1px 1px aliceblue;
+}
+#toolbar_ok {
+  background-color: #00A0BD;
+  color: #FFF;
+  font-size: 12px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+#toolbar_ok:hover {
+  background-color: #02c7ea;
+}
+#toolbar_cancel {
+  background-color: #333;
+  color: #FFF;
+  font-size: 12px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+#toolbar_cancel:hover {
+  background-color: #000;
+}
+#toolbar_search::after {
+  font-family: iMobileIcon;
+  font-weight: normal;
+  content: '\e67f';
+}
+#toolbar_help {
+
+}
+#toolbar_help::after {
+  font-family: iMobileIcon;
+  font-weight: normal;
+  content: '\e6f7';
+}
+#toolbar_style {
+
+}
+#toolbar_style::after {
+  font-family: icons8_win10;
+  font-weight: normal;
+  content: '\f2ba';
+}
+select {
+  width: 150px;
+  border: 1px solid #D2D2D2;
+  color: #000;
+  font-size: 14px;
+  padding: 2px;
+  font-family: "Open Sans";
+  background: #F5F5F5;
+  font-weight: 600;
+}
+select:hover {
+  border: 1px solid #969696;
+  color: #444;
+}
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+.float_right .action {
+  width: 65px;
+  text-align: center;
+}
+.small {
+  font-size: 14px;
+  color: #000;
+  font-family: "Open Sans";
+  font-weight: 500;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+p.padding {
+  padding: 5px 0 5px 7px;
+}
+p.label {
+  padding: 5px 14px 0;
+  color: #000;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
+}
+#editor {
+  width: 100%;
+  top: 72px;
+  background: #FFF;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+}
+.eventcode {
+  font-size: 13px;
+  width: 99%;
+  height: 100%;
+  margin: 0;
+  padding: 5px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 1px solid #FFF;
+  font-family: 'DejaVu Sans Mono Bold', "Open Sans";
+  background: #FFF url(../portalstudio/images/ac_textarea_background.png) repeat-x bottom fixed;
+}
+.defaultfont {
+  font-size: 12px;
+}
+.mediumfont {
+  font-size: 14px;
+}
+.default {
+  color: #444;
+  background-color: #FFF;
+}
+.blackgreen {
+  color: #0C3;
+  background-color: #000;
+}
+.commodore64 {
+  color: #C4DBFF;
+  background-color: #0058DD;
+}
+#helpkeys {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 16px;
+  right: 100px;
+  transition: all .4s;
+}
+#helpkeys:hover {
+  height: 300px;
+  width: 150px;
+}
+#helpkeys_content {
+  overflow: hidden;
+  position: absolute;
+  padding: 6px;
+  background-color: #DADADA;
+  right: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  transition: width .4s, height .4s, opacity .4s;
+  z-index: 3
+}
+#helpkeys_content .keys {
+  font-weight: 600;
+}
+
+#helpkeys_content.visible {
+  width: 196px;
+  height: 300px;
+  opacity: 1;
+}
+/* STYLE PROPERTIES PANE */
+#opt_pane {
+  overflow: hidden;
+  position: absolute;
+  padding: 20px;
+  background-color: #e3e3e3;
+  border: 1px solid #DCDCDC;
+  box-shadow: 0px 0px 5px 1px #b1b1b1;
+  right: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  transition: width .4s, height .4s, opacity .4s;
+  box-sizing: border-box;
+  z-index: 3;
+  display: none;
+}
+#opt_pane.visible {
+  width: 196px;
+  height: 150px;
+  opacity: 1;
+  display: block;
+}
+#opt_pane_content label {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+/* SLIDER */
+#fontSlider {
+  outline: none;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  background-color: #F5F5F5;
+  height: 6px;
+  width: 100px;
+  border-radius: 12px;
+}
+ 
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #00a0bd;
+  height: 28px;
+  opacity: 0.7;
+  width: 10px;
+}
+input[type="range"]::-moz-range-thumb {
+  background-color: #00a0bd;
+  border-radius: 0;
+  border: none;
+  height: 28px;
+  opacity: 0.7;
+  width: 10px;
+}
+ 
+input[type="range"]::-moz-range-track {
+  background: #ddd;
+  border: none;
+}
+
+
+#loader {
+  position: absolute;
+  z-index: 9;
+  display: none;
+  background: #FFF url(../portalstudio/images/loader.gif) no-repeat center center;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext);
+
+.CodeMirror {
+  font-family: Inconsolata, monospace;
+}
+
+.CodeMirror-focused .cm-matchhighlight {
+  background: #616161;
+}
+.CodeMirror-activeline-background {
+  border-width: 0 0 1px 0 !important;
+  border-color: #AFAFAF !important;
+  border-style: solid !important;
+}
+
+.breakpoints {
+  width: .8em;
+}

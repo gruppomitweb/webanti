@@ -1,0 +1,68 @@
+﻿* --- Resource Vers. 0.9
+tmp_aafiles<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Elenco Stampe Allineamento Anagrafiche
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_aafiles
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_aafiles.aatiperr
+'tmp_aafiles.aanomrep
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_aafiles.aanomrep
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nome Report
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='AANOMREP
+state=3
+table_name='tmp_aafiles
+type='field
+used_resource_keys={}
+I
+'tmp_aafiles.aatiperr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='AATIPERR
+state=3
+table_name='tmp_aafiles
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_aafiles.aanomrep
+[]
+'tmp_aafiles.aatiperr
+[]
+}
+*--*

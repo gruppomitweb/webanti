@@ -1,0 +1,93 @@
+﻿* --- Resource Vers. 0.9
+arrt_trasffrazdef
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Trasferimento frazionate da Provvisorio a Definitive (Routine)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:30
+module_name='
+name='arrt_trasffrazdef
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'operazbo.idbase
+'operazbo.idereg
+'operazbo.numprog
+'operazbo.dataope
+'operazbo.tipointer
+'operazbo.codinter
+'operazbo.tipoinf
+'operazbo.desccit
+'operazbo.provincia
+'operazbo.codcab
+'operazbo.flagfraz
+'operazbo.flagcont
+'operazbo.codana
+'operazbo.codvoc
+'operazbo.tipoint2
+'operazbo.codint2
+'operazbo.desc2
+'operazbo.prov2
+'operazbo.codcab2
+'operazbo.descinter
+'operazbo.rapporto
+'operazbo.flagrap
+'operazbo.datareg
+'operazbo.oprap
+'operazbo.tipooprap
+'operazbo.flaglire
+'operazbo.valuta
+'operazbo.segno
+'operazbo.totlire
+'operazbo.totcont
+'operazbo.statoreg
+'operazbo.operazmod
+'operazbo.datarett
+'operazbo.connescli
+'operazbo.connesoper
+'operazbo.connesben
+'operazbo.colleg
+'operazbo.cambio
+'operazbo.rapportben
+'operazbo.flagrap2
+'operazbo.operatore
+'operazbo.autom
+'operazbo.idcauana
+'operazbo.coddipe
+'operazbo.tipoleg
+'operazbo.paese
+'fraziobo.idbase
+]
+'Hyperlinks
+[
+'arpg_trasfdafra_aope
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_trasffraope10.vqr
+]
+'Tables
+[
+'operazbo<table>
+'fraziobo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

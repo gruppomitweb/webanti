@@ -1,0 +1,78 @@
+ 1
+"Stato Intestatari/Delegati Rapporti Provvisori"
+"xtatorap"
+"xtatorap"
+ 71
+ 10
+*
+ 5
+"Rapporto"
+"xtatorap.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Data Inizio"
+"xtatorap.DATAINI"
+"DATAINI"
+"Date"
+ 10
+ 0
+*
+"Data Fine"
+"xtatorap.DATAFINE"
+"DATAFINE"
+"Date"
+ 10
+ 0
+*
+"Aperto/ Chiuso"
+"[CASE(STATORAP,ýAý,ýApertoý,ýCý,ýChiusoý,ý Altroý)]"
+"STATORAP"
+"Char"
+ 7
+ 0
+*
+"Tipo Soggetto"
+"[CASE(TIPOPERS,ýPý,ýIntestatarioý,ýDelegatoý)]"
+"TIPOPERS"
+"Char"
+ 11
+ 0
+*
+ 0
+ 1
+"xtatorap.CODINTER"
+""
+"="
+"?w_CONNES"
+"AND"
+""
+*
+ 1
+"Aperto/ Chiuso"
+"STATORAP"
+"Ascending"
+*
+ 0
+ 0
+ 1
+"w_CONNES"
+"Intestatario (Non Intermediario)"
+"Char"
+"16"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.t.
+*

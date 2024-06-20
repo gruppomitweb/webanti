@@ -1,0 +1,194 @@
+ 2
+"Terne Saldi"
+"tmp_terne_saldi"
+"tmp_terne_saldi"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 17
+"Tipo Terna"
+"tmp_terne_saldi.TIPOTERNA"
+"TIPOTERNA"
+"C"
+ 1
+ 0
+*
+"Codice Fiscale"
+"tmp_terne_saldi.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Identificativo File"
+"tmp_terne_saldi.IDFILE"
+"IDFILE"
+"C"
+ 15
+ 0
+*
+"Progressivo Record"
+"tmp_terne_saldi.PRGREC"
+"PRGREC"
+"C"
+ 25
+ 0
+*
+"Tipo Rapporto"
+"tmp_terne_saldi.TIPRAP"
+"TIPRAP"
+"C"
+ 2
+ 0
+*
+"Data Inizio"
+"tmp_terne_saldi.DATINI"
+"DATINI"
+"D"
+ 8
+ 0
+*
+"Data Fine"
+"tmp_terne_saldi.DATFIN"
+"DATFIN"
+"D"
+ 8
+ 0
+*
+"Tipo (1 No coint,2 Coint,3 Delega)"
+"tmp_terne_saldi.FLGDEL"
+"FLGDEL"
+"C"
+ 1
+ 0
+*
+"Rapporto"
+"tmp_terne_saldi.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Tipo Cointestazione"
+"tmp_terne_saldi.COINT"
+"COINT"
+"C"
+ 1
+ 0
+*
+"Tipo Agenzia Entrate"
+"tmp_terne_saldi.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"R - D - O"
+"tmp_terne_saldi.TIPOTER"
+"TIPOTER"
+"C"
+ 1
+ 0
+*
+"Tipo Errore"
+"tmp_terne_saldi.TIPOERR"
+"TIPOERR"
+"C"
+ 4
+ 0
+*
+"Data Inizio DB"
+"tmp_terne_saldi.DBINI"
+"DBINI"
+"D"
+ 8
+ 0
+*
+"Data Fine DB"
+"tmp_terne_saldi.DBFIN"
+"DBFIN"
+"D"
+ 8
+ 0
+*
+"Soggetto"
+"tmp_terne_saldi.CODSOG"
+"CODSOG"
+"C"
+ 16
+ 0
+*
+ 1
+"Soggetti"
+"personbo.CONNES=tmp_terne_saldi.CODSOG"
+"Right outer"
+"personbo"
+"tmp_terne_saldi"
+*
+ 1
+"[NOTEMPTYSTR(tmp_terne_saldi.TIPOERR)]"
+""
+"="
+"0"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_anno"
+"Anno di riferimento"
+"N"
+"4"
+"0"
+""
+*
+"w_DescAzi"
+"Descrizione Società"
+"C"
+"50"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 9
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"EFC%5BQ%3BY%5C%25V%3A54%2FT%3BU%27YK%03*%18CZ4*ZN*Q%3C00%3A%3F%26%218.LxT+J%3A%28%27ASA4%2B%26%24%232E7C%5CKsD%3B%25F3Z%3F%27%3A%23WI%3B%24%403RI9O%3D7A%23%22%23LIOO+lOUSC%26%2C%26%2B%3AS%2C%40%7BN%1E3HPZSQ47O%5B0%26OP2%5CI7F21DMJ%3A%3C%5C%3F%222R6-%15I%3DIhQ%2F-%24%2B%3F%29%26%24aI%27SD8+DK3%5E%40T%2CtD%26O96%3C%5E%22SY%24VJ3%406%21N3%2CNVT5%28D4E%223%24%26%26J%5C%5C%3F%17%3B4%7DG%3D0S%3A%24%11%2F%3ECbWXCK%5CP%173K%03%11%05SS4QO8%3EE%29%25%5CI%1A%23D%5C5L%2F%00"
+"uMiI%5C%3BZ6WLK4%3C*Q0F%23P%2B_%40%27%1EXbLV%3C_D%5D-*%21_%3AR*ZUWZ%29%3B%13%27%7DJV%230%21%5C%2340%23bv%219W%60%3E%2FE%27%3A.%5CVYQ%2FC8+N3%294kF%2B%210J1IFOS-W%40Q%050*M%2C%117%3AV5JT7%24%2CX%23%5DGO%22B%5DCB%24.EC%5D8BA%3EN9H%01%3E%2B8%5EE%25TON%3F8%29VIG%5C*+%22%28-Kcv%29n%24E%217+5%3E%3FT%2CE%3BX%40%28F%3A4%23M2LQ%3A58%3FCETAO1%28W.5%1FH%223%2F%25wSLJL%23%24+CTOD%04%3E%3C%11%3AI*S%26%5EZAX19%27B%23%2CW%5D%23Z%281D%25M%0A%2Cji%3C%05%3B*%3F%3B5%00"
+""
+""
+"native"
+ 0
+ 0
+*

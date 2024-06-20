@@ -1,0 +1,72 @@
+﻿* --- Resource Vers. 0.9
+arrt_ricerca_sogg
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Ricerca tra Soggetti Segnalati
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:24
+module_name='
+name='arrt_ricerca_sogg
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'webaos_tbspec.codice
+'webaos_tbspec.descri
+'tmp_seek_sogg.idbase
+'tmp_seek_sogg.ragsoc
+'tmp_seek_sogg.datanas
+'tmp_seek_sogg.luogonas
+'tmp_seek_sogg.codfisc
+'tmp_seek_sogg.respaese
+'tmp_seek_sogg.rescitta
+'tmp_seek_sogg.resind
+'tmp_seek_sogg.note
+'tmp_seek_sogg.tipo
+'tmp_seek_sogg.fonte
+'tmp_seek_sogg.ragsocx
+'tmp_seek_sogg.ragsocblk
+'tmp_seek_sogg.flag
+'tmp_seek_sogg.appoggio
+'tmp_seek_sogg.spec
+'tmp_seek_sogg.riferim
+'tmp_seek_sogg.cosafare
+]
+'Tables
+[
+'webaos_soggetti<table>
+'tmp_seek_sogg<table>
+'webaos_tbspec<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_ricerca_sogg|Warning|core::document|Update dependencies|Field "DESCSPEC" not found in temporary table "tmp_seek_sogg".{Accuracy:-10}
+explanation='
+found_on=#2024-05-10 18:25:24
+message='Field "DESCSPEC" not found in temporary table "tmp_seek_sogg".
+resource_key='arrt_ricerca_sogg
+solvable=False
+status='unhandled
+tool='core::document
+type='Warning
+weights={
+'Accuracy
+-10
+}
+I
+]
+*--*

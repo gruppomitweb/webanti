@@ -1,0 +1,837 @@
+ 2
+"Operazioni Frazionate"
+"fraziobo"
+"fraziobo"
+ 0
+ 0
+*
+"Dipendenze"
+"anadip"
+"anadip"
+ 0
+ 0
+*
+ 98
+"Idbase"
+"fraziobo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Numero Progressivo"
+"fraziobo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Operazione"
+"fraziobo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Tipo Intermediaro"
+"fraziobo.TIPOINTER"
+"TIPOINTER"
+"C"
+ 2
+ 0
+*
+"Codice Intermediario"
+"fraziobo.CODINTER"
+"CODINTER"
+"C"
+ 11
+ 0
+*
+"Tipo Informazione"
+"fraziobo.TIPOINF"
+"TIPOINF"
+"C"
+ 1
+ 0
+*
+"ID Registrazione"
+"fraziobo.IDEREG"
+"IDEREG"
+"C"
+ 20
+ 0
+*
+"Codice Dipendenza"
+"fraziobo.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+*
+"Città Dipendenza"
+"fraziobo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia Dipendenza"
+"fraziobo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"CAB Dipendenza"
+"fraziobo.CODCAB"
+"CODCAB"
+"C"
+ 6
+ 0
+*
+"Frazionata (S/N)"
+"fraziobo.FLAGFRAZ"
+"FLAGFRAZ"
+"C"
+ 1
+ 0
+*
+"Contanti (S/N)"
+"fraziobo.FLAGCONT"
+"FLAGCONT"
+"C"
+ 1
+ 0
+*
+"Causale Analitica"
+"fraziobo.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+*
+"Causale Sintetica"
+"fraziobo.CODVOC"
+"CODVOC"
+"C"
+ 2
+ 0
+*
+"Tipo Intermediario C/Parte"
+"fraziobo.TIPOINT2"
+"TIPOINT2"
+"C"
+ 2
+ 0
+*
+"Codice Intermediario C/Parte"
+"fraziobo.CODINT2"
+"CODINT2"
+"C"
+ 11
+ 0
+*
+"Stato Intermediario C/Parte"
+"fraziobo.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+*
+"Denominazione Intermediario C/Parte"
+"fraziobo.DESC2"
+"DESC2"
+"C"
+ 30
+ 0
+*
+"Provincia Intermediario C/Parte"
+"fraziobo.PROV2"
+"PROV2"
+"C"
+ 2
+ 0
+*
+"CAB Intermediario C/Parte"
+"fraziobo.CODCAB2"
+"CODCAB2"
+"C"
+ 6
+ 0
+*
+""
+"fraziobo.DESCINTER"
+"DESCINTER"
+"C"
+ 50
+ 0
+*
+"Rapporto Collegato"
+"fraziobo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Tipo Rapporto Collegato"
+"fraziobo.FLAGRAP"
+"FLAGRAP"
+"C"
+ 1
+ 0
+*
+"Tipo Legame sogg. Operante"
+"fraziobo.TIPOLEG"
+"TIPOLEG"
+"C"
+ 1
+ 0
+*
+"Data registrazione"
+"fraziobo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Tipo operazione"
+"fraziobo.OPRAP"
+"OPRAP"
+"C"
+ 1
+ 0
+*
+"Tipo Operazione Completa"
+"fraziobo.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+"Lire Euro Valuta"
+"fraziobo.FLAGLIRE"
+"FLAGLIRE"
+"C"
+ 1
+ 0
+*
+"Divisa"
+"fraziobo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+"Segno"
+"fraziobo.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+*
+"Totale Operazione"
+"fraziobo.TOTLIRE"
+"TOTLIRE"
+"N"
+ 15
+ 0
+*
+"di cui contanti"
+"fraziobo.TOTCONT"
+"TOTCONT"
+"N"
+ 15
+ 0
+*
+"Stato registrazione"
+"fraziobo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+"Operazione Modificata"
+"fraziobo.OPERAZMOD"
+"OPERAZMOD"
+"C"
+ 20
+ 0
+*
+"Data Rettifica"
+"fraziobo.DATARETT"
+"DATARETT"
+"D"
+ 8
+ 0
+*
+"Codice Cliente Occasionale"
+"fraziobo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Soggetto Operante Conto Terzi"
+"fraziobo.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+*
+"Beneficiario"
+"fraziobo.CONNESBEN"
+"CONNESBEN"
+"C"
+ 16
+ 0
+*
+"Collegamento Operazione Multiple"
+"fraziobo.COLLEG"
+"COLLEG"
+"C"
+ 11
+ 0
+*
+"Cambio"
+"fraziobo.CAMBIO"
+"CAMBIO"
+"N"
+ 9
+ 4
+*
+"Rapporto Beneficiario"
+"fraziobo.RAPPORTBEN"
+"RAPPORTBEN"
+"C"
+ 25
+ 0
+*
+"Tipo Rapporto Beneficiario"
+"fraziobo.FLAGRAP2"
+"FLAGRAP2"
+"C"
+ 1
+ 0
+*
+"Operatore"
+"fraziobo.OPERATORE"
+"OPERATORE"
+"C"
+ 70
+ 0
+*
+"Importazione da file esterno"
+"fraziobo.AUTOM"
+"AUTOM"
+"C"
+ 5
+ 0
+*
+"ID BASE Causale Analitica"
+"fraziobo.idcauana"
+"idcauana"
+"C"
+ 4
+ 0
+*
+""
+"fraziobo.OPERAG"
+"OPERAG"
+"C"
+ 3
+ 0
+*
+""
+"fraziobo.DOCFILE"
+"DOCFILE"
+"C"
+ 100
+ 0
+*
+""
+"fraziobo.RESPINS"
+"RESPINS"
+"C"
+ 30
+ 0
+*
+""
+"fraziobo.INFORM"
+"INFORM"
+"C"
+ 30
+ 0
+*
+"Data Operazione in Carattere"
+"fraziobo.CDATOPE"
+"CDATOPE"
+"C"
+ 8
+ 0
+*
+""
+"fraziobo.NOPROT"
+"NOPROT"
+"N"
+ 1
+ 0
+*
+""
+"fraziobo.UCODE"
+"UCODE"
+"C"
+ 7
+ 0
+*
+""
+"fraziobo.CDATAOPE"
+"CDATAOPE"
+"C"
+ 10
+ 0
+*
+""
+"fraziobo.ZCPARTE"
+"ZCPARTE"
+"C"
+ 69
+ 0
+*
+"Ragionevolezza"
+"fraziobo.RAGIO"
+"RAGIO"
+"C"
+ 5
+ 0
+*
+"Modalità Svolgimento"
+"fraziobo.MODSVOL"
+"MODSVOL"
+"C"
+ 5
+ 0
+*
+"Area Geografica"
+"fraziobo.AREAGEO"
+"AREAGEO"
+"C"
+ 5
+ 0
+*
+""
+"fraziobo.RIFIMP"
+"RIFIMP"
+"C"
+ 15
+ 0
+*
+""
+"fraziobo.SCOPO"
+"SCOPO"
+"C"
+ 50
+ 0
+*
+""
+"fraziobo.NATURA"
+"NATURA"
+"C"
+ 50
+ 0
+*
+""
+"fraziobo.RTIPO"
+"RTIPO"
+"N"
+ 3
+ 0
+*
+""
+"fraziobo.RCOMP"
+"RCOMP"
+"N"
+ 3
+ 0
+*
+""
+"fraziobo.RIMP"
+"RIMP"
+"N"
+ 3
+ 0
+*
+""
+"fraziobo.RRAGIO"
+"RRAGIO"
+"N"
+ 3
+ 0
+*
+""
+"fraziobo.RFREQ"
+"RFREQ"
+"N"
+ 3
+ 0
+*
+""
+"fraziobo.RAREA"
+"RAREA"
+"N"
+ 3
+ 0
+*
+""
+"fraziobo.TIPO"
+"TIPO"
+"C"
+ 3
+ 0
+*
+"Codice univoco per importazioni di n sogetti operanti"
+"fraziobo.UNIQUECODE"
+"UNIQUECODE"
+"C"
+ 10
+ 0
+*
+""
+"fraziobo.AMMONT"
+"AMMONT"
+"C"
+ 5
+ 0
+*
+""
+"fraziobo.DURAT"
+"DURAT"
+"C"
+ 5
+ 0
+*
+""
+"fraziobo.CONNALTRO"
+"CONNALTRO"
+"C"
+ 16
+ 0
+*
+"Connessione Tabella Storico Documenti"
+"fraziobo.CONNESDOC"
+"CONNESDOC"
+"C"
+ 40
+ 0
+*
+""
+"fraziobo.C_RAG"
+"C_RAG"
+"C"
+ 70
+ 0
+*
+""
+"fraziobo.C_STA"
+"C_STA"
+"C"
+ 3
+ 0
+*
+""
+"fraziobo.C_CTA"
+"C_CTA"
+"C"
+ 30
+ 0
+*
+""
+"fraziobo.C_CAB"
+"C_CAB"
+"C"
+ 6
+ 0
+*
+""
+"fraziobo.C_PRV"
+"C_PRV"
+"C"
+ 2
+ 0
+*
+""
+"fraziobo.C_IND"
+"C_IND"
+"C"
+ 35
+ 0
+*
+""
+"fraziobo.C_CAP"
+"C_CAP"
+"C"
+ 5
+ 0
+*
+""
+"fraziobo.DATAIMP"
+"DATAIMP"
+"D"
+ 8
+ 0
+*
+""
+"fraziobo.C_RAPPORTO"
+"C_RAPPORTO"
+"C"
+ 25
+ 0
+*
+""
+"fraziobo.PAGASOGOP"
+"PAGASOGOP"
+"C"
+ 1
+ 0
+*
+"Riferimento operazione WU"
+"fraziobo.MTCN"
+"MTCN"
+"C"
+ 10
+ 0
+*
+"Identificativo File"
+"fraziobo.IDFILE"
+"IDFILE"
+"C"
+ 60
+ 0
+*
+"Data Registrazione in carattere"
+"fraziobo.CDATREG"
+"CDATREG"
+"C"
+ 8
+ 0
+*
+"IP Collegamento"
+"fraziobo.IPCOLLEG"
+"IPCOLLEG"
+"C"
+ 20
+ 0
+*
+"Inizio Collegamento"
+"fraziobo.ORACOLLEG"
+"ORACOLLEG"
+"T"
+ 14
+ 0
+*
+"Durata Collegamento"
+"fraziobo.DUCOLLEG"
+"DUCOLLEG"
+"N"
+ 10
+ 0
+*
+"Anno Operazione (MT/IDP)"
+"fraziobo.ANNOOPE"
+"ANNOOPE"
+"N"
+ 4
+ 0
+*
+"Agente"
+"anadip.AGENTE"
+"AGENTE"
+"C"
+ 1
+ 0
+*
+"Importo IN"
+"fraziobo.IMPIN"
+"IMPIN"
+"N"
+ 15
+ 2
+*
+"Importo OUT"
+"fraziobo.IMPOUT"
+"IMPOUT"
+"N"
+ 15
+ 2
+*
+"Mitigazione"
+"fraziobo.MITIG"
+"MITIG"
+"N"
+ 4
+ 0
+*
+"Path Documentazione Mitigazione"
+"fraziobo.MITGDOC"
+"MITGDOC"
+"C"
+ 100
+ 0
+*
+"Rischio Globale"
+"fraziobo.RISGLOB"
+"RISGLOB"
+"C"
+ 3
+ 0
+*
+"Modalità bonifico in uscita"
+"fraziobo.SV58550"
+"SV58550"
+"C"
+ 1
+ 0
+*
+"Pro Quota"
+"fraziobo.PROQUOTA"
+"PROQUOTA"
+"N"
+ 3
+ 0
+*
+ 1
+"Dipendenze"
+"anadip.CODDIP=fraziobo.CODDIPE"
+"Right outer"
+"anadip"
+"fraziobo"
+*
+ 7
+"fraziobo.CONNESCLI"
+""
+"="
+"?w_codcli"
+"AND"
+""
+*
+"[NOTEMPTYSTR(fraziobo.RAPPORTO)]"
+""
+"="
+"0"
+"AND"
+""
+*
+"fraziobo.SEGNO"
+""
+"="
+"?w_segno"
+"AND"
+""
+*
+"fraziobo.CDATOPE"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"fraziobo.CDATOPE"
+""
+"<="
+"?w_adata"
+"AND"
+""
+*
+"fraziobo.TOTLIRE"
+""
+">="
+"?w_minfraz"
+"AND"
+""
+*
+"fraziobo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+*
+ 2
+"Codice Cliente Occasionale"
+"CONNESCLI"
+"Ascending"
+*
+"Data Operazione"
+"DATAOPE"
+"Ascending"
+*
+ 0
+ 0
+ 5
+"w_codcli"
+"Cliente Occasionale"
+"C"
+"16"
+"0"
+"Remove"
+""
+*
+"w_segno"
+"Segno (D/A)"
+"C"
+"1"
+"0"
+""
+""
+*
+"w_dadata"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+""
+*
+"w_adata"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+""
+*
+"w_minfraz"
+"Totale Operazione"
+"N"
+"15"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+"Legge operazioni legate ai clienti occasionali per il trasferimento frazionate"
+.f.
+.t.
+ 13
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"DGGD%40R%256Wl%2C%23F5_%5B7C%05C*%40%2F%21%24%5EU%5DF%5CK-%16%25%3F3*R%06_%3C%2BW%2B%40F%3F%40hR%3E%05D%00DC7%5B8DW%40-9+%17%27%23%3E%23%078-ZA_5%23E%08%5DU3297%5ED%2B%2B%22%3B%25LSH7R+MH+%40Y%06R8%5CY8%3A5X%26P%3EE%5DB%23%285KGT%29wo%27D%29%23%25%3CQ4%29%27SZK4%25J3ZEiZJUMVHDM%5D%5EEAF%40W%5C%3C%3B%28WIZ6FJS8D%14%3D%29L29%3EQ%3FX24JHYHuT_I.M%29%2B%223%2B%26FF%24I8%15%2B%24*AP3%27%40-20%23%40%3CJGZLb%3B%2BLE%3A%40%3F%28v%3E%5BH%26.%2B.%25Oh%2C%07%15%26%29%1A3%00"
+"C.ZHZ9RC%5BJ%25%28%3C%08Yj48%28%2C%28%13BO%40%60I.0q%3B%2B%3CH%27QH%274*Yx%3A%27HO%25A%3E3%3EQ%23%27N.%40%2CHR%25%3CrW%24C%3E%18%24%2B1%05*jGn1KO4HBB%2646%2C0B%40J6+S_VT%5B03%261%2CP3L%5CHOH%27%40%3F%28U1%273J%3D%236%27D4O%26RsZ%2B%2B3%3CWH33OS%2FmA%3A%106%25Q_%25%3B.3%3A%26%3C%2BDQ%28RCJ%24%3AE7R%2C4%29W5%5C_%3A%2B%2C%3E%7CC7%21%2FJ%29%3C%18IKW+%27P%2419%3CKO%223.%25DhSE1%40%3F%3B%22K%3C6S%2F%21%40%3DHX%3EvP%5B+%601%22%2B4%3FJ*VFKYH%2BI4%3CIBIKP%2BU%11%29%2B%00"
+""
+""
+"native"
+ 0
+ 0
+*

@@ -1,0 +1,117 @@
+ 2
+"Soggetti conto informazioni (AE)"
+"jntestbo"
+"jntestbo"
+ 5
+ 5
+*
+"Anagrafica Rapporti"
+"jnarapbo"
+"jnarapbo"
+ 157
+ 245
+*
+ 2
+"Progressivo Import"
+"MAX(jntestbo.PRGIMPSOG)"
+"MAXPRGIMPSOG"
+"Numeric"
+ 15
+ 0
+*
+"Progressivo Import"
+"MIN(jntestbo.PRGIMPSOG)"
+"MINPRGIMPSOG"
+"Numeric"
+ 15
+ 0
+*
+ 1
+"Anagrafica Rapporti"
+"jnarapbo.RAPPORTO=jntestbo.RAPPORTO"
+"Right outer"
+"jnarapbo"
+"jntestbo"
+*
+ 7
+"[NOTEMPTYSTR(jntestbo.CODINTER)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(jntestbo.DATAINI)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(jntestbo.DATAFINE)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"jntestbo.TIPOPERS"
+""
+"<>"
+"ýDý"
+"AND"
+""
+*
+"jntestbo.DATAFINE"
+""
+">="
+"?w_datseci"
+"AND"
+""
+*
+"jntestbo.DATAFINE"
+""
+"<="
+"?w_datsecf"
+"AND"
+""
+*
+"jnarapbo.NOPROT"
+""
+"="
+"0"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_datseci"
+"Data Inizio"
+"Date"
+"8"
+"0"
+""
+*
+"w_datsecf"
+"Data Fine"
+"Date"
+"8"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 15
+.f.
+""
+*

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html >
+<head>
+ <meta charset="UTF-8">
+ <title>Select Icons</title>
+ <link rel="stylesheet" href="../filewindow.css" type="text/css">
+ <script type="text/javascript" src="../stdFunctions.js"></script>
+ <!-- script type="text/javascript" src="../controls.js"></script -->
+ <script type="text/javascript" src="../mootools.js"></script>
+ <style>
+  #grid span.icon-char{
+    font-family: iMobileIcon;
+    font-size: 30px;
+    float: left;
+    margin: 5px;
+  }
+  #grid span.icon-char:hover{
+    color: #696969;
+  }
+  #grid span.icon-char.selected {
+    color: #028433;
+  }
+  #grid span.icon-char.selected:hover{
+    color: #2DBB00;
+  }
+  #thumbnail span.icon-char {
+    font-family: iMobileIcon;
+    font-size: 30px;
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    box-sizing: border-box;
+  }
+  #thumbnail span.icon-char:hover {
+    color: #999999;
+  }
+  #thumbnail span.icon-char:hover:after {
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(images/dialog_closebtn.png);
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .titoli {
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 7px;
+  }
+  #thumbnail_wrapper{
+    height: 60px;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background: #D6D6D6;
+    border-top: 1px solid #028433;
+  }
+  #thumbnail {
+    width: 0px;
+  }
+  #grid {
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+  }
+  .footer {
+    text-align: center;
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid #028433;
+  }
+  .footer button{
+    margin: 6px;
+  }
+
+ </style>
+ <script>
+  QueryString.keys = new Array();
+  QueryString.values = new Array();
+  selected = new Array();
+
+  function QueryString(key,defaultValue) {
+    for (var i=0;i<QueryString.keys.length;i++) {
+      if (QueryString.keys[i]==key) {
+        return QueryString.values[i];
+      }
+    }
+    return defaultValue;
+  }
+  function QueryString_Parse() {
+    var query = window.location.search.substring(1);
+    var pairs = query.split("&");
+
+    for (var i=0;i<pairs.length;i++) {
+      var pos = pairs[i].indexOf('=');
+      if (pos >= 0) {
+        var argname = pairs[i].substring(0,pos);
+        var value = pairs[i].substring(pos+1);
+        QueryString.keys[QueryString.keys.length] = argname;
+        QueryString.values[QueryString.values.length] = value;
+      }
+    }
+  }
+
+  var ctrl
+    , multi = false
+    , propName
+    , fontName
+    , fontPath
+  ;
+
+  function Init() {
+    QueryString_Parse();
+    var ctrlIndex= QueryString("for");
+    propName= QueryString("rtrnobj");
+    multi= QueryString("multiple",'false') == "true" ;
+    ctrl = GetOpener().itemsHTML[ctrlIndex];
+    fontPath= ctrl[QueryString("font_path",'font_path')];
+    fontName= ctrl[QueryString("font_name",'font_name')];
+    if( Empty(fontName)){
+      alert('Needed Font name');
+    } else {
+      var cssStr = "../fonts/"+ ( !Empty(fontPath) ? fontPath + "/" : "" ) + fontName.replace(".ttf","");
+
+      var newStyle = document.createElement('style');
+      newStyle.appendChild(document.createTextNode("\
+        @font-face {\
+            font-family: '" + fontName + "';\
+            src:url('"+cssStr+".eot');\
+            src: url('"+cssStr+".eot#"+fontName.replace(".ttf","")+"') format('embedded-opentype'),\
+             url('"+cssStr+".svg#"+fontName.replace(".ttf","")+"') format('svg'),\
+             url('"+cssStr+".woff') format('woff'),\
+             url('"+cssStr+".ttf') format('truetype');\
+        }\
+        #grid span.icon-char{\
+           font-family: '" + fontName + "';\
+        }\
+        #thumbnail span.icon-char {\
+          font-family: '" + fontName + "';\
+        }\
+      "));
+
+      document.head.appendChild(newStyle);
+
+      getCharsFromFont();
+      $('grid').setStyles({ 'height': window.innerHeight - $('header').getSize().y - $('footer').getSize().y - $('thumbnail_wrapper').getSize().y
+                          , 'top': $('header').getSize().y
+      })
+    }
+  }
+
+  function getCharsFromFont() {
+    var xhr = new Request({ url: '../servlet/SPFontIconsReader'
+                          , data: {'folder_path': fontPath, 'filename': fontName.replace('.ttf','') +'.ttf' }
+                          , encoding: 'utf-8'
+                          , urlEncoded: true
+                          , onSuccess: function(json){ createGrid(json)}
+                          , onComplete: function(){console.log('complete')}
+                          , onError: function(){ debugger}
+    });
+    xhr.send();
+  }
+
+  function createThumbnail() {
+    var oldVal = ctrl[propName].trim();
+    var temp = new Array();
+    if( oldVal != ""){
+      temp = oldVal.split(',');
+      selected = temp.filter(function(el,i,obj){
+        return el.match(/\&\#x[0-9a-f]+/i)
+      })
+      selected.each( function(id) {
+        var span = new Element('span', { 'id': id
+                                          , 'class': 'icon-char'
+                                          , 'html': id
+                                          }
+                              )
+        span.addEvents({ 'click': removeSelection});
+        $('thumbnail').adopt(span);
+        $('thumbnail').setStyle('width', $('thumbnail').getSize().x + span.getSize().x);
+      });
+      // $$("#grid span.icon-char").each( function( el, i) {
+        // selected.each( function(sel) {
+          // if( "#"+sel == el.id)
+            // el.addClass( 'selected' );
+        // })
+      // });
+    }
+  }
+
+  function createGrid(json) {
+    var obj = JSON.parse(json);
+    var grid = $('grid');
+    grid.setStyles({ 'font-family': obj.fontName
+    })
+    obj.characters.each( function(c,i){
+      var span = new Element('span', { 'id': "#"+"&#x"+c.toString(16)+";"
+                            , 'class': 'icon-char'
+                            , 'html': "&#x"+c.toString(16)+";"
+                            }
+                    );
+      // span.addEvents({ 'click': toggleSelection});
+      span.addEvents({ 'click': addSelection});
+      grid.adopt(span);
+    });
+    createThumbnail();
+  }
+
+  function toggleSelection() {
+    var id = (this.id.substr(1,this.id.length));
+    var index = selected.indexOf(id);
+    if( index > -1 ){ //se e' gia stato selezionato lo rimuovo
+      this.removeClass("selected");
+      $$("#thumbnail span.icon-char").each( function( el, i) {
+        if( el.id == selected[index] ) {
+          $('thumbnail').setStyle('width', $('thumbnail').getSize().x - el.getSize().x);
+          el.destroy();
+        }
+      });
+      selected.splice(index,1);
+    } else {
+      if ( !multi ) { //rimuove il carattere precedentemente selezionato
+        $$("#thumbnail span.icon-char").each( function( el, i) {
+          $("#"+el.id).removeClass("selected");
+          $('thumbnail').setStyle('width', $('thumbnail').getSize().x - el.getSize().x);
+          el.destroy();
+        });
+        selected.splice(0,1);
+      }
+      selected.push(id);
+      this.addClass("selected");
+      var span =  new Element('span', { 'id': id
+                                      , 'class': 'icon-char'
+                                      , 'html': id
+                                      }
+                              )
+      $('thumbnail').adopt(span);
+      $('thumbnail').setStyle('width', $('thumbnail').getSize().x + span.getSize().x);
+    }
+  }
+
+  function addSelection() {
+    var id = (this.id.substr(1,this.id.length));
+    if ( !multi ) { //rimuove il carattere precedentemente selezionato
+      $$("#thumbnail span.icon-char").each( function( el, i) {
+        // $("#"+el.id).removeClass("selected");
+        $('thumbnail').setStyle('width', $('thumbnail').getSize().x - el.getSize().x);
+        el.destroy();
+      });
+      selected.splice(0,1);
+    }
+    selected.push(id);
+    // this.addClass("selected");
+    var span =  new Element('span', { 'id': id
+                                    , 'class': 'icon-char'
+                                    , 'html': id
+                                    }
+                            )
+    span.addEvents({'click': removeSelection})
+    $('thumbnail').adopt(span);
+    $('thumbnail').setStyle('width', $('thumbnail').getSize().x + span.getSize().x);
+  }
+
+  function removeSelection() {
+    var id = this.id;
+    var index = selected.indexOf(id);
+    // $("#"+id).removeClass("selected");
+    this.destroy();
+    selected.splice(index,1);
+  }
+
+  function setField() {
+    ctrl[propName]=selected.join(',');
+    GetOpener().Properties();
+    window.close();
+  }
+  function DoOnKeyDown(e){
+    e = e ? e : window.event;
+    var keyCode = GetKeyCode(e);
+    if(keyCode==13)
+      setField();
+    else if(keyCode==27)
+      window.close();
+  }
+ </script>
+</head>
+  <body style="border:0;overflow:hidden;margin:0;background-color:#E4E4E4" onload="Init()">
+    <div id="header" class="titoli"><b>A<u>v</u>ailable <span id="AvailableObjects">icons</span></b></div>
+    <div id="grid"></div>
+    <div id="thumbnail_wrapper">
+      <div id="thumbnail"></div>
+    </div>
+    <div id="footer" class="footer">
+      <button onclick="setField()" accesskey="s" class="bottoni"><u>S</u>elect</button>&nbsp;
+      <button onclick="window.close();" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+    </div>
+  </body>
+</html>
+

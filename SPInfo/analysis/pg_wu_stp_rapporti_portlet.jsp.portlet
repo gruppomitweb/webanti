@@ -1,0 +1,70 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_wu_stp_rapporti_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:19
+description='Estrazione Rapporti
+file_modified_on=#2024-05-10 18:19:38
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:45
+module_name='
+name='pg_wu_stp_rapporti_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Fields
+[
+'tbmacage.macodice
+'tbmacage.madescri
+'anarapbo.rapporto
+'anarapbo.descrap
+]
+'Hyperlinks
+[
+'jsp\start_page_logo_portlet.jsp
+'arrt_wu_stp_rapporti
+'arrt_downloadxlsx
+]
+'Others
+[
+'jsp\showmsg_portlet.jsp
+]
+'Tables
+[
+'tbmacage<table>
+'anarapbo<table>
+]
+'Zooms
+[
+'[tbmacage] default.vzm
+'[anarapbo] default.vzm
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_wu_stp_rapporti_portlet.jsp|Error|core::document|Update dependencies|Resource "arrp_wu_stp_rapporti.vrp.vrp" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:45
+message='Resource "arrp_wu_stp_rapporti.vrp.vrp" not found.
+resource_key='jsp\pg_wu_stp_rapporti_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

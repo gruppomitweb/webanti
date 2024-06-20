@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<SCRIPT src="../Base.js" type='text/javascript'></SCRIPT>
+	<SCRIPT src="../stdFunctions.js" type='text/javascript'></SCRIPT>
+	<SCRIPT src="../controls.js" type='text/javascript'></SCRIPT>
+	<SCRIPT src="../zdnd_commons.js" type='text/javascript'></SCRIPT>
+	<SCRIPT src="EditableGridCtrl.js" type='text/javascript'></SCRIPT>
+	<link rel="stylesheet" type="text/css" media="screen" title="default" href="../filewindow.css"></link>
+<script>
+//function initialiseGetData(){
+var GET_DATA=(function(){
+	var res={};
+	var getDataString=new String(window.location);
+	var questionMarkLocation=getDataString.search(/\?/);
+	if (questionMarkLocation!=-1){
+		getDataString=getDataString.substr(questionMarkLocation+1);
+		var getDataArray=getDataString.split(/&/g);
+		for (var i=0;i<getDataArray.length;i++){
+			var nameValuePair=getDataArray[i].split(/=/);
+			res[unescape(nameValuePair[0])]=unescape(nameValuePair[1]);
+		}
+	}
+	return res;
+})();
+//}
+
+var parameters={
+		id: 'parameters',
+		titles: [ 'Name'],
+		options:[ {type:'textbox'}],
+		blank:  [ '']
+	};
+	
+var actions={
+		id: 'events',
+		titles: [ 'Type'                                     , 'Object'                                              , 'Value'],
+		options:[ {type:'combobox',values:['var', 'dataobj', 'func']}, {type:'combobox',values:['TODO:Related objects list']}, {type:'textbox'}],
+		blank:  [''                                          , ''                                                    , '']
+	};
+	
+Z.Dict=function(){
+	var newkey=function(){
+		var res="";
+		for(var i=0; i++<9; res+=String.fromCharCode(Math.floor(Math.random()*26+97)));
+		return res;
+	}
+	var keys={};
+	this.Add=function(data){
+		var k=newkey();
+		while(k in this){
+			k=this.newkey();
+		}
+		this[k]=data;
+		keys[k]=null;
+		return k;
+	}
+	this.Remove=function(key){
+		return delete this[key] && delete keys[key];
+	}
+	this.Keys=function(){
+		return Z.Merge({}, keys);
+	}
+}
+
+Z.ActionsGrid = Z.EditableGrid.extend({
+	constructor:function(configuration, data){
+		this.inherit(configuration, data);
+	},
+	inputizeCell:function(srcElem){
+		var res=this.inherit(srcElem);
+		switch(""+srcElem.getAttribute('dataoptions')){
+			case '0': //colonna Type
+				//res.onchange=this.typeChanged.closure(this);
+				LibJavascript.Events.addEvent(res, 'change',  this.typeChanged.closure(this));
+				break;
+			case '1': //colonna Object
+				var cell = srcElem;
+				var row = srcElem.parentNode;
+				var txtOld = this.data.rows[row.getAttribute('datarow')][1];
+				cell.firstChild.removeChild(res);
+				switch(row.cells[0].firstChild.lastChild.value){
+					case 'dataobj':
+						res = this.inputizeObjectCellAsCombo(this.data.options[1].values.dataobjs, txtOld);
+						break;
+					case 'var':
+						res = this.inputizeObjectCellAsCombo(this.data.options[1].values.vars, txtOld);
+						break;
+					case 'func':
+					//default: //toglie combo e crea textbox per input utente
+						res=document.createElement("INPUT");
+						res.readOnly=true;
+						res.setAttribute("type", "TEXT");
+						res.setAttribute("value" , txtOld);
+						break;
+				}
+				LibJavascript.Events.addEvent(res, 'keydown',  this.checkForEnterEsc.closure(this));
+				res.style.width = "100%";
+        res.style.boxSizing='border-box';
+        res.style.MozBoxSizing='border-box';
+        res.style.webkitBoxSizing='border-box';
+				cell.firstChild.appendChild(res);
+				break;
+			case '2': //colonna Value
+				var cell = srcElem;
+				var row = srcElem.parentNode;
+				var txtOld = this.data.rows[row.getAttribute('datarow')][2];
+				switch(row.cells[0].firstChild.lastChild.value){
+					case 'dataobj':
+						//debugger
+						res.readOnly=true;
+						break;
+				}
+				break;
+		}
+		return res;
+	},
+	inputizeObjectCellAsCombo: function(opts, initValue){
+		var combo=document.createElement('SELECT');
+		var selIdx=0;
+		for(var i=0, opt, l=opts.length; i<l; i++){
+			opt=opts[i];
+			if(opt==initValue)
+				selIdx=combo.options.length;
+			combo.options[i] = new Option(opt, opt);
+		}
+		combo.selectedIndex=selIdx;
+		return combo;
+	},
+	typeChanged: function(){
+		var objcell=this.objRowSelected.cells[1];//cella di colonna 'Object'
+		this.inputizeCell(objcell); //ricalcola la combo
+		var objcell=this.objRowSelected.cells[2];//cella di colonna 'Value'
+		this.inputizeCell(objcell); //toglie o assegna readonly per dataobj
+	}
+});
+</script>
+<title>Event receiver properties</title>
+</head>
+<body bgcolor="#E4E4E4" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" scroll="yes" style="border:0px;overflow:auto;margin:0pt">
+<div id='maindiv'>
+<table valign='top' class='contenuto' style='width:100%;'>
+	<tr class='titoli' style='width:100%;'>
+		<td align='center' class='titoli' style='width:50%;'><b>Parameters</b></td>
+	</tr>
+	<tr style='width:100%;'>
+		<td valign='top' id='parametersDiv'>
+		</td>
+	</tr>
+	<tr style='width:100%;'>
+		<td valign='top'  >
+			<INPUT class='bottoni' value='+' id="btn_addParameters" title="Add" type="button" onclick="javascript:onBtnAdd(parametersCtrl);">
+			<INPUT class='bottoni' value='-' id="btn_deleteParameters" title="Remove selection" type="button" onclick="javascript:parametersCtrl.deleteRow();">
+		</td>
+	</tr>
+</table>
+
+<table valign='top' class='contenuto' style='width:100%;'>
+	<tr class='contornotitolo' style='width:100%;'>
+		<td align='center' class='titoli' style='width:50%;'><b>Actions</b></td>
+	</tr>
+	<tr style='width:100%;'>
+		<td valign='top' id='actionsDiv' >
+		</td>
+	</tr>
+	<tr style='width:100%;'>
+		<td valign='top' >
+			<INPUT class='bottoni' value='+' id="btn_addActions" title="Add" type="button" onclick="javascript:onBtnAdd(actionsCtrl);">
+			<INPUT class='bottoni' value='-' id="btn_deleteActions" title="Remove selection" type="button" onclick="javascript:actionsCtrl.deleteRow();">
+			<!--INPUT class='bottoni' value='Up' id="btn_upActions" title="Move up selection" type="button" onclick="javascript:onBtnMoveUp(actionsCtrl);">
+			<INPUT class='bottoni' value='Down' id="btn_downActions" title="Move down selection" type="button" onclick="javascript:onBtnMoveDown(actionsCtrl);"-->
+		</td>
+	</tr>
+</table>
+
+<table style='width:100%;'>
+	<tr><td valign="middle" align="right" nowrap>
+   <button onclick="javascript:onOk();" accesskey="o" class="bottoni" style="width:40px;"><u>O</u>k</button>&nbsp;&nbsp;
+   <button onclick="javascript:onCancel();" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+	</td></tr>
+</table>
+</div>
+<script>
+function onBtnAdd(obj){
+	obj.addRow();
+	obj.selectLastRow();
+	obj.editSelectedRow();
+}
+
+function onBtnMoveUp(obj){
+	if(obj.objRowSelected && obj.objRowSelected.rowIndex>2){
+		obj.SaveRow(obj.objRowSelected, true);
+		obj.MoveUp();
+	}
+}
+
+function onBtnMoveDown(obj){
+	if(obj.objRowSelected && obj.objRowSelected.rowIndex>2){
+		obj.SaveRow(obj.objRowSelected, true);
+		obj.MoveDown();
+	}
+}
+
+var receiverObj=GetOpener().itemsHTML[GET_DATA.objIdx];
+
+parameters.rows=(function(){
+	var res=new Z.Dict();
+	var names=receiverObj.parmsNames.split(',');
+	for(var i=0, name, l=names.length; i<l; i++){
+		name=Trim(names[i]);
+		if(name!='')
+			res.Add([name]);
+	}
+	return res;
+})();
+
+
+actions.options[1].values=(function(){
+	var res={vars:[], dataobjs:[]};
+	for(var i=0, items=GetOpener().itemsHTML, l=items.length, itm; i<l;i++){
+		itm=items[i];
+		if(itm!=receiverObj){
+			switch(itm.type){
+				case 'Textbox': case 'Variable': case 'Combobox': case 'Checkbox':
+					res.vars.push(itm.name);
+				break;
+				case 'SQLDataobj': case 'XMLDataobj':
+					res.dataobjs.push(itm.name)
+				break;
+			}
+		}
+	}
+	return res
+})();
+
+//titles: [ 'Type', 'Object', 'Value'],
+actions.rows=(function(){
+	var res=new Z.Dict();
+	var types=receiverObj.actTypes.split(','), objects=receiverObj.actObjs.split(','), values=receiverObj.objsValues.split(',');
+	for(var i=0, name,value,type, l=types.length; i<l; i++){
+		type=Trim(types[i]);
+		obj=Trim(objects[i]);
+		value=Trim(values[i]);
+		if(!(type=='' && obj==''))
+			res.Add([type, obj, value ? Strtran(value,'|',',') : '']);
+	}
+	return res;
+})();
+
+
+
+var configuration={	blnPointToSelect: false };
+
+var parametersCtrl=new Z.EditableGrid(configuration, parameters);
+Ctrl('parametersDiv').insertBefore(parametersCtrl.buildTable(), Ctrl('parametersDiv').firstChild);
+parametersCtrl.init();
+
+var actionsCtrl=new Z.ActionsGrid(configuration, actions);
+Ctrl('actionsDiv').insertBefore(actionsCtrl.buildTable(), Ctrl('actionsDiv').firstChild);
+actionsCtrl.init();
+
+function onOk(){
+	//salva eventuali righe 
+	if(parametersCtrl.objRowSelected)
+		parametersCtrl.saveRow(parametersCtrl.objRowSelected, true);
+	if(actionsCtrl.objRowSelected)
+		actionsCtrl.saveRow(actionsCtrl.objRowSelected, true);
+	
+	//assegna i parametri
+	var parms={names:[]};
+	var row, rows=parametersCtrl.data.rows;
+	for(var k_row in rows.Keys()){
+		row = rows[k_row];
+		parms.names.push(row[0]);
+	}
+	receiverObj.parmsNames = parms.names.join(',');
+	
+	//assegna le azioni
+	var parms={types:[], objs:[], values:[] };
+	var row, rows=actionsCtrl.data.rows;
+	for(var k_row in rows.Keys()){
+		row = rows[k_row];
+		parms.types.push(row[0]);
+		parms.objs.push(row[1]);
+		parms.values.push(Strtran(row[2], ',', '|'));
+	}
+	receiverObj.actTypes = parms.types.join(',');
+	receiverObj.actObjs = parms.objs.join(',');
+	receiverObj.objsValues = parms.values.join(',');
+	
+	GetOpener().Properties();
+  GetOpener().writeHTML();
+  window.close();
+}
+function onCancel(){
+	//check for changes: to do
+	window.close();
+}
+</script>
+</body>
+</html>

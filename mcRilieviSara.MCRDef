@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>Lettura file rilievi SARA</description>
+    <note></note>
+    <variable>
+        <name>ID</name>
+        <description>ID Rilievo</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>MOTIVO</name>
+        <description>Motivazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TIPOLOGIA</name>
+        <description>Tipologia</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CAUSALE_AGGREGATA</name>
+        <description>Causale Aggregata</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CAUSALE_AGGREGATA_ERR</name>
+        <description>Errore Causale Aggregata</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODICE_INTERNO_DIP</name>
+        <description>Codice Interno Dipendenza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODICE_INTERNO_DIP_ERR</name>
+        <description>Errore Codice Interno Dipendenza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODICE_SEGNALANTE</name>
+        <description>Codice Segnalante</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODICE_SEGNALANTE_ERR</name>
+        <description>Errore Codice Segnalate</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODICE_VALUTA</name>
+        <description>Codice Valuta</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODICE_VALUTA_ERR</name>
+        <description>Errore Codice Valuta</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COMUNE_CONTROPARTE</name>
+        <description>Comune Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COMUNE_CONTROPARTE_ERR</name>
+        <description>Errore Comune Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COMUNE_INTERM_CTRP</name>
+        <description>Comune Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COMUNE_INTERM_CTRP_ERR</name>
+        <description>Errore Comune Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COMUNE_DIP</name>
+        <description>Comune Dipendenza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COMUNE_DIP_ERR</name>
+        <description>Errore Comune Dipendenza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COMUNE_RES_CLIENTE</name>
+        <description>Comune Residenza Cliente</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COMUNE_RES_CLIENTE_ERR</name>
+        <description>Errore Comune Residenza Cliente</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATA_RIFERIMENTO</name>
+        <description>Data di Riferimento</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>DATA_RIFERIMENTO_ERR</name>
+        <description>Errore Data di Riferimento</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PAESE_CONTROPARTE</name>
+        <description>Paese Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PAESE_CONTROPARTE_ERR</name>
+        <description>Errore Paese Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PAESE_INTERM_CTRP</name>
+        <description>Paese Intermediario Controparte </description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PAESE_INTERM_CTRP_ERR</name>
+        <description>Errore Paese Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PAESE_RES_CLIENTE</name>
+        <description>Paese Residenza Cliente</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PAESE_RES_CLIENTE_ERR</name>
+        <description>Errore Paese Residenza Cliente</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SEGNO_MONETARIO</name>
+        <description>Segno Monetario</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SEGNO_MONETARIO_ERR</name>
+        <description>Errore Segno Monetario</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SETTORIZ_SINT_ECON</name>
+        <description>Settorizzazione Sintetica</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SETTORIZ_SINT_ECON_ERR</name>
+        <description>Errore Settorizzazione Sintetica</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TIPO_SEGNALANTE</name>
+        <description>Tipo Segnalante</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TIPO_SEGNALANTE_ERR</name>
+        <description>Errore Tipo Segnalante</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>IMPORTO_TOT</name>
+        <description>Importo Totale</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>IMPORTO_TOT_ERR</name>
+        <description>Errore Importo Totale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>IMPORTO_TOT_CONTANTI</name>
+        <description>Importo Contanti</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>IMPORTO_TOT_CONTANTI_ERR</name>
+        <description>Errore Importo Contanti</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NUMERO_OPER_CONT</name>
+        <description>Numero Operazioni Contanti</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>NUMERO_OPER_CONT_ERR</name>
+        <description>Errore Numero Operazioni Contanti</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NUMERO_TOT_OPER</name>
+        <description>Numero Totale Operazioni</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>NUMERO_TOT_OPER_ERR</name>
+        <description>Errore Numero Totale Operazioni</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>ABICAB_SPORTELLO</name>
+        <description>ABI-CAB Dipendenza</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>ABICAB_SPORTELLO_ERR</name>
+        <description>Ertrore ABI-CAB Dipendenza</description>
+        <type>C</type>
+    </variable>
+</class>

@@ -1,0 +1,1189 @@
+﻿* --- Resource Vers. 0.9
+qbe_idp_dipe_ope_pers<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='QBE_IDP_DIPE_OPE_PERS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='QBE_IDP_DIPE_OPE_PERS
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'qbe_idp_dipe_ope_pers.fonte
+'qbe_idp_dipe_ope_pers.idbase
+'qbe_idp_dipe_ope_pers.coddipe
+'qbe_idp_dipe_ope_pers.descriz
+'qbe_idp_dipe_ope_pers.nazagente
+'qbe_idp_dipe_ope_pers.opxsoscli
+'qbe_idp_dipe_ope_pers.opxsosage
+'qbe_idp_dipe_ope_pers.valcompl
+'qbe_idp_dipe_ope_pers.anomoper
+'qbe_idp_dipe_ope_pers.ageregio
+'qbe_idp_dipe_ope_pers.provincia
+'qbe_idp_dipe_ope_pers.totlire
+'qbe_idp_dipe_ope_pers.c_sta
+'qbe_idp_dipe_ope_pers.connes
+'qbe_idp_dipe_ope_pers.ragsoc
+'qbe_idp_dipe_ope_pers.codfisc
+'qbe_idp_dipe_ope_pers.cfestero
+'qbe_idp_dipe_ope_pers.regres
+'qbe_idp_dipe_ope_pers.flgbl
+'qbe_idp_dipe_ope_pers.cloccupa
+'qbe_idp_dipe_ope_pers.chkcodfisc
+'qbe_idp_dipe_ope_pers.areageo_cli
+'qbe_idp_dipe_ope_pers.rarea_cli
+'qbe_idp_dipe_ope_pers.rcomp_cli
+'qbe_idp_dipe_ope_pers.rattiv_cli
+'qbe_idp_dipe_ope_pers.rnatgiu_cli
+'qbe_idp_dipe_ope_pers.attiv_cli
+'qbe_idp_dipe_ope_pers.comport_cli
+'qbe_idp_dipe_ope_pers.pktbspecie_cli
+'qbe_idp_dipe_ope_pers.durat
+'qbe_idp_dipe_ope_pers.ammont
+'qbe_idp_dipe_ope_pers.tipo
+'qbe_idp_dipe_ope_pers.rarea
+'qbe_idp_dipe_ope_pers.rragio
+'qbe_idp_dipe_ope_pers.rfreq
+'qbe_idp_dipe_ope_pers.rimp
+'qbe_idp_dipe_ope_pers.rcomp
+'qbe_idp_dipe_ope_pers.rtipo
+'qbe_idp_dipe_ope_pers.areageo
+'qbe_idp_dipe_ope_pers.modsvol
+'qbe_idp_dipe_ope_pers.ragio
+'qbe_idp_dipe_ope_pers.mitigp
+'qbe_idp_dipe_ope_pers.mitigo
+'qbe_idp_dipe_ope_pers.categ01_cli
+'qbe_idp_dipe_ope_pers.categ02_cli
+'qbe_idp_dipe_ope_pers.categ03_cli
+'qbe_idp_dipe_ope_pers.categ04_cli
+'qbe_idp_dipe_ope_pers.categ05_cli
+'qbe_idp_dipe_ope_pers.categoria_cli
+'qbe_idp_dipe_ope_pers.categ01_ope
+'qbe_idp_dipe_ope_pers.categ02_ope
+'qbe_idp_dipe_ope_pers.categ03_ope
+'qbe_idp_dipe_ope_pers.categ04_ope
+'qbe_idp_dipe_ope_pers.categ05_ope
+'qbe_idp_dipe_ope_pers.categoria_ope
+'qbe_idp_dipe_ope_pers.categ01_dip
+'qbe_idp_dipe_ope_pers.categ02_dip
+'qbe_idp_dipe_ope_pers.categ03_dip
+'qbe_idp_dipe_ope_pers.categ04_dip
+'qbe_idp_dipe_ope_pers.categ05_dip
+'qbe_idp_dipe_ope_pers.categoria_dip
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'qbe_idp_dipe_ope_pers.ageregio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Regione Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AGEREGIO
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.ammont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ammontare operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AMMONT
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.anomoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anomalie Operative Riscontrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANOMOPER
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Area Geografica operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AREAGEO
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.areageo_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Area Geografica anagrafica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AREAGEO_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.attiv_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Prevalente attività anagrafica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ATTIV_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.c_sta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Destinazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_STA
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ01_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG01_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ01_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG01_DIP
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ01_ope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG01_OPE
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ02_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG02_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ02_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG02_DIP
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ02_ope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG02_OPE
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ03_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG03_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ03_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG03_DIP
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ03_ope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG03_OPE
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ04_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG04_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ04_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG04_DIP
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ04_ope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG04_OPE
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ05_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG05_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ05_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG05_DIP
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categ05_ope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG05_OPE
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categoria_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEGORIA_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categoria_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEGORIA_DIP
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.categoria_ope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEGORIA_OPE
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.cfestero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Estero
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFESTERO
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.chkcodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Verifica del codice fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CHKCODFISC
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.cloccupa
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Occupazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CLOCCUPA
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODFISC
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.comport_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Comportamento tenuto anagrafica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COMPORT_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNES
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.descriz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCRIZ
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.durat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Durata operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DURAT
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.flgbl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='BlackList
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGBL
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.fonte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Fonte dei dati
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FONTE
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Idbase
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.mitigo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mitigazione indicata sull'operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MITIGO
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.mitigp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mitigazione indicata su personbo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MITIGP
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.modsvol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Modalità Svolgimento operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MODSVOL
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.nazagente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nazionalità Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NAZAGENTE
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.opxsosage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazioni Sospette Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPXSOSAGE
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.opxsoscli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazioni Sospette Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPXSOSCLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.pktbspecie_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Natura giuridica anagrafica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PKTBSPECIE_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.ragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragionevolezza operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGIO
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGSOC
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.rarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio area geografica  operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAREA
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.rarea_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio area geografica anagrafica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAREA_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.rattiv_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio attività anagrafica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RATTIV_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.rcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio Comportamento operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RCOMP
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.rcomp_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio comportamento anagrafica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RCOMP_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.regres
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Regione Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='REGRES
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.rfreq
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio Frequenza  operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RFREQ
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.rimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio Ammontare operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIMP
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.rnatgiu_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio natura giuridica anagrafica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RNATGIU_CLI
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.rragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio Ragionevolezza  operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RRAGIO
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.rtipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio tipo operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RTIPO
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo rischio operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPO
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.totlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTLIRE
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+'qbe_idp_dipe_ope_pers.valcompl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valutazione Visita Compliance
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALCOMPL
+state=3
+table_name='QBE_IDP_DIPE_OPE_PERS
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'qbe_idp_dipe_ope_pers.ageregio
+[]
+'qbe_idp_dipe_ope_pers.ammont
+[]
+'qbe_idp_dipe_ope_pers.anomoper
+[]
+'qbe_idp_dipe_ope_pers.areageo
+[]
+'qbe_idp_dipe_ope_pers.areageo_cli
+[]
+'qbe_idp_dipe_ope_pers.attiv_cli
+[]
+'qbe_idp_dipe_ope_pers.c_sta
+[]
+'qbe_idp_dipe_ope_pers.categ01_cli
+[]
+'qbe_idp_dipe_ope_pers.categ01_dip
+[]
+'qbe_idp_dipe_ope_pers.categ01_ope
+[]
+'qbe_idp_dipe_ope_pers.categ02_cli
+[]
+'qbe_idp_dipe_ope_pers.categ02_dip
+[]
+'qbe_idp_dipe_ope_pers.categ02_ope
+[]
+'qbe_idp_dipe_ope_pers.categ03_cli
+[]
+'qbe_idp_dipe_ope_pers.categ03_dip
+[]
+'qbe_idp_dipe_ope_pers.categ03_ope
+[]
+'qbe_idp_dipe_ope_pers.categ04_cli
+[]
+'qbe_idp_dipe_ope_pers.categ04_dip
+[]
+'qbe_idp_dipe_ope_pers.categ04_ope
+[]
+'qbe_idp_dipe_ope_pers.categ05_cli
+[]
+'qbe_idp_dipe_ope_pers.categ05_dip
+[]
+'qbe_idp_dipe_ope_pers.categ05_ope
+[]
+'qbe_idp_dipe_ope_pers.categoria_cli
+[]
+'qbe_idp_dipe_ope_pers.categoria_dip
+[]
+'qbe_idp_dipe_ope_pers.categoria_ope
+[]
+'qbe_idp_dipe_ope_pers.cfestero
+[]
+'qbe_idp_dipe_ope_pers.chkcodfisc
+[]
+'qbe_idp_dipe_ope_pers.cloccupa
+[]
+'qbe_idp_dipe_ope_pers.coddipe
+[]
+'qbe_idp_dipe_ope_pers.codfisc
+[]
+'qbe_idp_dipe_ope_pers.comport_cli
+[]
+'qbe_idp_dipe_ope_pers.connes
+[]
+'qbe_idp_dipe_ope_pers.descriz
+[]
+'qbe_idp_dipe_ope_pers.durat
+[]
+'qbe_idp_dipe_ope_pers.flgbl
+[]
+'qbe_idp_dipe_ope_pers.fonte
+[]
+'qbe_idp_dipe_ope_pers.idbase
+[]
+'qbe_idp_dipe_ope_pers.mitigo
+[]
+'qbe_idp_dipe_ope_pers.mitigp
+[]
+'qbe_idp_dipe_ope_pers.modsvol
+[]
+'qbe_idp_dipe_ope_pers.nazagente
+[]
+'qbe_idp_dipe_ope_pers.opxsosage
+[]
+'qbe_idp_dipe_ope_pers.opxsoscli
+[]
+'qbe_idp_dipe_ope_pers.pktbspecie_cli
+[]
+'qbe_idp_dipe_ope_pers.provincia
+[]
+'qbe_idp_dipe_ope_pers.ragio
+[]
+'qbe_idp_dipe_ope_pers.ragsoc
+[]
+'qbe_idp_dipe_ope_pers.rarea
+[]
+'qbe_idp_dipe_ope_pers.rarea_cli
+[]
+'qbe_idp_dipe_ope_pers.rattiv_cli
+[]
+'qbe_idp_dipe_ope_pers.rcomp
+[]
+'qbe_idp_dipe_ope_pers.rcomp_cli
+[]
+'qbe_idp_dipe_ope_pers.regres
+[]
+'qbe_idp_dipe_ope_pers.rfreq
+[]
+'qbe_idp_dipe_ope_pers.rimp
+[]
+'qbe_idp_dipe_ope_pers.rnatgiu_cli
+[]
+'qbe_idp_dipe_ope_pers.rragio
+[]
+'qbe_idp_dipe_ope_pers.rtipo
+[]
+'qbe_idp_dipe_ope_pers.tipo
+[]
+'qbe_idp_dipe_ope_pers.totlire
+[]
+'qbe_idp_dipe_ope_pers.valcompl
+[]
+}
+*--*

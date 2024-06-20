@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+tbcondotta<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Tipo di condotta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbcondotta
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbcondotta.codice
+'tbcondotta.descri
+'tbcondotta.rischio
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbcondotta.codice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODICE
+state=3
+table_name='tbcondotta
+type='field
+used_resource_keys={}
+I
+'tbcondotta.descri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCRI
+state=3
+table_name='tbcondotta
+type='field
+used_resource_keys={}
+I
+'tbcondotta.rischio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indice Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RISCHIO
+state=3
+table_name='tbcondotta
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbcondotta.codice
+[]
+'tbcondotta.descri
+[]
+'tbcondotta.rischio
+[]
+}
+*--*

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="149841200">
+  <CodifyName>armt_xapotit</CodifyName>
+  <Name>armt_xapotit.mstdef</Name>
+  <Title>Titolare Effettivo (Provvisorio)</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="244147609">Dati</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_xapotit_usr_1</JPG>
+    <Item type="campo" x1="104" y1="21" x2="182" y2="42">
+      <Name LinkID="53211559">CODINTER</Name>
+      <Comment>Codice Intermediario</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="232" y1="21" x2="280" y2="42">
+      <Name LinkID="58586620">CODDIPE</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="72" x2="246" y2="92">
+      <Name LinkID="245502770">CONNESCLI</Name>
+      <Comment></Comment>
+      <Key>key4</Key>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="96" x2="208" y2="116">
+      <Name LinkID="23983519">DATAOPE</Name>
+      <Comment>Data Operazione</Comment>
+      <Key>key2</Key>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="96" x2="784" y2="116">
+      <Name LinkID="23978095">DATAREG</Name>
+      <Comment>Data registrazione</Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="120" x2="512" y2="140">
+      <Name LinkID="53224849">TIPOOPRAP</Name>
+      <Comment>Tipo Informazione</Comment>
+      <Key>key5</Key>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="144" x2="246" y2="164">
+      <Name LinkID="215831346">CONNESOPER</Name>
+      <Comment>Soggetto Operante Conto Terzi</Comment>
+      <Key>key6</Key>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="168" x2="600" y2="188">
+      <Name LinkID="141418689">TIPOLEG</Name>
+      <Comment>Tipo Legame Sogg.</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="192" x2="296" y2="212">
+      <Name LinkID="4064144">RAPPORTO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="168" x2="760" y2="188">
+      <Name LinkID="221705100">STATOREG</Name>
+      <Comment>Stato Registrazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="21" x2="648" y2="42">
+      <Name LinkID="225250653">DESCCIT</Name>
+      <Comment>Città Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="21" x2="696" y2="42">
+      <Name LinkID="190126058">PROVINCIA</Name>
+      <Comment>Provincia Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="728" y1="21" x2="776" y2="42">
+      <Name LinkID="58872957">CODCAB</Name>
+      <Comment>CAB Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="416" y1="96" x2="512" y2="116">
+      <Name LinkID="214816352">NUMPROG</Name>
+      <Comment>Numero Progressivo</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="216" x2="464" y2="236">
+      <Name LinkID="134744061">DESCINTER</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

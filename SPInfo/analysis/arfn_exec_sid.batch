@@ -1,0 +1,67 @@
+﻿* --- Resource Vers. 0.9
+arfn_exec_sid
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:28
+description='Lancia Esecuzione SID
+file_modified_on=#2023-11-23 10:16:37
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:52
+module_name='
+name='arfn_exec_sid
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tberrorisid.sidcodice
+'tberrorisid.sidtipoelab
+'tberrorisid.siddescri
+'sid_invio.fleinvio
+'sid_invio.fl1invio
+'aesaldi.nomefile
+'aesaldi.anno
+'aesaldi.fileinv1
+'sid_invio.fl2invio
+'sid_invio.flginvio
+'aesaldi.fileinv2
+'tmp_listafile.nomefile
+'tmp_listafile.priorita
+'tmp_listafile.hyperlynk
+'tberrsiddgn.dgntipo
+'tberrsiddgn.dgncodice
+'tberrsiddgn.dgntipoerr
+'tberrsiddgn.dgndescri
+]
+'Libraries
+[
+'CriptoLibrary<painter>
+'FileLibMit<project>
+]
+'Routines
+[
+'arfn_exec_sid
+]
+'Tables
+[
+'aeannora<table>
+'aesaldi<table>
+'cpwarn<table>
+'intermbo<table>
+'sid_invio<table>
+'tberrorisid<table>
+'tberrsiddgn<table>
+'tmp_listafile<table>
+]
+}
+I
+*--*
+￼[]
+*--*

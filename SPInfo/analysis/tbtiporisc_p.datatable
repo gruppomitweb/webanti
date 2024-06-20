@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+tbtiporisc_p<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Tipologia Rischio Pers.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tbtiporisc_p
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbtiporisc_p.codice
+'tbtiporisc_p.rischio
+'tbtiporisc_p.flgpers
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbtiporisc_p.codice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODICE
+state=3
+table_name='tbtiporisc_p
+type='field
+used_resource_keys={}
+I
+'tbtiporisc_p.flgpers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Valore Personalizzato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLGPERS
+state=3
+table_name='tbtiporisc_p
+type='field
+used_resource_keys={}
+I
+'tbtiporisc_p.rischio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Indice di Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RISCHIO
+state=3
+table_name='tbtiporisc_p
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbtiporisc_p.codice
+[]
+'tbtiporisc_p.flgpers
+[]
+'tbtiporisc_p.rischio
+[]
+}
+*--*

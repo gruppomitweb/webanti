@@ -1,0 +1,86 @@
+﻿* --- Resource Vers. 0.9
+arrt_rapporto_oro
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Crea/Chiude Rapporto ORO
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:23
+module_name='
+name='arrt_rapporto_oro
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'japopebo.cdatope
+'japopebo.codcab
+'japopebo.codinter
+'japopebo.dataope
+'japopebo.datareg
+'japopebo.desccit
+'japopebo.flaglire
+'japopebo.flagrap
+'japopebo.idbase
+'japopebo.idereg
+'japopebo.numprog
+'japopebo.oprap
+'japopebo.prgimpinf
+'japopebo.provincia
+'japopebo.rapporto
+'japopebo.statoreg
+'japopebo.tipoinf
+'japopebo.tipointer
+'japopebo.tipoleg
+'japopebo.tipooprap
+'japopebo.valuta
+'jntestbo.rapporto
+'jntestbo.codinter
+'jntestbo.datafine
+'jntestbo.numprog2
+'jnarapbo.rapporto
+'jnarapbo.descrap
+'jnarapbo.tiporap
+'jnarapbo.flaglire
+'jnarapbo.valuta
+'jnarapbo.tipoag
+'jnarapbo.idbase
+'jnarapbo.noprot
+'jnarapbo.prgimprap
+'jntestbo.idbase
+'jntestbo.cprownum
+'jntestbo.dataini
+'jntestbo.numprog1
+'jntestbo.tiporap
+'jntestbo.statoreg
+'jntestbo.idereg
+'jntestbo.collegamen
+'jntestbo.prgimpsog
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Tables
+[
+'opextrbo<table>
+'jnarapbo<table>
+'personbo<table>
+'japopebo<table>
+'intermbo<table>
+'jntestbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

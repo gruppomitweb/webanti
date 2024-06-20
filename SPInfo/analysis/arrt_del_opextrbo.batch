@@ -1,0 +1,88 @@
+﻿* --- Resource Vers. 0.9
+arrt_del_opextrbo
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Cancella Operazione ExtraConto
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:11
+module_name='
+name='arrt_del_opextrbo
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.dataannu
+'aeopstor.idbase
+'aeopstor.rapporto
+'aeopstor.connesint
+'aeopstor.aspedito
+'aeopstor.adata
+'aeopstor.aprog
+'aeopstor.afile
+'aeopstor.adataret
+'aeopstor.cspedito
+'aeopstor.cdata
+'aeopstor.cprog
+'aeopstor.cfile
+'aeopstor.cdataret
+'aeopstor.idrif
+'aeopstor.tipoag
+'aeopstor.coint
+'aeopstor.nocodfisc
+'aeopstor.progres
+'aeopcanc.adata
+'aeopcanc.adataret
+'aeopcanc.afile
+'aeopcanc.aprog
+'aeopcanc.aspedito
+'aeopcanc.cdata
+'aeopcanc.cdataret
+'aeopcanc.cfile
+'aeopcanc.coldprog
+'aeopcanc.coint
+'aeopcanc.coldfile
+'aeopcanc.connesint
+'aeopcanc.cprog
+'aeopcanc.cspedito
+'aeopcanc.datarif
+'aeopcanc.idbase
+'aeopcanc.idrif
+'aeopcanc.nocodfisc
+'aeopcanc.progres
+'aeopcanc.rapporto
+'aeopcanc.rifstor
+'aeopcanc.tipoag
+'aeopcanc.tipocan
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Routines
+[
+'arrt_del_opextrbo
+]
+'Tables
+[
+'aeoprig<table>
+'opextrbo<table>
+'aeopcanc<table>
+'aeopstor<table>
+]
+}
+I
+*--*
+￼[]
+*--*

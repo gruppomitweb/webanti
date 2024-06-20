@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="177503466">
+  <CodifyName>arpg_intestbo</CodifyName>
+  <Name>arpg_intestbo.pagedef</Name>
+  <Title>Intestatari</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="190560973"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_intestbo_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="73" x2="1246" y2="86">
+      <Name LinkID="43204587">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="60" x2="1246" y2="73">
+      <Name LinkID="257657307">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="64" y1="43" x2="168" y2="59">
+      <Name LinkID="77888746">c_CODINTER</Name>
+      <Help></Help>
+      <Expression>c_CODINTER</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="176" y1="43" x2="536" y2="59">
+      <Name LinkID="77888746">c_RAGSOC</Name>
+      <Help></Help>
+      <Expression>c_RAGSOC</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="544" y1="43" x2="616" y2="59">
+      <Name LinkID="77888746">c_DATAINI</Name>
+      <Help></Help>
+      <Expression>c_DATAINI</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="624" y1="43" x2="696" y2="59">
+      <Name LinkID="77888746">c_DATAFINE</Name>
+      <Help></Help>
+      <Expression>c_DATAFINE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="28" y1="44" x2="44" y2="60">
+      <Name LinkID="77888746">images/edit.gif</Name>
+      <Image>images/edit.gif</Image>
+      <Hyperlink>arpg_edt_personbo</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="46" y1="44" x2="62" y2="60">
+      <Name LinkID="77888746">images/remove.gif</Name>
+      <Image>images/remove.gif</Image>
+      <Hyperlink>arpg_del_personbo</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="6" y1="44" x2="22" y2="60">
+      <Name LinkID="77888746">images/view.png</Name>
+      <Image>images/view.png</Image>
+      <Hyperlink>armt_personbo</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

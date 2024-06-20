@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+saldi_idp<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Saldi IDP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='saldi_idp
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'saldi_idp.rapporto
+'saldi_idp.anno
+'saldi_idp.trimestre
+'saldi_idp.importo
+'saldi_idp.idbase
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'saldi_idp.anno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNO
+state=3
+table_name='saldi_idp
+type='field
+used_resource_keys={}
+I
+'saldi_idp.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='IDBASE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='saldi_idp
+type='field
+used_resource_keys={}
+I
+'saldi_idp.importo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPORTO
+state=3
+table_name='saldi_idp
+type='field
+used_resource_keys={}
+I
+'saldi_idp.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='saldi_idp
+type='field
+used_resource_keys={}
+I
+'saldi_idp.trimestre
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Trimestre
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TRIMESTRE
+state=3
+table_name='saldi_idp
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'saldi_idp.anno
+[]
+'saldi_idp.idbase
+[]
+'saldi_idp.importo
+[]
+'saldi_idp.rapporto
+[]
+'saldi_idp.trimestre
+[]
+}
+*--*

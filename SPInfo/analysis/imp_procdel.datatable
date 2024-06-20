@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+imp_procdel<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='PROCDEL
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='imp_procdel
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'imp_procdel.rapporto
+'imp_procdel.codinter
+'imp_procdel.dataini
+'imp_procdel.tiporap
+'imp_procdel.datafine
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'imp_procdel.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Delegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='imp_procdel
+type='field
+used_resource_keys={}
+I
+'imp_procdel.datafine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine Delega
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAFINE
+state=3
+table_name='imp_procdel
+type='field
+used_resource_keys={}
+I
+'imp_procdel.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio Delega
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINI
+state=3
+table_name='imp_procdel
+type='field
+used_resource_keys={}
+I
+'imp_procdel.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='imp_procdel
+type='field
+used_resource_keys={}
+I
+'imp_procdel.tiporap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPORAP
+state=3
+table_name='imp_procdel
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'imp_procdel.codinter
+[]
+'imp_procdel.datafine
+[]
+'imp_procdel.dataini
+[]
+'imp_procdel.rapporto
+[]
+'imp_procdel.tiporap
+[]
+}
+*--*

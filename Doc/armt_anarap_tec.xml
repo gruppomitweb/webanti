@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="Technical.xsl"?>
+<Codify LinkID="193516797">
+  <CodifyName>armt_anarap</CodifyName>
+  <Name>armt_anarap.mstdef</Name>
+  <Title>Rapporti Continuativi (A.U.I.)</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Template>Master entity (Master)</Template>
+  <Author></Author>
+  <User></User>
+  <Version></Version>
+  <Created>2003-07-10</Created>
+  <Lastrevision>2012-01-17</Lastrevision>
+  <Dic>plan</Dic>
+  <MasterTable>anarapbo</MasterTable>
+  <WorkTables>
+    <Table>tbtipnat</Table>
+    <Table>tbvalute</Table>
+    <Table>tbrapp</Table>
+    <Table>tbareegeog</Table>
+    <Table>tbsvolgim</Table>
+    <Table>tbplauso</Table>
+    <Table>tbtipatt</Table>
+    <Table>tbtiporisc</Table>
+    <Table>tbdurata</Table>
+    <Table>tbimporto</Table>
+  </WorkTables>
+  <Zoom></Zoom>
+  <Pag number="1">
+    <Title LinkID="184951152">Dati / Informazioni</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_anarap_tec_1</JPG>
+    <Item type="campo" x1="144" y1="16" x2="306" y2="36">
+      <Name LinkID="119249806">RAPPORTO</Name>
+      <Comment>Codice Rapporto</Comment>
+      <Key>key1</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="448" y1="16" x2="776" y2="36">
+      <Name LinkID="202469221">DESCRAP</Name>
+      <Comment>Descrizione</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="40" x2="544" y2="60">
+      <Name LinkID="111055003">TIPORAP</Name>
+      <Comment>Tipo Rapporto</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="66" x2="544" y2="86">
+      <Name LinkID="111075404">TIPOAG</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="90" x2="270" y2="110">
+      <Name LinkID="176669151">FLAGLIRE</Name>
+      <Comment>Divisa</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="calcolo" x1="976" y1="248" x2="1206" y2="274">
+      <Name LinkID="113735242">Calcola Valuta</Name>
+      <Calc_var>w_VALUTA := iif(w_FLAGLIRE='L','018',iif(w_FLAGLIRE='E','242',''))</Calc_var>
+      <DependsOnVar>w_FLAGLIRE</DependsOnVar>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="368" y1="90" x2="406" y2="110">
+      <Name LinkID="81993575">VALUTA</Name>
+      <Comment>Codice Divisa</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="976" y1="8" x2="1048" y2="28">
+      <Name LinkID="238128521">descval</Name>
+      <Comment>Descrizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="976" y1="32" x2="1048" y2="52">
+      <Name LinkID="17281450">daticoll</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="calcolo" x1="976" y1="280" x2="1206" y2="306">
+      <Name LinkID="263344610">Verifica se può cancellare i record</Name>
+      <Calc_routine>
+        <Name>arrt_numopecoll</Name>
+        <Param>pTipo:='D'</Param>
+      </Calc_routine>
+      <DependsOnEvent>Delete start</DependsOnEvent>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="608" y1="64" x2="762" y2="85">
+      <Name LinkID="105176942">NOPROT</Name>
+      <Comment>Non inviare agenzia entrate</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="calcolo" x1="976" y1="120" x2="1206" y2="146">
+      <Name LinkID="138044045">Cancellazione record</Name>
+      <Calc_routine>
+        <Name>arrt_writelog</Name>
+        <Param>pOperazione:='CANCELLAZIONE'</Param>
+        <Param>pTabella:='ANARAPBO'</Param>
+        <Param>pChiave:=w_RAPPORTO</Param>
+      </Calc_routine>
+      <DependsOnEvent>Record Deleted</DependsOnEvent>
+      <Note></Note>
+    </Item>
+    <Item type="calcolo" x1="976" y1="56" x2="1206" y2="82">
+      <Name LinkID="200011367">Variazione record</Name>
+      <Calc_routine>
+        <Name>arrt_writelog</Name>
+        <Param>pOperazione:='VARIAZIONE'</Param>
+        <Param>pTabella:='ANARAPBO'</Param>
+        <Param>pChiave:=w_RAPPORTO</Param>
+      </Calc_routine>
+      <DependsOnEvent>Record Updated</DependsOnEvent>
+      <Note></Note>
+    </Item>
+    <Item type="calcolo" x1="976" y1="88" x2="1206" y2="114">
+      <Name LinkID="65783641">Inserimento Record</Name>
+      <Calc_routine>
+        <Name>arrt_writelog</Name>
+        <Param>pOperazione:='NUOVO RECORD'</Param>
+        <Param>pTabella:='ANARAPBO'</Param>
+        <Param>pChiave:=w_RAPPORTO</Param>
+      </Calc_routine>
+      <DependsOnEvent>Record Inserted</DependsOnEvent>
+      <Note></Note>
+    </Item>
+    <Item type="calcolo" x1="976" y1="152" x2="1206" y2="178">
+      <Name LinkID="259209154">Crea record su tabella parallela</Name>
+      <Calc_routine>
+        <Name>arrt_knarapbo</Name>
+        <Param>pTipo:='D'</Param>
+        <Param>pOper:='I'</Param>
+      </Calc_routine>
+      <DependsOnEvent>Record Inserted</DependsOnEvent>
+      <Note></Note>
+    </Item>
+    <Item type="calcolo" x1="976" y1="184" x2="1206" y2="210">
+      <Name LinkID="218911882">Modifica record su tabella parallela</Name>
+      <Calc_routine>
+        <Name>arrt_knarapbo</Name>
+        <Param>pTipo:='D'</Param>
+        <Param>pOper:='U'</Param>
+      </Calc_routine>
+      <DependsOnEvent>Record Updated</DependsOnEvent>
+      <Note></Note>
+    </Item>
+    <Item type="calcolo" x1="976" y1="216" x2="1206" y2="242">
+      <Name LinkID="165519943">Cancella record su tabella parallela</Name>
+      <Calc_routine>
+        <Name>arrt_knarapbo</Name>
+        <Param>pTipo:='D'</Param>
+        <Param>pOper:='D'</Param>
+      </Calc_routine>
+      <DependsOnEvent>Record Deleted</DependsOnEvent>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="144" x2="480" y2="164">
+      <Name LinkID="215687013">NATURA</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="168" x2="480" y2="188">
+      <Name LinkID="134210734">SCOPO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="264" x2="206" y2="284">
+      <Name LinkID="18977126">AREAGEO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="288" x2="206" y2="308">
+      <Name LinkID="38114231">MODSVOL</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="312" x2="206" y2="332">
+      <Name LinkID="266279762">RAGIO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="336" x2="206" y2="356">
+      <Name LinkID="111076605">TIPO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="648" y1="40" x2="776" y2="64">
+      <Name LinkID="79845531">Nuova Informazione</Name>
+      <Bitmap></Bitmap>
+      <Execute>nuovainf()</Execute>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="216" x2="760" y2="236">
+      <Name LinkID="187636564">RFREQ</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="240" x2="760" y2="260">
+      <Name LinkID="161539325">RIMP</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="264" x2="760" y2="284">
+      <Name LinkID="182393668">RAREA</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="288" x2="760" y2="308">
+      <Name LinkID="134276269">RCOMP</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="312" x2="760" y2="332">
+      <Name LinkID="183443516">RRAGIO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="336" x2="760" y2="356">
+      <Name LinkID="217113774">RTIPO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="1056" y1="8" x2="1128" y2="28">
+      <Name LinkID="150023882">xdescmodsvo</Name>
+      <Comment>Descrizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="1056" y1="32" x2="1128" y2="52">
+      <Name LinkID="118285174">xdescareag</Name>
+      <Comment>Descrizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="1136" y1="8" x2="1208" y2="28">
+      <Name LinkID="153051546">xdescplauso</Name>
+      <Comment>Descrizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="1136" y1="32" x2="1208" y2="52">
+      <Name LinkID="130780070">xdesctipor</Name>
+      <Comment>Descrizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="808" y1="8" x2="910" y2="28">
+      <Name LinkID="21070416">PRGIMPRAP</Name>
+      <Comment>Progressivo Import</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="216" x2="206" y2="236">
+      <Name LinkID="65987753">DURAT</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="240" x2="206" y2="260">
+      <Name LinkID="158457711">AMMONT</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="1216" y1="8" x2="1288" y2="28">
+      <Name LinkID="11330502">xdescfreq</Name>
+      <Comment>Descrizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="1216" y1="32" x2="1288" y2="52">
+      <Name LinkID="11230838">xdescammo</Name>
+      <Comment>Descrizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="2">
+    <Title LinkID="232943397">Operazioni / Frazionate</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_anarap_tec_2</JPG>
+  </Pag>
+  <Pag number="3">
+    <Title LinkID="93318731">Deleghe su rapporto</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_anarap_tec_3</JPG>
+  </Pag>
+</Codify>

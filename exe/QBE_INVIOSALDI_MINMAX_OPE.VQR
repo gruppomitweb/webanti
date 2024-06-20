@@ -1,0 +1,99 @@
+ 1
+"Operazioni Extra Conto"
+"aeoprig"
+"aeoprig"
+ 5
+ 5
+*
+ 3
+"Progressivo Riga"
+"MIN(aeoprig.PROGOPX)"
+"MINPRG"
+"Numeric"
+ 15
+ 0
+*
+"Progressivo Riga"
+"MAX(aeoprig.PROGOPX)"
+"MAXPRG"
+"Numeric"
+ 15
+ 0
+*
+"Progressivo Riga"
+"COUNT(aeoprig.PROGOPX)"
+"TOTPRG"
+"Numeric"
+ 15
+ 0
+*
+ 0
+ 5
+"[NOTEMPTYSTR(aeoprig.CONNESINT)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYSTR(aeoprig.APROG)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYSTR(aeoprig.AFILE)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"aeoprig.ADATA"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"aeoprig.ADATA"
+""
+"<="
+"?w_a_data"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_dadata"
+""
+"Date"
+"8"
+"0"
+""
+*
+"w_a_data"
+""
+"Date"
+"8"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 1
+.f.
+""
+.f.
+*

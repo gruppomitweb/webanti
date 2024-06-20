@@ -1,0 +1,32 @@
+.FormDefault {margin:0;position:relative;font-family:Tahoma;font-size:8pt;}
+INPUT {font-family:Tahoma;font-size:8pt;}
+SELECT {font-family:Tahoma;font-size:8pt;}
+TEXTAREA {font-family:Tahoma;font-size:8pt;}
+IMG {border:0;}
+#LEUKOZNIUN {top:14px;position:absolute;left:96px;height:20px;width:40px;font-family:Tahoma;font-size:8pt;font-weight:bold;z-index:1; }
+#HOUHLXOLDR_DIV {top:18px;position:absolute;text-align:right;font-family:Tahoma;font-size:8pt;font-weight:bold;z-index:1;}
+BODY:not([ettl]) #HOUHLXOLDR_DIV {left:48px;height:16px;width:42px;}
+BODY[ettl='old'] #HOUHLXOLDR_DIV {left:48px;height:16px;width:42px;}
+BODY[ettl='yes'] #HOUHLXOLDR_DIV {right:calc(100% - 90px);}
+#FREJQSVVRY {top:42px;position:absolute;left:96px;height:20px;width:192px;z-index:1; }
+#ZAIQYKJBNV_DIV {top:46px;position:absolute;text-align:right;z-index:1;}
+BODY:not([ettl]) #ZAIQYKJBNV_DIV {left:22px;height:16px;width:68px;}
+BODY[ettl='old'] #ZAIQYKJBNV_DIV {left:22px;height:16px;width:68px;}
+BODY[ettl='yes'] #ZAIQYKJBNV_DIV {right:calc(100% - 90px);}
+#HQOQQTARBM {top:70px;position:absolute;left:96px;height:20px;width:36px;z-index:1; }
+#IHQTODRAUU_DIV {top:74px;position:absolute;text-align:right;z-index:1;}
+BODY:not([ettl]) #IHQTODRAUU_DIV {left:59px;height:16px;width:31px;}
+BODY[ettl='old'] #IHQTODRAUU_DIV {left:59px;height:16px;width:31px;}
+BODY[ettl='yes'] #IHQTODRAUU_DIV {right:calc(100% - 90px);}
+#GPSKHVYSHP {top:72px;position:absolute;left:171px;height:20px;width:40px;z-index:1; }
+#UXSTIMUVDG {top:72px;position:absolute;left:256px;height:20px;width:32px;z-index:1; }
+#IGZBNPEWZZ_DIV {top:76px;position:absolute;text-align:right;z-index:1;}
+BODY:not([ettl]) #IGZBNPEWZZ_DIV {left:145px;height:16px;width:22px;}
+BODY[ettl='old'] #IGZBNPEWZZ_DIV {left:145px;height:16px;width:22px;}
+BODY[ettl='yes'] #IGZBNPEWZZ_DIV {right:calc(100% - 167px);letter-spacing:-1px;}
+#NQKCMHCAFD_DIV {top:76px;position:absolute;text-align:right;z-index:1;}
+BODY:not([ettl]) #NQKCMHCAFD_DIV {left:223px;height:16px;width:31px;}
+BODY[ettl='old'] #NQKCMHCAFD_DIV {left:223px;height:16px;width:31px;}
+BODY[ettl='yes'] #NQKCMHCAFD_DIV {right:calc(100% - 254px);letter-spacing:-1px;}
+#HOUHLXOLDR_DIV, #ZAIQYKJBNV_DIV, #IHQTODRAUU_DIV, #IGZBNPEWZZ_DIV, #NQKCMHCAFD_DIV {overflow:hidden;}
+#LEUKOZNIUN, #FREJQSVVRY, #HQOQQTARBM, #GPSKHVYSHP, #UXSTIMUVDG {box-sizing : border-box;}

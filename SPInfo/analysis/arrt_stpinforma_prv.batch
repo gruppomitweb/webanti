@@ -1,0 +1,86 @@
+﻿* --- Resource Vers. 0.9
+arrt_stpinforma_prv
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:41
+description='Lancio Stampa Informazioni (Routine)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:26
+module_name='
+name='arrt_stpinforma_prv
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_stprapporti.codinter
+'tmp_stprapporti.connesoper
+'tmp_stprapporti.datafine
+'tmp_stprapporti.dataini
+'tmp_stprapporti.dataope
+'tmp_stprapporti.datareg
+'tmp_stprapporti.descrap
+'tmp_stprapporti.idereg
+'tmp_stprapporti.numprog
+'tmp_stprapporti.rapporto
+'tmp_stprapporti.statoreg
+'tmp_stprapporti.tipoag
+'tmp_stprapporti.tipoleg
+'tmp_stprapporti.tipooprap
+'tmp_stprapporti.tiporap
+'tmp_stprapporti.valuta
+'tbstati.codsta
+'tbstati.descri
+'tbtipdoc.tipdoc
+'tbtipdoc.descri
+'tbstgru.sotgru
+'tbstgru.descri
+'tbtipatt.codice
+'tbtipatt.descri
+'tbsetsin.setsint
+'tbsetsin.descri
+'tbramgru.ramgru
+'tbramgru.descri
+]
+'Hyperlinks
+[
+'arrp_stprappo2.vrp
+'arrp_stprappo1.vrp
+]
+'Queries
+[
+'qbe_allrapopebo.vqr
+'qbe_rapporti_xls.vqr
+'qbe_rapporti_xls_dett.vqr
+]
+'Routines
+[
+'arfn_fdate
+]
+'Tables
+[
+'tmp_stprapporti<table>
+'intestbo<table>
+'personbo<table>
+'tbstati<table>
+'tbtipdoc<table>
+'rapotit<table>
+'delegabo<table>
+'tbstgru<table>
+'tbtipatt<table>
+'tbsetsin<table>
+'tbramgru<table>
+]
+}
+I
+*--*
+￼[]
+*--*

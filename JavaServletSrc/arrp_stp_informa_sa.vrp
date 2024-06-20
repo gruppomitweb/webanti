@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Informazioni Provvisorie -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_stp_informa_sa||version||4.6||title||Stampa Informazioni Provvisorie||query||qbe_all_xnformazioni||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-03-08||date_rev||2016-03-11||form_class|| ||grid_dx||8||grid_dy||7||grid_show||1||grid_use||1||snaplines_show||1||language|| ||merge||false||modcnt||39||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding|| ||hsl||false||lock_items||false||maxcount||205||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||Variable||name||w_RAPPORTO||value||qbe_stprappo1.c_RAPPORTO||len||25||dec||0|||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||99||uid||RKBPHZLGYB||sequence||42||bb_sequence||47||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||689||uid||ASXNFGWACF||sequence||41||bb_sequence||46||page||1|||type||AltQuery_top||comment||altquery76||query||qbe_all_xnformazioni_del||exp||qbe_all_xnformazioni_del.c_NUMPROG1=qbe_all_xnformazioni.c_NUMPROG||name||altquery76||y||213||uid||NYBFFGAVXL||sequence||78||bb_sequence||76||page||1|||type||AltQuery_down||comment||altquery76||query||qbe_all_xnformazioni_del||exp||qbe_all_xnformazioni_del.c_NUMPROG1=qbe_all_xnformazioni.c_NUMPROG||name||altquery76||y||443||uid||FEMEDNHHEJ||sequence||79||bb_sequence||76||page||1|||type||AltQuery_top||comment||altquery89||query||qbe_all_xnformazioni_del_chi||exp||qbe_all_xnformazioni_del_chi.c_NUMPROG2=qbe_all_xnformazioni.c_NUMPROG||name||altquery89||y||455||uid||CJKVFIVEXU||sequence||96||bb_sequence||89||page||1|||type||AltQuery_down||comment||altquery89||query||qbe_all_xnformazioni_del_chi||exp||qbe_all_xnformazioni_del_chi.c_NUMPROG2=qbe_all_xnformazioni.c_NUMPROG||name||altquery89||y||683||uid||PKSAYCCKVE||sequence||97||bb_sequence||89||page||1|||type||Group_top||comment||group0||exp||c_NUMPROG||name||group0||y||209||uid||ILESEOMEMG||sequence||15||bb_sequence||4||page||1||start_each_on_page||true|||type||Group_down||comment||group0||exp||c_NUMPROG||name||group0||y||688||uid||XYALQDPMCZ||sequence||40||bb_sequence||5||page||1||start_each_on_page||true|||type||Group_top||comment||group81||exp||qbe_all_xnformazioni_del.c_NUMPROG1+qbe_all_xnformazioni_del.c_NUMPROG2||name||group81||y||240||uid||RUXAWTLTIP||sequence||80||bb_sequence||15||page||1|||type||Group_down||comment||group81||exp||qbe_all_xnformazioni_del.c_NUMPROG1+qbe_all_xnformazioni_del.c_NUMPROG2||name||group81||y||438||uid||AWUSBZWHXT||sequence||81||bb_sequence||16||page||1|||type||Group_top||comment||group90||exp||qbe_all_xnformazioni_del.c_NUMPROG1+qbe_all_xnformazioni_del.c_NUMPROG2||name||group90||y||482||uid||GOHDWOTLDS||sequence||98||bb_sequence||15||page||1|||type||Group_down||comment||group90||exp||qbe_all_xnformazioni_del.c_NUMPROG1+qbe_all_xnformazioni_del.c_NUMPROG2||name||group90||y||678||uid||GXZXXYUWLZ||sequence||99||bb_sequence||16||page||1|||type||Section_top||comment||section74||hidecond||qbe_all_xnformazioni.c_TIPOOPRAP=&#39;28&#39;||name||section74||y||211||uid||NCLAPZXSLK||sequence||74||bb_sequence||11||page||1|||type||Section_down||comment||section74||hidecond||qbe_all_xnformazioni.c_TIPOOPRAP=&#39;28&#39;||name||section74||y||449||uid||LZQNIFHUMD||sequence||75||bb_sequence||12||page||1|||type||Section_top||comment||section88||hidecond||qbe_all_xnformazioni.c_TIPOOPRAP=&#39;25&#39;||name||section88||y||451||uid||IUCIDUQHPV||sequence||94||bb_sequence||11||page||1|||type||Section_down||comment||section88||hidecond||qbe_all_xnformazioni.c_TIPOOPRAP=&#39;25&#39;||name||section88||y||685||uid||AZFFJJDLXK||sequence||95||bb_sequence||12||page||1|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||name||label0||uid||VJZBQLDJHX||page||1||x||4||y||2||w||723||h||21||sequence||60||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Label||value||Filtri attivi sulla stampa||text_type||constant||name||label1||uid||IXKFIOWQQY||page||1||x||294||y||23||w||424||h||19||sequence||43||align||center||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Box||name||Box2||x||276||y||24||w||442||h||71||uid||XKNCDQCSMY||sequence||44||page||1||bb_border_colour||false||border_width||1|||type||Box||name||Box3||x||4||y||24||w||264||h||71||uid||OYHRQVVYQK||sequence||45||page||1||bb_border_colour||false||border_width||1|||type||Label||value||Stampa Informazioni||text_type||constant||name||label4||uid||JKGLHTVXVR||page||1||x||4||y||31||w||264||h||21||sequence||46||align||center||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Label||value||Da data informazione:||text_type||constant||name||label7||uid||KUXXXGZCCH||page||1||x||526||y||45||w||123||h||18||sequence||49||align||right||global_font||false||font||Arial||font_size||9||font_weight||bold||hidecond||c_dadata=&#39;&#39; or Empty(c_dadata)|||type||Expr||exp||arfn_fdate(CharToDate(c_dadata))||dec||0||name||expr8||uid||ZCGPGPREFK||page||1||x||654||y||45||w||60||h||16||sequence||50||hidecond||c_dadata=&#39;&#39; or Empty(c_dadata)|||type||Label||value||Provvisorie||text_type||constant||name||label4_112||uid||JFXWPHOSGX||page||1||x||4||y||56||w||264||h||21||sequence||46||align||center||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Label||value||A data informazione:||text_type||constant||name||label12||uid||FRASLYFZXD||page||1||x||526||y||66||w||123||h||18||sequence||54||align||right||global_font||false||font||Arial||font_size||9||font_weight||bold||hidecond||c_adata=&#39;&#39; or Empty(c_adata)|||type||Expr||exp||arfn_fdate(CharToDate(c_adata))||dec||0||name||expr10||uid||MWZQIINSYN||page||1||x||654||y||66||w||60||h||16||sequence||52||hidecond||c_adata=&#39;&#39; or Empty(c_adata)|||type||Label||value||INFORMAZIONI||text_type||constant||name||label27||uid||TTEHIZDDKE||page||1||x||8||y||106||w||160||h||13||sequence||13||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box16||x||8||y||121||w||720||h||0||uid||IJQQWOYXKM||sequence||2||page||1||bb_border_colour||false||border_width||1|||type||Label||value||Data Operazione:||text_type||constant||name||label31||uid||OCINILJVRC||page||1||x||12||y||127||w||97||h||16||sequence||18||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||N&#176; Operazione:||text_type||constant||name||label36||uid||YLVRYEKDZN||page||1||x||187||y||127||w||89||h||16||sequence||23||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||c_NUMPROG||len||11||dec||0||name||expr34||uid||OGLHASFOCO||page||1||x||283||y||127||w||92||h||16||sequence||21||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||arfn_fdate(c_DATAOPE)||dec||0||name||expr35||uid||WUQAHTDEYT||page||1||x||112||y||127||w||72||h||16||sequence||22||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Descrizione:||text_type||constant||name||label17||uid||WTFLGWPEPK||page||1||x||265||y||148||w||78||h||16||sequence||3||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||c_RAPPORTO||len||25||dec||0||name||expr18||uid||MXNTIYIWUV||page||1||x||112||y||148||w||152||h||16||sequence||4||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||c_DESCRAP||len||50||dec||0||name||expr19||uid||NXDBOKITTC||page||1||x||344||y||148||w||300||h||16||sequence||5||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Codice Rapporto:||text_type||constant||name||label20||uid||VWEVGWWBJP||page||1||x||0||y||148||w||109||h||16||sequence||6||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||c_DESOPE||len||90||dec||0||name||expr38||uid||GWWVIZBTVD||page||1||x||113||y||169||w||420||h||16||sequence||25||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Tipo Operazione:||text_type||constant||name||label37||uid||QQRLOGVCXS||page||1||x||1||y||169||w||109||h||16||sequence||24||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||qbe_all_xnformazioni.c_RAGSOC||len||70||dec||0||name||expr39||uid||TNYUSOVPJY||page||1||x||243||y||189||w||486||h||16||sequence||29||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni.c_CONNESOPER||len||16||dec||0||name||expr18_74||uid||CGOINFDHZM||page||1||x||114||y||189||w||122||h||16||sequence||4||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Sogg. Operante:||text_type||constant||name||label40||uid||RWHIWPFNMY||page||1||x||2||y||190||w||109||h||16||sequence||26||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Inizio||text_type||constant||name||label31_90_91||uid||BOOLDQNQWK||page||1||x||528||y||217||w||58||h||16||sequence||18||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Ragione Sociale||text_type||constant||name||label31_90||uid||AVOPSJEZHO||page||1||x||114||y||217||w||97||h||16||sequence||18||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Fine||text_type||constant||name||label31_90_91_92||uid||JXROENGKPC||page||1||x||596||y||217||w||58||h||16||sequence||18||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box16_89||x||113||y||235||w||611||h||0||uid||WYORPADUHX||sequence||2||page||1||bb_border_colour||false||border_width||1|||type||Expr||exp||qbe_all_xnformazioni_del.c_RAGSOC||len||70||dec||0||name||Expr85||uid||NTWVACBKQU||page||1||x||113||y||243||w||403||h||16||sequence||84||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||arfn_fdate(qbe_all_xnformazioni_del.c_DATAFINE)||dec||0||name||expr8_86_87||uid||MUPILADJJP||page||1||x||594||y||243||w||60||h||16||sequence||50|||type||Expr||exp||arfn_fdate(qbe_all_xnformazioni_del.c_DATAINI)||dec||0||name||expr8_86||uid||LDNMNUCHKR||page||1||x||526||y||243||w||60||h||16||sequence||50|||type||Expr||exp||qbe_all_xnformazioni_del.c_DESCPAESE||len||30||dec||0||name||expr68||uid||IXPOAMEKIX||page||1||x||509||y||263||w||210||h||16||sequence||73||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Indirizzo:||text_type||constant||name||label66||uid||FNAXCNPJRY||page||1||x||16||y||263||w||136||h||16||sequence||71||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_DOMICILIO||len||35||dec||0||name||expr64||uid||LBNAXHNTVT||page||1||x||157||y||263||w||256||h||16||sequence||69||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_PAESE||len||3||dec||0||name||expr67||uid||QFWYIUBZBT||page||1||x||470||y||263||w||32||h||16||sequence||72||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Stato:||text_type||constant||name||label65||uid||BCPQYYUJDA||page||1||x||419||y||263||w||48||h||16||sequence||70||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||CAB:||text_type||constant||name||label72||uid||KGWOEFNSMT||page||1||x||611||y||281||w||43||h||16||sequence||77||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_CAP||len||9||dec||0||name||expr70||uid||DUAXISAZIN||page||1||x||541||y||281||w||63||h||16||sequence||75||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_CODCAB||len||6||dec||0||name||expr74||uid||KEZEGDCYZK||page||1||x||656||y||281||w||63||h||16||sequence||79||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Comune:||text_type||constant||name||label73||uid||JJYCBTABOY||page||1||x||16||y||281||w||136||h||16||sequence||78||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_PROVINCIA||len||2||dec||0||name||expr69||uid||JFIGHAXSOM||page||1||x||429||y||281||w||24||h||16||sequence||74||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Prov.:||text_type||constant||name||label76||uid||IEZFBBAYFH||page||1||x||381||y||281||w||46||h||16||sequence||81||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_DESCCIT||len||30||dec||0||name||expr75||uid||ASRSXFWWIM||page||1||x||157||y||281||w||216||h||16||sequence||80||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||C.A.P.:||text_type||constant||name||label71||uid||ZXSWFHBFPO||page||1||x||485||y||281||w||52||h||16||sequence||76||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_PARTIVA||len||14||dec||0||name||expr79||uid||RFLDUZZLJH||page||1||x||621||y||299||w||98||h||16||sequence||84||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||P. IVA:||text_type||constant||name||label77||uid||VTFJUMCYHY||page||1||x||565||y||299||w||50||h||16||sequence||82||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_CODFISC||len||16||dec||0||name||expr80||uid||QCPGXAVILN||page||1||x||157||y||299||w||168||h||16||sequence||85||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Cod. Fiscale:||text_type||constant||name||label78||uid||WWBZOFRXZW||page||1||x||16||y||299||w||136||h||16||sequence||83||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_DESCSGRU||len||60||dec||0||name||expr82||uid||FBZYLNEEUM||page||1||x||197||y||316||w||424||h||16||sequence||87||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||SottoGrup. Att. Economica:||text_type||constant||name||label81||uid||TLCAZTJEJT||page||1||x||16||y||316||w||136||h||16||sequence||86||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_SOTGRUP||len||3||dec||0||name||expr83||uid||PJYDHKQNTR||page||1||x||157||y||316||w||32||h||16||sequence||88||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||ATECO:||text_type||constant||name||label84||uid||CBSESAGWPX||page||1||x||16||y||333||w||136||h||16||sequence||89||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_DESCATT||len||70||dec||0||name||expr86||uid||IFESUFZQKM||page||1||x||246||y||333||w||422||h||16||sequence||91||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.C_ATTIV||dec||0||name||expr85||uid||IVXIGQWKVD||page||1||x||157||y||333||w||79||h||16||sequence||90||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_DESCSUIC||len||60||dec||0||name||expr88||uid||BJDICVGUVK||page||1||x||197||y||350||w||420||h||16||sequence||93||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Settorizzazione UIC:||text_type||constant||name||label87||uid||QFMBHGYURV||page||1||x||16||y||350||w||136||h||16||sequence||92||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_SETTSINT||len||3||dec||0||name||expr89||uid||LYQOLNITGN||page||1||x||157||y||350||w||32||h||16||sequence||94||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Luogo di Nascita:||text_type||constant||name||label96||uid||GOXFPCRDUR||page||1||x||16||y||368||w||136||h||16||sequence||101||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Prov.:||text_type||constant||name||label97||uid||CBLMFUVSXU||page||1||x||396||y||368||w||55||h||16||sequence||102||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||iif(qbe_all_xnformazioni_del.c_TIPINTER=&#39;EE&#39;,qbe_all_xnformazioni_del.c_NASSTATO,qbe_all_xnformazioni_del.c_NASCOMUN)||len||30||dec||0||name||expr98||uid||COTOQHMNBU||page||1||x||156||y||368||w||210||h||16||sequence||103||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Data di Nascita:||text_type||constant||name||label93||uid||LEVWRSYEZL||page||1||x||500||y||368||w||123||h||16||sequence||98||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||arfn_fdate(qbe_all_xnformazioni_del.c_DATANASC)||dec||0||name||expr94||uid||YXWYBMQEWA||page||1||x||628||y||368||w||80||h||16||sequence||99||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_TIPINTER||len||2||dec||0||name||expr95||uid||EOTBOCAJST||page||1||x||453||y||368||w||24||h||16||sequence||100||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_SESSO||dec||0||name||expr102||uid||YADZINOODQ||page||1||x||628||y||385||w||70||h||16||sequence||107||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_DESCDOC||len||30||dec||0||name||expr101||uid||DZYKJXNOHF||page||1||x||196||y||385||w||352||h||16||sequence||106||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Sesso:||text_type||constant||name||label103||uid||XNCZAAFMNM||page||1||x||564||y||385||w||59||h||16||sequence||108||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Tipo Documento:||text_type||constant||name||label100||uid||FUPVOFMOSH||page||1||x||16||y||385||w||136||h||16||sequence||105||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_TIPODOC||len||2||dec||0||name||expr99||uid||EUHAWTZSGM||page||1||x||156||y||385||w||32||h||16||sequence||104||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||N&#176;Documento:||text_type||constant||name||label107||uid||OZGMKEJLPE||page||1||x||16||y||402||w||136||h||16||sequence||112||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_NUMDOCUM||len||15||dec||0||name||expr105||uid||TWGTOXWBYY||page||1||x||156||y||402||w||105||h||16||sequence||110||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Autorit&#224;:||text_type||constant||name||label104||uid||MGZRYPEEML||page||1||x||276||y||402||w||44||h||16||sequence||109||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del.c_AUTRILASC||len||30||dec||0||name||expr106||uid||PWSWWEYYJJ||page||1||x||324||y||402||w||210||h||16||sequence||111||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Data Rilascio:||text_type||constant||name||label109||uid||LPFXSBSJKH||page||1||x||67||y||420||w||83||h||16||sequence||114||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||arfn_fdate(qbe_all_xnformazioni_del.c_DATARILASC)||dec||0||name||expr110||uid||AIVPISBTKD||page||1||x||155||y||420||w||80||h||16||sequence||115||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Data Scadenza:||text_type||constant||name||label111||uid||ZLMLJVXTCZ||page||1||x||379||y||420||w||83||h||16||sequence||116||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||arfn_fdate(qbe_all_xnformazioni_del.c_DATAVALI)||dec||0||name||expr108||uid||QJELHONVDY||page||1||x||467||y||420||w||80||h||16||sequence||113||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Box||name||Box16_89_94||x||113||y||441||w||611||h||0||uid||UYPDOBSZSF||sequence||2||page||1||bb_border_colour||false||border_width||1|||type||Label||value||Inizio||text_type||constant||name||label31_90_91_107||uid||DZGTNJARVF||page||1||x||529||y||460||w||58||h||16||sequence||18||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Ragione Sociale||text_type||constant||name||label31_90_106||uid||ZWDNRSRLJQ||page||1||x||115||y||460||w||97||h||16||sequence||18||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Fine||text_type||constant||name||label31_90_91_92_108||uid||PSBPLUHPIX||page||1||x||597||y||460||w||58||h||16||sequence||18||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box16_89_105||x||114||y||478||w||611||h||0||uid||ZDYUQBHAAO||sequence||2||page||1||bb_border_colour||false||border_width||1|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_RAGSOC||len||70||dec||0||name||Expr85_103||uid||EVIBRQTKMI||page||1||x||113||y||485||w||403||h||16||sequence||84||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||arfn_fdate(qbe_all_xnformazioni_del_chi.c_DATAINI)||dec||0||name||expr8_86_102||uid||XERNTSORSA||page||1||x||526||y||485||w||60||h||16||sequence||50|||type||Expr||exp||arfn_fdate(qbe_all_xnformazioni_del_chi.c_DATAFINE)||dec||0||name||expr8_86_87_101||uid||REEMRZQCJR||page||1||x||594||y||485||w||60||h||16||sequence||50|||type||Label||value||Indirizzo:||text_type||constant||name||label66_161||uid||YRIPXRYQUD||page||1||x||16||y||503||w||136||h||16||sequence||71||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_DESCPAESE||len||30||dec||0||name||expr68_162||uid||QQLNEIPWDE||page||1||x||509||y||503||w||210||h||16||sequence||73||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Stato:||text_type||constant||name||label65_164||uid||KBWJPLFDLS||page||1||x||419||y||503||w||48||h||16||sequence||70||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_DOMICILIO||len||35||dec||0||name||expr64_165||uid||JCCIJGJOHT||page||1||x||157||y||503||w||256||h||16||sequence||69||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_PAESE||len||3||dec||0||name||expr67_163||uid||CHIRKNBCRO||page||1||x||470||y||503||w||32||h||16||sequence||72||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_CODCAB||len||6||dec||0||name||expr74_172||uid||UVHEKZPKIL||page||1||x||656||y||521||w||63||h||16||sequence||79||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_CAP||len||9||dec||0||name||expr70_171||uid||IZXKOOOIHH||page||1||x||541||y||521||w||63||h||16||sequence||75||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Prov.:||text_type||constant||name||label76_168||uid||BKFECNTTOB||page||1||x||381||y||521||w||46||h||16||sequence||81||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_DESCCIT||len||30||dec||0||name||expr75_169||uid||XJJZSPZLMA||page||1||x||157||y||521||w||216||h||16||sequence||80||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||C.A.P.:||text_type||constant||name||label71_170||uid||MEJJYUYZLB||page||1||x||485||y||521||w||52||h||16||sequence||76||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Comune:||text_type||constant||name||label73_173||uid||VFEZCPRMNT||page||1||x||16||y||521||w||136||h||16||sequence||78||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||CAB:||text_type||constant||name||label72_166||uid||GYPYZBYORM||page||1||x||611||y||521||w||43||h||16||sequence||77||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_PROVINCIA||len||2||dec||0||name||expr69_167||uid||COFUUUPCHD||page||1||x||429||y||521||w||24||h||16||sequence||74||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||P. IVA:||text_type||constant||name||label77_174||uid||GJHVSFKIRO||page||1||x||565||y||539||w||50||h||16||sequence||82||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_PARTIVA||len||14||dec||0||name||expr79_176||uid||AVUIRIDFWW||page||1||x||621||y||539||w||98||h||16||sequence||84||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_CODFISC||len||16||dec||0||name||expr80_177||uid||AFWPXMMEIB||page||1||x||157||y||539||w||168||h||16||sequence||85||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Cod. Fiscale:||text_type||constant||name||label78_175||uid||VCDZYMIUZA||page||1||x||16||y||539||w||136||h||16||sequence||83||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||SottoGrup. Att. Economica:||text_type||constant||name||label81_178||uid||JJZYJJZSZH||page||1||x||16||y||556||w||136||h||16||sequence||86||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_SOTGRUP||len||3||dec||0||name||expr83_179||uid||HRQNEIGHLR||page||1||x||157||y||556||w||32||h||16||sequence||88||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_DESCSGRU||len||60||dec||0||name||expr82_180||uid||BKDABLVKTG||page||1||x||197||y||556||w||424||h||16||sequence||87||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_DESCATT||len||70||dec||0||name||expr86_181||uid||OWPQHIMEEL||page||1||x||246||y||573||w||422||h||16||sequence||91||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||ATECO:||text_type||constant||name||label84_182||uid||XOOIWBPQST||page||1||x||16||y||573||w||136||h||16||sequence||89||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.C_ATTIV||dec||0||name||expr85_183||uid||MAUDHRDMIQ||page||1||x||157||y||573||w||79||h||16||sequence||90||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_SETTSINT||len||3||dec||0||name||expr89_185||uid||XTXGWBTWGU||page||1||x||157||y||590||w||32||h||16||sequence||94||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_DESCSUIC||len||60||dec||0||name||expr88_186||uid||AGMDPXWNRT||page||1||x||197||y||590||w||420||h||16||sequence||93||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Settorizzazione UIC:||text_type||constant||name||label87_184||uid||NRASZNIMVF||page||1||x||16||y||590||w||136||h||16||sequence||92||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Luogo di Nascita:||text_type||constant||name||label96_187||uid||IGBOOXCXGW||page||1||x||16||y||608||w||136||h||16||sequence||101||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_TIPINTER||len||2||dec||0||name||expr95_188||uid||QRUSERDGQJ||page||1||x||453||y||608||w||24||h||16||sequence||100||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Prov.:||text_type||constant||name||label97_189||uid||CNYKMZKHOS||page||1||x||396||y||608||w||55||h||16||sequence||102||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||iif(qbe_all_xnformazioni_del_chi.c_TIPINTER=&#39;EE&#39;,qbe_all_xnformazioni_del_chi.c_NASSTATO,qbe_all_xnformazioni_del_chi.c_NASCOMUN)||len||30||dec||0||name||expr98_190||uid||ZQZXBTFGEJ||page||1||x||156||y||608||w||210||h||16||sequence||103||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Data di Nascita:||text_type||constant||name||label93_191||uid||ZJOLESCTWA||page||1||x||500||y||608||w||123||h||16||sequence||98||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||arfn_fdate(qbe_all_xnformazioni_del_chi.c_DATANASC)||dec||0||name||expr94_192||uid||QBVQNAQIOA||page||1||x||628||y||608||w||80||h||16||sequence||99||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_SESSO||dec||0||name||expr102_193||uid||TXCLUBROSB||page||1||x||628||y||625||w||70||h||16||sequence||107||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_DESCDOC||len||30||dec||0||name||expr101_194||uid||FKVLNHPIVV||page||1||x||196||y||625||w||352||h||16||sequence||106||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Sesso:||text_type||constant||name||label103_195||uid||XNMIHVQTCN||page||1||x||564||y||625||w||59||h||16||sequence||108||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Tipo Documento:||text_type||constant||name||label100_196||uid||MSALPMSZAD||page||1||x||16||y||625||w||136||h||16||sequence||105||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_TIPODOC||len||2||dec||0||name||expr99_197||uid||FJHYHEOAUT||page||1||x||156||y||625||w||32||h||16||sequence||104||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||N&#176;Documento:||text_type||constant||name||label107_198||uid||EENNJHBZVB||page||1||x||16||y||642||w||136||h||16||sequence||112||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Autorit&#224;:||text_type||constant||name||label104_200||uid||ACCJWKRXQU||page||1||x||276||y||642||w||44||h||16||sequence||109||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_NUMDOCUM||len||15||dec||0||name||expr105_201||uid||VXWCXAZQHN||page||1||x||156||y||642||w||105||h||16||sequence||110||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||qbe_all_xnformazioni_del_chi.c_AUTRILASC||len||30||dec||0||name||expr106_199||uid||RPGMMTWOKE||page||1||x||324||y||642||w||210||h||16||sequence||111||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Data Rilascio:||text_type||constant||name||label109_205||uid||VBLTOPILPM||page||1||x||67||y||660||w||83||h||16||sequence||114||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||arfn_fdate(qbe_all_xnformazioni_del_chi.c_DATARILASC)||dec||0||name||expr110_204||uid||ZWUAMLSJVM||page||1||x||155||y||660||w||80||h||16||sequence||115||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Expr||exp||arfn_fdate(qbe_all_xnformazioni_del_chi.c_DATAVALI)||dec||0||name||expr108_202||uid||WWETLAWQQD||page||1||x||467||y||660||w||80||h||16||sequence||113||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||Data Scadenza:||text_type||constant||name||label111_203||uid||HNZGMGCJMO||page||1||x||379||y||660||w||83||h||16||sequence||116||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Box||name||Box16_89_94_110||x||114||y||681||w||611||h||0||uid||GFQVHTYXFO||sequence||2||page||1||bb_border_colour||false||border_width||1|||type||Box||name||Box56||x||6||y||693||w||720||h||0||uid||FUBPZVDQOC||sequence||57||page||1||bb_border_colour||false||border_width||1|||type||Label||value||arfn_fdate(Date())||text_type||expression||name||label57||uid||RXMULPVIPN||page||1||x||14||y||693||w||80||h||16||sequence||58|||type||Label||value||&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))||text_type||expression||name||label58||uid||CCIGJKGTAI||page||1||x||662||y||693||w||64||h||16||sequence||59||| -->
+
+<REPORT NAME="arrp_stp_informa_sa" TITLE="Stampa Informazioni Provvisorie" QUERY="qbe_all_xnformazioni" MAXDEPTH="3" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <VARIABLE VARNAME="w_w_RAPPORTO" VARTYPE="C" VARLEN="25" VARDEC="0" VARVALUE="qbe_stprappo1.c_RAPPORTO" />
+    <FIELD NAME="qbe_all_xnformazioni.RAPPORTO" TYPE="C" LEN="25" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni.DESCRAP" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni.TIPORAP" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni.NUMPROG" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni.DATAOPE" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni.DATAREG" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni.STATOREG" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni.IDEREG" TYPE="C" LEN="20" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni.TIPOOPRAP" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni.CONNESOPER" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni.DESOPE" TYPE="C" LEN="90" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.CODINTER" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.DATAINI" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.DATAFINE" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.NUMPROG1" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.NUMPROG2" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.DOMICILIO" TYPE="C" LEN="35" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.PAESE" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.DESCCIT" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.PROVINCIA" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.CAP" TYPE="C" LEN="9" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.CODCAB" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.CODFISC" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.PARTIVA" TYPE="C" LEN="14" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.SOTGRUP" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.ATTIV" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.SETTSINT" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.NASCOMUN" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.NASSTATO" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.TIPINTER" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.DATANASC" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.TIPODOC" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.NUMDOCUM" TYPE="C" LEN="15" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.AUTRILASC" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.DATARILASC" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.DATAVALI" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.SESSO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.DESCPAESE" TYPE="C" LEN="40" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.DESCSUIC" TYPE="C" LEN="200" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.DESCSGRU" TYPE="C" LEN="200" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.DESCDOC" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del.DESCATT" TYPE="C" LEN="250" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.CODINTER" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.DATAINI" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.DATAFINE" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.NUMPROG1" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.NUMPROG2" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.DOMICILIO" TYPE="C" LEN="35" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.PAESE" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.DESCCIT" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.PROVINCIA" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.CAP" TYPE="C" LEN="9" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.CODCAB" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.CODFISC" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.PARTIVA" TYPE="C" LEN="14" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.SOTGRUP" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.ATTIV" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.SETTSINT" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.NASCOMUN" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.NASSTATO" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.TIPINTER" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.DATANASC" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.TIPODOC" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.NUMDOCUM" TYPE="C" LEN="15" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.AUTRILASC" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.DATARILASC" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.DATAVALI" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.SESSO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.DESCPAESE" TYPE="C" LEN="40" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.DESCSUIC" TYPE="C" LEN="200" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.DESCSGRU" TYPE="C" LEN="200" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.DESCDOC" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_all_xnformazioni_del_chi.DESCATT" TYPE="C" LEN="250" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="99" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="2" X="4" YY="23" XX="727"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Filtri attivi sulla stampa" EXPRTYPE="constant"
+                    Y="23" X="294" YY="42" XX="718"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="24" X="276" YY="95" XX="718"
+                    ALIGN="L"
+                    UID="XKNCDQCSMY" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="24" X="4" YY="95" XX="268"
+                    ALIGN="L"
+                    UID="OYHRQVVYQK" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="Stampa Informazioni" EXPRTYPE="constant"
+                    Y="31" X="4" YY="52" XX="268"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Da data informazione:" EXPRTYPE="constant"
+                    Y="45" X="526" YY="63" XX="649"
+                    ALIGN="R"
+                    HIDECONDITION="c_dadata=&#39;&#39; or Empty(c_dadata)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(c_dadata))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="45" X="654" YY="61" XX="714"
+                    ALIGN="L"
+                    HIDECONDITION="c_dadata=&#39;&#39; or Empty(c_dadata)"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="Provvisorie" EXPRTYPE="constant"
+                    Y="56" X="4" YY="77" XX="268"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(c_adata))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="66" X="654" YY="82" XX="714"
+                    ALIGN="L"
+                    HIDECONDITION="c_adata=&#39;&#39; or Empty(c_adata)"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="A data informazione:" EXPRTYPE="constant"
+                    Y="66" X="526" YY="84" XX="649"
+                    ALIGN="R"
+                    HIDECONDITION="c_adata=&#39;&#39; or Empty(c_adata)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="XKNCDQCSMY"/>
+              <ITEM OBJ="box_end" UID="OYHRQVVYQK"/>
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="109" FOOTH="0" SYMNAME="" UID="ILESEOMEMG" TOP="208" BOTTOM="674" EXPRESSION="c_NUMPROG" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+              <ITEM OBJ="stringa" NAME="INFORMAZIONI" EXPRTYPE="constant"
+                    Y="6" X="8" YY="19" XX="168"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="21" X="8" XX="729" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Operazione:" EXPRTYPE="constant"
+                    Y="27" X="12" YY="43" XX="109"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="c_NUMPROG" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="27" X="283" YY="43" XX="375"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    LEN="11"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(c_DATAOPE)" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="27" X="112" YY="43" XX="184"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="N&#176; Operazione:" EXPRTYPE="constant"
+                    Y="27" X="187" YY="43" XX="276"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Descrizione:" EXPRTYPE="constant"
+                    Y="48" X="265" YY="64" XX="343"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="c_RAPPORTO" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="48" X="112" YY="64" XX="264"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="25"
+                    />
+              <ITEM OBJ="espressione" NAME="c_DESCRAP" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="48" X="344" YY="64" XX="644"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="50"
+                    />
+              <ITEM OBJ="stringa" NAME="Codice Rapporto:" EXPRTYPE="constant"
+                    Y="48" X="0" YY="64" XX="109"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Tipo Operazione:" EXPRTYPE="constant"
+                    Y="69" X="1" YY="85" XX="110"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="c_DESOPE" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="69" X="113" YY="85" XX="533"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="90"
+                    />
+              <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni.c_CONNESOPER" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="89" X="114" YY="105" XX="236"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="16"
+                    />
+              <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni.c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="89" X="243" YY="105" XX="729"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="70"
+                    />
+              <ITEM OBJ="stringa" NAME="Sogg. Operante:" EXPRTYPE="constant"
+                    Y="90" X="2" YY="106" XX="111"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+          <SECTION TYPE="group" HEADH="466" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                        <SECTIONHIDE TYPE="section" UID="NCLAPZXSLK" HEADH="233" TOP="209" BOTTOM="442" EXPRESSION="qbe_all_xnformazioni.c_TIPOOPRAP=&#39;28&#39;" PRINTASBLOCK="false">
+                          <SECTIONQUERY TYPE="alternatequery" UID="NYBFFGAVXL" SYMNAME="" Y="2" TOP="210" BOTTOM="437" ALTERNATEQUERY="qbe_all_xnformazioni_del" DISPLAY_EXPRESSION="" HIDECONDITION="" EXPRESSION="qbe_all_xnformazioni_del.c_NUMPROG1=qbe_all_xnformazioni.c_NUMPROG">
+                                  <SECTION TYPE="group" HEADH="26" FOOTH="4" SYMNAME="" UID="RUXAWTLTIP" TOP="236" BOTTOM="433" EXPRESSION="qbe_all_xnformazioni_del.c_NUMPROG1+qbe_all_xnformazioni_del.c_NUMPROG2" DISPLAY_EXPRESSION=""
+                                   STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+                                   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+                                              <ITEM OBJ="stringa" NAME="Inizio" EXPRTYPE="constant"
+                                                    Y="3" X="528" YY="19" XX="586"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    FONTSTYLE="B"
+                                                    />
+                                              <ITEM OBJ="stringa" NAME="Ragione Sociale" EXPRTYPE="constant"
+                                                    Y="3" X="114" YY="19" XX="211"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    FONTSTYLE="B"
+                                                    />
+                                              <ITEM OBJ="stringa" NAME="Fine" EXPRTYPE="constant"
+                                                    Y="3" X="596" YY="19" XX="654"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    FONTSTYLE="B"
+                                                    />
+                                              <ITEM OBJ="h_line" Y="21" X="113" XX="725" BORDERWIDTH="1"
+                                                    ALIGN="L"
+                                                    />
+                                          <SECTION TYPE="group" HEADH="197" FOOTH="0" EXPRESSION="" SYMNAME=""
+                                           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+                                           REPRINTHEADER="false" REPRINTFOOTER="false">
+                                                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_all_xnformazioni_del.c_DATAFINE)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="2" X="594" YY="18" XX="654"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_all_xnformazioni_del.c_DATAINI)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="2" X="526" YY="18" XX="586"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="2" X="113" YY="18" XX="516"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            FONTSTYLE="B"
+                                                            LEN="70"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_DOMICILIO" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="22" X="157" YY="38" XX="413"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="35"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Stato:" EXPRTYPE="constant"
+                                                            Y="22" X="419" YY="38" XX="467"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Indirizzo:" EXPRTYPE="constant"
+                                                            Y="22" X="16" YY="38" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_PAESE" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="22" X="470" YY="38" XX="502"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="3"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_DESCPAESE" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="22" X="509" YY="38" XX="719"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="30"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_PROVINCIA" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="40" X="429" YY="56" XX="453"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="2"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_CAP" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="40" X="541" YY="56" XX="604"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="9"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="C.A.P.:" EXPRTYPE="constant"
+                                                            Y="40" X="485" YY="56" XX="537"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="CAB:" EXPRTYPE="constant"
+                                                            Y="40" X="611" YY="56" XX="654"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Comune:" EXPRTYPE="constant"
+                                                            Y="40" X="16" YY="56" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_CODCAB" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="40" X="656" YY="56" XX="719"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="6"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_DESCCIT" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="40" X="157" YY="56" XX="373"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="30"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Prov.:" EXPRTYPE="constant"
+                                                            Y="40" X="381" YY="56" XX="427"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="P. IVA:" EXPRTYPE="constant"
+                                                            Y="58" X="565" YY="74" XX="615"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Cod. Fiscale:" EXPRTYPE="constant"
+                                                            Y="58" X="16" YY="74" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_PARTIVA" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="58" X="621" YY="74" XX="719"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="14"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="58" X="157" YY="74" XX="325"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="16"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="SottoGrup. Att. Economica:" EXPRTYPE="constant"
+                                                            Y="75" X="16" YY="91" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_DESCSGRU" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="75" X="197" YY="91" XX="621"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="60"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_SOTGRUP" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="75" X="157" YY="91" XX="189"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="3"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="ATECO:" EXPRTYPE="constant"
+                                                            Y="92" X="16" YY="108" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.C_ATTIV" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="92" X="157" YY="108" XX="236"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_DESCATT" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="92" X="246" YY="108" XX="668"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="70"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Settorizzazione UIC:" EXPRTYPE="constant"
+                                                            Y="109" X="16" YY="125" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_DESCSUIC" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="109" X="197" YY="125" XX="617"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="60"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_SETTSINT" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="109" X="157" YY="125" XX="189"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="3"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Data di Nascita:" EXPRTYPE="constant"
+                                                            Y="127" X="500" YY="143" XX="623"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_all_xnformazioni_del.c_DATANASC)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="127" X="628" YY="143" XX="708"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_TIPINTER" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="127" X="453" YY="143" XX="477"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="2"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Luogo di Nascita:" EXPRTYPE="constant"
+                                                            Y="127" X="16" YY="143" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Prov.:" EXPRTYPE="constant"
+                                                            Y="127" X="396" YY="143" XX="451"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="iif(qbe_all_xnformazioni_del.c_TIPINTER=&#39;EE&#39;,qbe_all_xnformazioni_del.c_NASSTATO,qbe_all_xnformazioni_del.c_NASCOMUN)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="127" X="156" YY="143" XX="366"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="30"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_TIPODOC" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="144" X="156" YY="160" XX="188"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="2"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Tipo Documento:" EXPRTYPE="constant"
+                                                            Y="144" X="16" YY="160" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_DESCDOC" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="144" X="196" YY="160" XX="548"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="30"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_SESSO" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="144" X="628" YY="160" XX="698"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Sesso:" EXPRTYPE="constant"
+                                                            Y="144" X="564" YY="160" XX="623"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Autorit&#224;:" EXPRTYPE="constant"
+                                                            Y="161" X="276" YY="177" XX="320"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_NUMDOCUM" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="161" X="156" YY="177" XX="261"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="15"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del.c_AUTRILASC" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="161" X="324" YY="177" XX="534"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="30"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="N&#176;Documento:" EXPRTYPE="constant"
+                                                            Y="161" X="16" YY="177" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_all_xnformazioni_del.c_DATAVALI)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="179" X="467" YY="195" XX="547"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Data Rilascio:" EXPRTYPE="constant"
+                                                            Y="179" X="67" YY="195" XX="150"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_all_xnformazioni_del.c_DATARILASC)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="179" X="155" YY="195" XX="235"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Data Scadenza:" EXPRTYPE="constant"
+                                                            Y="179" X="379" YY="195" XX="462"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                          </SECTION>
+                                              <ITEM OBJ="h_line" Y="2" X="113" XX="725" BORDERWIDTH="1"
+                                                    ALIGN="L"
+                                                    />
+                                  </SECTION>
+                          </SECTIONQUERY>
+                        </SECTIONHIDE>
+                        <SECTIONHIDE TYPE="section" UID="IUCIDUQHPV" HEADH="229" TOP="443" BOTTOM="672" EXPRESSION="qbe_all_xnformazioni.c_TIPOOPRAP=&#39;25&#39;" PRINTASBLOCK="false">
+                          <SECTIONQUERY TYPE="alternatequery" UID="CJKVFIVEXU" SYMNAME="" Y="238" TOP="446" BOTTOM="671" ALTERNATEQUERY="qbe_all_xnformazioni_del_chi" DISPLAY_EXPRESSION="" HIDECONDITION="" EXPRESSION="qbe_all_xnformazioni_del_chi.c_NUMPROG2=qbe_all_xnformazioni.c_NUMPROG">
+                                  <SECTION TYPE="group" HEADH="26" FOOTH="4" SYMNAME="" UID="GOHDWOTLDS" TOP="472" BOTTOM="667" EXPRESSION="qbe_all_xnformazioni_del.c_NUMPROG1+qbe_all_xnformazioni_del.c_NUMPROG2" DISPLAY_EXPRESSION=""
+                                   STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+                                   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+                                              <ITEM OBJ="stringa" NAME="Inizio" EXPRTYPE="constant"
+                                                    Y="4" X="529" YY="20" XX="587"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    FONTSTYLE="B"
+                                                    />
+                                              <ITEM OBJ="stringa" NAME="Ragione Sociale" EXPRTYPE="constant"
+                                                    Y="4" X="115" YY="20" XX="212"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    FONTSTYLE="B"
+                                                    />
+                                              <ITEM OBJ="stringa" NAME="Fine" EXPRTYPE="constant"
+                                                    Y="4" X="597" YY="20" XX="655"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    FONTSTYLE="B"
+                                                    />
+                                              <ITEM OBJ="h_line" Y="22" X="114" XX="726" BORDERWIDTH="1"
+                                                    ALIGN="L"
+                                                    />
+                                          <SECTION TYPE="group" HEADH="195" FOOTH="0" EXPRESSION="" SYMNAME=""
+                                           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+                                           REPRINTHEADER="false" REPRINTFOOTER="false">
+                                                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_all_xnformazioni_del_chi.c_DATAINI)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="2" X="526" YY="18" XX="586"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_all_xnformazioni_del_chi.c_DATAFINE)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="2" X="594" YY="18" XX="654"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="2" X="113" YY="18" XX="516"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            FONTSTYLE="B"
+                                                            LEN="70"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_DOMICILIO" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="20" X="157" YY="36" XX="413"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="35"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Stato:" EXPRTYPE="constant"
+                                                            Y="20" X="419" YY="36" XX="467"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Indirizzo:" EXPRTYPE="constant"
+                                                            Y="20" X="16" YY="36" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_PAESE" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="20" X="470" YY="36" XX="502"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="3"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_DESCPAESE" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="20" X="509" YY="36" XX="719"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="30"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_PROVINCIA" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="38" X="429" YY="54" XX="453"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="2"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_CAP" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="38" X="541" YY="54" XX="604"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="9"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="C.A.P.:" EXPRTYPE="constant"
+                                                            Y="38" X="485" YY="54" XX="537"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="CAB:" EXPRTYPE="constant"
+                                                            Y="38" X="611" YY="54" XX="654"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Comune:" EXPRTYPE="constant"
+                                                            Y="38" X="16" YY="54" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_CODCAB" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="38" X="656" YY="54" XX="719"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="6"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_DESCCIT" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="38" X="157" YY="54" XX="373"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="30"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Prov.:" EXPRTYPE="constant"
+                                                            Y="38" X="381" YY="54" XX="427"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="P. IVA:" EXPRTYPE="constant"
+                                                            Y="56" X="565" YY="72" XX="615"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Cod. Fiscale:" EXPRTYPE="constant"
+                                                            Y="56" X="16" YY="72" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_PARTIVA" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="56" X="621" YY="72" XX="719"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="14"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="56" X="157" YY="72" XX="325"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="16"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="SottoGrup. Att. Economica:" EXPRTYPE="constant"
+                                                            Y="73" X="16" YY="89" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_DESCSGRU" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="73" X="197" YY="89" XX="621"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="60"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_SOTGRUP" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="73" X="157" YY="89" XX="189"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="3"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="ATECO:" EXPRTYPE="constant"
+                                                            Y="90" X="16" YY="106" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.C_ATTIV" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="90" X="157" YY="106" XX="236"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_DESCATT" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="90" X="246" YY="106" XX="668"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="70"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Settorizzazione UIC:" EXPRTYPE="constant"
+                                                            Y="107" X="16" YY="123" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_DESCSUIC" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="107" X="197" YY="123" XX="617"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="60"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_SETTSINT" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="107" X="157" YY="123" XX="189"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="3"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Data di Nascita:" EXPRTYPE="constant"
+                                                            Y="125" X="500" YY="141" XX="623"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_all_xnformazioni_del_chi.c_DATANASC)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="125" X="628" YY="141" XX="708"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_TIPINTER" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="125" X="453" YY="141" XX="477"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="2"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Luogo di Nascita:" EXPRTYPE="constant"
+                                                            Y="125" X="16" YY="141" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Prov.:" EXPRTYPE="constant"
+                                                            Y="125" X="396" YY="141" XX="451"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="iif(qbe_all_xnformazioni_del_chi.c_TIPINTER=&#39;EE&#39;,qbe_all_xnformazioni_del_chi.c_NASSTATO,qbe_all_xnformazioni_del_chi.c_NASCOMUN)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="125" X="156" YY="141" XX="366"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="30"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_TIPODOC" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="142" X="156" YY="158" XX="188"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="2"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Tipo Documento:" EXPRTYPE="constant"
+                                                            Y="142" X="16" YY="158" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_DESCDOC" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="142" X="196" YY="158" XX="548"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="30"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_SESSO" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="142" X="628" YY="158" XX="698"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Sesso:" EXPRTYPE="constant"
+                                                            Y="142" X="564" YY="158" XX="623"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Autorit&#224;:" EXPRTYPE="constant"
+                                                            Y="159" X="276" YY="175" XX="320"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_NUMDOCUM" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="159" X="156" YY="175" XX="261"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="15"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="qbe_all_xnformazioni_del_chi.c_AUTRILASC" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="159" X="324" YY="175" XX="534"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="30"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="N&#176;Documento:" EXPRTYPE="constant"
+                                                            Y="159" X="16" YY="175" XX="152"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_all_xnformazioni_del_chi.c_DATAVALI)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="177" X="467" YY="193" XX="547"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Data Rilascio:" EXPRTYPE="constant"
+                                                            Y="177" X="67" YY="193" XX="150"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_all_xnformazioni_del_chi.c_DATARILASC)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                            Y="177" X="155" YY="193" XX="235"
+                                                            ALIGN="L"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            LEN="10"
+                                                            />
+                                                      <ITEM OBJ="stringa" NAME="Data Scadenza:" EXPRTYPE="constant"
+                                                            Y="177" X="379" YY="193" XX="462"
+                                                            ALIGN="R"
+                                                            REPEATED="true"
+                                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                                            />
+                                          </SECTION>
+                                              <ITEM OBJ="h_line" Y="2" X="114" XX="726" BORDERWIDTH="1"
+                                                    ALIGN="L"
+                                                    />
+                                  </SECTION>
+                          </SECTIONQUERY>
+                        </SECTIONHIDE>
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="674" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="3" X="6" XX="727" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="3" X="14" YY="19" XX="94"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))" EXPRTYPE="expression"
+                    Y="3" X="662" YY="19" XX="726"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

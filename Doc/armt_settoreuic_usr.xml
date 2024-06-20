@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="111312357">
+  <CodifyName>armt_settoreuic</CodifyName>
+  <Name>armt_settoreuic.mstdef</Name>
+  <Title>Settorizzazione UIF</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="111773753">Dati</Title>
+    <Note></Note>
+    <JPG x="8" y="7">armt_settoreuic_usr_1</JPG>
+    <Item type="campo" x1="88" y1="14" x2="128" y2="34">
+      <Name LinkID="265356936">SETSINT</Name>
+      <Comment>Codice</Comment>
+      <Key>key1</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="42" x2="460" y2="62">
+      <Name LinkID="193529209">DESCRI</Name>
+      <Comment>Descrizione</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="98" x2="118" y2="118">
+      <Name LinkID="168618297">DAGRU1</Name>
+      <Comment>Da Gruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="125" x2="118" y2="145">
+      <Name LinkID="114893974">AGRU1</Name>
+      <Comment>A Gruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="154" x2="118" y2="174">
+      <Name LinkID="169666873">DAGRU2</Name>
+      <Comment>Da Gruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="181" x2="118" y2="201">
+      <Name LinkID="114959510">AGRU2</Name>
+      <Comment>A Gruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="210" x2="118" y2="230">
+      <Name LinkID="170715449">DAGRU3</Name>
+      <Comment>Da Gruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="237" x2="118" y2="257">
+      <Name LinkID="115025046">AGRU3</Name>
+      <Comment>A Gruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="266" x2="118" y2="286">
+      <Name LinkID="171764025">DAGRU4</Name>
+      <Comment>Da Gruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="293" x2="118" y2="313">
+      <Name LinkID="115090582">AGRU4</Name>
+      <Comment>A Gruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="322" x2="118" y2="342">
+      <Name LinkID="172812601">DAGRU5</Name>
+      <Comment>Da Gruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="349" x2="118" y2="369">
+      <Name LinkID="115156118">AGRU5</Name>
+      <Comment>A Gruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="378" x2="118" y2="398">
+      <Name LinkID="173861177">DAGRU6</Name>
+      <Comment>Da Gruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="88" y1="405" x2="118" y2="425">
+      <Name LinkID="115221654">AGRU6</Name>
+      <Comment>A Gruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="2">
+    <Title LinkID="143436184">Sottogruppi 1-6</Title>
+    <Note></Note>
+    <JPG x="8" y="9">armt_settoreuic_usr_2</JPG>
+    <Item type="campo" x1="104" y1="38" x2="134" y2="58">
+      <Name LinkID="168543545">DASOT1</Name>
+      <Comment>Da Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="65" x2="134" y2="85">
+      <Name LinkID="114889302">ASOT1</Name>
+      <Comment>A Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="92" x2="134" y2="112">
+      <Name LinkID="169592121">DASOT2</Name>
+      <Comment>Da Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="119" x2="134" y2="139">
+      <Name LinkID="114954838">ASOT2</Name>
+      <Comment>A Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="146" x2="134" y2="166">
+      <Name LinkID="170640697">DASOT3</Name>
+      <Comment>Da Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="173" x2="134" y2="193">
+      <Name LinkID="115020374">ASOT3</Name>
+      <Comment>A Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="200" x2="134" y2="220">
+      <Name LinkID="171689273">DASOT4</Name>
+      <Comment>Da Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="227" x2="134" y2="247">
+      <Name LinkID="115085910">ASOT4</Name>
+      <Comment>A Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="254" x2="134" y2="274">
+      <Name LinkID="172737849">DASOT5</Name>
+      <Comment>Da Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="281" x2="134" y2="301">
+      <Name LinkID="115151446">ASOT5</Name>
+      <Comment>A Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="308" x2="134" y2="328">
+      <Name LinkID="173786425">DASOT6</Name>
+      <Comment>Da Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="335" x2="134" y2="355">
+      <Name LinkID="115216982">ASOT6</Name>
+      <Comment>A Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="3">
+    <Title LinkID="59943320">Sottogruppi 7-12</Title>
+    <Note></Note>
+    <JPG x="8" y="9">armt_settoreuic_usr_3</JPG>
+    <Item type="campo" x1="104" y1="38" x2="134" y2="58">
+      <Name LinkID="174835001">DASOT7</Name>
+      <Comment>Da Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="65" x2="134" y2="85">
+      <Name LinkID="115282518">ASOT7</Name>
+      <Comment>A Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="92" x2="134" y2="112">
+      <Name LinkID="175883577">DASOT8</Name>
+      <Comment>Da Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="119" x2="134" y2="139">
+      <Name LinkID="115348054">ASOT8</Name>
+      <Comment>A Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="146" x2="134" y2="166">
+      <Name LinkID="176932153">DASOT9</Name>
+      <Comment>Da Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="173" x2="134" y2="193">
+      <Name LinkID="115413590">ASOT9</Name>
+      <Comment>A Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="200" x2="134" y2="220">
+      <Name LinkID="168543545">DASOT10</Name>
+      <Comment>Da Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="227" x2="134" y2="247">
+      <Name LinkID="165220950">ASOT10</Name>
+      <Comment>A Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="254" x2="134" y2="274">
+      <Name LinkID="185320761">DASOT11</Name>
+      <Comment>Da Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="281" x2="134" y2="301">
+      <Name LinkID="166269526">ASOT11</Name>
+      <Comment>A Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="308" x2="134" y2="328">
+      <Name LinkID="202097977">DASOT12</Name>
+      <Comment>Da Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="335" x2="134" y2="355">
+      <Name LinkID="167318102">ASOT12</Name>
+      <Comment>A Sottogruppo</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="4">
+    <Title LinkID="170450616">Codifica ATECO</Title>
+    <Note></Note>
+    <JPG x="8" y="7">armt_settoreuic_usr_4</JPG>
+    <Item type="campo" x1="80" y1="31" x2="112" y2="51">
+      <Name LinkID="167576377">DAATE1</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="58" x2="112" y2="78">
+      <Name LinkID="114828854">AATE1</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="87" x2="112" y2="107">
+      <Name LinkID="168624953">DAATE2</Name>
+      <Comment>Da Gruppo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="114" x2="112" y2="134">
+      <Name LinkID="114894390">AATE2</Name>
+      <Comment>A Gruppo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="143" x2="112" y2="163">
+      <Name LinkID="169673529">DAATE3</Name>
+      <Comment>Da Gruppo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="170" x2="112" y2="190">
+      <Name LinkID="114959926">AATE3</Name>
+      <Comment>A Gruppo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="199" x2="112" y2="219">
+      <Name LinkID="170722105">DAATE4</Name>
+      <Comment>Da Gruppo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="226" x2="112" y2="246">
+      <Name LinkID="115025462">AATE4</Name>
+      <Comment>A Gruppo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="255" x2="112" y2="275">
+      <Name LinkID="171770681">DAATE5</Name>
+      <Comment>Da Gruppo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="282" x2="112" y2="302">
+      <Name LinkID="115090998">AATE5</Name>
+      <Comment>A Gruppo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="308" x2="112" y2="328">
+      <Name LinkID="172819257">DAATE6</Name>
+      <Comment>Da Gruppo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="335" x2="112" y2="355">
+      <Name LinkID="115156534">AATE6</Name>
+      <Comment>A Gruppo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

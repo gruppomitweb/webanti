@@ -1,0 +1,676 @@
+﻿* --- Resource Vers. 0.9
+tmp_stp_sogg_ter_operazioni<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Appoggio per soggetti terzi nelle stampe
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_stp_sogg_ter_operazioni
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_stp_sogg_ter_operazioni.idbase
+'tmp_stp_sogg_ter_operazioni.tconnes
+'tmp_stp_sogg_ter_operazioni.tcodcab
+'tmp_stp_sogg_ter_operazioni.tragsoc
+'tmp_stp_sogg_ter_operazioni.tdomicilio
+'tmp_stp_sogg_ter_operazioni.tcodfisc
+'tmp_stp_sogg_ter_operazioni.tdatanasc
+'tmp_stp_sogg_ter_operazioni.tnascomun
+'tmp_stp_sogg_ter_operazioni.tsotgrup
+'tmp_stp_sogg_ter_operazioni.tramogrup
+'tmp_stp_sogg_ter_operazioni.tsettsint
+'tmp_stp_sogg_ter_operazioni.ttipodoc
+'tmp_stp_sogg_ter_operazioni.tnumdocum
+'tmp_stp_sogg_ter_operazioni.tdatarilasc
+'tmp_stp_sogg_ter_operazioni.tautrilasc
+'tmp_stp_sogg_ter_operazioni.tdesccit
+'tmp_stp_sogg_ter_operazioni.tprovincia
+'tmp_stp_sogg_ter_operazioni.tpaese
+'tmp_stp_sogg_ter_operazioni.tcap
+'tmp_stp_sogg_ter_operazioni.tcodinter
+'tmp_stp_sogg_ter_operazioni.ttipinter
+'tmp_stp_sogg_ter_operazioni.ttipopers
+'tmp_stp_sogg_ter_operazioni.tcoddipe
+'tmp_stp_sogg_ter_operazioni.tpartiva
+'tmp_stp_sogg_ter_operazioni.tnote
+'tmp_stp_sogg_ter_operazioni.tsesso
+'tmp_stp_sogg_ter_operazioni.tsospmaf
+'tmp_stp_sogg_ter_operazioni.tidcitta
+'tmp_stp_sogg_ter_operazioni.tdatavali
+'tmp_stp_sogg_ter_operazioni.tnasstato
+'tmp_stp_sogg_ter_operazioni.tdocfile
+'tmp_stp_sogg_ter_operazioni.tnome
+'tmp_stp_sogg_ter_operazioni.tcognome
+'tmp_stp_sogg_ter_operazioni.tcfestero
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_stp_sogg_ter_operazioni.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Idbase
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tautrilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Autorità di rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TAUTRILASC
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tcap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TCAP
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tcfestero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale Estero
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TCFESTERO
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tcodcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TCODCAB
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tcoddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TCODDIPE
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tcodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TCODFISC
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tcodinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TCODINTER
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tcognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Cognome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TCOGNOME
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tconnes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TCONNES
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tdatanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TDATANASC
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tdatarilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Rilascio Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TDATARILASC
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tdatavali
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TDATAVALI
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tdesccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TDESCCIT
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tdocfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TDOCFILE
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tdomicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Indirizzo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TDOMICILIO
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tidcitta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='Tidcitta
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tnascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Luogo di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TNASCOMUN
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tnasstato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TNASSTATO
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tnome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TNOME
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tnote
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Note
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TNOTE
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tnumdocum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Numero Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TNUMDOCUM
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tpaese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TPAESE
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tpartiva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Partita IVA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TPARTIVA
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tprovincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TPROVINCIA
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TRAGSOC
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tramogrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Ramo Gruppo Att. Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TRAMOGRUP
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tsesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Sesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TSESSO
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tsettsint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Settorizzazione UIC
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TSETTSINT
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tsospmaf
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TSOSPMAF
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.tsotgrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Sottogruppo Att. Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TSOTGRUP
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.ttipinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TTIPINTER
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.ttipodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TTIPODOC
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogg_ter_operazioni.ttipopers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TTIPOPERS
+state=3
+table_name='tmp_stp_sogg_ter_operazioni
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_stp_sogg_ter_operazioni.idbase
+[]
+'tmp_stp_sogg_ter_operazioni.tautrilasc
+[]
+'tmp_stp_sogg_ter_operazioni.tcap
+[]
+'tmp_stp_sogg_ter_operazioni.tcfestero
+[]
+'tmp_stp_sogg_ter_operazioni.tcodcab
+[]
+'tmp_stp_sogg_ter_operazioni.tcoddipe
+[]
+'tmp_stp_sogg_ter_operazioni.tcodfisc
+[]
+'tmp_stp_sogg_ter_operazioni.tcodinter
+[]
+'tmp_stp_sogg_ter_operazioni.tcognome
+[]
+'tmp_stp_sogg_ter_operazioni.tconnes
+[]
+'tmp_stp_sogg_ter_operazioni.tdatanasc
+[]
+'tmp_stp_sogg_ter_operazioni.tdatarilasc
+[]
+'tmp_stp_sogg_ter_operazioni.tdatavali
+[]
+'tmp_stp_sogg_ter_operazioni.tdesccit
+[]
+'tmp_stp_sogg_ter_operazioni.tdocfile
+[]
+'tmp_stp_sogg_ter_operazioni.tdomicilio
+[]
+'tmp_stp_sogg_ter_operazioni.tidcitta
+[]
+'tmp_stp_sogg_ter_operazioni.tnascomun
+[]
+'tmp_stp_sogg_ter_operazioni.tnasstato
+[]
+'tmp_stp_sogg_ter_operazioni.tnome
+[]
+'tmp_stp_sogg_ter_operazioni.tnote
+[]
+'tmp_stp_sogg_ter_operazioni.tnumdocum
+[]
+'tmp_stp_sogg_ter_operazioni.tpaese
+[]
+'tmp_stp_sogg_ter_operazioni.tpartiva
+[]
+'tmp_stp_sogg_ter_operazioni.tprovincia
+[]
+'tmp_stp_sogg_ter_operazioni.tragsoc
+[]
+'tmp_stp_sogg_ter_operazioni.tramogrup
+[]
+'tmp_stp_sogg_ter_operazioni.tsesso
+[]
+'tmp_stp_sogg_ter_operazioni.tsettsint
+[]
+'tmp_stp_sogg_ter_operazioni.tsospmaf
+[]
+'tmp_stp_sogg_ter_operazioni.tsotgrup
+[]
+'tmp_stp_sogg_ter_operazioni.ttipinter
+[]
+'tmp_stp_sogg_ter_operazioni.ttipodoc
+[]
+'tmp_stp_sogg_ter_operazioni.ttipopers
+[]
+}
+*--*

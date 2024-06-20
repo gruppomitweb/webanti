@@ -1,0 +1,143 @@
+ 2
+"Rapporto Titolare Effettivo"
+"rapotit"
+"rapotit"
+ 5
+ 5
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 373
+ 185
+*
+ 7
+""
+"rapotit.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+""
+"rapotit.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+""
+"rapotit.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+""
+"rapotit.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+""
+"rapotit.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+""
+"rapotit.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+ 1
+"Soggetti"
+"personbo.CONNES=rapotit.CONNESOPER"
+"Right outer"
+"personbo"
+"rapotit"
+*
+ 4
+"rapotit.CONNESCLI"
+""
+"="
+"?w_tito"
+"AND"
+""
+*
+"rapotit.RAPPORTO"
+""
+"="
+"?w_mand"
+"AND"
+""
+*
+"(rapotit.STATOREG"
+""
+"="
+"ý0ý"
+"OR"
+""
+*
+"rapotit.STATOREG"
+""
+"="
+"ý1ý)"
+"AND"
+""
+*
+ 3
+""
+"rapotit.CONNESCLI"
+"Ascending"
+*
+""
+"rapotit.CONNESOPER"
+"Ascending"
+*
+""
+"rapotit.DATAOPE"
+"Ascending"
+*
+ 0
+ 0
+ 2
+"w_tito"
+""
+"Char"
+"16"
+"0"
+""
+*
+"w_mand"
+""
+"Char"
+"25"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 7
+.f.
+""
+*

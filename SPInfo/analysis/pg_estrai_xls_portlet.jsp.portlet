@@ -1,0 +1,74 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_estrai_xls_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:43
+description='Estrazione Movimenti (Operazioni/Frazionate)
+file_modified_on=#2024-05-10 18:19:35
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:24:46
+module_name='
+name='pg_estrai_xls_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.ragsoc
+'tbmacage.macodice
+'tbmacage.madescri
+'anadip.coddip
+'anadip.descriz
+'tbcitta.citta
+'tbstati.descri
+'tbstati.codsta
+]
+'Hyperlinks
+[
+'jsp\pg_upload_portlet.jsp
+'jsp\start_page_logo_portlet.jsp
+'arfn_start_estrai_xls
+'arfn_creamc
+'arfn_selezione
+'arfn_upload_file
+'arfn_copy_file_appo
+]
+'Others
+[
+'jsp\showlog_portlet.jsp
+'jsp\showmsg_portlet.jsp
+]
+'Queries
+[
+'qbe_tbstati.vqr
+'qbe_provage.vqr
+]
+'Tables
+[
+'personbo<table>
+'tbmacage<table>
+'anadip<table>
+'tbcitta<table>
+'tbstati<table>
+]
+'Zooms
+[
+'[personbo] default.vzm
+'[tbmacage] default.vzm
+'[anadip] default.vzm
+'[tbcitta] default.vzm
+'[tbstati] default.vzm
+]
+}
+I
+*--*
+￼[]
+*--*

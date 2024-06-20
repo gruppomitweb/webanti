@@ -1,0 +1,78 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_import_dati_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:43
+description='
+file_modified_on=#2024-05-10 18:19:35
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:24:46
+module_name='
+name='pg_import_dati_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Hyperlinks
+[
+'jsp\pg_upload_portlet.jsp
+'arrt_imp_dati
+'arfn_upload_file_doc
+'jsp\start_page_logo_portlet.jsp
+'jsp\pg_list_file_portlet.jsp
+'arfn_azzera_messaggi
+'arrt_imp_dati_storico_exam
+]
+'Others
+[
+'jsp\pg_logs_portlet.jsp
+'jsp\list_imprich_portlet.jsp
+]
+'Queries
+[
+'qbe_intermbo_tipint.vqr
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_import_dati_portlet.jsp|Error|core::document|Update dependencies|Resource "arrp_stp_errimp_pers.vrp.vrp" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:46
+message='Resource "arrp_stp_errimp_pers.vrp.vrp" not found.
+resource_key='jsp\pg_import_dati_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_import_dati_portlet.jsp|Error|core::document|Update dependencies|Resource "arrp_stp_errimp.vrp.vrp" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:46
+message='Resource "arrp_stp_errimp.vrp.vrp" not found.
+resource_key='jsp\pg_import_dati_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

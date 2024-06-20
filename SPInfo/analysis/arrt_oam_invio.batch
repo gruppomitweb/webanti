@@ -1,0 +1,63 @@
+﻿* --- Resource Vers. 0.9
+arrt_oam_invio
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Creazione file movimenti OAM
+file_modified_on=#2024-03-15 10:18:15
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:23
+module_name='
+name='arrt_oam_invio
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbstati.codsta
+'tbstati.descri
+'oam_files.idfile
+'oam_files.nomefile
+'oam_files.datafile
+'oam_files.descfile
+'oam_files.mese
+'oam_files.anno
+'oam_files.filename
+'oam_files.filepath
+]
+'Libraries
+[
+'FileLibMit<project>
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_oam_operazbo.vqr
+]
+'Routines
+[
+'arfn_fdate_nd
+'arfn_fdatetime
+'arrt_oam_invio
+]
+'Tables
+[
+'personbo<table>
+'wersonbo<table>
+'tbstati<table>
+'intermbo<table>
+'oam_files<table>
+]
+}
+I
+*--*
+￼[]
+*--*

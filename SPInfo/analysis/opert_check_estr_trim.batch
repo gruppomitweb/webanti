@@ -1,0 +1,48 @@
+﻿* --- Resource Vers. 0.9
+opert_check_estr_trim
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Controllo presenza errori estrazione trimestrale
+file_modified_on=#2023-02-27 09:37:44
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='opert_check_estr_trim
+state=1
+type='batch
+used_resource_keys={
+'Libraries
+[
+'FileLibrary<painter>
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_estr_trim_check.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+'opert_check_estr_trim
+]
+'Tables
+[
+'intermbo<table>
+'tmp_impesiti<table>
+'personbo_agg<table>
+'tbcitta<table>
+'tbtipatt_p<table>
+]
+}
+I
+*--*
+￼[]
+*--*

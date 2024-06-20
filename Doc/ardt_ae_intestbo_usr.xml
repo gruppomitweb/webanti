@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="181373238">
+  <CodifyName>ardt_ae_intestbo</CodifyName>
+  <Name>ardt_ae_intestbo.dtldef</Name>
+  <Title>Soggetti conto informazioni</Title>
+  <Type>Detail</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="122925783"></Title>
+    <Note/>
+    <JPG x="5" y="7">ardt_ae_intestbo_usr_1</JPG>
+    <Item type="campo" x1="464" y1="207" x2="626" y2="227">
+      <Name LinkID="209042840">RAPPORTO</Name>
+      <Comment>Rapporto (Copia della testata)</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="8" y1="28" x2="116" y2="48">
+      <Name LinkID="241044139">CODINTER</Name>
+      <Comment>Intestatario (Non Intermediario)</Comment>
+      <Key>key2</Key>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="432" y1="28" x2="496" y2="48">
+      <Name LinkID="133759895">DATAINI</Name>
+      <Comment>Data Inizio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="520" y1="28" x2="580" y2="48">
+      <Name LinkID="220791634">DATAFINE</Name>
+      <Comment>Data Fine</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="616" y1="28" x2="634" y2="48">
+      <Name LinkID="260359612">TIPOPERS</Name>
+      <Comment>Tipo Soggetto</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="28" x2="412" y2="48">
+      <Name LinkID="198050066">xragsoci</Name>
+      <Comment>Ragione Sociale</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

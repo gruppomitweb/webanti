@@ -1,0 +1,283 @@
+ 1
+"Analisi SV"
+"analisi_sv"
+"analisi_sv"
+ 0
+ 0
+*
+ 17
+"TIPO"
+"analisi_sv.TIPO"
+"TIPO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Numero Progressivo"
+"analisi_sv.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Operazione"
+"analisi_sv.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Segno"
+"analisi_sv.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Dipendenza"
+"analisi_sv.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione Dipendenza"
+"analisi_sv.DESCRIZ"
+"DESCRIZ"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Provincia"
+"analisi_sv.PROVINCIA1"
+"PROVINCIA1"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Canale Distributivo (SV)"
+"analisi_sv.TIPOSV"
+"TIPOSV"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Cliente Occasionale"
+"analisi_sv.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ragione Sociale"
+"analisi_sv.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Sottogruppo Att. Ec."
+"analisi_sv.SOTGRUP"
+"SOTGRUP"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Provincia"
+"analisi_sv.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato"
+"analisi_sv.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Riserva"
+"analisi_sv.TIPOCONT"
+"TIPOCONT"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Importo OUT"
+"analisi_sv.IMPOUT"
+"IMPOUT"
+"N"
+ 15
+ 2
+ 0
+.f.
+""
+""
+.f.
+*
+"Operazioni in Euro o Valuta Estera"
+"analisi_sv.VALUTA"
+"VALUTA"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Operazione Fraudolenta"
+"analisi_sv.FLAGFRAUD"
+"FLAGFRAUD"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 0
+ 2
+"analisi_sv.ROWNUMBER"
+""
+">="
+"?_bottom"
+"AND"
+""
+""
+*
+"analisi_sv.ROWNUMBER"
+""
+"<="
+"?_top"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 0
+ 2
+"_bottom"
+"_bottom"
+"N"
+"15"
+"0"
+""
+""
+""
+.f.
+*
+"_top"
+"_top"
+"N"
+"15"
+"0"
+""
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+"Estrazione tabellone per creazione file di copia (WU)"
+.f.
+.t.
+ 5
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"-.iyAlvVL6%228%12%22RIm%17%0E%18%0A%01%0E%0FrvzfKXL3*3%2C%02NYTWi%7BQ%21%21H9E%5CV989%2B0%227SV%2C%21P%2172%3D0I.%2236_%5CZW%2F+%22%0B.BVF%2C2%224%3EE%24%3FLTlF1PO+I%29O%3A%5C%27_.K%29N0%3F%26%3F%3A%29%5C%150N9%1Fqbu%2B%5E%5C9W%3D%1F%3CRBX9-C%27J%3C*0%5E%28D015%167+5ABN%24YE%5CR%5C%3FF%25%3E-U%06PIM%5B%1C%15D_L0G2%5BJQ%28%24FQ5%27wERU-%21%3C%2B-35%25%5D%3DPJ%26%28BZ.5352%3E%0261%3B%2BWM%2CT%5D9%27J%2B+6%26TSL3yoC%2F%3E_Q%5Cj3%22%14%28A2%29%00"
+"+JQ%24X%60%7E%7Elk%1C%17%1F%1Fv5II%2947%21%3D9O%5BH%24D%2FN%5CK%27H%22*0QC%5C*%3A%24I%3E%26B9k%3A5%14+%3FMJ-GuMNpV%2CA%22%2F%2BG2%3A%2FHH7050*%7DQDB%22%2B%25%131%25IA*.8T3%2C1%265%01662J%3BHHK%28B0RJ2N%22I%01B%184%5D1AM%5C%28C3%3B%27%3B%2359%21+2QC%2F%21%22.SK%3D%40%2F%3A49ND%23TWTUUG%3F%3E%2F%28%26L7S*8Pm556%3B%28VK9%28H%3C%28J%23*9%5CX4-O%29%22%3D%1B%283%23%25%5C3I2%29%2FEU%21U%5CJ1%154B5-r0%2F%21%5DLQ3%2B6%29%03-%23PDD%2C%3C2%22%3DV%26PB6-K+%2F2-%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+*

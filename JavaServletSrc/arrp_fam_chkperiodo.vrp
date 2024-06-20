@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v5.0 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Analisi Errori Periodali -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:[{"type":"report","name":"arrp_fam_chkperiodo","version":"5.0","title":"Analisi Errori Periodali","query":"qbe_chkperiodo","queries_list":"","font":"Tahoma","font_size":"8","font_weight":"normal","font_effect":"","picture_date":"","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"false","security_public":"true","dict_name":"","security_access":"true","security_roles":"","author":"","client":"","date_creat":"2016-02-28","date_rev":"2022-02-16","modcnt":"18","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":"ISO-8859-1","hsl":"false","lock_items":"false","maxcount":"39","check_values":"","rotation":"landscape","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","privacy":"0","identifier":"false","contentprivacy":"0","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"77","uid":"VNNTIQUGTW","sequence":"2","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"132","uid":"SVIQAIGYJW","sequence":"4","page":"1"},{"type":"Group_top","comment":"group3","name":"group1","uid":"PEZXPRUUUK","page":"1","exp":"1=1","x":"0","y":"104","w":"1272","h":"0","sequence":"7","start_each_on_page":"true","reprint_header":"true"},{"type":"Group_down","comment":"group3","name":"group1","uid":"LPASBFPMLT","page":"1","exp":"1=1","x":"0","y":"128","w":"1272","h":"0","sequence":"8","reprint_header":"true"},{"type":"Label","name":"label0_28","uid":"OFXJOXFLTB","page":"1","value":"\"SOCIETA': \" + LRTrim(DescAzi)","text_type":"expression","x":"14","y":"4","w":"1100","h":"21","sequence":"9","removefromout":"CSV,CSVS,XLS","global_font":"false","font":"Arial","font_size":"11","font_weight":"bold"},{"type":"Label","name":"label0","uid":"KZCDJHVKXD","page":"1","value":"Analisi Errori Periodali/Saldi","text_type":"constant","x":"16","y":"27","w":"1102","h":"25","sequence":"25","align":"center","global_font":"false","font":"Arial","font_size":"16","font_weight":"bold"},{"type":"Label","name":"label16_33","uid":"UPGBYRQMIC","page":"1","value":"Da Data Operazione:","text_type":"constant","x":"16","y":"56","w":"115","h":"16","sequence":"100","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label16","uid":"JQDRNNBRIX","page":"1","value":"A Data Operazione:","text_type":"constant","x":"229","y":"56","w":"115","h":"16","sequence":"100","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Expr","name":"expr17","uid":"JORZPZOLPZ","page":"1","exp":"arfn_fdate(_adata)","dec":"0","x":"349","y":"56","w":"80","h":"16","sequence":"101","removefromout":"CSV,CSVS,XLS","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","name":"expr6","uid":"TGYJGSEJXH","page":"1","exp":"arfn_fdate(_dadata)","dec":"0","x":"136","y":"56","w":"80","h":"16","sequence":"97","removefromout":"CSV,CSVS,XLS","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Box","name":"Box12_35","uid":"BCSPZUYDJT","page":"1","border_width":"1","stretch_to_right":"true","x":"16","y":"74","w":"1100","h":"0","sequence":"14"},{"type":"Label","name":"label7","uid":"GHDYWEVVWK","page":"1","value":"Data Inizio","text_type":"constant","x":"171","y":"81","w":"67","h":"19","sequence":"10","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label6","uid":"QEZKZSFDPT","page":"1","value":"Rapporto","text_type":"constant","x":"16","y":"81","w":"126","h":"19","sequence":"9","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label8","uid":"RGFZXNZJKE","page":"1","value":"Data Fine","text_type":"constant","x":"248","y":"81","w":"70","h":"19","sequence":"10","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label9","uid":"LQCUHGVXMK","page":"1","value":"Tipologia","text_type":"constant","x":"328","y":"81","w":"91","h":"19","sequence":"11","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label11","uid":"VYBJBRGMUE","page":"1","value":"Errori","text_type":"constant","x":"429","y":"81","w":"126","h":"19","sequence":"13","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label11_37","uid":"KGWIWXTEWB","page":"1","value":"NDG","text_type":"constant","x":"989","y":"81","w":"113","h":"19","sequence":"13","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label11_37_39","uid":"JBVYYZWVKC","page":"1","value":"Codice Fiscale","text_type":"constant","x":"864","y":"81","w":"113","h":"19","sequence":"13","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Box","name":"Box12","uid":"EHQZRLBKVA","page":"1","border_width":"1","stretch_to_right":"true","x":"16","y":"101","w":"1100","h":"0","sequence":"14"},{"type":"Expr","name":"expr15","uid":"RCGSVKHRRE","page":"1","exp":"arfn_fdate(qbe_chkperiodo.c_DATAFINE)","dec":"0","output_name":"DataFine","x":"248","y":"108","w":"70","h":"18","sequence":"18"},{"type":"Expr","name":"expr14","uid":"VOIEUSITMN","page":"1","exp":"arfn_fdate(qbe_chkperiodo.c_DATAINI)","dec":"0","output_name":"DataInizio","x":"171","y":"108","w":"67","h":"18","sequence":"17"},{"type":"Expr","name":"expr18","uid":"ASENMPUUUY","page":"1","exp":"qbe_chkperiodo.c_MSGTXT","type_exp":"memo","dec":"0","output_name":"Errori","x":"429","y":"108","w":"425","h":"18","sequence":"20","stretch":"true"},{"type":"Expr","name":"expr13","uid":"AZJGEJMNSR","page":"1","exp":"qbe_chkperiodo.c_RAPPORTO","len":"25","dec":"0","output_name":"Rapporto","x":"16","y":"108","w":"149","h":"18","sequence":"16"},{"type":"Expr","name":"expr16","uid":"NPLYKTWYCY","page":"1","exp":"qbe_chkperiodo.c_TIPO","len":"1","dec":"0","output_name":"Tipologia","x":"328","y":"108","w":"91","h":"18","sequence":"19"},{"type":"Expr","name":"Expr36","uid":"ARMKNEUUCV","page":"1","exp":"qbe_chkperiodo.c_NDG","len":"16","output_name":"NDG","x":"989","y":"108","w":"114","h":"18","sequence":"22"},{"type":"Expr","name":"Expr36_38","uid":"AHQATKKJMZ","page":"1","exp":"qbe_chkperiodo.c_CODFISC","len":"16","output_name":"CodiceFiscale","x":"864","y":"108","w":"114","h":"18","sequence":"21"},{"type":"Box","name":"Box12_27","uid":"JJGQCTCYXY","page":"1","border_width":"1","stretch_to_right":"true","x":"16","y":"135","w":"1100","h":"0","sequence":"14"},{"type":"Label","name":"label3","uid":"VCAZSBCZQA","page":"1","value":"Format(DateTime(), 'DD-MM-YYYY hh:mm:ss')","text_type":"expression","x":"16","y":"138","w":"341","h":"17","sequence":"28","removefromout":"CSV,CSVS,XLS","global_font":"false","font":"Arial","font_size":"8","font_weight":"normal"},{"type":"Label","name":"label4","uid":"CANIWKQWMK","page":"1","value":"'Pag. ' + Str(nNumPage, 4, 0) + ' / '","text_type":"expression","x":"762","y":"141","w":"225","h":"17","sequence":"29","removefromout":"CSV,CSVS,XLS","align":"right","global_font":"false","font":"Arial","font_size":"8","font_weight":"normal"},{"type":"Label","name":"label5","uid":"HBAFIMVIPW","page":"1","value":"Str(nTotalPages, 4, 0)","text_type":"expression","x":"991","y":"141","w":"103","h":"17","sequence":"30","removefromout":"CSV,CSVS,XLS","global_font":"false","font":"Arial","font_size":"8","font_weight":"normal"}] -->
+
+<REPORT NAME="arrp_fam_chkperiodo" TITLE="Analisi Errori Periodali" QUERY="qbe_chkperiodo" MAXDEPTH="1" VERSION="5.0" PUBLIC="true" ACCESS="true" ROLES=""
+  GLBFONTNAME="Tahoma" GLBFONTSIZE="8"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="landscape" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="77" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="4" X="14" YY="25" XX="1114"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Analisi Errori Periodali/Saldi" EXPRTYPE="constant"
+                    Y="27" X="16" YY="52" XX="1118"
+                    REPEATED="true"
+                    ALIGN="C"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="16"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(_dadata)" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="56" X="136" YY="72" XX="216"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    GLBPICTURE="true"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="Da Data Operazione:" EXPRTYPE="constant"
+                    Y="56" X="16" YY="72" XX="131"
+                    REPEATED="true"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="A Data Operazione:" EXPRTYPE="constant"
+                    Y="56" X="229" YY="72" XX="344"
+                    REPEATED="true"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(_adata)" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="56" X="349" YY="72" XX="429"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    GLBPICTURE="true"
+                    LEN="10"
+                    />
+              <ITEM OBJ="h_line" Y="74" X="16" XX="1117" BORDERWIDTH="1"
+                    UID="BCSPZUYDJT" 
+                    STRETCH="true"
+                    ALIGN="L"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="26" FOOTH="3" UID="PEZXPRUUUK" TOP="103" BOTTOM="126" EXPRESSION="1=1"
+   STARTNEWPAGE="true"
+   REPRINTHEADER="true">
+              <ITEM OBJ="stringa" NAME="Rapporto" EXPRTYPE="constant"
+                    Y="3" X="16" YY="22" XX="142"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Inizio" EXPRTYPE="constant"
+                    Y="3" X="171" YY="22" XX="238"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Fine" EXPRTYPE="constant"
+                    Y="3" X="248" YY="22" XX="318"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Tipologia" EXPRTYPE="constant"
+                    Y="3" X="328" YY="22" XX="419"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Errori" EXPRTYPE="constant"
+                    Y="3" X="429" YY="22" XX="555"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="NDG" EXPRTYPE="constant"
+                    Y="3" X="989" YY="22" XX="1102"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Codice Fiscale" EXPRTYPE="constant"
+                    Y="3" X="864" YY="22" XX="977"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="23" X="16" XX="1117" BORDERWIDTH="1"
+                    UID="EHQZRLBKVA" 
+                    STRETCH="true"
+                    ALIGN="L"
+                    />
+          <SECTION TYPE="group" HEADH="23" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="espressione" NAME="qbe_chkperiodo.c_RAPPORTO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="16" YY="21" XX="165"
+                            SYMNAME="Rapporto"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="25"
+                            />
+                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_chkperiodo.c_DATAINI)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="171" YY="21" XX="238"
+                            SYMNAME="DataInizio"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_chkperiodo.c_DATAFINE)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="248" YY="21" XX="318"
+                            SYMNAME="DataFine"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_chkperiodo.c_TIPO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="328" YY="21" XX="419"
+                            SYMNAME="Tipologia"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="1"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_chkperiodo.c_MSGTXT" ITEMTYPE="M" EXPRTYPE="expression"
+                            Y="3" X="429" YY="21" XX="854"
+                            SYMNAME="Errori"
+                            REPEATED="true"
+                            ALIGN="L"
+                            STRETCH="true"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_chkperiodo.c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="864" YY="21" XX="978"
+                            SYMNAME="CodiceFiscale"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_chkperiodo.c_NDG" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="989" YY="21" XX="1103"
+                            SYMNAME="NDG"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="16"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="129" H="26" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="2" X="16" XX="1117" BORDERWIDTH="1"
+                    UID="JJGQCTCYXY" 
+                    STRETCH="true"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="5" X="16" YY="22" XX="357"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="8" X="762" YY="25" XX="987"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="8" X="991" YY="25" XX="1094"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

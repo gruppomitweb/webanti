@@ -1,0 +1,52 @@
+﻿* --- Resource Vers. 0.9
+arrt_modi_aggoper
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Scrive i dati per agenzia Entrate da pagina (Operazioni)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:23
+module_name='
+name='arrt_modi_aggoper
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'operazbo.idbase
+'operazbo.respins
+'operazbo.inform
+'operazbo.noprot
+'operazbo.ragio
+'operazbo.modsvol
+'operazbo.areageo
+'operazbo.operag
+'operazbo.scopo
+'operazbo.natura
+'operazbo.rtipo
+'operazbo.rcomp
+'operazbo.rimp
+'operazbo.rfreq
+'operazbo.rragio
+'operazbo.rarea
+'operazbo.tipo
+'operazbo.durat
+'operazbo.ammont
+]
+'Tables
+[
+'operazbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,86 @@
+#tabContainer {
+	width: 400px;
+}
+
+#tabs {
+	float:left;
+	width:100%;
+	/*background:#DAE0D2 url("images/tabs/bg.gif") repeat-x bottom;*/
+	line-height:normal;
+}
+
+#tabs ul {
+	margin:0;
+	padding:0px 0px 0;
+	list-style:none;
+}
+
+#tabs li {
+	float:left;
+	background:url("images/tabs/left.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 9px;
+}
+
+#tabs span {
+	float:left;
+	display:block;
+	background:url("images/tabs/right.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	text-decoration:none;
+	color:#321;
+}
+
+#tabs li.blue {
+	background:url("images/tabs/left.gif") no-repeat left top;
+}
+
+#tabs span.blue {
+	background:url("images/tabs/right.gif") no-repeat right top;
+}
+
+
+#tabs .current {
+	/* background-image:url("images/tabs/left_on.gif"); */
+}
+
+#tabs .current span {
+	/* background-image:url("images/tabs/right_on.gif"); */
+	color:black;
+	padding-bottom:5px;
+	font-weight: bold;
+}
+
+#tabs .bluecurrent {
+	background-image:url("images/tabs/leftBlue.gif");
+}
+
+#tabs .bluecurrent span {
+	background-image:url("images/tabs/rightBlue.gif");
+	color:black;
+	padding-bottom:5px;
+	font-weight: bold;
+}
+
+.tabHandle {
+	border: 0px;
+	display: inline;
+	/* cursor: move; */
+}
+
+#tabPanels {
+}
+
+.Panel {
+	background: #dedad5;
+	padding: 5px;
+	border: 1px solid black;
+	border-top: 0px;
+}
+
+.bluePanel {
+	background: #acc6d5;
+	padding: 5px;
+	border: 1px solid black;
+	border-top: 0px;
+}

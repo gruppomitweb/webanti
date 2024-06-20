@@ -1,0 +1,58 @@
+﻿* --- Resource Vers. 0.9
+arrt_diasble_g12
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Disabilita utenti G12 se non attivi
+file_modified_on=#2021-07-19 19:23:00
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:11
+module_name='
+name='arrt_diasble_g12
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'log_app.logcodice
+'log_app.logdatora
+'log_app.logutente
+'log_app.logtipope
+'log_app.logtesto
+'log_app.logtabella
+'log_app.logchiave
+'log_app.logtype
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_users_g12_access.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'cpazi<table>
+'cpusers<table>
+'intermbo<table>
+'log_app<table>
+]
+}
+I
+*--*
+￼[]
+*--*

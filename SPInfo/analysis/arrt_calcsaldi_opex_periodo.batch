@@ -1,0 +1,52 @@
+﻿* --- Resource Vers. 0.9
+arrt_calcsaldi_opex_periodo
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:31
+description='Calcola saldi extraconto da operazioni/frazionate AUI
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:07
+module_name='
+name='arrt_calcsaldi_opex_periodo
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.saldo
+'opextrbo.quantita
+'opextrbo.valuta
+'opextrbo.datamodi
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_calcsaldi_periodo_o.vqr
+'qbe_calcsaldi_periodo_o_tot.vqr
+]
+'Tables
+[
+'opextrbo<table>
+'tmp_newpers<table>
+'tbmacage<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,110 @@
+ 1
+"Operazioni"
+"jperazbo"
+"jperazbo"
+ 0
+ 0
+*
+ 4
+"Codice Cliente Occasionale"
+"jperazbo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Numero Operazioni"
+"COUNT(*)"
+"TOTOPER"
+"N"
+ 15
+ 0
+*
+"Totale Operazioni"
+"SUM(jperazbo.TOTLIRE/100)"
+"TOTLIRE"
+"N"
+ 15
+ 0
+*
+"Data Operazione"
+"MIN(jperazbo.DATAOPE)"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+ 0
+ 3
+"jperazbo.ANNOOPE"
+""
+"="
+"?w_annosel"
+"AND"
+""
+*
+"jperazbo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+*
+"jperazbo.CONNESCLI"
+""
+"="
+"?w_ndgcli"
+"AND"
+""
+*
+ 0
+ 1
+"Codice Cliente Occasionale"
+"CONNESCLI"
+*
+ 0
+ 2
+"w_annosel"
+"Anno Calcolo"
+"N"
+"4"
+"0"
+""
+""
+*
+"w_ndgcli"
+"Codice Cliente Occasionale"
+"C"
+"16"
+"0"
+"Remove"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+"Calcola Il Saldo (jperazbo)"
+.f.
+.f.
+ 13
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"+ZN%5CU7L9V%3FA+%13%0A%5C%3BK%40RB%3F%3CIELIDR%3F%5BW+%157%3B%5B%10UX%2C%3F%7BB%211%3F8%2BZD%3F%27%16%23%2C%3DOQ%5DwWo%2F%5BU%21%3A-TF9%2C%5CW%24J%2FO%3A%26%5D9D%25Z%3B%25O%2CB%5BO%5C_9D%40VO4B%5D6*%2FPU%40oA%16C2CR7%19%21I1%3E-+L9Z-A.F%25%15%27M%3D%103YG%3CBRKJ%25%28Z3%3CL%3E+%3C%2C%18%21YD%25B%3BOB%23E%28O%2B.%26%07%5EJ+GKG%3E%25-X%3D5%3DITM+NSD%27.R%269%5EH%3B%19%223%27%26U%3E%26SN%3CE*%2FiBN%0752-KDI8%29%25WU3%26%27%26%28W%3E%3CQw5TSL%15%13%23ZQH%3B_L%2FA%1A%25%00"
+"*U%5EW_Q*i.%5EI-64T4_BY6%2B%24%26%3B%23P*D7%27%5E%3D%26%3E%26%03%3DW%25%5D7Z%3F%3B0%12PK%5B7J%5EDPB%21N%26BAWC%5D20%233C%2BNZ%06.T-Z%3A%2FB%3E%7E%3ACC%25+%26M%25GMER%5DmQc_%24%2C1%28-4%3DD5%5B_*%175%0A.%3AA%19X%3E%28.%28M%5Ba%28_X%5EF6E%29.-J%2F%21A1Pl%1EC%3D%28TZB+%23A%00C%3EHTb.VM%29G4BHF00_+O%5EY%40-%27*%3B%7DMCH%3AK5K+1I6tU%5CZK%3D.%3DA%223%22%25%23%5CL6.+%3A%3F%7E%3E%3A5%041WC%243AMuPVWD.%3E%23L4.%3A3CSGNDOJZ%5C5C%214HZ%12L-%00"
+""
+""
+"native"
+ 0
+ 0
+*

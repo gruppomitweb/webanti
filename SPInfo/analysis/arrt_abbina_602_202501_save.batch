@@ -1,0 +1,103 @@
+﻿* --- Resource Vers. 0.9
+arrt_abbina_602_202501_save
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Salva Rapporti in 6.2 Abbinati a Rapporti in 2.02 / 5.01
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_abbina_602_202501_save
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aetesta.rapporto
+'aetesta.tipoag
+'aetesta.coint
+'aetesta.rifana
+'aetesta.progaet
+'aetesta.flgimp
+'aetesta.descri
+'aetesta.uniquecode
+'aetesta.cab
+'aetesta.valuta
+'aetesta.codinter
+'aetesta.uniquer
+'aetesta.oldinter
+'aerighe.rapporto
+'aerighe.cprownum
+'aerighe.connesint
+'aerighe.aspedito
+'aerighe.adata
+'aerighe.aprog
+'aerighe.aoldprog
+'aerighe.afile
+'aerighe.aoldfile
+'aerighe.adataret
+'aerighe.cspedito
+'aerighe.cdata
+'aerighe.cprog
+'aerighe.coldprog
+'aerighe.cfile
+'aerighe.coldfile
+'aerighe.cdataret
+'aerighe.idrif
+'aerighe.nocodfisc
+'aerighe.idbase
+'aerighe.nrigrif
+'aerighe.adtpre
+'aerighe.cdtpre
+'aerighe.progaer
+'aerighe.idesito
+'aerighe.datesito
+'aerighe.abbinato
+'aerighe.rspedito
+'aerighe.anno
+'aerighe.prog1
+'aerighe.prog2
+'aerighe.progrec
+'aerighe.esitoanno
+'aerighe.fileanno
+'aerighe.abbsaldi
+'intestbo.rapporto
+'intestbo.cprownum
+'intestbo.abbinato
+'jntestbo.rapporto
+'jntestbo.cprownum
+'jntestbo.abbinato
+'tmp_allinearap.numriga
+]
+'Libraries
+[
+'LibreriaMit<project>
+]
+'Routines
+[
+'arrt_abbina_602_202501_save
+]
+'Tables
+[
+'aerighe<table>
+'aetesta<table>
+'delegabo<table>
+'intestbo<table>
+'jntestbo<table>
+'personbo<table>
+'rapopebo<table>
+'tmp_allinearap<table>
+]
+}
+I
+*--*
+￼[]
+*--*

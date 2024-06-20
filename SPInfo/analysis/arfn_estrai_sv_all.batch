@@ -1,0 +1,76 @@
+﻿* --- Resource Vers. 0.9
+arfn_estrai_sv_all
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:28
+description='Estrazione dati Trimestrali e Semestrali per SV
+file_modified_on=#2024-01-12 10:57:35
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:52
+module_name='
+name='arfn_estrai_sv_all
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'wersonbo_agg.sanumpro
+'wersonbo_agg.codcliest
+'personbo_agg.connes
+'personbo_agg.codcliest
+'wersonbo_agg.connes
+'cgo_stampeav.escodice
+'cgo_stampeav.escoddip
+'cgo_stampeav.esdatrep
+'cgo_stampeav.esnumrep
+'cgo_stampeav.esnomrep
+'analisi_sv.tipo
+'analisi_sv.numprog
+'analisi_sv.flagfraud
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_estrai_sv_wu.vqr
+'qbe_agg_flagfraud_ope.vqr
+'qbe_estrai_sv_wu_fraud.vqr
+'qbe_estrai_sv_only_fraud.vqr
+'qbe_sv_idp_rapporti.vqr
+'qbe_estrai_sv_all_ip_1.vqr
+'qbe_estrai_sv_all_ip_2_a.vqr
+'qbe_estrai_sv_all_ip_2_prov.vqr
+]
+'Routines
+[
+'arfn_estrai_sv_all
+'arfn_fdatetime
+]
+'Tables
+[
+'personbo<table>
+'wersonbo<table>
+'cgo_stampeav<table>
+'analisi_sv<table>
+'personbo_agg<table>
+'wersonbo_agg<table>
+'tbstatisv<table>
+'tbstatna<table>
+'rapopebo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

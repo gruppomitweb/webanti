@@ -1,0 +1,1911 @@
+﻿* --- Resource Vers. 0.9
+vt_historico_giros<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='HISTORICO_GIROS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='vt_historico_giros
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'vt_historico_giros.folio
+'vt_historico_giros.cod_cliente
+'vt_historico_giros.nom_cliente
+'vt_historico_giros.pri_apellido_cte
+'vt_historico_giros.seg_apellido_cte
+'vt_historico_giros.domicilio_cte
+'vt_historico_giros.num_domicilio_cte
+'vt_historico_giros.colonia_cte
+'vt_historico_giros.id_pais_cte
+'vt_historico_giros.nom_pais_cte
+'vt_historico_giros.id_estado_cte
+'vt_historico_giros.nom_estado_cte
+'vt_historico_giros.id_ciudad_cte
+'vt_historico_giros.nom_ciudad_cte
+'vt_historico_giros.cp_cte
+'vt_historico_giros.lada_cte
+'vt_historico_giros.telefono_cte
+'vt_historico_giros.lada_ofna_cte
+'vt_historico_giros.telefono_ofna_cte
+'vt_historico_giros.num_identificacion_cte
+'vt_historico_giros.tipo_identificacion_cte
+'vt_historico_giros.descripcion_identificacion
+'vt_historico_giros.fecha_vencimiento_ident
+'vt_historico_giros.num_tarjeta
+'vt_historico_giros.mensaje_beneficiario
+'vt_historico_giros.cod_beneficiario
+'vt_historico_giros.nom_beneficiario
+'vt_historico_giros.pri_apellido_benef
+'vt_historico_giros.seg_apellido_benef
+'vt_historico_giros.domicilio_benef
+'vt_historico_giros.num_domicilio_benef
+'vt_historico_giros.colonia_benef
+'vt_historico_giros.id_pais_benef
+'vt_historico_giros.nom_pais_benef
+'vt_historico_giros.id_estado_benef
+'vt_historico_giros.nom_estado_benef
+'vt_historico_giros.id_ciudad_benef
+'vt_historico_giros.nom_ciudad_benef
+'vt_historico_giros.cp_benef
+'vt_historico_giros.lada_benef
+'vt_historico_giros.telefono_benef
+'vt_historico_giros.lada_ofna_benef
+'vt_historico_giros.telefono_ofna_benef
+'vt_historico_giros.cpf_benef
+'vt_historico_giros.cod_institucion
+'vt_historico_giros.nom_institucion
+'vt_historico_giros.cod_sucursal
+'vt_historico_giros.nom_sucursal
+'vt_historico_giros.dom_sucursal
+'vt_historico_giros.id_pais_sucursal
+'vt_historico_giros.pais_sucursal
+'vt_historico_giros.id_estado_sucursal
+'vt_historico_giros.estado_sucursal
+'vt_historico_giros.id_ciudad_sucursal
+'vt_historico_giros.ciudad_sucursal
+'vt_historico_giros.col_sucursal
+'vt_historico_giros.lada_sucursal
+'vt_historico_giros.tel_sucursal
+'vt_historico_giros.id_divisa_cte
+'vt_historico_giros.moneda_pos
+'vt_historico_giros.cantidad_trans
+'vt_historico_giros.comision
+'vt_historico_giros.sobre_comision
+'vt_historico_giros.descuento
+'vt_historico_giros.monto_pagado
+'vt_historico_giros.pago_benef
+'vt_historico_giros.id_divisa_benef
+'vt_historico_giros.tipo_divisa_benef
+'vt_historico_giros.tasa_cambio
+'vt_historico_giros.fecha_giro
+'vt_historico_giros.hora_giro
+'vt_historico_giros.cod_sospechoso
+'vt_historico_giros.cve_confirmacion
+'vt_historico_giros.cod_agente
+'vt_historico_giros.confirma_ctvo
+'vt_historico_giros.tipo_pago_benef
+'vt_historico_giros.id_cuenta
+'vt_historico_giros.nom_institucion_deposito
+'vt_historico_giros.nom_cuentaespecifica
+'vt_historico_giros.nom_sucursal_deposito
+'vt_historico_giros.cve_sucursal
+'vt_historico_giros.num_cuenta
+'vt_historico_giros.fec_nacim
+'vt_historico_giros.nompaisnac
+'vt_historico_giros.sexo
+'vt_historico_giros.fec_alta_id
+'vt_historico_giros.inst_exp_id
+'vt_historico_giros.acumulado7
+'vt_historico_giros.envia_nvo
+'vt_historico_giros.cod_seguridad
+'vt_historico_giros.questure
+'vt_historico_giros.cod_fiscal_cte
+'vt_historico_giros.mailpolizia
+'vt_historico_giros.empresa
+'vt_historico_giros.tax
+'vt_historico_giros.nacionalidad
+'vt_historico_giros.inps
+'vt_historico_giros.email
+'vt_historico_giros.doc_codice
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'vt_historico_giros.acumulado7
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='acumulado7
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cantidad_trans
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cantidad_trans
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.ciudad_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ciudad_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cod_agente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_agente
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cod_beneficiario
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_beneficiario
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cod_cliente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_cliente
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cod_fiscal_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_fiscal_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cod_institucion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_institucion
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cod_seguridad
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_seguridad
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cod_sospechoso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_sospechoso
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cod_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.col_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='col_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.colonia_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='colonia_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.colonia_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='colonia_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.comision
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='comision
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.confirma_ctvo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='confirma_ctvo
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cp_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CP_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cp_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CP_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cpf_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cpf_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cve_confirmacion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cve_confirmacion
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.cve_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cve_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.descripcion_identificacion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='descripcion_identificacion
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.descuento
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='descuento
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.doc_codice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='doc_codice
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.dom_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='dom_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.domicilio_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='domicilio_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.domicilio_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='domicilio_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.email
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='email
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.empresa
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='empresa
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.envia_nvo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='envia_nvo
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.estado_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='estado_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.fec_alta_id
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_alta_id
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.fec_nacim
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_nacim
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.fecha_giro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fecha_giro
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.fecha_vencimiento_ident
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fecha_vencimiento_ident
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.folio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='folio
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.hora_giro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='hora_giro
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.id_ciudad_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_ciudad_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.id_ciudad_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_ciudad_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.id_ciudad_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_ciudad_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.id_cuenta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_cuenta
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.id_divisa_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_divisa_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.id_divisa_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_divisa_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.id_estado_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_estado_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.id_estado_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_estado_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.id_estado_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_estado_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.id_pais_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_pais_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.id_pais_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_pais_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.id_pais_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_pais_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.inps
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='inps
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.inst_exp_id
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='inst_exp_id
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.lada_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='lada_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.lada_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='lada_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.lada_ofna_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='lada_ofna_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.lada_ofna_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='lada_ofna_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.lada_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='lada_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.mailpolizia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='mailPolizia
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.mensaje_beneficiario
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='mensaje_beneficiario
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.moneda_pos
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='moneda_pos
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.monto_pagado
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='monto_pagado
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nacionalidad
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nacionalidad
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_beneficiario
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_beneficiario
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_ciudad_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_ciudad_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_ciudad_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_ciudad_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_cliente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_cliente
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_cuentaespecifica
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_cuentaespecifica
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_estado_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_estado_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_estado_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_estado_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_institucion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_institucion
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_institucion_deposito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_institucion_deposito
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_pais_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_pais_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_pais_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_pais_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nom_sucursal_deposito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_sucursal_deposito
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.nompaisnac
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nompaisnac
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.num_cuenta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='num_cuenta
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.num_domicilio_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='num_domicilio_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.num_domicilio_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='num_domicilio_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.num_identificacion_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='num_identificacion_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.num_tarjeta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='num_tarjeta
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.pago_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='pago_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.pais_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='pais_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.pri_apellido_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='pri_apellido_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.pri_apellido_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='pri_apellido_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.questure
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='questure
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.seg_apellido_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='seg_apellido_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.seg_apellido_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='seg_apellido_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.sexo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='sexo
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.sobre_comision
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='sobre_comision
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.tasa_cambio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tasa_cambio
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.tax
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tax
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.tel_sucursal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tel_sucursal
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.telefono_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='telefono_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.telefono_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='telefono_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.telefono_ofna_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='telefono_ofna_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.telefono_ofna_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='telefono_ofna_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.tipo_divisa_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tipo_divisa_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.tipo_identificacion_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tipo_identificacion_cte
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+'vt_historico_giros.tipo_pago_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tipo_pago_benef
+state=3
+table_name='vt_historico_giros
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'vt_historico_giros.acumulado7
+[]
+'vt_historico_giros.cantidad_trans
+[]
+'vt_historico_giros.ciudad_sucursal
+[]
+'vt_historico_giros.cod_agente
+[]
+'vt_historico_giros.cod_beneficiario
+[]
+'vt_historico_giros.cod_cliente
+[]
+'vt_historico_giros.cod_fiscal_cte
+[]
+'vt_historico_giros.cod_institucion
+[]
+'vt_historico_giros.cod_seguridad
+[]
+'vt_historico_giros.cod_sospechoso
+[]
+'vt_historico_giros.cod_sucursal
+[]
+'vt_historico_giros.col_sucursal
+[]
+'vt_historico_giros.colonia_benef
+[]
+'vt_historico_giros.colonia_cte
+[]
+'vt_historico_giros.comision
+[]
+'vt_historico_giros.confirma_ctvo
+[]
+'vt_historico_giros.cp_benef
+[]
+'vt_historico_giros.cp_cte
+[]
+'vt_historico_giros.cpf_benef
+[]
+'vt_historico_giros.cve_confirmacion
+[]
+'vt_historico_giros.cve_sucursal
+[]
+'vt_historico_giros.descripcion_identificacion
+[]
+'vt_historico_giros.descuento
+[]
+'vt_historico_giros.doc_codice
+[]
+'vt_historico_giros.dom_sucursal
+[]
+'vt_historico_giros.domicilio_benef
+[]
+'vt_historico_giros.domicilio_cte
+[]
+'vt_historico_giros.email
+[]
+'vt_historico_giros.empresa
+[]
+'vt_historico_giros.envia_nvo
+[]
+'vt_historico_giros.estado_sucursal
+[]
+'vt_historico_giros.fec_alta_id
+[]
+'vt_historico_giros.fec_nacim
+[]
+'vt_historico_giros.fecha_giro
+[]
+'vt_historico_giros.fecha_vencimiento_ident
+[]
+'vt_historico_giros.folio
+[]
+'vt_historico_giros.hora_giro
+[]
+'vt_historico_giros.id_ciudad_benef
+[]
+'vt_historico_giros.id_ciudad_cte
+[]
+'vt_historico_giros.id_ciudad_sucursal
+[]
+'vt_historico_giros.id_cuenta
+[]
+'vt_historico_giros.id_divisa_benef
+[]
+'vt_historico_giros.id_divisa_cte
+[]
+'vt_historico_giros.id_estado_benef
+[]
+'vt_historico_giros.id_estado_cte
+[]
+'vt_historico_giros.id_estado_sucursal
+[]
+'vt_historico_giros.id_pais_benef
+[]
+'vt_historico_giros.id_pais_cte
+[]
+'vt_historico_giros.id_pais_sucursal
+[]
+'vt_historico_giros.inps
+[]
+'vt_historico_giros.inst_exp_id
+[]
+'vt_historico_giros.lada_benef
+[]
+'vt_historico_giros.lada_cte
+[]
+'vt_historico_giros.lada_ofna_benef
+[]
+'vt_historico_giros.lada_ofna_cte
+[]
+'vt_historico_giros.lada_sucursal
+[]
+'vt_historico_giros.mailpolizia
+[]
+'vt_historico_giros.mensaje_beneficiario
+[]
+'vt_historico_giros.moneda_pos
+[]
+'vt_historico_giros.monto_pagado
+[]
+'vt_historico_giros.nacionalidad
+[]
+'vt_historico_giros.nom_beneficiario
+[]
+'vt_historico_giros.nom_ciudad_benef
+[]
+'vt_historico_giros.nom_ciudad_cte
+[]
+'vt_historico_giros.nom_cliente
+[]
+'vt_historico_giros.nom_cuentaespecifica
+[]
+'vt_historico_giros.nom_estado_benef
+[]
+'vt_historico_giros.nom_estado_cte
+[]
+'vt_historico_giros.nom_institucion
+[]
+'vt_historico_giros.nom_institucion_deposito
+[]
+'vt_historico_giros.nom_pais_benef
+[]
+'vt_historico_giros.nom_pais_cte
+[]
+'vt_historico_giros.nom_sucursal
+[]
+'vt_historico_giros.nom_sucursal_deposito
+[]
+'vt_historico_giros.nompaisnac
+[]
+'vt_historico_giros.num_cuenta
+[]
+'vt_historico_giros.num_domicilio_benef
+[]
+'vt_historico_giros.num_domicilio_cte
+[]
+'vt_historico_giros.num_identificacion_cte
+[]
+'vt_historico_giros.num_tarjeta
+[]
+'vt_historico_giros.pago_benef
+[]
+'vt_historico_giros.pais_sucursal
+[]
+'vt_historico_giros.pri_apellido_benef
+[]
+'vt_historico_giros.pri_apellido_cte
+[]
+'vt_historico_giros.questure
+[]
+'vt_historico_giros.seg_apellido_benef
+[]
+'vt_historico_giros.seg_apellido_cte
+[]
+'vt_historico_giros.sexo
+[]
+'vt_historico_giros.sobre_comision
+[]
+'vt_historico_giros.tasa_cambio
+[]
+'vt_historico_giros.tax
+[]
+'vt_historico_giros.tel_sucursal
+[]
+'vt_historico_giros.telefono_benef
+[]
+'vt_historico_giros.telefono_cte
+[]
+'vt_historico_giros.telefono_ofna_benef
+[]
+'vt_historico_giros.telefono_ofna_cte
+[]
+'vt_historico_giros.tipo_divisa_benef
+[]
+'vt_historico_giros.tipo_identificacion_cte
+[]
+'vt_historico_giros.tipo_pago_benef
+[]
+}
+*--*

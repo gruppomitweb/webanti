@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+vt_regiones<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='REGIONES
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='vt_regiones
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'vt_regiones.id_region
+'vt_regiones.region
+'vt_regiones.id_regional
+'vt_regiones.codice_mit
+'vt_regiones.cod_pais
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'vt_regiones.cod_pais
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_pais
+state=3
+table_name='vt_regiones
+type='field
+used_resource_keys={}
+I
+'vt_regiones.codice_mit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='codice_MIT
+state=3
+table_name='vt_regiones
+type='field
+used_resource_keys={}
+I
+'vt_regiones.id_region
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_region
+state=3
+table_name='vt_regiones
+type='field
+used_resource_keys={}
+I
+'vt_regiones.id_regional
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_regional
+state=3
+table_name='vt_regiones
+type='field
+used_resource_keys={}
+I
+'vt_regiones.region
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='region
+state=3
+table_name='vt_regiones
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'vt_regiones.cod_pais
+[]
+'vt_regiones.codice_mit
+[]
+'vt_regiones.id_region
+[]
+'vt_regiones.id_regional
+[]
+'vt_regiones.region
+[]
+}
+*--*

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ReportDescription v5.0 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:-Profilature di Rischio in Scadenza -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:[{"type":"report","name":"operp_rev_profilo","version":"5.0","title":"-Profilature di Rischio in Scadenza","query":"qbe_rev_profilo","queries_list":"","font":"Tahoma","font_size":"8","font_weight":"normal","font_effect":"","picture_date":"DD-MM-YYYY","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"false","security_public":"false","dict_name":"","security_access":"true","security_roles":"","author":"","client":"","date_creat":"2010-03-16","date_rev":"2022-03-16","modcnt":"26","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":"","hsl":"false","lock_items":"false","maxcount":"33","check_values":"","rotation":"","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","privacy":"0","identifier":"false","contentprivacy":"0","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"102","uid":"BKETMFOEIT","sequence":"16","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"124","uid":"YTWZYXAWHN","sequence":"28","page":"1"},{"type":"Group_top","comment":"group0","name":"group0","uid":"WCHBLALSXS","page":"1","x":"0","y":"104","w":"1272","h":"0","sequence":"33"},{"type":"Group_down","comment":"group0","name":"group0","uid":"LVNJPBBEAF","page":"1","x":"0","y":"123","w":"1272","h":"0","sequence":"32"},{"type":"Box","name":"Box0","uid":"RZEKSDNAPL","page":"1","bg_color":"#FFFFFF","border_width":"1","x":"8","y":"7","w":"1063","h":"36","sequence":"1"},{"type":"Label","name":"label1","uid":"HTDRLNBSMG","page":"1","value":"'AZIENDA: '+ desazi","text_type":"expression","x":"14","y":"16","w":"696","h":"19","sequence":"3","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Arial","font_size":"10","font_weight":"bold"},{"type":"Box","name":"Box2","uid":"VQMPKLPYYP","page":"1","bg_color":"#FFFFFF","border_width":"1","x":"10","y":"49","w":"443","h":"18","sequence":"4"},{"type":"Label","name":"label3","uid":"GEIWVPEJEW","page":"1","value":"PROFILATURE DI RISCHIO IN SCADENZA","text_type":"constant","x":"16","y":"49","w":"432","h":"19","sequence":"5","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Arial","font_size":"10","font_weight":"bold"},{"type":"Expr","name":"expr4","uid":"PLSRPWOEOA","page":"1","exp":"DaData","type_exp":"date","dec":"0","x":"983","y":"50","w":"88","h":"18","sequence":"6","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Arial","font_size":"9","font_weight":"normal"},{"type":"Label","name":"label5","uid":"FLNYRSHLFW","page":"1","value":"Data Riferimento:","text_type":"constant","x":"838","y":"50","w":"141","h":"18","sequence":"7","removefromout":"CSV,CSVS,XLS,XLSX","align":"right","global_font":"false","font":"Arial","font_size":"9","font_weight":"bold"},{"type":"Box","name":"Box6","uid":"HEAESETPUE","page":"1","bg_color":"#FFFFFF","border_width":"1","x":"8","y":"73","w":"1063","h":"28","sequence":"8"},{"type":"Label","name":"label7","uid":"RPXBGYEXDT","page":"1","value":"Profilatura","text_type":"constant","x":"595","y":"80","w":"63","h":"16","sequence":"9","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label9","uid":"FSXFYQVYHC","page":"1","value":"Città","text_type":"constant","x":"400","y":"80","w":"184","h":"16","sequence":"10","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label12","uid":"HPTKFLOUKW","page":"1","value":"Revisione","text_type":"constant","x":"675","y":"80","w":"53","h":"16","sequence":"13","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label13","uid":"UNPIVTMBMD","page":"1","value":"Ragione Sociale","text_type":"constant","x":"120","y":"80","w":"216","h":"16","sequence":"14","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label14","uid":"LWEANAXCJW","page":"1","value":"Soggetto","text_type":"constant","x":"16","y":"80","w":"64","h":"16","sequence":"15","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label12_32","uid":"BTKIBMHUQB","page":"1","value":"Rischio","text_type":"constant","x":"758","y":"81","w":"53","h":"16","sequence":"13","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Expr","name":"expr15","uid":"SRPFYCZWNO","page":"1","exp":"c_CONNES","len":"16","dec":"0","output_name":"Codice_Soggetto","x":"16","y":"106","w":"96","h":"16","sequence":"17"},{"type":"Expr","name":"expr18","uid":"EZBMWDRVQN","page":"1","exp":"c_DATAPROF","type_exp":"date","len":"8","dec":"0","output_name":"PROFILATURA","x":"595","y":"106","w":"72","h":"16","sequence":"23"},{"type":"Expr","name":"expr19","uid":"RKXJYAEFFH","page":"1","exp":"c_DATAREVPROF","type_exp":"date","dec":"0","output_name":"REVISIONE","x":"675","y":"106","w":"72","h":"16","sequence":"24"},{"type":"Expr","name":"expr21","uid":"ROIQCESTSW","page":"1","exp":"Left(c_RAGSOC,45)","len":"45","dec":"0","output_name":"Ragione_Sociale","x":"120","y":"106","w":"272","h":"16","sequence":"18"},{"type":"Expr","name":"expr22","uid":"VVOCQYZXCQ","page":"1","exp":"c_DESCCIT","len":"30","dec":"0","output_name":"CITTA_RESIDENZA","x":"400","y":"106","w":"184","h":"16","sequence":"19"},{"type":"Expr","name":"Expr31","uid":"JLTAWOQAWA","page":"1","exp":"c_RISGLOB+'-'+c_DESCRI","output_name":"RischioGlobale","x":"757","y":"106","w":"312","h":"16","sequence":"30"},{"type":"Box","name":"Box23","uid":"POHHDOPOIS","page":"1","bg_color":"#FFFFFF","border_width":"1","x":"8","y":"126","w":"1063","h":"0","sequence":"29"},{"type":"Label","name":"label24","uid":"FVTXPXSOYH","page":"1","value":"'Data: ' +arfn_fdate(Date())","text_type":"expression","x":"15","y":"130","w":"143","h":"18","sequence":"30","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Arial","font_size":"9","font_weight":"normal"},{"type":"Label","name":"label25","uid":"VKBDJSOLLI","page":"1","value":"'Pag.: ' + LRTrim(Str(nNumPage,5,0))","text_type":"expression","x":"860","y":"130","w":"208","h":"18","sequence":"31","removefromout":"CSV,CSVS,XLS,XLSX","align":"right","global_font":"false","font":"Arial","font_size":"9","font_weight":"normal"}] -->
+
+<REPORT NAME="operp_rev_profilo" TITLE="-Profilature di Rischio in Scadenza" QUERY="qbe_rev_profilo" MAXDEPTH="1" VERSION="5.0" PUBLIC="false" ACCESS="true" ROLES=""
+  GLBFONTNAME="Tahoma" GLBFONTSIZE="8"
+  GLBPICTUREDATE="DD-MM-YYYY"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="102" EXPRESSION="Page header">
+              <ITEM OBJ="box" UID="RZEKSDNAPL"
+                    Y="7" X="8" YY="43" XX="1071"
+                    BACKGROUNDCOLORTYPE="constant" BACKGROUNDCOLOR="255,255,255"
+                    BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;AZIENDA: &#39;+ desazi" EXPRTYPE="expression"
+                    Y="16" X="14" YY="35" XX="710"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="RZEKSDNAPL"/>
+              <ITEM OBJ="box" UID="VQMPKLPYYP"
+                    Y="49" X="10" YY="67" XX="453"
+                    BACKGROUNDCOLORTYPE="constant" BACKGROUNDCOLOR="255,255,255"
+                    BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="PROFILATURE DI RISCHIO IN SCADENZA" EXPRTYPE="constant"
+                    Y="49" X="16" YY="68" XX="448"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="DaData" ITEMTYPE="D" EXPRTYPE="expression"
+                    Y="50" X="983" YY="68" XX="1071"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    GLBPICTURE="true"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Riferimento:" EXPRTYPE="constant"
+                    Y="50" X="838" YY="68" XX="979"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="VQMPKLPYYP"/>
+              <ITEM OBJ="box" UID="HEAESETPUE"
+                    Y="73" X="8" YY="101" XX="1071"
+                    BACKGROUNDCOLORTYPE="constant" BACKGROUNDCOLOR="255,255,255"
+                    BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="Profilatura" EXPRTYPE="constant"
+                    Y="80" X="595" YY="96" XX="658"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Citt&#224;" EXPRTYPE="constant"
+                    Y="80" X="400" YY="96" XX="584"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Revisione" EXPRTYPE="constant"
+                    Y="80" X="675" YY="96" XX="728"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Ragione Sociale" EXPRTYPE="constant"
+                    Y="80" X="120" YY="96" XX="336"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Soggetto" EXPRTYPE="constant"
+                    Y="80" X="16" YY="96" XX="80"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Rischio" EXPRTYPE="constant"
+                    Y="81" X="758" YY="97" XX="811"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="HEAESETPUE"/>
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="1" FOOTH="0" UID="WCHBLALSXS" TOP="103" BOTTOM="121" EXPRESSION="">
+          <SECTION TYPE="group" HEADH="18" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="espressione" NAME="c_CONNES" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="16" YY="17" XX="112"
+                            SYMNAME="Codice_Soggetto"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="Left(c_RAGSOC,45)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="120" YY="17" XX="392"
+                            SYMNAME="Ragione_Sociale"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="45"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DESCCIT" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="400" YY="17" XX="584"
+                            SYMNAME="CITTA_RESIDENZA"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="30"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DATAPROF" ITEMTYPE="D" EXPRTYPE="expression"
+                            Y="1" X="595" YY="17" XX="667"
+                            SYMNAME="PROFILATURA"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DATAREVPROF" ITEMTYPE="D" EXPRTYPE="expression"
+                            Y="1" X="675" YY="17" XX="747"
+                            SYMNAME="REVISIONE"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_RISGLOB+&#39;-&#39;+c_DESCRI" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="757" YY="17" XX="1069"
+                            SYMNAME="RischioGlobale"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="121" H="24" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="8" XX="1072" BORDERWIDTH="1"
+                    UID="POHHDOPOIS" 
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39; +arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="5" X="15" YY="23" XX="158"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))" EXPRTYPE="expression"
+                    Y="5" X="860" YY="23" XX="1068"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    />
+  </PAGEFOOTER>
+</REPORT>

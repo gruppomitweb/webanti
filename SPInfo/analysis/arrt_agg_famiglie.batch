@@ -1,0 +1,55 @@
+﻿* --- Resource Vers. 0.9
+arrt_agg_famiglie
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Aggiorna le famiglie collegate al soggetto
+file_modified_on=#2022-03-04 10:27:59
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_agg_famiglie
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'anarapbo.rapporto
+'anarapbo.noprot
+'aetesta.rapporto
+'aetesta.datamodi
+'opextrbo.anno
+'opextrbo.colleg
+'opextrbo.datamodi
+'opextrbo.cfestero
+]
+'Queries
+[
+'qbe_aggfam_aetesta.vqr
+'qbe_aggfam_opextrbo.vqr
+'qbe_aggfam_opextrbo_new.vqr
+]
+'Tables
+[
+'intestbo<table>
+'aetesta<table>
+'intestit<table>
+'jntestbo<table>
+'anarapbo<table>
+'delegabo<table>
+'jelegabo<table>
+'opextrbo<table>
+'jntestit<table>
+]
+}
+I
+*--*
+￼[]
+*--*

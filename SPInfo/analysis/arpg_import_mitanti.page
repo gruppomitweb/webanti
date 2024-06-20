@@ -1,0 +1,64 @@
+﻿* --- Resource Vers. 0.9
+arpg_import_mitanti
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:30
+description='Import dati da MITANTI
+file_modified_on=#2020-05-19 11:18:34
+location='
+measures={}
+modified_on=#2024-05-10 18:25:01
+module_name='
+name='arpg_import_mitanti
+state=1
+type='page
+used_resource_keys={
+'Hyperlinks
+[
+'arrt_import_mitanti
+]
+'Others
+[
+'jsp\showmsg_portlet.jsp
+'jsp\showlog_portlet.jsp
+'arrt_imp_dati
+'arrt_imp_dati_multipli
+'arrt_imp_dati_ac
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_import_mitanti|Error|core::document|Update dependencies|Resource "arrt_imp_dati_telepass" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "arrt_imp_dati_telepass" not found.
+resource_key='arpg_import_mitanti
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_import_mitanti|Error|core::document|Update dependencies|Resource "arrt_imp_dati_multipli_telepass" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "arrt_imp_dati_multipli_telepass" not found.
+resource_key='arpg_import_mitanti
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

@@ -1,0 +1,1113 @@
+﻿* --- Resource Vers. 0.9
+wnarapbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Storico Anagrafica Rapporti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='wnarapbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'wnarapbo.rapporto
+'wnarapbo.descrap
+'wnarapbo.tiporap
+'wnarapbo.flaglire
+'wnarapbo.valuta
+'wnarapbo.continua
+'wnarapbo.tipoag
+'wnarapbo.docfile
+'wnarapbo.noprot
+'wnarapbo.tipmod
+'wnarapbo.datamod
+'wnarapbo.idrapporto
+'wnarapbo.idbase
+'wnarapbo.ragio
+'wnarapbo.modsvol
+'wnarapbo.areageo
+'wnarapbo.scopo
+'wnarapbo.natura
+'wnarapbo.rtipo
+'wnarapbo.rcomp
+'wnarapbo.rimp
+'wnarapbo.rfreq
+'wnarapbo.rragio
+'wnarapbo.rarea
+'wnarapbo.tipo
+'wnarapbo.prgimprap
+'wnarapbo.ammont
+'wnarapbo.durat
+'wnarapbo.impape
+'wnarapbo.impchiu
+'wnarapbo.splitcode
+'wnarapbo.macodice
+'wnarapbo.coddip
+'wnarapbo.statorap
+'wnarapbo.castatoc
+'wnarapbo.castatom
+'wnarapbo.codicelr
+'wnarapbo.cadstato
+'wnarapbo.mitig
+'wnarapbo.mitgdoc
+'wnarapbo.categ01
+'wnarapbo.categ02
+'wnarapbo.categ03
+'wnarapbo.categ04
+'wnarapbo.categ05
+'wnarapbo.categoria
+'wnarapbo.coddipe
+'wnarapbo.mitigdoc
+'wnarapbo.dac6
+'wnarapbo.flagdac6
+'wnarapbo.iban
+'wnarapbo.codogg
+'wnarapbo.risglob
+'wnarapbo.dataprof
+'wnarapbo.datarevprof
+'wnarapbo.numimp
+'wnarapbo.nocanc
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'wnarapbo.ammont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='AMMONT
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='AREAGEO
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.cadstato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Cambio Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CADSTATO
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.castatoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato SnaiCARD
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CASTATOC
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.castatom
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Motivo Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CASTATOM
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.categ01
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG01
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.categ02
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG02
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.categ03
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG03
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.categ04
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG04
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.categ05
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG05
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.categoria
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEGORIA
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.coddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Dipendenza / Agenzia che crea il rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODDIP
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODDIPE
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.codicelr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Legale Rappresentante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODICELR
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.codogg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODOGG
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.continua
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONTINUA
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.dac6
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DAC6
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.datamod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Modifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAMOD
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.dataprof
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Profilatura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAPROF
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.datarevprof
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Revisione Profilatura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAREVPROF
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.descrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESCRAP
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.docfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DOCFILE
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.durat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DURAT
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.flagdac6
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLAGDAC6
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.flaglire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Divisa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLAGLIRE
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.iban
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IBAN
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ID Base
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.idrapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ID Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDRAPPORTO
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.impape
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Import Apertura Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IMPAPE
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.impchiu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Import Chiusura Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IMPCHIU
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.macodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Macro Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MACODICE
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.mitgdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Path Documentazione Mitigazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MITGDOC
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.mitig
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Mitigazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MITIG
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.mitigdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MITIGDOC
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.modsvol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MODSVOL
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.natura
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NATURA
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.nocanc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Non considerare per passaggio storico/cancellazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NOCANC
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.noprot
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Non inviare agenzia entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NOPROT
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.numimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Mark Importazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMIMP
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.prgimprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Progressivo Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PRGIMPRAP
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.ragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAGIO
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPPORTO
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.rarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAREA
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.rcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RCOMP
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.rfreq
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RFREQ
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.rimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RIMP
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.risglob
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rischio Globale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RISGLOB
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.rragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RRAGIO
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.rtipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RTIPO
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.scopo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SCOPO
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.splitcode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Customer ID (WUBS)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SPLITCODE
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.statorap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato Rapporto (CGO)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='STATORAP
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.tipmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='tipo Modifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPMOD
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPO
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.tipoag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOAG
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.tiporap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPORAP
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+'wnarapbo.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Divisa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='VALUTA
+state=3
+table_name='wnarapbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'wnarapbo.ammont
+[]
+'wnarapbo.areageo
+[]
+'wnarapbo.cadstato
+[]
+'wnarapbo.castatoc
+[]
+'wnarapbo.castatom
+[]
+'wnarapbo.categ01
+[]
+'wnarapbo.categ02
+[]
+'wnarapbo.categ03
+[]
+'wnarapbo.categ04
+[]
+'wnarapbo.categ05
+[]
+'wnarapbo.categoria
+[]
+'wnarapbo.coddip
+[]
+'wnarapbo.coddipe
+[]
+'wnarapbo.codicelr
+[]
+'wnarapbo.codogg
+[]
+'wnarapbo.continua
+[]
+'wnarapbo.dac6
+[]
+'wnarapbo.datamod
+[]
+'wnarapbo.dataprof
+[]
+'wnarapbo.datarevprof
+[]
+'wnarapbo.descrap
+[]
+'wnarapbo.docfile
+[]
+'wnarapbo.durat
+[]
+'wnarapbo.flagdac6
+[]
+'wnarapbo.flaglire
+[]
+'wnarapbo.iban
+[]
+'wnarapbo.idbase
+[]
+'wnarapbo.idrapporto
+[]
+'wnarapbo.impape
+[]
+'wnarapbo.impchiu
+[]
+'wnarapbo.macodice
+[]
+'wnarapbo.mitgdoc
+[]
+'wnarapbo.mitig
+[]
+'wnarapbo.mitigdoc
+[]
+'wnarapbo.modsvol
+[]
+'wnarapbo.natura
+[]
+'wnarapbo.nocanc
+[]
+'wnarapbo.noprot
+[]
+'wnarapbo.numimp
+[]
+'wnarapbo.prgimprap
+[]
+'wnarapbo.ragio
+[]
+'wnarapbo.rapporto
+[]
+'wnarapbo.rarea
+[]
+'wnarapbo.rcomp
+[]
+'wnarapbo.rfreq
+[]
+'wnarapbo.rimp
+[]
+'wnarapbo.risglob
+[]
+'wnarapbo.rragio
+[]
+'wnarapbo.rtipo
+[]
+'wnarapbo.scopo
+[]
+'wnarapbo.splitcode
+[]
+'wnarapbo.statorap
+[]
+'wnarapbo.tipmod
+[]
+'wnarapbo.tipo
+[]
+'wnarapbo.tipoag
+[]
+'wnarapbo.tiporap
+[]
+'wnarapbo.valuta
+[]
+}
+*--*

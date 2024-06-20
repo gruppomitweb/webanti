@@ -1,0 +1,220 @@
+﻿* --- Resource Vers. 0.9
+tbprcbck<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Processi BackGround
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbprcbck
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbprcbck.pbcodice
+'tbprcbck.pbdescri
+'tbprcbck.pbnote
+'tbprcbck.pbattivo
+'tbprcbck.pbroutine
+'tbprcbck.pbtimexp
+'tbprcbck.pbnomprc
+'tbprcbck.pbforzaesec
+'tbprcbck.pblaststart
+'tbprcbck.pblastend
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbprcbck.pbattivo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Processo Attivo (S/N)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PBATTIVO
+state=3
+table_name='tbprcbck
+type='field
+used_resource_keys={}
+I
+'tbprcbck.pbcodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Processo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PBCODICE
+state=3
+table_name='tbprcbck
+type='field
+used_resource_keys={}
+I
+'tbprcbck.pbdescri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PBDESCRI
+state=3
+table_name='tbprcbck
+type='field
+used_resource_keys={}
+I
+'tbprcbck.pbforzaesec
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Forza l'esecuzione del processo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PBFORZAESEC
+state=3
+table_name='tbprcbck
+type='field
+used_resource_keys={}
+I
+'tbprcbck.pblastend
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Fine ultima esecuzione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PBLASTEND
+state=3
+table_name='tbprcbck
+type='field
+used_resource_keys={}
+I
+'tbprcbck.pblaststart
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Inizio ultima esecuzione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PBLASTSTART
+state=3
+table_name='tbprcbck
+type='field
+used_resource_keys={}
+I
+'tbprcbck.pbnomprc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome Processo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PBNOMPRC
+state=3
+table_name='tbprcbck
+type='field
+used_resource_keys={}
+I
+'tbprcbck.pbnote
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Estesa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PBNOTE
+state=3
+table_name='tbprcbck
+type='field
+used_resource_keys={}
+I
+'tbprcbck.pbroutine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome Routine da lanciare
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PBROUTINE
+state=3
+table_name='tbprcbck
+type='field
+used_resource_keys={}
+I
+'tbprcbck.pbtimexp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Espressione di tempo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PBTIMEXP
+state=3
+table_name='tbprcbck
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbprcbck.pbattivo
+[]
+'tbprcbck.pbcodice
+[]
+'tbprcbck.pbdescri
+[]
+'tbprcbck.pbforzaesec
+[]
+'tbprcbck.pblastend
+[]
+'tbprcbck.pblaststart
+[]
+'tbprcbck.pbnomprc
+[]
+'tbprcbck.pbnote
+[]
+'tbprcbck.pbroutine
+[]
+'tbprcbck.pbtimexp
+[]
+}
+*--*

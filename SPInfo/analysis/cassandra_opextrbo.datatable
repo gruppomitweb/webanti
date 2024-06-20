@@ -1,0 +1,581 @@
+﻿* --- Resource Vers. 0.9
+cassandra_opextrbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='CASSANDRA OPEXTRBO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cassandra_opextrbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cassandra_opextrbo.colleg
+'cassandra_opextrbo.anno
+'cassandra_opextrbo.idbase
+'cassandra_opextrbo.dataope
+'cassandra_opextrbo.coint
+'cassandra_opextrbo.note
+'cassandra_opextrbo.numprog1
+'cassandra_opextrbo.rifimp
+'cassandra_opextrbo.idfile
+'cassandra_opextrbo.progopex
+'cassandra_opextrbo.saldo
+'cassandra_opextrbo.quantita
+'cassandra_opextrbo.valuta
+'cassandra_opextrbo.uniquer
+'cassandra_opextrbo.codinter
+'cassandra_opextrbo.oldinter
+'cassandra_opextrbo.datamodi
+'cassandra_opextrbo.inviato
+'cassandra_opextrbo.datainvio
+'cassandra_opextrbo.annulla
+'cassandra_opextrbo.dataannu
+'cassandra_opextrbo.oldunique
+'cassandra_opextrbo.dataolduni
+'cassandra_opextrbo.idesito
+'cassandra_opextrbo.connesoper
+'cassandra_opextrbo.rapporto
+'cassandra_opextrbo.invsaldo
+'cassandra_opextrbo.dtsaldo
+'cassandra_opextrbo.cfestero
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cassandra_opextrbo.anno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNO
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.annulla
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNULLA
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.cfestero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFESTERO
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.coint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Delega Conto Terzi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COINT
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.colleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLLEG
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.connesoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESOPER
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.dataannu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAANNU
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.datainvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINVIO
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.datamodi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAMODI
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.dataolduni
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOLDUNI
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.dtsaldo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DTSALDO
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Chiave Riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.idesito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDESITO
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.idfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID FIle Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDFILE
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.inviato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INVIATO
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.invsaldo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INVSALDO
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.note
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Note
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOTE
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.numprog1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento a file per agenzia entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG1
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.oldinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDINTER
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.oldunique
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDUNIQUE
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.progopex
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGOPEX
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.quantita
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='QUANTITA
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.rifimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Riferimento Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIFIMP
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.saldo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SALDO
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.uniquer
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUER
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+'cassandra_opextrbo.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='cassandra_opextrbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cassandra_opextrbo.anno
+[]
+'cassandra_opextrbo.annulla
+[]
+'cassandra_opextrbo.cfestero
+[]
+'cassandra_opextrbo.codinter
+[]
+'cassandra_opextrbo.coint
+[]
+'cassandra_opextrbo.colleg
+[]
+'cassandra_opextrbo.connesoper
+[]
+'cassandra_opextrbo.dataannu
+[]
+'cassandra_opextrbo.datainvio
+[]
+'cassandra_opextrbo.datamodi
+[]
+'cassandra_opextrbo.dataolduni
+[]
+'cassandra_opextrbo.dataope
+[]
+'cassandra_opextrbo.dtsaldo
+[]
+'cassandra_opextrbo.idbase
+[]
+'cassandra_opextrbo.idesito
+[]
+'cassandra_opextrbo.idfile
+[]
+'cassandra_opextrbo.inviato
+[]
+'cassandra_opextrbo.invsaldo
+[]
+'cassandra_opextrbo.note
+[]
+'cassandra_opextrbo.numprog1
+[]
+'cassandra_opextrbo.oldinter
+[]
+'cassandra_opextrbo.oldunique
+[]
+'cassandra_opextrbo.progopex
+[]
+'cassandra_opextrbo.quantita
+[]
+'cassandra_opextrbo.rapporto
+[]
+'cassandra_opextrbo.rifimp
+[]
+'cassandra_opextrbo.saldo
+[]
+'cassandra_opextrbo.uniquer
+[]
+'cassandra_opextrbo.valuta
+[]
+}
+*--*

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Persone / Societ&#224; / Fornitori (Report) -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_stpperson_att||version||4.6||title||Stampa Persone / Societ&#224; / Fornitori (Report)||query||qbe_stpperson_att||font||Arial||font_size||9||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-03-16||date_rev||2017-02-03||form_class|| ||grid_dx||0||grid_dy||0||grid_show||0||grid_use||0||snaplines_show||1||language|| ||merge||false||modcnt||22||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding|| ||hsl||false||lock_items||false||maxcount||75||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||90||uid||QIWBOFENES||sequence||9||bb_sequence||2||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||394||uid||YXTYPHTRPF||sequence||61||bb_sequence||3||page||1|||type||Group_top||comment||group0||exp||True||name||group0||y||93||uid||RNHPLNOHEI||sequence||66||bb_sequence||66||page||1|||type||Group_down||comment||group0||exp||True||name||group0||y||392||uid||YQUCSPMFHB||sequence||65||bb_sequence||65||page||1|||type||Box||name||Box0||x||10||y||9||w||716||h||36||uid||WNSXOWHMVE||sequence||1||page||1||bg_color||#FFFFFF||bb_bg_colour||false||bb_border_colour||false||border_width||1|||type||Label||value||&#39;AZIENDA: &#39;+ descazi||text_type||expression||name||label1||uid||USJYFKOTNL||page||1||x||16||y||18||w||696||h||19||sequence||2||global_font||false||font||Arial||font_size||10||font_weight||bold||removefromout||XLS|||type||Box||name||Box2||x||10||y||54||w||272||h||34||uid||BGFBGCWLHS||sequence||3||page||1||bg_color||#FFFFFF||bb_bg_colour||false||bb_border_colour||false||border_width||1|||type||Label||value||Da Cliente:||text_type||constant||name||label3||uid||ZEVKVIVCXV||page||1||x||278||y||54||w||79||h||18||sequence||4||align||right||global_font||false||font||Arial||font_size||9||font_weight||bold||removefromout||XLS|||type||Expr||exp||aCodCli||len||18||dec||0||name||expr7||uid||OQWNWLAEQQ||page||1||x||586||y||54||w||140||h||18||sequence||8||global_font||false||font||Arial||font_size||9||font_weight||normal||removefromout||XLS|||type||Expr||exp||daCodCli||len||18||dec||0||name||expr4||uid||LYBHUWHBLZ||page||1||x||363||y||54||w||151||h||18||sequence||5||global_font||false||font||Arial||font_size||9||font_weight||normal||removefromout||XLS|||type||Label||value||PERSONE / SOCIETA&#39;  / FORNITORI||text_type||constant||name||label6||uid||SBNTJLURTU||page||1||x||16||y||54||w||266||h||15||sequence||7||align||center||global_font||false||font||Arial||font_size||10||font_weight||bold||removefromout||XLS|||type||Label||value||A Cliente:||text_type||constant||name||label5||uid||TPAHXYIGSD||page||1||x||523||y||54||w||61||h||18||sequence||6||align||right||global_font||false||font||Arial||font_size||9||font_weight||bold||removefromout||XLS|||type||Label||value||SOGGETTI ATTIVI||text_type||constant||name||label6_75||uid||SLBMNWUOBL||page||1||x||16||y||70||w||266||h||15||sequence||7||align||center||global_font||false||font||Arial||font_size||10||font_weight||bold||removefromout||XLS|||type||Label||value||Denominazione:||text_type||constant||name||label8||uid||DHWSSPRTYD||page||1||x||47||y||96||w||115||h||18||sequence||28||align||right||global_font||false||font||Arial||font_size||9||font_weight||bold|||type||Expr||exp||c_RAGSOC||len||70||dec||0||name||expr9||uid||KQNZNVPXVP||output_name|| Ragione Sociale||page||1||x||167||y||96||w||496||h||18||sequence||2||global_font||false||font||Arial||font_size||9||font_weight||bold|||type||Label||value||Stato:||text_type||constant||name||label14||uid||RWFUMVLFPZ||page||1||x||429||y||116||w||48||h||18||sequence||30||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_PAESE||len||3||dec||0||name||expr10||uid||JPQKNZDNXB||output_name|| Stato Residenza||page||1||x||480||y||116||w||32||h||19||sequence||4||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_DESCPAESE||len||30||dec||0||name||expr11||uid||ZKAPRFZVBQ||output_name||Descrizione Stato||page||1||x||519||y||116||w||210||h||18||sequence||5||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Indirizzo:||text_type||constant||name||label13||uid||FJZKIHXUNW||page||1||x||79||y||116||w||83||h||18||sequence||29||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_DOMICILIO||len||35||dec||0||name||expr12||uid||VSJQHVVABS||output_name|| Indirizzo||page||1||x||167||y||116||w||256||h||18||sequence||3||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Prov.:||text_type||constant||name||label18||uid||IFGFVKENZX||page||1||x||391||y||136||w||46||h||18||sequence||32||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_CODCAB||len||6||dec||0||name||expr17||uid||XCEAHWFBSC||output_name|| CAB Residenza||page||1||x||666||y||136||w||63||h||18||sequence||9||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_DESCCIT||len||30||dec||0||name||expr19||uid||CYIGJJATLV||output_name|| Comune Residenza||page||1||x||167||y||136||w||216||h||18||sequence||6||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_CAP||len||9||dec||0||name||expr21||uid||QDNCCXVVJJ||output_name||CAP Residenza||page||1||x||551||y||136||w||63||h||19||sequence||8||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_PROVINCIA||len||2||dec||0||name||expr22||uid||FGWBRUFWHR||output_name|| Provincia Residenza||page||1||x||439||y||136||w||24||h||18||sequence||7||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Comune:||text_type||constant||name||label15||uid||TWYOQFRHJQ||page||1||x||79||y||136||w||83||h||18||sequence||31||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||CAB:||text_type||constant||name||label20||uid||MPRTJTUROW||page||1||x||621||y||136||w||43||h||18||sequence||34||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||C.A.P.:||text_type||constant||name||label16||uid||ETMUJLHKZW||page||1||x||495||y||136||w||52||h||18||sequence||33||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Cod. Fiscale:||text_type||constant||name||label26||uid||IHCFVPEYRT||page||1||x||63||y||156||w||99||h||18||sequence||35||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_PARTIVA||len||14||dec||0||name||expr25||uid||VJAMDUZAHZ||page||1||x||631||y||156||w||98||h||18||sequence||27||global_font||false||font||Arial||font_size||9||font_weight||normal||removefromout||XLS|||type||Expr||exp||c_CODFISC||len||16||dec||0||name||expr23||uid||IADEJIYUXX||output_name||Codice Fiscale||page||1||x||167||y||156||w||168||h||18||sequence||10||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||P. IVA:||text_type||constant||name||label24||uid||BWDHTIUQFV||page||1||x||575||y||156||w||50||h||18||sequence||36||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||SottoGrup. Att. Economica:||text_type||constant||name||label27||uid||DSVJNODEQF||page||1||x||7||y||176||w||155||h||18||sequence||37||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||qbe_stppersonbo1.c_SOTGRUP||len||3||dec||0||name||Expr71||uid||JJEXREQMCP||output_name||Sottogruppo Att. Ec.||page||1||x||167||y||176||w||32||h||18||sequence||11|||type||Expr||exp||c_DESCSGRU||len||60||dec||0||name||expr29||uid||QMXYQTNMZK||output_name||Desc. Sottogruppo||page||1||x||207||y||176||w||424||h||18||sequence||12||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Ramo/Gruppo Att. Econ.:||text_type||constant||name||label31||uid||FIIQTMHNVX||page||1||x||15||y||196||w||147||h||18||sequence||38||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_DESCRGRU||len||70||dec||0||name||expr32||uid||NNICZZWOCH||output_name||Desc. Ramo||page||1||x||207||y||196||w||490||h||18||sequence||14||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||qbe_stppersonbo1.c_RAMOGRUP||len||3||dec||0||name||Expr72||uid||EZSJEZTRYY||output_name||Ramo Att. Ec.||page||1||x||167||y||196||w||32||h||18||sequence||13|||type||Label||value||Codifica ATECO:||text_type||constant||name||label31_70||uid||BLWIRRXTKY||page||1||x||15||y||216||w||147||h||18||sequence||39||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_DESCATECO||len||70||dec||0||name||expr32_69||uid||IISCUWWPNC||output_name||Desc. ATECO||page||1||x||247||y||216||w||490||h||18||sequence||16||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||qbe_stppersonbo1.c_ATTIV||dec||0||name||Expr68||uid||FQOXRXLVZQ||output_name||ATECO||page||1||x||167||y||216||w||74||h||18||sequence||15|||type||Label||value||Settorizzazione UIF:||text_type||constant||name||label34||uid||LCPZXBJUQX||page||1||x||31||y||236||w||131||h||18||sequence||40||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||comment||Settorizzazione||exp||c_SETTSINT||len||3||dec||0||name||expr35||uid||YSVSSSFHQY||output_name||Settorizzazione UIF||page||1||x||167||y||236||w||32||h||18||sequence||17||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_DESCSUIC||len||60||dec||0||name||expr33||uid||QCQEKRUQDW||output_name||Desc. Settorizzazione||page||1||x||207||y||236||w||420||h||18||sequence||18||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_CONNES||len||18||dec||0||name||expr36||uid||GVWIDGZBDZ||output_name||NDG||page||1||x||167||y||256||w||176||h||18||sequence||1||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Codice Collegamento:||text_type||constant||name||label37||uid||HXSYENEFQM||page||1||x||15||y||256||w||147||h||18||sequence||41||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||iif(c_CFESTERO=1,&quot;Codice Fiscale non attribuito dall&#39;Agenzia delle Entrate&quot;,&quot;Codice Fiscale attribuito dall&#39;Agenzia delle Entrate&quot;)||text_type||expression||name||label38||uid||BUXROXITDE||output_name||Tipo Codice Fiscale||page||1||x||351||y||256||w||368||h||16||sequence||42||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||iif(c_PEP=&#39;S&#39;,&quot;Persona Esposta Politicamente&quot;,&#39;Persona Non Esposta Politicamente&#39;)||text_type||expression||name||label39||uid||YLBUTQBKUU||output_name||PEP||page||1||x||351||y||275||w||368||h||16||sequence||43||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Box||name||Box40||x||8||y||288||w||144||h||18||uid||WBDXTHWHOY||sequence||41||page||1||bg_color||#FFFFFF||bb_bg_colour||false||bb_border_colour||false||border_width||1|||type||Label||value||Solo Persone Fisiche||text_type||constant||name||label41||uid||VPFGVSJYBY||page||1||x||8||y||289||w||143||h||18||sequence||44||align||center||global_font||false||font||Arial||font_size||9||font_weight||bold||removefromout||XLS|||type||Box||name||Box42||x||8||y||305||w||712||h||85||uid||OSLXMUNOCD||sequence||43||page||1||bb_border_colour||false||border_width||1|||type||Expr||exp||arfn_fdate(c_DATANASC)||dec||0||name||expr47||uid||QMJZGBGORL||output_name||Data di Nascita||page||1||x||632||y||309||w||80||h||18||sequence||21||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Prov.:||text_type||constant||name||label48||uid||LSNSYJPPNL||page||1||x||400||y||309||w||55||h||18||sequence||46||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Comune di Nascita:||text_type||constant||name||label43||uid||GLRKSYBMJT||page||1||x||16||y||309||w||139||h||18||sequence||45||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||iif(c_TIPINTER=&#39;EE&#39;,c_NASSTATO,c_NASCOMUN)||len||30||dec||0||name||expr44||uid||AOUMHSLUSJ||output_name||Luogo Nascita||page||1||x||160||y||309||w||232||h||18||sequence||19||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Data di Nascita:||text_type||constant||name||label45||uid||LKFVWJMXZM||page||1||x||504||y||309||w||123||h||18||sequence||47||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_TIPINTER||len||2||dec||0||name||expr46||uid||FQOTWLQTZC||output_name||Prov. Nascita||page||1||x||457||y||309||w||24||h||18||sequence||20||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_DESCRI||len||30||dec||0||name||expr53||uid||JMIIRWZDBE||output_name||Desc. Documento||page||1||x||200||y||329||w||352||h||18||sequence||23||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_SESSO||dec||0||name||expr50||uid||QNIQHMTEBO||output_name||Sesso||page||1||x||632||y||329||w||80||h||18||sequence||24||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Tipo Documento:||text_type||constant||name||label49||uid||PCAWGLTKDT||page||1||x||16||y||329||w||139||h||18||sequence||48||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Sesso:||text_type||constant||name||label52||uid||OWQLCXHHDT||page||1||x||568||y||329||w||59||h||18||sequence||49||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_TIPODOC||len||2||dec||0||name||expr51||uid||MDKSLVZLKG||output_name||Tipo Documento||page||1||x||160||y||329||w||32||h||18||sequence||22||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Autorit&#224;:||text_type||constant||name||label58||uid||JPIFAAWDWY||page||1||x||280||y||349||w||44||h||18||sequence||51||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||N&#176;Documento:||text_type||constant||name||label54||uid||IDFJJSTXAX||page||1||x||24||y||349||w||131||h||18||sequence||50||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_NUMDOCUM||len||15||dec||0||name||expr57||uid||NRUQNRRZAG||output_name||Num. Documento||page||1||x||160||y||349||w||105||h||18||sequence||25||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||c_AUTRILASC||len||30||dec||0||name||expr55||uid||XEYSFGDZXB||output_name||Autorit&#224; Rilascio||page||1||x||328||y||349||w||210||h||18||sequence||26||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Data Scadenza:||text_type||constant||name||label56_73||uid||QAMCDXSIJS||page||1||x||250||y||368||w||96||h||18||sequence||52||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Label||value||Data Rilascio:||text_type||constant||name||label56||uid||WPFIUGXPZE||page||1||x||72||y||368||w||83||h||18||sequence||52||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||arfn_fdate(c_DATARILASC)||len||27||dec||0||name||expr59||uid||JOJBOWLBDW||output_name||Data Rilascio||page||1||x||160||y||369||w||80||h||18||sequence||60||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Expr||exp||arfn_fdate(c_DATAVALI)||len||27||dec||0||name||expr59_74||uid||QRUFELVVRY||output_name||Data Scadenza||page||1||x||352||y||369||w||80||h||18||sequence||60||global_font||false||font||Arial||font_size||9||font_weight||normal|||type||Box||name||Box60||x||9||y||397||w||716||h||0||uid||SSVYDZXHGU||sequence||62||page||1||bg_color||#FFFFFF||bb_bg_colour||false||bb_border_colour||false||border_width||1|||type||Label||value||&#39;Data: &#39; +arfn_fdate(Date())||text_type||expression||name||label61||uid||WZKUBAWYFM||page||1||x||15||y||401||w||136||h||16||sequence||63||global_font||false||font||Arial||font_size||9||font_weight||normal||removefromout||XLS|||type||Label||value||&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))||text_type||expression||name||label62||uid||YILGVKWWMP||page||1||x||512||y||401||w||208||h||16||sequence||64||align||right||global_font||false||font||Arial||font_size||9||font_weight||normal||removefromout||XLS||| -->
+
+<REPORT NAME="arrp_stpperson_att" TITLE="Stampa Persone / Societ&#224; / Fornitori (Report)" QUERY="qbe_stpperson_att" MAXDEPTH="1" GLBFONTNAME="Arial" GLBFONTSIZE="9" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_stpperson_att.CONNES" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.CODCAB" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.DOMICILIO" TYPE="C" LEN="35" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.CODFISC" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.DATANASC" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.NASCOMUN" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.SOTGRUP" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.RAMOGRUP" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.SETTSINT" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.TIPODOC" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.NUMDOCUM" TYPE="C" LEN="15" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.DATARILASC" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.AUTRILASC" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.DESCCIT" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.PROVINCIA" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.PAESE" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.CAP" TYPE="C" LEN="9" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.CODINTER" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.TIPINTER" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.TIPOPERS" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.CODDIPE" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.PARTIVA" TYPE="C" LEN="14" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.SESSO" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.SOSPMAF" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.idcitta" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.DESCSUIC" TYPE="C" LEN="60" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.DESCRGRU" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.DESCSGRU" TYPE="C" LEN="60" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.DESCPAESE" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.DESCRI" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.NASSTATO" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.NOME" TYPE="C" LEN="25" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.DATAVALI" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.COGNOME" TYPE="C" LEN="26" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.PEP" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.ATTIV" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.DESCATECO" TYPE="C" LEN="250" DEC="0" />
+    <FIELD NAME="qbe_stpperson_att.CFESTERO" TYPE="N" LEN="1" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="90" EXPRESSION="Page header">
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="9" X="10" YY="45" XX="726"
+                    ALIGN="L"
+                    UID="WNSXOWHMVE" 
+                    BACKGROUNDCOLOR="255,255,255"
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;AZIENDA: &#39;+ descazi" EXPRTYPE="expression"
+                    Y="18" X="16" YY="37" XX="712"
+                    ALIGN="L"
+                    REMOVEON="XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="WNSXOWHMVE"/>
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="54" X="10" YY="88" XX="282"
+                    ALIGN="L"
+                    UID="BGFBGCWLHS" 
+                    BACKGROUNDCOLOR="255,255,255"
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="Da Cliente:" EXPRTYPE="constant"
+                    Y="54" X="278" YY="72" XX="357"
+                    ALIGN="R"
+                    REMOVEON="XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="daCodCli" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="54" X="363" YY="72" XX="514"
+                    ALIGN="L"
+                    REMOVEON="XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    LEN="18"
+                    />
+              <ITEM OBJ="stringa" NAME="A Cliente:" EXPRTYPE="constant"
+                    Y="54" X="523" YY="72" XX="584"
+                    ALIGN="R"
+                    REMOVEON="XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="PERSONE / SOCIETA&#39;  / FORNITORI" EXPRTYPE="constant"
+                    Y="54" X="16" YY="69" XX="282"
+                    ALIGN="C"
+                    REMOVEON="XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="aCodCli" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="54" X="586" YY="72" XX="726"
+                    ALIGN="L"
+                    REMOVEON="XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    LEN="18"
+                    />
+              <ITEM OBJ="stringa" NAME="SOGGETTI ATTIVI" EXPRTYPE="constant"
+                    Y="70" X="16" YY="85" XX="282"
+                    ALIGN="C"
+                    REMOVEON="XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="BGFBGCWLHS"/>
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="2" FOOTH="1" SYMNAME="" UID="RNHPLNOHEI" TOP="92" BOTTOM="390" EXPRESSION="True" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+          <SECTION TYPE="group" HEADH="298" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="espressione" NAME="c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="167" YY="20" XX="663"
+                            SYMNAME="Ragione Sociale"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            FONTSTYLE="B"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="stringa" NAME="Denominazione:" EXPRTYPE="constant"
+                            Y="2" X="47" YY="20" XX="162"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DOMICILIO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="22" X="167" YY="40" XX="423"
+                            SYMNAME="Indirizzo"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="35"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_PAESE" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="22" X="480" YY="41" XX="512"
+                            SYMNAME="Stato Residenza"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DESCPAESE" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="22" X="519" YY="40" XX="729"
+                            SYMNAME="Descrizione Stato"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="30"
+                            />
+                      <ITEM OBJ="stringa" NAME="Indirizzo:" EXPRTYPE="constant"
+                            Y="22" X="79" YY="40" XX="162"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="Stato:" EXPRTYPE="constant"
+                            Y="22" X="429" YY="40" XX="477"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DESCCIT" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="42" X="167" YY="60" XX="383"
+                            SYMNAME="Comune Residenza"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="30"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_PROVINCIA" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="42" X="439" YY="60" XX="463"
+                            SYMNAME="Provincia Residenza"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="2"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_CAP" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="42" X="551" YY="61" XX="614"
+                            SYMNAME="CAP Residenza"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="9"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_CODCAB" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="42" X="666" YY="60" XX="729"
+                            SYMNAME="CAB Residenza"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="6"
+                            />
+                      <ITEM OBJ="stringa" NAME="Comune:" EXPRTYPE="constant"
+                            Y="42" X="79" YY="60" XX="162"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="Prov.:" EXPRTYPE="constant"
+                            Y="42" X="391" YY="60" XX="437"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="C.A.P.:" EXPRTYPE="constant"
+                            Y="42" X="495" YY="60" XX="547"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="CAB:" EXPRTYPE="constant"
+                            Y="42" X="621" YY="60" XX="664"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="62" X="167" YY="80" XX="335"
+                            SYMNAME="Codice Fiscale"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_PARTIVA" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="62" X="631" YY="80" XX="729"
+                            ALIGN="L"
+                            REMOVEON="XLS"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="14"
+                            />
+                      <ITEM OBJ="stringa" NAME="Cod. Fiscale:" EXPRTYPE="constant"
+                            Y="62" X="63" YY="80" XX="162"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="P. IVA:" EXPRTYPE="constant"
+                            Y="62" X="575" YY="80" XX="625"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stppersonbo1.c_SOTGRUP" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="82" X="167" YY="100" XX="199"
+                            SYMNAME="Sottogruppo Att. Ec."
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DESCSGRU" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="82" X="207" YY="100" XX="631"
+                            SYMNAME="Desc. Sottogruppo"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="60"
+                            />
+                      <ITEM OBJ="stringa" NAME="SottoGrup. Att. Economica:" EXPRTYPE="constant"
+                            Y="82" X="7" YY="100" XX="162"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stppersonbo1.c_RAMOGRUP" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="102" X="167" YY="120" XX="199"
+                            SYMNAME="Ramo Att. Ec."
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DESCRGRU" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="102" X="207" YY="120" XX="697"
+                            SYMNAME="Desc. Ramo"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="stringa" NAME="Ramo/Gruppo Att. Econ.:" EXPRTYPE="constant"
+                            Y="102" X="15" YY="120" XX="162"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stppersonbo1.c_ATTIV" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="122" X="167" YY="140" XX="241"
+                            SYMNAME="ATECO"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DESCATECO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="122" X="247" YY="140" XX="737"
+                            SYMNAME="Desc. ATECO"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="stringa" NAME="Codifica ATECO:" EXPRTYPE="constant"
+                            Y="122" X="15" YY="140" XX="162"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_SETTSINT" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="142" X="167" YY="160" XX="199"
+                            SYMNAME="Settorizzazione UIF"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DESCSUIC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="142" X="207" YY="160" XX="627"
+                            SYMNAME="Desc. Settorizzazione"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="60"
+                            />
+                      <ITEM OBJ="stringa" NAME="Settorizzazione UIF:" EXPRTYPE="constant"
+                            Y="142" X="31" YY="160" XX="162"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_CONNES" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="162" X="167" YY="180" XX="343"
+                            SYMNAME="NDG"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="18"
+                            />
+                      <ITEM OBJ="stringa" NAME="Codice Collegamento:" EXPRTYPE="constant"
+                            Y="162" X="15" YY="180" XX="162"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="iif(c_CFESTERO=1,&quot;Codice Fiscale non attribuito dall&#39;Agenzia delle Entrate&quot;,&quot;Codice Fiscale attribuito dall&#39;Agenzia delle Entrate&quot;)" EXPRTYPE="expression"
+                            Y="162" X="351" YY="178" XX="719"
+                            SYMNAME="Tipo Codice Fiscale"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="iif(c_PEP=&#39;S&#39;,&quot;Persona Esposta Politicamente&quot;,&#39;Persona Non Esposta Politicamente&#39;)" EXPRTYPE="expression"
+                            Y="181" X="351" YY="197" XX="719"
+                            SYMNAME="PEP"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                            Y="194" X="8" YY="212" XX="152"
+                            ALIGN="L"
+                            UID="WBDXTHWHOY" 
+                            BACKGROUNDCOLOR="255,255,255"
+                            BORDERWIDTH="1"
+                            />
+                      <ITEM OBJ="stringa" NAME="Solo Persone Fisiche" EXPRTYPE="constant"
+                            Y="195" X="8" YY="213" XX="151"
+                            ALIGN="C"
+                            REMOVEON="XLS"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="box_end" UID="WBDXTHWHOY"/>
+                      <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                            Y="211" X="8" YY="296" XX="720"
+                            ALIGN="L"
+                            UID="OSLXMUNOCD" 
+                            BORDERWIDTH="1"
+                            />
+                      <ITEM OBJ="espressione" NAME="iif(c_TIPINTER=&#39;EE&#39;,c_NASSTATO,c_NASCOMUN)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="215" X="160" YY="233" XX="392"
+                            SYMNAME="Luogo Nascita"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="30"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_TIPINTER" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="215" X="457" YY="233" XX="481"
+                            SYMNAME="Prov. Nascita"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="2"
+                            />
+                      <ITEM OBJ="espressione" NAME="arfn_fdate(c_DATANASC)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="215" X="632" YY="233" XX="712"
+                            SYMNAME="Data di Nascita"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="stringa" NAME="Comune di Nascita:" EXPRTYPE="constant"
+                            Y="215" X="16" YY="233" XX="155"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="Prov.:" EXPRTYPE="constant"
+                            Y="215" X="400" YY="233" XX="455"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="Data di Nascita:" EXPRTYPE="constant"
+                            Y="215" X="504" YY="233" XX="627"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_TIPODOC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="235" X="160" YY="253" XX="192"
+                            SYMNAME="Tipo Documento"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="2"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DESCRI" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="235" X="200" YY="253" XX="552"
+                            SYMNAME="Desc. Documento"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="30"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_SESSO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="235" X="632" YY="253" XX="712"
+                            SYMNAME="Sesso"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="stringa" NAME="Tipo Documento:" EXPRTYPE="constant"
+                            Y="235" X="16" YY="253" XX="155"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="Sesso:" EXPRTYPE="constant"
+                            Y="235" X="568" YY="253" XX="627"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_NUMDOCUM" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="255" X="160" YY="273" XX="265"
+                            SYMNAME="Num. Documento"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="15"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_AUTRILASC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="255" X="328" YY="273" XX="538"
+                            SYMNAME="Autorit&#224; Rilascio"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="30"
+                            />
+                      <ITEM OBJ="stringa" NAME="N&#176;Documento:" EXPRTYPE="constant"
+                            Y="255" X="24" YY="273" XX="155"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="Autorit&#224;:" EXPRTYPE="constant"
+                            Y="255" X="280" YY="273" XX="324"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="Data Scadenza:" EXPRTYPE="constant"
+                            Y="274" X="250" YY="292" XX="346"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="stringa" NAME="Data Rilascio:" EXPRTYPE="constant"
+                            Y="274" X="72" YY="292" XX="155"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            />
+                      <ITEM OBJ="espressione" NAME="arfn_fdate(c_DATARILASC)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="275" X="160" YY="293" XX="240"
+                            SYMNAME="Data Rilascio"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="27"
+                            />
+                      <ITEM OBJ="espressione" NAME="arfn_fdate(c_DATAVALI)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="275" X="352" YY="293" XX="432"
+                            SYMNAME="Data Scadenza"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="27"
+                            />
+                      <ITEM OBJ="box_end" UID="OSLXMUNOCD"/>
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="391" H="23" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="2" X="9" XX="726" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39; +arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="6" X="15" YY="22" XX="151"
+                    ALIGN="L"
+                    REMOVEON="XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))" EXPRTYPE="expression"
+                    Y="6" X="512" YY="22" XX="720"
+                    ALIGN="R"
+                    REMOVEON="XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    />
+  </PAGEFOOTER>
+</REPORT>

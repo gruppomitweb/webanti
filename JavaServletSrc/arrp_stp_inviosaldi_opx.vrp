@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Invio Saldi Rapporti -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_stp_inviosaldi_opx||version||4.6||title||Stampa Invio Saldi Rapporti||query||qbe_stp_inviosaldi_opx||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||true||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2013-11-08||date_rev||2013-11-08||form_class|| ||grid_dx|| ||grid_dy|| ||grid_show||0||grid_use||0||snaplines_show||0||language|| ||merge||false||modcnt||27||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding||ISO-8859-1||hsl||false||lock_items||false||maxcount||56||rotation||landscape||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||103||uid||KSDQRSULXY||sequence||2||bb_sequence||3||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||127||uid||WGJVQRFVJK||sequence||3||bb_sequence||4||page||1|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||name||label0||uid||WMFOFZRQCF||page||1||x||18||y||9||w||719||h||21||sequence||11||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Expr||exp||w_anno||len||4||dec||0||name||expr7||uid||SMZYNVKNFJ||page||0||x||241||y||27||w||220||h||18||sequence||33|||type||Label||value||Anno Riferimento||text_type||constant||name||label4||uid||YRJIFALZZI||page||0||x||12||y||27||w||220||h||18||sequence||32||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Expr||exp||&#39;Stampa Invio Saldi Oper. ExtraConto - Anno &#39;+anno||name||Expr51||uid||HHDBPARTJA||page||1||x||16||y||38||w||815||h||32||sequence||52||global_font||false||font||Arial||font_size||16||font_weight||bold|||type||Label||value||Saldo||text_type||constant||name||label4||uid||UMGNPCDRCG||page||1||x||694||y||75||w||99||h||19||sequence||10||align||right||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||N&#176; Operazioni||text_type||constant||name||label4||uid||GUNCISTJGH||page||1||x||801||y||75||w||99||h||19||sequence||11||align||right||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Valuta||text_type||constant||name||label4||uid||THGGEALCJP||page||1||x||907||y||75||w||57||h||19||sequence||12||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Soggetto||text_type||constant||name||label4_55||uid||JVCQSAGVDH||page||1||x||16||y||75||w||63||h||19||sequence||9||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Box||name||BoxCaption||x||16||y||97||w||1098||h||0||uid||VGEUCKKAZN||sequence||19||page||1||border_width||1||stretch_to_right||true|||type||Expr||exp||qbe_stp_inviosaldi_opx.c_RAGSOC||len||70||dec||0||name||Expr56||uid||GIZAWCYRHE||page||1||x||131||y||106||w||554||h||18||sequence||55|||type||Expr||exp||qbe_stp_inviosaldi_opx.c_SALDO||type_exp||numeric||len||17||dec||0||name||expr7||uid||YCFYOSISVY||output_name||Importo1||page||1||x||695||y||106||w||99||h||18||sequence||23||align||right|||type||Expr||exp||qbe_stp_inviosaldi_opx.c_QUANTITA||type_exp||numeric||len||6||dec||0||name||expr7||uid||ANCBOTUAWH||output_name||Importo2||page||1||x||802||y||106||w||99||h||18||sequence||24||align||right|||type||Expr||exp||qbe_stp_inviosaldi_opx.c_COLLEG||len||16||dec||0||name||expr7||uid||VNSIDTVSKB||output_name||Rapporto||page||1||x||17||y||106||w||104||h||18||sequence||21||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||qbe_stp_inviosaldi01.c_IMPORTO3||len||3||dec||0||name||expr7||uid||VYPQOGFSWX||output_name||Importo3||page||1||x||908||y||106||w||56||h||18||sequence||25||align||right|||type||Box||name||BoxCaption_50_52||x||16||y||130||w||1098||h||0||uid||UWINDBFGWN||sequence||19||page||1||border_width||1||stretch_to_right||true|||type||Label||value||&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;||text_type||expression||name||label11||uid||CYLTLPAGGI||page||1||x||781||y||134||w||225||h||17||sequence||38||align||right||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)||text_type||expression||name||label10||uid||XZKANWPAMF||page||1||x||16||y||134||w||341||h||17||sequence||37||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||Str(nTotalPages, 4, 0)||text_type||expression||name||label12||uid||LTIXHPGTEL||page||1||x||1011||y||134||w||103||h||17||sequence||39||global_font||false||font||Arial||font_size||8||font_weight||normal||| -->
+
+<REPORT NAME="arrp_stp_inviosaldi_opx" TITLE="Stampa Invio Saldi Rapporti" QUERY="qbe_stp_inviosaldi_opx" MAXDEPTH="0" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="true" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="landscape" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_stp_inviosaldi_opx.ANNO" TYPE="C" LEN="4" DEC="0" />
+    <FIELD NAME="qbe_stp_inviosaldi_opx.COLLEG" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stp_inviosaldi_opx.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stp_inviosaldi_opx.SALDO" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_stp_inviosaldi_opx.QUANTITA" TYPE="N" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_stp_inviosaldi_opx.VALUTA" TYPE="C" LEN="3" DEC="0" />
+  <COVER Y="0" H="46" EXPRESSION="Cover">
+              <ITEM OBJ="stringa" NAME="Anno Riferimento" EXPRTYPE="constant"
+                    Y="27" X="12" YY="45" XX="232"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="w_anno" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="27" X="241" YY="45" XX="461"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="4"
+                    />
+  </COVER>
+  <PAGEHEADER Y="0" H="103" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="9" X="18" YY="30" XX="737"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="&#39;Stampa Invio Saldi Oper. ExtraConto - Anno &#39;+anno" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="38" X="16" YY="70" XX="831"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="16"
+                    FONTSTYLE="B"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="Soggetto" EXPRTYPE="constant"
+                    Y="75" X="16" YY="94" XX="79"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Saldo" EXPRTYPE="constant"
+                    Y="75" X="694" YY="94" XX="793"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="N&#176; Operazioni" EXPRTYPE="constant"
+                    Y="75" X="801" YY="94" XX="900"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Valuta" EXPRTYPE="constant"
+                    Y="75" X="907" YY="94" XX="964"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="97" X="16" XX="1115" BORDERWIDTH="1"
+                    ALIGN="L"
+                    STRETCH="true"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="23" FOOTH="0" EXPRESSION="" SYMNAME=""
+   STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+   REPRINTHEADER="false" REPRINTFOOTER="false">
+              <ITEM OBJ="espressione" NAME="qbe_stp_inviosaldi_opx.c_COLLEG" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="2" X="17" YY="20" XX="121"
+                    SYMNAME="Rapporto"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    LEN="16"
+                    />
+              <ITEM OBJ="espressione" NAME="qbe_stp_inviosaldi_opx.c_SALDO" ITEMTYPE="N" EXPRTYPE="expression"
+                    Y="2" X="695" YY="20" XX="794"
+                    SYMNAME="Importo1"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="17"
+                    />
+              <ITEM OBJ="espressione" NAME="qbe_stp_inviosaldi_opx.c_QUANTITA" ITEMTYPE="N" EXPRTYPE="expression"
+                    Y="2" X="802" YY="20" XX="901"
+                    SYMNAME="Importo2"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="6"
+                    />
+              <ITEM OBJ="espressione" NAME="qbe_stp_inviosaldi01.c_IMPORTO3" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="2" X="908" YY="20" XX="964"
+                    SYMNAME="Importo3"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="3"
+                    />
+              <ITEM OBJ="espressione" NAME="qbe_stp_inviosaldi_opx.c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="2" X="131" YY="20" XX="685"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="70"
+                    />
+  </SECTION>
+  <PAGEFOOTER Y="126" H="24" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="2" X="16" XX="1115" BORDERWIDTH="1"
+                    ALIGN="L"
+                    STRETCH="true"
+                    />
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="6" X="16" YY="23" XX="357"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="6" X="781" YY="23" XX="1006"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="6" X="1011" YY="23" XX="1114"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

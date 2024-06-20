@@ -1,0 +1,119 @@
+﻿* --- Resource Vers. 0.9
+arrt_azzerainvii
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Azzera archivi per invio archivio rapporti
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:07
+module_name='
+name='arrt_azzerainvii
+state=1
+type='batch
+used_resource_keys={
+'Hyperlinks
+[
+'arpg_azzerainvii
+]
+'Tables
+[
+'aerighe<table>
+'aecanc<table>
+'aefiles<table>
+'aetesta<table>
+'aestor<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzerainvii|Error|core::document|Update dependencies|Field "aerighe.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "aerighe.1" not found.
+resource_key='arrt_azzerainvii
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzerainvii|Error|core::document|Update dependencies|Field "aetesta.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "aetesta.1" not found.
+resource_key='arrt_azzerainvii
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzerainvii|Error|core::document|Update dependencies|Field "aecanc.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "aecanc.1" not found.
+resource_key='arrt_azzerainvii
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzerainvii|Error|core::document|Update dependencies|Field "aestor.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "aestor.1" not found.
+resource_key='arrt_azzerainvii
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzerainvii|Error|core::document|Update dependencies|Field "aefiles.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "aefiles.1" not found.
+resource_key='arrt_azzerainvii
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

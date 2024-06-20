@@ -1,0 +1,448 @@
+﻿* --- Resource Vers. 0.9
+vt_cambios<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='CAMBIOS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='vt_cambios
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'vt_cambios.folio
+'vt_cambios.montorecibido
+'vt_cambios.divisa_origen
+'vt_cambios.montoentregado
+'vt_cambios.divisa_destino
+'vt_cambios.tipooperacion
+'vt_cambios.tip_cambio
+'vt_cambios.cod_status
+'vt_cambios.cod_cliente
+'vt_cambios.id_instrumento
+'vt_cambios.cod_agente
+'vt_cambios.id_usuario
+'vt_cambios.fec_captura
+'vt_cambios.hor_captura
+'vt_cambios.id_documento
+'vt_cambios.mon_com_fin
+'vt_cambios.porc_tipcam
+'vt_cambios.utilidad_nva
+'vt_cambios.host_name
+'vt_cambios.referencia
+'vt_cambios.comision
+'vt_cambios.tip_cambio_inv
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'vt_cambios.cod_agente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_agente
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.cod_cliente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_cliente
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.cod_status
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_status
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.comision
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='comision
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.divisa_destino
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='divisa_destino
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.divisa_origen
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='divisa_Origen
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.fec_captura
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_captura
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.folio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='folio
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.hor_captura
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='hor_captura
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.host_name
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='host_name
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.id_documento
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_documento
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.id_instrumento
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_instrumento
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.id_usuario
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_usuario
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.mon_com_fin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='mon_com_fin
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.montoentregado
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='montoEntregado
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.montorecibido
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='montoRecibido
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.porc_tipcam
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='porc_tipcam
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.referencia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='referencia
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.tip_cambio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tip_cambio
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.tip_cambio_inv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tip_cambio_inv
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.tipooperacion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tipoOperacion
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+'vt_cambios.utilidad_nva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='utilidad_nva
+state=3
+table_name='vt_cambios
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'vt_cambios.cod_agente
+[]
+'vt_cambios.cod_cliente
+[]
+'vt_cambios.cod_status
+[]
+'vt_cambios.comision
+[]
+'vt_cambios.divisa_destino
+[]
+'vt_cambios.divisa_origen
+[]
+'vt_cambios.fec_captura
+[]
+'vt_cambios.folio
+[]
+'vt_cambios.hor_captura
+[]
+'vt_cambios.host_name
+[]
+'vt_cambios.id_documento
+[]
+'vt_cambios.id_instrumento
+[]
+'vt_cambios.id_usuario
+[]
+'vt_cambios.mon_com_fin
+[]
+'vt_cambios.montoentregado
+[]
+'vt_cambios.montorecibido
+[]
+'vt_cambios.porc_tipcam
+[]
+'vt_cambios.referencia
+[]
+'vt_cambios.tip_cambio
+[]
+'vt_cambios.tip_cambio_inv
+[]
+'vt_cambios.tipooperacion
+[]
+'vt_cambios.utilidad_nva
+[]
+}
+*--*

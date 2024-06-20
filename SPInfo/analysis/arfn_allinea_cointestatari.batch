@@ -1,0 +1,47 @@
+﻿* --- Resource Vers. 0.9
+arfn_allinea_cointestatari
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:27
+description='Aggionamento rapporti abbinamento cointestatari
+file_modified_on=#2018-06-11 07:20:48
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:50
+module_name='
+name='arfn_allinea_cointestatari
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aerighe.rapporto
+'aestor.rapporto
+'aecanc.rapporto
+'aeannora.rapporto
+'aetesta.rapporto
+]
+'Routines
+[
+'arfn_allinea_cointestatari
+]
+'Tables
+[
+'tmp_abbina_cointestatari<table>
+'aetesta<table>
+'aerighe<table>
+'aestor<table>
+'aecanc<table>
+'aeannora<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,39 @@
+﻿* --- Resource Vers. 0.9
+oprt_import_scheduled
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Lettura file di import e lancio procedura import
+file_modified_on=#2022-12-15 15:33:15
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:33
+module_name='
+name='oprt_import_scheduled
+state=1
+type='batch
+used_resource_keys={
+'Libraries
+[
+'MailLibrary<painter>
+'FileLibMit<project>
+]
+'Routines
+[
+'opert_imp_dati
+]
+'Tables
+[
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

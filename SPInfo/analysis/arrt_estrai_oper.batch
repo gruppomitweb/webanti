@@ -1,0 +1,46 @@
+﻿* --- Resource Vers. 0.9
+arrt_estrai_oper
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Estrazione operazioni e produzione file excel
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:12
+module_name='
+name='arrt_estrai_oper
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbtipdoc.tipdoc
+'tbtipdoc.descri
+]
+'Queries
+[
+'qbe_estrai_ope.vqr
+]
+'Routines
+[
+'arfn_fdate
+]
+'Tables
+[
+'personbo<table>
+'tbtipdoc<table>
+'docfrabo<table>
+'kersonbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

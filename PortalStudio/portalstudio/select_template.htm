@@ -1,0 +1,51 @@
+<html>
+<head>
+ <title>Available Templates</title>
+ <script type="text/javascript" src="../stdFunctions.js"></script>
+ <script type="text/javascript" src="../controls.js"></script>
+ <link rel="stylesheet" href="../filewindow.css" type="text/css">
+ <script type="text/javascript">
+  function openPagelet(tpl){
+    if(window.opener.newCurrentObj){
+      window.opener.newCurrentObj('New','pagelet',{template:tpl});
+      window.close();
+    }else if(window.opener.parent.newCurrentObj){
+      window.opener.parent.newCurrentObj('New','pagelet',{template:tpl});
+      window.close();
+    }else if(window.opener.opener && window.opener.opener.newCurrentObj){
+      window.opener.opener.newCurrentObj('New','pagelet',{template:tpl});
+      window.opener.close();
+      window.close();
+    }else{
+      window.open("../pagelet/editor.jsp?template="+tpl, "pageletditor_new", "resizable=yes,status=no,toolbar=no,menubar=no,location=no");
+      window.close();
+    }
+  }
+ </script>
+ <style>
+  .contorno{BORDER-RIGHT: #D6D3CE 2px outset; PADDING-RIGHT: 1px; BORDER-TOP: #efefef 2px outset; PADDING-TOP: 0px; BORDER-LEFT: #efefef 2px outset; PADDING-LEFT: 0px; BORDER-BOTTOM: #D6D3CE 2px outset; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #D6D3CE; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: tahoma; TEXT-DECORATION: none}
+  .contornointerno{BORDER-RIGHT: #efefef 2px inset; PADDING-RIGHT: 0px; BORDER-TOP: #D6D3CE 2px inset; PADDING-TOP: 0px; BORDER-LEFT: #D6D3CE 2px inset; PADDING-LEFT: 0px; BORDER-BOTTOM: #efefef 2px inset; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #D6D3CE}
+  .contornotitolo{BORDER-RIGHT: #29658C 2px outset; PADDING-RIGHT: 1px; BORDER-TOP: #29658C 2px outset; PADDING-TOP: 0px; BORDER-LEFT: #29658C 2px outset; PADDING-LEFT: 0px; BORDER-BOTTOM: #29658C 2px outset; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #29658C; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: tahoma; TEXT-DECORATION: none}
+  .tabellainterna1{BORDER-RIGHT: #808080 1px outset; PADDING-RIGHT: 1px; BORDER-TOP: #808080 1px outset; PADDING-TOP: 0px; BORDER-LEFT: #808080 1px outset; PADDING-LEFT: 3px; BORDER-BOTTOM: #808080 1px outset; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #D6D3CE; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: tahoma; TEXT-DECORATION: none}
+  .tabellainterna2{BORDER-RIGHT: #808080 1px outset; PADDING-RIGHT: 1px; BORDER-TOP: #808080 1px outset; PADDING-TOP: 0px; BORDER-LEFT: #808080 1px outset; PADDING-LEFT: 3px; BORDER-BOTTOM: #808080 1px outset; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: tahoma; TEXT-DECORATION: none}
+  .testo {FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: tahoma; TEXT-DECORATION: none}
+  .bottoni {BORDER-RIGHT: #29658C 2px outset; PADDING-RIGHT: 1px; BORDER-TOP: #29658C 2px outset; PADDING-TOP: 0px; BORDER-LEFT: #29658C 2px outset; PADDING-LEFT: 0px; BORDER-BOTTOM: #29658C 2px outset; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #29658C; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: tahoma; TEXT-DECORATION: none}
+  .bottoni2 {background-color: #00FFFF; color: #800000; border-style: outset; border-color: #000080; padding: 2; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: tahoma; TEXT-DECORATION: none}
+ </style>
+</head>
+<body style="border:0;overflow:hidden;margin:0">
+ <table border="0" width="100%" height="100%" cellpadding="5" cellspacing="1" align="center" class="contenuto">
+  <tr>
+   <td colspan="6"  align="center" height="20" width="100%" class="titoli"><b>Available templates</b></td>
+  </tr>
+  <tr class="contenuto">
+   <td><a href="javascript:openPagelet(5)"><img src="../pagelet/images/template5.gif" border="0"></a></td>
+   <td><a href="javascript:openPagelet(0)"><img src="../pagelet/images/template0.gif" border="0"></a></td>
+   <td><a href="javascript:openPagelet(1)"><img src="../pagelet/images/template1.gif" border="0"></a></td>
+   <td><a href="javascript:openPagelet(2)"><img src="../pagelet/images/template2.gif" border="0"></a></td>
+   <td><a href="javascript:openPagelet(3)"><img src="../pagelet/images/template3.gif" border="0"></a></td>
+   <td><a href="javascript:openPagelet(4)"><img src="../pagelet/images/template4.gif" border="0"></a></td>
+  </tr>
+ </table>
+</body>
+</html>

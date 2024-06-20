@@ -1,0 +1,40 @@
+﻿* --- Resource Vers. 0.9
+aos_stampa_ricerca_web
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:27
+description='Ricerca Soggetti Segnalati (Liste WEB)
+file_modified_on=#2018-06-11 07:20:48
+location='
+measures={}
+modified_on=#2024-05-10 18:24:47
+module_name='
+name='aos_stampa_ricerca_web
+state=1
+type='page
+used_resource_keys={
+'Hyperlinks
+[
+'aosrt_ricerca_sogg_web
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]aos_stampa_ricerca_web|Error|core::document|Update dependencies|Table "soggetti" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:47
+message='Table "soggetti" not found.
+resource_key='aos_stampa_ricerca_web
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

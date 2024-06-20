@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="48184514">
+  <CodifyName>armt_ae_anarap</CodifyName>
+  <Name>armt_ae_anarap.mstdef</Name>
+  <Title>Anagrafica Rapporti (Agenzia delle Entrate)</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="31916617">Dati / Informazioni</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_ae_anarap_usr_1</JPG>
+    <Item type="campo" x1="144" y1="16" x2="306" y2="36">
+      <Name LinkID="108429827">RAPPORTO</Name>
+      <Comment>Codice Rapporto</Comment>
+      <Key>key1</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="448" y1="16" x2="776" y2="36">
+      <Name LinkID="119907639">DESCRAP</Name>
+      <Comment>Descrizione</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="40" x2="544" y2="60">
+      <Name LinkID="119910667">TIPORAP</Name>
+      <Comment>Tipo Rapporto</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="90" x2="270" y2="110">
+      <Name LinkID="206391326">FLAGLIRE</Name>
+      <Comment>Divisa</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="368" y1="90" x2="406" y2="110">
+      <Name LinkID="36034243">VALUTA</Name>
+      <Comment>Codice Divisa</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="648" y1="40" x2="776" y2="64">
+      <Name LinkID="89764069">Nuova Informazione</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="66" x2="544" y2="86">
+      <Name LinkID="36348171">TIPOAG</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="608" y1="64" x2="762" y2="85">
+      <Name LinkID="231177199">NOPROT</Name>
+      <Comment>Non inviare agenzia entrate</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="144" x2="480" y2="164">
+      <Name LinkID="232409277">NATURA</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="168" x2="480" y2="188">
+      <Name LinkID="236682763">SCOPO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="264" x2="206" y2="284">
+      <Name LinkID="149360028">AREAGEO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="288" x2="206" y2="308">
+      <Name LinkID="151784367">MODSVOL</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="312" x2="206" y2="332">
+      <Name LinkID="236684685">RAGIO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="336" x2="206" y2="356">
+      <Name LinkID="31428875">TIPO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="216" x2="760" y2="236">
+      <Name LinkID="236677336">RFREQ</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="240" x2="760" y2="260">
+      <Name LinkID="237006373">RIMP</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="264" x2="760" y2="284">
+      <Name LinkID="236742877">RAREA</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="288" x2="760" y2="308">
+      <Name LinkID="236679435">RCOMP</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="312" x2="760" y2="332">
+      <Name LinkID="231532508">RRAGIO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="336" x2="760" y2="356">
+      <Name LinkID="236682842">RTIPO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="216" x2="206" y2="236">
+      <Name LinkID="31769399">DURAT</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="240" x2="206" y2="260">
+      <Name LinkID="231182113">AMMONT</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="2">
+    <Title LinkID="119700548">Operazioni / Frazionate</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_ae_anarap_usr_2</JPG>
+  </Pag>
+  <Pag number="3">
+    <Title LinkID="15424320">Deleghe su rapporto</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_ae_anarap_usr_3</JPG>
+  </Pag>
+</Codify>

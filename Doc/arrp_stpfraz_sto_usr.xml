@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="148012537">
+  <CodifyName>arrp_stpfraz_sto</CodifyName>
+  <Name>arrp_stpfraz_sto.repdef</Name>
+  <Title>Stampa Storico Frazionarie (Report)</Title>
+  <Type>Report</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="89565082"></Title>
+    <Note/>
+    <JPG x="0" y="6">arrp_stpfraz_sto_usr_1</JPG>
+    <Item type="espressione" x1="384" y1="9" x2="464" y2="27">
+      <Name LinkID="148012442">DaDatOpe</Name>
+      <Help></Help>
+      <Expression>DaDatOpe</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="592" y1="9" x2="672" y2="27">
+      <Name LinkID="148012442">ADatOpe</Name>
+      <Help></Help>
+      <Expression>ADatOpe</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="744" y1="9" x2="870" y2="27">
+      <Name LinkID="148012442">daCodCli</Name>
+      <Help></Help>
+      <Expression>daCodCli</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="942" y1="9" x2="1068" y2="27">
+      <Name LinkID="148012442">aCodCli</Name>
+      <Help></Help>
+      <Expression>aCodCli</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="184" y1="92" x2="256" y2="110">
+      <Name LinkID="148012442">c_DATAREG</Name>
+      <Help></Help>
+      <Expression>c_DATAREG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="1056" y1="92" x2="1072" y2="110">
+      <Name LinkID="148012442">c_STATOREG</Name>
+      <Help></Help>
+      <Expression>c_STATOREG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="712" y1="92" x2="1044" y2="110">
+      <Name LinkID="148012442">iif(Empty(c_RAGSOC),c_DESCRAP,Left(c_RAGSOC,30))</Name>
+      <Help></Help>
+      <Expression>iif(Empty(c_RAGSOC),c_DESCRAP,Left(c_RAGSOC,30))</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="528" y1="92" x2="703" y2="110">
+      <Name LinkID="148012442">iif(Empty(c_CONNESCLI),c_RAPPORTO,c_CONNESCLI)</Name>
+      <Help></Help>
+      <Expression>iif(Empty(c_CONNESCLI),c_RAPPORTO,c_CONNESCLI)</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="440" y1="92" x2="496" y2="110">
+      <Name LinkID="148012442">c_VALUTA</Name>
+      <Help></Help>
+      <Expression>c_VALUTA</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="264" y1="92" x2="328" y2="110">
+      <Name LinkID="148012442">c_CODANA + " " + c_CODVOC</Name>
+      <Help></Help>
+      <Expression>c_CODANA + " " + c_CODVOC</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="336" y1="92" x2="432" y2="110">
+      <Name LinkID="148012442">c_IMPORTO</Name>
+      <Help></Help>
+      <Expression>c_IMPORTO</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="92" x2="80" y2="110">
+      <Name LinkID="148012442">c_DATAOPER</Name>
+      <Help></Help>
+      <Expression>c_DATAOPER</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="504" y1="92" x2="520" y2="110">
+      <Name LinkID="148012442">iif(Empty(c_RAPPORTO),'C','R')</Name>
+      <Help></Help>
+      <Expression>iif(Empty(c_RAPPORTO),'C','R')</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="88" y1="92" x2="176" y2="110">
+      <Name LinkID="148012442">c_NUMPROG</Name>
+      <Help></Help>
+      <Expression>c_NUMPROG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="113" x2="964" y2="126">
+      <Name LinkID="173056732">Report footer</Name>
+      <Section>Report footer</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="948" y1="152" x2="1060" y2="170">
+      <Name LinkID="148012442">iif(c_STATOREG='A',c_TOTEURO,0)</Name>
+      <Help></Help>
+      <Expression>iif(c_STATOREG='A',c_TOTEURO,0)</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="820" y1="152" x2="932" y2="170">
+      <Name LinkID="148012442">iif(c_STATOREG='A',c_TOTLIRE,0)</Name>
+      <Help></Help>
+      <Expression>iif(c_STATOREG='A',c_TOTLIRE,0)</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="948" y1="177" x2="1060" y2="195">
+      <Name LinkID="148012442">iif(c_STATOREG='M',c_TOTEURO,0)</Name>
+      <Help></Help>
+      <Expression>iif(c_STATOREG='M',c_TOTEURO,0)</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="820" y1="177" x2="932" y2="195">
+      <Name LinkID="148012442">iif(c_STATOREG='M',c_TOTLIRE,0)</Name>
+      <Help></Help>
+      <Expression>iif(c_STATOREG='M',c_TOTLIRE,0)</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="948" y1="202" x2="1060" y2="220">
+      <Name LinkID="148012442">iif(c_STATOREG='C',c_TOTEURO,0)</Name>
+      <Help></Help>
+      <Expression>iif(c_STATOREG='C',c_TOTEURO,0)</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="820" y1="202" x2="932" y2="220">
+      <Name LinkID="148012442">iif(c_STATOREG='C',c_TOTLIRE,0)</Name>
+      <Help></Help>
+      <Expression>iif(c_STATOREG='C',c_TOTLIRE,0)</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="820" y1="231" x2="932" y2="249">
+      <Name LinkID="148012442">c_TOTLIRE</Name>
+      <Help></Help>
+      <Expression>c_TOTLIRE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="948" y1="231" x2="1060" y2="249">
+      <Name LinkID="148012442">c_TOTEURO</Name>
+      <Help></Help>
+      <Expression>c_TOTEURO</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="256" x2="964" y2="269">
+      <Name LinkID="262202645">Page footer</Name>
+      <Section>Page footer</Section>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

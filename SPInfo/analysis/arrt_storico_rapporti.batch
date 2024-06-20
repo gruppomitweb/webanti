@@ -1,0 +1,93 @@
+﻿* --- Resource Vers. 0.9
+arrt_storico_rapporti
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:40
+description='Creazione Storico Rapporto (se necessario)
+file_modified_on=#2019-10-15 11:18:58
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:25
+module_name='
+name='arrt_storico_rapporti
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'ynarapbo.srnumpro
+'ynarapbo.rapporto
+'ynarapbo.descrap
+'ynarapbo.tiporap
+'ynarapbo.flaglire
+'ynarapbo.valuta
+'ynarapbo.continua
+'ynarapbo.tipoag
+'ynarapbo.docfile
+'ynarapbo.noprot
+'ynarapbo.tipmod
+'ynarapbo.datamod
+'ynarapbo.idrapporto
+'ynarapbo.idbase
+'ynarapbo.ragio
+'ynarapbo.modsvol
+'ynarapbo.areageo
+'ynarapbo.scopo
+'ynarapbo.natura
+'ynarapbo.rtipo
+'ynarapbo.rcomp
+'ynarapbo.rimp
+'ynarapbo.rfreq
+'ynarapbo.rragio
+'ynarapbo.rarea
+'ynarapbo.tipo
+'ynarapbo.prgimprap
+'ynarapbo.ammont
+'ynarapbo.durat
+'ynarapbo.impape
+'ynarapbo.impchiu
+'ynarapbo.splitcode
+'ynarapbo.macodice
+'ynarapbo.coddip
+'ynarapbo.statorap
+'ynarapbo.castatoc
+'ynarapbo.castatom
+'ynarapbo.codicelr
+'ynarapbo.cadstato
+'ynarapbo.mitig
+'ynarapbo.mitgdoc
+'ynarapbo.categ01
+'ynarapbo.categ02
+'ynarapbo.categ03
+'ynarapbo.categ04
+'ynarapbo.categ05
+'ynarapbo.categoria
+'ynarapbo.coddipe
+'ynarapbo.mitigdoc
+'ynarapbo.dac6
+'ynarapbo.flagdac6
+'ynarapbo.iban
+'ynarapbo.codogg
+'ynarapbo.risglob
+'ynarapbo.datamodi
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Tables
+[
+'anarapbo<table>
+'ynarapbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

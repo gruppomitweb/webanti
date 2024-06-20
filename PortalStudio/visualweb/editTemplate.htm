@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Template code</title>
+ <script type="text/javascript" src="../stdFunctions.js"></script>
+ <script type="text/javascript" src="../controls.js"></script>
+
+ <link rel="stylesheet" href="../codemirror/lib/codemirror.css">
+ <link rel="stylesheet" href="../codemirror/addon/fold/foldgutter.css">
+ <link rel="stylesheet" href="../codemirror/addon/dialog/dialog.css">
+ <link rel="stylesheet" href="../codemirror/addon/hint/show-hint.css">
+ <link rel="stylesheet" href="../codemirror/theme/ambiance.css">
+ <link rel="stylesheet" href="../codemirror/theme/blackboard.css">
+ <link rel="stylesheet" href="../codemirror/theme/neat.css">
+ <link rel="stylesheet" href="../codemirror/theme/elegant.css">
+ <link rel="stylesheet" href="../codemirror/theme/erlang-dark.css">
+ <link rel="stylesheet" href="../codemirror/theme/lesser-dark.css">
+ <link rel="stylesheet" href="../codemirror/theme/night.css">
+ <link rel="stylesheet" href="../codemirror/theme/monokai.css">
+ <link rel="stylesheet" href="../codemirror/theme/cobalt.css">
+ <link rel="stylesheet" href="../codemirror/theme/eclipse.css">
+ <link rel="stylesheet" href="../codemirror/theme/midnight.css">
+ <link rel="stylesheet" href="../codemirror/theme/solarized.css">
+ <link rel="stylesheet" href="../codemirror/theme/rubyblue.css">
+ <link rel="stylesheet" href="../codemirror/theme/twilight.css">
+ <link rel="stylesheet" href="../codemirror/theme/vibrant-ink.css">
+ <link rel="stylesheet" href="../codemirror/theme/xq-dark.css">
+ <link rel="stylesheet" href="../codemirror/theme/xq-light.css">
+
+ <link rel="stylesheet" href="editItemEvent.css">
+ <script src="../codemirror/lib/codemirror.js"></script>
+ <script src="../codemirror/mode/xml/xml.js"></script>
+ <script src="../codemirror/mode/javascript/javascript.js"></script>
+ <script src="../codemirror/mode/css/css.js"></script>
+ <script src="../codemirror/mode/htmlmixed/htmlmixed.js"></script>
+ <script src="../codemirror/addon/edit/matchbrackets.js"></script>
+ <script src="../codemirror/addon/edit/continuecomment.js"></script>
+ <script src="../codemirror/addon/comment/comment.js"></script>
+ <script src="../codemirror/addon/dialog/dialog.js"></script>
+ <script src="../codemirror/addon/search/searchcursor.js"></script>
+ <script src="../codemirror/addon/search/search.js"></script>
+ <script src="../codemirror/addon/selection/active-line.js"></script>
+ <script src="../codemirror/addon/selection/mark-selection.js"></script>
+ <script src="../codemirror/addon/search/match-highlighter.js"></script>
+ <script src="../codemirror/addon/fold/foldcode.js"></script>
+ <script src="../codemirror/addon/fold/brace-fold.js"></script>
+ <script src="../codemirror/addon/fold/xml-fold.js"></script>
+ <script src="../codemirror/addon/mode/overlay.js"'></script>
+ <style>
+   .cm-expression {
+     color: #00A0BD;
+   }
+   #topbar {
+     min-width: 0;
+   }
+ </style>
+</head>
+<body>
+  <div id='topbar'>
+    <span class="title">Template Code</span>
+
+      <div id='topbar_right' class='topbar_sides float_right'></div>
+      <div class='float_right'>
+      <a id="toolbar_cancel" class="action" href="javascript:void(0)" title='Cancel'>CANCEL</a>
+      </div>
+      <div class='float_right'>
+      <a id="toolbar_ok" class="action" href="javascript:void(0)" title='Save and Close'>SAVE</a>
+      </div>
+      <div class="action_bar">
+      <!--div id='topbar_right' class='topbar_sides float_right'></div-->
+
+      <!--div id='topbar_left' class='topbar_sides float_lef'></div-->
+        <div class='topbar_separator float_lef'></div>
+        <div class='float_right topbar_padding' >
+        <a id="toolbar_search" class="title_btn" href="javascript:void(0)" title='Search'></a>
+        </div>
+        <div class='float_right topbar_padding'>
+        <a id="toolbar_help" class="title_btn" href="javascript:void(0)" title='Help'>
+          </a>
+            <div id='helpkeys_content' class='small'>
+             <table cellpadding="5" border="0"><tbody>
+           <tr><td>Search</td><td align="right" class="keys" nowrap>Ctrl-F</td></tr>
+           <tr><td>Replace</td><td align="right" class="keys" nowrap>Ctrl-R</td></tr>
+           <tr><td>Find Next</td><td align="right" class="keys" nowrap>F3</td></tr>
+           <tr><td>Find Prev</td><td align="right" class="keys" nowrap>Shift-F3</td></tr>
+           <tr><td>Toggle bookmark</td><td align="right" class="keys" nowrap>Ctrl-F2</td></tr>
+           <tr><td>Next bookmark</td><td align="right" class="keys" nowrap>F2</td></tr>
+           <tr><td>Prev bookmark</td><td align="right" class="keys" nowrap>Shift-F2</td></tr>
+           <tr><td>Add/Remove Comment</td><td align="right" class="keys" nowrap>Ctrl-Q</td></tr>
+           <tr><td>Save All</td><td align="right" class="keys" nowrap>Ctrl-S</td></tr>
+             </tbody></table>
+          </div>
+        </div>
+      <div class='float_right topbar_padding' >
+        <a id="toolbar_style" class="title_btn" href="javascript:void(0)" title='Style'></a>
+  <div id="opt_pane">
+    <div id="opt_pane_wrapper">
+      <div id="opt_pane_content">
+              <label for="theme-choise">Style: </label>
+              <br />
+              <select  id="theme" title="Select favorite theme">
+                <option  value="ambiance" label="Ambiance" />
+                <option  value="blackboard" label="Blackboard" />
+                <option  value="cobalt" label="Cobalt" />
+                <option  value="eclipse" label="Eclipse" />
+                <option  value="elegant" label="Elegant" />
+                <option  value="erlang-dark" label="Erlang-dark" />
+                <option  value="lesser-dark" label="Lesser-dark" />
+                <option  value="default" label="Light" />
+                <option  value="midnight" label="Midnight" />
+                <option  value="monokai" label="Monokai" />
+                <option  value="neat" label="Neat" />
+                <option  value="night" label="Night" />
+                <option  value="rubyblue" label="Rubyblue" />
+                <option  value="solarized" label="Solarized" />
+                <option  value="twilight" label="Twilight" />
+                <option  value="vibrant-ink" label="Vibrant-ink" />
+                <option  value="xq-dark" label="Xq-dark" />
+                <option  value="xq-light" label="Xq-light" />
+              </select>
+              <br />
+              <label id="slider">Font size: </label>
+              <br />
+              <div style="padding:5px;">
+                <input type="range" id="fontSlider" name="volume" min="8" max="35" />
+         </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id='editor'>
+      <div id="loader"></div>
+  </div>
+
+</body>
+</html>
+<script>
+(function(w){
+  'use strict';
+  // initialisation of codemirrorOptionObj
+
+  function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+  }
+
+  var propID = "code";
+  if( !Empty(getParameterByName("propID")) ) {
+    propID = getParameterByName("propID");
+  }
+
+  var	itemsHTML
+  	,	index
+  	,	code
+  	,	codeEditor
+    ,	propID
+    , z_ac_style = localStorage.getItem('zucchetti_ac_style')
+  	,	ac_style = !Empty(z_ac_style) ? JSON.parse(z_ac_style) : { fontSize: 12, theme: "" }
+    , changed=false
+    , codeMirrorOpt={}
+    , resizeTimer
+    , status = { folded : {}, breakpoints : {}}
+    , editor = document.getElementById('editor')
+  ;
+  /****** Gestione del LocalStorage *******/
+  localStorage.setItem('zucchetti_ac_style',JSON.stringify(ac_style));
+  /*******codemirror options*******/
+
+  /*******codemirror options*******/
+
+  CodeMirror.defineMode("ps-template", function (config) {
+    var overlay = {
+      token: function (stream) {
+        var ch;
+        if (stream.match("{{")) {
+          while ((ch = stream.next()) != null)
+            if (ch == "}" && stream.next() == "}") {
+              stream.eat("}");
+              return "expression";
+            }
+        }
+        while (stream.next() != null && !stream.match("{{", false)) { }
+        return null;
+      }
+    };
+    return CodeMirror.overlayMode(CodeMirror.getMode(config, "htmlmixed"), overlay);
+  });
+
+  codeMirrorOpt.extraKeys= {"Ctrl-R": "replace", "F3": "findNext", "Shift-F3": "findPrev", "Ctrl-Q": "toggleComment","Ctrl-S":function(){
+    Save();
+      (parent.parent.saveTool?parent.parent.saveTool():(parent.save?parent.save():void(0)));parent.managed=true
+    }
+  }
+
+  codeMirrorOpt.tabMode= "shift";
+  codeMirrorOpt.theme=  ac_style && ac_style.theme ? ac_style.theme : 'default' ;
+  document.getElementById("theme").value = codeMirrorOpt.theme;
+  codeMirrorOpt.tabSize = 2;
+  codeMirrorOpt.indentUnit =2;
+  codeMirrorOpt.statementIndent =2;
+  codeMirrorOpt.lineNumbers =true;
+  codeMirrorOpt.styleActiveLine= true;
+  codeMirrorOpt.highlightSelectionMatches= true;
+  codeMirrorOpt.enterMode ='keep';
+  codeMirrorOpt.mode = "ps-template";
+  codeMirrorOpt.matchBrackets=true;
+  codeMirrorOpt.onChange=function(){changed=true};
+
+  function createCodeArea(){
+    var h = editor.offsetHeight-50;
+    codeEditor = CodeMirror(editor, codeMirrorOpt);
+    codeEditor.on("fold", function(cm, from, to) {
+      status.folded[from.line]=true;
+    });
+    codeEditor.on("unfold", function(cm, from, to) {
+      delete status.folded[from.line];
+    });
+    LibJavascript.CssClassNameUtils.addClass(codeEditor,'eventcode')
+    codeEditor.getWrapperElement().id='eventcode';
+    codeEditor.getWrapperElement().style.height='100%';
+    codeEditor.getWrapperElement().style.fontSize = ac_style.fontSize + "px";
+    codeEditor.getWrapperElement().value = codeEditor.getValue();
+    codeEditor.refresh();
+  }
+
+  function buildSlider(){
+    // Create the new slider instance
+    var el = $('fontSlider');
+    var font = $('eventcode');
+    new Slider(el, el.getElement('.knob'), {
+      steps: 35,  // There are 35 steps
+      range: [12],  // Minimum value is 8
+      initialStep :ac_style.fontSize ? ac_style.fontSize : 13,
+      onChange: function(value){
+        // Everytime the value changes, we change the font of an element
+        ac_style.fontSize = value;
+        localStorage.setItem('zucchetti_ac_style', JSON.encode(ac_style));
+        font.setStyle('font-size', value);
+        $(codeEditor.getWrapperElement()).setStyle('font-size',value);
+      }
+    }).set(font.getStyle('font-size').toInt());
+
+  }
+
+  function toggleOptPane(){
+    var range;
+    if(opt_paneOpened){
+      range = [0,-155];
+      opt_paneToggle.slideOut();
+      var fnToDelay = function(){
+        opt_paneTopToggle.start({
+          'right':range
+        });
+        document.getElementById('opt_pane_topbar_left').style.backgroundImage = "url(../portalstudio/images/ac_optpane_btn_open.png)";
+        opt_paneOpened = !opt_paneOpened;
+      }
+      fnToDelay.delay(301);
+    }else{
+      range = [-155,0];
+      opt_paneTopToggle.start({
+        'right':range
+      });
+      var fnToDelay = function(){
+        opt_paneToggle.slideIn();
+        document.getElementById('opt_pane_topbar_left').style.backgroundImage = "url(../portalstudio/images/ac_optpane_btn_close.png)";
+        opt_paneOpened = !opt_paneOpened;
+      }
+      fnToDelay.delay(201);
+    }
+  }
+
+  function SaveAndClose(){
+    if (getParameterByName("callerFunction")){
+      parent[getParameterByName("callerFunction")].call(null, codeEditor.getValue())
+    } else {
+      parent.itemsHTML[parent.index][propID] = codeEditor.getValue();
+    }
+    parent.window.codeOpen=false;
+    WindowClose();
+  }
+
+  function Save() {
+    if (getParameterByName("callerFunction")){
+      parent[getParameterByName("callerFunction")].call(null, codeEditor.getValue())
+    } else {
+      parent.itemsHTML[parent.index][propID] = codeEditor.getValue();
+    }
+    changed = false;
+  }
+
+  function ResizeEditor(){
+    clearTimeout(resizeTimer);
+    ac_style.width = parent.ActionCodeLayer.getContainer().offsetWidth;
+    ac_style.height = parent.ActionCodeLayer.getContainer().offsetHeight;
+    codeEditor.getScrollerElement().style.width=editor.offsetWidth+'px';
+    codeEditor.getScrollerElement().style.height=editor.offsetHeight+'px';
+    localStorage.setItem('zucchetti_ac_style', JSON.stringify(ac_style));
+  }
+  /*********Gestione degli eventi************/
+
+  code = codeMirrorOpt.value = loadCode();
+
+  /** Start filling event and function **/
+  document.getElementById('theme').addEventListener( 'change', function() {
+    var theme=this.value;
+        codeEditor.setOption('theme',theme);
+        ac_style.theme = theme;
+    localStorage.setItem('zucchetti_ac_style', JSON.stringify(ac_style));
+      });
+
+  document.getElementById('fontSlider').value = ac_style.fontSize;
+
+  document.getElementById('fontSlider').addEventListener('change', function() {
+    ac_style.fontSize = this.value;
+    localStorage.setItem('zucchetti_ac_style', JSON.stringify(ac_style));
+    codeEditor.getWrapperElement().style.fontSize = this.value + 'px';
+  })
+
+    createCodeArea();
+
+  setTimeout(function(){codeEditor.getScrollerElement().style.height =editor.offsetHeight +'px';},300);
+    codeEditor.focus();
+
+  document.getElementById('toolbar_style').addEventListener('click',function(){
+    [].forEach.call(document.querySelectorAll(".visible:not(#opt_pane)"), (other) => { other.classList.remove('visible'); });
+    LibJavascript.CssClassNameUtils.toggleClass(document.getElementById('opt_pane'), 'visible');
+  });
+  document.getElementById('toolbar_ok').addEventListener('click',SaveAndClose);
+  document.getElementById('toolbar_help').addEventListener('click',function(){
+    [].forEach.call(document.querySelectorAll(".visible:not(#helpkeys_content)"), (other) => { other.classList.remove('visible'); });
+    LibJavascript.CssClassNameUtils.toggleClass(document.getElementById('helpkeys_content'), 'visible');
+  });
+  document.getElementById('toolbar_search').addEventListener('click',function() {
+    codeEditor.execCommand('find');
+  });
+
+  document.getElementById('toolbar_cancel').addEventListener('click',function CheckClosefromX(){
+    if(changed){
+        if (confirm("Do you want to save HTML code ?\n\nClick OK to save\nClick Cancel to ignore changes"))
+          SaveAndClose()
+        else{
+          parent.window.codeOpen=false;
+          WindowClose();
+        }
+    }else{
+      parent.window.codeOpen=false;
+      WindowClose();
+    }
+  })
+  document.body.addEventListener('keydown',function(e){
+    if(e.ctrlKey && e.keyCode==82){ //ctrl+r
+      //Annullo il Ctrl-r di default
+      if(e.preventDefault)e.preventDefault();
+    }
+  });
+  window.addEventListener('restoreSize', function(spmodallayer){
+      ac_style.maximized = false;
+    localStorage.setItem('zucchetti_ac_style', JSON.stringify(ac_style));
+  });
+  window.addEventListener('maximized', function(spmodallayer){
+      ac_style.maximized = true;
+    localStorage.setItem('zucchetti_ac_style', JSON.stringify(ac_style));
+  });
+  window.addEventListener('resize', function(){ resizeTimer = setTimeout(ResizeEditor,50) });
+  window.addEventListener('save', Save);
+
+
+  /**********Gestione dello specifico editor***************/
+  function loadCode(){
+    var load_code = "";
+    if (getParameterByName("callerFunction")){
+      load_code = parent[getParameterByName("callerFunction")].call() || "";
+    } else {
+      load_code = parent.itemsHTML[parent.index][propID] || "";
+    }
+    return load_code;
+  }
+})()
+</script>
+
+-

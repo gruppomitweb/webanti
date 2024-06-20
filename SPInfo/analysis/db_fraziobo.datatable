@@ -1,0 +1,1816 @@
+﻿* --- Resource Vers. 0.9
+db_fraziobo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='DB FRAZIOBO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='db_fraziobo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'db_fraziobo.idbase
+'db_fraziobo.numprog
+'db_fraziobo.dataope
+'db_fraziobo.tipointer
+'db_fraziobo.codinter
+'db_fraziobo.tipoinf
+'db_fraziobo.idereg
+'db_fraziobo.coddipe
+'db_fraziobo.desccit
+'db_fraziobo.provincia
+'db_fraziobo.codcab
+'db_fraziobo.flagfraz
+'db_fraziobo.flagcont
+'db_fraziobo.codana
+'db_fraziobo.codvoc
+'db_fraziobo.tipoint2
+'db_fraziobo.codint2
+'db_fraziobo.paese
+'db_fraziobo.desc2
+'db_fraziobo.prov2
+'db_fraziobo.codcab2
+'db_fraziobo.descinter
+'db_fraziobo.rapporto
+'db_fraziobo.flagrap
+'db_fraziobo.tipoleg
+'db_fraziobo.datareg
+'db_fraziobo.oprap
+'db_fraziobo.tipooprap
+'db_fraziobo.flaglire
+'db_fraziobo.valuta
+'db_fraziobo.segno
+'db_fraziobo.totlire
+'db_fraziobo.totcont
+'db_fraziobo.statoreg
+'db_fraziobo.operazmod
+'db_fraziobo.datarett
+'db_fraziobo.connescli
+'db_fraziobo.connesoper
+'db_fraziobo.connesben
+'db_fraziobo.colleg
+'db_fraziobo.cambio
+'db_fraziobo.rapportben
+'db_fraziobo.flagrap2
+'db_fraziobo.operatore
+'db_fraziobo.autom
+'db_fraziobo.idcauana
+'db_fraziobo.operag
+'db_fraziobo.docfile
+'db_fraziobo.respins
+'db_fraziobo.inform
+'db_fraziobo.cdatope
+'db_fraziobo.noprot
+'db_fraziobo.ucode
+'db_fraziobo.cdataope
+'db_fraziobo.zcparte
+'db_fraziobo.ragio
+'db_fraziobo.modsvol
+'db_fraziobo.areageo
+'db_fraziobo.rifimp
+'db_fraziobo.scopo
+'db_fraziobo.natura
+'db_fraziobo.rtipo
+'db_fraziobo.rcomp
+'db_fraziobo.rimp
+'db_fraziobo.rfreq
+'db_fraziobo.rragio
+'db_fraziobo.rarea
+'db_fraziobo.tipo
+'db_fraziobo.prgimpfrz
+'db_fraziobo.uniquecode
+'db_fraziobo.ammont
+'db_fraziobo.durat
+'db_fraziobo.connaltro
+'db_fraziobo.connesdoc
+'db_fraziobo.c_rag
+'db_fraziobo.c_sta
+'db_fraziobo.c_cta
+'db_fraziobo.c_cab
+'db_fraziobo.c_prv
+'db_fraziobo.c_ind
+'db_fraziobo.c_cap
+'db_fraziobo.dataimp
+'db_fraziobo.c_rapporto
+'db_fraziobo.pagasogop
+'db_fraziobo.mtcn
+'db_fraziobo.idfile
+'db_fraziobo.cdatreg
+'db_fraziobo.ipcolleg
+'db_fraziobo.oracolleg
+'db_fraziobo.ducolleg
+'db_fraziobo.annoope
+'db_fraziobo.idbase2
+'db_fraziobo.impin
+'db_fraziobo.impout
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'db_fraziobo.ammont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AMMONT
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.annoope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno Operazione (MT/IDP)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNOOPE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Area Geografica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AREAGEO
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.autom
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importazione da file esterno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AUTOM
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.c_cab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_CAB
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.c_cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_CAP
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.c_cta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_CTA
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.c_ind
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_IND
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.c_prv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_PRV
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.c_rag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_RAG
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.c_rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_RAPPORTO
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.c_sta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_STA
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.cambio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cambio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAMBIO
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.cdataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATAOPE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.cdatope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione in Carattere
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATOPE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.cdatreg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Registrazione in carattere
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATREG
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.codana
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Analitica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODANA
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.codcab2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB2
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.codint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINT2
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.codvoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Sintetica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODVOC
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.colleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento Operazione Multiple
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLLEG
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.connaltro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNALTRO
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.connesben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Beneficiario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESBEN
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.connescli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Cliente Occasionale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESCLI
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.connesdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Connessione Tabella Storico Documenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESDOC
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.connesoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Soggetto Operante Conto Terzi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESOPER
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.dataimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAIMP
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.datareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAREG
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.datarett
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rettifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATARETT
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.desc2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Denominazione Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESC2
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.descinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCINTER
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.docfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOCFILE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.ducolleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Durata Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DUCOLLEG
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.durat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DURAT
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.flagcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Contanti (S/N)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGCONT
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.flagfraz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Frazionata (S/N)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGFRAZ
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.flaglire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Lire Euro Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGLIRE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.flagrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto Collegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGRAP
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.flagrap2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto Beneficiario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGRAP2
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Idbase
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.idbase2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Gestione IDEREG
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE2
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.idcauana
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID BASE Causale Analitica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='idcauana
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.idereg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDEREG
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.idfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Identificativo File
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDFILE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.impin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo IN
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPIN
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.impout
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo OUT
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPOUT
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.inform
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INFORM
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.ipcolleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='IP Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IPCOLLEG
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.modsvol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Modalità Svolgimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MODSVOL
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.mtcn
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Riferimento operazione WU
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MTCN
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.natura
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NATURA
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.noprot
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOPROT
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.operag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPERAG
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.operatore
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operatore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPERATORE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.operazmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazione Modificata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPERAZMOD
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.oprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPRAP
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.oracolleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Inizio Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ORACOLLEG
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.pagasogop
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAGASOGOP
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.prgimpfrz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRGIMPFRZ
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.prov2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROV2
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.ragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragionevolezza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGIO
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.rapportben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto Beneficiario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTBEN
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto Collegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.rarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAREA
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.rcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RCOMP
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.respins
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RESPINS
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.rfreq
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RFREQ
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.rifimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIFIMP
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.rimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIMP
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.rragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RRAGIO
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.rtipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RTIPO
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.scopo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SCOPO
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.segno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Segno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SEGNO
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.statoreg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='STATOREG
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPO
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.tipoinf
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Informazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINF
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.tipoint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario C/Parte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINT2
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.tipointer
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediaro
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINTER
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.tipoleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Legame sogg. Operante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOLEG
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.tipooprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Operazione Completa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOOPRAP
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.totcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='di cui contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTCONT
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.totlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTLIRE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.ucode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UCODE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.uniquecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice univoco per importazioni di n sogetti operanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUECODE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Divisa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+'db_fraziobo.zcparte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ZCPARTE
+state=3
+table_name='db_fraziobo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'db_fraziobo.ammont
+[]
+'db_fraziobo.annoope
+[]
+'db_fraziobo.areageo
+[]
+'db_fraziobo.autom
+[]
+'db_fraziobo.c_cab
+[]
+'db_fraziobo.c_cap
+[]
+'db_fraziobo.c_cta
+[]
+'db_fraziobo.c_ind
+[]
+'db_fraziobo.c_prv
+[]
+'db_fraziobo.c_rag
+[]
+'db_fraziobo.c_rapporto
+[]
+'db_fraziobo.c_sta
+[]
+'db_fraziobo.cambio
+[]
+'db_fraziobo.cdataope
+[]
+'db_fraziobo.cdatope
+[]
+'db_fraziobo.cdatreg
+[]
+'db_fraziobo.codana
+[]
+'db_fraziobo.codcab
+[]
+'db_fraziobo.codcab2
+[]
+'db_fraziobo.coddipe
+[]
+'db_fraziobo.codint2
+[]
+'db_fraziobo.codinter
+[]
+'db_fraziobo.codvoc
+[]
+'db_fraziobo.colleg
+[]
+'db_fraziobo.connaltro
+[]
+'db_fraziobo.connesben
+[]
+'db_fraziobo.connescli
+[]
+'db_fraziobo.connesdoc
+[]
+'db_fraziobo.connesoper
+[]
+'db_fraziobo.dataimp
+[]
+'db_fraziobo.dataope
+[]
+'db_fraziobo.datareg
+[]
+'db_fraziobo.datarett
+[]
+'db_fraziobo.desc2
+[]
+'db_fraziobo.desccit
+[]
+'db_fraziobo.descinter
+[]
+'db_fraziobo.docfile
+[]
+'db_fraziobo.ducolleg
+[]
+'db_fraziobo.durat
+[]
+'db_fraziobo.flagcont
+[]
+'db_fraziobo.flagfraz
+[]
+'db_fraziobo.flaglire
+[]
+'db_fraziobo.flagrap
+[]
+'db_fraziobo.flagrap2
+[]
+'db_fraziobo.idbase
+[]
+'db_fraziobo.idbase2
+[]
+'db_fraziobo.idcauana
+[]
+'db_fraziobo.idereg
+[]
+'db_fraziobo.idfile
+[]
+'db_fraziobo.impin
+[]
+'db_fraziobo.impout
+[]
+'db_fraziobo.inform
+[]
+'db_fraziobo.ipcolleg
+[]
+'db_fraziobo.modsvol
+[]
+'db_fraziobo.mtcn
+[]
+'db_fraziobo.natura
+[]
+'db_fraziobo.noprot
+[]
+'db_fraziobo.numprog
+[]
+'db_fraziobo.operag
+[]
+'db_fraziobo.operatore
+[]
+'db_fraziobo.operazmod
+[]
+'db_fraziobo.oprap
+[]
+'db_fraziobo.oracolleg
+[]
+'db_fraziobo.paese
+[]
+'db_fraziobo.pagasogop
+[]
+'db_fraziobo.prgimpfrz
+[]
+'db_fraziobo.prov2
+[]
+'db_fraziobo.provincia
+[]
+'db_fraziobo.ragio
+[]
+'db_fraziobo.rapportben
+[]
+'db_fraziobo.rapporto
+[]
+'db_fraziobo.rarea
+[]
+'db_fraziobo.rcomp
+[]
+'db_fraziobo.respins
+[]
+'db_fraziobo.rfreq
+[]
+'db_fraziobo.rifimp
+[]
+'db_fraziobo.rimp
+[]
+'db_fraziobo.rragio
+[]
+'db_fraziobo.rtipo
+[]
+'db_fraziobo.scopo
+[]
+'db_fraziobo.segno
+[]
+'db_fraziobo.statoreg
+[]
+'db_fraziobo.tipo
+[]
+'db_fraziobo.tipoinf
+[]
+'db_fraziobo.tipoint2
+[]
+'db_fraziobo.tipointer
+[]
+'db_fraziobo.tipoleg
+[]
+'db_fraziobo.tipooprap
+[]
+'db_fraziobo.totcont
+[]
+'db_fraziobo.totlire
+[]
+'db_fraziobo.ucode
+[]
+'db_fraziobo.uniquecode
+[]
+'db_fraziobo.valuta
+[]
+'db_fraziobo.zcparte
+[]
+}
+*--*

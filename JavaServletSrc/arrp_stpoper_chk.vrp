@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ReportDescription v5.0 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Controllo Dati Aggregati (Report) -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:[{"type":"report","name":"arrp_stpoper_chk","version":"5.0","title":"Stampa Controllo Dati Aggregati (Report)","query":"qbe_stpoper_ver","queries_list":"","font":"Arial","font_size":"9","font_weight":"normal","font_effect":"","picture_date":"","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"false","security_public":"false","dict_name":"","security_access":"true","security_roles":"","author":"","client":"","date_creat":"2010-03-16","date_rev":"2021-04-07","modcnt":"11","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":" ","hsl":"false","lock_items":"false","maxcount":"77","check_values":"","rotation":"","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","privacy":"0","identifier":"false","contentprivacy":"0","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"89","uid":"IQSHCOANMM","sequence":"1","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"132","uid":"ANLQXGOPIM","sequence":"28","page":"1"},{"type":"Group_top","comment":"group0","name":"group0","uid":"FGGUYMYNFQ","page":"1","exp":"True","x":"0","y":"91","w":"1272","h":"0","sequence":"2"},{"type":"Group_down","comment":"group0","name":"group0","uid":"ZTCMUJITLM","page":"1","exp":"True","x":"0","y":"130","w":"1272","h":"0","sequence":"26"},{"type":"Label","name":"label18","uid":"DUGKLTOTGY","page":"1","value":"\"SOCIETA': \" + LRTrim(DescAzi)","text_type":"expression","x":"7","y":"3","w":"719","h":"21","sequence":"73","global_font":"false","font":"Arial","font_size":"11","font_weight":"bold"},{"type":"Label","name":"label21","uid":"XKTDNEYWIC","page":"1","value":"Filtri attivi <br>sulla stampa","text_type":"constant","x":"537","y":"27","w":"119","h":"35","sequence":"58","align":"center","global_font":"false","font":"Arial","font_size":"10","font_weight":"bold"},{"type":"Box","name":"Box19","uid":"BWFGVOAVHF","page":"1","border_width":"1","x":"7","y":"27","w":"319","h":"22","sequence":"56"},{"type":"Box","name":"Box20","uid":"QURIBLUPXV","page":"1","border_width":"1","x":"547","y":"27","w":"527","h":"35","sequence":"57"},{"type":"Label","name":"label22","uid":"MTXRZAVSQM","page":"1","value":"CHECK DATI AGGREGATI","text_type":"constant","x":"8","y":"29","w":"316","h":"21","sequence":"59","align":"center","global_font":"false","font":"Arial","font_size":"11","font_weight":"bold"},{"type":"Label","name":"label23","uid":"KFJBPTMYVZ","page":"1","value":"A Data Operazione:","text_type":"constant","x":"864","y":"30","w":"122","h":"18","hidecond":"c_adata='' or Empty(c_adata)","sequence":"60","align":"right","global_font":"false","font":"Arial","font_size":"9","font_weight":"bold"},{"type":"Expr","name":"expr24","uid":"JHHZCBSNFB","page":"1","exp":"arfn_fdate(CharToDate(c_adata))","dec":"0","x":"991","y":"30","w":"80","h":"18","hidecond":"c_adata='' or Empty(c_adata)","sequence":"61","global_font":"false","font":"Arial","font_size":"9","font_weight":"normal"},{"type":"Expr","name":"expr25","uid":"ZKJCXYMOKZ","page":"1","exp":"arfn_fdate(CharToDate(cdadata))","dec":"0","x":"783","y":"30","w":"80","h":"18","hidecond":"cdadata='' or Empty(cdadata)","sequence":"62","global_font":"false","font":"Arial","font_size":"9","font_weight":"normal"},{"type":"Label","name":"label26","uid":"PVQACCQHEJ","page":"1","value":"Da Data Operazione:","text_type":"constant","x":"641","y":"30","w":"137","h":"18","hidecond":"cdadata='' or Empty(cdadata)","sequence":"63","align":"right","global_font":"false","font":"Arial","font_size":"9","font_weight":"bold"},{"type":"Label","name":"label27","uid":"BLYCFTEPXV","page":"1","value":"Descrizione","text_type":"constant","x":"654","y":"68","w":"176","h":"18","sequence":"64","global_font":"false","font":"Arial","font_size":"9","font_weight":"bold"},{"type":"Label","name":"label29","uid":"XRTBILMRZP","page":"1","value":"Data Oper.","text_type":"constant","x":"10","y":"69","w":"72","h":"18","sequence":"66","align":"center","global_font":"false","font":"Arial","font_size":"9","font_weight":"bold"},{"type":"Label","name":"label28","uid":"DTCJEJWMJQ","page":"1","value":"Valuta","text_type":"constant","x":"382","y":"69","w":"56","h":"18","sequence":"65","align":"center","global_font":"false","font":"Arial","font_size":"9","font_weight":"bold"},{"type":"Label","name":"label31","uid":"LIVQVMFKYC","page":"1","value":"N° Progr.","text_type":"constant","x":"113","y":"69","w":"88","h":"18","sequence":"68","align":"center","global_font":"false","font":"Arial","font_size":"9","font_weight":"bold"},{"type":"Label","name":"label33","uid":"OIWDTVUEEC","page":"1","value":"Rapporto / Cliente Occ.","text_type":"constant","x":"470","y":"69","w":"176","h":"18","sequence":"70","global_font":"false","font":"Arial","font_size":"9","font_weight":"bold"},{"type":"Label","name":"label30","uid":"LGSMQILTFT","page":"1","value":"Importo","text_type":"constant","x":"276","y":"69","w":"96","h":"18","sequence":"67","align":"right","global_font":"false","font":"Arial","font_size":"9","font_weight":"bold"},{"type":"Label","name":"label34","uid":"UCNKJNTJWJ","page":"1","value":"Caus./Oper.","text_type":"constant","x":"206","y":"70","w":"84","h":"17","sequence":"71","align":"center","global_font":"false","font":"Arial","font_size":"8","font_weight":"bold"},{"type":"Box","name":"Box35","uid":"LOIFZRCINT","page":"1","border_width":"1","x":"10","y":"87","w":"1064","h":"0","sequence":"72"},{"type":"Expr","name":"expr42","uid":"GAIMSVSMPX","page":"1","exp":"iif(Empty(c_RAPPORTO),'C','R')","len":"1","dec":"0","output_name":"R-C","x":"447","y":"93","w":"16","h":"16","sequence":"9","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","name":"expr40","uid":"CEAHRGATHA","page":"1","exp":"iif(Empty(c_RAPPORTO),Left(c_RAGSOC,35),c_DESCRAP)","len":"35","dec":"0","output_name":"Descrizione","x":"654","y":"93","w":"336","h":"16","sequence":"7","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","name":"expr36","uid":"AJFIQBEXEF","page":"1","exp":"iif(Empty(c_RAPPORTO),c_CONNESCLI,c_RAPPORTO)","len":"25","dec":"0","output_name":"RapportoCliente","x":"470","y":"93","w":"175","h":"16","sequence":"3","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","name":"expr43","uid":"KKADQRSZZS","page":"1","exp":"c_CODANA + c_CODVOC + \" - \" + c_TIPOOPRAP","len":"8","dec":"0","output_name":"Causali","x":"206","y":"93","w":"64","h":"16","sequence":"10","align":"center","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","name":"expr44","uid":"UDAVZKNGKM","page":"1","exp":"c_IMPORTO","type_exp":"numeric","len":"11","dec":"2","output_name":"Importo","x":"278","y":"93","w":"96","h":"16","sequence":"11","global_picture":"false","picture":"iif(c_VALUTA=\"018\",\"999,999,999,999\",\"999,999,999.99\")","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","name":"expr45","uid":"MDCWLYUXDG","page":"1","exp":"c_VALUTA","len":"3","dec":"0","output_name":"Valuta","x":"382","y":"93","w":"56","h":"16","sequence":"12","align":"center","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","name":"expr41","uid":"FRMGNSBECI","page":"1","exp":"c_TIPO","len":"3","dec":"0","output_name":"Tipo","x":"85","y":"93","w":"21","h":"16","sequence":"8","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","name":"expr39","uid":"NZOHFIAMAG","page":"1","exp":"c_NUMPROG","len":"11","dec":"0","output_name":"Progressivo","x":"113","y":"93","w":"88","h":"16","sequence":"6","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","name":"expr38","uid":"AEKWRGNBBS","page":"1","exp":"arfn_fdate(c_DATAOPE)","dec":"0","output_name":"Data Operazione","x":"8","y":"93","w":"72","h":"16","sequence":"5","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Label","name":"label30_77","uid":"VJQFLDWOAF","page":"1","value":"Riferimento","text_type":"constant","x":"373","y":"109","w":"96","h":"18","sequence":"67","align":"right","global_font":"false","font":"Arial","font_size":"9","font_weight":"bold"},{"type":"Expr","name":"expr40_74","uid":"NKLFEIBOJS","page":"1","exp":"qbe_stpoper_ver.c_TXTNOTE","type_exp":"memo","dec":"0","output_name":"Rilievi","x":"655","y":"111","w":"418","h":"16","sequence":"7","stretch":"true","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","name":"expr36_75","uid":"LUJPKFXDFV","page":"1","exp":"iif(Empty(c_RIFIMP) or c_RIFIMP='XXXXXXXXX',c_INFORM,c_RIFIMP)","len":"25","dec":"0","output_name":"Riferimento","x":"471","y":"111","w":"175","h":"16","sequence":"3","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Box","name":"Box57","uid":"DBZTWDTXLD","page":"1","border_width":"1","x":"8","y":"135","w":"1064","h":"0","sequence":"29"},{"type":"Label","name":"label58","uid":"RULTCKPYMA","page":"1","value":"arfn_fdate(Date())","text_type":"expression","x":"7","y":"137","w":"80","h":"16","sequence":"53"},{"type":"Label","name":"label59","uid":"VFDTZVFDYO","page":"1","value":"'Pag.: ' + LRTrim(Str(nNumPage,5,0))","text_type":"expression","x":"1000","y":"137","w":"72","h":"16","sequence":"54"}] -->
+
+<REPORT NAME="arrp_stpoper_chk" TITLE="Stampa Controllo Dati Aggregati (Report)" QUERY="qbe_stpoper_ver" MAXDEPTH="1" VERSION="5.0" PUBLIC="false" ACCESS="true" ROLES=""
+  GLBFONTNAME="Arial" GLBFONTSIZE="9"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="89" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="3" X="7" YY="24" XX="726"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" UID="BWFGVOAVHF"
+                    Y="27" X="7" YY="49" XX="326"
+                    BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="box" UID="QURIBLUPXV"
+                    Y="27" X="547" YY="62" XX="1074"
+                    BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="Filtri attivi &#xA;sulla stampa" EXPRTYPE="constant"
+                    Y="27" X="537" YY="62" XX="656"
+                    REPEATED="true"
+                    ALIGN="C"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="CHECK DATI AGGREGATI" EXPRTYPE="constant"
+                    Y="29" X="8" YY="50" XX="324"
+                    REPEATED="true"
+                    ALIGN="C"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="A Data Operazione:" EXPRTYPE="constant"
+                    Y="30" X="864" YY="48" XX="986"
+                    HIDECONDITION="c_adata=&#39;&#39; or Empty(c_adata)"
+                    REPEATED="true"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(c_adata))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="30" X="991" YY="48" XX="1071"
+                    HIDECONDITION="c_adata=&#39;&#39; or Empty(c_adata)"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    GLBPICTURE="true"
+                    LEN="10"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(cdadata))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="30" X="783" YY="48" XX="863"
+                    HIDECONDITION="cdadata=&#39;&#39; or Empty(cdadata)"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    GLBPICTURE="true"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="Da Data Operazione:" EXPRTYPE="constant"
+                    Y="30" X="641" YY="48" XX="778"
+                    HIDECONDITION="cdadata=&#39;&#39; or Empty(cdadata)"
+                    REPEATED="true"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="BWFGVOAVHF"/>
+              <ITEM OBJ="box_end" UID="QURIBLUPXV"/>
+              <ITEM OBJ="stringa" NAME="Descrizione" EXPRTYPE="constant"
+                    Y="68" X="654" YY="86" XX="830"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Valuta" EXPRTYPE="constant"
+                    Y="69" X="382" YY="87" XX="438"
+                    REPEATED="true"
+                    ALIGN="C"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Oper." EXPRTYPE="constant"
+                    Y="69" X="10" YY="87" XX="82"
+                    REPEATED="true"
+                    ALIGN="C"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Importo" EXPRTYPE="constant"
+                    Y="69" X="276" YY="87" XX="372"
+                    REPEATED="true"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="N&#176; Progr." EXPRTYPE="constant"
+                    Y="69" X="113" YY="87" XX="201"
+                    REPEATED="true"
+                    ALIGN="C"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Rapporto / Cliente Occ." EXPRTYPE="constant"
+                    Y="69" X="470" YY="87" XX="646"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Caus./Oper." EXPRTYPE="constant"
+                    Y="70" X="206" YY="87" XX="290"
+                    REPEATED="true"
+                    ALIGN="C"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="87" X="10" XX="1075" BORDERWIDTH="1"
+                    UID="LOIFZRCINT" 
+                    ALIGN="L"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="1" FOOTH="1" UID="FGGUYMYNFQ" TOP="90" BOTTOM="128" EXPRESSION="True">
+          <SECTION TYPE="group" HEADH="38" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="espressione" NAME="iif(Empty(c_RAPPORTO),c_CONNESCLI,c_RAPPORTO)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="470" YY="17" XX="645"
+                            SYMNAME="RapportoCliente"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="25"
+                            />
+                      <ITEM OBJ="espressione" NAME="arfn_fdate(c_DATAOPE)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="8" YY="17" XX="80"
+                            SYMNAME="Data Operazione"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_NUMPROG" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="113" YY="17" XX="201"
+                            SYMNAME="Progressivo"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="11"
+                            />
+                      <ITEM OBJ="espressione" NAME="iif(Empty(c_RAPPORTO),Left(c_RAGSOC,35),c_DESCRAP)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="654" YY="17" XX="990"
+                            SYMNAME="Descrizione"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="35"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_TIPO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="85" YY="17" XX="106"
+                            SYMNAME="Tipo"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="espressione" NAME="iif(Empty(c_RAPPORTO),&#39;C&#39;,&#39;R&#39;)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="447" YY="17" XX="463"
+                            SYMNAME="R-C"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="1"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_CODANA + c_CODVOC + &quot; - &quot; + c_TIPOOPRAP" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="206" YY="17" XX="270"
+                            SYMNAME="Causali"
+                            REPEATED="true"
+                            ALIGN="C"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_IMPORTO" ITEMTYPE="N" EXPRTYPE="expression"
+                            Y="1" X="278" YY="17" XX="374"
+                            SYMNAME="Importo"
+                            REPEATED="true"
+                            ALIGN="R"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            SAYPIC="iif(c_VALUTA=&quot;018&quot;,&quot;999,999,999,999&quot;,&quot;999,999,999.99&quot;)"
+                            LEN="11" DEC="2"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_VALUTA" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="382" YY="17" XX="438"
+                            SYMNAME="Valuta"
+                            REPEATED="true"
+                            ALIGN="C"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="stringa" NAME="Riferimento" EXPRTYPE="constant"
+                            Y="17" X="373" YY="35" XX="469"
+                            REPEATED="true"
+                            ALIGN="R"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="espressione" NAME="iif(Empty(c_RIFIMP) or c_RIFIMP=&#39;XXXXXXXXX&#39;,c_INFORM,c_RIFIMP)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="19" X="471" YY="35" XX="646"
+                            SYMNAME="Riferimento"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="25"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stpoper_ver.c_TXTNOTE" ITEMTYPE="M" EXPRTYPE="expression"
+                            Y="19" X="655" YY="35" XX="1073"
+                            SYMNAME="Rilievi"
+                            REPEATED="true"
+                            ALIGN="L"
+                            STRETCH="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="129" H="21" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="2" X="8" XX="1073" BORDERWIDTH="1"
+                    UID="DBZTWDTXLD" 
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="4" X="7" YY="20" XX="87"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))" EXPRTYPE="expression"
+                    Y="4" X="1000" YY="20" XX="1072"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                    />
+  </PAGEFOOTER>
+</REPORT>

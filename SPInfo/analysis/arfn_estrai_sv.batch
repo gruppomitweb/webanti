@@ -1,0 +1,40 @@
+﻿* --- Resource Vers. 0.9
+arfn_estrai_sv
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:28
+description='Estrazione dati Trimestrali per sv
+file_modified_on=#2019-10-17 08:06:34
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:52
+module_name='
+name='arfn_estrai_sv
+state=1
+type='batch
+used_resource_keys={
+'Libraries
+[
+'LibreriaMit<project>
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_estrai_sv.vqr
+]
+'Routines
+[
+'arfn_estrai_sv
+'arfn_fdatetime
+]
+}
+I
+*--*
+￼[]
+*--*

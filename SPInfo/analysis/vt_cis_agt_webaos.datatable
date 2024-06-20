@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+vt_cis_agt_webaos<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='CIS_AGT_WEBAOS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='vt_cis_agt_webaos
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'vt_cis_agt_webaos.cod_agente
+'vt_cis_agt_webaos.visitcomp
+'vt_cis_agt_webaos.anomoperris
+'vt_cis_agt_webaos.opersos_cba
+'vt_cis_agt_webaos.opersos_agt
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'vt_cis_agt_webaos.anomoperris
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='AnomOperRis
+state=3
+table_name='vt_cis_agt_webaos
+type='field
+used_resource_keys={}
+I
+'vt_cis_agt_webaos.cod_agente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_agente
+state=3
+table_name='vt_cis_agt_webaos
+type='field
+used_resource_keys={}
+I
+'vt_cis_agt_webaos.opersos_agt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='OperSos_agt
+state=3
+table_name='vt_cis_agt_webaos
+type='field
+used_resource_keys={}
+I
+'vt_cis_agt_webaos.opersos_cba
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='OperSos_CBA
+state=3
+table_name='vt_cis_agt_webaos
+type='field
+used_resource_keys={}
+I
+'vt_cis_agt_webaos.visitcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='visitComp
+state=3
+table_name='vt_cis_agt_webaos
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'vt_cis_agt_webaos.anomoperris
+[]
+'vt_cis_agt_webaos.cod_agente
+[]
+'vt_cis_agt_webaos.opersos_agt
+[]
+'vt_cis_agt_webaos.opersos_cba
+[]
+'vt_cis_agt_webaos.visitcomp
+[]
+}
+*--*

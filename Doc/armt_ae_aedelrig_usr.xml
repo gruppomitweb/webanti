@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="201944882">
+  <CodifyName>armt_ae_aedelrig</CodifyName>
+  <Name>armt_ae_aedelrig.mstdef</Name>
+  <Title>Deleghe</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="260392337"></Title>
+    <Note/>
+    <JPG x="8" y="7">armt_ae_aedelrig_usr_1</JPG>
+    <Item type="campo" x1="136" y1="14" x2="298" y2="34">
+      <Name LinkID="212945408">RAPPORTO</Name>
+      <Comment>Codice Rapporto</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="600" y1="42" x2="768" y2="62">
+      <Name LinkID="27022017">COINT</Name>
+      <Comment>Tipo Rapporto</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="136" y1="42" x2="504" y2="62">
+      <Name LinkID="143802927">TIPOAG</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="136" y1="70" x2="254" y2="90">
+      <Name LinkID="61646927">CONNESINT</Name>
+      <Comment>Codice Delegato</Comment>
+      <Key>key3</Key>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="154" x2="168" y2="174">
+      <Name LinkID="7456673">ADATA</Name>
+      <Comment>data Inizio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="312" y1="154" x2="375" y2="174">
+      <Name LinkID="227424267">ADATARET</Name>
+      <Comment>Data Rettifica</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="24" y1="181" x2="144" y2="202">
+      <Name LinkID="107755792">ASPEDITO</Name>
+      <Comment>Spedito Agenzia Entrate</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="182" x2="248" y2="202">
+      <Name LinkID="11159969">AFILE</Name>
+      <Comment>Nome File Spedizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="210" x2="306" y2="230">
+      <Name LinkID="13493153">APROG</Name>
+      <Comment>Progressivo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="408" y1="181" x2="528" y2="202">
+      <Name LinkID="107755760">CSPEDITO</Name>
+      <Comment>Spedizione Chiusura</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="528" y1="210" x2="690" y2="230">
+      <Name LinkID="13493185">CPROG</Name>
+      <Comment>Progressivo Atuale</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="528" y1="182" x2="630" y2="202">
+      <Name LinkID="11160001">CFILE</Name>
+      <Comment>Nome file spedizione chiusura</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="154" x2="552" y2="174">
+      <Name LinkID="7456705">CDATA</Name>
+      <Comment>data Inizio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="696" y1="154" x2="759" y2="174">
+      <Name LinkID="227424235">CDATARET</Name>
+      <Comment>Data Rettifica</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="64" y1="245" x2="328" y2="270">
+      <Name LinkID="130325382">1. Modifica Data Apertura</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="64" y1="301" x2="328" y2="326">
+      <Name LinkID="76147726">3. Elimininazione Comunicazione Apertura</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="448" y1="245" x2="712" y2="270">
+      <Name LinkID="143726934">4. Modifica Data Chiusura</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="448" y1="301" x2="712" y2="326">
+      <Name LinkID="120999442">6. Elimininazione Rettifica</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="448" y1="273" x2="712" y2="298">
+      <Name LinkID="76985294">5. Elimininazione Comunicazione Chiusura</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="600" y1="14" x2="672" y2="34">
+      <Name LinkID="185530335">IDESITO</Name>
+      <Comment>Esito AGE</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

@@ -1,0 +1,51 @@
+﻿* --- Resource Vers. 0.9
+arrt_wu_correggi_cli
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Sistema Operazioni senza Connescli
+file_modified_on=#2019-11-26 10:47:20
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='arrt_wu_correggi_cli
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'operazbo.idbase
+'operazbo.connescli
+]
+'Libraries
+[
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_decodenascita_full.vqr
+'qbe_wu_correggi_cli.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_calccodfis_wu
+'arrt_wu_correggi_cli
+]
+'Tables
+[
+'operazbo<table>
+'tbluonas<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>mc dei una cella excel</description>
+    <note></note>
+    <variable>
+        <name>stringa</name>
+        <description>Valore di tipo Charater</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>numeric</name>
+        <description>Valore di tipo Numeric</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>date</name>
+        <description>Valore di tipo Date</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>datetime</name>
+        <description>Valore di tipo Datetime</description>
+        <type>T</type>
+    </variable>
+    <variable>
+        <name>logic</name>
+        <description>Valore di tipo Logic</description>
+        <type>L</type>
+    </variable>
+    <variable>
+        <name>memo</name>
+        <description>Valore di tipo memo</description>
+        <type>M</type>
+    </variable>
+    <variable>
+        <name>riga</name>
+        <description>Numero di riga</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>colonna</name>
+        <description>numero di colonna</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>cellType</name>
+        <description>tipo di dato letto nella cella</description>
+        <type>C</type>
+    </variable>
+</class>

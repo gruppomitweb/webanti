@@ -1,0 +1,47 @@
+﻿* --- Resource Vers. 0.9
+arfn_save_user_agency
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:29
+description='Salva dati utente agenzia
+file_modified_on=#2024-03-04 12:00:07
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:54
+module_name='
+name='arfn_save_user_agency
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'cpusers_add.code
+'cpusers_add.coddip
+'cpusers_add.superdip
+'cpusers_add.datecreate
+]
+'Queries
+[
+'qbe_tab_mmc.vqr
+]
+'Routines
+[
+'arfn_save_user_agency
+]
+'Tables
+[
+'cpusers<table>
+'cpusrgrp<table>
+'cpusers_add<table>
+]
+}
+I
+*--*
+￼[]
+*--*

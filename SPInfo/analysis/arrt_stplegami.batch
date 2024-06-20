@@ -1,0 +1,74 @@
+﻿* --- Resource Vers. 0.9
+arrt_stplegami
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:41
+description='Lancio Stampa Titolari (Routine)
+file_modified_on=#2022-08-09 17:36:41
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:26
+module_name='
+name='arrt_stplegami
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_stplegami.idbase
+'tmp_stplegami.dataope
+'tmp_stplegami.numprog
+'tmp_stplegami.connescli
+'tmp_stplegami.ragsoc
+'tmp_stplegami.colleg
+'tmp_stplegami.datareg
+'tmp_stplegami.statoreg
+'tmp_stplegami.idereg
+'tmp_stplegami.tipoleg
+'tmp_stplegami.descriz
+'tmp_stplegami.tipooprap
+'tmp_stplegami.des1
+'tmp_stplegami.rapporto
+'tmp_stplegami.descinter
+'tmp_stplegami.codinter
+'tmp_stplegami.ragtit
+'tmp_stplegami.dataini
+'tmp_stplegami.datafine
+'tmp_stplegami.numprog1
+'tmp_stplegami.numprog2
+]
+'Hyperlinks
+[
+'arrp_stplegami2.vrp
+'arrp_stplegami1.vrp
+]
+'Queries
+[
+'qbe_allrapotit.vqr
+]
+'Tables
+[
+'tmp_stprapporti<table>
+'intestbo<table>
+'personbo<table>
+'tbstati<table>
+'tbtipdoc<table>
+'rapotit<table>
+'delegabo<table>
+'tbstgru<table>
+'tbtipatt<table>
+'tbsetsin<table>
+'tbramgru<table>
+'tmp_stplegami<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,1175 @@
+@import url("fonts/OpenSans.css");
+@font-face {
+  font-family: 'ZucchettiDevelopement';
+  src: url('../fonts/ZucchettiDevelopement.eot');
+  src:  url('../fonts/ZucchettiDevelopement.eot#ZucchettiDevelopement') format('embedded-opentype'),
+    url('fonts/ZucchettiDevelopement.svg#ZucchettiDevelopement') format('svg'),
+    url('fonts/ZucchettiDevelopement.woff') format('woff'),
+    url('fonts/ZucchettiDevelopement.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'iMobileIcon';
+  src: url('../fonts/iMobileIcon.eot');
+  src:  url('../fonts/iMobileIcon.eot#iMobileIcon') format('embedded-opentype'),
+    url('fonts/iMobileIcon.svg#iMobileIcon') format('svg'),
+    url('fonts/iMobileIcon.woff') format('woff'),
+    url('fonts/iMobileIcon.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'icons8_win10';
+  src: url('../fonts/icons8_win10.eot');
+  src:  url('../fonts/icons8_win10.eot#icons8_win10') format('embedded-opentype'),
+    url('fonts/icons8_win10.svg#icons8_win10') format('svg'),
+    url('fonts/icons8_win10.woff') format('woff'),
+    url('fonts/icons8_win10.ttf') format('truetype');
+}
+
+/* ----------- RESET ----------- */
+fieldset.properties_sections {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="number"] {
+  text-align: right;
+}
+
+.properties_sections.hide-element,
+.properties_container.hide-element {
+  display: none !important;
+}
+
+.col-6 { width: 100%; }
+.col-5 { width: 83.33333333%; }
+.col-4 { width: 66.66666666%; }
+.col-3 { width: 50%; }
+.col-2 { width: 33.33333333%; }
+.col-1 { width: 16.66666666%; }
+
+*:focus {
+  outline: none;
+}
+/* ----------------------------- */
+
+
+/*Classi aggiunte per il propertiesObj.js*/
+#properties {
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 301;
+  position: absolute;
+  display: none;
+  font-family: 'Open Sans',sans-serif;
+  border-bottom: 2px solid #404040;
+  max-width: 500px;
+  min-width: 300px;
+  background-color: #ffffff;
+  height: auto;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-right: 12px;
+  border-left: 1px solid #d5d5d5;
+}
+#properties.expandedToColumn{
+  height: 100%;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  border-radius: 0;
+}
+
+#properties .psTopBar{
+  height: 24px;
+  cursor: move;
+  background-color: #C3C3C3;
+}
+#properties .psTopBar p {
+  display: none;
+}
+
+.ctrlSelect{
+  padding: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ctrlSelect select {
+  font-family: Open Sans;
+  font-weight: 600;
+  width: 100%;
+  font-size: 15px;
+  color: #000;
+  border: 0;
+  background-color: transparent;
+}
+
+.ctrlSelect select option {
+  background-color: #F5F5F5;
+}
+
+.properties_container optgroup[label] {
+  font-family: Open Sans;
+  font-weight: 100;
+  background-color: #E3E3E3;
+}
+
+.properties_container optgroup option {
+  background-color: #F5F5F5;
+}
+
+.pTabs{
+  overflow: hidden;
+  padding: 0px 5px 8px;
+}
+
+.content.side_tab {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.content.side_tab .pTabs {
+  flex: 0 0 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 20px;
+}
+
+.content.side_tab #propertiespContainer {
+  flex: 1;
+}
+
+.content.side_tab .prop_tab {
+  width: 100%;
+  flex: 0;
+}
+
+.content.side_tab .prop_tab:hover {
+  background-color: #0C7AC2;
+}
+
+/* ----------- ELEMENTI TOOLBAR ----------- */
+.prop_tab {
+  float: left;
+  font-size: 12px;
+  color: #333333;
+  background: #e1e1e1;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 7px 9px;
+  font-family: Open Sans;
+  font-weight: 600;
+  flex: 1 0 0;
+  text-align: center;
+  /* box-shadow: 0px 0px 6px -3px #333; */
+  box-sizing: border-box;
+  border-bottom: 2px solid #cecbcb;
+}
+
+.prop_tab:hover {
+  background-color: rgba(0,0,0,.2);
+  /* color: #ffffff; */
+}
+
+.prop_tab.selected,
+.content.side_tab .prop_tab.selected {
+  background-color: #cbe5fe;
+  color: #000000;
+  border-bottom: 2px solid #5493cf;
+}
+
+.prop_tab.selected:hover,
+.content.side_tab .prop_tab.selected:hover {
+
+}
+
+.pSeparator{
+  overflow: hidden;
+}
+
+.pSheet{
+  background-color: #ffffff;
+  position: relative;
+}
+
+.pContainer {
+  clear: both;
+}
+
+
+/* ----------- INPUT DELLE PROPRIETA' ----------- */
+.properties_container {
+  position: relative;
+  background-color: #ffffff;
+  padding: 1px 12px 2px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.properties_container table {
+  width: 100%;
+}
+
+.properties_container input:disabled {
+  background-color: #A2A2A2 !important;
+  border: 0;
+  color: #FBFBFB;
+  padding: 3px 6px;
+}
+
+input.property_item,
+textarea.property_item,
+select.property_item,
+input.Form_property_item,
+textarea.Form_property_item,
+select.Form_property_item {
+  display: inline-block;
+  width: 100%;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+  background-color: transparent;
+  border-color: #D2D2D2;
+  box-sizing: border-box;
+  resize:none;
+  height:25px;
+}
+
+input.property_item,
+textarea.property_item,
+textarea.Form_property_item,
+input.Form_property_item {
+  padding: 0 2px;
+  -webkit-border-image: url(./portalstudio/images/border_search.png) 4 4 7 4 round round;
+  -moz-border-image: url(./portalstudio/images/border_search.png) 4 4 7 4 round round;
+  border-image-source: url(./portalstudio/images/border_search.png);
+  border-image-slice: 0 4 7 4;
+  border-image-width: 1 1;
+  border-image-repeat: round round;
+  border-width: initial;
+}
+
+select.property_item,
+select.Form_property_item {
+  background-color: #ffffff;
+  padding: 0 2px;
+}
+
+.properties_sections input.property_item,
+.properties_sections input.Form_property_item {
+  background-color: #ffffff;
+}
+.properties_sections .properties_container {
+  background-color: #ffffff;
+}
+
+/* ----------- LABEL/LEGEND DELLE PROPRIETA' ----------- */
+fieldset.properties_sections {
+  background-color: #FFFFFF;
+}
+
+/* ----------- LABEL/LEGEND DELLE PROPRIETA' ----------- */
+label.properties_label,
+legend.properties_label {
+  position: relative;
+  box-sizing: border-box;
+  color: #B0B0B0;
+  font-family: Open Sans;
+  font-weight: 100;
+  font-size: 12px;
+  display: block;
+}
+label.properties_label.steppable::after {
+  content: ' *';
+  color: #005f9d;
+}
+
+legend.properties_label {
+  background-color: #e1e1e1;
+  font-family: Open Sans;
+  font-weight: 400;
+  width: 100%;
+  padding: 4px 7px;
+  color: rgba(0,0,0,.87);
+  cursor: pointer;
+}
+
+label.properties_label a {
+  color: #666;
+  text-decoration: none;
+}
+
+legend.properties_label::after {
+  position: absolute;
+  margin-top: 3px;
+  right: 5px;
+  font-size: 15px;
+  font-family: 'ZucchettiDevelopement';
+  content: '\e982';
+}
+
+legend.properties_label.hide-legend::after {
+  content: '\e9fe';
+}
+
+.hide-title {
+  padding-top: 5px;
+}
+
+.hide-title label.properties_label {
+  display: none;
+}
+
+.properties_checkbox_container {
+  margin-top: 2px;
+  margin: 0;
+  width: 13px;
+}
+
+/* ----------- BOTTONI INLINE DELLE PROPRIETA' ----------- */
+.input_inline_btn {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0 1px;
+  padding-top: 2px;
+}
+.input_inline_btn::after{
+  content: attr(icon-data);
+  font-family: var(--icon-font-family, iMobileIcon);
+  color: #5c9ff0;
+  font-size: var(--icon-size,16px);
+  vertical-align: top;
+  line-height: 18px;
+}
+.input_inline_btn.text_icon::after{
+  font-family: Open Sans;
+  font-weight: 100;
+  font-size: 10px;
+}
+
+td.tdInput {
+  padding-right: 10px;
+}
+
+.tdButton{
+  width:18px;
+  height:18px;
+  margin:0;
+  padding:0;
+}
+
+.properties_button_color {
+  position: absolute;
+  z-index: 1;
+  bottom: 3px;
+  right: 7px;
+  width: 18px;
+  height: 16px;
+  border: 1px solid #005f9d;
+}
+
+.properties_button_color_bg {
+  position: absolute;
+  z-index: 0;
+  bottom: 3px;
+  right: 7px;
+  width: 19px;
+  height: 19px;
+  background: url(./portalstudio/images/bgColor.png) repeat;
+  margin: 1px;
+}
+
+.cp-app.XS {
+  background-color: #e3e3e3;
+  width: 173px;
+  height: 200px;
+  border-radius: 0;
+  border: 1px solid #D5D5D5;
+}
+
+.cp-app.XS .cp-slds {
+  left: 15px;
+  top: 15px;
+}
+
+.cp-app.XS .cp-opacity {
+  left: 15px;
+  bottom: 38px;
+}
+
+.cp-app.XS .cp-memo {
+  left: 15px;
+  bottom: 15px;
+}
+
+.cp-app.XS .cp-opacity {
+  border: 1px solid #C3C3C3;
+}
+
+.cp-app.XS .cp-opacity div {
+  overflow: visible;
+}
+.cp-app.XS .cp-memo .cp-raster-bg {
+  background: url(./portalstudio/jscolor/raster-bg.png) no-repeat;
+}
+
+.cp-app.XS .cp-opacity,
+.cp-app.XS .cp-raster {
+  background-color: #e3e3e3;
+}
+
+
+/* ----------- BARRA RESIZE ----------- */
+#properties .propertySheet{
+  width: 100%;
+}
+#properties .propertySheet.propertySheet_Column{
+  border-radius: 0;
+  border:0;
+  width:100%;
+}
+#properties .propertySheetResize{
+  position: absolute;
+  background: #FFFFFF;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #D5D5D5;
+  height: 100%;
+  z-index: 100;
+  top: 0;
+  width: 12px;
+  right: 0px !important;
+  cursor: e-resize;
+  box-sizing: border-box;
+}
+#properties .propertySheetResize::after{
+  content: "";
+  margin-left: 1px;
+  position: absolute;
+  display: block;
+  top: calc(50% - 5px);
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #232323;
+}
+#properties .propertySheetResize_Column{
+  background-color:#FFF;
+  background-position:center;
+  height:100%;
+  top:0;
+  width:10px;
+}
+#properties .propertySheetResize_Column_Arrow{
+  background:url(./portalstudio/images/psheet/ps_properties_column_expander_arrow.png) no-repeat center left;
+  width:10px;
+  height:100%;
+  margin-left:1px;
+  cursor:e-resize;
+}
+
+
+/* ----------- BARRA SUPERIORE TOOGLE ----------- */
+#properties .toggler_properties{
+  position:absolute;
+  right:14px;
+  top:3px;
+  cursor:pointer;
+  overflow:hidden;
+  padding:0;
+  margin:0;
+  width:16px;
+  height:16px;
+  text-indent:-999em;
+  background:url(./portalstudio/images/psheet/ps-openclosesprite.png)  no-repeat center center;
+}
+
+.toggler_preset{
+  position:absolute;
+  display:block;
+  left:5px;
+  top:3px;
+  cursor:pointer;
+  font-family:iMobileIcon;
+  font-size:18px;
+  color:#575757;
+}
+
+.toggler_notifics{
+  position:absolute;
+  display:block;
+  left:30px;
+  top:4px;
+  cursor:pointer;
+  font-family:iMobileIcon;
+  font-size:15px;
+  color:#575757;
+}
+.toggler_notifics_on{
+  color:#CC2208;
+}
+.toggler_notifics_n{
+  position: absolute;
+  font-family: Open Sans;
+  font-weight: 800;
+  font-size: 11px;
+  color: #CC2208;
+  top: -7px;
+  right: -3px;
+}
+.toggler_cwizard{
+  position:absolute;
+  display:block;
+  left:55px;
+  top:3px;
+  cursor:pointer;
+  font-family:iMobileIcon;
+  font-size:16px;
+  color:#575757;
+}
+.toggler_capi{
+  position:absolute;
+  display:block;
+  right:35px;
+  top:0px;
+  cursor:pointer;
+  font-family:icons8_win10;
+  font-size:23px;
+  color:#575757;
+}
+#formproperties_cApi{
+  position:absolute;
+  display:block;
+  right:20px;
+  cursor:pointer;
+  font-family:icons8_win10;
+  font-size:23px;
+  color:#575757;
+  font-weight:100;
+  text-decoration:none;
+}
+#formproperties_cApi::after{
+  content: '\f3d7';
+
+}
+#formproperties .toggler_capi{
+  right: 0px;
+}
+#properties .toggler_cwizard_before{
+  position:absolute;
+  display:block;
+  left:5px;
+  top:3px;
+  cursor:pointer;
+  font-family:iMobileIcon;
+  font-size:16px;
+  color:#575757;
+}
+.PreSetContainer{
+  position:absolute;
+  width:240px;
+  max-height:600px;
+  overflow:auto;
+  margin:0;
+  padding:5px;
+  padding-bottom:20px;
+  z-index:302;
+  list-style:none;
+  background-color:#F3F3F3;
+}
+.PreSetContainer li{
+  margin-top:5px;
+  padding:5px;
+  background-color:#ECEAEA;
+  margin-left:auto;
+  margin-right:auto;
+ }
+ .PreSetContainer li:hover{
+   background-color: #CCC;
+ }
+ .PreSetContainer .PresetTitle {
+ margin:0;
+ margin-left: -40px;
+ list-style: none;
+ padding:5px;
+ background-color: #F3F3F3;
+ color: #000000;
+ font-family: Open Sans;
+  font-weight: 600;
+ font-size:16px;
+ text-align:center;
+}
+.PreSetContainer .PresetTitle:hover{
+  background-color: #F3F3F3;
+}
+
+.NotificsContainer{
+  position:absolute;
+  overflow:auto;
+  margin:0;
+  left:7px;
+  right:12px;
+  padding-bottom:20px;
+  z-index:302;
+  border:1px solid #D3D3D3;
+  background-color:#005f9d;
+  color:#ffffff;
+  font-family: Open Sans;
+  font-weight: 100;
+  font-size: 12px;
+}
+.NotificsContainer li{
+ margin-top:10px;
+}
+.NotificsContainer .NotificsLink {
+ margin-left:10px;
+ font-family:iMobileIcon;
+ font-size:12px;
+ color:#ffffff;
+ cursor:pointer;
+}
+.NotificsContainer .NotificsTitle {
+ margin:0;
+ margin-left: -40px;
+ list-style: none;
+ padding:5px;
+ background-color: #F3F3F3;
+ color: #000000;
+ font-family: Open Sans;
+  font-weight: 600;
+ font-size:16px;
+ text-align:center;
+}
+
+/*PortalCommon*/
+.shadow{
+  z-index:5;
+  position:absolute;
+}
+.shadow_selected_align{
+  filter:alpha(opacity=20);
+  opacity:0.2;
+  background:#FF9933;
+  border:1px solid #FF5500;
+  z-index:5;
+  position:absolute;
+}
+.shadow_selected_near{
+  filter:alpha(opacity=20);
+  opacity:0.2;
+  background:#00FFFF;
+  border:1px solid #00CCFF;
+  z-index:5;
+  position:absolute;
+}
+
+
+/* GADGETS PANE FORMPROPERTIES*/
+#formproperties , #gadgets_pane .gadgets_pane_properties {
+  position: static;
+  font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+  height: 100%;
+  z-index: 102;
+  overflow: auto;
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#gadgets_pane .gadgets_pane_properties {
+  overflow: auto;
+}
+
+#gadgets_pane,
+#formproperties input.Form_property_item,
+#formproperties .properties_container {
+  background-color: #ffffff;
+}
+
+#gadgets_pane .gadgetlistTitle,
+#formproperties .pTabs,
+#formproperties fieldset.properties_sections,
+#formproperties .properties_sections .properties_container,
+#formproperties .properties_sections input.Form_property_item {
+  background-color: #FFFFFF;
+}
+
+#formproperties select.Form_property_item {
+  background-color: #FBFBFB;
+}
+
+
+#formproperties legend.properties_label {
+  background-color: #e1e1e1;
+}
+
+
+#formproperties .pSeparator,
+#formproperties .psTopBar,
+#formproperties .ctrlSelect{
+  display:none;
+}
+
+#formproperties .properties_button_table{
+  width:100%;
+}
+
+#formproperties .input_zoom{
+  border:1px solid #454545;
+  background-color:transparent;
+  background-repeat:repeat;
+}
+#formproperties .properties_image{
+  width:100%;
+  padding:0  ;
+  float:left;
+  margin:0 1px;
+  position:static;
+  overflow:hidden;
+}
+#formproperties .properties_data{
+  width:100%;
+  padding:0;
+  border:none;
+  margin-bottom:3px;
+}
+#formproperties .pSeparator{
+  height:0;
+  width:100%;
+  overflow:hidden;
+  border-width:1px 0;
+  border-color:#676767 #000000;
+  border-style:solid;
+}
+
+.gadgets_pane_item .content.side_tab,
+#gjs .content.side_tab{
+  display: block;
+}
+.gadgets_pane_item .content.side_tab .pTabs,
+#gjs .content.side_tab .pTabs{
+  flex-flow: row wrap;
+}
+
+.gadgets_pane_item .content.side_tab .prop_tab,
+#gjs .content.side_tab .prop_tab {
+  flex: 1 0 100px;
+}
+
+#openlist optgroup {
+  text-align: center;
+  background-color: #A0D4DE;
+  color: #000;
+  font-weight: 500;
+}
+#searchproperties .psTopBar,
+#searchproperties .pSeparator,
+#searchproperties .ctrlSelect{
+  display:none;
+}
+.propertiesTable {
+  border-color: black;
+  border-right-style: ridge;
+  border-bottom-style: ridge;
+  border-width: 1px;
+  background-color: gray;
+}
+.propertiesTableTitleExtend {
+  cursor: hand;
+  cursor: pointer;
+  background-color: #29658C;
+}
+.propertiesTablePName {
+  font-family: Tahoma;
+  font-size: 8pt;
+  text-align: right;
+  background: transparent;
+}
+.propertiesTablePValueTD {
+  font-family: Tahoma;
+  font-size: 8pt;
+  background: transparent;
+}
+.propertiesTablePValueInput {
+  font-family: Tahoma;
+  font-size: 8pt;
+  border: 1px solid black;
+  padding: 1px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border: 1px #A0A0A0 solid;
+}
+.propertiesTablePValueCheckbox {
+  font-family: Tahoma;
+  font-size: 8pt;
+  border: 1px #A0A0A0 solid;
+}
+.propertiesTablePValueSelect {
+  font-family: Tahoma;
+  font-size: 8pt;
+  margin-top: 0;
+  margin-bottom: 1px;
+  border: 1px #A0A0A0 solid;
+}
+.propertiesTableColorSample {
+  width: 20px;
+  cursor: hand;
+  cursor: pointer;
+}
+.propertiesTableSelectButton {
+  height: 18px;
+  width: 17px;
+  font-family: tahoma;
+  font-size: 7pt;
+  font-weight: bold;
+}
+
+
+/* ----------- PSTOOLTIP ----------- */
+
+.pstooltip-info {
+  position: absolute;
+  width: 22px;
+  font-style: normal;
+  text-align: center;
+  cursor: help;
+}
+
+.pstooltip-info::before {
+  display: inline-block;
+  content: "\e6f7";
+  font-family: "iMobileIcon";
+  font-size: 11px;
+  color: #5c9ff0;
+}
+
+.pstooltip {
+  position: absolute;
+  font-family: "Open Sans";
+  z-index: 999999;
+  max-width: 196px;
+  font-size: 11px;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .8);
+  transition: visibility 0.25s linear, opacity 0.25s linear;
+}
+
+.pstooltip .icon.arrow:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.pstooltip.right .icon.arrow {
+  position: absolute;
+  left: 0;
+}
+
+.pstooltip.right .icon.arrow:before {
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid rgba(0, 0, 0, .8);
+  left: -8px;
+}
+
+.pstooltip.left .icon.arrow {
+  position: absolute;
+  right: 0;
+}
+
+.pstooltip.left .icon.arrow:before {
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid rgba(0, 0, 0, .8);
+  right: -8px;
+}
+
+.pstooltip ul {
+  margin-left: 1.4em;
+  margin-top: .5em;
+  padding: 0;
+}
+
+.pstooltip ul li {
+  margin-bottom: .5em;
+}
+
+
+/* ----------- SCROLLBAR PERSONALIZZATA ----------- */
+
+::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cbe5fe;
+}
+
+/* ----modalLaye --- */
+
+.spModalLayer {
+  overflow:hidden;
+  z-index: 10000;
+  opacity:0;
+  min-width: 150px;
+  min-height: 150px;
+  padding:0px;
+  position:absolute;
+  border-color:rgba(0,0,0,.5);
+  border-style:solid;
+  border-width:0px;
+          box-shadow:0 5px 15px rgba(0,0,0,.5);
+  background:#FFFFFF;
+}
+.spModalLayer.loading {
+  border-radius:unset;
+  background-color:transparent;
+  border-color:transparent;
+          box-shadow:unset;
+}
+.spModalLayer.maximized{
+  overflow:visible;
+}
+.spModalLayer.seethrough{
+  border-color:transparent;
+}
+
+.spModalLayer .resource_container{
+  position: 'relative';
+  left: 0px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  top: 0px;
+}
+
+.spModalLayer.seethrough .resource_container{
+  opacity: 0;
+}
+
+.spModalLayer .resource_container_wrapper{
+  position: relative;
+  left: 0px;
+  overflow:hidden;
+}
+
+.spModalLayer.seethrough .resource_container_wrapper{
+  opacity: 0;
+}
+
+.spModalLayer_cinema{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  border:0;
+  opacity:0;
+  background-color:#000000;
+  /*backdrop-filter: blur(5px);*/
+}
+.spModalLayer .icon_container {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.spModalLayer .icon_container .spModalButton {
+  display: inline-block;
+  vertical-align: top;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor:pointer;
+  text-align:center;
+  z-index:10001;
+}
+.spModalLayer .icon_container .spModalButton:last-child {
+  margin-right: 0;
+}
+
+.spModalLayer .spModalLayer_draglayer{
+  height:20px;
+  background-color: #8b8b8b;
+  width: 100%;
+}
+.spModalLayer .spModalLayer_closebtn{
+  height:20px;
+  width:65px;
+  background-color: #666666;
+  margin: 0 5px;
+}
+.spModalLayer .spModalLayer_closebtn::after{
+  content: "\F048";
+  color: #FFFFFF;
+  font-family: icons8_win10;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+}
+.spModalLayer .spModalLayerMaximize{
+  width:50px;
+  height:20px;
+  background-color: RGBA(255,255,255,.1);
+  margin: 0 5px;
+}
+.spModalLayer .spModalLayerMaximize::after{
+  content: "\F606";
+  color: #FFFFFF;
+  font-family: icons8_win10;
+  font-size: 14px;
+  text-align: center;
+  line-height:20px;
+}
+.spModalLayer .spModalLayerReduce{
+  width:50px;
+  height:20px;
+  background-color: RGBA(255,255,255,.1);
+  margin: 0 5px;
+}
+.spModalLayer .spModalLayerReduce::after{
+  content: "\F608";
+  color: #FFFFFF;
+  font-family: icons8_win10;
+  font-size: 14px;
+  text-align: center;
+  line-height:20px;
+}
+.spModalLayer.hideDragArea .spModalLayer_draglayer,
+.spModalLayer.hideDragArea .spModalLayerDetachButton,
+.spModalLayer.hideDragArea .spModalLayerMaximize,
+.spModalLayer.hideDragArea .SPModalLayerGoToTabButton,
+.spModalLayer.hideDragArea .SpModalLayerResize,
+.spModalLayer.hideDragArea .spModalLayer_closebtn{
+  display:none;
+}
+
+#propertiesctrlSelect .select2-container {
+  min-width: 100%;
+}
+
+.select2-container--default .select2-selection--single {
+  background-color: #FFFFFF;
+  border: 1px solid #D5D5D5;
+  border-radius: 0;
+  font-size: 14px;
+}
+
+.library_container {
+  margin-top: 3px;
+  border: 1px solid #D5D5D5;
+  position: fixed;
+  z-index: 1030;
+  background-color: #FFFFFF;
+  margin-top: 0;
+}
+
+.property_list_combo {
+  list-style: none;
+  width: 100%;
+  padding-inline-start: 0px;
+}
+
+.property_list_combo .combo_property {
+  display: block;
+  cursor: pointer;
+  background-color: #FBFBFB;
+  border: 1px solid #D5D5D5;
+  margin: 3px;
+  height:25px;
+}
+
+.combo_property span {
+  text-overflow: ellipsis;
+  margin-left:0.4em;
+  bottom:20%;
+  position: relative;
+  height:25px;
+  width:180px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.input_span_substitute {
+  background-color: transparent;
+  height: 25px;
+  width: 180px;
+  margin-left:0.3em;
+  margin-bottom:0.4em;
+  position: relative;
+  bottom:20%;
+  font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+  color: #000;
+  font-size: 16px;
+  border: 0;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.comboboxLiButton {
+  border: none;
+  display: inline-block;
+  background-color: transparent;
+  border-right: 1px solid #D5D5D5;
+  text-align: center;
+  width:25px;
+  height:auto;
+  padding: auto;
+  margin: 0;
+}
+
+.property_list_combo div::after {
+  content: '\e6fa';
+  font-family: iMobileIcon;
+  color: #0c7ac2;
+  font-size: 11px;
+}
+
+.select2-search--dropdown::after{
+  content: '\e67f';
+  font-family: iMobileIcon;
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  color: #0c7ac2;
+}
+
+.select2-dropdown {
+  background: #fff;
+  border-radius: 0;
+  font-size: 14px;
+  border: 1px solid #D5D5D5;
+  position: relative;
+}
+
+.select2-container--default .select2-results__option--selected {
+  background-color: #005f9d;
+  color: #fff;
+}
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+  background-color: #0C7AC2;
+}
+
+.select2-search--dropdown .select2-search__field {
+  box-sizing: border-box;
+}

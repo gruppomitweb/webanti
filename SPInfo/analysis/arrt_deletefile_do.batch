@@ -1,0 +1,64 @@
+﻿* --- Resource Vers. 0.9
+arrt_deletefile_do
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Cancella file e azzera record associati
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:10
+module_name='
+name='arrt_deletefile_do
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aefile_do_glob.idfile
+'aederig.afile
+'aederig.aspedito
+'aederig.aprog
+'aederig.cfile
+'aederig.cspedito
+'aederig.cprog
+'aederig.coldfile
+'aederig.rspedito
+'aederig.coldprog
+'aedecanc.idfile
+'aedecanc.spedito
+'aedecanc.idprog
+'aeoprig.afile
+'aeoprig.aspedito
+'aeoprig.aprog
+'aeoprig.coldfile
+'aeoprig.rspedito
+'aeoprig.coldprog
+'aeopcanc.idfile
+'aeopcanc.spedito
+'aeopcanc.idprog
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'aefiles_do<table>
+'aederig<table>
+'aeoprig<table>
+'aedecanc<table>
+'aeopcanc<table>
+'aefile_do_glob<table>
+]
+}
+I
+*--*
+￼[]
+*--*

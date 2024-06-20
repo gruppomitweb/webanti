@@ -1,0 +1,399 @@
+﻿* --- Resource Vers. 0.9
+arrt_azzeraprov
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Azzera Archivi Provvisori
+file_modified_on=#2022-07-21 18:48:20
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:07
+module_name='
+name='arrt_azzeraprov
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'knarapbo.tiporap
+'storico_import.elim_imp
+]
+'Routines
+[
+'arrt_azzeraprov
+]
+'Tables
+[
+'xoginfo<table>
+'xogopebo<table>
+'xogopefbo<table>
+'xtatorap<table>
+'xntestbo<table>
+'xelegabo<table>
+'xapopebo<table>
+'xnarapbo<table>
+'xperazbo<table>
+'xraziobo<table>
+'knarapbo<table>
+'xocfrabo<table>
+'xerzistifrz<table>
+'xlientifrz<table>
+'xeneficfrz<table>
+'xocopebo<table>
+'xntestit<table>
+'xapotit<table>
+'xerzistiope<table>
+'xlientiope<table>
+'xeneficope<table>
+'storico_import<table>
+'xperazbo_agg<table>
+'xraziobo_agg<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xoginfo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xoginfo.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xogopebo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xogopebo.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xogopefbo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xogopefbo.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xtatorap.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xtatorap.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xntestbo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xntestbo.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xelegabo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xelegabo.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xapopebo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xapopebo.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xnarapbo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xnarapbo.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xerzistiope.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xerzistiope.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xlientiope.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xlientiope.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xeneficope.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xeneficope.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xperazbo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xperazbo.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xerzistifrz.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xerzistifrz.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xlientifrz.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xlientifrz.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xeneficfrz.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xeneficfrz.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xraziobo_agg.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xraziobo_agg.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xraziobo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xraziobo.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xntestit.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xntestit.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xapotit.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xapotit.1" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xocopebo.TIPORAP" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xocopebo.TIPORAP" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_azzeraprov|Error|core::document|Update dependencies|Field "xocfrabo.TIPORAP" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:07
+message='Field "xocfrabo.TIPORAP" not found.
+resource_key='arrt_azzeraprov
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

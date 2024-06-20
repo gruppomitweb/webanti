@@ -1,0 +1,405 @@
+<html>
+<head>
+<title>Filter properties</title>
+<script type="text/javascript" src="stdFunctions.js"></script>
+<script type="text/javascript" src="controls.js"></script>
+<script type="text/javascript">
+QueryString.keys = new Array();
+QueryString.values = new Array();
+var action,temp,formid,idx,field_props;
+
+function QueryString(key) {
+	var value = null;
+  for (var i=0;i<QueryString.keys.length;i++) {
+    if (QueryString.keys[i]==key) {
+			value = QueryString.values[i];
+			break;
+		}
+	}
+	return value;
+}
+
+function QueryString_Parse() {
+	var query = window.location.search.substring(1);
+	var pairs = query.split("&");
+
+  for (var i=0;i<pairs.length;i++) {
+		var pos = pairs[i].indexOf('=');
+    if (pos >= 0) {
+			var argname = pairs[i].substring(0,pos);
+			var value = pairs[i].substring(pos+1);
+			QueryString.keys[QueryString.keys.length] = argname;
+			QueryString.values[QueryString.values.length] = value;
+		}
+	}
+}
+
+function CloseWindow() {
+  window.close();
+}
+
+function DoLoad() {
+  QueryString_Parse();
+  action = QueryString("action");
+  temp = QueryString("temp")=='true';
+  field_props = QueryString("type");
+  formid = QueryString("formid");
+  idx = QueryString("idx");
+
+  if (action=="edit") {
+    var filter = eval("window.opener."+formid+".GetFilter("+idx+","+temp+");");
+
+    Ctrl("name").value =(temp?eval("window.opener."+formid+".combobox_temp_fields_"+idx).Value():filter[0]);
+    Ctrl("operation").value = (temp?eval("window.opener."+formid+".combobox_temp_operations_"+idx).Value():filter[1]);
+    Ctrl("description").value = (Empty(filter[2])?(temp?
+                                                   (eval("window.opener."+formid+".combobox_temp_fields_"+idx).Text())
+                                                   :filter[2])
+                                                   :filter[2]);
+    if (temp) {
+      if(eval("window.opener."+formid+".fields.toUpperCase().indexOf(eval(\"window.opener.\"+formid+\".combobox_temp_fields_\"+idx).Value().toUpperCase())")==-1) {
+        Ctrl("query_param").value = eval("window.opener."+formid+".combobox_temp_fields_"+idx).Value();
+        Ctrl("query_param").disabled=true;
+      } else {
+        Ctrl("query_param").disabled=false;
+        Ctrl("query_param").value = filter[21];
+      }
+    } else {
+      if(eval("window.opener."+formid+".fields.toUpperCase().indexOf(filter[0].toUpperCase())")==-1) {
+        Ctrl("query_param").disabled=true;
+      } else {
+        Ctrl("query_param").disabled=false;
+      }
+      Ctrl("query_param").value = filter[21];
+    }
+    if(temp){
+      //faccio parsing della stringa di proprietà tipo N(9,2)
+      field_props = field_props.split('(');
+      var type='',len='',dec='';
+      type = field_props[0];
+      if(field_props.length==2){
+        field_props = Left(field_props[1],Len(field_props[1])-1).split(',');
+        if(field_props.length>0){
+          len = field_props[0];
+          if(field_props.length==2)
+            dec = field_props[1];
+          else
+            dec = '0';
+        }
+      }
+    }
+    Ctrl("type").value = (Empty(filter[3]) && temp?type:filter[3]);
+    Ctrl("len").value = (Empty(filter[4]) && temp?len:filter[4]);
+    Ctrl("dec").value = (Empty(filter[5]) && temp?dec:filter[5]);
+    Ctrl("format").value = filter[6];
+    Ctrl("linked_table").value = filter[7];
+    Ctrl("filter_fixed_1").value = filter[8];
+    Ctrl("filter_fixed_2").value = filter[9];
+    Ctrl("filter_fixed_3").value = filter[10];
+    Ctrl("key_field").value = filter[11];
+    Ctrl("filter_fixed_1_value").value = filter[12];
+    Ctrl("filter_fixed_2_value").value = filter[13];
+    Ctrl("filter_fixed_3_value").value = filter[14];
+    Ctrl("read_field").value = filter[15];
+    //16 vuoto
+    Ctrl("combo_value").value = filter[17];
+    Ctrl("advanced").checked=((filter[18]=="S")?true:false);
+    Ctrl("group").value= filter[19];
+
+    if(Ctrl("group").value=="sp_hidden") {
+       Ctrl("group").disabled=true;
+       Ctrl("hidden_group").checked=true;
+    }
+
+    Ctrl("keep_on_prev_row").checked=((filter[20]=="S")?true:false);
+    Ctrl("tooltip").value = filter[22];
+    Ctrl("display_length").value = filter[23];
+    Ctrl("init_value").value = filter[25];
+    Ctrl("filter_sequence").value = filter[26];
+    if(temp){
+      Ctrl("filter_sequence").style.display='none';
+      Ctrl("filter_sequence_label").style.display='none';
+    }
+  }
+  UpdateSizeControls();
+  QueryParamControls();
+  Ctrl("description").focus();
+}
+
+function SetField() {
+  if(Ctrl("len").value<0){
+    alert("Field length error.");
+    Ctrl("len").focus();
+  }
+  else {
+    var currentFilter
+    if(temp)
+      currentFilter=eval("window.opener."+formid+".tempFilters["+idx+"]");
+    else
+      currentFilter=eval("window.opener."+formid+".allFilters["+idx+"]");
+
+    currentFilter[1]=Ctrl("operation").value;
+    currentFilter[2]=Ctrl("description").value;
+    currentFilter[3]=Ctrl("type").value;
+    currentFilter[4]=Ctrl("len").value;
+    currentFilter[5]=Ctrl("dec").value;
+    currentFilter[6]=Ctrl("format").value;
+    currentFilter[7]=Ctrl("linked_table").value;
+    currentFilter[8]=Ctrl("filter_fixed_1").value;
+    currentFilter[9]=Ctrl("filter_fixed_2").value;
+    currentFilter[10]=Ctrl("filter_fixed_3").value;
+    currentFilter[11]=Ctrl("key_field").value;
+    currentFilter[12]=Ctrl("filter_fixed_1_value").value;
+    currentFilter[13]=Ctrl("filter_fixed_2_value").value;
+    currentFilter[14]=Ctrl("filter_fixed_3_value").value;
+    currentFilter[15]=Ctrl("read_field").value;
+    //16 vuoto
+    currentFilter[17]=Ctrl("combo_value").value;
+    currentFilter[18]=((Ctrl("advanced").checked==true)?'S':'N');
+    currentFilter[19]=Ctrl("group").value;
+    currentFilter[20]=((Ctrl("keep_on_prev_row").checked==true)?'S':'N');
+    currentFilter[21]=Ctrl("query_param").value;
+    currentFilter[22]=Ctrl("tooltip").value;
+    currentFilter[23]=Ctrl("display_length").value;
+    currentFilter[25]=Ctrl("init_value").value;
+    currentFilter[26]=(currentFilter[26]==Ctrl("filter_sequence").value)?Ctrl("filter_sequence").value:eval("window.opener."+formid+".AdaptSequence("+Ctrl("filter_sequence").value+","+currentFilter[26]+")");
+
+    if(!temp)
+      eval("window.opener."+formid+".lbl_"+currentFilter[0]+idx).Value(currentFilter[2]);
+
+    try{
+      eval("window.opener."+formid+".combobox_"+(temp?"temp_operations_":currentFilter[0])+idx).Value(currentFilter[1]);
+      if(!Empty(Ctrl("query_param").value))
+        eval("window.opener."+formid+".combobox_"+(temp?"temp_operations_":currentFilter[0])+idx).Disabled();
+      else
+        eval("window.opener."+formid+".combobox_"+(temp?"temp_operations_":currentFilter[0])+idx).Enabled();
+    } catch(e) {}
+
+    if(!Empty(currentFilter[25])){
+       eval("window.opener."+formid+".fld_"+(temp?"temp_":currentFilter[0])+idx).Value(Left(LTrim(currentFilter[25]),1)=="["?"":currentFilter[25]);
+    }
+    CloseWindow();
+  }
+}
+
+function TestSequence(){
+  var maxSequence=eval("window.opener."+formid+".allFilters.length");
+  if(Ctrl("filter_sequence").value>maxSequence)
+    Ctrl("filter_sequence").value=maxSequence;
+  else if(Ctrl("filter_sequence").value<1)
+    Ctrl("filter_sequence").value=1;
+}
+
+function UpdateSizeControls() {
+  if(Ctrl("type").value=="N") {
+    Ctrl("len").disabled=false;
+    Ctrl("dec").disabled=false;
+  } else if(Ctrl("type").value=="C") {
+    Ctrl("len").disabled=false;
+    Ctrl("dec").disabled=true;
+  } else {
+    Ctrl("len").disabled=true;
+    Ctrl("dec").disabled=true;
+  }
+
+  switch(Ctrl("type").value) {
+    case "D":
+      Ctrl("len").value="8";
+      Ctrl("dec").value="0";
+      break;
+    case "T":
+      Ctrl("len").value="14";
+      Ctrl("dec").value="0";
+      break;
+    case "L":
+      Ctrl("len").value="1";
+      Ctrl("dec").value="0";
+      break;
+    case "M":
+    case "S":
+      Ctrl("len").value="10";
+      Ctrl("dec").value="0";
+      break;
+  }
+}
+
+function ManageKeys(e) {
+  e=e?e:window.event;
+  var keyCode=GetKeyCode(e);
+  if(keyCode==13) SetField();
+  else if(keyCode==27) CloseWindow();
+}
+
+function QueryParamControls() {
+  if(Empty(Ctrl("query_param").value)){
+    Ctrl("operation").disabled=false;
+  } else
+    Ctrl("operation").disabled=true;
+}
+
+function CheckHiddenGroup() {
+  if (Ctrl("hidden_group").checked){
+    Ctrl("group").value="sp_hidden";
+    Ctrl("group").disabled=true;
+    Ctrl("advanced").checked=false;
+  } else{
+    Ctrl("group").disabled=false;
+    Ctrl("group").value="";
+  }
+}
+function CheckAdvanced() {
+  if(Ctrl("advanced").checked){
+    Ctrl("hidden_group").checked=false;
+    Ctrl("group").disabled=false;
+    if (Ctrl("group").value=="sp_hidden")
+      Ctrl("group").value="";
+  }
+}
+
+function CheckInitValue(){
+  switch(Ctrl("type").value) {
+      case "D":
+        Ctrl("init_value").value=ApplyPictureToDate(Ctrl("init_value").value,"DD-MM-YYYY");
+        break;
+      case "T":
+        Ctrl("init_value").value=ApplyPictureToDateTime(Ctrl("init_value").value,"DD-MM-YYYY hh:mm:ss");
+        break;
+      case "L":
+        break;
+      case "M":
+      case "S":
+        break;
+  }
+}
+
+function Help(e){
+  var anchor="";
+  if(typeof(anchorToFeature)!='undefined'){
+    anchor=anchorToFeature['portalzoom_interfaccia_parms_prop_filtri'];
+  }
+  windowOpenForeground('help/portalstudio/'+helpToOpen+'_navigator.htm?'+anchor,'','toolbar=0,menubar=0,directories=0,width=720,height=600,resizable=1,scrollbars=1');
+}  // Help
+
+var helpToOpen;
+if(LibJavascript.RequireLibrary("help/portalstudio/spportalzoom_dictionary.js",true)){
+  helpToOpen='spportalzoom';
+} else {
+  if(LibJavascript.RequireLibrary("help/portalstudio/ps_urg_dictionary.js",true)){
+    helpToOpen='ps_urg';
+  }
+}
+</script>
+</head>
+
+<body style="border:0;overflow:hidden;margin:0;background-color:#D6D3CE" onload="DoLoad()" onhelp="CancelHelp(event)" onkeydown="ManageKeys(event)">
+<table align="center" width="482" height="493" cellpadding="0" cellspacing="1" border="1">
+ <tr>
+  <td style="font-family:Arial;font-size:9pt">
+   <input id="name" type="text" style="position:absolute;top:15;left:79;width:185" disabled maxlength="202">
+   <label style="position:absolute;top:19;left:22" onselectstart="return false">Filter field:</label>
+
+   <input id="description" type="text" style="position:absolute;top:41;left:79;width:340" maxlength="382">
+   <label style="position:absolute;top:45;left:12" onselectstart="return false">Description:</label>
+
+   <select id="operation" style="position:absolute;top:67;left:79;width:130">
+   <option value=" " selected>-</option>
+   <option value="like">Starts with</option>
+   <option value="contains">Contains</option>
+   <option value="=">=</option>
+   <option value="<"><</option>
+   <option value="<="><=</option>
+   <option value=">">></option>
+   <option value=">=">>=</option>
+   <option value="<>"><></option>
+   <option value="empty">empty</option>
+   </select>
+   <label style="position:absolute;top:71;left:21" onselectstart="return false">Operation:</label>
+
+   <input id="init_value" type="text" style="position:absolute;top:67;left:309;width:110" maxlength="102" onblur="CheckInitValue()">
+   <label style="position:absolute;top:71;left:244" onselectstart="return false">Initial value:</label>
+
+   <hr style="position:absolute;top:93;width:100%">
+
+   <select id="type" style="position:absolute;top:100;left:79;width:130" onchange="UpdateSizeControls()">
+   <option value="C" selected>Character</option>
+   <option value="N">Numeric</option>
+   <option value="D">Date</option>
+   <option value="L">Logical</option>
+   <option value="M">Memo</option>
+   <option value="S">Small Memo</option>
+   <option value="T">DateTime</option>
+   </select>
+   <label style="position:absolute;top:104;left:49" onselectstart="return false">Type:</label>
+
+   <input id="len" type="text" value="0" style="position:absolute;top:100;left:274;width:40" maxlength="34">
+   <label style="position:absolute;top:104;left:232" onselectstart="return false">Length:</label>
+
+   <input id="dec" type="text" value="0" style="position:absolute;top:100;left:379;width:40" maxlength="34" disabled>
+   <label style="position:absolute;top:104;left:322" onselectstart="return false">Decimals:</label>
+
+   <input id="format" type="text" style="position:absolute;top:126;left:79;width:340" maxlength="382">
+   <label style="position:absolute;top:130;left:36" onselectstart="return false">Format:</label>
+
+   <input id="linked_table" type="text" style="position:absolute;top:152;left:79;width:340" maxlength="382">
+   <label style="position:absolute;top:156;left:8" onselectstart="return false">Linked table:</label>
+
+    <input id="key_field" type="text" style="position:absolute;top:178;left:79;width:110" maxlength="82">
+    <label style="position:absolute;top:182;left:29" onselectstart="return false">Key field:</label>
+
+   <input id="filter_fixed_1" type="text" style="position:absolute;top:204;left:79;width:110" maxlength="102">
+   <label style="position:absolute;top:208;left:20" onselectstart="return false">Filter fixed:</label>
+
+   <input id="filter_fixed_1_value" type="text" style="position:absolute;top:204;left:279;width:110" maxlength="102">
+   <label style="position:absolute;top:208;left:244" onselectstart="return false">Value:</label>
+
+   <input id="filter_fixed_2" type="text" style="position:absolute;top:230;left:79;width:110" maxlength="102">
+   <label style="position:absolute;top:234;left:20" onselectstart="return false">Filter fixed:</label>
+
+   <input id="filter_fixed_2_value" type="text" style="position:absolute;top:230;left:279;width:110" maxlength="102">
+   <label style="position:absolute;top:234;left:244" onselectstart="return false">Value:</label>
+
+   <input id="filter_fixed_3" type="text" style="position:absolute;top:256;left:79;width:110" maxlength="102">
+   <label style="position:absolute;top:260;left:20" onselectstart="return false">Filter fixed:</label>
+
+   <input id="filter_fixed_3_value" type="text" style="position:absolute;top:256;left:279;width:110" maxlength="102">
+   <label style="position:absolute;top:260;left:244" onselectstart="return false">Value:</label>
+
+   <input id="read_field" type="text" style="position:absolute;top:282;left:79;width:90" maxlength="82">
+   <label style="position:absolute;top:286;left:19" onselectstart="return false">Read field:</label>
+
+   <input id="combo_value" type="text" style="position:absolute;top:308;left:79;width:340" maxlength="382">
+   <label style="position:absolute;top:312;left:16" onselectstart="return false">Combo val:</label>
+
+   <input id="advanced" type="checkbox" style="position:absolute;top:336;left:79;width:17" onclick="CheckAdvanced()">
+   <label style="position:absolute;top:338;left:22" onselectstart="return false">Advanced:</label>
+
+   <input id="hidden_group" type="checkbox" style="position:absolute;top:336;left:208;width:18" onclick="CheckHiddenGroup()">
+   <label style="position:absolute;top:338;left:126" onselectstart="return false">Hidden group:</label>
+
+   <input id="keep_on_prev_row" type="checkbox" style="position:absolute;top:336;left:375;width:18">
+   <label style="position:absolute;top:338;left:250" onselectstart="return false">Keep on previous row:</label>
+
+   <input id="group" type="text" style="position:absolute;top:360;left:79;width:110" maxlength="382">
+   <label style="position:absolute;top:364;left:41" onselectstart="return false">Group:</label>
+
+   <input id="filter_sequence" type="text" style="position:absolute;top:360;left:329;width:90" maxlength="5" onchange="TestSequence()">
+   <label id="filter_sequence_label" style="position:absolute;top:364;left:270" onselectstart="return false">Sequence:</label>
+
+   <input id="tooltip" type="text" style="position:absolute;top:386;left:79;width:340" maxlength="382">
+   <label style="position:absolute;top:390;left:39" onselectstart="return false">Tooltip:</label>
+
+   <input id="display_length" type="text" style="position:absolute;top:412;left:79;width:120" maxlength="6">
+   <label style="position:absolute;top:415;left:14" onselectstart="return false">Display len:</label>
+
+   <input id="query_param" type="text" style="position:absolute;top:438;left:79;width:300" maxlength="382" onchange="QueryParamControls()">
+   <label style="position:absolute;top:440;left:20" onselectstart="return false">Query par.:</label>
+  </td>
+ </tr>
+ <tr style="height:20">
+  <td valign="middle" align="right" nowrap onselectstart="return false;">
+   <button style="width:50" onclick="SetField()" accesskey="o" class="bottoni"><u>O</u>K</button>&nbsp;
+   <button style="width:50" onclick="CloseWindow();" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+  </td>
+ </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿* --- Resource Vers. 0.9
+operp_estrazione_movateco_bi.vrp
+￼Iresource.ResourceReport
+created_on=#2024-05-10 18:24:43
+description='Estrazione Operazioni Sale Conta
+file_modified_on=#2022-02-22 18:12:33
+location='JavaServletSrc\
+measures={}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='operp_estrazione_movateco_bi.vrp
+state=1
+type='report
+used_resource_keys={}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]operp_estrazione_movateco_bi.vrp|Error|core::document|Update dependencies|Resource "qbe_estrazione_movateco_bi_totale.vqr" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Resource "qbe_estrazione_movateco_bi_totale.vqr" not found.
+resource_key='operp_estrazione_movateco_bi.vrp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]operp_estrazione_movateco_bi.vrp|Error|core::document|Update dependencies|Resource "opemk_estrazione_movateco_bi.vdm" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Resource "opemk_estrazione_movateco_bi.vdm" not found.
+resource_key='operp_estrazione_movateco_bi.vrp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

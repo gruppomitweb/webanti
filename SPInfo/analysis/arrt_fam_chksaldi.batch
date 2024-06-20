@@ -1,0 +1,58 @@
+﻿* --- Resource Vers. 0.9
+arrt_fam_chksaldi
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Controlli Saldi AGE
+file_modified_on=#2022-09-01 17:36:52
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:14
+module_name='
+name='arrt_fam_chksaldi
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_chkperiodo.idbase
+'tmp_chkperiodo.rapporto
+'tmp_chkperiodo.dataini
+'tmp_chkperiodo.datafine
+'tmp_chkperiodo.tipo
+'tmp_chkperiodo.msgtxt
+'tmp_chkperiodo.ndg
+]
+'Hyperlinks
+[
+'arrp_fam_chkperiodo.vrp
+'arrp_fam_chkperiodo_noerr.vrp
+]
+'Queries
+[
+'qbe_fam_chkperiodo_saldi_01_minmax.vqr
+'qbe_fam_chkperiodo_saldi_01.vqr
+'qbe_famperiodo_opx_min_max.vqr
+'qbe_fam_chkperiodo_opx_2015.vqr
+]
+'Routines
+[
+'arfn_anomsaldi_opex
+'arfn_anomsaldi_rapp
+'arfn_fdatetime
+]
+'Tables
+[
+'tmp_chkperiodo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

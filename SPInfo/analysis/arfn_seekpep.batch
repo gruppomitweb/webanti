@@ -1,0 +1,52 @@
+﻿* --- Resource Vers. 0.9
+arfn_seekpep
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:29
+description='Controllo Soggetti PEP (Creazione Report)
+file_modified_on=#2019-10-17 15:43:08
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:54
+module_name='
+name='arfn_seekpep
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_reppep.pepcog
+'tmp_reppep.pepnom
+'tmp_reppep.pepnas
+'tmp_reppep.pepmor
+'tmp_reppep.pepcat
+'tmp_reppep.peplnas
+'tmp_reppep.peppnas
+'tmp_reppep.pepper
+'tmp_reppep.pepinc
+]
+'Libraries
+[
+'Utilities<painter>
+'FileLibMit<project>
+'ReportLibrary<painter>
+]
+'Routines
+[
+'arfn_seekpep
+]
+'Tables
+[
+'tmp_reppep<table>
+]
+}
+I
+*--*
+￼[]
+*--*

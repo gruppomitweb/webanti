@@ -1,0 +1,248 @@
+ 5
+"Anagrafica Rapporti"
+"anarapbo"
+"anarapbo"
+ 0
+ 0
+*
+"Natura Conti"
+"tbtipnat"
+"tbtipnat"
+ 0
+ 0
+*
+"Tipi Rapporti Agenzia Entrate"
+"tbrapp"
+"tbrapp"
+ 0
+ 0
+*
+"Divise"
+"tbvalute"
+"tbvalute"
+ 0
+ 0
+*
+"Rapporti Definitivi + Provvisori"
+"knarapbo"
+"knarapbo"
+ 0
+ 0
+*
+ 13
+"Codice Rapporto"
+"anarapbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"anarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Rapporto"
+"anarapbo.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbtipnat.DESCRI"
+"DESCNAT"
+"C"
+ 60
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo AgE"
+"anarapbo.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbrapp.DESCRI"
+"DESCAGE"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Divisa"
+"anarapbo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbvalute.DESCRI"
+"DESCRI"
+"C"
+ 45
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Customer ID (WUBS)"
+"anarapbo.SPLITCODE"
+"SPLITCODE"
+"C"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Dipendenza"
+"anarapbo.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Macro Agente"
+"anarapbo.MACODICE"
+"MACODICE"
+"C"
+ 5
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Inizio Rapporto"
+"knarapbo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Fine Raspporto"
+"knarapbo.DATAFIN"
+"DATAFIN"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 4
+"Natura Conti(Tipo Rapporto)"
+"tbtipnat.TIPONAT=anarapbo.TIPORAP"
+"Right outer"
+"tbtipnat"
+"anarapbo"
+*
+"Tipi Rapporti Agenzia Entrate"
+"tbrapp.CODICE=anarapbo.TIPOAG"
+"Right outer"
+"tbrapp"
+"anarapbo"
+*
+"Divise(Codice Divisa)"
+"tbvalute.CODVAL=anarapbo.VALUTA"
+"Right outer"
+"tbvalute"
+"anarapbo"
+*
+"Tabella Appoggio"
+"knarapbo.RAPPORTO=anarapbo.RAPPORTO"
+"Right outer"
+"knarapbo"
+"anarapbo"
+*
+ 0
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.f.
+ 6
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%5CQB%5BX0%28_%5C1%23NF.%2CW13T3%3C%13%25%2B+4uPLWE%5EHE%26%2C7%2B%3E%5C5GHE%2F%12%5BKW3A7N531%29JF*D7BJ%3C%15%22H%2F%28R_%22W%25S%28CAQP%5CY%1B%242+*D%2B%284%23On%40%3F%23%3EK*++S%3E%5C3N0%21%40%3DWQ_3%18%5B%3F%3BEI%2FX5_T1O%3B%24.OM%24%2F%3C%04%29C%24H%278M%3C%25DH%24%3AB%3F%28K6U%5B%28B%5D*7%07E69%3B%3E2%2Ct%3D%5D%3F%296%3D%2F%21GX0%07C61%2FKsX*_CL8%28KL%3C%223.%25D9%5D%5B58%21T%5B%3DO%2B2O2%10.F%5BUNI0Za%23%2FO%21%22C%2FWQZ%26V%24%15%217%296%3F%28%28%3E_%12%2BM%00"
+"vpSWlKO%3BVYN%141%29RI7K%3C%15U%27M%21%21K%21V9D1%21H5%3EX%40Y%21%5DL%2F7C0%26%27D3T9%2451DG%23ZR%27XJI%60%07N9.70%29%5B.kR%3E%24%172PO8%5B%28*%22VA%29%1FF%5B%28%5BGNC3%26%40E%0142Zw2%40I*%3DI%23Y6%3A%29%25%17%25%3D%1BKOVA%5BAF%5D%5DJD%28%3EIV%28%5BM%24%40%3B2O%5E%2B%5E5%22%3D3T0%224%27bVuB%2FZ%5B%15%3C%22%26%3F0Ru8Tm%24.%10%23I9W%256-%26%299B%22HW%5EV_1%3D%2BF%3A%223%22%25S0G%40LE%22%09BQGO%5D%2B%5C2%3B8%2BFtW%3D%2CO%2B*+%21Y%26+%3D%5D_YG%2C6%3C5%7C%3BK%3F%3EB%5E%265O%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

@@ -1,0 +1,41 @@
+﻿* --- Resource Vers. 0.9
+arfn_verify_opex
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Verifica esistenza Operazione Extraconto
+file_modified_on=#2018-06-11 07:20:48
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:54
+module_name='
+name='arfn_verify_opex
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.idbase
+]
+'Routines
+[
+'arfn_verify_opex
+]
+'Tables
+[
+'personbo<table>
+'opextrbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

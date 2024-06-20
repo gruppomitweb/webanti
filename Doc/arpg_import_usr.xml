@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="66478864">
+  <CodifyName>arpg_import</CodifyName>
+  <Name>arpg_import.pagedef</Name>
+  <Title>Import dati da procedure esterne</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="22827841"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_import_usr_1</JPG>
+    <Item type="variabile" x1="16" y1="35" x2="680" y2="55">
+      <Name LinkID="140580358">nomefile</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="688" y1="35" x2="776" y2="60">
+      <Name LinkID="117942554">Seleziona</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="88" y1="63" x2="249" y2="82">
+      <Name LinkID="83358524">tipodest</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="156" x2="776" y2="270">
+      <Name LinkID="224805518">msgproc</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="688" y1="70" x2="728" y2="101">
+      <Name LinkID="66867984">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>Report</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Stampa Errori Import</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="736" y1="70" x2="776" y2="101">
+      <Name LinkID="66867984">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>LanciaImport()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Esegui elaborazione</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="640" y1="70" x2="680" y2="101">
+      <Name LinkID="66867984">images/search.gif</Name>
+      <Image>images/search.gif</Image>
+      <Hyperlink>arpg_rapmod_at</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Elenco Rapporti Anagrafe Tributaria Che potrebbero necessitare comunicazione modifiche</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="592" y1="70" x2="632" y2="101">
+      <Name LinkID="66867984">images/view.gif</Name>
+      <Image>images/view.gif</Image>
+      <Hyperlink>arrt_imp_dati_telepass_exam</Hyperlink>
+      <HyperlinkOpenOn>Frame</HyperlinkOpenOn>
+      <Help>Esamina i file trovando incongruenze</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="592" y1="70" x2="632" y2="101">
+      <Name LinkID="66867984">images/view.gif</Name>
+      <Image>images/view.gif</Image>
+      <Hyperlink>arrt_imp_dati_storico_exam</Hyperlink>
+      <HyperlinkOpenOn>Frame</HyperlinkOpenOn>
+      <Help>Controllo file Import</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="392" y1="63" x2="548" y2="84">
+      <Name LinkID="7035316">opextc</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="88" y1="105" x2="142" y2="125">
+      <Name LinkID="11551007">codmage</Name>
+      <Comment>MacroAgente</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="88" y1="82" x2="249" y2="101">
+      <Name LinkID="229689350">destfin</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="688" y1="70" x2="728" y2="101">
+      <Name LinkID="66867984">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>Report</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Stampa Errori Import</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="736" y1="101" x2="776" y2="132">
+      <Name LinkID="66867984">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_imp_dati_storico_sched_tabs</Hyperlink>
+      <HyperlinkOpenOn>Frame</HyperlinkOpenOn>
+      <Help>Esegui elaborazione</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="392" y1="84" x2="434" y2="104">
+      <Name LinkID="113393646">annorif</Name>
+      <Comment>Anno di riferimento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

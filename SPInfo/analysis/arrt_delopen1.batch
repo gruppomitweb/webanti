@@ -1,0 +1,141 @@
+﻿* --- Resource Vers. 0.9
+arrt_delopen1
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Aggiorna i dati dell'anagrafe rapporti
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:11
+module_name='
+name='arrt_delopen1
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_pers82.tipoag
+'tmp_pers82.coint
+'tmp_pers82.dataret
+'tmp_pers82.datarif
+'tmp_pers82.datachiu
+'tmp_pers82.connesint
+'tmp_pers82.aprog
+'tmp_pers82.modifica
+'tmp_pers82.idbase
+'tmp_pers82.intest
+'tmp_pers82.ragsoc
+'tmp_pers82.domicilio
+'tmp_pers82.codfisc
+'tmp_pers82.datanasc
+'tmp_pers82.nascomun
+'tmp_pers82.desccit
+'tmp_pers82.provincia
+'tmp_pers82.paese
+'tmp_pers82.cap
+'tmp_pers82.tipinter
+'tmp_pers82.sesso
+'tmp_pers82.nome
+'tmp_pers82.cognome
+'tmp_pers82.cfestero
+'tmp_pers82.nasstato
+'personbo.connes
+'personbo.codfisc
+'personbo.datanasc
+'personbo.nascomun
+'personbo.tipinter
+'personbo.sesso
+'personbo.nasstato
+'personbo.nome
+'personbo.cognome
+'personbo.ragsoc
+'personbo.desccit
+'personbo.provincia
+'personbo.paese
+'personbo.cap
+'personbo.cfestero
+'aedestor.idbase
+'aedestor.rapporto
+'aedestor.connesint
+'aedestor.aspedito
+'aedestor.adata
+'aedestor.aprog
+'aedestor.afile
+'aedestor.adataret
+'aedestor.cspedito
+'aedestor.cdata
+'aedestor.cprog
+'aedestor.cfile
+'aedestor.cdataret
+'aedestor.idrif
+'aedestor.tipoag
+'aedestor.coint
+'aedestor.nocodfisc
+'aedestor.progres
+'aedestor.adtpre
+'aedestor.cdtpre
+'aederig.rapporto
+'aederig.idbase
+'aederig.adata
+'aederig.cdata
+'aederig.connesint
+'aederig.adataret
+'aederig.rspedito
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Tables
+[
+'personbo<table>
+'tmp_pers82<table>
+'aederig<table>
+'aedestor<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_delopen1|Warning|core::document|Update dependencies|Field "1" not found in temporary table "tmp_pers82".{Accuracy:-10}
+explanation='
+found_on=#2024-05-10 18:25:11
+message='Field "1" not found in temporary table "tmp_pers82".
+resource_key='arrt_delopen1
+solvable=False
+status='unhandled
+tool='core::document
+type='Warning
+weights={
+'Accuracy
+-10
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_delopen1|Error|core::document|Update dependencies|Field "aedestor.RIFRIGA" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:11
+message='Field "aedestor.RIFRIGA" not found.
+resource_key='arrt_delopen1
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

@@ -1,0 +1,174 @@
+ 2
+"Soggetti conto informazioni (AE)"
+"jntestbo"
+"jntestbo"
+ 5
+ 5
+*
+"Anagrafica Rapporti"
+"jnarapbo"
+"jnarapbo"
+ 130
+ 108
+*
+ 9
+"idbase"
+"jntestbo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Numero riga"
+"jntestbo.CPROWNUM"
+"CPROWNUM"
+"N"
+ 3
+ 0
+*
+"Data Inizio"
+"jntestbo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+"Tipo Soggetto"
+"jntestbo.TIPOPERS"
+"TIPOPERS"
+"C"
+ 1
+ 0
+*
+"Intestatario (Non Intermediario)"
+"jntestbo.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+*
+"Data Fine"
+"jntestbo.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+"Tipo Rapporto"
+"jntestbo.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+*
+"Rapporto (Copia della testata)"
+"jntestbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Progressivo Import"
+"jntestbo.PRGIMPSOG"
+"PRGIMPSOG"
+"N"
+ 15
+ 0
+*
+ 1
+"Rapporti"
+"jnarapbo.RAPPORTO=jntestbo.RAPPORTO"
+"Right outer"
+"jnarapbo"
+"jntestbo"
+*
+ 6
+"[NOTEMPTYSTR(jntestbo.CODINTER)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(jntestbo.DATAINI)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"jntestbo.DATAINI"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"jntestbo.DATAINI"
+""
+"<="
+"?w_a_data"
+"AND"
+""
+*
+"jntestbo.PRGIMPSOG"
+""
+">="
+"?_bottom"
+"AND"
+""
+*
+"jntestbo.PRGIMPSOG"
+""
+"<="
+"?_top"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 4
+"w_dadata"
+"Data Inizio"
+"Date"
+"8"
+"0"
+""
+*
+"w_a_data"
+"Data Fine"
+"Date"
+"8"
+"0"
+""
+*
+"_bottom"
+"Progressivo Import"
+"Numeric"
+"15"
+"0"
+""
+*
+"_top"
+"Progressivo Import"
+"Numeric"
+"15"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 13
+.f.
+""
+.f.
+*

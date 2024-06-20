@@ -1,0 +1,220 @@
+﻿* --- Resource Vers. 0.9
+tmp_elenco<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Trasferimento da Frazionate a Operazioni anche stampa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_elenco
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_elenco.idbase
+'tmp_elenco.numprog
+'tmp_elenco.dataope
+'tmp_elenco.connescli
+'tmp_elenco.rapporto
+'tmp_elenco.totlire
+'tmp_elenco.totcont
+'tmp_elenco.segno
+'tmp_elenco.valuta
+'tmp_elenco.tipope
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_elenco.connescli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Cliente Occasionale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='connescli
+state=3
+table_name='tmp_elenco
+type='field
+used_resource_keys={}
+I
+'tmp_elenco.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='dataope
+state=3
+table_name='tmp_elenco
+type='field
+used_resource_keys={}
+I
+'tmp_elenco.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ID della frazionata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='idbase
+state=3
+table_name='tmp_elenco
+type='field
+used_resource_keys={}
+I
+'tmp_elenco.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='N° Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='numprog
+state=3
+table_name='tmp_elenco
+type='field
+used_resource_keys={}
+I
+'tmp_elenco.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rapporto Continuativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='rapporto
+state=3
+table_name='tmp_elenco
+type='field
+used_resource_keys={}
+I
+'tmp_elenco.segno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Segno (D/A)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='segno
+state=3
+table_name='tmp_elenco
+type='field
+used_resource_keys={}
+I
+'tmp_elenco.tipope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tipope
+state=3
+table_name='tmp_elenco
+type='field
+used_resource_keys={}
+I
+'tmp_elenco.totcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Totale contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='totcont
+state=3
+table_name='tmp_elenco
+type='field
+used_resource_keys={}
+I
+'tmp_elenco.totlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Totale Importo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='totlire
+state=3
+table_name='tmp_elenco
+type='field
+used_resource_keys={}
+I
+'tmp_elenco.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Divisa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='valuta
+state=3
+table_name='tmp_elenco
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_elenco.connescli
+[]
+'tmp_elenco.dataope
+[]
+'tmp_elenco.idbase
+[]
+'tmp_elenco.numprog
+[]
+'tmp_elenco.rapporto
+[]
+'tmp_elenco.segno
+[]
+'tmp_elenco.tipope
+[]
+'tmp_elenco.totcont
+[]
+'tmp_elenco.totlire
+[]
+'tmp_elenco.valuta
+[]
+}
+*--*

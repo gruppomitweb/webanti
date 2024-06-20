@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="249456432">
+  <CodifyName>arpg_allinea_anagrafiche_report</CodifyName>
+  <Name>arpg_allinea_anagrafiche_report.pagedef</Name>
+  <Title>Elenco stampe allineamento anagrafiche</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="245803472"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_allinea_anagrafiche_report_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="75" x2="1246" y2="88">
+      <Name LinkID="148798545">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="61" x2="1246" y2="74">
+      <Name LinkID="249010876">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="44" x2="40" y2="60">
+      <Name LinkID="249456432">c_AATIPERR</Name>
+      <Help></Help>
+      <Expression>c_AATIPERR</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="48" y1="44" x2="280" y2="60">
+      <Name LinkID="249456432">c_AANOMREP</Name>
+      <Help></Help>
+      <Expression>c_AANOMREP</Expression>
+      <Hyperlink>LRTrim(w_gUrlApp)+&quot;/stampe_off/&quot;+LRTrim(c_AANOMREP)+&quot;.pdf&quot;</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

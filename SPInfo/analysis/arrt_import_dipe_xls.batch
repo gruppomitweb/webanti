@@ -1,0 +1,55 @@
+﻿* --- Resource Vers. 0.9
+arrt_import_dipe_xls
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Import dipendenze da file xls
+file_modified_on=#2021-02-17 11:39:52
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:15
+module_name='
+name='arrt_import_dipe_xls
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.coddipe
+'rapotit.connescli
+'rapotit.coddipe
+'rapopebo.rapporto
+'rapopebo.coddipe
+'anarapbo.rapporto
+'anarapbo.coddip
+]
+'Queries
+[
+'qbe_setsin.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'personbo<table>
+'intestbo<table>
+'rapotit<table>
+'intestit<table>
+'delegabo<table>
+'rapopebo<table>
+'anarapbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

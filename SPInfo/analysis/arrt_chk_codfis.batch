@@ -1,0 +1,54 @@
+﻿* --- Resource Vers. 0.9
+arrt_chk_codfis
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:32
+description='Aggiorna flag cf formalmente valido
+file_modified_on=#2018-06-28 15:31:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:10
+module_name='
+name='arrt_chk_codfis
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'dersonbo.tipodoc
+'dersonbo.numdocum
+'dersonbo.flgcgformat
+'dersonbo.nascomun
+'dersonbo.nasstato
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_dersonbo_minmax.vqr
+]
+'Routines
+[
+'arfn_chkcodfis
+'arfn_fdatetime
+'arrt_chk_codfis
+]
+'Tables
+[
+'kersonbo<table>
+'dersonbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

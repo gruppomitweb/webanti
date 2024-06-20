@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Elenco Rapporti Continuativi / Operazioni Extraconto per invio Saldi Annuali -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_invio_saldi_new||version||4.6||title||Stampa Elenco Rapporti Continuativi / Operazioni Extraconto per invio Saldi Annuali||query||qbe_invio_saldi_new||font||Tahoma||font_size||7||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-02-17||date_rev||2016-03-08||form_class|| ||grid_dx||8||grid_dy||7||grid_show||1||grid_use||1||snaplines_show||1||language|| ||merge||false||modcnt||27||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding|| ||hsl||false||lock_items||false||maxcount||72||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||91||uid||LIMWODQNWW||sequence||4||bb_sequence||2||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||137||uid||VUFWKCNVLQ||sequence||8||bb_sequence||3||page||1|||type||Group_top||comment||group0||exp||True||name||group0||y||116||uid||XXOAHIMDJI||sequence||14||bb_sequence||25||page||1||start_each_on_page||true||reprint_header||true|||type||Group_down||comment||group0||exp||True||name||group0||y||136||uid||GLEMSNTEMW||sequence||13||bb_sequence||24||page||1||start_each_on_page||true||reprint_header||true|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||name||label0||uid||TWPXTLUFTH||page||1||x||8||y||7||w||719||h||21||sequence||12||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Box||name||Box1||x||8||y||35||w||1059||h||35||uid||EAZRQFADDM||sequence||1||page||1||bb_border_colour||false||border_width||1|||type||Label||value||STAMPA ELENCO RAPPORTI CONTINUATIVI / OPERAZIONI EXTRACONTO PER INVIO SALDI ANNUALI||text_type||constant||name||label2||uid||LMETHZJMJV||page||1||x||16||y||40||w||1032||h||26||sequence||2||global_font||false||font||Tahoma||font_size||14||font_weight||bold|||type||Expr||exp||anno||type_exp||numeric||len||4||dec||0||name||expr3||uid||TPNWHKKRLE||page||1||x||1008||y||72||w||24||h||14||sequence||25|||type||Label||value||&#39;ANNO DI RIFERIMENTO: &#39;+anno||text_type||expression||name||label4||uid||WGHHGZRXUL||page||1||x||8||y||74||w||952||h||16||sequence||3||global_font||false||font||Tahoma||font_size||9||font_weight||bold|||type||Label||value||Valuta||text_type||constant||name||label7_62_69||uid||BLIJNIEMLF||page||1||x||986||y||98||w||44||h||16||sequence||5||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||c_TIPORAP=&#39;O&#39;|||type||Label||value||CAB||text_type||constant||name||label7_62_68||uid||NXUWWMTZJO||page||1||x||930||y||98||w||44||h||16||sequence||5||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||c_TIPORAP=&#39;O&#39;|||type||Label||value||Importo 5||text_type||constant||name||label7_62_67||uid||SPJTSJTKDN||page||1||x||842||y||98||w||78||h||16||sequence||5||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||c_TIPORAP=&#39;O&#39;|||type||Label||value||Rapporto||text_type||constant||name||label7||uid||XHZUBQWWLJ||page||1||x||8||y||98||w||56||h||16||sequence||5||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||c_TIPORAP=&#39;O&#39;|||type||Label||value||Tipo||text_type||constant||name||label7_62_69_70||uid||CCXSZKQVQF||page||1||x||1040||y||98||w||27||h||16||sequence||5||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||c_TIPORAP=&#39;O&#39;|||type||Label||value||Importo 4||text_type||constant||name||label7_62_66||uid||YECEYUMRIJ||page||1||x||754||y||98||w||78||h||16||sequence||5||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||c_TIPORAP=&#39;O&#39;|||type||Label||value||Importo 3||text_type||constant||name||label7_62_65||uid||YJRIDXJUAD||page||1||x||666||y||98||w||78||h||16||sequence||5||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||c_TIPORAP=&#39;O&#39;|||type||Label||value||Importo 2||text_type||constant||name||label7_62_64||uid||QGDQBXRMXW||page||1||x||578||y||98||w||78||h||16||sequence||5||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||c_TIPORAP=&#39;O&#39;|||type||Label||value||Importo 1||text_type||constant||name||label7_62||uid||KMZJOHEPAP||page||1||x||490||y||98||w||78||h||16||sequence||5||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||c_TIPORAP=&#39;O&#39;|||type||Box||name||Box12||x||8||y||112||w||1059||h||0||uid||NPEDHTWAIC||sequence||6||page||1||bb_border_colour||false||border_width||1|||type||Expr||comment||Importo2||exp||qbe_invio_saldi_new.c_IM2INVIO3||type_exp||numeric||len||12||dec||0||name||Expr44_45||uid||JUYFBVISWP||output_name||Importo2||page||1||x||580||y||120||w||78||h||14||sequence||43||picture||&#39;999,999,999,999&#39;||align||right|||type||Expr||exp||qbe_invio_saldi_new.c_VALUTA||len||3||dec||0||name||expr17_49_50||uid||RETYHBWNXO||output_name||VALUTA||page||1||x||986||y||120||w||44||h||14||sequence||36||global_font||false||font||Tahoma||font_size||7||font_weight||normal||hidecond||c_TIPORAP=&#39;O&#39;|||type||Expr||comment||Importo3||exp||qbe_invio_saldi_new.c_IM3INVIO3||type_exp||numeric||len||12||dec||0||name||Expr44_45_46||uid||GLCMYPJEVK||output_name||Importo3||page||1||x||668||y||120||w||78||h||14||sequence||43||picture||&#39;999,999,999,999&#39;||align||right|||type||Expr||exp||qbe_invio_saldi_new.c_RAPINVIO3||len||50||dec||0||name||expr17||uid||DTCLQQKEJM||output_name||Rapporto||page||1||x||10||y||120||w||144||h||14||sequence||36||global_font||false||font||Tahoma||font_size||7||font_weight||normal||hidecond||c_TIPORAP=&#39;O&#39;|||type||Expr||comment||Importo5||exp||qbe_invio_saldi_new.c_IM5INVIO3||type_exp||numeric||len||12||dec||0||name||Expr44_45_47_48||uid||PEJUSTHDWJ||output_name||Importo5||page||1||x||844||y||120||w||78||h||14||sequence||43||picture||&#39;999,999,999,999&#39;||align||right|||type||Expr||exp||qbe_invio_saldi_new.c_TPRINVIO3||len||2||dec||0||name||expr17_49_50_51||uid||QIVQEERQZS||output_name||TIPO||page||1||x||1040||y||120||w||27||h||14||sequence||36||global_font||false||font||Tahoma||font_size||7||font_weight||normal||hidecond||c_TIPORAP=&#39;O&#39;|||type||Expr||exp||qbe_invio_saldi_new.c_DESCRAP||len||50||dec||0||name||expr22||uid||NASOKSGNXH||output_name||Descrizione||page||1||x||162||y||120||w||320||h||14||sequence||41||hidecond||c_TIPORAP=&#39;O&#39;|||type||Expr||exp||qbe_invio_saldi_new.c_CAB||len||5||dec||0||name||expr17_49||uid||VSVPKQMGVA||output_name||CAB||page||1||x||932||y||120||w||44||h||14||sequence||36||global_font||false||font||Tahoma||font_size||7||font_weight||normal||hidecond||c_TIPORAP=&#39;O&#39;|||type||Expr||comment||Importo4||exp||qbe_invio_saldi_new.c_IM4INVIO3||type_exp||numeric||len||12||dec||0||name||Expr44_45_47||uid||VOPATGGYLF||output_name||Importo4||page||1||x||756||y||120||w||78||h||14||sequence||43||picture||&#39;999,999,999,999&#39;||align||right|||type||Expr||comment||Importo1||exp||qbe_invio_saldi_new.c_IM1INVIO3||type_exp||numeric||len||17||dec||0||name||Expr44||uid||RCONUAHNMQ||output_name||Importo1||page||1||x||492||y||120||w||78||h||14||sequence||43||picture||&#39;999,999,999,999&#39;||align||right|||type||Box||name||Box26||x||8||y||139||w||1059||h||0||uid||ALIXGKXVVP||sequence||9||page||1||bb_border_colour||false||border_width||1|||type||Label||value||&#39;Data: &#39;+arfn_fdate(Date())||text_type||expression||name||label27||uid||JYALFCRFEE||page||1||x||8||y||141||w||165||h||16||sequence||10||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))||text_type||expression||name||label28||uid||PRLPKWQQVB||page||1||x||662||y||141||w||405||h||16||sequence||11||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal||| -->
+
+<REPORT NAME="arrp_invio_saldi_new" TITLE="Stampa Elenco Rapporti Continuativi / Operazioni Extraconto per invio Saldi Annuali" QUERY="qbe_invio_saldi_new" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="7" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_invio_saldi_new.RAPINVIO3" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.TPRINVIO3" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.ANNINVIO3" TYPE="N" LEN="4" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.IM1INVIO3" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.FI1INVIO3" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.IM2INVIO3" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.FI2INVIO3" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.IM3INVIO3" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.FI3INVIO3" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.IM4INVIO3" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.FI4INVIO3" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.IM5INVIO3" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.FI5INVIO3" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.IM6INVIO3" TYPE="N" LEN="17" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.FI6INVIO3" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.DESCRAP" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.VALUTA" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.CAB" TYPE="C" LEN="5" DEC="0" />
+    <FIELD NAME="qbe_invio_saldi_new.TIPO" TYPE="C" LEN="1" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="91" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="7" X="8" YY="28" XX="727"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="35" X="8" YY="70" XX="1067"
+                    ALIGN="L"
+                    UID="EAZRQFADDM" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="STAMPA ELENCO RAPPORTI CONTINUATIVI / OPERAZIONI EXTRACONTO PER INVIO SALDI ANNUALI" EXPRTYPE="constant"
+                    Y="40" X="16" YY="66" XX="1048"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="14"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="EAZRQFADDM"/>
+              <ITEM OBJ="espressione" NAME="anno" ITEMTYPE="N" EXPRTYPE="expression"
+                    Y="72" X="1008" YY="86" XX="1032"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="7"
+                    LEN="4"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;ANNO DI RIFERIMENTO: &#39;+anno" EXPRTYPE="expression"
+                    Y="74" X="8" YY="90" XX="960"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="24" FOOTH="0" SYMNAME="" UID="XXOAHIMDJI" TOP="115" BOTTOM="134" EXPRESSION="True" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="true" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+              <ITEM OBJ="stringa" NAME="Valuta" EXPRTYPE="constant"
+                    Y="6" X="986" YY="22" XX="1030"
+                    ALIGN="L"
+                    HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="CAB" EXPRTYPE="constant"
+                    Y="6" X="930" YY="22" XX="974"
+                    ALIGN="L"
+                    HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Importo 5" EXPRTYPE="constant"
+                    Y="6" X="842" YY="22" XX="920"
+                    ALIGN="R"
+                    HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Rapporto" EXPRTYPE="constant"
+                    Y="6" X="8" YY="22" XX="64"
+                    ALIGN="L"
+                    HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Tipo" EXPRTYPE="constant"
+                    Y="6" X="1040" YY="22" XX="1067"
+                    ALIGN="L"
+                    HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Importo 4" EXPRTYPE="constant"
+                    Y="6" X="754" YY="22" XX="832"
+                    ALIGN="R"
+                    HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Importo 3" EXPRTYPE="constant"
+                    Y="6" X="666" YY="22" XX="744"
+                    ALIGN="R"
+                    HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Importo 2" EXPRTYPE="constant"
+                    Y="6" X="578" YY="22" XX="656"
+                    ALIGN="R"
+                    HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Importo 1" EXPRTYPE="constant"
+                    Y="6" X="490" YY="22" XX="568"
+                    ALIGN="R"
+                    HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="20" X="8" XX="1068" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+          <SECTION TYPE="group" HEADH="19" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="espressione" NAME="qbe_invio_saldi_new.c_VALUTA" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="986" YY="17" XX="1030"
+                            SYMNAME="VALUTA"
+                            ALIGN="L"
+                            HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_invio_saldi_new.c_RAPINVIO3" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="10" YY="17" XX="154"
+                            SYMNAME="Rapporto"
+                            ALIGN="L"
+                            HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            LEN="50"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_invio_saldi_new.c_TPRINVIO3" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="1040" YY="17" XX="1067"
+                            SYMNAME="TIPO"
+                            ALIGN="L"
+                            HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            LEN="2"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_invio_saldi_new.c_CAB" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="932" YY="17" XX="976"
+                            SYMNAME="CAB"
+                            ALIGN="L"
+                            HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            LEN="5"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_invio_saldi_new.c_DESCRAP" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="162" YY="17" XX="482"
+                            SYMNAME="Descrizione"
+                            ALIGN="L"
+                            HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="7"
+                            LEN="50"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_invio_saldi_new.c_IM2INVIO3" ITEMTYPE="N" EXPRTYPE="expression"
+                            Y="3" X="580" YY="17" XX="658"
+                            SYMNAME="Importo2"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="7"
+                            SAYPIC="&#39;999,999,999,999&#39;"
+                            LEN="12"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_invio_saldi_new.c_IM3INVIO3" ITEMTYPE="N" EXPRTYPE="expression"
+                            Y="3" X="668" YY="17" XX="746"
+                            SYMNAME="Importo3"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="7"
+                            SAYPIC="&#39;999,999,999,999&#39;"
+                            LEN="12"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_invio_saldi_new.c_IM5INVIO3" ITEMTYPE="N" EXPRTYPE="expression"
+                            Y="3" X="844" YY="17" XX="922"
+                            SYMNAME="Importo5"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="7"
+                            SAYPIC="&#39;999,999,999,999&#39;"
+                            LEN="12"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_invio_saldi_new.c_IM4INVIO3" ITEMTYPE="N" EXPRTYPE="expression"
+                            Y="3" X="756" YY="17" XX="834"
+                            SYMNAME="Importo4"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="7"
+                            SAYPIC="&#39;999,999,999,999&#39;"
+                            LEN="12"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_invio_saldi_new.c_IM1INVIO3" ITEMTYPE="N" EXPRTYPE="expression"
+                            Y="3" X="492" YY="17" XX="570"
+                            SYMNAME="Importo1"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="7"
+                            SAYPIC="&#39;999,999,999,999&#39;"
+                            LEN="17"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="134" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="8" XX="1068" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="3" X="8" YY="19" XX="173"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+                    Y="3" X="662" YY="19" XX="1067"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

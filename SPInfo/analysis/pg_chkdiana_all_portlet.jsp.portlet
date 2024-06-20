@@ -1,0 +1,77 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_chkdiana_all_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:43
+description='Preparazione file per Check Scarico OffLine
+file_modified_on=#2024-05-10 18:19:34
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:24:45
+module_name='
+name='pg_chkdiana_all_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.ragsoc
+'anadip.coddip
+'anadip.descriz
+]
+'Hyperlinks
+[
+'jsp\start_page_logo_portlet.jsp
+'arrt_chkdiana_all
+'arfn_azzera_messaggi
+'arfn_downloadfile_doc
+'arrt_chkdiana_sched
+]
+'Others
+[
+'jsp\showlog_portlet.jsp
+'jsp\showmsg_portlet.jsp
+]
+'Queries
+[
+'qbe_tbtipint.vqr
+]
+'Tables
+[
+'personbo<table>
+'anadip<table>
+]
+'Zooms
+[
+'[personbo] default.vzm
+'[anadip] default.vzm
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_chkdiana_all_portlet.jsp|Error|core::document|Update dependencies|Resource "downloadfileservlet" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:45
+message='Resource "downloadfileservlet" not found.
+resource_key='jsp\pg_chkdiana_all_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

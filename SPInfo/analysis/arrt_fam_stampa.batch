@@ -1,0 +1,98 @@
+﻿* --- Resource Vers. 0.9
+arrt_fam_stampa
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Stampa Famiglie
+file_modified_on=#2021-04-14 16:40:40
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:14
+module_name='
+name='arrt_fam_stampa
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aetesta.rapporto
+'aetesta.annulla
+'aetesta.inviatoc
+'tmp_sid_invio1.codinvio1
+'tmp_sid_invio1.rapinvio1
+'tmp_sid_invio1.tprinvio1
+'tmp_sid_invio1.iniinvio1
+'tmp_sid_invio1.fininvio1
+'tmp_sid_invio1.tipinvio1
+'tmp_sid_invio1.tpcinvio1
+'tmp_sid_invio2.codinvio2
+'tmp_sid_invio2.rapinvio2
+'tmp_sid_invio2.aprinvio2
+'tmp_sid_invio2.iniinvio2
+'tmp_sid_invio2.fininvio2
+'tmp_sid_invio2.fcfinvio2
+'tmp_sid_invio2.cfsinvio2
+'tmp_sid_invio2.ruoinvio2
+'tmp_sid_invio2.coginvio2
+'tmp_sid_invio2.nominvio2
+'tmp_sid_invio2.sexinvio2
+'tmp_sid_invio2.dnsinvio2
+'tmp_sid_invio2.cnsinvio2
+'tmp_sid_invio2.pnsinvio2
+'tmp_sid_invio2.rgsinvio2
+'tmp_sid_invio2.cslinvio2
+'tmp_sid_invio2.plsinvio2
+'tmp_sid_invio3.codinvio3
+'tmp_sid_invio3.rapinvio3
+'tmp_sid_invio3.tprinvio3
+'tmp_sid_invio3.anninvio3
+'tmp_sid_invio3.valinvio3
+'tmp_sid_invio3.im1invio3
+'tmp_sid_invio3.fi1invio3
+'tmp_sid_invio3.im2invio3
+'tmp_sid_invio3.fi2invio3
+'tmp_sid_invio3.im3invio3
+'tmp_sid_invio3.fi3invio3
+'tmp_sid_invio3.im4invio3
+'tmp_sid_invio3.fi4invio3
+'tmp_sid_invio3.im5invio3
+'tmp_sid_invio3.fi5invio3
+'tmp_sid_invio3.im6invio3
+'tmp_sid_invio3.fi6invio3
+]
+'Hyperlinks
+[
+'arrp_fam_stampa.vrp
+]
+'Queries
+[
+'qbe_fam_stampa01.vqr
+]
+'Routines
+[
+'arfn_fam_mesefile02
+'arfn_fam_mesefile03
+'arfn_fdatetime
+]
+'Tables
+[
+'sid_invio<table>
+'sid_invio1<table>
+'sid_invio2<table>
+'sid_invio3<table>
+'tmp_sid_invio1<table>
+'tmp_sid_invio2<table>
+'tmp_sid_invio3<table>
+'aetesta<table>
+]
+}
+I
+*--*
+￼[]
+*--*

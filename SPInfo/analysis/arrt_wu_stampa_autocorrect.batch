@@ -1,0 +1,47 @@
+﻿* --- Resource Vers. 0.9
+arrt_wu_stampa_autocorrect
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Estrae autocorrezioni per stampa xls
+file_modified_on=#2019-09-17 15:02:30
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='arrt_wu_stampa_autocorrect
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_listafile.nomefile
+'tmp_listafile.priorita
+'tmp_listafile.hyperlynk
+]
+'Queries
+[
+'qbe_wu_stampa_autocorrect.vqr
+]
+'Routines
+[
+'arfn_fdate
+'arrt_wu_stampa_autocorrect
+]
+'Tables
+[
+'wutrxchk<table>
+'cpusers<table>
+'tmp_listafile<table>
+]
+}
+I
+*--*
+￼[]
+*--*

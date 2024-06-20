@@ -1,0 +1,78 @@
+ 1
+"Operazioni"
+"operazbo"
+"operazbo"
+ 5
+ 5
+*
+ 3
+"Progressivo Import"
+"MIN(operazbo.PRGIMPOPE)"
+"MINIMO"
+"Numeric"
+ 15
+ 0
+*
+"Progressivo Import"
+"MAX(operazbo.PRGIMPOPE)"
+"MASSIMO"
+"Numeric"
+ 15
+ 0
+*
+"Tot. Record"
+"COUNT(*)"
+"TOTALE"
+"Numeric"
+ 15
+ 0
+*
+ 0
+ 2
+"operazbo.DATAOPE"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"operazbo.DATAOPE"
+""
+"<="
+"?w_adata"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_dadata"
+"Data Operazione"
+"Date"
+"8"
+"0"
+"Remove"
+*
+"w_adata"
+"Data Operazione"
+"Date"
+"8"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 5
+.f.
+""
+.f.
+*

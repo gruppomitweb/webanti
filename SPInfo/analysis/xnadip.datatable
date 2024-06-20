@@ -1,0 +1,904 @@
+﻿* --- Resource Vers. 0.9
+xnadip<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Provvisorio Dipendenze
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='xnadip
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'xnadip.idprog
+'xnadip.coddip
+'xnadip.descriz
+'xnadip.desccit
+'xnadip.provincia
+'xnadip.cab
+'xnadip.idbase
+'xnadip.agente
+'xnadip.macroagente
+'xnadip.terminalid
+'xnadip.domicilio
+'xnadip.telefono
+'xnadip.codloc
+'xnadip.abicabsara
+'xnadip.nuovo
+'xnadip.cap
+'xnadip.agaccode
+'xnadip.nazagente
+'xnadip.opxsoscli
+'xnadip.opxsosage
+'xnadip.valcompl
+'xnadip.anomoper
+'xnadip.ageregio
+'xnadip.flgatt
+'xnadip.codage
+'xnadip.tiposv
+'xnadip.flgnoaua
+'xnadip.flgwupos
+'xnadip.categ01
+'xnadip.categ02
+'xnadip.categ03
+'xnadip.categ04
+'xnadip.categ05
+'xnadip.categoria
+'xnadip.cab2
+'xnadip.risglob
+'xnadip.dataprof
+'xnadip.codiceaams
+'xnadip.concessione
+'xnadip.codfisc
+'xnadip.partiva
+'xnadip.tipoagente
+'xnadip.numcivico
+'xnadip.dataini
+'xnadip.datafine
+'xnadip.serrimden
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'xnadip.abicabsara
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ABI CAB Dipendenza per SARA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ABICABSARA
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.agaccode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='AGACCODE
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.agente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='AGENTE
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.ageregio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Regione Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='AGEREGIO
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.anomoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Anomalie Operative Riscontrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ANOMOPER
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.cab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CAB
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.cab2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CAB2
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CAP
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.categ01
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG01
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.categ02
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG02
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.categ03
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG03
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.categ04
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG04
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.categ05
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEG05
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.categoria
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CATEGORIA
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.codage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice AGENTE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODAGE
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.coddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODDIP
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODFISC
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.codiceaams
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice AAMS Sala
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODICEAAMS
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.codloc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Locale (CGO)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODLOC
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.concessione
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Concessione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONCESSIONE
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.datafine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Fine
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAFINE
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Inizio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAINI
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.dataprof
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Profilatura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAPROF
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESCCIT
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.descriz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESCRIZ
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Indirizzo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DOMICILIO
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.flgatt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Agenzia Attiva (S/N)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLGATT
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.flgnoaua
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Escludi Controlli AUA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLGNOAUA
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.flgwupos
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Flag WUPOS Attivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLGWUPOS
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.idprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDPROG
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.macroagente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Denominazione MacroAgente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MACROAGENTE
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.nazagente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nazionalità Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NAZAGENTE
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.numcivico
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Numero Civico
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMCIVICO
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.nuovo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nuovo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUOVO
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.opxsosage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Operazioni Sospette Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='OPXSOSAGE
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.opxsoscli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Operazioni Sospette Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='OPXSOSCLI
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.partiva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Partita IVA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PARTIVA
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PROVINCIA
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.risglob
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rischio globale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RISGLOB
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.serrimden
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Servizi Rimessa Denaro (S/N)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SERRIMDEN
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.telefono
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Telefono
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TELEFONO
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.terminalid
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ID Terrminale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TERMINALID
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.tipoagente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Agente (PF/PG)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOAGENTE
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.tiposv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Canale Distributivo (SV)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOSV
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+'xnadip.valcompl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Valutazione Visita Compliance
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='VALCOMPL
+state=3
+table_name='xnadip
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'xnadip.abicabsara
+[]
+'xnadip.agaccode
+[]
+'xnadip.agente
+[]
+'xnadip.ageregio
+[]
+'xnadip.anomoper
+[]
+'xnadip.cab
+[]
+'xnadip.cab2
+[]
+'xnadip.cap
+[]
+'xnadip.categ01
+[]
+'xnadip.categ02
+[]
+'xnadip.categ03
+[]
+'xnadip.categ04
+[]
+'xnadip.categ05
+[]
+'xnadip.categoria
+[]
+'xnadip.codage
+[]
+'xnadip.coddip
+[]
+'xnadip.codfisc
+[]
+'xnadip.codiceaams
+[]
+'xnadip.codloc
+[]
+'xnadip.concessione
+[]
+'xnadip.datafine
+[]
+'xnadip.dataini
+[]
+'xnadip.dataprof
+[]
+'xnadip.desccit
+[]
+'xnadip.descriz
+[]
+'xnadip.domicilio
+[]
+'xnadip.flgatt
+[]
+'xnadip.flgnoaua
+[]
+'xnadip.flgwupos
+[]
+'xnadip.idbase
+[]
+'xnadip.idprog
+[]
+'xnadip.macroagente
+[]
+'xnadip.nazagente
+[]
+'xnadip.numcivico
+[]
+'xnadip.nuovo
+[]
+'xnadip.opxsosage
+[]
+'xnadip.opxsoscli
+[]
+'xnadip.partiva
+[]
+'xnadip.provincia
+[]
+'xnadip.risglob
+[]
+'xnadip.serrimden
+[]
+'xnadip.telefono
+[]
+'xnadip.terminalid
+[]
+'xnadip.tipoagente
+[]
+'xnadip.tiposv
+[]
+'xnadip.valcompl
+[]
+}
+*--*

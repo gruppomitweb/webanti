@@ -1,0 +1,61 @@
+﻿* --- Resource Vers. 0.9
+arpg_esiti_agg
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:30
+description='Import dati da esiti Entratel
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={}
+modified_on=#2024-05-10 18:25:00
+module_name='
+name='arpg_esiti_agg
+state=1
+type='page
+used_resource_keys={
+'Hyperlinks
+[
+'arrt_imp_esiti
+'arrt_allinea_aerighe
+]
+'Routines
+[
+'arfn_gokprintesiti
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_esiti_agg|Error|core::document|Update dependencies|Resource "sp_huploadfile" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:00
+message='Resource "sp_huploadfile" not found.
+resource_key='arpg_esiti_agg
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_esiti_agg|Error|core::document|Update dependencies|Resource "arrt_import_fileae_esiti" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:00
+message='Resource "arrt_import_fileae_esiti" not found.
+resource_key='arpg_esiti_agg
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

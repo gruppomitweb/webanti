@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Lista Operazioni Extraconto Agenzia Entrate (Primo Invio) -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_saldi_opex_r||version||4.6||title||Lista Operazioni Extraconto Agenzia Entrate (Primo Invio)||query||qbe_saldi_opex_r||font||Tahoma||font_size||7||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-02-17||date_rev||2014-05-28||form_class|| ||grid_dx||0||grid_dy||0||grid_show||0||grid_use||0||snaplines_show||1||language|| ||merge||false||modcnt||5||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding|| ||hsl||false||lock_items||false||maxcount||18||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||65||uid||MMMCNLLCEG||sequence||4||bb_sequence||2||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||104||uid||VWNTHJWXSF||sequence||11||bb_sequence||3||page||1|||type||Group_top||comment||group0||exp||True||name||group0||y||86||uid||TXOADAPXHP||sequence||13||bb_sequence||20||page||1||reprint_header||true|||type||Group_down||comment||group0||exp||True||name||group0||y||103||uid||VHLVXVCCYQ||sequence||12||bb_sequence||19||page||1||reprint_header||true|||type||Box||name||Box0||x||8||y||7||w||1066||h||35||uid||BDESECFMJB||sequence||1||page||1||bb_border_colour||false||border_width||1|||type||Label||value||Errori Riscontrati Calcolo Saldi Operazioni Extraconto||text_type||constant||name||label1||uid||OVQRSCQMAM||page||1||x||16||y||12||w||566||h||26||sequence||2||global_font||false||font||Tahoma||font_size||14||font_weight||bold|||type||Label||value||&#39;Anno di riferimento: &#39;+Str(w_annorif,4,0)||text_type||expression||name||label2||uid||YNYVQPNCAL||output_name||Anno_Riferimento||page||1||x||8||y||46||w||952||h||16||sequence||3||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Codice Soggetto||text_type||constant||name||label3||uid||NADHBSACUU||page||1||x||8||y||67||w||92||h||16||sequence||5||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Intestazione||text_type||constant||name||label4||uid||CISYPCNQJN||page||1||x||144||y||67||w||80||h||16||sequence||6||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||CodiceFiscale||text_type||constant||name||label3_18||uid||OUVRUPJJOH||page||1||x||550||y||67||w||92||h||16||sequence||5||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box5||x||8||y||84||w||1068||h||0||uid||VMBLDMAMKK||sequence||7||page||1||bb_border_colour||false||border_width||1|||type||Expr||exp||c_CONNES||len||16||dec||0||name||expr6||uid||EBQZAUCCAF||output_name||Codice||page||1||x||8||y||88||w||128||h||14||sequence||8||global_font||false||font||Tahoma||font_size||7||font_weight||normal|||type||Expr||exp||c_MSGELAB||len||120||dec||0||name||expr8||uid||UFBUTQUQWA||output_name||Errore||page||1||x||688||y||88||w||386||h||14||sequence||10||global_font||false||font||Tahoma||font_size||7||font_weight||normal|||type||Expr||exp||c_CODFISC||len||16||dec||0||name||expr6_17||uid||COKRUNVJZJ||output_name||Codice_Fiscale||page||1||x||550||y||88||w||128||h||14||sequence||8||global_font||false||font||Tahoma||font_size||7||font_weight||normal|||type||Expr||exp||c_RAGSOC||len||70||dec||0||name||expr7||uid||YPYDVENGUM||output_name||Nominativo||page||1||x||144||y||88||w||400||h||14||sequence||9||global_font||false||font||Tahoma||font_size||7||font_weight||normal|||type||Box||name||Box9||x||7||y||106||w||1069||h||0||uid||ALIXGKXVVP||sequence||14||page||1||bb_border_colour||false||border_width||1|||type||Label||value||&#39;Data: &#39;+arfn_fdate(Date())||text_type||expression||name||label10||uid||JYALFCRFEE||output_name||Data_Report||page||1||x||7||y||108||w||165||h||16||sequence||15||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,5))||text_type||expression||name||label11||uid||PRLPKWQQVB||output_name||Numero_Pagina||page||1||x||665||y||108||w||405||h||16||sequence||16||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal||| -->
+
+<REPORT NAME="arrp_saldi_opex_r" TITLE="Lista Operazioni Extraconto Agenzia Entrate (Primo Invio)" QUERY="qbe_saldi_opex_r" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="7" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_saldi_opex_r.CONNES" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_saldi_opex_r.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_saldi_opex_r.MSGELAB" TYPE="C" LEN="120" DEC="0" />
+    <FIELD NAME="qbe_saldi_opex_r.CODFISC" TYPE="C" LEN="16" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="65" EXPRESSION="Page header">
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="7" X="8" YY="42" XX="1074"
+                    ALIGN="L"
+                    UID="BDESECFMJB" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="Errori Riscontrati Calcolo Saldi Operazioni Extraconto" EXPRTYPE="constant"
+                    Y="12" X="16" YY="38" XX="582"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="14"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="BDESECFMJB"/>
+              <ITEM OBJ="stringa" NAME="&#39;Anno di riferimento: &#39;+Str(w_annorif,4,0)" EXPRTYPE="expression"
+                    Y="46" X="8" YY="62" XX="960"
+                    SYMNAME="Anno_Riferimento"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="20" FOOTH="0" SYMNAME="" UID="TXOADAPXHP" TOP="85" BOTTOM="101" EXPRESSION="True" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="true" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+              <ITEM OBJ="stringa" NAME="Codice Soggetto" EXPRTYPE="constant"
+                    Y="1" X="8" YY="17" XX="100"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="CodiceFiscale" EXPRTYPE="constant"
+                    Y="1" X="550" YY="17" XX="642"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Intestazione" EXPRTYPE="constant"
+                    Y="1" X="144" YY="17" XX="224"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="18" X="8" XX="1077" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+          <SECTION TYPE="group" HEADH="16" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="espressione" NAME="c_CONNES" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="8" YY="15" XX="136"
+                            SYMNAME="Codice"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="550" YY="15" XX="678"
+                            SYMNAME="Codice_Fiscale"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="144" YY="15" XX="544"
+                            SYMNAME="Nominativo"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_MSGELAB" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="688" YY="15" XX="1074"
+                            SYMNAME="Errore"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            LEN="120"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="101" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="7" XX="1077" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="3" X="7" YY="19" XX="172"
+                    SYMNAME="Data_Report"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,5))" EXPRTYPE="expression"
+                    Y="3" X="665" YY="19" XX="1070"
+                    SYMNAME="Numero_Pagina"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

@@ -1,0 +1,113 @@
+ 1
+"Trasferimento da Frazionate a Operazioni anche stampa"
+"tmp_elenco"
+"tmp_elenco"
+ 31
+ 26
+*
+ 10
+"ID della frazionata"
+"tmp_elenco.idbase"
+"idbase"
+"C"
+ 10
+ 0
+*
+"N° Progressivo"
+"tmp_elenco.numprog"
+"numprog"
+"C"
+ 11
+ 0
+*
+"Data Operazione"
+"tmp_elenco.dataope"
+"dataope"
+"D"
+ 8
+ 0
+*
+"Cliente Occasionale"
+"tmp_elenco.connescli"
+"connescli"
+"C"
+ 16
+ 0
+*
+"Rapporto Continuativo"
+"tmp_elenco.rapporto"
+"rapporto"
+"C"
+ 25
+ 0
+*
+"Totale Importo"
+"[CASE(valuta,ý242ý,totlire/100,totlire)]"
+"totlire"
+"Numeric"
+ 15
+ 2
+*
+"Totale contanti"
+"[CASE(valuta,ý242ý,totcont/100,totcont)]"
+"totcont"
+"Numeric"
+ 15
+ 2
+*
+"Segno (D/A)"
+"tmp_elenco.segno"
+"segno"
+"C"
+ 1
+ 0
+*
+"Divisa"
+"tmp_elenco.valuta"
+"valuta"
+"C"
+ 3
+ 0
+*
+"Data Operazione"
+"tmp_elenco.dataope"
+"dataoper"
+"Date"
+ 8
+ 0
+*
+ 0
+ 0
+ 1
+"Data Operazione"
+"tmp_elenco.dataope"
+"Ascending"
+*
+ 0
+ 0
+ 2
+"w_DaDatOpe"
+"Data Operazione"
+"Date"
+"8"
+"0"
+""
+*
+"w_ADatOpe"
+"Data Operazione"
+"Date"
+"8"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.t.
+*

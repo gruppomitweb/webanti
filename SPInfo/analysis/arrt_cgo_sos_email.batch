@@ -1,0 +1,47 @@
+﻿* --- Resource Vers. 0.9
+arrt_cgo_sos_email
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:32
+description='Invia Email per nuova SOS
+file_modified_on=#2024-02-27 16:03:06
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:09
+module_name='
+name='arrt_cgo_sos_email
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'anadip.coddip
+'anadip.descriz
+]
+'Libraries
+[
+'Utilities<painter>
+'MailLibrary<painter>
+]
+'Routines
+[
+'arfn_fdate
+'arrt_writelog
+]
+'Tables
+[
+'anadip<table>
+'cgo_sos<table>
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

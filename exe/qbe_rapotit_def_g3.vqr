@@ -1,0 +1,256 @@
+ 4
+"Informazioni su rapporti"
+"rapotit"
+"rapotit"
+ 0
+ 0
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti(1)"
+"personbo1"
+"personbo"
+ 0
+ 0
+*
+ 14
+""
+"[CASE(rapotit.STATOREG,ý0ý,ý../images/grid_edit.gifý,ý1ý,ý../images/grid_edit.gifý,ý../images/grid_edit_x.gifý)]"
+"BTNEDT"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"[CASE(rapotit.STATOREG,ý0ý,ý../images/grid_delete.gifý,ý1ý,ý../images/grid_delete.gifý,ý../images/grid_delete_x.gifý)]"
+"BTNDEL"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato Registrazione"
+"[CASE(rapotit.STATOREG,ý0ý,ý../images/stato01.gifý,ý2ý,ý../images/stato2.gifý,ý3ý,ý../images/stato3.gifý,ý1ý,ý../images/stato01.gifý,ýý)]"
+"STATOREG"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Inizio / Fine Rapporto"
+"rapotit.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Registrazione"
+"rapotit.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Numero Progressivo"
+"rapotit.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"idbase"
+"rapotit.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato Registrazione"
+"rapotit.STATOREG"
+"STATO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Informazione"
+"rapotit.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DES1"
+"C"
+ 90
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"rapotit.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Soggetto Operante Conto Terzi"
+"rapotit.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ragione Sociale"
+"personbo1.RAGSOC"
+"RAGSOC1"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 3
+"Tipo Registrazione(Tipo Informazione)"
+"tbtipreg.CODICE=rapotit.TIPOOPRAP"
+"Right outer"
+"tbtipreg"
+"rapotit"
+*
+"Clienti"
+"personbo.CONNES=rapotit.CONNESCLI"
+"Right outer"
+"personbo"
+"rapotit"
+*
+"Titolari"
+"personbo1.CONNES=rapotit.CONNESOPER"
+"Right outer"
+"personbo1"
+"rapotit"
+*
+ 1
+"rapotit.CODDIPE"
+""
+"="
+"[GLOBALVAR(gCodDip)]"
+"AND"
+""
+"Upper([GLOBALVAR(gAzienda)]) <> ýZENITHý"
+*
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 19
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"vE6%2BFLsgr%60%17%05%05%19%7E%7Cf%08TG%248%27C%25AK_7S1512%2B%21%3BU%3FM6%28%40KDK%3F%21%40X%3C179%100%3BqFE%21%3B%2FZ%23%3B%1C+7D%290OOLU0%2735SKD%22X.S%3D+%1CQP%5D%22o%5B%3B%3F%15%40%1B1%4002%2CG*%3EI%175*NhM%24%2FE-%40E%26*Z%5EMM.4%2339C%02%3A%3C0*UXC5%3C%27%5BTZ%3B%1A+J%5BF%19%3FBJGDRXW%5D%25A%21W%23%229%5CX%7BG1%2B5_ODI%23*%3CUB%3CO%2CF%29QBsJ%5B*%3B2-3%23%25%256Y6F87PJTV%1BT5%2CK%24%23P%3E%40+n%40A%2CA%3F%19-%3DYX%25P.%3D%1E2%24%0AJ_E%3BU%2CUF-%3D%00"
+"%26-MO7_DJ%2BU%29N7.%22EK%40R6Y%11%26%29_BNwG%7Ek%13%01%1B%1B%02%1C%11%0D%28%40XU.%168%3CNM5-%28B8%26%19%3DH_%5BG2.c-JN%3E6DQS%23kBC%24D%3DT%27Q4-%3D%2FQL9%24GK%5DVnpMTC%3D4Z%212%3DYVS6%2C%21+%3B*%40Y+X%27%3A%107%25%2F%3BFMW%5Da%21JD%18%23%27%29%21IBNnFCN%25T%5ELC%29K%5C%3B%22%24RLTFA%5C%3F%21L%3DIWA29PGNJ%1D%2CGQCN87ZC%5CE%1A%28ID%23K%5E%2BQ%06%2C-L%283%2B%26wDE8%2684TVNTG.%26S%10%236_H%5C%22QHI%21%149E01%5C7%27RHE%3B2%3EZML5%2B60_%24%3B%3B%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

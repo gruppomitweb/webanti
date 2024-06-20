@@ -1,0 +1,47 @@
+﻿* --- Resource Vers. 0.9
+arrt_viewlog
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Visualizza log SID
+file_modified_on=#2023-03-15 08:30:51
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:31
+module_name='
+name='arrt_viewlog
+state=1
+type='batch
+used_resource_keys={
+'Tables
+[
+'intermbo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_viewlog|Error|core::document|Update dependencies|Resource "viewdoc" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:31
+message='Resource "viewdoc" not found.
+resource_key='arrt_viewlog
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

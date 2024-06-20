@@ -1,0 +1,59 @@
+﻿* --- Resource Vers. 0.9
+imp_newtabs_mt
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Import ai valori delle nuove tabelle
+file_modified_on=#2019-10-17 08:06:40
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='imp_newtabs_mt
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'mtstati.codsta
+'mtstati.descri
+'mtstati.sigla
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'personbo<table>
+'tbcitta<table>
+'tbtipint<table>
+'cauanainter<table>
+'tbtipreg<table>
+'tbstati<table>
+'tbvalute<table>
+'tbcauana<table>
+'tbcausin<table>
+'aefiles<table>
+'tbsetsin<table>
+'inter2bo<table>
+'cpazi<table>
+'mtstati<table>
+]
+}
+I
+*--*
+￼[]
+*--*

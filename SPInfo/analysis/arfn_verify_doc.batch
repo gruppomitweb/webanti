@@ -1,0 +1,39 @@
+﻿* --- Resource Vers. 0.9
+arfn_verify_doc
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Controllo documento
+file_modified_on=#2023-09-26 10:47:12
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:54
+module_name='
+name='arfn_verify_doc
+state=1
+type='batch
+used_resource_keys={
+'Libraries
+[
+'FileLibMit<project>
+]
+'Routines
+[
+'arfn_activate_doc
+'arfn_verify_doc
+]
+'Tables
+[
+'cgo_tipall<table>
+]
+}
+I
+*--*
+￼[]
+*--*

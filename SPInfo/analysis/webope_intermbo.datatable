@@ -1,0 +1,771 @@
+﻿* --- Resource Vers. 0.9
+webope_intermbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='WEBOPE intermbo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='webope_intermbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'webope_intermbo.codice
+'webope_intermbo.tipooper
+'webope_intermbo.ragsoc
+'webope_intermbo.cognome
+'webope_intermbo.nome
+'webope_intermbo.domicilio
+'webope_intermbo.codfisc
+'webope_intermbo.datanasc
+'webope_intermbo.nascomun
+'webope_intermbo.desccit
+'webope_intermbo.provincia
+'webope_intermbo.paese
+'webope_intermbo.cap
+'webope_intermbo.partiva
+'webope_intermbo.note
+'webope_intermbo.sesso
+'webope_intermbo.flag1
+'webope_intermbo.flag2
+'webope_intermbo.flag3
+'webope_intermbo.supplem
+'webope_intermbo.scadpwd
+'webope_intermbo.actlog
+'webope_intermbo.pathappl
+'webope_intermbo.flgccf
+'webope_intermbo.flgsuic
+'webope_intermbo.flgcnd
+'webope_intermbo.urlappl
+'webope_intermbo.tipimp
+'webope_intermbo.codicegln
+'webope_intermbo.bpcodpat
+'webope_intermbo.bpentseg
+'webope_intermbo.serveremail
+'webope_intermbo.utenteemail
+'webope_intermbo.passwdemail
+'webope_intermbo.mailemail
+'webope_intermbo.sslemail
+'webope_intermbo.portemail
+'webope_intermbo.pathimport
+'webope_intermbo.destemail
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'webope_intermbo.actlog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Attivazione Log
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ACTLOG
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.bpcodpat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Partner
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='BPCODPAT
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.bpentseg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Ente Segnalatore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='BPENTSEG
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CAP
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODFISC
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.codice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODICE
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.codicegln
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='GLN Segnalante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODICEGLN
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.cognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Cognome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='COGNOME
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.datanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATANASC
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESCCIT
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.destemail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Destinatario Email Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESTEMAIL
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Indirizzo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DOMICILIO
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.flag1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLAG1
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.flag2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLAG2
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.flag3
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLAG3
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.flgccf
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Calcolo Automatico Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLGCCF
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.flgcnd
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Controllo Numero Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLGCND
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.flgsuic
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Segnalazione a UIC
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLGSUIC
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.mailemail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='EMail
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MAILEMAIL
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.nascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Comune di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NASCOMUN
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.nome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NOME
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.note
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NOTE
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PAESE
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.partiva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Partita IVA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PARTIVA
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.passwdemail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Password per Invio EMAIL
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PASSWDEMAIL
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.pathappl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Path Completa Applicazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PATHAPPL
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.pathimport
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Path File Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PATHIMPORT
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.portemail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Porta Server Email
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PORTEMAIL
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PROVINCIA
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAGSOC
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.scadpwd
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Numero mesi scadenza Password
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SCADPWD
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.serveremail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Server per Invio Email
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SERVEREMAIL
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.sesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SESSO
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.sslemail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Usa SSL
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SSLEMAIL
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.supplem
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SUPPLEM
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.tipimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPIMP
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.tipooper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Operatore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOOPER
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.urlappl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='URL Applicazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='URLAPPL
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+'webope_intermbo.utenteemail
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='User per Invio EMAIL
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='UTENTEEMAIL
+state=3
+table_name='webope_intermbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'webope_intermbo.actlog
+[]
+'webope_intermbo.bpcodpat
+[]
+'webope_intermbo.bpentseg
+[]
+'webope_intermbo.cap
+[]
+'webope_intermbo.codfisc
+[]
+'webope_intermbo.codice
+[]
+'webope_intermbo.codicegln
+[]
+'webope_intermbo.cognome
+[]
+'webope_intermbo.datanasc
+[]
+'webope_intermbo.desccit
+[]
+'webope_intermbo.destemail
+[]
+'webope_intermbo.domicilio
+[]
+'webope_intermbo.flag1
+[]
+'webope_intermbo.flag2
+[]
+'webope_intermbo.flag3
+[]
+'webope_intermbo.flgccf
+[]
+'webope_intermbo.flgcnd
+[]
+'webope_intermbo.flgsuic
+[]
+'webope_intermbo.mailemail
+[]
+'webope_intermbo.nascomun
+[]
+'webope_intermbo.nome
+[]
+'webope_intermbo.note
+[]
+'webope_intermbo.paese
+[]
+'webope_intermbo.partiva
+[]
+'webope_intermbo.passwdemail
+[]
+'webope_intermbo.pathappl
+[]
+'webope_intermbo.pathimport
+[]
+'webope_intermbo.portemail
+[]
+'webope_intermbo.provincia
+[]
+'webope_intermbo.ragsoc
+[]
+'webope_intermbo.scadpwd
+[]
+'webope_intermbo.serveremail
+[]
+'webope_intermbo.sesso
+[]
+'webope_intermbo.sslemail
+[]
+'webope_intermbo.supplem
+[]
+'webope_intermbo.tipimp
+[]
+'webope_intermbo.tipooper
+[]
+'webope_intermbo.urlappl
+[]
+'webope_intermbo.utenteemail
+[]
+}
+*--*

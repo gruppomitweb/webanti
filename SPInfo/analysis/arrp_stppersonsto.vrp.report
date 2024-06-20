@@ -1,0 +1,41 @@
+﻿* --- Resource Vers. 0.9
+arrp_stppersonsto.vrp
+￼Iresource.ResourceReport
+created_on=#2024-05-10 18:24:30
+description='Stampa Variazioni Persone / Societï¿½ / Fornitori (Report)
+file_modified_on=#2023-04-19 17:14:08
+location='JavaServletSrc\
+measures={}
+modified_on=#2024-05-10 18:25:05
+module_name='
+name='arrp_stppersonsto.vrp
+state=1
+type='report
+used_resource_keys={
+'Queries
+[
+'qbe_stppersonbo2.vqr
+'qbe_titolare_collegato.vqr
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrp_stppersonsto.vrp|Error|core::document|Update dependencies|Resource "qbe_stovaria.vqr" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:05
+message='Resource "qbe_stovaria.vqr" not found.
+resource_key='arrp_stppersonsto.vrp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

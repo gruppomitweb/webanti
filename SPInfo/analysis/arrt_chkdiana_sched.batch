@@ -1,0 +1,54 @@
+﻿* --- Resource Vers. 0.9
+arrt_chkdiana_sched
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:32
+description='Crea il file campione.txt (Schedulato)
+file_modified_on=#2022-04-19 18:50:15
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:10
+module_name='
+name='arrt_chkdiana_sched
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbprcbck_param.ppcodice
+'tbprcbck_param.cprownum
+'tbprcbck_param.ppdescri
+'tbprcbck_param.pptippar
+'tbprcbck_param.ppvalpar
+'tbprcbck.pbcodice
+'tbprcbck.pbattivo
+]
+'Libraries
+[
+'FileLibMit<project>
+'LibreriaMit<project>
+]
+'Others
+[
+'arfn_fdate
+]
+'Routines
+[
+'arrt_chkdiana_sched
+]
+'Tables
+[
+'tbprcbck<table>
+'tbprcbck_param<table>
+]
+}
+I
+*--*
+￼[]
+*--*

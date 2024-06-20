@@ -1,0 +1,40 @@
+﻿* --- Resource Vers. 0.9
+arrt_ae_opex_redelete
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Reimposta dati annullamento famiglia
+file_modified_on=#2018-09-07 16:16:34
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_ae_opex_redelete
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.annulla
+'opextrbo.dataannu
+'opextrbo.inviato
+'opextrbo.datainvio
+'opextrbo.datamodi
+]
+'Tables
+[
+'opextrbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

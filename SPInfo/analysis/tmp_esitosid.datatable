@@ -1,0 +1,220 @@
+﻿* --- Resource Vers. 0.9
+tmp_esitosid<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Stampa Ricevuta SID
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_esitosid
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_esitosid.annorif
+'tmp_esitosid.numprog
+'tmp_esitosid.protocollo
+'tmp_esitosid.fileprot
+'tmp_esitosid.txtmsg
+'tmp_esitosid.tiporiga
+'tmp_esitosid.rapporto
+'tmp_esitosid.coderr
+'tmp_esitosid.tipoanom
+'tmp_esitosid.datoerr
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_esitosid.annorif
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Anno Riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ANNORIF
+state=3
+table_name='tmp_esitosid
+type='field
+used_resource_keys={}
+I
+'tmp_esitosid.coderr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODERR
+state=3
+table_name='tmp_esitosid
+type='field
+used_resource_keys={}
+I
+'tmp_esitosid.datoerr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Dato Errato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATOERR
+state=3
+table_name='tmp_esitosid
+type='field
+used_resource_keys={}
+I
+'tmp_esitosid.fileprot
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='File di Riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FILEPROT
+state=3
+table_name='tmp_esitosid
+type='field
+used_resource_keys={}
+I
+'tmp_esitosid.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Numero riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMPROG
+state=3
+table_name='tmp_esitosid
+type='field
+used_resource_keys={}
+I
+'tmp_esitosid.protocollo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Protocollo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PROTOCOLLO
+state=3
+table_name='tmp_esitosid
+type='field
+used_resource_keys={}
+I
+'tmp_esitosid.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rapporto/Cliente Occasionale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPPORTO
+state=3
+table_name='tmp_esitosid
+type='field
+used_resource_keys={}
+I
+'tmp_esitosid.tipoanom
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Anomalia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOANOM
+state=3
+table_name='tmp_esitosid
+type='field
+used_resource_keys={}
+I
+'tmp_esitosid.tiporiga
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPORIGA
+state=3
+table_name='tmp_esitosid
+type='field
+used_resource_keys={}
+I
+'tmp_esitosid.txtmsg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Testo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TXTMSG
+state=3
+table_name='tmp_esitosid
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_esitosid.annorif
+[]
+'tmp_esitosid.coderr
+[]
+'tmp_esitosid.datoerr
+[]
+'tmp_esitosid.fileprot
+[]
+'tmp_esitosid.numprog
+[]
+'tmp_esitosid.protocollo
+[]
+'tmp_esitosid.rapporto
+[]
+'tmp_esitosid.tipoanom
+[]
+'tmp_esitosid.tiporiga
+[]
+'tmp_esitosid.txtmsg
+[]
+}
+*--*

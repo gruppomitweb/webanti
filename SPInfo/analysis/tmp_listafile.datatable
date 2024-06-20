@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+tmp_listafile<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Lista file per prelievo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_listafile
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_listafile.nomefile
+'tmp_listafile.priorita
+'tmp_listafile.hyperlynk
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_listafile.hyperlynk
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='hyperlynk
+state=3
+table_name='tmp_listafile
+type='field
+used_resource_keys={}
+I
+'tmp_listafile.nomefile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nome file da importare
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nomefile
+state=3
+table_name='tmp_listafile
+type='field
+used_resource_keys={}
+I
+'tmp_listafile.priorita
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Priorità del file da importare
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='priorita
+state=3
+table_name='tmp_listafile
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_listafile.hyperlynk
+[]
+'tmp_listafile.nomefile
+[]
+'tmp_listafile.priorita
+[]
+}
+*--*

@@ -1,0 +1,170 @@
+﻿* --- Resource Vers. 0.9
+arrt_terne_saldi
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Import Terne Riferimento Saldi Agenzia Entrate (Routine)
+file_modified_on=#2019-10-17 08:06:40
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:30
+module_name='
+name='arrt_terne_saldi
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aederig.abbsaldi
+'aeoprig.abbsaldi
+'aerighe.abbsaldi
+'tmp_list_imprich.nomefile
+'aecanc.aprog
+'aecanc.afile
+'aecanc.progres
+'aecanc.idfile
+'aedecanc.aprog
+'aedecanc.afile
+'aedecanc.progres
+'aedecanc.idfile
+'aeopcanc.aprog
+'aeopcanc.afile
+'aeopcanc.progres
+'aeopcanc.idfile
+'tmp_terne_saldi.tipoter
+'tmp_terne_saldi.rapporto
+'tmp_terne_saldi.codfisc
+'tmp_terne_saldi.dbini
+'tmp_terne_saldi.dbfin
+'tmp_terne_saldi.coint
+'tmp_terne_saldi.tipoag
+'tmp_terne_saldi.flgval
+'tmp_terne_saldi.flgdel
+'tmp_terne_saldi.tipoerr
+'aeopcanc.idbase
+'aeoprig.afile
+'aeoprig.aprog
+'aeoprig.rapporto
+'aeoprig.idbase
+'aeoprig.coint
+'aeoprig.tipoag
+'aeoprig.adata
+'aeoprig.cdata
+'aeoprig.connesint
+'aederig.afile
+'aederig.aprog
+'aederig.rapporto
+'aederig.idbase
+'aederig.coint
+'aederig.tipoag
+'aederig.adata
+'aederig.cdata
+'aederig.connesint
+'aerighe.afile
+'aerighe.aprog
+'aerighe.rapporto
+'aerighe.idbase
+'aerighe.adata
+'aerighe.cdata
+'aerighe.connesint
+'aetesta.rapporto
+'aetesta.coint
+'aetesta.tipoag
+'tmp_terne_saldi.tipoterna
+'tmp_terne_saldi.idfile
+'tmp_terne_saldi.prgrec
+'tmp_terne_saldi.tiprap
+'tmp_terne_saldi.datini
+'tmp_terne_saldi.datfin
+'tmp_terne_saldi.codsog
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+'ReportLibrary<painter>
+]
+'Queries
+[
+'qbe_chk_terne_r.vqr
+'qbe_esito_ts_conta.vqr
+]
+'Routines
+[
+'arfn_delzero
+'arfn_fdatetime
+]
+'Tables
+[
+'aerighe<table>
+'aederig<table>
+'aeoprig<table>
+'aetesta<table>
+'tbesitoae<table>
+'tmp_terne_saldi<table>
+'tmp_list_imprich<table>
+'aeopcanc<table>
+'aecanc<table>
+'aedecanc<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_terne_saldi|Error|core::document|Update dependencies|Field "aederig.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:30
+message='Field "aederig.1" not found.
+resource_key='arrt_terne_saldi
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_terne_saldi|Error|core::document|Update dependencies|Field "aeoprig.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:30
+message='Field "aeoprig.1" not found.
+resource_key='arrt_terne_saldi
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_terne_saldi|Error|core::document|Update dependencies|Field "aerighe.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:30
+message='Field "aerighe.1" not found.
+resource_key='arrt_terne_saldi
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

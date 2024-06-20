@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="160418832">
+  <CodifyName>arpg_modopen3</CodifyName>
+  <Name>arpg_modopen3.pagedef</Name>
+  <Title>Aggiorna i dati di apertura o intestatario</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="207645607"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_modopen3_usr_1</JPG>
+    <Item type="variabile" x1="136" y1="14" x2="214" y2="34">
+      <Name LinkID="135986292">datarett</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="626" y1="9" x2="668" y2="40">
+      <Name LinkID="60804112">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>window.close()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="578" y1="9" x2="620" y2="40">
+      <Name LinkID="60804112">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_modopen3</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Esegui aggiornamento dati</Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

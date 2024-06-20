@@ -1,0 +1,48 @@
+﻿* --- Resource Vers. 0.9
+arrt_allinea_anagrafiche_report
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Crea stampe in base al tipo di errore
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_allinea_anagrafiche_report
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_aafiles.aatiperr
+'tmp_aafiles.aanomrep
+]
+'Hyperlinks
+[
+'arpg_allinea_anagrafiche_noreport
+'arpg_allinea_anagrafiche_report
+]
+'Libraries
+[
+'ReportLibrary<painter>
+]
+'Queries
+[
+'qbe_max_alline_anag.vqr
+]
+'Tables
+[
+'tmp_aafiles<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,106 @@
+﻿* --- Resource Vers. 0.9
+wucodes<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Codici WUCODES
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='wucodes
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'wucodes.wucodsta
+'wucodes.wudescri
+'wucodes.wucodiso
+'wucodes.wucoduif
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'wucodes.wucodiso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codifica ISO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCODISO
+state=3
+table_name='wucodes
+type='field
+used_resource_keys={}
+I
+'wucodes.wucodsta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCODSTA
+state=3
+table_name='wucodes
+type='field
+used_resource_keys={}
+I
+'wucodes.wucoduif
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codifica UIF
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUCODUIF
+state=3
+table_name='wucodes
+type='field
+used_resource_keys={}
+I
+'wucodes.wudescri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WUDESCRI
+state=3
+table_name='wucodes
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'wucodes.wucodiso
+[]
+'wucodes.wucodsta
+[]
+'wucodes.wucoduif
+[]
+'wucodes.wudescri
+[]
+}
+*--*

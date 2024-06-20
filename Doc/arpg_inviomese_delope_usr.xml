@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="187441663">
+  <CodifyName>arpg_inviomese_delope</CodifyName>
+  <Name>arpg_inviomese_delope.pagedef</Name>
+  <Title>Estrazione Dati per Agenzia Entrate (Deleghe - Oper. Extra)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="249800266"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_inviomese_delope_usr_1</JPG>
+    <Item type="variabile" x1="288" y1="140" x2="744" y2="161">
+      <Name LinkID="98817528">iniz</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="288" y1="196" x2="744" y2="217">
+      <Name LinkID="68954450">seco</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="288" y1="252" x2="354" y2="272">
+      <Name LinkID="182277005">dadata</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="456" y1="252" x2="522" y2="272">
+      <Name LinkID="232608653">a_data</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="344" y1="294" x2="384" y2="322">
+      <Name LinkID="249814529">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>Elabora()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="400" y1="294" x2="440" y2="322">
+      <Name LinkID="249814529">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="296" y1="84" x2="362" y2="104">
+      <Name LinkID="175526797">dadatag</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="464" y1="84" x2="530" y2="104">
+      <Name LinkID="225858445">a_datag</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="8" y1="84" x2="112" y2="105">
+      <Name LinkID="142244650">flgglob</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="744" y1="77" x2="784" y2="105">
+      <Name LinkID="249814529">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_inviomese_delope_globale</Hyperlink>
+      <HyperlinkOpenOn>Frame</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

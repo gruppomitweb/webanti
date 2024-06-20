@@ -1,0 +1,926 @@
+ 10
+"Appoggio per stampa operazioni"
+"tmp_stpoperazioni"
+"tmp_stpoperazioni"
+ 0
+ 0
+*
+"Anagrafica Rapporti"
+"knarapbo"
+"knarapbo"
+ 0
+ 0
+*
+"Causali Sintetiche"
+"tbcausin"
+"tbcausin"
+ 0
+ 0
+*
+"Causali Analitiche"
+"tbcauana"
+"tbcauana"
+ 0
+ 0
+*
+"Divise"
+"tbvalute"
+"tbvalute"
+ 0
+ 0
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 0
+ 0
+*
+"Stati"
+"tbstati"
+"tbstati"
+ 0
+ 0
+*
+"Tipo Intermediario"
+"tbtipint"
+"tbtipint"
+ 0
+ 0
+*
+"Tipi Legami"
+"tbtipleg"
+"tbtipleg"
+ 0
+ 0
+*
+"Intermediari Controparte"
+"inter2bo"
+"inter2bo"
+ 0
+ 0
+*
+ 50
+"Data Operazione"
+"tmp_stpoperazioni.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Numero Progressivo"
+"tmp_stpoperazioni.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data registrazione"
+"tmp_stpoperazioni.DATAREG"
+"DATAREG"
+"D"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Causale Analitica"
+"tmp_stpoperazioni.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbcauana.DESCRI"
+"DESCRI"
+"C"
+ 165
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Causale Sintetica"
+"tmp_stpoperazioni.CODVOC"
+"CODVOC"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbcausin.DESCRIZ"
+"DESCRIZ"
+"C"
+ 165
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Totale Operazione"
+"[CASE(tmp_stpoperazioni.valuta,ý018ý,TOTLIRE,TOTLIRE/100)]"
+"IMPORTO"
+"N"
+ 15
+ 2
+ 0
+.f.
+""
+""
+.f.
+*
+"Divisa"
+"tmp_stpoperazioni.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbvalute.DESCRI"
+"DESCRI1"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato registrazione"
+"[CASE(tmp_stpoperazioni.STATOREG,ý2ý,ýCý,ý3ý,ýMý,ýAý)]"
+"STATOREG"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Totale Operazione"
+"[CASE(tmp_stpoperazioni.VALUTA,ý018ý,tmp_stpoperazioni.TOTLIRE,(tmp_stpoperazioni.TOTLIRE/100)*1936.27)]"
+"TOTLIRE"
+"N"
+ 15
+ 2
+ 0
+.f.
+""
+""
+.f.
+*
+"Totale Operazione"
+"[CASE(tmp_stpoperazioni.VALUTA,ý018ý,tmp_stpoperazioni.TOTLIRE/1936.27,tmp_stpoperazioni.TOTLIRE/100)]"
+"TOTEURO"
+"N"
+ 15
+ 2
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Operazione Completa"
+"tmp_stpoperazioni.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DES1"
+"C"
+ 90
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Segno"
+"tmp_stpoperazioni.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Cambio"
+"tmp_stpoperazioni.CAMBIO"
+"CAMBIO"
+"N"
+ 9
+ 4
+ 0
+.f.
+""
+""
+.f.
+*
+"di cui contanti"
+"[CASE(tmp_stpoperazioni.VALUTA,ý018ý,tmp_stpoperazioni.TOTCONT,tmp_stpoperazioni.TOTCONT/100)]"
+"TOTCONT"
+"N"
+ 15
+ 2
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Intermediario C/Parte"
+"tmp_stpoperazioni.CODINT2"
+"CODINT2"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Denominazione Intermediario C/Parte"
+"tmp_stpoperazioni.DESC2"
+"DESC2"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Intermediario C/Parte"
+"tmp_stpoperazioni.TIPOINT2"
+"TIPOINT2"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Provincia Intermediario C/Parte"
+"tmp_stpoperazioni.PROV2"
+"PROV2"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"CAB Intermediario C/Parte"
+"tmp_stpoperazioni.CODCAB2"
+"CODCAB2"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato Intermediario C/Parte"
+"tmp_stpoperazioni.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbstati.DESCRI"
+"DESCRI2"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbtipint.DESCRI"
+"DESCRI3"
+"C"
+ 80
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Idbase"
+"tmp_stpoperazioni.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Cliente Occasionale"
+"tmp_stpoperazioni.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Rapporto Collegato"
+"tmp_stpoperazioni.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"knarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Soggetto Operante Conto Terzi"
+"tmp_stpoperazioni.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Beneficiario"
+"tmp_stpoperazioni.CONNESBEN"
+"CONNESBEN"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Legame sogg. Operante"
+"tmp_stpoperazioni.TIPOLEG"
+"TIPOLEG"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbtipleg.DESCRIZ"
+"DESCRIZ1"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ragione Sociale Cliente Occasionale"
+"tmp_stpoperazioni.RAGCLI"
+"RAGCLI"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ragiore Sociale Operatore Conto Terzi"
+"tmp_stpoperazioni.RAGOPE"
+"RAGOPE"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"tmp_stpoperazioni.C_RAG"
+"C_RAG"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"tmp_stpoperazioni.C_STA"
+"C_STA"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"tmp_stpoperazioni.C_CTA"
+"C_CTA"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"tmp_stpoperazioni.C_CAB"
+"C_CAB"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"tmp_stpoperazioni.C_PRV"
+"C_PRV"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"tmp_stpoperazioni.C_IND"
+"C_IND"
+"C"
+ 35
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"tmp_stpoperazioni.C_CAP"
+"C_CAP"
+"C"
+ 5
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ragione Sociale"
+"[IIF([NOTEMPTYSTR(tmp_stpoperazioni.CODINT2)]<>0 and tmp_stpoperazioni.TIPOINT2<>ý12ý,inter2bo.RAGSOC,tmp_stpoperazioni.DESCINTER)]"
+"DESINTCON"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Frazionata (S/N)"
+"tmp_stpoperazioni.FLAGFRAZ"
+"FLAGFRAZ"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Collegamento Operazione Multiple"
+"tmp_stpoperazioni.COLLEG"
+"COLLEG"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo (O/F)"
+"tmp_stpoperazioni.ERR01"
+"ERR01"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Riferimento 1"
+"tmp_stpoperazioni.RIFIMP"
+"RIFIMP"
+"C"
+ 28
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Riferimento 2"
+"tmp_stpoperazioni.INFORM"
+"INFORM"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Lire Euro Valuta"
+"tmp_stpoperazioni.FLAGLIRE"
+"FLAGLIRE"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 9
+"Rapporti Continuativi"
+"knarapbo.RAPPORTO=tmp_stpoperazioni.RAPPORTO"
+"Right outer"
+"knarapbo"
+"tmp_stpoperazioni"
+*
+"Causali Sintetiche(Causale Sintetica)"
+"tbcausin.CODVOC=tmp_stpoperazioni.CODVOC"
+"Right outer"
+"tbcausin"
+"tmp_stpoperazioni"
+*
+"Divise(Divisa)"
+"tbvalute.CODVAL=tmp_stpoperazioni.VALUTA"
+"Right outer"
+"tbvalute"
+"tmp_stpoperazioni"
+*
+"Causali Analitiche(Causale Sintetica)"
+"tbcauana.CODCAU=tmp_stpoperazioni.CODANA and tbcauana.CAUSINT=tmp_stpoperazioni.CODVOC"
+"Right outer"
+"tbcauana"
+"tmp_stpoperazioni"
+*
+"Tipo Registrazione(Tipo Operazione Completa)"
+"tbtipreg.CODICE=tmp_stpoperazioni.TIPOOPRAP"
+"Right outer"
+"tbtipreg"
+"tmp_stpoperazioni"
+*
+"Stati(Stato Intermediario C/Parte)"
+"tbstati.CODSTA=tmp_stpoperazioni.PAESE"
+"Right outer"
+"tbstati"
+"tmp_stpoperazioni"
+*
+"Tipo Intermediario"
+"tbtipint.TIPOINT=tmp_stpoperazioni.TIPOINT2"
+"Right outer"
+"tbtipint"
+"tmp_stpoperazioni"
+*
+"Tipi Legami(Tipo Legame sogg. Operante)"
+"tbtipleg.TIPLEG=tmp_stpoperazioni.TIPOLEG"
+"Right outer"
+"tbtipleg"
+"tmp_stpoperazioni"
+*
+"Intermediario Controparte"
+"inter2bo.CODINTER=tmp_stpoperazioni.CODINT2"
+"Right outer"
+"inter2bo"
+"tmp_stpoperazioni"
+*
+ 7
+"tmp_stpoperazioni.CDATOPE"
+""
+">="
+"?w_c_dadata"
+"AND"
+""
+""
+*
+"tmp_stpoperazioni.CDATOPE"
+""
+"<="
+"?w_c_adata"
+"AND"
+""
+""
+*
+"tmp_stpoperazioni.CONNESCLI"
+""
+">="
+"?w_daCodCli"
+"AND"
+""
+""
+*
+"tmp_stpoperazioni.CONNESCLI"
+""
+"<="
+"?w_aCodCli"
+"AND"
+""
+""
+*
+"operazbo.CODDIPE"
+""
+">="
+"?w_daCodDip"
+"AND"
+""
+""
+*
+"operazbo.CODDIPE"
+""
+"<="
+"?w_aCodDip"
+"AND"
+""
+""
+*
+"[AT([GLOBALVAR(gTipInter)],tbcauana.VALPERINT)]"
+""
+"<>"
+"ý0ý"
+"AND"
+""
+""
+*
+ 2
+"Data Operazione"
+"DATAOPE"
+"Ascending"
+*
+"Numero Progressivo"
+"NUMPROG"
+"Ascending"
+*
+ 0
+ 1
+ 11
+"w_stato"
+"Stato dellýoperazione da stampare"
+"C"
+"1"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_c_dadata"
+"Data Operazione"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_c_adata"
+"Data Operazione"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_daCodCli"
+"Cliente Occasionale"
+"C"
+"16"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_aCodCli"
+"Cliente Occasionale"
+"C"
+"16"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_DescAzi"
+"Ragione Sociale"
+"C"
+"70"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_daCodDip"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_aCodDip"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"tipo_arch"
+"Tipo Archivio (provvisorio, A.U.I.)"
+"C"
+"20"
+"0"
+""
+""
+""
+.f.
+*
+"fonte_arch"
+"Fonte (operazioni, frazionate)"
+"C"
+"20"
+"0"
+""
+""
+""
+.f.
+*
+"w_OrderBy"
+"Ordinamento"
+"C"
+"7"
+"0"
+"Remove"
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 43
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"N%2F0AR%5CLEK%3AAK8%29I%40%40%21%3BF1%3F0%1D%29M%29Z%5Cr2%3F%16%22O7%11%2B%05KDEP%3A%2C1%26LCO26D%3A15AOMKY%5BSK2%2BF2%03HW7%5C5A%3AIE+%29%24F2*1%16_*LEJ%5CN%26K*Y%3F6*F*O%05_.9%28%3A%2342R%29%40RH%04I0%40%3F%40MB%25PK+D7K.%2C%2B9Y%27AB_%4066-R.2NE*6_%13%2CO%5DXS%22M%27L%3EK4%1A%03%28%3FTB%40E3%1E*62GBF5%05%248099%25C%29W%5DML%29A6%2C%223%2B%25OSZWA%3CG3YA%40%18%5B%3D0%40G%40%225AS%3EXcY6L%3E%01E42GhK%3D%1EI3%29%5E%5C%3B%2C%5EAUHEO%00"
+"BNCL5mJJGMB%24%3C%2BLV%5EL%3AH9%3BALM5N%28DJ%5D%06HFK%009*Y-VIW5A*%3CADRN1-%01%3E66%5C7%5DJBY%3B%2C.4G%5B4%2C%24LBSMAJL0W%5CS%3A3%25%3BN%2B%2BJWHNJ%40W-%156-%5D-%22%3A%2BQT%3C%3D2L%27%2BLh+_%3F%5EF%3C1K7vS_W%3A05M3%5DO%2C%07O6%28%5C8+%10%3DT0ZE%5D%15_J2-LHBCYXCR%25%21BU5%23%5B%21N%2CE%21%3AC8S3G%26QNT%2FJC%26SW%29_sV%3DF+%3A%223%28%25%2F0%5BT%3D%2CC%27O6C6Z%3C.-%24%24V%3EM%28%3BCH%5D%40%1D8%2C%12%2B%06S8_lBGK5%22XN9R.6%10%3E%3E%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

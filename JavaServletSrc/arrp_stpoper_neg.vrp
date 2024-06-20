@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ReportDescription v4.8 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Negativa Operazioni AUI (Report) -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:[{"type":"report","name":"arrp_stpoper_neg","version":"4.8","title":"Stampa Negativa Operazioni AUI (Report)","query":"qbe_stpoper","font":"Arial","font_size":"9","font_weight":"normal","font_effect":"","picture_date":"","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"false","security_public":"false","dict_name":"","security_access":"true","security_roles":"","author":"","client":"","date_creat":"2010-03-08","date_rev":"2020-03-26","modcnt":"14","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":"","hsl":"false","lock_items":"false","maxcount":"55","rotation":"","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"131","uid":"IHFTMBDRAC","sequence":"1","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"507","uid":"QSWDEZFWJR","sequence":"2","page":"1"},{"type":"Group_top","comment":"group0","exp":"True","name":"group0","y":"132","uid":"TFIJGRVTEL","sequence":"4","page":"1"},{"type":"Group_down","comment":"group0","exp":"True","name":"group0","y":"506","uid":"YLUBRLPADM","sequence":"3","page":"1"},{"type":"Label","value":"\"SOCIETA': \" + LRTrim(DescAzi)","text_type":"expression","name":"label0","uid":"HYLJGTDDVD","page":"1","x":"6","y":"2","w":"719","h":"21","sequence":"24","global_font":"false","font":"Arial","font_size":"11","font_weight":"bold"},{"type":"Label","value":"stampa negativa","text_type":"constant","name":"label267","uid":"MIDKMDTPFJ","page":"1","x":"684","y":"18","w":"40","h":"10","sequence":"266","align":"center","global_font":"false","font":"Tahoma","font_size":"4","font_weight":"normal"},{"type":"Box","name":"Box2","x":"7","y":"26","w":"210","h":"52","uid":"JABHKYNWLJ","sequence":"143","page":"1","border_width":"1"},{"type":"Box","name":"Box2_143","x":"220","y":"26","w":"506","h":"52","uid":"BXLYLUOWLW","sequence":"196","page":"1","border_width":"1"},{"type":"Label","value":"Filtri attivi sulla stampa:","text_type":"constant","name":"label3","uid":"MYFXADXYGW","page":"1","x":"224","y":"26","w":"154","h":"18","sequence":"195","global_font":"false","font":"Tahoma","font_size":"9","font_weight":"bold"},{"type":"Label","value":"Operazioni selezionate: ","text_type":"constant","name":"label183","uid":"ZFRVMXBLHZ","page":"1","x":"407","y":"28","w":"128","h":"12","sequence":"182","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold","hidecond":"iif(stato='T', true, false)"},{"type":"Expr","comment":"Filtro sulle Operazioni","exp":"iif(stato='A', 'Solo Attive', iif( stato='C', 'Solo Cancellate', iif(stato='M', 'Copia vecchia di modifica', 'Errore')))","name":"Expr185","uid":"KOGCLVQWHW","page":"1","x":"536","y":"28","w":"188","h":"12","sequence":"184","global_picture":"false","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal","hidecond":"iif(stato='T', true, false)"},{"type":"Label","comment":"Fonte","value":"fonte_arch","text_type":"expression","name":"label5","uid":"PMMRLHZGYV","page":"1","x":"6","y":"31","w":"210","h":"20","sequence":"86","align":"center","global_font":"false","font":"Arial","font_size":"11","font_weight":"bold","removefromout":"XLS,CSV"},{"type":"Label","value":"Da Data Ope:","text_type":"constant","name":"label7","uid":"FHZCMTEROJ","page":"1","x":"226","y":"45","w":"74","h":"18","sequence":"6","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold","hidecond":"w_c_dadataope='' or Empty(w_c_dadataope)"},{"type":"Label","value":"Da Data Ret:","text_type":"constant","name":"label8","uid":"QMJKVQCLXN","page":"1","x":"564","y":"45","w":"74","h":"16","sequence":"8","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold","hidecond":"w_c_dadataret='' or Empty(w_c_dadataret)"},{"type":"Expr","exp":"arfn_fdate(CharToDate(w_c_dadataope))","dec":"0","name":"expr6","uid":"CLKFNSXGRQ","page":"1","x":"304","y":"45","w":"80","h":"16","sequence":"5","hidecond":"w_c_dadataope='' or Empty(w_c_dadataope)","removefromout":"CSV,CSVS,XLS"},{"type":"Expr","exp":"arfn_fdate(CharToDate(w_c_dadataret))","len":"18","dec":"0","name":"expr9","uid":"YLPHMGSXKQ","page":"1","x":"642","y":"45","w":"80","h":"16","sequence":"7","hidecond":"w_c_dadataret='' or Empty(w_c_dadataret)","removefromout":"CSV,CSVS,XLS"},{"type":"Label","value":"Da Data Reg:","text_type":"constant","name":"label8_261","uid":"FLYQAOHUDH","page":"1","x":"396","y":"45","w":"74","h":"16","sequence":"8","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold","hidecond":"w_c_dadatareg='' or Empty(w_c_dadatareg)"},{"type":"Expr","exp":"arfn_fdate(CharToDate(w_c_dadatareg))","len":"18","dec":"0","name":"expr9_262","uid":"QMDVRZTTPS","page":"1","x":"473","y":"45","w":"80","h":"16","sequence":"7","hidecond":"w_c_dadatareg='' or Empty(w_c_dadatareg)","removefromout":"CSV,CSVS,XLS"},{"type":"Label","value":"Filtro da data a data<br>operazione disattivato","text_type":"constant","name":"label10","uid":"XNXFIPPGYD","page":"1","x":"238","y":"46","w":"130","h":"28","sequence":"197","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold","hidecond":"not((w_c_dadataope='' or Empty(w_c_dadataope)) and (w_c_adataope='' or Empty(w_c_adataope)))"},{"type":"Label","value":"Filtro da data a data<br>registrazione disattivato","text_type":"constant","name":"label10_260","uid":"FYYYAHEJUH","page":"1","x":"405","y":"46","w":"130","h":"28","sequence":"197","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold","hidecond":"not((w_c_dadatareg='' or Empty(w_c_dadatareg)) and (w_c_adatareg='' or Empty(w_c_adatareg)))"},{"type":"Label","value":"Filtro da data a data<br>rettifica disattivato","text_type":"constant","name":"label10_265","uid":"WAFKZBZCFA","page":"1","x":"584","y":"46","w":"130","h":"28","sequence":"197","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold","hidecond":"not((w_c_dadataret='' or Empty(w_c_dadataret)) and (w_c_adataret='' or Empty(w_c_adataret)))"},{"type":"Label","comment":"Tipo","value":"tipo_arch","text_type":"expression","name":"label5_113","uid":"ZIHKPBHYNE","page":"1","x":"6","y":"53","w":"210","h":"20","sequence":"86","align":"center","global_font":"false","font":"Arial","font_size":"11","font_weight":"bold","removefromout":"XLS,CSV"},{"type":"Label","value":"A Data Ope:","text_type":"constant","name":"label14","uid":"KDSBALLCLW","page":"1","x":"226","y":"61","w":"74","h":"16","sequence":"11","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold","hidecond":"w_c_adataope='' or Empty(w_c_adataope)"},{"type":"Expr","exp":"arfn_fdate(CharToDate(w_c_adataope))","dec":"0","name":"expr12","uid":"CBSFJYCUPT","page":"1","x":"304","y":"62","w":"80","h":"16","sequence":"9","hidecond":"w_c_adataope='' or Empty(w_c_adataope)","removefromout":"CSV,CSVS,XLS"},{"type":"Label","value":"A Data Ret:","text_type":"constant","name":"label13","uid":"COWIVGYZLV","page":"1","x":"564","y":"62","w":"74","h":"16","sequence":"10","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold","hidecond":"w_c_adataret='' or Empty(w_c_adataret)"},{"type":"Expr","exp":"arfn_fdate(CharToDate(w_c_adataret))","len":"18","dec":"0","name":"expr16","uid":"SZFUNPHVFJ","page":"1","x":"642","y":"62","w":"80","h":"16","sequence":"12","hidecond":"w_c_adataret='' or Empty(w_c_adataret)","removefromout":"CSV,CSVS,XLS"},{"type":"Label","value":"A Data Reg:","text_type":"constant","name":"label13_263","uid":"IJSWUHWJAO","page":"1","x":"396","y":"62","w":"74","h":"16","sequence":"10","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold","hidecond":"w_c_adatareg='' or Empty(w_c_adatareg)"},{"type":"Expr","exp":"arfn_fdate(CharToDate(w_c_adatareg))","len":"18","dec":"0","name":"expr16_264","uid":"COEYUTISGZ","page":"1","x":"473","y":"62","w":"80","h":"16","sequence":"12","hidecond":"w_c_adatareg='' or Empty(w_c_adatareg)","removefromout":"CSV,CSVS,XLS"},{"type":"Label","value":"NON SONO STATE RILEVATE OPERAZIONI IN BASE AI PARAMETRI INSERITI","text_type":"constant","name":"label22","uid":"MWNEIOPARF","page":"1","x":"75","y":"306","w":"575","h":"21","sequence":"25","global_font":"false","font":"Tahoma","font_size":"11","font_weight":"bold"},{"type":"Box","name":"Box23","x":"12","y":"509","w":"718","h":"0","uid":"ALIXGKXVVP","sequence":"5","page":"1","border_width":"1"},{"type":"Label","value":"'Data: '+arfn_fdate(Date())","text_type":"expression","name":"label24","uid":"JYALFCRFEE","page":"1","x":"12","y":"511","w":"165","h":"16","sequence":"6","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Label","value":"'Pagina: '+ LRTrim(Str(nNumPage,4))","text_type":"expression","name":"label25","uid":"PRLPKWQQVB","page":"1","x":"322","y":"511","w":"405","h":"16","sequence":"7","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"}] -->
+
+<REPORT NAME="arrp_stpoper_neg" TITLE="Stampa Negativa Operazioni AUI (Report)" QUERY="qbe_stpoper" MAXDEPTH="1" VERSION="4.8" PUBLIC="false" ACCESS="true" ROLES=""
+  GLBFONTNAME="Arial" GLBFONTSIZE="9"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false" TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="131" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="2" X="6" YY="23" XX="725"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="stampa negativa" EXPRTYPE="constant"
+                    Y="18" X="684" YY="28" XX="724"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="4"
+                    />
+              <ITEM OBJ="box" UID="JABHKYNWLJ"
+                    Y="26" X="7" YY="78" XX="217"
+                    BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="Filtri attivi sulla stampa:" EXPRTYPE="constant"
+                    Y="26" X="224" YY="44" XX="378"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" UID="BXLYLUOWLW"
+                    Y="26" X="220" YY="78" XX="726"
+                    BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="Operazioni selezionate: " EXPRTYPE="constant"
+                    Y="28" X="407" YY="40" XX="535"
+                    ALIGN="L"
+                    HIDECONDITION="iif(stato=&#39;T&#39;, true, false)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="iif(stato=&#39;A&#39;, &#39;Solo Attive&#39;, iif( stato=&#39;C&#39;, &#39;Solo Cancellate&#39;, iif(stato=&#39;M&#39;, &#39;Copia vecchia di modifica&#39;, &#39;Errore&#39;)))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="28" X="536" YY="40" XX="724"
+                    ALIGN="L"
+                    HIDECONDITION="iif(stato=&#39;T&#39;, true, false)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="fonte_arch" EXPRTYPE="expression"
+                    Y="31" X="6" YY="51" XX="216"
+                    ALIGN="C"
+                    REMOVEON="XLS,CSV"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(w_c_dadataope))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="45" X="304" YY="61" XX="384"
+                    ALIGN="L"
+                    HIDECONDITION="w_c_dadataope=&#39;&#39; or Empty(w_c_dadataope)"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="true"
+                    GLBPICTURE="true"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="Da Data Ope:" EXPRTYPE="constant"
+                    Y="45" X="226" YY="63" XX="300"
+                    ALIGN="R"
+                    HIDECONDITION="w_c_dadataope=&#39;&#39; or Empty(w_c_dadataope)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(w_c_dadataret))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="45" X="642" YY="61" XX="722"
+                    ALIGN="L"
+                    HIDECONDITION="w_c_dadataret=&#39;&#39; or Empty(w_c_dadataret)"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="true"
+                    GLBPICTURE="true"
+                    LEN="18"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(w_c_dadatareg))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="45" X="473" YY="61" XX="553"
+                    ALIGN="L"
+                    HIDECONDITION="w_c_dadatareg=&#39;&#39; or Empty(w_c_dadatareg)"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="true"
+                    GLBPICTURE="true"
+                    LEN="18"
+                    />
+              <ITEM OBJ="stringa" NAME="Da Data Ret:" EXPRTYPE="constant"
+                    Y="45" X="564" YY="61" XX="638"
+                    ALIGN="R"
+                    HIDECONDITION="w_c_dadataret=&#39;&#39; or Empty(w_c_dadataret)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Da Data Reg:" EXPRTYPE="constant"
+                    Y="45" X="396" YY="61" XX="470"
+                    ALIGN="R"
+                    HIDECONDITION="w_c_dadatareg=&#39;&#39; or Empty(w_c_dadatareg)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Filtro da data a data&#xA;operazione disattivato" EXPRTYPE="constant"
+                    Y="46" X="238" YY="74" XX="368"
+                    ALIGN="L"
+                    HIDECONDITION="not((w_c_dadataope=&#39;&#39; or Empty(w_c_dadataope)) and (w_c_adataope=&#39;&#39; or Empty(w_c_adataope)))"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Filtro da data a data&#xA;registrazione disattivato" EXPRTYPE="constant"
+                    Y="46" X="405" YY="74" XX="535"
+                    ALIGN="L"
+                    HIDECONDITION="not((w_c_dadatareg=&#39;&#39; or Empty(w_c_dadatareg)) and (w_c_adatareg=&#39;&#39; or Empty(w_c_adatareg)))"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Filtro da data a data&#xA;rettifica disattivato" EXPRTYPE="constant"
+                    Y="46" X="584" YY="74" XX="714"
+                    ALIGN="L"
+                    HIDECONDITION="not((w_c_dadataret=&#39;&#39; or Empty(w_c_dadataret)) and (w_c_adataret=&#39;&#39; or Empty(w_c_adataret)))"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="tipo_arch" EXPRTYPE="expression"
+                    Y="53" X="6" YY="73" XX="216"
+                    ALIGN="C"
+                    REMOVEON="XLS,CSV"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="A Data Ope:" EXPRTYPE="constant"
+                    Y="61" X="226" YY="77" XX="300"
+                    ALIGN="R"
+                    HIDECONDITION="w_c_adataope=&#39;&#39; or Empty(w_c_adataope)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(w_c_adataope))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="62" X="304" YY="78" XX="384"
+                    ALIGN="L"
+                    HIDECONDITION="w_c_adataope=&#39;&#39; or Empty(w_c_adataope)"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="true"
+                    GLBPICTURE="true"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="A Data Ret:" EXPRTYPE="constant"
+                    Y="62" X="564" YY="78" XX="638"
+                    ALIGN="R"
+                    HIDECONDITION="w_c_adataret=&#39;&#39; or Empty(w_c_adataret)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="A Data Reg:" EXPRTYPE="constant"
+                    Y="62" X="396" YY="78" XX="470"
+                    ALIGN="R"
+                    HIDECONDITION="w_c_adatareg=&#39;&#39; or Empty(w_c_adatareg)"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(w_c_adataret))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="62" X="642" YY="78" XX="722"
+                    ALIGN="L"
+                    HIDECONDITION="w_c_adataret=&#39;&#39; or Empty(w_c_adataret)"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="true"
+                    GLBPICTURE="true"
+                    LEN="18"
+                    />
+              <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(w_c_adatareg))" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="62" X="473" YY="78" XX="553"
+                    ALIGN="L"
+                    HIDECONDITION="w_c_adatareg=&#39;&#39; or Empty(w_c_adatareg)"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="true"
+                    GLBPICTURE="true"
+                    LEN="18"
+                    />
+              <ITEM OBJ="box_end" UID="JABHKYNWLJ"/>
+              <ITEM OBJ="box_end" UID="BXLYLUOWLW"/>
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="0" FOOTH="0" UID="TFIJGRVTEL" TOP="131" BOTTOM="504" EXPRESSION="True">
+          <SECTION TYPE="group" HEADH="373" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="stringa" NAME="NON SONO STATE RILEVATE OPERAZIONI IN BASE AI PARAMETRI INSERITI" EXPRTYPE="constant"
+                            Y="173" X="75" YY="194" XX="650"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="11"
+                            FONTSTYLE="B"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="504" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="12" XX="731" BORDERWIDTH="1"
+                    UID="ALIXGKXVVP" 
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="3" X="12" YY="19" XX="177"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+                    Y="3" X="322" YY="19" XX="727"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

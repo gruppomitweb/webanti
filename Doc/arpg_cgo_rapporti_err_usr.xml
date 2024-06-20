@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="125229913">
+  <CodifyName>arpg_cgo_rapporti_err</CodifyName>
+  <Name>arpg_cgo_rapporti_err.pagedef</Name>
+  <Title>Correzione Rapporti Scartati (CGO)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="224858896"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_cgo_rapporti_err_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="74" x2="1246" y2="87">
+      <Name LinkID="190932946">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="61" x2="1246" y2="74">
+      <Name LinkID="244915682">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="44" x2="160" y2="60">
+      <Name LinkID="224844633">c_RAPPORTO</Name>
+      <Help></Help>
+      <Expression>c_RAPPORTO</Expression>
+      <Hyperlink>arrt_cgo_rapporti_err_load</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="169" y1="44" x2="497" y2="60">
+      <Name LinkID="224844633">c_DESCRAP</Name>
+      <Help></Help>
+      <Expression>c_DESCRAP</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="505" y1="44" x2="577" y2="60">
+      <Name LinkID="224844633">c_DATAOPE</Name>
+      <Help></Help>
+      <Expression>c_DATAOPE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="587" y1="44" x2="677" y2="60">
+      <Name LinkID="224844633">iif(c_TIPOMOV=&apos;A&apos;,&apos;APERTURA&apos;,iif(c_TIPOMOV=&apos;C&apos;,&apos;CHIUSURA&apos;,&apos;NON SPECIFICATO&apos;))</Name>
+      <Help></Help>
+      <Expression>iif(c_TIPOMOV=&apos;A&apos;,&apos;APERTURA&apos;,iif(c_TIPOMOV=&apos;C&apos;,&apos;CHIUSURA&apos;,&apos;NON SPECIFICATO&apos;))</Expression>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

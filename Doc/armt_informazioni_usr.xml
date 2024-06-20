@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="185022841">
+  <CodifyName>armt_informazioni</CodifyName>
+  <Name>armt_informazioni.mstdef</Name>
+  <Title>Informazioni su rapporti (A.U.I.)</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="34706281">Dati</Title>
+    <Note></Note>
+    <JPG x="8" y="7">armt_informazioni_usr_1</JPG>
+    <Item type="campo" x1="104" y1="21" x2="182" y2="42">
+      <Name LinkID="35620914">CODINTER</Name>
+      <Comment>Codice Intermediario</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="232" y1="21" x2="280" y2="42">
+      <Name LinkID="143684270">CODDIPE</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="56" x2="318" y2="76">
+      <Name LinkID="10770771">RAPPORTO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="84" x2="232" y2="104">
+      <Name LinkID="242193326">DATAOPE</Name>
+      <Comment>Data Operazione</Comment>
+      <Key>key2</Key>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="688" y1="84" x2="768" y2="104">
+      <Name LinkID="244345936">DATAREG</Name>
+      <Comment>Data registrazione</Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="112" x2="536" y2="132">
+      <Name LinkID="256669643">TIPOOPRAP</Name>
+      <Comment>Tipo Informazione</Comment>
+      <Key>key5</Key>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="168" x2="488" y2="188">
+      <Name LinkID="62118992">TIPOLEG</Name>
+      <Comment>Tipo Legame Sogg.</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="140" x2="270" y2="160">
+      <Name LinkID="180364104">CONNESOPER</Name>
+      <Comment>Soggetto Operante Conto Terzi</Comment>
+      <Key>key6</Key>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="696" y1="168" x2="776" y2="188">
+      <Name LinkID="244344579">DATARETT</Name>
+      <Comment>Data Rettifica</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="600" y1="168" x2="688" y2="188">
+      <Name LinkID="7481570">STATOREG</Name>
+      <Comment>Stato Registrazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="21" x2="648" y2="42">
+      <Name LinkID="42914749">DESCCIT</Name>
+      <Comment>Città Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="21" x2="696" y2="42">
+      <Name LinkID="163312956">PROVINCIA</Name>
+      <Comment>Provincia Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="728" y1="21" x2="776" y2="42">
+      <Name LinkID="260017559">CODCAB</Name>
+      <Comment>CAB Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="440" y1="84" x2="536" y2="104">
+      <Name LinkID="39443888">NUMPROG</Name>
+      <Comment>Numero Progressivo</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="2">
+    <Title LinkID="229431726">Persone Agenti per conto</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_informazioni_usr_2</JPG>
+    <Item type="campo" x1="104" y1="22" x2="182" y2="43">
+      <Name LinkID="35620914">CODINTER</Name>
+      <Comment>Codice Intermediario</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="22" x2="648" y2="43">
+      <Name LinkID="42914749">DESCCIT</Name>
+      <Comment>Città Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="22" x2="696" y2="43">
+      <Name LinkID="163312956">PROVINCIA</Name>
+      <Comment>Provincia Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="728" y1="22" x2="776" y2="43">
+      <Name LinkID="260017559">CODCAB</Name>
+      <Comment>CAB Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="232" y1="23" x2="288" y2="43">
+      <Name LinkID="143684270">CODDIPE</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

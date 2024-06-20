@@ -1,0 +1,77 @@
+﻿* --- Resource Vers. 0.9
+arrt_chkrap_anno
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:32
+description='Stampa Anomalie Saldi Rapporti (Estrazione)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:10
+module_name='
+name='arrt_chkrap_anno
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.codfisc
+'personbo.ragsoc
+'tmp_errapanno.tiperr
+'tmp_errapanno.rapporto
+'tmp_errapanno.connes
+'tmp_errapanno.descrap
+'tmp_errapanno.tiporap
+'tmp_errapanno.valuta
+'tmp_errapanno.aspedito
+'tmp_errapanno.adata
+'tmp_errapanno.aprog
+'tmp_errapanno.afile
+'tmp_errapanno.cspedito
+'tmp_errapanno.cdata
+'tmp_errapanno.cprog
+'tmp_errapanno.cfile
+'tmp_errapanno.cab
+'tmp_errapanno.codfisc
+'tmp_errapanno.ragsoc
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_inviosaldi_minmax_rap.vqr
+'qbe_inviosaldi_rap.vqr
+]
+'Tables
+[
+'anarapbo<table>
+'aetesta<table>
+'aerighe<table>
+'appointestbo<table>
+'intestbo<table>
+'aefiles<table>
+'jnarapbo<table>
+'personbo<table>
+'tmp_apecod<table>
+'aeoprig<table>
+'aederig<table>
+'aefile_do_glob<table>
+'opextrbo<table>
+'aeannora<table>
+'tmp_errapanno<table>
+]
+}
+I
+*--*
+￼[]
+*--*

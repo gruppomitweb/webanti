@@ -1,0 +1,35 @@
+﻿* --- Resource Vers. 0.9
+arrt_crea_mc_unifactor
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Crea file per import (Unifactor/IFIR)
+file_modified_on=#2023-12-06 09:58:16
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:10
+module_name='
+name='arrt_crea_mc_unifactor
+state=1
+type='batch
+used_resource_keys={
+'Routines
+[
+'arrt_crea_mc_unifactor
+'arrt_import_unifactor
+]
+'Tables
+[
+'tmp_list_imprich<table>
+]
+}
+I
+*--*
+￼[]
+*--*

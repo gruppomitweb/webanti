@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="194870243">
+  <CodifyName>armt_storope</CodifyName>
+  <Name>armt_storope.mstdef</Name>
+  <Title>Storico Operazioni</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="14357631">Principale</Title>
+    <Note></Note>
+    <JPG x="8" y="7">armt_storope_usr_1</JPG>
+    <Item type="campo" x1="112" y1="49" x2="184" y2="69">
+      <Name LinkID="247389932">DATAOPE</Name>
+      <Comment>Data Operazione</Comment>
+      <Key>key2</Key>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="712" y1="49" x2="784" y2="69">
+      <Name LinkID="247384508">DATAREG</Name>
+      <Comment>Data registrazione</Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="112" y1="77" x2="216" y2="97">
+      <Name LinkID="55201958">FLAGCONT</Name>
+      <Comment>Contanti (S/N)</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="328" y1="77" x2="352" y2="97">
+      <Name LinkID="8195806">TIPOOPRAP</Name>
+      <Comment>Tipo Operazione Completa</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="112" y1="105" x2="148" y2="125">
+      <Name LinkID="116704404">idcauana</Name>
+      <Comment>ID BASE Causale Analitica</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="112" y1="133" x2="272" y2="153">
+      <Name LinkID="226948078">appolire</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="341" y1="133" x2="371" y2="153">
+      <Name LinkID="39633528">VALUTA</Name>
+      <Comment>Divisa</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="712" y1="133" x2="778" y2="153">
+      <Name LinkID="248721483">CAMBIO</Name>
+      <Comment>Cambio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="112" y1="161" x2="226" y2="181">
+      <Name LinkID="137958921">xTOTLIRE</Name>
+      <Comment></Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="384" y1="161" x2="498" y2="181">
+      <Name LinkID="136990873">xTOTCONT</Name>
+      <Comment></Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="217" x2="260" y2="237">
+      <Name LinkID="200473727">CONNESCLI</Name>
+      <Comment>Codice Cliente Occasionale</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="245" x2="314" y2="265">
+      <Name LinkID="227470557">RAPPORTO</Name>
+      <Comment>Rapporto Collegato</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="273" x2="260" y2="293">
+      <Name LinkID="170802303">CONNESOPER</Name>
+      <Comment>Codice Cliente Occasionale</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="297" x2="182" y2="317">
+      <Name LinkID="96389646">TIPOLEG</Name>
+      <Comment>Tipo Legame sogg. Operante</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="152" y1="322" x2="260" y2="342">
+      <Name LinkID="195693695">CONNESBEN</Name>
+      <Comment>Codice Cliente Occasionale</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="378" x2="222" y2="398">
+      <Name LinkID="13634292">CODINT2</Name>
+      <Comment>Codice Intermediario C/Parte</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="406" x2="660" y2="426">
+      <Name LinkID="93057342">TIPOINT2</Name>
+      <Comment>Tipo Intermediario C/Parte</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="434" x2="336" y2="454">
+      <Name LinkID="180584634">DESC2</Name>
+      <Comment>Denominazione Intermediario C/Parte</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="462" x2="192" y2="482">
+      <Name LinkID="13639114">CODCAB2</Name>
+      <Comment>CAB Intermediario C/Parte</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="264" y1="462" x2="294" y2="482">
+      <Name LinkID="33325190">PAESE</Name>
+      <Comment>Stato Intermediario C/Parte</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="462" x2="744" y2="482">
+      <Name LinkID="218333351">PROV2</Name>
+      <Comment>Provincia Intermediario C/Parte</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="408" y1="49" x2="496" y2="69">
+      <Name LinkID="169787309">NUMPROG</Name>
+      <Comment>Numero Progressivo</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="18" x2="182" y2="39">
+      <Name LinkID="8182516">CODINTER</Name>
+      <Comment>Codice Intermediario</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="232" y1="18" x2="280" y2="39">
+      <Name LinkID="13557577">CODDIPE</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="18" x2="648" y2="39">
+      <Name LinkID="180221610">DESCCIT</Name>
+      <Comment>Città Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="18" x2="696" y2="39">
+      <Name LinkID="145097015">PROVINCIA</Name>
+      <Comment>Provincia Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="728" y1="18" x2="776" y2="39">
+      <Name LinkID="13843914">CODCAB</Name>
+      <Comment>CAB Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="170" y1="105" x2="206" y2="125">
+      <Name LinkID="13843964">CODANA</Name>
+      <Comment>Causale Analitica</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="501" y1="105" x2="525" y2="125">
+      <Name LinkID="13843415">CODVOC</Name>
+      <Comment>Causale Sintetica</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="760" y1="105" x2="778" y2="125">
+      <Name LinkID="103579937">SEGNO</Name>
+      <Comment>Segno</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="688" y1="77" x2="784" y2="97">
+      <Name LinkID="54861174">FLAGFRAZ</Name>
+      <Comment>Frazionata (S/N)</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="680" y1="161" x2="758" y2="181">
+      <Name LinkID="254592895">COLLEG</Name>
+      <Comment>Collegamento Operazione Multiple</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="486" x2="570" y2="506">
+      <Name LinkID="190765756">ZCPARTE</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="2">
+    <Title LinkID="147876561">Soggetti Agenti per Conto</Title>
+    <Note></Note>
+    <JPG x="8" y="7">armt_storope_usr_2</JPG>
+    <Item type="campo" x1="104" y1="18" x2="182" y2="39">
+      <Name LinkID="8182516">CODINTER</Name>
+      <Comment>Codice Intermediario</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="232" y1="18" x2="280" y2="39">
+      <Name LinkID="13557577">CODDIPE</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="18" x2="640" y2="39">
+      <Name LinkID="180221610">DESCCIT</Name>
+      <Comment>Città Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="18" x2="696" y2="39">
+      <Name LinkID="145097015">PROVINCIA</Name>
+      <Comment>Provincia Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="728" y1="18" x2="776" y2="39">
+      <Name LinkID="13843914">CODCAB</Name>
+      <Comment>CAB Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

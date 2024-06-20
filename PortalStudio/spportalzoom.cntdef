@@ -1,0 +1,1069 @@
+NODE portalstudio/PortalZoomParamters Portal Zoom
+
+GROUP Base portlet options
+{ "name": "portalZoomSplinkerPosition","type": "COMBO", "caption": "Splinker position", "default":"left","items": [{"value":"left"} , {"value" : "right"}, {"value" : "left-layer"}, {"value" : "right-layer"}, {"value" : "expanding-row"} ]}
+{ "name": "portalZoomStartInRow","type": "CHECK", "caption": "First row opened(expanding-row)","default":"false" ,"checked":"true","unchecked":"false","disable":"(portalZoomSplinkerPosition='left' or portalZoomSplinkerPosition='right' or portalZoomSplinkerPosition='left-layer' or portalZoomSplinkerPosition='right-layer')"}
+NUMBER ZoomLinkGridRows:15 GridRows for LinkZoom
+NUMBER ZoomGridRows:15 GridRows for all Zoom
+
+GROUP Base portlet toolbar options
+NUMBER portalZoomToolbarElementHeight:30 Toolbar s item width(px)
+ICON portalZoomPrintAddImage Add report button image
+ICON portalZoomPrintEditImage Edit report button image
+ICON portalZoomPrintImage Print button image
+ICON portalZoomPrintDiscardImage Print discard button image
+{"name":"portalZoomExpandImage","type":"ICON","caption":"Expand zoom button image"}
+{"name":"portalZoomReduceImage","type":"ICON","caption":"Reduce zoom button image"}
+CHECK portalZoomVersionItemOnLabel:true Check to have handler on zoom title (if not empty), not check to have image on toolbar
+CHECK portalZoomVersionViewCurrent:true Check to see current version on zoom title
+GROUP Version list handler properties
+ICON portalZoomVersionList Image handler
+TEXT portalZoomVersionListPadding Padding(top,right,bottom,left)
+TEXT portalZoomVersionListMargin Margin(top,right,bottom,left)
+TEXT portalZoomVersionListVerticalAlign Vertical Align
+TEXT portalZoomVersionListCursor:pointer Cursor
+GROUP_END
+ICON portalZoomVersionsImage Versions button image
+ICON portalZoomEditorImage PortalZoom Editor button image
+ICON portalZoomAddRecordImage New record button image
+ICON portalZoomRefreshImage Refresh button image
+{"name":"portalZoomShowVdmImage","type":"ICON","caption":"Open filter mask button image","default":"..\@SKIN_NAME@\images\grid\addfilter.png"}
+{"name":"portalZoomFilterAppliedImage","type":"ICON","caption":"Open filter mask button image (filters already applied)","default":"..\@SKIN_NAME@\images\grid\addfilter.png"}
+ICON portalZoomEditHistorical Edit historical
+ICON portalZoomLoading Loading image
+
+GROUP Current version label on zoom title
+COLOR portalZoomCurrentVersionLabelColor Color
+FONT portalZoomCurrentVersionLabelFontFamily Font family
+FONT portalZoomCurrentVersionLabelFontWeight Font weight
+{ "name": "portalZoomCurrentVersionLabelFontSize","type": "FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+TEXT portalZoomCurrentVersionLabelPadding Padding(top,right,bottom,left)
+GROUP_END
+GROUP_END
+GROUP Linked configuration image
+ICON grid_image Grid image
+ICON chart_image Chart image
+ICON card_image Card image
+GROUP_END
+GROUP_END
+
+GROUP Container tile options
+  {"name":"portalZoomTile_container_background_color","type":"COLOR","caption":"Container background color","default":"#1BA1E2"}
+  {"name":"portalZoomTile_container_color","type":"COLOR","caption":"Text color","default":"#FFFFFF"}
+TEXT portalZoomTile_container_margin Margin (top,right,bottom,left)
+TEXT portalZoomTile_container_padding Padding(top,right,bottom,left)
+TEXT portalZoomTile_container_bordersize Border width (top,right,bottom,left)
+COLOR portalZoomTile_container_bordercolor Border color (top,right,bottom,left)
+TEXT portalZoomTile_container_borderweight Border style (top,right,bottom,left)
+GROUP_END
+
+GROUP Parameters portlet general options
+NUMBER portalZoomParamDefaultViewMode:1 Default view mode
+CHECK portalZoomParamReadFieldNewLine:false checked:true unchecked:false Read field from link on new line
+IMAGE_COPY portalZoomParamLinkedFilterZoomImage:PortalStudio\SpThemes\images\portalzoom_linkedfilter.gif "portalstudio\portalzoom_linkedfilter.gif" Linked filter zoom image
+IMAGE_COPY portalZoomParamLinkedFilterAutoZoomImage:PortalStudio\SpThemes\images\portalzoom_autolinkedfilter.gif "portalstudio\portalzoom_autolinkedfilter.gif" Filter autozoom image
+IMAGE_COPY portalZoomParamCalendarZoomImage:PortalStudio\SpThemes\images\portalzoom_calendar.gif "portalstudio\portalzoom_calendar.gif" Calendar zoom image
+IMAGE_COPY portalZoomParamDeleteFilterImage:PortalStudio\SpThemes\images\portalzoom_delete.gif "portalstudio\portalzoom_delete.gif" Delete filter image
+IMAGE_COPY portalZoomParamUnDeleteFilterImage:PortalStudio\SpThemes\images\portalzoom_undelete.gif "portalstudio\portalzoom_undelete.gif" Undelete filter image
+IMAGE_COPY portalZoomParamEditFilterImage:PortalStudio\SpThemes\images\portalzoom_edit.gif "portalstudio\portalzoom_edit.gif" Edit filter image
+GROUP_END
+
+GROUP Parameters portlet toolbar options
+FONT portalZoomParamButtonFontFamily:sans-serif Toolbar button font family
+FONT portalZoomParamButtonFontWeight Toolbar button font weight
+FONT portalZoomParamButtonFontStyle Toolbar button font style
+{ "name": "portalZoomParamButtonFontSize","type": "FONT_SIZE", "caption": "Toolbar button font size", "default": {"value":8,"unit":"pt"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+COLOR portalZoomParamButtonFontColor Toolbar button font color
+IMAGE_COPY portalZoomParamFilterImage:PortalStudio\SpThemes\images\portalzoom_filter.gif "portalstudio\portalzoom_filter.gif" Apply filters image
+IMAGE_COPY portalZoomParamPrintImage:PortalStudio\SpThemes\images\portalzoom_print.gif "portalstudio\portalzoom_print.gif" Print image
+IMAGE_COPY portalZoomParamResetFiltersImage:PortalStudio\SpThemes\images\portalzoom_reset.gif "portalstudio\portalzoom_reset.gif" Reset filters image
+IMAGE_COPY portalZoomParamAddFilterImage:PortalStudio\SpThemes\images\portalzoom_addfilter.gif "portalstudio\portalzoom_addfilter.gif" Add filter image
+IMAGE_COPY portalZoomParamSaveVZMImage:PortalStudio\SpThemes\images\portalzoom_savevzm.gif "portalstudio\portalzoom_savevzm.gif" Save VZM configuration image
+GROUP_END
+
+GROUP Parameters portlet group header (collpased)
+FONT portalZoomParamAdvancedFontFamily Group title font family
+FONT portalZoomParamAdvancedFontWeight Group title font weight
+FONT portalZoomParamAdvancedFontStyle Group title font style
+{ "name": "portalZoomParamAdvancedFontSize","type": "FONT_SIZE", "caption": "Group title font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+COLOR portalZoomParamAdvancedFontColor Group title font color
+IMAGE portalZoomParamGroupBgImage Group header background image
+GROUP_END
+
+GROUP Parameters portlet group header (expanded)
+FONT portalZoomParamGroupExpFontFamily Group title font family
+FONT portalZoomParamGroupExpFontWeight Group title font weight
+FONT portalZoomParamGroupExpFontStyle Group title font style
+{ "name": "portalZoomParamGroupExpFontSize","type": "FONT_SIZE", "caption": "Group title font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+COLOR portalZoomParamGroupExpFontColor Group title font color
+IMAGE portalZoomParamGroupExpBgImage Group header background image
+GROUP_END
+
+GROUP Header Title
+COLOR portalZoomHeaderColor:#FFFFFF PortalZoom Title color
+COLOR portalZoomHeaderBackgroundColor:#FFFFFF PortalZoom Title background color
+IMAGE portalZoomHeaderBackgroundImage:../visualweb/images/grid_back_title.png PortalZoom Title background image
+TEXT portalZoomHeaderBackgroundRepeat PortalZoom Title background repeat
+TEXT portalZoomHeaderBackgroundPosition PortalZoom Title background position
+FONT portalZoomHeaderFontFamily PortalZoom Title font family
+{ "name": "portalZoomHeaderFontSize","type": "FONT_SIZE", "caption": "PortalZoom Title font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+TEXT portalZoomHeaderMargin PortalZoom Title margin
+TEXT portalZoomHeaderPadding PortalZoom Title padding
+CHECK portalZoomHeaderHostGridNavbarControls:false checked:true unchecked:false Host grid navbar controls (mobile only)
+GROUP_END
+
+VARIABLES portalZoomParamDefaultViewMode portalZoomParamReadFieldNewLine:L portalZoomSplinkerPosition ZoomLinkGridRows:N ZoomGridRows:N portalZoomStartInRow:L
+VARIABLES portalZoomPrintImage portalZoomPrintDiscardImage portalZoomLoading portalZoomEditHistorical portalZoomVersionsImage portalZoomToolbarElementHeight:N portalZoomPrintAddImage portalZoomPrintEditImage portalZoomEditorImage
+VARIABLES grid_image chart_image card_image
+VARIABLES portalZoomAddRecordImage portalZoomRefreshImage portalZoomVersionItemOnLabel:L portalZoomVersionViewCurrent:L portalZoomShowVdmImage
+VARIABLES portalZoomExpandImage portalZoomReduceImage
+VARIABLES portalZoomHeaderHostGridNavbarControls:L portalZoomVersionList
+
+TEMPLATE portalstudio.css
+.SPPortalZoomBaseOL_portlet.stretch_height.SPPortalZoom, .SPPortalZoomBase_portlet.stretch_height.SPPortalZoom {
+  height:100%;
+}
+.SPPortalZoomBaseOL_container.stretch_height, .SPPortalZoomBase_container.stretch_height {
+  height:100%;
+}
+.SPPortalZoom_currentversion {
+color: \portalZoomCurrentVersionLabelColor!\;
+font-family: \portalZoomCurrentVersionLabelFontFamily!\;
+font-weight: \portalZoomCurrentVersionLabelFontWeight!\;
+font-size: \portalZoomCurrentVersionLabelFontSize!\;
+padding: \portalZoomCurrentVersionLabelPadding!\;
+}
+
+.SPPortalZoom_versionhandler {
+  color: \portalZoomVersionList.Color!\;
+  font-family: \portalZoomVersionList.FontName!\;
+  font-size: \portalZoomVersionList.Size!\px;
+  padding: \portalZoomVersionListPadding!\;
+  margin: \portalZoomVersionListMargin!\;
+  vertical-align: \portalZoomVersionListVerticalAlign!\;
+  cursor: \portalZoomVersionListCursor!\;
+  display:inline-block;
+}
+.SPPortalZoom_versionhandler.menu_opened{
+  transform:rotate(180deg);
+}
+.SPPortalZoom_versionhandler.menu_closed{
+  transform:rotate(0deg);
+}
+.PortalZoomParams_Button { cursor:pointer;
+                           font-family:\portalZoomParamButtonFontFamily!\ !important;
+                           font-weight:\portalZoomParamButtonFontWeight!\ !important;
+                           font-style:\portalZoomParamButtonFontStyle!\ !important;
+                           font-size:\portalZoomParamButtonFontSize!\ !important;
+                           margin:0;
+                           padding:0;
+}
+.PortalZoomParams_Label { cursor:pointer;
+                          font-family:\portalZoomParamButtonFontFamily!\ !important;
+                          font-weight:\portalZoomParamButtonFontWeight!\ !important;
+                          font-style:\portalZoomParamButtonFontStyle!\ !important;
+                          font-size:\portalZoomParamButtonFontSize!\ !important;
+                          color:\portalZoomParamButtonFontColor!\ !important;
+}
+.PortalZoomParams_Group_Collapsed {
+                          cursor:pointer;
+                          padding:0 0 2px 2px;
+                          text-decoration:none;
+                          font-family:\portalZoomParamAdvancedFontFamily!\;
+                          font-weight:\portalZoomParamAdvancedFontWeight!\;
+                          font-style:\portalZoomParamAdvancedFontStyle!\;
+                          font-size:\portalZoomParamAdvancedFontSize!\;
+                          color:\portalZoomParamAdvancedFontColor!\;
+                          background-image:url(\portalZoomParamGroupBgImage!\);background-repeat:no-repeat;
+}
+.PortalZoomParams_Group_Expanded {
+                          cursor:pointer;
+                          padding:0 0 2px 2px;
+                          text-decoration:none;
+                          font-family:\portalZoomParamGroupExpFontFamily!\;
+                          font-weight:\portalZoomParamGroupExpFontWeight!\;
+                          font-style:\portalZoomParamGroupExpFontStyle!\;
+                          font-size:\portalZoomParamGroupExpFontSize!\;
+                          color:\portalZoomParamGroupExpFontColor!\;
+                          background-image:url(\portalZoomParamGroupExpBgImage!\);background-repeat:no-repeat;
+}
+.PortalZoomParams_ImgButton { background-repeat:no-repeat;
+                              background-position:center;
+                              background-color:Transparent;
+                              margin:0;
+                              border-width:0;
+                              padding:0;
+                              z-index:1;
+                              cursor:pointer;
+}
+.PortalZoomParams_LinkedFilter { background-image:url(portalstudio/portalzoom_linkedfilter.gif);
+}
+.PortalZoomParams_AutoLinkedFilter { background-image:url(portalstudio/portalzoom_autolinkedfilter.gif);
+}
+.PortalZoomParams_CalendarZoom { background-image:url(portalstudio/portalzoom_calendar.gif);
+}
+.PortalZoomParams_DeleteFilter { background-image:url(portalstudio/portalzoom_delete.gif);
+                                 margin:3px;
+}
+.PortalZoomParams_UnDeleteFilter { background-image:url(portalstudio/portalzoom_undelete.gif);
+                                   margin:3px;
+}
+.PortalZoomParams_EditFilter { background-image:url(portalstudio/portalzoom_edit.gif);
+                               margin:3px;
+}
+.PortalZoomParams_Filter { background-image:url(portalstudio/portalzoom_filter.gif);
+}
+.PortalZoomParams_Print { background-image:url(portalstudio/portalzoom_print.gif);
+}
+.PortalZoomParams_ResetFilters { background-image:url(portalstudio/portalzoom_reset.gif);
+}
+.PortalZoomParams_SaveVZM { background-image:url(portalstudio/portalzoom_savevzm.gif);
+}
+.PortalZoomParams_AddFilter { background-image:url(portalstudio/portalzoom_addfilter.gif);
+}
+.PortalZoomParams_HeaderTitle {
+    background-image:url(\portalZoomHeaderBackgroundImage!\);
+    background-repeat:\portalZoomHeaderBackgroundRepeat!\;
+    background-position:\portalZoomHeaderBackgroundPosition!\;
+    background-color:\portalZoomHeaderBackgroundColor!\;
+    color:\portalZoomHeaderColor!\;
+    font-size:\portalZoomHeaderFontSize!\;
+    font-family:\portalZoomHeaderFontFamily!\;
+    margin:\portalZoomHeaderMargin!\;
+    padding:\portalZoomHeaderPadding!\;
+}
+
+.PortalZoomBase_container_tiles {
+  background-color:\portalZoomTile_container_background_color!\;
+  color:\portalZoomTile_container_color!\;
+  margin:\portalZoomTile_container_margin!\;
+  padding:\portalZoomTile_container_padding!\;
+  border-width:\portalZoomTile_container_bordersize!\;
+  border-color:\portalZoomTile_container_bordercolor!\;
+  border-style:\portalZoomTile_container_borderweight!\;
+}
+.PortalZoomBase_container_tiles .tile_container .tile_groupby, .PortalZoomBase_container_tiles .tile_container .tile_element{
+  display:block;
+}
+.PortalZoomBase_container_tiles .tile_container .tile_groupby_title, .PortalZoomBase_container_tiles .tile_container .tile_groupby_value{
+  display:inline;
+}
+
+.PortalZoomBase_container_tiles .tile_container .tile_title, .PortalZoomBase_container_tiles .tile_container .tile_value{
+  display:block;
+}
+
+NODE_END
+
+NODE portalstudio/PortalZoomParamters/Tile Portal Zoom Tile
+
+GROUP Element
+  {"name":"portalZoomTile_element_background_color","type":"COLOR","caption":"Menu container background color"}
+  {"name":"portalZoomTile_element_color","type":"COLOR","caption":"Menu text color"}
+TEXT portalZoomTile_element_margin Margin (top,right,bottom,left)
+TEXT portalZoomTile_element_padding Padding(top,right,bottom,left)
+TEXT portalZoomTile_element_bordersize Border width (top,right,bottom,left)
+COLOR portalZoomTile_element_bordercolor Border color (top,right,bottom,left)
+TEXT portalZoomTile_element_borderweight Border style (top,right,bottom,left)
+TEXT portalZoomTile_element_separator:": " Separator of Title and Value for groupby
+GROUP_END
+
+GROUP Groupby section
+GROUP Title groupby
+FONT portalZoomTile_groupby_title_font:"Tahoma, Geneva, Helvetica, sans-serif" Font family
+FONT portalZoomTile_groupby_title_fontweight Font weight
+FONT portalZoomTile_groupby_title_fontstyle Font style
+{ "name": "portalZoomTile_groupby_title_fontsize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+COLOR portalZoomTile_groupby_title_fontcolor Font color
+TEXT portalZoomTile_groupby_title_textalign Text align
+TEXT portalZoomTile_groupby_title_margin Margin (top,right,bottom,left)
+TEXT portalZoomTile_groupby_title_padding Padding (top,right,bottom,left)
+
+GROUP_END
+GROUP Value groupby
+FONT portalZoomTile_groupby_value_font:"Tahoma, Geneva, Helvetica, sans-serif" Font family
+FONT portalZoomTile_groupby_value_fontweight Font weight
+FONT portalZoomTile_groupby_value_fontstyle Font style
+{ "name": "portalZoomTile_groupby_value_fontsize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+COLOR portalZoomTile_groupby_value_fontcolor Font color
+TEXT portalZoomTile_groupby_value_textalign Text align
+TEXT portalZoomTile_groupby_value_margin Margin (top,right,bottom,left)
+TEXT portalZoomTile_groupby_value_padding Padding (top,right,bottom,left)
+GROUP_END
+GROUP_END
+
+GROUP Tile element section
+GROUP Title tile
+FONT portalZoomTile_title_font:"Tahoma, Geneva, Helvetica, sans-serif" Font family
+FONT portalZoomTile_title_fontweight Font weight
+FONT portalZoomTile_title_fontstyle Font style
+{ "name": "portalZoomTile_title_fontsize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+COLOR portalZoomTile_title_fontcolor Font color
+TEXT portalZoomTile_title_textalign Text align
+TEXT portalZoomTile_title_margin Margin (top,right,bottom,left)
+TEXT portalZoomTile_title_padding Padding (top,right,bottom,left)
+
+GROUP_END
+GROUP Value tile
+FONT portalZoomTile_value_font:"Tahoma, Geneva, Helvetica, sans-serif" Font family
+FONT portalZoomTile_value_fontweight Font weight
+FONT portalZoomTile_value_fontstyle Font style
+{ "name": "portalZoomTile_value_fontsize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+COLOR portalZoomTile_value_fontcolor Font color
+TEXT portalZoomTile_value_textalign Text align
+TEXT portalZoomTile_value_margin Margin (top,right,bottom,left)
+TEXT portalZoomTile_value_padding Padding (top,right,bottom,left)
+GROUP_END
+GROUP_END
+
+REDEFINIBLE
+
+TEMPLATE portalstudio.css
+.\controlName\ { [BEGIN_CSS_COMMENT]control:ZoomTile[END_CSS_COMMENT]
+}
+.PortalZoomBase_container_tiles .tile_container.\controlName\ {
+  background-color:\portalZoomTile_element_background_color!\;
+  color:\portalZoomTile_element_color!\;
+  margin:\portalZoomTile_element_margin!\;
+  padding:\portalZoomTile_element_padding!\;
+  border-width:\portalZoomTile_element_bordersize!\;
+  border-color:\portalZoomTile_element_bordercolor!\;
+  border-style:\portalZoomTile_element_borderweight!\;
+}
+.PortalZoomBase_container_tiles .tile_container.\controlName\ .tile_groupby_title {
+  font-family:\portalZoomTile_groupby_title_font!\;
+  font-weight:\portalZoomTile_groupby_title_fontweight!\;
+  font-style:\portalZoomTile_groupby_title_fontstyle!\;
+  font-size:\portalZoomTile_groupby_title_fontsize!\;
+  color:\portalZoomTile_groupby_title_fontcolor!\;
+  text-align: \portalZoomTile_groupby_title_textalign!\;
+  margin: \portalZoomTile_groupby_title_margin!\;
+  padding:\portalZoomTile_groupby_title_padding!\;
+}
+.PortalZoomBase_container_tiles .tile_container.\controlName\ .tile_groupby_value {
+  font-family:\portalZoomTile_groupby_value_font!\;
+  font-weight:\portalZoomTile_groupby_value_fontweight!\;
+  font-style:\portalZoomTile_groupby_value_fontstyle!\;
+  font-size:\portalZoomTile_groupby_value_fontsize!\;
+  color:\portalZoomTile_groupby_value_fontcolor!\;
+  text-align: \portalZoomTile_groupby_value_textalign!\;
+  margin: \portalZoomTile_groupby_value_margin!\;
+  padding:\portalZoomTile_groupby_value_padding!\;
+}
+.PortalZoomBase_container_tiles .tile_container.\controlName\ .tile_title {
+  font-family:\portalZoomTile_title_font!\;
+  font-weight:\portalZoomTile_title_fontweight!\;
+  font-style:\portalZoomTile_title_fontstyle!\;
+  font-size:\portalZoomTile_title_fontsize!\;
+  color:\portalZoomTile_title_fontcolor!\;
+  text-align: \portalZoomTile_title_textalign!\;
+  margin: \portalZoomTile_title_margin!\;
+  padding:\portalZoomTile_title_padding!\;
+}
+.PortalZoomBase_container_tiles .tile_container.\controlName\ .tile_value {
+  font-family:\portalZoomTile_value_font!\;
+  font-weight:\portalZoomTile_value_fontweight!\;
+  font-style:\portalZoomTile_value_fontstyle!\;
+  font-size:\portalZoomTile_value_fontsize!\;
+  color:\portalZoomTile_value_fontcolor!\;
+  text-align: \portalZoomTile_value_textalign!\;
+  margin: \portalZoomTile_value_margin!\;
+  padding:\portalZoomTile_value_padding!\;
+}
+.PortalZoomBase_container_tiles .tile_container.\controlName\ .tile_groupby_title:after {
+  white-space:pre;
+  content: "\portalZoomTile_element_separator|: \";
+}
+
+NODE_END
+
+NODE portalstudio/PortalZoomParamters/PortalZoomConfigurator Portal Zoom Configurator
+
+  GROUP General options
+  {"name": "portalZoomConfigurator_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name": "portalZoomConfigurator_backgroundImage","type": "BACKGROUNDIMAGE", "caption": "Background image/gradient"}
+  {"name": "portalZoomConfigurator_backgroundRepeat","type": "TEXT", "caption": "Background repeat"}
+  {"name": "portalZoomConfigurator_backgroundPosition","type": "TEXT", "caption": "Background position"}
+  GROUP_END
+
+  GROUP Toolbar
+  {"name": "portalZoomConfigurator_toolbar_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name": "portalZoomConfigurator_toolbar_backgroundImage","type": "BACKGROUNDIMAGE", "caption": "Background image/gradient"}
+  {"name": "portalZoomConfigurator_toolbar_backgroundRepeat","type": "TEXT", "caption": "Background repeat"}
+  {"name": "portalZoomConfigurator_toolbar_backgroundPosition","type": "TEXT", "caption": "Background position"}
+  {"name": "portalZoomConfigurator_toolbar_height","type": "FONT_SIZE", "caption": "Toolbar height"}
+  {"name":"portalZoomConfigurator_toolbar_backImage","type":"ICON","caption":"Cancel button image"}
+  GROUP Fast search
+  GROUP List Column
+  GROUP List column Container
+  {"name": "portalZoomConfigurator_columnListContainer_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_columnListContainer_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_columnListContainer_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_columnListContainer_borderRadius","type": "TEXT", "caption": "Border radius"}
+  {"name": "portalZoomConfigurator_columnListContainer_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_columnListContainer_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  GROUP_END
+  {"name": "portalZoomConfigurator_columnList_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_columnList_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_columnList_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_columnList_textAlign","type": "TEXT", "caption": "Text align"}
+  {"name": "portalZoomConfigurator_columnList_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_columnList_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name": "portalZoomConfigurator_columnList_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_columnList_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_columnList_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_columnList_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_columnList_lineHeight","type": "TEXT", "caption": "Line height"}
+  GROUP Selected column
+  {"name": "portalZoomConfigurator_columnList_selected_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_columnList_selected_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name":"portalZoomConfigSelectedColumn","type":"ICON","caption":"Selected column button image"}
+  {"name": "portalZoomConfig_columnList_SelectedColumn_margin","type": "TEXT", "caption": "Selected column button margin (top,right,bottom,left)"}
+  GROUP_END
+  GROUP_END
+  GROUP Search textbox
+  {"name": "portalZoomConfigurator_search_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_search_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_search_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_search_textAlign","type": "TEXT", "caption": "Text align"}
+  {"name": "portalZoomConfigurator_search_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_search_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name": "portalZoomConfigurator_search_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_search_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_search_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_search_borderRadius","type": "TEXT", "caption": "Border radius (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_search_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_search_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  GROUP_END
+  GROUP_END
+  GROUP Accept button
+  {"name":"portalZoomConfigurator_toolbar_acceptImage","type":"ICON","caption":"Accept button image"}
+  {"name": "portalZoomConfigurator_toolbar_accept_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_toolbar_accept_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_toolbar_accept_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_toolbar_accept_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_toolbar_accept_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_toolbar_accept_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  GROUP_END
+  GROUP_END
+
+  GROUP Tab
+  {"name": "portalZoomConfigurator_tab_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_tab_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_tab_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_tab_textAlign","type": "TEXT", "caption": "Text align"}
+  {"name": "portalZoomConfigurator_tab_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_tab_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name": "portalZoomConfigurator_tab_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_tab_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_tab_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_tab_borderRadius","type": "TEXT", "caption": "Border radius"}
+  {"name": "portalZoomConfigurator_tab_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_tab_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  GROUP Selected Tab
+  {"name": "portalZoomConfigurator_tab_selected_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_tab_selected_backgroundColor","type": "COLOR", "caption": "Background color"}
+  GROUP_END
+  GROUP Order Tab
+  {"name": "portalZoomConfigurator_order_tab_image","type": "ICON", "caption": "Order by image"}
+  {"name": "portalZoomConfigurator_order_tab_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_order_tab_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_order_tab_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  GROUP_END
+  GROUP Versions Tab
+  {"name": "portalZoomConfigurator_versions_tab_image","type": "ICON", "caption": "Versions image"}
+  {"name": "portalZoomConfigurator_versions_tab_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_versions_tab_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_versions_tab_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  GROUP_END
+  GROUP Filter Tab
+  {"name": "portalZoomConfigurator_filter_tab_image","type": "ICON", "caption": "Filter image"}
+  {"name": "portalZoomConfigurator_filter_tab_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_filter_tab_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_filter_tab_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  GROUP_END
+  GROUP_END
+
+  GROUP Applied Filter
+  GROUP List Applied Filter Title
+  {"name": "portalZoomConfigurator_appliedFilter_title_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_appliedFilter_title_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_appliedFilter_title_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_appliedFilter_title_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_appliedFilter_title_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_appliedFilter_title_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_appliedFilter_title_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_appliedFilter_title_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_appliedFilter_title_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  GROUP_END
+  {"name":"portalZoomConfigDeleteFilter","type":"ICON","caption":"Delete filter button image"}
+  {"name":"portalZoomConfigurator_appliedfilter_padding","type":"ICON","caption":"Filter Padding (top,right,bottom,left)"}
+  {"name":"portalZoomConfigurator_appliedfilter_margin","type":"ICON","caption":"Filter Margin (top,right,bottom,left)"}
+  GROUP Filter name
+  {"name": "portalZoomConfigurator_filterName_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_filterName_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_filterName_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_filterName_textAlign","type": "TEXT", "caption": "Text align"}
+  {"name": "portalZoomConfigurator_filterName_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_filterName_padding","type": "COLOR", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_filterName_margin","type": "COLOR", "caption": "Margin (top,right,bottom,left)"}
+  GROUP_END
+  GROUP Filter operator
+  {"name": "portalZoomConfigurator_filterOperator_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_filterOperator_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_filterOperator_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_filterOperator_textAlign","type": "TEXT", "caption": "Text align"}
+  {"name": "portalZoomConfigurator_filterOperator_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_filterOperator_padding","type": "COLOR", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_filterOperator_margin","type": "COLOR", "caption": "Margin (top,right,bottom,left)"}
+  GROUP_END
+  GROUP Filter value
+  {"name": "portalZoomConfigurator_value_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_value_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_value_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_value_textAlign","type": "TEXT", "caption": "Text align"}
+  {"name": "portalZoomConfigurator_value_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_value_padding","type": "COLOR", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_value_margin","type": "COLOR", "caption": "Margin (top,right,bottom,left)"}
+  GROUP_END
+  GROUP_END
+
+  GROUP New Filter
+  GROUP Title
+  {"name": "portalZoomConfigurator_newFilter_title_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_newFilter_title_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_newFilter_title_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_newFilter_title_textAlign","type": "TEXT", "caption": "Text align"}
+  {"name": "portalZoomConfigurator_newFilter_title_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_newFilter_title_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_newFilter_title_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_newFilter_title_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_newFilter_title_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_newFilter_title_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  GROUP_END
+  GROUP Add filter button
+    {"name":"portalZoomConfigAddFilter","type":"ICON","caption":"Add filter button image"}
+    {"name": "portalZoomConfigAddFilter_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+    {"name": "portalZoomConfigAddFilter_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  GROUP_END
+  GROUP List field
+  {"name": "portalZoomConfigurator_listFilterField_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_listFilterField_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_listFilterField_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_listFilterField_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_listFilterField_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name": "portalZoomConfigurator_listFilterField_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listFilterField_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listFilterField_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listFilterField_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listFilterField_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  GROUP_END
+
+  GROUP List operator
+  GROUP Operator Container
+  {"name": "portalZoomConfigurator_listOperatorContainer_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOperatorContainer_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  GROUP_END
+  {"name": "portalZoomConfigurator_listOperator_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_listOperator_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_listOperator_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_listOperator_textAlign","type": "TEXT", "caption": "Text align"}
+  {"name": "portalZoomConfigurator_listOperator_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_listOperator_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name": "portalZoomConfigurator_listOperator_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOperator_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOperator_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOperator_borderRadius","type": "TEXT", "caption": "Border radius (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOperator_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOperator_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  GROUP Selected operator
+  {"name": "portalZoomConfigurator_listOperator_selected_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_listOperator_selected_backgroundColor","type": "COLOR", "caption": "Background color"}
+  GROUP_END
+  GROUP_END
+
+  GROUP Value
+  {"name": "portalZoomConfigurator_filterValue_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_filterValue_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_filterValue_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_filterValue_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_filterValuer_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name": "portalZoomConfigurator_filterValue_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_filterValue_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_filterValue_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_filterValue_borderRadius","type": "TEXT", "caption": "Border radius (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_filterValue_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_filterValue_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  GROUP_END
+
+  GROUP_END
+
+  GROUP Order by
+  GROUP Order by Container
+  {"name": "portalZoomConfigurator_listOrderByContainer_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOrderByContainer_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOrderByContainer_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOrderByContainer_borderRadius","type": "TEXT", "caption": "Border radius"}
+  {"name": "portalZoomConfigurator_listOrderByContainer_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOrderByContainer_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  GROUP_END
+  {"name": "portalZoomConfigurator_listOrderBy_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_listOrderBy_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_listOrderBy_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_listOrderBy_textAlign","type": "TEXT", "caption": "Text align"}
+  {"name": "portalZoomConfigurator_listOrderBy_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_listOrderBy_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name": "portalZoomConfigurator_listOrderBy_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOrderBy_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOrderBy_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOrderBy_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_listOrderBy_lineHeight","type": "TEXT", "caption": "Line height"}
+  GROUP Selected order by
+  {"name": "portalZoomConfigurator_listOrderBy_selected_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_listOrderBy_selected_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name":"portalZoomConfigSelectedOrder","type":"ICON","caption":"Selected order button image"}
+  {"name": "portalZoomConfig_listOrderBy_SelectedOrder_margin","type": "TEXT", "caption": "Selected order button margin (top,right,bottom,left)"}
+  {"name":"portalZoomConfigAscendingOrder","type":"ICON","caption":"Ascending order disabled button image"}
+  {"name":"portalZoomConfigAscendingOrderActive","type":"ICON","caption":"Ascending order active button image"}
+  {"name": "portalZoomConfig_listOrderBy_AscendingOrder_margin","type": "TEXT", "caption": "Ascending order button margin (top,right,bottom,left)"}
+  {"name":"portalZoomConfigDescendingOrder","type":"ICON","caption":"Descending order disabled button image"}
+  {"name":"portalZoomConfigDescendingOrderActive","type":"ICON","caption":"Descending order active button image"}
+  {"name": "portalZoomConfig_listOrderBy_DescendingOrder_margin","type": "TEXT", "caption": "Descending order button margin (top,right,bottom,left)"}
+  GROUP_END
+  GROUP_END
+
+  GROUP Versions
+  GROUP Container
+  {"name": "portalZoomConfigurator_versionContainer_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_versionContainer_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_versionContainer_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_versionContainer_borderRadius","type": "TEXT", "caption": "Border radius"}
+  {"name": "portalZoomConfigurator_versionContainer_margin","type": "TEXT", "caption": "Margin (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_versionContainer_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  GROUP_END
+  {"name": "portalZoomConfigurator_versions_font","type": "FONT", "caption": "Font family", "default": "Tahoma, Geneva, Helvetica, sans-serif"}
+  { "name": "portalZoomConfigurator_versions_fontSize","type": "FONT_SIZE", "caption": "Font size", "default": {"value":10,"unit":"px"}, "typeConversion":{"NUMBER":"SPTheme_2.NumberPxToDict"} }
+  {"name": "portalZoomConfigurator_versions_fontWeight","type": "FONT", "caption": "Font weight"}
+  {"name": "portalZoomConfigurator_versions_textAlign","type": "TEXT", "caption": "Text align"}
+  {"name": "portalZoomConfigurator_versions_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_versions_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name": "portalZoomConfigurator_versions_borderSize","type": "TEXT", "caption": "Border width (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_versions_borderColor","type": "COLOR", "caption": "Border color (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_versions_borderStyle","type": "TEXT", "caption": "Border style (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_versions_padding","type": "TEXT", "caption": "Padding (top,right,bottom,left)"}
+  {"name": "portalZoomConfigurator_versions_lineHeight","type": "TEXT", "caption": "Line height"}
+  GROUP Selected version
+  {"name": "portalZoomConfigurator_versions_selected_color","type": "COLOR", "caption": "Font color"}
+  {"name": "portalZoomConfigurator_versions_selected_backgroundColor","type": "COLOR", "caption": "Background color"}
+  {"name":"portalZoomConfigSelectedVersion","type":"ICON","caption":"Selected version button image"}
+  {"name": "portalZoomConfig_versions_SelectedVersion_margin","type": "TEXT", "caption": "Selected version button margin (top,right,bottom,left)"}
+  GROUP_END
+  GROUP_END
+
+
+VARIABLES portalZoomConfigurator_toolbar_backImage portalZoomConfigurator_toolbar_acceptImage portalZoomConfigDeleteFilter portalZoomConfigAddFilter portalZoomConfigSelectedOrder portalZoomConfigAscendingOrder portalZoomConfigAscendingOrderActive portalZoomConfigDescendingOrder portalZoomConfigDescendingOrderActive portalZoomConfigurator_order_tab_image portalZoomConfigurator_versions_tab_image portalZoomConfigurator_filter_tab_image portalZoomConfigSelectedVersion portalZoomConfigSelectedColumn
+
+TEMPLATE portalstudio.css
+
+.\controlName\ {
+  background-color:\portalZoomConfigurator_backgroundColor!\;
+  background-image:\portalZoomConfigurator_backgroundImage!\;
+  background-repeat:\portalZoomConfigurator_backgroundRepeat!\;
+  background-position:\portalZoomConfigurator_backgroundPosition!\;
+}
+
+.\controlName\ .toolbar{
+  background-color:\portalZoomConfigurator_toolbar_backgroundColor!\;
+  background-image:\portalZoomConfigurator_toolbar_backgroundImage!\;
+  background-repeat:\portalZoomConfigurator_toolbar_backgroundRepeat!\;
+  background-position:\portalZoomConfigurator_toolbar_backgroundPosition!\;
+  height:\portalZoomConfigurator_toolbar_height!\;
+  display: flex;
+  flex-flow:row nowrap;
+  align-items:center;
+}
+
+.\controlName\ .searchBox{
+  display:inline-table;
+}
+
+.\controlName\ .searchBox{
+  width:100%;
+  box-sizing:border-box;
+  font-family:\portalZoomConfigurator_search_font!\;
+  font-size:\portalZoomConfigurator_search_fontSize!\;
+  font-weight:\portalZoomConfigurator_search_fontWeight!\;
+  text-align:\portalZoomConfigurator_search_textAlign!\;
+  color:\portalZoomConfigurator_search_color!\;
+  background-color:\portalZoomConfigurator_search_backgroundColor!\;
+  border-width:\portalZoomConfigurator_search_borderSize!\;
+  border-color:\portalZoomConfigurator_search_borderColor!\;
+  border-style:\portalZoomConfigurator_search_borderStyle!\;
+  border-radius:\portalZoomConfigurator_search_borderRadius!\;
+  padding:\portalZoomConfigurator_search_padding!\;
+  margin:\portalZoomConfigurator_search_margin!\;
+}
+
+.\controlName\ .toolbar span{
+  font-family:\portalZoomConfigurator_toolbar_accept_font!\;
+  font-size:\portalZoomConfigurator_toolbar_accept_fontSize!\;
+  font-weight:\portalZoomConfigurator_toolbar_accept_fontWeight!\;
+  color:\portalZoomConfigurator_toolbar_accept_color!\;
+  padding:\portalZoomConfigurator_toolbar_accept_padding!\;
+  margin:\portalZoomConfigurator_toolbar_accept_margin!\;
+}
+
+.\controlName\ .toolbar a{  
+  padding:4px;
+}
+
+.\controlName\ .toolbar .searchDiv{
+  flex:1;
+}
+
+.\controlName\ .columnListContainer{
+  border-width:\portalZoomConfigurator_columnListContainer_borderSize!\;
+  border-color:\portalZoomConfigurator_columnListContainer_borderColor!\;
+  border-style:\portalZoomConfigurator_columnListContainer_borderStyle!\;
+  border-radius:\portalZoomConfigurator_columnListContainer_borderRadius!\;
+  margin:\portalZoomConfigurator_columnListContainer_margin!\;
+  padding:\portalZoomConfigurator_columnListContainer_padding!\;
+}
+.\controlName\ .columnList:first-child{
+  border-top:0;
+}
+.\controlName\ .columnList:last-child{
+  border-bottom:0;
+}
+
+.\controlName\ .columnList{
+  display: block;
+  cursor:pointer;
+  padding-left:10px;
+  font-family:\portalZoomConfigurator_columnList_font!\;
+  font-size:\portalZoomConfigurator_columnList_fontSize!\;
+  font-weight:\portalZoomConfigurator_columnList_fontWeight!\;
+  text-align:\portalZoomConfigurator_columnList_textAlign!\;
+  color:\portalZoomConfigurator_columnList_color!\;
+  background-color:\portalZoomConfigurator_columnList_backgroundColor!\;
+  border-width:\portalZoomConfigurator_columnList_borderSize!\;
+  border-color:\portalZoomConfigurator_columnList_borderColor!\;
+  border-style:\portalZoomConfigurator_columnList_borderStyle!\;
+  padding:\portalZoomConfigurator_columnList_padding!\;
+  line-height:\portalZoomConfigurator_columnList_lineHeight!\;
+}
+
+.\controlName\ .columnList.selected{
+  color:\portalZoomConfigurator_columnList_selected_color!\;
+  background-color:\portalZoomConfigurator_columnList_selected_backgroundColor!\;
+}
+
+.\controlName\ .columnList .checkColumn{
+  margin:\portalZoomConfig_columnList_SelectedColumn_margin!\;
+}
+
+.\controlName\ .tab_container{
+  font-family:\portalZoomConfigurator_tab_font!\;
+  font-size:\portalZoomConfigurator_tab_fontSize!\;
+  font-weight:\portalZoomConfigurator_tab_fontWeight!\;
+  text-align:\portalZoomConfigurator_tab_textAlign!\;
+  color:\portalZoomConfigurator_tab_color!\;
+  background-color:\portalZoomConfigurator_tab_backgroundColor!\;
+  border-width:\portalZoomConfigurator_tab_borderSize!\;
+  border-color:\portalZoomConfigurator_tab_borderColor!\;
+  border-style:\portalZoomConfigurator_tab_borderStyle!\;
+  border-radius:\portalZoomConfigurator_tab_borderRadius!\;
+  margin:\portalZoomConfigurator_tab_margin!\;
+  display: flex;
+}
+
+.\controlName\ .tab_container a{
+  vertical-align:middle;
+}
+
+.\controlName\ .tab{
+  flex: 1 1 33%;
+  cursor:pointer;
+}
+
+.\controlName\ .tab:first-child{
+  border-top-left-radius:\portalZoomConfigurator_tab_borderRadius!\;
+  border-bottom-left-radius:\portalZoomConfigurator_tab_borderRadius!\;
+}
+
+.\controlName\ .tab:last-child{
+  border-top-right-radius:\portalZoomConfigurator_tab_borderRadius!\;
+  border-bottom-right-radius:\portalZoomConfigurator_tab_borderRadius!\;
+}
+
+
+.\controlName\ .tab span{
+  padding:\portalZoomConfigurator_tab_padding!\;
+  display:inline-block;
+}
+
+.\controlName\ .tab.selected{
+  color:\portalZoomConfigurator_tab_selected_color!\;
+  background-color:\portalZoomConfigurator_tab_selected_backgroundColor!\;
+}
+
+.\controlName\ .tab.orderTab{
+  border-width:\portalZoomConfigurator_order_tab_borderSize!\;
+  border-color:\portalZoomConfigurator_order_tab_borderColor!\;
+  border-style:\portalZoomConfigurator_order_tab_borderStyle!\;
+}
+
+.\controlName\ .tab.versionsTab{
+  border-width:\portalZoomConfigurator_versions_tab_borderSize!\;
+  border-color:\portalZoomConfigurator_versions_tab_borderColor!\;
+  border-style:\portalZoomConfigurator_versions_tab_borderStyle!\;
+}
+
+.\controlName\ .tab.filterTab{
+  border-width:\portalZoomConfigurator_filter_tab_borderSize!\;
+  border-color:\portalZoomConfigurator_filter_tab_borderColor!\;
+  border-style:\portalZoomConfigurator_filter_tab_borderStyle!\;
+}
+
+.\controlName\ .appliedFilterTitle{
+    font-family:\portalZoomConfigurator_appliedFilter_title_font!\;
+    font-size:\portalZoomConfigurator_appliedFilter_title_fontSize!\;
+    font-weight:\portalZoomConfigurator_appliedFilter_title_fontWeight!\;
+    color:\portalZoomConfigurator_appliedFilter_title_color!\;
+    border-width:\portalZoomConfigurator_appliedFilter_title_borderSize!\;
+    border-color:\portalZoomConfigurator_appliedFilter_title_borderColor!\;
+    border-style:\portalZoomConfigurator_appliedFilter_title_borderStyle!\;
+    margin:\portalZoomConfigurator_appliedFilter_title_margin!\;
+    padding:\portalZoomConfigurator_appliedFilter_title_padding!\;
+  }
+
+
+.\controlName\ .newFilterTitle{
+    font-family:\portalZoomConfigurator_newFilter_title_font!\;
+    font-size:\portalZoomConfigurator_newFilter_title_fontSize!\;
+    font-weight:\portalZoomConfigurator_newFilter_title_fontWeight!\;
+    text-align:\portalZoomConfigurator_newFilter_title_textAlign!\;
+    color:\portalZoomConfigurator_newFilter_title_color!\;
+    border-width:\portalZoomConfigurator_newFilter_title_borderSize!\;
+    border-color:\portalZoomConfigurator_newFilter_title_borderColor!\;
+    border-style:\portalZoomConfigurator_newFilter_title_borderStyle!\;
+    margin:\portalZoomConfigurator_newFilter_title_margin!\;
+    padding:\portalZoomConfigurator_newFilter_title_padding!\;
+    display:flex;
+  }
+
+.\controlName\ .newFilterTitle span{
+  flex:auto;
+}
+
+.\controlName\ .newFilterBtn{
+  display:table-cell;
+  vertical-align:middle;
+  cursor:pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  height:100%;
+  box-sizing:border-box;
+  margin:\portalZoomConfigAddFilter_margin!\;
+  padding:\portalZoomConfigAddFilter_padding!\;
+}
+
+.\controlName\ #listFilter li{
+  display:flex;
+  align-items:flex-end;
+  margin:\portalZoomConfigurator_appliedfilter_margin!\;
+  padding:\portalZoomConfigurator_appliedfilter_padding!\;
+}
+
+.\controlName\ #listFilter li div{
+  flex:auto;
+  display:inline-block;
+}
+
+.\controlName\ .filterName{
+  font-family:\portalZoomConfigurator_filterName_font!\;
+  font-size:\portalZoomConfigurator_filterName_fontSize!\;
+  font-weight:\portalZoomConfigurator_filterName_fontWeight!\;
+  text-align:\portalZoomConfigurator_filterName_textAlign!\;
+  color:\portalZoomConfigurator_filterName_color!\;
+  padding:\portalZoomConfigurator_filterName_padding!\;
+  margin:\portalZoomConfigurator_filterName_margin!\;
+}
+
+.\controlName\ .filterOperator{
+  font-family:\portalZoomConfigurator_filterOperator_font!\;
+  font-size:\portalZoomConfigurator_filterOperator_fontSize!\;
+  font-weight:\portalZoomConfigurator_filterOperator_fontWeight!\;
+  text-align:\portalZoomConfigurator_filterOperator_textAlign!\;
+  color:\portalZoomConfigurator_filterOperator_color!\;
+  padding:\portalZoomConfigurator_filterOperator_padding!\;
+  margin:\portalZoomConfigurator_filterOperator_margin!\;
+}
+
+.\controlName\ .value{
+  font-family:\portalZoomConfigurator_value_font!\;
+  font-size:\portalZoomConfigurator_value_fontSize!\;
+  font-weight:\portalZoomConfigurator_value_fontWeight!\;
+  text-align:\portalZoomConfigurator_value_textAlign!\;
+  color:\portalZoomConfigurator_value_color!\;
+  padding:\portalZoomConfigurator_value_padding!\;
+  margin:\portalZoomConfigurator_value_margin!\;
+}
+
+.\controlName\ .filterFieldContainer{
+  margin:\portalZoomConfigurator_listFilterField_margin!\;
+}
+
+.\controlName\ .filterField{
+  display: block;
+  width:100%;
+  font-family:\portalZoomConfigurator_listFilterField_font!\;
+  font-size:\portalZoomConfigurator_listFilterField_fontSize!\;
+  font-weight:\portalZoomConfigurator_listFilterField_fontWeight!\;
+  color:\portalZoomConfigurator_listFilterField_color!\;
+  background-color:\portalZoomConfigurator_listFilterField_backgroundColor!\;
+  border-width:\portalZoomConfigurator_listFilterField_borderSize!\;
+  border-color:\portalZoomConfigurator_listFilterField_borderColor!\;
+  border-style:\portalZoomConfigurator_listFilterField_borderStyle!\;
+  padding:\portalZoomConfigurator_listFilterField_padding!\;
+}
+
+.\controlName\ .listOperatorContainer{
+  padding:\portalZoomConfigurator_listOperatorContainer_padding!\;
+  margin:\portalZoomConfigurator_listOperatorContainer_margin!\;
+}
+
+.\controlName\ .listOperator{
+  display: inline-block;
+  cursor:pointer;
+  min-width: 40px;
+  font-family:\portalZoomConfigurator_listOperator_font!\;
+  font-size:\portalZoomConfigurator_listOperator_fontSize!\;
+  font-weight:\portalZoomConfigurator_listOperator_fontWeight!\;
+  text-align:\portalZoomConfigurator_listOperator_textAlign!\;
+  color:\portalZoomConfigurator_listOperator_color!\;
+  background-color:\portalZoomConfigurator_listOperator_backgroundColor!\;
+  border-width:\portalZoomConfigurator_listOperator_borderSize!\;
+  border-color:\portalZoomConfigurator_listOperator_borderColor!\;
+  border-style:\portalZoomConfigurator_listOperator_borderStyle!\;
+  border-radius:\portalZoomConfigurator_listOperator_borderRadius!\;
+  padding:\portalZoomConfigurator_listOperator_padding!\;
+  margin:\portalZoomConfigurator_listOperator_margin!\;
+}
+
+.\controlName\ .listOperator.selected{
+  color:\portalZoomConfigurator_listOperator_selected_color!\;
+  background-color:\portalZoomConfigurator_listOperator_selected_backgroundColor!\;
+}
+
+.\controlName\ .filterValue{
+  font-family:\portalZoomConfigurator_filterValue_font!\;
+  font-size:\portalZoomConfigurator_filterValue_fontSize!\;
+  font-weight:\portalZoomConfigurator_filterValue_fontWeight!\;
+  color:\portalZoomConfigurator_filterValue_color!\;
+  background-color:\portalZoomConfigurator_filterValuer_backgroundColor!\;
+  border-width:\portalZoomConfigurator_filterValue_borderSize!\;
+  border-color:\portalZoomConfigurator_filterValue_borderColor!\;
+  border-style:\portalZoomConfigurator_filterValue_borderStyle!\;
+  border-radius:\portalZoomConfigurator_filterValue_borderRadius!\;
+  padding:\portalZoomConfigurator_filterValue_padding!\;
+  margin:\portalZoomConfigurator_filterValue_margin!\;
+}
+
+.\controlName\ .orderByContainer{
+  border-width:\portalZoomConfigurator_listOrderByContainer_borderSize!\;
+  border-color:\portalZoomConfigurator_listOrderByContainer_borderColor!\;
+  border-style:\portalZoomConfigurator_listOrderByContainer_borderStyle!\;
+  border-radius:\portalZoomConfigurator_listOrderByContainer_borderRadius!\;
+  margin:\portalZoomConfigurator_listOrderByContainer_margin!\;
+  padding:\portalZoomConfigurator_listOrderByContainer_padding!\;
+}
+.\controlName\ .orderBy:first-child{
+  border-top:0;
+}
+.\controlName\ .orderBy:last-child{
+  border-bottom:0;
+}
+
+.\controlName\ .orderBy{
+  display: block;
+  cursor:pointer;
+  padding-left:10px;
+  font-family:\portalZoomConfigurator_listOrderBy_font!\;
+  font-size:\portalZoomConfigurator_listOrderBy_fontSize!\;
+  font-weight:\portalZoomConfigurator_listOrderBy_fontWeight!\;
+  text-align:\portalZoomConfigurator_listOrderBy_textAlign!\;
+  color:\portalZoomConfigurator_listOrderBy_color!\;
+  background-color:\portalZoomConfigurator_listOrderBy_backgroundColor!\;
+  border-width:\portalZoomConfigurator_listOrderBy_borderSize!\;
+  border-color:\portalZoomConfigurator_listOrderBy_borderColor!\;
+  border-style:\portalZoomConfigurator_listOrderBy_borderStyle!\;
+  padding:\portalZoomConfigurator_listOrderBy_padding!\;
+  line-height:\portalZoomConfigurator_listOrderBy_lineHeight!\;
+}
+
+.\controlName\ .orderBy.selected{
+  color:\portalZoomConfigurator_listOrderBy_selected_color!\;
+  background-color:\portalZoomConfigurator_listOrderBy_selected_backgroundColor!\;
+}
+
+.\controlName\ .orderBy .checkOrder{
+  margin:\portalZoomConfig_listOrderBy_SelectedOrder_margin!\;
+}
+
+.\controlName\ .orderBy .ascendingOrder, .\controlName\ .orderBy .ascendingOrderActive{
+  margin:\portalZoomConfig_listOrderBy_AscendingOrder_margin!\;
+}
+
+.\controlName\ .orderBy .descendingOrder, .\controlName\ .orderBy .descendingOrderActive{
+  margin:\portalZoomConfig_listOrderBy_DescendingOrder_margin!\;
+}
+
+.\controlName\ .versions{
+  display: block;
+  cursor:pointer;
+  font-family:\portalZoomConfigurator_versions_font!\;
+  font-size:\portalZoomConfigurator_versions_fontSize!\;
+  font-weight:\portalZoomConfigurator_versions_fontWeight!\;
+  text-align:\portalZoomConfigurator_versions_textAlign!\;
+  color:\portalZoomConfigurator_versions_color!\;
+  background-color:\portalZoomConfigurator_versions_backgroundColor!\;
+  border-width:\portalZoomConfigurator_versions_borderSize!\;
+  border-color:\portalZoomConfigurator_versions_borderColor!\;
+  border-style:\portalZoomConfigurator_versions_borderStyle!\;
+  padding:\portalZoomConfigurator_versions_padding!\;
+  line-height:\portalZoomConfigurator_versions_lineHeight!\;
+}
+
+.\controlName\ .versionContainer{
+  border-width:\portalZoomConfigurator_versionContainer_borderSize!\;
+  border-color:\portalZoomConfigurator_versionContainer_borderColor!\;
+  border-style:\portalZoomConfigurator_versionContainer_borderStyle!\;
+  border-radius:\portalZoomConfigurator_versionContainer_borderRadius!\;
+  margin:\portalZoomConfigurator_versionContainer_margin!\;
+  padding:\portalZoomConfigurator_versionContainer_padding!\;
+}
+
+
+.\controlName\ .versions.selected{
+  color:\portalZoomConfigurator_versions_selected_color!\;
+  background-color:\portalZoomConfigurator_versions_selected_backgroundColor!\;
+}
+
+.\controlName\ .versions .checkVersion{
+  margin:\portalZoomConfig_versions_SelectedVersion_margin!\;
+}
+
+.\controlName\ .versions:first-child{
+  border-top:0;
+  border-top-left-radius:\portalZoomConfigurator_versionContainer_borderRadius!\;
+  border-top-right-radius:\portalZoomConfigurator_versionContainer_borderRadius!\;
+}
+.\controlName\ .versions:last-child{
+  border-bottom:0;
+  border-bottom-left-radius:\portalZoomConfigurator_versionContainer_borderRadius!\;
+  border-bottom-right-radius:\portalZoomConfigurator_versionContainer_borderRadius!\;
+}
+
+NODE_END

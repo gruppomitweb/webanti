@@ -1,0 +1,47 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_import_anagrafica_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:43
+description='Importazione Anagrafica
+file_modified_on=#2024-05-10 18:19:35
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='logged
+I
+}
+modified_on=#2024-05-10 18:24:46
+module_name='
+name='pg_import_anagrafica_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Hyperlinks
+[
+'arfn_migrazione_anagrafica_da_altro_db
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_import_anagrafica_portlet.jsp|Error|core::document|Update dependencies|Resource "mcpersonbo_altrodb" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:46
+message='Resource "mcpersonbo_altrodb" not found.
+resource_key='jsp\pg_import_anagrafica_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

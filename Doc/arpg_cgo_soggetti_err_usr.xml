@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="147675497">
+  <CodifyName>arpg_cgo_soggetti_err</CodifyName>
+  <Name>arpg_cgo_soggetti_err.pagedef</Name>
+  <Title>Correzione Soggetti Scartati (CGO)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="247304480"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_cgo_soggetti_err_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="74" x2="1246" y2="87">
+      <Name LinkID="168487362">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="61" x2="1246" y2="74">
+      <Name LinkID="222470098">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="44" x2="112" y2="60">
+      <Name LinkID="247290217">c_CONNES</Name>
+      <Help></Help>
+      <Expression>c_CONNES</Expression>
+      <Hyperlink>arrt_cgo_soggetti_err_load</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="120" y1="44" x2="448" y2="60">
+      <Name LinkID="247290217">LRTrim(c_COGNOME)+&quot; &quot;+LRTrim(c_NOME)</Name>
+      <Help></Help>
+      <Expression>LRTrim(c_COGNOME)+&quot; &quot;+LRTrim(c_NOME)</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="456" y1="44" x2="528" y2="60">
+      <Name LinkID="247290217">c_DATANASC</Name>
+      <Help></Help>
+      <Expression>c_DATANASC</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="536" y1="44" x2="716" y2="60">
+      <Name LinkID="247290217">c_NASCOMUN</Name>
+      <Help></Help>
+      <Expression>c_NASCOMUN</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="720" y1="44" x2="810" y2="60">
+      <Name LinkID="247290217">c_PRGSOG</Name>
+      <Help></Help>
+      <Expression>c_PRGSOG</Expression>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

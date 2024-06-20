@@ -1,0 +1,117 @@
+ 2
+"Operazioni ExtraConto"
+"opextrbo"
+"opextrbo"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 6
+"Anno riferimento"
+"opextrbo.ANNO"
+"ANNO"
+"C"
+ 4
+ 0
+*
+"Collegamento"
+"opextrbo.COLLEG"
+"COLLEG"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Saldo (Importo)"
+"opextrbo.SALDO"
+"SALDO"
+"N"
+ 17
+ 0
+*
+"N° Operazioni"
+"opextrbo.QUANTITA"
+"QUANTITA"
+"N"
+ 6
+ 0
+*
+"Valuta"
+"opextrbo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+ 1
+"Soggetti"
+"personbo.COLLEG=opextrbo.COLLEG"
+"Right outer"
+"personbo"
+"opextrbo"
+*
+ 1
+"opextrbo.ANNO"
+""
+"="
+"?w_ANNO"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_ANNO"
+"Anno riferimento"
+"C"
+"4"
+"0"
+""
+*
+"w_DescAzi"
+"Descrizione Intermediario"
+"C"
+"70"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 1
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"JJ8%5DRLMADS%40%23%3B%0BYOV%191%22%3F+O%3F_8FC%40%28D%2F%2BI%18%25%2B%2C4X4%2BCJ%2C%29%29-0JKP%3F4%2B%3BJ%40YFTAXU%3DCG2Z+%066%29VC%3FEN%2C%25B%3D%3C%3A%23%17%01%10%1AOFPASTUHULH%1AW3U%26E%3F%7BRM%3B5+AkiDW%29%218DG+S%23ZUFKWF0.T%3B1%22%5D7IJ%3F4%3BV%271%5E%2C57%3E%22%27%1F%235WPI%26%3C-%40%24%2B-%12%3CQ%5Ci%26B%27DK%29RO%3B3%5D%24U0.%1D+W%21Q4N_Y6K%23%223%26%25N3%29A%2B1%3B%26+1%5EJY31%3B18%5DVXGK%2F%5E_%3B%1FJ%5EBR%5B+C%28H%3DN91%213%3B%1B%232%22-%294%00"
+"%40V%40QEIt%3F.X+%16CXB%3AS%1B%05*P%21%1B%3FIN%2CImqb%3AHKAY%28%24%3FUiV%3D%1C%2FE%21%2BD%3AM%2C1%26M%29+_8IMXIU%5E%2FC%283%28%21%3EuVMYA%40O%23%278%3B%26%24H8%21L4%26PLXEE%3D%06%3BJ%2F2J%249%21A-O%3A%25%21*_V07U%21%21B*LYE%22YH%2F%60W%26J%3F%3E7%5B.Hi.%3ED-N7JMW%1A%22%3F%23A%23%27%2CWSILE9%21*-%2F%21%2F%5E%5E_%5CFZ%3E%22B%22%40%3CI%40*%40P8%19NU%5E-%29_WASB%25%2F%223+%26%29JJ4F%2CO%2BXDF%28%07%27-%3DA%40%25%3F%23%23%3DQ%3C3H1%3EX%2F%072E%5DE6%1D6%23ZCCG%292%3A2%3BE%2F%00"
+""
+""
+"native"
+ 0
+ 0
+*

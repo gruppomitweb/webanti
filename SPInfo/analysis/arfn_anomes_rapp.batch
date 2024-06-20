@@ -1,0 +1,61 @@
+﻿* --- Resource Vers. 0.9
+arfn_anomes_rapp
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:27
+description='Controlli su rapporti continuativi
+file_modified_on=#2019-03-29 13:09:24
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:50
+module_name='
+name='arfn_anomes_rapp
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aetesta.rapporto
+'aetesta.cab
+'personbo.connes
+'personbo.codfisc
+'personbo.cfestero
+]
+'Queries
+[
+'qbe_famesiti_intestbo_minmax.vqr
+'qbe_famesiti_jntestbo_minmax.vqr
+]
+'Routines
+[
+'arfn_anomes_rapp
+'arfn_anompers
+]
+'Tables
+[
+'anarapbo<table>
+'intestbo<table>
+'delegabo<table>
+'jnarapbo<table>
+'jntestbo<table>
+'jelegabo<table>
+'aetesta<table>
+'aeannora<table>
+'garantbo<table>
+'jarantbo<table>
+'intestit<table>
+'jntestit<table>
+'personbo<table>
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

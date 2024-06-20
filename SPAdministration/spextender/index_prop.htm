@@ -1,0 +1,139 @@
+<html>
+ <head>
+  <title>Index properties</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=windows-1252">
+  <link rel="stylesheet" href="extender.css" type="text/css">
+  <script src="../stdFunctions.js"></script>
+  <script src="../controls.js"></script>
+  <script src="../spadministration_help.js"></script>
+  <script>
+QueryString.keys = new Array();
+QueryString.values = new Array();
+var fields=null;
+var action;
+var m_cProgName="spadministration_table_extender_index";
+
+function QueryString(key) {
+	var value = null;
+  for (var i=0;i<QueryString.keys.length;i++) {
+    if (QueryString.keys[i]==key) {
+			value = QueryString.values[i];
+			break;
+		}
+	}
+	return value;
+}
+
+function QueryString_Parse() {
+	var query = window.location.search.substring(1);
+	var pairs = query.split("&");
+
+  for (var i=0;i<pairs.length;i++) {
+		var pos = pairs[i].indexOf('=');
+    if (pos >= 0) {
+			var argname = pairs[i].substring(0,pos);
+			var value = pairs[i].substring(pos+1);
+			QueryString.keys[QueryString.keys.length] = argname;
+			QueryString.values[QueryString.values.length] = value;
+		}
+	}
+}
+
+function DoLoad() {
+  QueryString_Parse();
+
+  action = QueryString("action");
+
+  fields = GetOpener().allTables[QueryString("t")][6];
+  for (var i=0;i<fields.length;i++) {
+    document.getElementById("objectlist").options[document.getElementById("objectlist").options.length] =
+                new Option(fields[i][1]+"("+fields[i][0]+")", fields[i][0], false, false);
+  }
+
+  if (action=="edit") {
+    document.getElementById("expression").value = GetOpener().extendedItems[QueryString("et")][8][QueryString("ef")][0];
+    document.getElementById("unique").checked = GetOpener().extendedItems[QueryString("et")][8][QueryString("ef")][1];
+  }
+  document.getElementById("expression").select();
+  document.getElementById("expression").focus();
+}
+
+function SetIndex() {
+  GetOpener().UpdateIndex(action, document.getElementById("expression").value, document.getElementById("unique").checked, QueryString("et"), QueryString("ef"), QueryString("t"), QueryString("f"));
+  WindowClose();
+}
+
+function AddFieldToExp() {
+  if (document.getElementById("objectlist").options.selectedIndex>=0) {
+    var field = document.getElementById("objectlist").options[document.getElementById("objectlist").options.selectedIndex].value;
+    if(!Empty(document.getElementById("expression").value)) field = ","+field;
+    addText(document.getElementById("expression"), field); //Aggiunge il test nella posizione del cursore
+  }
+}
+function CloseWindow() {
+  WindowClose();
+}
+function ManageKeys(e) {
+  if(e.keyCode==13){
+    if(GetEventSrcElement(e).id!="expression" && GetEventSrcElement(e).id!="categories" && GetEventSrcElement(e).id!="objectlist"){
+      SetIndex();
+    }
+  }
+  else if(e.keyCode==27) CloseWindow();
+}
+function CancelEvent(e){
+ e.cancelBubble=true
+ if(e.stopPropagation) e.stopPropagation();
+ e.returnValue=false
+}
+function CancelHelp(e) {
+ CancelEvent(e);
+ Help();
+}
+  </script>
+ </head>
+
+ <body onload="DoLoad()" onhelp="CancelHelp(event)" onkeydown="ManageKeys(event)" bgcolor="#D6D3CE" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" scroll="no" style="border:0px;overflow:hidden;margin:0pt">
+  <table border="1" width="482" cellpadding="0" cellspacing="1" align="center" height="285">
+   <tr style="height:20">
+    <td class="titoli" colspan="2" align="center" onselectstart="return false">E<u>x</u>pression</td>
+   </tr>
+   <tr>
+    <td class="contorno" colspan="2">
+     <textarea class="expression_textarea" id="expression" colspan="2" style="width:100%;height:100%;overflow:hidden" accesskey="x"></textarea>
+    </td>
+   </tr>
+   <tr>
+    <td class="contorno" style="width:45%">
+     <select class="expression_textarea" id="categories" size="8" style="width:100%;height:215px" accesskey="v">
+      <option value="fields" selected>Fields</option>
+     </select>
+    </td>
+    <td class="contorno" style="width:55%">
+     <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0">
+      <tr style="height:20">
+       <td class="titoli" align="center" onselectstart="return false">A<u>v</u>ailable <span id="AvailableObjects">fields</span></td>
+      </tr>
+      <tr>
+       <td>
+        <select class="expression_textarea" id="objectlist" size="7" style="width:100%;height:100%" ondblclick="AddFieldToExp()" accesskey="v">
+        </select>
+       </td>
+      </tr>
+      <tr style="height:20">
+       <td class="contorno" onselectstart="return false">
+        <input id="unique" type="checkbox">
+        <label onselectstart="return false" for="unique">Unique</label>
+       </td>
+      </tr>
+     </table>
+    </td>
+   <tr>
+    <td colspan="2" height="20" class="footer-button-container">
+     <button onclick="SetIndex()" accesskey="o" class="bottoni confirm"><u>O</u>K</button>&nbsp;
+     <button onclick="WindowClose()" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+    </td>
+   </tr>
+  </table>
+ </body>
+</html>

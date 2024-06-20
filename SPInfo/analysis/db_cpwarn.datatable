@@ -1,0 +1,106 @@
+﻿* --- Resource Vers. 0.9
+db_cpwarn<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='DB CPWARN
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='db_cpwarn
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'db_cpwarn.tablecode
+'db_cpwarn.warncode
+'db_cpwarn.autonum
+'db_cpwarn.desccode
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'db_cpwarn.autonum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='autonum
+state=3
+table_name='db_cpwarn
+type='field
+used_resource_keys={}
+I
+'db_cpwarn.desccode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='desccode
+state=3
+table_name='db_cpwarn
+type='field
+used_resource_keys={}
+I
+'db_cpwarn.tablecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Tabella
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tablecode
+state=3
+table_name='db_cpwarn
+type='field
+used_resource_keys={}
+I
+'db_cpwarn.warncode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Azienda
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='warncode
+state=3
+table_name='db_cpwarn
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'db_cpwarn.autonum
+[]
+'db_cpwarn.desccode
+[]
+'db_cpwarn.tablecode
+[]
+'db_cpwarn.warncode
+[]
+}
+*--*

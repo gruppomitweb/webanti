@@ -1,0 +1,51 @@
+﻿* --- Resource Vers. 0.9
+arrt_writelog_imp
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Registra Record sul log
+file_modified_on=#2024-03-07 11:21:59
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='public
+I
+}
+modified_on=#2024-05-10 18:25:31
+module_name='
+name='arrt_writelog_imp
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'log_app.logcodice
+'log_app.logdatora
+'log_app.logutente
+'log_app.logtipope
+'log_app.logtesto
+'log_app.logtabella
+'log_app.logchiave
+'log_app.logtype
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'log_app<table>
+'cpusers<table>
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

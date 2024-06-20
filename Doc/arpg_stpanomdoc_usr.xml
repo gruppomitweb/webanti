@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="168743486">
+  <CodifyName>arpg_stpanomdoc</CodifyName>
+  <Name>arpg_stpanomdoc.pagedef</Name>
+  <Title>Stampa Soggetti con anomalie su documento</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="165090526"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_stpanomdoc_usr_1</JPG>
+    <Item type="variabile" x1="128" y1="14" x2="198" y2="34">
+      <Name LinkID="59013098">DaData</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="248" y1="133" x2="290" y2="165">
+      <Name LinkID="168743486">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Chiudi la procedura senza elaborare i dati</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="192" y1="133" x2="234" y2="165">
+      <Name LinkID="168743486">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>Report</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="272" y1="14" x2="456" y2="35">
+      <Name LinkID="57219898">tipdoc</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="272" y1="35" x2="456" y2="56">
+      <Name LinkID="57220480">numdoc</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="272" y1="56" x2="456" y2="77">
+      <Name LinkID="48117706">datril</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="272" y1="77" x2="456" y2="98">
+      <Name LinkID="60045290">docsca</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="272" y1="98" x2="456" y2="119">
+      <Name LinkID="48117389">autril</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

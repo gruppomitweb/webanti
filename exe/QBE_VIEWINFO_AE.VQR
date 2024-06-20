@@ -1,0 +1,138 @@
+ 2
+"Informazioni su rapporti"
+"japopebo"
+"japopebo"
+ 5
+ 5
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 25
+ 25
+*
+ 8
+"Numero Progressivo"
+"japopebo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Inizio / Fine Rapporto"
+"japopebo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Data Registrazione"
+"japopebo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Tipo Informazione"
+"japopebo.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DES1"
+"C"
+ 90
+ 0
+*
+"idbase"
+"japopebo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"N° Rapporto"
+"japopebo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Stato Registrazione"
+"[CASE(japopebo.STATOREG,ý0ý,ýAttivaý,ý1ý,ýAttiva con modificaý,ý2ý,ýCancellataý,ý3ý,ýCopia di modificaý,ýSconosciutaý)]"
+"STATOREG"
+"C"
+ 20
+ 0
+*
+ 1
+"Tipo Refistrazione"
+"tbtipreg.CODICE=japopebo.TIPOOPRAP"
+"Right outer"
+"tbtipreg"
+"japopebo"
+*
+ 1
+"japopebo.RAPPORTO"
+""
+"="
+"?w_rapporto"
+"AND"
+""
+*
+ 7
+"Numero Progressivo"
+"japopebo.NUMPROG"
+"Ascending"
+*
+"Data Inizio / Fine Rapporto"
+"japopebo.DATAOPE"
+"Ascending"
+*
+"Data Registrazione"
+"japopebo.DATAREG"
+"Ascending"
+*
+"Tipo Informazione"
+"japopebo.TIPOOPRAP"
+"Ascending"
+*
+"idbase"
+"japopebo.IDBASE"
+"Ascending"
+*
+"N° Rapporto"
+"japopebo.RAPPORTO"
+"Ascending"
+*
+"Stato Registrazione"
+"STATOREG"
+"Ascending"
+*
+ 0
+ 0
+ 1
+"w_rapporto"
+"Codice Rapporto"
+"C"
+"25"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 12
+.f.
+""
+*

@@ -1,0 +1,106 @@
+﻿* --- Resource Vers. 0.9
+mod_ind_def<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Modello indicatori anomalia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='mod_ind_def
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'mod_ind_def.idmod
+'mod_ind_def.idmodmit
+'mod_ind_def.descri
+'mod_ind_def.dtfinval
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'mod_ind_def.descri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCRI
+state=3
+table_name='mod_ind_def
+type='field
+used_resource_keys={}
+I
+'mod_ind_def.dtfinval
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data di fine validità del modello
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DTFINVAL
+state=3
+table_name='mod_ind_def
+type='field
+used_resource_keys={}
+I
+'mod_ind_def.idmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID del modello
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDMOD
+state=3
+table_name='mod_ind_def
+type='field
+used_resource_keys={}
+I
+'mod_ind_def.idmodmit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID del modello mit
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDMODMIT
+state=3
+table_name='mod_ind_def
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'mod_ind_def.descri
+[]
+'mod_ind_def.dtfinval
+[]
+'mod_ind_def.idmod
+[]
+'mod_ind_def.idmodmit
+[]
+}
+*--*

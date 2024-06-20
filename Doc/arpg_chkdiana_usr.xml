@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="251539317">
+  <CodifyName>arpg_chkdiana</CodifyName>
+  <Name>arpg_chkdiana.pagedef</Name>
+  <Title>Preparazione file per Diagnostico DIANA</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="185702612"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_chkdiana_usr_1</JPG>
+    <Item type="variabile" x1="128" y1="44" x2="206" y2="64">
+      <Name LinkID="259712105">codinter</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="128" y1="70" x2="584" y2="90">
+      <Name LinkID="8053877">tipinter</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="128" y1="133" x2="176" y2="153">
+      <Name LinkID="133491945">codage</Name>
+      <Comment>Agenzia/Dipendenza:</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="128" y1="161" x2="198" y2="181">
+      <Name LinkID="150256073">DaData</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="496" y1="161" x2="566" y2="181">
+      <Name LinkID="168912874">AData</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="128" y1="196" x2="321" y2="215">
+      <Name LinkID="265861077">tipoarch</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="320" y1="259" x2="362" y2="291">
+      <Name LinkID="82718581">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Chiudi la procedura senza elaborare i dati</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="272" y1="259" x2="314" y2="291">
+      <Name LinkID="82718581">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>iif(w_gFlgWU=&apos;N&apos;,&quot;arrt_chkdiana&quot;,&quot;arrt_chkdiana_mt&quot;)</Hyperlink>
+      <HyperlinkOpenOn>Frame</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="128" y1="223" x2="224" y2="244">
+      <Name LinkID="183826124">flgope</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="208" y1="224" x2="304" y2="245">
+      <Name LinkID="183912508">flgfrz</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="224" y1="259" x2="266" y2="291">
+      <Name LinkID="82718581">images/view.gif</Name>
+      <Image>images/view.gif</Image>
+      <Hyperlink>LRTrim(w_gUrlApp)+&quot;/flussi/&quot;+LRTrim(w_gAzienda)+&quot;/campione.zip&quot;</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Premere il bottone per prelevare il file generato</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="344" y1="224" x2="592" y2="245">
+      <Name LinkID="183886956">flgint</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="344" y1="197" x2="584" y2="217">
+      <Name LinkID="183822332">flgrae</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

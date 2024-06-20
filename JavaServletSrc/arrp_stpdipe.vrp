@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ReportDescription v5.0 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Elenco Dipendenze / Agenti (Report) -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:[{"type":"report","name":"arrp_stpdipe","version":"5.0","title":"Elenco Dipendenze / Agenti (Report)","query":"qbe_stpdipe","queries_list":"","font":"Tahoma","font_size":"8","font_weight":"normal","font_effect":"","picture_date":"","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"false","security_public":"false","dict_name":"","security_access":"true","security_roles":"","author":"","client":"","date_creat":"2010-03-16","date_rev":"2022-07-29","modcnt":"10","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":"UTF-8","hsl":"false","lock_items":"false","maxcount":"29","check_values":"","rotation":"","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","privacy":"0","identifier":"false","contentprivacy":"0","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"91","uid":"YKTUBFITPL","sequence":"22","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"113","uid":"TSRVRCCJZO","sequence":"28","page":"1"},{"type":"Group_top","comment":"group0","name":"group0","uid":"QHHTBQKVYQ","page":"1","exp":"True","x":"0","y":"92","w":"1272","h":"0","sequence":"33"},{"type":"Group_down","comment":"group0","name":"group0","uid":"HWHSIAVBXL","page":"1","exp":"True","x":"0","y":"112","w":"1272","h":"0","sequence":"32"},{"type":"Box","name":"Box0","uid":"ZITLIRMTGS","page":"1","bg_color":"#FFFFFF","border_width":"1","x":"8","y":"7","w":"722","h":"28","sequence":"7"},{"type":"Label","name":"label1","uid":"XRXMHDJMYH","page":"1","value":"'AZIENDA: '+ descazi","text_type":"expression","x":"16","y":"12","w":"696","h":"19","sequence":"8","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS","global_font":"false","font":"Arial","font_size":"10","font_weight":"bold"},{"type":"Box","name":"Box2","uid":"VDCHLZLZDD","page":"1","bg_color":"#FFFFFF","border_width":"1","x":"8","y":"42","w":"272","h":"21","sequence":"9"},{"type":"Label","name":"label3","uid":"ZJTSBXIMUU","page":"1","value":"Da Codice:","text_type":"constant","x":"283","y":"42","w":"79","h":"16","sequence":"10","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Expr","name":"expr4","uid":"WSZKDWTZOS","page":"1","exp":"daCodDip","len":"18","dec":"0","x":"368","y":"42","w":"151","h":"16","sequence":"11","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","name":"expr5","uid":"IAWJCGGHPE","page":"1","exp":"aCodDip","len":"18","dec":"0","x":"591","y":"42","w":"140","h":"16","sequence":"12","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Label","name":"label6","uid":"JXGEXLHZCD","page":"1","value":"A Codice:","text_type":"constant","x":"528","y":"42","w":"61","h":"16","sequence":"13","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label7","uid":"XDNOGVDEAZ","page":"1","value":"ELENCO DIPENDENZE / AGENTI","text_type":"constant","x":"12","y":"44","w":"264","h":"16","sequence":"14","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Box","name":"Box8","uid":"KERZCSTDJS","page":"1","bg_color":"#FFFFFF","border_width":"1","x":"8","y":"70","w":"722","h":"0","sequence":"15"},{"type":"Label","name":"label9","uid":"RNBCAVHKDO","page":"1","value":"Città","text_type":"constant","x":"277","y":"72","w":"216","h":"16","sequence":"16","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label10","uid":"CILFFWXBPD","page":"1","value":"Prv.","text_type":"constant","x":"497","y":"72","w":"32","h":"16","sequence":"17","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","comment":"CAB","name":"label11","uid":"NULWRUXZDV","page":"1","value":"CAB","text_type":"constant","x":"536","y":"72","w":"48","h":"16","sequence":"18","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label12","uid":"NGGSVSIRWX","page":"1","value":"Codice","text_type":"constant","x":"8","y":"72","w":"45","h":"16","sequence":"19","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label13","uid":"YOBESNQXDV","page":"1","value":"Nominativo","text_type":"constant","x":"57","y":"72","w":"216","h":"16","sequence":"20","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","comment":"Agente\\Dipendenza","name":"label11_29","uid":"AFKWBPHYBN","page":"1","value":"Agente\\Dipendenza","text_type":"constant","x":"591","y":"72","w":"111","h":"16","sequence":"18","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Box","name":"Box14","uid":"NOLAAUXLPP","page":"1","bg_color":"#FFFFFF","border_width":"1","x":"8","y":"89","w":"722","h":"0","sequence":"21"},{"type":"Expr","name":"expr15","uid":"NVBJMLCJUE","page":"1","exp":"c_CAB","len":"6","dec":"0","output_name":"CAB","x":"536","y":"94","w":"48","h":"16","sequence":"5","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","comment":"Codice","name":"expr16","uid":"AJLXPAGXSB","page":"1","exp":"c_CODDIP","len":"6","dec":"0","output_name":"Codice","x":"8","y":"94","w":"45","h":"16","sequence":"1"},{"type":"Expr","comment":"Provincia","name":"expr17","uid":"DBYNUYZWHD","page":"1","exp":"c_PROVINCIA","len":"2","dec":"0","output_name":"Provincia","x":"497","y":"94","w":"32","h":"16","sequence":"4","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","comment":"Città","name":"expr18","uid":"EDGSTZTKAM","page":"1","exp":"c_DESCCIT","len":"30","dec":"0","output_name":"Citta","x":"277","y":"94","w":"216","h":"16","sequence":"3","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Expr","comment":"Nominativo","name":"expr19","uid":"WRJJEKCIQX","page":"1","exp":"c_DESCRIZ","len":"31","dec":"0","output_name":"Nominativo","x":"57","y":"94","w":"216","h":"16","sequence":"2"},{"type":"Label","comment":"Agente\\Dipendenza","name":"label20","uid":"LMNWUUNLST","page":"1","value":"iif(c_AGENTE='S','Agente','Dipendenza')","text_type":"expression","output_name":"Tipologia","x":"591","y":"94","w":"111","h":"16","sequence":"6","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal"},{"type":"Box","name":"Box21","uid":"NNXHUCACSV","page":"1","bg_color":"#FFFFFF","border_width":"1","x":"8","y":"115","w":"722","h":"0","sequence":"29"},{"type":"Label","name":"label22","uid":"ZXLDWHFBBN","page":"1","value":"'Data: ' +arfn_fdate(Date())","text_type":"expression","x":"9","y":"117","w":"143","h":"18","sequence":"30","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS"},{"type":"Label","name":"label23","uid":"CIUHSROEZP","page":"1","value":"'Pag.: ' + LRTrim(Str(nNumPage,5,0))","text_type":"expression","x":"520","y":"117","w":"208","h":"18","sequence":"31","removefromout":"CSV,CSVS,CSV2,XML,XMLS,XLS","align":"right"}] -->
+
+<REPORT NAME="arrp_stpdipe" TITLE="Elenco Dipendenze / Agenti (Report)" QUERY="qbe_stpdipe" MAXDEPTH="1" VERSION="5.0" PUBLIC="false" ACCESS="true" ROLES=""
+  GLBFONTNAME="Tahoma" GLBFONTSIZE="8"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="91" EXPRESSION="Page header">
+              <ITEM OBJ="box" UID="ZITLIRMTGS"
+                    Y="7" X="8" YY="35" XX="730"
+                    BACKGROUNDCOLORTYPE="constant" BACKGROUNDCOLOR="255,255,255"
+                    BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;AZIENDA: &#39;+ descazi" EXPRTYPE="expression"
+                    Y="12" X="16" YY="31" XX="712"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="ZITLIRMTGS"/>
+              <ITEM OBJ="box" UID="VDCHLZLZDD"
+                    Y="42" X="8" YY="63" XX="280"
+                    BACKGROUNDCOLORTYPE="constant" BACKGROUNDCOLOR="255,255,255"
+                    BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="Da Codice:" EXPRTYPE="constant"
+                    Y="42" X="283" YY="58" XX="362"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="daCodDip" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="42" X="368" YY="58" XX="519"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    GLBPICTURE="true"
+                    LEN="18"
+                    />
+              <ITEM OBJ="espressione" NAME="aCodDip" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="42" X="591" YY="58" XX="731"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    GLBPICTURE="true"
+                    LEN="18"
+                    />
+              <ITEM OBJ="stringa" NAME="A Codice:" EXPRTYPE="constant"
+                    Y="42" X="528" YY="58" XX="589"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="ELENCO DIPENDENZE / AGENTI" EXPRTYPE="constant"
+                    Y="44" X="12" YY="60" XX="276"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="VDCHLZLZDD"/>
+              <ITEM OBJ="h_line" Y="70" X="8" XX="731" BORDERWIDTH="1"
+                    UID="KERZCSTDJS" 
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="Citt&#224;" EXPRTYPE="constant"
+                    Y="72" X="277" YY="88" XX="493"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Prv." EXPRTYPE="constant"
+                    Y="72" X="497" YY="88" XX="529"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="CAB" EXPRTYPE="constant"
+                    Y="72" X="536" YY="88" XX="584"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Agente&#092;Dipendenza" EXPRTYPE="constant"
+                    Y="72" X="591" YY="88" XX="702"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Codice" EXPRTYPE="constant"
+                    Y="72" X="8" YY="88" XX="53"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Nominativo" EXPRTYPE="constant"
+                    Y="72" X="57" YY="88" XX="273"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="89" X="8" XX="731" BORDERWIDTH="1"
+                    UID="NOLAAUXLPP" 
+                    ALIGN="L"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="0" FOOTH="0" UID="QHHTBQKVYQ" TOP="91" BOTTOM="110" EXPRESSION="True">
+          <SECTION TYPE="group" HEADH="19" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="espressione" NAME="c_CODDIP" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="8" YY="17" XX="53"
+                            SYMNAME="Codice"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="6"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DESCRIZ" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="57" YY="17" XX="273"
+                            SYMNAME="Nominativo"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="31"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DESCCIT" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="277" YY="17" XX="493"
+                            SYMNAME="Citta"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="30"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_PROVINCIA" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="497" YY="17" XX="529"
+                            SYMNAME="Provincia"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="2"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_CAB" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="536" YY="17" XX="584"
+                            SYMNAME="CAB"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            GLBPICTURE="true"
+                            LEN="6"
+                            />
+                      <ITEM OBJ="stringa" NAME="iif(c_AGENTE=&#39;S&#39;,&#39;Agente&#39;,&#39;Dipendenza&#39;)" EXPRTYPE="expression"
+                            Y="1" X="591" YY="17" XX="702"
+                            SYMNAME="Tipologia"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="110" H="22" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="8" XX="731" BORDERWIDTH="1"
+                    UID="NNXHUCACSV" 
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39; +arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="3" X="9" YY="21" XX="152"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS"
+                    ALIGN="L"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))" EXPRTYPE="expression"
+                    Y="3" X="520" YY="21" XX="728"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,CSV2,XML,XMLS,XLS"
+                    ALIGN="R"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

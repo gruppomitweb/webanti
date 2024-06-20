@@ -1,0 +1,790 @@
+﻿* --- Resource Vers. 0.9
+qbe_case_gioco_ope<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='QBE_CASE_GIOCO_OPE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='QBE_CASE_GIOCO_OPE
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'qbe_case_gioco_ope.fonte
+'qbe_case_gioco_ope.idbase
+'qbe_case_gioco_ope.pktbspecie_cli
+'qbe_case_gioco_ope.ragsoc_cli
+'qbe_case_gioco_ope.paese_cli
+'qbe_case_gioco_ope.desccit_cli
+'qbe_case_gioco_ope.provincia_cli
+'qbe_case_gioco_ope.nasstato_cli
+'qbe_case_gioco_ope.nascomun_cli
+'qbe_case_gioco_ope.tipinter_cli
+'qbe_case_gioco_ope.sesso_cli
+'qbe_case_gioco_ope.codfisc_cli
+'qbe_case_gioco_ope.connes_cli
+'qbe_case_gioco_ope.rapporto
+'qbe_case_gioco_ope.codana
+'qbe_case_gioco_ope.codvoc
+'qbe_case_gioco_ope.areageo
+'qbe_case_gioco_ope.c_sta
+'qbe_case_gioco_ope.coddip
+'qbe_case_gioco_ope.desccit_dip
+'qbe_case_gioco_ope.provincia_dip
+'qbe_case_gioco_ope.categ01_ope
+'qbe_case_gioco_ope.categ02_ope
+'qbe_case_gioco_ope.categ03_ope
+'qbe_case_gioco_ope.categ04_ope
+'qbe_case_gioco_ope.categ05_ope
+'qbe_case_gioco_ope.categoria_ope
+'qbe_case_gioco_ope.categ01_cli
+'qbe_case_gioco_ope.categ02_cli
+'qbe_case_gioco_ope.categ03_cli
+'qbe_case_gioco_ope.categ04_cli
+'qbe_case_gioco_ope.categ05_cli
+'qbe_case_gioco_ope.categoria_cli
+'qbe_case_gioco_ope.categ01_dip
+'qbe_case_gioco_ope.categ02_dip
+'qbe_case_gioco_ope.categ03_dip
+'qbe_case_gioco_ope.categ04_dip
+'qbe_case_gioco_ope.categ05_dip
+'qbe_case_gioco_ope.categoria_dip
+'qbe_case_gioco_ope.eta_cli
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'qbe_case_gioco_ope.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Area Geografica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AREAGEO
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.c_sta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='C_STA
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ01_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG01_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ01_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG01_DIP
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ01_ope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG01_OPE
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ02_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG02_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ02_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG02_DIP
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ02_ope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG02_OPE
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ03_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG03_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ03_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG03_DIP
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ03_ope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG03_OPE
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ04_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG04_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ04_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG04_DIP
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ04_ope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG04_OPE
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ05_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG05_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ05_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG05_DIP
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categ05_ope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG05_OPE
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categoria_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEGORIA_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categoria_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEGORIA_DIP
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.categoria_ope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEGORIA_OPE
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.codana
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Analitica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODANA
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.coddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIP
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.codfisc_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODFISC_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.codvoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Sintetica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODVOC
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.connes_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNES_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.desccit_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.desccit_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Citta della dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT_DIP
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.eta_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Eta del soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ETA_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.fonte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Fonte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FONTE
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Idbase
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.nascomun_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Luogo di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASCOMUN_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.nasstato_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASSTATO_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.paese_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESE_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.pktbspecie_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Natura giuridica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PKTBSPECIE_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.provincia_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.provincia_dip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia della dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA_DIP
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.ragsoc_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGSOC_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto Collegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.sesso_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SESSO_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+'qbe_case_gioco_ope.tipinter_cli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPINTER_CLI
+state=3
+table_name='QBE_CASE_GIOCO_OPE
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'qbe_case_gioco_ope.areageo
+[]
+'qbe_case_gioco_ope.c_sta
+[]
+'qbe_case_gioco_ope.categ01_cli
+[]
+'qbe_case_gioco_ope.categ01_dip
+[]
+'qbe_case_gioco_ope.categ01_ope
+[]
+'qbe_case_gioco_ope.categ02_cli
+[]
+'qbe_case_gioco_ope.categ02_dip
+[]
+'qbe_case_gioco_ope.categ02_ope
+[]
+'qbe_case_gioco_ope.categ03_cli
+[]
+'qbe_case_gioco_ope.categ03_dip
+[]
+'qbe_case_gioco_ope.categ03_ope
+[]
+'qbe_case_gioco_ope.categ04_cli
+[]
+'qbe_case_gioco_ope.categ04_dip
+[]
+'qbe_case_gioco_ope.categ04_ope
+[]
+'qbe_case_gioco_ope.categ05_cli
+[]
+'qbe_case_gioco_ope.categ05_dip
+[]
+'qbe_case_gioco_ope.categ05_ope
+[]
+'qbe_case_gioco_ope.categoria_cli
+[]
+'qbe_case_gioco_ope.categoria_dip
+[]
+'qbe_case_gioco_ope.categoria_ope
+[]
+'qbe_case_gioco_ope.codana
+[]
+'qbe_case_gioco_ope.coddip
+[]
+'qbe_case_gioco_ope.codfisc_cli
+[]
+'qbe_case_gioco_ope.codvoc
+[]
+'qbe_case_gioco_ope.connes_cli
+[]
+'qbe_case_gioco_ope.desccit_cli
+[]
+'qbe_case_gioco_ope.desccit_dip
+[]
+'qbe_case_gioco_ope.eta_cli
+[]
+'qbe_case_gioco_ope.fonte
+[]
+'qbe_case_gioco_ope.idbase
+[]
+'qbe_case_gioco_ope.nascomun_cli
+[]
+'qbe_case_gioco_ope.nasstato_cli
+[]
+'qbe_case_gioco_ope.paese_cli
+[]
+'qbe_case_gioco_ope.pktbspecie_cli
+[]
+'qbe_case_gioco_ope.provincia_cli
+[]
+'qbe_case_gioco_ope.provincia_dip
+[]
+'qbe_case_gioco_ope.ragsoc_cli
+[]
+'qbe_case_gioco_ope.rapporto
+[]
+'qbe_case_gioco_ope.sesso_cli
+[]
+'qbe_case_gioco_ope.tipinter_cli
+[]
+}
+*--*

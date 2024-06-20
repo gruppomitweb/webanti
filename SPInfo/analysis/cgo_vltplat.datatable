@@ -1,0 +1,619 @@
+﻿* --- Resource Vers. 0.9
+cgo_vltplat<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='PIattaforme VLT (CGO)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cgo_vltplat
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cgo_vltplat.vpcodice
+'cgo_vltplat.vpdescri
+'cgo_vltplat.vpflgatt
+'cgo_vltplat.vpidaams
+'cgo_vltplat.vpcodpiat
+'cgo_vltplat.vpsiglapiat
+'cgo_vltplat.vpprovenienza
+'cgo_vltplat.vpvltcodplat
+'cgo_vltplat.vpflgcrypto
+'cgo_vltplat.vfpkaycrypto
+'cgo_vltplat.vpdirfile
+'cgo_vltplat.vpfileintesta1
+'cgo_vltplat.vpffilesperator1
+'cgo_vltplat.vpfilefordata1
+'cgo_vltplat.vppreffile1
+'cgo_vltplat.vpfileintesta2
+'cgo_vltplat.vpffilesperator2
+'cgo_vltplat.vpfilefordata2
+'cgo_vltplat.vppreffile2
+'cgo_vltplat.vpfileintesta3
+'cgo_vltplat.vpffilesperator3
+'cgo_vltplat.vpfilefordata3
+'cgo_vltplat.vppreffile3
+'cgo_vltplat.vpflgpresuf1
+'cgo_vltplat.vpflgpresuf2
+'cgo_vltplat.vpflgpresuf3
+'cgo_vltplat.vpflgconversion
+'cgo_vltplat.vfpflagimport
+'cgo_vltplat.vfptipofile1
+'cgo_vltplat.vfptipofile2
+'cgo_vltplat.vfptipofile3
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cgo_vltplat.vfpflagimport
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Piattaforma per import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VFPFLAGIMPORT
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vfpkaycrypto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Chiave Crittografazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VFPKAYCRYPTO
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vfptipofile1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo File 1 (Struttura)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VFPTIPOFILE1
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vfptipofile2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo File 2 (Struttura)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VFPTIPOFILE2
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vfptipofile3
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo File 3 (Struttura)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VFPTIPOFILE3
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpcodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPCODICE
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpcodpiat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Piasttaforma (da CSV)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPCODPIAT
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpdescri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPDESCRI
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpdirfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cartella File Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPDIRFILE
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpffilesperator1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Separatore campi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFFILESPERATOR1
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpffilesperator2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Separatore campi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFFILESPERATOR2
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpffilesperator3
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Separatore campi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFFILESPERATOR3
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpfilefordata1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Formato Data
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFILEFORDATA1
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpfilefordata2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Formato Data
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFILEFORDATA2
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpfilefordata3
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Formato Data
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFILEFORDATA3
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpfileintesta1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Presenza riga intestazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFILEINTESTA1
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpfileintesta2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Presenza riga intestazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFILEINTESTA2
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpfileintesta3
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Presenza riga intestazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFILEINTESTA3
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpflgatt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Piattaforma Attiva
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFLGATT
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpflgconversion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='File richiedono conversione campi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFLGCONVERSION
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpflgcrypto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='File Crittografati
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFLGCRYPTO
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpflgpresuf1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Prefisso o Suffisso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFLGPRESUF1
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpflgpresuf2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Prefisso o Suffisso 
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFLGPRESUF2
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpflgpresuf3
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Prefisso o suffisso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPFLGPRESUF3
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpidaams
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID AAMS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPIDAAMS
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vppreffile1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Prefisso file
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPPREFFILE1
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vppreffile2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Prefisso file
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPPREFFILE2
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vppreffile3
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Prefisso file
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPPREFFILE3
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpprovenienza
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provenienza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPPROVENIENZA
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpsiglapiat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sigla Piattaforma
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPSIGLAPIAT
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+'cgo_vltplat.vpvltcodplat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Piattaforma VLT
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPVLTCODPLAT
+state=3
+table_name='cgo_vltplat
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cgo_vltplat.vfpflagimport
+[]
+'cgo_vltplat.vfpkaycrypto
+[]
+'cgo_vltplat.vfptipofile1
+[]
+'cgo_vltplat.vfptipofile2
+[]
+'cgo_vltplat.vfptipofile3
+[]
+'cgo_vltplat.vpcodice
+[]
+'cgo_vltplat.vpcodpiat
+[]
+'cgo_vltplat.vpdescri
+[]
+'cgo_vltplat.vpdirfile
+[]
+'cgo_vltplat.vpffilesperator1
+[]
+'cgo_vltplat.vpffilesperator2
+[]
+'cgo_vltplat.vpffilesperator3
+[]
+'cgo_vltplat.vpfilefordata1
+[]
+'cgo_vltplat.vpfilefordata2
+[]
+'cgo_vltplat.vpfilefordata3
+[]
+'cgo_vltplat.vpfileintesta1
+[]
+'cgo_vltplat.vpfileintesta2
+[]
+'cgo_vltplat.vpfileintesta3
+[]
+'cgo_vltplat.vpflgatt
+[]
+'cgo_vltplat.vpflgconversion
+[]
+'cgo_vltplat.vpflgcrypto
+[]
+'cgo_vltplat.vpflgpresuf1
+[]
+'cgo_vltplat.vpflgpresuf2
+[]
+'cgo_vltplat.vpflgpresuf3
+[]
+'cgo_vltplat.vpidaams
+[]
+'cgo_vltplat.vppreffile1
+[]
+'cgo_vltplat.vppreffile2
+[]
+'cgo_vltplat.vppreffile3
+[]
+'cgo_vltplat.vpprovenienza
+[]
+'cgo_vltplat.vpsiglapiat
+[]
+'cgo_vltplat.vpvltcodplat
+[]
+}
+*--*

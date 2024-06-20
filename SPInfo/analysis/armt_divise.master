@@ -1,0 +1,46 @@
+﻿* --- Resource Vers. 0.9
+armt_divise
+￼Iresource.ResourceMaster
+created_on=#2024-05-10 18:24:30
+description='Divise
+file_modified_on=#2018-06-11 07:20:48
+location='
+measures={}
+modified_on=#2024-05-10 18:24:56
+module_name='
+name='armt_divise
+state=1
+type='master
+used_resource_keys={
+'Fields
+[
+'tbvalute.codval
+'tbvalute.descri
+'tbvalute.iso
+]
+'Tables
+[
+'tbvalute<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]armt_divise|Error|core::document|Update dependencies|Field "tbvalute.SIMBOLO" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:56
+message='Field "tbvalute.SIMBOLO" not found.
+resource_key='armt_divise
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

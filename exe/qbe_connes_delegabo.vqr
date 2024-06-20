@@ -1,0 +1,132 @@
+ 2
+"Delega su rapporti"
+"delegabo"
+"delegabo"
+ 0
+ 0
+*
+"Rapporti Definitivi + Provvisori"
+"knarapbo"
+"knarapbo"
+ 0
+ 0
+*
+ 6
+"Codice Rapporto"
+"delegabo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Descrizione"
+"knarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Inf. Apertura"
+"delegabo.NUMPROG1"
+"NUMPROG1"
+"C"
+ 11
+ 0
+*
+"Data Inizio"
+"delegabo.DATAINI"
+"DATAINI"
+"D"
+ 10
+ 0
+*
+"Inf. Chiusura"
+"delegabo.NUMPROG2"
+"NUMPROG2"
+"C"
+ 11
+ 0
+*
+"Data Fine"
+"delegabo.DATAFINE"
+"DATAFINE"
+"D"
+ 10
+ 0
+*
+ 1
+"Rapporti Continuativi"
+"knarapbo.RAPPORTO=delegabo.RAPPORTO"
+"Right outer"
+"knarapbo"
+"delegabo"
+*
+ 4
+"delegabo.CODINTER"
+""
+"="
+"?w_connes"
+"AND"
+""
+*
+"((knarapbo.CODDIPE"
+""
+"="
+"[GLOBALVAR(gCodDip)]"
+"AND"
+""
+*
+"[USERGROUPS()]"
+""
+"="
+"3)"
+"OR"
+""
+*
+"[USERGROUPS()]"
+""
+"<>"
+"3)"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"w_connes"
+"Rapporto"
+"C"
+"25"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 18
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%2BRS%5DF%5EZ4C%3D%21%3D%13%2B.95%24%5DO6%22I%3A%27IA%5B%3FZ6%07E%3E%23+0%3A%04tk_4%266%3A%3ESQ8.Y%28%25%3D%25OFW%2C%26o.c68%2980-8%5C%261%27%3BIC%11%29A%3BE8%0604K%27*Rc%5E%2Cl%22KXBMI%2BK5%5BM%5B%264%29%3E%3F6_K%3A%2B%3A.9.%2B%22s9KH3ER%3BN0B-%3F2_XFVOI%22%102Qi%3EI5%3C%28D%40%2BsEIA8IF%06%15*%2B%3D1T%3EDNR%5B5%2F%29%3B%40%3DP2%052Z%2B%26%1F%24b%27wI%27R%3C%3C%2F-%223-%25_GR%5EM%2FO%24_TMKQ5%02DK%26s%3DHKQCWR%3C-%25%3F%27Q%2C*WEEM%21-+.UG9*5%2F6N6%00"
+"T%2C%5CTL8GC%2C60J%27WEWR-42%3CIF%3CYa%40%21J%28C%07%3B%3C%22%2C25%2F%28%5E%21%3C%29%2B18E%3AVD3-%3C-%18%27Kbt%5B0%5C%40.%3A%279%03%11PX-%3D%28%3BM%158%29%21%3C_%25%23NPB*%3E%5ES_NZYQ%05678_N8U.8QW%23KFXMQBE261%104.%5ERu%29M%2CFXH%3C%18P%24*%5C.i%40L%2BD..Y1331K%2B%40%26%2C*I*%2C2XA76%3E4_*%2B%26X4%5C6%1DKLZE07%257%3E7+D%21D%5EAD0Y3%5C1%3A%27%223%28%25%40VD%3DG%16%3B1%5DHFJ%24%24-%130%2B*JJHZrN-%2B0%1A%02%12%28WD%3DV%3D**%3D0%26KXF%5DA9-%2B%23%00"
+""
+""
+"native"
+ 0
+ 0
+*

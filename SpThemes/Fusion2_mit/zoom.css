@@ -1,0 +1,1986 @@
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+.Calculator {
+  box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.26);
+  color:rgba(0,0,0,0.93);
+  background-color:#FFFFFF;
+  font-family:'Roboto', sans-serif;
+  font-size:12px;
+}
+.CalculatorHeader {
+  color:rgba(255,255,255,0.93);
+  font-family:'Roboto', sans-serif;
+  font-size:15px;
+}
+.CalculatorDragger{
+  background-color:transparent;
+  background-image:url(../Fusion2_mit/formPage/calendar_dragger.png);
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.CalculatorHeaderAll {
+  background-color:#474747;
+}
+.CalculatorContent {
+  padding: 8px 14px;
+  background-color:#FFFFFF;
+}
+.CalculatorContent > tr > td {
+ margin-bottom: 5px;
+}
+.CalculatorFooter{
+  height:0px;
+  background-color:#FFFFFF;
+  font-size:7pt;
+}
+
+/* Calculator Mobile */
+
+#SPCalc div.calc-button {
+  box-sizing: border-box;
+}
+#SPCalc {
+  background-color: rgba(0,0,0,0.0);
+  height: 100%;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 3;
+}
+#SPCalc .calc-main {
+  position: absolute;
+}
+
+#SPCalc .calc {
+  margin: 0px auto;
+}
+
+#SPCalc .calc-header {
+}
+#SPCalc .calc-header .calc-description {
+  height: 100%;
+  padding-left: 5px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+#SPCalc .calc-header .calc-pinnable {
+  text-align: center;
+  height: 100%;
+  cursor: pointer;
+  border-width: 0px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 0px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#SPCalc .pinned .calc-header .calc-pinnable{
+}
+
+#SPCalc .calc-pinnable:before{
+  vertical-align: middle;
+
+}
+
+#SPCalc .calc-display {
+  box-sizing: border-box;
+}
+
+#SPCalc .calc-display-input {
+  display: block;
+  width: 100%;
+  text-align: right;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+
+#SPCalc .calc-row {
+  margin-top: 7px;
+}
+#SPCalc .calc-row:before, .calc-row:after {
+  content: '';
+  display: table;
+}
+#SPCalc .calc-row:after {
+  clear: both;
+}
+
+#SPCalc .calc-button {
+  float: left;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  background-clip: padding-box !important;
+  /* !important because FF overrides the value on :active */
+  border: 0;
+  /* IE 8 fix */
+  cursor: pointer;
+}
+#SPCalc .calc-button:first-child {
+  margin-left: 0;
+}
+
+#SPCalc .calc-button-gray {
+}
+
+#SPCalc .calc-button-blue {
+}
+
+#SPCalc .calc-button-big {
+  font-size: 16px;
+}
+#SPCalc .SPCalc_Del{
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#SPCalc .SPCalc_Increase {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#SPCalc .SPCalc_Decrease {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#SPCalc .SPCalc_Flip {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#SPCalc .SPCalc_DecSep {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#SPCalc .SPCalc_Confirm {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.SPCalendar {
+  color:#333333;
+  background-color:#FFFFFF;
+  font-family:'Roboto', sans-serif;
+  font-size:10pt;
+  border-width:2px 0px 0px 0px;
+  border-style:solid;
+  border-color:rgba(255, 255, 255, 0.4);
+  border-radius:6px;
+  box-shadow: 0px 5px 15px rgb(0 0 0/25%);
+  margin-top:0px;
+  z-index: 1;
+}
+.SPCalendar ol,.SPCalendar ui{
+  list-style: none;
+  padding: 0px;
+}
+.SPCalendar img {
+  vertical-align: middle;
+}
+.SPCalendar a, .hoverable .SPCalendar a:hover, .SPCalendar:visited{
+  text-decoration: none;
+}
+.SPCalendarYear {
+  background-color:transparent;
+  margin-left:0px;
+}
+.SPCalendarMonth {
+  background-color:transparent;
+}
+.SPCalendarHeader {
+  color:#333333;
+  font-family:'Roboto', sans-serif;
+  font-size:11pt;
+}
+
+.SPCalendarHeader.SPCalendarComboYearsMonths{
+  padding: 0;
+}
+.SPCalendarHeader.SPCalendarComboYearsMonths li, .SPCalendarHeader.SPCalendarComboYearsMonths td{
+  padding: 6px 10px;
+}
+.SPCalendarHeaderAll a, .hoverable .SPCalendarHeaderAll a:hover, .SPCalendarHeaderAll a:visited{
+  color:#333333;
+}
+.SPCalendarDragger{
+  background-color:transparent;
+  background-image:url(../Fusion2_mit/formPage/calendar_dragger.png);
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.SPCalendarHeaderAll {
+  color:#333333;
+  font-family:'Roboto', sans-serif;
+  font-size:11pt;
+  background-color:transparent;
+}
+.SPCalendarHeader.mout {
+  color:#333333;
+  background-color:transparent;
+  border-color:rgba(255, 255, 255, 0.4);
+}
+.SPCalendarHeader.mover {
+  color:#333333;
+  background-color:#FFFFFF;
+  border-color:rgba(255, 255, 255, 0.4);
+}
+.SPCalendarContent {
+  background-color:#FFFFFF;
+  margin-top:0px;
+  padding: 5px;
+}
+.SPCalendarBody, .SPCalendarBody:link, .hoverable .SPCalendarBody:hover {
+  color:#333333;
+  font-family:'Roboto', sans-serif;
+  font-size:10pt;
+}
+.SPCalendarBodyTable, .hoverable .SPCalendarBodyTable:hover, .SPCalendarBodyTable:link {
+  color:#333333;
+  font-family:'Roboto', sans-serif;
+  font-size:10pt;
+}
+.SPCalendarBody td div:first-child , .SPCalendarBody td a:first-child {
+  display: inline-block;
+  padding: 0;
+}
+.SPCalendarBodyTable td div:first-child ,.SPCalendarBodyTable td a:first-child {
+  display: inline-block;
+  padding: 0;
+}
+.SPCalendarFooter{
+  background-color:#FFFFFF;
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:8pt;
+  width:100%;
+  text-align: center;
+}
+.SPCalendarToday{
+  background-color:#FFFFFF;
+  color:#474747;
+}
+.SPCalendarCurrentDay{
+  color:#474747;
+}
+.SPCalendarSunday{
+  color:rgba(0, 0, 0, 0.3);
+}
+.SPCalendarSaturday{
+  color:rgba(0, 0, 0, 0.3);
+}
+.SPCalendarWeeks{
+  color:#474747;
+}
+.SPCalendarBodyTable .SPCalendarWeekDivider *:first-child{
+  padding: 0px;
+}
+.SPCalendarComboYearsMonths{
+  background-color:#FFFFFF;
+  font-size:12px;
+  box-shadow:1px 4px 4px 0px rgba(0, 0, 0, 0.35);
+}
+
+a.SPCalendarFooter, .hoverable a.SPCalendarFooter:hover, a.SPCalendarFooter:visited {
+  background:none;
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:8pt;
+}
+
+.SPCalendar_mobile {
+  color:#000000;
+  background-color:#FFFFFF;
+  font-family:'Roboto', sans-serif;
+  font-size:7pt;
+  border-style:solid;
+  border-color:#808080;
+  margin-top:0px;
+  z-index: 1;
+}
+.SPCalendar_mobile ol,.SPCalendar_mobile ui{
+  list-style: none;
+  padding: 0px;
+}
+.SPCalendar_mobile img {
+  vertical-align: middle;
+}
+.SPCalendar_mobile a, .hoverable .SPCalendar_mobile a:hover, .SPCalendar_mobile:visited{
+  text-decoration: none;
+}
+.SPCalendar_mobile .SPCalendarYear {
+  background-color:#FFFFFF;
+  margin-left:0px;
+}
+.SPCalendar_mobile .SPCalendarMonth {
+  background-color:#FFFFFF;
+}
+.SPCalendar_mobile .SPCalendarHeader {
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:8pt;
+}
+
+.SPCalendar_mobile .SPCalendarHeader.SPCalendarComboYearsMonths{
+  padding: 0;
+}
+.SPCalendar_mobile .SPCalendarHeader.SPCalendarComboYearsMonths li,
+.SPCalendar_mobile .SPCalendarHeader.SPCalendarComboYearsMonths td{
+  padding: 0;
+}
+.SPCalendar_mobile .SPCalendarHeaderAll a,
+.SPCalendar_mobile .SPCalendarHeaderAll a:link,
+.hoverable .SPCalendar_mobile .SPCalendarHeaderAll a:hover,
+.SPCalendar_mobile .SPCalendarHeaderAll a:visited{
+  color:#000000;
+}
+.SPCalendar_mobile .SPCalendarHeaderAll {
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:8pt;
+  background-color:#FFFFFF;
+  display: flex;
+  justify-content: space-evenly;
+}
+.SPCalendar_mobile .SPCalendarHeader.mout {
+  color:#000000;
+  background-color:#FFFFFF;
+  border-color:#808080;
+}
+.SPCalendar_mobile .SPCalendarHeader.mover {
+  color:#000000;
+  background-color:#FFFFFF;
+  border-color:#808080;
+}
+.SPCalendar_mobile .SPCalendarContent {
+  background-color:#FFFFFF;
+  margin-top:0px;
+  padding: 5px;
+}
+.SPCalendar_mobile .SPCalendarBody,
+.SPCalendar_mobile .SPCalendarBody:link,
+.hoverable .SPCalendar_mobile .SPCalendarBody:hover {
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:7pt;
+}
+.SPCalendar_mobile .SPCalendarBodyTable,
+.hoverable .SPCalendar_mobile .SPCalendarBodyTable:hover,
+.SPCalendar_mobile .SPCalendarBodyTable:link {
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:7pt;
+}
+.SPCalendar_mobile .SPCalendarBody td div:first-child,
+.SPCalendar_mobile .SPCalendarBody td a:first-child {
+  display: inline-block;
+  padding: 0;
+}
+.SPCalendar_mobile .SPCalendarBodyTable td div:first-child,
+.SPCalendar_mobile .SPCalendarBodyTable td a:first-child {
+  display: inline-block;
+  padding: 0;
+}
+.SPCalendar_mobile .SPCalendarFooter{
+  background-color:#FFFFFF;
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:7pt;
+  width:100%;
+  text-align: center;
+}
+.SPCalendar_mobile .SPCalendarToday{
+  background-color:#FFFFFF;
+  color:#FFFFFF;
+}
+.SPCalendar_mobile .SPCalendarCurrentDay{
+  color:#FFFFFF;
+  border-width:1px;
+  border-style:solid;
+  border-color:#808080;
+}
+.SPCalendar_mobile .SPCalendarSunday{
+}
+.SPCalendar_mobile .SPCalendarSaturday{
+}
+.SPCalendar_mobile .SPCalendarWeeks{
+}
+.SPCalendar_mobile .SPCalendarBodyTable .SPCalendarWeekDivider *:first-child{
+  padding: 0px;
+}
+.SPCalendar_mobile #spanMonth,
+.SPCalendar_mobile  #spanYear {
+  position: relative;
+}
+.SPCalendar_mobile .SPCalendarComboYearsMonths{
+  color:#FFFFFF;
+  font-size:7pt;
+  border-width:1px;
+  border-style:solid;
+  border-color:#808080;
+}
+
+.SPCalendar_mobilea .SPCalendarFooter,
+.hoverable .SPCalendar_mobile a.SPCalendarFooter:hover,
+.SPCalendar_mobile a.SPCalendarFooter:visited {
+  background:none;
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:7pt;
+}
+
+.suggest_Container {
+  border-width:1px;
+  border-style:solid;
+  border-color:#DDDDDD;
+  display:table;
+  width: 100%;
+}
+.suggest_row {
+  color:rgba(0,0,0,0.87);
+  background-color:#FFFFFF;
+  font-family:'Roboto', sans-serif;
+  font-size:9pt;
+  cursor:default;
+  display: table-row;
+}
+.suggest_row:nth-child(even) {
+}
+
+.suggest_row_selected {
+  color:#FFFFFF;
+  background-color:#347FC4;
+  font-family:'Roboto', sans-serif;
+  font-size:9pt;
+  cursor:default;
+  display: table-row;
+}
+
+.suggest_row::after, .suggest_row::before, .suggest_row_selected::after, .suggest_row_selected::before {
+  content:'';
+}
+.suggest_FixedKeySearch, .suggest_Field, .suggest_HiddenKey, .suggest_FixedKey, .suggest_HiddenFixedKey {
+  display: table-cell;
+}
+
+.suggest_HiddenKey, .suggest_HiddenFixedKey {
+  display:none;
+}
+.suggest_FixedKeySearch::before, .suggest_Field::before, .suggest_FixedKey::before {
+  content: "-";
+  padding:0 2px;
+  white-space:pre;
+}
+.suggest_FixedKeySearch.suggest_SuppressSeparator::before, .suggest_Field.suggest_SuppressSeparator::before, .suggest_FixedKey.suggest_SuppressSeparator::before {
+  content:"";
+  padding:0;
+}
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+
+.Tabstrip.tabWrapper{
+  height: 35px;
+  box-sizing: border-box;
+}
+
+.Tabstrip.tabWrapper .tabstripContainer{
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  position: relative;
+  overflow: hidden;
+  background: #ECECEC;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.Tabstrip.tabWrapper .tabBack,
+.Tabstrip.tabWrapper .tabNext {
+  display: none;
+  height: 25px;
+  -ms-flex-preferred-size: 25px;
+  flex-basis: 25px;
+  margin: 7px;
+  background-color: rgba(29 33 39 / 8%);;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  z-index:5;
+}
+
+.Tabstrip.tabWrapper .tabBack.active,
+.Tabstrip.tabWrapper .tabNext.active {
+  background-color: rgba(29 33 39 / 8%);;
+}
+
+.hoverable .Tabstrip.tabWrapper .tabBack:hover,
+.hoverable .Tabstrip.tabWrapper .tabNext:hover{
+  background-color: #0156CB;;
+}
+
+.hoverable .Tabstrip.tabWrapper .tabBack.active:hover,
+.hoverable .Tabstrip.tabWrapper .tabNext.active:hover{
+  background-color: #0156CB;;
+}
+
+.Tabstrip.tabWrapper .tabBack::after,
+.Tabstrip.tabWrapper .tabNext::after {
+  line-height: 25px;
+  width: 25px;
+  display: inline-block;
+  text-align: center;
+}
+
+.Tabstrip.tabWrapper .tabBack {
+}
+
+.Tabstrip.tabWrapper .tabBack.active::after {
+  content: "\F144";
+  color: white;
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.Tabstrip.tabWrapper .tabBack::after {
+  content: "\F144";
+  color: white;
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.Tabstrip.tabWrapper .tabBack.active {
+}
+
+.Tabstrip.tabWrapper .tabNext{
+}
+
+.Tabstrip.tabWrapper .tabNext.active::after {
+  content: "\F145";
+  color: white;
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.Tabstrip.tabWrapper .tabNext.active{
+}
+
+.Tabstrip.tabWrapper .tabNext::after {
+  content: "\F145";
+  color: white;
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.Tabstrip.tabWrapper .tabs_mask{
+  -webkit-box-flex: 100;
+  -ms-flex-positive: 100;
+  flex-grow: 100;  
+  overflow: hidden;
+  height: 35px;
+  position: relative;
+}
+
+.mobile .Tabstrip.tabWrapper .tabs_mask{
+  overflow: auto;
+}
+
+.mobile .Tabstrip .tabs_mask::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.Tabstrip.tabWrapper .tabs_row{
+  height: 35px;
+  position: absolute;
+  box-sizing: border-box;
+  gap: 5px;
+  padding: 5px 0 0 0;
+  padding-left: 0px; 
+}
+
+/*
+.Tabstrip.tabWrapper .tab_item:last-child{
+  margin-right: 25px;
+} 
+*/
+
+.Tabstrip.tabWrapper .tabs_row,
+.Tabstrip.tabWrapper .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Tabstrip.tabWrapper .tab_content{
+  background-color: transparent;
+  border-radius: 8px 8px 0 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* height: 35px; */
+  /* padding: 7px 24px 5px 24px; */
+}
+
+.hoverable .Tabstrip.tabWrapper .tab_item:hover .tab_content,
+.Tabstrip.tabWrapper .tab_item:focus .tab_content,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover.selected .tab_content{
+  background-color: rgba(255, 255, 255, 0.5);    
+}
+
+.Tabstrip.tabWrapper .tab_item.disabled .tab_content,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover.disabled .tab_content {
+  background-color: #E3E3E3;
+}
+
+.Tabstrip.tabWrapper .tab_item.selected .tab_content,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover.selected .tab_content{
+  background-color: #FFFFFF;
+}
+
+.Tabstrip.tabWrapper .tab_border{
+  height: 35px;
+  display: inline-block;
+  vertical-align: bottom;
+  background-position: center center;
+}
+
+.Tabstrip.tabWrapper .tab_sep{
+  height: 35px;
+  width: 0px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.Tabstrip.tabWrapper .tab_item.selected .tab_sep{
+}
+
+.Tabstrip.tabWrapper .tab_item a.tab_close:before{
+  content: ;
+  display: inline-block;
+}
+
+.Tabstrip.tabWrapper .tab_modallayer:before{
+  content: ;
+  display: inline-block;
+}
+
+.Tabstrip.tabWrapper .tab_center_text{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.Tabstrip.tabWrapper .tab_text{
+  display: inline-block;
+  padding: 7px 24px 5px 24px;
+}
+
+.Tabstrip.tabWrapper .tab_span,
+.Tabstrip.tabWrapper .tab_item.selected .tab_span {
+  /* height: 35px; */
+  white-space: nowrap;
+}
+
+.Tabstrip.tabWrapper .tab_span a,
+.Tabstrip.tabWrapper .tab_span a:link,
+.Tabstrip.tabWrapper .tab_span a:active,
+.hoverable .Tabstrip.tabWrapper .tab_span a:hover,
+.Tabstrip.tabWrapper .tab_span a:visited{
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: nowrap;
+  color: rgba(0,0,0,.93);
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+.hoverable .Tabstrip.tabWrapper .tab_item:hover .tab_span a,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover .tab_span a:link,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover .tab_span a:visited,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover .tab_span a:active,
+.hoverable .Tabstrip.tabWrapper .tab_item:hover .tab_span a:hover{
+}
+
+.Tabstrip.tabWrapper .tab_item.disabled .tab_span a,
+.Tabstrip.tabWrapper .tab_item.disabled .tab_span a:link,
+.Tabstrip.tabWrapper .tab_item.disabled .tab_span a:active,
+.hoverable .Tabstrip.tabWrapper .tab_item.disabled .tab_span a:hover,
+.Tabstrip.tabWrapper .tab_item.disabled .tab_span a:visited{
+  cursor: default;
+  pointer-events: none;
+  color: #ADADAD;
+}
+
+.Tabstrip.tabWrapper .tab_item.selected .tab_span a,
+.Tabstrip.tabWrapper .tab_item.selected .tab_span a:link,
+.Tabstrip.tabWrapper .tab_item.selected .tab_span a:active,
+.hoverable .Tabstrip.tabWrapper .tab_item.selected .tab_span a:hover,
+.Tabstrip.tabWrapper .tab_item.selected .tab_span a:visited{
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.Tabstrip.tabWrapper .tab_expcoll_box{
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+.Tabstrip.tabWrapper .tab_expcoll_img{
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.Tabstrip.tabWrapper .tab_expcoll_img.tab_exp_img::after{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hoverable .Tabstrip.tabWrapper .tab_expcoll_img.tab_exp_img:hover::after{
+
+}
+
+.Tabstrip.tabWrapper .tab_expcoll_img.tab_coll_img::after{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hoverable .Tabstrip.tabWrapper .tab_expcoll_img.tab_coll_img:hover::after{
+
+}
+
+/*Immagini di default per offline*/
+#_offline_manifest_{
+background-image: url(../images/defaults/tab_strip_button_left.gif);
+background-image: url(../images/defaults/tab_strip_button_left_dis.gif);
+background-image: url(../images/defaults/tab_strip_button_right.gif);
+background-image: url(../images/defaults/tab_strip_button_right_dis.gif);
+background-image: url(../images/defaults/tab_pagebtnleft.gif);
+background-image: url(../images/defaults/tab_pagebtnright.gif);
+background-image: url(../images/defaults/tab_pagebtnleftevid.gif);
+background-image: url(../images/defaults/tab_pagebtncenterevid.gif);
+background-image: url(../images/defaults/tab_pagebtnrightevid.gif);
+background-image: url(../images/defaults/tab_pagebtncenter.gif);
+background-image: url(../images/defaults/tab_expand.gif);
+background-image: url(../images/defaults/tab_collapse.gif);
+}
+
+
+.ZoomTabstrip.tabWrapper{
+  height: 35px;
+  box-sizing: border-box;
+}
+
+.ZoomTabstrip.tabWrapper .tabstripContainer{
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  position: relative;
+  overflow: hidden;
+  background: #ECECEC;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.ZoomTabstrip.tabWrapper .tabBack,
+.ZoomTabstrip.tabWrapper .tabNext {
+  display: none;
+  height: 0px;
+  -ms-flex-preferred-size: 0px;
+  flex-basis: 0px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  z-index:5;
+}
+
+.ZoomTabstrip.tabWrapper .tabBack.active,
+.ZoomTabstrip.tabWrapper .tabNext.active {
+  background-color: transparent;
+}
+
+.hoverable .ZoomTabstrip.tabWrapper .tabBack:hover,
+.hoverable .ZoomTabstrip.tabWrapper .tabNext:hover{
+  background-color: transparent;
+}
+
+.hoverable .ZoomTabstrip.tabWrapper .tabBack.active:hover,
+.hoverable .ZoomTabstrip.tabWrapper .tabNext.active:hover{
+  background-color: transparent;
+}
+
+.ZoomTabstrip.tabWrapper .tabBack::after,
+.ZoomTabstrip.tabWrapper .tabNext::after {
+  line-height: 0px;
+  width: 0px;
+  display: inline-block;
+  text-align: center;
+}
+
+.ZoomTabstrip.tabWrapper .tabBack {
+}
+
+.ZoomTabstrip.tabWrapper .tabBack.active::after {
+}
+
+.ZoomTabstrip.tabWrapper .tabBack::after {
+}
+
+.ZoomTabstrip.tabWrapper .tabBack.active {
+}
+
+.ZoomTabstrip.tabWrapper .tabNext{
+}
+
+.ZoomTabstrip.tabWrapper .tabNext.active::after {
+}
+
+.ZoomTabstrip.tabWrapper .tabNext.active{
+}
+
+.ZoomTabstrip.tabWrapper .tabNext::after {
+}
+
+.ZoomTabstrip.tabWrapper .tabs_mask{
+  -webkit-box-flex: 100;
+  -ms-flex-positive: 100;
+  flex-grow: 100;  
+  overflow: hidden;
+  height: 35px;
+  position: relative;
+}
+
+.mobile .ZoomTabstrip.tabWrapper .tabs_mask{
+  overflow: auto;
+}
+
+.mobile .ZoomTabstrip .tabs_mask::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.ZoomTabstrip.tabWrapper .tabs_row{
+  height: 35px;
+  position: absolute;
+  box-sizing: border-box;
+  gap: 5px;
+  padding: 5px  0 0 0;
+  padding-left: 0px; 
+}
+
+/*
+.ZoomTabstrip.tabWrapper .tab_item:last-child{
+  margin-right: 0px;
+} 
+*/
+
+.ZoomTabstrip.tabWrapper .tabs_row,
+.ZoomTabstrip.tabWrapper .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ZoomTabstrip.tabWrapper .tab_content{
+  background-color: transparent;
+  border-radius: 8px 8px 0 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* height: 35px; */
+  /* padding: 7px 24px 5px 24px; */
+}
+
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover .tab_content,
+.ZoomTabstrip.tabWrapper .tab_item:focus .tab_content,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover.selected .tab_content{
+  background-color: rgba(255, 255, 255, 0.5);    
+}
+
+.ZoomTabstrip.tabWrapper .tab_item.disabled .tab_content,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover.disabled .tab_content {
+  background-color: #E3E3E3;
+}
+
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_content,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover.selected .tab_content{
+  background-color: #FFFFFF;
+}
+
+.ZoomTabstrip.tabWrapper .tab_border{
+  height: 35px;
+  display: inline-block;
+  vertical-align: bottom;
+  background-position: center center;
+}
+
+.ZoomTabstrip.tabWrapper .tab_sep{
+  height: 35px;
+  width: 0px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_sep{
+}
+
+.ZoomTabstrip.tabWrapper .tab_item a.tab_close:before{
+  content: ;
+  display: inline-block;
+}
+
+.ZoomTabstrip.tabWrapper .tab_modallayer:before{
+  content: ;
+  display: inline-block;
+}
+
+.ZoomTabstrip.tabWrapper .tab_center_text{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.ZoomTabstrip.tabWrapper .tab_text{
+  display: inline-block;
+  padding: 7px 24px 5px 24px;
+}
+
+.ZoomTabstrip.tabWrapper .tab_span,
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_span {
+  /* height: 35px; */
+  white-space: nowrap;
+}
+
+.ZoomTabstrip.tabWrapper .tab_span a,
+.ZoomTabstrip.tabWrapper .tab_span a:link,
+.ZoomTabstrip.tabWrapper .tab_span a:active,
+.hoverable .ZoomTabstrip.tabWrapper .tab_span a:hover,
+.ZoomTabstrip.tabWrapper .tab_span a:visited{
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: nowrap;
+  color: rgba(0,0,0,.93);
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover .tab_span a,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover .tab_span a:link,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover .tab_span a:visited,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover .tab_span a:active,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item:hover .tab_span a:hover{
+}
+
+.ZoomTabstrip.tabWrapper .tab_item.disabled .tab_span a,
+.ZoomTabstrip.tabWrapper .tab_item.disabled .tab_span a:link,
+.ZoomTabstrip.tabWrapper .tab_item.disabled .tab_span a:active,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item.disabled .tab_span a:hover,
+.ZoomTabstrip.tabWrapper .tab_item.disabled .tab_span a:visited{
+  cursor: default;
+  pointer-events: none;
+  color: #ADADAD;
+}
+
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_span a,
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_span a:link,
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_span a:active,
+.hoverable .ZoomTabstrip.tabWrapper .tab_item.selected .tab_span a:hover,
+.ZoomTabstrip.tabWrapper .tab_item.selected .tab_span a:visited{
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.ZoomTabstrip.tabWrapper .tab_expcoll_box{
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+.ZoomTabstrip.tabWrapper .tab_expcoll_img{
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.ZoomTabstrip.tabWrapper .tab_expcoll_img.tab_exp_img::after{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hoverable .ZoomTabstrip.tabWrapper .tab_expcoll_img.tab_exp_img:hover::after{
+
+}
+
+.ZoomTabstrip.tabWrapper .tab_expcoll_img.tab_coll_img::after{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hoverable .ZoomTabstrip.tabWrapper .tab_expcoll_img.tab_coll_img:hover::after{
+
+}
+
+/*Immagini di default per offline*/
+#_offline_manifest_{
+background-image: url(../images/defaults/tab_strip_button_left.gif);
+background-image: url(../images/defaults/tab_strip_button_left_dis.gif);
+background-image: url(../images/defaults/tab_strip_button_right.gif);
+background-image: url(../images/defaults/tab_strip_button_right_dis.gif);
+background-image: url(../images/defaults/tab_pagebtnleft.gif);
+background-image: url(../images/defaults/tab_pagebtnright.gif);
+background-image: url(../images/defaults/tab_pagebtnleftevid.gif);
+background-image: url(../images/defaults/tab_pagebtncenterevid.gif);
+background-image: url(../images/defaults/tab_pagebtnrightevid.gif);
+background-image: url(../images/defaults/tab_pagebtncenter.gif);
+background-image: url(../images/defaults/tab_expand.gif);
+background-image: url(../images/defaults/tab_collapse.gif);
+}
+
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+
+.mainPageTabstrip.tabWrapper{
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.mainPageTabstrip.tabWrapper .tabstripContainer{
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.mainPageTabstrip.tabWrapper .tabBack,
+.mainPageTabstrip.tabWrapper .tabNext {
+  display: none;
+  height: 25px;
+  -ms-flex-preferred-size: 25px;
+  flex-basis: 25px;
+  margin: 7px;
+  background-color: rgba(29 33 39 / 8%);;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  z-index:5;
+}
+
+.mainPageTabstrip.tabWrapper .tabBack.active,
+.mainPageTabstrip.tabWrapper .tabNext.active {
+  background-color: rgba(29 33 39 / 8%);;
+}
+
+.hoverable .mainPageTabstrip.tabWrapper .tabBack:hover,
+.hoverable .mainPageTabstrip.tabWrapper .tabNext:hover{
+  background-color: #0156CB;;
+}
+
+.hoverable .mainPageTabstrip.tabWrapper .tabBack.active:hover,
+.hoverable .mainPageTabstrip.tabWrapper .tabNext.active:hover{
+  background-color: #0156CB;;
+}
+
+.mainPageTabstrip.tabWrapper .tabBack::after,
+.mainPageTabstrip.tabWrapper .tabNext::after {
+  line-height: 25px;
+  width: 25px;
+  display: inline-block;
+  text-align: center;
+}
+
+.mainPageTabstrip.tabWrapper .tabBack {
+}
+
+.mainPageTabstrip.tabWrapper .tabBack.active::after {
+  content: "\F144";
+  color: white;
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.mainPageTabstrip.tabWrapper .tabBack::after {
+  content: "\F144";
+  color: white;
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.mainPageTabstrip.tabWrapper .tabBack.active {
+}
+
+.mainPageTabstrip.tabWrapper .tabNext{
+}
+
+.mainPageTabstrip.tabWrapper .tabNext.active::after {
+  content: "\F145";
+  color: white;
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.mainPageTabstrip.tabWrapper .tabNext.active{
+}
+
+.mainPageTabstrip.tabWrapper .tabNext::after {
+  content: "\F145";
+  color: white;
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.mainPageTabstrip.tabWrapper .tabs_mask{
+  -webkit-box-flex: 100;
+  -ms-flex-positive: 100;
+  flex-grow: 100;  
+  overflow: hidden;
+  height: 40px;
+  position: relative;
+}
+
+.mobile .mainPageTabstrip.tabWrapper .tabs_mask{
+  overflow: auto;
+}
+
+.mobile .mainPageTabstrip .tabs_mask::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.mainPageTabstrip.tabWrapper .tabs_row{
+  height: 40px;
+  position: absolute;
+  box-sizing: border-box;
+  gap: 10px;
+  padding: 5px 0px;
+  padding-left: 0px; 
+}
+
+/*
+.mainPageTabstrip.tabWrapper .tab_item:last-child{
+  margin-right: 25px;
+} 
+*/
+
+.mainPageTabstrip.tabWrapper .tabs_row,
+.mainPageTabstrip.tabWrapper .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainPageTabstrip.tabWrapper .tab_content{
+  background-color: white;
+  border-width: 1px;
+  border-color: #DDDDDD;
+  border-style: solid;
+  border-radius: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* height: 40px; */
+  /* padding: 5px 9px; */
+}
+
+.hoverable .mainPageTabstrip.tabWrapper .tab_item:hover .tab_content,
+.mainPageTabstrip.tabWrapper .tab_item:focus .tab_content,
+.hoverable .mainPageTabstrip.tabWrapper .tab_item:hover.selected .tab_content{
+  border-color: #0156CB;
+}
+
+.mainPageTabstrip.tabWrapper .tab_item.disabled .tab_content,
+.hoverable .mainPageTabstrip.tabWrapper .tab_item:hover.disabled .tab_content {
+  background-color: #E3E3E3;
+}
+
+.mainPageTabstrip.tabWrapper .tab_item.selected .tab_content,
+.hoverable .mainPageTabstrip.tabWrapper .tab_item:hover.selected .tab_content{
+  background-color: #0156CB;
+  border-width: 1px;
+  border-color: #0156CB;
+  border-style: solid;
+}
+
+.mainPageTabstrip.tabWrapper .tab_border{
+  height: 40px;
+  width: 0px;
+  display: inline-block;
+  vertical-align: bottom;
+  background-position: center center;
+}
+
+.mainPageTabstrip.tabWrapper .tab_sep{
+  height: 40px;
+  width: 0px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.mainPageTabstrip.tabWrapper .tab_item.selected .tab_sep{
+}
+
+.mainPageTabstrip.tabWrapper .tab_item a.tab_close:before{
+  font-family: icons8_win10;
+  font-size: 12px;
+  content: "\F048";
+  padding: 8px 10px 8px 0px;
+  display: inline-block;
+}
+
+.mainPageTabstrip.tabWrapper .tab_modallayer:before{
+  font-family: icons8_win10;
+  font-size: 10px;
+  content: "\E956";
+  padding: 8px 10px 8px 0px;
+  display: inline-block;
+}
+
+.mainPageTabstrip.tabWrapper .tab_center_text{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.mainPageTabstrip.tabWrapper .tab_text{
+  display: inline-block;
+  padding: 5px 9px;
+}
+
+.mainPageTabstrip.tabWrapper .tab_span,
+.mainPageTabstrip.tabWrapper .tab_item.selected .tab_span {
+  /* height: 40px; */
+  white-space: nowrap;
+}
+
+.mainPageTabstrip.tabWrapper .tab_span a,
+.mainPageTabstrip.tabWrapper .tab_span a:link,
+.mainPageTabstrip.tabWrapper .tab_span a:active,
+.hoverable .mainPageTabstrip.tabWrapper .tab_span a:hover,
+.mainPageTabstrip.tabWrapper .tab_span a:visited{
+  text-decoration: none;
+  text-transform: capitalize;
+  vertical-align: top;
+  white-space: nowrap;
+  color: #1D2127;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+.hoverable .mainPageTabstrip.tabWrapper .tab_item:hover .tab_span a,
+.hoverable .mainPageTabstrip.tabWrapper .tab_item:hover .tab_span a:link,
+.hoverable .mainPageTabstrip.tabWrapper .tab_item:hover .tab_span a:visited,
+.hoverable .mainPageTabstrip.tabWrapper .tab_item:hover .tab_span a:active,
+.hoverable .mainPageTabstrip.tabWrapper .tab_item:hover .tab_span a:hover{
+  font-size: 13px;
+}
+
+.mainPageTabstrip.tabWrapper .tab_item.disabled .tab_span a,
+.mainPageTabstrip.tabWrapper .tab_item.disabled .tab_span a:link,
+.mainPageTabstrip.tabWrapper .tab_item.disabled .tab_span a:active,
+.hoverable .mainPageTabstrip.tabWrapper .tab_item.disabled .tab_span a:hover,
+.mainPageTabstrip.tabWrapper .tab_item.disabled .tab_span a:visited{
+  cursor: default;
+  pointer-events: none;
+  color: #ADADAD;
+  font-size: 13px;
+}
+
+.mainPageTabstrip.tabWrapper .tab_item.selected .tab_span a,
+.mainPageTabstrip.tabWrapper .tab_item.selected .tab_span a:link,
+.mainPageTabstrip.tabWrapper .tab_item.selected .tab_span a:active,
+.hoverable .mainPageTabstrip.tabWrapper .tab_item.selected .tab_span a:hover,
+.mainPageTabstrip.tabWrapper .tab_item.selected .tab_span a:visited{
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.mainPageTabstrip.tabWrapper .tab_expcoll_box{
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+.mainPageTabstrip.tabWrapper .tab_expcoll_img{
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  padding: 8px 10px 8px 0px;
+  background-repeat: no-repeat;
+}
+
+.mainPageTabstrip.tabWrapper .tab_expcoll_img.tab_exp_img::after{
+  content: "\F2C4";
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hoverable .mainPageTabstrip.tabWrapper .tab_expcoll_img.tab_exp_img:hover::after{
+
+}
+
+.mainPageTabstrip.tabWrapper .tab_expcoll_img.tab_coll_img::after{
+  content: "\F2C5";
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hoverable .mainPageTabstrip.tabWrapper .tab_expcoll_img.tab_coll_img:hover::after{
+
+}
+
+/*Immagini di default per offline*/
+#_offline_manifest_{
+background-image: url(../images/defaults/tab_strip_button_left.gif);
+background-image: url(../images/defaults/tab_strip_button_left_dis.gif);
+background-image: url(../images/defaults/tab_strip_button_right.gif);
+background-image: url(../images/defaults/tab_strip_button_right_dis.gif);
+background-image: url(../images/defaults/tab_pagebtnleft.gif);
+background-image: url(../images/defaults/tab_pagebtnright.gif);
+background-image: url(../images/defaults/tab_pagebtnleftevid.gif);
+background-image: url(../images/defaults/tab_pagebtncenterevid.gif);
+background-image: url(../images/defaults/tab_pagebtnrightevid.gif);
+background-image: url(../images/defaults/tab_pagebtncenter.gif);
+background-image: url(../images/defaults/tab_expand.gif);
+background-image: url(../images/defaults/tab_collapse.gif);
+}
+
+
+.portalstudioTabstrip.tabWrapper{
+  height: 35px;
+  box-sizing: border-box;
+}
+
+.portalstudioTabstrip.tabWrapper .tabstripContainer{
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  position: relative;
+  overflow: hidden;
+  background: #ECECEC;
+}
+
+.portalstudioTabstrip.tabWrapper .tabBack,
+.portalstudioTabstrip.tabWrapper .tabNext {
+  display: none;
+  height: 0px;
+  -ms-flex-preferred-size: 0px;
+  flex-basis: 0px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  z-index:5;
+}
+
+.portalstudioTabstrip.tabWrapper .tabBack.active,
+.portalstudioTabstrip.tabWrapper .tabNext.active {
+  background-color: transparent;
+}
+
+.hoverable .portalstudioTabstrip.tabWrapper .tabBack:hover,
+.hoverable .portalstudioTabstrip.tabWrapper .tabNext:hover{
+  background-color: transparent;
+}
+
+.hoverable .portalstudioTabstrip.tabWrapper .tabBack.active:hover,
+.hoverable .portalstudioTabstrip.tabWrapper .tabNext.active:hover{
+  background-color: transparent;
+}
+
+.portalstudioTabstrip.tabWrapper .tabBack::after,
+.portalstudioTabstrip.tabWrapper .tabNext::after {
+  line-height: 0px;
+  width: 0px;
+  display: inline-block;
+  text-align: center;
+}
+
+.portalstudioTabstrip.tabWrapper .tabBack {
+}
+
+.portalstudioTabstrip.tabWrapper .tabBack.active::after {
+}
+
+.portalstudioTabstrip.tabWrapper .tabBack::after {
+}
+
+.portalstudioTabstrip.tabWrapper .tabBack.active {
+}
+
+.portalstudioTabstrip.tabWrapper .tabNext{
+}
+
+.portalstudioTabstrip.tabWrapper .tabNext.active::after {
+}
+
+.portalstudioTabstrip.tabWrapper .tabNext.active{
+}
+
+.portalstudioTabstrip.tabWrapper .tabNext::after {
+}
+
+.portalstudioTabstrip.tabWrapper .tabs_mask{
+  -webkit-box-flex: 100;
+  -ms-flex-positive: 100;
+  flex-grow: 100;  
+  overflow: hidden;
+  height: 35px;
+  position: relative;
+}
+
+.mobile .portalstudioTabstrip.tabWrapper .tabs_mask{
+  overflow: auto;
+}
+
+.mobile .portalstudioTabstrip .tabs_mask::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.portalstudioTabstrip.tabWrapper .tabs_row{
+  height: 35px;
+  position: absolute;
+  box-sizing: border-box;
+  gap: 0px;
+  padding: 5px 0 0 0;
+  padding-left: 0px; 
+}
+
+/*
+.portalstudioTabstrip.tabWrapper .tab_item:last-child{
+  margin-right: 0px;
+} 
+*/
+
+.portalstudioTabstrip.tabWrapper .tabs_row,
+.portalstudioTabstrip.tabWrapper .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_content{
+  background-color: #D5D5D5;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* height: 35px; */
+  /* padding: 5px 15px; */
+}
+
+.hoverable .portalstudioTabstrip.tabWrapper .tab_item:hover .tab_content,
+.portalstudioTabstrip.tabWrapper .tab_item:focus .tab_content,
+.hoverable .portalstudioTabstrip.tabWrapper .tab_item:hover.selected .tab_content{
+}
+
+.portalstudioTabstrip.tabWrapper .tab_item.disabled .tab_content,
+.hoverable .portalstudioTabstrip.tabWrapper .tab_item:hover.disabled .tab_content {
+  background-color: #E3E3E3;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_item.selected .tab_content,
+.hoverable .portalstudioTabstrip.tabWrapper .tab_item:hover.selected .tab_content{
+  background-color: #005f9d;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_border{
+  height: 35px;
+  display: inline-block;
+  vertical-align: bottom;
+  background-position: center center;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_sep{
+  height: 35px;
+  width: 0px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_item.selected .tab_sep{
+}
+
+.portalstudioTabstrip.tabWrapper .tab_item a.tab_close:before{
+  content: ;
+  display: inline-block;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_modallayer:before{
+  content: ;
+  display: inline-block;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_center_text{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_text{
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_span,
+.portalstudioTabstrip.tabWrapper .tab_item.selected .tab_span {
+  /* height: 35px; */
+  white-space: nowrap;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_span a,
+.portalstudioTabstrip.tabWrapper .tab_span a:link,
+.portalstudioTabstrip.tabWrapper .tab_span a:active,
+.hoverable .portalstudioTabstrip.tabWrapper .tab_span a:hover,
+.portalstudioTabstrip.tabWrapper .tab_span a:visited{
+  text-decoration: none;
+  text-transform: capitalize;
+  vertical-align: top;
+  white-space: nowrap;
+  color: rgba(0,0,0,.93);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.hoverable .portalstudioTabstrip.tabWrapper .tab_item:hover .tab_span a,
+.hoverable .portalstudioTabstrip.tabWrapper .tab_item:hover .tab_span a:link,
+.hoverable .portalstudioTabstrip.tabWrapper .tab_item:hover .tab_span a:visited,
+.hoverable .portalstudioTabstrip.tabWrapper .tab_item:hover .tab_span a:active,
+.hoverable .portalstudioTabstrip.tabWrapper .tab_item:hover .tab_span a:hover{
+}
+
+.portalstudioTabstrip.tabWrapper .tab_item.disabled .tab_span a,
+.portalstudioTabstrip.tabWrapper .tab_item.disabled .tab_span a:link,
+.portalstudioTabstrip.tabWrapper .tab_item.disabled .tab_span a:active,
+.hoverable .portalstudioTabstrip.tabWrapper .tab_item.disabled .tab_span a:hover,
+.portalstudioTabstrip.tabWrapper .tab_item.disabled .tab_span a:visited{
+  cursor: default;
+  pointer-events: none;
+  color: #ADADAD;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_item.selected .tab_span a,
+.portalstudioTabstrip.tabWrapper .tab_item.selected .tab_span a:link,
+.portalstudioTabstrip.tabWrapper .tab_item.selected .tab_span a:active,
+.hoverable .portalstudioTabstrip.tabWrapper .tab_item.selected .tab_span a:hover,
+.portalstudioTabstrip.tabWrapper .tab_item.selected .tab_span a:visited{
+  color: #FFF;
+  font-size: 15px;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_expcoll_box{
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_expcoll_img{
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.portalstudioTabstrip.tabWrapper .tab_expcoll_img.tab_exp_img::after{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hoverable .portalstudioTabstrip.tabWrapper .tab_expcoll_img.tab_exp_img:hover::after{
+
+}
+
+.portalstudioTabstrip.tabWrapper .tab_expcoll_img.tab_coll_img::after{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hoverable .portalstudioTabstrip.tabWrapper .tab_expcoll_img.tab_coll_img:hover::after{
+
+}
+
+/*Immagini di default per offline*/
+#_offline_manifest_{
+background-image: url(../images/defaults/tab_strip_button_left.gif);
+background-image: url(../images/defaults/tab_strip_button_left_dis.gif);
+background-image: url(../images/defaults/tab_strip_button_right.gif);
+background-image: url(../images/defaults/tab_strip_button_right_dis.gif);
+background-image: url(../images/defaults/tab_pagebtnleft.gif);
+background-image: url(../images/defaults/tab_pagebtnright.gif);
+background-image: url(../images/defaults/tab_pagebtnleftevid.gif);
+background-image: url(../images/defaults/tab_pagebtncenterevid.gif);
+background-image: url(../images/defaults/tab_pagebtnrightevid.gif);
+background-image: url(../images/defaults/tab_pagebtncenter.gif);
+background-image: url(../images/defaults/tab_expand.gif);
+background-image: url(../images/defaults/tab_collapse.gif);
+}
+
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+
+.WizardTabstrip.wizardWrapper {
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.WizardTabstrip.wizardWrapper .tabstripContainer{
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.WizardTabstrip.wizardWrapper .tabBack,
+.WizardTabstrip.wizardWrapper .tabNext {
+  display: none;
+  height: 40px;
+  -ms-flex-preferred-size: 40px;
+  flex-basis: 40px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index:5;
+  cursor: pointer;
+}
+
+.WizardTabstrip.wizardWrapper .tabBack.active,
+.WizardTabstrip.wizardWrapper .tabNext.active {
+  background-color: transparent;
+}
+
+.hoverable .WizardTabstrip.wizardWrapper .tabBack:hover,
+.hoverable .WizardTabstrip.wizardWrapper .tabNext:hover{
+  background-color: transparent;
+}
+
+.hoverable .WizardTabstrip.wizardWrapper .tabBack.active:hover,
+.hoverable .WizardTabstrip.wizardWrapper .tabNext.active:hover{
+  background-color: transparent;
+}
+
+.WizardTabstrip.wizardWrapper .tabBack{
+}
+
+.WizardTabstrip.wizardWrapper .tabBack::after,
+.WizardTabstrip.wizardWrapper .tabNext::after {
+  line-height: 40px;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+}
+
+.WizardTabstrip.wizardWrapper .tabBack::after {
+  content: "\0";
+  font-family: icons8_win10;
+  font-size: 0px;
+}
+
+.WizardTabstrip.wizardWrapper .tabBack.active{
+}
+
+.WizardTabstrip.wizardWrapper .tabBack.active::after {
+  content: "\F144";
+  color: rgba(0,0,0,.93);
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.WizardTabstrip.wizardWrapper .tabNext{
+}
+.WizardTabstrip.wizardWrapper .tabNext.active::after {
+  content: "\F145";
+  color: rgba(0,0,0,.93);
+  font-family: icons8_win10;
+  font-weight: 600;
+  font-size: 20px;
+}
+.WizardTabstrip.wizardWrapper .tabNext.active{
+}
+
+.WizardTabstrip.wizardWrapper .tabNext::after {
+  content: "\0";
+  font-family: icons8_win10;
+  font-size: 0px;
+}
+
+.WizardTabstrip.wizardWrapper .tabs_mask{
+  -webkit-box-flex: 100;
+  -ms-flex-positive: 100;
+  flex-grow: 100;  
+  overflow: hidden;
+  height: 40px;
+  position: relative;
+}
+
+.mobile .WizardTabstrip.tabWrapper .tabs_mask{
+  overflow: auto;
+}
+
+.mobile .WizardTabstrip .tabs_mask::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.WizardTabstrip.wizardWrapper .tabs_row{
+  position: absolute;
+  height: 40px;
+  position: absolute;
+  padding-left: 20px;
+}
+
+/*
+.WizardTabstrip.wizardWrapper .tab_item:last-child{
+  margin-right: 40px;
+} 
+*/
+
+.WizardTabstrip.wizardWrapper .tabs_row,
+.WizardTabstrip.wizardWrapper .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.WizardTabstrip.wizardWrapper .tab_content,
+.hoverable .WizardTabstrip.wizardWrapper .tab_item:hover .tab_content{
+  background-color: transparent;
+  border-width: 0;
+  border-color: #D6D6D6;
+  border-style: solid;
+  transition: all .3 ease;
+  box-sizing: border-box;
+  cursor: pointer;
+  /* height: 40px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* padding: 10px; */
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_content,
+.hoverable .WizardTabstrip.wizardWrapper .tab_item.actived:hover .tab_content {
+  border-color: #C3C3C3;
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.selected .tab_content,
+.hoverable .WizardTabstrip.wizardWrapper .tab_item.selected:hover .tab_content {
+  border-color: rgba(90, 148,245, .93);
+}
+
+.WizardTabstrip.wizardWrapper .tab_border{
+  height: 40px;
+  width: 0px;
+  display:inline-block;
+  background: transparent no-repeat center center;
+}
+
+.WizardTabstrip.wizardWrapper .tab_border.tab_border_right{
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_border.tab_border_right{
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_border.tab_border_left {
+}
+
+.WizardTabstrip.wizardWrapper .tab_sep{
+  height: 40px;
+  width: 0px;
+  display:inline-block;
+  vertical-align:bottom;
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_sep {
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_sep_between_active_deactive {
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_content{
+}
+.WizardTabstrip.wizardWrapper .tab_center_text{
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: normal;
+}
+
+.WizardTabstrip.wizardWrapper .tab_span {
+  height: 40px;
+  white-space: nowrap;
+}
+
+.WizardTabstrip.wizardWrapper .tab_span a,
+.WizardTabstrip.wizardWrapper .tab_span a:link,
+.WizardTabstrip.wizardWrapper .tab_span a:active,
+.hoverable .WizardTabstrip.wizardWrapper .tab_span a:hover,
+.WizardTabstrip.wizardWrapper .tab_span a:visited{
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #D6D6D6;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.WizardTabstrip .wizardWrapper .tab_item.actived .tab_span a,
+.WizardTabstrip .wizardWrapper .tab_item.actived .tab_span a:link,
+.WizardTabstrip .wizardWrapper .tab_item.actived .tab_span a:visited,
+.WizardTabstrip .wizardWrapper .tab_item.actived .tab_span a:active,
+.hoverable .WizardTabstrip .wizardWrapper .tab_item.actived .tab_span a:hover {
+  color: #C3C3C3;
+}
+
+.WizardTabstrip.wizardWrapper .tab_item.selected .tab_span a,
+.WizardTabstrip.wizardWrapper .tab_item.selected .tab_span a:link,
+.WizardTabstrip.wizardWrapper .tab_item.selected .tab_span a:active,
+.hoverable .WizardTabstrip.wizardWrapper .tab_item.selected .tab_span a:hover,
+.WizardTabstrip.wizardWrapper .tab_item.selected .tab_span a:visited {
+  color: rgba(0,0,0,.93);
+}
+.WizardTabstrip.wizardWrapper .tab_item .tab_span a > span {
+  vertical-align: top;
+  display: inline-block;
+}
+.WizardTabstrip.wizardWrapper .tab_wizard_number {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: #E8E8E8;
+  margin: 5px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.WizardTabstrip.wizardWrapper .tab_item.actived .tab_wizard_number {
+  background-color: #C3C3C3;
+}
+.WizardTabstrip.wizardWrapper .tab_item.selected .tab_wizard_number {
+  background-color: rgba(90, 148,245, .93);
+}
+.WizardTabstrip.wizardWrapper .tab_text {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+
+body {
+  font-family:'Roboto', sans-serif;
+}
+.ZoomBody { color:#000000;
+  background-color:#FFFFFF;
+  font-family:'Roboto', sans-serif;
+}
+a:link { color:#0156CB;
+  text-decoration:none;
+}
+a:visited { color:#0156CB;
+  text-decoration:none;
+}
+.hoverable a:hover { color:#0156CB;
+  text-decoration:underline;
+}
+.OddRow {
+  font-family:'Roboto', sans-serif;
+  font-weight:400;
+  font-size:9pt;
+}
+.EvenRow {
+  font-family:'Roboto', sans-serif;
+  font-weight:400;
+  font-size:9pt;
+}
+.ColumnHeader {
+  background-color:#C0C0C0;
+  font-family:'Roboto', sans-serif;
+  font-weight:400;
+  font-size:10pt;
+}
+.ZoomFooter {
+  font-family:'Roboto', sans-serif;
+  font-weight:400;
+  font-size:9pt;
+}
+.ZoomBodyCell {
+  border-bottom:1px solid;border-left:1px solid;border-color:#C0C0C0;
+}
+.ZoomLastCell {
+  border-left:1px solid;border-bottom:1px solid;border-right:1px solid;border-color:#C0C0C0;
+}
+#ZOOM_TABLE THEAD TR TD,
+#ZOOM_TABLE THEAD TR TD TABLE,
+#ZOOM_TABLE THEAD TR TD TABLE TR TD { border: 0 none;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Invii Straordinari Agenzia Entrate -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_fam_stpextra||version||4.6||title||Stampa Invii Straordinari Agenzia Entrate||query||qbe_fam_stpextra||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||true||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2016-03-04||date_rev||2016-05-02||form_class|| ||grid_dx|| ||grid_dy|| ||grid_show||0||grid_use||0||snaplines_show||0||language|| ||merge||false||modcnt||34||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding||ISO-8859-1||hsl||false||lock_items||false||maxcount||90||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||98||uid||PSNOTBFSZO||sequence||2||bb_sequence||3||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||151||uid||TKKSZGYDUQ||sequence||3||bb_sequence||4||page||1|||type||Section_top||comment||section88||hidecond||qbe_fam_stpextra.c_TIPINVIO&lt;&gt;&#39;3&#39;||name||section88||y||100||uid||GNADGEWGSS||sequence||87||bb_sequence||13||page||1|||type||Section_down||comment||section88||hidecond||qbe_fam_stpextra.c_TIPINVIO&lt;&gt;&#39;3&#39;||name||section88||y||145||uid||YLUMBBWMMI||sequence||88||bb_sequence||14||page||1|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||name||label0_28||uid||VIYQTTLPHX||page||1||x||18||y||4||w||1100||h||21||sequence||8||global_font||false||font||Arial||font_size||11||font_weight||bold||removefromout||CSV,CSVS,XLS|||type||Label||value||&#39;Stampa Contenuto File Straordinario AGE - Periodo: &#39;+annoc+&quot;-&quot;+mese||text_type||expression||name||label0||uid||AMIDJQCRUA||page||1||x||16||y||28||w||1104||h||32||sequence||26||align||center||global_font||false||font||Arial||font_size||16||font_weight||bold|||type||Label||value||Tipo Invio||text_type||constant||name||label7||uid||NRTJEILTAI||page||1||x||233||y||64||w||69||h||19||sequence||9||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Tipo Comunicazione||text_type||constant||name||label8||uid||KVAWSOTMUL||page||1||x||356||y||64||w||136||h||19||sequence||10||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Codice Invio||text_type||constant||name||label6||uid||LOZUGYKZXK||page||1||x||16||y||64||w||84||h||19||sequence||8||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Expr||exp||qbe_fam_stpextra.c_TPCINVIO||len||1||dec||0||name||expr17||uid||JAOZKAZWVI||output_name||TipoComunicazione||page||1||x||500||y||65||w||120||h||18||sequence||20|||type||Expr||exp||qbe_fam_stpextra.c_CODINVIO||dec||0||name||expr15||uid||CTFJPMRIAK||output_name||CodiceInvio||page||1||x||102||y||65||w||120||h||18||sequence||18|||type||Expr||exp||qbe_fam_stpextra.c_TIPINVIO||len||1||dec||0||name||expr16||uid||UFEHJYBTTY||output_name||TipoInvio||page||1||x||308||y||65||w||33||h||18||sequence||19|||type||Box||name||Box14_43||x||16||y||103||w||1104||h||0||uid||KONCISDCNP||sequence||16||page||1||border_width||1||stretch_to_right||true|||type||Label||value||&quot;ANNULLAMENTO DEL FILE CON PROTOCOLLO: &quot; + qbe_fam_stpextra.c_PRTINVIO||text_type||expression||name||label0_28_90||uid||WKMDIHVPQQ||page||1||x||16||y||108||w||1100||h||21||sequence||8||global_font||false||font||Arial||font_size||11||font_weight||bold||removefromout||CSV,CSVS,XLS|||type||Box||name||Box14||x||16||y||133||w||1104||h||0||uid||CWUJTBCHCN||sequence||16||page||1||border_width||1||stretch_to_right||true|||type||Label||value||&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;||text_type||expression||name||label4||uid||MQQPMFPXLC||page||1||x||778||y||154||w||225||h||17||sequence||30||align||right||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||Str(nTotalPages, 4, 0)||text_type||expression||name||label5||uid||CWREMDZJND||page||1||x||1008||y||154||w||103||h||17||sequence||31||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)||text_type||expression||name||label3||uid||SYYCKDTYOA||page||1||x||16||y||154||w||341||h||17||sequence||29||global_font||false||font||Arial||font_size||8||font_weight||normal||| -->
+
+<REPORT NAME="arrp_fam_stpextra" TITLE="Stampa Invii Straordinari Agenzia Entrate" QUERY="qbe_fam_stpextra" MAXDEPTH="0" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="true" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_fam_stpextra.CODINVIO" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_fam_stpextra.TIPINVIO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_fam_stpextra.TPCINVIO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_fam_stpextra.DATINVIO" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_fam_stpextra.ANNINVIO" TYPE="C" LEN="4" DEC="0" />
+    <FIELD NAME="qbe_fam_stpextra.MESINVIO" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_fam_stpextra.PRTINVIO" TYPE="C" LEN="24" DEC="0" />
+    <FIELD NAME="qbe_fam_stpextra.FLEINVIO" TYPE="C" LEN="80" DEC="0" />
+    <FIELD NAME="qbe_fam_stpextra.FL1INVIO" TYPE="C" LEN="80" DEC="0" />
+    <FIELD NAME="qbe_fam_stpextra.FL2INVIO" TYPE="C" LEN="80" DEC="0" />
+    <FIELD NAME="qbe_fam_stpextra.FLGINVIO" TYPE="C" LEN="1" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="98" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="4" X="18" YY="25" XX="1118"
+                    ALIGN="L"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Stampa Contenuto File Straordinario AGE - Periodo: &#39;+annoc+&quot;-&quot;+mese" EXPRTYPE="expression"
+                    Y="28" X="16" YY="60" XX="1120"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="16"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Codice Invio" EXPRTYPE="constant"
+                    Y="64" X="16" YY="83" XX="100"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Tipo Invio" EXPRTYPE="constant"
+                    Y="64" X="233" YY="83" XX="302"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Tipo Comunicazione" EXPRTYPE="constant"
+                    Y="64" X="356" YY="83" XX="492"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="qbe_fam_stpextra.c_CODINVIO" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="65" X="102" YY="83" XX="222"
+                    SYMNAME="CodiceInvio"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="10"
+                    />
+              <ITEM OBJ="espressione" NAME="qbe_fam_stpextra.c_TIPINVIO" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="65" X="308" YY="83" XX="341"
+                    SYMNAME="TipoInvio"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="1"
+                    />
+              <ITEM OBJ="espressione" NAME="qbe_fam_stpextra.c_TPCINVIO" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="65" X="500" YY="83" XX="620"
+                    SYMNAME="TipoComunicazione"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="1"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="50" FOOTH="0" EXPRESSION="" SYMNAME=""
+   STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+   REPRINTHEADER="false" REPRINTFOOTER="false">
+                <SECTIONHIDE TYPE="section" UID="GNADGEWGSS" HEADH="44" TOP="99" BOTTOM="143" EXPRESSION="qbe_fam_stpextra.c_TIPINVIO&lt;&gt;&#39;3&#39;" PRINTASBLOCK="false">
+                      <ITEM OBJ="h_line" Y="3" X="16" XX="1121" BORDERWIDTH="1"
+                            ALIGN="L"
+                            STRETCH="true"
+                            />
+                      <ITEM OBJ="stringa" NAME="&quot;ANNULLAMENTO DEL FILE CON PROTOCOLLO: &quot; + qbe_fam_stpextra.c_PRTINVIO" EXPRTYPE="expression"
+                            Y="8" X="16" YY="29" XX="1116"
+                            ALIGN="L"
+                            REMOVEON="CSV,CSVS,XLS"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="h_line" Y="33" X="16" XX="1121" BORDERWIDTH="1"
+                            ALIGN="L"
+                            STRETCH="true"
+                            />
+                </SECTIONHIDE>
+  </SECTION>
+  <PAGEFOOTER Y="148" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="2" X="16" YY="19" XX="357"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="2" X="778" YY="19" XX="1003"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="2" X="1008" YY="19" XX="1111"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

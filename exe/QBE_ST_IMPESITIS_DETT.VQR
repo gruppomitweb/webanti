@@ -1,0 +1,217 @@
+ 1
+"Importazione esiti"
+"tmp_impesiti"
+"tmp_impesiti"
+ 8
+ 7
+*
+ 21
+""
+"tmp_impesiti.idbase"
+"idbase"
+"C"
+ 10
+ 0
+*
+""
+"tmp_impesiti.esito"
+"esito"
+"C"
+ 200
+ 0
+*
+""
+"tmp_impesiti.nprog"
+"nprog"
+"C"
+ 25
+ 0
+*
+"nome del file forse identificativo"
+"tmp_impesiti.nomefile"
+"nomefile"
+"C"
+ 50
+ 0
+*
+"indentificativo"
+"tmp_impesiti.trueident"
+"trueident"
+"C"
+ 15
+ 0
+*
+"codice rapporto"
+"tmp_impesiti.rapporto"
+"rapporto"
+"C"
+ 25
+ 0
+*
+"tipo informazione"
+"tmp_impesiti.tipoac"
+"tipoac"
+"C"
+ 1
+ 0
+*
+"connes intestatario"
+"tmp_impesiti.connes"
+"connes"
+"C"
+ 16
+ 0
+*
+"intestatario rapporto"
+"tmp_impesiti.ragsoc"
+"ragsoc"
+"C"
+ 30
+ 0
+*
+"CF intestatario"
+"tmp_impesiti.codfisc"
+"codfisc"
+"C"
+ 16
+ 0
+*
+"fisica o giuridica"
+"tmp_impesiti.persona"
+"persona"
+"C"
+ 10
+ 0
+*
+"cognome intestatario"
+"tmp_impesiti.cognome"
+"cognome"
+"C"
+ 26
+ 0
+*
+"nome intestatario"
+"tmp_impesiti.nome"
+"nome"
+"C"
+ 25
+ 0
+*
+"sesso intestatario"
+"tmp_impesiti.sesso"
+"sesso"
+"C"
+ 1
+ 0
+*
+"data di nascita intestatario"
+"tmp_impesiti.datanasc"
+"datanasc"
+"D"
+ 8
+ 0
+*
+"comune di nascita intestatario"
+"tmp_impesiti.nascomun"
+"nascomun"
+"C"
+ 30
+ 0
+*
+"provincia di nascita intestatario"
+"tmp_impesiti.tipinter"
+"tipinter"
+"C"
+ 2
+ 0
+*
+"comune di residenza intestatario"
+"tmp_impesiti.desccit"
+"desccit"
+"C"
+ 30
+ 0
+*
+"provincia di residenza intestatario"
+"tmp_impesiti.provincia"
+"provincia"
+"C"
+ 2
+ 0
+*
+"CAB residenza"
+"tmp_impesiti.codcab"
+"codcab"
+"C"
+ 6
+ 0
+*
+"Progressivo importazione esiti"
+"tmp_impesiti.PROGIMPESITI"
+"PROGIMPESITI"
+"N"
+ 15
+ 0
+*
+ 0
+ 3
+"tmp_impesiti.esito"
+""
+"="
+"?_esito"
+"AND"
+""
+*
+"tmp_impesiti.PROGIMPESITI"
+""
+">="
+"?_bottom"
+"AND"
+""
+*
+"tmp_impesiti.PROGIMPESITI"
+""
+"<="
+"?_top"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 3
+"_esito"
+"Decrizione esito"
+"Char"
+"200"
+"0"
+""
+*
+"_bottom"
+"Progressivo importazione esiti"
+"Numeric"
+"15"
+"0"
+""
+*
+"_top"
+"Progressivo importazione esiti"
+"Numeric"
+"15"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 21
+.f.
+""
+*

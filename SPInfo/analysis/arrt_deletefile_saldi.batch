@@ -1,0 +1,63 @@
+﻿* --- Resource Vers. 0.9
+arrt_deletefile_saldi
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Cancella file e azzera record associati
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:11
+module_name='
+name='arrt_deletefile_saldi
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aesaldi.nomefile
+'aeannora.fileanno
+'aeannora.prog1
+'aeannora.prog2
+'aeannora.progrec
+'aeoprig.fileanno
+'aeoprig.prog1
+'aeoprig.prog2
+'aeoprig.progrec
+'aederig.fileanno
+'aederig.prog1
+'aederig.prog2
+'aederig.progrec
+'aeinvio.fileanno
+]
+'Libraries
+[
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_tot_aeinvio.vqr
+]
+'Tables
+[
+'aefiles_do<table>
+'aederig<table>
+'aeoprig<table>
+'aedecanc<table>
+'aeopcanc<table>
+'aefile_do_glob<table>
+'aeinvio<table>
+'aeannora<table>
+'aesaldi<table>
+]
+}
+I
+*--*
+￼[]
+*--*

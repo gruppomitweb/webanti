@@ -1,0 +1,847 @@
+﻿* --- Resource Vers. 0.9
+aeopstor<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Storico AGE (Operazioni Extraconto)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='aeopstor
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'aeopstor.progres
+'aeopstor.idbase
+'aeopstor.rapporto
+'aeopstor.connesint
+'aeopstor.aspedito
+'aeopstor.adata
+'aeopstor.aprog
+'aeopstor.aoldprog
+'aeopstor.afile
+'aeopstor.aoldfile
+'aeopstor.adataret
+'aeopstor.cspedito
+'aeopstor.cdata
+'aeopstor.cprog
+'aeopstor.coldprog
+'aeopstor.cfile
+'aeopstor.coldfile
+'aeopstor.cdataret
+'aeopstor.idrif
+'aeopstor.nocodfisc
+'aeopstor.adtpre
+'aeopstor.cdtpre
+'aeopstor.tipoag
+'aeopstor.coint
+'aeopstor.progopx
+'aeopstor.abbinato
+'aeopstor.idesito
+'aeopstor.datesito
+'aeopstor.rspedito
+'aeopstor.saldo
+'aeopstor.quantita
+'aeopstor.valuta
+'aeopstor.anno
+'aeopstor.prog1
+'aeopstor.prog2
+'aeopstor.esitoanno
+'aeopstor.uniquecode
+'aeopstor.progrec
+'aeopstor.progbase
+'aeopstor.fileanno
+'aeopstor.abbsaldi
+'aeopstor.oldinter
+'aeopstor.annoope
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'aeopstor.abbinato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Abbinato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABBINATO
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.abbsaldi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Abbinamento saldi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABBSALDI
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.adata
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ADATA
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.adataret
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ADATARET
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.adtpre
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ADTPRE
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.afile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AFILE
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.anno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNO
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.annoope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno Riferimento Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNOOPE
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.aoldfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AOLDFILE
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.aoldprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AOLDPROG
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.aprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='APROG
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.aspedito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ASPEDITO
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.cdata
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATA
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.cdataret
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATARET
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.cdtpre
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDTPRE
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.cfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFILE
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.coint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COINT
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.coldfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLDFILE
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.coldprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLDPROG
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.connesint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESINT
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.cprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CPROG
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.cspedito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CSPEDITO
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.datesito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Creaione Esito
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATESITO
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.esitoanno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ESITOANNO
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.fileanno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FILEANNO
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.idesito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Esito AGE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDESITO
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.idrif
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDRIF
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.nocodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOCODFISC
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.oldinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Altro Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDINTER
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.prog1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROG1
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.prog2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROG2
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.progbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGBASE
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.progopx
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGOPX
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.progrec
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGREC
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.progres
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGRES
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.quantita
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='QUANTITA
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.rspedito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RSPEDITO
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.saldo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SALDO
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.tipoag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOAG
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.uniquecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUECODE
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+'aeopstor.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='aeopstor
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'aeopstor.abbinato
+[]
+'aeopstor.abbsaldi
+[]
+'aeopstor.adata
+[]
+'aeopstor.adataret
+[]
+'aeopstor.adtpre
+[]
+'aeopstor.afile
+[]
+'aeopstor.anno
+[]
+'aeopstor.annoope
+[]
+'aeopstor.aoldfile
+[]
+'aeopstor.aoldprog
+[]
+'aeopstor.aprog
+[]
+'aeopstor.aspedito
+[]
+'aeopstor.cdata
+[]
+'aeopstor.cdataret
+[]
+'aeopstor.cdtpre
+[]
+'aeopstor.cfile
+[]
+'aeopstor.coint
+[]
+'aeopstor.coldfile
+[]
+'aeopstor.coldprog
+[]
+'aeopstor.connesint
+[]
+'aeopstor.cprog
+[]
+'aeopstor.cspedito
+[]
+'aeopstor.datesito
+[]
+'aeopstor.esitoanno
+[]
+'aeopstor.fileanno
+[]
+'aeopstor.idbase
+[]
+'aeopstor.idesito
+[]
+'aeopstor.idrif
+[]
+'aeopstor.nocodfisc
+[]
+'aeopstor.oldinter
+[]
+'aeopstor.prog1
+[]
+'aeopstor.prog2
+[]
+'aeopstor.progbase
+[]
+'aeopstor.progopx
+[]
+'aeopstor.progrec
+[]
+'aeopstor.progres
+[]
+'aeopstor.quantita
+[]
+'aeopstor.rapporto
+[]
+'aeopstor.rspedito
+[]
+'aeopstor.saldo
+[]
+'aeopstor.tipoag
+[]
+'aeopstor.uniquecode
+[]
+'aeopstor.valuta
+[]
+}
+*--*

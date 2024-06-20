@@ -1,0 +1,99 @@
+ 1
+"Operazioni ExtraConto"
+"opextrbo"
+"opextrbo"
+ 134
+ 13
+*
+ 3
+"Progressivo Import"
+"MIN(opextrbo.PROGOPEX)"
+"NUMMIN"
+"Numeric"
+ 10
+ 0
+*
+"Progressivo Import"
+"MAX(opextrbo.PROGOPEX)"
+"NUMMAX"
+"Numeric"
+ 10
+ 0
+*
+"Progressivo Import"
+"COUNT(*)"
+"TOTALE"
+"Numeric"
+ 10
+ 0
+*
+ 0
+ 5
+"opextrbo.DATAOPE"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"opextrbo.DATAOPE"
+""
+"<="
+"?w_a_data"
+"AND"
+""
+*
+"[NOTEMPTYSTR(opextrbo.COLLEG)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(opextrbo.DATAOPE)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYSTR(opextrbo.NUMPROG1)]"
+""
+"="
+"0"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_dadata"
+"Data Operazione"
+"Date"
+"8"
+"0"
+""
+*
+"w_a_data"
+"Data Operazione"
+"Date"
+"8"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 14
+.f.
+""
+.f.
+*

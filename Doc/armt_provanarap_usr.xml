@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="1099513">
+  <CodifyName>armt_provanarap</CodifyName>
+  <Name>armt_provanarap.mstdef</Name>
+  <Title>Anagrafica Rapporti (Provvisori)</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="208975496">Dati / Informazioni</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_provanarap_usr_1</JPG>
+    <Item type="campo" x1="144" y1="16" x2="306" y2="36">
+      <Name LinkID="157519209">RAPPORTO</Name>
+      <Comment>Codice Rapporto</Comment>
+      <Key>key1</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="448" y1="16" x2="776" y2="36">
+      <Name LinkID="72728731">DESCRAP</Name>
+      <Comment>Descrizione</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="40" x2="544" y2="60">
+      <Name LinkID="72777195">TIPORAP</Name>
+      <Comment>Tipo Rapporto</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="90" x2="270" y2="110">
+      <Name LinkID="114290445">FLAGLIRE</Name>
+      <Comment>Divisa</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="368" y1="90" x2="406" y2="110">
+      <Name LinkID="195503763">VALUTA</Name>
+      <Comment>Codice Divisa</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="648" y1="40" x2="776" y2="64">
+      <Name LinkID="207642553">Nuova Informazione</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="66" x2="544" y2="86">
+      <Name LinkID="190480917">TIPOAG</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="608" y1="64" x2="762" y2="85">
+      <Name LinkID="175919547">NOPROT</Name>
+      <Comment>Non inviare agenzia entrate</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="144" x2="480" y2="164">
+      <Name LinkID="195632795">NATURA</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="168" x2="480" y2="188">
+      <Name LinkID="264008566">SCOPO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="264" x2="206" y2="284">
+      <Name LinkID="59413352">AREAGEO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="288" x2="206" y2="308">
+      <Name LinkID="20623940">MODSVOL</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="312" x2="206" y2="332">
+      <Name LinkID="264039319">RAGIO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="336" x2="206" y2="356">
+      <Name LinkID="754197">TIPO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="216" x2="760" y2="236">
+      <Name LinkID="263921735">RFREQ</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="240" x2="760" y2="260">
+      <Name LinkID="750871">RIMP</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="264" x2="760" y2="284">
+      <Name LinkID="264970391">RAREA</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="288" x2="760" y2="308">
+      <Name LinkID="263955319">RCOMP</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="312" x2="760" y2="332">
+      <Name LinkID="181604487">RRAGIO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="336" x2="760" y2="356">
+      <Name LinkID="264009831">RTIPO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="216" x2="206" y2="236">
+      <Name LinkID="263741285">DURAT</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="240" x2="206" y2="260">
+      <Name LinkID="175998184">AMMONT</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="2">
+    <Title LinkID="69415518">Operazioni / Frazionate</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_provanarap_usr_2</JPG>
+  </Pag>
+  <Pag number="3">
+    <Title LinkID="213534192">Deleghe su rapporto</Title>
+    <Note></Note>
+    <JPG x="8" y="8">armt_provanarap_usr_3</JPG>
+    <Item type="campo" x1="104" y1="376" x2="206" y2="396">
+      <Name LinkID="58202783">SPLITCODE</Name>
+      <Comment>Split Code (WUBS)</Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="352" x2="160" y2="372">
+      <Name LinkID="130576484">MACODICE</Name>
+      <Comment>Macro Agente</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

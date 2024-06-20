@@ -1,0 +1,48 @@
+﻿* --- Resource Vers. 0.9
+arrt_trasftit_sel
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Seleziona le frazionate provvisorie da trasferire
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:31
+module_name='
+name='arrt_trasftit_sel
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_trasftit.idbase
+'tmp_trasftit.dataope
+'tmp_trasftit.connescli
+'tmp_trasftit.connesoper
+'tmp_trasftit.tipooper
+'tmp_trasftit.flgsel
+]
+'Hyperlinks
+[
+'arpg_trasftit
+]
+'Queries
+[
+'qbe_trasftit_sel.vqr
+]
+'Tables
+[
+'tmp_trasfope<table>
+'tmp_trasftit<table>
+]
+}
+I
+*--*
+￼[]
+*--*

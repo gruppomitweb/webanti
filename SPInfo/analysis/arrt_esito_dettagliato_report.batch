@@ -1,0 +1,89 @@
+﻿* --- Resource Vers. 0.9
+arrt_esito_dettagliato_report
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Suddivisione stampa esiti importati dettagliata
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:12
+module_name='
+name='arrt_esito_dettagliato_report
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_prn_impesiti.idbase
+'tmp_prn_impesiti.esito
+'tmp_prn_impesiti.nprog
+'tmp_prn_impesiti.nomefile
+'tmp_prn_impesiti.trueident
+'tmp_prn_impesiti.rapporto
+'tmp_prn_impesiti.tipoac
+'tmp_prn_impesiti.connes
+'tmp_prn_impesiti.ragsoc
+'tmp_prn_impesiti.codfisc
+'tmp_prn_impesiti.persona
+'tmp_prn_impesiti.cognome
+'tmp_prn_impesiti.nome
+'tmp_prn_impesiti.sesso
+'tmp_prn_impesiti.datanasc
+'tmp_prn_impesiti.nascomun
+'tmp_prn_impesiti.tipinter
+'tmp_prn_impesiti.desccit
+'tmp_prn_impesiti.provincia
+'tmp_prn_impesiti.codcab
+'tmp_prn_impesiti.progimpesiti
+'tmp_prnesiti.esito
+'tmp_prnesiti.nomrep
+]
+'Hyperlinks
+[
+'arpg_allinea_anagrafiche_noreport
+'arpg_import_esito_dettaglio_report
+]
+'Libraries
+[
+'ReportLibrary<painter>
+]
+'Queries
+[
+'qbe_st_impesitis.vqr
+'qbe_tmp_impesiti_max_min.vqr
+'qbe_st_impesitis_dett.vqr
+]
+'Tables
+[
+'tmp_prnesiti<table>
+'tmp_prn_impesiti<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_esito_dettagliato_report|Warning|core::document|Update dependencies|Field "1" not found in temporary table "tmp_prn_impesiti".{Accuracy:-10}
+explanation='
+found_on=#2024-05-10 18:25:12
+message='Field "1" not found in temporary table "tmp_prn_impesiti".
+resource_key='arrt_esito_dettagliato_report
+solvable=False
+status='unhandled
+tool='core::document
+type='Warning
+weights={
+'Accuracy
+-10
+}
+I
+]
+*--*

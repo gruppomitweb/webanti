@@ -1,0 +1,327 @@
+// * --- Area Manuale = BO - Header
+// * --- admin_decrypt
+import java.io.File; 
+import java.lang.Double;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.StringWriter;
+import java.util.List;
+// * --- Fine Area Manuale
+public class admin_decryptR implements CallerWithObjs {
+  // gestori associati a particolari eventi ('Routine start')
+  public static volatile java.util.Map<String,java.util.List<com.zucchetti.sitepainter.EventHandler>> specificEventsHandlers;
+  // gestori associati a tutti gli eventi
+  public static volatile java.util.List<com.zucchetti.sitepainter.EventHandler> allEventsHandlers;
+  // indica se si sta gestendo un evento scatenato da questa routine per restituire il valore corretto di i_EntityName ed i_EntityType
+  static boolean m_bEventRunning;
+  public String m_cLastMsgError;
+  public boolean m_bError;
+  // Variabile di collegamento con il database: passata nel costruttore
+  public CPSql m_Sql;
+  // Variabile di contesto (variabili globali): passata nel costruttore
+  public CPContext m_Ctx;
+  // Variabile di caller (variabili di caller): passata nel costruttore
+  public CallerWithObjs m_Caller;
+  public String m_cPhName_tmp_list_imprich;
+  public String m_cServer_tmp_list_imprich;
+  String m_cServer;
+  String m_cPhName;
+  CPPhTableWrInfo m_oWrInfo;
+  String m_cQuery;
+  String m_cQueryTable;
+  String m_cSql;
+  java.util.List<String> m_oParameters;
+  String m_cWhere;
+  int m_nUpdatedRows;
+  // Contiene il messaggio di errore dell'ultima select terminata a causa della caduta della connessione
+  String m_cConnectivityError;
+  public String _nomedir;
+  public String _nomeorig;
+  public File dir;
+  public File file;
+  public File[] files;
+  public String gAzienda;
+  public String gPathDoc;
+  public String gUrlApp;
+  // * --- Area Manuale = BO - Properties
+  // * --- Fine Area Manuale
+  public admin_decryptR (CPContext p_ContextObject, Caller caller) {
+    if (caller == null)
+      m_Caller = CallerWithObjsImpl.EMPTY;
+    else if (caller instanceof CallerWithObjs)
+      m_Caller = (CallerWithObjs)caller;
+    else
+      m_Caller = new CallerWithObjsImpl(caller);
+    m_Ctx=p_ContextObject;
+    // Assegnazione della variabile di collegamento con il database
+    m_Sql=m_Ctx.GetSql();
+    /*  Impostazione dell'ambiente globale: il businness object si collega
+                                all'oggetto globale (unico per più istanze di una stessa applicazione)
+                                per recuperare informazioni sul:
+                                1) nome fisico della tabella di gestione;
+                                2) nome fisico delle tabelle collegate nei link;
+                                3) stringa di connessione.
+                                L'azienda è contenuta nel global object.
+                             */
+    p_ContextObject = p_ContextObject.DisabledDataFilteringVersion();
+    CPSecurity.RoutineCallableByProgram("admin_decrypt",m_Caller);
+    if (m_Ctx.IsTmpAlreadyCreated("tmp_list_imprich")) {
+      m_cPhName_tmp_list_imprich = p_ContextObject.GetPhName("tmp_list_imprich");
+      if (m_cPhName_tmp_list_imprich.endsWith(CPSecurity.FILTER_QUERY_POSTFIX)) {
+        m_cPhName_tmp_list_imprich = m_cPhName_tmp_list_imprich+" "+m_Ctx.GetWritePhName("tmp_list_imprich");
+      }
+      m_cServer_tmp_list_imprich = p_ContextObject.GetServer("tmp_list_imprich");
+    }
+    Blank();
+  }
+  public double GetNumber(String p_cVarName,String p_cType,int len,int dec) {
+    return 0;
+  }
+  public String GetString(String p_cVarName,String p_cType,int len,int dec) {
+    if (CPLib.eqr("m_cVQRList",p_cVarName)) {
+      return m_cVQRList;
+    } else if (CPLib.eqr("i_InvokedRoutines",p_cVarName)) {
+      return i_InvokedRoutines;
+    } else if (m_bEventRunning && CPLib.eqr("i_EntityName",p_cVarName)) {
+      return "admin_decrypt";
+    } else if (m_bEventRunning && CPLib.eqr("i_EntityType",p_cVarName)) {
+      return "routine";
+    }
+    if (CPLib.eqr("_nomedir",p_cVarName)) {
+      return _nomedir;
+    }
+    if (CPLib.eqr("_nomeorig",p_cVarName)) {
+      return _nomeorig;
+    }
+    if (CPLib.eqr("gAzienda",p_cVarName)) {
+      return gAzienda;
+    }
+    if (CPLib.eqr("gPathDoc",p_cVarName)) {
+      return gPathDoc;
+    }
+    if (CPLib.eqr("gUrlApp",p_cVarName)) {
+      return gUrlApp;
+    }
+    return "";
+  }
+  public java.sql.Date GetDate(String p_cVarName,String p_cType,int len,int dec) {
+    return CPLib.NullDate();
+  }
+  public java.sql.Timestamp GetDateTime(String p_cVarName,String p_cType,int len,int dec) {
+    return CPLib.NullDateTime();
+  }
+  public boolean GetLogic(String p_cVarName,String p_cType,int len,int dec) {
+    return false;
+  }
+  public CPMemoryCursor GetMemoryCursor(String p_cVarName,String p_cType,int len,int dec) {
+    return null;
+  }
+  public CPMemoryCursorRow GetMemoryCursorRow(String p_cVarName,String p_cType,int len,int dec) {
+    return null;
+  }
+  public com.zucchetti.sitepainter.datatypes.CPJSONStruct GetJSON(String p_cVarName,String p_cType,int len,int dec) {
+    return com.zucchetti.sitepainter.datatypes.CPJSONStruct.EmptyStruct();
+  }
+  public void SetNumber(String p_cVarName,String p_cType,int len,int dec,double value) {
+  }
+  public void SetString(String p_cVarName,String p_cType,int len,int dec,String value) {
+    if (CPLib.eqr("_nomedir",p_cVarName)) {
+      _nomedir = value;
+      return;
+    }
+    if (CPLib.eqr("_nomeorig",p_cVarName)) {
+      _nomeorig = value;
+      return;
+    }
+    if (CPLib.eqr("gAzienda",p_cVarName)) {
+      gAzienda = value;
+      return;
+    }
+    if (CPLib.eqr("gPathDoc",p_cVarName)) {
+      gPathDoc = value;
+      return;
+    }
+    if (CPLib.eqr("gUrlApp",p_cVarName)) {
+      gUrlApp = value;
+      return;
+    }
+  }
+  public void SetDate(String p_cVarName,String p_cType,int len,int dec,java.sql.Date value) {
+  }
+  public void SetDateTime(String p_cVarName,String p_cType,int len,int dec,java.sql.Timestamp value) {
+  }
+  public void SetLogic(String p_cVarName,String p_cType,int len,int dec,boolean value) {
+  }
+  public void SetMemoryCursorRow(String p_cVarName,String p_cType,int len,int dec,CPMemoryCursorRow value) {
+  }
+  public void SetMemoryCursor(String p_cVarName,String p_cType,int len,int dec,CPMemoryCursor value) {
+  }
+  public void SetJSON(String p_cVarName,String p_cType,int len,int dec,com.zucchetti.sitepainter.datatypes.CPJSONStruct value) {
+  }
+  public void CalledBatchEnd() {
+  }
+  void Page_1() throws Exception {
+    /* _nomedir Char(150) */
+    /* _nomeorig Char(150) */
+    /* dir Object(File) */
+    /* file Object(File) */
+    /* files Object(File[]) */
+    /* gAzienda Char(10) // Azienda */
+    /* gPathDoc Char(128) // Path Documenti */
+    /* gUrlApp Char(80) // URL Applicazione */
+    // * --- Drop temporary table tmp_list_imprich
+    if (m_Ctx.IsSharedTemp("tmp_list_imprich")) {
+      if (m_Ctx.IsTmpAlreadyCreated("tmp_list_imprich")) {
+        m_cServer = m_Ctx.GetServer("tmp_list_imprich");
+        m_cPhName = m_Ctx.GetPhName("tmp_list_imprich");
+        m_cSql = "delete from "+m_cPhName+" where context_id='"+m_Ctx.GetTempID()+"'";
+        m_nUpdatedRows = m_Sql.Update(m_cServer,m_cSql);
+      }
+    } else {
+      m_Ctx.DropTmp("tmp_list_imprich");
+    }
+    // * --- Create temporary table tmp_list_imprich
+    if (m_Ctx.IsSharedTemp("tmp_list_imprich")) {
+      if (m_Ctx.IsTmpAlreadyCreated("tmp_list_imprich")) {
+        m_cServer = m_Ctx.GetServer("tmp_list_imprich");
+        m_cPhName = m_Ctx.GetPhName("tmp_list_imprich");
+        m_cSql = "delete from "+m_cPhName+" where context_id='"+m_Ctx.GetTempID()+"'";
+        m_nUpdatedRows = m_Sql.Update(m_cServer,m_cSql);
+      }
+    } else {
+      m_Ctx.DropTmp("tmp_list_imprich");
+    }
+    m_cPhName = m_Ctx.CreateTmpPhName("tmp_list_imprich");
+    if ( ! (m_Ctx.IsSharedTemp("tmp_list_imprich"))) {
+      m_cServer = m_Ctx.GetServer("tmp_list_imprich");
+      m_Sql.SrvQuery(m_cServer,"* ","from "+m_Ctx.PhNameAdapter(m_Sql.ManipulateTablePhName("tmp_list_imprich",m_cServer,"proto")),m_cPhName,"tmp_list_imprich",m_Ctx);
+    }
+    m_cPhName_tmp_list_imprich = m_cPhName;
+    /* _nomedir := LRTrim(gPathDoc)+"/SID/INVII/STO/"+LRTrim(gAzienda) */
+    _nomedir = CPLib.LRTrim(gPathDoc)+"/SID/INVII/STO/"+CPLib.LRTrim(gAzienda);
+    /* dir := new File(_nomedir) */
+    dir = new File(_nomedir);
+    /* files := dir.listFiles() */
+    files = dir.listFiles();
+    /* If files != null */
+    if (files != null) {
+      // Legge la cartella e trova la directory corretta
+      for (File file: files) {
+      /* _nomeorig := file.getName() */
+      _nomeorig = file.getName();
+      // * --- Insert into tmp_list_imprich from values
+      m_Sql.RequireTransaction();
+      m_cServer = m_Ctx.GetServer("tmp_list_imprich");
+      m_cPhName = m_Ctx.GetPhName("tmp_list_imprich");
+      m_oWrInfo = CPPhTableWrInfo.GetCPPhTableWrInfo(m_Ctx,"tmp_list_imprich",m_Ctx.GetCompany());
+      m_oParameters = CPLib.GetParamsForSqlUpdate(m_cServer);
+      m_cSql = CPLib.GetSQLPrefixComment("admin_decrypt",22,"00000015")+CPLib.InsertIntoStatement(m_Ctx,m_oWrInfo)+" (";
+      m_cSql = m_cSql+GetFieldsName_00000015(m_Ctx,m_oWrInfo);
+      m_cSql = m_cSql+") values (";
+      m_cSql = m_cSql+""+CPLib.ToSQL(_nomeorig,"?",0,0,m_cServer)+", ";
+      m_cSql = m_cSql+m_oWrInfo.InsertValues();
+      m_cSql = CPLib.AddCPCCCHKValue(m_Ctx,m_cSql,"tmp_list_imprich",true);
+      m_cSql = m_cSql+")";
+      m_nUpdatedRows = m_Sql.Update(m_cServer,m_cSql,m_oParameters);
+      if (CPLib.lt(m_nUpdatedRows,0)) {
+        m_Sql.AbortTransaction();
+      }
+      m_Sql.CompleteTransaction();
+      m_cLastMsgError = m_Sql.TransactionErrorMessage();
+      if (CPLib.ne(m_cLastMsgError,"")) {
+        m_bError = true;
+      }
+      // Chiude il ciclo
+      }
+    } // End If
+  }
+  void _init_() {
+  }
+  public String RunAsync() {
+    return CPAsyncRoutine.CreateAsyncAndStart(
+    new CPAsyncRoutine.AsyncRunnable() {
+      public void Compute(CPAsyncRoutine.AsyncResult p_oResult) {
+        try {
+          p_oResult.m_oResult=Run();
+        } finally {
+          //evito di tenere nell'heap della virtual machine riferimenti non piu' usati
+          m_Caller = null;
+          m_Sql = null;
+          m_Ctx = null;
+        }
+      }
+    }
+    );
+  }
+  public Forward Run() {
+    Forward f;
+    f = Forward.Unforwarded;
+    m_Ctx = m_Ctx.DisabledDataFilteringVersion();
+    try {
+      try {
+        try {
+          try {
+            m_bEventRunning = true;
+            com.zucchetti.sitepainter.EventHandler.notifyEvent("Run start",this,m_Ctx,specificEventsHandlers,allEventsHandlers);
+          } finally {
+            m_bEventRunning = false;
+          }
+          Page_1();
+        } finally {
+          try {
+            m_bEventRunning = true;
+            com.zucchetti.sitepainter.EventHandler.notifyEvent(com.zucchetti.sitepainter.EventHandler.RUN_END,this,m_Ctx,specificEventsHandlers,allEventsHandlers);
+          } finally {
+            m_bEventRunning = false;
+          }
+        }
+      } catch(Forward forward) {
+        f=forward;
+      } catch(Stop stop_value) {
+      } catch(RoutineException l_transactionRaise) {
+        //non va segnalato come errore
+      } catch(Exception fault) {
+        CPStdCounter.Error(fault);
+        CallerExImpl l_oTraceSink;
+        l_oTraceSink = new CallerExImpl(m_Caller,"");
+        if (l_oTraceSink.HasWorkingVar("m_cFaultTrace")) {
+          if ( ! (CPLib.IsAdministrator(m_Ctx)) && m_Ctx.HasAdministeredUsers()) {
+            l_oTraceSink.SetString("m_cFaultTrace","C",0,0,"MSG_ADMIN_REQUIRED");
+          } else {
+            l_oTraceSink.SetString("m_cFaultTrace","C",0,0,CPLib.DumpException(fault));
+          }
+        }
+      }
+    } finally {
+      m_Ctx.EnableDataFiltering();
+    }
+    return f;
+  }
+  public static admin_decryptR Make(CPContext p_Ctx, Caller p_Caller) {
+    return new admin_decryptR(p_Ctx, p_Caller);
+  }
+  public void Blank() {
+    _nomedir = CPLib.Space(150);
+    _nomeorig = CPLib.Space(150);
+    dir = null;
+    file = null;
+    files = null;
+    gAzienda=m_Ctx.GetGlobalString("gAzienda");
+    gPathDoc=m_Ctx.GetGlobalString("gPathDoc");
+    gUrlApp=m_Ctx.GetGlobalString("gUrlApp");
+  }
+  // * --- Area Manuale = BO - Methods
+  // * --- Fine Area Manuale
+  // ENTITY_VQR: 
+  public static final String m_cVQRList = "";
+  // ENTITY_BATCHES: ,
+  public static final String i_InvokedRoutines = ",";
+  public static String[] m_cRunParameterNames={};
+  protected static String GetFieldsName_00000015(CPContext p_Ctx,CPPhTableWrInfo p_oWrInfo) {
+    String p_cSql = "";
+    p_cSql = p_cSql+"nomefile,";
+    p_cSql = p_cSql+p_oWrInfo.InsertFields();
+    p_cSql = CPLib.AddCPCCCHKName(p_Ctx,p_cSql,"tmp_list_imprich",true);
+    return p_cSql;
+  }
+}

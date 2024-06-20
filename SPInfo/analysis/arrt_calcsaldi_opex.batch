@@ -1,0 +1,66 @@
+﻿* --- Resource Vers. 0.9
+arrt_calcsaldi_opex
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:31
+description='Calcola saldi extraconto da operazioni/frazionate AUI
+file_modified_on=#2022-10-24 17:16:38
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:07
+module_name='
+name='arrt_calcsaldi_opex
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.anno
+'opextrbo.saldo
+'opextrbo.quantita
+'opextrbo.valuta
+'opextrbo.colleg
+'opextrbo.rapporto
+'tmp_newpers.connes
+'tmp_newpers.msgelab
+'opextrbo.datamodi
+'opextrbo.dataope
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_saldi_opex_o_minmax.vqr
+'qbe_saldi_opex_f_minmax.vqr
+'qbe_saldi_opex_j_minmax.vqr
+'qbe_saldi_opex_o_g.vqr
+'qbe_saldi_opex_f_g.vqr
+'qbe_saldi_opex_j_g.vqr
+'qbe_saldi_opex_o.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_calcsaldi_opex
+]
+'Tables
+[
+'opextrbo<table>
+'tmp_newpers<table>
+'tbmacage<table>
+]
+}
+I
+*--*
+￼[]
+*--*

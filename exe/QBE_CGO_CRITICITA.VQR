@@ -1,0 +1,133 @@
+ 2
+"CGO Operazioni Agenzie"
+"cgo_operazioni"
+"cgo_operazioni"
+ 0
+ 0
+*
+"Dipendenze"
+"anadip"
+"anadip"
+ 0
+ 0
+*
+ 5
+"Codice Dipendenza"
+"cgo_operazioni.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+*
+"Descrizione"
+"anadip.DESCRIZ"
+"DESCRIZ"
+"C"
+ 30
+ 0
+*
+"Città"
+"anadip.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"ID Agenzia"
+"anadip.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Data Operazione"
+"MIN(cgo_operazioni.DATAOPE)"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+ 1
+"Dipendenze"
+"anadip.CODDIP=cgo_operazioni.CODDIPE"
+"Right outer"
+"anadip"
+"cgo_operazioni"
+*
+ 3
+"[NOTEMPTYSTR(cgo_operazioni.CODDIPE)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"cgo_operazioni.CGOTIPOPE"
+""
+"="
+"?w_tipo"
+"AND"
+""
+*
+"cgo_operazioni.CGODIPCOM"
+""
+"<>"
+"ýSý"
+"AND"
+""
+*
+ 1
+"Data Operazione"
+"DATAOPE"
+"Ascending"
+*
+ 4
+"Codice Dipendenza"
+"CODDIPE"
+*
+"Descrizione"
+"DESCRIZ"
+*
+"Città"
+"DESCCIT"
+*
+"ID Agenzia"
+"IDBASE"
+*
+ 0
+ 1
+"w_tipo"
+"A=Agenzia - V=VLT"
+"C"
+"1"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 7
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"UWEZ6D.%3C%24N%26.B%21%2FI1D%22%14S8%25O%2FY%26U6IU%04.88%2F8%07%07C2%29%3F9%14J1R7_1%262P--I%23NtA%3CN4Y2%3A%29%001%2B%07%2F3Z5FH8QB%5Eh%23%5E%23X%13K%24S%3A%26%22FQ%40_%3F%1D1%26%3A%2C%21%29XA0M%14%26PRk%3CO%26%3E*-%27*%5CXOG3%5Ba0J%3F%26%5D6T%27EOQW0%3C%22%3B%40BGM%5CC%5C%2B4MKRKE4%2F%60%26%28%280%2F%22%24%3B%5EUz%5E%1DFAT-1P%21%29%28%5CDI%3BT%40%29HMO0%3AB%3C-%223%21%25A6XVLB63%2F%5DBL%5B%27%2BB%3BMLRE%5DBZ%3E%04-1B%3DB%072.%3DPV%27%24%3A-A%40H%21%272%25BA1%00"
+"%5DTIBGNJY%2CGN%3C%2CR%5E8LO5JR6.5NP%5BEO%22U%21%280%25%3C%26P%2BYOHn298%29%26%3BSE%3CE*%3C%252AJT%2C%5DDK%28%14%1D7%03C%3D6JS%5BCHE25%24Mk%26%3CE%3DE%40%22%22DX%29T%5C%3E%3B*7%3D%22%2C%07%5B%29TA0C%14%2F%3A%7CRF5%3C%3B-%24NNBMP%27Y%28%60%046EMUM%25YthPUF%3D5%27%25I%5E%210%27%5C%29+%3FEMA%24Pp3Y*%25%3A%5D%296%5C%21J%26%40%3CK%3F%2CC0KHU3%3F%26%2FHR%3B%5D%22%3A_V.8%27%22%223%28%26P5%21%3F-D%10W%5E%5CVA1%2BR1%22EWc%2BJQ%2Cb%3AA%1E%23%3E1%3A%27W7U%3E%2F%21%3D7H%3CT2%22E%3D%40-J%00"
+""
+""
+"native"
+ 0
+ 0
+*

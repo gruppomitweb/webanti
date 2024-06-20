@@ -1,0 +1,59 @@
+﻿* --- Resource Vers. 0.9
+arrt_inverti_causali
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:38
+description='Inversione causali
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:22
+module_name='
+name='arrt_inverti_causali
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'operazbo.idbase
+'operazbo.codana
+'operazbo.codvoc
+'operazbo.segno
+'fraziobo.idbase
+'fraziobo.codana
+'fraziobo.codvoc
+'fraziobo.segno
+'xperazbo.idbase
+'xperazbo.codana
+'xperazbo.codvoc
+'xperazbo.segno
+'xraziobo.idbase
+'xraziobo.codana
+'xraziobo.codvoc
+'xraziobo.segno
+]
+'Queries
+[
+'qbe_max_cont_numprog_ope.vqr
+'qbe_max_cont_numprog_fraz.vqr
+'qbe_max_cont_numprog_xpe.vqr
+'qbe_max_cont_numprog_xraz.vqr
+]
+'Tables
+[
+'operazbo<table>
+'fraziobo<table>
+'xperazbo<table>
+'xraziobo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

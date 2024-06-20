@@ -1,0 +1,52 @@
+﻿* --- Resource Vers. 0.9
+aosrt_salva_rilevazioni
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:27
+description='Salva o cancella le rilevazioni per AOS
+file_modified_on=#2023-11-30 17:14:39
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:47
+module_name='
+name='aosrt_salva_rilevazioni
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'rilevazione.idmod
+'rilevazione.connes
+'rilevazione.dtril
+'rilevazione.cprownum
+'ano_ril.idmod
+'ano_ril.rowril
+'rilevazione.provenienza
+'ano_ril.idind
+'ano_ril.idsubind
+'ano_ril.nota
+'rilevazioni.connes
+'rilevazioni.dtril
+'rilevazioni.idmod
+]
+'Routines
+[
+'aosrt_salva_rilevazioni
+]
+'Tables
+[
+'rilevazione<table>
+'ano_ril<table>
+'rilevazioni<table>
+]
+}
+I
+*--*
+￼[]
+*--*

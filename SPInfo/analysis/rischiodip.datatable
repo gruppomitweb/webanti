@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+rischiodip<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Storico Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='rischiodip
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'rischiodip.coddip
+'rischiodip.tipoanalisi
+'rischiodip.dataini
+'rischiodip.datfin
+'rischiodip.risglob
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'rischiodip.coddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIP
+state=3
+table_name='rischiodip
+type='field
+used_resource_keys={}
+I
+'rischiodip.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio Analisi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINI
+state=3
+table_name='rischiodip
+type='field
+used_resource_keys={}
+I
+'rischiodip.datfin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine Analisi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATFIN
+state=3
+table_name='rischiodip
+type='field
+used_resource_keys={}
+I
+'rischiodip.risglob
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RISGLOB
+state=3
+table_name='rischiodip
+type='field
+used_resource_keys={}
+I
+'rischiodip.tipoanalisi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Annuale, Semestrale, ecc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOANALISI
+state=3
+table_name='rischiodip
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'rischiodip.coddip
+[]
+'rischiodip.dataini
+[]
+'rischiodip.datfin
+[]
+'rischiodip.risglob
+[]
+'rischiodip.tipoanalisi
+[]
+}
+*--*

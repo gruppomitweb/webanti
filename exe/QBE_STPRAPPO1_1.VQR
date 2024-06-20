@@ -1,0 +1,392 @@
+ 4
+"Operazioni"
+"operazbo"
+"operazbo"
+ 0
+ 0
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 0
+ 0
+*
+"Causali Analitiche"
+"tbcauana"
+"tbcauana"
+ 0
+ 0
+*
+"Causali Sintetiche"
+"tbcausin"
+"tbcausin"
+ 0
+ 0
+*
+ 22
+"Rapporto Collegato"
+"operazbo.RAPPORTO"
+"RAPPOPE"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Numero Progressivo"
+"operazbo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Operazione"
+"operazbo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data registrazione"
+"operazbo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Informazione"
+"operazbo.TIPOINF"
+"TIPOINF"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Contanti (S/N)"
+"operazbo.FLAGCONT"
+"FLAGCONT"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Causale Analitica"
+"operazbo.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbcauana.DESCRI"
+"DESCRICODANA"
+"C"
+ 165
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Causale Sintetica"
+"operazbo.CODVOC"
+"CODVOC"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbcausin.DESCRIZ"
+"DESCRIZCODVOC"
+"C"
+ 165
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Totale Operazione"
+"operazbo.TOTLIRE"
+"TOTLIRE"
+"N"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"di cui contanti"
+"operazbo.TOTCONT"
+"TOTCONT"
+"N"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Divisa"
+"operazbo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Segno"
+"operazbo.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Lire Euro Valuta"
+"operazbo.FLAGLIRE"
+"FLAGLIRE"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Operazione Completa"
+"operazbo.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DESTIPOOPRAP"
+"C"
+ 90
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"operazbo.DESCINTER"
+"DESCINTER"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Intermediario C/Parte"
+"operazbo.TIPOINT2"
+"TIPOINT2"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato registrazione"
+"operazbo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"ID Registrazione"
+"operazbo.IDEREG"
+"IDEREGOPE"
+"C"
+ 20
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Rettifica"
+"operazbo.DATARETT"
+"DATARETT"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 3
+"Tipo Registrazione(Tipo Operazione Completa)"
+"tbtipreg.CODICE=operazbo.TIPOOPRAP"
+"Right outer"
+"tbtipreg"
+"operazbo"
+*
+"Causali Analitiche(ID BASE Causale Analitica)"
+"tbcauana.idbase=operazbo.idcauana"
+"Right outer"
+"tbcauana"
+"operazbo"
+*
+"Causali Sintetiche(Causale Sintetica)"
+"tbcausin.CODVOC=operazbo.CODVOC"
+"Right outer"
+"tbcausin"
+"operazbo"
+*
+ 2
+"operazbo.RAPPORTO"
+""
+">="
+"?daRappo"
+"AND"
+""
+""
+*
+"operazbo.RAPPORTO"
+""
+"<="
+"?aRappo"
+"AND"
+""
+""
+*
+ 3
+"Rapporto Collegato"
+"RAPPOPE"
+"Ascending"
+*
+"Data Operazione"
+"DATAOPE"
+"Ascending"
+*
+"Data Rettifica"
+"DATARETT"
+"Descending"
+*
+ 0
+ 0
+ 2
+"daRappo"
+"Codice Rapporto"
+"C"
+"25"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"aRappo"
+"Codice Rapporto"
+"C"
+"25"
+"0"
+"Remove"
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 38
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"EJ%40XGQvDGK%23BF4EQ8%26-%26%3C%3AN9UP%5EIU-%3B6G%40*%29EPTSHR5FB%2F%5EU%3CYF%5B%2F%5DA0%1E-%40+B9X8%07K%1F%3D4I%3B%24IiNW1C%29%25+Z%3A%27%29A%3B%25%25%1EB%3AZLQR%40UFJ%2F3F%5C%05O7X4%3COLQ%252%5C%408*W7ND%2F%3CJvZ%2Bc%3D%23%23M%22O%2C6%29V+6K1L%3BLV21U8%3D%23%25%3CRLZAL%24%5D1%2B%25%3F%5C%3B4S%40AV%5E2%3E06EN7B%3D%3FW%3BA1p0QN_NJS%2FDI%223%2F%25%5DZH7H*HR%2F%3B%3A%1B6MYI%18*LTIU%3AR04A%1CG%5C%12%2F1%2B%3E%24%3A%24F8*%26IZ%29%3B*%3A%25I0%00"
+"T%2FF%28E5%268%7BW%22LG%09%7EUhH1%3C+1%223E5%21-4CC%23-%3AH*%24%28TYA*o%1C%297%3B%249%5D%401C%2C%2C%22%26A%3AO%2BW%29%3BR%2C%1F.%5C-_%5CS4*KDA%2BW%267XC%5BH%5B+.NKCUPW+7%22%23E%3AWH2+%27%3A%5C%3CE5.4D%3BLD4%15%3D%25%215U0G%5D%5EH2Y%21M%3DW%12%5B7%5B6Q%407-2TF8P58%3E%27E9%28%23HY%2FUOY%27%21%3D%29Q%40%3C7.1%25SKBK%28%25T6%25%5B%3BTFJI%21Mw%40FIP4%2F+%22%223-%25%5D6.O%1DA8%23XC%5C%22%3B%24W%2269HT%2B%29L%25%60%29M%3B%27R%40%24+I7yW3I%256E%40I0%28%3A%25%107L%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

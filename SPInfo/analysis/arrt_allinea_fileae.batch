@@ -1,0 +1,112 @@
+﻿* --- Resource Vers. 0.9
+arrt_allinea_fileae
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Allinea i dati dai file AgE
+file_modified_on=#2019-10-17 10:13:54
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_allinea_fileae
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_list_imprich.nomefile
+'tmp_imp_filae.periodo
+'tmp_imp_filae.invio
+'tmp_imp_filae.descri
+'tmp_imp_filae.idfile
+'tmp_imp_filae.nprog
+'tmp_imp_filae.cf
+'tmp_imp_filae.cnome
+'tmp_imp_filae.nome
+'tmp_imp_filae.sesso
+'tmp_imp_filae.nadata
+'tmp_imp_filae.nacitta
+'tmp_imp_filae.naprov
+'tmp_imp_filae.ragsoc
+'tmp_imp_filae.slcitta
+'tmp_imp_filae.slprov
+'tmp_imp_filae.tipo
+'tmp_imp_filae.coint
+'tmp_imp_filae.adata
+'tmp_imp_filae.cdata
+'tmp_imp_filae.oldid
+'tmp_imp_filae.oldprog
+'tmp_imp_filae.tipoop
+'personbo.codfisc
+'personbo.connes
+'aeoprig.connesint
+'aeoprig.adata
+'aeoprig.aspedito
+'aeoprig.aprog
+'aeoprig.afile
+'aerighe.aprog
+'aerighe.afile
+'aerighe.cprownum
+'aerighe.rapporto
+]
+'Libraries
+[
+'FileLibMit<project>
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Routines
+[
+'arfn_datefchar
+'arfn_delzero
+'arfn_fdatetime
+]
+'Tables
+[
+'tmp_list_imprich<table>
+'intermbo<table>
+'tmp_imp_filae<table>
+'personbo<table>
+'aerighe<table>
+'aetesta<table>
+'aederig<table>
+'aeoprig<table>
+'jnarapbo<table>
+'japopebo<table>
+'jntestbo<table>
+'anarapbo<table>
+'rapopebo<table>
+'intestbo<table>
+'tmp_rapportipd<table>
+'aestor<table>
+'aecanc<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_allinea_fileae|Warning|core::document|Update dependencies|Field "1" not found in temporary table "tmp_imp_filae".{Accuracy:-10}
+explanation='
+found_on=#2024-05-10 18:25:06
+message='Field "1" not found in temporary table "tmp_imp_filae".
+resource_key='arrt_allinea_fileae
+solvable=False
+status='unhandled
+tool='core::document
+type='Warning
+weights={
+'Accuracy
+-10
+}
+I
+]
+*--*

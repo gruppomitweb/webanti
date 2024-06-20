@@ -1,0 +1,203 @@
+@font-face {
+  font-family: 'iMobileIcon';
+  src: url('../../fonts/iMobileIcon.eot');
+  src:  url('../../fonts/iMobileIcon.eot#iMobileIcon') format('embedded-opentype'),
+    url('../../fonts/iMobileIcon.svg#iMobileIcon') format('svg'),
+    url('../../fonts/iMobileIcon.woff') format('woff'),
+    url('../../fonts/iMobileIcon.ttf') format('truetype');
+}
+
+body{
+ 	min-width:480px; /* suppose you want minimun width of 1000px */
+   width: auto !important;  /* Firefox will set width as auto */
+   width:100px;             /* As IE ignores !important it will set width as 1000px; */	
+   background-color:#ffffff;
+}
+
+#explainquerycontainer{
+	min-width:480px; /* suppose you want minimun width of 1000px */
+   width: auto !important;  /* Firefox will set width as auto */
+   width:100px; 
+}
+
+#menu{
+	list-style: none;
+  font-family: arial;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 5px;
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 80px;	
+  margin-right:25px;
+}
+
+#menu li {
+	position: relative;
+	border: 1,5px;
+    border-style: solid;
+    text-align: center;
+	}
+
+#menu li ul {
+	position: absolute;
+	right: 74px;
+	top: 0;
+	display: none;
+	white-space: nowrap;
+	}
+
+#menu li ul li{
+	padding:5px;
+	margin-top:-5px;
+}
+	
+#menu li a {
+	display:block;
+    border-bottom: 0;
+    padding: 3px;
+    text-decoration: none;
+	}
+	
+#menu a:link, #menu li a:visited
+    {
+    color:black;
+    }
+
+#l0 #c0:hover
+    {
+    background-color:#00CC00;
+   	font-variant:  small-caps;
+    }
+
+#l1 #c1:hover
+    {
+    background-color:#f9f006;
+    font-variant:  small-caps;
+    }
+
+#l2 #c2:hover
+    {
+    background-color:#ff0000;
+    font-variant:  small-caps;
+    }
+
+#l3 #c3:hover
+    {
+    background-color:#0000ff;
+    font-variant:  small-caps;
+    color:white;
+    }
+
+#l4 #c4:hover
+    {
+    background-color:#ff66a7;
+    font-variant:  small-caps;
+    }
+
+#l5 #c5:hover
+    {
+    background-color:#666666;
+    font-variant:  small-caps;
+    color:white;
+    }
+
+#menu li:hover ul { 
+	list-style: none;
+    font-family: arial;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+	float: right;
+	margin: 0;
+	padding-right: 10px;
+	margin-right: -2px;
+	list-style: none;
+	min-width: 50px;
+	display: block;		
+}
+
+#explainquerycontainer .button{
+  background-repeat:no-repeat;
+  width:24px;
+  height:24px;
+  background-color:Transparent;
+  background-position:center center;
+  border:0px;
+  margin-right:5px;
+  display:inline-block;
+  font-family:iMobileIcon;
+  color:#00A0BD;
+  font-size:22px;
+  cursor:pointer;
+}
+
+
+#explainquerycontainer #divButton{
+  float:right;
+}
+
+#explainquerycontainer #color
+    {
+    list-style: none;
+    font-family: arial;
+    font-size: 12px;
+    margin: 0;
+    padding:0;
+    width: 80px;
+    margin-top:5px;
+    margin-left:5px;
+    }
+   
+#explainquerycontainer #color li
+    {
+    /*float:left;*/
+    position: relative;
+    border:1,5px;
+    border-style: solid;
+    text-align: center;
+    }
+
+#explainquerycontainer li ul{
+	
+	position: absolute;
+	right: 49px;
+	top: 0;
+	display: none;
+}
+     
+#explainquerycontainer #color li a
+    {
+    display:block;
+    border-bottom: 0;
+    padding: 3px;
+    text-decoration:none;
+    }
+
+#explainquerycontainer #divInfo{
+	float:right;
+}
+
+#explainquerycontainer #drawTree{
+  margin-left:10px;
+}
+
+#toolbar{
+  margin-left:20px;
+}
+
+#scrollbarVertical{
+  float:right;
+  width:20px;
+}
+
+#scrollbarHorizontal{
+  height:25px;
+}
+
+#spazioPerGrafico{
+  float:left;
+  margin-bottom:5px;
+}

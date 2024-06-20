@@ -1,0 +1,79 @@
+﻿* --- Resource Vers. 0.9
+arrt_fam_stpsaldi
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Stampa Invii saldi AGE
+file_modified_on=#2021-04-12 15:22:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:14
+module_name='
+name='arrt_fam_stpsaldi
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_sid_invio1.codinvio1
+'tmp_sid_invio1.rapinvio1
+'tmp_sid_invio1.tprinvio1
+'tmp_sid_invio1.iniinvio1
+'tmp_sid_invio1.fininvio1
+'tmp_sid_invio1.tipinvio1
+'tmp_sid_invio1.tpcinvio1
+'tmp_sid_invio3.codinvio3
+'tmp_sid_invio3.rapinvio3
+'tmp_sid_invio3.tprinvio3
+'tmp_sid_invio3.anninvio3
+'tmp_sid_invio3.valinvio3
+'tmp_sid_invio3.im1invio3
+'tmp_sid_invio3.fi1invio3
+'tmp_sid_invio3.im2invio3
+'tmp_sid_invio3.fi2invio3
+'tmp_sid_invio3.im3invio3
+'tmp_sid_invio3.fi3invio3
+'tmp_sid_invio3.im4invio3
+'tmp_sid_invio3.fi4invio3
+'tmp_sid_invio3.im5invio3
+'tmp_sid_invio3.fi5invio3
+'tmp_sid_invio3.im6invio3
+'tmp_sid_invio3.fi6invio3
+]
+'Hyperlinks
+[
+'arrp_fam_stpsaldi.vrp
+]
+'Queries
+[
+'qbe_famsaldi01_count.vqr
+'qbe_famsaldi01.vqr
+'qbe_famsaldi_opx_minmax.vqr
+'qbe_famsaldi03.vqr
+]
+'Routines
+[
+'arfn_fam_mesefile03
+'arfn_fdatetime
+]
+'Tables
+[
+'sid_invio1<table>
+'sid_invio2<table>
+'sid_invio3<table>
+'tmp_sid_invio1<table>
+'tmp_sid_invio2<table>
+'tmp_sid_invio3<table>
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

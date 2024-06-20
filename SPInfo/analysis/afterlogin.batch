@@ -1,0 +1,75 @@
+﻿* --- Resource Vers. 0.9
+afterlogin
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:26
+description='AfterLogin
+file_modified_on=#2024-01-29 15:28:17
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:44
+module_name='
+name='afterlogin
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_tipoleg.tpdatini
+'tmp_tipoleg.tpdatfin
+'tmp_tipoleg.tpcodice
+'tmp_tipoleg.tpdescri
+'tmp_tipoleg.tpfiltro
+'tmp_tipoleg.tpcdatini
+'tmp_tipoleg.tpcdatfin
+'cgo_tbmezpag.mpcodice
+'cgo_tbmezpag.mpdescri
+'cgo_tbmezpag.mpflgval
+'intermbo.scadsaldi
+'intermbo.flgdataim
+'intermbo.flgdatatp
+'intermbo.pathjava
+'operazbo.idcauana
+'fraziobo.idcauana
+'xperazbo.idcauana
+'xraziobo.idcauana
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+'FileLibMit<project>
+]
+'Routines
+[
+'arrt_writelog
+]
+'Tables
+[
+'intermbo<table>
+'webaos_agg_soggetti<table>
+'tmp_tipoleg<table>
+'tbtipleg<table>
+'cpusers_add<table>
+'tmp_mezzipag<table>
+'cgo_tbmezpag<table>
+'wersonbo<table>
+'operazbo<table>
+'fraziobo<table>
+'cpgroups<table>
+'cpprgsec<table>
+'tbcauana<table>
+'xperazbo<table>
+'xraziobo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,151 @@
+ 3
+"cpprgsec"
+"cpprgsec"
+"cpprgsec"
+ 0
+ 0
+*
+"cpusers"
+"cpusers"
+"cpusers"
+ 0
+ 0
+*
+"cpgroups"
+"cpgroups"
+"cpgroups"
+ 0
+ 0
+*
+ 9
+"Entity Name"
+"cpprgsec.progname"
+"progname"
+"C"
+ 50
+ 0
+*
+"Group Code"
+"cpprgsec.grpcode"
+"grpcode"
+"N"
+ 6
+ 0
+*
+"Group Name"
+"cpgroups.name"
+"grpname"
+"C"
+ 20
+ 0
+*
+"User Code"
+"cpprgsec.usrcode"
+"usrcode"
+"N"
+ 9
+ 0
+*
+"User Name"
+"cpusers.name"
+"usrname"
+"C"
+ 50
+ 0
+*
+"Access"
+"cpprgsec.sec1"
+"sec1"
+"N"
+ 4
+ 0
+*
+"Insert"
+"cpprgsec.sec2"
+"sec2"
+"N"
+ 4
+ 0
+*
+"Modify"
+"cpprgsec.sec3"
+"sec3"
+"N"
+ 4
+ 0
+*
+"Delete"
+"cpprgsec.sec4"
+"sec4"
+"N"
+ 4
+ 0
+*
+ 2
+"cpusers(User Code)"
+"cpusers.code=cpprgsec.usrcode"
+"Right outer"
+"cpusers"
+"cpprgsec"
+*
+"cpgroups(Group Code)"
+"cpgroups.code=cpprgsec.grpcode"
+"Right outer"
+"cpgroups"
+"cpprgsec"
+*
+ 1
+"cpprgsec.progname"
+""
+"="
+"?progname"
+"AND"
+""
+*
+ 2
+"Group Code"
+"grpcode"
+"Ascending"
+*
+"User Code"
+"usrcode"
+"Ascending"
+*
+ 0
+ 0
+ 1
+"progname"
+"Entity Name"
+"C"
+"50"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 4
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%21%29LAnWCGR9H%29%280MNU%26%3D%3D%3E%11%3A-TbtV%5D%2Ba%23E%27%27VE%23XS4ZID.24D%3AiL%05FX%2B%26%23UF-C3JS%04DCKX%2F%2C%07*YVl%40+HQ%26%5Bi*YE%03%213-V5OWJ%5CV%07%17%26.-%10Q*UDBn%2B%17%3F%5BV%5D9%1A%2B+2M%24%23J6OHD_QZ%244%1B%3E8%2B%23%23WCD%40%23+1UJ_8*%23P7MDS%5D%5B-1W5%5E%3E*%215E%22ZE%5CIB6B++-%5CY%3A3C_%3DH%2CTU%25%2B%3EUZQ%28D%1A%223%23%25%27%3D__ML%3D%3ABWQF%05%296%278%25rJvXPTX.B%3EH8*%254_KWNM%2C%10PV%3AT%1B%2FEU%21%3E%3C%00"
+"VCTVUMOFTR%3DC%115QFO%26%5E6YJB%2FIVu%5DF-_2%26NB%02%3D%5C%3EK2X_*+%2F%2F%27%3DZ6XHS0%2FJNEvS_ZK4%28C%24%5E%10S+*5MF%1D%21G%24_Hj%1AR%14U%40%22G%5C%5DO%21nWG4E.%21%3D+XRGIG%5E0%141TH9Z34E*A%1B%21%5BE%2B%25HQYYA%24KRE%28%26uW%5DE%29O%3A%3D%25%5D%5B5%5E%17%5DFK%1C%5CZ%2FtO*B%05%3BOB%00%12.%5BK4_5ML%294%5BR7G0L%3E7%1B-.%3DL%5EHJ%3F%07%14%26N%223%29%25%5E%5B%29O361%3EH7OI9%2900C%22*%60%23OAMOSJE%220D*%3A*h%27n%24%17*%3D%2C492%267UJ%3D%1F%00"
+""
+""
+"native"
+ 0
+ 0
+*

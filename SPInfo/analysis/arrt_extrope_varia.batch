@@ -1,0 +1,56 @@
+﻿* --- Resource Vers. 0.9
+arrt_extrope_varia
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Allinea Cancellazioni / Operazioni Extraconto
+file_modified_on=#2021-02-08 09:19:58
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:13
+module_name='
+name='arrt_extrope_varia
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.dataannu
+'opextrbo.datamodi
+'opextrbo.dataope
+'opextrbo.saldo
+'opextrbo.quantita
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_opxperiodo_minmax.vqr
+'qbe_allinena_opex_ope.vqr
+'qbe_calcsaldi_periodo_o.vqr
+]
+'Routines
+[
+'arrt_extrope_varia
+]
+'Tables
+[
+'opextrbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

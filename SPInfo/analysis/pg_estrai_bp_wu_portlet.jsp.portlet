@@ -1,0 +1,61 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_estrai_bp_wu_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:43
+description='ESTRAZIONE DATI PER BP/MTO (WU)
+file_modified_on=#2024-05-10 18:19:35
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:24:45
+module_name='
+name='pg_estrai_bp_wu_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Hyperlinks
+[
+'jsp\start_page_logo_portlet.jsp
+'jsp\pg_upload_portlet.jsp
+'arfn_upload_file
+'arfn_estrai_bp_wu
+'arrt_downloadfile
+'arfn_azzera_messaggi
+'arfn_initdate
+'arrt_estrai_bp_check_wu
+'arfn_import_correzioni_sv_wu
+'arrt_downloadxlsx
+]
+'Others
+[
+'jsp\showlog_portlet.jsp
+'jsp\showmsg_portlet.jsp
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_estrai_bp_wu_portlet.jsp|Error|core::document|Update dependencies|Resource "arrp_estrai_sv_chk.vrp.vrp" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:45
+message='Resource "arrp_estrai_sv_chk.vrp.vrp" not found.
+resource_key='jsp\pg_estrai_bp_wu_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

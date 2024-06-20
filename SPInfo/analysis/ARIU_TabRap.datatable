@@ -1,0 +1,429 @@
+﻿* --- Resource Vers. 0.9
+ariu_tabrap<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Rapporti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ARIU_TabRap
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'ariu_tabrap.codtipintrap
+'ariu_tabrap.codintrap
+'ariu_tabrap.codprorap
+'ariu_tabrap.coddiprap
+'ariu_tabrap.codcabcomrap
+'ariu_tabrap.descomrap
+'ariu_tabrap.codprocomrap
+'ariu_tabrap.datoperap
+'ariu_tabrap.tipmovrap
+'ariu_tabrap.codtipraprap
+'ariu_tabrap.codtiplegrap
+'ariu_tabrap.datregrap
+'ariu_tabrap.codtipregrap
+'ariu_tabrap.staregrap
+'ariu_tabrap.datretrap
+'ariu_tabrap.codpromodrap
+'ariu_tabrap.codtipdivrap
+'ariu_tabrap.codvalrap
+'ariu_tabrap.indchirap
+'ariu_tabrap.indestrap
+'ariu_tabrap.indeststo
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'ariu_tabrap.codcabcomrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Dipendenza / Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodCabComRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.coddiprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodDipRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.codintrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodIntRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.codprocomrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Dipendenza / Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodProComRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.codpromodrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Movimento Modificato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodProModRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.codprorap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivio Movimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodProRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.codtipdivrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Divisa Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodTipDivRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.codtipintrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodTipIntRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.codtiplegrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Legame Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodTipLegRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.codtipraprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodTipRapRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.codtipregrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodTipRegRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.codvalrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodValRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.datoperap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data operazione Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DatOpeRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.datregrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DatRegRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.datretrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rettifica Movimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DatRetRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.descomrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Dipendenza / Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DesComRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.indchirap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Chiuso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IndChiRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.indestrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Estrapolato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IndEstRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.indeststo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Storicizzato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IndEstSto
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.staregrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='StaRegRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+'ariu_tabrap.tipmovrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TipMovRap
+state=3
+table_name='ARIU_TabRap
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'ariu_tabrap.codcabcomrap
+[]
+'ariu_tabrap.coddiprap
+[]
+'ariu_tabrap.codintrap
+[]
+'ariu_tabrap.codprocomrap
+[]
+'ariu_tabrap.codpromodrap
+[]
+'ariu_tabrap.codprorap
+[]
+'ariu_tabrap.codtipdivrap
+[]
+'ariu_tabrap.codtipintrap
+[]
+'ariu_tabrap.codtiplegrap
+[]
+'ariu_tabrap.codtipraprap
+[]
+'ariu_tabrap.codtipregrap
+[]
+'ariu_tabrap.codvalrap
+[]
+'ariu_tabrap.datoperap
+[]
+'ariu_tabrap.datregrap
+[]
+'ariu_tabrap.datretrap
+[]
+'ariu_tabrap.descomrap
+[]
+'ariu_tabrap.indchirap
+[]
+'ariu_tabrap.indestrap
+[]
+'ariu_tabrap.indeststo
+[]
+'ariu_tabrap.staregrap
+[]
+'ariu_tabrap.tipmovrap
+[]
+}
+*--*

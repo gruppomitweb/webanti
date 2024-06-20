@@ -1,0 +1,77 @@
+﻿* --- Resource Vers. 0.9
+arrt_fammigra_old
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Lancia Esecuzione SID Ricevute
+file_modified_on=#2021-12-22 17:08:52
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:13
+module_name='
+name='arrt_fammigra_old
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'famesiti.famcodice
+'famesiti.famtiporap
+'famesiti.famdescri
+'famesiti.famdatini
+'famesiti.famdatfin
+'famesiti.famsal2011
+'famesiti.famsal2012
+'famesiti.famsal2013
+'famesiti.famsal2014
+'famesiti.famsal2015
+'famesiti.famsal2016
+'famesiti.famsal2017
+'famesiti.famconta
+'famesiti.famannorif
+'famesitid.fadrapporto
+'famesitid.fadprogr
+'famesitid.fadcodfis
+'famesitid.fadruolo
+'famesitid.faddatini
+'famesitid.faddatfin
+'famesitid.fadcograg
+'famesitid.fadsesso
+'famesitid.faddatnas
+'famesitid.fadnassel
+'famesitid.fadprvsel
+'intermbo.datainter
+'tmp_list_imprich.nomefile
+]
+'Libraries
+[
+'LibreriaMit<project>
+'FileLibMit<project>
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_fammigra_old
+]
+'Tables
+[
+'aeannora<table>
+'aetesta<table>
+'cpwarn<table>
+'famesiti<table>
+'famesitid<table>
+'intermbo<table>
+'opextrbo<table>
+'tmp_list_imprich<table>
+]
+}
+I
+*--*
+￼[]
+*--*

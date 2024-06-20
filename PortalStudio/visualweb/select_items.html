@@ -1,0 +1,108 @@
+<html>
+<head>
+ <title>Select Items</title>
+ <link rel="stylesheet" href="../filewindow.css" type="text/css">
+ <script type="text/javascript" src="../stdFunctions.js"></script>
+ <script type="text/javascript" src="../controls.js"></script>
+ <script type="text/javascript">
+  QueryString.keys = new Array();
+  QueryString.values = new Array();
+
+  function QueryString(key) {
+    var value = null;
+    for (var i=0;i<QueryString.keys.length;i++) {
+      if (QueryString.keys[i]==key) {
+        value = QueryString.values[i];
+        break;
+      }
+    }
+    return value;
+  }
+  function QueryString_Parse() {
+    var query = window.location.search.substring(1);
+    var pairs = query.split("&");
+    for (var i=0;i<pairs.length;i++) {
+      var pos = pairs[i].indexOf('=');
+      if (pos >= 0) {
+        var argname = pairs[i].substring(0,pos);
+        var value = pairs[i].substring(pos+1);
+        QueryString.keys[QueryString.keys.length] = argname;
+        QueryString.values[QueryString.values.length] = value;
+      }
+    }
+  }
+  var ReturnObjectIndex=null;
+  var ReturnObjectName=null;
+  var ObjectType=null;
+  function Init() {
+    QueryString_Parse();
+    ReturnObjectIndex=QueryString("index");
+    ReturnObjectName=QueryString("rtrnobj");
+    ObjectType=QueryString("type");
+    var ItemList=GetOpener().itemsHTML;
+    for(var elem,i=0;i<ItemList.length;i++){
+      elem=ItemList[i];
+      if(ItemList[ReturnObjectIndex].name == elem.name ){
+        continue;
+      }
+      if(ReturnObjectName=='parms_source'){ // Lista Items param source
+        document.getElementById("AvailableObjects").innerText='parameters sources';
+        if(elem.type=='SQLDataobj' || elem.type=='XMLDataobj' || elem.type=='StaticDataProvider' ||
+          elem.type=='StdTreeView' || elem.type=='MenuView' || (elem.type=='Variable' && elem.reactive=='true') 
+          )
+          Ctrl("itemslist").options[Ctrl("itemslist").options.length]=new Option(elem.name,elem.name, false, false);
+      }else
+        Ctrl("itemslist").options[Ctrl("itemslist").options.length]=new Option(elem.name,elem.name, false, false);
+    }
+    window.resizeTo(350,500);
+    window.focus();
+    Ctrl("itemslist").focus();
+  }
+
+  function setItem() {
+    if(Ctrl("itemslist").options.selectedIndex<0 ) return;
+    var Item=Ctrl("itemslist").options[Ctrl("itemslist").options.selectedIndex].value;  
+    if(ReturnObjectName=='parms_source'){
+      if(!Empty(GetOpener().itemsHTML[ReturnObjectIndex][ReturnObjectName])){
+        GetOpener().itemsHTML[ReturnObjectIndex][ReturnObjectName] += ','+Item;
+      }else{
+        GetOpener().itemsHTML[ReturnObjectIndex][ReturnObjectName] = Item;
+      }
+    }else{
+      GetOpener().itemsHTML[ReturnObjectIndex][ReturnObjectName]=Item;
+    }
+    GetOpener().Properties();
+    window.close();
+  }
+  function DoOnKeyDown(e){
+    e = e ? e : window.event;
+    var keyCode = GetKeyCode(e);
+    if(keyCode==13)
+      setItem();
+    else if(keyCode==27)
+      window.close();
+  }
+ </script>
+</head>
+
+<body style="border:0;overflow:hidden;margin:0;background-color:#E4E4E4" onload="Init()">
+ <table border="1" width="100%" height="100%" cellpadding="0" cellspacing="2" align="center">
+  <tr>
+   <td class="titoli" align="center" height="20px"><b>A<u>v</u>ailable <span id="AvailableObjects">items</span></b></td>
+  </tr>
+  <tr>
+   <td>
+    <select id="itemslist" size="8" style="width:100%;height:100%" ondblclick="setItem()" onKeyDown="DoOnKeyDown(event)" accesskey="v">
+    </select>
+   </td>
+  </tr>
+  <tr>
+   <td class="footer" height="20" valign="middle" align="center" nowrap>
+    <button onclick="setItem()" accesskey="s" class="bottoni"><u>S</u>elect</button>&nbsp;
+    <button onclick="window.close();" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+   </td>
+  </tr>
+ </table>
+</body>
+</html>
+

@@ -1,0 +1,327 @@
+ 2
+"Operazioni Extra Conto"
+"aeoprig"
+"aeoprig"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 26
+""
+"aeoprig.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+""
+"aeoprig.CONNESINT"
+"CONNESINT"
+"C"
+ 16
+ 0
+*
+""
+"aeoprig.ASPEDITO"
+"ASPEDITO"
+"N"
+ 1
+ 0
+*
+""
+"aeoprig.ADATA"
+"ADATA"
+"D"
+ 8
+ 0
+*
+""
+"aeoprig.APROG"
+"APROG"
+"C"
+ 25
+ 0
+*
+""
+"aeoprig.AFILE"
+"AFILE"
+"C"
+ 15
+ 0
+*
+""
+"aeoprig.CSPEDITO"
+"CSPEDITO"
+"N"
+ 1
+ 0
+*
+""
+"aeoprig.CDATA"
+"CDATA"
+"D"
+ 8
+ 0
+*
+""
+"aeoprig.CPROG"
+"CPROG"
+"C"
+ 25
+ 0
+*
+""
+"aeoprig.CFILE"
+"CFILE"
+"C"
+ 15
+ 0
+*
+""
+"aeoprig.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+""
+"aeoprig.COINT"
+"COINT"
+"C"
+ 1
+ 0
+*
+""
+"aeoprig.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Cognome"
+"personbo.COGNOME"
+"COGNOME"
+"C"
+ 26
+ 0
+*
+"Nome"
+"personbo.NOME"
+"NOME"
+"C"
+ 25
+ 0
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Luogo di Nascita"
+"personbo.NASCOMUN"
+"NASCOMUN"
+"C"
+ 30
+ 0
+*
+"Stato di nascita"
+"personbo.NASSTATO"
+"NASSTATO"
+"C"
+ 30
+ 0
+*
+"Sesso"
+"personbo.SESSO"
+"SESSO"
+"C"
+ 1
+ 0
+*
+""
+"personbo.TIPINTER"
+"TIPINTER"
+"C"
+ 2
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Città"
+"personbo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"personbo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"Stato"
+"personbo.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+*
+"Data Nascita"
+"personbo.DATANASC"
+"DATANASC"
+"D"
+ 8
+ 0
+*
+"Progressivo Riga"
+"aeoprig.PROGOPX"
+"PROG"
+"N"
+ 15
+ 0
+*
+ 1
+""
+"aeoprig.CONNESINT=personbo.CONNES"
+"Left outer"
+"aeoprig"
+"personbo"
+*
+ 8
+"[NOTEMPTYSTR(aeoprig.CONNESINT)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(aeoprig.ADATA)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"aeoprig.ASPEDITO"
+""
+"="
+"1"
+"AND"
+""
+*
+"aeoprig.ADATA"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"aeoprig.ADATA"
+""
+"<="
+"?w_a_data"
+"AND"
+""
+*
+"aeoprig.PROGOPX"
+""
+">="
+"?_bottom"
+"AND"
+""
+*
+"aeoprig.PROGOPX"
+""
+"<="
+"?_top"
+"AND"
+""
+*
+"aeoprig.NOCODFISC"
+""
+"="
+"?_estero"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 5
+"w_dadata"
+""
+"D"
+"8"
+"0"
+""
+*
+"w_a_data"
+""
+"D"
+"8"
+"0"
+""
+*
+"_bottom"
+"Progressivo Riga"
+"N"
+"15"
+"0"
+"Remove"
+*
+"_top"
+"Progressivo Riga"
+"N"
+"15"
+"0"
+"Remove"
+*
+"_estero"
+""
+"C"
+"1"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 20
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"E%27I%227Nt7K%3E+N%21%2FA%40G%1A*%24+%403+YZNI%5CG6%29L%26O%24F%28TSQyO%21A-%08KIS2S%24%24%12E%28K1%23t6V%5B%3DB%2B9.NS2*R%5D%5E%3D%3A%25%3F%5CK%3B%3EV%161%25%3E4_bI%23nTF%3F4%1F3%3E%2B%3F-XYH67%2FN%25LG%5CD%2B%16*7A2UH%22%5B%3ACG%22%26%21%277%3F%295Y%3FKV%22H%3C*+%5Ek%3DSL%5B0N%2F%2FIJ%2BNAB%29%24O%24%28%26+_%2C%5C%2841%29%27QZA6%23%25%3C%00%102%3CMT%26BPO%5B%06-CG%223%23%25RLx%5CHO%2F%09GVFI%24D6.%267RPtuA%5BD8%3DC%29-%3B%5E5%27YO%3C%21F%3C%3D%26Z_%18159%3E%295%00"
+"%28X%3EWo%3CWND4%28%3EN-NXZ%3B%5DE4%23C-%2BY.FGO8X%142%3C*1%24%2BDBC%3CKFJ%2FU%5Dj4W%27%21%26%19%2CCa%5D%27HAE5N7%1A%5DM%230%5ChBCH%211T*ZFB%21B9IN%23WN%2C_%3FP3%3B%14%21%25%24%2F%5D%27HBPmB%21%11Z%26CN8_.R%28%27%22%2CV%26MlLZ%3FO%2C3%3A5SY%5BZ_%5ED%2BN%24DVS%2C%27A1%3A%27C%22c%23v%5BqWW-%2C+%5C%3C.9JH%28U%21%2F%3F%5DAP1.%05B6%121NYEuwRV%3A%2FD8%28%223%2C%25GXy%3CH%3D0X+j%3D%23%5C9V%2899X%3B%28*J%28J%05%3E-%3C%2C%3D%3B%2CNiZI.-%11%23HTYIWAR5H%23%00"
+""
+""
+"native"
+ 0
+ 0
+*

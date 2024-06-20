@@ -1,0 +1,243 @@
+ 2
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+"Tipo Documento"
+"tbtipdoc"
+"tbtipdoc"
+ 0
+ 0
+*
+ 13
+"Codice Collegamento"
+"personbo.CONNES"
+"CONNES"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Indirizzo"
+"personbo.DOMICILIO"
+"DOMICILIO"
+"C"
+ 35
+ 0
+*
+"Città"
+"personbo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"personbo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"CAP"
+"personbo.CAP"
+"CAP"
+"C"
+ 9
+ 0
+*
+"Numero Doc."
+"personbo.NUMDOCUM"
+"NUMDOCUM"
+"C"
+ 15
+ 0
+*
+"Data Rilascio Doc."
+"personbo.DATARILASC"
+"DATARILASC"
+"D"
+ 8
+ 0
+*
+"Autorità di rilascio"
+"personbo.AUTRILASC"
+"AUTRILASC"
+"C"
+ 30
+ 0
+*
+"Tipo Documento"
+"personbo.TIPODOC"
+"TIPODOC"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbtipdoc.DESCRI"
+"DESCRI_DOC"
+"C"
+ 30
+ 0
+*
+"Data fine validità"
+"personbo.DATAVALI"
+"DATAVALI"
+"D"
+ 8
+ 0
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+ 1
+"Collegamento alla descrizione del documento"
+"personbo.TIPODOC=tbtipdoc.TIPDOC"
+"Left outer"
+"personbo"
+"tbtipdoc"
+*
+ 6
+"([NOTEMPTYSTR(personbo.TIPODOC)]"
+""
+"="
+"0"
+"AND"
+""
+*
+"ýSý"
+""
+"="
+"?w_tipdoc)"
+"AND"
+""
+*
+"[UPPER(personbo.SESSO)]"
+""
+"in"
+"(ý1ý,ý2ý,ýMý,ýFý)"
+"AND"
+""
+*
+"(?ChkEst"
+""
+"="
+"1"
+"OR"
+""
+*
+"(?ChkEst"
+""
+"<>"
+"1"
+"AND"
+""
+*
+"personbo.CONNES"
+""
+"in"
+"qbe_tabella_connes))"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 7
+"w_tipdoc"
+"Tipo Documento"
+"C"
+"1"
+"0"
+""
+""
+*
+"w_DaData"
+"Data Riferimento"
+"D"
+"8"
+"0"
+""
+""
+*
+"w_desazi"
+"Descrizione Intermediario"
+"C"
+"70"
+"0"
+""
+""
+*
+"ChkEst"
+"Filtro soggetti attivi"
+"N"
+"1"
+"0"
+""
+""
+*
+"TABELLA"
+""
+"C"
+"200"
+"0"
+""
+""
+*
+"attive"
+""
+"L"
+"1"
+"0"
+"Remove"
+""
+*
+"in"
+""
+"C"
+"200"
+"0"
+"Remove"
+""
+*
+""
+.f.
+"QBE_ANOMALIEDOC2"
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 27
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"XCSJ%3CA%25GDQC9H7%25iBJ%0647+%26%27%27A%40QW%26F%28%21E+%038Y%3A%255A5N%21+ZC66%21%2FO%02B0%3B%2FMUZB*a%23J6-QG24R%3B%23%3B%2CO%2F%3F%4093J_OQ3%3CGR%3AGCLp30O%3E0%3D9Z1%27Z%2C2%29J5%3EZJB7444%3B63X%3B%24P6KZ%3D%22I%267%3F-*.B+Y%27%24%3D%09G9J%3E-%2514J%2C*1J%5B8%28Z%23%160E%3A4%5DQu%5EW4%2BID%26HY0*%2CE093%3EU3%22%259%264U40%2C%223%2C%26C5_R9%24%2CRRW6E%2B7V3%3EOr8%25%5DVs9Z%2B%3F3%3BF%27%04%5CUVGENI%3A%5Ej%5E%23X%3A%23%3C6+%00"
+"%27Rj-W%40J7Zn8%15+V%7D%3AR.0%2765%3F%3B*Qt%5DQ%27Q%5D%3AB%26%00O%26%28HD*E0%17I5+X%5EC%5D7W%2605Y%3B%5B%2BGp1%2BBGLW%3AP6%274T0%3B%22J%0B%5DOU%23T%24SD7%29CF%40_4VW%5C8%23%281%13%3F1uM%257%24%251%22J%3Ek1Y%254*+E%216WU%3DFNYI%3A%3F%219_%06%23W_%3D%23%21K%5BP4DJ%238%2FA8%26%298%2CPEOLV%28+%3AP%3B%5D%23LVAU%1E%3EL4N%5BF%23.L-%29LN%28LV%2C2RO%3DB%1FL%223%26%26OCVP%22%2CF%3F%5B9%40%22%3DL%22%12M%21%27HTA%3BsPS4%27F%234%2CTtVIJ%1FD%129%7C%5DPA%2CC%23H1%3D%00"
+""
+""
+"native"
+ 0
+ 0
+*

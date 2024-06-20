@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+cgo_tipdoc<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Tipologie Documenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cgo_tipdoc
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cgo_tipdoc.tipdoc
+'cgo_tipdoc.descri
+'cgo_tipdoc.auidoc
+'cgo_tipdoc.disannimin
+'cgo_tipdoc.disannimax
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cgo_tipdoc.auidoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Corrispondenza AUI
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AUIDOC
+state=3
+table_name='cgo_tipdoc
+type='field
+used_resource_keys={}
+I
+'cgo_tipdoc.descri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCRI
+state=3
+table_name='cgo_tipdoc
+type='field
+used_resource_keys={}
+I
+'cgo_tipdoc.disannimax
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anni Data Rilascio Superiore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DISANNIMAX
+state=3
+table_name='cgo_tipdoc
+type='field
+used_resource_keys={}
+I
+'cgo_tipdoc.disannimin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anni Data Rilascio Inferiore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DISANNIMIN
+state=3
+table_name='cgo_tipdoc
+type='field
+used_resource_keys={}
+I
+'cgo_tipdoc.tipdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPDOC
+state=3
+table_name='cgo_tipdoc
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cgo_tipdoc.auidoc
+[]
+'cgo_tipdoc.descri
+[]
+'cgo_tipdoc.disannimax
+[]
+'cgo_tipdoc.disannimin
+[]
+'cgo_tipdoc.tipdoc
+[]
+}
+*--*

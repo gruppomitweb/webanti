@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+cpusrgrp<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Gruppi/Utenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cpusrgrp
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cpusrgrp.groupcode
+'cpusrgrp.usercode
+'cpusrgrp.datestart
+'cpusrgrp.datestop
+'cpusrgrp.companies
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cpusrgrp.companies
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Aziende
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='companies
+state=3
+table_name='cpusrgrp
+type='field
+used_resource_keys={}
+I
+'cpusrgrp.datestart
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio Validità
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='datestart
+state=3
+table_name='cpusrgrp
+type='field
+used_resource_keys={}
+I
+'cpusrgrp.datestop
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='datestop
+state=3
+table_name='cpusrgrp
+type='field
+used_resource_keys={}
+I
+'cpusrgrp.groupcode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Gruppo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='groupcode
+state=3
+table_name='cpusrgrp
+type='field
+used_resource_keys={}
+I
+'cpusrgrp.usercode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Utente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='usercode
+state=3
+table_name='cpusrgrp
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cpusrgrp.companies
+[]
+'cpusrgrp.datestart
+[]
+'cpusrgrp.datestop
+[]
+'cpusrgrp.groupcode
+[]
+'cpusrgrp.usercode
+[]
+}
+*--*

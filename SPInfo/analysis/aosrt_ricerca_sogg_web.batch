@@ -1,0 +1,73 @@
+﻿* --- Resource Vers. 0.9
+aosrt_ricerca_sogg_web
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:27
+description='Ricerca tra Soggetti Segnalati (Liste WEB)
+file_modified_on=#2021-09-30 15:29:04
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:47
+module_name='
+name='aosrt_ricerca_sogg_web
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_seek_sogg.appoggio
+'tmp_seek_sogg.carica
+'tmp_seek_sogg.chiaverep
+'tmp_seek_sogg.cosafare
+'tmp_seek_sogg.cut
+'tmp_seek_sogg.entity_id
+'tmp_seek_sogg.flag
+'tmp_seek_sogg.idbase
+'tmp_seek_sogg.idorig
+'tmp_seek_sogg.legal_b
+'tmp_seek_sogg.lista
+'tmp_seek_sogg.nome_compl
+'tmp_seek_sogg.note
+'tmp_seek_sogg.pdf
+'tmp_seek_sogg.programm
+'tmp_seek_sogg.ragsoc
+'tmp_seek_sogg.ragsocblk
+'tmp_seek_sogg.ragsocblok
+'tmp_seek_sogg.ragsocx
+'tmp_seek_sogg.reg_date
+'tmp_seek_sogg.riferim
+'tmp_seek_sogg.soundmax
+'tmp_seek_sogg.spec
+'tmp_seek_sogg.tipo
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_ric_denom_web.vqr
+'qbe_ric_denom_afon_web.vqr
+]
+'Routines
+[
+'aosfn_unifonia
+'arfn_fdatetime
+]
+'Tables
+[
+'tmp_seek_sogg<table>
+'webaos_soggettiweb<table>
+'cptsrvr<table>
+]
+}
+I
+*--*
+￼[]
+*--*

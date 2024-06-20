@@ -1,0 +1,1081 @@
+﻿* --- CodePainter Revolution Batch Vers. 5.1
+￼Icpbatch.CPBatch
+Items=[
+Icpitembatch.CPRemark
+frm_calc='Verifica Codice Fiscale - Partita IVA
+next=Icpitembatch.CPVarDecl
+comment='Codice Fiscale o Partita IVA
+len=16
+name='pCODFIS
+next=Icpitembatch.CPVarDecl
+comment='Stato Residenza
+len=3
+name='pSTATO
+next=Icpitembatch.CPVarDecl
+comment='Codice Fiscale non generato da agenzia entrate
+len=1
+name='pCFE
+next=Icpitembatch.CPBeginEnd
+comment='Variabili Locali
+h=[
+19
+19
+]
+next=Icpitembatch.CPRemark
+frm_calc='Verifica codice fiscale solo se italiano
+next=Icpitembatch.CPVarDecl
+comment='Valore di Ritorno
+frm_calc='True
+len=1
+name='bRitorno
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'pCFE<>1
+]
+h=[
+19
+19
+]
+next=Ispitembatch.CPReturn
+frm_calc='bRitorno
+obj='Return
+pag=1
+prev=O11
+I
+obj='If
+pag=1
+prev=O10
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di Ritorno
+father=O11
+fatherSonIndex=0
+frm_calc='CodiceFiscale.isCF(pCODFIS)
+len=1
+name='bRitorno
+obj='Var
+obj_type='L
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+obj_type='L
+pag=1
+prev=O9
+var_op='asgn
+I
+obj='Remark
+pag=1
+prev=O7
+I
+obj='Begin
+pag=1
+prev=O6
+sons=[
+Icpitembatch.CPItemSon
+comment='Definizione Variabili Locali
+instr=Icpitembatch.CPVarDecl
+comment='Valore di Ritorno
+father=O7
+fatherSonIndex=0
+len=1
+name='bRitorno
+next=Icpitembatch.CPVarDecl
+comment='Valore carattere di ritorno
+len=3
+name='nCR
+next=Icpitembatch.CPVarDecl
+comment='Carattere da controllare
+len=1
+name='cCR
+next=Icpitembatch.CPVarDecl
+comment='Somma Valori Dispari
+len=3
+name='nV1
+next=Icpitembatch.CPVarDecl
+comment='Somma Valori Pari
+len=3
+name='nV2
+next=Icpitembatch.CPVarDecl
+comment='Valore Carattere ASCII
+len=2
+name='nVal
+next=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+len=2
+name='nVal1
+next=Icpitembatch.CPVarDecl
+len=2
+name='conta
+next=Icpitembatch.CPVarDecl
+len=2
+name='nCR1
+obj='Var
+obj_type='N
+pag=1
+prev=O28
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O27
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O26
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O25
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O24
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O23
+I
+obj='Var
+pag=1
+prev=O22
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O21
+I
+obj='Var
+obj_type='L
+pag=1
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+obj_type='N
+pag=1
+param=True
+prev=O5
+I
+obj='Var
+pag=1
+param=True
+prev=O4
+I
+obj='Var
+pag=1
+param=True
+prev=O3
+I
+obj='Remark
+pag=1
+x=13
+y=19
+I
+Icpitembatch.CPVarDecl
+comment='Valore di Ritorno
+frm_calc='False
+len=1
+name='bRitorno
+next=Icpitembatch.CPVarDecl
+comment='Codice Fiscale o Partita IVA
+frm_calc='Upper(pCODFIS)
+len=16
+name='pCODFIS
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'Len(LRTrim(pCODFIS)) <> 11 and Len(LRTrim(pCODFIS)) <> 16
+]
+h=[
+19
+19
+19
+]
+haselse=True
+obj='If
+pag=1
+prev=O32
+sons=[
+Icpitembatch.CPItemSon
+comment='Dimensione Errata
+instr=Ispitembatch.CPReturn
+father=O33
+fatherSonIndex=0
+frm_calc='bRitorno
+obj='Return
+pag=1
+I
+I
+Icpitembatch.CPItemSon
+collapsed=True
+instr=Icpitembatch.CPCase
+father=O33
+fatherSonIndex=1
+frm_calc=[
+'Len(LRTrim(pCODFIS)) = 11
+'Len(LRTrim(pCODFIS)) = 16
+]
+h=[
+19
+19
+19
+]
+obj='Case
+pag=1
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore carattere di ritorno
+father=O40
+fatherSonIndex=0
+frm_calc='0
+len=3
+name='nCR
+next=Icpitembatch.CPVarDecl
+frm_calc='1
+len=2
+name='conta
+next=Icpitembatch.CPWhile
+frm_calc='conta <= 9
+h=[
+19
+19
+]
+next=Icpitembatch.CPVarDecl
+comment='Carattere da controllare
+frm_calc='Right(LRTrim(Str(100 - nCR,3,0)),1)
+len=1
+name='cCR
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'cCR = Substr(pCODFIS,11,1)
+]
+h=[
+19
+19
+]
+obj='If
+pag=1
+prev=O49
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di Ritorno
+father=O50
+fatherSonIndex=0
+frm_calc='True
+len=1
+name='bRitorno
+obj='Var
+obj_type='L
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+pag=1
+prev=O47
+var_op='asgn
+I
+obj='While
+pag=1
+prev=O46
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore Carattere ASCII
+father=O47
+fatherSonIndex=0
+frm_calc='2 * Val(Substr(pCODFIS,conta + 1,1))
+len=2
+name='nV2
+next=Icpitembatch.CPVarDecl
+comment='Valore Carattere ASCII
+frm_calc='iif(nV2 > 9,nV2 - 9,nV2)
+len=2
+name='nV2
+next=Icpitembatch.CPVarDecl
+comment='Valore carattere di ritorno
+frm_calc='nCR + nV2 + Val(Substr(pCODFIS,conta,1))
+len=3
+name='nCR
+next=Icpitembatch.CPVarDecl
+frm_calc='conta + 2
+len=2
+name='conta
+obj='Var
+obj_type='N
+pag=1
+prev=O61
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O60
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O59
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O45
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore Carattere ASCII
+father=O40
+fatherSonIndex=1
+frm_calc='Asc(Left(pCODFIS,1)) - 65 + 1
+len=2
+name='nVal
+next=Icpitembatch.CPExec
+check='page
+frm_calc='2
+next=Icpitembatch.CPVarDecl
+comment='Valore carattere di ritorno
+frm_calc='nVal1
+len=3
+name='nCR
+next=Icpitembatch.CPVarDecl
+frm_calc='2
+len=2
+name='conta
+next=Icpitembatch.CPWhile
+frm_calc='conta <= 14
+h=[
+19
+19
+]
+next=Icpitembatch.CPVarDecl
+frm_calc='nCR - Int(nCR / 26) * 26 + 65
+len=2
+name='nCR1
+next=Icpitembatch.CPIfElse
+frm_calc=[
+'nCR1 = Asc(Right(pCODFIS,1))
+]
+h=[
+19
+19
+]
+obj='If
+pag=1
+prev=O71
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di Ritorno
+father=O72
+fatherSonIndex=0
+frm_calc='True
+len=1
+name='bRitorno
+obj='Var
+obj_type='L
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O69
+var_op='asgn
+I
+obj='While
+pag=1
+prev=O68
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore Carattere ASCII
+father=O69
+fatherSonIndex=0
+frm_calc='Asc(Substr(pCODFIS,conta,1)) - 65
+len=2
+name='nV2
+next=Icpitembatch.CPVarDecl
+comment='Valore Carattere ASCII
+frm_calc='iif(nV2 < 0,nV2 + 17,nV2)
+len=2
+name='nV2
+next=Icpitembatch.CPVarDecl
+comment='Valore Carattere ASCII
+frm_calc='Asc(Substr(pCODFIS,conta+1,1)) - 65
+len=2
+name='nV1
+next=Icpitembatch.CPVarDecl
+comment='Valore Carattere ASCII
+frm_calc='iif(nV1 < 0,nV1 + 17,nV1) + 1
+len=2
+name='nVal
+next=Icpitembatch.CPExec
+check='page
+frm_calc='2
+next=Icpitembatch.CPVarDecl
+comment='Valore carattere di ritorno
+frm_calc='nCR + nV2 + nVal1
+len=3
+name='nCR
+next=Icpitembatch.CPVarDecl
+frm_calc='conta + 2
+len=2
+name='conta
+obj='Var
+obj_type='N
+pag=1
+prev=O86
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O85
+var_op='asgn
+I
+obj='Exec
+pag=1
+prev=O84
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O83
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O82
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O81
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+]
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O67
+var_op='asgn
+I
+obj='Var
+obj_type='N
+pag=1
+prev=O66
+var_op='asgn
+I
+obj='Exec
+pag=1
+prev=O65
+I
+obj='Var
+obj_type='N
+pag=1
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+150
+]
+I
+I
+]
+w=[
+150
+150
+150
+]
+I
+obj='Var
+pag=1
+param=True
+prev=O31
+var_op='asgn
+I
+obj='Var
+obj_type='L
+pag=1
+var_op='asgn
+x=1099
+y=354
+I
+Icpitembatch.CPRemark
+frm_calc='Controlla valore ascii e ritorna il valore di controllo
+next=Icpitembatch.CPCase
+frm_calc=[
+'nVal = 1
+'nVal = 2
+'nVal = 3
+'nVal = 4
+'nVal = 5
+'nVal = 6
+'nVal = 7
+'nVal = 8
+'nVal = 9
+'nVal = 10
+'nVal = 11
+'nVal = 12
+'nVal = 13
+'nVal = 14
+'nVal = 15
+'nVal = 16
+'nVal = 17
+'nVal = 18
+'nVal = 19
+'nVal = 20
+'nVal = 21
+'nVal = 22
+'nVal = 23
+'nVal = 24
+'nVal = 25
+'nVal = 26
+]
+h=[
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+19
+]
+obj='Case
+pag=2
+prev=O91
+sons=[
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=0
+frm_calc='1
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=1
+frm_calc='0
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=2
+frm_calc='5
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=3
+frm_calc='7
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=4
+frm_calc='9
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=5
+frm_calc='13
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=6
+frm_calc='15
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=7
+frm_calc='17
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=8
+frm_calc='19
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=9
+frm_calc='21
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=10
+frm_calc='2
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=11
+frm_calc='4
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=12
+frm_calc='18
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=13
+frm_calc='20
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=14
+frm_calc='11
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=15
+frm_calc='3
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=16
+frm_calc='6
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=17
+frm_calc='8
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=18
+frm_calc='12
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=19
+frm_calc='14
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=20
+frm_calc='16
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=21
+frm_calc='10
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=22
+frm_calc='22
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=23
+frm_calc='25
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=24
+frm_calc='24
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+Icpitembatch.CPItemSon
+instr=Icpitembatch.CPVarDecl
+comment='Valore di ritorno da controllo
+father=O92
+fatherSonIndex=25
+frm_calc='23
+len=2
+name='nVal1
+obj='Var
+obj_type='N
+pag=2
+var_op='asgn
+I
+I
+]
+w=[
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+150
+]
+I
+obj='Remark
+pag=2
+x=20
+y=21
+I
+]
+ManualBlocks={
+'BO - Header
+Icpmanualblocks.CPManualBlocks
+code='import it.finanze.entrate.aru00.util.legacy.CodiceFiscale;
+name='BO - Header
+I
+}
+comment='Verifica Codice Fiscale - Partita IVA
+date_creat=#2004-01-07
+date_rev=#2018-12-18
+dic_name='plan
+ev_class='SPBatchEvents
+modcnt=53
+page_result_class=[
+'
+'
+]
+page_result_type=[
+'U
+'U
+]
+page_uid=[
+'IBYZVJHXAV
+'HNYQGTMPJO
+]
+pagename=[
+'Page_1
+'Page_2
+]
+pagenote=[
+'
+'
+]
+pagetitle=[
+'Main
+'Controllo Valori
+]
+result_type='L
+runtime_filters=2
+tpl_name='Function
+I
+*--*
+*----*

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<class>
+    <description>Struttura per controlli AUA WU</description>
+    <note></note>
+    <variable>
+        <name>COGNOME</name>
+        <description>Cognome</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NOME</name>
+        <description>Nome</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NASSTATO</name>
+        <description>Stato Nascita</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NASCOMUN</name>
+        <description>Città Nascita</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATANASC</name>
+        <description>Data di Nascita</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>SESSO</name>
+        <description>Sesso</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TIPODOC</name>
+        <description>Tipo Documento</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NUMDOCUM</name>
+        <description>Numero Documento</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATARILASC</name>
+        <description>Dara Rilascio Documento</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>CODFISC</name>
+        <description>Codice Fiscale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NQUERY</name>
+        <description>Query di riferimento</description>
+        <type>C</type>
+    </variable>
+</class>

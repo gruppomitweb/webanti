@@ -1,0 +1,565 @@
+ 2
+"Operazioni"
+"operazbo"
+"operazbo"
+ 0
+ 0
+*
+"Dipendenze"
+"anadip"
+"anadip"
+ 0
+ 0
+*
+ 27
+"Causale Sintetica"
+"operazbo.CODVOC"
+"CODVOC"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Segno"
+"operazbo.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Dipendenza"
+"operazbo.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"anadip.DESCRIZ"
+"DESCRIZ"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Città"
+"anadip.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Totale Operazione"
+"operazbo.TOTLIRE"
+"TOTLIRE"
+"N"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Cliente Occasionale"
+"operazbo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Riferimento operazione WU"
+"operazbo.MTCN"
+"MTCN"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Operazione"
+"operazbo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Beneficiario"
+"operazbo.C_RAG"
+"C_RAG"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato Beneficiario"
+"operazbo.C_STA"
+"C_STA"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Numero Progressivo"
+"operazbo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Connessione Tabella Storico Documenti"
+"operazbo.CONNESDOC"
+"CONNESDOC"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Causale Analitica"
+"operazbo.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"di cui contanti"
+"operazbo.TOTCONT"
+"TOTCONT"
+"N"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Operazione Completa"
+"operazbo.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Denominazione MacroAgente"
+"anadip.MACROAGENTE"
+"MACROAGENTE"
+"C"
+ 5
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato registrazione"
+"operazbo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Rapporto Collegato"
+"operazbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data registrazione"
+"operazbo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Rettifica"
+"operazbo.DATARETT"
+"DATARETT"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Riferimento"
+"operazbo.RIFIMP"
+"RIFIMP"
+"C"
+ 28
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Provincia"
+"anadip.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"CAB"
+"anadip.CAB"
+"CAB"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Indirizzo"
+"anadip.DOMICILIO"
+"DOMICILIO"
+"C"
+ 40
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Riferimento Import"
+"operazbo.INFORM"
+"INFORM"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Dipendenza"
+"anadip.AGACCODE"
+"AGACCODE"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 1
+"Dipendenze(Codice Dipendenza)"
+"anadip.CODDIP=operazbo.CODDIPE"
+"Right outer"
+"anadip"
+"operazbo"
+*
+ 11
+"operazbo.CDATOPE"
+""
+">="
+"?w_cdadata"
+"AND"
+""
+""
+*
+"operazbo.CDATOPE"
+""
+"<="
+"?w_c_adata"
+"AND"
+""
+""
+*
+"operazbo.CODDIPE"
+""
+"="
+"?w_cDIP"
+"AND"
+""
+""
+*
+"operazbo.CONNESCLI"
+""
+"="
+"?w_cCODFISC"
+"AND"
+""
+""
+*
+"anadip.MACROAGENTE"
+""
+"="
+"?w_codmag"
+"AND"
+""
+""
+*
+"operazbo.STATOREG"
+""
+"in"
+"([MACRO(?_mstato)])"
+"AND"
+""
+""
+*
+"operazbo.MTCN"
+""
+"in"
+"qbe_sele_mtcn"
+"AND"
+""
+""
+*
+"anadip.PROVINCIA"
+""
+"in"
+"([MACRO(?_lstprov)])"
+"AND"
+""
+""
+*
+"operazbo.TOTLIRE"
+""
+">="
+"?_importo"
+"AND"
+""
+""
+*
+"(operazbo.C_STA"
+""
+"in"
+"([MACRO(?_lststati)])"
+"OR"
+""
+""
+*
+"operazbo.C_STA"
+""
+"="
+"?_stadest)"
+"AND"
+""
+""
+*
+ 2
+"Data Operazione"
+"DATAOPE"
+"Ascending"
+*
+"Numero Progressivo"
+"NUMPROG"
+"Ascending"
+*
+ 0
+ 0
+ 10
+"w_cdadata"
+"Data Operazione"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+*
+"w_c_adata"
+"Data Operazione"
+"C"
+"8"
+"0"
+"Remove"
+""
+""
+*
+"w_cDIP"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+""
+""
+*
+"w_cCODFISC"
+"Codice Cliente Occasionale"
+"C"
+"16"
+"0"
+"Remove"
+""
+""
+*
+"w_codmag"
+"Denominazione MacroAgente"
+"C"
+"5"
+"0"
+"Remove"
+""
+""
+*
+"_mstato"
+"Stato Operazione"
+"C"
+"15"
+"0"
+"Remove"
+""
+""
+*
+"_lststati"
+"Paesi Destinazione"
+"C"
+"128"
+"0"
+"Remove"
+""
+""
+*
+"_lstprov"
+"Provincia Agenzia"
+"C"
+"128"
+"0"
+"Remove"
+""
+""
+*
+"_importo"
+"Totale Operazione"
+"N"
+"15"
+"0"
+"Remove"
+""
+""
+*
+"_stadest"
+"Stato Destinazione"
+"C"
+"3"
+"0"
+"Remove"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 32
+.f.
+""
+.t.
+.f.
+""
+ 0
+ 0
+""
+""
+"KT%40Y9F*_IT%279B.%5DB7%24%2F%170+%1AJFKBUZH%3DY7%25K%3B9%3A%3E%29XL%5DF3%26%08KJ%3B50-%5CK%25G%21R%21%2B%40%40HT%3C%24%234I2%5E-%5DVK%23*%3CR%5BFN-%3A%215L%1BDU%3E%27_UW6%26%3C*%26%2F%3DU%3DG%5EK%40%1E%28-2%28TV+54%3BMD%22%5C0W+%40LC%5BIML%289%2F%5DEWZ%3E-0CRA%3E%3E%3A%21+%02-7HGR%2F%258IA-%3DB16*%26%2B%296N%3EJD%23P%24ZM11%3F+92%1E%26A+*%5CCa+%26%3C-%223%22%25N5TE52%26%29P%3Ai9%3F+%5E0A%3BZEt%5EH.7%065M69%3C%5C%3DGKWZ%3D%3DLPUMY%25*%3DS3%3EH%00"
+"QX4LRVUT%5C%3D%24%14%11%28-Di44%21W4%282%2BXBV8PJ%3FE%2F4%2CG%28%2CKB%23m%25C+9%23%5BK%2F%270P%25%28%40IVY%40Tq%3B%29K*%1B%21%129%26EWUC%3E%17M%29UO_%26W8%28J.O%294BV3-%3B2G0%3E%3A3*%22%28%3EZ%3E4%261VZKW%27Z%24RO%3D%3FKWB%5BOTR%5C8%1E%18%02%2C%2B7K5Gm%3DI7SDhM%1B0%3E2+%1B*q%3FV%5D7M1%2F%27B%23%01%21%2FTWYZn9.%26Q%2BFS%19%5D27F%40-%27cAL2QE%29%28%40%2F%223%23%25YGC4%28%15%40%2B%27A8%18%29I7%3EL%27%23Y-%29%40MS%3A%40+EVN%5D_GiD8A4%25%3E%252i%3D%25%3FZ%2C.C%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+*

@@ -1,0 +1,1075 @@
+﻿* --- Resource Vers. 0.9
+kersonbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Storico Documenti Anagrafica Persone/Clienti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='kersonbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'kersonbo.connes
+'kersonbo.codcab
+'kersonbo.ragsoc
+'kersonbo.domicilio
+'kersonbo.codfisc
+'kersonbo.datanasc
+'kersonbo.nascomun
+'kersonbo.sotgrup
+'kersonbo.ramogrup
+'kersonbo.settsint
+'kersonbo.tipodoc
+'kersonbo.numdocum
+'kersonbo.datarilasc
+'kersonbo.autrilasc
+'kersonbo.desccit
+'kersonbo.provincia
+'kersonbo.paese
+'kersonbo.cap
+'kersonbo.codinter
+'kersonbo.tipinter
+'kersonbo.tipopers
+'kersonbo.coddipe
+'kersonbo.partiva
+'kersonbo.note
+'kersonbo.sesso
+'kersonbo.sospmaf
+'kersonbo.idcitta
+'kersonbo.datavali
+'kersonbo.nasstato
+'kersonbo.docfile
+'kersonbo.nome
+'kersonbo.cognome
+'kersonbo.cfestero
+'kersonbo.oldconnes
+'kersonbo.datextra
+'kersonbo.pktbspecie
+'kersonbo.comport
+'kersonbo.attiv
+'kersonbo.rnatgiu
+'kersonbo.rattiv
+'kersonbo.rcomp
+'kersonbo.rarea
+'kersonbo.allineato
+'kersonbo.allineatonomecnome
+'kersonbo.ragsocold
+'kersonbo.progimport
+'kersonbo.progimp_c
+'kersonbo.areageo
+'kersonbo.datamodi
+'kersonbo.pep
+'kersonbo.idfile
+'kersonbo.oldcodfisc
+'kersonbo.datultope
+'kersonbo.flgcfvalido
+'kersonbo.flgcgformat
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'kersonbo.allineato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='anagrafica allineata completa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ALLINEATO
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.allineatonomecnome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome e cognome divisi correttamente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ALLINEATONOMECNOME
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Area Geografica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AREAGEO
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.attiv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ATTIV
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.autrilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Autorità di rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AUTRILASC
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAP
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.cfestero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Estero
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFESTERO
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODFISC
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.cognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cognome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COGNOME
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.comport
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COMPORT
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNES
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.datamodi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Modifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='datamodi
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.datanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATANASC
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.datarilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rilascio Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATARILASC
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.datavali
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAVALI
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.datextra
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATEXTRA
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.datultope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Ultima Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATULTOPE
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.docfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOCFILE
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOMICILIO
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.flgcfvalido
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Validato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGCFVALIDO
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.flgcgformat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Formalmente Valido
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGCGFORMAT
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.idcitta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='idcitta
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.idfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Identificativo File
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDFILE
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.nascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Luogo di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASCOMUN
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.nasstato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASSTATO
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.nome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOME
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.note
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Note
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOTE
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.numdocum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMDOCUM
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.oldcodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Presente nel file
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDCODFISC
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.oldconnes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDCONNES
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESE
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.partiva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Partita IVA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PARTIVA
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.pep
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Persona Esposta Politicamente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PEP
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.pktbspecie
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PKTBSPECIE
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.progimp_c
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Import (Stringa)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGIMP_C
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.progimport
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo d'importazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGIMPORT
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGSOC
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.ragsocold
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Vecchia Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGSOCOLD
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.ramogrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ramo Gruppo Att. Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAMOGRUP
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.rarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAREA
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.rattiv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RATTIV
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.rcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RCOMP
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.rnatgiu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RNATGIU
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.sesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SESSO
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.settsint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Settorizzazione UIC
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SETTSINT
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.sospmaf
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOSPMAF
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.sotgrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sottogruppo Att. Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOTGRUP
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.tipinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPINTER
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.tipodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPODOC
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+'kersonbo.tipopers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOPERS
+state=3
+table_name='kersonbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'kersonbo.allineato
+[]
+'kersonbo.allineatonomecnome
+[]
+'kersonbo.areageo
+[]
+'kersonbo.attiv
+[]
+'kersonbo.autrilasc
+[]
+'kersonbo.cap
+[]
+'kersonbo.cfestero
+[]
+'kersonbo.codcab
+[]
+'kersonbo.coddipe
+[]
+'kersonbo.codfisc
+[]
+'kersonbo.codinter
+[]
+'kersonbo.cognome
+[]
+'kersonbo.comport
+[]
+'kersonbo.connes
+[]
+'kersonbo.datamodi
+[]
+'kersonbo.datanasc
+[]
+'kersonbo.datarilasc
+[]
+'kersonbo.datavali
+[]
+'kersonbo.datextra
+[]
+'kersonbo.datultope
+[]
+'kersonbo.desccit
+[]
+'kersonbo.docfile
+[]
+'kersonbo.domicilio
+[]
+'kersonbo.flgcfvalido
+[]
+'kersonbo.flgcgformat
+[]
+'kersonbo.idcitta
+[]
+'kersonbo.idfile
+[]
+'kersonbo.nascomun
+[]
+'kersonbo.nasstato
+[]
+'kersonbo.nome
+[]
+'kersonbo.note
+[]
+'kersonbo.numdocum
+[]
+'kersonbo.oldcodfisc
+[]
+'kersonbo.oldconnes
+[]
+'kersonbo.paese
+[]
+'kersonbo.partiva
+[]
+'kersonbo.pep
+[]
+'kersonbo.pktbspecie
+[]
+'kersonbo.progimp_c
+[]
+'kersonbo.progimport
+[]
+'kersonbo.provincia
+[]
+'kersonbo.ragsoc
+[]
+'kersonbo.ragsocold
+[]
+'kersonbo.ramogrup
+[]
+'kersonbo.rarea
+[]
+'kersonbo.rattiv
+[]
+'kersonbo.rcomp
+[]
+'kersonbo.rnatgiu
+[]
+'kersonbo.sesso
+[]
+'kersonbo.settsint
+[]
+'kersonbo.sospmaf
+[]
+'kersonbo.sotgrup
+[]
+'kersonbo.tipinter
+[]
+'kersonbo.tipodoc
+[]
+'kersonbo.tipopers
+[]
+}
+*--*

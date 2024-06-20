@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="183418493">
+  <CodifyName>arpg_scaricodati</CodifyName>
+  <Name>arpg_scaricodati.pagedef</Name>
+  <Title>Estrazione Rapporti per Agenzia Entrate</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="124971038"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_scaricodati_usr_1</JPG>
+    <Item type="variabile" x1="504" y1="21" x2="752" y2="42">
+      <Name LinkID="174963086">iniz</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="504" y1="63" x2="728" y2="84">
+      <Name LinkID="175710702">seco</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="272" y1="140" x2="338" y2="160">
+      <Name LinkID="38213342">dadata</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="448" y1="140" x2="514" y2="160">
+      <Name LinkID="38213902">a_data</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="704" y1="273" x2="744" y2="301">
+      <Name LinkID="183418398">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="16" y1="168" x2="226" y2="196">
+      <Name LinkID="34734782">Crea Comunicazione Aperture Rapporti</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="544" y1="168" x2="754" y2="196">
+      <Name LinkID="244318911">Crea Comunicazione Chiusure Rapporti</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="544" y1="238" x2="754" y2="266">
+      <Name LinkID="206363591">Crea Modifiche / Annullamento Rapporti</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="280" y1="168" x2="490" y2="196">
+      <Name LinkID="144312098">Crea Comunicazione Negativa</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="72" y1="238" x2="150" y2="258">
+      <Name LinkID="12437794">darett</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="248" y1="238" x2="326" y2="258">
+      <Name LinkID="12437234">a_rett</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="656" y1="273" x2="696" y2="301">
+      <Name LinkID="183418398">images/search.gif</Name>
+      <Image>images/search.gif</Image>
+      <Hyperlink>arpg_filesage</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Visualizza file creati</Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

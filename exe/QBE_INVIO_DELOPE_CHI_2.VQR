@@ -1,0 +1,203 @@
+ 1
+"Deleghe"
+"aederig"
+"aederig"
+ 0
+ 0
+*
+ 14
+"Codice Rapporto"
+"aederig.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Codice Delegato"
+"aederig.CONNESINT"
+"CONNESINT"
+"C"
+ 16
+ 0
+*
+"Spedito Agenzia Entrate"
+"aederig.ASPEDITO"
+"ASPEDITO"
+"N"
+ 1
+ 0
+*
+"data Inizio"
+"aederig.ADATA"
+"ADATA"
+"D"
+ 8
+ 0
+*
+"Progressivo"
+"aederig.APROG"
+"APROG"
+"C"
+ 25
+ 0
+*
+"Nome File Spedizione"
+"aederig.AFILE"
+"AFILE"
+"C"
+ 15
+ 0
+*
+"Spedizione Chiusura"
+"aederig.CSPEDITO"
+"CSPEDITO"
+"N"
+ 1
+ 0
+*
+"Data Chiusura"
+"aederig.CDATA"
+"CDATA"
+"D"
+ 8
+ 0
+*
+"Progressivo Atuale"
+"aederig.CPROG"
+"CPROG"
+"C"
+ 25
+ 0
+*
+"Nome file spedizione chiusura"
+"aederig.CFILE"
+"CFILE"
+"C"
+ 15
+ 0
+*
+"Tipo Agenzia Entrate"
+"aederig.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"Tipo Rapporto"
+"aederig.COINT"
+"COINT"
+"C"
+ 1
+ 0
+*
+""
+"aederig.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+""
+"aederig.OLDINTER"
+"OLDINTER"
+"C"
+ 16
+ 0
+*
+ 0
+ 7
+"[NOTEMPTYSTR(aederig.CONNESINT)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(aederig.ADATA)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(aederig.CDATARET)]"
+""
+"="
+"0"
+"AND"
+""
+*
+"aederig.CDATA"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"aederig.CDATA"
+""
+"<="
+"?w_a_data"
+"AND"
+""
+*
+"aederig.ASPEDITO"
+""
+"="
+"1"
+"AND"
+""
+*
+"aederig.CSPEDITO"
+""
+"<>"
+"1"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_dadata"
+"data Inizio"
+"D"
+"8"
+"0"
+""
+*
+"w_a_data"
+"data Inizio"
+"D"
+"8"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 12
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%29%271VR%3EE%5E%25L-7I*%2427%29%5CK%3A673pcU%40oqc%3D.E%3A-E.%3Fw%5Cy%5E7FO%08%7EA8%3C%24E%24I%2F%3A%22RN%406PN9%29A1_%13%24%27%27YYDLLIRY%40CN%044%2FL%3F%2FYHVW%3D%21J+G%2C*%21OY%06U5%5BJE6%28SZCP%2C%2F.%03%3D%19%3B%5C%40FLV%27O%3A%24+%28.CX%07%2FFRH9L%257%22B%3F%3B%5C%3BXD10%5DatMA*%406%23%284%03%2B%3E3%40%5D+BB%27BRS1%5D-%079%21+%2F8A9%27N4%29F_98%28%223-%25%5BU%5B%3E%3BAK%2C%2FY%5C%29_%2820B%24F%60SPJ%5EI0-%3B%3C6K%5C4FR%5EG%228%3C%2FDZ71%5C%3E%3F%3AFE%00"
+"BRI+%5DAwI%2CV%22A%3A5R54E16X%13K%1F%5B%60YRT%2B_%3A68%29.%28%22%5BMUVSM%25D%27%28Y4%1A%251X%13%3E%3B%2F%3CGC%3A%24R%3B%15%2C%19%009%06%3B%252K2C%2FC%23%24%3EL1%26+%00EI%3B%26K%21-%3DYI7%14%255R%26%3F%29TAW4C%3CISILO%2B%3E8%5B0%2B%3F.c%26%24%40SBU98%24%23%2C-%25tYQF%1F%24%3C2%23%3CT%3B%3BM%01%3C.KSbR.JKT%5C%26B%25*L.%06Y%5CY%3DMAH%0B%7CjP03%29%2F802K1VJ%3DOH%06%3A0+%223%2B%25CTQ9%1EL0%3FCUS8SGT+%3F%28FaD%21mWV%2F%14%3B%1B%242U3%28_%2FG%3C1%29RJ%40D%2C5%23RC%22%23%00"
+""
+""
+"native"
+ 0
+ 0
+*

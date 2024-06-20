@@ -1,0 +1,121 @@
+ 2
+"Stampa Soggetti Collegati a operazioni"
+"tmp_soggettioper"
+"tmp_soggettioper"
+ 0
+ 0
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 0
+ 0
+*
+ 7
+"Tipo Informazione"
+"[CASE(tmp_soggettioper.TIPOINF,ýOý,ýOperazioneý,ýFý,ýFrazionataý,ýIý,ýInformazioneý,ýLý,ýLegameý,ýIndefinitaý)]"
+"TIPOINF"
+"C"
+ 15
+ 0
+*
+"Numero Progressivo"
+"tmp_soggettioper.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Rapporto"
+"tmp_soggettioper.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Data Operazione"
+"tmp_soggettioper.DATANASC"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Tipo Operazione"
+"tmp_soggettioper.TIPOINTER"
+"TIPOINTER"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DES1"
+"C"
+ 90
+ 0
+*
+"Ruolo"
+"tmp_soggettioper.TIPOPERS"
+"TIPOPERS"
+"C"
+ 1
+ 0
+*
+ 1
+"Tipo Registrazione"
+"tbtipreg.CODICE=tmp_soggettioper.TIPOINTER"
+"Right outer"
+"tbtipreg"
+"tmp_soggettioper"
+*
+ 0
+ 1
+"Data Operazione"
+"DATAOPE"
+"Ascending"
+*
+ 0
+ 0
+ 2
+"w_CodCli"
+"Codice Collegamento"
+"C"
+"16"
+"0"
+""
+*
+"w_RagSoc"
+"Ragione Sociale"
+"C"
+"70"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 3
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"Q%2C0Zh%60%7Edr%7D%0A%04%10%1Fpz8.26%2B7%1AK%29%3C%2Fv%5B%26J%5C%16B127Y%5DZ%3CT1.+%11%3F+%3D2%3C6+%3C%3F+%22BZOA%3D%2FBU%3C%25FU%3D%5C4EETZ%3F6CX%5BL%3CO%5E6*.%1A9EBU%5Bl%2FG%07%3D2FZ9ST.QDM%3C56V%26%3CK9%06%29XL12%5Da%22%5C%5C_%60.9B%405%3D%5E%05T%5E%24I%1F%3C%2F3%5E_Q%3DU*%29GG%28LL%5D%21%5CrD%5C%23F%3A%3D%3C%25%2CA%5BWN%27%26%40%29.LZ-%26%26749CQ%5DT%27Cs50%2B%25*-3%21%25EWBCAC%23XUh7-2%28*8D%1FVHEXKQ2%28%3AI6%2C7%22%2FV1U7%3B2OPT5G%21V2*J*%1C%00"
+"G%2FWX%5ESRkx%40792%06v%7C%7E%1F%05%17%0D%06%135N4u.mG5%05CB+%22%2BT0ZN%23%3E08DWWj_.%3BO8096s5W+FD%5EPO%4095%12%04X*VM%3D%3A%3E%3ES%7DY6OU+%28CK%27%5C6N-3H%40%5B%3C*K%3F%28Z%3DFG%276C%17F%3EM18O0NSL6%21%24HHVHFM%25G%3FF%26%3C%073X%3ARN%24G%3D%3CFQ3D%21%27%5B%40O%3E-%3FQ%21P%21TW%3F%23+T%264%26.%5EB3O%26IQH%409JQ%16%3BI*8%25XG%26H.R%25.%22%2F%283%2B%25%2C%5EDCL-4%28%409Q2Q%26%5EE%2F%3B%25P%5E%26_Da%22%40K42%3A%223IO*4GLD%2C%23Ii15%3F37%23%3C%00"
+""
+""
+"native"
+ 0
+ 0
+*

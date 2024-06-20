@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="182903358">
+  <CodifyName>arpg_scaricodati_new</CodifyName>
+  <Name>arpg_scaricodati_new.pagedef</Name>
+  <Title>Estrazione Rapporti per Agenzia Entrate</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="192422199"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_scaricodati_new_usr_1</JPG>
+    <Item type="variabile" x1="56" y1="77" x2="92" y2="97">
+      <Name LinkID="108519887">anno</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="136" y1="77" x2="248" y2="97">
+      <Name LinkID="21503527">mese</Name>
+      <Comment></Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="480" y1="70" x2="744" y2="98">
+      <Name LinkID="101336309">Crea Comunicazione Aperture / Chiusure Rapporti</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="72" y1="154" x2="138" y2="174">
+      <Name LinkID="213424487">darett</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="248" y1="154" x2="314" y2="174">
+      <Name LinkID="176724327">a_rett</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="480" y1="152" x2="744" y2="180">
+      <Name LinkID="259241178">Crea Modifiche / Annullamento Rapporti</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="312" y1="63" x2="378" y2="83">
+      <Name LinkID="213419619">dadata</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="312" y1="91" x2="378" y2="111">
+      <Name LinkID="176719459">a_data</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="688" y1="203" x2="728" y2="231">
+      <Name LinkID="176677438">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="640" y1="203" x2="680" y2="231">
+      <Name LinkID="176677438">images/search.gif</Name>
+      <Image>images/search.gif</Image>
+      <Hyperlink>arpg_filesage</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Visualizza file creati</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="176" y1="266" x2="304" y2="286">
+      <Name LinkID="263019632">CFINVIO</Name>
+      <Comment>Codice Fiscale Organo Invio File</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="616" y1="266" x2="664" y2="286">
+      <Name LinkID="184289515">CAFINVIO</Name>
+      <Comment>Codice CAF Organo Invio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="176" y1="294" x2="440" y2="314">
+      <Name LinkID="132722537">FILEINVIO</Name>
+      <Comment>Tipo Preparazione FIle</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="616" y1="294" x2="696" y2="314">
+      <Name LinkID="267833491">DATAINVIO</Name>
+      <Comment>Data Impegno Organo Invio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="592" y1="203" x2="632" y2="231">
+      <Name LinkID="176677438">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>Report</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Stampa contenuto dei file creati</Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

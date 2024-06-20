@@ -1,0 +1,66 @@
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+
+.alarm_active {
+  opacity:0.8;
+  color:#FFFFFF;
+  padding: 2px;
+  font-family:'Roboto', sans-serif;
+  font-size: 13px;
+}
+.alarm_active.selected {
+  opacity:1;
+}
+.alarm_unactive {
+  opacity:0.8;
+  color:#FFFFFF;
+  padding: 2px;
+  font-family:'Roboto', sans-serif;
+  font-size: 13px;
+}
+.alarm_unactive.selected{
+  opacity:1;
+}
+
+.alarm_count {
+  font-size:23px;
+  text-align:right;
+  margin-right:3%;
+  margin-top: 8%;
+}
+.alarm_text {
+  text-align:left;
+  margin-right:3%;
+  margin-top: 1%;
+}
+.alarm_select {
+  display: none; 
+  position:absolute;
+  
+  font-family: icons8_win10;
+  font-size: 20px;
+  margin-left: 5%;
+  bottom:5px;
+}
+.alarm_select::after{
+  content: "\EF8B";
+}
+
+.alarm_alert {
+  background-color:#E51400;
+}
+.alarm_warning {
+  background-color:#F0A30A;
+}
+.alarm_info {
+  background-color:#60A917;
+}
+
+.alarm_active.selected .alarm_select, .alarm_unactive.selected .alarm_select { 
+  display:block;
+}
+

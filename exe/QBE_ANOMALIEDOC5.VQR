@@ -1,0 +1,310 @@
+ 2
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+"Tipo Documento"
+"tbtipdoc"
+"tbtipdoc"
+ 0
+ 0
+*
+ 13
+"Codice Collegamento"
+"personbo.CONNES"
+"CONNES"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Indirizzo"
+"personbo.DOMICILIO"
+"DOMICILIO"
+"C"
+ 35
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Città"
+"personbo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Provincia"
+"personbo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"CAP"
+"personbo.CAP"
+"CAP"
+"C"
+ 9
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Numero Doc."
+"personbo.NUMDOCUM"
+"NUMDOCUM"
+"C"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Rilascio Doc."
+"personbo.DATARILASC"
+"DATARILASC"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Autorità di rilascio"
+"personbo.AUTRILASC"
+"AUTRILASC"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Documento"
+"personbo.TIPODOC"
+"TIPODOC"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbtipdoc.DESCRI"
+"DESCRI_DOC"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data fine validità"
+"personbo.DATAVALI"
+"DATAVALI"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 1
+"Collegamento alla descrizione del documento"
+"personbo.TIPODOC=tbtipdoc.TIPDOC"
+"Left outer"
+"personbo"
+"tbtipdoc"
+*
+ 9
+"(([NOTEMPTYDATE(personbo.DATAVALI)]"
+""
+"<>"
+"0"
+"AND"
+""
+""
+*
+"ýSý"
+""
+"="
+"?w_docsca"
+"AND"
+""
+""
+*
+"personbo.DATAVALI"
+""
+"<"
+"?w_DaData)"
+"OR"
+""
+""
+*
+"([NOTEMPTYDATE(personbo.DATAVALI)]"
+""
+"="
+"0"
+"AND"
+""
+""
+*
+"ýSý"
+""
+"="
+"?w_docsca))"
+"AND"
+""
+""
+*
+"[UPPER(personbo.SESSO)]"
+""
+"in"
+"(ý1ý,ý2ý,ýMý,ýFý)"
+"AND"
+""
+""
+*
+"(?ChkEst"
+""
+"="
+"1"
+"OR"
+""
+""
+*
+"(?ChkEst"
+""
+"<>"
+"1"
+"AND"
+""
+""
+*
+"personbo.CONNES"
+""
+"in"
+"qbe_tabella_connes))"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 0
+ 3
+"w_docsca"
+"Tipo Documento"
+"C"
+"1"
+"0"
+""
+""
+""
+*
+"w_DaData"
+"Filtro situazione alla data"
+"D"
+"8"
+"0"
+""
+""
+""
+*
+"ChkEst"
+"Filtro soggetti attivi"
+"N"
+"1"
+"0"
+""
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 25
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"RKMQJ3%21%40L%3C%3EG+Q%224S%28%3BOP0%21M.HU%21X+%3D-%23N%23%3B4UQ%24%5BTG...%0AR%3E%3BCSK%5B%2B%197%25aI%5DITI%23%3B1BX%3A%5DV%5C%5C%22V%28%17%3E%5DOk%3A*%3C%3C2%26%24%21BIY%29%3BUJ4%3A%29CS%27R_%26JLI*K%2FY%29%5C%5B1Z%153%29%3AHRWHTM*413%26-%5E%248ZBP%7BM%239%29_%7DI%5C%2BS+%25.%2F%3FTB%2CFA-cV3LE4%3D%3BR%292D1%27ED%5D%5C9Y1%05%27.%10CAJ%3CP_Ip58*0+%223%22%26%26NRZJHNVTWh.Y5Z%120%3FPZWZEDNY1C%26%22I-X%29MP%3C%22N%272H954T%3E%3E%2402%00"
+"M%252*IFY1T%5C%21G%12%09%2C%5CIC_.0%12%3E%1EIcL%24F-_%279AK%22%27P%29%26W%5DJGCN7FWV%2B%04J%5EI8JYBIPR%5DPSBD%3B1O%3A6%5E%5EO2D%2B%40RL%3B8%3E%25F%01%25KEO6wY9*V%21%27%3DBWD%214%21%5DSEMG%23%3DWI%3E%3DT++2%26JU6%28%2CS%228X8290G5Z%28X%21nBB%2C%23EKBG2I1N%3E%1EF0NBR%40G5%3C%40F%5BG+%3E%25%5BU%3E6%3C-7ZHjL%3D%40%3E%28%2BK%2FHQB%3D%21K%29AF%40%223+%26%215%2FLB.%11WH2%3DG%3DEY%11B%25I%5B%27RALV%26-B%1A%24%2F%261S%5B%233%2FI%25%3D%25V%3FI8%3D%28+%40N%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+*

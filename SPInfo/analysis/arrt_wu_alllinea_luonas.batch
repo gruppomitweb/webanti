@@ -1,0 +1,46 @@
+﻿* --- Resource Vers. 0.9
+arrt_wu_alllinea_luonas
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Allinea Luoghi di Nascita (WU)
+file_modified_on=#2024-04-22 10:16:46
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:31
+module_name='
+name='arrt_wu_alllinea_luonas
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'dersonbo.nasstato
+'dersonbo.tipinter
+'dersonbo.nascomun
+]
+'Libraries
+[
+'Utilities<painter>
+'FileLibMit<project>
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_wu_alllinea_luonas
+]
+'Tables
+[
+'dersonbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

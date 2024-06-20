@@ -1,0 +1,46 @@
+body{
+	margin:0;
+	padding:0;
+	background:#ffffff;
+	font-family: Open Sans Light,lucida grande,tahoma,verdana,arial,sans-serif;
+	font-size: 13px;
+}
+
+.unselectable {
+	-o-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#confirmTitle{
+	height: 35px;
+	background-color: #555555;
+	color: #FFFFFF;
+	font-size: 20px;
+	line-height: 35px;
+	padding-left: 10px;
+}
+
+#confirmBody{
+	height: 120px;
+}
+
+#confirmButtons{
+	float: right;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.message{
+	padding: 5%;
+	font-size: 16px;
+}
+
+.btn{
+	width: 80px;
+	height: 25px;
+	cursor: pointer;
+}

@@ -1,0 +1,68 @@
+﻿* --- Resource Vers. 0.9
+arpg_estrai_xls
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:30
+description='Estrazione Movimenti (Operazioni-Frazionate)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={}
+modified_on=#2024-05-10 18:25:01
+module_name='
+name='arpg_estrai_xls
+state=1
+type='page
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.ragsoc
+'tbcitta.citta
+'tbstati.descri
+'tbmacage.macodice
+'tbmacage.madescri
+'anadip.coddip
+'anadip.descriz
+]
+'Hyperlinks
+[
+'arrt_start_estrai_xls
+'jsp\start_page_logo_portlet.jsp
+]
+'Others
+[
+'jsp\showmsg_portlet.jsp
+]
+'Routines
+[
+'azzera_messaggi
+]
+'Tables
+[
+'personbo<table>
+'anadip<table>
+'tbcitta<table>
+'tbstati<table>
+'tbmacage<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_estrai_xls|Error|core::document|Update dependencies|Resource "sp_huploadfile" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "sp_huploadfile" not found.
+resource_key='arpg_estrai_xls
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

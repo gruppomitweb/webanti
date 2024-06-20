@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Relazioni Soggetto -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_sog_relazioni||version||4.6||title||Stampa Relazioni Soggetto||query||qbe_sog_relazioni||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||true||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2017-06-13||date_rev||2017-06-13||form_class|| ||grid_dx|| ||grid_dy|| ||grid_show||0||grid_use||0||snaplines_show||0||language|| ||merge||false||modcnt||11||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding||ISO-8859-1||hsl||false||lock_items||false||maxcount||30||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||75||uid||UPMOYTVAHY||sequence||2||bb_sequence||3||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||127||uid||CGAHXRMHGI||sequence||3||bb_sequence||4||page||1|||type||Group_top||comment||group3||exp||1=1||name||group1||y||101||uid||SZYMHAUPHC||sequence||6||bb_sequence||7||page||1||start_each_on_page||true||reprint_header||true|||type||Group_down||comment||group3||exp||1=1||name||group1||y||125||uid||LPMURAUIAG||sequence||7||bb_sequence||8||page||1||reprint_header||true|||type||Label||value||Stampa Relazioni Soggetto||text_type||constant||name||label0||uid||DUAAYIVPQQ||page||1||x||16||y||7||w||1073||h||32||sequence||22||align||center||global_font||false||font||Arial||font_size||16||font_weight||bold|||type||Label||value||&#39;SOGGETTO: &#39;+ w_CodCli + &quot; - &quot; + w_RagSoc||text_type||expression||name||label27||uid||SQYRCEFYRV||page||1||x||18||y||48||w||1071||h||17||sequence||27||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Data Operazione||text_type||constant||name||label9||uid||EHLLCRFAPC||page||1||x||589||y||79||w||95||h||19||sequence||11||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Descrizione||text_type||constant||name||label11||uid||RIRONXKAPM||page||1||x||696||y||79||w||126||h||19||sequence||13||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||N. Progressivo||text_type||constant||name||label7||uid||FONJHIGXZL||page||1||x||149||y||79||w||88||h||19||sequence||9||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Tipo Informazione||text_type||constant||name||label6||uid||GXKWTNWUVS||page||1||x||16||y||79||w||118||h||19||sequence||8||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Rapporto||text_type||constant||name||label8||uid||MJKOWFZOPO||page||1||x||250||y||79||w||126||h||19||sequence||10||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Ruolo||text_type||constant||name||label9_30||uid||NHYYNEDOXP||page||1||x||441||y||79||w||95||h||19||sequence||11||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box12||x||16||y||99||w||1074||h||0||uid||MOOJXXSIGX||sequence||14||page||1||border_width||1||stretch_to_right||true|||type||Expr||exp||arfn_fdate(qbe_sog_relazioni.c_DATAOPE)||dec||0||name||expr16||uid||GFQJQVZJLR||output_name||DataOperazione||page||1||x||589||y||104||w||95||h||18||sequence||19|||type||Expr||exp||qbe_sog_relazioni.c_TIPOINTER+&quot;-&quot;+qbe_sog_relazioni.c_DES1||len||90||dec||0||name||expr18||uid||AJFDUEYTAR||output_name||Descrizione||page||1||x||696||y||104||w||393||h||18||sequence||21|||type||Expr||exp||qbe_sog_relazioni.c_TIPOINF||len||15||dec||0||name||expr13||uid||EKKDDLJUWA||output_name||TipoInformazione||page||1||x||16||y||104||w||120||h||18||sequence||16|||type||Expr||exp||qbe_sog_relazioni.c_NUMPROG||len||11||dec||0||name||expr14||uid||FJGNJSJXAM||output_name||NumeroProgressivo||page||1||x||149||y||104||w||88||h||18||sequence||17|||type||Expr||exp||qbe_sog_relazioni.c_RAPPORTO||len||25||dec||0||name||expr15||uid||WIQQEUICOS||output_name||Rapporto||page||1||x||250||y||104||w||180||h||18||sequence||18|||type||Expr||exp||arfn_descruolo(qbe_sog_relazioni.c_TIPOPERS)||len||15||dec||0||name||expr13_29||uid||KDAZSDJEUI||output_name||Ruolo||page||1||x||439||y||104||w||140||h||18||sequence||16|||type||Box||name||Box12_27||x||16||y||129||w||1074||h||0||uid||PORKXEEFTF||sequence||14||page||1||border_width||1||stretch_to_right||true|||type||Label||value||&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;||text_type||expression||name||label4||uid||DDMZIRLIHN||page||1||x||753||y||132||w||225||h||17||sequence||26||align||right||global_font||false||font||Arial||font_size||8||font_weight||normal||removefromout||CSV,CSVS,XLS|||type||Label||value||Str(nTotalPages, 4, 0)||text_type||expression||name||label5||uid||FADMRYSKMB||page||1||x||984||y||132||w||103||h||17||sequence||27||global_font||false||font||Arial||font_size||8||font_weight||normal||removefromout||CSV,CSVS,XLS|||type||Label||value||Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)||text_type||expression||name||label3||uid||QTBCLNNGON||page||1||x||16||y||132||w||341||h||17||sequence||25||global_font||false||font||Arial||font_size||8||font_weight||normal||removefromout||CSV,CSVS,XLS||| -->
+
+<REPORT NAME="arrp_sog_relazioni" TITLE="Stampa Relazioni Soggetto" QUERY="qbe_sog_relazioni" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="true" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_sog_relazioni.TIPOINF" TYPE="C" LEN="15" DEC="0" />
+    <FIELD NAME="qbe_sog_relazioni.NUMPROG" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_sog_relazioni.RAPPORTO" TYPE="C" LEN="25" DEC="0" />
+    <FIELD NAME="qbe_sog_relazioni.DATAOPE" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_sog_relazioni.TIPOINTER" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_sog_relazioni.DES1" TYPE="C" LEN="90" DEC="0" />
+    <FIELD NAME="qbe_sog_relazioni.TIPOPERS" TYPE="C" LEN="1" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="75" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="Stampa Relazioni Soggetto" EXPRTYPE="constant"
+                    Y="7" X="16" YY="39" XX="1089"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="16"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;SOGGETTO: &#39;+ w_CodCli + &quot; - &quot; + w_RagSoc" EXPRTYPE="expression"
+                    Y="48" X="18" YY="65" XX="1089"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="25" FOOTH="1" SYMNAME="" UID="SZYMHAUPHC" TOP="100" BOTTOM="123" EXPRESSION="1=1" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="true" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+              <ITEM OBJ="stringa" NAME="Tipo Informazione" EXPRTYPE="constant"
+                    Y="3" X="16" YY="22" XX="134"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="N. Progressivo" EXPRTYPE="constant"
+                    Y="3" X="149" YY="22" XX="237"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Rapporto" EXPRTYPE="constant"
+                    Y="3" X="250" YY="22" XX="376"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Operazione" EXPRTYPE="constant"
+                    Y="3" X="589" YY="22" XX="684"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Ruolo" EXPRTYPE="constant"
+                    Y="3" X="441" YY="22" XX="536"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Descrizione" EXPRTYPE="constant"
+                    Y="3" X="696" YY="22" XX="822"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="23" X="16" XX="1091" BORDERWIDTH="1"
+                    ALIGN="L"
+                    STRETCH="true"
+                    />
+          <SECTION TYPE="group" HEADH="23" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="espressione" NAME="qbe_sog_relazioni.c_TIPOINF" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="16" YY="20" XX="136"
+                            SYMNAME="TipoInformazione"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="15"
+                            />
+                      <ITEM OBJ="espressione" NAME="arfn_descruolo(qbe_sog_relazioni.c_TIPOPERS)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="439" YY="20" XX="579"
+                            SYMNAME="Ruolo"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="15"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_sog_relazioni.c_NUMPROG" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="149" YY="20" XX="237"
+                            SYMNAME="NumeroProgressivo"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="11"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_sog_relazioni.c_RAPPORTO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="250" YY="20" XX="430"
+                            SYMNAME="Rapporto"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="25"
+                            />
+                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_sog_relazioni.c_DATAOPE)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="589" YY="20" XX="684"
+                            SYMNAME="DataOperazione"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_sog_relazioni.c_TIPOINTER+&quot;-&quot;+qbe_sog_relazioni.c_DES1" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="2" X="696" YY="20" XX="1089"
+                            SYMNAME="Descrizione"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="90"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="124" H="22" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="16" XX="1091" BORDERWIDTH="1"
+                    ALIGN="L"
+                    STRETCH="true"
+                    />
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="4" X="16" YY="21" XX="357"
+                    ALIGN="L"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="4" X="753" YY="21" XX="978"
+                    ALIGN="R"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="4" X="984" YY="21" XX="1087"
+                    ALIGN="L"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

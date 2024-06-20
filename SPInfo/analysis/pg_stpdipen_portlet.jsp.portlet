@@ -1,0 +1,56 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_stpdipen_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:19
+description='Stampa Dipendenze/Agenzie
+file_modified_on=#2024-05-10 18:19:37
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:45
+module_name='
+name='pg_stpdipen_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Fields
+[
+'anadip.coddip
+'anadip.descriz
+]
+'Tables
+[
+'anadip<table>
+]
+'Zooms
+[
+'[anadip] cgo_agenzie.vzm
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_stpdipen_portlet.jsp|Error|core::document|Update dependencies|Resource "arrp_stpdipe.vrp.vrp" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:45
+message='Resource "arrp_stpdipe.vrp.vrp" not found.
+resource_key='jsp\pg_stpdipen_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

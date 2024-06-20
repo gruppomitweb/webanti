@@ -1,0 +1,42 @@
+﻿* --- Resource Vers. 0.9
+arfn_wutrxchk_cases
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Trova i record che danno errore
+file_modified_on=#2019-09-18 18:24:58
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:54
+module_name='
+name='arfn_wutrxchk_cases
+state=1
+type='batch
+used_resource_keys={
+'Queries
+[
+'qbe_rtra_aua_1_id_a.vqr
+'qbe_rtra_aua_2_id_a.vqr
+'qbe_rtra_aua_3_id_a.vqr
+'qbe_rtra_aua_4_id_a.vqr
+'qbe_rtra_aua_5_id_a.vqr
+'qbe_rtra_aua_gen.vqr
+]
+'Routines
+[
+'arfn_agechar
+'arfn_chkcodfis
+'arfn_dectabs
+'arfn_wutrxchk_cases
+]
+}
+I
+*--*
+￼[]
+*--*

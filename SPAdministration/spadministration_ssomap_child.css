@@ -1,0 +1,14 @@
+.FormDefault {margin:0;position:relative;font-family:Arial;font-size:9pt;}
+INPUT {font-family:Arial;font-size:9pt;}
+SELECT {font-family:Arial;font-size:9pt;}
+TEXTAREA {font-family:Arial;font-size:9pt;}
+IMG {border:0;}
+#ZPLLDHVTOQ {top:10px;position:absolute;left:760px;height:22px;width:76px;text-align:right;z-index:1; }
+#KETCZPSXKD {top:10px;position:absolute;left:210px;height:22px;width:425px;z-index:1; }
+#MLDPAZCHFS_DIV {top:10px;position:absolute;text-align:right;z-index:1;}
+#MLDPAZCHFS_DIV>label { line-height: 22px; }
+BODY:not([ettl]) #MLDPAZCHFS_DIV {left:5px;height:22px;width:197px;}
+BODY[ettl='old'] #MLDPAZCHFS_DIV {left:5px;height:22px;width:197px;}
+BODY[ettl='yes'] #MLDPAZCHFS_DIV {right:calc(100% - 202px);}
+#MLDPAZCHFS_DIV {overflow:hidden;}
+#ZPLLDHVTOQ, #KETCZPSXKD {box-sizing : border-box;}

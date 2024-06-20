@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>Vista Famiglia</description>
+    <note></note>
+    <variable>
+        <name>TIPOSOG</name>
+        <description>Tipo Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODINTER</name>
+        <description>Codice Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>RAGSOC</name>
+        <description>Nominativo</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATAINI</name>
+        <description>Data Inizio</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>DATAFINE</name>
+        <description>Data Fine</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>CODFISC</name>
+        <description>Codice Fiscale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COGNOME</name>
+        <description>Cognome</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NOME</name>
+        <description>Nome</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>LUONAS</name>
+        <description>Luogo DI Nascita</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATNAS</name>
+        <description>Data Di Nascita</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>SESSO</name>
+        <description>Sesso</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PAESE</name>
+        <description>Paese Sede Legale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SEDELEG</name>
+        <description>Luogo Sede Legale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PROVLEG</name>
+        <description>Provincia Sede Legale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PROVNAS</name>
+        <description>Provincia di nascita</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CFESTERO</name>
+        <description>Senza Codice Fiscale</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>ORIGINE</name>
+        <description>Origine (U-A)</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>MATCH</name>
+        <description>Matchato</description>
+        <type>C</type>
+    </variable>
+</class>

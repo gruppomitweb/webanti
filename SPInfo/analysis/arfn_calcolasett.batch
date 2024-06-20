@@ -1,0 +1,41 @@
+﻿* --- Resource Vers. 0.9
+arfn_calcolasett
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:27
+description='Calcola ramo e settore (Funzione)
+file_modified_on=#2022-11-04 15:54:07
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:50
+module_name='
+name='arfn_calcolasett
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbstgru.sotgru
+'tbstgru.tiposot
+]
+'Routines
+[
+'arfn_calcolasett
+]
+'Tables
+[
+'tbsetsin<table>
+'tbsetsina<table>
+'tbstgru<table>
+]
+}
+I
+*--*
+￼[]
+*--*

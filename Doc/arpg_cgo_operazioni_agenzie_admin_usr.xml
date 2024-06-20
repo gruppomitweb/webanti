@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="40014953">
+  <CodifyName>arpg_cgo_operazioni_agenzie_admin</CodifyName>
+  <Name>arpg_cgo_operazioni_agenzie_admin.pagedef</Name>
+  <Title>Operazioni da completare (Administrator)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="178597497"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_cgo_operazioni_agenzie_admin_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="119" x2="964" y2="132">
+      <Name LinkID="176224439">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="106" x2="964" y2="119">
+      <Name LinkID="194386553">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="704" y1="9" x2="744" y2="39">
+      <Name LinkID="40013433">images/search.gif</Name>
+      <Image>images/search.gif</Image>
+      <Hyperlink>arpg_cgo_operazioni_agenzie_admin</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Ricerca le operazione da completare delle agenzie</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="752" y1="9" x2="792" y2="39">
+      <Name LinkID="40013433">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Esci dalla procedura</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="80" y1="14" x2="152" y2="34">
+      <Name LinkID="18267416">agenzia</Name>
+      <Comment>Agenzia</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="89" x2="91" y2="105">
+      <Name LinkID="40013433">c_DATAOPE</Name>
+      <Help></Help>
+      <Expression>c_DATAOPE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="99" y1="89" x2="227" y2="105">
+      <Name LinkID="40013433">c_CAIDBIGLIETTO</Name>
+      <Help></Help>
+      <Expression>c_CAIDBIGLIETTO</Expression>
+      <Hyperlink>arrt_snai_oper_load</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="675" y1="89" x2="779" y2="105">
+      <Name LinkID="40013433">c_TOTLIRE</Name>
+      <Help></Help>
+      <Expression>c_TOTLIRE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="235" y1="89" x2="291" y2="105">
+      <Name LinkID="40013433">c_CACODICE</Name>
+      <Help></Help>
+      <Expression>c_CACODICE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="784" y1="89" x2="800" y2="105">
+      <Name LinkID="40013433">c_SEGNO</Name>
+      <Help></Help>
+      <Expression>c_SEGNO</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="299" y1="89" x2="667" y2="105">
+      <Name LinkID="40013433">c_CADESCRI</Name>
+      <Help></Help>
+      <Expression>c_CADESCRI</Expression>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

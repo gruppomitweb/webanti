@@ -1,0 +1,54 @@
+﻿* --- Resource Vers. 0.9
+arrt_startrdm
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:40
+description='Lancia Ricerca Dati di Massa
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:25
+module_name='
+name='arrt_startrdm
+state=1
+type='batch
+used_resource_keys={
+'Hyperlinks
+[
+'armt_ricercamassa
+]
+'Tables
+[
+'tbcauana<table>
+'fraziobo<table>
+'f_fraziobo<table>
+'tmp_ricmas1<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_startrdm|Error|core::document|Update dependencies|Table "f_tbcauana" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:25
+message='Table "f_tbcauana" not found.
+resource_key='arrt_startrdm
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

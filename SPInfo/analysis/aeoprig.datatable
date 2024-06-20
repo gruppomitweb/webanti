@@ -1,0 +1,866 @@
+﻿* --- Resource Vers. 0.9
+aeoprig<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Operazioni Extra Conto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='aeoprig
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'aeoprig.idbase
+'aeoprig.rapporto
+'aeoprig.connesint
+'aeoprig.aspedito
+'aeoprig.adata
+'aeoprig.aprog
+'aeoprig.aoldprog
+'aeoprig.afile
+'aeoprig.aoldfile
+'aeoprig.adataret
+'aeoprig.cspedito
+'aeoprig.cdata
+'aeoprig.cprog
+'aeoprig.coldprog
+'aeoprig.cfile
+'aeoprig.coldfile
+'aeoprig.cdataret
+'aeoprig.idrif
+'aeoprig.nocodfisc
+'aeoprig.adtpre
+'aeoprig.cdtpre
+'aeoprig.tipoag
+'aeoprig.coint
+'aeoprig.progopx
+'aeoprig.abbinato
+'aeoprig.idesito
+'aeoprig.datesito
+'aeoprig.rspedito
+'aeoprig.saldo
+'aeoprig.quantita
+'aeoprig.valuta
+'aeoprig.anno
+'aeoprig.prog1
+'aeoprig.prog2
+'aeoprig.esitoanno
+'aeoprig.uniquecode
+'aeoprig.progrec
+'aeoprig.progbase
+'aeoprig.fileanno
+'aeoprig.abbsaldi
+'aeoprig.oldinter
+'aeoprig.annoope
+'aeoprig.rifimp
+'aeoprig.inform
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'aeoprig.abbinato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Abbinato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABBINATO
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.abbsaldi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Abbinamento saldi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABBSALDI
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.adata
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ADATA
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.adataret
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ADATARET
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.adtpre
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ADTPRE
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.afile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AFILE
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.anno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNO
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.annoope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno Riferimento Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNOOPE
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.aoldfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AOLDFILE
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.aoldprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AOLDPROG
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.aprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='APROG
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.aspedito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ASPEDITO
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.cdata
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATA
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.cdataret
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATARET
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.cdtpre
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDTPRE
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.cfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFILE
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.coint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COINT
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.coldfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLDFILE
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.coldprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLDPROG
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.connesint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESINT
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.cprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CPROG
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.cspedito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CSPEDITO
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.datesito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Creaione Esito
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATESITO
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.esitoanno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ESITOANNO
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.fileanno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FILEANNO
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.idesito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Esito AGE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDESITO
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.idrif
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDRIF
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.inform
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Riferimento 2 Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INFORM
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.nocodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOCODFISC
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.oldinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Altro Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDINTER
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.prog1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROG1
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.prog2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROG2
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.progbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGBASE
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.progopx
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGOPX
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.progrec
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGREC
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.quantita
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='QUANTITA
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.rifimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Riferimento 1 Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIFIMP
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.rspedito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RSPEDITO
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.saldo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SALDO
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.tipoag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOAG
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.uniquecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUECODE
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+'aeoprig.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='aeoprig
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'aeoprig.abbinato
+[]
+'aeoprig.abbsaldi
+[]
+'aeoprig.adata
+[]
+'aeoprig.adataret
+[]
+'aeoprig.adtpre
+[]
+'aeoprig.afile
+[]
+'aeoprig.anno
+[]
+'aeoprig.annoope
+[]
+'aeoprig.aoldfile
+[]
+'aeoprig.aoldprog
+[]
+'aeoprig.aprog
+[]
+'aeoprig.aspedito
+[]
+'aeoprig.cdata
+[]
+'aeoprig.cdataret
+[]
+'aeoprig.cdtpre
+[]
+'aeoprig.cfile
+[]
+'aeoprig.coint
+[]
+'aeoprig.coldfile
+[]
+'aeoprig.coldprog
+[]
+'aeoprig.connesint
+[]
+'aeoprig.cprog
+[]
+'aeoprig.cspedito
+[]
+'aeoprig.datesito
+[]
+'aeoprig.esitoanno
+[]
+'aeoprig.fileanno
+[]
+'aeoprig.idbase
+[]
+'aeoprig.idesito
+[]
+'aeoprig.idrif
+[]
+'aeoprig.inform
+[]
+'aeoprig.nocodfisc
+[]
+'aeoprig.oldinter
+[]
+'aeoprig.prog1
+[]
+'aeoprig.prog2
+[]
+'aeoprig.progbase
+[]
+'aeoprig.progopx
+[]
+'aeoprig.progrec
+[]
+'aeoprig.quantita
+[]
+'aeoprig.rapporto
+[]
+'aeoprig.rifimp
+[]
+'aeoprig.rspedito
+[]
+'aeoprig.saldo
+[]
+'aeoprig.tipoag
+[]
+'aeoprig.uniquecode
+[]
+'aeoprig.valuta
+[]
+}
+*--*

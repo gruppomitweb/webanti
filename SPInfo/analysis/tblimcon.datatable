@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+tblimcon<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Limite Contante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tblimcon
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tblimcon.lccodice
+'tblimcon.lcdatini
+'tblimcon.lcdatfin
+'tblimcon.lcimpmax
+'tblimcon.lcvalper
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tblimcon.lccodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='LCCODICE
+state=3
+table_name='tblimcon
+type='field
+used_resource_keys={}
+I
+'tblimcon.lcdatfin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine Periodo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='LCDATFIN
+state=3
+table_name='tblimcon
+type='field
+used_resource_keys={}
+I
+'tblimcon.lcdatini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio Periodo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='LCDATINI
+state=3
+table_name='tblimcon
+type='field
+used_resource_keys={}
+I
+'tblimcon.lcimpmax
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo Massimo Contante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='LCIMPMAX
+state=3
+table_name='tblimcon
+type='field
+used_resource_keys={}
+I
+'tblimcon.lcvalper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valido per
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='LCVALPER
+state=3
+table_name='tblimcon
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tblimcon.lccodice
+[]
+'tblimcon.lcdatfin
+[]
+'tblimcon.lcdatini
+[]
+'tblimcon.lcimpmax
+[]
+'tblimcon.lcvalper
+[]
+}
+*--*

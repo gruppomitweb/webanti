@@ -1,0 +1,283 @@
+ 2
+"Operazioni"
+"operazbo"
+"operazbo"
+ 0
+ 0
+*
+"Clienti / Persone / Società"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 14
+"Cliente"
+"operazbo.CONSERVITO"
+"CONNESCLI"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOCCLI"
+"C"
+ 70
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Soggetto"
+"ýSOGGETTO SERVITOý"
+"TIPOCLI"
+"C"
+ 20
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice ATECO"
+"ýý"
+"ATECO"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"ýý"
+"DESCRIZIONE"
+"C"
+ 250
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Rischio Globale"
+"ýý"
+"RISGLOB"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Persona Esposta Politicamente"
+"ýý"
+"PEP"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Ultima Adeguata Verifica"
+"NULL"
+"ULTADEGVER"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Penultima Adeguata Verifica"
+"NULL"
+"PULTADEGVER"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Profilatura"
+"NULL"
+"DATAPROF"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Inizio Rapporto"
+"NULL"
+"RAPPORTO_INI"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Fine Rapporto"
+"NULL"
+"RAPPORTO_FIN"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Partita IVA"
+"personbo.PARTIVA"
+"PARTIVA"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 1
+"Clienti / Persone / Società(Soggetto Reale)"
+"personbo.CONNES=operazbo.CONSERVITO"
+"Right outer"
+"personbo"
+"operazbo"
+*
+ 5
+"operazbo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+""
+*
+"operazbo.DATAOPE"
+""
+">="
+"?pDATAOPE_INI"
+"AND"
+""
+""
+*
+"operazbo.DATAOPE"
+""
+"<="
+"?pDATAOPE_FIN"
+"AND"
+""
+""
+*
+"personbo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+""
+*
+"personbo.RAPSEGNA"
+""
+"<>"
+"ý0ý"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 1
+ 2
+"pDATAOPE_INI"
+"Data Operazione"
+"D"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"pDATAOPE_FIN"
+"Data Operazione"
+"D"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 22
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%2BCX.4G%5BBM%5DG%2B%3E%08-k67%06%24.D5%3F%21IW%230%5CB%0620%246%40%3B%5CMH%27T9%3F+*CIB%27%23*%3C%3A%21%3E_DALBRF%23%2F47Y%11-6%21%5CM5J%26%11-RTFI%05B91%3C%23%246J%28IPO%3E%3ANLT4%3C%29uGB22+A%5BIN6%3CS%2F7C+LU9%5C%27W%24PZMF%183D%221O2NA%2B.*4%7D2%5C%40%22C7F%3AOZZZI5%27U45%3CE3H3%05%28OFH%262%2B%0A%2F0X77KVM%1BEY4*t%5C*Z+F%40%29%223%26%26B3%26W%1C%3C%24PW%3AK%21VC%29I%298qXvXMBc%23%25%22%224A_%27%2C7%7BD4%17%13%5B.Z%5C%25%255%29L0%1E%00"
+"vsP%289A%274%5BCN%29M0%7EU%5B6R45.6%1E%28%3E%25%5EmAWX0HAP04%5Dw%5CRD%27%3A%12%0A%25U%3F0%5D5%2F%3D-EL9M+1AT%2B+N%23%02*%26%3AJ%3E%24D3%29C%3B%7FhCH%3C2*%25%29D%22W%25P9%2Cc%28+%3A%26VMZ3IQGF%2BD%13%3FUE_%255O%27%10%3AA%29H%2F%22C_%3E3%3B%2B%2F%26%23V%25%24BJN%2F%3EL%5ER%3Fh05D%03-2%3F%22%3CQ%29TLP%28N%2F%22W%2C2%22A1%5CTEB%28T%25%3A%3C%2B7BW%40%29BC%60L%23Q%5BE7BEE%223%26%25A_.%3B%26DL5PjKGZC76%28L%5DA%2F%2B%5B%24JV%17I5R%2CT4XM%5CL+O*ZD%3FOFY%26%00-79%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+*

@@ -1,0 +1,84 @@
+﻿* --- Resource Vers. 0.9
+arrt_wu_autocorrect
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Crea il record nell'autocorrezione
+file_modified_on=#2019-10-15 17:52:08
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:31
+module_name='
+name='arrt_wu_autocorrect
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'wuautocorrect.idprog
+'wuautocorrect.aucognom
+'wuautocorrect.aunome
+'wuautocorrect.auluonas
+'wuautocorrect.audatnas
+'wuautocorrect.ausesso
+'wuautocorrect.autipdoc
+'wuautocorrect.aunumdoc
+'wuautocorrect.aucodfisc
+'wuautocorrect.auocognom
+'wuautocorrect.auonome
+'wuautocorrect.auoluonas
+'wuautocorrect.auodatnas
+'wuautocorrect.auosesso
+'wuautocorrect.auotipdoc
+'wuautocorrect.auonumdoc
+'wuautocorrect.auocodfisc
+'wuautocorrect.audatacrea
+'dersonbo.tipodoc
+'dersonbo.numdocum
+'dersonbo.ragsoc
+'dersonbo.codfisc
+'dersonbo.sesso
+'dersonbo.datanasc
+'dersonbo.nome
+'dersonbo.cognome
+'dersonbo.nasstato
+'dersonbo.nascomun
+'dersonbo.luogonas
+'dersonbo.flgdisabled
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_rtra_aua_1_id_a.vqr
+'qbe_rtra_aua_2_id_a.vqr
+'qbe_rtra_aua_3_id_a.vqr
+'qbe_rtra_aua_4_id_a.vqr
+'qbe_rtra_aua_5_id_a.vqr
+'qbe_rtra_aua_gen.vqr
+]
+'Routines
+[
+'arfn_agechar
+'arfn_wu_doctype
+]
+'Tables
+[
+'wuautocorrect<table>
+'wutrxchk<table>
+'wutrxchk_cases<table>
+'dersonbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

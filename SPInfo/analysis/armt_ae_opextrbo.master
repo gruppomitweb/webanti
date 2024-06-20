@@ -1,0 +1,79 @@
+﻿* --- Resource Vers. 0.9
+armt_ae_opextrbo
+￼Iresource.ResourceMaster
+created_on=#2024-05-10 18:24:30
+description='Operazioni ExtraConto
+file_modified_on=#2022-12-29 10:17:25
+location='
+measures={}
+modified_on=#2024-05-10 18:24:55
+module_name='
+name='armt_ae_opextrbo
+state=1
+type='master
+used_resource_keys={
+'Children
+[
+'ardt_delegaop
+]
+'Fields
+[
+'opextrbo.colleg
+'personbo.connes
+'personbo.ragsoc
+'opextrbo.anno
+'opextrbo.connesoper
+'opextrbo.saldo
+'opextrbo.quantita
+'opextrbo.valuta
+'opextrbo.uniquer
+'opextrbo.oldinter
+'opextrbo.inviato
+'opextrbo.datainvio
+'opextrbo.datamodi
+'opextrbo.annulla
+'opextrbo.dataannu
+'opextrbo.idesito
+'opextrbo.invsaldo
+'opextrbo.dtsaldo
+'opextrbo.dataope
+'opextrbo.cfestero
+'opextrbo.natura
+]
+'Hyperlinks
+[
+'arpg_fam_variazione
+'arpg_fam_cancella
+'arrt_ae_opex_redelete
+]
+'Routines
+[
+'arrt_allinea_estero
+'arrt_imp_frischio
+'arrt_val_benefic
+'arrt_writelog
+]
+'Security
+[
+'administrators<role>
+'utenti standard<role>
+'ruolo 3<role>
+'utenti confidi<role>
+'ruolo 5<role>
+'agenzia<role>
+'area finanza<role>
+'help desk<role>
+'consultazione<role>
+]
+'Tables
+[
+'opextrbo<table>
+'personbo<table>
+'tbvalute<table>
+'tbnaturaage<table>
+]
+}
+I
+*--*
+￼[]
+*--*

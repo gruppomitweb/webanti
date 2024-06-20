@@ -1,0 +1,562 @@
+﻿* --- Resource Vers. 0.9
+tmp_impesiti<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Importazione esiti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_impesiti
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_impesiti.idbase
+'tmp_impesiti.esito
+'tmp_impesiti.nprog
+'tmp_impesiti.nomefile
+'tmp_impesiti.trueident
+'tmp_impesiti.rapporto
+'tmp_impesiti.tipoac
+'tmp_impesiti.connes
+'tmp_impesiti.ragsoc
+'tmp_impesiti.codfisc
+'tmp_impesiti.persona
+'tmp_impesiti.cognome
+'tmp_impesiti.nome
+'tmp_impesiti.sesso
+'tmp_impesiti.datanasc
+'tmp_impesiti.nascomun
+'tmp_impesiti.tipinter
+'tmp_impesiti.desccit
+'tmp_impesiti.provincia
+'tmp_impesiti.codcab
+'tmp_impesiti.progimpesiti
+'tmp_impesiti.aprog
+'tmp_impesiti.afile
+'tmp_impesiti.cprog
+'tmp_impesiti.cfile
+'tmp_impesiti.errore
+'tmp_impesiti.rifimp
+'tmp_impesiti.inform
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_impesiti.afile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='afile
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.aprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='aprog
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.cfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cfile
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAB residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='codcab
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CF intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='codfisc
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.cognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='cognome intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cognome
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='connes intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='connes
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.cprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cprog
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.datanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='data di nascita intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='datanasc
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='comune di residenza intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='desccit
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.errore
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Errori rilevati
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='errore
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.esito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='esito
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='idbase
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.inform
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rif. Import 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='inform
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.nascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='comune di nascita intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nascomun
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.nome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='nome intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nome
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.nomefile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='nome del file forse identificativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nomefile
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.nprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nprog
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.persona
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='fisica o giuridica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='persona
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.progimpesiti
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Progressivo importazione esiti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PROGIMPESITI
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='provincia di residenza intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='provincia
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='intestatario rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ragsoc
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='codice rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='rapporto
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.rifimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rif. Import 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='rifimp
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.sesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='sesso intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='sesso
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.tipinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='provincia di nascita intestatario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tipinter
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.tipoac
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='tipo informazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tipoac
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+'tmp_impesiti.trueident
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='indentificativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='trueident
+state=3
+table_name='tmp_impesiti
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_impesiti.afile
+[]
+'tmp_impesiti.aprog
+[]
+'tmp_impesiti.cfile
+[]
+'tmp_impesiti.codcab
+[]
+'tmp_impesiti.codfisc
+[]
+'tmp_impesiti.cognome
+[]
+'tmp_impesiti.connes
+[]
+'tmp_impesiti.cprog
+[]
+'tmp_impesiti.datanasc
+[]
+'tmp_impesiti.desccit
+[]
+'tmp_impesiti.errore
+[]
+'tmp_impesiti.esito
+[]
+'tmp_impesiti.idbase
+[]
+'tmp_impesiti.inform
+[]
+'tmp_impesiti.nascomun
+[]
+'tmp_impesiti.nome
+[]
+'tmp_impesiti.nomefile
+[]
+'tmp_impesiti.nprog
+[]
+'tmp_impesiti.persona
+[]
+'tmp_impesiti.progimpesiti
+[]
+'tmp_impesiti.provincia
+[]
+'tmp_impesiti.ragsoc
+[]
+'tmp_impesiti.rapporto
+[]
+'tmp_impesiti.rifimp
+[]
+'tmp_impesiti.sesso
+[]
+'tmp_impesiti.tipinter
+[]
+'tmp_impesiti.tipoac
+[]
+'tmp_impesiti.trueident
+[]
+}
+*--*

@@ -1,0 +1,161 @@
+* --- SitePainter Page Vers. 4.7
+Ispitem.SPPage
+Items=[
+Icpitem.CPItem
+border_color=4227136
+border_width=1
+color=12632256
+createondemand=True
+obj='box
+pag=1
+px=8
+pxx=208
+py=7
+pyy=84
+uid='PBGEOWBBUF
+I
+Icpitem.CPItem
+calc='calc
+createondemand=True
+edit='show
+frm_calc='Date()
+item=Nil
+len=8
+name='datavaria
+obj='variabile
+obj_type='D
+pag=1
+px=112
+pxx=178
+py=21
+pyy=41
+uid='NTUZLPWVAD
+video_len=10
+I
+Icpitem.CPItem
+condhide=True
+createondemand=True
+frm_hide='True
+item=Nil
+len=10
+name='IDBASE
+nonlocal=True
+obj='variabile
+obj_type='C
+pag=1
+px=16
+pxx=48
+py=42
+pyy=62
+uid='ZVSDSSCUMM
+video_len=17
+I
+Icpitem.CPItem
+condhide=True
+createondemand=True
+frm_hide='True
+item=Nil
+len=1
+name='STATOREG
+nonlocal=True
+obj='variabile
+obj_type='C
+pag=1
+px=16
+pxx=48
+py=63
+pyy=83
+uid='VFJTCKYERF
+video_len=17
+I
+Icpitem.CPItem
+createondemand=True
+item=Nil
+obj='stringa
+obj_type='R
+pag=1
+px=16
+pxx=106
+py=25
+pyy=41
+txt_help='Data Variazione:
+uid='QAXNTYELMN
+I
+Icpitem.CPItem
+clipimage=True
+condhide=True
+confirmedit=True
+createondemand=True
+frm_hide='w_STATOREG='2'  or w_STATOREG='3' or Empty(w_datavaria)
+item=Nil
+lnk_op='start
+lnk_page='arrt_edt_rapopebo
+lnk_type='batch
+obj='immagine
+pag=1
+px=56
+pxx=96
+py=49
+pyy=77
+txt_confirmedit='Confermi la modifica dell'informazione ?
+txt_help='images/save.gif
+uid='MNNQRQRGPV
+I
+Icpitem.CPItem
+clipimage=True
+createondemand=True
+item=Nil
+lnk_page='window.close()
+lnk_type='usrz
+obj='immagine
+pag=1
+px=128
+pxx=168
+py=49
+pyy=77
+txt_help='images/exit.gif
+uid='MQMNEIMSBN
+I
+]
+ManualBlocks={
+UI - Declare Variables
+Icpmanualblocks.CPManualBlocks
+code='window.moveTo(0,0)
+name='UI - Declare Variables
+I
+UI - Functions & Procedures
+Icpmanualblocks.CPManualBlocks
+code="function CloseAll() {
+  window.opener.SendData('moveto')
+  window.close()
+}
+/*
+function confirmExit() {
+  //Funziona per IE ma non per Firefox/mozzilla: va trovato l'analogo
+  if ( event.clientX < 0 || event.clientY < 0 ) {
+    if (confirm('Confermi uscita dalla modifica ?')) {
+      window.opener.SendData('moveto')
+    }
+  }
+}
+window.onbeforeunload=confirmExit;
+*/
+°--°
+name='UI - Functions & Procedures
+I
+}
+comment='Richiesta Data Variazione Informazioni
+date_creat=#2006-06-05
+date_rev=#2014-03-18
+gfont='Tahoma
+gfont_base=1
+gfont_points=8
+grid_dx=8
+grid_dy=7
+grid_show=1
+grid_use=1
+modcnt=69
+tpl_name='Page
+I
+*--*
+*----*

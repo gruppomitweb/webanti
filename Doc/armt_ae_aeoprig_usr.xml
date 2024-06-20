@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="109041102">
+  <CodifyName>armt_ae_aeoprig</CodifyName>
+  <Name>armt_ae_aeoprig.mstdef</Name>
+  <Title>Operazioni Extra Conto</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="105388142"></Title>
+    <Note/>
+    <JPG x="8" y="7">armt_ae_aeoprig_usr_1</JPG>
+    <Item type="campo" x1="600" y1="42" x2="768" y2="62">
+      <Name LinkID="103196571">COINT</Name>
+      <Comment>Tipo Rapporto</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="136" y1="42" x2="504" y2="62">
+      <Name LinkID="29987050">TIPOAG</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="136" y1="14" x2="254" y2="34">
+      <Name LinkID="134586951">CONNESINT</Name>
+      <Comment>Codice Delegato</Comment>
+      <Key>key3</Key>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="136" y1="133" x2="208" y2="153">
+      <Name LinkID="104419405">ADATA</Name>
+      <Comment>data Inizio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="304" y1="133" x2="376" y2="153">
+      <Name LinkID="65449907">ADATARET</Name>
+      <Comment>Data Rettifica</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="24" y1="174" x2="144" y2="195">
+      <Name LinkID="39374755">ASPEDITO</Name>
+      <Comment>Spedito Agenzia Entrate</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="175" x2="248" y2="195">
+      <Name LinkID="104187949">AFILE</Name>
+      <Comment>Nome File Spedizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="144" y1="203" x2="306" y2="223">
+      <Name LinkID="104042125">APROG</Name>
+      <Comment>Progressivo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="496" y1="175" x2="760" y2="200">
+      <Name LinkID="67689696">1. Modifica Data Apertura / Intestatario</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="496" y1="203" x2="760" y2="228">
+      <Name LinkID="259454043">2. Elimininazione Comunicazione Apertura</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="136" y1="69" x2="711" y2="90">
+      <Name LinkID="120152755">NOCODFISC</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="20" y1="12" x2="44" y2="37">
+      <Name LinkID="254351932">Button</Name>
+      <Bitmap>images/search4.gif</Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="696" y1="133" x2="768" y2="153">
+      <Name LinkID="235840443">IDESITO</Name>
+      <Comment>Esito AGE</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="560" y1="133" x2="632" y2="153">
+      <Name LinkID="40358534">DATESITO</Name>
+      <Comment>Creazione Esito AGE</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

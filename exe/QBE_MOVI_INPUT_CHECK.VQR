@@ -1,0 +1,183 @@
+ 1
+"Movimenti INPUT"
+"archmovi_in"
+"archmovi_in"
+ 5
+ 5
+*
+ 20
+"Data Operazione"
+"archmovi_in.ODATAOPE"
+"ODATAOPE"
+"C"
+ 8
+ 0
+*
+"Causale Analitica"
+"archmovi_in.OCODANA"
+"OCODANA"
+"C"
+ 4
+ 0
+*
+"Causale Sintetica"
+"archmovi_in.OCODVOC"
+"OCODVOC"
+"Char"
+ 2
+ 0
+*
+"Data Registrazione"
+"archmovi_in.ODATAREG"
+"ODATAREG"
+"C"
+ 8
+ 0
+*
+"Tipo Valuta"
+"archmovi_in.OFLAGLIRE"
+"OFLAGLIRE"
+"Char"
+ 1
+ 0
+*
+"Codice Valuta"
+"archmovi_in.OVALUTA"
+"OVALUTA"
+"C"
+ 3
+ 0
+*
+"Segno OPerazione (Dare/Avere)"
+"archmovi_in.OSEGNO"
+"OSEGNO"
+"C"
+ 1
+ 0
+*
+"Totale Operazione"
+"archmovi_in.OTOTLIRE"
+"OTOTLIRE"
+"Numeric"
+ 15
+ 0
+*
+"Data Import"
+"archmovi_in.ODATAIMP"
+"ODATAIMP"
+"C"
+ 8
+ 0
+*
+"Nominativo Soggetto Controparte"
+"archmovi_in.OC_RAG"
+"OC_RAG"
+"C"
+ 70
+ 0
+*
+"Stato Soggetto Controparte"
+"archmovi_in.OC_STA"
+"OC_STA"
+"Char"
+ 3
+ 0
+*
+"Data di Nascita"
+"archmovi_in.PDATANASC"
+"PDATANASC"
+"C"
+ 8
+ 0
+*
+"Comune/ Stato di Nascita"
+"archmovi_in.PNASCOMUN"
+"PNASCOMUN"
+"Char"
+ 40
+ 0
+*
+"Tipo Documento"
+"archmovi_in.PTIPODOC"
+"PTIPODOC"
+"C"
+ 2
+ 0
+*
+"N° Documento"
+"archmovi_in.PNUMDOCUM"
+"PNUMDOCUM"
+"C"
+ 15
+ 0
+*
+"Data Rilascio"
+"archmovi_in.PDATARILASC"
+"PDATARILASC"
+"C"
+ 8
+ 0
+*
+"Autorità Rilascio"
+"archmovi_in.PAUTRILASC"
+"PAUTRILASC"
+"Char"
+ 30
+ 0
+*
+"Sesso"
+"archmovi_in.PSESSO"
+"PSESSO"
+"C"
+ 1
+ 0
+*
+"Data Scadenza Documento"
+"archmovi_in.PDATAVALI"
+"PDATAVALI"
+"C"
+ 8
+ 0
+*
+"Provincia di nascita"
+"archmovi_in.PPROVNAS"
+"PPROVNAS"
+"C"
+ 2
+ 0
+*
+ 0
+ 1
+"archmovi_in.MCODMOV"
+""
+"="
+"?_movcod"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"_movcod"
+"Codice Operazione"
+"Numeric"
+"10"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 14
+.f.
+""
+.f.
+*

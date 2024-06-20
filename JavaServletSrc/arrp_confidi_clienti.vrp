@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description: -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_confidi_clienti||version||4.6||title|| ||query||qbe_confidi_clienti||font||Arial||font_size||9||font_weight||normal||font_effect|| ||pageheadfoot||false||reportheadfoot||false||security_public||true||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2015-05-13||date_rev||2015-05-13||form_class|| ||grid_dx|| ||grid_dy|| ||grid_show||0||grid_use||0||snaplines_show||0||language|| ||merge||false||modcnt||15||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding||ISO-8859-1||hsl||false||lock_items||false||maxcount||33||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||Group_top||comment||group3||exp||1=1||name||group1||y||2||uid||SBWFUJPUEO||sequence||6||bb_sequence||7||page||1||start_each_on_page||true|||type||Group_down||comment||group3||exp||1=1||name||group1||y||236||uid||RURVNTURZM||sequence||7||bb_sequence||8||page||1|||type||Expr||exp||qbe_confidi_clienti.c_RAGSOC||len||70||dec||0||name||expr8||uid||HLSLETYYBE||output_name||RAGSOC||page||1||x||151||y||14||w||120||h||18||sequence||11|||type||Label||value||Ragione Sociale||text_type||constant||name||label7||uid||NDNVLKCZSM||page||1||x||11||y||14||w||126||h||19||sequence||10||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Citt&#224;||text_type||constant||name||label9||uid||YNNJJOELBJ||page||1||x||11||y||36||w||126||h||19||sequence||12||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Expr||exp||qbe_confidi_clienti.c_DESCCIT||len||30||dec||0||name||expr10||uid||OQHGEZHXBF||output_name||CITTASL||page||1||x||151||y||36||w||120||h||18||sequence||13|||type||Label||value||Indirizzo||text_type||constant||name||label11||uid||LLJSXARJDT||page||1||x||11||y||58||w||126||h||19||sequence||14||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Expr||exp||qbe_confidi_clienti.c_DOMICILIO||len||35||dec||0||name||expr12||uid||MATBDXHDNL||output_name||IND_SL||page||1||x||151||y||58||w||120||h||18||sequence||15|||type||Label||value||Provincia||text_type||constant||name||label13||uid||GEGKIIWHON||page||1||x||11||y||80||w||126||h||19||sequence||16||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Expr||exp||qbe_confidi_clienti.c_PROVINCIA||len||2||dec||0||name||expr14||uid||EUUZRCGPZK||output_name||PROV_SL||page||1||x||151||y||80||w||120||h||18||sequence||17|||type||Label||value||Stato||text_type||constant||name||label15||uid||VOZBDCSDMJ||page||1||x||11||y||102||w||126||h||19||sequence||18||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Expr||exp||qbe_confidi_clienti.c_PAESE||len||3||dec||0||name||expr16||uid||LQLQZRRSSG||output_name||NAZ_SL||page||1||x||151||y||102||w||120||h||18||sequence||19|||type||Label||value||Codice Fiscale||text_type||constant||name||label17||uid||UTUCDGBCBU||page||1||x||11||y||124||w||126||h||19||sequence||20||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Expr||exp||qbe_confidi_clienti.c_CODFISC||len||16||dec||0||name||expr18||uid||UOXOSJFLKZ||output_name||CODFISC||page||1||x||151||y||124||w||120||h||18||sequence||21|||type||Expr||exp||qbe_confidi_clienti.c_SOTGRUP||len||3||dec||0||name||expr20||uid||FZUMYAKGNC||output_name||SGRU||page||1||x||151||y||146||w||120||h||18||sequence||23|||type||Label||value||Sottogruppo Att. Ec.||text_type||constant||name||label19||uid||SHVEDNOPWT||page||1||x||11||y||146||w||126||h||19||sequence||22||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Expr||exp||qbe_confidi_clienti.c_ATTIV||dec||0||name||expr22||uid||LZIYDSLKDV||output_name||ATECO||page||1||x||151||y||168||w||120||h||18||sequence||25|||type||Label||value||Ateco||text_type||constant||name||label21||uid||QSQNDRPCIT||page||1||x||11||y||168||w||126||h||19||sequence||24||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Label||value||Settorizzazione UIF||text_type||constant||name||label23||uid||BBBRYNGWKJ||page||1||x||11||y||190||w||126||h||19||sequence||26||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Expr||exp||qbe_confidi_clienti.c_SETTSINT||len||3||dec||0||name||expr24||uid||PLPICQXDVX||output_name||SETTSINT||page||1||x||151||y||190||w||120||h||18||sequence||27|||type||Expr||exp||&#39;7&#39;||len||1||dec||0||name||expr24_33||uid||EYKAHBXQQE||output_name||TIPOINF||page||1||x||151||y||209||w||120||h||18||sequence||27||| -->
+
+<REPORT NAME="arrp_confidi_clienti" TITLE="" QUERY="qbe_confidi_clienti" MAXDEPTH="1" GLBFONTNAME="Arial" GLBFONTSIZE="9" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="true" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_confidi_clienti.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_confidi_clienti.DESCCIT" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_confidi_clienti.DOMICILIO" TYPE="C" LEN="35" DEC="0" />
+    <FIELD NAME="qbe_confidi_clienti.PROVINCIA" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_confidi_clienti.PAESE" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_confidi_clienti.CODFISC" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_confidi_clienti.SOTGRUP" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_confidi_clienti.ATTIV" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_confidi_clienti.SETTSINT" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_confidi_clienti.DESCRI" TYPE="C" LEN="250" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <SECTION TYPE="group" HEADH="2" FOOTH="1" SYMNAME="" UID="SBWFUJPUEO" TOP="2" BOTTOM="235" EXPRESSION="1=1" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+          <SECTION TYPE="group" HEADH="233" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="stringa" NAME="Ragione Sociale" EXPRTYPE="constant"
+                            Y="11" X="11" YY="30" XX="137"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_confidi_clienti.c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="11" X="151" YY="29" XX="271"
+                            SYMNAME="RAGSOC"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="stringa" NAME="Citt&#224;" EXPRTYPE="constant"
+                            Y="33" X="11" YY="52" XX="137"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_confidi_clienti.c_DESCCIT" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="33" X="151" YY="51" XX="271"
+                            SYMNAME="CITTASL"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="30"
+                            />
+                      <ITEM OBJ="stringa" NAME="Indirizzo" EXPRTYPE="constant"
+                            Y="55" X="11" YY="74" XX="137"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_confidi_clienti.c_DOMICILIO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="55" X="151" YY="73" XX="271"
+                            SYMNAME="IND_SL"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="35"
+                            />
+                      <ITEM OBJ="stringa" NAME="Provincia" EXPRTYPE="constant"
+                            Y="77" X="11" YY="96" XX="137"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_confidi_clienti.c_PROVINCIA" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="77" X="151" YY="95" XX="271"
+                            SYMNAME="PROV_SL"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="2"
+                            />
+                      <ITEM OBJ="stringa" NAME="Stato" EXPRTYPE="constant"
+                            Y="99" X="11" YY="118" XX="137"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_confidi_clienti.c_PAESE" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="99" X="151" YY="117" XX="271"
+                            SYMNAME="NAZ_SL"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="stringa" NAME="Codice Fiscale" EXPRTYPE="constant"
+                            Y="121" X="11" YY="140" XX="137"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_confidi_clienti.c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="121" X="151" YY="139" XX="271"
+                            SYMNAME="CODFISC"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="stringa" NAME="Sottogruppo Att. Ec." EXPRTYPE="constant"
+                            Y="143" X="11" YY="162" XX="137"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_confidi_clienti.c_SOTGRUP" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="143" X="151" YY="161" XX="271"
+                            SYMNAME="SGRU"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="stringa" NAME="Ateco" EXPRTYPE="constant"
+                            Y="165" X="11" YY="184" XX="137"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_confidi_clienti.c_ATTIV" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="165" X="151" YY="183" XX="271"
+                            SYMNAME="ATECO"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="stringa" NAME="Settorizzazione UIF" EXPRTYPE="constant"
+                            Y="187" X="11" YY="206" XX="137"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_confidi_clienti.c_SETTSINT" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="187" X="151" YY="205" XX="271"
+                            SYMNAME="SETTSINT"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="espressione" NAME="&#39;7&#39;" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="206" X="151" YY="224" XX="271"
+                            SYMNAME="TIPOINF"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Arial" FONTSIZE="9"
+                            LEN="1"
+                            />
+          </SECTION>
+  </SECTION>
+</REPORT>

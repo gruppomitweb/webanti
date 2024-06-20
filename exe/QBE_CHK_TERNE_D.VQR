@@ -1,0 +1,159 @@
+ 2
+"Deleghe"
+"aederig"
+"aederig"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 10
+"Codice Rapporto"
+"aederig.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Tipo Rapporto"
+"aederig.COINT"
+"COINT"
+"C"
+ 1
+ 0
+*
+"Tipo Agenzia Entrate"
+"aederig.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"Codice Delegato"
+"aederig.CONNESINT"
+"CONNESINT"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"data Inizio"
+"aederig.ADATA"
+"ADATA"
+"D"
+ 8
+ 0
+*
+"Data Chiusura"
+"aederig.CDATA"
+"CDATA"
+"D"
+ 8
+ 0
+*
+"Progressivo"
+"aederig.APROG"
+"APROG"
+"C"
+ 25
+ 0
+*
+"Nome File Spedizione"
+"aederig.AFILE"
+"AFILE"
+"C"
+ 15
+ 0
+*
+"Tipo"
+"ýDý"
+"TIPO"
+"C"
+ 1
+ 0
+*
+ 1
+"Soggetti"
+"personbo.CONNES=aederig.CONNESINT"
+"Right outer"
+"personbo"
+"aederig"
+*
+ 3
+"aederig.ADATA"
+""
+"<="
+"?w_datfin"
+"AND"
+""
+*
+"aederig.CDATA"
+""
+">="
+"?w_datini"
+"AND"
+""
+*
+"aederig.ABBSALDI"
+""
+"="
+"ýNý"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_datfin"
+"data Inizio"
+"D"
+"8"
+"0"
+""
+*
+"w_datini"
+"Data Chiusura"
+"D"
+"8"
+"0"
+""
+*
+""
+.f.
+"QBE_CHK_TERNE_O"
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 5
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"CGE%2BF%5D.5TP%3A5%27%29*5O.%07%2F+KD+CRKYA%5E%3C%24%17%3C%40%25%24%3BT%24Lz%3A5B%12VP%3EZO%27J%22%21%2B7H%3CDJ%5E%2833A81%5DM%5E.KEH9%1D%2F%11+%5BDU6--V%2C%215Hc%27%2CU-PV*+D%5D-%28RtA%29%3EHN.%5E%5Ek1%3CV%2B%3B53NTK%25+JTEW%29%3B%3FP6_5I%5B%27%5B%22%3FCTShLD%24+0%2F%22%26T%3F%22.%3AHD..891+%3A%5BRKU%3B8750%22Q%3D.%5DKX+%3AFVXH_8J8-A%223%223%22%25%26E%27XHH%3A%5E%24jZO%3AJ%3F%3A.1%21HME%3DKI%29NIM%3C%3A%22%06J%3Dx4BAHZGW9B%25%2B9%29%40%1E%00"
+"GRWLToN%3DINJ9G.R%5Dh0%5EG%26DI5ORSJ%40%28M%28%2F%1C8%28O3%3F%28%5DEJ%3EF%27%26%21%5EZ%3CP.%2285%28KPV%26SCFXGO%3A9%28*5%25IITKF9%26+%3BXN%5E%3A%2F%2C%18%3C%26%5BBP7%2FR%2F%3BHL%5E%29_5t%3B%27J%26.E+%2C6AO*D%26%22MLD%3CtK6X4+I1%3F%26D%27PLkz5AH7%08YLTBQDS%40JAs3.U2%4096F%3C%40_4UXtWQZ%1EM*%5DBkOL%5D%3E%02%3DG%1Ds%5D%40GCEV%3ALK.%223%27%26T4%25U51G%5D%7FF%5D-W%24%03%223%1EZ%5B%5B%5Dor6%25.%23%3F_%3C%5CSMQ%5CR8AH%09TX%5E%3EQ1*.O.%00"
+""
+""
+"native"
+ 0
+ 0
+*

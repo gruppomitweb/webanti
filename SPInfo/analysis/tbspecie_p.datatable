@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+tbspecie_p<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Specie Giuridica Pers.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbspecie_p
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbspecie_p.codspe
+'tbspecie_p.rischio
+'tbspecie_p.flgpers
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbspecie_p.codspe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODSPE
+state=3
+table_name='tbspecie_p
+type='field
+used_resource_keys={}
+I
+'tbspecie_p.flgpers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Personalizzato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGPERS
+state=3
+table_name='tbspecie_p
+type='field
+used_resource_keys={}
+I
+'tbspecie_p.rischio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indice di rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RISCHIO
+state=3
+table_name='tbspecie_p
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbspecie_p.codspe
+[]
+'tbspecie_p.flgpers
+[]
+'tbspecie_p.rischio
+[]
+}
+*--*

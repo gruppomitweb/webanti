@@ -1,0 +1,505 @@
+﻿* --- Resource Vers. 0.9
+cgo_soggetti_err<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Soggetti Scartati (CGO)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cgo_soggetti_err
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cgo_soggetti_err.prgsog
+'cgo_soggetti_err.connes
+'cgo_soggetti_err.cognome
+'cgo_soggetti_err.nome
+'cgo_soggetti_err.domicilio
+'cgo_soggetti_err.desccit
+'cgo_soggetti_err.provincia
+'cgo_soggetti_err.paese
+'cgo_soggetti_err.cap
+'cgo_soggetti_err.datanasc
+'cgo_soggetti_err.nascomun
+'cgo_soggetti_err.nasstato
+'cgo_soggetti_err.nasprov
+'cgo_soggetti_err.sesso
+'cgo_soggetti_err.tipodoc
+'cgo_soggetti_err.numdocum
+'cgo_soggetti_err.datarilasc
+'cgo_soggetti_err.datavali
+'cgo_soggetti_err.autrilasc
+'cgo_soggetti_err.cfestero
+'cgo_soggetti_err.pep
+'cgo_soggetti_err.flglight
+'cgo_soggetti_err.txterr
+'cgo_soggetti_err.flgfull
+'cgo_soggetti_err.idcittana
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cgo_soggetti_err.autrilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Autorità di rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AUTRILASC
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAP
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.cfestero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Estero
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFESTERO
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.cognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cognome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COGNOME
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Collegamento (Codice Fiscale)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNES
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.datanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATANASC
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.datarilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rilascio Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATARILASC
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.datavali
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Scadenza Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAVALI
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOMICILIO
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.flgfull
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Completo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGFULL
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.flglight
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Soggetto senza documenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGLIGHT
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.idcittana
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID CItta Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDCITTANA
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.nascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Luogo di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASCOMUN
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.nasprov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia di nascita (EE se nato estero)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASPROV
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.nasstato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASSTATO
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.nome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOME
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.numdocum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMDOCUM
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESE
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.pep
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Persona Politicamente Esposta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PEP
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.prgsog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRGSOG
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.sesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SESSO
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.tipodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPODOC
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+'cgo_soggetti_err.txterr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Errori
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TXTERR
+state=3
+table_name='cgo_soggetti_err
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cgo_soggetti_err.autrilasc
+[]
+'cgo_soggetti_err.cap
+[]
+'cgo_soggetti_err.cfestero
+[]
+'cgo_soggetti_err.cognome
+[]
+'cgo_soggetti_err.connes
+[]
+'cgo_soggetti_err.datanasc
+[]
+'cgo_soggetti_err.datarilasc
+[]
+'cgo_soggetti_err.datavali
+[]
+'cgo_soggetti_err.desccit
+[]
+'cgo_soggetti_err.domicilio
+[]
+'cgo_soggetti_err.flgfull
+[]
+'cgo_soggetti_err.flglight
+[]
+'cgo_soggetti_err.idcittana
+[]
+'cgo_soggetti_err.nascomun
+[]
+'cgo_soggetti_err.nasprov
+[]
+'cgo_soggetti_err.nasstato
+[]
+'cgo_soggetti_err.nome
+[]
+'cgo_soggetti_err.numdocum
+[]
+'cgo_soggetti_err.paese
+[]
+'cgo_soggetti_err.pep
+[]
+'cgo_soggetti_err.prgsog
+[]
+'cgo_soggetti_err.provincia
+[]
+'cgo_soggetti_err.sesso
+[]
+'cgo_soggetti_err.tipodoc
+[]
+'cgo_soggetti_err.txterr
+[]
+}
+*--*

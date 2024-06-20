@@ -1,0 +1,1037 @@
+﻿* --- Resource Vers. 0.9
+db_anarapbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='DB ANARAPBO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='db_anarapbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'db_anarapbo.rapporto
+'db_anarapbo.descrap
+'db_anarapbo.tiporap
+'db_anarapbo.flaglire
+'db_anarapbo.valuta
+'db_anarapbo.continua
+'db_anarapbo.tipoag
+'db_anarapbo.docfile
+'db_anarapbo.noprot
+'db_anarapbo.tipmod
+'db_anarapbo.datamod
+'db_anarapbo.idrapporto
+'db_anarapbo.idbase
+'db_anarapbo.ragio
+'db_anarapbo.modsvol
+'db_anarapbo.areageo
+'db_anarapbo.scopo
+'db_anarapbo.natura
+'db_anarapbo.rtipo
+'db_anarapbo.rcomp
+'db_anarapbo.rimp
+'db_anarapbo.rfreq
+'db_anarapbo.rragio
+'db_anarapbo.rarea
+'db_anarapbo.tipo
+'db_anarapbo.prgimprap
+'db_anarapbo.ammont
+'db_anarapbo.durat
+'db_anarapbo.impape
+'db_anarapbo.impchiu
+'db_anarapbo.splitcode
+'db_anarapbo.macodice
+'db_anarapbo.coddip
+'db_anarapbo.statorap
+'db_anarapbo.castatoc
+'db_anarapbo.castatom
+'db_anarapbo.codicelr
+'db_anarapbo.cadstato
+'db_anarapbo.mitig
+'db_anarapbo.mitgdoc
+'db_anarapbo.categ01
+'db_anarapbo.categ02
+'db_anarapbo.categ03
+'db_anarapbo.categ04
+'db_anarapbo.categ05
+'db_anarapbo.categoria
+'db_anarapbo.coddipe
+'db_anarapbo.mitigdoc
+'db_anarapbo.dac6
+'db_anarapbo.flagdac6
+'db_anarapbo.iban
+'db_anarapbo.codogg
+'db_anarapbo.risglob
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'db_anarapbo.ammont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AMMONT
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AREAGEO
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.cadstato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Cambio Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CADSTATO
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.castatoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato SnaiCARD
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CASTATOC
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.castatom
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Motivo Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CASTATOM
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.categ01
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG01
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.categ02
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG02
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.categ03
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG03
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.categ04
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG04
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.categ05
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG05
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.categoria
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEGORIA
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.coddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Dipendenza / Agenzia che crea il rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIP
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.codicelr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Legale Rappresentante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODICELR
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.codogg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODOGG
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.continua
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONTINUA
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.dac6
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DAC6
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.datamod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Modifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAMOD
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.descrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCRAP
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.docfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOCFILE
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.durat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DURAT
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.flagdac6
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGDAC6
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.flaglire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Divisa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGLIRE
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.iban
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IBAN
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Base
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.idrapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDRAPPORTO
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.impape
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Import Apertura Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPAPE
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.impchiu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Import Chiusura Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IMPCHIU
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.macodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Macro Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MACODICE
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.mitgdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Path Documentazione Mitigazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MITGDOC
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.mitig
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mitigazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MITIG
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.mitigdoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MITIGDOC
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.modsvol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MODSVOL
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.natura
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NATURA
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.noprot
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Non inviare agenzia entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOPROT
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.prgimprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRGIMPRAP
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.ragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGIO
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.rarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAREA
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.rcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RCOMP
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.rfreq
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RFREQ
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.rimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIMP
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.risglob
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio Globale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RISGLOB
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.rragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RRAGIO
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.rtipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RTIPO
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.scopo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SCOPO
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.splitcode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Customer ID (WUBS)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SPLITCODE
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.statorap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato Rapporto (CGO)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='STATORAP
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.tipmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='tipo Modifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPMOD
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPO
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.tipoag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOAG
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.tiporap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPORAP
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+'db_anarapbo.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Divisa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='db_anarapbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'db_anarapbo.ammont
+[]
+'db_anarapbo.areageo
+[]
+'db_anarapbo.cadstato
+[]
+'db_anarapbo.castatoc
+[]
+'db_anarapbo.castatom
+[]
+'db_anarapbo.categ01
+[]
+'db_anarapbo.categ02
+[]
+'db_anarapbo.categ03
+[]
+'db_anarapbo.categ04
+[]
+'db_anarapbo.categ05
+[]
+'db_anarapbo.categoria
+[]
+'db_anarapbo.coddip
+[]
+'db_anarapbo.coddipe
+[]
+'db_anarapbo.codicelr
+[]
+'db_anarapbo.codogg
+[]
+'db_anarapbo.continua
+[]
+'db_anarapbo.dac6
+[]
+'db_anarapbo.datamod
+[]
+'db_anarapbo.descrap
+[]
+'db_anarapbo.docfile
+[]
+'db_anarapbo.durat
+[]
+'db_anarapbo.flagdac6
+[]
+'db_anarapbo.flaglire
+[]
+'db_anarapbo.iban
+[]
+'db_anarapbo.idbase
+[]
+'db_anarapbo.idrapporto
+[]
+'db_anarapbo.impape
+[]
+'db_anarapbo.impchiu
+[]
+'db_anarapbo.macodice
+[]
+'db_anarapbo.mitgdoc
+[]
+'db_anarapbo.mitig
+[]
+'db_anarapbo.mitigdoc
+[]
+'db_anarapbo.modsvol
+[]
+'db_anarapbo.natura
+[]
+'db_anarapbo.noprot
+[]
+'db_anarapbo.prgimprap
+[]
+'db_anarapbo.ragio
+[]
+'db_anarapbo.rapporto
+[]
+'db_anarapbo.rarea
+[]
+'db_anarapbo.rcomp
+[]
+'db_anarapbo.rfreq
+[]
+'db_anarapbo.rimp
+[]
+'db_anarapbo.risglob
+[]
+'db_anarapbo.rragio
+[]
+'db_anarapbo.rtipo
+[]
+'db_anarapbo.scopo
+[]
+'db_anarapbo.splitcode
+[]
+'db_anarapbo.statorap
+[]
+'db_anarapbo.tipmod
+[]
+'db_anarapbo.tipo
+[]
+'db_anarapbo.tipoag
+[]
+'db_anarapbo.tiporap
+[]
+'db_anarapbo.valuta
+[]
+}
+*--*

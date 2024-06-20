@@ -1,0 +1,478 @@
+@import url("../fonts/OpenSans.css");
+html {
+	overflow:hidden;
+}
+body {
+	margin:0;
+	padding:0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#backcanvas{
+  position:absolute;
+  width:595px;
+  height:595px;
+  left:30px;
+  top:75px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.imgbottom {
+	width:100%;
+	height:10px;
+  left:0;
+}
+
+.tab_wrapper{
+  height:24px;
+  padding-right:2px;
+  float:left;
+  position:relative;
+  padding-left: 5px;
+  font-size: 14px;
+  background-color:#43afc3;
+  cursor: default;
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  margin: 0;
+  color: #fff;
+  padding-top: 1px;
+  font-family: Open Sans;
+  font-weight: 300;
+  border-top: 1px solid #b0b0b0;
+  border-right: 1px solid #b0b0b0;
+  border-left: 1px solid #b0b0b0;
+}
+
+#previewMask{
+  height:100%;  
+  border-bottom: 1px solid #b0b0b0;
+  border-right: 1px solid #b0b0b0;
+  border-left: 1px solid #b0b0b0;
+  float:left;
+  box-sizing: border-box;
+  overflow:auto;
+  width:100%;
+  background-color:#ffffff;
+}
+#navmenu_tabcontainer{
+  position: absolute;
+  top: 52px;
+  left: 30px;
+}
+
+#fieldList, #groupList{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  padding-left:10px;
+  font-family:sans-serif;
+  font-size:11px; 
+  line-height:23px;
+  white-space:no-wrap;
+  color:#ffffff;
+  font-weight:normal;
+}
+
+.mif-tree-wrapper {
+   line-height:20px; 
+   height:auto;
+   padding-bottom:15px;
+}
+
+.mif-tree-ghost .mif-tree-name{
+  line-height: 20px;
+}
+
+.mif-tree-wrapper span{
+  padding-bottom:0;
+  padding-top:0;
+  cursor:pointer;
+}
+
+
+.isFilter{
+  background-image:url('./images/parameters.png');
+  background-position:left center;
+}
+
+.group{
+  background-image:url('./images/groups.png');
+  background-position:left bottom;
+}
+
+.mif-tree-icon{
+  background-repeat:no-repeat;
+  width:0px;
+  height:12px;
+  padding:0;
+  padding-right:12px;
+  margin-left:6px;
+  display:inline-block;
+}
+
+.noFilter{
+  background-image:url('./images/variables.png');
+  background-position:left center;
+}
+
+.emptyGroup{
+  background-image:url('./images/groups.png');
+  background-position:left top;
+}
+
+.mif-tree-node-selected .mif-tree-icon{
+  background-position:right center;
+}
+
+.mif-tree-node-selected  .group{
+  background-position:right bottom;
+}
+
+.mif-tree-node-selected .noFilter{
+  background-position:right center;
+}
+
+.mif-tree-node-selected .emptyGroup{
+  background-position:right top;
+}
+
+.mif-tree-node-selected .root{
+  background-position:0% 0%;
+}
+
+.hiddenVariant{
+  background-position:left bottom;
+  color:#ababab;
+}
+
+.mif-tree-node-selected .hiddenVariant{
+  background-position:right bottom;
+  color:#ababab;
+}
+
+.hidden{
+   background-position:left top;
+   color:#ababab;
+}
+
+.mif-tree-node-selected .hidden{
+   background-position:right top;
+   color:#ababab;
+}
+
+.root{
+  background-image:url('../portalstudio/images/icon/maskparametersicon.png');
+  height:22px;
+  width:20px;
+  margin:0;
+  padding:0;
+}
+
+.mif-tree-name{
+  color:#000;
+  font-family:Open Sans;
+  font-weight: 300;
+}
+
+.mif-tree-node-selected .mif-tree-name {
+  color:#000;
+  font-family:Open Sans;
+  font-weight: 600;
+}
+
+.mif-tree-node-selected .mif-tree-delete {
+display: inline-block;
+height:16px;
+}
+
+.mif-tree-gadjet {
+  background-image: url(../portalstudio/images/panel/gadgets.png);
+}
+.mif-tree-gadjet-none {
+  background: none;
+} 
+.mif-tree-node {
+  background-image: url(../portalstudio/images/panel/vertical-line.png);
+}
+.mif-tree-wrapper .mif-tree-node-wrapper {
+  background-image: url(../portalstudio/images/panel/horizontal-line.png);
+}
+
+#i_preview_wrapper{
+  position:absolute;
+  display:none;
+  z-index:999;
+  background:#232323;
+  opacity:0.96;
+}
+#i_preview{
+  position:absolute;
+  top:0;
+  padding-top:0px;
+  border:0;
+  height:100%;
+  width:100%;
+  box-sizing:border-box;
+  background:#fff;
+}
+
+#i_preview_title{
+  overflow:hidden;
+  position:relative;
+  width:100%;
+  z-index:999;
+  font-family:Open Sans;
+  font-weight: 600;
+  font-size:14px;
+  color:#fff;
+  padding-top:5px;
+}
+
+#i_preview_title div{
+  display:inline-block;
+  vertical-align:middle;
+}
+
+#i_preview_close_button::after{
+  content:'\e736';
+  font-family:iMobileIcon;
+  font-weight: normal;
+  color:#00a0bd;
+  font-size:22px;
+}
+
+.showHidden{
+  display:inline-block;
+  color:#000;
+  margin-right:3px;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size:14px;
+  height:25px;
+  background:transparent;
+  border:0;
+  width:128px;
+  line-height:12px;
+}
+
+#showHidden{
+  width:105px;
+}
+
+#calculationList li, #actionList li{
+  list-style-type:none;
+  color:#000;
+  font-family:Open Sans;
+  font-weight: 300;
+  font-size:12px;
+  cursor:pointer;
+  line-height:23px;
+}
+
+#calculationList, #actionList{
+  margin:0;
+  padding-left:23px;
+}
+
+#calculationList .selected, #actionList .selected{
+  color:#000;
+  font-family:Open Sans;
+  font-weight: 600;
+}
+
+#calculationList .delete, #actionList .delete{
+  background-image:url('../portalstudio/images/icon/delete.png');
+  width:20px;
+  height:20px;
+  display:none;
+  margin-left:20px;
+}
+
+#calculationList .selected span, #actionList .selected span{
+  display:inline-block;
+}
+
+.contenuto{
+  color:#818181;
+  background-color:#fff;
+  font-family:Open Sans;
+  font-weight: 400;
+  font-size:11px;
+  border:1px solid #e3e3e3;
+}
+
+.titoli{
+  color:#fff;
+  background-color:#333;
+  text-align:left;
+  font-family:Open Sans;
+  font-weight: 300;
+  font-size:13px;
+  padding-left:6px;
+  height:20px;
+}
+
+.configCheck{
+  margin-left:10px;
+}
+
+
+#configPreviewButton{
+  color:#fff;
+  padding:4px;
+  padding-right:7px;
+  padding-left:7px;
+  border:0;
+  font-size:12px;
+  font-family:Open Sans;
+  font-weight: 300;
+  background-color:#43afc3;
+  margin-top:8px;
+  float:right;
+  margin-right:7px;
+}
+
+#previewConfigDiv{
+  height:120px;
+  position:absolute;
+  z-index:1000; 
+  overflow:hidden; 
+  width:210px; 
+  left:280px; 
+  top:40px;
+  display:none;
+}
+
+#previewConfigTitle{
+  margin-bottom:5px; 
+  padding-right:20px; 
+  padding-top:2px;
+  padding-right:2px
+}
+
+#addCalculation, #addAction {
+  display: inline-block;
+  float: right;
+}
+
+#addCalculation a, #addAction a{
+ display: inline-block; 
+ height: 18px; 
+ width: 18px;
+ margin-top: 5px;
+ margin-left: 7px;
+ text-decoration: none;
+}
+#addCalculation a::after, #addAction a::after{
+  content: '\e605';
+  font-family: iMobileIcon;
+  font-weight: normal;
+  color: #00A0BD;
+  font-size: 18px;
+  vertical-align: top;
+  line-height: 18px;
+}
+
+#searchPanel{
+  position:absolute;
+  z-index:999;
+  background:#fff;
+  width:500px;
+  height:250px;
+  border:1px solid #d5d5d5;
+  font-family:Open Sans;
+  font-size:12px;
+  top:100px;
+  left:100px;
+}
+
+#searchPanelTitle{
+  background:#000;
+  color:#fff;
+  font-weight:700;
+  height:24px;
+  line-height:24px;
+  padding-left:10px;
+}
+
+#searchPanelField{
+  margin-top:15px;
+  margin-left:10px;
+}
+
+#searchPanel{
+  display:none;
+}
+
+#searchPanelBody{
+  border-top:1px solid #d5d5d5;
+  border-bottom:1px solid #d5d5d5;
+  margin-top:10px;
+  height:150px;
+}
+
+#searchBtn{
+  font-family:Open Sans;
+  font-size:12px;
+  background-color:#00A0BD;  
+  color:#fff;
+  font-weight:300;
+  padding-top:1px 2px 1px 2px;
+  margin:2px;
+  cursor:pointer;
+  border:0;
+  width:60px;
+  position:absolute;
+  right:19px;
+  top:36px;
+}
+
+#findList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 7px;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 23px;
+  white-space: no-wrap;
+  color: #232323;
+}
+#findList ul {
+  padding: 0;
+  margin-left:0;
+  list-style-type: none;
+}
+#findList li {
+  cursor: pointer;
+  background-color:#f3f3f3;
+  margin-bottom:5px;
+}
+#findList li .resultName {
+  padding-left:5px;
+}
+#findList li:hover {
+  font-family: Open Sans;
+  font-weight: 300;
+  background-color:#00a0bd;
+  color:#fff;
+}
+#findList li .searchbold {
+  font-weight: 600;
+}
+
+#findList .selected {
+  font-family: Open Sans;
+  font-weight: 300;
+  cursor: default;
+  background-color:#00a0bd;
+  color:#fff;
+}
+

@@ -1,0 +1,220 @@
+ 3
+"Informazioni su rapporti"
+"rapopebo"
+"rapopebo"
+ 0
+ 0
+*
+"Anagrafica Rapporti"
+"anarapbo"
+"anarapbo"
+ 0
+ 0
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 0
+ 0
+*
+ 12
+""
+"[CASE(rapopebo.STATOREG,ý0ý,ý../images/grid_edit.gifý,ý1ý,ý../images/grid_edit.gifý,ý../images/grid_edit_x.gifý)]"
+"BTNEDT"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"[CASE(rapopebo.STATOREG,ý0ý,ý../images/grid_delete.gifý,ý1ý,ý../images/grid_delete.gifý,ý../images/grid_delete_x.gifý)]"
+"BTNDEL"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato Registrazione"
+"[CASE(rapopebo.STATOREG,ý0ý,ý../images/stato01.gifý,ý2ý,ý../images/stato2.gifý,ý3ý,ý../images/stato3.gifý,ý1ý,ý../images/stato01.gifý,ýý)]"
+"STATOREG"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Rapporto"
+"anarapbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"anarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Inizio / Fine Rapporto"
+"rapopebo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Registrazione"
+"rapopebo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Numero Progressivo"
+"rapopebo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"idbase"
+"rapopebo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato Registrazione"
+"rapopebo.STATOREG"
+"STATO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Informazione"
+"rapopebo.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DES1"
+"C"
+ 90
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 2
+"Anagrafica Rapporti()"
+"anarapbo.RAPPORTO=rapopebo.RAPPORTO"
+"Right outer"
+"anarapbo"
+"rapopebo"
+*
+"Tipo Registrazione(Tipo Informazione)"
+"tbtipreg.CODICE=rapopebo.TIPOOPRAP"
+"Right outer"
+"tbtipreg"
+"rapopebo"
+*
+ 1
+"rapopebo.CODDIPE"
+""
+"="
+"[GLOBALVAR(gCodDip)]"
+"AND"
+""
+"Upper([GLOBALVAR(gAzienda)]) <> ýZENITHý"
+*
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 16
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"R%25B%2BDGNK%7Fc%17%18%18%18kzh%0E%08%04QLNDsU%40%27SZM5%3F%1FO4%3B%21%3D%5DOM%3EEN%28Y%22F4%3A4O%25%2CL%3E%272QKoPGT5N+%03%11%3DZEj%2F%3AFA*1KXX-_%3E%3F%3F%3D2.0DOF%22%5DV%3DD%3D%23%40%3E%2F%5DB*W*%3D%3F%2F%5D%5C2%2B%24%21%26OB%27V8WVQNWS*%3E1%2B%40%2C8+JPO%3DGE%08%24Nk%3F*J%5E62%2FOV%5BwE%5B3%3C%25%1DO%220%2C%04%5EFym%3D%3B%3E%2FI1K%228%3B_9%3C%3AHP%22YQNZ5%268%1A-3-%25%246%25G%28%15%247%2FQU1%27%23_9D%25-VvLm%21T%3BL.5%2163%3FD3%25nK0B.E%3DB%18+C0O%400%00"
+"P+J%2FZ%3B%5CCz%40%3B%2678OLI2%26%3D_F%17%14gupvo%7Dv%0E%15BM%3AJ%3FU%22PImKO%25%27NFPB7%15%02%27%3F%1C+%3CH%29ZS%5E4%2BO%3B_BQ%05%24V%2C%5B%27%2C*%3CJ%5DV3%06%21.7%22%3C.C%27to%29QY%2F4%189E%06%22IZN%3C.%2B-9C%3FS%22%5C*Q%2F4Hr%3F%24T2%2B96F%242PA25%26XG%5E%3BC6_%5E144%3DD3M3%21%21W%21Y%40%22Y%3D7.%2BP84%06S_A%3C-%24%2B7VH2%2B%2C4%3D%3C*8A%40JY3E%3F60%21%3D%283%22%26HDP%3F4K+%0B%7F7G%21P%2B%5EF%3AK%29TD%5EY%28%5E%3ED%3ANS%3A4+V_%2CB%26OF%26%5CWK%2BX1%5B9%3C+%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

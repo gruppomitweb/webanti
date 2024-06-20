@@ -1,0 +1,96 @@
+ 2
+"Operazioni Extra Conto"
+"aeoprig"
+"aeoprig"
+ 125
+ 36
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 295
+ 152
+*
+ 8
+"Rapporto"
+"aeoprig.RAPPORTO"
+"RAPPORTO"
+"Char"
+ 25
+ 0
+*
+"Codice Fiscale"
+"aeoprig.CONNESINT"
+"CONNESINT"
+"Char"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Spedito"
+"aeoprig.ASPEDITO"
+"ASPEDITO"
+"Numeric"
+ 1
+ 0
+*
+"Data Oper."
+"aeoprig.ADATA"
+"ADATA"
+"Date"
+ 8
+ 0
+*
+"Prog. Spedizione"
+"aeoprig.APROG"
+"APROG"
+"Char"
+ 25
+ 0
+*
+"Nome File"
+"aeoprig.AFILE"
+"AFILE"
+"Char"
+ 15
+ 0
+*
+""
+"aeoprig.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+ 1
+"Soggetto"
+"personbo.CONNES=aeoprig.CONNESINT"
+"Right outer"
+"personbo"
+"aeoprig"
+*
+ 0
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 3
+.f.
+""
+*

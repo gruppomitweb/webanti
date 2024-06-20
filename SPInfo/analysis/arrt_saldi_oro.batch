@@ -1,0 +1,60 @@
+﻿* --- Resource Vers. 0.9
+arrt_saldi_oro
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:40
+description='Crea Saldi Annui Oro
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:24
+module_name='
+name='arrt_saldi_oro
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'saldioro.rapporto
+'saldioro.anno
+'saldioro.idbase
+'saldioro.importo3
+'saldioro.importo4
+'saldioro.importo5
+'aetesta.rapporto
+'aetesta.tipoag
+'aeannora.rapporto
+'aeannora.anno
+'aeannora.idbase
+'aeannora.importo3
+'aeannora.importo4
+'aeannora.importo5
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Tables
+[
+'opextrbo<table>
+'jnarapbo<table>
+'personbo<table>
+'japopebo<table>
+'intermbo<table>
+'jntestbo<table>
+'saldioro<table>
+'aetesta<table>
+'aeannora<table>
+]
+}
+I
+*--*
+￼[]
+*--*

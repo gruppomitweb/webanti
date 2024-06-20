@@ -1,0 +1,136 @@
+﻿* --- Resource Vers. 0.9
+opert_stampa_ope
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Crea i titolari effettivi per la stampa operazioni analitiche
+file_modified_on=#2022-11-02 12:37:19
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:33
+module_name='
+name='opert_stampa_ope
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.codfisc
+]
+'Tables
+[
+'operazbo<table>
+'zperazbo<table>
+'titopers<table>
+'titolabo<table>
+'personbo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_stampa_ope|Error|core::document|Update dependencies|Resource "qbe_stpope_s_1_sel.vqr" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Resource "qbe_stpope_s_1_sel.vqr" not found.
+resource_key='opert_stampa_ope
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_stampa_ope|Error|core::document|Update dependencies|Resource "qbe_stpope_s_3_sel.vqr" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Resource "qbe_stpope_s_3_sel.vqr" not found.
+resource_key='opert_stampa_ope
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_stampa_ope|Error|core::document|Update dependencies|Table "tmp_titeff" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Table "tmp_titeff" not found.
+resource_key='opert_stampa_ope
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_stampa_ope|Error|core::document|Update dependencies|Field "tmp_titeff.TECODOPE" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Field "tmp_titeff.TECODOPE" not found.
+resource_key='opert_stampa_ope
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_stampa_ope|Error|core::document|Update dependencies|Field "tmp_titeff.TECODSOG" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Field "tmp_titeff.TECODSOG" not found.
+resource_key='opert_stampa_ope
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opert_stampa_ope|Error|core::document|Update dependencies|Field "tmp_titeff.TETITEFF" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:33
+message='Field "tmp_titeff.TETITEFF" not found.
+resource_key='opert_stampa_ope
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

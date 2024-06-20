@@ -1,0 +1,72 @@
+﻿* --- Resource Vers. 0.9
+arfn_linkxper_save
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:29
+description='Collega Operazioni Multiple
+file_modified_on=#2018-06-11 07:20:48
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:53
+module_name='
+name='arfn_linkxper_save
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'xperazbo.idbase
+'xperazbo.colleg
+'xperazbo.flagfraz
+]
+'Libraries
+[
+'LibreriaMit<project>
+]
+'Routines
+[
+'arfn_linkxper_save
+]
+'Tables
+[
+'aerighe<table>
+'aetesta<table>
+'delegabo<table>
+'intestbo<table>
+'jntestbo<table>
+'personbo<table>
+'rapopebo<table>
+'tmp_allinearap<table>
+'rapotit<table>
+'operazbo<table>
+'fraziobo<table>
+'xperazbo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arfn_linkxper_save|Error|core::document|Update dependencies|Table "xoperazbo" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:53
+message='Table "xoperazbo" not found.
+resource_key='arfn_linkxper_save
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

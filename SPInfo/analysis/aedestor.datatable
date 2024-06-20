@@ -1,0 +1,714 @@
+﻿* --- Resource Vers. 0.9
+aedestor<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Storico AGE (Deleghe)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='aedestor
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'aedestor.progres
+'aedestor.idbase
+'aedestor.rapporto
+'aedestor.connesint
+'aedestor.aspedito
+'aedestor.adata
+'aedestor.aprog
+'aedestor.aoldprog
+'aedestor.afile
+'aedestor.aoldfile
+'aedestor.adataret
+'aedestor.cspedito
+'aedestor.cdata
+'aedestor.cprog
+'aedestor.coldprog
+'aedestor.cfile
+'aedestor.coldfile
+'aedestor.cdataret
+'aedestor.idrif
+'aedestor.nocodfisc
+'aedestor.adtpre
+'aedestor.cdtpre
+'aedestor.tipoag
+'aedestor.coint
+'aedestor.progdlg
+'aedestor.abbinato
+'aedestor.idesito
+'aedestor.datesito
+'aedestor.rspedito
+'aedestor.prog1
+'aedestor.prog2
+'aedestor.esitoanno
+'aedestor.progrec
+'aedestor.fileanno
+'aedestor.abbsaldi
+'aedestor.oldinter
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'aedestor.abbinato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Abbinato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABBINATO
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.abbsaldi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Abbinamento saldi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABBSALDI
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.adata
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='data Inizio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ADATA
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.adataret
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rettifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ADATARET
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.adtpre
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ADTPRE
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.afile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome File Spedizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AFILE
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.aoldfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome Vecchio File
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AOLDFILE
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.aoldprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Vecchio Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AOLDPROG
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.aprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='APROG
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.aspedito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Spedito Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ASPEDITO
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.cdata
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Chiusura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATA
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.cdataret
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='data Rettifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATARET
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.cdtpre
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDTPRE
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.cfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome file spedizione chiusura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFILE
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.coint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COINT
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.coldfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Vecchio file spedizione chiusura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLDFILE
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.coldprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Vecchio Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLDPROG
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.connesint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Delegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESINT
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.cprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Atuale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CPROG
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.cspedito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Spedizione Chiusura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CSPEDITO
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.datesito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Creazione Esito
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATESITO
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.esitoanno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ESITOANNO
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.fileanno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FILEANNO
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.idesito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Esito AGE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDESITO
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.idrif
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID RIferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDRIF
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.nocodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Estero
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOCODFISC
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.oldinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDINTER
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.prog1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROG1
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.prog2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROG2
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.progdlg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGDLG
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.progrec
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGREC
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.progres
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGRES
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.rspedito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RSPEDITO
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+'aedestor.tipoag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOAG
+state=3
+table_name='aedestor
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'aedestor.abbinato
+[]
+'aedestor.abbsaldi
+[]
+'aedestor.adata
+[]
+'aedestor.adataret
+[]
+'aedestor.adtpre
+[]
+'aedestor.afile
+[]
+'aedestor.aoldfile
+[]
+'aedestor.aoldprog
+[]
+'aedestor.aprog
+[]
+'aedestor.aspedito
+[]
+'aedestor.cdata
+[]
+'aedestor.cdataret
+[]
+'aedestor.cdtpre
+[]
+'aedestor.cfile
+[]
+'aedestor.coint
+[]
+'aedestor.coldfile
+[]
+'aedestor.coldprog
+[]
+'aedestor.connesint
+[]
+'aedestor.cprog
+[]
+'aedestor.cspedito
+[]
+'aedestor.datesito
+[]
+'aedestor.esitoanno
+[]
+'aedestor.fileanno
+[]
+'aedestor.idbase
+[]
+'aedestor.idesito
+[]
+'aedestor.idrif
+[]
+'aedestor.nocodfisc
+[]
+'aedestor.oldinter
+[]
+'aedestor.prog1
+[]
+'aedestor.prog2
+[]
+'aedestor.progdlg
+[]
+'aedestor.progrec
+[]
+'aedestor.progres
+[]
+'aedestor.rapporto
+[]
+'aedestor.rspedito
+[]
+'aedestor.tipoag
+[]
+}
+*--*

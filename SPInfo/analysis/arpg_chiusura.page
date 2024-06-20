@@ -1,0 +1,73 @@
+﻿* --- Resource Vers. 0.9
+arpg_chiusura
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:30
+description='Chiusura Massiva Rapporti
+file_modified_on=#2019-08-21 11:06:26
+location='
+measures={}
+modified_on=#2024-05-10 18:25:00
+module_name='
+name='arpg_chiusura
+state=1
+type='page
+used_resource_keys={
+'Hyperlinks
+[
+'arrt_moverap
+'arrt_sistema1
+'arrt_sisteman
+'arrt_sistemat
+'arrt_chiusura
+]
+'Others
+[
+'jsp\showmsg_portlet.jsp
+'jsp\showlog_portlet.jsp
+'arrt_imp_dati
+'arrt_imp_dati_multipli
+'arrt_imp_dati_ac
+]
+'Tables
+[
+'tbtipreg<table>
+'tbmacage<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_chiusura|Error|core::document|Update dependencies|Resource "arrt_imp_dati_telepass" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:00
+message='Resource "arrt_imp_dati_telepass" not found.
+resource_key='arpg_chiusura
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_chiusura|Error|core::document|Update dependencies|Resource "arrt_imp_dati_multipli_telepass" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:00
+message='Resource "arrt_imp_dati_multipli_telepass" not found.
+resource_key='arpg_chiusura
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

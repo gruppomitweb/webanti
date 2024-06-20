@@ -1,0 +1,122 @@
+ 3
+"Informazioni su titolari"
+"rapotit"
+"rapotit"
+ 5
+ 5
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 80
+ 97
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 286
+ 62
+*
+ 8
+"Numero Progressivo"
+"rapotit.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Inizio / Fine Rapporto"
+"rapotit.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Data Registrazione"
+"rapotit.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Tipo Informazione"
+"rapotit.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DES1"
+"C"
+ 90
+ 0
+*
+"idbase"
+"rapotit.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+""
+"rapotit.STATOREG"
+"STATO"
+"Char"
+ 1
+ 0
+*
+ 2
+"Tipo Registrazione(Tipo Informazione)"
+"tbtipreg.CODICE=rapotit.TIPOOPRAP"
+"Right outer"
+"tbtipreg"
+"rapotit"
+*
+"Titolari"
+"personbo.CONNES=rapotit.CONNESOPER"
+"Right outer"
+"personbo"
+"rapotit"
+*
+ 1
+"rapotit.CONNESCLI"
+""
+"="
+"?w_CODCLI"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"w_CODCLI"
+""
+"Char"
+"16"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 12
+.f.
+""
+*

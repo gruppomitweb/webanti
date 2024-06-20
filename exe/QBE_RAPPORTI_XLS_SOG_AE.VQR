@@ -1,0 +1,159 @@
+ 3
+"Anagrafica Rapporti"
+"jnarapbo"
+"jnarapbo"
+ 92
+ 93
+*
+"Soggetti Collegati"
+"jelegabo"
+"jelegabo"
+ 231
+ 6
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 375
+ 92
+*
+ 10
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Partita IVA"
+"personbo.PARTIVA"
+"PARTIVA"
+"C"
+ 14
+ 0
+*
+"Rapporto (Copia della testata)"
+"jelegabo.RAPPORTO"
+"RAPPORTO"
+"Char"
+ 25
+ 0
+*
+"Data Inizio"
+"jelegabo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+"Data Fine"
+"jelegabo.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+"Tipo Rapporto"
+"jnarapbo.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+*
+"Codice Divisa"
+"jnarapbo.VALUTA"
+"VALUTA"
+"Char"
+ 3
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Tipo Persona"
+"ýSý"
+"TIPOPERS"
+"Char"
+ 1
+ 0
+*
+"Descrizione"
+"jnarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+ 2
+"Anagrafica Rapporti()"
+"jnarapbo.RAPPORTO=jelegabo.RAPPORTO"
+"Right outer"
+"jnarapbo"
+"jelegabo"
+*
+"Anagrafica Persone/Società/Legali Rappresentanti(Intestatario (Non Intermediario))"
+"personbo.CONNES=jelegabo.CODINTER"
+"Right outer"
+"personbo"
+"jelegabo"
+*
+ 2
+"jelegabo.RAPPORTO"
+""
+">="
+"?w_daRappo"
+"AND"
+""
+*
+"jelegabo.RAPPORTO"
+""
+"<="
+"?w_aRappo"
+"AND"
+""
+*
+ 2
+"Codice Fiscale"
+"personbo.CODFISC"
+"Ascending"
+*
+"Rapporto (Copia della testata)"
+"jelegabo.RAPPORTO"
+"Ascending"
+*
+ 0
+ 0
+ 2
+"w_daRappo"
+"Rapporto (Copia della testata)"
+"Char"
+"25"
+"0"
+"Remove"
+*
+"w_aRappo"
+"Rapporto (Copia della testata)"
+"Char"
+"25"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 5
+.f.
+""
+.f.
+*

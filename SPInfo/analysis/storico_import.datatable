@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+storico_import<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Storico Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='storico_import
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'storico_import.numimp
+'storico_import.tabelle
+'storico_import.elim_imp
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'storico_import.elim_imp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Timestamp annullamento Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ELIM_IMP
+state=3
+table_name='storico_import
+type='field
+used_resource_keys={}
+I
+'storico_import.numimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='TimeStamp di Importazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMIMP
+state=3
+table_name='storico_import
+type='field
+used_resource_keys={}
+I
+'storico_import.tabelle
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Elenco Tabelle Importate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TABELLE
+state=3
+table_name='storico_import
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'storico_import.elim_imp
+[]
+'storico_import.numimp
+[]
+'storico_import.tabelle
+[]
+}
+*--*

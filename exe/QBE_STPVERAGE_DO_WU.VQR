@@ -1,0 +1,118 @@
+ 2
+"Appoggio Stampa Verifica AGE DO"
+"tmp_stpverage_do"
+"tmp_stpverage_do"
+ 5
+ 5
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 226
+ 224
+*
+ 11
+"IDBASE Archivio"
+"tmp_stpverage_do.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"N° Rapporto / Persona Fisica"
+"tmp_stpverage_do.NUMRAP"
+"NUMRAP"
+"C"
+ 25
+ 0
+*
+"Data Operazione"
+"tmp_stpverage_do.DATOPE"
+"DATOPE"
+"D"
+ 8
+ 0
+*
+"Tipo Errore"
+"tmp_stpverage_do.TIPOERR"
+"TIPOERR"
+"C"
+ 2
+ 0
+*
+"Motivo Errore"
+"tmp_stpverage_do.MOTIVO"
+"MOTIVO"
+"M"
+ 10
+ 0
+*
+"Descrizione Breve"
+"tmp_stpverage_do.DESCRIZ"
+"DESCRIZ"
+"C"
+ 65
+ 0
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Data Nascita"
+"personbo.DATANASC"
+"DATANASC"
+"D"
+ 8
+ 0
+*
+"Codice MacroAgente"
+"personbo.MACROAGENTE"
+"MACROAGENTE"
+"C"
+ 5
+ 0
+*
+"Stato di nascita"
+"personbo.NASSTATO"
+"NASSTATO"
+"C"
+ 30
+ 0
+*
+ 1
+"Soggetti"
+"personbo.CONNES=tmp_stpverage_do.NUMRAP"
+"Right outer"
+"personbo"
+"tmp_stpverage_do"
+*
+ 0
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 2
+.f.
+""
+.f.
+*

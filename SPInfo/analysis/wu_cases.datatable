@@ -1,0 +1,106 @@
+﻿* --- Resource Vers. 0.9
+wu_cases<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Cases
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='wu_cases
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'wu_cases.wccodice
+'wu_cases.wcnomcas
+'wu_cases.wcdescri
+'wu_cases.wcbehavior
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'wu_cases.wcbehavior
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Comportamento da Seguire
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WCBEHAVIOR
+state=3
+table_name='wu_cases
+type='field
+used_resource_keys={}
+I
+'wu_cases.wccodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WCCODICE
+state=3
+table_name='wu_cases
+type='field
+used_resource_keys={}
+I
+'wu_cases.wcdescri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WCDESCRI
+state=3
+table_name='wu_cases
+type='field
+used_resource_keys={}
+I
+'wu_cases.wcnomcas
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nome Caso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='WCNOMCAS
+state=3
+table_name='wu_cases
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'wu_cases.wcbehavior
+[]
+'wu_cases.wccodice
+[]
+'wu_cases.wcdescri
+[]
+'wu_cases.wcnomcas
+[]
+}
+*--*

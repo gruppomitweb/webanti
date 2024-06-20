@@ -1,0 +1,78 @@
+ 2
+"cpgroups"
+"cpgroups"
+"cpgroups"
+ 0
+ 0
+*
+"cpusrgrp"
+"cpusrgrp"
+"cpusrgrp"
+ 0
+ 0
+*
+ 3
+"Code"
+"cpgroups.code"
+"code"
+"N"
+ 6
+ 0
+*
+"Name"
+"cpgroups.name"
+"name"
+"C"
+ 20
+ 0
+*
+"Group Type"
+"cpgroups.grptype"
+"grptype"
+"C"
+ 1
+ 0
+*
+ 1
+"cpusrgrp(Group Code)"
+"cpgroups.code=cpusrgrp.groupcode"
+"Left outer"
+"cpgroups"
+"cpusrgrp"
+*
+ 1
+"cpgroups.code"
+""
+"not in"
+"SPQUERY_GROUPCODES_FOR_USER"
+"AND"
+""
+*
+ 0
+ 0
+ 1
+ 1
+"code"
+"User Code"
+"N"
+"6"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 1
+.f.
+""
+.f.
+.f.
+""
+*

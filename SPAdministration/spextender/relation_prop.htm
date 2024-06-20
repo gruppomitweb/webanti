@@ -1,0 +1,244 @@
+<html>
+ <head>
+  <title>Relation properties</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=windows-1252">
+  <link rel="stylesheet" href="extender.css" type="text/css">
+  <script src="../stdFunctions.js"></script>
+  <script src="../controls.js"></script>
+  <script src="../spadministration_help.js"></script>
+  <script>
+QueryString.keys = new Array();
+QueryString.values = new Array();
+var tables=null, fkFields=null, fields=null;
+var action;
+var currentTableIdx, foreignTableIdx=-1;
+var m_cProgName="spadministration_table_extender_relation";
+
+function QueryString(key) {
+	var value = null;
+  for (var i=0;i<QueryString.keys.length;i++) {
+    if (QueryString.keys[i]==key) {
+			value = QueryString.values[i];
+			break;
+		}
+	}
+	return value;
+}
+
+function QueryString_Parse() {
+	var query = window.location.search.substring(1);
+	var pairs = query.split("&");
+
+  for (var i=0;i<pairs.length;i++) {
+		var pos = pairs[i].indexOf('=');
+    if (pos >= 0) {
+			var argname = pairs[i].substring(0,pos);
+			var value = pairs[i].substring(pos+1);
+			QueryString.keys[QueryString.keys.length] = argname;
+			QueryString.values[QueryString.values.length] = value;
+		}
+	}
+}
+
+function DoLoad() {
+  QueryString_Parse();
+
+  action = QueryString("action");
+  tables = GetOpener().allTables;
+  currentTableIdx = QueryString("t");
+  fields = tables[currentTableIdx][6];
+  Ctrl("table_name").innerHTML = tables[currentTableIdx][2];
+
+  if (action=="edit") {
+    SetLinkedTable(tables[currentTableIdx][7][QueryString("r")][2], -1);
+    var f = tables[currentTableIdx][7][QueryString("r")][1].split(",");
+    var fk = tables[currentTableIdx][7][QueryString("r")][3].split(",");
+
+    for (var i=0; i<f.length; i++) {
+      Ctrl("fields").options[Ctrl("fields").options.length] = new Option(f[i], GetFieldIndex(currentTableIdx,f[i]), false);
+      Ctrl("fkFields").options[Ctrl("fkFields").options.length] = new Option(fk[i], GetFieldIndex(foreignTableIdx,fk[i]), false);
+    }
+  }
+
+  Ctrl("fkFields").focus();
+}
+
+function GetFieldIndex(tIdx, fieldname) {
+  var idx = -1;
+  for (var i=0; i<tables[tIdx][6].length && idx==-1; i++) {
+    if(tables[tIdx][6][i][0]==fieldname) idx=i;
+  }
+  return idx;
+}
+
+function OnFieldSelect(obj) {
+  if (obj.id=="fkFields") Ctrl("fields").selectedIndex = Ctrl("fkFields").options.selectedIndex;
+  else if (obj.id=="fields") Ctrl("fkFields").selectedIndex = Ctrl("fields").options.selectedIndex;
+}
+
+function OpenTablesList() {
+  var height = 336;
+  var width = 380;
+
+  windowLeft = (screen.width)?(screen.width-width)/2:100;
+  windowTop = (screen.height)?(screen.height-height-(height/4))/2:100;
+
+  if (IsNetscape() || IsMozilla()) {
+    width+=5; //Per Netscape e Mozilla, il width e height sono leggermente diversi
+    height+=4;
+  }
+  window.layerOpenForeground("../spextender/relation_tables.htm","ExtenderRelationOpenTablesList",'width=300,height=350',300,350,true,1);
+}
+
+function SetLinkedTable(tablename, idx) {
+  if (idx==-1) {
+    for (var i=0; i<tables.length && idx==-1; i++) {
+      if (tables[i][0]==tablename) {
+        idx=i;
+      }
+    }
+  }
+
+  if(tables[idx][6]==null) { //Non sono ancora stati caricati i suoi campi dal server
+    GetOpener().FetchData(idx);
+    tables = GetOpener().allTables;
+  }
+
+  foreignTableIdx = idx;
+  fkFields = tables[idx][6];
+  Ctrl("linkedtable").value = tablename;
+}
+
+function OpenFieldsList(action) {
+  if (foreignTableIdx<0) {
+    alert("Select the linked table.");
+  }
+  else {
+    var height = 250;
+    var width = 450;
+    var f, fk;
+
+    if (action=="edit") {
+      f = Ctrl("fields").options[Ctrl("fields").options.selectedIndex].value;
+      fk = Ctrl("fkFields").options[Ctrl("fkFields").options.selectedIndex].value;
+    }
+
+    windowLeft = (screen.width)?(screen.width-width)/2:100;
+    windowTop = (screen.height)?(screen.height-height-(height/4))/2:100;
+
+    if (IsNetscape() || IsMozilla()) {
+      width+=5; //Per Netscape e Mozilla, il width e height sono leggermente diversi
+      height+=4;
+    }
+    var url = "relation_fields.htm?action="+action+"&f="+f+"&fk="+fk+"&idx="+Ctrl("fkFields").options.selectedIndex;
+    window.layerOpenForeground(url,"ExtenderRelationOpenFieldsList",'width=300,height=350',300,350,true,1);
+  }
+}
+
+function SetField(action, idx, fIdx, fkIdx) {
+  if (action=="add") {
+    Ctrl("fields").options[Ctrl("fields").options.length] = new Option(fields[fIdx][0], fIdx, false);
+    Ctrl("fkFields").options[Ctrl("fkFields").options.length] = new Option(fkFields[fkIdx][0], fkIdx, false);
+  }
+  else if (action=="edit") {
+    Ctrl("fields").options[idx] = new Option(fields[fIdx][0], fIdx, false);
+    Ctrl("fkFields").options[idx] = new Option(fkFields[fkIdx][0], fkIdx, false);
+  }
+}
+
+function DeleteFields() {
+  Ctrl("fields").remove(Ctrl("fields").options.selectedIndex);
+  Ctrl("fkFields").remove(Ctrl("fkFields").options.selectedIndex);
+}
+
+function SetRelation() {
+  var fieldString="", fkFieldString="", fieldDescString="";
+
+  if(Ctrl("linkedtable").value==""){
+    alert("Select linked table.");
+  }
+  else {
+    for (var i=0; i<Ctrl("fields").options.length; i++) {
+      if(!Empty(fieldString)) fieldString+=",";
+      if(!Empty(fkFieldString)) fkFieldString+=",";
+      if(!Empty(fkFieldString)) fieldDescString+=",";
+
+      fieldString+=Ctrl("fields").options[i].text;
+      fkFieldString+=Ctrl("fkFields").options[i].text;
+      fieldDescString+=fields[Ctrl("fields").options[i].value][1];
+    }
+    GetOpener().UpdateRelation(action, Ctrl("linkedtable").value, tables[foreignTableIdx][2], fieldString, fkFieldString, fieldDescString, QueryString("et"), QueryString("er"), QueryString("t"), QueryString("r"));
+    WindowClose();
+  }
+}
+function CloseWindow() {
+  WindowClose();
+}
+function ManageKeys(e) {
+  if(e.keyCode==13){
+    if(GetEventSrcElement(e).id=="fkFields" || GetEventSrcElement(e).id!="fields"){
+      OpenFieldsList('edit');
+    }
+    else {
+      SetRelation();
+    }
+  }
+  else if(e.keyCode==27) CloseWindow();
+}
+  </script>
+ </head>
+ <body onload="DoLoad()" onhelp="CancelHelp(event)" onkeydown="ManageKeys(event)">
+  <table border="1" width="482" cellpadding="0" cellspacing="1" align="center" height="285">
+   <tr style="height:22">
+    <td class="titoli" colspan="2" align="center" onselectstart="return false">Foreign key definition</td>
+   </tr>
+   <tr style="height:48">
+    <td colspan="2" align="center">
+     <label style="display: inline-block" onselectstart="return false">Linked Table:</label>
+     <input id="linkedtable" type="text" style="display: inline-block" maxlength="144" disabled>
+     <input id="linkedtable_btn" type="button" class="bottoni" value="?" style="display: inline-block" onclick="OpenTablesList()">
+    </td>
+   </tr>
+   <tr>
+    <td style="width:50%;height:155">
+     <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0">
+      <tr style="height:20">
+       <td class="titoli" onselectstart="return false">Foreign <u>k</u>ey</td>
+      </tr>
+      <tr>
+       <td>
+        <select class="expression_textarea" id="fkFields" size="7" style="width:100%;height:100%" onchange="OnFieldSelect(this)" ondblclick="OpenFieldsList('edit')" accesskey="k">
+        </select>
+       </td>
+      </tr>
+     </table>
+    </td>
+    <td style="width:50%;height:155">
+     <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0">
+      <tr style="height:20">
+       <td class="titoli" onselectstart="return false">to <u>f</u>ield of <span id="table_name"></span></td>
+      </tr>
+      <tr>
+       <td>
+        <select class="expression_textarea" id="fields" size="7" style="width:100%;height:100%" onchange="OnFieldSelect(this)" ondblclick="OpenFieldsList('edit')" accesskey="f">
+        </select>
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+   <tr style="height:20">
+    <td align="center" colspan="2" class="button-container">
+     <button onclick="OpenFieldsList('add')" class="bottoni">+</button>&nbsp;
+     <button onclick="DeleteFields()" class="bottoni">-</button>&nbsp;
+    </td>
+   </tr>
+   <tr>
+    <td colspan="2" height="20" class="footer-button-container">
+     <button onclick="SetRelation()" accesskey="o" class="bottoni confirm"><u>O</u>K</button>
+     <button onclick="WindowClose()" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+    </td>
+   </tr>
+  </table>
+ </body>
+</html>

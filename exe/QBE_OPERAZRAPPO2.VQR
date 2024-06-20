@@ -1,0 +1,142 @@
+ 1
+"Frazionate"
+"fraziobo"
+"fraziobo"
+ 0
+ 0
+*
+ 10
+"Data Operazione"
+"fraziobo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Numero Progressivo"
+"fraziobo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Totale Operazione"
+"fraziobo.TOTLIRE/100"
+"TOTLIRE"
+"N"
+ 15
+ 2
+*
+"di cui contanti"
+"fraziobo.TOTCONT/100"
+"TOTCONT"
+"N"
+ 15
+ 2
+*
+"Stato registrazione"
+"fraziobo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+"Divisa"
+"fraziobo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+"Tipo Intermediaro"
+"ýFrazionataý"
+"TIPO"
+"C"
+ 11
+ 0
+*
+"Idbase"
+"fraziobo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Stato registrazione"
+"[CASE(fraziobo.STATOREG,ý0ý,ýAttivaý,ý1ý,ýAttiva dopo modificaý,ý2ý,ýCopia di Modificataý,ý3ý,ýCancellataý,ýStato non rilevatoý)]"
+"STATO"
+"C"
+ 20
+ 0
+*
+"Colore"
+"[CASE(fraziobo.STATOREG,ý0ý,ý#00FF00ý,ý1ý,ý#0000FFý,ý2ý,ý#FF0000ý,ý#FFFF00ý)]"
+"COLORE"
+"C"
+ 7
+ 0
+*
+ 0
+ 2
+"fraziobo.RAPPORTO"
+""
+"="
+"?w_rapporto"
+"AND"
+""
+*
+"1"
+""
+"="
+"?w_falso"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_rapporto"
+"Rapporto Collegato"
+"C"
+"25"
+"0"
+""
+""
+*
+"w_falso"
+"Per la griglia"
+"N"
+"1"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 6
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"v_1x%3EA%5DEP%3A%1EM%21%5C%23X3%251E%24%27%3FG+%3Du%2CI%406%3B%1517%3F+.%21H%3FxW%22%2875%7FC%3A%18YA41%3B%24YPK%2BmP%3D%25GFC6%25%04%2B%22ZJ_%2FM6U%7F%3D%405%3B%3C_.%2C8REDQYHKZ-+G+81%3A%279JIC51%2BF5V8%06%21%0299%3CQG%2C%5DRB9W2%275U1%2C%06%259%24I6F%27%3FW9%3F6P.Z7%1A%1FGPCuC%2FV9%3D0%27%3C%10%5D0uV%28%3F%24%23%3E4MM%5C%1B%04O%02%3F.-%2BEM%27l%5BbZE%3A%22%223%2C%26t%40+m%1CJDSV1S1%2F.%5D%3C%28%26WGR%212%28%3F%3C%29%1C%40%5C8%5B%3CNUXK%27%40F3%7F_ZF%06D%3B%2F%3DI%00"
+"tXFKYJ%2CG%23l8%25%40%2CFLiG1%3B23%19G%26VM%5CSS%5C%05M%3C%40*C%2CU%5D%3F%27l*1%27QEO8%21U%25%5E.J%1ESD%5B%5BVL%3DP%2BOC2%26%28%27B%5CxOBB+%3DOkh6%22%26%2F%134%2BZ0%24w%5D%29c%24%28B%23Y%11Y%22-7Zl-C+%21%22R%3C%18%24%40%22A*5%5DO%22v6WV%3B3OIQ%23%28VRVHN%3A+%23%5E%26%5Ej547%3B%213Ap%5DLwJsP%2B7%23%27%01*+ZV7PR723%0BH%5Dh%1AU5_I%2FD%2CZ%25u5W9%256G.%223%21%25N5X%5B%1C%16L.%27RMN*4%3D%3BMOL%3C%5ER%5CT%3E%05%3C%1FO885%5B%27Z%40J%23FI%2C.h%3F*%3B%2BP%3B%3D%1E%00"
+""
+""
+"native"
+ 0
+ 0
+*

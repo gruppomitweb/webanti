@@ -1,0 +1,429 @@
+﻿* --- Resource Vers. 0.9
+tmp_stprapporti<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Appoggio per stampa rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_stprapporti
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_stprapporti.rapporto
+'tmp_stprapporti.descrap
+'tmp_stprapporti.tiporap
+'tmp_stprapporti.valuta
+'tmp_stprapporti.tipoag
+'tmp_stprapporti.numprog
+'tmp_stprapporti.dataope
+'tmp_stprapporti.datareg
+'tmp_stprapporti.statoreg
+'tmp_stprapporti.idereg
+'tmp_stprapporti.tipooprap
+'tmp_stprapporti.connesoper
+'tmp_stprapporti.tipoleg
+'tmp_stprapporti.codinter
+'tmp_stprapporti.dataini
+'tmp_stprapporti.datafine
+'tmp_stprapporti.scopo
+'tmp_stprapporti.natura
+'tmp_stprapporti.risglob
+'tmp_stprapporti.dataprof
+'tmp_stprapporti.datarevprof
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_stprapporti.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Intestatario (Non Intermediario)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODINTER
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.connesoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Soggetto Operante Conto Terzi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONNESOPER
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.datafine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Fine
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAFINE
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Inizio 
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAINI
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Inizio / Fine Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAOPE
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.dataprof
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Profilatura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAPROF
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.datareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Registrazione 
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAREG
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.datarevprof
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Revisione Profilatura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAREVPROF
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.descrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESCRAP
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.idereg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Idreg
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDEREG
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.natura
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Natura del rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NATURA
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Numero Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMPROG
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPPORTO
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.risglob
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rischio Globale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RISGLOB
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.scopo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Scopo del rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SCOPO
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.statoreg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='STATOREG
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.tipoag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo per Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOAG
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.tipoleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Legame Sogg.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOLEG
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.tipooprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Informazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOOPRAP
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.tiporap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPORAP
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+'tmp_stprapporti.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Divisa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='VALUTA
+state=3
+table_name='tmp_stprapporti
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_stprapporti.codinter
+[]
+'tmp_stprapporti.connesoper
+[]
+'tmp_stprapporti.datafine
+[]
+'tmp_stprapporti.dataini
+[]
+'tmp_stprapporti.dataope
+[]
+'tmp_stprapporti.dataprof
+[]
+'tmp_stprapporti.datareg
+[]
+'tmp_stprapporti.datarevprof
+[]
+'tmp_stprapporti.descrap
+[]
+'tmp_stprapporti.idereg
+[]
+'tmp_stprapporti.natura
+[]
+'tmp_stprapporti.numprog
+[]
+'tmp_stprapporti.rapporto
+[]
+'tmp_stprapporti.risglob
+[]
+'tmp_stprapporti.scopo
+[]
+'tmp_stprapporti.statoreg
+[]
+'tmp_stprapporti.tipoag
+[]
+'tmp_stprapporti.tipoleg
+[]
+'tmp_stprapporti.tipooprap
+[]
+'tmp_stprapporti.tiporap
+[]
+'tmp_stprapporti.valuta
+[]
+}
+*--*

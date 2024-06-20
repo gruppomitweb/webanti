@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="39981008">
+  <CodifyName>armt_tbcondotta</CodifyName>
+  <Name>armt_tbcondotta.mstdef</Name>
+  <Title>Tipo di condotta</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="224801488"></Title>
+    <Note/>
+    <JPG x="8" y="9">armt_tbcondotta_usr_1</JPG>
+    <Item type="campo" x1="80" y1="18" x2="122" y2="38">
+      <Name LinkID="151394045">CODICE</Name>
+      <Comment>Codice</Comment>
+      <Key>key1</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="45" x2="452" y2="65">
+      <Name LinkID="146237596">DESCRI</Name>
+      <Comment>Descrizione</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="544" y1="45" x2="576" y2="65">
+      <Name LinkID="104765362">RISCHIO</Name>
+      <Comment>Indice di rischio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

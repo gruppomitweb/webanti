@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>Estrae un file zip</description>
+    <note>https://www.html.it/articoli/java-gestire-file-zip/</note>
+    <function>
+        <name>unzip</name>
+        <description>estrae lo zip</description>
+        <type>V</type>
+        <parameter>
+            <name>zipFilePath</name>
+            <description>path del file zip da estrarre i file</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>destDirPath</name>
+            <description>path di destinazione dei file</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>zip</name>
+        <description>Crea il file zip</description>
+        <type>V</type>
+        <parameter>
+            <name>zipFilePath</name>
+            <description>Path del file zip da creare</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>files</name>
+            <description>Lista dei file prodotti da inserire nello zip (si può omettere se si inserisce l&apos;elenco nel mcCelle nel campo memo utilizzando il metodo SetMcCelle prima di chimare questo metodo)</description>
+            <type>O</type>
+            <classname>List&lt;File&gt;</classname>
+        </parameter>
+        <parameter>
+            <name>filetozip</name>
+            <description>singolo file da zippare con l&apos;intero percorso</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>getMcCelle</name>
+        <description>Ritorna il memory cursor dei file estratti</description>
+        <type>MC</type>
+        <classname>mcCellaExcel.MCRDef</classname>
+    </function>
+    <function>
+        <name>setMcCelle</name>
+        <description>Setta il memory cursor dei file estratti (ogni volta che si setta viene azzerato)</description>
+        <type>V</type>
+        <parameter>
+            <name>pmcCelle</name>
+            <description></description>
+            <type>MC</type>
+            <classname>mcCellaExcel.MCRDef</classname>
+        </parameter>
+    </function>
+    <variable>
+        <name>mcCelle</name>
+        <description>file letti dallo zip</description>
+        <type>MC</type>
+        <classname>mcCellaExcel.MCRDef</classname>
+    </variable>
+</class>

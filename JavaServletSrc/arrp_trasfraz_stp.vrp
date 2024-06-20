@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Consolidamento Frazionate -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_trasfraz_stp||version||4.6||title||Consolidamento Frazionate||query||qbe_trasfraz_stp||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||true||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2016-03-10||date_rev||2016-03-14||form_class|| ||grid_dx|| ||grid_dy|| ||grid_show||0||grid_use||0||snaplines_show||0||language|| ||merge||false||modcnt||8||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding||ISO-8859-1||hsl||false||lock_items||false||maxcount||44||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||120||uid||HAVZOVNRUF||sequence||2||bb_sequence||3||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||152||uid||YMQPVZZAQO||sequence||3||bb_sequence||4||page||1|||type||Group_top||comment||COllegamento||exp||qbe_trasfraz_stp.c_COLLEG||name||group1||y||122||uid||AVLAUJEVAS||sequence||6||bb_sequence||7||page||1||start_each_on_page||true||reprint_header||true|||type||Group_down||comment||COllegamento||exp||qbe_trasfraz_stp.c_COLLEG||name||group1||y||146||uid||NLBXPMWDWI||sequence||7||bb_sequence||8||page||1||reprint_header||true|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||name||label0_28||uid||KYOSACASTH||page||1||x||16||y||4||w||1100||h||21||sequence||8||global_font||false||font||Arial||font_size||11||font_weight||bold||removefromout||CSV,CSVS,XLS|||type||Label||value||Consolidamento Frazionate||text_type||constant||name||label0||uid||BWWEJDMWBS||page||1||x||16||y||30||w||1105||h||32||sequence||32||align||center||global_font||false||font||Arial||font_size||16||font_weight||bold||removefromout||CSV,CSVS,XLS|||type||Expr||exp||_dataini||name||Expr39||uid||CCEXVYFQTP||output_name||CSV,CSVS,XLS||page||1||x||109||y||65||w||84||h||22||sequence||38||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||_datafin||name||Expr39_43||uid||MDMHBGNDBE||output_name||CSV,CSVS,XLS||page||1||x||307||y||65||w||84||h||22||sequence||38||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Inizio Periodo:||text_type||constant||name||label41||uid||QAAJTIWOFC||page||1||x||20||y||68||w||86||h||13||sequence||41||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||removefromout||CSV,CSVS,XLS|||type||Label||value||Fine Periodo:||text_type||constant||name||label41_44||uid||GXMVVPSAIK||page||1||x||218||y||68||w||86||h||13||sequence||41||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold||removefromout||CSV,CSVS,XLS|||type||Box||name||Box17_44||x||16||y||89||w||1073||h||0||uid||VAHEAWBKBL||sequence||19||page||1||border_width||1||stretch_to_right||true|||type||Label||value||Divisa||text_type||constant||name||label15||uid||YZOHZBGDOP||page||1||x||830||y||92||w||33||h||19||sequence||17||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Data Oper.||text_type||constant||name||label9||uid||NBGWCMEHQU||page||1||x||223||y||94||w||71||h||19||sequence||11||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Rapporto/Cliente Occasionale||text_type||constant||name||label11||uid||LAVMXHJBXT||page||1||x||385||y||94||w||175||h||19||sequence||13||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Data Reg.||text_type||constant||name||label10||uid||OYMKPAWTTT||page||1||x||304||y||94||w||71||h||19||sequence||12||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Totale Operazione||text_type||constant||name||label16||uid||XULNLKERHG||page||1||x||876||y||94||w||126||h||19||sequence||18||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Collegamento||text_type||constant||name||label6||uid||RSFABICWRF||page||1||x||16||y||94||w||78||h||19||sequence||8||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||N. Prog.||text_type||constant||name||label8||uid||SXJOSFORXB||page||1||x||139||y||94||w||79||h||19||sequence||10||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box17||x||16||y||114||w||1073||h||2||uid||CBJCPDGPJT||sequence||19||page||1||border_width||1||stretch_to_right||true|||type||Expr||exp||qbe_trasfraz_stp.c_COLLEG||len||12||dec||0||name||expr18||uid||LYUVYJQXKX||output_name||CodiceCollegamento||page||1||x||16||y||126||w||90||h||18||sequence||21||global_font||false||font||Tahoma||font_size||8||font_weight||bold||print_when_change_group||qbe_trasfraz_stp.c_COLLEG||print_when_change_groupuid||AVLAUJEVAS|||type||Expr||exp||arfn_fdate(qbe_trasfraz_stp.c_DATAOPE)||dec||0||name||expr21||uid||ZRSYSOUVYD||output_name||DataOperazione||page||1||x||223||y||126||w||71||h||18||sequence||24|||type||Expr||exp||qbe_trasfraz_stp.c_NUMPROG||len||11||dec||0||name||expr20||uid||MFLVCKDFTI||output_name||NumeroProgressivo||page||1||x||137||y||126||w||79||h||18||sequence||23|||type||Expr||exp||iif(Empty(qbe_trasfraz_stp.c_RAPPORTO),qbe_trasfraz_stp.c_CONNESCLI,qbe_trasfraz_stp.c_RAPPORTO)||len||25||dec||0||name||expr23||uid||DHCWIGXVNC||output_name||RapportoCollegato||page||1||x||385||y||126||w||120||h||18||sequence||26|||type||Expr||exp||qbe_trasfraz_stp.c_SEGNO||len||1||dec||0||name||expr19||uid||EQEHHPAYGZ||output_name||Segno||page||1||x||111||y||126||w||19||h||18||sequence||22||global_font||false||font||Tahoma||font_size||8||font_weight||bold||print_when_change_group||qbe_trasfraz_stp.c_COLLEG||print_when_change_groupuid||AVLAUJEVAS|||type||Expr||exp||iif(Empty(qbe_trasfraz_stp.c_RAPPORTO),qbe_trasfraz_stp.c_RAGSOC,qbe_trasfraz_stp.c_DESCRAP)||len||50||dec||0||name||expr24||uid||PWMWKCDEOS||output_name||Descrizione||page||1||x||513||y||126||w||308||h||18||sequence||27|||type||Expr||exp||qbe_trasfraz_stp.c_VALUTA||len||3||dec||0||name||expr27||uid||GNRIJZQALF||output_name||Divisa||page||1||x||830||y||126||w||33||h||18||sequence||30|||type||Expr||exp||qbe_trasfraz_stp.c_TOTLIRE/100||type_exp||numeric||len||15||dec||2||name||expr28||uid||APVKDRDCTM||output_name||TotaleOperazione||page||1||x||876||y||126||w||120||h||18||sequence||31||picture||999,999,999.99||align||right|||type||Expr||exp||arfn_fdate(qbe_trasfraz_stp.c_DATAREG)||dec||0||name||expr22||uid||SASHCJYZXH||output_name||DataRegistrazione||page||1||x||304||y||126||w||71||h||18||sequence||25|||type||Box||name||Box17_38||x||16||y||148||w||1073||h||2||uid||KBEXQOILYG||sequence||19||page||1||border_width||1||stretch_to_right||true|||type||Label||value||Str(nTotalPages, 4, 0)||text_type||expression||name||label5||uid||CBQMKTUELM||output_name||CSV,CSVS,XLS||page||1||x||982||y||155||w||103||h||17||sequence||37||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;||text_type||expression||name||label4||uid||WKKQNFALIX||output_name||CSV,CSVS,XLS||page||1||x||752||y||155||w||225||h||17||sequence||36||align||right||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)||text_type||expression||name||label3||uid||GOJBMSQIMZ||page||1||x||16||y||155||w||341||h||17||sequence||35||global_font||false||font||Arial||font_size||8||font_weight||normal||removefromout||CSV,CSVS,XLS||| -->
+
+<REPORT NAME="arrp_trasfraz_stp" TITLE="Consolidamento Frazionate" QUERY="qbe_trasfraz_stp" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="true" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_trasfraz_stp.COLLEG" TYPE="C" LEN="12" DEC="0" />
+    <FIELD NAME="qbe_trasfraz_stp.SEGNO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_trasfraz_stp.NUMPROG" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_trasfraz_stp.DATAOPE" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_trasfraz_stp.DATAREG" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_trasfraz_stp.RAPPORTO" TYPE="C" LEN="25" DEC="0" />
+    <FIELD NAME="qbe_trasfraz_stp.DESCRAP" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_trasfraz_stp.CONNESCLI" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_trasfraz_stp.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_trasfraz_stp.VALUTA" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_trasfraz_stp.TOTLIRE" TYPE="N" LEN="15" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="120" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="4" X="16" YY="25" XX="1116"
+                    ALIGN="L"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Consolidamento Frazionate" EXPRTYPE="constant"
+                    Y="30" X="16" YY="62" XX="1121"
+                    ALIGN="C"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="16"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="_dataini" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="65" X="109" YY="87" XX="193"
+                    SYMNAME="CSV,CSVS,XLS"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    LEN="10"
+                    />
+              <ITEM OBJ="espressione" NAME="_datafin" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="65" X="307" YY="87" XX="391"
+                    SYMNAME="CSV,CSVS,XLS"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    LEN="10"
+                    />
+              <ITEM OBJ="stringa" NAME="Inizio Periodo:" EXPRTYPE="constant"
+                    Y="68" X="20" YY="81" XX="106"
+                    ALIGN="R"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Fine Periodo:" EXPRTYPE="constant"
+                    Y="68" X="218" YY="81" XX="304"
+                    ALIGN="R"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="89" X="16" XX="1090" BORDERWIDTH="1"
+                    ALIGN="L"
+                    STRETCH="true"
+                    />
+              <ITEM OBJ="stringa" NAME="Divisa" EXPRTYPE="constant"
+                    Y="92" X="830" YY="111" XX="863"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Collegamento" EXPRTYPE="constant"
+                    Y="94" X="16" YY="113" XX="94"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="N. Prog." EXPRTYPE="constant"
+                    Y="94" X="139" YY="113" XX="218"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Oper." EXPRTYPE="constant"
+                    Y="94" X="223" YY="113" XX="294"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Reg." EXPRTYPE="constant"
+                    Y="94" X="304" YY="113" XX="375"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Rapporto/Cliente Occasionale" EXPRTYPE="constant"
+                    Y="94" X="385" YY="113" XX="560"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Totale Operazione" EXPRTYPE="constant"
+                    Y="94" X="876" YY="113" XX="1002"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="114" X="16" YY="116" XX="1089"
+                    ALIGN="L"
+                    STRETCH="true"
+                    UID="CBJCPDGPJT" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="box_end" UID="CBJCPDGPJT"/>
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="1" FOOTH="5" SYMNAME="" UID="AVLAUJEVAS" TOP="121" BOTTOM="144" EXPRESSION="qbe_trasfraz_stp.c_COLLEG" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="true" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+          <SECTION TYPE="group" HEADH="23" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="espressione" NAME="qbe_trasfraz_stp.c_COLLEG" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="16" YY="21" XX="106"
+                            SYMNAME="CodiceCollegamento"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            FONTSTYLE="B"
+                            LEN="12"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_trasfraz_stp.c_SEGNO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="111" YY="21" XX="130"
+                            SYMNAME="Segno"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            FONTSTYLE="B"
+                            LEN="1"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_trasfraz_stp.c_NUMPROG" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="137" YY="21" XX="216"
+                            SYMNAME="NumeroProgressivo"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="11"
+                            />
+                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_trasfraz_stp.c_DATAOPE)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="223" YY="21" XX="294"
+                            SYMNAME="DataOperazione"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_trasfraz_stp.c_DATAREG)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="304" YY="21" XX="375"
+                            SYMNAME="DataRegistrazione"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="iif(Empty(qbe_trasfraz_stp.c_RAPPORTO),qbe_trasfraz_stp.c_CONNESCLI,qbe_trasfraz_stp.c_RAPPORTO)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="385" YY="21" XX="505"
+                            SYMNAME="RapportoCollegato"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="25"
+                            />
+                      <ITEM OBJ="espressione" NAME="iif(Empty(qbe_trasfraz_stp.c_RAPPORTO),qbe_trasfraz_stp.c_RAGSOC,qbe_trasfraz_stp.c_DESCRAP)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="513" YY="21" XX="821"
+                            SYMNAME="Descrizione"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="50"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_trasfraz_stp.c_VALUTA" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="830" YY="21" XX="863"
+                            SYMNAME="Divisa"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_trasfraz_stp.c_TOTLIRE/100" ITEMTYPE="N" EXPRTYPE="expression"
+                            Y="3" X="876" YY="21" XX="996"
+                            SYMNAME="TotaleOperazione"
+                            ALIGN="R"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            SAYPIC="999,999,999.99"
+                            LEN="15"
+                            DEC="2"
+                            />
+          </SECTION>
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="1" X="16" YY="3" XX="1089"
+                    ALIGN="L"
+                    STRETCH="true"
+                    UID="KBEXQOILYG" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="box_end" UID="KBEXQOILYG"/>
+  </SECTION>
+  <PAGEFOOTER Y="149" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="2" X="16" YY="19" XX="357"
+                    ALIGN="L"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="2" X="752" YY="19" XX="977"
+                    SYMNAME="CSV,CSVS,XLS"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="2" X="982" YY="19" XX="1085"
+                    SYMNAME="CSV,CSVS,XLS"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

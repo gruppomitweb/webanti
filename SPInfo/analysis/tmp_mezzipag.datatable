@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+tmp_mezzipag<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Mezzi di pagamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_mezzipag
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_mezzipag.mpcodice
+'tmp_mezzipag.mpdescri
+'tmp_mezzipag.mpflgval
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_mezzipag.mpcodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MPCODICE
+state=3
+table_name='tmp_mezzipag
+type='field
+used_resource_keys={}
+I
+'tmp_mezzipag.mpdescri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MPDESCRI
+state=3
+table_name='tmp_mezzipag
+type='field
+used_resource_keys={}
+I
+'tmp_mezzipag.mpflgval
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Valido per
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MPFLGVAL
+state=3
+table_name='tmp_mezzipag
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_mezzipag.mpcodice
+[]
+'tmp_mezzipag.mpdescri
+[]
+'tmp_mezzipag.mpflgval
+[]
+}
+*--*

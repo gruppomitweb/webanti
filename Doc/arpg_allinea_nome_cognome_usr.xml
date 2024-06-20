@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="16138876">
+  <CodifyName>arpg_allinea_nome_cognome</CodifyName>
+  <Name>arpg_allinea_nome_cognome.pagedef</Name>
+  <Title>Appoggio per allineamento anagrafiche</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="154721420"></Title>
+    <Note/>
+    <JPG x="0" y="7">arpg_allinea_nome_cognome_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="211" x2="1092" y2="224">
+      <Name LinkID="200100516">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="198" x2="1092" y2="211">
+      <Name LinkID="170510476">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="322" y1="174" x2="434" y2="190">
+      <Name LinkID="16137356">c_CODFISC</Name>
+      <Help></Help>
+      <Expression>c_CODFISC</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="640" y1="70" x2="766" y2="90">
+      <Name LinkID="174454504">Countot</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="288" y1="49" x2="414" y2="69">
+      <Name LinkID="174454495">Countok</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="5" y1="172" x2="317" y2="192">
+      <Name LinkID="59057524">RAGSOC</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="32" y1="35" x2="190" y2="117">
+      <Name LinkID="120843909">ALLINEAMENTO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="56" y1="98" x2="88" y2="122">
+      <Name LinkID="16137356">images/search.gif</Name>
+      <Image>images/search.gif</Image>
+      <Hyperlink>arpg_allinea_nome_cognome</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Ricerca in base ai parametri</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="288" y1="89" x2="414" y2="109">
+      <Name LinkID="174454502">Countpr</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="472" y1="89" x2="598" y2="109">
+      <Name LinkID="174455302">Countpr2</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="472" y1="47" x2="598" y2="67">
+      <Name LinkID="93980957">Countko</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="439" y1="172" x2="601" y2="192">
+      <Name LinkID="206831244">NOME</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="606" y1="172" x2="772" y2="192">
+      <Name LinkID="214567239">COGNOME</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="96" y1="98" x2="128" y2="122">
+      <Name LinkID="16137356">images/save.gif</Name>
+      <Image>images/save.gif</Image>
+      <Hyperlink>Update()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Salva le modifiche effettuate</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="136" y1="98" x2="168" y2="122">
+      <Name LinkID="16137356">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_save_nome_cognome_alliniati</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Aggiorna Archivio Unico</Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

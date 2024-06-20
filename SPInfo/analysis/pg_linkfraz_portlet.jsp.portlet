@@ -1,0 +1,68 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_linkfraz_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:19
+description='
+file_modified_on=#2024-05-10 18:19:36
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:44
+module_name='
+name='pg_linkfraz_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.ragsoc
+'anarapbo.rapporto
+'anarapbo.descrap
+]
+'Hyperlinks
+[
+'armt_ofrazionate
+'arfn_likfraz_save
+]
+'Queries
+[
+'qbe_linkfraz.vqr
+]
+'Tables
+[
+'personbo<table>
+'anarapbo<table>
+]
+'Zooms
+[
+'[anarapbo] default.vzm
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_linkfraz_portlet.jsp|Error|core::document|Update dependencies|Resource "[personbo] linkoper_subjects.vzm" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:44
+message='Resource "[personbo] linkoper_subjects.vzm" not found.
+resource_key='jsp\pg_linkfraz_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

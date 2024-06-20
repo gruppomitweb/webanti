@@ -1,0 +1,72 @@
+﻿* --- Resource Vers. 0.9
+arrt_chkopx_anno
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:32
+description='Stampa Anomalie Saldi Opex (Estrazione)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:10
+module_name='
+name='arrt_chkopx_anno
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.codfisc
+'personbo.ragsoc
+'opextrbo.numprog1
+'opextrbo.saldo
+'opextrbo.quantita
+'opextrbo.valuta
+'tmp_erropxanno.tiperr
+'tmp_erropxanno.anno
+'tmp_erropxanno.connes
+'tmp_erropxanno.codfisc
+'tmp_erropxanno.ragsoc
+'tmp_erropxanno.valuta
+'tmp_erropxanno.saldo
+'tmp_erropxanno.qta
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_inviosaldi_minmax_ope.vqr
+'qbe_inviosaldi_ope.vqr
+]
+'Tables
+[
+'anarapbo<table>
+'aetesta<table>
+'aerighe<table>
+'appointestbo<table>
+'intestbo<table>
+'aefiles<table>
+'jnarapbo<table>
+'personbo<table>
+'tmp_apecod<table>
+'aeoprig<table>
+'aederig<table>
+'aefile_do_glob<table>
+'opextrbo<table>
+'aeannora<table>
+'tmp_erropxanno<table>
+]
+}
+I
+*--*
+￼[]
+*--*

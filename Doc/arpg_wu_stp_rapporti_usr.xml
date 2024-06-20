@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="211461437">
+  <CodifyName>arpg_wu_stp_rapporti</CodifyName>
+  <Name>arpg_wu_stp_rapporti.pagedef</Name>
+  <Title>Estrazione Rapporti</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="104571336"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_wu_stp_rapporti_usr_1</JPG>
+    <Item type="immagine" x1="752" y1="7" x2="792" y2="39">
+      <Name LinkID="205235517">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="80" y1="14" x2="122" y2="34">
+      <Name LinkID="47168594">WUCODMAGE</Name>
+      <Comment>MacroAgente</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="648" y1="7" x2="688" y2="39">
+      <Name LinkID="205235517">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>Report</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Stampa l&apos;elenco dei rapporti</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="704" y1="7" x2="744" y2="39">
+      <Name LinkID="205235517">images/excel.gif</Name>
+      <Image>images/excel.gif</Image>
+      <Hyperlink>arrt_wu_stp_rapporti</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Estrae i rapporti su un file excel</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="80" y1="49" x2="192" y2="69">
+      <Name LinkID="118173371">codrap</Name>
+      <Comment>Rapporto</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

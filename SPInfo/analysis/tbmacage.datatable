@@ -1,0 +1,695 @@
+﻿* --- Resource Vers. 0.9
+tbmacage<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='MacroAgente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbmacage
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbmacage.macodice
+'tbmacage.madescri
+'tbmacage.maflgrap
+'tbmacage.maflgope
+'tbmacage.maflgbon
+'tbmacage.maflgckr
+'tbmacage.maflgasr
+'tbmacage.maflgnox
+'tbmacage.madipstd
+'tbmacage.manaidwu
+'tbmacage.maflgchkdat
+'tbmacage.maflgact
+'tbmacage.maressdef
+'tbmacage.maflgaua
+'tbmacage.madatini
+'tbmacage.madatfin
+'tbmacage.mafisgiu
+'tbmacage.madatmod
+'tbmacage.matipage
+'tbmacage.macodfis
+'tbmacage.macognome
+'tbmacage.manome
+'tbmacage.marespaese
+'tbmacage.maresind
+'tbmacage.maresnciv
+'tbmacage.marescitta
+'tbmacage.maresprv
+'tbmacage.marescap
+'tbmacage.madompaese
+'tbmacage.madomind
+'tbmacage.madomnciv
+'tbmacage.madomcitta
+'tbmacage.madomprv
+'tbmacage.madomcap
+'tbmacage.maflgcompl
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbmacage.macodfis
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MACODFIS
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.macodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MACODICE
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.macognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cognome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MACOGNOME
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.madatfin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MADATFIN
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.madatini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MADATINI
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.madatmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Aggiornamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MADATMOD
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.madescri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Denominazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MADESCRI
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.madipstd
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Dipendenza Default
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MADIPSTD
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.madomcap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAP Domicilio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MADOMCAP
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.madomcitta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Domicilio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MADOMCITTA
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.madomind
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo Domicilio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MADOMIND
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.madomnciv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='N. Civico Domicilio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MADOMNCIV
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.madompaese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Paese Domicilio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MADOMPAESE
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.madomprv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Domicilio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MADOMPRV
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.mafisgiu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Persona fisica - persona Giuridica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MAFISGIU
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maflgact
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Macroagente non operativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MAFLGACT
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maflgasr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Associa Operazione a Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MAFLGASR
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maflgaua
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Escludi Controlli AUA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MAFLGAUA
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maflgbon
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Scrive tipo operazione come bonifico
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MAFLGBON
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maflgchkdat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Dati certi per Soggetti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MAFLGCHKDAT
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maflgckr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Controllo esistenza Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MAFLGCKR
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maflgcompl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Chiusura per compliance
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MAFLGCOMPL
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maflgnox
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='No operazioni extraconto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MAFLGNOX
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maflgope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Scrivi su Operazioni o Frazionate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MAFLGOPE
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maflgrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Generazione Rapporti da operazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MAFLGRAP
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.manaidwu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='NAID
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MANAIDWU
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.manome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MANOME
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.marescap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAP Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MARESCAP
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.marescitta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MARESCITTA
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maresind
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MARESIND
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maresnciv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='N. Civico Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MARESNCIV
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.marespaese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Paese Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MARESPAESE
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maresprv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MARESPRV
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.maressdef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Paese Residenza Default
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MARESSDEF
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+'tbmacage.matipage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Agente - Convenzionato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MATIPAGE
+state=3
+table_name='tbmacage
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbmacage.macodfis
+[]
+'tbmacage.macodice
+[]
+'tbmacage.macognome
+[]
+'tbmacage.madatfin
+[]
+'tbmacage.madatini
+[]
+'tbmacage.madatmod
+[]
+'tbmacage.madescri
+[]
+'tbmacage.madipstd
+[]
+'tbmacage.madomcap
+[]
+'tbmacage.madomcitta
+[]
+'tbmacage.madomind
+[]
+'tbmacage.madomnciv
+[]
+'tbmacage.madompaese
+[]
+'tbmacage.madomprv
+[]
+'tbmacage.mafisgiu
+[]
+'tbmacage.maflgact
+[]
+'tbmacage.maflgasr
+[]
+'tbmacage.maflgaua
+[]
+'tbmacage.maflgbon
+[]
+'tbmacage.maflgchkdat
+[]
+'tbmacage.maflgckr
+[]
+'tbmacage.maflgcompl
+[]
+'tbmacage.maflgnox
+[]
+'tbmacage.maflgope
+[]
+'tbmacage.maflgrap
+[]
+'tbmacage.manaidwu
+[]
+'tbmacage.manome
+[]
+'tbmacage.marescap
+[]
+'tbmacage.marescitta
+[]
+'tbmacage.maresind
+[]
+'tbmacage.maresnciv
+[]
+'tbmacage.marespaese
+[]
+'tbmacage.maresprv
+[]
+'tbmacage.maressdef
+[]
+'tbmacage.matipage
+[]
+}
+*--*

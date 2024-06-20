@@ -1,0 +1,116 @@
+ 1
+"Identity Provider"
+"spauthid_identity_provider"
+"spauthid_identity_provider"
+ 0
+ 0
+*
+ 3
+"Chiave primaria"
+"spauthid_identity_provider.code"
+"code"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"spauthid_identity_provider.idp_name"
+"idp_name"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Login automatica"
+"spauthid_identity_provider.autologin"
+"autologin"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 0
+ 2
+"spauthid_identity_provider.code"
+""
+"="
+"?pCode"
+"AND"
+""
+""
+*
+"spauthid_identity_provider.protocol"
+""
+"="
+"?pProtocol"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 0
+ 2
+"pCode"
+"Codice dellýIdP"
+"C"
+"10"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"pProtocol"
+"Protocollo autenticazione"
+"C"
+"0"
+"0"
+"Remove"
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+"Recupera gli identity provider"
+.f.
+.t.
+ 12
+.f.
+""
+.t.
+.f.
+""
+ 1
+ 60
+""
+""
+"%2CDA%5CEMP7FEC7%3FVJ%3BAJV%3CQ%28IHSF_WH%29F%5C%24%1E%22%5DK%3E%5E%5CY%5D%3E%1F*KP%26%5DI%3B%2B%14%2BIH%29p%3F_%2FHW%40ZE%25%1BY%117_HOT%3F51%2C8ZQV+%5D%3D%3DAB5TPE%5E%5E%2B%3F%5B%2B%233%23%13%07%27CQ%2F%40LFC6HO%3FJ%2C*%23+%3C4DTN%211I%5B%25%2CH+4*6%2F%25%5Cy%3BK%26NU%5E35C%3CJ%26%29%19%2C%5DA%5EDnq%605M%25J%21E%21%2FID%25W%2B%2C%11%0AVI62%07%29%5DM8B%2B%3C%22%5B%5D%2F4PK%3A-%223%28%25%25H%2F93%3E%13%3FL%5DAK1E%26C%3A7*WV%23A%5B%3D%293%21I5BVQNk%5EW%2BO95+%5B_9%2B%171GC%23%00"
+"%5E-6+DIQ8%5BL3%15JS%7FWY8%27%40%010D%22_C%5BGRNB_J%2F%40%02%21.ZQUQn%293K%3A%22h%40%3C%05%17%24K%21%1CA1-TLXXXK%2CB-%29%29%3D.%3B%25oM517%5EXj71-%22%29K7%5E8K%23B+%5E%283%2719I7%2F%5EO%5EI%3B%3F+%3DQ2H%2B2%3C%28%3FCEO5%2F%2B9%29%5CY7%27+7*T%3ET7_0C%28C%3EL%3F%3D-%28O%25B4%3BB2NR%5C%2F%5CPK.C26%5EXU7%25%409MN%29%24_Z%19%2C%23%22AKKJ%5DLE2D%3E%3C3G%3E%223%24%25.6%24PD1%2C_T2F%3C%3DIX%26H%28%405M%27%5E%257%3F%3C*G0LVX+7%24_D%17HZC%5D%5D25F%25E0*%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

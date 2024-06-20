@@ -1,0 +1,100 @@
+﻿* --- Resource Vers. 0.9
+arrt_fam_chkerrori
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Export errori su file excel
+file_modified_on=#2022-08-04 12:06:22
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:14
+module_name='
+name='arrt_fam_chkerrori
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_chkperiodo.idbase
+'tmp_chkperiodo.rapporto
+'tmp_chkperiodo.dataini
+'tmp_chkperiodo.datafine
+'tmp_chkperiodo.tipo
+'tmp_chkperiodo.msgtxt
+'tmp_chkperiodo.ndg
+'tmp_listafile.nomefile
+'tmp_listafile.hyperlynk
+'tmp_chkperiodo.rifimp
+'tmp_chkperiodo.inform
+'personbo.connes
+'personbo.tipodoc
+'personbo.numdocum
+'personbo.datarilasc
+'personbo.autrilasc
+'tmp_impesiti.afile
+'tmp_impesiti.aprog
+'tmp_impesiti.cfile
+'tmp_impesiti.codcab
+'tmp_impesiti.codfisc
+'tmp_impesiti.cognome
+'tmp_impesiti.connes
+'tmp_impesiti.cprog
+'tmp_impesiti.datanasc
+'tmp_impesiti.desccit
+'tmp_impesiti.errore
+'tmp_impesiti.esito
+'tmp_impesiti.idbase
+'tmp_impesiti.nascomun
+'tmp_impesiti.nome
+'tmp_impesiti.nomefile
+'tmp_impesiti.progimpesiti
+'tmp_impesiti.provincia
+'tmp_impesiti.ragsoc
+'tmp_impesiti.rapporto
+'tmp_impesiti.sesso
+'tmp_impesiti.tipinter
+'tmp_impesiti.tipoac
+'tmp_impesiti.trueident
+'tmp_impesiti.rifimp
+'tmp_impesiti.inform
+]
+'Queries
+[
+'qbe_fam_periodo01_minmax.vqr
+'qbe_fam_periodo01_minmax_agg.vqr
+'qbe_fam_chkperiodo_01_2015.vqr
+'qbe_fam_chkperiodo_01_2015_agg.vqr
+'qbe_famperiodo_opx_min_max.vqr
+'qbe_fam_chkperiodo_opx_2015.vqr
+'qbe_famperiodo_opx_min_max_agg.vqr
+'qbe_fam_chkperiodo_opx_2015_agg.vqr
+'qbe_fam_chkerrori_01.vqr
+'qbe_tmp_impesiti_max_min.vqr
+]
+'Routines
+[
+'arfn_anomes_opex
+'arfn_anomes_rapp
+'arfn_fdate
+'arfn_fdatetime
+'arrt_fam_chkerrori
+]
+'Tables
+[
+'personbo<table>
+'personbo_agg<table>
+'tmp_chkperiodo<table>
+'tmp_impesiti<table>
+'tmp_listafile<table>
+]
+}
+I
+*--*
+￼[]
+*--*

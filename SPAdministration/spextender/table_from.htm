@@ -1,0 +1,248 @@
+<html>
+ <head>
+  <title>Table properties</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <link rel="stylesheet" href="extender.css" type="text/css">
+  <script src="../stdFunctions.js"></script>
+  <script src="../spadministration_help.js"></script>
+  <script src="../controls.js"></script>
+  <script>
+
+function ManageKeys(e) {
+  if(e.keyCode==13) SetTableAndField();
+  else if(e.keyCode==27) CloseWindow();
+}
+QueryString.keys = new Array();
+QueryString.values = new Array();
+function QueryString(key) {
+	var value = null;
+  for (var i=0;i<QueryString.keys.length;i++) {
+    if (QueryString.keys[i]==key) {
+			value = QueryString.values[i];
+			break;
+		}
+	}
+	return value;
+}
+
+function QueryString_Parse() {
+	var query = window.location.search.substring(1);
+	var pairs = query.split("&");
+
+  for (var i=0;i<pairs.length;i++) {
+		var pos = pairs[i].indexOf('=');
+    if (pos >= 0) {
+			var argname = pairs[i].substring(0,pos);
+			var value = pairs[i].substring(pos+1);
+			QueryString.keys[QueryString.keys.length] = argname;
+			QueryString.values[QueryString.values.length] = value;
+		}
+	}
+}
+
+var action;
+
+function DoLoad(){
+  QueryString_Parse();
+  action=QueryString('action')
+
+  var listServers=new JSURL("../servlet/SPExtenderProxy?action=servers", true).Response();
+  listServers = JSON.parse(listServers);
+  // if (listServers.length==0){
+  //   document.getElementById('import_table').innerHTML='No external server found';
+  // }
+  // else {
+    var optionsServer="<option value='default'>Application DB Server</option>",optionsDatabase="<option value='default'> </option>";
+    for (var i=0; i<listServers.length; i++){
+      optionsServer+="<option value='"+listServers[i].ODBCDataSource+"'>"+listServers[i].serverName+"</option>"
+      optionsDatabase+="<option value='"+listServers[i].serverName+"'>"+listServers[i].serverName+"</option>"
+    }
+    document.getElementById("connection").innerHTML=optionsServer;
+    if (action=='table'){
+      document.getElementById("database_server").innerHTML=optionsDatabase;
+      document.getElementById("div_mergeField").style.display='none'
+    }
+    else if (action=='field')
+      document.getElementById("div_db_server").style.display='none'
+
+  // }
+}
+
+function GetTableList(){
+  var server=document.getElementById("connection").value;
+  var listTable=new JSURL("../servlet/SPExtenderProxy?action=tables&server="+URLenc(server), true).Response();
+  if (listTable=="-1"){
+    document.getElementById("error").innerHTML="Need Administrator User";
+  }
+  else {
+    // listTable=listTable.split(",");
+    listTable = JSON.parse(listTable);
+    var optionsTables=""
+    for (var i=0; i<listTable.length; i++){
+      optionsTables+="<option value='"+listTable[i]+"'>"+listTable[i]+"</option>"
+    }
+    document.getElementById("table").innerHTML=optionsTables;
+  }
+}
+
+var column=[];
+
+function GetColumnList(){
+  var server=document.getElementById("connection").value;
+  var table=document.getElementById("table").value;
+  if (!Empty(server) && !Empty(table)){
+    var listColumn=new JSURL("../servlet/SPExtenderProxy?action=columns&server="+URLenc(server)+"&table="+URLenc(table), true).Response();
+    column=JSON.parse(listColumn)
+    var htmlColumnName="",htmlColumnType=""
+    for (var i=0; i<column.length; i++){
+      htmlColumnName+="<li> "+column[i].name+" </li>"
+      htmlColumnType+="<li> "+column[i].type+" </li>"
+    }
+    document.getElementById("fieldName").innerHTML=htmlColumnName
+    document.getElementById("fieldType").innerHTML=htmlColumnType
+  }
+}
+
+function SetTableAndField(){
+  var tableName=document.getElementById("table").value;
+  if (!Empty(tableName)){
+    if (action=='table'){
+      var table = new Array(tableName,
+                            tableName,
+                            false, // company
+                            '', //check
+                            false,
+                            document.getElementById('database_server').value) //external
+
+      GetOpener().UpdateTable(table, 'add');
+
+      GetOpener().selectTable(GetOpener().allTables.length-1);
+    }
+    var fields=[]
+    for (var i=0; i<column.length; i++){
+      var type = column[i].type.charAt(0);
+      var len = 10;
+      var dec = 0;
+      switch (type){
+        case 'C':
+          len=parseInt(column[i].type.substr(2,column[i].type.length-3),10)
+        break;
+        case 'N':
+          var len_dec=column[i].type.substr(2,column[i].type.length-3).split(',')
+          len=parseInt(len_dec[0],10)
+          dec=parseInt(len_dec[1],10)
+        break;
+        case 'D':
+          len=8;
+        break;
+        case 'T':
+          len=14;
+        break;
+        case 'L':
+          len=1;
+        break;
+        case 'M':
+          len=10;
+        break;
+      }
+      var field = new Array(column[i].name,
+                              type,
+                              len,
+                              dec,
+                              "", // comment
+                              "", //check
+                              "", //default
+                              true,
+                              ""); //key
+      fields.push(field);
+      if (action=='table')
+        GetOpener().UpdateField(field, 'add' , GetOpener().extendedItems.length-1,0,GetOpener().allTables.length-1)
+    }
+    var merge=document.getElementById('merge_field').checked
+    if (action=='field'){
+      if (merge)
+        GetOpener().MergeFields(fields, QueryString('et'),0,QueryString('t'))
+      else
+        GetOpener().ReplaceFields(fields, QueryString('et'),0,QueryString('t'))
+    }
+    WindowClose();
+  }
+}
+
+  </script>
+  <style>
+    body {
+      width: 430px;
+    }
+    #import_table {
+      display: grid;
+      height: calc( 100% - 47px);
+      width: 100%;
+      padding: 10px;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 25px 25px 25px auto;
+      grid-column-gap: 7px;
+      grid-gap: 7px;
+      box-sizing: border-box;
+    }
+
+    #div_mergeField {
+      grid-column: 2 / 3;
+    }
+
+    #div_db_server,
+    #div_mergeField {
+      display: contents;
+    }
+
+    #merge_field {
+      width: min-content;
+    }
+
+    #list-container {
+      overflow: auto;
+      grid-column: 1 /4;
+      border: 1px solid #dadada;
+    }
+  </style>
+ </head>
+
+ <body onload="DoLoad()" onhelp="CancelHelp(event)" onkeydown="ManageKeys(event)">
+  <div id='import_table'>
+
+      <label for='connection' class='_label'>Connection:</label>
+      <select name='connection' id='connection'>
+      </select>
+      <input type='button' name='getTable' value='Get table list' class='bottoni confirm' onclick='GetTableList()'/>
+
+
+      <label for='table' class='_label'>Table:</label>
+      <select name='table' id='table'>
+      </select>
+      <input type='button' name='getColumn' value='Get column list' class='bottoni confirm' onclick='GetColumnList()'/>
+    
+    <div id='div_db_server'>
+      <label for='database_server' class='_label'>Database Server:</label>
+      <select name='database_server' id='database_server'>
+      </select>
+    </div>
+    <div id='div_mergeField'>
+      <label for='merge_field' class='_label' style='text-align:right' >Merge Existing field:</label>
+      <input type='checkbox' checked='true'  id='merge_field'/>
+    </div>
+    <div id="error">
+    </div>
+    <div id="list-container">
+      <div class="titoli" style="position: sticky;top:0;">Fields</div>
+      <ul style='width:30%; padding-left:45px' id='fieldName' class='list'>
+      </ul>
+      <ul style='width:20%;' id='fieldType' class='list'>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-button-container">
+    <button onclick="SetTableAndField()" accesskey="o" class="bottoni confirm"><u>O</u>K</button>&nbsp;
+    <button onclick="WindowClose();" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+  </div>
+ </body>
+</html>

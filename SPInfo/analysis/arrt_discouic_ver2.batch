@@ -1,0 +1,68 @@
+﻿* --- Resource Vers. 0.9
+arrt_discouic_ver2
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Scrittura file per invio UIF (XBRL)
+file_modified_on=#2022-03-02 09:06:58
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:11
+module_name='
+name='arrt_discouic_ver2
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'filedatiuic.idfile
+'filedatiuic.datafile
+'filedatiuic.nomefile
+'filedatiuic.descfile
+'anadip.coddip
+'anadip.cab
+'personbo.connes
+'personbo.nosara
+]
+'Libraries
+[
+'Utilities<painter>
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_opeuif.vqr
+'qbe_frauif.vqr
+'qbe_kpeuif.vqr
+]
+'Routines
+[
+'arfn_datesum
+'arfn_fdate
+'arfn_fdatetime
+]
+'Tables
+[
+'intestbo<table>
+'personbo<table>
+'filedatiuic<table>
+'intermbo<table>
+'anadip<table>
+'clientiope<table>
+'clientifrz<table>
+'xbrl_def<table>
+'clientisara<table>
+'storicoxbrl<table>
+'storicoxbrl_dett<table>
+]
+}
+I
+*--*
+￼[]
+*--*

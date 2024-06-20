@@ -1,0 +1,124 @@
+﻿* --- Resource Vers. 0.9
+qbe_snai_mod_identificazione_cliente.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:23
+description='Per stampa modulo adeguata verifica
+file_modified_on=#2022-10-31 11:46:02
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:40
+module_name='
+name='qbe_snai_mod_identificazione_cliente.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'tmp_cgo_operazioni.segno
+'tmp_cgo_operazioni.cognome
+'tmp_cgo_operazioni.nome
+'tmp_cgo_operazioni.datanasc
+'tmp_cgo_operazioni.nascomun
+'tmp_cgo_operazioni.tipinter
+'tmp_cgo_operazioni.codfisc
+'tmp_cgo_operazioni.domicilio
+'tmp_cgo_operazioni.desccit
+'tmp_cgo_operazioni.cap
+'tmp_cgo_operazioni.provincia
+'tmp_cgo_operazioni.tipodoc
+'tmp_cgo_operazioni.autrilasc
+'tmp_cgo_operazioni.datarilasc
+'tmp_cgo_operazioni.coddipe
+'tmp_cgo_operazioni.desccitdip
+'tmp_cgo_operazioni.provinciadip
+'tmp_cgo_operazioni.totlire
+'tmp_cgo_operazioni.caidbiglietto
+'tmp_cgo_operazioni.iban
+'cgo_tipdoc.descri
+'anadip.descriz
+'anadip.idbase
+'anadip.desccit
+'anadip.provincia
+'anadip.cab
+'anadip.domicilio
+'anadip.telefono
+'tmp_cgo_operazioni.dataope
+'tmp_cgo_operazioni.mezpagam
+'tbtipatt.descri
+'tmp_cgo_operazioni.flgvin
+'tmp_cgo_operazioni.flggio
+'tmp_cgo_operazioni.flgpre
+'tmp_cgo_operazioni.flgver
+'tmp_cgo_operazioni.flgbon
+'tmp_cgo_operazioni.flgass
+'tmp_cgo_operazioni.respanti1
+'tmp_cgo_operazioni.respanti2
+'tmp_cgo_operazioni.attiv
+'tmp_cgo_operazioni.nasstato
+'tmp_cgo_operazioni.midbiglietto
+'tmp_cgo_operazioni.pagamento
+'tmp_cgo_operazioni.migbiglietto1
+'tmp_cgo_operazioni.migbiglietto2
+'tmp_cgo_operazioni.migbiglietto3
+'tmp_cgo_operazioni.migbiglietto4
+'tmp_cgo_operazioni.cc4cifre
+'tmp_cgo_operazioni.ccdatsca
+'tmp_cgo_operazioni.tipogioco
+'tmp_cgo_operazioni.dautril
+'tmp_cgo_operazioni.flagcc
+'tmp_cgo_operazioni.numdocum
+'tmp_cgo_operazioni.rdlocaut
+'tmp_cgo_operazioni.flagcn
+'tmp_cgo_operazioni.assegno
+'tmp_cgo_operazioni.datavali
+'tmp_cgo_operazioni.cgoflgvlt
+'tmp_cgo_operazioni.pep
+'tmp_cgo_operazioni.pepdescri
+'tmp_cgo_operazioni.totcont
+'tmp_cgo_operazioni.domicilio2
+'tmp_cgo_operazioni.desccit2
+'tmp_cgo_operazioni.provincia2
+'tmp_cgo_operazioni.paese2
+'tmp_cgo_operazioni.cap2
+'tmp_cgo_operazioni.professione
+'tmp_cgo_operazioni.flagwallet
+'tmp_cgo_operazioni.impwallet
+'tmp_cgo_operazioni.codwallet
+'tmp_cgo_operazioni.concessione
+'tmp_cgo_operazioni.codtransz
+]
+'Tables
+[
+'tmp_cgo_operazioni<table>
+'anadip<table>
+'tbtipatt<table>
+'cgo_tipdoc<table>
+]
+}
+I
+*--*
+￼[]
+*--*

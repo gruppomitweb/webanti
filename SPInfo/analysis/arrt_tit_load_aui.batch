@@ -1,0 +1,53 @@
+﻿* --- Resource Vers. 0.9
+arrt_tit_load_aui
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Carica i titolari effettivi (AUI)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:30
+module_name='
+name='arrt_tit_load_aui
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_intestit.codcli
+'tmp_intestit.rapporto
+'tmp_intestit.codinter
+'tmp_intestit.descinter
+'tmp_intestit.dataini
+'tmp_intestit.tiporap
+'tmp_intestit.tipopers
+'tmp_intestit.statoreg
+'tmp_intestit.operazmod
+'tmp_intestit.datarett
+'tmp_intestit.idereg
+'tmp_intestit.collegamen
+'tmp_intestit.datafine
+'tmp_intestit.numprog1
+'tmp_intestit.numprog2
+'tmp_intestit.idbase
+'tmp_intestit.ucode
+'tmp_intestit.abbinato
+'tmp_intestit.prgimptite
+]
+'Tables
+[
+'intestit<table>
+'tmp_intestit<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+    <description>Libreria Funzioni per AntiWeb</description>
+    <note></note>
+    <function>
+        <name>cWarning</name>
+        <description>Manda messaggio di alert</description>
+        <type>C</type>
+        <parameter>
+            <name>cErrMsg</name>
+            <description>Il messaggio di errore</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>cWarnOpe</name>
+        <description>Da Messaggio di errore e ritorna se è un errore o no</description>
+        <type>C</type>
+        <parameter>
+            <name>cErrMsg</name>
+            <description>Messaggio di errore da visualizzare</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>cTipCon</name>
+            <description>Tipo controllo</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>StatoReg</name>
+        <description>Ritorna lo stato registrazione in base alle nuove normative</description>
+        <type>C</type>
+        <parameter>
+            <name>cTbRif</name>
+            <description>Tabella di riferimento</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>nStato</name>
+            <description>Stato Registrazione</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>NewStato</name>
+        <description></description>
+        <type>C</type>
+        <parameter>
+            <name>cTbRif</name>
+            <description>Nome Tabella</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>cFlag</name>
+            <description>Valore FlagRap</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>CalcCond</name>
+        <description></description>
+        <type>L</type>
+    </function>
+    <function>
+        <name>UniqueId</name>
+        <description></description>
+        <type>C</type>
+    </function>
+    <function>
+        <name>Occurs</name>
+        <description></description>
+        <type>N</type>
+        <parameter>
+            <name>cOrigin</name>
+            <description>Stringa in cui ricercare le occorrenze</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>cSearch</name>
+            <description>Sringa di cui ricercare le occorrenze</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>TestAscii</name>
+        <description></description>
+        <type>L</type>
+        <parameter>
+            <name>sStringa</name>
+            <description>Stringa da Verificare</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>sCharSet</name>
+            <description>Set Caratteri (Es. UTF-8, ISO-8859-1,US-ASCII,UTF-16)</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>SpacePad</name>
+        <description>Ritorna una stringa pari alla lnghezza dichiarata riempiendo di spazi a destra, se necessario</description>
+        <type>C</type>
+        <parameter>
+            <name>cStringa</name>
+            <description>Stringa origine</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>nLen</name>
+            <description>Lunghezza della stringa</description>
+            <type>N</type>
+        </parameter>
+    </function>
+    <function>
+        <name>URL_enc</name>
+        <description></description>
+        <type>C</type>
+        <parameter>
+            <name>pValue</name>
+            <description>Valore da sistemare</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>isAlpha</name>
+        <description>Ritorna se stringa alfabetica</description>
+        <type>L</type>
+        <parameter>
+            <name>pString</name>
+            <description>Stringa da verificare</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>nextUID</name>
+        <description></description>
+        <type>C</type>
+    </function>
+    <function>
+        <name>isAlphaNum</name>
+        <description>Verifica se la stringa è composta solo da lettere e numeri</description>
+        <type>L</type>
+        <parameter>
+            <name>pStringa</name>
+            <description>Stringa da esaminare</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>inter_art1</name>
+        <description>Verifica se intermediari compresi in Articolo 1</description>
+        <type>L</type>
+        <parameter>
+            <name>pTipo</name>
+            <description>Tipo intermediario</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>isNumeric</name>
+        <description>Ritorna se stringa contiene solo numeri</description>
+        <type>L</type>
+        <parameter>
+            <name>pString</name>
+            <description>Stringa da verificare</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>CloseLine</name>
+        <description>Ritorna Chr(13)+Chr(10)</description>
+        <type>C</type>
+    </function>
+    <function>
+        <name>FreeMem</name>
+        <description>Pulizia memoria</description>
+        <type>V</type>
+    </function>
+    <function>
+        <name>UTFtoISO</name>
+        <description></description>
+        <type>C</type>
+        <parameter>
+            <name>s1</name>
+            <description>Stringa da convertire</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>GeneraCodice</name>
+        <description>Crea una stringa random per IDBASE</description>
+        <type>C</type>
+        <parameter>
+            <name>numeroCaratteriRandom</name>
+            <description>Lunghezza della stringa in uscita</description>
+            <type>N</type>
+        </parameter>
+        <parameter>
+            <name>conSpeciali</name>
+            <description>Vogliamo anche i caratteri speciali</description>
+            <type>L</type>
+        </parameter>
+        <parameter>
+            <name>conTimeStamp</name>
+            <description>Con TimeStamp</description>
+            <type>L</type>
+        </parameter>
+        <parameter>
+            <name>separatore</name>
+            <description>Separatore tra caratteri</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>uuidToStr15</name>
+        <description>Ritorna l&apos;UUID come stringa di 15</description>
+        <type>C</type>
+        <parameter>
+            <name>uuid</name>
+            <description></description>
+            <type>O</type>
+            <classname>UUID</classname>
+        </parameter>
+    </function>
+</library>

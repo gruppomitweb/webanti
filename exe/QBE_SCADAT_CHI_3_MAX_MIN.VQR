@@ -1,0 +1,99 @@
+ 1
+" Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Detail)"
+"aerighe"
+"aerighe"
+ 5
+ 5
+*
+ 3
+"Max Progressivo Riga"
+"MAX(aerighe.PROGAER)"
+"MAXPROGAER"
+"Numeric"
+ 15
+ 0
+*
+"Min Progressivo Riga"
+"MIN(aerighe.PROGAER)"
+"MINPROGAER"
+"Numeric"
+ 15
+ 0
+*
+"Tot Progressivo Riga"
+"COUNT(aerighe.PROGAER)"
+"TOTPROGAER"
+"Numeric"
+ 15
+ 0
+*
+ 0
+ 4
+"aerighe.CDATA"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"aerighe.CDATA"
+""
+"<="
+"?w_a_data"
+"AND"
+""
+*
+"aerighe.CSPEDITO"
+""
+"<>"
+"1"
+"AND"
+""
+*
+"aerighe.NOCODFISC"
+""
+"="
+"?_estero"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 3
+"w_dadata"
+"Data Apertura"
+"Date"
+"8"
+"0"
+""
+*
+"w_a_data"
+"Data Apertura"
+"Date"
+"8"
+"0"
+""
+*
+"_estero"
+"No codice fiscale (Non assegnato agenzia entrate)"
+"Char"
+"1"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 21
+.f.
+""
+.f.
+*

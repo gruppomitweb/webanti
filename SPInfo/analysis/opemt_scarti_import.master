@@ -1,0 +1,121 @@
+﻿* --- Resource Vers. 0.9
+opemt_scarti_import
+￼Iresource.ResourceMaster
+created_on=#2024-05-10 18:24:43
+description='Scarti Import Prestazioni
+file_modified_on=#2022-10-04 11:26:15
+location='
+measures={}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='opemt_scarti_import
+state=1
+type='master
+used_resource_keys={
+'Fields
+[
+'scarti_import.impprog
+'scarti_import.codstudio
+'scarti_import.coddipe
+'scarti_import.numprog
+'scarti_import.dataope
+'scarti_import.flagfraz
+'scarti_import.cauoper
+'scarti_import.connesreal
+'personbo.partiva
+'personbo.ragsoc
+'scarti_import.connescli
+'scarti_import.connesben
+'scarti_import.connaltro
+'scarti_import.datareg
+'scarti_import.statoreg
+'scarti_import.datarett
+'scarti_import.valuta
+'scarti_import.importo
+'scarti_import.contanti
+'scarti_import.mezpag
+'scarti_import.prestaz
+'scarti_import.ragio
+'scarti_import.modsvol
+'scarti_import.areageo
+'scarti_import.tipo
+'scarti_import.ammont
+'scarti_import.durat
+'scarti_import.rarea
+'scarti_import.rragio
+'scarti_import.rcomp
+'scarti_import.rtipo
+'scarti_import.rfreq
+'scarti_import.rimp
+'scarti_import.tipooper
+'scarti_import.txterr
+'scarti_import.despunto
+'scarti_import.impprog13
+]
+'Routines
+[
+'opert_del_scarti_contante
+]
+'Tables
+[
+'scarti_import<table>
+'personbo<table>
+]
+'Zooms
+[
+'[personbo] scarti.vzm
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opemt_scarti_import|Error|core::document|Update dependencies|Table "tipilegbo_m" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Table "tipilegbo_m" not found.
+resource_key='opemt_scarti_import
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opemt_scarti_import|Error|core::document|Update dependencies|Field "tipilegbo_m.TIPLEG" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Field "tipilegbo_m.TIPLEG" not found.
+resource_key='opemt_scarti_import
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]opemt_scarti_import|Error|core::document|Update dependencies|Field "tipilegbo_m.DESCRIZ" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:32
+message='Field "tipilegbo_m.DESCRIZ" not found.
+resource_key='opemt_scarti_import
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

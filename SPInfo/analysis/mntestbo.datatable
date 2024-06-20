@@ -1,0 +1,391 @@
+﻿* --- Resource Vers. 0.9
+mntestbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Soggetti Conto Informazioni (Modifiche)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='mntestbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'mntestbo.idbase
+'mntestbo.cprownum
+'mntestbo.dataini
+'mntestbo.tipopers
+'mntestbo.codinter
+'mntestbo.datafine
+'mntestbo.numprog1
+'mntestbo.numprog2
+'mntestbo.rapporto
+'mntestbo.tiporap
+'mntestbo.statoreg
+'mntestbo.descinter
+'mntestbo.operazmod
+'mntestbo.datarett
+'mntestbo.idereg
+'mntestbo.collegamen
+'mntestbo.ucode
+'mntestbo.abbinato
+'mntestbo.prgimpsog
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'mntestbo.abbinato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABBINATO
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Intestatario (Non Intermediario)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.collegamen
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLLEGAMEN
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.cprownum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CPROWNUM
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.datafine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAFINE
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINI
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.datarett
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rettifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATARETT
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.descinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCINTER
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='idbase
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.idereg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='IDEREG
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDEREG
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.numprog1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Progressivo relativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG1
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.numprog2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Progressivo Relativo Chiusura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG2
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.operazmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazione modificata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPERAZMOD
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.prgimpsog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRGIMPSOG
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto (Copia della testata)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.statoreg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='STATOREG
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.tipopers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOPERS
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.tiporap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPORAP
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+'mntestbo.ucode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UCODE
+state=3
+table_name='mntestbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'mntestbo.abbinato
+[]
+'mntestbo.codinter
+[]
+'mntestbo.collegamen
+[]
+'mntestbo.cprownum
+[]
+'mntestbo.datafine
+[]
+'mntestbo.dataini
+[]
+'mntestbo.datarett
+[]
+'mntestbo.descinter
+[]
+'mntestbo.idbase
+[]
+'mntestbo.idereg
+[]
+'mntestbo.numprog1
+[]
+'mntestbo.numprog2
+[]
+'mntestbo.operazmod
+[]
+'mntestbo.prgimpsog
+[]
+'mntestbo.rapporto
+[]
+'mntestbo.statoreg
+[]
+'mntestbo.tipopers
+[]
+'mntestbo.tiporap
+[]
+'mntestbo.ucode
+[]
+}
+*--*

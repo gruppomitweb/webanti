@@ -1,0 +1,83 @@
+ 3
+"Anagrafica Rapporti"
+"anarapbo"
+"anarapbo"
+ 93
+ 18
+*
+"Natura Conti"
+"tbtipnat"
+"tbtipnat"
+ 296
+ 140
+*
+"Stato Intestatari/Delegati Rapporti"
+"statorap"
+"statorap"
+ 32
+ 153
+*
+ 1
+"Descrizione"
+"tbtipnat.DESCRI"
+"DESCRI"
+"C"
+ 60
+ 0
+*
+ 2
+"Natura Conti(Tipo Rapporto)"
+"tbtipnat.TIPONAT=anarapbo.TIPORAP"
+"Right outer"
+"tbtipnat"
+"anarapbo"
+*
+"Stao rapporti"
+"staorap.RAPPORTO=anarapbo.RAPPORTO"
+"Right outer"
+"statorap"
+"anarapbo"
+*
+ 2
+"anarapbo.RAPPORTO"
+""
+">="
+"?w_daRappo"
+"AND"
+""
+*
+"anarapbo.RAPPORTO"
+""
+"<="
+"?w_aRappo"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_daRappo"
+"Codice Rapporto"
+"Char"
+"25"
+"0"
+""
+*
+"w_aRappo"
+"Codice Rapporto"
+"Char"
+"25"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+*

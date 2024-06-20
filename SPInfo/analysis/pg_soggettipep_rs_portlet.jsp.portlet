@@ -1,0 +1,49 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_soggettipep_rs_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:19
+description='
+file_modified_on=#2024-05-10 18:19:36
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:44
+module_name='
+name='pg_soggettipep_rs_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Hyperlinks
+[
+'arrt_seekpep_rs
+'arrt_seekpep_rs_ver
+'arrt_seekpep_rs_rp
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_soggettipep_rs_portlet.jsp|Error|core::document|Update dependencies|Resource "seekpep_rs_mc" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:44
+message='Resource "seekpep_rs_mc" not found.
+resource_key='jsp\pg_soggettipep_rs_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

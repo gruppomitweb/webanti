@@ -1,0 +1,55 @@
+﻿* --- Resource Vers. 0.9
+arrt_estrai_mitfisc
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Estrae Dati per MITFISC
+file_modified_on=#2022-10-26 15:57:39
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:12
+module_name='
+name='arrt_estrai_mitfisc
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aetesta.rapporto
+'aetesta.uniquecode
+]
+'Libraries
+[
+'FileLibMit<project>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_mitfisc_ope_glob.vqr
+'qbe_mitfisc_ope_dett.vqr
+]
+'Routines
+[
+'arfn_agechar
+'arfn_fdate_nd
+'arfn_fdatetime
+]
+'Tables
+[
+'aetesta<table>
+'personbo<table>
+'sogopebo<table>
+'clientiope<table>
+'intestbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

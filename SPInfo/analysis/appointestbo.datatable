@@ -1,0 +1,353 @@
+﻿* --- Resource Vers. 0.9
+appointestbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Appoggio Salvataggio INTESTOBO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='appointestbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'appointestbo.idbase
+'appointestbo.cprownum
+'appointestbo.dataini
+'appointestbo.tipopers
+'appointestbo.codinter
+'appointestbo.datafine
+'appointestbo.numprog1
+'appointestbo.numprog2
+'appointestbo.rapporto
+'appointestbo.tiporap
+'appointestbo.statoreg
+'appointestbo.descinter
+'appointestbo.operazmod
+'appointestbo.datarett
+'appointestbo.idereg
+'appointestbo.collegamen
+'appointestbo.ucode
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'appointestbo.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Intestatario (Non Intermediario)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.collegamen
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLLEGAMEN
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.cprownum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CPROWNUM
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.datafine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAFINE
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINI
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.datarett
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rettifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATARETT
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.descinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCINTER
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='idbase
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.idereg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='IDEREG
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDEREG
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.numprog1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Progressivo relativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG1
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.numprog2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Progressivo Relativo Chiusura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG2
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.operazmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazione modificata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPERAZMOD
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto (Copia della testata)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.statoreg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='STATOREG
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.tipopers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOPERS
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.tiporap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPORAP
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+'appointestbo.ucode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UCODE
+state=3
+table_name='appointestbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'appointestbo.codinter
+[]
+'appointestbo.collegamen
+[]
+'appointestbo.cprownum
+[]
+'appointestbo.datafine
+[]
+'appointestbo.dataini
+[]
+'appointestbo.datarett
+[]
+'appointestbo.descinter
+[]
+'appointestbo.idbase
+[]
+'appointestbo.idereg
+[]
+'appointestbo.numprog1
+[]
+'appointestbo.numprog2
+[]
+'appointestbo.operazmod
+[]
+'appointestbo.rapporto
+[]
+'appointestbo.statoreg
+[]
+'appointestbo.tipopers
+[]
+'appointestbo.tiporap
+[]
+'appointestbo.ucode
+[]
+}
+*--*

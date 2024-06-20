@@ -1,0 +1,277 @@
+ 1
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 14
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Indirizzo"
+"personbo.DOMICILIO"
+"DOMICILIO"
+"C"
+ 35
+ 0
+*
+"CAP"
+"personbo.CAP"
+"CAP"
+"C"
+ 9
+ 0
+*
+"Città"
+"personbo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"personbo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+""
+"personbo.COMPORT"
+"COMPORT"
+"C"
+ 5
+ 0
+*
+""
+"personbo.ATTIV"
+"ATTIV"
+"C"
+ 10
+ 0
+*
+""
+"personbo.PKTBSPECIE"
+"PKTBSPECIE"
+"C"
+ 4
+ 0
+*
+"Area Geografica"
+"personbo.AREAGEO"
+"AREAGEO"
+"C"
+ 3
+ 0
+*
+"Tipo Documento"
+"personbo.TIPODOC"
+"TIPODOC"
+"C"
+ 2
+ 0
+*
+"Numero Doc."
+"personbo.NUMDOCUM"
+"NUMDOCUM"
+"C"
+ 15
+ 0
+*
+"Autorità di rilascio"
+"personbo.AUTRILASC"
+"AUTRILASC"
+"C"
+ 30
+ 0
+*
+"Data Rilascio Doc."
+"personbo.DATARILASC"
+"DATARILASC"
+"D"
+ 8
+ 0
+*
+ 0
+ 11
+"personbo.CONNES"
+""
+">="
+"?daCodCli"
+"AND"
+""
+*
+"personbo.CONNES"
+""
+"<="
+"?aCodCli"
+"AND"
+""
+*
+"personbo.AREAGEO"
+""
+"="
+"?areageo"
+"AND"
+""
+*
+"personbo.COMPORT"
+""
+"="
+"?comport"
+"AND"
+""
+*
+"personbo.PKTBSPECIE"
+""
+"="
+"?natura"
+"AND"
+""
+*
+"personbo.ATTIV"
+""
+"="
+"?prevalente"
+"AND"
+""
+*
+"((?nodoc"
+""
+"="
+"0)"
+"OR"
+""
+*
+"(?nodoc"
+""
+"="
+"1"
+"AND"
+""
+*
+"(([NOTEMPTYSTR(personbo.TIPODOC)]"
+""
+"="
+"0"
+"OR"
+""
+*
+"[NOTEMPTYSTR(personbo.NUMDOCUM)]"
+""
+"="
+"0)"
+"AND"
+""
+*
+"[LEN([TRIM(personbo.CODFISC)])]"
+""
+"="
+"16)))"
+"AND"
+""
+*
+ 1
+"Ragione Sociale"
+"RAGSOC"
+"Ascending"
+*
+ 0
+ 0
+ 7
+"daCodCli"
+"Da Codice Collegamento"
+"C"
+"16"
+"0"
+"Remove"
+""
+*
+"aCodCli"
+"A Codice Collegamento"
+"C"
+"16"
+"0"
+"Remove"
+""
+*
+"areageo"
+"Area Geografica"
+"C"
+"3"
+"0"
+"Remove"
+""
+*
+"comport"
+"Comportamento tenuto"
+"C"
+"5"
+"0"
+"Remove"
+""
+*
+"natura"
+"Natura giuridica"
+"C"
+"4"
+"0"
+"Remove"
+""
+*
+"prevalente"
+"Attività svolta"
+"C"
+"10"
+"0"
+"Remove"
+""
+*
+"nodoc"
+"Verifica solo quelli senza documento"
+"L"
+"1"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 5
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"wBG.3IR%40%2C%5E.KD6%40%5C4%22YH%3D%12%40%24WEPvB*W_%23%3D%24W%13_9NH%2BD2J%243%5D%3DU-Q%251A+%3BA%5B%5DGPO7%5D8L5%3AI8XT4YY*6%40%5CJjYE6K%23GJC%2BK%40OnXI%5C4AMZ3Z*GJ%21n%1C7G9%28_V-+A1ALL%27F.J%3A_OU04%26%5C%23U%28%27H%2CmKJM7VTi-%05D-A%2CE%26F%5BMZN56D%25JY%13%2BQD9QI%2FEJ%5BFLB9P%17+%2B%25%3C%5D9+%2CoU%5C%06%28*%3E%223+%26%24M+D%29%239%2BFHj2%2B%3DQ%10%2B%3A%29A%21XO%22A%5D%22%3CC%2C%23V*.h%25R%40%25%12UNC7%275N%01F*G%00"
+"CEUC_ZUF-G%2C%26%2C9%23kh%24%3EJ%3EAF%1C*bHQ%5B%2C%3CV%29%3B%2B%21L%06WC%3EK%3F*A97%7E3M.%3D%178+%2BO%405%27%5DHSBS3*%2C%2BF%04%2CNME5%3B.4%3F%5BP%5C81%16%03I1NI0Q%25%3DV%5B%3E2+%18Y%22%3D-%25%3FzS%2BKL0N%3A0%3F7%246I++.G-J6Ab.%3D-1%01C*ZvHZT%1F9E%0ASON%3BRJ%27JJ1%5E0D%275DD7+2**%23%29%23EUCY%3F4%28%3ES%3AX2%3A%3DU%3A69VaZQJ%27O-69%24%223-%25.EA8F%3A%3D8P%5EV*Q%240%11%1B%1CpI%5C%2CXJb%3A0%3EN%3BE%26%27EhK34%2C%22%25%2BSYD7M8%12%24%40%00"
+""
+""
+"native"
+ 0
+ 0
+*

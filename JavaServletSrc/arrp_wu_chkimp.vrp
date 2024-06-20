@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter Report (http://www.zucchetti.it) -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_wu_chkimp||version||4.1||title||Movimenti con Errori Rilevari||query||qbe_wu_chkimp||font||Tahoma||font_size||7||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-02-17||date_rev||2011-10-14||form_class|| ||grid_dx||0||grid_dy||0||grid_show||0||grid_use||0||snaplines_show||1||language|| ||merge||false||modcnt||8||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| |||type||HeaderBar_top||name||bar_PageHeader_start||y||65||x||0||uid||LIMWODQNWW||sequence||3||bb_sequence||2|||type||HeaderBar_bottom||name||bar_PageHeader_end||y||103||x||0||uid||VUFWKCNVLQ||sequence||9||bb_sequence||3|||type||Group_top||name||group0||y||83||uid||LNUCDEVUCB||sequence||14||bb_sequence||25||comment|| ||exp||True||start_each_on_page||false||as_page_header||false||print_group_footer||false||as_page_footer||false||reset_page_number||false||numpage_expr|| ||printblock||false||reprint_header||true||reprint_footer||false||rows||0||output_name|| ||display_expr|| ||ingroup_expr|| ||outgroup_expr|| |||type||Group_down||name||group0||y||102||uid||VELMQZKCSK||sequence||13||bb_sequence||24||comment|| ||exp||True||start_each_on_page||false||as_page_header||false||print_group_footer||false||as_page_footer||false||reset_page_number||false||numpage_expr|| ||printblock||false||reprint_header||false||reprint_footer||false||rows||0||output_name|| ||display_expr|| ||ingroup_expr|| ||outgroup_expr|| |||type||Box||name||Box0||x||8||y||7||h||35||w||952||uid||EAZRQFADDM||sequence||1||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label1||x||16||y||14||h||26||w||414||uid||LMETHZJMJV||sequence||2||value||LISTA MOVIMENTI CON ERRORI RILEVATI||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||LNUCDEVUCB||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||14||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label2||x||10||y||45||h||16||w||522||uid||LKJUADNRPY||sequence||19||value||&#39;Macro Agente:&#39; + WUCODMAGE +&quot; - &quot; + xMADESCRI||text_type||expression||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid||LNUCDEVUCB||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label3||x||217||y||67||h||16||w||80||uid||KPWOFOMKCC||sequence||4||value||Intestazione||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label4||x||8||y||67||h||16||w||56||uid||XHZUBQWWLJ||sequence||5||value||Nome File||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||LNUCDEVUCB||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label5||x||142||y||67||h||16||w||61||uid||MZQUPGTHYV||sequence||16||value||MTCN||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||LNUCDEVUCB||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label6||x||591||y||67||h||16||w||80||uid||ESKAYHZMFQ||sequence||18||value||Errori Rilevati||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||LNUCDEVUCB||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box7||x||8||y||81||h||1||w||956||uid||NPEDHTWAIC||sequence||6||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Expr||name||expr8||x||8||y||85||h||16||w||126||uid||LHZUNZJZPN||sequence||7||exp||c_WUNOMEFILE||comment|| ||type_exp||character||len||21||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||LNUCDEVUCB||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on|| ||calculate_onuid|| ||bb_calculate_on||true||note|| ||technote|| |||type||Expr||name||expr9||x||142||y||85||h||16||w||66||uid||XHBKGSEAYF||sequence||15||exp||c_WURIFMTCN||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid||LNUCDEVUCB||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on|| ||calculate_onuid|| ||bb_calculate_on||true||note|| ||technote|| |||type||Expr||name||expr10||x||217||y||86||h||14||w||366||uid||QGFOCNKHBC||sequence||8||exp||Left(LRTrim(c_WUCOGCLI)+&quot; &quot;+LRTrim(c_WUNOMCLI),60)||comment|| ||type_exp||character||len||61||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||True||print_when_change_groupuid||LNUCDEVUCB||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||7||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on|| ||calculate_onuid|| ||bb_calculate_on||true||note|| ||technote|| |||type||Expr||name||expr11||x||591||y||86||h||14||w||364||uid||ZPLAWWBYNI||sequence||17||exp||c_WUNOTE||comment|| ||type_exp||memo||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||true||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid||LNUCDEVUCB||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||7||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on|| ||calculate_onuid|| ||bb_calculate_on||true||note|| ||technote|| |||type||Box||name||Box12||x||8||y||105||h||1||w||956||uid||ALIXGKXVVP||sequence||10||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label13||x||8||y||107||h||16||w||165||uid||JYALFCRFEE||sequence||11||value||&#39;Data: &#39;+arfn_fdate(Date())||text_type||expression||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false|||type||Label||name||label14||x||559||y||107||h||16||w||405||uid||PRLPKWQQVB||sequence||12||value||&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))||text_type||expression||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false|||-->
+
+<REPORT NAME="arrp_wu_chkimp" TITLE="Movimenti con Errori Rilevari" QUERY="qbe_wu_chkimp" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="7" VERSION="4.0" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES="">
+    <FIELD NAME="qbe_wu_chkimp.WUCODICE" TYPE="N" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUNOMEFILE" TYPE="C" LEN="20" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WURIFMTCN" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUTIPOPE" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUDATOPE" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUNOMCLI" TYPE="C" LEN="40" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUCOGCLI" TYPE="C" LEN="40" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUCODMAGE" TYPE="C" LEN="5" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUNOTE" TYPE="M" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUCODDIP" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUIMPORTO" TYPE="N" LEN="10" DEC="2" />
+    <FIELD NAME="qbe_wu_chkimp.WUSTADES" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUCITCLI" TYPE="C" LEN="40" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUCAPCLI" TYPE="C" LEN="5" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUINDCLI" TYPE="C" LEN="60" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUNOMCON" TYPE="C" LEN="40" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUCOGCON" TYPE="C" LEN="40" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUBCITCLI" TYPE="C" LEN="40" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUBSTACLI" TYPE="C" LEN="40" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUDATNAS" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUSEXCLI" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUCODFIS" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUTDOCCLI" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUNDOCCLI" TYPE="C" LEN="25" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUADOCRIL" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WURDOCCLI" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUSDOCCLI" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_wu_chkimp.WUPROVCLI" TYPE="C" LEN="2" DEC="0" />
+    <PAGEHEADER Y="0" H="65" EXPRESSION="Page header">
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="7" X="8" YY="42" XX="960"
+              ALIGN="L"
+              UID="EAZRQFADDM"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="stringa" NAME="LISTA MOVIMENTI CON ERRORI RILEVATI" EXPRTYPE="constant"
+              Y="14" X="16" YY="40" XX="430"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="14"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="LNUCDEVUCB"
+              />
+        <ITEM OBJ="box_end" UID="EAZRQFADDM"/>
+        <ITEM OBJ="stringa" NAME="&#39;Macro Agente:&#39; + WUCODMAGE +&quot; - &quot; + xMADESCRI" EXPRTYPE="expression"
+              Y="45" X="10" YY="61" XX="532"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+    </PAGEHEADER>
+    <SECTION TYPE="group" HEADH="17" FOOTH="0" SYMNAME="" UID="LNUCDEVUCB" TOP="82" BOTTOM="100" EXPRESSION="True" DISPLAY_EXPRESSION=""
+     STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+     PRINTASBLOCK="false" REPRINTHEADER="true" REPRINTFOOTER="false" FIXEDROWSNUM="0" INWITHEXPR="" OUTWITHEXPR="">
+        <ITEM OBJ="stringa" NAME="Intestazione" EXPRTYPE="constant"
+              Y="1" X="217" YY="17" XX="297"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="Nome File" EXPRTYPE="constant"
+              Y="1" X="8" YY="17" XX="64"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="LNUCDEVUCB"
+              />
+        <ITEM OBJ="stringa" NAME="MTCN" EXPRTYPE="constant"
+              Y="1" X="142" YY="17" XX="203"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="LNUCDEVUCB"
+              />
+        <ITEM OBJ="stringa" NAME="Errori Rilevati" EXPRTYPE="constant"
+              Y="1" X="591" YY="17" XX="671"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="LNUCDEVUCB"
+              />
+        <ITEM OBJ="h_line" Y="15" X="8" XX="965" BORDERWIDTH="1"
+              ALIGN="L"
+              />
+        <SECTION TYPE="group" HEADH="18" FOOTH="0" EXPRESSION="" SYMNAME=""
+         STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+         REPRINTHEADER="false" REPRINTFOOTER="false">
+            <ITEM OBJ="espressione" NAME="c_WUNOMEFILE" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="1" X="8" YY="17" XX="134"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                  FONTSTYLE="B"
+                  LEN="21"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="LNUCDEVUCB"
+                  />
+            <ITEM OBJ="espressione" NAME="c_WURIFMTCN" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="1" X="142" YY="17" XX="208"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                  FONTSTYLE="B"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="Left(LRTrim(c_WUCOGCLI)+&quot; &quot;+LRTrim(c_WUNOMCLI),60)" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="2" X="217" YY="16" XX="583"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                  LEN="61"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="LNUCDEVUCB"
+                  />
+            <ITEM OBJ="espressione" NAME="c_WUNOTE" ITEMTYPE="M" EXPRTYPE="expression"
+                  Y="2" X="591" YY="16" XX="955"
+                  ALIGN="L"
+                  STRETCH="true"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="7"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  />
+        </SECTION>
+    </SECTION>
+    <PAGEFOOTER Y="100" H="20" EXPRESSION="Page footer">
+        <ITEM OBJ="h_line" Y="1" X="8" XX="965" BORDERWIDTH="1"
+              ALIGN="L"
+              />
+        <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+              Y="3" X="8" YY="19" XX="173"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+              Y="3" X="559" YY="19" XX="964"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              PRINTPAGE="true"
+              />
+    </PAGEFOOTER>
+</REPORT>

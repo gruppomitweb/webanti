@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Con Esito Negativo -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||aosrp_ricerca_sogg_neg||version||4.6||title||Stampa Con Esito Negativo||query||stampa_seek_sogg||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2008-01-25||date_rev||2017-05-23||form_class|| ||grid_dx||8||grid_dy||9||grid_show||1||grid_use||1||snaplines_show||1||language|| ||merge||false||modcnt||12||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding|| ||hsl||false||lock_items||false||maxcount||11||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||0||uid||ORVBAVMOHH||sequence||2||bb_sequence||2||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||260||uid||OROLCQHEVJ||sequence||1||bb_sequence||1||page||1|||type||Group_top||comment||group0||exp||True||name||group0||y||1||uid||SHSAWTPGWZ||sequence||4||bb_sequence||4||page||1|||type||Group_down||comment||group0||exp||True||name||group0||y||259||uid||EFVARKBLUK||sequence||3||bb_sequence||3||page||1|||type||Box||name||Box0||x||8||y||3||w||720||h||72||uid||JRMZMFGQCP||sequence||5||page||1||bb_border_colour||false||border_width||1|||type||Label||value||ESITO DI RICERCA TRA NOMI SEGNALATI||text_type||constant||name||label1||uid||QERDGABDUR||page||1||x||16||y||12||w||704||h||26||sequence||6||align||center||global_font||false||font||Verdana||font_size||14||font_weight||bold|||type||Label||value||&quot;ARCHIVI DI RICERCA AGGIORNATI AL &quot;+arfn_fdate(c_ULTAGGSOG)||text_type||expression||name||label2||uid||KYEYKYQHVK||page||1||x||16||y||48||w||704||h||16||sequence||11||align||center||global_font||false||font||Tahoma||font_size||10||font_weight||bold|||type||Box||name||Box3||x||8||y||77||w||720||h||36||uid||ZVLNRUTZER||sequence||7||page||1||border_width||2|||type||Label||value||La ricerca di soggetto segnalato, in base ai criteri sotto esposti, ha dato esito negativo||text_type||constant||name||label4||uid||VCZTJDJLKQ||page||1||x||16||y||84||w||704||h||21||sequence||8||align||center||global_font||false||font||Verdana||font_size||11||font_weight||italic|||type||Box||name||Box5||x||8||y||113||w||720||h||144||uid||ZQLIRDKBXJ||sequence||9||page||1||bb_border_colour||false||border_width||1|||type||Expr||exp||iif(criterio=&#39;D&#39;,&#39;[DENOMINAZIONE]: &#39;+denomin,iif(criterio=&#39;C&#39;,&#39;[CODICE FISCALE]: &#39;+codfisc,&#39;[RICERCA A BLOCCHI]: &#39;+ simili))||len||40||dec||0||name||expr6||uid||MPHGXRCXGA||page||1||x||16||y||122||w||704||h||16||sequence||10||| -->
+
+<REPORT NAME="aosrp_ricerca_sogg_neg" TITLE="Stampa Con Esito Negativo" QUERY="stampa_seek_sogg" MAXDEPTH="1" GLBFONTNAME="Verdana" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="stampa_seek_sogg.IDBASE" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RAGSOC" TYPE="C" LEN="120" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.DATANAS" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.LUOGONAS" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.CODFISC" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RESPAESE" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RESCITTA" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RESIND" TYPE="C" LEN="200" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.NOTE" TYPE="M" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.TIPO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.FONTE" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RAGSOCX" TYPE="C" LEN="120" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RAGSOCBLK" TYPE="C" LEN="120" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.FLAG" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.APPOGGIO" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.SPEC" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.DESCRI" TYPE="C" LEN="100" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RIFERIM" TYPE="C" LEN="200" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.COSAFARE" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.ULTAGGSOG" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.ULTAGGCON" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.ANTICONNES" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.ANTIRAGSOC" TYPE="C" LEN="60" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.ANTICODFIS" TYPE="C" LEN="16" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="0" EXPRESSION="Page header">
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="0" FOOTH="0" SYMNAME="" UID="SHSAWTPGWZ" TOP="0" BOTTOM="257" EXPRESSION="True" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+          <SECTION TYPE="group" HEADH="257" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                            Y="1" X="8" YY="73" XX="728"
+                            ALIGN="L"
+                            UID="JRMZMFGQCP" 
+                            BORDERWIDTH="1"
+                            />
+                      <ITEM OBJ="stringa" NAME="ESITO DI RICERCA TRA NOMI SEGNALATI" EXPRTYPE="constant"
+                            Y="10" X="16" YY="36" XX="720"
+                            ALIGN="C"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Verdana" FONTSIZE="14"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="stringa" NAME="&quot;ARCHIVI DI RICERCA AGGIORNATI AL &quot;+arfn_fdate(c_ULTAGGSOG)" EXPRTYPE="expression"
+                            Y="46" X="16" YY="62" XX="720"
+                            ALIGN="C"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="10"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="box_end" UID="JRMZMFGQCP"/>
+                      <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                            Y="75" X="8" YY="111" XX="728"
+                            ALIGN="L"
+                            UID="ZVLNRUTZER" 
+                            BORDERWIDTH="2"
+                            />
+                      <ITEM OBJ="stringa" NAME="La ricerca di soggetto segnalato, in base ai criteri sotto esposti, ha dato esito negativo" EXPRTYPE="constant"
+                            Y="82" X="16" YY="103" XX="720"
+                            ALIGN="C"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Verdana" FONTSIZE="11"
+                            FONTSTYLE="I"
+                            />
+                      <ITEM OBJ="box_end" UID="ZVLNRUTZER"/>
+                      <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                            Y="111" X="8" YY="255" XX="728"
+                            ALIGN="L"
+                            UID="ZQLIRDKBXJ" 
+                            BORDERWIDTH="1"
+                            />
+                      <ITEM OBJ="espressione" NAME="iif(criterio=&#39;D&#39;,&#39;[DENOMINAZIONE]: &#39;+denomin,iif(criterio=&#39;C&#39;,&#39;[CODICE FISCALE]: &#39;+codfisc,&#39;[RICERCA A BLOCCHI]: &#39;+ simili))" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="120" X="16" YY="136" XX="720"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Verdana" FONTSIZE="8"
+                            LEN="40"
+                            />
+                      <ITEM OBJ="box_end" UID="ZQLIRDKBXJ"/>
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="257" H="1" EXPRESSION="Page footer">
+  </PAGEFOOTER>
+</REPORT>

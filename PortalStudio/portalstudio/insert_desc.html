@@ -1,0 +1,101 @@
+<html>
+<head>
+ <script type="text/javascript" src="../stdFunctions.js"></script>
+ <script type="text/javascript" src="../controls.js"></script>
+ <link rel="stylesheet" href="../filewindow.css" type="text/css">
+ <script type="text/javascript">
+  var openerWindow;
+  QueryString.keys = new Array();
+  QueryString.values = new Array();
+  function QueryString(key) {
+    var value = null;
+    for (var i=0;i<QueryString.keys.length;i++) {
+      if (QueryString.keys[i]==key) {
+        value = QueryString.values[i];
+        break;
+      }
+    }
+    return value;
+  }
+  function QueryString_Parse() {
+    var query = window.location.search.substring(1);
+    var pairs = query.split("&");
+
+    for (var i=0;i<pairs.length;i++) {
+      var pos = pairs[i].indexOf('=');
+      if (pos >= 0) {
+        var argname = pairs[i].substring(0,pos);
+        var value = pairs[i].substring(pos+1);
+        QueryString.keys[QueryString.keys.length] = argname;
+        QueryString.values[QueryString.values.length] = value;
+      }
+    }
+  }
+  function getOpener() {
+    if(QueryString("SPModalLayerId") =='descSPModalLayer') return window.parent;
+    return GetOpener();
+  }
+  function CloseWindow(){
+    if (QueryString("SPModalLayerId")) openerWindow.closeSPModalLayer();
+    else window.close()
+  }
+  function Init(){
+    QueryString_Parse();
+    openerWindow = getOpener();
+    var propName=QueryString("propName");
+    if(propName==null)propName='description';
+    var Title=propName.charAt(0).toUpperCase() + propName.slice(1);;
+    document.title=Title;
+    document.getElementById("title").innerText=Title;
+    //if(openerWindow.reportProp){
+    //  document.getElementById('desc').value=Trim(openerWindow.reportProp[propName]);
+    //} else {
+      if(QueryString("isFormProp")=='true')
+        document.getElementById('desc').value=Trim(openerWindow.formProp[propName]);
+      else
+        document.getElementById('desc').value=Trim(openerWindow.itemsHTML[openerWindow.index][propName]);
+    //}
+    window.focus();
+  }
+  function setField(){
+    var propName=QueryString("propName");
+    if(propName==null)propName='description';
+    //if(openerWindow.reportProp){
+    //  openerWindow.reportProp["title"]=document.getElementById('desc').value;
+    //  openerWindow.document.getElementById(QueryString("id")).value=document.getElementById('desc').value;
+    //} else {
+      if(QueryString("isFormProp")=='true'){
+        openerWindow.formProp[propName]=document.getElementById('desc').value;
+        openerWindow.document.getElementById(QueryString("id")).value=document.getElementById('desc').value;
+        //openerWindow.FormProperties();
+      }else if(openerWindow.itemsHTML){
+        openerWindow.document.getElementById(QueryString("id")).value=document.getElementById('desc').value;
+        openerWindow.document.getElementById(QueryString("id")).focus();
+        openerWindow.document.getElementById(QueryString("id")).blur();
+        openerWindow.writeHTML();
+        openerWindow.Properties();
+      }
+    //}
+    CloseWindow();
+  }
+ </script>
+</head>
+<body style="border:0;overflow:hidden;margin:0;background-color:#E4E4E4" onload="Init()">
+ <table border="1" width="100%" height="100%" cellpadding="0" cellspacing="1" align="center">
+  <tr>
+   <td id="title" class="titoli" align="center" height="20"></td>
+  </tr>
+  <tr>
+   <td class="contenuto">
+    <textarea id="desc" style="width:100%;height:100%;" accesskey="d"></textarea>
+   </td>
+  </tr>
+  <tr>
+   <td class='footer' height="20" valign="middle" align="center" nowrap>
+    <button onclick="setField();" accesskey="i" class="bottoni"><u>I</u>nsert</button>&nbsp;
+    <button onclick="CloseWindow();" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+   </td>
+  </tr>
+ </table>
+</body>
+</html>

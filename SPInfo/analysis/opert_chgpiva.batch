@@ -1,0 +1,39 @@
+﻿* --- Resource Vers. 0.9
+opert_chgpiva
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Sostituisce Partita Iva Errata con Partita IVA corretta
+file_modified_on=#2022-03-22 20:44:14
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='opert_chgpiva
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'scarti_import.connescli
+]
+'Routines
+[
+'opert_chgpiva
+'opert_imp_dati_soggetto
+]
+'Tables
+[
+'scarti_import<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<library>
+    <description>System Functions.</description>
+    <note></note>
+    <function>
+        <name>Format</name>
+        <description>Returns a string containing an expression formatted according to instructions contained in a format expression.</description>
+        <type>C</type>
+        <parameter>
+            <name>expr</name>
+            <description>Specifies a valid expression.</description>
+            <type>any</type>
+        </parameter>
+        <parameter>
+            <name>picture</name>
+            <description>Specifies the format expression, if omitted for Date and DateTime the one set with Utilities.ServerSetUnspecifiedPictureSettings is used.</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>iif</name>
+        <description>Returns one of two values depending on the value of a logical expression.</description>
+        <type>C</type>
+        <parameter>
+            <name>expr</name>
+            <description>Expression you want to evaluate.</description>
+            <type>L</type>
+        </parameter>
+        <parameter>
+            <name>truepart</name>
+            <description>Value or expression returned if expression is True.</description>
+            <type>any</type>
+        </parameter>
+        <parameter>
+            <name>falsepart</name>
+            <description>Value or expression returned if expression is False.</description>
+            <type>any</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Empty</name>
+        <description>Determines whether an expression evaluates to empty.</description>
+        <type>L</type>
+        <parameter>
+            <name>expr</name>
+            <description></description>
+            <type>any</type>
+        </parameter>
+    </function>
+    <function>
+        <name>IsNull</name>
+        <description>Determines whether an expression evaluates to a null value.</description>
+        <type>L</type>
+        <parameter>
+            <name>expr</name>
+            <description></description>
+            <type>any</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Strtran</name>
+        <description>Searches a character expression or memo field for occurrences of a second character expression or memo field, and then replaces each occurrence with a third character expression or memo field.</description>
+        <type>C</type>
+        <parameter>
+            <name>src</name>
+            <description>String expression containing substring to replace.</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>find</name>
+            <description>Substring being searched for.</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>repl</name>
+            <description>Replacement substring.</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Substr</name>
+        <description>Returns a character string from the given character expression or memo field.</description>
+        <type>C</type>
+        <parameter>
+            <name>str</name>
+            <description>String expression from which characters are returned.</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>pos</name>
+            <description>Character position in string at which the part to be taken begins.</description>
+            <type>N</type>
+        </parameter>
+        <parameter>
+            <name>cnt</name>
+            <description>Number of characters to return.</description>
+            <type>N</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Left</name>
+        <description>Returns the specified number of leftmost characters of a character string.</description>
+        <type>C</type>
+        <parameter>
+            <name>str</name>
+            <description>String expression from which the leftmost characters are returned.</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>len</name>
+            <description>Numeric expression indicating how many characters to return.</description>
+            <type>N</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Right</name>
+        <description>Returns the specified number of rightmost characters of a character string.</description>
+        <type>C</type>
+        <parameter>
+            <name>str</name>
+            <description>String expression from which the rightmost characters are returned.</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>len</name>
+            <description>Numeric expression indicating how many characters to return.</description>
+            <type>N</type>
+        </parameter>
+    </function>
+    <function>
+        <name>FormatMsg</name>
+        <description>Returns a string containing a translated message formatted positioning every parameter in its placeholder.</description>
+        <type>C</type>
+        <parameter>
+            <name>message</name>
+            <description>Specifies message with placeholders for every parameter (es: %1)</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>...</name>
+            <description>Expressions with message parameters.</description>
+            <type>any</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Asc</name>
+        <description>Returns the ASCII code of the first character of a string.</description>
+        <type>C</type>
+        <parameter>
+            <name>str</name>
+            <description></description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>At</name>
+        <description>Returns the numeric position of the first occurrence of a character string within another character string. Returns 0 if nothing found.</description>
+        <type>C</type>
+        <parameter>
+            <name>srcExpr</name>
+            <description>String expression to look for.</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>exprSrcd</name>
+            <description>String expression being scanned.</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>occ</name>
+            <description>Occurrence from which the srcExpr is searched for in exprSrcd.</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>RAt</name>
+        <description>Returns the numeric position of the last occurrence of a character string within another character string. Returns 0 if nothing found.</description>
+        <type>C</type>
+        <parameter>
+            <name>srcExpr</name>
+            <description>String expression to look for.</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>exprSrcd</name>
+            <description>String expression being scanned.</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>occ</name>
+            <description>Occurrence from which the srcExpr is searched for in exprSrcd.</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Chr</name>
+        <description>Returns a string whose first character corresponds to the ASCII code passed.</description>
+        <type>N</type>
+        <parameter>
+            <name>ascii_code</name>
+            <description>Only for the first 128 characters.</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Val</name>
+        <description>Returns a numeric value from a character expression composed of numbers.</description>
+        <type>N</type>
+        <parameter>
+            <name>str</name>
+            <description></description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Upper</name>
+        <description>Converts the specified character expression to uppercase.</description>
+        <type>C</type>
+        <parameter>
+            <name>str</name>
+            <description></description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Lower</name>
+        <description>Converts the specified character expression to lowercase.</description>
+        <type>C</type>
+        <parameter>
+            <name>str</name>
+            <description></description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Trim</name>
+        <description>Returns the specified character expression without trailing blanks.</description>
+        <type>C</type>
+        <parameter>
+            <name>str</name>
+            <description></description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>RTrim</name>
+        <description>Returns the specified character expression without trailing blanks.</description>
+        <type>C</type>
+        <parameter>
+            <name>str</name>
+            <description></description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>LTrim</name>
+        <description>Returns the specified character expression without leading blanks.</description>
+        <type>C</type>
+        <parameter>
+            <name>str</name>
+            <description></description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>LRTrim</name>
+        <description>Returns the specified character expression without trailing blanks.</description>
+        <type>C</type>
+        <parameter>
+            <name>str</name>
+            <description></description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Replicate</name>
+        <description>Returns a character string that contains a specified character expression repeated a specified number of times.</description>
+        <type>C</type>
+        <parameter>
+            <name>str</name>
+            <description>Character expression to be repeated.</description>
+            <type>C</type>
+        </parameter>
+        <parameter>
+            <name>times</name>
+            <description>Number of times the expression is to be repeated.</description>
+            <type>N</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Space</name>
+        <description>Returns a string composed of a specified number of spaces.</description>
+        <type>C</type>
+        <parameter>
+            <name>times</name>
+            <description>Number of spaces to be repeated.</description>
+            <type>N</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Len</name>
+        <description>Returns the number of characters of a character expression.</description>
+        <type>N</type>
+        <parameter>
+            <name>str</name>
+            <description></description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Str</name>
+        <description>Returns a string representation of a number.</description>
+        <type>C</type>
+        <parameter>
+            <name>num</name>
+            <description>Number to convert into string.</description>
+            <type>N</type>
+        </parameter>
+        <parameter>
+            <name>len</name>
+            <description>Number of characters into which the number is converted.</description>
+            <type>N</type>
+        </parameter>
+        <parameter>
+            <name>dec</name>
+            <description>Maximum allowed decimal digits.</description>
+            <type>N</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Mod</name>
+        <description>Used to divide two numbers and return only the remainder.</description>
+        <type>N</type>
+        <parameter>
+            <name>dividend</name>
+            <description>Specifies the dividend.</description>
+            <type>N</type>
+        </parameter>
+        <parameter>
+            <name>divisor</name>
+            <description>Specifies the divisor.</description>
+            <type>N</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Min</name>
+        <description>Returns the expression with the minimum value.</description>
+        <type>C</type>
+        <parameter>
+            <name>firstexpr</name>
+            <description>First expression to compare.</description>
+            <type>any</type>
+        </parameter>
+        <parameter>
+            <name>secondexpr</name>
+            <description>Second expression to compare.</description>
+            <type>any</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Max</name>
+        <description>Returns the expression with the maximum value.</description>
+        <type>C</type>
+        <parameter>
+            <name>firstexpr</name>
+            <description>First expression to compare.</description>
+            <type>any</type>
+        </parameter>
+        <parameter>
+            <name>secondexpr</name>
+            <description>Second expression to compare.</description>
+            <type>any</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Round</name>
+        <description>Rounds a number to the specified decimal digits.</description>
+        <type>N</type>
+        <parameter>
+            <name>expr</name>
+            <description>Numeric expression being rounded.</description>
+            <type>N</type>
+        </parameter>
+        <parameter>
+            <name>numDec</name>
+            <description>Number indicating how many places to the right of the decimal are included in the rounding.</description>
+            <type>N</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Trunc</name>
+        <description>Truncs a number to the specified decimal digits.</description>
+        <type>N</type>
+        <parameter>
+            <name>expr</name>
+            <description>Numeric expression being truncated.</description>
+            <type>N</type>
+        </parameter>
+        <parameter>
+            <name>numDec</name>
+            <description>Number indicating how many places to the right of the decimal are included in the truncated number.</description>
+            <type>N</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Int</name>
+        <description>Truncates decimal digits of a number.</description>
+        <type>N</type>
+        <parameter>
+            <name>num</name>
+            <description></description>
+            <type>N</type>
+        </parameter>
+    </function>
+    <function>
+        <name>CharToBool</name>
+        <description>Converts a character expression into a logic one.</description>
+        <type>L</type>
+        <parameter>
+            <name>string</name>
+            <description></description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>BoolToChar</name>
+        <description>Converts a logic expression into a character one.</description>
+        <type>C</type>
+        <parameter>
+            <name>boolean</name>
+            <description></description>
+            <type>L</type>
+        </parameter>
+    </function>
+    <function>
+        <name>DateToChar</name>
+        <description>Converts a date expression into a character one with pattern YYYYMMDD.</description>
+        <type>C</type>
+        <parameter>
+            <name>date</name>
+            <description></description>
+            <type>D</type>
+        </parameter>
+    </function>
+    <function>
+        <name>CharToDate</name>
+        <description>Converts a character expression with pattern YYYYMMDD or DD/MM/YYYY into a date one.</description>
+        <type>D</type>
+        <parameter>
+            <name>str</name>
+            <description></description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Day</name>
+        <description>Returns the day of the specified date.</description>
+        <type>N</type>
+        <parameter>
+            <name>date</name>
+            <description></description>
+            <type>D</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Month</name>
+        <description>Returns the month of the specified date.</description>
+        <type>N</type>
+        <parameter>
+            <name>date</name>
+            <description></description>
+            <type>D</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Year</name>
+        <description>Returns the year of the specified date.</description>
+        <type>N</type>
+        <parameter>
+            <name>date</name>
+            <description></description>
+            <type>D</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Date</name>
+        <description>Returns the current system date or casts a datetime to date.</description>
+        <type>D</type>
+        <parameter>
+            <name>dateTime</name>
+            <description>Optional datetime to cast as date.</description>
+            <type>T</type>
+        </parameter>
+    </function>
+    <function>
+        <name>DateTime</name>
+        <description>Returns the current date and time as a Datetime value (client and server returned values may differ due to timezone settings) or casts a datetime to date.</description>
+        <type>T</type>
+        <parameter>
+            <name>date</name>
+            <description>Optional date to cast as datetime.</description>
+            <type>D</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Hour</name>
+        <description>Returns the hour portion from a Datetime expression.</description>
+        <type>N</type>
+        <parameter>
+            <name>datetime</name>
+            <description></description>
+            <type>T</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Minute</name>
+        <description>Returns the minute portion from a Datetime expression.</description>
+        <type>N</type>
+        <parameter>
+            <name>datetime</name>
+            <description></description>
+            <type>T</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Sec</name>
+        <description>Returns the second portion from a Datetime expression.</description>
+        <type>N</type>
+        <parameter>
+            <name>datetime</name>
+            <description></description>
+            <type>T</type>
+        </parameter>
+    </function>
+    <function>
+        <name>DayOfWeek</name>
+        <description>Returns a numeric day-of-the-week value from a Date expression.</description>
+        <type>N</type>
+        <parameter>
+            <name>date</name>
+            <description></description>
+            <type>D</type>
+        </parameter>
+    </function>
+    <function>
+        <name>Week</name>
+        <description>Returns a number representing the week of the year from a Date expression.</description>
+        <type>N</type>
+        <parameter>
+            <name>date</name>
+            <description></description>
+            <type>D</type>
+        </parameter>
+    </function>
+    <function>
+        <name>DateDiff</name>
+        <description>Returns the measure in days of the time interval described by the two parameters.</description>
+        <type>N</type>
+        <parameter>
+            <name>from</name>
+            <description>Specifies the interval's start.</description>
+            <type>D</type>
+        </parameter>
+        <parameter>
+            <name>to</name>
+            <description>Specifies the interval's end.</description>
+            <type>D</type>
+        </parameter>
+    </function>
+    <function>
+        <name>AddDays</name>
+        <description>Returns a date expression by shifted the number of days specified.</description>
+        <type>D</type>
+        <parameter>
+            <name>from</name>
+            <description>Specifies the date to manipolate.</description>
+            <type>D</type>
+        </parameter>
+        <parameter>
+            <name>to</name>
+            <description>Specifies the number of days.</description>
+            <type>N</type>
+        </parameter>
+    </function>
+	<function>
+        <name>WRFormatNumber</name>
+        <description>Returns a string .</description>
+        <type>N</type>
+        <parameter>
+            <name>numb</name>
+            <description>Specifies the number to format.</description>
+            <type>N</type>
+        </parameter>
+		<parameter>
+            <name>decLen</name>
+            <description>specifies the number of digits for the decimal part.</description>
+            <type>N</type>
+        </parameter>
+		<parameter>
+            <name>decSep</name>
+            <description>Specifies the character to use as decimal separator.</description>
+            <type>S</type>
+        </parameter>
+		<parameter>
+            <name>milSep</name>
+            <description>Specifies the character to use as thounsands separator.</description>
+            <type>S</type>
+        </parameter>
+		
+    </function>
+</library>

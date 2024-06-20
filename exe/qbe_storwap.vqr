@@ -1,0 +1,579 @@
+ 1
+"Anagrafica Rapporti"
+"wnarapbo"
+"wnarapbo"
+ 0
+ 0
+*
+ 44
+"Codice Rapporto"
+"wnarapbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"wnarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Rapporto"
+"wnarapbo.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Divisa"
+"wnarapbo.FLAGLIRE"
+"FLAGLIRE"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Divisa"
+"wnarapbo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.CONTINUA"
+"CONTINUA"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.DOCFILE"
+"DOCFILE"
+"C"
+ 100
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Non inviare agenzia entrate"
+"wnarapbo.NOPROT"
+"NOPROT"
+"N"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"tipo Modifica"
+"wnarapbo.TIPMOD"
+"TIPMOD"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Modifica"
+"wnarapbo.DATAMOD"
+"DATAMOD"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"ID Rapporto"
+"wnarapbo.IDRAPPORTO"
+"IDRAPPORTO"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"ID Base"
+"wnarapbo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.RAGIO"
+"RAGIO"
+"C"
+ 5
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.MODSVOL"
+"MODSVOL"
+"C"
+ 5
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.AREAGEO"
+"AREAGEO"
+"C"
+ 5
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.SCOPO"
+"SCOPO"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.NATURA"
+"NATURA"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.RTIPO"
+"RTIPO"
+"N"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.RCOMP"
+"RCOMP"
+"N"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.RIMP"
+"RIMP"
+"N"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.RFREQ"
+"RFREQ"
+"N"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.RRAGIO"
+"RRAGIO"
+"N"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.RAREA"
+"RAREA"
+"N"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.TIPO"
+"TIPO"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Progressivo Import"
+"wnarapbo.PRGIMPRAP"
+"PRGIMPRAP"
+"N"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.AMMONT"
+"AMMONT"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.DURAT"
+"DURAT"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Import Apertura Agenzia Entrate"
+"wnarapbo.IMPAPE"
+"IMPAPE"
+"N"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Import Chiusura Agenzia Entrate"
+"wnarapbo.IMPCHIU"
+"IMPCHIU"
+"N"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Customer ID (WUBS)"
+"wnarapbo.SPLITCODE"
+"SPLITCODE"
+"C"
+ 15
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Macro Agente"
+"wnarapbo.MACODICE"
+"MACODICE"
+"C"
+ 5
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Dipendenza / Agenzia che crea il rapporto"
+"wnarapbo.CODDIP"
+"CODDIP"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato Rapporto (CGO)"
+"wnarapbo.STATORAP"
+"STATORAP"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Stato SnaiCARD"
+"wnarapbo.CASTATOC"
+"CASTATOC"
+"N"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Motivo Stato"
+"wnarapbo.CASTATOM"
+"CASTATOM"
+"N"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Legale Rappresentante"
+"wnarapbo.CODICELR"
+"CODICELR"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Cambio Stato"
+"wnarapbo.CADSTATO"
+"CADSTATO"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Mitigazione"
+"wnarapbo.MITIG"
+"MITIG"
+"N"
+ 4
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Path Documentazione Mitigazione"
+"wnarapbo.MITGDOC"
+"MITGDOC"
+"C"
+ 100
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.DAC6"
+"DAC6"
+"C"
+ 100
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.FLAGDAC6"
+"FLAGDAC6"
+"N"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.IBAN"
+"IBAN"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"wnarapbo.CODOGG"
+"CODOGG"
+"C"
+ 3
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 0
+ 1
+"wnarapbo.RAPPORTO"
+""
+"in"
+"QBE_STORWAPS"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 5
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"+*LI9Y+BGKI%3F.0BJQ%2C%2F%1485%25%21.G%5EKmTMP%16GB%25+%064Y%3DBH5%26%26%3D%28B%3B6%04M*72%3DrLLV8RO%234%1E%3A%5B2RWIM%24Z%1E8%12%27-G4+_D-0%231ABV_%3ELYQ+%1E2.2%25%2CJ%5C%5CA%2F%24%12+%2B4%3A3%22%21*-9%28P5%2B%5BXCT0%26%1F%19%3E37%2B*F%5E99%2C%22%22+0i%25%05%22%26%4049%23JR%21B%21%5BX3LO%01O%05%3A%2CR%26OD%24%3D%3A%5E%3C%5B%27..%00%3EN%2BQA%28%2CA%24%5EZ%3F%3B%3E%223%26%25O_%5DZ%2977%3E%28NB%27%3F%26%00N%2B*%2FI%2C*LCM%07%16JL%29B_*%5DWB78K%27%3ELkY2TA07%1B%2B%00"
+"%25D6%28B9RQ%2BlE*F6%24W1NW3%2B2%18*%273%2CS5%27a%5DG%28+%5D8%222T%5DWZ5%3AD%22%24QIE2-%21%3D-L%24%60%27+SPMU%22%1F7U%2B%3A%06G0%2FH%3F%14%10%5E.j%3B%22236%26%3E+C3WA%5E%21cV4%22L3%2F9%5DKSP%40%21%3D*%08%27FE%265%2158%2B%21R%40SK1%2FD%5E%2FK6SL-%21%23%5E.M%28%3D0Y%28EJI0-7%3E%27N%2C%3E.%2C9R7%26%156%25%0168.v8%5CG%3F%15%2F.%29%5EZ%28%3B7YJD%3A%213%29%25K%5DDXB%21*%223%24%26%29TXm-%229%0B*JB413%03%21K%29H9EH%3A%26%5E%293%1D%180BS%3AQY%7BIC%3BEPA0h%18%05H%3EENO%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+*

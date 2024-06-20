@@ -1,0 +1,61 @@
+﻿* --- Resource Vers. 0.9
+arrt_tit_aui
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Crea Temporaneo Titolari Effettivi AUI
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:30
+module_name='
+name='arrt_tit_aui
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_tit_aui.codcli
+'tmp_tit_aui.codinter
+'tmp_tit_aui.descinter
+'tmp_tit_aui.dataini
+'tmp_tit_aui.tiporap
+'tmp_tit_aui.rapporto
+'tmp_tit_aui.datafine
+'tmp_tit_aui_sel.codcli
+'tmp_tit_aui_sel.codinter
+'tmp_tit_aui_sel.descinter
+'tmp_tit_aui_sel.dataini
+'tmp_tit_aui_sel.tiporap
+'tmp_tit_aui_sel.rapporto
+'tmp_tit_aui_sel.datafine
+]
+'Hyperlinks
+[
+'arpg_intestit
+'arpg_intestit_sel
+]
+'Queries
+[
+'qbe_tit_aui.vqr
+'qbe_tit_aui_sel.vqr
+]
+'Tables
+[
+'personbo<table>
+'tbcitta<table>
+'tbstati<table>
+'tmp_tit_aui<table>
+'tmp_tit_aui_sel<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,381 @@
+ 3
+"Operazioni"
+"operazbo"
+"operazbo"
+ 0
+ 0
+*
+"Gestione Contante (Operazioni)"
+"ope_contante"
+"ope_contante"
+ 0
+ 0
+*
+"Clienti / Persone / Società"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 6
+"GLN Sala Conta"
+"ope_contante.CODICEGLN"
+"CODICEGLN"
+"C"
+ 13
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice ISTAT Comune Cliente Contante"
+"ope_contante.CODCOMCON"
+"CODCOMCON"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"GLN Altro Soggetto"
+"ope_contante.GLNALTROSOG"
+"GLNALTROSOG"
+"C"
+ 13
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"GLN Sala Conta Altro Soggetto"
+"ope_contante.GLNALTRASC"
+"GLNALTRASC"
+"C"
+ 13
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"ABI Proprietario"
+"ope_contante.ABIPROPR"
+"ABIPROPR"
+"C"
+ 5
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Totale"
+"COUNT(distinct operazbo.IDBASE)"
+"TOTALE"
+"N"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 2
+"Operazioni(IDBASE Operazione)"
+"operazbo.IDBASE=ope_contante.IDOPE"
+"Inner"
+"operazbo"
+"ope_contante"
+*
+"Operazioni(Cliente)"
+"operazbo.CONNESCLI=personbo.CONNES and personbo.FLGNOTRIM=ýNý"
+"Inner"
+"operazbo"
+"personbo"
+*
+ 19
+"personbo.TIPOSOGGETTO"
+""
+"="
+"ýbý"
+"AND"
+""
+""
+*
+"ope_contante.TIPATT"
+""
+"="
+"?w_tipoAttivita"
+"AND"
+""
+""
+*
+"ope_contante.CODICEGLN"
+""
+"="
+"?w_gln"
+"AND"
+""
+""
+*
+"ope_contante.CODCOMCON"
+""
+"="
+"?w_istat"
+"AND"
+""
+""
+*
+"ope_contante.GLNALTROSOG"
+""
+"="
+"?w_glnAltraSog"
+"AND"
+""
+""
+*
+"ope_contante.GLNALTRASC"
+""
+"="
+"?w_glnAltraSC"
+"AND"
+""
+""
+*
+"ope_contante.ABIPROPR"
+""
+"="
+"?w_abi_pro"
+"AND"
+""
+""
+*
+"operazbo.DATAOPE"
+""
+">="
+"?w_daData"
+"AND"
+""
+""
+*
+"operazbo.DATAOPE"
+""
+"<="
+"?w_aData"
+"AND"
+""
+""
+*
+"operazbo.VALUTA"
+""
+"="
+"ý242ý"
+"AND"
+""
+""
+*
+"(ope_contante.TAGLIO"
+""
+"="
+"5"
+"OR"
+""
+""
+*
+"ope_contante.TAGLIO"
+""
+"="
+"10"
+"OR"
+""
+""
+*
+"ope_contante.TAGLIO"
+""
+"="
+"20"
+"OR"
+""
+""
+*
+"ope_contante.TAGLIO"
+""
+"="
+"50"
+"OR"
+""
+""
+*
+"ope_contante.TAGLIO"
+""
+"="
+"100"
+"OR"
+""
+""
+*
+"ope_contante.TAGLIO"
+""
+"="
+"200"
+"OR"
+""
+""
+*
+"ope_contante.TAGLIO"
+""
+"="
+"500)"
+"AND"
+""
+""
+*
+"ope_contante.NBANCONOTE"
+""
+"<>"
+"0"
+"AND"
+""
+""
+*
+"operazbo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+""
+*
+ 0
+ 3
+"GLN Sala Conta"
+"CODICEGLN"
+*
+"Codice ISTAT Comune Cliente Contante"
+"CODCOMCON"
+*
+"ABI Proprietario"
+"ABIPROPR"
+*
+ 0
+ 8
+"w_tipoAttivita"
+"Tipo attività (RIT o SOV)"
+"C"
+"3"
+"0"
+""
+""
+""
+.f.
+*
+"w_gln"
+"GLN Sala Conta del Segnalante"
+"C"
+"13"
+"0"
+""
+""
+""
+.f.
+*
+"w_istat"
+"Codice del comune"
+"C"
+"6"
+"0"
+""
+""
+""
+.f.
+*
+"w_glnAltraSog"
+"GLN dellýaltra società"
+"C"
+"13"
+"0"
+""
+""
+""
+.f.
+*
+"w_glnAltraSC"
+"GLN Altra Sala Conta dellýaltra Società"
+"C"
+"13"
+"0"
+""
+""
+""
+.f.
+*
+"w_abi_pro"
+"Codice ABI Proprietario"
+"C"
+"5"
+"0"
+""
+""
+""
+.f.
+*
+"w_daData"
+"Data inizio"
+"D"
+"8"
+"0"
+""
+""
+""
+.f.
+*
+"w_aData"
+"Data fine"
+"D"
+"8"
+"0"
+""
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 15
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%5BKSN6MvS*D7%261%24%2B%5C4J%3AO%5B%406%23C5%21%22KrMR%3E*%40_34%07%25NQ7%211%29%29EMiK+B7*IOLb%2C%21I%21CXO%24B%02%2C%5D%25B%3CYGB%2954%5EZN%1A%3B9%02%13I%1FBJ*%28TF_1*L%295%3BV1%5C%5DP3*%24%3CTQA%5C18G8%28*%3ETTYK4P%60U%3AKKP%3FW%3D%2F4C%3ACII%28%5CDjM_2%3A*0%27KMN%21M+6%2FC%3B%2FW*%25%27%5D%3FH95%3F%237_SU%3B5%22%28%2BK+%29%5E%2C%23B%293%2F*%21%25%223%26%26_ZX%3B%3E%25%3E8%24QT.1%3F*62KX4S%5BZLCS%15-4%3B%29%21ZQ%5E%2B6%27%17%22%5C%7FB5%25-%22+9JG%00"
+"JK4.ZSX4F5%22HO2%25H6*%2F9Q3E%3AIPBTL.9X%16%1E+-7%06VSQY%3B%24K%256I%5D%3F%2B7%28S%228GG%5DB%2F4%23V%5B%21K%3CQ%11%3E%3A%223RM5%2FGP%5C%40G%40Z3.D%3EHLG%29T3L5%3FKL5R%2B%3C3%5EZV%3B8C*P.%5D%40I5%21V%26%3AFZWW_9G%40%27%15%23%1AX2WSPh-U8%170%3EFkE%2C0F%5E%117%2C_Q%25%24%3B+I*B%23B%5EI%2F0tCO6049_PA%3F9%25%143%26%23H%23O%22%22KY%5D%3F%3B%3C5%223%22%26E0EQ%24%16%2B%5C%26%3D%5E*38.I-%3AVK%28.%3DM10%168%2B%3B7SY%23LXE%2F%17M%09%22%5BH%29%276TE3%21%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

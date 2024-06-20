@@ -1,0 +1,109 @@
+ 3
+"Errori Import Saldi Rapporti/Opex"
+"tmp_esitosaldi"
+"tmp_esitosaldi"
+ 205
+ 42
+*
+"Anagrafica Rapporti"
+"anarapbo"
+"anarapbo"
+ 31
+ 188
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 349
+ 181
+*
+ 6
+"Rapporto / Operazione"
+"tmp_esitosaldi.TIPO"
+"TIPO"
+"C"
+ 1
+ 0
+*
+"Codice Rapporto"
+"tmp_esitosaldi.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Descrizione"
+"anarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Intestatario rapporto / operazione"
+"tmp_esitosaldi.CODINTEST"
+"CODINTEST"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"Char"
+ 70
+ 0
+*
+"Errori Rilevati"
+"tmp_esitosaldi.TXTERR"
+"TXTERR"
+"C"
+ 80
+ 0
+*
+ 2
+"Rapporti"
+"anarapbo.RAPPORTO=tmp_esitosaldi.RAPPORTO"
+"Right outer"
+"anarapbo"
+"tmp_esitosaldi"
+*
+"Soggetti"
+"personbo.CONNES=tmp_esitosaldi.CODINTEST"
+"Right outer"
+"personbo"
+"tmp_esitosaldi"
+*
+ 0
+ 0
+ 0
+ 0
+ 2
+"w_anno"
+"Anno di riferimento"
+"Numeric"
+"4"
+"0"
+"Remove"
+*
+"w_DescAzi"
+"Intermediario"
+"Char"
+"70"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 2
+.f.
+""
+.f.
+*

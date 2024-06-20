@@ -1,0 +1,64 @@
+﻿* --- Resource Vers. 0.9
+arrt_check2_opex
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:32
+description='Verifica Soggetti Con ExtraConto ma senza Operazioni
+file_modified_on=#2023-02-21 15:26:20
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:09
+module_name='
+name='arrt_check2_opex
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_erropxanno.tiperr
+'tmp_erropxanno.anno
+'tmp_erropxanno.connes
+'tmp_erropxanno.codfisc
+'tmp_erropxanno.ragsoc
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_minmax_chk2_opex.vqr
+'qbe_chk2_opex.vqr
+'qbe_chk2_opex_o.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_check2_opex
+]
+'Tables
+[
+'anarapbo<table>
+'aetesta<table>
+'aerighe<table>
+'appointestbo<table>
+'intestbo<table>
+'aefiles<table>
+'jnarapbo<table>
+'personbo<table>
+'opextrbo<table>
+'tbmacage<table>
+'tmp_erropxanno<table>
+]
+}
+I
+*--*
+￼[]
+*--*

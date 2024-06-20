@@ -1,0 +1,112 @@
+ 1
+"cpprgsec"
+"cpprgsec"
+"cpprgsec"
+ 0
+ 0
+*
+ 2
+"Type"
+"[CASE2([LEFT(cpprgsec.progname,3)]=ýps/ý,ýPortlet & Pageletý,[LEFT(cpprgsec.progname,4)]=ývqr/ý,ýQueryý,[LEFT(cpprgsec.progname,4)]=ývrp/ý,ýWeb Reportý,[LEFT(cpprgsec.progname,5)]=ýwsrp/ý,ýWeb Service Reportý,[LEFT(cpprgsec.progname,11)]=ýsoap/query/ý,ýSOAP Endpoint Queryý,[LEFT(cpprgsec.progname,9)]=ýsoap/vrp/ý,ýSOAP Endpoint Reportý,[LEFT(cpprgsec.progname,5)]=ýsoap/ý,ýSOAP Endpoint Procedureý,[LEFT(cpprgsec.progname,2)]=ýr/ý,ýRoleý,[LEFT(cpprgsec.progname,4)]=ýAPI/ý,ýAPIý,ýProcedureý)]"
+"sectype"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Entity Name"
+"cpprgsec.progname"
+"progname"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 0
+ 3
+"?type"
+""
+"="
+"[CASE2([LEFT(cpprgsec.progname,3)]=ýps/ý,ýPortlet & Pageletý,[LEFT(cpprgsec.progname,4)]=ývqr/ý,ýQueryý,[LEFT(cpprgsec.progname,4)]=ývrp/ý,ýWeb Reportý,[LEFT(cpprgsec.progname,5)]=ýwsrp/ý,ýWeb Service Reportý,[LEFT(cpprgsec.progname,9)]=ýsoap/vrp/ý,ýSOAP Endpoint Reportý,[LEFT(cpprgsec.progname,11)]=ýsoap/query/ý,ýSOAP Endpoint Queryý,[LEFT(cpprgsec.progname,5)]=ýsoap/ý,ýSOAP Endpoint Procedureý,[LEFT(cpprgsec.progname,2)]=ýr/ý,ýROLEý,[LEFT(cpprgsec.progname,4)]=ýAPI/ý,ýAPIý,ýProcedureý)]"
+"AND"
+""
+""
+*
+"(cpprgsec.progname"
+""
+"like"
+"ý%ý[CONCAT()][CASE2([LEFT(cpprgsec.progname,3)]=ýps/ý,ýps/ý,[LEFT(cpprgsec.progname,4)]=ývqr/ý,ývqr/ý,[LEFT(cpprgsec.progname,4)]=ývrp/ý,ývrp/ý,[LEFT(cpprgsec.progname,5)]=ýwsrp/ý,ýwsrp/ý,[LEFT(cpprgsec.progname,12)]=ýsoap/vrp/ý,ýsoap/vrp/ý,[LEFT(cpprgsec.progname,11)]=ýsoap/query/ý,ýsoap/query/ý,[LEFT(cpprgsec.progname,5)]=ýsoap/ý,ýsoap/ý,[LEFT(cpprgsec.progname,2)]=ýr/ý,ýr/ý,[LEFT(cpprgsec.progname,4)]=ýAPI/ý,ýAPI/ý,ýý)] [CONCAT] ?progname[CONCAT()]ý%ý"
+"OR"
+""
+""
+*
+"?progname"
+""
+"="
+"ýý)"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 1
+ 2
+"progname"
+"Entity Name"
+"C"
+"50"
+"0"
+""
+""
+""
+.f.
+*
+"type"
+"Entity Type"
+"C"
+"30"
+"0"
+"Remove"
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 11
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+".EkD5D%250%2CD%2FH%3B%3B%27Vj%22%280%2B+%23O%26QJUXBX%5E*DOZ%2BP%3AY_%28H%269%3B+WB%40%215%2C%5B%2FJ7-Z.%279%5C9%3F2%26%2B6%28P%3CKJ%5B%3B%26-6%23HTY%22-%23%5B.%28-BPM%40_%262%5E.L2W%21%24%05%2FZ%27%5C8%22%29%0AQBhD%22J33%2B%2CQ%3Cu%2FE%2BP%22%23%40C%3A%29%244Z2GM%27AD%3B%409K%3F%5D%16%279%2B%2CB1%23%2CG*2%3B%29%1CARBW%21.kO%3F2J1YBQTG%250%025%1A*CQ%22-ZHb8%3D.1%223+%25%5EAzF*H+%3E%7EV%5EH%2F%23%25A%1A1UBDD6J0%25L5%40%28KSUZ%3CCDN6C%08%29hG%24R%231%3F%269%00"
+"uGKWHMJ3%22HK%3BB5%2FG%3DD%3C%3D%260%21E_T%29W%5C*KQ%14NFPC%3A4BI%2C1L-%25ZZMXC_%227C%3B4F_S%26QFY+1.%225%2C%5E0%40Ux8%40G1%5D%7C%5DY6X1Y2%195sQ-+N-8%27%22%28%22Q4S%3A_Y_N%3F%3E%12PZ5X%3B%3B81%3CI%3FT%3E%22GUT%3CZCOJ%296%3A%24%2CC%21G9%27HTKUXH%271+%22%23%2BLbSJRp%3D%3E%3C3%2C3%11%26ZU%3D%7BW%40%3B1XYh7E5%3BUM1MqS%2CQn%25W%23%3D%40I%223%24%26%27jyZ%3C%16E%2BD_5%27Y4U%27M%3E%21KD%27GUb%2F+4E481%26G%5C%4088%3CD%3D%5C3i%18%277+%13A%3F%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

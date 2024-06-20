@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="18771429">
+  <CodifyName>arpg_esito_rap</CodifyName>
+  <Name>arpg_esito_rap.pagedef</Name>
+  <Title>Import Esiti Agenzia Entrate</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="2222518"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_esito_rap_usr_1</JPG>
+    <Item type="variabile" x1="16" y1="35" x2="680" y2="55">
+      <Name LinkID="61982172">nomefile</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="688" y1="35" x2="776" y2="60">
+      <Name LinkID="92240394">Seleziona</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="131" x2="776" y2="245">
+      <Name LinkID="113575112">msgproc</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="736" y1="70" x2="776" y2="101">
+      <Name LinkID="1994213">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_esito_rap</Hyperlink>
+      <HyperlinkOpenOn>Frame</HyperlinkOpenOn>
+      <Help>Esegui elaborazione</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="688" y1="70" x2="728" y2="101">
+      <Name LinkID="1994213">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>Report</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Stampa Errori Import</Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="128" y1="70" x2="392" y2="90">
+      <Name LinkID="144782414">tipoelab</Name>
+      <Comment>Modalità Elaborazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="640" y1="70" x2="680" y2="101">
+      <Name LinkID="1994213">images/print4.gif</Name>
+      <Image>images/print4.gif</Image>
+      <Hyperlink>arrt_esito_rap_report</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Stampa Errori Import</Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

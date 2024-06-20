@@ -1,0 +1,33 @@
+<html>
+<head>
+ <title>Edit Zone</title>
+ <link rel="stylesheet" href="../filewindow.css" type="text/css">
+ <script type="text/javascript">
+  var nposition;
+  var col;
+  function doLoad(){
+    var pippo2 = GetOpener().parpar2;
+    nposition=pippo2[0]; //array generico degli items
+    col=pippo2[1];       //indice corrente mainitem
+    var portlet=pippo2[2];
+    document.getElementById("zone").value=portlet;
+  }
+  function setZone(){
+    GetOpener().setZone(nposition,col,document.getElementById("zone").value);
+    window.close();
+  }
+ </script>
+</head>
+<body onload="doLoad()" bgcolor="#D6D3CE">
+ <table border="0" cellspacing="0" cellpadding="4" width="100%">
+  <tr>
+   <td class="contorno" align="center" height="20" colspan="2"><b><u>I</u>nsert Zone:</b></td>
+  </tr>
+  <tr>
+   <td style="background:buttonface" valign=center class="contorno" nowrap>
+    <input type="text" id="zone" style='width:200;'>&nbsp <button onclick="setZone()" accesskey="i" class="bottoni"><u>I</u>nsert</button>&nbsp <button  onclick="window.close()" accesskey="i" class="bottoni"><u>C</u>ancel</button>
+   </td>
+  </tr>
+ </table>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="45384476">
+  <CodifyName>arpg_wersonbo</CodifyName>
+  <Name>arpg_wersonbo.pagedef</Name>
+  <Title>Variazioni Dati Anagrafici</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="214190949"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_wersonbo_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="62" x2="1092" y2="75">
+      <Name LinkID="175323577">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="24" y1="44" x2="120" y2="60">
+      <Name LinkID="214205212">c_datamodi</Name>
+      <Help></Help>
+      <Expression>c_datamodi</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="61" x2="1092" y2="74">
+      <Name LinkID="121340841">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="130" y1="44" x2="264" y2="60">
+      <Name LinkID="214205212">c_CODFISC</Name>
+      <Help></Help>
+      <Expression>c_CODFISC</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="273" y1="44" x2="693" y2="60">
+      <Name LinkID="214205212">c_RAGSOC</Name>
+      <Help></Help>
+      <Expression>c_RAGSOC</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="3" y1="44" x2="19" y2="60">
+      <Name LinkID="214205212">images/view.png</Name>
+      <Image>images/view.png</Image>
+      <Hyperlink>armt_wersonbo</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

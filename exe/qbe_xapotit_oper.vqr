@@ -1,0 +1,158 @@
+ 3
+"Informazioni su titolari (Provvisorio)"
+"xapotit"
+"xapotit"
+ 0
+ 0
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 7
+"Numero Progressivo"
+"xapotit.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Inizio / Fine Rapporto"
+"xapotit.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Data Registrazione"
+"xapotit.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Tipo Informazione"
+"xapotit.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DES1"
+"C"
+ 90
+ 0
+*
+"idbase"
+"xapotit.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+ 2
+"Tipo Registrazione(Tipo Informazione)"
+"tbtipreg.CODICE=xapotit.TIPOOPRAP"
+"Right outer"
+"tbtipreg"
+"xapotit"
+*
+"Titolari"
+"personbo.CONNES=xapotit.CONNESOPER"
+"Right outer"
+"personbo"
+"xapotit"
+*
+ 5
+"xapotit.CONNESCLI"
+""
+"="
+"?w_CODCLI"
+"AND"
+""
+*
+"[NOTEMPTYSTR(xapotit.CONNESCLI)]"
+""
+">"
+"0"
+"AND"
+""
+*
+"((xapotit.CONNESCLI"
+""
+"in"
+"qbe_personbo_dip"
+"AND"
+""
+*
+"[USERGROUPS()]"
+""
+"="
+"3)"
+"OR"
+""
+*
+"[USERGROUPS()]"
+""
+"<>"
+"3)"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"w_CODCLI"
+""
+"C"
+"16"
+"0"
+"Remove"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 18
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"H%5DWAU%3FQU%5C1+*22T1B%236%2C%5D%23%21%3A_%3DuR%3C_W%27B4%3C5.T%06_7%7B%3DH%236%3C+%3BWFW%15%23H%29-Bc-+%5Bs0%3EFNH%03E%3D9%5CVIN+O%3B%3BQ%3E0%223*.%21%25GIavJ%5B.TUI5F5%3AV9%21IC%5C%3A%26%2F%5C%26KK%3BY%14%5E%27%3F%25s%5CN%5DmIM%04.M%3C%5DORQ%25IxZ%1C%24*4%28%3D%5B%221%15VN%231NIB%21M+0U%2FN%27%3C%40%07%23C%3Bx%3B8B%2F%22FSU7%26%2304A%1F%2FTZ_W%2BMW%24%29M%223%2B%26%2CJ%250%3F%3C*Z%2B9%5B%26Z07A%24%2F%23IEI7+ZT6%40%40%5C4%04%5B%235%22J92J%3ALU%3A1*%24%03%11K+%00"
+"*%5CFX%3C8O9E5%40%3B97FT61%28%3CX%28%3D7O1wZQH2VN%3A%3A0%3B%2C%5D%28J%29G%1CCG%23%26_%3D8XE%2F%1075%5D8B%25mL1*%22+-%26%28%07%3D%40Q%2CJ%27BI2%5C3OB9%2B%3C66%1CRM%2CuZ+2%5B%29J%3C*G%2C2_%5CFG5K%22_%23ND052%2FK6%3C%5B3HP4p%5B%07K4%249CT%25I%3B%7B%3FJ%16%2C.%2BGh%27_-5H%25%2BC__OV%25HXK%2C%1A%3DK_%5D%25CY%5E%1E-.%3D%26Y%3C%1A%2F6X%3C%19B_2DXSL%3EP%3A%3F%28%223%24%25%23L%5D%3E%21O%3B++%3A%3DEWI%02%3B%2B1+JDI3%27WSG4%40%01N+U*%3ERX%1DK%26-L%3F%5CM3%24%5CA%3F%2B%00"
+""
+""
+"native"
+ 0
+ 0
+*

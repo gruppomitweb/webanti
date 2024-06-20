@@ -1,0 +1,167 @@
+ 3
+"Utenti"
+"cpusers"
+"cpusers"
+ 0
+ 0
+*
+"Dati Aggiuntivi Utenti"
+"cpusers_add"
+"cpusers_add"
+ 0
+ 0
+*
+"Dipendenze"
+"anadip"
+"anadip"
+ 0
+ 0
+*
+ 7
+"Codice"
+"cpusers.code"
+"code"
+"N"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Nome"
+"cpusers.fullname"
+"fullname"
+"C"
+ 60
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Utente"
+"cpusers.name"
+"name"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Sala"
+"anadip.CODDIP"
+"CODDIP"
+"C"
+ 6
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"anadip.DESCRIZ"
+"DESCRIZ"
+"C"
+ 30
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Locale"
+"anadip.CODLOC"
+"CODLOC"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"cpusers.cpotp"
+"cpotp"
+"C"
+ 100
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 2
+"Dati Aggiuntivi Utente"
+"cpusers_add.CODE=cpusers.code"
+"Right outer"
+"cpusers_add"
+"cpusers"
+*
+"Dipendenze"
+"anadip.CODDIP=cpusers_add.CODDIP"
+"Right outer"
+"anadip"
+"cpusers_add"
+*
+ 2
+"cpusers.enabled"
+""
+"="
+"ýEý"
+"AND"
+""
+""
+*
+"[NOTEMPTYSTR(cpusers.cpotp)]"
+""
+"<>"
+"0"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 6
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"KNUKYS.9-%3D7-%25%5E%7DCZ%1B2A%5DB%1AKqb%22O%5E%25%5BXC*%22_%22%2F%2Ct%5E*JE%3D%13*XjZ+%23%2C3%10O%29ZCEQY%27D%2F%3E%29F-2%24%5DAS%5EY%3D.%22%3EVUj5P%21VBD+%24YYM%3DG9%25FJF%22%10%23%5CIZX1%2C%3EA%5B-F5IZ0%5C%11.9rJ%26ImR%5D.6%3A%3DZ973wON%5C%3B%21D%27%2CVE%18*M5-*NsF%21.8+E439%228%12%2B%24-V%2FD%29-%3E0%7C%5C0%3A%215%3A3%28--cv-%3A%2FH%07I0H%223%2B%26%22E+U260%5BCO64%5E0%26%12G%3FBIw%40%5BFHS9+%1A%28*%5E.QKZ7%2B%3F%2B%26%7F%3EG%2B*%26XE%23I%00"
+"T%2C7NPB%26VBE%2CN%3A7QVV%24%25N%3BN%2CL_%60%24%406PQ_3%3F%1B44%23%26w%5B*T%27%17%21WX2%3BNZ69K%26B%27RT%29IW6%29%14%22%2F4%25%3C8%25Y%40%3BE%21%3B%25USV%3D_%25W%22%3EF+MFMA%2B6%22%15%2B%22.%115_w7-L%21M%3B*%23GI%2B%07%159D6%21A%5E%23%25%5DqFVC9%40%2B%247YO3M%3D%29223%25k99%3DC%5E60.%5B_M%2CGP5P%14BG7H-0%5CO%5D0%1DDA_I0Z%2F%04O%3BI*%25WW%25G6%29QR%25%1F+%223%28%26%24MV%3E4%23M-%213%3E%1A4%3CW*OJB1%2C%27%3A%5E%3C0GLM%5E%3EQ%26t%3C%27n6BL%29%5CH8HW-3+%3E%1C%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+*

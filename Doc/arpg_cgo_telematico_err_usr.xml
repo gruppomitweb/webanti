@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="257784249">
+  <CodifyName>arpg_cgo_telematico_err</CodifyName>
+  <Name>arpg_cgo_telematico_err.pagedef</Name>
+  <Title>Correzione Operazioni Scartate (CGO)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="261437209"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_cgo_telematico_err_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="74" x2="1246" y2="87">
+      <Name LinkID="149267142">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="61" x2="1246" y2="74">
+      <Name LinkID="258229805">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="44" x2="112" y2="60">
+      <Name LinkID="257784249">c_SNAINUMOPE</Name>
+      <Help></Help>
+      <Expression>c_SNAINUMOPE</Expression>
+      <Hyperlink>arrt_cgo_telematico_err_load</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="120" y1="44" x2="280" y2="60">
+      <Name LinkID="257784249">c_RAPPORTO</Name>
+      <Help></Help>
+      <Expression>c_RAPPORTO</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="288" y1="44" x2="592" y2="60">
+      <Name LinkID="257784249">c_DESCRAP</Name>
+      <Help></Help>
+      <Expression>c_DESCRAP</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="600" y1="44" x2="720" y2="60">
+      <Name LinkID="257784249">c_CAIDBIGLIETTO</Name>
+      <Help></Help>
+      <Expression>c_CAIDBIGLIETTO</Expression>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

@@ -1,0 +1,313 @@
+ 6
+"Titolare Effettivo (Provvisorio)"
+"xapotit"
+"xapotit"
+ 0
+ 0
+*
+"Intestatari Titolarità (Provvisorio)"
+"xntestit"
+"xntestit"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti(1)"
+"personbo1"
+"personbo"
+ 0
+ 0
+*
+"Tipi Legami"
+"tbtipleg"
+"tbtipleg"
+ 0
+ 0
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 0
+ 0
+*
+ 21
+""
+"xapotit.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+""
+"xapotit.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+""
+"xapotit.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+""
+"xapotit.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+""
+"xapotit.COLLEG"
+"COLLEG"
+"C"
+ 12
+ 0
+*
+""
+"xapotit.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+""
+"xapotit.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+""
+"xapotit.IDEREG"
+"IDEREG"
+"C"
+ 20
+ 0
+*
+""
+"xapotit.TIPOLEG"
+"TIPOLEG"
+"C"
+ 1
+ 0
+*
+"Descrizione"
+"[LEFT(tbtipleg.DESCRIZ,50)]"
+"DESCRIZ"
+"C"
+ 50
+ 0
+*
+""
+"xapotit.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DES1"
+"C"
+ 90
+ 0
+*
+""
+"xapotit.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+""
+"xapotit.DESCINTER"
+"DESCINTER"
+"C"
+ 50
+ 0
+*
+""
+"xntestit.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo1.RAGSOC"
+"RAGTIT"
+"C"
+ 70
+ 0
+*
+""
+"xntestit.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+""
+"xntestit.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+""
+"xntestit.NUMPROG1"
+"NUMPROG1"
+"C"
+ 11
+ 0
+*
+""
+"xntestit.NUMPROG2"
+"NUMPROG2"
+"C"
+ 11
+ 0
+*
+ 5
+"Titolari"
+"xntestit.CODCLI=xapotit.CONNESCLI and (xntestit.NUMPROG1=xapotit.NUMPROG or xntestit.NUMPROG2=xapotit.NUMPROG)"
+"Right outer"
+"xntestit"
+"xapotit"
+*
+"Soggetti"
+"personbo.CONNES=xapotit.CONNESCLI"
+"Right outer"
+"personbo"
+"xapotit"
+*
+"Titolari"
+"personbo1.CONNES=xntestit.CODINTER"
+"Right outer"
+"personbo1"
+"xntestit"
+*
+"Tipi Legami"
+"tbtipleg.TIPLEG=xapotit.TIPOLEG"
+"Right outer"
+"tbtipleg"
+"xapotit"
+*
+"Tipo Registrazione"
+"tbtipreg.CODICE=xapotit.TIPOOPRAP"
+"Right outer"
+"tbtipreg"
+"xapotit"
+*
+ 4
+"xapotit.DATAOPE"
+""
+">="
+"?w_DaData"
+"AND"
+""
+*
+"xapotit.DATAOPE"
+""
+"<="
+"?w_AData"
+"AND"
+""
+*
+"xapotit.CONNESCLI"
+""
+">="
+"?w_daSocieta"
+"AND"
+""
+*
+"xapotit.CONNESCLI"
+""
+"<="
+"?w_aSocieta"
+"AND"
+""
+*
+ 1
+""
+"NUMPROG"
+"Ascending"
+*
+ 0
+ 0
+ 4
+"w_DaData"
+""
+"D"
+"8"
+"0"
+"Remove"
+""
+*
+"w_AData"
+""
+"D"
+"8"
+"0"
+"Remove"
+""
+*
+"w_daSocieta"
+""
+"C"
+"16"
+"0"
+"Remove"
+""
+*
+"w_aSocieta"
+""
+"C"
+"16"
+"0"
+"Remove"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 13
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%26%29kFO%40D%5BJ1D%3F8.%2BUL%26%3F%3C6D.%3DZ5B+ZJH845%2F3%2C_%21%2FS%21%5E6%22+%0BK6S%272NT*C%23%5EOHJ%3A%2538%3BN0S%22%3C5BFYM%3F+AUOki0%5C%2C%03%3C%22%2BN%3AEBEYK%5DH%29%3B%5B+QQIJ%2CA9%2111%2CCU%40-B%23%29D%29%249+%2B%3E_S3F%29%27%2C%3AV%3CTN%21%3EM%26.%3D%21B1%27-8Q%3D%24.sU%2B%2B%3D%28V%5BOI%22%02%270%04C%3C%7BW9%14NQQG9K%3E-56%402MTTTC%268%5D%40%1FE%223%22%26u%5EC5%1DG%3B%29P2A3*%2C3+0BC0R%26TK%3E%3E7%264RL%27%23L2WL%26%3EK6%253%3F%2C%28H*%12+A%00"
+"%25%22%3BR%5B1%23h-3B%3B%2CQ%25SO%25%042%237%22%3D%26%60%24O0%2F%3B++FB.%3DY%04MQD%3F0%3CB.%289%3C%22%22I%3FA%3E4s%3E.UYJKT%3A%289XK%2F1-%40T%3D%1FK%3FXK0S4%28L%5EI%2CB%2F%3FLBO%25W%06%23%27%18%03%25U%3B%26W%224%27%28%3BQ%24I%3BE7%24%5C%29GH%23c+A6VL%3F75%3D%26%264%5C%24%5CARE%28G-%2C%3B_B9N%272%2F7%5CZ%5DtLU%5E-.%40%22%2CH0%29%2BGGW7-+%3FUh%3A%3B%5E%3C%27G5E_c%28FEP8*IJ3%223.%26KCIKH%28A%0AJD%5C%29_%3A4L4Hq6%27wRB%3C%3F9MJ%24G%3EU%2CkG%3B%3B%3CL%21%7EJ2%23%3DL%5D%2670%00"
+""
+""
+"native"
+ 0
+ 0
+*

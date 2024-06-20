@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="143497264">
+  <CodifyName>arpg_rapotit</CodifyName>
+  <Name>arpg_rapotit.pagedef</Name>
+  <Title>Informazioni Titolari (A.U.I.)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="250387365"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_rapotit_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="74" x2="1380" y2="87">
+      <Name LinkID="245361680">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="61" x2="1380" y2="74">
+      <Name LinkID="2922645">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="56" y1="44" x2="152" y2="60">
+      <Name LinkID="149723184">c_NUMPROG</Name>
+      <Help></Help>
+      <Expression>c_NUMPROG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="304" y1="44" x2="512" y2="60">
+      <Name LinkID="149723184">c_DES1</Name>
+      <Help></Help>
+      <Expression>c_DES1</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="160" y1="44" x2="224" y2="60">
+      <Name LinkID="149723184">c_DATAOPE</Name>
+      <Help></Help>
+      <Expression>c_DATAOPE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="232" y1="44" x2="296" y2="60">
+      <Name LinkID="149723184">c_DATAREG</Name>
+      <Help></Help>
+      <Expression>c_DATAREG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="22" y1="44" x2="38" y2="60">
+      <Name LinkID="149723184">images/edit.gif</Name>
+      <Image>images/edit.gif</Image>
+      <Hyperlink>arpg_edt_rapotit</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="41" y1="44" x2="57" y2="60">
+      <Name LinkID="149723184">images/remove.gif</Name>
+      <Image>images/remove.gif</Image>
+      <Hyperlink>arpg_del_rapotit</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="3" y1="44" x2="19" y2="60">
+      <Name LinkID="149723184">images/view.png</Name>
+      <Image>images/view.png</Image>
+      <Hyperlink>armt_rapotit</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="520" y1="44" x2="792" y2="60">
+      <Name LinkID="149723184">c_RAGSOC</Name>
+      <Help></Help>
+      <Expression>c_RAGSOC</Expression>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

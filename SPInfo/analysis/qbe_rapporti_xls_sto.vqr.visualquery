@@ -1,0 +1,67 @@
+﻿* --- Resource Vers. 0.9
+qbe_rapporti_xls_sto.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:22
+description='
+file_modified_on=#2023-03-07 16:46:15
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:39
+module_name='
+name='qbe_rapporti_xls_sto.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'wnarapbo.rapporto
+'wnarapbo.descrap
+'wnarapbo.tiporap
+'wnarapbo.flaglire
+'wnarapbo.valuta
+'wnarapbo.scopo
+'wnarapbo.natura
+'wnarapbo.risglob
+'wnarapbo.dataprof
+'wnarapbo.datarevprof
+'wnarapbo.coddip
+'wapopebo.dataope
+'wntestbo.codinter
+'wntestbo.datafine
+'wapopebo.statoreg
+'wnarapbo.tipoag
+]
+'Tables
+[
+'wnarapbo<table>
+'wapopebo<table>
+'wntestbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

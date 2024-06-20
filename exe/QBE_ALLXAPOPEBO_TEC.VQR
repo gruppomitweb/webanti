@@ -1,0 +1,631 @@
+ 3
+"Informazioni su rapporti"
+"xapopebo"
+"xapopebo"
+ 0
+ 0
+*
+"Anagrafica Rapporti"
+"xnarapbo"
+"xnarapbo"
+ 0
+ 0
+*
+"Dipendenze"
+"anadip"
+"anadip"
+ 0
+ 0
+*
+ 67
+"idbase"
+"xapopebo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Numero Progressivo"
+"xapopebo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Inizio / Fine Rapporto"
+"xapopebo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+""
+"xapopebo.TIPOINTER"
+"TIPOINTER"
+"C"
+ 2
+ 0
+*
+"Codice Interm."
+"xapopebo.CODINTER"
+"CODINTER"
+"C"
+ 11
+ 0
+*
+""
+"xapopebo.TIPOINF"
+"TIPOINF"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.IDEREG"
+"IDEREG"
+"C"
+ 20
+ 0
+*
+"Codice Dipendenza"
+"xapopebo.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+*
+"Citta Int."
+"xapopebo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"xapopebo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"CAB"
+"xapopebo.CODCAB"
+"CODCAB"
+"C"
+ 6
+ 0
+*
+""
+"xapopebo.FLAGFRAZ"
+"FLAGFRAZ"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.FLAGCONT"
+"FLAGCONT"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+*
+""
+"xapopebo.CODVOC"
+"CODVOC"
+"C"
+ 2
+ 0
+*
+""
+"xapopebo.TIPOINT2"
+"TIPOINT2"
+"C"
+ 2
+ 0
+*
+""
+"xapopebo.CODINT2"
+"CODINT2"
+"C"
+ 11
+ 0
+*
+""
+"xapopebo.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+*
+""
+"xapopebo.DESC2"
+"DESC2"
+"C"
+ 30
+ 0
+*
+""
+"xapopebo.PROV2"
+"PROV2"
+"C"
+ 2
+ 0
+*
+""
+"xapopebo.CODCAB2"
+"CODCAB2"
+"C"
+ 6
+ 0
+*
+"Note Brevi"
+"xapopebo.DESCINTER"
+"DESCINTER"
+"C"
+ 50
+ 0
+*
+""
+"xapopebo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+""
+"xapopebo.FLAGRAP"
+"FLAGRAP"
+"C"
+ 1
+ 0
+*
+"Tipo Legame Sogg."
+"xapopebo.TIPOLEG"
+"TIPOLEG"
+"C"
+ 1
+ 0
+*
+"Data Registrazione"
+"xapopebo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+""
+"xapopebo.OPRAP"
+"OPRAP"
+"C"
+ 1
+ 0
+*
+"Tipo Informazione"
+"xapopebo.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+""
+"xapopebo.FLAGLIRE"
+"FLAGLIRE"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+""
+"xapopebo.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.TOTLIRE"
+"TOTLIRE"
+"N"
+ 15
+ 0
+*
+""
+"xapopebo.TOTCONT"
+"TOTCONT"
+"N"
+ 15
+ 0
+*
+"Stato Registrazione"
+"xapopebo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.OPERAZMOD"
+"OPERAZMOD"
+"C"
+ 20
+ 0
+*
+""
+"xapopebo.DATARETT"
+"DATARETT"
+"D"
+ 8
+ 0
+*
+""
+"xapopebo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Soggetto Operante Conto Terzi"
+"xapopebo.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+*
+""
+"xapopebo.CONNESBEN"
+"CONNESBEN"
+"C"
+ 16
+ 0
+*
+""
+"xapopebo.COLLEG"
+"COLLEG"
+"C"
+ 12
+ 0
+*
+""
+"xapopebo.CAMBIO"
+"CAMBIO"
+"N"
+ 9
+ 4
+*
+""
+"xapopebo.RAPPORTBEN"
+"RAPPORTBEN"
+"C"
+ 25
+ 0
+*
+""
+"xapopebo.FLAGRAP2"
+"FLAGRAP2"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.OPERATORE"
+"OPERATORE"
+"C"
+ 70
+ 0
+*
+""
+"xapopebo.AUTOM"
+"AUTOM"
+"C"
+ 5
+ 0
+*
+""
+"xapopebo.RESPINS"
+"RESPINS"
+"C"
+ 30
+ 0
+*
+""
+"xapopebo.INFORM"
+"INFORM"
+"C"
+ 30
+ 0
+*
+""
+"xapopebo.DATAAGE"
+"DATAAGE"
+"D"
+ 8
+ 0
+*
+""
+"xapopebo.UCODE"
+"UCODE"
+"C"
+ 7
+ 0
+*
+"Progressivo Importo"
+"xapopebo.PRGIMPINF"
+"PRGIMPINF"
+"N"
+ 15
+ 0
+*
+"Codice univoco per importazioni di n sogetti operanti"
+"xapopebo.UNIQUECODE"
+"UNIQUECODE"
+"C"
+ 10
+ 0
+*
+"Data Operazione (Letterale)"
+"xapopebo.CDATOPE"
+"CDATOPE"
+"C"
+ 8
+ 0
+*
+"Data Registrazione"
+"xapopebo.CDATREG"
+"CDATREG"
+"C"
+ 8
+ 0
+*
+"Descrizione"
+"xnarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Tipo Rapporto"
+"xnarapbo.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+*
+"Divisa"
+"xnarapbo.FLAGLIRE"
+"FLAGLIRE1"
+"C"
+ 1
+ 0
+*
+"Codice Divisa"
+"xnarapbo.VALUTA"
+"VALUTA1"
+"C"
+ 3
+ 0
+*
+""
+"xnarapbo.CONTINUA"
+"CONTINUA"
+"C"
+ 1
+ 0
+*
+""
+"xnarapbo.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+""
+"xnarapbo.DOCFILE"
+"DOCFILE"
+"C"
+ 100
+ 0
+*
+"Non inviare agenzia entrate"
+"xnarapbo.NOPROT"
+"NOPROT"
+"N"
+ 1
+ 0
+*
+"tipo Modifica"
+"xnarapbo.TIPMOD"
+"TIPMOD"
+"C"
+ 2
+ 0
+*
+"Data Modifica"
+"xnarapbo.DATAMOD"
+"DATAMOD"
+"D"
+ 8
+ 0
+*
+"ID Rapporto"
+"xnarapbo.IDRAPPORTO"
+"IDRAPPORTO"
+"C"
+ 25
+ 0
+*
+"Città"
+"anadip.DESCCIT"
+"DIPCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"anadip.PROVINCIA"
+"DIPPRV"
+"C"
+ 2
+ 0
+*
+"CAB"
+"anadip.CAB"
+"DIPCAB"
+"C"
+ 6
+ 0
+*
+ 2
+"Anagrafica Rapporti"
+"xnarapbo.RAPPORTO=xapopebo.RAPPORTO"
+"Right outer"
+"xnarapbo"
+"xapopebo"
+*
+"Dipendenze(Codice Dipendenza)"
+"anadip.CODDIP=xapopebo.CODDIPE"
+"Right outer"
+"anadip"
+"xapopebo"
+*
+ 6
+"xnarapbo.RAPPORTO"
+""
+">="
+"?w_daRapporto"
+"AND"
+""
+*
+"xnarapbo.RAPPORTO"
+""
+"<="
+"?w_aRapporto"
+"AND"
+""
+*
+"xapopebo.CDATOPE"
+""
+">="
+"?w_c_dadata"
+"AND"
+""
+*
+"xapopebo.CDATOPE"
+""
+"<="
+"?w_c_adata"
+"AND"
+""
+*
+"xapopebo.CODDIPE"
+""
+">="
+"?w_daCodDip"
+"AND"
+""
+*
+"xapopebo.CODDIPE"
+""
+"<="
+"?w_aCodDip"
+"AND"
+""
+*
+ 3
+"Data Inizio / Fine Rapporto"
+"DATAOPE"
+"Ascending"
+*
+"Numero Progressivo"
+"NUMPROG"
+"Ascending"
+*
+"Stato Registrazione"
+"STATOREG"
+"Ascending"
+*
+ 0
+ 0
+ 6
+"w_daRapporto"
+"Codice Rapporto"
+"C"
+"25"
+"0"
+"Remove"
+*
+"w_aRapporto"
+"Codice Rapporto"
+"C"
+"25"
+"0"
+"Remove"
+*
+"w_c_dadata"
+"Data Operazione (Letterale)"
+"C"
+"8"
+"0"
+"Remove"
+*
+"w_c_adata"
+"Data Operazione (Letterale)"
+"C"
+"8"
+"0"
+"Remove"
+*
+"w_daCodDip"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+*
+"w_aCodDip"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 39
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"ZFF%5C%3DH%29%5ENB%1DFNQH8YL07%07%1F%13%13zqafogm%15D%3BF%24%28S%04-%3F%28L%1F3%11%2F%29TQ4P.4O%28+%5D8XBQ-CR%25%2F%19%0373XV%5DZ_-9L%0BE6M%3B%5CK17%25KQO%29%289%25BTBF%3C%3E*V%26U5EF6BM%2B%402K%1A%5C%3FT%2B81ZVD%5D%3D%5BQ%3BFH%18%5BOR%5E_NF%5BC%3F4T%25%5B54%04%403%2BB%1CUB%23%28%3AV%40_%14%1DCV5YSwHX%3D%1C%2F0%28%5EBQ%2B%21-%03N%2C%28Nb.RXGK%5BA%2B%2B-3%21%26+%40%24B%3CKM5XEZ+%044%3C%27CB+S%21Jo%5C27%3A%3B%1B86_%04KUN%3CG%23%3B%3CO%402H%045%23G%21%21%00"
+"DEPz%3D_%21Rvg%0A%01%14%09%7Ef%7D%13%3A6%2F%13%3A%1E.3Y%2FZBO_L%2F%3F3F%2F%5C%5BQ_%3C%3A7%29-VEQG%23E%3E+%297r1%5CtHJ%5B%26%23LKUC%3B%25S3%28%3E2G%28%26V74%294%296I%28%22Cb%2C.9%5BO%28%237%3E%3E%2FP4+%3F%22%5D3%28%103+NQ9%24OX%3D*%27_1N%24m%281%229%1D9%01EV%3F_VN%3DK%26%3E9Vj%3C518%28%22%24%28+4ONoNN1%15C%194%27%5E%5DWi%23I%24-KT%7CRTL3%3AVG%25%24_F+GJE%3C7%24IJ%283%2C%25%29%3BFKN%24%3C%3EUR%3EL%2893%116%1E%28NY%2FW+Z-87+%26%23Y*Pk%2CV%3FN59%294DC6%243ME5%00"
+""
+""
+"native"
+ 0
+ 0
+*

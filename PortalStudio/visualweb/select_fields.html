@@ -1,0 +1,255 @@
+<html>
+<head>
+ <title>Select Field</title>
+ <link rel="stylesheet" href="../filewindow.css" type="text/css">
+ <script type="text/javascript" src="../stdFunctions.js"></script>
+ <script type="text/javascript" src="../controls.js"></script>
+ <script type="text/javascript">
+  QueryString.keys = new Array();
+  QueryString.values = new Array();
+  function Ctrl(id) {
+    return document.getElementById(id);
+  }
+  function QueryString(key) {
+    var value = null;
+    for (var i=0;i<QueryString.keys.length;i++) {
+      if (QueryString.keys[i]==key) {
+        value = QueryString.values[i];
+        break;
+      }
+    }
+    return value;
+  }
+  function QueryString_Parse() {
+    var query = window.location.search.substring(1);
+    var pairs = query.split("&");
+
+    for (var i=0;i<pairs.length;i++) {
+      var pos = pairs[i].indexOf('=');
+      if (pos >= 0) {
+        var argname = pairs[i].substring(0,pos);
+        var value = pairs[i].substring(pos+1);
+        QueryString.keys[QueryString.keys.length] = argname;
+        QueryString.values[QueryString.values.length] = value;
+      }
+    }
+  }
+
+  var ReturnObjectIndex=null;
+  var ReturnObjectName=null;
+  var ObjectType=null;
+  var isForm=false;
+  var isMultiple=false;
+  var isSingleValue=false;
+
+function GetQueryFields(queryname,offline,retDesc){
+    var res=[];
+    var types=[];
+    var desc=[];
+    var length=[];
+    var AllField = new JSURL("../servlet/SPVQRProxy?action=fields&filename="+queryname+"&offlinemode="+offline, true);
+    AllField = AllField.Response();
+    if(Left(AllField,9)=="BO_QUERY:"){
+      AllField = Substr(AllField,10);
+      var CSV_SEP="#!$";
+      var row, rows = AllField.split(CSV_SEP);
+      for (var i=0; i<rows.length; i++){
+        row=rows[i].split("|");
+        res.push(row[0]);
+        if(retDesc==true)
+          desc.push(row[2]);
+        types.push(row[1]);
+        length.push(row[3]);
+      }
+    }
+    else {
+      var l_oFields = new TrsJavascript();
+      l_oFields.reset();
+      l_oFields.SetRow(0);
+      l_oFields.BuildProperties(AllField);
+      var rows = GetProperty(l_oFields,'Rows','N');
+      for (var i=0; i<rows; i++){
+        l_oFields.SetRow(i);
+        res.push(GetProperty(l_oFields,'alias','C'));
+        if(retDesc==true)
+          desc.push(GetProperty(l_oFields,'desc','C'));
+        types.push(GetProperty(l_oFields,'type','C'));
+        length.push(GetProperty(l_oFields,'len','C'));
+      }
+    }
+    return retDesc?[res,desc,types,length]:[res,types,length];
+  }
+
+  function Init() {
+    QueryString_Parse();
+    ReturnObjectIndex=QueryString("for");
+    ReturnObjectName=QueryString("rtrnobj");
+    isForm=QueryString("isForm")==="true";
+    isMultiple=QueryString("isMultiple")==="true";
+    isSingleValue=QueryString("isSingleValue")==="true";
+    var FieldsList=GetOpener().TempArray;
+    var curCtrl = GetOpener().itemsHTML[ReturnObjectIndex];
+    var dataprovider =curCtrl.dataobj;
+    var daproviderObj;
+    if(dataprovider){
+      for(var i=0;i<GetOpener().itemsHTML.length;i++){
+        if(GetOpener().itemsHTML[i].name==dataprovider){
+          daproviderObj = GetOpener().itemsHTML[i];
+          break;
+        }
+      }
+    }
+    if(daproviderObj && daproviderObj.type =='Variable'){
+      FieldsList =['Value()'];
+    }
+    if(QueryString("queryname")!="undefined" && !Empty(QueryString("queryname"))) {
+      var FieldsListExtend=GetQueryFields(QueryString("queryname"),QueryString("offline"));
+    }
+    //var FieldsType=null;
+    if (typeof(FieldsList[0])=='object') {
+      //FieldsType=FieldsList[1];
+      FieldsList=FieldsList[0];
+    }
+
+    if (isForm)
+      ObjectType=ReturnObjectIndex=="chartDef"?"Chart":""
+    else 
+      ObjectType=curCtrl.type;
+
+    if (isMultiple) {
+      Ctrl("fieldslist").multiple=true;
+    }
+    if(ObjectType=="SQLDataobj" || ObjectType=="Repeat"){
+      document.title="Select Query";
+      Ctrl("AvailableObjects").innerHTML="queries";
+    }
+    else if(ObjectType=="Chart"){
+      if(ReturnObjectName=="def" || ReturnObjectName=="chartDef"){
+        document.title="Select Chart Def";
+        Ctrl("AvailableObjects").innerHTML="charts";
+      }
+      else if(ReturnObjectName=="query"){
+        document.title="Select Query";
+        Ctrl("AvailableObjects").innerHTML="queries";
+      }
+    } else if(ObjectType=="linkedConfiguration") { //portalzoom editor
+      document.title="Select Configuration";
+      Ctrl("AvailableObjects").innerHTML="configurations";
+    }
+    var oldValue = Value();
+    if (oldValue) {
+      if (isMultiple) {
+        oldValue = oldValue.split(',');
+      } else {
+        oldValue = [oldValue];
+      }
+    } else {
+      oldValue = [];
+    }
+    if(!Empty(FieldsListExtend)) {
+      for(var i=0;i<FieldsList.length;i++){
+        Ctrl("fieldslist").options[Ctrl("fieldslist").options.length]=new Option(FieldsListExtend[0][i]+" "+FieldsListExtend[1][i] +"(" + FieldsListExtend[2][i]+")", FieldsListExtend[0][i], false, oldValue.indexOf(FieldsListExtend[0][i])>-1? true :false);
+      }
+    } else {
+      for(var i=0;i<FieldsList.length;i++){
+        Ctrl("fieldslist").options[Ctrl("fieldslist").options.length]=new Option(FieldsList[i], FieldsList[i], false, oldValue.indexOf(FieldsList[i])>-1? true :false);
+      }
+    }
+    if(ReturnObjectName=='query')
+      window.resizeTo(400,600);
+    else
+      window.resizeTo(350,500);
+    window.focus();
+    Ctrl("fieldslist").focus();
+  }
+
+  function Value(value) {
+    var obj = GetOpener();
+    if (isForm) {
+      obj = obj.formProp;
+    } else {
+      obj = obj.itemsHTML
+      if (ReturnObjectIndex) {
+        obj = obj[ReturnObjectIndex];
+      }
+    }
+    if (typeof(value)!='undefined') {
+      if (!Empty(ReturnObjectName)) {
+        if (!isSingleValue  && !isMultiple && ObjectType!="Chart" && ObjectType!='linkedConfiguration'  && !Empty(obj[ReturnObjectName]) ) {
+          obj[ReturnObjectName]=obj[ReturnObjectName]+','+value;
+        } else {
+          obj[ReturnObjectName] = value;
+        }
+      } else if(ObjectType=='linkedConfiguration') {
+        obj.configname=value;
+      }else if(typeof(obj.query)!='undefined'){
+        obj.query=value;
+      } else {
+        obj.field=value;
+      }
+    } else {
+      if (!Empty(ReturnObjectName)) {
+        return obj[ReturnObjectName];
+      } else if(ObjectType=='linkedConfiguration') {
+        return obj.configname;
+      } else if(typeof(obj.query)!='undefined'){
+        return obj.query;
+      } else {
+        return obj.field;
+      }
+    }
+  }
+  function setField() {
+    var fieldslist = document.getElementById("fieldslist");
+    if(fieldslist.options.selectedIndex<0 ) return;
+    var field = "";
+    if (isMultiple) {
+      for(var i=0;i<fieldslist.options.length;i++){
+        if(fieldslist.options[i].selected){
+          if(field!="") field+=",";
+          field+=fieldslist.options[i].value;
+        }
+      }    
+    } else {
+      field=fieldslist.options[fieldslist.options.selectedIndex].value;
+    }
+    Value(field);
+
+    if (isForm)
+      GetOpener().FormProperties();
+    else 
+      GetOpener().Properties();
+    WindowClose();
+  }
+  function DoOnKeyDown(e){
+    e = e ? e : window.event;
+    var keyCode = GetKeyCode(e);
+    if(keyCode==13)
+      setField();
+    else if(keyCode==27)
+      WindowClose();
+  }
+ </script>
+</head>
+
+<body style="border:0;overflow:hidden;margin:0;background-color:#E4E4E4" onload="Init()">
+ <table border="1" width="100%" height="100%" cellpadding="0" cellspacing="2" align="center">
+  <tr>
+   <td class="titoli" align="center" height="20"><b>A<u>v</u>ailable <span id="AvailableObjects">fields</span></b></td>
+  </tr>
+  <tr>
+   <td>
+    <select id="fieldslist" size="8" style="width:100%;height:100%" ondblclick="setField()" onKeyDown="DoOnKeyDown(event)" accesskey="v">
+    </select>
+   </td>
+  </tr>
+  <tr>
+   <td class="footer" height="20" valign="middle" align="center" nowrap>
+    <button onclick="setField()" accesskey="s" class="bottoni"><u>S</u>elect</button>&nbsp;
+    <button onclick="WindowClose();" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+   </td>
+  </tr>
+ </table>
+</body>
+</html>
+

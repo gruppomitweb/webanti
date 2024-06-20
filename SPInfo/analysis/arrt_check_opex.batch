@@ -1,0 +1,74 @@
+﻿* --- Resource Vers. 0.9
+arrt_check_opex
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:32
+description='Verifica Soggetti Con Operazioni ma senza ExtraConto
+file_modified_on=#2020-11-20 17:41:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:09
+module_name='
+name='arrt_check_opex
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbmacage.macodice
+'tbmacage.maflgnox
+'tmp_erropxanno.connes
+'tmp_erropxanno.dataope
+'tmp_erropxanno.tiperr
+'tmp_erropxanno.anno
+'tmp_erropxanno.codfisc
+'tmp_erropxanno.ragsoc
+]
+'Hyperlinks
+[
+'arrp_check_opex.vrp
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_genera_opex_limit_ope.vqr
+'qbe_genera_opex_ope.vqr
+'qbe_genera_opex_limit_frz.vqr
+'qbe_genera_opex_frz.vqr
+'qbe_genera_opex_limit_jpe.vqr
+'qbe_genera_opex_jpe.vqr
+]
+'Routines
+[
+'arfn_fdate
+'arfn_fdatetime
+]
+'Tables
+[
+'anarapbo<table>
+'aetesta<table>
+'aerighe<table>
+'appointestbo<table>
+'intestbo<table>
+'aefiles<table>
+'jnarapbo<table>
+'personbo<table>
+'opextrbo<table>
+'tbmacage<table>
+'tmp_erropxanno<table>
+]
+}
+I
+*--*
+￼[]
+*--*

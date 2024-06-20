@@ -1,0 +1,46 @@
+﻿* --- Resource Vers. 0.9
+arrt_intestit_iud
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:38
+description='Aggiorna dati lista titolari (Provvisorio)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:22
+module_name='
+name='arrt_intestit_iud
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'intestit.idbase
+'intestit.dataini
+'intestit.codinter
+'intestit.codcli
+'intestit.tipopers
+'intestit.numprog1
+'intestit.datafine
+'intestit.numprog2
+]
+'Libraries
+[
+'LibreriaMit<project>
+]
+'Tables
+[
+'xntestit<table>
+'intestit<table>
+]
+}
+I
+*--*
+￼[]
+*--*

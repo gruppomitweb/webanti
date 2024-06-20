@@ -1,0 +1,1866 @@
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+.ZoomButtonEnabled {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:Transparent;
+  margin:0;
+  border-width:0;
+  padding:0;
+  z-index:1;
+  cursor:pointer;
+  opacity:0.2;
+  transition: opacity 0.20s linear;
+}
+.ZoomButtonEnabled.Active, .hoverable .ZoomButtonEnabled:hover {
+  opacity:1;
+}
+.ZoomButtonEnabled::after{
+  content: "\E9FB";
+  color: rgba(0,0,0,.93);
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+.ZoomButtonDisabled {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:Transparent;
+  margin:0;
+  border-width:0;
+  padding:0;
+  z-index:1;
+  opacity:0.2;
+  transition: opacity 0.20s linear;
+}
+.ZoomButtonDisabled.Active, .hoverable .ZoomButtonDisabled:hover {
+  opacity:1;
+}
+
+.ZoomButtonDisabled::after{
+  content: "\E9E9";
+  color: rgba(0,0,0,.67);
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+.GridZoomButtonEnabled {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:Transparent;
+  margin:0;
+  border:0;
+  padding:0;
+  z-index:1;
+  cursor:pointer;
+  opacity:0.2;
+  transition: opacity 0.20s linear;
+}
+.GridZoomButtonEnabled.Active, .hoverable .GridZoomButtonEnabled:hover {
+  opacity:1;
+}
+
+.GridZoomButtonEnabled::after{
+  content: "\E9FB";
+  color: rgba(0,0,0,.87);
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: center;
+}
+.GridZoomButtonDisabled {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:Transparent;
+  margin:0;
+  border-width:0;
+  padding:0;
+  z-index:1;
+  opacity:0.2;
+  transition: opacity 0.20s linear;
+}
+.GridZoomButtonDisabled.Active, .hoverable .GridZoomButtonDisabled:hover {
+  opacity:1;
+}
+.GridZoomButtonDisabled::after{
+  content: "\E9E9";
+  color: rgba(0,0,0,.5);
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: center;
+}
+.CalendarButtonEnabled {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:Transparent;
+  margin:0;
+  border-width:0;
+  padding:0;
+  z-index:1;
+  cursor:pointer;
+  opacity:0.2;
+  transition: opacity 0.20s linear;
+}
+.CalendarButtonEnabled::after{
+  content: "\F20F";
+  color: rgba(0,0,0,.87);
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: center;
+}
+.CalendarButtonEnabled.Active, .hoverable .CalendarButtonEnabled:hover {
+  opacity:1;
+}
+.CalendarButtonDisabled {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:Transparent;
+  margin:0;
+  border-width:0;
+  padding:0;
+  z-index:1;
+  opacity:0.2;
+  transition: opacity 0.20s linear;
+}
+.CalendarButtonDisabled.Active, .hoverable .CalendarButtonDisabled:hover {
+  opacity:1;
+}
+.CalendarButtonDisabled::after {
+  content: "\F211";
+  color: rgba(0,0,0,.5);
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 19px;
+  vertical-align: middle;
+  text-align: center;
+}
+.MultiLanguageButtonEnabled {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:Transparent;
+  margin:0;
+  border-width:0;
+  padding:0;
+  z-index:1;
+  cursor:pointer;
+  opacity:0.2;
+  transition: opacity 0.20s linear;
+}
+.MultiLanguageButtonEnabled.Active, .hoverable .MultiLanguageButtonEnabled:hover {
+  opacity:1;
+}
+.MultiLanguageButtonEnabled::after{
+  content: "\EE3E";
+  color: #656363;
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: center;
+}
+.MultiLanguageButtonDisabled {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:Transparent;
+  margin:0;
+  border-width:0;
+  padding:0;
+  z-index:1;
+  opacity:0.2;
+  transition: opacity 0.20s linear;
+}
+.MultiLanguageButtonEnabled.Active, .hoverable .MultiLanguageButtonEnabled:hover {
+  opacity:1;
+}
+.MultiLanguageButtonDisabled::after{
+  content: "\F0D5";
+  color: #656363;
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.MenuButtonEnabled {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:transparent;
+  margin:0;
+  border-width:0;
+  padding:0;
+  z-index:1;
+  cursor:pointer;
+  opacity:0.2;
+  transition: opacity 0.20s linear;
+  outline:0;
+}
+.MenuButtonEnabled.Active, .hoverable .MenuButtonEnabled:hover {
+  opacity:1;
+}
+.MenuButtonEnabled::after{
+  content: "\ED45";
+  color: rgba(0,0,0,.93);
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.MenuButtonDisabled {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:Transparent;
+  margin:0;
+  border-width:0;
+  padding:0;
+  z-index:1;
+  opacity:0.2;
+  transition: opacity 0.20s linear;
+}
+.MenuButtonDisabled.Active, .hoverable .MenuButtonDisabled:hover {
+  opacity:1;
+}
+
+.MenuButtonDisabled::after{
+  content: "\ED45";
+  color: rgba(0,0,0, 0.3);
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.BoxBody {
+  border-radius: 25px;
+}
+
+
+.CollapsibleBody {
+  border-radius: 25px;
+}
+
+
+.LayerBody {
+  border-radius: 25px;
+}
+
+
+.LayerContainer {
+  background-color: #FFF;
+  border-width: 1px;
+  border-color: #DDDDDD;
+  border-style: solid;
+  border-radius: 25px;
+}
+
+
+.SP_Historical_outer {
+  border-radius: 25px;
+}
+
+
+.SectionBody {
+  color:#212121;
+  font-weight:300;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 11pt;
+  border-radius: 25px;
+}
+
+
+.TabStripBoxBody {
+  background-color: #FAFAFA;
+  border-radius: 25px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+
+.Combobox{
+  color:#1D2127;
+  font-family:'Roboto', sans-serif;
+  font-weight:600;
+  font-size:12px;
+  background-color:#FFFFFF;
+  border-width:1px;
+  border-style:solid;
+  border-color:#DDDDDD;
+  border-radius:2px;
+}
+.Combobox option{
+  padding: 0px 2px 1px;
+}
+.mobile.ios .Combobox{
+}
+
+
+.Combobox.Active {
+  background-color:#FFFFFF;
+  border-width:1px;
+  border-style:solid;
+  border-color:#0156CB;
+}
+.mobile.ios  .Combobox.Active{
+}
+
+
+.Combobox.Disabled {
+  color:#1D2127;
+  background-color:rgba(157, 156, 156, 0.1);
+  border-width:1px;
+  border-style:solid;
+  border-color:#DDDDDD;
+}
+.mobile.ios  .Combobox.Disabled{
+}
+
+
+.Combobox.Error {
+  color:#F96262;
+  font-family:'Roboto', sans-serif;
+  background-color:#FFF;
+  border-width:1px;
+  border-style:solid;
+  border-color:#F96262;
+}
+.mobile.ios  .Combobox.Error{
+}
+
+
+.Combobox.Obligatory {
+  color:#0156CB;
+  background-color:rgb(1 86 203/10%);
+  border-width:1px;
+  border-style:solid;
+  border-color:#0156CB;
+}
+.mobile.ios  .Combobox.Obligatory{
+}
+
+
+.Field {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  padding: 0px 4px;
+  background-color:#FFFFFF;
+  border-width:1px; border-color:#DDDDDD; border-style:solid;
+  border-radius:2px;
+  outline: none;
+}
+.Field:-moz-placeholder {
+  text-overflow: ellipsis;
+  font-size:60%;
+}
+.Field::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+  font-size:60%;
+}
+.mobile  .Field {
+  white-space: nowrap;
+  background-clip: padding-box;
+}
+.mobile  .Field[type=date] {
+}
+.mobile.ios  .Field[type=date] {
+}
+
+
+.Field.Active {
+  border-width:1px !important; border-color:#0156CB !important; border-style:solid !important;
+}
+.Field.Active:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.Field.Active::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.mobile  .Field.Active[type=date] {
+}
+.mobile.ios  .Field.Active[type=date] {
+}
+
+.Field.Disabled {
+  background-color:rgba(157, 156, 156, 0.1) !important;
+  border-width:1px !important; border-color:#DDDDDD !important; border-style:solid !important;
+}
+.Field.Disabled:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.Field.Disabled::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.Field[disabled] {
+  background-color:rgba(157, 156, 156, 0.1) !important;
+  background-repeat:no-repeat !important;
+  background-position:right !important;
+  border-width:1px !important;
+  border-color:#DDDDDD !important; border-style:solid !important;
+}
+.Field[disabled]:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.Field[disabled]::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.mobile  .Field.Disabled[type=date] {
+}
+.mobile.ios  .Field.Disabled[type=date] {
+}
+.mobile  .Field[disabled][type=date] {
+}
+.mobile.ios  .Field[disabled][type=date] {
+}
+
+
+.Field.Error {
+  color:#F96262 !important;
+  background-color:#FFF !important;
+  border-width:1px !important; border-color:#F96262 !important; border-style:solid !important;
+}
+.Field.Error:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.Field.Error::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.mobile  .Field.Error[type=date] {
+}
+.mobile.ios  .Field.Error[type=date] {
+}
+
+.Field.warning {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  padding: 0px 4px;
+  background-color:#FFFFFF;
+  border-width:1px; border-color:#DDDDDD; border-style:solid;
+  border-radius:2px;
+  outline: none;
+}
+.Field.warning:-moz-placeholder {
+  text-overflow: ellipsis;
+  font-size:60%;
+}
+.Field.warning::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+  font-size:60%;
+}
+.mobile  .Field.warning {
+  white-space: nowrap;
+  background-clip: padding-box;
+}
+.mobile  .Field.warning[type=date] {
+}
+.mobile.ios  .Field.warning[type=date] {
+}
+
+
+.Field.warning.Obligatory {
+  background-color:rgb(1 86 203/10%);
+  background-repeat:no-repeat;
+  background-position:100% 0%;
+  border-width:1px;
+  border-color:#0156CB;
+  border-style:solid;
+  z-index: 0;
+}
+.Field.warning.Obligatory:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.Field.warning.Obligatory::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.mobile  .Field.warning.Obligatory[type=date] {
+}
+.mobile.ios  .Field.warning.Obligatory[type=date] {
+}
+
+.Field.Obligatory {
+  background-color:rgb(1 86 203/10%);
+  background-repeat:no-repeat;
+  background-position:right;
+  border-width:1px;
+  border-color:#0156CB;
+  border-style:solid;
+  z-index: 0;
+}
+.Field.Obligatory:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.Field.Obligatory::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.mobile  .Field.Obligatory[type=date] {
+}
+.mobile.ios  .Field.Obligatory[type=date] {
+}
+
+.PrimaryKeyField {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  padding: 0px 4px;
+  background-color:#FFFFFF;
+  border-width:1px; border-color:#DDDDDD; border-style:solid;
+  border-radius:2px;
+  outline: none;
+}
+.PrimaryKeyField:-moz-placeholder {
+  text-overflow: ellipsis;
+  font-size:60%;
+}
+.PrimaryKeyField::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+  font-size:60%;
+}
+.mobile  .PrimaryKeyField {
+  white-space: nowrap;
+  background-clip: padding-box;
+}
+.mobile  .PrimaryKeyField[type=date] {
+}
+.mobile.ios  .PrimaryKeyField[type=date] {
+}
+
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+.Calculator {
+  box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.26);
+  color:rgba(0,0,0,0.93);
+  background-color:#FFFFFF;
+  font-family:'Roboto', sans-serif;
+  font-size:12px;
+}
+.CalculatorHeader {
+  color:rgba(255,255,255,0.93);
+  font-family:'Roboto', sans-serif;
+  font-size:15px;
+}
+.CalculatorDragger{
+  background-color:transparent;
+  background-image:url(../Fusion2_mit/formPage/calendar_dragger.png);
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.CalculatorHeaderAll {
+  background-color:#474747;
+}
+.CalculatorContent {
+  padding: 8px 14px;
+  background-color:#FFFFFF;
+}
+.CalculatorContent > tr > td {
+ margin-bottom: 5px;
+}
+.CalculatorFooter{
+  height:0px;
+  background-color:#FFFFFF;
+  font-size:7pt;
+}
+
+/* Calculator Mobile */
+
+#SPCalc div.calc-button {
+  box-sizing: border-box;
+}
+#SPCalc {
+  background-color: rgba(0,0,0,0.0);
+  height: 100%;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 3;
+}
+#SPCalc .calc-main {
+  position: absolute;
+}
+
+#SPCalc .calc {
+  margin: 0px auto;
+}
+
+#SPCalc .calc-header {
+}
+#SPCalc .calc-header .calc-description {
+  height: 100%;
+  padding-left: 5px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+#SPCalc .calc-header .calc-pinnable {
+  text-align: center;
+  height: 100%;
+  cursor: pointer;
+  border-width: 0px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 0px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#SPCalc .pinned .calc-header .calc-pinnable{
+}
+
+#SPCalc .calc-pinnable:before{
+  vertical-align: middle;
+
+}
+
+#SPCalc .calc-display {
+  box-sizing: border-box;
+}
+
+#SPCalc .calc-display-input {
+  display: block;
+  width: 100%;
+  text-align: right;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+
+#SPCalc .calc-row {
+  margin-top: 7px;
+}
+#SPCalc .calc-row:before, .calc-row:after {
+  content: '';
+  display: table;
+}
+#SPCalc .calc-row:after {
+  clear: both;
+}
+
+#SPCalc .calc-button {
+  float: left;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  background-clip: padding-box !important;
+  /* !important because FF overrides the value on :active */
+  border: 0;
+  /* IE 8 fix */
+  cursor: pointer;
+}
+#SPCalc .calc-button:first-child {
+  margin-left: 0;
+}
+
+#SPCalc .calc-button-gray {
+}
+
+#SPCalc .calc-button-blue {
+}
+
+#SPCalc .calc-button-big {
+  font-size: 16px;
+}
+#SPCalc .SPCalc_Del{
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#SPCalc .SPCalc_Increase {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#SPCalc .SPCalc_Decrease {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#SPCalc .SPCalc_Flip {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#SPCalc .SPCalc_DecSep {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#SPCalc .SPCalc_Confirm {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.SPCalendar {
+  color:#333333;
+  background-color:#FFFFFF;
+  font-family:'Roboto', sans-serif;
+  font-size:10pt;
+  border-width:2px 0px 0px 0px;
+  border-style:solid;
+  border-color:rgba(255, 255, 255, 0.4);
+  border-radius:6px;
+  box-shadow: 0px 5px 15px rgb(0 0 0/25%);
+  margin-top:0px;
+  z-index: 1;
+}
+.SPCalendar ol,.SPCalendar ui{
+  list-style: none;
+  padding: 0px;
+}
+.SPCalendar img {
+  vertical-align: middle;
+}
+.SPCalendar a, .hoverable .SPCalendar a:hover, .SPCalendar:visited{
+  text-decoration: none;
+}
+.SPCalendarYear {
+  background-color:transparent;
+  margin-left:0px;
+}
+.SPCalendarMonth {
+  background-color:transparent;
+}
+.SPCalendarHeader {
+  color:#333333;
+  font-family:'Roboto', sans-serif;
+  font-size:11pt;
+}
+
+.SPCalendarHeader.SPCalendarComboYearsMonths{
+  padding: 0;
+}
+.SPCalendarHeader.SPCalendarComboYearsMonths li, .SPCalendarHeader.SPCalendarComboYearsMonths td{
+  padding: 6px 10px;
+}
+.SPCalendarHeaderAll a, .hoverable .SPCalendarHeaderAll a:hover, .SPCalendarHeaderAll a:visited{
+  color:#333333;
+}
+.SPCalendarDragger{
+  background-color:transparent;
+  background-image:url(../Fusion2_mit/formPage/calendar_dragger.png);
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.SPCalendarHeaderAll {
+  color:#333333;
+  font-family:'Roboto', sans-serif;
+  font-size:11pt;
+  background-color:transparent;
+}
+.SPCalendarHeader.mout {
+  color:#333333;
+  background-color:transparent;
+  border-color:rgba(255, 255, 255, 0.4);
+}
+.SPCalendarHeader.mover {
+  color:#333333;
+  background-color:#FFFFFF;
+  border-color:rgba(255, 255, 255, 0.4);
+}
+.SPCalendarContent {
+  background-color:#FFFFFF;
+  margin-top:0px;
+  padding: 5px;
+}
+.SPCalendarBody, .SPCalendarBody:link, .hoverable .SPCalendarBody:hover {
+  color:#333333;
+  font-family:'Roboto', sans-serif;
+  font-size:10pt;
+}
+.SPCalendarBodyTable, .hoverable .SPCalendarBodyTable:hover, .SPCalendarBodyTable:link {
+  color:#333333;
+  font-family:'Roboto', sans-serif;
+  font-size:10pt;
+}
+.SPCalendarBody td div:first-child , .SPCalendarBody td a:first-child {
+  display: inline-block;
+  padding: 0;
+}
+.SPCalendarBodyTable td div:first-child ,.SPCalendarBodyTable td a:first-child {
+  display: inline-block;
+  padding: 0;
+}
+.SPCalendarFooter{
+  background-color:#FFFFFF;
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:8pt;
+  width:100%;
+  text-align: center;
+}
+.SPCalendarToday{
+  background-color:#FFFFFF;
+  color:#474747;
+}
+.SPCalendarCurrentDay{
+  color:#474747;
+}
+.SPCalendarSunday{
+  color:rgba(0, 0, 0, 0.3);
+}
+.SPCalendarSaturday{
+  color:rgba(0, 0, 0, 0.3);
+}
+.SPCalendarWeeks{
+  color:#474747;
+}
+.SPCalendarBodyTable .SPCalendarWeekDivider *:first-child{
+  padding: 0px;
+}
+.SPCalendarComboYearsMonths{
+  background-color:#FFFFFF;
+  font-size:12px;
+  box-shadow:1px 4px 4px 0px rgba(0, 0, 0, 0.35);
+}
+
+a.SPCalendarFooter, .hoverable a.SPCalendarFooter:hover, a.SPCalendarFooter:visited {
+  background:none;
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:8pt;
+}
+
+.SPCalendar_mobile {
+  color:#000000;
+  background-color:#FFFFFF;
+  font-family:'Roboto', sans-serif;
+  font-size:7pt;
+  border-style:solid;
+  border-color:#808080;
+  margin-top:0px;
+  z-index: 1;
+}
+.SPCalendar_mobile ol,.SPCalendar_mobile ui{
+  list-style: none;
+  padding: 0px;
+}
+.SPCalendar_mobile img {
+  vertical-align: middle;
+}
+.SPCalendar_mobile a, .hoverable .SPCalendar_mobile a:hover, .SPCalendar_mobile:visited{
+  text-decoration: none;
+}
+.SPCalendar_mobile .SPCalendarYear {
+  background-color:#FFFFFF;
+  margin-left:0px;
+}
+.SPCalendar_mobile .SPCalendarMonth {
+  background-color:#FFFFFF;
+}
+.SPCalendar_mobile .SPCalendarHeader {
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:8pt;
+}
+
+.SPCalendar_mobile .SPCalendarHeader.SPCalendarComboYearsMonths{
+  padding: 0;
+}
+.SPCalendar_mobile .SPCalendarHeader.SPCalendarComboYearsMonths li,
+.SPCalendar_mobile .SPCalendarHeader.SPCalendarComboYearsMonths td{
+  padding: 0;
+}
+.SPCalendar_mobile .SPCalendarHeaderAll a,
+.SPCalendar_mobile .SPCalendarHeaderAll a:link,
+.hoverable .SPCalendar_mobile .SPCalendarHeaderAll a:hover,
+.SPCalendar_mobile .SPCalendarHeaderAll a:visited{
+  color:#000000;
+}
+.SPCalendar_mobile .SPCalendarHeaderAll {
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:8pt;
+  background-color:#FFFFFF;
+  display: flex;
+  justify-content: space-evenly;
+}
+.SPCalendar_mobile .SPCalendarHeader.mout {
+  color:#000000;
+  background-color:#FFFFFF;
+  border-color:#808080;
+}
+.SPCalendar_mobile .SPCalendarHeader.mover {
+  color:#000000;
+  background-color:#FFFFFF;
+  border-color:#808080;
+}
+.SPCalendar_mobile .SPCalendarContent {
+  background-color:#FFFFFF;
+  margin-top:0px;
+  padding: 5px;
+}
+.SPCalendar_mobile .SPCalendarBody,
+.SPCalendar_mobile .SPCalendarBody:link,
+.hoverable .SPCalendar_mobile .SPCalendarBody:hover {
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:7pt;
+}
+.SPCalendar_mobile .SPCalendarBodyTable,
+.hoverable .SPCalendar_mobile .SPCalendarBodyTable:hover,
+.SPCalendar_mobile .SPCalendarBodyTable:link {
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:7pt;
+}
+.SPCalendar_mobile .SPCalendarBody td div:first-child,
+.SPCalendar_mobile .SPCalendarBody td a:first-child {
+  display: inline-block;
+  padding: 0;
+}
+.SPCalendar_mobile .SPCalendarBodyTable td div:first-child,
+.SPCalendar_mobile .SPCalendarBodyTable td a:first-child {
+  display: inline-block;
+  padding: 0;
+}
+.SPCalendar_mobile .SPCalendarFooter{
+  background-color:#FFFFFF;
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:7pt;
+  width:100%;
+  text-align: center;
+}
+.SPCalendar_mobile .SPCalendarToday{
+  background-color:#FFFFFF;
+  color:#FFFFFF;
+}
+.SPCalendar_mobile .SPCalendarCurrentDay{
+  color:#FFFFFF;
+  border-width:1px;
+  border-style:solid;
+  border-color:#808080;
+}
+.SPCalendar_mobile .SPCalendarSunday{
+}
+.SPCalendar_mobile .SPCalendarSaturday{
+}
+.SPCalendar_mobile .SPCalendarWeeks{
+}
+.SPCalendar_mobile .SPCalendarBodyTable .SPCalendarWeekDivider *:first-child{
+  padding: 0px;
+}
+.SPCalendar_mobile #spanMonth,
+.SPCalendar_mobile  #spanYear {
+  position: relative;
+}
+.SPCalendar_mobile .SPCalendarComboYearsMonths{
+  color:#FFFFFF;
+  font-size:7pt;
+  border-width:1px;
+  border-style:solid;
+  border-color:#808080;
+}
+
+.SPCalendar_mobilea .SPCalendarFooter,
+.hoverable .SPCalendar_mobile a.SPCalendarFooter:hover,
+.SPCalendar_mobile a.SPCalendarFooter:visited {
+  background:none;
+  color:#000000;
+  font-family:'Roboto', sans-serif;
+  font-size:7pt;
+}
+
+.suggest_Container {
+  border-width:1px;
+  border-style:solid;
+  border-color:#DDDDDD;
+  display:table;
+  width: 100%;
+}
+.suggest_row {
+  color:rgba(0,0,0,0.87);
+  background-color:#FFFFFF;
+  font-family:'Roboto', sans-serif;
+  font-size:9pt;
+  cursor:default;
+  display: table-row;
+}
+.suggest_row:nth-child(even) {
+}
+
+.suggest_row_selected {
+  color:#FFFFFF;
+  background-color:#347FC4;
+  font-family:'Roboto', sans-serif;
+  font-size:9pt;
+  cursor:default;
+  display: table-row;
+}
+
+.suggest_row::after, .suggest_row::before, .suggest_row_selected::after, .suggest_row_selected::before {
+  content:'';
+}
+.suggest_FixedKeySearch, .suggest_Field, .suggest_HiddenKey, .suggest_FixedKey, .suggest_HiddenFixedKey {
+  display: table-cell;
+}
+
+.suggest_HiddenKey, .suggest_HiddenFixedKey {
+  display:none;
+}
+.suggest_FixedKeySearch::before, .suggest_Field::before, .suggest_FixedKey::before {
+  content: "-";
+  padding:0 2px;
+  white-space:pre;
+}
+.suggest_FixedKeySearch.suggest_SuppressSeparator::before, .suggest_Field.suggest_SuppressSeparator::before, .suggest_FixedKey.suggest_SuppressSeparator::before {
+  content:"";
+  padding:0;
+}
+
+.GridTable_Container.edit .Combobox{
+  color:#1D2127;
+  font-family:'Roboto', sans-serif;
+  font-weight:400;
+  font-size:12px;
+  background-color:transparent;
+  border-width:1px;
+  border-style:solid;
+  border-color:transparent;
+  border-radius:2px;
+  appearance: none;
+}
+.GridTable_Container.edit .Combobox option{
+  padding: 0px 2px 1px;
+}
+.GridTable_Container.edit .mobile.ios .Combobox{
+}
+
+
+.GridTable_Container.edit .Field {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0px 4px;
+  background-color:transparent;
+  border-width:1px; border-color:#DDDDDD; border-style:solid;
+  border-radius:2px;
+  outline: none;
+}
+.GridTable_Container.edit .Field:-moz-placeholder {
+  text-overflow: ellipsis;
+  font-size:60%;
+}
+.GridTable_Container.edit .Field::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+  font-size:60%;
+}
+.mobile .GridTable_Container.edit .Field {
+  white-space: nowrap;
+  background-clip: padding-box;
+}
+.mobile .GridTable_Container.edit .Field[type=date] {
+}
+.mobile.ios .GridTable_Container.edit .Field[type=date] {
+}
+
+
+.GridTable_Container.edit .Field.Active {
+  background-color:#FFFFFF !important;
+  border-width:1px !important; border-color:#0156CB !important; border-style:solid !important;
+}
+.GridTable_Container.edit .Field.Active:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.GridTable_Container.edit .Field.Active::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.mobile .GridTable_Container.edit .Field.Active[type=date] {
+}
+.mobile.ios .GridTable_Container.edit .Field.Active[type=date] {
+}
+
+.GridTable_Container.edit .Field.Disabled {
+  background-color:transparent !important;
+  border-width:1px !important; border-color:transparent !important; border-style:solid !important;
+}
+.GridTable_Container.edit .Field.Disabled:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.GridTable_Container.edit .Field.Disabled::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.GridTable_Container.edit .Field[disabled] {
+  background-color:transparent !important;
+  background-repeat:no-repeat !important;
+  background-position:right !important;
+  border-width:1px !important;
+  border-color:transparent !important; border-style:solid !important;
+}
+.GridTable_Container.edit .Field[disabled]:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.GridTable_Container.edit .Field[disabled]::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.mobile .GridTable_Container.edit .Field.Disabled[type=date] {
+}
+.mobile.ios .GridTable_Container.edit .Field.Disabled[type=date] {
+}
+.mobile .GridTable_Container.edit .Field[disabled][type=date] {
+}
+.mobile.ios .GridTable_Container.edit .Field[disabled][type=date] {
+}
+
+
+.GridTable_Container.view .Combobox{
+  color:#1D2127;
+  font-family:'Roboto', sans-serif;
+  font-weight:400;
+  font-size:12px;
+  background-color:transparent;
+  border-width:1px;
+  border-style:solid;
+  border-color:transparent;
+  border-radius:2px;
+  appearance: none;
+}
+.GridTable_Container.view .Combobox option{
+  padding: 0px 2px 1px;
+}
+.GridTable_Container.view .mobile.ios .Combobox{
+}
+
+
+.GridTable_Container.view .Field {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0px 4px;
+  background-color:transparent;
+  border-width:0px; border-color:transparent; border-style:solid;
+  border-radius:2px;
+  outline: none;
+}
+.GridTable_Container.view .Field:-moz-placeholder {
+  text-overflow: ellipsis;
+  font-size:60%;
+}
+.GridTable_Container.view .Field::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+  font-size:60%;
+}
+.mobile .GridTable_Container.view .Field {
+  white-space: nowrap;
+  background-clip: padding-box;
+}
+.mobile .GridTable_Container.view .Field[type=date] {
+}
+.mobile.ios .GridTable_Container.view .Field[type=date] {
+}
+
+
+.GridTable_Container.view .Field.Disabled {
+  background-color:transparent !important;
+  border-width:0px !important; border-color:transparent !important; border-style:solid !important;
+}
+.GridTable_Container.view .Field.Disabled:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.GridTable_Container.view .Field.Disabled::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.GridTable_Container.view .Field[disabled] {
+  background-color:transparent !important;
+  background-repeat:no-repeat !important;
+  background-position:right !important;
+  border-width:0px !important;
+  border-color:transparent !important; border-style:solid !important;
+}
+.GridTable_Container.view .Field[disabled]:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.GridTable_Container.view .Field[disabled]::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.mobile .GridTable_Container.view .Field.Disabled[type=date] {
+}
+.mobile.ios .GridTable_Container.view .Field.Disabled[type=date] {
+}
+.mobile .GridTable_Container.view .Field[disabled][type=date] {
+}
+.mobile.ios .GridTable_Container.view .Field[disabled][type=date] {
+}
+
+
+.GridTable_Row.GridTable_SelectedEditRow .Combobox{
+  color:#1D2127;
+  font-family:'Roboto', sans-serif;
+  font-weight:600;
+  font-size:12px;
+  background-color:#FFF;
+  border-width:1px;
+  border-style:solid;
+  border-color:#DDDDDD;
+  border-radius:2px;
+  appearance: auto;
+}
+.GridTable_Row.GridTable_SelectedEditRow .Combobox option{
+  padding: 0px 2px 1px;
+}
+.GridTable_Row.GridTable_SelectedEditRow .mobile.ios .Combobox{
+}
+
+
+.GridTable_Row.GridTable_SelectedEditRow .Combobox.Active {
+  background-color:#FFFFFF;
+  border-width:1px;
+  border-style:solid;
+  border-color:#0156CB;
+}
+.mobile.ios .GridTable_Row.GridTable_SelectedEditRow .Combobox.Active{
+}
+
+
+.GridTable_Row.GridTable_SelectedEditRow .Combobox.Disabled {
+  color:#1D2127;
+  background-color:rgba(157, 156, 156, 0.1);
+  border-width:1px;
+  border-style:solid;
+  border-color:#DDDDDD;
+}
+.mobile.ios .GridTable_Row.GridTable_SelectedEditRow .Combobox.Disabled{
+}
+
+
+.GridTable_Row.GridTable_SelectedEditRow .Combobox.Error {
+  color:#F96262;
+  font-family:'Roboto', sans-serif;
+  background-color:#FFF;
+  border-width:1px;
+  border-style:solid;
+  border-color:#F96262;
+}
+.mobile.ios .GridTable_Row.GridTable_SelectedEditRow .Combobox.Error{
+}
+
+
+.GridTable_Row.GridTable_SelectedEditRow .Combobox.Obligatory {
+  color:#0156CB;
+  background-color:#FFF;
+  border-width:1px;
+  border-style:solid;
+  border-color:#0156CB;
+}
+.mobile.ios .GridTable_Row.GridTable_SelectedEditRow .Combobox.Obligatory{
+}
+
+
+.GridTable_Row.GridTable_SelectedEditRow .Field {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0px 4px;
+  background-color:#FFFFFF !important ;
+  border-width:1px; border-color:#DDDDDD; border-style:solid;
+  border-radius:2px;
+  outline: none;
+}
+.GridTable_Row.GridTable_SelectedEditRow .Field:-moz-placeholder {
+  text-overflow: ellipsis;
+  font-size:60%;
+}
+.GridTable_Row.GridTable_SelectedEditRow .Field::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+  font-size:60%;
+}
+.mobile .GridTable_Row.GridTable_SelectedEditRow .Field {
+  white-space: nowrap;
+  background-clip: padding-box;
+}
+.mobile .GridTable_Row.GridTable_SelectedEditRow .Field[type=date] {
+}
+.mobile.ios .GridTable_Row.GridTable_SelectedEditRow .Field[type=date] {
+}
+
+
+.GridTable_Row.GridTable_SelectedEditRow .Field.Error {
+  color:#F96262 !important;
+  background-color:#FFF !important;
+  border-width:1px !important; border-color:#F96262 !important; border-style:solid !important;
+}
+.GridTable_Row.GridTable_SelectedEditRow .Field.Error:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.GridTable_Row.GridTable_SelectedEditRow .Field.Error::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.mobile .GridTable_Row.GridTable_SelectedEditRow .Field.Error[type=date] {
+}
+.mobile.ios .GridTable_Row.GridTable_SelectedEditRow .Field.Error[type=date] {
+}
+
+.GridTable_Row.GridTable_SelectedEditRow .Field.Obligatory {
+  color:#0156CB;
+  background-color:#FFF;
+  background-repeat:no-repeat;
+  background-position:right;
+  border-width:1px;
+  border-color:#0156CB;
+  border-style:solid;
+  z-index: 0;
+}
+.GridTable_Row.GridTable_SelectedEditRow .Field.Obligatory:-moz-placeholder {
+  text-overflow: ellipsis;
+}
+.GridTable_Row.GridTable_SelectedEditRow .Field.Obligatory::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+}
+.mobile .GridTable_Row.GridTable_SelectedEditRow .Field.Obligatory[type=date] {
+}
+.mobile.ios .GridTable_Row.GridTable_SelectedEditRow .Field.Obligatory[type=date] {
+}
+
+#entity_loading.loading {
+  background-color: #FFFFFF;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+#entity_loading.loading::after {
+  content: '';
+  border: 14px solid #F3F3F3;
+  border-radius: 50%;
+  border-top: 14px solid #0156CB;
+  width: 80px;
+  height: 80px;
+  animation: spin 1500ms linear infinite, 300ms delayview;
+  display: block;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  position: absolute;
+  top: calc( 50% - 52px);
+  left: calc( 50% - 52px);
+}
+#entity_loading.loading::before {
+  content: '';
+  border: 14px solid #F3F3F3;
+  border-radius: 50%;
+  border-top: 14px solid #0156CB;
+  width: 40px;
+  height: 40px;
+  animation: spin2 800ms linear infinite, 300ms delayview;
+  display: block;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: absolute;
+  left: calc( 50% - 32px);
+  top: calc( 50% - 32px);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes spin2 {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+@keyframes delayview {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+textarea.Memo {
+  color:#212121;
+  font-weight:600;
+  font-size:12px;
+  font-family:'Roboto', sans-serif;
+  background-color:#FFFFFF !important;
+  background-position:right;
+  border-width:1px;
+  border-color:#DDDDDD;
+  border-style:solid;
+  border-radius:2px;
+}
+
+.mobile  textarea.Memo {
+  white-space: pre-wrap;
+}
+
+
+textarea.Memo.Active {
+  background-color:#FFFFFF !important;
+  border-width:1px !important; border-color:#0156CB !important; border-style:solid !important;
+}
+
+textarea.Memo.Disabled {
+  background-color:transparent !important;
+  border-width:0px !important; border-color:#DDDDDD !important; border-style:solid !important;
+}
+
+
+textarea.Memo.Error {
+  color:#F96262 !important;
+  background-color:#FFFFFF !important;
+  border-width:1px !important; border-color:#F96262 !important; border-style:solid !important;
+}
+
+
+textarea.Memo.Obligatory {
+  background-color:#FFFFFF;
+  background-image:url(../Fusion2_mit/formPage/obligatory-field.png); background-repeat:no-repeat; background-position:99% 12%;
+}
+
+
+.SPButton {
+  color:#0156CB;
+  background-color:#FFF;
+  background-repeat:no-repeat;
+  background-position:center;
+  border-width:1px;
+  border-color:#0156CB;
+  border-style:solid;
+  border-radius:25px;
+  cursor: pointer;
+}
+
+.hoverable .SPButton:hover {
+  color:#FFFFFF;
+  background: linear-gradient(40deg, #016cfe 0%, #4033aa 100%);
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.SPButton[disabled] {
+  color:#888888;
+  background-color:#CECECE;
+  background-repeat:no-repeat;
+  background-position:center;
+  border-width:1px;
+  border-color:#CECECE;
+  border-style:solid;
+  pointer-events: none;
+}
+.mobile   .SPButton {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.mobile   .SPButton[disabled]{
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.SPLabel {
+  color:#1D2127;
+  font-family:'Roboto', sans-serif;
+  font-weight:400;
+  font-size:12px;
+}
+
+
+.SPLabel.errorMessage{
+  color:#F96262;
+  font-family:'Roboto', sans-serif;
+}
+
+
+.SPLabel.infoMessage{
+  color:#0156CB;
+  font-family:'Roboto', sans-serif;
+}
+
+
+.PrimaryKeyLabel {
+  color:#757575;
+  font-family:'Roboto', sans-serif;
+  font-weight:600;
+  font-size:13px;
+}
+
+
+.SPLabel.warnMessage{
+  color:#E5B023;
+}
+
+
+.BoxHeaderBackground {
+  background-color:transparent;
+}
+.BoxHeaderCaption {
+  margin:0px;
+  font-family:'Roboto', sans-serif;
+  font-weight:400;
+  font-size:14px;
+  color:#2B2B2B;
+  text-transform:uppercase;
+  border-width:0 0 1px 0;
+  border-style:solid;
+  border-color:#E0E0E0;
+  outline:0px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor:pointer;
+}
+.SPSection_collapsed .BoxHeaderCaption {
+}
+.BoxHeader .BoxHeaderIcon {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor:pointer;
+  font-family:'Roboto', sans-serif;
+  font-size:14px;  
+}
+.SPSection_expanded .BoxHeader .BoxHeaderIcon.BoxHeaderIconClose { 
+  display: none;
+}
+.SPSection_collapsed .BoxHeader .BoxHeaderIcon.BoxHeaderIconClose, .SPSection_expanded .BoxHeader .BoxHeaderIcon.BoxHeaderIconOpen {
+  display: inline-block;
+}
+.SPSection_collapsed .BoxHeader .BoxHeaderIcon.BoxHeaderIconOpen {
+  display: none;
+}
+
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+
+.LayerHeader {
+  position:relative;
+  cursor:move;
+  height:36px;
+  background-color:#ECECEC;
+}
+.LayerHeaderCaption {
+  position:absolute;
+  left:7px;
+  right:calc(7px + 36px + 36px + 0px + 0px);
+  color:rgba(0,0,0,.87);
+  font-family:'Roboto', sans-serif;
+  font-weight:600;
+  font-size:12px;
+  padding:7px 4px 0;
+}
+.LayerHeaderIconPin {
+  position:absolute;
+  top:7px;
+  right:calc(7px + 36px + 0px);
+  cursor:pointer;
+}
+.LayerHeaderIconClose {
+  position:absolute;
+  top:7px;
+  right:7px;
+  cursor:pointer;
+}
+.LayerHeaderLinksContainer {
+  position:absolute;
+  height:100%;
+  right:calc(7px + 36px + 36px + 0px + 0px);
+  left:0px;
+  display:flex;
+  flex-flow:row nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.LayerHeaderLinks {
+  display:inline-block;
+  height:100%;
+  cursor:pointer;
+  white-space:nowrap;
+  color:#CCCCCC;
+  font-family:'Roboto', sans-serif;
+  font-weight:400;
+  font-size:13px;
+  text-transform:uppercase;
+  padding:0px 15px 0;
+  background-color:#ECECEC;
+}
+.hoverable .LayerHeaderLinks:hover {
+  color:rgba(0,0,0,.93);
+  background-color: transparent;
+}
+
+.LayerHeaderLinks.LayerHeaderSelectedLink,
+.hoverable .LayerHeaderLinks:hover.LayerHeaderSelectedLink {
+  cursor:inherit;
+  color:#000000;
+  font-weight:400;
+  background-color:#FFFFFF;
+}
+
+
+.DefaultTitledBox {
+  position:absolute;
+  z-index: 1;
+  padding: 0 3px 0 3px;
+  color:#FFFFFF;
+  font-family:'Roboto', sans-serif;
+  font-weight:300;
+  font-size:12px;
+  background-color:#757575;
+
+}
+.mobile  .DefaultTitledBox {
+  position: relative;
+  display: block;
+}
+.mobile  .DefaultTitledBox a{
+  color: inherit;
+  text-decoration: none;
+}
+.mobile  .DefaultTitledBox a, .mobile  .DefaultTitledBox img{
+  vertical-align: middle;
+}
+
+
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+.slider input[type="checkbox"]:empty {
+  margin-left: -99999px;
+  float: left;
+}
+
+.slider input[type="checkbox"]:empty ~ label {
+  position: absolute;
+  line-height: 1.6em;
+  text-indent: 4em;
+  margin: 0.2em 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.slider input[type="checkbox"]:empty ~ label:before,
+.slider input[type="checkbox"]:empty ~ label:after {
+  /* default, viene sovrascritta se definito da un control */
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+  width: 3.3em;
+  background-color: #DDDDDD;
+  border-radius: 0.75em;
+  box-shadow: inset 0 0.2em 0 rgba(0,0,0,0.3);
+  transition: all 200ms ease-in;
+}
+
+.slider input[type="checkbox"].checkbox:empty ~ label:before,
+.slider input[type="checkbox"].checkbox:empty ~ label:after {
+  background-color: #DDDDDD;
+  border-radius: 0.75em;
+}
+
+.slider input[type="checkbox"]:empty ~ label:after {
+  width: 1.4em;
+  top: 0.1em;
+  bottom: 0.1em;
+  margin: 0.1em 0.2em;
+  background-color: #fff;
+  border-radius: 1em;
+  box-shadow: none;
+}
+
+.slider input[type="checkbox"].checkbox:empty ~ label:after {
+  border-radius: 1em;
+}
+
+.slider input[type="checkbox"]:checked ~ label:before {
+  background-color: #0156CB;
+}
+
+.slider input[type="checkbox"].checkbox:checked ~ label:before {
+  background-color: #0156CB;
+}
+
+.slider input[type="checkbox"]:checked ~ label:after {
+  margin-left: 1.7em;
+}
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+
+.single_notify{
+  width: 150px;
+  background-color:rgba(0,0,0,.8);
+  padding:10px;
+  margin:0 0 10px 0;
+  box-shadow:0px 0px 10px #202020;
+  font-family:'Roboto', sans-serif;
+  color:rgba(255,255,255,1);
+  display:block;
+  transition-property: opacity,height;
+  transition-duration: 0.8s;
+  transition-timing-function: linear;
+  transition-delay: 0s, 0.8s;
+  position:relative;
+  z-index:100;
+}
+
+.single_notify_item_label{
+  vertical-align:middle;
+  display:inline-block;
+}
+
+.single_notify_item_icon{
+  margin:0 5px 0 0;
+  vertical-align:middle;
+}
+
+.hoverable .notify_close_btn:hover, .notify_close_btn:visited, .notify_close_btn:link{
+  color:inherit;
+}
+
+.notify_content{
+  position:absolute;
+  top:100px;
+  right:15px;
+  height:auto;
+}
+
+.list_notify {
+  position: absolute;
+  top:0;
+  right: 0;
+  z-index:100;
+  width: 200px;
+  background-color:rgba(255,255,255,1);
+  padding:10px;
+  box-shadow:0px 0px 10px rgba(32,32,32,0.75);
+}
+
+.notify_item {
+  border-width:0 0 1px 0;
+  border-color:rgba(0,0,0,.8);
+  border-style:solid;
+  padding:0 0 5px 0;
+  margin:0 0 5px 0;
+  color:rgba(0,0,0,.8);
+  width:100%;
+  display:table;
+}
+
+.notify_item_label{
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.notify_item_icon{
+  margin:0 0 5px 0;
+  padding:0 0 5px 0;
+  vertical-align:middle;
+}
+
+.empty_notify{
+  padding:0 0 5px 0;
+  margin:0 0 5px 0;
+  color:rgba(0,0,0,.8);
+  width:100%;
+  display:block;
+}
+
+.sidebar {
+  position: absolute;
+  left: 100%;
+  width: 100px;
+  height: 100%;
+  top: 0;
+  background-color:#ECECEC;
+  border-width:1px;
+  border-color:#E0E0E0;
+  margin:0 0 0 10px;
+  font-family:'Roboto', sans-serif;
+  font-size:12px;
+  font-weight:400;
+  transition: width 500ms ease-in;
+}
+.sidebar.sidebar_hidden {
+  width: 0px;
+}
+.sidebar_band {
+  padding:5px;
+  text-align:center;
+}
+.sidebar_item {
+  padding:5px;
+  color:#656363;
+  text-align:center;
+}
+.sidebar_item_image {
+  display: inline-block;
+  max-width:100%;
+}
+.sidebar_item_label {
+  display: block;
+  width:100%;
+}
+
+
+
+body {
+}
+.PageBody {
+  color:#000000;
+  background-color:#FFFFFF;
+}
+.PageBg {
+  background-color:#FFFFFF;
+}
+a {
+}
+a:link {
+  color:#0000FF;
+}
+a:visited {
+  color:#0000FF;
+}
+.hoverable a:hover {
+  color:#0000FF;
+}
+.OddRow { background-color:#FFFFFF;}
+.EvenRow { background-color:#FFFFFF;}
+.Group1 { background-color:#FFFFFF;}
+.Group2 { background-color:#FFFFFF;}
+.Group3 { background-color:#FFFFFF;}
+.Group4 { background-color:#FFFFFF;}
+
+@import url("../fonts/Roboto.css");
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}

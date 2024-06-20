@@ -1,0 +1,191 @@
+ 2
+"Import RTRA - AUA"
+"wutrxchk"
+"wutrxchk"
+ 0
+ 0
+*
+"Utenti"
+"cpusers"
+"cpusers"
+ 0
+ 0
+*
+ 17
+"ID Transazione"
+"wutrxchk.TRXCODPRG"
+"TRXCODPRG"
+"N"
+ 15
+ 0
+*
+"Agenzia"
+"wutrxchk.TRXCODDIP"
+"TRXCODDIP"
+"C"
+ 10
+ 0
+*
+"MTCN Operazione"
+"wutrxchk.TRXMTCN"
+"TRXMTCN"
+"C"
+ 10
+ 0
+*
+"Data Operazione"
+"wutrxchk.TRXDATOPE"
+"TRXDATOPE"
+"D"
+ 8
+ 0
+*
+"Cognome"
+"wutrxchk.TRXCOGNOM"
+"TRXCOGNOM"
+"C"
+ 50
+ 0
+*
+"Nome"
+"wutrxchk.TRXNOME"
+"TRXNOME"
+"C"
+ 50
+ 0
+*
+"Codice Fiscale"
+"wutrxchk.TRXCODFIS"
+"TRXCODFIS"
+"C"
+ 16
+ 0
+*
+"Data Di Nascita"
+"wutrxchk.TRXDATNAS"
+"TRXDATNAS"
+"D"
+ 8
+ 0
+*
+"Sesso"
+"wutrxchk.TRXSESSO"
+"TRXSESSO"
+"C"
+ 1
+ 0
+*
+"Luogo di nascita"
+"wutrxchk.TRXLUONAS"
+"TRXLUONAS"
+"C"
+ 50
+ 0
+*
+"Tipo Documento"
+"wutrxchk.TRXTIPDOC"
+"TRXTIPDOC"
+"C"
+ 2
+ 0
+*
+"Numero Documento"
+"wutrxchk.TRXNUMDOC"
+"TRXNUMDOC"
+"C"
+ 30
+ 0
+*
+"Codice Utente che lavora la transazione"
+"wutrxchk.TRXUTENTE"
+"TRXUTENTE"
+"N"
+ 10
+ 0
+*
+"Scadenza Transazione"
+"wutrxchk.TRXSCAEDT"
+"TRXSCAEDT"
+"D"
+ 8
+ 0
+*
+"Numero di rilievi presenti"
+"wutrxchk.TRXNUMRIL"
+"TRXNUMRIL"
+"N"
+ 2
+ 0
+*
+"Giorni Scadenza"
+"[DIFFDAY([CURRENTDATE()],wutrxchk.TRXSCAEDT)]"
+"SCADENZA"
+"N"
+ 10
+ 0
+*
+""
+"cpusers.fullname"
+"fullname"
+"C"
+ 60
+ 0
+*
+ 1
+"Utenti"
+"cpusers.code=wutrxchk.TRXUTENTE"
+"Right outer"
+"cpusers"
+"wutrxchk"
+*
+ 2
+"wutrxchk.TRXFLGAUI"
+""
+"="
+"ýSý"
+"AND"
+""
+*
+"wutrxchk.TRXFLGAUA"
+""
+"="
+"ýNý"
+"AND"
+""
+*
+ 1
+"Data Operazione"
+"TRXDATOPE"
+"Ascending"
+*
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 14
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%24%406O%5D%5C+RSIC%21%3AX%5Eld%13%09%1F%10%06%08%1CgmgMGTD%27%14D%3C%28.48%2C3E6%23.%406%2F%5CI%40%3D%2C%26%13-%3D%2C%3AF%5B%3E%25N%3AMBF%2B%26%5E6%2B8E%3C2O%22%3E%7FNj%210%3D%27HAC%25N+vnC%60%3F54*%5D%29%291LYMZ*%14%23%0B%2BEI%24%5CMQI%3B%28O%3E%22MM%21bTLH%26S2W%25%22V%2322%23O_Z0%3D%27P%40%3C%23HN%239%5Cvo%2427%3A%22%2CY0%3E%04*5zTE3%25%3D-%5BE-1L%3BDKG_5%5DJW%40V*B%21%1B-3*%25XFZP%3DC%40RWT%40%29U9%2BI%40JGI%5E%22lC08GJ*9AS%06CL%40M%2F9%3C%25%5BGLO2.%29D5%3F%00"
+"%24%234Badc%7D%7El%1F%18%05%02%5C%3BMG%21DSD6%26La+%22WpC49NNT%23_%2BQk_SO%2238M%5Bj%18%22G%01KAH%5CDwX_VH%24%27KCY%24Y%21%25%3F%2B%3E%26DC%29Hk_8S%402%24M8O_EUC%265Z%21M%2C90Z%06u%5BP%5E%22I%28XEDC0%2FG%3C4%23%3D%5B2ttDO6%22%22%2BL%0166%21%5CQz%3E%22%3B%21YK3%5C%29%23C%24LECX1U-_UUQ%3AGO%2830%2B%5DO%23P8%40%24%26RIS%28Q9%5E%11%26.N3L%5BX%22%5D%06.%3BA%283+%25AN%2B2%1C%15%212%5Bk48-%406%127%1CqBI%2FWW%5D%3CH%1DMZ%26%3CXA6%7B%5B%1F-5%5B%2C%5CE%3FR%165+%2F%1E%00"
+""
+""
+"native"
+ 0
+ 0
+*

@@ -1,0 +1,45 @@
+span.fancytree-node[notFound]::after {
+  /*content: "*";*/
+}
+
+span.fancytree-title .bo_item {
+  border: 1px solid #dcdcdc;
+  margin-right: 2px;
+  padding: 5px;
+}
+
+span.fancytree-title .bo_item.diff {
+  border: 1px solid #ff9191;
+}
+
+span.fancytree-node[diff]::after {
+  content: attr(diff);
+  color: red;
+  vertical-align: super;
+  font-size: 10px;
+}
+
+span.fancytree-selected span.fancytree-title .bo_item,
+span.fancytree-active .bo_item {
+  background: #f5f5f5;
+}
+
+.bo_tree,.portlet_tree{
+  overflow: auto;
+}
+
+.bo_tree::-webkit-scrollbar,.portlet_tree::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.bo_tree::-webkit-scrollbar-track, .portlet_tree::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #f3f3f3;
+}
+
+.bo_tree::-webkit-scrollbar-thumb, .portlet_tree::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(142,142,142,0.4);
+}
+

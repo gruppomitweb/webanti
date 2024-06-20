@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="imagetoolbar" content="no">
+<title>Sitepainter Infinity Portalstudio</title>
+<script src="../stdFunctions.js"></script>
+<!--script src="../visualweb/mootools-core.js"></script-->
+<!--script src="../visualweb/mootools-more.js"></script-->
+<script src="../raphael.js"></script>
+<script>
+  var index
+    , paper
+    , itemsHTML
+    , backcanvas
+    , canvas
+    , lines_group
+    , text_group
+    , rect_group
+    , item_request
+    , toggler
+    , rect_radius = 0;
+  var styles = {
+    panel_rect: {
+      'fill':'#00A0BD',
+      'fill-opacity':'1',
+      'stroke-width':0,
+      'stroke':'#000000',
+      'stroke-opacity':0,
+      'stroke-dasharray':""
+    },
+    rect: {
+      'fill':'#FFFFFF',
+      'fill-opacity':'0.3',
+      'stroke-width':0.3,
+      'stroke':'#000000',
+      'stroke-opacity':1,
+      'stroke-dasharray':""
+    },
+    rect_selected: {
+      'fill': '#FFFFFF',
+      'fill-opacity': 0.8,
+      'stroke-width': 1,
+      'stroke':'#000000',
+      'stroke-opacity':1,
+      'stroke-dasharray':""
+    },
+    rect_target: {
+      'fill':'#FFFFFF',
+      'fill-opacity':0.7,
+      'stroke-width':1,
+      'stroke-dasharray':'- '
+    },
+    line: {
+      'stroke-opacity':0.3,
+      'stroke': '#000000',
+      'fill': "none",
+      "arrow-end":"block-wide-long",
+      "stroke-width": 1
+    },
+    line_selected: {
+      'stroke-opacity':0.9,
+      'stroke': '#000000',
+      'fill': "none",
+      "arrow-end":"block-wide-long",
+      "stroke-width": 1
+    },
+    panel_text:{
+      'fill-opacity':1,
+      'font-family':'Open Sans',
+      'font-weight': 600,
+      'font-size':18,
+      'fill':'#000000',
+      'text-anchor':'start'
+    },
+    text: {
+      'fill-opacity':1,
+      'font-family':'Open Sans',
+      'font-weight': 700,
+      'font-size':12,
+      'fill':'#000000',
+      'text-anchor':'start'
+    },
+    text_selected: {
+      'fill-opacity':1,
+      'font-family':'Open Sans',
+      'font-weight': 700,
+      'font-size':12,
+      'fill':'#000000',
+      'text-anchor':'start'
+    },
+    info: {
+      'fill': '#000000',
+      'stroke-width': 0,
+      'stroke': '#000000',
+      'fill-opacity': '0.5'
+    },
+    info_text_type: {
+      'fill-opacity':1,
+      'font-family':'Open Sans',
+      'font-weight': 300,
+      'font-size':10,
+      'fill':'#FFFFFF',
+      'text-anchor':'start'
+    },
+    info_text: {
+      'fill-opacity':1,
+      'font-family':'Open Sans',
+      'font-weight': 600,
+      'font-size':13,
+      'fill':'#FFFFFF',
+      'text-anchor':'start'
+    },
+    connection_rect: {
+      'fill': '#D5D5D5',
+      'fill-opacity': 0.8,
+      'stroke-width': 0,
+      'stroke':'#000000',
+      'stroke-opacity':1,
+      'stroke-dasharray':""
+    },
+    connection_rect_selected: {
+      'stroke-width': 0,
+      'fill': '#FFFFFF'
+    },
+    connector_text: {
+      'fill-opacity':1,
+      'font-family':'Open Sans',
+      'font-weight': 300,
+      'font-size':13,
+      'fill':'#000000',
+      'text-anchor':'start'
+    },
+    connector_text_selected: {
+      'fill-opacity':1,
+      'font-family':'Open Sans',
+      'font-weight': 300,
+      'font-size':13,
+      'fill':'#000000',
+      'text-anchor':'start'
+    }
+  }
+
+  if(!window.addEventListener);
+    // window.attachEvent('onresize',function(){DrawLogicView()})
+  else;
+    // window.addEventListener('resize',function(){DrawLogicView()})
+
+  function doLoad() {
+    index = parent.index;
+    itemsHTML = parent.itemsHTML;
+    backcanvas = parent.document.getElementById('backcanvas');
+    canvas = parent.document.getElementById('canvas');
+    DrawPanel();
+    DrawLogicView();
+    DrawConn();// Disegna tutti i connector
+    //Seleziona l'item selezionato precedentemente dall'editor dei portlet
+    if(index!=null){
+      for(var i=0;i<rect_group.length;i++){
+        if(i==index+1){
+          DrawConn(rect_group[i])
+          rect_group[i].attr(styles.rect_selected);
+          ItemSelected( rect_group[i] );
+        }
+      }
+    }
+    //document.getElementById('closeLogic').addEventListener('click', () => parent.toggleMode("NORMAL") );
+  }
+  function DrawPanel() {
+
+    if(paper)
+      paper.remove();
+    paper = Raphael( 'paper', document.getElementById('paper').offsetWidth, document.getElementById('paper').offsetHeight);
+
+    /*var r = paper.rect(0,0, document.getElementById('paper').offsetWidth, 30,0);
+    toolbar=r;
+    r.attr(styles.panel_rect);
+    r.toBack();
+    var t = paper.text(50, 15," Logic View ");
+    t.attr(styles.panel_text);
+    */
+  }
+  function DrawLogicView() {
+    var deltax = backcanvas.offsetLeft - window.frameElement.parentElement.offsetLeft;
+    var deltay = backcanvas.offsetTop - window.frameElement.parentElement.offsetTop;
+
+    /*Disegno del grafico tematico*/
+
+    rect_group = paper.set();
+    lines_group = paper.set();
+    text_group = paper.set();
+    // request obj
+    // item_request=paper.image("images/request.png",window.getSize().x-100,0,80,80);
+    // item_request=paper.circle(window.getSize().x/2, 20, 10);
+    var text = paper.text(30,30,"   REQUEST");
+    text.attr(styles.text);
+
+    var b = text.getBBox();
+    item_request = paper.rect(b.x-4,b.y-4,b.width+8,b.height+8,rect_radius);
+    item_request.attr(styles.rect);
+    item_request.toFront();
+    item_request.lines = paper.set();
+    item_request.id='itemRequest';
+    item_request.name='request';
+    item_request.connsOut=[];
+    item_request.connsIn=[];
+    item_request.connectors=[{'type':'iRequest','versus':'out'}];
+    var request_set = paper.set();
+    request_set.push ( item_request );
+    request_set.push ( text );
+    request_set.click( function(event) {
+      DrawConn(item_request);
+      item_request.attr(styles.rect_selected);
+      //item_request.attr(styles.text_selected);
+      ItemSelected( item_request );
+      DrawDragger.call(item_request);
+    });
+    text.toFront();
+
+    rect_group.push(item_request);
+    //Items obj
+    var ctrl_obj
+      , item_rect
+      , ctrl_obj_ii
+      , item_text
+      , conn_iii
+      , connector
+      , connectors
+      , rect_ii
+      ;
+    for(var i=0;i<itemsHTML.length;i++){ //Creo tutti i rect
+      ctrl_obj=itemsHTML[i];
+      //Rect contenitore
+      item_rect = paper.rect(parseInt(ctrl_obj.x)+deltax,parseInt(ctrl_obj.y)+deltay,ctrl_obj.w,ctrl_obj.h, rect_radius);
+      item_rect.attr(styles.rect);
+      //Estensione dell'oggetto rect con gli attributi del ctrl
+      item_rect.id=ctrl_obj.id;
+      item_rect.name=ctrl_obj.name;
+      item_rect.index=i;
+      item_rect.item_type=ctrl_obj.type;
+      item_rect.connectors=ctrl_obj.objClass.connector;
+      rect_group.push(item_rect);
+      item_rect.toFront();
+      item_rect.connsIn=[];
+      item_rect.connsOut=[];
+      item_rect.lines = paper.set();
+    }
+
+    for( var i=0; i < itemsHTML.length; i++){
+      ctrl_obj=itemsHTML[i];
+      item_rect = paper.getById(ctrl_obj.id);
+      connectors = ctrl_obj.objClass.connector;
+      if( connectors ){
+        // Inizializza tutti i connector di tutti gli elementi
+        for(var a=0;a<connectors.length;a++){
+          connector = connectors[a];
+          if(connector['type']=='iRequest' && !Empty(ctrl_obj[connector['propID']]) && ctrl_obj[connector['propID']].indexOf('request')>-1) {
+            item_rect.connsIn.push({'id': item_request.id, 'ctrlProp': item_rect, 'propId': connector['propID']}) // collegato all'oggeto request
+            item_request.connsOut.push( item_rect.id );
+          }
+        }
+        for(var ii=0;ii<itemsHTML.length;ii++){ //Ciclo altri elementi
+          ctrl_obj_ii=itemsHTML[ii];
+          rect_ii = paper.getById(ctrl_obj_ii.id);
+          for(var iii=0;i != ii && iii<connectors.length;iii++){ // Ciclo connector elemento principale
+            conn_iii=connectors[iii];
+            if(!Empty(ctrl_obj[conn_iii['propID']])){
+              if(conn_iii.type=='iParameter' || conn_iii.multiple ){
+                var pars_tmp=ctrl_obj[conn_iii['propID']].split(',');
+                for(var p=0;p<pars_tmp.length;p++){
+                  if(pars_tmp[p].indexOf('=')>-1){
+                    if(Trim(pars_tmp[p].substring(pars_tmp[p].indexOf('=')+1))==ctrl_obj_ii['name']){
+                      if(conn_iii['versus']=='in'){ //in
+                        item_rect.connsIn.push({'id': ctrl_obj_ii.id, 'ctrlProp': item_rect, 'propId': connector['propID']}) // la lista degli id degli item collegati
+                        rect_ii.connsOut.push( item_rect.id );
+                      }else{ // out
+                        item_rect.connsOut.push(ctrl_obj_ii.id) // la lista degli id degli item collegati
+                        rect_ii.connsIn.push({'id': item_rect.id, 'ctrlProp': item_rect, 'propId': connector['propID']});
+                      }
+                    }
+                  }else{
+                    if(Trim(pars_tmp[p])==ctrl_obj_ii['name']){
+                      if(conn_iii['versus']=='in'){ //in
+                        item_rect.connsIn.push({'id': ctrl_obj_ii.id, 'ctrlProp': item_rect, 'propId': connector['propID']}) // la lista degli id degli item collegati
+                        rect_ii.connsOut.push( item_rect.id );
+                      }else{ // out
+                        item_rect.connsOut.push(ctrl_obj_ii.id) // la lista degli id degli item collegati
+                        rect_ii.connsIn.push({'id': item_rect.id, 'ctrlProp': item_rect, 'propId': connector['propID']});
+                      }
+                    }
+                  }
+                }
+              }else if(ctrl_obj[conn_iii['propID']]==ctrl_obj_ii['name']){
+                if(conn_iii['versus']=='in'){ //in
+                  item_rect.connsIn.push({'id': ctrl_obj_ii.id, 'ctrlProp': item_rect, 'propId': connector['propID']}) // la lista degli id degli item collegati
+                  rect_ii.connsOut.push( item_rect.id );
+                }else{ // out
+                  item_rect.connsOut.push(ctrl_obj_ii.id) // la lista degli id degli item collegati
+                  rect_ii.connsIn.push({'id': item_rect.id, 'ctrlProp': item_rect, 'propId': connector['propID']});
+                }
+              }
+            }
+          }
+        }
+      }
+      item_rect.dblclick(function(){
+        // var currObj=itemsHTML[this.index];
+        alert('Item :'+this.index);
+      });
+      item_rect.click(function(){
+        DrawConn(this);
+        this.attr(styles.rect_selected);
+        ItemSelected( this );
+        DrawDragger.call(this);
+      });
+    }
+  }
+  function DrawConn(obj){
+    DeselectLines();
+    var connsIn
+      , line
+      , obj1;
+    if(obj){
+      obj.lines.attr(styles.line_selected);
+      obj.lines.toFront();
+    }else{ // Disegna tutti i connector all'inizio
+      for(var i=0;i<rect_group.length;i++){
+        obj=rect_group[i];
+        connsIn=obj.connsIn;
+        for(var ii=0;ii<connsIn.length;ii++) {
+          obj1 = paper.getById(connsIn[ii].id);
+          //obj1.type;
+          line = DrawLines(obj1, obj, '#f4f4f4',1.5);
+          line.ctrlProp = connsIn[ii].ctrlProp;
+          line.propId = connsIn[ii].propId;
+          lines_group.push( line );
+          obj.lines.push( line );
+          obj1.lines.push( line );
+        }
+      }
+    }
+  }
+
+  function ItemSelected( selected ){
+    if(parent.document.getElementById(selected.id))
+      parent.document.getElementById(selected.id).click();
+    ResetOthers();
+    DrawLabel(selected);
+    for( var ii = 0; selected.connsOut && ii < selected.connsOut.length ; ii++)
+      DrawLabel(paper.getById(selected.connsOut[ii]))
+    for( var ii = 0; selected.connsIn && ii < selected.connsIn.length ; ii++)
+      DrawLabel(paper.getById(selected.connsIn[ii].id))
+  }
+
+  function DrawLabel( rect ){
+    if( rect != item_request ) {
+      var rectBox = rect.getBBox();
+      rect.item_info = paper.set();
+
+      rect.item_info.push(
+        rect.item_text_type=paper.text( parseInt(rectBox.x) + parseInt(rectBox.width) + 15
+          , parseInt(rectBox.y) + parseInt(rectBox.height)
+          , rect.item_type+':  '
+        ).attr(styles.info_text_type)
+      );
+
+      rect.item_info.push(
+        rect.item_text=paper.text( parseInt(rectBox.x) + parseInt(rectBox.width) + 15 + parseInt(rect.item_info.getBBox().width) + 5
+          , parseInt(rectBox.y) + parseInt(rectBox.height)
+          , rect.name
+        ).attr(styles.info_text)
+      );
+
+      var textBox = rect.item_info.getBBox();
+      rect.text_rect = paper.rect(textBox.x-4,textBox.y-4,textBox.width+8,textBox.height+8,rect_radius); // 4px of margins
+      rect.text_rect.attr(styles.info);
+      rect.text_rect.toFront();
+      rect.item_info.toFront();
+    }
+  }
+
+  function ResetOthers() {
+    var rect;
+    for(var i = 0; i < rect_group.length; i++) {
+      rect = rect_group[i];
+      if( rect.item_info )
+        rect.item_info.remove();
+      /*if( rect.connectionTools )
+        rect.connectionTools.remove();*/
+      if( rect.text_rect )
+        rect.text_rect.remove();
+    }
+  }
+
+  function DeleteLines(){
+    for(var i=0;i<lines_group.length;i++)
+      lines_group[i].remove();
+  }
+
+  function DeselectLines(){
+    for(var i=0;i<lines_group.length;i++){
+      lines_group[i].attr(styles.line);
+    }
+    for(var i=0;i<rect_group.length;i++){
+      rect_group[i].attr(styles.rect);
+    }
+    lines_group.toBack();
+  }
+
+  function DrawLines(obj1, obj2, color, weight, type) {
+    var bb1 = obj1.getBBox(),
+        bb2 = obj2.getBBox(),
+        p = [{x: bb1.x + bb1.width / 2, y: bb1.y - 1},
+        {x: bb1.x + bb1.width / 2, y: bb1.y + bb1.height + 1},
+        {x: bb1.x - 1, y: bb1.y + bb1.height / 2},
+        {x: bb1.x + bb1.width + 1, y: bb1.y + bb1.height / 2},
+        {x: bb2.x + bb2.width / 2, y: bb2.y - 1},
+        {x: bb2.x + bb2.width / 2, y: bb2.y + bb2.height + 1},
+        {x: bb2.x - 1, y: bb2.y + bb2.height / 2},
+        {x: bb2.x + bb2.width + 1, y: bb2.y + bb2.height / 2}],
+        d = {}, dis = [];
+    for (var i = 0; i < 4; i++) {
+        for (var j = 4; j < 8; j++) {
+            var dx = Math.abs(p[i].x - p[j].x),
+                dy = Math.abs(p[i].y - p[j].y);
+            if ((i == j - 4) || (((i != 3 && j != 6) || p[i].x < p[j].x) && ((i != 2 && j != 7) || p[i].x > p[j].x) && ((i != 0 && j != 5) || p[i].y > p[j].y) && ((i != 1 && j != 4) || p[i].y < p[j].y))) {
+                dis.push(dx + dy);
+                d[dis[dis.length - 1]] = [i, j];
+            }
+        }
+    }
+    if (dis.length == 0) {
+        var res = [0, 4];
+    } else {
+        res = d[Math.min.apply(Math, dis)];
+    }
+    var x1 = p[res[0]].x,
+        y1 = p[res[0]].y,
+        x4 = p[res[1]].x,
+        y4 = p[res[1]].y;
+    dx = Math.max(Math.abs(x1 - x4) / 2, 10);
+    dy = Math.max(Math.abs(y1 - y4) / 2, 10);
+    var x2 = [x1, x1, x1 - dx, x1 + dx][res[0]].toFixed(3),
+        y2 = [y1 - dy, y1 + dy, y1, y1][res[0]].toFixed(3),
+        x3 = [0, 0, 0, 0, x4, x4, x4 - dx, x4 + dx][res[1]].toFixed(3),
+        y3 = [0, 0, 0, 0, y1 + dy, y1 - dy, y4, y4][res[1]].toFixed(3);
+    var path = ["M", x1.toFixed(3), y1.toFixed(3), "C", x2, y2, x3, y3, x4.toFixed(3), y4.toFixed(3)].join(",");
+    var line = paper.path(path).attr(styles.line)
+    //var array =  Raphael.parsePathString(path)
+    //var glow = line.glow();
+
+    line.from = obj1;
+    line.to = obj2;
+    line.type = type;
+
+    line.click( function(from,to,event) {
+      this.closeHandler = paper.set();
+      var text = paper.text(event.clientX+5,event.clientY+5,"X").attr(styles.text_selected);
+      var b = text.getBBox();
+      var rect = paper.rect(b.x-4,b.y-2,b.width+8,b.height+4,rect_radius).attr(styles.rect_selected);
+      text.toFront();
+      this.closeHandler.push(text);
+      this.closeHandler.push(rect);
+      this.closeHandler.click(removeConnection.bind(this,from,to))
+    }.bind(line,obj1,obj2));
+    return line
+  };
+  function DrawDragger() {
+    var bbox = this.getBBox();
+    this.connectionTools = paper.set();
+    if(toggler){
+      toggler.optList.remove();
+      toggler.remove();
+    }
+    this.connectionToggler = paper.image("images/conn_opt.png", bbox.x+2, bbox.y+2,20,20)
+    toggler = this.connectionToggler ;
+    toggler.optList = paper.set();
+    this.connectionToggler.click( function(){
+      ResetOthers();
+      DeselectLines();
+      DrawLabel(this);
+      this.attr(styles.rect_selected);
+      drawConnectOpt.call(this);
+    }.bind(this));
+  }
+
+  function ShowTargets( type, versus ) {
+    ResetOthers();
+    DeselectLines();
+    this.targets = paper.set();
+    var ctrl
+      , target;
+    for( var i=0; i<rect_group.length; i++){
+      ctrl = rect_group[i];
+      if( ctrl.id != this.id){
+        if( Compatibility(this, ctrl, type, versus )) {
+          target = paper.getById(ctrl.id)
+          this.targets.push(target);
+          //DrawLabel( target );
+          target.dl = DrawLabel.call(this,target)
+          target.hover( target.dl , ResetOthers);
+          target.cnc = createNewConnection.bind(this, target, versus, type);
+          target.click( target.cnc );
+          target.attr(styles.rect_target)
+        }
+      }
+    }
+    /*if( type == "iRequest" && ){
+      this.targets.push(item_request);
+      item_request.cnc = createNewConnection.bind(this, item_request, versus, type);
+      item_request.click( item_request.cnc );
+      item_request.attr({'fill':'#FFF','fill-opacity':0.7,'stroke-width':1.5, 'stroke-dasharray':'- '})
+    }*/
+    DrawLabel(this);
+    this.attr(styles.rect_selected);
+  }
+
+  function Compatibility(obj1, obj2, type , versus) {
+    if(!obj2.connectors) return false;
+    var connectors2 = obj2.connectors,
+    connectors1 = obj1.connectors
+    for(var j=0; j<connectors2.length; j++){
+      if( obj1['conns'+versus.charAt(0).toUpperCase()+versus.slice(1) ].indexOf( obj2.id ) == -1 && versus != connectors2[j].versus && type == connectors2[j].type)
+        return true;
+    }
+    return false;
+  }
+  function drawConnectOpt() {
+    if(!this.connectors) return;
+    if( this.connectionToggler.open ){
+      this.connectionTools.remove();
+      this.connectionTools = paper.set();
+      this.connectionToggler.open = false;
+    }else{
+      var b = this.connectionToggler.getBBox();
+      var pos={'x':b.x+6, 'y':b.y2+6}, conn;
+      for(var i=0; i<this.connectors.length;i++){
+        //paper.rect()
+        conn = this.connectors[i];
+        var button = paper.image("images/conn_"+conn.versus+".png", pos.x, pos.y, 16, 16);
+        var text = paper.text(pos.x +20, pos.y+12, conn.type+(!Empty(conn.propName)?'('+conn.propName+')':''))
+          .attr(styles.connector_text);
+
+        var s = paper.set();
+        s.push( text ).push( button )
+        s.click( function( conn, s ) {
+            var tbbox = s.getBBox();
+            var rect_sel = paper.rect(tbbox.x-4, tbbox.y, this.connectionTools.getBBox().width, tbbox.height, rect_radius)
+                        .attr(styles.connection_rect_selected);
+            s.toFront();
+            s.push(rect_sel)
+            ShowTargets.call( this, conn.type, conn.versus );
+             drawConnectOpt.call( this );
+          }.bind( this, conn, s )
+        )
+        this.connectionTools.push( s );
+        pos.y += 24;
+      }
+      var cbbox = this.connectionTools.getBBox();
+      var cont = paper.rect(cbbox.x-4, cbbox.y-4, cbbox.width+8, cbbox.height+8, rect_radius)
+                  .attr(styles.connection_rect);
+      this.connectionTools.toFront();
+      this.connectionTools.push( cont );
+      toggler.optList.push( this.connectionTools );
+      this.connectionToggler.open = true;
+    }
+  }
+
+  function createNewConnection( destination, versus, type) {
+    var from, to;
+    if( versus == 'out' ){
+      from = this;
+      to = destination;
+    }else{
+      from = destination;
+      to = this;
+    }
+
+    var line = DrawLines(from, to, '#FFF', 1.5, type);
+    lines_group.push( line );
+    from.lines.push( line );
+    to.lines.push( line );
+    this.connectionToggler.remove();
+    toggler = null;
+    for(var i=0;i<this.targets.length; i++){
+      this.targets[i].unhover(this.targets[i].dl,ResetOthers);
+      this.targets[i].unclick(this.targets[i].cnc);
+    }
+    DeselectLines();
+    //seleziono il control appena collegato
+    DrawConn(destination);
+    destination.attr(styles.rect_selected);
+    ItemSelected( destination );
+    DrawDragger.call( destination );
+    var def = setProperty(from,to,type);
+    if( def ) {
+      line.propId = def.propId;
+      line.ctrlProp = def.ctrlProp;
+      from.connsOut.push(to.id);
+      to.connsIn.push({'id': from.id, propId: def.propOd, ctrlProp: def.ctrlProp});
+    }
+  }
+  function setProperty(from,to,type){
+    var ctrl, result;
+    for(var i=0;i<itemsHTML.length;i++){
+      ctrl=itemsHTML[i];
+      if(from.id==ctrl.id ){
+        var pid = setPropertyValue(ctrl,from,to.name,'out',type)
+        if ( pid )
+          return { propId: pid, ctrlProp: from }
+      }
+      if(to.id==ctrl.id ){
+        var pid = setPropertyValue(ctrl,to,from.name,'in',type)
+        if ( pid )
+         return { propId: pid, ctrlProp: to }
+      }
+    }
+  }
+  function setPropertyValue(ctrl,rect,name,versus,type){
+    let connector;
+    for(var j=0; j<rect.connectors.length; j++){
+      connector = rect.connectors[j];
+      if(connector.versus==versus && connector.type==type && connector.propID ){
+        if( connector.multiple ){
+          ctrl[connector.propID]=(!Empty(ctrl[connector.propID])?ctrl[connector.propID]+','+name:name);
+        } else {
+          switch(type){
+            case 'iParameter':
+              ctrl[connector.propID]=(!Empty(ctrl[connector.propID])?ctrl[connector.propID]+','+name:name);
+            break;
+            default:
+            ctrl[connector.propID]=name;
+          }
+        }
+        parent.Properties();
+        return connector.propID;
+      }
+    }
+    return false;
+  }
+  function removeConnection(from, to) {
+    //remove non toglie la linea dei set
+    var toI = to.lines.items.indexOf(this),
+      fromI = from.lines.items.indexOf(this),
+      gI = lines_group.items.indexOf(this);
+      line = (to.lines.items.splice(toI,1))[0],
+      name = ( from == line.ctrlProp ? to.name : from.name )
+    to.lines.length--;
+    from.lines.items.splice(fromI);
+    from.lines.length--;
+    lines_group.items.splice(gI);
+    lines_group.length--;
+    for(var i=0;i<itemsHTML.length;i++){
+      ctrl=itemsHTML[i];
+      if( ctrl.id == line.ctrlProp.id ){
+        var prop = ctrl[line.propId]
+        if( prop.indexOf("=")>-1){  //parameters
+          var pars_tmp=prop.split(',');
+          for(var p=0;p<pars_tmp.length;p++){
+            if(pars_tmp[p].indexOf(name)>-1){
+              parms_tmp.splice(p,1);
+            }
+          }
+          ctrl[line.propId] =  parms_tmp.join(",");
+        }else{
+          ctrl[line.propId] = "";
+        }
+        parent.Properties();
+      }
+    }
+    this.closeHandler.remove();
+    line.remove();
+  }
+</script>
+<style>
+  @import url("../fonts/OpenSans.css");
+  html {
+    height:100%;
+    background:transparent;
+  }
+  body {
+    background:transparent;
+    margin:0;
+    padding:0;
+    height:100%;
+    cursor:default;
+  }
+  #paper {
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    position:relative;
+    overflow: hidden;
+  }
+  /* #closeLogic {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+    background: url(../portalstudio/images/panel/closeLogic.png) no-repeat right;
+  } */
+
+</style>
+</head>
+<body onload="doLoad();">
+  <div id="paper"></div>
+  <!-- <div id="closeLogic"></div> -->
+</body>
+</html>

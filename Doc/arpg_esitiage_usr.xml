@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="169983877">
+  <CodifyName>arpg_esitiage</CodifyName>
+  <Name>arpg_esitiage.pagedef</Name>
+  <Title>Dati da modificare</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="1177404"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_esitiage_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="71" x2="1380" y2="84">
+      <Name LinkID="146178982">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="57" x2="1380" y2="70">
+      <Name LinkID="200161718">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="42" x2="128" y2="56">
+      <Name LinkID="1163141">c_rapporto</Name>
+      <Help></Help>
+      <Expression>c_rapporto</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="136" y1="42" x2="240" y2="56">
+      <Name LinkID="1163141">c_connes</Name>
+      <Help></Help>
+      <Expression>c_connes</Expression>
+      <Hyperlink>arpg_edt_personbo</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="248" y1="42" x2="428" y2="56">
+      <Name LinkID="1163141">c_ragsoc</Name>
+      <Help></Help>
+      <Expression>c_ragsoc</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="432" y1="42" x2="522" y2="56">
+      <Name LinkID="1163141">c_afile</Name>
+      <Help></Help>
+      <Expression>c_afile</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="528" y1="42" x2="680" y2="56">
+      <Name LinkID="1163141">c_aprog</Name>
+      <Help></Help>
+      <Expression>c_aprog</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="688" y1="42" x2="778" y2="56">
+      <Name LinkID="1163141">c_cfile</Name>
+      <Help></Help>
+      <Expression>c_cfile</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="784" y1="42" x2="934" y2="56">
+      <Name LinkID="1163141">c_cprog</Name>
+      <Help></Help>
+      <Expression>c_cprog</Expression>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

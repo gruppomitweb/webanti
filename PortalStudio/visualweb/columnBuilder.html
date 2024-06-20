@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<head>
+  <script src="../jquery.js"></script>
+  <script src="../jquery-ui.js"></script>
+  <script src="../stdFunctions.js"></script>
+  <script src="../portalstudio/jscolor/jscolor.js"></script>
+  <script src="columnBuilder.js"></script>
+  <script src="SPTableEditable.js"></script>
+  <script src="../PortalCommonJS.js"></script>
+  <script src="SPProperties.js"></script>
+  <script src="../spModalLayer.js"></script>
+  <link rel="stylesheet" href="SPTableEditable.css">
+  <link rel="stylesheet" href="../properties.css">
+  <link rel="stylesheet" href="columnBuilder.css">
+</head>
+<body id="properties">
+  <div id="table_container">
+    <div id="table"></div>
+    <!--ul id="table_title" class="title">
+      <li id="table_title_tit">Title</li><li id="table_title_expr">Expression</li><li id="table_title_edit">Editable</li>
+    </ul-->
+    <!--div id="table_content" class="table_content">
+      <div id="table_content_tit">Codice Articolo</div><div id="table_content_expr">function:GetCodice(%CodArt%);</div><div id="table_content_edit">
+        <input type="checkbox"></input>
+      </div>
+    </div-->
+  </div>
+  <div id="table_toolbar_container">
+    <div id="table_footer_title"></div>
+    <div id="table_footer" class="table_footer">
+      <div id="select-field" class="button">SELECT FIELDS</div> <div id="add" class="button">ADD COL.</div> <div id="remove" class="button">REMOVE COL.</div>
+    </div>
+  </div>
+  <div id="tabs_containter">
+    <div id="tabs">
+      <div id="tab_style" class="prop_tab selected">Style
+      </div><div id="tab_content" class="prop_tab">Link
+      </div><div id="tab_action" class="prop_tab">Drag & Drop
+      </div><div id="tab_editable" class="prop_tab">Editable
+      </div><div id="tab_advanced" class="prop_tab">Advanced</div>
+    </div>
+    <div id="tabs_content">
+      <div id="page_style" class="page selected">
+        <div id="properties_container">
+          <div id="prop_font" class="prop_column">
+            <div class="title">Font</div>
+            <div class="ps-prop-container">
+              <div id="font_family" class="ps-prop" ps-label="Font Family" ps-type="select" ps-value='[{"name": "-", "value": ""},{"name": "Tahoma", "value": "Tahoma"},{"name": "Arial", "value": "Arial"},{"name": "Verdana", "value": "Verdana"},{"name": "MS Sans Serif", "value": "MS Sans Serif"},{"name": "Times New Roman", "value": "Times New Roman"}]'></div>
+              <div id="bg_color" class="ps-prop" ps-label="Background Color" ps-type="text" ps-button='[{"type": "color"}]' ps-tooltip='The color can be calculated using the following syntax: "function:.." or "%myField%" .'></div>
+              <div id="fg_color" class="ps-prop" ps-label="Font Color" ps-type="text" ps-button='[{"type": "color"}]' ps-tooltip='The color can be calculated using the following syntax: "function:.." or "%myField%" .' ></div>
+              <div id="font_weight" class="ps-prop" ps-label="Font Weight" ps-type="text" ></div>
+              <div id="font_size" class="ps-prop" ps-label="Font Size" ps-type="text" ></div>
+              <div id="align" class="ps-prop" ps-label="Align" ps-type="select" ps-value='[{"name": "-", "value": ""},{"name": "Left", "value": "left"},{"name": "Center", "value": "center"},{"name": "Right", "value": "right"}]'></div>
+            </div>
+          </div><div id="prop_cell" class="prop_column">
+            <div class="title">Cell Size</div>
+            <div class="ps-prop-container">
+              <div id="col_class" class="ps-prop" ps-label="Class" ps-type="text" ps-tooltip='The class name can be calculated using the following syntax: "function:.." or "%myField%" .' ></div>
+              <div id="width" class="ps-prop" ps-label="Cell Min Size" ps-type="text" ></div>
+              <div id="fixedwidth" class="ps-prop" ps-label="Cell size" ps-type="text" ></div>
+              <div id="height" class="ps-prop" ps-label="Cell Height Size" ps-type="text" ></div>
+              <div id="ColSpan" class="ps-prop" ps-label="Col span" ps-type="number" ></div>
+              <div id="RowSpan" class="ps-prop" ps-label="Row span" ps-type="number" ></div>
+              <div id="title_align" class="ps-prop" ps-label="Title align" ps-type="select" ps-value='[{"name": "-", "value": ""},{"name": "Left", "value": "left"},{"name": "Center", "value": "center"},{"name": "Right", "value": "right"}]'></div>
+            </div>
+          </div><div id="prop_data" class="prop_column">
+            <div class="title">Data</div>
+            <div class="ps-prop-container">
+              <div id="picture" class="ps-prop" ps-label="Picture" ps-type="text" ></div>
+              <div id="layer" class="ps-prop" ps-label="Layer" ps-type="select" ps-value='[{"name": "-", "value": ""},{"name": "Column Layer", "value": "column_layer"},{"name": "Row Layer", "value": "row_layer"}]'></div>
+              <div id="newline" class="ps-prop" ps-label="New line" ps-type="checkbox" ></div></div>
+          </div>
+        </div>
+      </div>
+      <div id="page_content" class="page">
+        <!--div id="content_title" class="title">Column Content</div>
+        <div id="content_container" class="ps-prop-container">
+          <div id="field" class="ps-prop" ps-label="Expression" ps-type="text" ps-button='[{"type": "picker", "action": "buildExpr"}]'></div>
+        </div-->
+        <div id="link_title" class="title">Column Link</div>
+        <div id="link_container" class="ps-prop-container">
+          <div id="link" class="ps-prop" ps-label="link" ps-type="text" ></div>
+          <div id="target" class="ps-prop" ps-label="Target" ps-type="text" ></div>
+          <div id="onclick" class="ps-prop" ps-label="OnClick" ps-type="text"  ps-button='[{"type": "picker", "action": "buildExpr"}]' ></div>
+        </div>
+      </div>
+      <div id="page_d6d" class="page">
+        <div id="prop_d&d" class="title">Drag&Drop</div>
+          <div class="ps-prop-container">
+            <div id="droppable" class="ps-prop" ps-label="Droppable" ps-type="checkbox" ></div>
+            <div id="droppable_name" class="ps-prop" ps-label="Droppable Name" ps-type="text" ></div></div>
+      </div>
+      <div id="page_action" class="page">
+        <div id="editable_container">
+          <div id="editable_title" class="title">Column Editable</div>
+            <div class="ps-prop-container">
+              <div id="disable_fields_conditions" class="ps-prop" ps-label="Disable Field Expression" ps-type="text" ps-button='[{"type": "picker", "action": "buildExpr"}]'></div>
+            </div>
+        </div>
+      </div>
+      <div id="page_advanced" class="page">
+        <div id="advanced_container">
+          <div id="prop_advanced" class="prop_column">
+            <div id="advanced_title" class="title">Column Advanced</div>
+            <div class="ps-prop-container">
+              <div id="orderby_field" class="ps-prop" ps-label="OrderBy field" ps-type="text" ></div>
+              <div id="extensible" class="ps-prop" ps-label="Extensible" ps-type="checkbox" ></div>
+              <div id="title_tooltip" class="ps-prop" ps-label="Tooltip" ps-type="text" ></div>
+            </div>
+          </div>
+          <div id="prop_advanced" class="prop_column">
+            <div class="title">HTML</div>
+            <div class="ps-prop-container">
+              <div id="enable_HTML" class="ps-prop" ps-label="Enable HTML" ps-type="checkbox" ></div>
+              <div id="sanitize" class="ps-prop" ps-label="Secure HTML" ps-type="select" ps-value='[{"name": "xssPrevent", "value": "xssPrevent"},{"name": "none", "value": "none"},{"name": "custom", "value": "custom"}]'  ps-tooltip="The HTML output is sanitized to prevent XSS Attack,\nxssPrevent allows the common HTML tags and disable scripts execution"></div>
+              <div id="sanitize_tags" class="ps-prop" ps-label="Custom tags allowed" ps-type="text" ps-tooltip="Specifies the allowed HTML tags separated by a space, e.g. a br b div.."></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div id="ok" class="button">SAVE</div><div id="cancel" class="button">CANCEL</div>
+  </div>
+  <span id="field-picker" ></span>
+  <span id="sort-handler" ></span>
+  <div id="cinema"></div>
+  <div id="dialog" >
+    <div id="table-field-list"></div>
+    <div id="picker-footer">
+      <div id="picker-ok" class="button">OK</div><div id="picker-cancel" class="button">CANCEL</div>
+    </div>
+  </div>
+  <div id="info">
+    <span> Remember to set <b>Pk checkbox/editable fields</b> in grid properties, in editable tab. </span>
+    <span id="close-info">&#xe6fa;</span>
+  </div>
+</body>

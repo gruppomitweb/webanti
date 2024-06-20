@@ -1,0 +1,71 @@
+﻿* --- Resource Vers. 0.9
+qbe_fam_delete_rap.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:21
+description='
+file_modified_on=#2023-01-12 13:00:08
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:36
+module_name='
+name='qbe_fam_delete_rap.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'intestbo.rapporto
+'intestbo.dataini
+'intestbo.datafine
+'anarapbo.tipoag
+'anarapbo.tiporap
+'anarapbo.descrap
+'anarapbo.valuta
+'aetesta.inviato
+'aetesta.cab
+'aetesta.uniquecode
+'aetesta.oldinter
+'aetesta.dataannu
+'aetesta.idesitofam
+'anarapbo.isoage
+'anarapbo.noprot
+'aetesta.annulla
+]
+'Queries
+[
+'qbe_fam_delete_jap.vqr
+]
+'Tables
+[
+'intestbo<table>
+'anarapbo<table>
+'aetesta<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,288 @@
+/* SVGCHARTS - ICON FONT */
+@font-face {
+  font-family: 'svgCharts';
+  src: url('../chart/svgCharts.eot');
+  src:  url('../chart/svgCharts.eot#svgCharts') format('embedded-opentype'),
+    url('chart/svgCharts.svg#svgCharts') format('svg'),
+    url('chart/svgCharts.woff') format('woff'),
+    url('chart/svgCharts.ttf') format('truetype');
+}
+
+.ztchart_legend_icon, .ztchart_legend_icon_small {
+  font-family: svgCharts;
+  font-size: 14px;
+}
+
+/*.ztchart_legend_icon_small {
+  font-family: svgCharts;
+  font-size: 9px;
+}*/
+
+.SPPortalZoomBaseMenuFilter.global_handler::after {
+  content: "\EE44";
+  color: rgba(0,0,0,.93);
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.SPPortalZoomBaseMenuFilter.global_handler.opened::after {
+  color: rgba(255,255,255,.87);
+  content: "\EE44";
+  color: rgba(255,255,255,.93);
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.SPPortalZoomBaseMenuFilter { /*!control:HamburgerMenu*/
+}
+
+.SPPortalZoomBaseMenuFilter.global_handler{
+  display:inline-block;
+  cursor:pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding:8px;
+}
+.SPPortalZoomBaseMenuFilter.global_handler.opened{
+}
+
+.SPPortalZoomBaseMenuFilter.global_container {
+  background-color:#343434;
+  color:rgba(255,255,255,.93);
+  position: absolute;
+  display:none;
+  font-family:Open Sans;
+  font-weight:300;
+  font-size:13px;
+  margin:0;
+  padding:0;
+}
+.SPPortalZoomBaseMenuFilter.global_container.tl {
+  box-shadow:0 2px 5px rgba(0,0,0,0.14), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.SPPortalZoomBaseMenuFilter.global_container.tr {
+  box-shadow:-0 2px 5px rgba(0,0,0,0.14), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.SPPortalZoomBaseMenuFilter.global_container.bl {
+  box-shadow:0 2px 5px rgba(0,0,0,0.14), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.SPPortalZoomBaseMenuFilter.global_container.br {
+  box-shadow:-0 2px 5px rgba(0,0,0,0.14), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.SPPortalZoomBaseMenuFilter.global_container.visible {
+  display:block;
+}
+
+.SPPortalZoomBaseMenuFilter_column {
+  display:inline-block;
+  margin:0px 25px 25px 25px;
+  padding:0;
+  vertical-align:top;
+  -webkit-box-flex:1;
+  -ms-flex:1 1 auto;
+  flex:1 1 auto;
+}
+
+.SPPortalZoomBaseMenuFilter_content ul {
+  list-style-type:none;
+  padding:0px;
+  margin:0px;
+}
+.SPPortalZoomBaseMenuFilter_content li {
+  list-style:none;
+  padding:4px 0px;
+  white-space:nowrap;
+}
+.hoverable .SPPortalZoomBaseMenuFilter_content li:hover {
+  background-color: rgba( 40, 70,120,.54);
+}
+.SPPortalZoomBaseMenuFilter_content li .item_image {
+  padding:0px 3px 0px 0px;
+  vertical-align: middle;
+}
+.SPPortalZoomBaseMenuFilter_content li .item_label {
+  vertical-align: middle;
+}
+.SPPortalZoomBaseMenuFilter_content li .handler::after {
+  content: "\F143";
+  color: rgba(255,255,255,.87);
+  font-family: icons8_win10;
+  font-size: 14px;
+}
+.SPPortalZoomBaseMenuFilter_content li .handler {
+}
+.SPPortalZoomBaseMenuFilter_content li .handler.opened::after {
+  content: "\F146";
+  color: rgba(255,255,255,.87);
+  font-family: icons8_win10;
+  font-size: 14px;
+}
+.SPPortalZoomBaseMenuFilter_content li .handler.opened {
+}
+
+.SPPortalZoomBaseMenuFilter_content.horizontal li {
+  display:inline-block;
+}
+.SPPortalZoomBaseMenuFilter_content.horizontal li img{
+}
+.SPPortalZoomBaseMenuFilter_content.vertical li {
+  display:block;
+}
+.SPPortalZoomBaseMenuFilter a, .hoverable .SPPortalZoomBaseMenuFilter a:hover {
+  text-decoration: none;
+  width:100%;
+  display:inline-block;
+  color:rgba(255,255,255,.93);
+}
+
+.SPPortalZoomBaseMenuFilter li.highlight_item, .hoverable .SPPortalZoomBaseMenuFilter li.highlight_item:hover{
+}
+.SPPortalZoomBaseMenuFilter li.highlight_item a, .hoverable .SPPortalZoomBaseMenuFilter li.highlight_item a:hover {
+  font-weight:600;
+}
+.SPPortalZoomBaseMenuFilter li.highlight_item div, .hoverable .SPPortalZoomBaseMenuFilter li.highlight_item div:hover {
+  font-weight:600;
+}
+.SPPortalZoomBaseMenuFilter_title {
+  font-weight:600;
+  text-transform: uppercase;
+}
+.SPPortalZoomBaseMenuFilter_container {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-flow: wrap row;
+  flex-flow: wrap row;
+}
+.SPPortalZoomBaseMenuFilter_content .subitem_content {
+  margin:0px 0px 10px 10px;
+  overflow:auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*** DIV LOADING ***/
+.ztchartLoadingpdiv {
+  height: 100%;
+  position: absolute;
+  z-index: 2000;
+  background-color: #FFFFFF;
+  display: block;
+  opacity: 1;
+}
+
+.ztchartLoading {
+  font-family: icons8_win10;
+  color: #8f8f8f;
+  text-rendering: auto;
+  animation: ztc_spin 2s infinite linear;
+  position: relative;
+  float: left;
+  opacity: 0.75;
+}
+.ztchartLoading::before {
+  content: "\ea81";
+}
+@keyframes ztc_spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/*
+.cLoading_div {
+  position: relative;
+  float: left;
+  left: 33%;
+  margin-top: 50%;
+  height: 70px;
+  bottom: 50%;
+  width: 90px;
+  overflow: hidden;
+}
+
+.cLoading_one {
+  width : 27px;
+  height : 50px;
+  background-color : #CDD3CE;
+  float : left;
+  bottom: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.cLoading_two {
+  width : 27px;
+  height : 30px;
+  background-color : #DCDCDC;
+  float : left;
+  left : 30px;
+  bottom: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.cLoading_three {
+  width : 27px;
+  height : 70px;
+  background-color : #595758;
+  float : left;
+  left : 60px;
+  bottom: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.cLoading_one {
+  animation-name: move;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+}
+
+.cLoading_two {
+  animation-name: move;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-delay: 0.2s;
+}
+
+.cLoading_three {
+  animation-name: move;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-delay: 0.4s;
+}
+*/
+.maskFrameCancelBtn:after{
+  font-family: svgCharts;
+  font-size: 20px;
+  color: rgba(0, 0, 0, .87);
+  content: "\ed93";
+  background-color: transparent !important;
+}
+
+.maskFrame {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.maskFrameTransparent {
+  background-color: transparent;
+}

@@ -1,0 +1,49 @@
+﻿* --- Resource Vers. 0.9
+arrt_stprappo_prv
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:41
+description='Lancio Stampa Rapporti Provvisori (Routine)
+file_modified_on=#2021-04-14 16:43:22
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:28
+module_name='
+name='arrt_stprappo_prv
+state=1
+type='batch
+used_resource_keys={
+'Hyperlinks
+[
+'arrp_stprappo_prv2.vrp
+'arrp_stprappo_prv1.vrp
+]
+'Queries
+[
+'qbe_allxapopebo.vqr
+]
+'Tables
+[
+'tmp_stprapporti<table>
+'intestbo<table>
+'personbo<table>
+'tbstati<table>
+'tbtipdoc<table>
+'rapotit<table>
+'delegabo<table>
+'tbstgru<table>
+'tbtipatt<table>
+'tbsetsin<table>
+'tbramgru<table>
+]
+}
+I
+*--*
+￼[]
+*--*

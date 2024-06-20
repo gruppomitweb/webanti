@@ -1,0 +1,215 @@
+ 2
+"TIPO 3"
+"sid_invio3"
+"sid_invio3"
+ 0
+ 0
+*
+"Operazioni ExtraConto"
+"opextrbo"
+"opextrbo"
+ 0
+ 0
+*
+ 19
+"Codice Univio Rapporto"
+"sid_invio3.RAPINVIO3"
+"RAPINVIO3"
+"C"
+ 50
+ 0
+*
+"Tipo Rapporto"
+"sid_invio3.TPRINVIO3"
+"TPRINVIO3"
+"C"
+ 2
+ 0
+*
+"Anno Riferimento Saldi"
+"sid_invio3.ANNINVIO3"
+"ANNINVIO3"
+"N"
+ 4
+ 0
+*
+"Importo 1"
+"sid_invio3.IM1INVIO3"
+"IM1INVIO3"
+"N"
+ 17
+ 0
+*
+"Importo Superiore o Inferiore a un milione"
+"sid_invio3.FI1INVIO3"
+"FI1INVIO3"
+"N"
+ 1
+ 0
+*
+"Importo 2"
+"sid_invio3.IM2INVIO3"
+"IM2INVIO3"
+"N"
+ 17
+ 0
+*
+"Importo Superiore o Inferiore a un milione"
+"sid_invio3.FI2INVIO3"
+"FI2INVIO3"
+"N"
+ 1
+ 0
+*
+"Importo 3"
+"sid_invio3.IM3INVIO3"
+"IM3INVIO3"
+"N"
+ 17
+ 0
+*
+"Importo Superiore o Inferiore a un milione"
+"sid_invio3.FI3INVIO3"
+"FI3INVIO3"
+"N"
+ 1
+ 0
+*
+"Importo 4"
+"sid_invio3.IM4INVIO3"
+"IM4INVIO3"
+"N"
+ 17
+ 0
+*
+"Importo Superiore o Inferiore a un milione"
+"sid_invio3.FI4INVIO3"
+"FI4INVIO3"
+"N"
+ 1
+ 0
+*
+"Importo 5"
+"sid_invio3.IM5INVIO3"
+"IM5INVIO3"
+"N"
+ 17
+ 0
+*
+"Importo Superiore o Inferiore a un milione"
+"sid_invio3.FI5INVIO3"
+"FI5INVIO3"
+"N"
+ 1
+ 0
+*
+"Giacenza Media"
+"sid_invio3.IM6INVIO3"
+"IM6INVIO3"
+"N"
+ 17
+ 0
+*
+"Importo Superiore o Inferiore a un milione"
+"sid_invio3.FI6INVIO3"
+"FI6INVIO3"
+"N"
+ 1
+ 0
+*
+"Note"
+"opextrbo.NOTE"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Valuta"
+"opextrbo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+"CAB"
+"NULL"
+"CAB"
+"C"
+ 5
+ 0
+*
+"TIPO"
+"ýOý"
+"TIPO"
+"C"
+ 1
+ 0
+*
+ 1
+"Operazioni Extra Conto"
+"sid_invio3.RAPINVIO3=opextrbo.RAPPORTO"
+"Inner"
+"sid_invio3"
+"opextrbo"
+*
+ 1
+"sid_invio3.CODINVIO3"
+""
+"="
+"?w_invio"
+"AND"
+""
+*
+ 0
+ 0
+ 1
+ 3
+"w_DescAzi"
+""
+"C"
+"70"
+"0"
+""
+*
+"w_anno"
+""
+"N"
+"4"
+"0"
+""
+*
+"w_invio"
+"Codice Invio"
+"C"
+"10"
+"0"
+""
+*
+""
+.f.
+"qbe_invio_saldi_new2"
+ 0
+ 0
+ 1
+""
+""
+.t.
+.t.
+ 9
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"TT7*%3EBOVCC%3C%28.RD9_%22R%40%2C%3AD+%21PHXE%273%3B%24%26E%265%3CQ%292%28H%28L%2BZZN%5C7_M%239%26%2F%5C2v_K%27%3EQ%24K6%5BH%22SI6M4%1C%29B0LUT-+%2B%2737MNN%23C%3AA1PD13%3D%12.8B6%2BAO-%27T%24TV7%06B%3E1B%23A1%2B%22JFY%074A%2BV%13%3E%5E%22XB%40G8%11%5B%5C1%40%29YN%282%2F%1F%5EYu*8N9%22N%2FJ%235%07%3EAi%2744D%28%25ZH4E_7%2B97MV3S*%3D%2C%60%254%2BB%223%28%25WXQNI7%3F_%22P7%24QB%2859KQUAKM%24I%24B%1D4%033%24%28%2C%5B%40X*N31_GYHS%40%3B%110%1E%00"
+"%24Oi%290GBX%22D7H8RH%3Aj%29%07N%26*J%1C_C%24%265OZ%25G%25J%2F%21U6.Y%29%3E6%24K%3A%5DK%40N5O.M9LM1UH%3B%22G%2C1F2%5BL%044%281ZH%1E%23%22P%5DFOM%05%3DU%3D4%23T%3BCLLSI.+G%3E%5B%2B%5C%07C%3F%26%3EL3B%28O9%3D%24%23%27%3DF%27%3AUG%24RC%23H87%3B2%5C%3C4%29uO%21%408NB%28-L%3B%28%2F%25%2468+N7%27OH+K5%17C2%3E1W6Z5ZF%1D%2CB%0A-G%5B%2F%25H%3D+%3C%25L9%5D*6%24MT1%249%223%2F%26SFZm%249%27%3EVWR+T-.27%29_ODvV%2Ba%3ADL%3B%3A2%2B%3DA9zFM8%11*E%3BJ-%26%2F%21%2B16%00"
+""
+""
+"native"
+ 0
+ 0
+*

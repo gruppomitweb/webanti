@@ -1,0 +1,56 @@
+﻿* --- Resource Vers. 0.9
+arrt_allinea_tipopers
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Allinea il tipopers su personbo
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_allinea_tipopers
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.tipopers
+'personbo.sesso
+]
+'Hyperlinks
+[
+'jsp\start_page_logo_portlet.jsp
+]
+'Tables
+[
+'personbo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_allinea_tipopers|Error|core::document|Update dependencies|Field "personbo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:06
+message='Field "personbo.1" not found.
+resource_key='arrt_allinea_tipopers
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

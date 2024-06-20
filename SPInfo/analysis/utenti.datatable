@@ -1,0 +1,144 @@
+﻿* --- Resource Vers. 0.9
+utenti<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Utenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='utenti
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'utenti.utcodice
+'utenti.utnomine
+'utenti.utpasswd
+'utenti.utcod_cp
+'utenti.ut_email
+'utenti.utdatacc
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'utenti.ut_email
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='email
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ut_email
+state=3
+table_name='utenti
+type='field
+used_resource_keys={}
+I
+'utenti.utcod_cp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Utente SitePainter
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='utcod_cp
+state=3
+table_name='utenti
+type='field
+used_resource_keys={}
+I
+'utenti.utcodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Utente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='utcodice
+state=3
+table_name='utenti
+type='field
+used_resource_keys={}
+I
+'utenti.utdatacc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ultima data accesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='utdatacc
+state=3
+table_name='utenti
+type='field
+used_resource_keys={}
+I
+'utenti.utnomine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nominativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='utnomine
+state=3
+table_name='utenti
+type='field
+used_resource_keys={}
+I
+'utenti.utpasswd
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='password
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='utpasswd
+state=3
+table_name='utenti
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'utenti.ut_email
+[]
+'utenti.utcod_cp
+[]
+'utenti.utcodice
+[]
+'utenti.utdatacc
+[]
+'utenti.utnomine
+[]
+'utenti.utpasswd
+[]
+}
+*--*

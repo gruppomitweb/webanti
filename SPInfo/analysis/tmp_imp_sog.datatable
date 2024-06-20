@@ -1,0 +1,733 @@
+﻿* --- Resource Vers. 0.9
+tmp_imp_sog<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Import Soggetti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_imp_sog
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_imp_sog.tipooper
+'tmp_imp_sog.codstudio
+'tmp_imp_sog.tipoiden
+'tmp_imp_sog.connes
+'tmp_imp_sog.dataident
+'tmp_imp_sog.ragsoc
+'tmp_imp_sog.paese
+'tmp_imp_sog.desccit
+'tmp_imp_sog.provincia
+'tmp_imp_sog.domicilio
+'tmp_imp_sog.cap
+'tmp_imp_sog.codfisc
+'tmp_imp_sog.datanasc
+'tmp_imp_sog.nascomun
+'tmp_imp_sog.tipodoc
+'tmp_imp_sog.numdocum
+'tmp_imp_sog.datarilasc
+'tmp_imp_sog.autrilasc
+'tmp_imp_sog.sesso
+'tmp_imp_sog.statoreg
+'tmp_imp_sog.datarett
+'tmp_imp_sog.datavali
+'tmp_imp_sog.provnasc
+'tmp_imp_sog.respins
+'tmp_imp_sog.codcli
+'tmp_imp_sog.specie
+'tmp_imp_sog.comport
+'tmp_imp_sog.attiv
+'tmp_imp_sog.areageo
+'tmp_imp_sog.rnatgiu
+'tmp_imp_sog.rcomp
+'tmp_imp_sog.rattiv
+'tmp_imp_sog.rarea
+'tmp_imp_sog.rapsegna
+'tmp_imp_sog.piva
+'tmp_imp_sog.pep
+'tmp_imp_sog.tipsog
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_imp_sog.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='AREAGEO
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.attiv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ATTIV
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.autrilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='AUTRILASC
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CAP
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.codcli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ID CLiente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODCLI
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODFISC
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.codstudio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Studio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODSTUDIO
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.comport
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='COMPORT
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONNES
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.dataident
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Identificazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAIDENT
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.datanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATANASC
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.datarett
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATARETT
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.datarilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATARILASC
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.datavali
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAVALI
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Città residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESCCIT
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DOMICILIO
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.nascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NASCOMUN
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.numdocum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMDOCUM
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PAESE
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.pep
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='S/N
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PEP
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.piva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Partita IVA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PIVA
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PROVINCIA
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.provnasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PROVNASC
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAGSOC
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.rapsegna
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rapporto con il segnalante
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPSEGNA
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.rarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAREA
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.rattiv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RATTIV
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.rcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RCOMP
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.respins
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RESPINS
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.rnatgiu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RNATGIU
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.sesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SESSO
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.specie
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SPECIE
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.statoreg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='STATOREG
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.tipodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPODOC
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.tipoiden
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo identificazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOIDEN
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.tipooper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Operatore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOOPER
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+'tmp_imp_sog.tipsog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipologia Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPSOG
+state=3
+table_name='tmp_imp_sog
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_imp_sog.areageo
+[]
+'tmp_imp_sog.attiv
+[]
+'tmp_imp_sog.autrilasc
+[]
+'tmp_imp_sog.cap
+[]
+'tmp_imp_sog.codcli
+[]
+'tmp_imp_sog.codfisc
+[]
+'tmp_imp_sog.codstudio
+[]
+'tmp_imp_sog.comport
+[]
+'tmp_imp_sog.connes
+[]
+'tmp_imp_sog.dataident
+[]
+'tmp_imp_sog.datanasc
+[]
+'tmp_imp_sog.datarett
+[]
+'tmp_imp_sog.datarilasc
+[]
+'tmp_imp_sog.datavali
+[]
+'tmp_imp_sog.desccit
+[]
+'tmp_imp_sog.domicilio
+[]
+'tmp_imp_sog.nascomun
+[]
+'tmp_imp_sog.numdocum
+[]
+'tmp_imp_sog.paese
+[]
+'tmp_imp_sog.pep
+[]
+'tmp_imp_sog.piva
+[]
+'tmp_imp_sog.provincia
+[]
+'tmp_imp_sog.provnasc
+[]
+'tmp_imp_sog.ragsoc
+[]
+'tmp_imp_sog.rapsegna
+[]
+'tmp_imp_sog.rarea
+[]
+'tmp_imp_sog.rattiv
+[]
+'tmp_imp_sog.rcomp
+[]
+'tmp_imp_sog.respins
+[]
+'tmp_imp_sog.rnatgiu
+[]
+'tmp_imp_sog.sesso
+[]
+'tmp_imp_sog.specie
+[]
+'tmp_imp_sog.statoreg
+[]
+'tmp_imp_sog.tipodoc
+[]
+'tmp_imp_sog.tipoiden
+[]
+'tmp_imp_sog.tipooper
+[]
+'tmp_imp_sog.tipsog
+[]
+}
+*--*

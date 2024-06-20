@@ -1,0 +1,54 @@
+﻿* --- Resource Vers. 0.9
+arrt_stp_contfile
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:41
+description='Stampa Contenuto File AGE Inviati (Rapporti)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:28
+module_name='
+name='arrt_stp_contfile
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.ragsoc
+'personbo.codfisc
+'aetesta.rapporto
+'aetesta.tipoag
+'aetesta.coint
+'tmp_stpfileage.nomefile
+'tmp_stpfileage.tipofile
+'tmp_stpfileage.rapporto
+'tmp_stpfileage.nprog
+'tmp_stpfileage.ragsoc
+'tmp_stpfileage.datini
+'tmp_stpfileage.datfin
+'tmp_stpfileage.tiporap
+'tmp_stpfileage.agerap
+'tmp_stpfileage.connes
+]
+'Tables
+[
+'aecanc<table>
+'aerighe<table>
+'aetesta<table>
+'intermbo<table>
+'personbo<table>
+'tmp_stpfileage<table>
+]
+}
+I
+*--*
+￼[]
+*--*

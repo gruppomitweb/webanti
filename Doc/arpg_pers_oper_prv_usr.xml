@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="218995530">
+  <CodifyName>arpg_pers_oper_prv</CodifyName>
+  <Name>arpg_pers_oper_prv.pagedef</Name>
+  <Title>Operazioni relative alla Persone / Società / Cliente rapporto (Provvisorie)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="248038326"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_pers_oper_prv_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="74" x2="964" y2="87">
+      <Name LinkID="248826070">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="64" y1="44" x2="144" y2="60">
+      <Name LinkID="218971210">c_DATAOPE</Name>
+      <Help></Help>
+      <Expression>c_DATAOPE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="152" y1="44" x2="240" y2="60">
+      <Name LinkID="218971210">c_NUMPROG</Name>
+      <Help></Help>
+      <Expression>c_NUMPROG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="480" y1="44" x2="584" y2="60">
+      <Name LinkID="218971210">c_TOTLIRE</Name>
+      <Help></Help>
+      <Expression>c_TOTLIRE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="344" y1="44" x2="400" y2="60">
+      <Name LinkID="218971210">c_VALUTA</Name>
+      <Help></Help>
+      <Expression>c_VALUTA</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="61" x2="964" y2="74">
+      <Name LinkID="263848886">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="408" y1="44" x2="472" y2="60">
+      <Name LinkID="218971210">LRTrim(c_CODANA)+&quot; &quot;+LRTrim(c_CODVOC)</Name>
+      <Help></Help>
+      <Expression>LRTrim(c_CODANA)+&quot; &quot;+LRTrim(c_CODVOC)</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="248" y1="44" x2="336" y2="60">
+      <Name LinkID="218971210">c_DATAREG</Name>
+      <Help></Help>
+      <Expression>c_DATAREG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="8" y1="44" x2="24" y2="60">
+      <Name LinkID="218971210">images/edit.gif</Name>
+      <Image>images/edit.gif</Image>
+      <Hyperlink>armt_oprovvisorie</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="42" y1="44" x2="58" y2="60">
+      <Name LinkID="218971210">images/remove.gif</Name>
+      <Image>images/remove.gif</Image>
+      <Hyperlink>armt_oprovvisorie</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="25" y1="44" x2="41" y2="60">
+      <Name LinkID="218971210">images/view.png</Name>
+      <Image>images/view.png</Image>
+      <Hyperlink>armt_oprovvisorie</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

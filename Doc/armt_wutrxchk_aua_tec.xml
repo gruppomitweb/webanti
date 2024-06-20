@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="Technical.xsl"?>
+<Codify LinkID="70819796">
+  <CodifyName>armt_wutrxchk_aua</CodifyName>
+  <Name>armt_wutrxchk_aua.mstdef</Name>
+  <Title>Correzione Errori AUA (Import RTRA)</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Template>Master entity (Master)</Template>
+  <Author></Author>
+  <User></User>
+  <Version></Version>
+  <Created>2018-02-21</Created>
+  <Lastrevision>2018-04-03</Lastrevision>
+  <Dic>plan</Dic>
+  <MasterTable>wutrxchk</MasterTable>
+  <WorkTables>
+    <Table>tbmacage</Table>
+    <Table>anadip</Table>
+  </WorkTables>
+  <Zoom></Zoom>
+  <Pag number="1">
+    <Title LinkID="206284036">Dati Transazione</Title>
+    <Note></Note>
+    <JPG x="1" y="8">armt_wutrxchk_aua_tec_1</JPG>
+    <Item type="campo" x1="157" y1="8" x2="259" y2="28">
+      <Name LinkID="130442804">TRXCODPRG</Name>
+      <Comment>ID Transazione</Comment>
+      <Key>key1</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="31" x2="469" y2="51">
+      <Name LinkID="130444290">TRXCOGNOM</Name>
+      <Comment>Cognome</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="54" x2="469" y2="74">
+      <Name LinkID="126477815">TRXNOME</Name>
+      <Comment>Nome</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="77" x2="769" y2="97">
+      <Name LinkID="136943811">TRXDOMICI</Name>
+      <Comment>Domicilio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="99" x2="383" y2="120">
+      <Name LinkID="83238503">TRXFLGCF</Name>
+      <Comment>Flag Codice Fiscale</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="502" y1="97" x2="631" y2="117">
+      <Name LinkID="130445722">TRXCODFIS</Name>
+      <Comment>Codice Ficale (reale)</Comment>
+      <Key>key4</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="123" x2="469" y2="143">
+      <Name LinkID="27889374">TRXLUONAS</Name>
+      <Comment>Luogo di nascita</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="166" x2="349" y2="186">
+      <Name LinkID="25796104">TRXNUMDOC</Name>
+      <Comment>Numero Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="433" y1="188" x2="493" y2="208">
+      <Name LinkID="103391417">TRXDATSCA</Name>
+      <Comment>Data Scadenza Documento</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="188" x2="217" y2="208">
+      <Name LinkID="103388506">TRXDATRIL</Name>
+      <Comment>Data Rilascio Documento</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="158" y1="146" x2="470" y2="166">
+      <Name LinkID="229010086">TRXAUTRIL</Name>
+      <Comment>Autorità Rilascio Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="210" x2="469" y2="230">
+      <Name LinkID="175534438">TRXNAZRES</Name>
+      <Comment>Nazione di Residenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="233" x2="469" y2="253">
+      <Name LinkID="29782374">TRXCITRES</Name>
+      <Comment>Città Di residenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="256" x2="181" y2="276">
+      <Name LinkID="220831240">TRXTIPDOC</Name>
+      <Comment>Tipo Documento</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="279" x2="217" y2="299">
+      <Name LinkID="103390189">TRXDATOPE</Name>
+      <Comment>Data Operazione</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="301" x2="315" y2="322">
+      <Name LinkID="83258615">TRXFLGCON</Name>
+      <Comment>Flag Contanti</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="325" x2="259" y2="345">
+      <Name LinkID="247537410">TRSSEGNO</Name>
+      <Comment>Segno (A=Send,D=Receive)</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="348" x2="259" y2="368">
+      <Name LinkID="164928717">TRXIMPORTO</Name>
+      <Comment>Importo</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="371" x2="259" y2="391">
+      <Name LinkID="137991128">TRXCONTAN</Name>
+      <Comment>Contante</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="394" x2="229" y2="414">
+      <Name LinkID="132539493">TRXUNIQUE</Name>
+      <Comment>Unique ID</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="417" x2="240" y2="437">
+      <Name LinkID="130444952">TRXCODDIP</Name>
+      <Comment>Codice Agenzia</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="440" x2="769" y2="460">
+      <Name LinkID="130444535">TRXCOGCON</Name>
+      <Comment>Cognome Controparte</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="463" x2="769" y2="483">
+      <Name LinkID="126456585">TRXNOMCON</Name>
+      <Comment>Nome Controparte</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="486" x2="769" y2="506">
+      <Name LinkID="36279128">TRXDESTIN</Name>
+      <Comment>Stato Controparte</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="464" y1="8" x2="536" y2="28">
+      <Name LinkID="43640302">TRXMTCN</Name>
+      <Comment>MTCN Operazione</Comment>
+      <Key>key3</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="507" x2="217" y2="527">
+      <Name LinkID="103386846">TRXDATNAS</Name>
+      <Comment>Data Di Nascita</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="291" y1="507" x2="411" y2="527">
+      <Name LinkID="20570361">TRXSESSO</Name>
+      <Comment>Sesso</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="527" x2="193" y2="547">
+      <Name LinkID="130445591">TRXCODCAS</Name>
+      <Comment>Codice Catastale</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="550" x2="315" y2="570">
+      <Name LinkID="21315672">TRXRECTYPE</Name>
+      <Comment>Tipo Record</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="573" x2="212" y2="593">
+      <Name LinkID="130442529">TRXCODMAG</Name>
+      <Comment>Codice MacroAgente</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="157" y1="596" x2="277" y2="616">
+      <Name LinkID="130443257">TRXCODUNI</Name>
+      <Comment>Codice Univoco</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="158" y1="618" x2="346" y2="639">
+      <Name LinkID="83257429">TRXFLGAUI</Name>
+      <Comment>OPERAZIONE CORRETTA AUI</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="369" y1="618" x2="616" y2="639">
+      <Name LinkID="83259642">TRXFLGFOR</Name>
+      <Comment>FORZATURA INSERIMENTO</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="240" y1="573" x2="612" y2="593">
+      <Name LinkID="37798873">xMADESCRI</Name>
+      <Comment>Denominazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="267" y1="417" x2="607" y2="437">
+      <Name LinkID="55417939">xDESCRIZ</Name>
+      <Comment>Descrizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="2">
+    <Title LinkID="254406940">Errori 01-10</Title>
+    <Note></Note>
+    <JPG x="13" y="9">armt_wutrxchk_aua_tec_2</JPG>
+    <Item type="campo" x1="67" y1="9" x2="559" y2="29">
+      <Name LinkID="82157483">TRXERRAUA01</Name>
+      <Comment>Errore AUA 1</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="67" y1="32" x2="559" y2="52">
+      <Name LinkID="82091947">TRXERRAUA02</Name>
+      <Comment>Errore AUA 2</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="67" y1="55" x2="559" y2="75">
+      <Name LinkID="82026411">TRXERRAUA03</Name>
+      <Comment>Errore 3</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="67" y1="78" x2="559" y2="98">
+      <Name LinkID="81960875">TRXERRAUA04</Name>
+      <Comment>Errore 4</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="67" y1="101" x2="559" y2="121">
+      <Name LinkID="81895339">TRXERRAUA05</Name>
+      <Comment>Errore 5</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="67" y1="124" x2="559" y2="144">
+      <Name LinkID="81829803">TRXERRAUA06</Name>
+      <Comment>Errore 6</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="67" y1="147" x2="559" y2="167">
+      <Name LinkID="81764267">TRXERRAUA07</Name>
+      <Comment>Errore 7</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="67" y1="170" x2="559" y2="190">
+      <Name LinkID="81698731">TRXERRAUA08</Name>
+      <Comment>Errore 8</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="67" y1="193" x2="559" y2="213">
+      <Name LinkID="81633195">TRXERRAUA09</Name>
+      <Comment>Errore 9</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="67" y1="216" x2="559" y2="236">
+      <Name LinkID="82218923">TRXERRAUA10</Name>
+      <Comment>Errore 10</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

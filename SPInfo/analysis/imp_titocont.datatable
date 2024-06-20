@@ -1,0 +1,106 @@
+﻿* --- Resource Vers. 0.9
+imp_titocont<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='TITOCONT
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='imp_titocont
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'imp_titocont.titolare
+'imp_titocont.controllato
+'imp_titocont.dataini
+'imp_titocont.datafine
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'imp_titocont.controllato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Controllato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONTROLLATO
+state=3
+table_name='imp_titocont
+type='field
+used_resource_keys={}
+I
+'imp_titocont.datafine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine Titolarità
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAFINE
+state=3
+table_name='imp_titocont
+type='field
+used_resource_keys={}
+I
+'imp_titocont.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio Titolarità
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINI
+state=3
+table_name='imp_titocont
+type='field
+used_resource_keys={}
+I
+'imp_titocont.titolare
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Titolare
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TITOLARE
+state=3
+table_name='imp_titocont
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'imp_titocont.controllato
+[]
+'imp_titocont.datafine
+[]
+'imp_titocont.dataini
+[]
+'imp_titocont.titolare
+[]
+}
+*--*

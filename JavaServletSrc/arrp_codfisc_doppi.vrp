@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Elenco Soggetti (Report) -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_codfisc_doppi||version||4.6||title||Elenco Soggetti (Report)||query||qbe_codfisc_doppi||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-03-16||date_rev||2014-06-18||form_class|| ||grid_dx||0||grid_dy||0||grid_show||0||grid_use||0||snaplines_show||1||language|| ||merge||false||modcnt||8||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding|| ||hsl||false||lock_items||false||maxcount||34||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||91||uid||YKTUBFITPL||sequence||19||bb_sequence||2||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||113||uid||TSRVRCCJZO||sequence||29||bb_sequence||3||page||1|||type||Group_top||comment||group0||exp||c_CODFISC||name||group0||y||92||uid||QHHTBQKVYQ||sequence||34||bb_sequence||34||page||1|||type||Group_down||comment||group0||exp||c_CODFISC||name||group0||y||112||uid||HWHSIAVBXL||sequence||33||bb_sequence||33||page||1|||type||Box||name||Box0||x||8||y||7||w||760||h||28||uid||ZITLIRMTGS||sequence||1||page||1||bg_color||#FFFFFF||bb_bg_colour||false||bb_border_colour||false||border_width||1|||type||Label||value||&#39;AZIENDA: &#39;+ c_DESCAZI||text_type||expression||name||label1||uid||XRXMHDJMYH||page||1||x||16||y||12||w||696||h||19||sequence||2||global_font||false||font||Arial||font_size||10||font_weight||bold|||type||Box||name||Box2||x||8||y||42||w||272||h||21||uid||VDCHLZLZDD||sequence||3||page||1||bg_color||#FFFFFF||bb_bg_colour||false||bb_border_colour||false||border_width||1|||type||Label||value||ELENCO SOGGETTI CON CODICI FISCALI DOPPI||text_type||constant||name||label7||uid||XDNOGVDEAZ||page||1||x||12||y||44||w||264||h||16||sequence||8||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box8||x||8||y||70||w||760||h||0||uid||KERZCSTDJS||sequence||9||page||1||bg_color||#FFFFFF||bb_bg_colour||false||bb_border_colour||false||border_width||1|||type||Label||value||Codice Fiscale||text_type||constant||name||label14||uid||NGGSVSIRWX||page||1||x||8||y||72||w||104||h||16||sequence||15||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||NDG||text_type||constant||name||label16||uid||UJVQMGMHZJ||page||1||x||375||y||72||w||104||h||16||sequence||17||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Nominativo||text_type||constant||name||label15||uid||YOBESNQXDV||page||1||x||135||y||72||w||104||h||16||sequence||16||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box17||x||8||y||89||w||760||h||0||uid||NOLAAUXLPP||sequence||18||page||1||bg_color||#FFFFFF||bb_bg_colour||false||bb_border_colour||false||border_width||1|||type||Expr||exp||qbe_codfisc_doppi.c_CONNES||len||16||dec||0||name||expr19||uid||MEKKAYZIPR||output_name||NDG||page||1||x||375||y||94||w||210||h||16||sequence||21||print_always||false||print_in_newpage||true||print_group||true||print_when_change_group||c_CODFISC||print_when_change_groupuid||QHHTBQKVYQ|||type||Expr||exp||Left(c_RAGSOC,40)||len||70||dec||0||name||expr25||uid||WRJJEKCIQX||output_name||Ragione Sociale||page||1||x||135||y||94||w||232||h||16||sequence||27|||type||Expr||exp||c_CODFISC||len||16||dec||0||name||expr21||uid||AJLXPAGXSB||output_name||Codice Fiscale||page||1||x||8||y||94||w||121||h||16||sequence||23||global_font||false||font||Tahoma||font_size||8||font_weight||bold||print_always||false||print_group||true||print_when_change_group||c_CODFISC||print_when_change_groupuid||QHHTBQKVYQ|||type||Box||name||Box27||x||8||y||115||w||760||h||0||uid||NNXHUCACSV||sequence||30||page||1||bg_color||#FFFFFF||bb_bg_colour||false||bb_border_colour||false||border_width||1|||type||Label||value||&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))||text_type||expression||name||label29||uid||CIUHSROEZP||page||1||x||560||y||117||w||208||h||18||sequence||32||align||right|||type||Label||value||&#39;Data: &#39; +arfn_fdate(Date())||text_type||expression||name||label28||uid||ZXLDWHFBBN||page||1||x||9||y||117||w||143||h||18||sequence||31||| -->
+
+<REPORT NAME="arrp_codfisc_doppi" TITLE="Elenco Soggetti (Report)" QUERY="qbe_codfisc_doppi" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_codfisc_doppi.CONNES" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_codfisc_doppi.CODFISC" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_codfisc_doppi.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_codfisc_doppi.DESCAZI" TYPE="C" LEN="50" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="91" EXPRESSION="Page header">
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="7" X="8" YY="35" XX="768"
+                    ALIGN="L"
+                    UID="ZITLIRMTGS" 
+                    BACKGROUNDCOLOR="255,255,255"
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;AZIENDA: &#39;+ c_DESCAZI" EXPRTYPE="expression"
+                    Y="12" X="16" YY="31" XX="712"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="ZITLIRMTGS"/>
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="42" X="8" YY="63" XX="280"
+                    ALIGN="L"
+                    UID="VDCHLZLZDD" 
+                    BACKGROUNDCOLOR="255,255,255"
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="ELENCO SOGGETTI CON CODICI FISCALI DOPPI" EXPRTYPE="constant"
+                    Y="44" X="12" YY="60" XX="276"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="VDCHLZLZDD"/>
+              <ITEM OBJ="h_line" Y="70" X="8" XX="769" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="Codice Fiscale" EXPRTYPE="constant"
+                    Y="72" X="8" YY="88" XX="112"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Nominativo" EXPRTYPE="constant"
+                    Y="72" X="135" YY="88" XX="239"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="NDG" EXPRTYPE="constant"
+                    Y="72" X="375" YY="88" XX="479"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="89" X="8" XX="769" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="0" FOOTH="0" SYMNAME="" UID="QHHTBQKVYQ" TOP="91" BOTTOM="110" EXPRESSION="c_CODFISC" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+          <SECTION TYPE="group" HEADH="19" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="espressione" NAME="qbe_codfisc_doppi.c_CONNES" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="375" YY="17" XX="585"
+                            SYMNAME="NDG"
+                            ALIGN="L"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="16"
+                            PRINTPAGE="true"
+                            PRINTGROUP="true" PRINTGROUPWHERE="QHHTBQKVYQ"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="8" YY="17" XX="129"
+                            SYMNAME="Codice Fiscale"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            FONTSTYLE="B"
+                            LEN="16"
+                            PRINTGROUP="true" PRINTGROUPWHERE="QHHTBQKVYQ"
+                            />
+                      <ITEM OBJ="espressione" NAME="Left(c_RAGSOC,40)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="135" YY="17" XX="367"
+                            SYMNAME="Ragione Sociale"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="70"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="110" H="22" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="8" XX="769" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39; +arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="3" X="9" YY="21" XX="152"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))" EXPRTYPE="expression"
+                    Y="3" X="560" YY="21" XX="768"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

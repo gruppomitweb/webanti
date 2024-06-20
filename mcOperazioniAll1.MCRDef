@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>Operazioni per Allegato 1</description>
+    <note></note>
+    <variable>
+        <name>TIPOINTER</name>
+        <description>Tipo Inermediario</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODINTER</name>
+        <description>Codice inermediario</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>IDEREG</name>
+        <description>Identificativo operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODDIPE</name>
+        <description>Codice Filiale/Punto Operativo</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CABFIL</name>
+        <description>CAB Filiale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CABCOMU</name>
+        <description>CAB Comune</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DESCCIT</name>
+        <description>Comune Filiale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PROVINCIA</name>
+        <description>Provincia</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATAOPE</name>
+        <description>Data Operazione</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>CODANA</name>
+        <description>Causale Analitica</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SEGNO</name>
+        <description>Segno</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>VALUTA</name>
+        <description>Valuta</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>TOTLIRE</name>
+        <description>Importo euro</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>TOTCONT</name>
+        <description>Importo parte in contanti</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>RAPPORTO</name>
+        <description>Identificativo Rapporto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODTIPSOGG</name>
+        <description>Codice Tipo Sogetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CONNESSOGG</name>
+        <description>NDG Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>RAGSOGSOGG</name>
+        <description>Cognome e Nome/Ragione Sociale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SESSOSOGG</name>
+        <description>Sesso Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODFISCSOGG</name>
+        <description>Codice Fiscale Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATANASCSOGG</name>
+        <description>Data di Nascita Soggetto</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>NASCOMUNSOGG</name>
+        <description>Comune/Paese di nascita</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COMUNRESSOGG</name>
+        <description>Comune di residenza Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CABRESISOGG</name>
+        <description>CAB residenza del Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PAESESOGG</name>
+        <description>Stato di residenza Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SAESOGG</name>
+        <description>SAE del Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>ATECOSOGG</name>
+        <description>ATECO del Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CONNESESE</name>
+        <description>NDG Esecutore</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>RAGSOGESE</name>
+        <description>Cognome Nome/Ragione Sociale </description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODFISCESE</name>
+        <description>Codice Fiscale Esecutore</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATANASCESE</name>
+        <description>Data di Nascita Esecutore</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>NASCCOMUNESE</name>
+        <description>Comune/Stato di Nascita Esecutore</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>C_RAG</name>
+        <description>Cognome Nome/Ragione Sociale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>C_STA</name>
+        <description>Stato Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>C_CAB</name>
+        <description>CAB Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>C_CTA</name>
+        <description>Comune Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODINT2</name>
+        <description>Codice Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DESCINTER</name>
+        <description>Denominazione Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>PAESE</name>
+        <description>Paese Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODCAB2</name>
+        <description>CAB Intermediario Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>C_RAPPORTO</name>
+        <description>IBAN / Rapporto Controparte</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>FILLER</name>
+        <description>Campo libero (69 Caratteri)</description>
+        <type>C</type>
+    </variable>
+</class>

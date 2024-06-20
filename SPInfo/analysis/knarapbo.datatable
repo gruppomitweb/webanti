@@ -1,0 +1,163 @@
+﻿* --- Resource Vers. 0.9
+knarapbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Rapporti Definitivi + Provvisori
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='knarapbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'knarapbo.rapporto
+'knarapbo.descrap
+'knarapbo.tiporap
+'knarapbo.dataini
+'knarapbo.datafin
+'knarapbo.flagrap
+'knarapbo.coddipe
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'knarapbo.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='knarapbo
+type='field
+used_resource_keys={}
+I
+'knarapbo.datafin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine Raspporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAFIN
+state=3
+table_name='knarapbo
+type='field
+used_resource_keys={}
+I
+'knarapbo.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINI
+state=3
+table_name='knarapbo
+type='field
+used_resource_keys={}
+I
+'knarapbo.descrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCRAP
+state=3
+table_name='knarapbo
+type='field
+used_resource_keys={}
+I
+'knarapbo.flagrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGRAP
+state=3
+table_name='knarapbo
+type='field
+used_resource_keys={}
+I
+'knarapbo.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='knarapbo
+type='field
+used_resource_keys={}
+I
+'knarapbo.tiporap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provvisorio / Definitivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPORAP
+state=3
+table_name='knarapbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'knarapbo.coddipe
+[]
+'knarapbo.datafin
+[]
+'knarapbo.dataini
+[]
+'knarapbo.descrap
+[]
+'knarapbo.flagrap
+[]
+'knarapbo.rapporto
+[]
+'knarapbo.tiporap
+[]
+}
+*--*

@@ -1,0 +1,410 @@
+﻿* --- Resource Vers. 0.9
+imp_infage<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='INFAGE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='imp_infage
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'imp_infage.dataope
+'imp_infage.rapporto
+'imp_infage.flagrap
+'imp_infage.tipoleg
+'imp_infage.datareg
+'imp_infage.tipooprap
+'imp_infage.flaglire
+'imp_infage.valuta
+'imp_infage.connesoper
+'imp_infage.cambio
+'imp_infage.connes
+'imp_infage.numprog
+'imp_infage.tipointer
+'imp_infage.codinter
+'imp_infage.coddipe
+'imp_infage.desccit
+'imp_infage.provincia
+'imp_infage.codcab
+'imp_infage.uniquecode
+'imp_infage.notebrev
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'imp_infage.cambio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cambio Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAMBIO
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Città Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intestatario Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNES
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.connesoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Soggetto Esecutore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESOPER
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.datareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAREG
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Intermediario/Resistenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.flaglire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGLIRE
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.flagrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGRAP
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.notebrev
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Note Brevi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOTEBREV
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Informazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.tipointer
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINTER
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.tipoleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Legame Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOLEG
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.tipooprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOOPRAP
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.uniquecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUECODE
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+'imp_infage.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='imp_infage
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'imp_infage.cambio
+[]
+'imp_infage.codcab
+[]
+'imp_infage.coddipe
+[]
+'imp_infage.codinter
+[]
+'imp_infage.connes
+[]
+'imp_infage.connesoper
+[]
+'imp_infage.dataope
+[]
+'imp_infage.datareg
+[]
+'imp_infage.desccit
+[]
+'imp_infage.flaglire
+[]
+'imp_infage.flagrap
+[]
+'imp_infage.notebrev
+[]
+'imp_infage.numprog
+[]
+'imp_infage.provincia
+[]
+'imp_infage.rapporto
+[]
+'imp_infage.tipointer
+[]
+'imp_infage.tipoleg
+[]
+'imp_infage.tipooprap
+[]
+'imp_infage.uniquecode
+[]
+'imp_infage.valuta
+[]
+}
+*--*

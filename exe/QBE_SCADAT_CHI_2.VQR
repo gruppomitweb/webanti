@@ -1,0 +1,367 @@
+ 3
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Detail)"
+"aerighe"
+"aerighe"
+ 0
+ 0
+*
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Master)"
+"aetesta"
+"aetesta"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 30
+"Codice Rapporto"
+"aerighe.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"N° Riga"
+"aerighe.CPROWNUM"
+"CPROWNUM"
+"N"
+ 4
+ 0
+*
+"Codice Intestatario"
+"aerighe.CONNESINT"
+"CONNESINT"
+"C"
+ 16
+ 0
+*
+"Apertura Spedita"
+"aerighe.ASPEDITO"
+"ASPEDITO"
+"N"
+ 1
+ 0
+*
+"Data Apertura"
+"aerighe.ADATA"
+"ADATA"
+"D"
+ 8
+ 0
+*
+"Data Spedizione Chiusura"
+"aerighe.CSPEDITO"
+"CSPEDITO"
+"N"
+ 1
+ 0
+*
+"Data Chiusura Rapporto"
+"aerighe.CDATA"
+"CDATA"
+"D"
+ 8
+ 0
+*
+"No codice fiscale (Non assegnato agenzia entrate)"
+"aerighe.NOCODFISC"
+"NOCODFISC"
+"C"
+ 1
+ 0
+*
+""
+"aerighe.IDRIF"
+"IDRIF"
+"C"
+ 10
+ 0
+*
+"IDBASE"
+"aerighe.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"N° Riga Riferimento"
+"aerighe.NRIGRIF"
+"NRIGRIF"
+"N"
+ 4
+ 0
+*
+"Tipo Rapporto"
+"aetesta.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"Tipo Conto"
+"aetesta.COINT"
+"COINT"
+"C"
+ 1
+ 0
+*
+"Codice Rapporto"
+"aetesta.RAPPORTO"
+"RAPPORTO1"
+"C"
+ 25
+ 0
+*
+"Riferimento Spedizione Apertura"
+"aerighe.APROG"
+"APROG"
+"C"
+ 25
+ 0
+*
+"Riferimento file spedizione"
+"aerighe.AFILE"
+"AFILE"
+"C"
+ 15
+ 0
+*
+"Cognome"
+"personbo.COGNOME"
+"COGNOME"
+"C"
+ 26
+ 0
+*
+"Nome"
+"personbo.NOME"
+"NOME"
+"C"
+ 25
+ 0
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Luogo di Nascita"
+"personbo.NASCOMUN"
+"NASCOMUN"
+"C"
+ 30
+ 0
+*
+"Stato di nascita"
+"personbo.NASSTATO"
+"NASSTATO"
+"C"
+ 30
+ 0
+*
+"Sesso"
+"personbo.SESSO"
+"SESSO"
+"C"
+ 1
+ 0
+*
+""
+"personbo.TIPINTER"
+"TIPINTER"
+"C"
+ 2
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Città"
+"personbo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"personbo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"Stato"
+"personbo.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+*
+"Data Nascita"
+"personbo.DATANASC"
+"DATANASC"
+"D"
+ 8
+ 0
+*
+"Progressivo Riga"
+"aerighe.PROGAER"
+"PROGAER"
+"N"
+ 15
+ 0
+*
+""
+"aetesta.OLDINTER"
+"OLDINTER"
+"C"
+ 16
+ 0
+*
+ 2
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Master)(Codice Rapporto)"
+"aetesta.RAPPORTO=aerighe.RAPPORTO"
+"Left outer"
+"aetesta"
+"aerighe"
+*
+"Dati Anagrafici"
+"personbo.CONNES=aerighe.CONNESINT"
+"Right outer"
+"personbo"
+"aerighe"
+*
+ 8
+"aerighe.CDATA"
+""
+">="
+"?w_datseci"
+"AND"
+""
+*
+"aerighe.CDATA"
+""
+"<="
+"?w_datsecf"
+"AND"
+""
+*
+"[NOTEMPTYDATE(aerighe.CDATA)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYSTR(aerighe.CONNESINT)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"aerighe.CSPEDITO"
+""
+"<>"
+"1"
+"AND"
+""
+*
+"aerighe.PROGAER"
+""
+">="
+"?_bottom"
+"AND"
+""
+*
+"aerighe.PROGAER"
+""
+"<="
+"?_top"
+"AND"
+""
+*
+"personbo.CFESTERO"
+""
+"="
+"?_estero"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 5
+"w_datseci"
+"Data Apertura"
+"D"
+"8"
+"0"
+""
+*
+"w_datsecf"
+"Data Apertura"
+"D"
+"8"
+"0"
+""
+*
+"_bottom"
+"Progressivo Riga"
+"N"
+"15"
+"0"
+"Remove"
+*
+"_top"
+"Progressivo Riga"
+"N"
+"15"
+"0"
+"Remove"
+*
+"_estero"
+"Codice Fiscale Estero"
+"N"
+"1"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 12
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%23%24%3D%2Bn5%22E%5B%5BA%27AY%29887%2F%3F%24%12%1BAB6I_%40N6%22%28AO0%11%2B%2B%22%3A%2F%3D%29.%10U%246CKV-%5B%27N%1CN%3FLX%3F_%5C%5B%28%2F7%21%2C%2C1B_VP%404%22%29%23%3Ci0%3C%16X2%3C%29TYQH%3B%29%406%2C%1F+U0.5T6-B%3AK%27%23PYVD%040%3EGB6U6C_7JP8L%26.8%27%5B.PBRY%279N%24*Nj.%2F55%2BCK%40%3BW%26KF_%25A3J%214STtCRY9-JW%7EL%3F2V%178%3DDO%5DVC%5C%5D%25%5D7%14.8%223%2B%26QR.%3FH%3AG9%5B%5CjJ%260*%2B%2B%3A%2CMA%272K5%5C%23%2B%1B%28%3D04JBC7O9O%0B%5EEUF+%227%3FB7%00"
+"%26GC%2B4%5B%5B4%28_%21MF%5CL0k%3D%04%40%3C9-%27QPtX4UM+%27E%3ER%271U.OUl%1E%2B%3D6IS6%21T7V%24%1A%3F%29DLK_s%3BTD%40%3F6%119%3FI%5DQI-N%3E%5EASA.T%14%00%2BG%3EAV%29-W*N93*O7C.%2B.X%29m0%172%5D%28k%3D99%3E17O*%40LuEYSV%3EG*J%22%3FXYU0_L%21E%3F%27DSQ%2BT.%3E%11%21%1E+%5EAUPqK*%17%2B%2F%3F409SR%40%3AM%14%12%29T86%3ASG%5D%2943qS%5BHAP%5D%5CCA5%223%2C%26_%3AL%3B6M%3B%0B%5D%3A%5E%40%22%28%22%1189W%3CUP%5EML%3CK%28B%5DOQ%25XQ.V%28%21%3AUC612%5EG%29%3C%3EJ%00"
+""
+""
+"native"
+ 0
+ 0
+*

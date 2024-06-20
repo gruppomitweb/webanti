@@ -1,0 +1,59 @@
+﻿* --- Resource Vers. 0.9
+arrt_sog_relazioni
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:40
+description='Stampa Relazioni Soggetto
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:25
+module_name='
+name='arrt_sog_relazioni
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_soggettioper.idbase
+'tmp_soggettioper.tipopers
+'tmp_soggettioper.numprog
+'tmp_soggettioper.connes
+'tmp_soggettioper.tipoinf
+'tmp_soggettioper.datanasc
+'tmp_soggettioper.tipointer
+'tmp_soggettioper.rapporto
+]
+'Hyperlinks
+[
+'arrp_sog_relazioni.vrp
+]
+'Libraries
+[
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_relazioni_o1.vqr
+'qbe_relazioni_f1.vqr
+]
+'Tables
+[
+'tmp_soggettioper<table>
+'intestbo<table>
+'rapopebo<table>
+'delegabo<table>
+'intestit<table>
+'rapotit<table>
+]
+}
+I
+*--*
+￼[]
+*--*

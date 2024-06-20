@@ -1,0 +1,36 @@
+// * --- Area Manuale = BO - Header
+// * --- Fine Area Manuale
+public class arpg_faminvio_rettificheBO extends arpg_faminvio_rettificheBL {
+  // * --- Area Manuale = BO - Properties
+  // * --- Fine Area Manuale
+  public boolean IsUpdated() {
+    boolean l_bResult;
+    l_bResult = m_bUpdated;
+    return l_bResult;
+  }
+  public arpg_faminvio_rettificheBO (CPContext p_ContextObject) {
+      super(p_ContextObject);
+  }
+  public boolean Save() {
+    boolean l_bResult = true;
+    if (IsUpdated()) {
+      l_bResult = new CallerBRImpl(this,"w_").BRCanSave();
+    }
+    if (l_bResult && IsUpdated()) {
+      if (CPLib.GetGlobalDefaults().CanSetGlobalString("gIntemediario",m_Ctx) || CPLib.ne(m_Ctx.GetGlobalString("gIntemediario"),w_gIntemediario)) {
+        m_Ctx.SetGlobalString("gIntemediario",w_gIntemediario);
+      }
+      if (CPLib.GetGlobalDefaults().CanSetGlobalString("gDescAzi",m_Ctx) || CPLib.ne(m_Ctx.GetGlobalString("gDescAzi"),w_gDescAzi)) {
+        m_Ctx.SetGlobalString("gDescAzi",w_gDescAzi);
+      }
+      if (CPLib.GetGlobalDefaults().CanSetGlobalString("gFlgWU",m_Ctx) || CPLib.ne(m_Ctx.GetGlobalString("gFlgWU"),w_gFlgWU)) {
+        m_Ctx.SetGlobalString("gFlgWU",w_gFlgWU);
+      }
+    }
+    return l_bResult;
+  }
+  // * --- Area Manuale = BO - Methods
+  // * --- Fine Area Manuale
+  // ENTITY_BATCHES: ,arfn_finemese,azzera_messaggi,
+  public static final String i_InvokedRoutines = ",arfn_finemese,azzera_messaggi,";
+}

@@ -1,0 +1,243 @@
+ 2
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Detail)"
+"aerighe"
+"aerighe"
+ 0
+ 0
+*
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Master)"
+"aetesta"
+"aetesta"
+ 0
+ 0
+*
+ 21
+"Codice Rapporto"
+"aerighe.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"N° Riga"
+"aerighe.CPROWNUM"
+"CPROWNUM"
+"N"
+ 4
+ 0
+*
+"Codice Intestatario"
+"aerighe.CONNESINT"
+"CONNESINT"
+"C"
+ 16
+ 0
+*
+"Apertura Spedita"
+"aerighe.ASPEDITO"
+"ASPEDITO"
+"N"
+ 1
+ 0
+*
+"Data Apertura"
+"aerighe.ADATA"
+"ADATA"
+"D"
+ 8
+ 0
+*
+"Data Spedizione Chiusura"
+"aerighe.CSPEDITO"
+"CSPEDITO"
+"N"
+ 1
+ 0
+*
+"Data Chiusura Rapporto"
+"aerighe.CDATA"
+"CDATA"
+"D"
+ 8
+ 0
+*
+"No codice fiscale (Non assegnato agenzia entrate)"
+"aerighe.NOCODFISC"
+"NOCODFISC"
+"C"
+ 1
+ 0
+*
+""
+"aerighe.IDRIF"
+"IDRIF"
+"C"
+ 10
+ 0
+*
+"IDBASE"
+"aerighe.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"N° Riga Riferimento"
+"aerighe.NRIGRIF"
+"NRIGRIF"
+"N"
+ 4
+ 0
+*
+"Tipo Rapporto"
+"aetesta.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"Tipo Conto"
+"aetesta.COINT"
+"COINT"
+"C"
+ 1
+ 0
+*
+"Codice Rapporto"
+"aetesta.RAPPORTO"
+"RAPPORTO1"
+"C"
+ 25
+ 0
+*
+"Riferimento Spedizione Apertura"
+"aerighe.AOLDPROG"
+"APROG"
+"C"
+ 25
+ 0
+*
+"Riferimento file spedizione"
+"aerighe.AOLDFILE"
+"AFILE"
+"C"
+ 15
+ 0
+*
+"Riferimento spedizione chiusura"
+"aerighe.COLDPROG"
+"CPROG"
+"C"
+ 25
+ 0
+*
+"File spedizione Chiusura"
+"aerighe.COLDFILE"
+"CFILE"
+"C"
+ 15
+ 0
+*
+""
+"aetesta.OLDINTER"
+"OLDINTER"
+"C"
+ 16
+ 0
+*
+"ID ESITO AGE"
+"aerighe.IDESITO"
+"IDESITO"
+"C"
+ 8
+ 0
+*
+"Data Generazione Esito"
+"aerighe.DATESITO"
+"DATESITO"
+"D"
+ 8
+ 0
+*
+ 1
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Master)(Codice Rapporto)"
+"aetesta.RAPPORTO=aerighe.RAPPORTO"
+"Left outer"
+"aetesta"
+"aerighe"
+*
+ 4
+"aerighe.CDATARET"
+""
+">="
+"?w_darett"
+"AND"
+""
+*
+"aerighe.CDATARET"
+""
+"<="
+"?w_a_rett"
+"AND"
+""
+*
+"[NOTEMPTYSTR(aerighe.CONNESINT)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"aerighe.CSPEDITO"
+""
+"<>"
+"1"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_darett"
+"Data Apertura"
+"D"
+"8"
+"0"
+""
+*
+"w_a_rett"
+"Data Apertura"
+"D"
+"8"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.f.
+ 22
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"M%5E%5EQ5o%23_A0%40%2B1%2FTj%3F-%27%22%27%21%3A2R2%28%2BU%5EZ%3BEF6%3B02%24NPK362%13%0AWAk59%17+%21%40%28%2B9UB0WB%25IA%23%29G++KKM%5EOJK%2CS%3A_%28%061%2C%40%29E%2B%3AHFE*cSN%3F%25-2R%06MVHAFFB9%5E%5BK%19PF5%29-CA%3D%27%2B%5C%24%5B5%26%218%03*%5DZ%232zW3I%271EL%3DK%5EL+EJK%40_-M4%2F3%5C%17G+%5B%3E6TvQ%2BN%3E4%3D%3D%29C4%3C4AR%2F4J%40%5EKNO%28T%06FKG%223.%26BPYZ%1F2CT%29II.2C%27%408%1CCK%29vF%5BNWC%1C%29%21%123%5BL7P%3F5E1%21J%3AL06M%5CG%23%2C%00"
+"%29C%3A%21_0t5LL*5.1IW6%3B8%3B3I%28HXZ%2BTD%5EH%3B%21-%26+N%2F%5C%2CSCnHK%22%2CD%3AR%190%3C%3A%29%25%1EXcHtJq9%5B9J%3D%21JUZD%40%23795%26TR8%5B%1B%2C%3B%213%2B7KcPI%3FBC%3A%141.%2F%40%5D%07%247__C%28.%29%2CGJJ03%22-%28%24%29JXV%3Br0W1-%25%28A%5C%28MUyV0%2B50%24%5C5%1B%5D%16%24OL%29+%5BH_RWC1+%2F%1A_O3%05%25GY%5BJ%286+WXE%2B9%2CY%28H%23CQtR%5DB%3B+4%3F%18%223.%25Z%40+F%1D%3B2%3A%27I3%26S%3E-%27%3F5%22OL%2F6%24QZ7%3E6T-.9SWWU3C43%5DQC%22_G%3D%24%26A%00"
+""
+""
+"native"
+ 0
+ 0
+*

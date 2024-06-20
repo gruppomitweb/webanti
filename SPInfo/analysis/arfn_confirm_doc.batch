@@ -1,0 +1,65 @@
+﻿* --- Resource Vers. 0.9
+arfn_confirm_doc
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:28
+description='Conferma Documenti
+file_modified_on=#2024-03-13 09:41:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:51
+module_name='
+name='arfn_confirm_doc
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'cgo_docope.dcnumope
+'cgo_docope.dcdocunico
+'cgo_docope.dcdocnom1
+'cgo_docope.dcdocnom2
+'cgo_docope.dcdocnom3
+'cgo_docope.dcdocnom4
+'cgo_docope.dcdocnom5
+'cgo_docope.dcdocnom6
+'cgo_docope.dcdocnew0
+'cgo_docope.dcdocnew1
+'cgo_docope.dcdocnew2
+'cgo_docope.dcdocnew3
+'cgo_docope.dcdocnew4
+'cgo_docope.dcdocnew5
+'cgo_docope.dcdocnew6
+'cgo_operazioni_storico.iddocall
+'cgo_operazioni_storico.flgdocall
+]
+'Libraries
+[
+'Utilities<painter>
+'FileLibMit<project>
+]
+'Routines
+[
+'arfn_confirm_doc
+'arrt_writelog
+]
+'Tables
+[
+'intermbo<table>
+'cgo_docope<table>
+'cgo_operazioni_dl<table>
+'cgo_operazioni_dl_multi<table>
+'cgo_operazioni<table>
+'cgo_operazioni_storico<table>
+]
+}
+I
+*--*
+￼[]
+*--*

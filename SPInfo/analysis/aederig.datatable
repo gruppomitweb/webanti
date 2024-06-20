@@ -1,0 +1,695 @@
+﻿* --- Resource Vers. 0.9
+aederig<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Deleghe
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='aederig
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'aederig.idbase
+'aederig.rapporto
+'aederig.connesint
+'aederig.aspedito
+'aederig.adata
+'aederig.aprog
+'aederig.aoldprog
+'aederig.afile
+'aederig.aoldfile
+'aederig.adataret
+'aederig.cspedito
+'aederig.cdata
+'aederig.cprog
+'aederig.coldprog
+'aederig.cfile
+'aederig.coldfile
+'aederig.cdataret
+'aederig.idrif
+'aederig.nocodfisc
+'aederig.adtpre
+'aederig.cdtpre
+'aederig.tipoag
+'aederig.coint
+'aederig.progdlg
+'aederig.abbinato
+'aederig.idesito
+'aederig.datesito
+'aederig.rspedito
+'aederig.prog1
+'aederig.prog2
+'aederig.esitoanno
+'aederig.progrec
+'aederig.fileanno
+'aederig.abbsaldi
+'aederig.oldinter
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'aederig.abbinato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Abbinato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABBINATO
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.abbsaldi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Abbinamento saldi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABBSALDI
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.adata
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='data Inizio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ADATA
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.adataret
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rettifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ADATARET
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.adtpre
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ADTPRE
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.afile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome File Spedizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AFILE
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.aoldfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome Vecchio File
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AOLDFILE
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.aoldprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Vecchio Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AOLDPROG
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.aprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='APROG
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.aspedito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Spedito Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ASPEDITO
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.cdata
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Chiusura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATA
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.cdataret
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='data Rettifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDATARET
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.cdtpre
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CDTPRE
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.cfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome file spedizione chiusura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFILE
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.coint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COINT
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.coldfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Vecchio file spedizione chiusura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLDFILE
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.coldprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Vecchio Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COLDPROG
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.connesint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Delegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESINT
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.cprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Atuale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CPROG
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.cspedito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Spedizione Chiusura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CSPEDITO
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.datesito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Creazione Esito
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATESITO
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.esitoanno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ESITOANNO
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.fileanno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FILEANNO
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.idesito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Esito AGE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDESITO
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.idrif
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID RIferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDRIF
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.nocodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Estero
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOCODFISC
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.oldinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDINTER
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.prog1
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROG1
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.prog2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROG2
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.progdlg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Riga
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGDLG
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.progrec
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGREC
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.rspedito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RSPEDITO
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+'aederig.tipoag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOAG
+state=3
+table_name='aederig
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'aederig.abbinato
+[]
+'aederig.abbsaldi
+[]
+'aederig.adata
+[]
+'aederig.adataret
+[]
+'aederig.adtpre
+[]
+'aederig.afile
+[]
+'aederig.aoldfile
+[]
+'aederig.aoldprog
+[]
+'aederig.aprog
+[]
+'aederig.aspedito
+[]
+'aederig.cdata
+[]
+'aederig.cdataret
+[]
+'aederig.cdtpre
+[]
+'aederig.cfile
+[]
+'aederig.coint
+[]
+'aederig.coldfile
+[]
+'aederig.coldprog
+[]
+'aederig.connesint
+[]
+'aederig.cprog
+[]
+'aederig.cspedito
+[]
+'aederig.datesito
+[]
+'aederig.esitoanno
+[]
+'aederig.fileanno
+[]
+'aederig.idbase
+[]
+'aederig.idesito
+[]
+'aederig.idrif
+[]
+'aederig.nocodfisc
+[]
+'aederig.oldinter
+[]
+'aederig.prog1
+[]
+'aederig.prog2
+[]
+'aederig.progdlg
+[]
+'aederig.progrec
+[]
+'aederig.rapporto
+[]
+'aederig.rspedito
+[]
+'aederig.tipoag
+[]
+}
+*--*

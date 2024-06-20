@@ -1,0 +1,73 @@
+﻿* --- Resource Vers. 0.9
+arrt_eliminaesiti
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Eliminazione da AE
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:12
+module_name='
+name='arrt_eliminaesiti
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aefiles.nomefile
+'aefiles.idfile
+'aefiles_do.nomefile
+'aefiles_do.idfile
+'aerighe.afile
+'aerighe.aspedito
+'aerighe.cfile
+'aerighe.cspedito
+'aeoprig.aprog
+'aeoprig.afile
+'aeoprig.aspedito
+'aederig.aprog
+'aederig.cprog
+'aederig.cdata
+'aederig.afile
+'aederig.aspedito
+'aederig.cfile
+'aederig.cspedito
+'aerighe.aprog
+'aerighe.rapporto
+'aetesta.rapporto
+'aerighe.cprog
+'aerighe.cdata
+'tmp_list_imprich.nomefile
+]
+'Queries
+[
+'qbe_tmp_impesiti_max_min.vqr
+'qbe_listfilesae.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'tmp_impesiti<table>
+'aefiles<table>
+'aerighe<table>
+'aetesta<table>
+'aefiles_do<table>
+'aederig<table>
+'aeoprig<table>
+'tmp_list_imprich<table>
+]
+}
+I
+*--*
+￼[]
+*--*

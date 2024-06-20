@@ -1,0 +1,49 @@
+﻿* --- Resource Vers. 0.9
+arrt_stplegami_prv
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:41
+description='Lancio Stampa Titolari (Routine)
+file_modified_on=#2022-08-09 18:26:21
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:26
+module_name='
+name='arrt_stplegami_prv
+state=1
+type='batch
+used_resource_keys={
+'Hyperlinks
+[
+'arrp_stplegami2.vrp
+'arrp_stplegami1.vrp
+]
+'Queries
+[
+'qbe_allrapotit_prv.vqr
+]
+'Tables
+[
+'intestbo<table>
+'personbo<table>
+'tbstati<table>
+'tbtipdoc<table>
+'rapotit<table>
+'delegabo<table>
+'tbstgru<table>
+'tbtipatt<table>
+'tbsetsin<table>
+'tbramgru<table>
+'tmp_stplegami<table>
+]
+}
+I
+*--*
+￼[]
+*--*

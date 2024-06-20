@@ -1,0 +1,122 @@
+﻿* --- Resource Vers. 0.9
+armt_japotit
+￼Iresource.ResourceMaster
+created_on=#2024-05-10 18:24:30
+description='Rapporto Titolare Effettivo
+file_modified_on=#2022-09-01 17:36:52
+location='
+measures={}
+modified_on=#2024-05-10 18:24:56
+module_name='
+name='armt_japotit
+state=1
+type='master
+used_resource_keys={
+'Children
+[
+'ardt_jntestit
+]
+'Fields
+[
+'japotit.idbase
+'japotit.statoreg
+'japotit.codinter
+'intermbo.codinter
+'intermbo.datanasc
+'intermbo.codcab
+'intermbo.provincia
+'intermbo.desccit
+'intermbo.tipinter
+'japotit.coddipe
+'anadip.coddip
+'anadip.descriz
+'anadip.desccit
+'anadip.provincia
+'anadip.cab
+'japotit.tipointer
+'japotit.tipoinf
+'japotit.idereg
+'japotit.flagrap
+'japotit.oprap
+'japotit.operatore
+'japotit.autom
+'japotit.desccit
+'japotit.provincia
+'japotit.codcab
+'japotit.flagrap2
+'japotit.flaglire
+'japotit.prgimptit
+'japotit.connescli
+'personbo.connes
+'personbo.ragsoc
+'personbo.sesso
+'japotit.dataope
+'japotit.datareg
+'japotit.cdatope
+'japotit.tipooprap
+'tbtipreg.codice
+'tbtipreg.des1
+'tbtipreg.tipreg
+'japotit.connesoper
+'personbo.tipopers
+'japotit.tipoleg
+'tbtipleg.tipleg
+'japotit.rapporto
+'jnarapbo.rapporto
+'jnarapbo.descrap
+'japotit.numprog
+'japotit.descinter
+'japotit.colleg
+'japotit.operazmod
+'japotit.cdatreg
+]
+'Hyperlinks
+[
+'jsp\pg_collegamenti_portlet.jsp
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_tbtipregno2.vqr
+]
+'Routines
+[
+'arfn_chkdatdoc
+'arfn_chkdatreg
+'arrt_calcolasett
+'arrt_crea_idereg
+'arrt_japotit_delete
+'arrt_writelog
+]
+'Security
+[
+'administrators<role>
+'utenti standard<role>
+'ruolo 3<role>
+'utenti confidi<role>
+'ruolo 5<role>
+'agenzia<role>
+'area finanza<role>
+'help desk<role>
+'consultazione<role>
+'utilità<role>
+]
+'Tables
+[
+'japotit<table>
+'anadip<table>
+'tbtipleg<table>
+'tbtipreg<table>
+'personbo<table>
+'intermbo<table>
+'jnarapbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

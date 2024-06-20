@@ -1,0 +1,26 @@
+<html>
+<head>
+ <title>Report Editor</title>
+<body style="margin:0;" onload="doLoad(event)">
+
+<script type='text/javascript'>
+function doLoad(e){
+  var res={};var id='';
+  var getDataString=new String(window.location);
+  var questionMarkLocation=getDataString.search(/\?/);
+  if(questionMarkLocation!=-1){
+    getDataString=getDataString.substr(questionMarkLocation+1);
+    var getDataArray=getDataString.split(/&/g);
+    for(var i=0;i<getDataArray.length;i++){
+      var nameValuePair=getDataArray[i].split(/=/);
+      res[unescape(nameValuePair[0])]=unescape(nameValuePair[1]);
+    }
+  }
+  if('id' in res)
+    id='?id='+res.id;
+    window.location='index.jsp'+id;
+  }
+</script>
+</head>
+</body>
+</html>

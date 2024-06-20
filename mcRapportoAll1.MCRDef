@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>Record Rapporto per Allegato1</description>
+    <note></note>
+    <variable>
+        <name>TIPOINTER</name>
+        <description>Tipo inermediario</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODINTER</name>
+        <description>Codice Intermediario</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>RAPPORTO</name>
+        <description>Identificativo Rapporto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODFIL</name>
+        <description>Codice Filiale/Punto Operativo</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CABFIL</name>
+        <description>CAB Filiale/Punto Operativo</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATAPERT</name>
+        <description>Data apertura Rapporto</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>DATACHIU</name>
+        <description>Data chiusura Rapporto</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>TIPORAPP</name>
+        <description>Tipo Rapporto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>VALUTA</name>
+        <description>Valuta</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NDG</name>
+        <description>NDG</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATAINISOGG</name>
+        <description>Data inizio validità Soggetto</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>DATAFINSOGG</name>
+        <description>Data fine validità Soggetto</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>TIPOSOGG</name>
+        <description>Tipo di Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>NDGSOGG</name>
+        <description>NDG Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>RAGSOG</name>
+        <description>Cognome Nome/Ragione Sociale</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SESSOSOGG</name>
+        <description>Sesso del Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CODFISCSOGG</name>
+        <description>Codice Fiscale del Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATANASCSOGG</name>
+        <description>Data di Nascita del Soggetto</description>
+        <type>D</type>
+    </variable>
+    <variable>
+        <name>COMUNASCSOGG</name>
+        <description>Comune/Paese di Nascita del Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DENOMSOGG</name>
+        <description>Indirizzo di residenza Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>COMUNRESSOGG</name>
+        <description>Comune di residenza Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>STATOSOGG</name>
+        <description>Stato di Residenza del Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SAESOGG</name>
+        <description>Sot.grup. Attiv. Econ. del Soggetto</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>FILLER</name>
+        <description>A disposizione (69 caratteri)</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>ATECOSOGG</name>
+        <description>ATECO del Soggetto</description>
+        <type>C</type>
+    </variable>
+</class>

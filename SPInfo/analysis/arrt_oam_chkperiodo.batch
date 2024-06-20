@@ -1,0 +1,59 @@
+﻿* --- Resource Vers. 0.9
+arrt_oam_chkperiodo
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Controlli Periodali Cambiavalute OAM
+file_modified_on=#2024-03-15 16:31:16
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:23
+module_name='
+name='arrt_oam_chkperiodo
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_chkperiodo.idbase
+'tmp_chkperiodo.rapporto
+'tmp_chkperiodo.dataini
+'tmp_chkperiodo.tipo
+'tmp_chkperiodo.msgtxt
+'tmp_chkperiodo.ndg
+]
+'Hyperlinks
+[
+'arrp_oam_chkperiodo.vrp
+'arrp_oam_chkperiodo_noerr.vrp
+'arrp_fam_chkperiodo.vrp
+'arrp_fam_chkperiodo_noerr.vrp
+]
+'Queries
+[
+'qbe_oam_operazbo.vqr
+]
+'Routines
+[
+'arfn_anomes_oam
+'arfn_fdatetime
+]
+'Tables
+[
+'tmp_chkperiodo<table>
+'tmp_listafile<table>
+'personbo<table>
+'tbstati<table>
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

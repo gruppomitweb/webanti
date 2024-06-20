@@ -1,0 +1,106 @@
+﻿* --- Resource Vers. 0.9
+sid_invio4<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='TIPO 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='sid_invio4
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'sid_invio4.codinvio4
+'sid_invio4.rapinvio4
+'sid_invio4.nrpinvio4
+'sid_invio4.ideinvio4
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'sid_invio4.codinvio4
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Invio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINVIO4
+state=3
+table_name='sid_invio4
+type='field
+used_resource_keys={}
+I
+'sid_invio4.ideinvio4
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Invio Esito
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDEINVIO4
+state=3
+table_name='sid_invio4
+type='field
+used_resource_keys={}
+I
+'sid_invio4.nrpinvio4
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nuovo Codice Univoco Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NRPINVIO4
+state=3
+table_name='sid_invio4
+type='field
+used_resource_keys={}
+I
+'sid_invio4.rapinvio4
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Univoco Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPINVIO4
+state=3
+table_name='sid_invio4
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'sid_invio4.codinvio4
+[]
+'sid_invio4.ideinvio4
+[]
+'sid_invio4.nrpinvio4
+[]
+'sid_invio4.rapinvio4
+[]
+}
+*--*

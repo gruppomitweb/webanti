@@ -1,0 +1,771 @@
+﻿* --- Resource Vers. 0.9
+tmp_stp_sogoper_ope<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Appoggio per soggetti operanti nelle stampe
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_stp_sogoper_ope
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_stp_sogoper_ope.idbase
+'tmp_stp_sogoper_ope.sconnes
+'tmp_stp_sogoper_ope.tiposog
+'tmp_stp_sogoper_ope.scodcab
+'tmp_stp_sogoper_ope.sragsoc
+'tmp_stp_sogoper_ope.sdomicilio
+'tmp_stp_sogoper_ope.scodfisc
+'tmp_stp_sogoper_ope.sdatanasc
+'tmp_stp_sogoper_ope.snascomun
+'tmp_stp_sogoper_ope.ssotgrup
+'tmp_stp_sogoper_ope.sramogrup
+'tmp_stp_sogoper_ope.ssettsint
+'tmp_stp_sogoper_ope.stipodoc
+'tmp_stp_sogoper_ope.snumdocum
+'tmp_stp_sogoper_ope.sdatarilasc
+'tmp_stp_sogoper_ope.sautrilasc
+'tmp_stp_sogoper_ope.sdesccit
+'tmp_stp_sogoper_ope.sprovincia
+'tmp_stp_sogoper_ope.spaese
+'tmp_stp_sogoper_ope.scap
+'tmp_stp_sogoper_ope.scodinter
+'tmp_stp_sogoper_ope.stipinter
+'tmp_stp_sogoper_ope.stipopers
+'tmp_stp_sogoper_ope.scoddipe
+'tmp_stp_sogoper_ope.spartiva
+'tmp_stp_sogoper_ope.snote
+'tmp_stp_sogoper_ope.ssesso
+'tmp_stp_sogoper_ope.ssospmaf
+'tmp_stp_sogoper_ope.sidcitta
+'tmp_stp_sogoper_ope.sdatavali
+'tmp_stp_sogoper_ope.snasstato
+'tmp_stp_sogoper_ope.sdocfile
+'tmp_stp_sogoper_ope.snome
+'tmp_stp_sogoper_ope.scognome
+'tmp_stp_sogoper_ope.scfestero
+'tmp_stp_sogoper_ope.numprog
+'tmp_stp_sogoper_ope.dataope
+'tmp_stp_sogoper_ope.datareg
+'tmp_stp_sogoper_ope.stipoleg
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_stp_sogoper_ope.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAOPE
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.datareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAREG
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Idbase
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMPROG
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.sautrilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Autorità di rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SAUTRILASC
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.scap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SCAP
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.scfestero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale Estero
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SCFESTERO
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.scodcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SCODCAB
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.scoddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SCODDIPE
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.scodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SCODFISC
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.scodinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SCODINTER
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.scognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Cognome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SCOGNOME
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.sconnes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SCONNES
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.sdatanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SDATANASC
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.sdatarilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Rilascio Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SDATARILASC
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.sdatavali
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SDATAVALI
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.sdesccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SDESCCIT
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.sdocfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SDOCFILE
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.sdomicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Indirizzo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SDOMICILIO
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.sidcitta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='Sidcitta
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.snascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Luogo di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SNASCOMUN
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.snasstato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SNASSTATO
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.snome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Nome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SNOME
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.snote
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Note
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SNOTE
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.snumdocum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Numero Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SNUMDOCUM
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.spaese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SPAESE
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.spartiva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Partita IVA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SPARTIVA
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.sprovincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SPROVINCIA
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.sragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SRAGSOC
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.sramogrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Ramo Gruppo Att. Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SRAMOGRUP
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.ssesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Sesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SSESSO
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.ssettsint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Settorizzazione UIC
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SSETTSINT
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.ssospmaf
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SSOSPMAF
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.ssotgrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Sottogruppo Att. Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SSOTGRUP
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.stipinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='STIPINTER
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.stipodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='STIPODOC
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.stipoleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Legame
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='STIPOLEG
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.stipopers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='STIPOPERS
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+'tmp_stp_sogoper_ope.tiposog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo di soggetto ( C Cliente, S soggetto operante, B controparte, A altro)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOSOG
+state=3
+table_name='tmp_stp_sogoper_ope
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_stp_sogoper_ope.dataope
+[]
+'tmp_stp_sogoper_ope.datareg
+[]
+'tmp_stp_sogoper_ope.idbase
+[]
+'tmp_stp_sogoper_ope.numprog
+[]
+'tmp_stp_sogoper_ope.sautrilasc
+[]
+'tmp_stp_sogoper_ope.scap
+[]
+'tmp_stp_sogoper_ope.scfestero
+[]
+'tmp_stp_sogoper_ope.scodcab
+[]
+'tmp_stp_sogoper_ope.scoddipe
+[]
+'tmp_stp_sogoper_ope.scodfisc
+[]
+'tmp_stp_sogoper_ope.scodinter
+[]
+'tmp_stp_sogoper_ope.scognome
+[]
+'tmp_stp_sogoper_ope.sconnes
+[]
+'tmp_stp_sogoper_ope.sdatanasc
+[]
+'tmp_stp_sogoper_ope.sdatarilasc
+[]
+'tmp_stp_sogoper_ope.sdatavali
+[]
+'tmp_stp_sogoper_ope.sdesccit
+[]
+'tmp_stp_sogoper_ope.sdocfile
+[]
+'tmp_stp_sogoper_ope.sdomicilio
+[]
+'tmp_stp_sogoper_ope.sidcitta
+[]
+'tmp_stp_sogoper_ope.snascomun
+[]
+'tmp_stp_sogoper_ope.snasstato
+[]
+'tmp_stp_sogoper_ope.snome
+[]
+'tmp_stp_sogoper_ope.snote
+[]
+'tmp_stp_sogoper_ope.snumdocum
+[]
+'tmp_stp_sogoper_ope.spaese
+[]
+'tmp_stp_sogoper_ope.spartiva
+[]
+'tmp_stp_sogoper_ope.sprovincia
+[]
+'tmp_stp_sogoper_ope.sragsoc
+[]
+'tmp_stp_sogoper_ope.sramogrup
+[]
+'tmp_stp_sogoper_ope.ssesso
+[]
+'tmp_stp_sogoper_ope.ssettsint
+[]
+'tmp_stp_sogoper_ope.ssospmaf
+[]
+'tmp_stp_sogoper_ope.ssotgrup
+[]
+'tmp_stp_sogoper_ope.stipinter
+[]
+'tmp_stp_sogoper_ope.stipodoc
+[]
+'tmp_stp_sogoper_ope.stipoleg
+[]
+'tmp_stp_sogoper_ope.stipopers
+[]
+'tmp_stp_sogoper_ope.tiposog
+[]
+}
+*--*

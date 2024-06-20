@@ -1,0 +1,106 @@
+﻿* --- Resource Vers. 0.9
+tbcauint<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Causali Interne
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbcauint
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbcauint.cicodice
+'tbcauint.cicaucod
+'tbcauint.cifinalit
+'tbcauint.cirischio
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbcauint.cicaucod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CICAUCOD
+state=3
+table_name='tbcauint
+type='field
+used_resource_keys={}
+I
+'tbcauint.cicodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CICODICE
+state=3
+table_name='tbcauint
+type='field
+used_resource_keys={}
+I
+'tbcauint.cifinalit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Finalità/Scopo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CIFINALIT
+state=3
+table_name='tbcauint
+type='field
+used_resource_keys={}
+I
+'tbcauint.cirischio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indice di Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CIRISCHIO
+state=3
+table_name='tbcauint
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbcauint.cicaucod
+[]
+'tbcauint.cicodice
+[]
+'tbcauint.cifinalit
+[]
+'tbcauint.cirischio
+[]
+}
+*--*

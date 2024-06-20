@@ -1,0 +1,94 @@
+ 3
+"Appogio Trasferimento Titolarità"
+"tmp_trasftit"
+"tmp_trasftit"
+ 212
+ 17
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 392
+ 139
+*
+"Anagrafica Persone/Società/Legali Rappresentanti(1)"
+"personbo1"
+"personbo"
+ 28
+ 133
+*
+ 6
+"Codice Informazione"
+"tmp_trasftit.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Data Operazione"
+"tmp_trasftit.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Tipo Operazione"
+"tmp_trasftit.TIPOOPER"
+"TIPOOPER"
+"C"
+ 2
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGCLI"
+"Char"
+ 70
+ 0
+*
+"Ragione Sociale"
+"personbo1.RAGSOC"
+"RAGTIT"
+"Char"
+ 70
+ 0
+*
+"Campo Selezione"
+"tmp_trasftit.FLGSEL"
+"FLGSEL"
+"C"
+ 1
+ 0
+*
+ 2
+"Società"
+"personbo.CONNES=tmp_trasftit.CONNESCLI"
+"Right outer"
+"personbo"
+"tmp_trasftit"
+*
+"Titolari"
+"personbo1.CONNES=tmp_trasftit.CONNESOPER"
+"Right outer"
+"personbo1"
+"tmp_trasftit"
+*
+ 0
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 4
+.f.
+""
+*

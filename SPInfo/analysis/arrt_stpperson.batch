@@ -1,0 +1,59 @@
+﻿* --- Resource Vers. 0.9
+arrt_stpperson
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:41
+description='Lancio Stampa Persone (Routine)
+file_modified_on=#2022-08-12 12:19:41
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:27
+module_name='
+name='arrt_stpperson
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_stovaria.connes
+'tmp_stovaria.numvaria
+'tmp_stovaria.datvaria
+'tmp_stovaria.elevaria
+'tmp_pers82.connesint
+]
+'Hyperlinks
+[
+'arrp_stpperson_elenco.vrp
+'arrp_stppersonsto.vrp
+'arrp_stpperson.vrp
+'arrp_stpperson_att.vrp
+]
+'Queries
+[
+'qbe_stppersonbo1.vqr
+]
+'Routines
+[
+'arfn_fdate
+]
+'Tables
+[
+'tmp_stovaria<table>
+'wersonbo<table>
+'tmp_pers82<table>
+'personbo<table>
+'intestbo<table>
+'delegabo<table>
+'intestit<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,1259 @@
+* --- Code Painter Extended Dictionary
+"20231205160848"
+ 10
+"spauthid_scope_mapper"
+.F.
+.F.
+.F.
+"spauthid_scope_mapper"
+ 3
+"scope_name"
+"C"
+ 50
+ 0
+""
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"property_key"
+"C"
+ 20
+ 0
+""
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"property_value"
+"M"
+ 10
+ 0
+""
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"scope_name,property_key"
+.T.
+*---*
+ 1
+"spauthid_scope"
+ 2
+"name"
+"scope_name"
+*---*
+"SPAUTHID - Scope Mapper"
+"20230427110032"
+""
+.F.
+.F.
+.F.
+.F.
+"spauthid_scope_mapper"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"spauthid_identity_provider"
+.F.
+.F.
+.F.
+"spauthid_identity_provider"
+ 13
+"code"
+"C"
+ 10
+ 0
+"Chiave primaria"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"idp_name"
+"C"
+ 50
+ 0
+"Nome"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"protocol"
+"C"
+ 10
+ 0
+"Protocollo"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"client_id"
+"M"
+ 10
+ 0
+"Client ID"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"client_secret"
+"C"
+ 300
+ 0
+"Secret"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"redirect_uri"
+"M"
+ 10
+ 0
+"Redirect URI"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"scope"
+"C"
+ 50
+ 0
+"Scope"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"auth_uri"
+"M"
+ 10
+ 0
+"Authorization URI"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"token_uri"
+"M"
+ 10
+ 0
+"Token URI"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"jwks_uri"
+"M"
+ 10
+ 0
+"Jwks URI"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"autologin"
+"C"
+ 1
+ 0
+"Login automatica"
+""
+"'N'"
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"mutual_jwks"
+"C"
+ 1
+ 0
+"Se S, l'IdP cripta le risposte con la chiave pubblica del client"
+""
+"'N'"
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"debug"
+"C"
+ 1
+ 0
+"Flag attivare il debug"
+""
+"'N'"
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 2
+"code"
+.T.
+*---*
+"idp_name"
+.F.
+*---*
+ 0
+"SPAUTHID - Identity Provider"
+"20230725150037"
+""
+.F.
+.F.
+.F.
+.F.
+"spauthid_identity_provider"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpusers"
+.F.
+.F.
+.F.
+"cpusers"
+ 29
+"code"
+"N"
+ 9
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"name"
+"C"
+ 50
+ 0
+"ADMIN_NAME"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"fullname"
+"C"
+ 2048
+ 0
+"ADMIN_FULLNAME"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"passwd"
+"C"
+ 20
+ 0
+"Password"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"language"
+"C"
+ 3
+ 0
+"ADMIN_LANGUAGE"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"enabled"
+"C"
+ 1
+ 0
+"ADMIN_DISABLED"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datestart"
+"D"
+ 8
+ 0
+"ADMIN_VALIDITY_START"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datestop"
+"D"
+ 8
+ 0
+"ADMIN_VALIDITY_END"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"companies"
+"C"
+ 2000
+ 0
+"Companies"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"printserver"
+"C"
+ 60
+ 0
+"ADMIN_PRINT_SERVER"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"failedlogins"
+"N"
+ 3
+ 0
+"ADMIN_NUM_FAILED_LOGIN"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"lastfailedlogin"
+"T"
+ 14
+ 0
+"ADMIN_LAST_FAILED_LOGIN"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"lastsuccessfullogin"
+"T"
+ 14
+ 0
+"ADMIN_LAST_SUCCESS_LOGIN"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"forcepwdchange"
+"L"
+ 1
+ 0
+"ADMIN_FORCEPWDCHANGE"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwdcreate"
+"T"
+ 14
+ 0
+"ADMIN_PWDCREATE"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwdcomplexity"
+"N"
+ 3
+ 0
+"ADMIN_PWDCOMPLEXITY"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwddaysduration"
+"N"
+ 4
+ 0
+"ADMIN_PWDDAYSDURATION"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwdciclicity"
+"N"
+ 4
+ 0
+"ADMIN_PWDCICLICITY"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"captchalevel"
+"N"
+ 4
+ 0
+"ADMIN_CAPTCHA_LEVEL"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"createdwhen"
+"T"
+ 14
+ 0
+"ADMIN_CREATEDWHEN"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"decimalseparator"
+"C"
+ 3
+ 0
+"ADMIN_DECIMALSEPARATOR"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"thousandseparator"
+"C"
+ 3
+ 0
+"ADMIN_THOUSANDSEPARATOR"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datepattern"
+"C"
+ 12
+ 0
+"ADMIN_DATEPATTERN"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datetimepattern"
+"C"
+ 25
+ 0
+"ADMIN_DATETIMEPATTERN"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"usesiarlicense"
+"C"
+ 1
+ 0
+"SPAS_USES_IAR_LICENSE"
+""
+"'F'"
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"cpotp"
+"C"
+ 100
+ 0
+"ADMIN_CPOTP"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"accesstype_human"
+"L"
+ 1
+ 0
+"Human"
+""
+"1"
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"accesstype_service"
+"L"
+ 1
+ 0
+"Service"
+""
+"1"
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"accesstype_machine"
+"L"
+ 1
+ 0
+"Machine"
+""
+"1"
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"code"
+.T.
+*---*
+ 1
+"cplangs"
+ 1
+"code"
+"language"
+*---*
+"CP_USERS"
+"20230811101904"
+""
+.T.
+.F.
+.T.
+.F.
+"spadministration_users"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"spauthid_protocol"
+.F.
+.F.
+.F.
+"spauthid_protocol"
+ 2
+"PRCODE"
+"C"
+ 10
+ 0
+"Codice"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"PRDESCRIPTION"
+"C"
+ 50
+ 0
+"Nome human readable del protocollo"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"PRCODE"
+.T.
+*---*
+ 0
+"SPAUTHID - Protocolli"
+"20230712172758"
+""
+.F.
+.F.
+.F.
+.F.
+""
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpgroups"
+.F.
+.F.
+.F.
+"cpgroups"
+ 11
+"code"
+"N"
+ 6
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"name"
+"C"
+ 50
+ 0
+"ADMIN_NAME"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"grpdescription"
+"M"
+ 10
+ 0
+"ADMIN_DESCRIPTION"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"grptype"
+"C"
+ 1
+ 0
+"ADMIN_TYPE"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datestart"
+"D"
+ 8
+ 0
+"ADMIN_VALIDITY_START"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"datestop"
+"D"
+ 8
+ 0
+"ADMIN_VALIDITY_END"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"company"
+"C"
+ 10
+ 0
+"ADMIN_COMPANY"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwdcomplexity"
+"N"
+ 3
+ 0
+"ADMIN_PWDCOMPLEXITY"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwddaysduration"
+"N"
+ 4
+ 0
+"ADMIN_PWDDAYSDURATION"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"pwdciclicity"
+"N"
+ 4
+ 0
+"ADMIN_PWDCICLICITY"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"captchalevel"
+"N"
+ 4
+ 0
+"ADMIN_CAPTCHA_LEVEL"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"code"
+.T.
+*---*
+ 0
+"CP_GROUPS"
+"20231205165838"
+""
+.T.
+.F.
+.T.
+.F.
+"spadministration_groups"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"spauthid_client_scope_mapping"
+.F.
+.F.
+.F.
+"spauthid_client_scope_mapping"
+ 2
+"client_code"
+"N"
+ 9
+ 0
+"Codice applicazione"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"scope_name"
+"C"
+ 50
+ 0
+"Nome scope"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"client_code,scope_name"
+.T.
+*---*
+ 3
+"spauthid_scope"
+ 1
+"name"
+"scope_name"
+*---*
+"cpusers"
+ 2
+"code"
+"client_code"
+*---*
+"cpusers"
+ 2
+"code"
+"client_code"
+*---*
+"SPAUTHID -  Mapping Client - Scope"
+"20230811101949"
+""
+.F.
+.F.
+.F.
+.F.
+"spauthid_client_scope_mapping"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"cpgrpgrp"
+.F.
+.F.
+.F.
+"cpgrpgrp"
+ 2
+"groupcode"
+"N"
+ 6
+ 0
+"Group code"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"groupbase"
+"N"
+ 6
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"groupcode,groupbase"
+.T.
+*---*
+ 2
+"cpgroups"
+ 2
+"code"
+"groupcode"
+*---*
+"cpgroups"
+ 1
+"code"
+"groupbase"
+*---*
+"CP_SUBGROUPS"
+"20231205170350"
+""
+.T.
+.F.
+.T.
+.F.
+"spadministration_subgroups"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"spauthid_client_m"
+.F.
+.F.
+.F.
+"spauthid_client_m"
+ 2
+"usercode"
+"N"
+ 9
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"publickey"
+"M"
+ 10
+ 0
+"Public key (optional. JWKS endpoint or PEM PKCS #8)"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"usercode"
+.T.
+*---*
+ 2
+"cpusers"
+ 2
+"code"
+"usercode"
+*---*
+"cpusers"
+ 2
+"code"
+"usercode"
+*---*
+"SPAUTHID -  OIDC client (Master)"
+"20230811101931"
+""
+.F.
+.F.
+.F.
+.F.
+"spauthid_client"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"spauthid_client"
+.F.
+.F.
+.F.
+"spauthid_client"
+ 3
+"usercode"
+"N"
+ 9
+ 0
+"ADMIN_CODE"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"CPROWNUM"
+"N"
+ 4
+ 0
+""
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"callbackuri"
+"M"
+ 10
+ 0
+"Callback URI"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"usercode,CPROWNUM"
+.T.
+*---*
+ 1
+"spauthid_client_m"
+ 2
+"usercode"
+"usercode"
+*---*
+"SPAUTHID -  OIDC client (Detail)"
+"20230228150219"
+""
+.F.
+.F.
+.F.
+.F.
+"spauthid_client"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"spauthid_scope"
+.F.
+.F.
+.F.
+"spauthid_scope"
+ 3
+"name"
+"C"
+ 50
+ 0
+"Nome"
+""
+""
+.T.
+.F.
+ 0
+.F.
+ 0
+*---*
+"description"
+"C"
+ 50
+ 0
+"Descrizione"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+"protocol"
+"C"
+ 10
+ 0
+"Protocollo"
+""
+""
+.F.
+.F.
+ 0
+.F.
+ 0
+*---*
+ 1
+"name"
+.T.
+*---*
+ 0
+"SPAUTHID - Scope"
+"20230420154235"
+""
+.F.
+.F.
+.F.
+.F.
+"spauthid_scope"
+""
+.F.
+ 0
+ 0
+""
+""
+""
+ 0
+.F.
+*---*
+"[{þnameþ:þspauthidþ,þaccessþ:1,þinsertþ:1,þupdateþ:1,þdeleteþ:1,þdescrþ:þAuthenticationþ},{þnameþ:þspauthid_adminþ,þaccessþ:1,þinsertþ:1,þupdateþ:1,þdeleteþ:1,þdescrþ:þClients, Identity Providers, Scopesþ}]"
+"spauthid"
+"spauthid_admin"

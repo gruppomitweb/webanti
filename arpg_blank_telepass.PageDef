@@ -1,0 +1,94 @@
+* --- SitePainter Page Vers. 4.1
+Ispitem.SPPage
+Items=[
+Icpitem.CPItem
+border_color=8421504
+border_width=1
+color=12632256
+createondemand=True
+obj='box
+pag=1
+px=8
+pxx=784
+py=9
+pyy=180
+uid='IDIZVJSJFR
+I
+Icpitem.CPItem
+createondemand=True
+item=Nil
+obbl=True
+obj='stringa
+pag=1
+px=16
+pxx=776
+py=18
+pyy=135
+txt_help='"<iframe width='776' height='200' id ='messaggi' src='arpg_msg_allinea' frameborder='1'  border='1' align='TOP' marginwidth='1' marginheight='1'></iframe>"
+uid='SSRCOAMDBL
+I
+Icpitem.CPItem
+clipimage=True
+createondemand=True
+frm_cond='w_ccab = 1 or w_ccodfisc = 1 or w_cutf8 = 1
+frm_hide='w_bloccaedit='S'
+item=Nil
+lnk_frame=True
+lnk_framename='elaborazione
+lnk_op='start
+lnk_page='blank_telepass
+lnk_type='batch
+obj='immagine
+pag=1
+px=376
+pxx=416
+py=144
+pyy=176
+txt_help='images/elaborazione.gif
+uid='ROZQLWLMOH
+I
+Icpitem.CPItem
+condhide=True
+createondemand=True
+frm_hide='True
+item=Nil
+obbl=True
+obj='stringa
+pag=1
+px=16
+pxx=37
+py=144
+pyy=169
+txt_help='"<iframe width='655' height='170' id='elaborazione'  name='elaborazione' frameborder='1'  border='1' align='TOP' marginwidth='1' marginheight='1'></iframe>"
+uid='FGMOCXNBFY
+I
+]
+ManualBlocks={
+UI - Functions & Procedures
+Icpmanualblocks.CPManualBlocks
+code="function Elabora() {
+  w_bloccaedit = 'S';
+  EnableControlsUnderCondition();
+  SetLocationHref(null,'arrt_allinea_anagrafiche'+'?m_cAction=start&m_cMode=hyperlink','elaborazione')   
+}
+°--°
+name='UI - Functions & Procedures
+I
+}
+comment='Allineamenti anagrafiche
+date_creat=#2009-01-08
+date_rev=#2010-01-04
+gfont='Tahoma
+gfont_base=1
+gfont_points=8
+grid_dx=8
+grid_dy=9
+grid_show=1
+grid_use=1
+hrefline=600
+modcnt=78
+tpl_name='Page
+vrefline=800
+I
+*--*
+*----*

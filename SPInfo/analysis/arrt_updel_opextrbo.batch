@@ -1,0 +1,47 @@
+﻿* --- Resource Vers. 0.9
+arrt_updel_opextrbo
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Aggiornamento Operazioni Extraconto
+file_modified_on=#2018-08-31 14:02:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:31
+module_name='
+name='arrt_updel_opextrbo
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.dataannu
+'opextrbo.dataope
+'opextrbo.datamodi
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_mindata_operazbo.vqr
+'qbe_mindata_fraziobo.vqr
+]
+'Tables
+[
+'opextrbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

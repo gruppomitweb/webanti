@@ -1,0 +1,56 @@
+﻿* --- Resource Vers. 0.9
+arpg_scaricodati_negaglob
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:30
+description='Estrazione Rapporti per Agenzia Entrate
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={}
+modified_on=#2024-05-10 18:25:03
+module_name='
+name='arpg_scaricodati_negaglob
+state=1
+type='page
+used_resource_keys={
+'Fields
+[
+'intermbo.codinter
+'intermbo.cfinvio
+'intermbo.cafinvio
+'intermbo.fileinvio
+'intermbo.datainvio
+]
+'Hyperlinks
+[
+'jsp\start_page_logo_portlet.jsp
+]
+'Routines
+[
+'arfn_finemese
+]
+'Tables
+[
+'intermbo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_scaricodati_negaglob|Error|core::document|Update dependencies|Resource "arrt_sd_comunega" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:03
+message='Resource "arrt_sd_comunega" not found.
+resource_key='arpg_scaricodati_negaglob
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

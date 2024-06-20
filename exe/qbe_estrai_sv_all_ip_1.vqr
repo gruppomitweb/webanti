@@ -1,0 +1,311 @@
+ 4
+"Anagrafica Rapporti"
+"anarapbo"
+"anarapbo"
+ 0
+ 0
+*
+"Informazioni su rapporti"
+"rapopebo"
+"rapopebo"
+ 0
+ 0
+*
+"Saldi IDP"
+"saldi_idp"
+"saldi_idp"
+ 0
+ 0
+*
+"Soggetti conto informazioni"
+"intestbo"
+"intestbo"
+ 0
+ 0
+*
+ 10
+"Codice Rapporto"
+"anarapbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione"
+"anarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Anno"
+"saldi_idp.ANNO"
+"ANNO"
+"C"
+ 4
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Trimestre"
+"saldi_idp.TRIMESTRE"
+"TRIMESTRE"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Importo"
+"saldi_idp.IMPORTO"
+"IMPORTO"
+"N"
+ 15
+ 2
+ 0
+.f.
+""
+""
+.f.
+*
+"Intestatario (Non Intermediario)"
+"intestbo.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Inizio Rapporto"
+"intestbo.DATAINI"
+"DATA_INI"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Fine Rapporto"
+"intestbo.DATAFINE"
+"DATA_FIN"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Rapporto"
+"anarapbo.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data rettifica informazione"
+"rapopebo.DATARETT"
+"DATARETT"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 3
+"Informazioni su rapporti"
+"anarapbo.RAPPORTO=rapopebo.RAPPORTO"
+"Left outer"
+"anarapbo"
+"rapopebo"
+*
+"Titolare effettivo"
+"rapopebo.NUMPROG=intestbo.NUMPROG1"
+"Left outer"
+"rapopebo"
+"intestbo"
+*
+"Saldi"
+"anarapbo.RAPPORTO=saldi_idp.RAPPORTO and (saldi_idp.ANNO=?pANNO and saldi_idp.TRIMESTRE=?pTRIMESTRE)"
+"Left outer"
+"anarapbo"
+"saldi_idp"
+*
+ 8
+"rapopebo.TIPOOPRAP"
+""
+"in"
+"(ý21ý,ý22ý,ý23ý,ý24ý,ý27ý,ý33ý,ý34ý,ý35ý,ý43ý,ý44ý,ý45ý)"
+"AND"
+""
+""
+*
+"((saldi_idp.ANNO"
+""
+"="
+"?pANNO"
+"AND"
+""
+""
+*
+"saldi_idp.TRIMESTRE"
+""
+"="
+"?pTRIMESTRE)"
+"OR"
+""
+""
+*
+"(saldi_idp.ANNO"
+""
+"is null"
+""
+"AND"
+""
+""
+*
+"saldi_idp.TRIMESTRE"
+""
+"is null"
+"))"
+"AND"
+""
+""
+*
+"rapopebo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+""
+*
+"(intestbo.DATAFINE"
+""
+"is null"
+""
+"OR"
+""
+""
+*
+"(intestbo.DATAFINE"
+""
+">="
+"?pDATAF_INI))"
+"AND"
+""
+""
+*
+ 1
+"Data Inizio Rapporto"
+"DATA_INI"
+"Ascending"
+*
+ 1
+"Codice Rapporto"
+"RAPPORTO"
+*
+ 0
+ 4
+"pANNO"
+"Anno"
+"C"
+"4"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"pTRIMESTRE"
+"Trimestre"
+"C"
+"1"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"pDATAF_INI"
+"Data Fine (inizio)"
+"D"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"pDATAF_FIN"
+"Data Fine (fine)"
+"D"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 23
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"RH2%22DPt%3B*l0C75MPX%3E5F92%25JBL_EM%2FQ%5DNB%3D%27%24.%27Z1E7%291%3C%3D%28X_%1AV%2C%24%3D6DV2RYAP06OF9%3C7%29-C%5E%27%3DDB%3E%5D%40%40QO-A7%3EB0%5EYY%24DSN%27+5N9%28%28Ru2PW%40%22%40%2FS50%40T%21T18%3E%40%60S.8U3%5EN2%25TH%2C%3E+0%21%5D%3A%3BD8KB%5E%3C%5B%3E%2F8%27CP3_Yo%21C%29LE51H%06VO0C%3E%40%17%2F%2CELC%28%28G%3F3%18%27qJu%29Fp%3D*5%24%2C%223%27%26*%3C%5E%5B358%26ITZ%24%2FH%3A%2F%2BDU2XV%3A%28T%3C%3CKM%3D7%21%3F%2BTALCE%24%3AAXM%25%2C4%5D%28%3F%3E%00"
+"%2BCSFRXZB%2B%3E%2CF%13%23JPQ%40%5C63%13%25%27%5D%60Z%21%3Frb%5DFB%1A%3B%22Z%5D*MW92%24F%24_T8%18%3AH%01O%23%1EKSJ*O%21BP%15%1E0.4%07.K%3B%5E5N%15-TE%3CJ%2BW%3E%5C%22%3B%3F%5BW%22%23K+%5E%29*%27%245+0%23Hj+W%2B%26K*%402RC%25%2FP+A%2BVX%23YD.Q%272MN%3EJY%27.R%22%5D5%280%5E%7EWR%1BW4+2%3C%3B%5BHtLZV_%0757N-%10TSZPxE2%23%3E%5C%23LM%3A+%14%29%10%22%1EIKIU1O8%059DL%223%27%26Y9%2B9%1C%22.7Hk%5E%1A%3EO%5B%23%18G%5B1FX2-Z%5E%3D*%25+%3A%253C%3A%40%3B%3C%21%3BU%26h%3A+WN_E2%3F%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

@@ -1,0 +1,378 @@
+<html>
+
+<head>
+  <title>Field properties</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=windows-1252">
+  <link rel="stylesheet" href="extender.css" type="text/css">
+  <script src="../stdFunctions.js"></script>
+  <script src="../spadministration_help.js"></script>
+  <script>
+    QueryString.keys = new Array();
+    QueryString.values = new Array();
+    var action;
+    var m_cProgName = "spadministration_table_extender_field";
+
+    function QueryString(key) {
+      var value = null;
+      for (var i = 0; i < QueryString.keys.length; i++) {
+        if (QueryString.keys[i] == key) {
+          value = QueryString.values[i];
+          break;
+        }
+      }
+      return value;
+    }
+
+    function QueryString_Parse() {
+      var query = window.location.search.substring(1);
+      var pairs = query.split("&");
+
+      for (var i = 0; i < pairs.length; i++) {
+        var pos = pairs[i].indexOf('=');
+        if (pos >= 0) {
+          var argname = pairs[i].substring(0, pos);
+          var value = pairs[i].substring(pos + 1);
+          QueryString.keys[QueryString.keys.length] = argname;
+          QueryString.values[QueryString.values.length] = value;
+        }
+      }
+    }
+
+    function DoLoad() {
+      var fieldName;
+      QueryString_Parse();
+
+      action = QueryString("action");
+
+      if (action == "edit") {
+        var field = GetOpener().extendedItems[QueryString("et")][6][QueryString("ef")];
+
+        fieldName = field[0];
+
+        if (Left(fieldName, 5) == "[XML:") {
+          document.getElementById("extension_field").value = 'XML';
+          document.getElementById("extension_field_name").value = Substr(fieldName, At("[XML:", fieldName) + 5, At("]", fieldName) - 6);
+          fieldName = Substr(fieldName, At("]", fieldName) + 1);
+        } else if (Left(fieldName, 6) == "[JSON:") {
+          document.getElementById("extension_field").value = 'JSON';
+          document.getElementById("extension_field_name").value = Substr(fieldName, At("[JSON:", fieldName) + 6, At("]", fieldName) - 7);
+          fieldName = Substr(fieldName, At("]", fieldName) + 1);
+        }
+        document.getElementById("name").value = fieldName;
+        document.getElementById("type").value = field[1];
+        document.getElementById("len").value = field[2];
+        document.getElementById("dec").value = field[3];
+        document.getElementById("comment").value = field[4];
+        document.getElementById("check").value = field[5];
+        document.getElementById("default").value = field[6];
+        document.getElementById("notnull").checked = field[7] == "false";
+        document.getElementById("key").value = field[8];
+      }
+      EnableExtensionField();
+      UpdateSizeControls();
+      document.getElementById("name").focus();
+    }
+    function SetField() {
+      var fieldName;
+
+      if (document.getElementById("name").value == "") {
+        alert("Field name undefined.");
+        document.getElementById("name").focus();
+      }
+      else if (GetOpener().At(" ", document.getElementById("name").value) > 0) {
+        alert("Field name must not contain spaces.");
+        document.getElementById("name").focus();
+      }
+      else if (document.getElementById("len").value < 1) {
+        alert("Field length undefined.");
+        document.getElementById("len").focus();
+      }
+      else {
+        fieldName = document.getElementById("name").value;
+        switch (document.getElementById("extension_field").value) {
+          case 'XML':
+            fieldName = "[XML:" + document.getElementById("extension_field_name").value + "]" + fieldName;
+            break;
+          case 'JSON':
+            fieldName = "[JSON:" + document.getElementById("extension_field_name").value + "]" + fieldName;
+            break;
+        }
+          
+
+        var field = new Array(fieldName,
+          document.getElementById("type").value,
+          document.getElementById("len").value,
+          document.getElementById("dec").value,
+          document.getElementById("comment").value,
+          document.getElementById("check").value,
+          document.getElementById("default").value,
+          !document.getElementById("notnull").checked + "",
+          document.getElementById("key").value);
+
+        GetOpener().UpdateField(field, action, QueryString("et"), QueryString("ef"), QueryString("t"), QueryString("f"));
+        WindowClose();
+      }
+    }
+    function UpdateSizeControls() {
+      if (document.getElementById("type").value == "N") {
+        document.getElementById("len").disabled = false;
+        document.getElementById("dec").disabled = false;
+      } else if (document.getElementById("type").value == "C") {
+        document.getElementById("len").disabled = false;
+        document.getElementById("dec").disabled = true;
+      } else {
+        document.getElementById("len").disabled = true;
+        document.getElementById("dec").disabled = true;
+      }
+
+      switch (document.getElementById("type").value) {
+        case "D":
+          document.getElementById("len").value = "8";
+          document.getElementById("dec").value = "0";
+          break;
+        case "T":
+          document.getElementById("len").value = "14";
+          document.getElementById("dec").value = "0";
+          break;
+        case "L":
+          document.getElementById("len").value = "1";
+          document.getElementById("dec").value = "0";
+          break;
+        case "M":
+        case "S":
+          document.getElementById("len").value = "10";
+          document.getElementById("dec").value = "0";
+          break;
+      }
+    }
+    function EnableExtensionField() {
+      document.getElementById("extension_field_name").disabled = (document.getElementById("extension_field").value == "");
+      document.getElementById("extension_type").innerText = document.getElementById("extension_field").value || 'XML';
+    }
+    function CloseWindow() {
+      WindowClose();
+    }
+    function ManageKeys(e) {
+      if (e.keyCode == 13) SetField();
+      else if (e.keyCode == 27) CloseWindow();
+    }
+    function CancelEvent(e) {
+      e.cancelBubble = true
+      if (e.stopPropagation) e.stopPropagation();
+      e.returnValue = false
+    }
+    function CancelHelp(e) {
+      CancelEvent(e);
+      Help();
+    }
+  </script>
+  <style>
+    body {
+      font-family: "Open Sans";
+      font-size: 13px;
+      width: 560px;
+    }
+
+    .container {
+      padding: 10px;
+      box-sizing: border-box;
+      display: grid;
+      grid-template-areas: 
+        "a b c d"
+        "e f . ."
+        "g h i l"
+        "m n . ."
+        "o p q r"
+        "s t t t"
+        "u v v v"
+        "z x x x"
+      ;
+      grid-template-rows: repeat(8, min-content);
+      height: calc(100% - 47px);
+      width: 100%;
+      row-gap: 10px;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 7px;
+    }
+
+    #comment,
+    #check,
+    #default {
+      grid-column: 2 / 5;
+    }
+    
+    label[for=name] {
+      grid-area: a;
+    }
+    
+    #name {
+      grid-area: b;
+    }
+
+    label[for=key] {
+      grid-area: c;
+    }
+
+    #key {
+      grid-area: d;
+    }
+    label[for=type] {
+      grid-area: e;
+    }
+
+    #type {
+      grid-area: f;
+    }
+
+    label[for=len] {
+      grid-area: g;
+    }
+
+    #len {
+      grid-area: h;
+    }
+
+    label[for=dec] {
+      grid-area: i;
+    }
+
+    #dec {
+      grid-area: l;
+    }
+
+    label[for=notnull] {
+      grid-area: m;
+    }
+
+    #notnull {
+      grid-area: n;
+      width: min-content;
+    }
+    
+    label[for=extension_field] {
+      grid-area: o;
+    }
+
+    #extension_field {
+      grid-area: p;
+      width: min-content;
+    }
+    
+    label[for=extension_field_name] {
+      grid-area: q;
+    }
+
+    #extension_field_name {
+      grid-area: r;
+    }
+
+    label[for=comment] {
+      grid-area: s;
+    }
+
+    #comment {
+      grid-area: t;
+    }
+
+    label[for=check] {
+      grid-area: u;
+    }
+
+    #check {
+      grid-area: v;
+    }
+
+    label[for=default] {
+      grid-area: z;
+    }
+
+    #default {
+      grid-area: x;
+    }
+  </style>
+</head>
+
+<body onload="DoLoad()" onhelp="CancelHelp(event)" onkeydown="ManageKeys(event)">
+  <div class="container">
+    <label for="name">Name:</label>
+    <input id="name" type="text" maxlength="202">
+
+
+    <label for="key">Key/Index:</label>
+    <select id="key" disabled>
+      <option value="0" selected>No index/key</option>
+      <!--option value="1">Primary key</option-->
+      <option value="2">Secondary index</option>
+      <option value="3"> 3rd Index</option>
+      <option value="4"> 4th Index</option>
+      <option value="5"> 5th Index</option>
+      <option value="6"> 6th Index</option>
+      <option value="7"> 7th Index</option>
+      <option value="8"> 8th Index</option>
+      <option value="9"> 9th Index</option>
+      <option value="10">10th Index</option>
+      <option value="11">11th Index</option>
+      <option value="12">12th Index</option>
+      <option value="13">13th Index</option>
+      <option value="14">14th Index</option>
+    </select>
+
+
+    <label for="type">Type:</label>
+    <select id="type" onchange="UpdateSizeControls()">
+      <option value="C" selected>Character</option>
+      <option value="N">Numeric</option>
+      <option value="D">Date</option>
+      <option value="L">Logical</option>
+      <option value="M">Memo</option>
+      <option value="S">Small Memo</option>
+      <option value="T">DateTime</option>
+      <option value="X">XML</option>
+    </select>
+
+
+    <!--input id="repeated" type="checkbox" >
+     <label >Repeated</label-->
+
+      
+    <label for="len">Length:</label>
+    <input id="len" type="text" value="0" maxlength="34">
+
+    <label for="dec">Decimals:</label>
+    <input id="dec" type="text" value="0" maxlength="34" disabled>
+
+    <label for="notnull">Allow nulls:</label>
+    <input id="notnull" type="checkbox" checked>
+
+
+    <label for="extension_field">Field Extension:</label>
+    <select id="extension_field" onchange="EnableExtensionField()">
+      <option value="" selected></option>
+      <option value="XML">XML</option>
+      <option value="JSON">JSON</option>
+    </select>
+
+
+    <label for="extension_field_name"><span id="extension_type">XML</span> field:</label>
+    <input id="extension_field_name" type="text" maxlength="34">
+
+
+    <label for="comment">Description:</label>
+    <input id="comment" type="text" maxlength="382">
+
+
+    <label for="check">Check:</label>
+    <input id="check" type="text" maxlength="382">
+
+
+    <label for="default">Default:</label>
+    <input id="default" type="text" maxlength="382">
+
+  </div>
+  <div class="footer-button-container">
+    <button onclick="SetField()" accesskey="o" class="bottoni confirm"><u>O</u>K</button>&nbsp;
+    <button onclick="WindowClose();" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+  </div>
+</body>
+
+</html>

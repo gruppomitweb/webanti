@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="164798992">
+  <CodifyName>arpg_log_app</CodifyName>
+  <Name>arpg_log_app.pagedef</Name>
+  <Title>Log Applicativo</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="57908891"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_log_app_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="73" x2="1220" y2="86">
+      <Name LinkID="251648432">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="60" x2="1220" y2="73">
+      <Name LinkID="36938155">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="44" x2="120" y2="60">
+      <Name LinkID="158573072">c_LOGDATORA</Name>
+      <Help></Help>
+      <Expression>c_LOGDATORA</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="232" y1="44" x2="472" y2="60">
+      <Name LinkID="158573072">c_name</Name>
+      <Help></Help>
+      <Expression>c_name</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="480" y1="44" x2="608" y2="60">
+      <Name LinkID="158573072">c_LOGTABELLA</Name>
+      <Help></Help>
+      <Expression>c_LOGTABELLA</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="616" y1="44" x2="796" y2="60">
+      <Name LinkID="158573072">c_LOGCHIAVE</Name>
+      <Help></Help>
+      <Expression>c_LOGCHIAVE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="128" y1="44" x2="224" y2="60">
+      <Name LinkID="158573072">c_LOGTIPOPE</Name>
+      <Help></Help>
+      <Expression>c_LOGTIPOPE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="802" y1="44" x2="818" y2="58">
+      <Name LinkID="158573072">images/view.png</Name>
+      <Image>images/view.png</Image>
+      <Hyperlink>arpg_view_text</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

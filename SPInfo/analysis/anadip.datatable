@@ -1,0 +1,923 @@
+﻿* --- Resource Vers. 0.9
+anadip<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Dipendenze
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='anadip
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'anadip.coddip
+'anadip.descriz
+'anadip.idcitta
+'anadip.desccit
+'anadip.provincia
+'anadip.cab
+'anadip.idbase
+'anadip.agente
+'anadip.macroagente
+'anadip.terminalid
+'anadip.domicilio
+'anadip.telefono
+'anadip.codloc
+'anadip.abicabsara
+'anadip.nuovo
+'anadip.cap
+'anadip.agaccode
+'anadip.nazagente
+'anadip.opxsoscli
+'anadip.opxsosage
+'anadip.valcompl
+'anadip.anomoper
+'anadip.ageregio
+'anadip.flgatt
+'anadip.codage
+'anadip.tiposv
+'anadip.flgnoaua
+'anadip.flgwupos
+'anadip.categ01
+'anadip.categ02
+'anadip.categ03
+'anadip.categ04
+'anadip.categ05
+'anadip.categoria
+'anadip.cab2
+'anadip.risglob
+'anadip.dataprof
+'anadip.codiceaams
+'anadip.concessione
+'anadip.codfisc
+'anadip.partiva
+'anadip.tipoagente
+'anadip.numcivico
+'anadip.dataini
+'anadip.datafine
+'anadip.serrimden
+'anadip.flgcompl
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'anadip.abicabsara
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ABI CAB Dipendenza per SARA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABICABSARA
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.agaccode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AGACCODE
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.agente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AGENTE
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.ageregio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Regione Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AGEREGIO
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.anomoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anomalie Operative Riscontrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANOMOPER
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.cab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAB
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.cab2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAB2
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAP
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.categ01
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG01
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.categ02
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG02
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.categ03
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG03
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.categ04
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG04
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.categ05
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG05
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.categoria
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEGORIA
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.codage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice AGENTE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODAGE
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.coddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIP
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODFISC
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.codiceaams
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice AAMS Sala
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODICEAAMS
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.codloc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Locale (CGO)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODLOC
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.concessione
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Concessione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONCESSIONE
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.datafine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAFINE
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINI
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.dataprof
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Profilatura
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAPROF
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.descriz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCRIZ
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOMICILIO
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.flgatt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Agenzia Attiva (S/N)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGATT
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.flgcompl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Chiusura per compliance
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGCOMPL
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.flgnoaua
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Escludi Controlli AUA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGNOAUA
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.flgwupos
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Flag WUPOS Attivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGWUPOS
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.idcitta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDCITTA
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.macroagente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Denominazione MacroAgente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MACROAGENTE
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.nazagente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nazionalità Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NAZAGENTE
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.numcivico
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Civico
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMCIVICO
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.nuovo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nuovo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUOVO
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.opxsosage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazioni Sospette Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPXSOSAGE
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.opxsoscli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazioni Sospette Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPXSOSCLI
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.partiva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Partita IVA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PARTIVA
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.risglob
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio globale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RISGLOB
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.serrimden
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Servizi Rimessa Denaro (S/N)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SERRIMDEN
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.telefono
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Telefono
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TELEFONO
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.terminalid
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Terrminale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TERMINALID
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.tipoagente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Agente (PF/PG)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOAGENTE
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.tiposv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Canale Distributivo (SV)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOSV
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+'anadip.valcompl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valutazione Visita Compliance
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALCOMPL
+state=3
+table_name='anadip
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'anadip.abicabsara
+[]
+'anadip.agaccode
+[]
+'anadip.agente
+[]
+'anadip.ageregio
+[]
+'anadip.anomoper
+[]
+'anadip.cab
+[]
+'anadip.cab2
+[]
+'anadip.cap
+[]
+'anadip.categ01
+[]
+'anadip.categ02
+[]
+'anadip.categ03
+[]
+'anadip.categ04
+[]
+'anadip.categ05
+[]
+'anadip.categoria
+[]
+'anadip.codage
+[]
+'anadip.coddip
+[]
+'anadip.codfisc
+[]
+'anadip.codiceaams
+[]
+'anadip.codloc
+[]
+'anadip.concessione
+[]
+'anadip.datafine
+[]
+'anadip.dataini
+[]
+'anadip.dataprof
+[]
+'anadip.desccit
+[]
+'anadip.descriz
+[]
+'anadip.domicilio
+[]
+'anadip.flgatt
+[]
+'anadip.flgcompl
+[]
+'anadip.flgnoaua
+[]
+'anadip.flgwupos
+[]
+'anadip.idbase
+[]
+'anadip.idcitta
+[]
+'anadip.macroagente
+[]
+'anadip.nazagente
+[]
+'anadip.numcivico
+[]
+'anadip.nuovo
+[]
+'anadip.opxsosage
+[]
+'anadip.opxsoscli
+[]
+'anadip.partiva
+[]
+'anadip.provincia
+[]
+'anadip.risglob
+[]
+'anadip.serrimden
+[]
+'anadip.telefono
+[]
+'anadip.terminalid
+[]
+'anadip.tipoagente
+[]
+'anadip.tiposv
+[]
+'anadip.valcompl
+[]
+}
+*--*

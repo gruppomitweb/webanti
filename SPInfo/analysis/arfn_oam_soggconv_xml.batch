@@ -1,0 +1,61 @@
+﻿* --- Resource Vers. 0.9
+arfn_oam_soggconv_xml
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:29
+description='Crea il file XML per comunicazione Soggetti Convenzionati
+file_modified_on=#2024-03-14 17:38:04
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:54
+module_name='
+name='arfn_oam_soggconv_xml
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbstati.codsta
+'tbstati.sigla
+'tbcitta.citta
+'tbcitta.prov
+'tbcitta.sigla
+]
+'Libraries
+[
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_tbcitta30.vqr
+]
+'Routines
+[
+'arfn_fdate_bp
+'arfn_fdatetime
+'arfn_fdatetime_bp
+'arfn_oam_soggconv_xml
+'arfn_oamchar
+]
+'Tables
+[
+'intermbo<table>
+'tbvasp<table>
+'tbstati<table>
+'tbmacage<table>
+'ageresleg<table>
+'anadip<table>
+'dippreposti<table>
+'tbcitta<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+tmp_rapportipd<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Elenco Rapporti per passaggio da Provvisorio a Definitivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_rapportipd
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_rapportipd.rapporto
+'tmp_rapportipd.descrap
+'tmp_rapportipd.flgsel
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_rapportipd.descrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESCRAP
+state=3
+table_name='tmp_rapportipd
+type='field
+used_resource_keys={}
+I
+'tmp_rapportipd.flgsel
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Selezionato per Passaggio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLGSEL
+state=3
+table_name='tmp_rapportipd
+type='field
+used_resource_keys={}
+I
+'tmp_rapportipd.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPPORTO
+state=3
+table_name='tmp_rapportipd
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_rapportipd.descrap
+[]
+'tmp_rapportipd.flgsel
+[]
+'tmp_rapportipd.rapporto
+[]
+}
+*--*

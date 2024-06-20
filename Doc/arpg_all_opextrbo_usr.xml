@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="63656129">
+  <CodifyName>arpg_all_opextrbo</CodifyName>
+  <Name>arpg_all_opextrbo.pagedef</Name>
+  <Title>Alineamento Operazioni ExtraConto</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="66196783"></Title>
+    <Note/>
+    <JPG x="8" y="9">arpg_all_opextrbo_usr_1</JPG>
+    <Item type="variabile" x1="144" y1="18" x2="216" y2="38">
+      <Name LinkID="110039023">DaDatOpe</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="464" y1="18" x2="536" y2="38">
+      <Name LinkID="47855252">ADatOpe</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="288" y1="216" x2="328" y2="249">
+      <Name LinkID="63654609">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_all_opextrbo</Hyperlink>
+      <HyperlinkOpenOn>Frame</HyperlinkOpenOn>
+      <Help>Allinea Gli Archivi Operazioni Extra Conto</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="344" y1="216" x2="384" y2="249">
+      <Name LinkID="63654609">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

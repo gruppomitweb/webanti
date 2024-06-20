@@ -1,0 +1,491 @@
+ 1
+"Movimenti INPUT"
+"archmovi_in"
+"archmovi_in"
+ 5
+ 5
+*
+ 64
+"Data Operazione"
+"archmovi_in.ODATAOPE"
+"ODATAOPE"
+"C"
+ 8
+ 0
+*
+"S se contanti"
+"archmovi_in.OFLAGCONT"
+"OFLAGCONT"
+"C"
+ 1
+ 0
+*
+"Causale Analitica"
+"archmovi_in.OCODANA"
+"OCODANA"
+"C"
+ 4
+ 0
+*
+"Causale Sintetica"
+"archmovi_in.OCODVOC"
+"OCODVOC"
+"C"
+ 2
+ 0
+*
+"Tipo Intermediario"
+"archmovi_in.OTIPOINT2"
+"OTIPOINT2"
+"C"
+ 2
+ 0
+*
+"Codice Intermediario"
+"archmovi_in.OCODINT2"
+"OCODINT2"
+"C"
+ 11
+ 0
+*
+"Codice Nazione"
+"archmovi_in.OPAESE"
+"OPAESE"
+"Char"
+ 3
+ 0
+*
+"Città Intermediario/Resistenza"
+"archmovi_in.ODESC2"
+"ODESC2"
+"Char"
+ 40
+ 0
+*
+"Provincia Intermediario/Dipendenza"
+"archmovi_in.OPROV2"
+"OPROV2"
+"C"
+ 2
+ 0
+*
+"CAB Città Intermediario/Dipendenza"
+"archmovi_in.OCODCAB2"
+"OCODCAB2"
+"C"
+ 6
+ 0
+*
+"Descrizione Intermediario Banca Estera"
+"archmovi_in.ODESCINTER"
+"ODESCINTER"
+"C"
+ 50
+ 0
+*
+"Rapporto"
+"archmovi_in.ORAPPORTO"
+"ORAPPORTO"
+"C"
+ 25
+ 0
+*
+"Tipo Rapporto"
+"archmovi_in.OFLAGRAP"
+"OFLAGRAP"
+"Char"
+ 1
+ 0
+*
+"Tipo Legame Soggetto"
+"archmovi_in.OTIPOLEG"
+"OTIPOLEG"
+"C"
+ 1
+ 0
+*
+"Data Registrazione"
+"archmovi_in.ODATAREG"
+"ODATAREG"
+"C"
+ 8
+ 0
+*
+"Tipo Valuta"
+"archmovi_in.OFLAGLIRE"
+"OFLAGLIRE"
+"C"
+ 1
+ 0
+*
+"Codice Valuta"
+"archmovi_in.OVALUTA"
+"OVALUTA"
+"C"
+ 3
+ 0
+*
+"Segno OPerazione (Dare/Avere)"
+"archmovi_in.OSEGNO"
+"OSEGNO"
+"C"
+ 1
+ 0
+*
+"Totale Operazione"
+"archmovi_in.OTOTLIRE"
+"OTOTLIRE"
+"Numeric"
+ 15
+ 0
+*
+"Totale Contanti"
+"archmovi_in.OTOTCONT"
+"OTOTCONT"
+"Numeric"
+ 15
+ 0
+*
+"Codice Esecutore"
+"archmovi_in.OCONNESOPER"
+"OCONNESOPER"
+"C"
+ 16
+ 0
+*
+"Cambio"
+"archmovi_in.OCAMBIO"
+"OCAMBIO"
+"Numeric"
+ 9
+ 0
+*
+"Numero Operazione"
+"archmovi_in.ONUMPROG"
+"ONUMPROG"
+"C"
+ 11
+ 0
+*
+"Tipo Registrazione"
+"archmovi_in.OTIPOOPRAP"
+"OTIPOOPRAP"
+"C"
+ 2
+ 0
+*
+"Tipo Intermediario"
+"archmovi_in.OTIPOINTER"
+"OTIPOINTER"
+"C"
+ 2
+ 0
+*
+"Codice Intermediario"
+"archmovi_in.OCODINTER"
+"OCODINTER"
+"C"
+ 11
+ 0
+*
+"Città Intermediario/Resistenza"
+"archmovi_in.ODESCCIT"
+"ODESCCIT"
+"Char"
+ 40
+ 0
+*
+"Provincia Intermediario/Dipendenza"
+"archmovi_in.OPROVINCIA"
+"OPROVINCIA"
+"C"
+ 2
+ 0
+*
+"CAB Città Intermediario/Dipendenza"
+"archmovi_in.OCODCAB"
+"OCODCAB"
+"Char"
+ 6
+ 0
+*
+"Se compattata da frazionata"
+"archmovi_in.OFLAGFRAZ"
+"OFLAGFRAZ"
+"C"
+ 1
+ 0
+*
+"Codice Beneficiario"
+"archmovi_in.OCONNESBEN"
+"OCONNESBEN"
+"C"
+ 16
+ 0
+*
+"Codice Univoco"
+"archmovi_in.OUNIQUECODE"
+"OUNIQUECODE"
+"C"
+ 10
+ 0
+*
+"Tipo operazione agenzia entrate"
+"archmovi_in.OAGOPER"
+"OAGOPER"
+"C"
+ 3
+ 0
+*
+"Riferimento Import"
+"archmovi_in.ORIFIMP"
+"ORIFIMP"
+"C"
+ 9
+ 0
+*
+"Descrizione Semplifficata Int. Controparte"
+"archmovi_in.OZCPARTE"
+"OZCPARTE"
+"C"
+ 69
+ 0
+*
+"Classe Rischio Ragionevolezza rapporto"
+"archmovi_in.ORAGIO"
+"ORAGIO"
+"C"
+ 5
+ 0
+*
+"Classe Rischio Modalità svolgimento"
+"archmovi_in.OMODSVOL"
+"OMODSVOL"
+"C"
+ 5
+ 0
+*
+"Classe Rischio Area Geografica"
+"archmovi_in.OAREAGEO"
+"OAREAGEO"
+"C"
+ 5
+ 0
+*
+"Annotazioni Varie"
+"archmovi_in.OINFORM"
+"OINFORM"
+"C"
+ 30
+ 0
+*
+"Classe Rischio Ammontare Rapporto"
+"archmovi_in.OAMMONT"
+"OAMMONT"
+"C"
+ 5
+ 0
+*
+"Classe Rischio Durata Rapporto"
+"archmovi_in.ODURAT"
+"ODURAT"
+"C"
+ 5
+ 0
+*
+"Classe Rischio Tipo Rapporto"
+"archmovi_in.OTIPO"
+"OTIPO"
+"C"
+ 5
+ 0
+*
+"Valore Rischio"
+"archmovi_in.ORRAGIO"
+"ORRAGIO"
+"N"
+ 3
+ 0
+*
+"Valore Rischio"
+"archmovi_in.ORCOMP"
+"ORCOMP"
+"N"
+ 4
+ 0
+*
+"Valore Rischio"
+"archmovi_in.ORAREA"
+"ORAREA"
+"N"
+ 3
+ 0
+*
+"Valore Rischio"
+"archmovi_in.ORIMP"
+"ORIMP"
+"N"
+ 3
+ 0
+*
+"Valore Rischio"
+"archmovi_in.ORFREQ"
+"ORFREQ"
+"N"
+ 3
+ 0
+*
+"Soggetto titolare di un operazione eseguita su rapporto intestato a soggetto diverso"
+"archmovi_in.OCONNALTRO"
+"OCONNALTRO"
+"C"
+ 16
+ 0
+*
+"Data Import"
+"archmovi_in.ODATAIMP"
+"ODATAIMP"
+"C"
+ 8
+ 0
+*
+"Valore Rischio"
+"archmovi_in.ORTIPO"
+"ORTIPO"
+"N"
+ 3
+ 0
+*
+"Nominativo Soggetto Controparte"
+"archmovi_in.OC_RAG"
+"OC_RAG"
+"C"
+ 70
+ 0
+*
+"Stato Soggetto Controparte"
+"archmovi_in.OC_STA"
+"OC_STA"
+"C"
+ 3
+ 0
+*
+"Città Soggetto Controparte"
+"archmovi_in.OC_CTA"
+"OC_CTA"
+"Char"
+ 40
+ 0
+*
+"CAB Soggetto Controparte"
+"archmovi_in.OC_CAB"
+"OC_CAB"
+"C"
+ 6
+ 0
+*
+"Provincia Soggetto Controparte"
+"archmovi_in.OC_PRV"
+"OC_PRV"
+"C"
+ 2
+ 0
+*
+"Indirizzo Soggetto Controparte"
+"archmovi_in.OC_IND"
+"OC_IND"
+"C"
+ 35
+ 0
+*
+"CAp Soggetto Controparte"
+"archmovi_in.OC_CAP"
+"OC_CAP"
+"Char"
+ 5
+ 0
+*
+"Natura Operazione"
+"archmovi_in.ONATURA"
+"ONATURA"
+"C"
+ 50
+ 0
+*
+"Scopo Operazione"
+"archmovi_in.OSCOPO"
+"OSCOPO"
+"C"
+ 50
+ 0
+*
+"Numero Conto Intermediario Controparte"
+"archmovi_in.OC_RAPPORTO"
+"OC_RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Campo Appoggio"
+"archmovi_in.ORAPPORTBEN"
+"ORAPPORTBEN"
+"C"
+ 25
+ 0
+*
+"Valoriz. con S solo se il Soggetto Operante Conto Terzi è presente ed utilizza mezzi propri"
+"archmovi_in.OPAGASOGOP"
+"OPAGASOGOP"
+"C"
+ 1
+ 0
+*
+"Codice Collegamento"
+"archmovi_in.PCONNES"
+"PCONNES"
+"C"
+ 16
+ 0
+*
+"Codice Dipendenza"
+"archmovi_in.DCODDIP"
+"DCODDIP"
+"C"
+ 6
+ 0
+*
+ 0
+ 1
+"archmovi_in.MCODMOV"
+""
+"="
+"?_movcod"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 1
+"_movcod"
+"Codice Operazione"
+"Numeric"
+"10"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 13
+.f.
+""
+.f.
+*

@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="103819915">
+  <CodifyName>armt_frazioprov</CodifyName>
+  <Name>armt_frazioprov.mstdef</Name>
+  <Title>Frazionate Provvisorie</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="220889527">Principale</Title>
+    <Note></Note>
+    <JPG x="8" y="9">armt_frazioprov_usr_1</JPG>
+    <Item type="campo" x1="112" y1="49" x2="184" y2="69">
+      <Name LinkID="8622815">DATAOPE</Name>
+      <Comment>Data Operazione</Comment>
+      <Key>key2</Key>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="712" y1="49" x2="784" y2="69">
+      <Name LinkID="30839519">DATAREG</Name>
+      <Comment>Data registrazione</Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="112" y1="77" x2="216" y2="97">
+      <Name LinkID="110632815">FLAGCONT</Name>
+      <Comment>Contanti (S/N)</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="328" y1="77" x2="352" y2="97">
+      <Name LinkID="226783167">TIPOOPRAP</Name>
+      <Comment>Tipo Operazione Completa</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="112" y1="105" x2="152" y2="125">
+      <Name LinkID="91061314">CODANA</Name>
+      <Comment>Causale Analitica</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="467" y1="105" x2="497" y2="125">
+      <Name LinkID="88812610">CODVOC</Name>
+      <Comment>Causale Sintetica</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="112" y1="133" x2="272" y2="153">
+      <Name LinkID="13397524">appolire</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="347" y1="133" x2="377" y2="153">
+      <Name LinkID="90584335">VALUTA</Name>
+      <Comment>Divisa</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="712" y1="133" x2="778" y2="153">
+      <Name LinkID="76702754">CAMBIO</Name>
+      <Comment>Cambio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="112" y1="161" x2="226" y2="181">
+      <Name LinkID="49168573">xTOTLIRE</Name>
+      <Comment></Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="312" y1="162" x2="426" y2="182">
+      <Name LinkID="110575805">xTOTCONT</Name>
+      <Comment></Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="200" x2="330" y2="220">
+      <Name LinkID="262438637">RAPPORTO</Name>
+      <Comment>Rapporto Collegato</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="227" x2="276" y2="247">
+      <Name LinkID="22389241">CONNESCLI</Name>
+      <Comment>Codice Cliente Occasionale</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="254" x2="276" y2="274">
+      <Name LinkID="178938659">CONNESOPER</Name>
+      <Comment>Codice Cliente Occasionale</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="281" x2="528" y2="301">
+      <Name LinkID="30502767">TIPOLEG</Name>
+      <Comment>Tipo Legame sogg. Operante</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="560" y1="281" x2="766" y2="302">
+      <Name LinkID="41387579">PAGASOGOP</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="308" x2="276" y2="328">
+      <Name LinkID="39166452">CONNESBEN</Name>
+      <Comment>Codice Cliente Occasionale</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="335" x2="276" y2="355">
+      <Name LinkID="255221261">CONNALTRO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="369" x2="600" y2="389">
+      <Name LinkID="159673666">C_RAG</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="396" x2="398" y2="416">
+      <Name LinkID="159992898">C_CTA</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="396" x2="520" y2="416">
+      <Name LinkID="158621506">C_PRV</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="600" y1="396" x2="656" y2="416">
+      <Name LinkID="159087682">C_CAP</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="736" y1="396" x2="784" y2="416">
+      <Name LinkID="160005186">C_CAB</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="423" x2="390" y2="443">
+      <Name LinkID="159819330">C_IND</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="423" x2="518" y2="443">
+      <Name LinkID="159988802">C_STA</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="465" x2="684" y2="485">
+      <Name LinkID="257847151">TIPOINT2</Name>
+      <Comment>Tipo Intermediario C/Parte</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="492" x2="262" y2="512">
+      <Name LinkID="230884286">CODINT2</Name>
+      <Comment>Codice Intermediario C/Parte</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="384" y1="492" x2="712" y2="512">
+      <Name LinkID="10636687">DESCINTER</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="519" x2="198" y2="539">
+      <Name LinkID="159734805">PAESE</Name>
+      <Comment>Stato Intermediario C/Parte</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="616" y1="519" x2="784" y2="539">
+      <Name LinkID="176461826">C_RAPPORTO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="546" x2="224" y2="566">
+      <Name LinkID="211133374">CODCAB2</Name>
+      <Comment>CAB Intermediario C/Parte</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="744" y1="546" x2="776" y2="566">
+      <Name LinkID="160964869">PROV2</Name>
+      <Comment>Provincia Intermediario C/Parte</Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="573" x2="448" y2="593">
+      <Name LinkID="161041889">DESC2</Name>
+      <Comment>Denominazione Intermediario C/Parte</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="168" y1="600" x2="594" y2="620">
+      <Name LinkID="13012757">ZCPARTE</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="408" y1="49" x2="496" y2="69">
+      <Name LinkID="41385257">NUMPROG</Name>
+      <Comment>Numero Progressivo</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="18" x2="182" y2="39">
+      <Name LinkID="12780478">CODINTER</Name>
+      <Comment>Codice Intermediario</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="232" y1="18" x2="280" y2="39">
+      <Name LinkID="8238014">CODDIPE</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="18" x2="648" y2="39">
+      <Name LinkID="252162591">DESCCIT</Name>
+      <Comment>Città Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="18" x2="696" y2="39">
+      <Name LinkID="27336900">PROVINCIA</Name>
+      <Comment>Provincia Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="728" y1="18" x2="776" y2="39">
+      <Name LinkID="90856514">CODCAB</Name>
+      <Comment>CAB Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="760" y1="105" x2="778" y2="125">
+      <Name LinkID="159099346">SEGNO</Name>
+      <Comment>Segno</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="512" y1="54" x2="536" y2="74">
+      <Name LinkID="257642210">STATOREG</Name>
+      <Comment>Stato registrazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="208" y1="54" x2="288" y2="74">
+      <Name LinkID="19492129">DATARETT</Name>
+      <Comment>Data Rettifica</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="768" y1="225" x2="788" y2="245">
+      <Name LinkID="164615541">images/search_adm.gif</Name>
+      <Image>images/search_adm.gif</Image>
+      <Hyperlink>armt_kersonbo</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help>Visualizza i dati del cliente relativi all&apos;operazione</Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="680" y1="161" x2="758" y2="181">
+      <Name LinkID="85312578">COLLEG</Name>
+      <Comment>Collegamento Operazione Multiple</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="768" y1="200" x2="787" y2="220">
+      <Name LinkID="164615478">?</Name>
+      <Bitmap></Bitmap>
+      <Help>Recupera i dati degli intestatari del rapporto</Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="520" y1="162" x2="592" y2="182">
+      <Name LinkID="164277480">MTCN</Name>
+      <Comment>MTCN</Comment>
+      <Key>key11</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="2">
+    <Title LinkID="242343661">Intestatari / Operanti Conto Terzi</Title>
+    <Note></Note>
+    <JPG x="8" y="9">armt_frazioprov_usr_2</JPG>
+    <Item type="campo" x1="104" y1="18" x2="182" y2="39">
+      <Name LinkID="12780478">CODINTER</Name>
+      <Comment>Codice Intermediario</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="232" y1="18" x2="280" y2="39">
+      <Name LinkID="8238014">CODDIPE</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="18" x2="648" y2="39">
+      <Name LinkID="252162591">DESCCIT</Name>
+      <Comment>Città Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="18" x2="696" y2="39">
+      <Name LinkID="27336900">PROVINCIA</Name>
+      <Comment>Provincia Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="728" y1="18" x2="776" y2="39">
+      <Name LinkID="90856514">CODCAB</Name>
+      <Comment>CAB Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="3">
+    <Title LinkID="210767120">Altre Controparti / Altri Soggetti Terzi</Title>
+    <Note></Note>
+    <JPG x="8" y="9">armt_frazioprov_usr_3</JPG>
+    <Item type="campo" x1="104" y1="18" x2="182" y2="39">
+      <Name LinkID="12780478">CODINTER</Name>
+      <Comment>Codice Intermediario</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="232" y1="18" x2="280" y2="39">
+      <Name LinkID="8238014">CODDIPE</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="18" x2="648" y2="39">
+      <Name LinkID="252162591">DESCCIT</Name>
+      <Comment>Città Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="18" x2="696" y2="39">
+      <Name LinkID="27336900">PROVINCIA</Name>
+      <Comment>Provincia Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="728" y1="18" x2="776" y2="39">
+      <Name LinkID="90856514">CODCAB</Name>
+      <Comment>CAB Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="4">
+    <Title LinkID="65306735">Dati Agenzia Entrate</Title>
+    <Note></Note>
+    <JPG x="8" y="9">armt_frazioprov_usr_4</JPG>
+    <Item type="campo" x1="160" y1="90" x2="198" y2="110">
+      <Name LinkID="85551910">OPERAG</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="616" y1="62" x2="784" y2="83">
+      <Name LinkID="71000119">NOPROT</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="117" x2="368" y2="137">
+      <Name LinkID="241074733">RESPINS</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="592" y1="117" x2="784" y2="137">
+      <Name LinkID="78158412">INFORM</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="144" x2="472" y2="164">
+      <Name LinkID="90713367">NATURA</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="171" x2="472" y2="191">
+      <Name LinkID="159089138">SCOPO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="287" x2="206" y2="307">
+      <Name LinkID="164332780">AREAGEO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="311" x2="206" y2="331">
+      <Name LinkID="125543368">MODSVOL</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="335" x2="206" y2="355">
+      <Name LinkID="159119891">RAGIO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="359" x2="206" y2="379">
+      <Name LinkID="164270225">TIPO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="287" x2="760" y2="307">
+      <Name LinkID="160050963">RAREA</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="311" x2="760" y2="331">
+      <Name LinkID="159035891">RCOMP</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="335" x2="760" y2="355">
+      <Name LinkID="76685059">RRAGIO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="359" x2="760" y2="379">
+      <Name LinkID="159090403">RTIPO</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="239" x2="760" y2="259">
+      <Name LinkID="159002307">RFREQ</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="720" y1="263" x2="760" y2="283">
+      <Name LinkID="164266899">RIMP</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="239" x2="206" y2="259">
+      <Name LinkID="158821857">DURAT</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="160" y1="263" x2="206" y2="283">
+      <Name LinkID="71078756">AMMONT</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="104" y1="18" x2="182" y2="39">
+      <Name LinkID="12780478">CODINTER</Name>
+      <Comment>Codice Intermediario</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="232" y1="18" x2="280" y2="39">
+      <Name LinkID="8238014">CODDIPE</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="18" x2="648" y2="39">
+      <Name LinkID="252162591">DESCCIT</Name>
+      <Comment>Città Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="18" x2="696" y2="39">
+      <Name LinkID="27336900">PROVINCIA</Name>
+      <Comment>Provincia Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="728" y1="18" x2="776" y2="39">
+      <Name LinkID="90856514">CODCAB</Name>
+      <Comment>CAB Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+  <Pag number="5">
+    <Title LinkID="257785564">Dati Documenti</Title>
+    <Note></Note>
+    <JPG x="-10" y="9">armt_frazioprov_usr_5</JPG>
+    <Item type="campo" x1="104" y1="20" x2="182" y2="41">
+      <Name LinkID="12780478">CODINTER</Name>
+      <Comment>Codice Intermediario</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="20" x2="640" y2="41">
+      <Name LinkID="252162591">DESCCIT</Name>
+      <Comment>Città Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="20" x2="696" y2="41">
+      <Name LinkID="27336900">PROVINCIA</Name>
+      <Comment>Provincia Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="728" y1="20" x2="776" y2="41">
+      <Name LinkID="90856514">CODCAB</Name>
+      <Comment>CAB Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="232" y1="21" x2="288" y2="41">
+      <Name LinkID="8238014">CODDIPE</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="80" y1="63" x2="392" y2="83">
+      <Name LinkID="262823425">CONNESDOC</Name>
+      <Comment>Storico Documenti</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

@@ -1,0 +1,37 @@
+﻿* --- Resource Vers. 0.9
+arrt_creaxls_decodenascita
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Crea file per correzione comuni
+file_modified_on=#2022-08-04 12:30:31
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:10
+module_name='
+name='arrt_creaxls_decodenascita
+state=1
+type='batch
+used_resource_keys={
+'Queries
+[
+'qbe_decodenascita.vqr
+]
+'Tables
+[
+'tmp_chkperiodo<table>
+'tmp_impesiti<table>
+'personbo<table>
+'personbo_agg<table>
+]
+}
+I
+*--*
+￼[]
+*--*

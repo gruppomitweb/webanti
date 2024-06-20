@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <SCRIPT src="../Base.js" type="text/javascript"></SCRIPT>
+  <SCRIPT src="../stdFunctions.js" type="text/javascript"></SCRIPT>
+  <SCRIPT src="../controls.js" type="text/javascript"></SCRIPT>
+  <SCRIPT src="../zdnd_commons.js" type="text/javascript"></SCRIPT>
+  <SCRIPT src="../visualweb/EditableGridCtrl.js" type="text/javascript"></SCRIPT>
+  <script src="../portalstudio/styleVariables.js" type="text/javascript"></script>
+  <script src="../spModalLayer.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" title="default" href="../filewindow.css"></link>
+<script>
+
+var currentSPModalLayer = null;
+
+var GET_DATA=(function() {
+  var res = {};
+  var getDataString = new String(window.location);
+  var questionMarkLocation = getDataString.search(/\?/);
+  if (questionMarkLocation != -1) {
+    getDataString = getDataString.substr(questionMarkLocation + 1);
+    var getDataArray = getDataString.split(/&/g);
+    var nameValuePair;
+    for (var i = 0; i < getDataArray.length; i++) {
+      nameValuePair = getDataArray[i].split(/=/);
+      res[unescape(nameValuePair[0])] = unescape(nameValuePair[1]);
+    }
+  }
+  return res;
+})();
+
+function getInternetExplorerVersion() {
+  var rv = -1; // Return value assumes failure.
+  if (navigator.appName == "Microsoft Internet Explorer") {
+    var ua = navigator.userAgent;
+    var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+    if (re.exec(ua) != null) {
+      rv = parseFloat( RegExp.$1 );
+    }
+  }
+  return rv;
+}
+
+function getOpener() {
+  return (GetOpener()?GetOpener():(window.caller?window.caller:window.parent));
+}
+
+function CloseWindow() {
+  if(window.parent.spModalLayer && window.frameElement && window.parent.spModalLayer[window.frameElement.id]) {
+    window.parent.spModalLayer[window.frameElement.id].close();
+  }
+  else if (typeof(GET_DATA.SPModalLayerId) != 'undefined') {
+    openerWindow.closeSPModalLayer();
+  }
+  else {
+    window.close();
+  }
+}
+
+var openerWindow = getOpener();
+var receiverObj = null;
+if (GET_DATA.objIdx == "null") { GET_DATA.objIdx = null; }
+if (GET_DATA.objIdx != null) {
+  receiverObj = openerWindow.itemsHTML[GET_DATA.objIdx];
+}
+else if (openerWindow.reportProp) {
+  receiverObj = openerWindow.reportProp;
+}
+else {
+  receiverObj = openerWindow;
+}
+
+var separator = GET_DATA.separator;
+var callerFunction = GET_DATA.callerFunction;
+var valFunc = GET_DATA.valFunc;
+var theme = GET_DATA.theme;
+var editExpression = (GET_DATA.editExpression == 'true');
+var varray = [];
+
+var parameters = {
+  id: 'parameters',
+  titles: ['Value'],
+  options:[{type:'textbox'}],
+  blank: ['']
+};
+
+Z.Dict = function() {
+  var newkey = function() {
+    var res = "";
+    for (var i = 0; i++ < 9; res += String.fromCharCode(Math.floor(Math.random()*26+97)));
+    return res;
+  }
+  var keys = {};
+  this.Add = function(data) {
+    var k = newkey();
+    while (k in this) {
+      k = this.newkey();
+    }
+    this[k] = data;
+    keys[k] = null;
+    return k;
+  }
+  this.Remove = function(key) {
+    return delete this[key] && delete keys[key];
+  }
+  this.Keys = function() {
+    return Z.Merge({}, keys);
+  }
+}
+
+function centerresizeWnd() {
+  var maindiv = Ctrl("maindiv");
+  var nWidth = maindiv.offsetWidth;
+  var nHeight = maindiv.offsetHeight + 120;
+  window.resizeTo(nWidth,nHeight);
+}
+
+var m_ctrlid;
+function ExecOpenerLink(ctrlid) {
+  var url = "";
+  m_ctrlid = ctrlid;
+  if (openerWindow.getLinkSelectJsp) {
+    url = openerWindow.getLinkSelectJsp();
+  }
+  if (LRTrim(url).length > 0) {
+    var xpos = 0;
+    var ypos = 0;
+    if (IsIE() && getInternetExplorerVersion() <= 8) {
+      windowOpenForeground(url, "", "width=346px,height=468px,toolbar=0,menubar=0,directories=0,resizable=1,scrollbars=1");
+    }
+    else {
+      url += "&Modules";
+      openSPModalLayer(url, xpos, ypos, 346, 468, true, 1, true, false, window, null, true);
+    }
+  }
+}
+
+function setWdocModel(value) {
+  var c;
+  if (Ctrl(m_ctrlid)) { Ctrl(m_ctrlid).value = value; }
+}
+
+function SelectParameter(id) {
+  var height = 400;
+  var width = 400;
+  var left = 0;//(screen.width)?(screen.width-width)/2:100;
+  var top = 0;//(screen.height)?(screen.height-height-(height/4))/2:100;
+
+  if (IsNetscape() || IsMozilla()) {
+    width += 5; //Per Netscape e Mozilla, il width e height sono leggermente diversi
+    height += 4;
+  }
+  //window.open("../portalstudio/expression_builder.jsp?ExpressionID="+URLenc(id)+"&callerFunction=ExpressionBuilderReturn","expression","height="+height+",width="+width+",left="+left+",top="+top+",resizable=yes");
+  var url = "../portalstudio/expression_builder.jsp?ExpressionID=" + URLenc(id) + "&callerFunction=ExpressionBuilderReturn";
+  if ((IsIE() && getInternetExplorerVersion() <= 8) || (typeof(GET_DATA.SPModalLayerId) == 'undefined')) {
+    window.open(url, "expression", "height=" + height + ",width=" + width + ",left=" + left + ",top=" + top + ",resizable=yes");
+  }
+  else {
+    url+="&expression&SPModalLayerId=kvExpBuildSPModalLayer";
+    openSPModalLayer(url, top, left, width, height, true, 1, window, false, false);
+  }
+}
+
+function ExpressionBuilderReturn(id, value) {
+  if (id) {
+    var el = document.getElementById(id);
+    if (el) {
+      el.value = value;
+      el.focus();
+    }
+  }
+}
+
+function GetExpressionFromId(id) {
+  if (id) {
+    var el = document.getElementById(id);
+    if (el) {
+      return el.value;
+    }
+  }
+  return "";
+}
+
+function GetFunctionsForExpBuilder() {
+  return openerWindow.GetFunctionsForExpBuilder();
+}
+
+function getFieldsOfTables() {
+  return openerWindow.getFieldsOfTables();
+}
+
+function getParametersOfQueries() {
+  return openerWindow.getParametersOfQueries();
+}
+
+function GetVariablesForExpBuilder() {
+  return openerWindow.GetVariablesForExpBuilder();
+}
+
+Z.ParametersEditableGrid=  Z.EditableGrid.extend({
+  constructor:function(configuration, data) {
+    this.inherit(configuration, data);
+  },
+  inputizeCell:function(srcElem) {
+    var objInput = document.createElement ("INPUT");
+    var objInputEdit = document.createElement ("INPUT");
+    var datarow;
+    if (srcElem.parentNode.getAttribute("datarow") in this.data.rows) {
+      datarow = this.data.rows[srcElem.parentNode.getAttribute("datarow")];
+    }
+    else {
+      datarow = [].concat(this.data.blank);
+      srcElem.parentNode.setAttribute("datarow",this.data.rows.Add(datarow));
+    }
+    var optIdx = srcElem.getAttribute("dataoptions");
+    var optRow = srcElem.parentNode.getAttribute("datarow");
+    var txtOld = datarow[optIdx];
+    srcElem.innerHTML = "";
+    switch (srcElem.getAttribute("TCType")) {
+      case 'combobox':
+        objInput = document.createElement("SELECT");
+        var selIdx = 0;
+        for (var i = 0, opt, opts = this.data.options[optIdx].values, l = opts.length; i < l; i++ ) {
+          opt = opts[i];
+          if (opt == txtOld) {
+            selIdx = objInput.options.length;
+          }
+          objInput.options[objInput.options.length] = new Option(opt, opt);
+        }
+        objInput.selectedIndex = selIdx;
+        break;
+      case 'textbox':
+      default:
+        objInput.setAttribute ("id", "input_" + optRow + "_" + optIdx);
+        objInput.setAttribute ("type", "TEXT");
+        objInput.setAttribute ("value", txtOld);
+        objInputEdit.setAttribute ("id", "btn_" + optRow + "_" + optIdx);
+        objInputEdit.setAttribute ("type", "BUTTON");
+        objInputEdit.setAttribute ("class", "bottoni SPButton");
+        objInputEdit.setAttribute ("value", "E");
+        if (editExpression == true) {
+          LibJavascript.Events.addEvent(objInputEdit, 'click', new Function("", "SelectParameter('" + "input_" + optRow + "_" + optIdx + "')"));
+        }
+        else if (openerWindow.getLinkSelectJsp) {
+          LibJavascript.Events.addEvent(objInputEdit, "click", new Function("", "ExecOpenerLink('" + "input_" + optRow + "_" + optIdx + "')"));
+        }
+        break;
+    }
+    LibJavascript.Events.addEvent(objInput, "keydown", this.checkForEnterEsc.closure(this));
+    objInput.style.width = "100%";
+    objInput.style.boxSizing = "border-box";
+    objInput.style.MozBoxSizing = "border-box";
+    objInput.style.webkitBoxSizing = "border-box";
+    srcElem.appendChild(objInput);
+    if (openerWindow.getLinkSelectJsp || (editExpression == true)) {
+      objInput.style.width = "90%";
+      objInputEdit.style.width = "7%";
+      objInputEdit.style.marginLeft = "7px";
+      srcElem.appendChild(objInputEdit);
+    }
+  }
+});
+
+</script>
+<title>Keys Values Edit</title>
+</head>
+<body bgcolor="#E4E4E4" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" scroll="yes" style="border:0px;overflow:auto;margin:0pt" onload="centerresizeWnd()">
+  <div id="maindiv">
+    <table valign="top" class="contenuto" style="width:100%;">
+      <tr class="titoli" style="width:100%;display:none">
+        <td align="center" class="titoli" style="width:50%;"><b>Keys Values</b></td>
+      </tr>
+      <tr style="width:100%;">
+        <td id="parametersDiv" valign="top"></td>
+      </tr>
+      <tr style="width:100%;">
+        <td valign="top">
+          <INPUT id="btn_addParameters" class="bottoni SPButton" value="+" title="Add" type="button" onclick="javascript:onBtnAdd(parametersCtrl);">
+          <INPUT id="btn_deleteParameters" class="bottoni SPButton" value="-" title="Remove selection" type="button" onclick="javascript:parametersCtrl.deleteRow();">
+        </td>
+      </tr>
+    </table>
+    <table style="width:100%;">
+      <tr>
+        <td valign="middle" align="right" nowrap>
+          <button onclick="javascript:onOk();" accesskey="o" class="bottoni SPButton" style="width:40px;"><u>O</u>K</button>&nbsp;&nbsp;
+          <button onclick="javascript:onCancel();" accesskey="c" class="bottoni SPButton"><u>C</u>ancel</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+<script>
+function onBtnAdd(obj) {
+  obj.addRow();
+  obj.selectLastRow();
+  obj.editSelectedRow();
+}
+
+function onBtnMoveUp(obj) {
+  if (obj.objRowSelected && obj.objRowSelected.rowIndex > 2) {
+    obj.SaveRow(obj.objRowSelected, true);
+    obj.MoveUp();
+  }
+}
+
+function onBtnMoveDown(obj) {
+  if (obj.objRowSelected && obj.objRowSelected.rowIndex > 2) {
+    obj.SaveRow(obj.objRowSelected, true);
+    obj.MoveDown();
+  }
+}
+
+parameters.rows = (function() {
+  var res = new Z.Dict();
+  var values = receiverObj[valFunc]().split(separator);
+  for (var i = 0, value, l = values.length; i < l; i++) {
+    value = Trim(values[i]);
+    if (!(value == "")) {
+      res.Add([value]);
+    }
+  }
+  return res;
+})();
+
+var configuration = { blnPointToSelect: false };
+var parametersCtrl = new Z.ParametersEditableGrid(configuration, parameters);
+Ctrl("parametersDiv").insertBefore(parametersCtrl.buildTable(), Ctrl("parametersDiv").firstChild);
+parametersCtrl.init();
+
+function onOk() {
+  //salva eventuali righe 
+  if (parametersCtrl.objRowSelected) {
+    parametersCtrl.saveRow(parametersCtrl.objRowSelected, true);
+  }
+
+  var parms = {keys:[], values:[] };
+  var row, rows = parametersCtrl.data.rows;
+  for (var k_row in rows.Keys()) {
+    row = rows[k_row];
+    parms.values.push(row[0]);
+  }
+  var returnvalues = parms.values.join(separator);
+  openerWindow[callerFunction](GET_DATA.objIdx,returnvalues);
+  CloseWindow();
+}
+function onCancel() {
+  //check for changes: to do
+  CloseWindow();
+}
+</script>
+<script>
+  if (theme && theme.length > 0) {
+    var l = document.createElement("link");
+    l.rel = "StyleSheet";
+    l.type = "text/css";
+    l.href = "../" + theme + "/formPage.css";
+    document.getElementsByTagName("head")[0].appendChild(l);
+  }
+</script>
+</body>
+</html>

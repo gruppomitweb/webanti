@@ -1,0 +1,334 @@
+﻿* --- Resource Vers. 0.9
+tmp_stpperiodo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Estrazione per Stampa Invio AGE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_stpperiodo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_stpperiodo.rapporto
+'tmp_stpperiodo.dataini
+'tmp_stpperiodo.datafine
+'tmp_stpperiodo.tipoag
+'tmp_stpperiodo.tiporap
+'tmp_stpperiodo.descrap
+'tmp_stpperiodo.valuta
+'tmp_stpperiodo.inviato
+'tmp_stpperiodo.tipo
+'tmp_stpperiodo.cab
+'tmp_stpperiodo.uniquecode
+'tmp_stpperiodo.oldinter
+'tmp_stpperiodo.idbase
+'tmp_stpperiodo.datamodi
+'tmp_stpperiodo.idesito
+'tmp_stpperiodo.isoage
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_stpperiodo.cab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CAB
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.datafine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Fine
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAFINE
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Inizio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAINI
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.datamodi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Modifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAMODI
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.descrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESCRAP
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ID RIGA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.idesito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDESITO
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.inviato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Inviato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='INVIATO
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.isoage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='ISO per 96/97
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ISOAGE
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.oldinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Vecchio Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='OLDINTER
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPPORTO
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPO
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.tipoag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo AGE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOAG
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.tiporap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo AUI
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPORAP
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.uniquecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Univoco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='UNIQUECODE
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+'tmp_stpperiodo.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='VALUTA
+state=3
+table_name='tmp_stpperiodo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_stpperiodo.cab
+[]
+'tmp_stpperiodo.datafine
+[]
+'tmp_stpperiodo.dataini
+[]
+'tmp_stpperiodo.datamodi
+[]
+'tmp_stpperiodo.descrap
+[]
+'tmp_stpperiodo.idbase
+[]
+'tmp_stpperiodo.idesito
+[]
+'tmp_stpperiodo.inviato
+[]
+'tmp_stpperiodo.isoage
+[]
+'tmp_stpperiodo.oldinter
+[]
+'tmp_stpperiodo.rapporto
+[]
+'tmp_stpperiodo.tipo
+[]
+'tmp_stpperiodo.tipoag
+[]
+'tmp_stpperiodo.tiporap
+[]
+'tmp_stpperiodo.uniquecode
+[]
+'tmp_stpperiodo.valuta
+[]
+}
+*--*

@@ -1,0 +1,388 @@
+@import url('../fonts/OpenSans.css');
+@font-face {
+  font-family: 'iMobileIcon';
+  src: url('../fonts/iMobileIcon.eot');
+  /* IE9 Compat Modes */
+  src: local('iMobileIcon'), url('../fonts/iMobileIcon.eot#iMobileIcon') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iMobileIcon.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/iMobileIcon.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/iMobileIcon.svg#iMobileIcon') format('svg');
+  /* Legacy iOS */
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Open Sans;
+  font-size: 12px;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+ul,
+li {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.child-scrollable,
+#properties.child-scrollable {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.flexbox-parent {
+  width: 100%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  /* align items in Main Axis */
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  /* align items in Cross Axis */
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  /* Extra space in Cross Axis */
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+
+.wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+}
+
+.wrapper > * {
+  -ms-flex: 1 100%;
+      flex: 1 100%;
+}
+
+.flexbox-item-grow {
+  /* same as flex: 1 1 auto; */
+  -ms-flex: 1;
+      flex: 1;
+}
+
+.fill-area {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  /* align items in Main Axis */
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  /* align items in Cross Axis */
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  /* Extra space in Cross Axis */
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+
+
+/* ----------- CANVASS ----------- */
+
+.main {
+  position: relative;
+  -ms-flex: auto;
+      flex: auto;
+}
+
+.main .child-scrollable {
+  box-sizing: border-box;
+}
+
+.main .child-scrollable > div {
+  margin: 0 auto;
+}
+
+.frame-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 0;
+}
+
+
+/* ----------- TOOLBAR TOP ----------- */
+
+.header {
+  text-align: center;
+  padding: 6px;
+  font-size: 14px;
+  background-color: #C3C3C3;
+  color: #676767;
+}
+
+.header.picker {
+  padding: 1px;
+  background-color: #333;
+  color: #FFF;
+}
+
+
+/* ----------- PROPRIETA' (LEFT) ----------- */
+
+#properties {
+  width: auto;
+  height: auto;
+  border: 0;
+  position: initial;
+  display: initial;
+  min-width: initial;
+  max-width: initial;
+}
+
+.properties-aside {
+  position: relative;
+  -ms-flex: 1 auto;
+      flex: 1 auto;
+  background-color: #E3E3E3;
+  max-width: 256px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  box-shadow: 2px 0 3px 0 rgba(103, 103, 103, .25);
+}
+
+#gadgets_pane .gadgetstitle {
+  margin-left: 2px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #000;
+}
+
+
+/* ----------- TOOLBAR BOTTOM ----------- */
+
+.footer {
+  background-color: #C3C3C3;
+}
+
+.footer .actions {
+  list-style-type: none;
+  margin: 0 auto;
+  display: table;
+}
+
+.footer .actions .btn {
+  display: inline-block;
+  color: #FFF;
+  background: #000;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 8px;
+  margin: 8px;
+  font-weight: 100;
+}
+
+.footer .actions .btn.active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.footer .actions .btn-confirm {
+  background-color: #00A0BD;
+  color: #FFF;
+}
+
+.footer .actions .btn-tools {
+  background-color: #777;
+  color: #FFF;
+}
+
+.footer .actions .btn-tools.active {
+  background-color: #ABABAB;
+}
+
+
+/* ----------- SCROLLBAR PERSONALIZZATA ----------- */
+
+
+/*::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c3c3c3;
+}*/
+
+
+/* ----------- LAYOUT MANAGER ----------- */
+
+.node_group {
+  color: #676767;
+}
+
+.node_group p {
+  padding: 0;
+  margin: 0;
+}
+
+.node_header::before {
+  position: absolute;
+  padding: 4px 7px;
+  font-family: 'iMobileIcon';
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.node_group.close .node_header::before {
+  content: '\e62e';
+}
+
+.node_group.open .node_header::before {
+  content: '\e62f';
+}
+
+.node_group.close .tv_droppable {
+  display: none;
+}
+
+.node_header {
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #C3C3C3;
+}
+
+.node_header p {
+  padding: 8px 36px;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.node_header .node_header_add {
+  position: absolute;
+  right: 6px;
+  display: none;
+  height: 32px;
+}
+
+.node_header:hover .node_header_add {
+  display: block;
+}
+
+.node_header .node_header_add::after {
+  display: inline-block;
+  margin-top: 9px;
+  font-family: 'iMobileIcon';
+  font-size: 16px;
+  font-weight: normal;
+  content: '\e702';
+}
+
+.node_header_foundling {
+  color: #9F0000;
+}
+
+.node_group .tv_droppable {
+  padding: 5px 0;
+}
+
+.node_group .tv_draggable {
+  position: relative;
+  top: 0;
+  padding: 7px 45px;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 11px;
+  cursor: move;
+}
+
+.node_group .tv_draggable.model {  
+  cursor: default;
+}
+
+.node_group .icon_toolbar {
+  position: absolute;
+  right: 6px;
+  display: none;
+}
+
+.node_group .tv_draggable:hover .icon_toolbar, 
+.node_group .tv_nodraggable:hover .icon_toolbar {
+  display: block;
+}
+
+.icon_toolbar .icon-edit,
+.icon_toolbar .icon-delete,
+.icon_toolbar .icon-view {
+  display: inline-block;
+  margin-right: 3px;
+  font-family: 'iMobileIcon';
+  font-size: 14px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.icon_toolbar .icon-edit::after {
+  content: '\e603';
+}
+
+.icon_toolbar .icon-delete::after {
+  content: '\e6a8';
+}
+
+.icon_toolbar .icon-view::after {
+  content: '\e67f';
+}
+
+.tv_droppable.active_area {
+  background-color: #E6FFE5;
+}
+
+.node_group .drophere {
+  padding: 4px;
+  font-size: 14px;
+  font-weight: 300px;
+}
+
+.node_group .node_img {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  width: 18px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ondrag {
+  width: 100%;
+  opacity: .6;
+  color: #F8F8F8;
+  background-color: #454545;
+}
+
+.tree_maker {
+  position: relative;
+  display: none;
+  margin: 0;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  opacity: .9;
+  color: #FFF;
+  background: #898989;
+}

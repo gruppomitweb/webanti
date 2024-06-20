@@ -1,0 +1,1341 @@
+﻿* --- Resource Vers. 0.9
+db_wersonbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='DB WERSONBO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='db_wersonbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'db_wersonbo.sanumpro
+'db_wersonbo.connes
+'db_wersonbo.codcab
+'db_wersonbo.ragsoc
+'db_wersonbo.domicilio
+'db_wersonbo.codfisc
+'db_wersonbo.datanasc
+'db_wersonbo.nascomun
+'db_wersonbo.sotgrup
+'db_wersonbo.ramogrup
+'db_wersonbo.settsint
+'db_wersonbo.tipodoc
+'db_wersonbo.numdocum
+'db_wersonbo.datarilasc
+'db_wersonbo.autrilasc
+'db_wersonbo.desccit
+'db_wersonbo.provincia
+'db_wersonbo.paese
+'db_wersonbo.cap
+'db_wersonbo.codinter
+'db_wersonbo.tipinter
+'db_wersonbo.tipopers
+'db_wersonbo.coddipe
+'db_wersonbo.partiva
+'db_wersonbo.note
+'db_wersonbo.sesso
+'db_wersonbo.sospmaf
+'db_wersonbo.idcitta
+'db_wersonbo.datavali
+'db_wersonbo.nasstato
+'db_wersonbo.docfile
+'db_wersonbo.nome
+'db_wersonbo.cognome
+'db_wersonbo.cfestero
+'db_wersonbo.oldconnes
+'db_wersonbo.datextra
+'db_wersonbo.pktbspecie
+'db_wersonbo.comport
+'db_wersonbo.attiv
+'db_wersonbo.rnatgiu
+'db_wersonbo.rattiv
+'db_wersonbo.rcomp
+'db_wersonbo.rarea
+'db_wersonbo.allineato
+'db_wersonbo.allineatonomecnome
+'db_wersonbo.ragsocold
+'db_wersonbo.progimport
+'db_wersonbo.progimp_c
+'db_wersonbo.areageo
+'db_wersonbo.datamodi
+'db_wersonbo.pep
+'db_wersonbo.idfile
+'db_wersonbo.oldcodfisc
+'db_wersonbo.macroagente
+'db_wersonbo.spotid
+'db_wersonbo.datasegn
+'db_wersonbo.oldsetsin
+'db_wersonbo.datavarage
+'db_wersonbo.settsint2
+'db_wersonbo.fatca
+'db_wersonbo.bancaben
+'db_wersonbo.tin
+'db_wersonbo.odb
+'db_wersonbo.telef
+'db_wersonbo.tipooro
+'db_wersonbo.codoro
+'db_wersonbo.idnascomun
+'db_wersonbo.idnasstato
+'db_wersonbo.notit
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'db_wersonbo.allineato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='anagrafica allineata completa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ALLINEATO
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.allineatonomecnome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome e cognome divisi correttamente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ALLINEATONOMECNOME
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Area Geografica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AREAGEO
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.attiv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ATTIV
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.autrilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Autorità di rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AUTRILASC
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.bancaben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Banca se Beneficiario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='BANCABEN
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAP
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.cfestero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Estero
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFESTERO
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODFISC
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.codoro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Solo operatori in oro
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODORO
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.cognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cognome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COGNOME
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.comport
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COMPORT
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNES
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.datamodi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Modifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='datamodi
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.datanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATANASC
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.datarilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rilascio Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATARILASC
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.datasegn
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Segnalazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATASEGN
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.datavali
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAVALI
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.datavarage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Variazione per Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAVARAGE
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.datextra
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATEXTRA
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.docfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOCFILE
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOMICILIO
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.fatca
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato sede Legale FATCA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FATCA
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.idcitta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='idcitta
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.idfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Identificativo File
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDFILE
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.idnascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Comune Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDNASCOMUN
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.idnasstato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Stato Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDNASSTATO
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.macroagente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice MacroAgente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MACROAGENTE
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.nascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Luogo di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASCOMUN
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.nasstato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASSTATO
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.nome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOME
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.note
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Note
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOTE
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.notit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Non inviare titolare AGE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOTIT
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.numdocum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMDOCUM
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.odb
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ordine di Bonifico Permanente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ODB
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.oldcodfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Presente nel file
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDCODFISC
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.oldconnes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDCONNES
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.oldsetsin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Settore Sintetico su RAE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OLDSETSIN
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESE
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.partiva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Partita IVA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PARTIVA
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.pep
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Persona Politicamente Esposta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PEP
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.pktbspecie
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PKTBSPECIE
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.progimp_c
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Import (Stringa)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGIMP_C
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.progimport
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo d'importazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGIMPORT
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGSOC
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.ragsocold
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Vecchia Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGSOCOLD
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.ramogrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ramo Gruppo Att. Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAMOGRUP
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.rarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAREA
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.rattiv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RATTIV
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.rcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RCOMP
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.rnatgiu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RNATGIU
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.sanumpro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='N° Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='sanumpro
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.sesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SESSO
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.settsint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Settorizzazione UIC
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SETTSINT
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.settsint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Vecchio Settore Sintetico
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SETTSINT2
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.sospmaf
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOSPMAF
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.sotgrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sottogruppo Att. Ec.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOTGRUP
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.spotid
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='SPOT ID (WUB)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SPOTID
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.telef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Soggetto è dichiarante di un'operazione canalizzata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TELEF
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.tin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice FATCA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIN
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.tipinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPINTER
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.tipodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPODOC
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.tipooro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOORO
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+'db_wersonbo.tipopers
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOPERS
+state=3
+table_name='db_wersonbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'db_wersonbo.allineato
+[]
+'db_wersonbo.allineatonomecnome
+[]
+'db_wersonbo.areageo
+[]
+'db_wersonbo.attiv
+[]
+'db_wersonbo.autrilasc
+[]
+'db_wersonbo.bancaben
+[]
+'db_wersonbo.cap
+[]
+'db_wersonbo.cfestero
+[]
+'db_wersonbo.codcab
+[]
+'db_wersonbo.coddipe
+[]
+'db_wersonbo.codfisc
+[]
+'db_wersonbo.codinter
+[]
+'db_wersonbo.codoro
+[]
+'db_wersonbo.cognome
+[]
+'db_wersonbo.comport
+[]
+'db_wersonbo.connes
+[]
+'db_wersonbo.datamodi
+[]
+'db_wersonbo.datanasc
+[]
+'db_wersonbo.datarilasc
+[]
+'db_wersonbo.datasegn
+[]
+'db_wersonbo.datavali
+[]
+'db_wersonbo.datavarage
+[]
+'db_wersonbo.datextra
+[]
+'db_wersonbo.desccit
+[]
+'db_wersonbo.docfile
+[]
+'db_wersonbo.domicilio
+[]
+'db_wersonbo.fatca
+[]
+'db_wersonbo.idcitta
+[]
+'db_wersonbo.idfile
+[]
+'db_wersonbo.idnascomun
+[]
+'db_wersonbo.idnasstato
+[]
+'db_wersonbo.macroagente
+[]
+'db_wersonbo.nascomun
+[]
+'db_wersonbo.nasstato
+[]
+'db_wersonbo.nome
+[]
+'db_wersonbo.note
+[]
+'db_wersonbo.notit
+[]
+'db_wersonbo.numdocum
+[]
+'db_wersonbo.odb
+[]
+'db_wersonbo.oldcodfisc
+[]
+'db_wersonbo.oldconnes
+[]
+'db_wersonbo.oldsetsin
+[]
+'db_wersonbo.paese
+[]
+'db_wersonbo.partiva
+[]
+'db_wersonbo.pep
+[]
+'db_wersonbo.pktbspecie
+[]
+'db_wersonbo.progimp_c
+[]
+'db_wersonbo.progimport
+[]
+'db_wersonbo.provincia
+[]
+'db_wersonbo.ragsoc
+[]
+'db_wersonbo.ragsocold
+[]
+'db_wersonbo.ramogrup
+[]
+'db_wersonbo.rarea
+[]
+'db_wersonbo.rattiv
+[]
+'db_wersonbo.rcomp
+[]
+'db_wersonbo.rnatgiu
+[]
+'db_wersonbo.sanumpro
+[]
+'db_wersonbo.sesso
+[]
+'db_wersonbo.settsint
+[]
+'db_wersonbo.settsint2
+[]
+'db_wersonbo.sospmaf
+[]
+'db_wersonbo.sotgrup
+[]
+'db_wersonbo.spotid
+[]
+'db_wersonbo.telef
+[]
+'db_wersonbo.tin
+[]
+'db_wersonbo.tipinter
+[]
+'db_wersonbo.tipodoc
+[]
+'db_wersonbo.tipooro
+[]
+'db_wersonbo.tipopers
+[]
+}
+*--*

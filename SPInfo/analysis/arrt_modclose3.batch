@@ -1,0 +1,101 @@
+﻿* --- Resource Vers. 0.9
+arrt_modclose3
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Aggiorna i dati dell'anagrafe rapporti
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:23
+module_name='
+name='arrt_modclose3
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aetesta.rapporto
+'aetesta.tipoag
+'aetesta.coint
+'aetesta.rifana
+'aestor.idbase
+'aestor.rapporto
+'aestor.connesint
+'aestor.aspedito
+'aestor.adata
+'aestor.aprog
+'aestor.afile
+'aestor.adataret
+'aestor.cspedito
+'aestor.cdata
+'aestor.cprog
+'aestor.cfile
+'aestor.cdataret
+'aestor.idrif
+'aestor.tipoag
+'aestor.coint
+'aestor.nocodfisc
+'aestor.progres
+'aecanc.adata
+'aecanc.adataret
+'aecanc.afile
+'aecanc.aprog
+'aecanc.aspedito
+'aecanc.cdata
+'aecanc.cfile
+'aecanc.coint
+'aecanc.connesint
+'aecanc.cprog
+'aecanc.cspedito
+'aecanc.datarif
+'aecanc.idbase
+'aecanc.idrif
+'aecanc.nocodfisc
+'aecanc.progres
+'aecanc.rapporto
+'aecanc.rifriga
+'aecanc.rifstor
+'aecanc.tipoag
+'aecanc.tipocan
+'aecanc.cdataret
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Tables
+[
+'aerighe<table>
+'aetesta<table>
+'aestor<table>
+'aecanc<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_modclose3|Error|core::document|Update dependencies|Field "aestor.RIFRIGA" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:23
+message='Field "aestor.RIFRIGA" not found.
+resource_key='arrt_modclose3
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

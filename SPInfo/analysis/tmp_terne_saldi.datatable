@@ -1,0 +1,353 @@
+﻿* --- Resource Vers. 0.9
+tmp_terne_saldi<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Terne Saldi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_terne_saldi
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_terne_saldi.tipoterna
+'tmp_terne_saldi.codfisc
+'tmp_terne_saldi.idfile
+'tmp_terne_saldi.prgrec
+'tmp_terne_saldi.tiprap
+'tmp_terne_saldi.datini
+'tmp_terne_saldi.datfin
+'tmp_terne_saldi.flgdel
+'tmp_terne_saldi.flgval
+'tmp_terne_saldi.rapporto
+'tmp_terne_saldi.coint
+'tmp_terne_saldi.tipoag
+'tmp_terne_saldi.tipoter
+'tmp_terne_saldi.tipoerr
+'tmp_terne_saldi.dbini
+'tmp_terne_saldi.dbfin
+'tmp_terne_saldi.codsog
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_terne_saldi.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODFISC
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.codsog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODSOG
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.coint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Cointestazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='COINT
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.datfin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Fine
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATFIN
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.datini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Inizio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATINI
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.dbfin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Fine DB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DBFIN
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.dbini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Inizio DB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DBINI
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.flgdel
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo (1 No coint,2 Coint,3 Delega)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLGDEL
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.flgval
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='0 Unmatching - 1 Matching
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLGVAL
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.idfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Identificativo File
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDFILE
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.prgrec
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Progressivo Record
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PRGREC
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPPORTO
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.tipoag
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Agenzia Entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOAG
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.tipoerr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOERR
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.tipoter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='R - D - O
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOTER
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.tipoterna
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Terna
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPOTERNA
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+'tmp_terne_saldi.tiprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPRAP
+state=3
+table_name='tmp_terne_saldi
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_terne_saldi.codfisc
+[]
+'tmp_terne_saldi.codsog
+[]
+'tmp_terne_saldi.coint
+[]
+'tmp_terne_saldi.datfin
+[]
+'tmp_terne_saldi.datini
+[]
+'tmp_terne_saldi.dbfin
+[]
+'tmp_terne_saldi.dbini
+[]
+'tmp_terne_saldi.flgdel
+[]
+'tmp_terne_saldi.flgval
+[]
+'tmp_terne_saldi.idfile
+[]
+'tmp_terne_saldi.prgrec
+[]
+'tmp_terne_saldi.rapporto
+[]
+'tmp_terne_saldi.tipoag
+[]
+'tmp_terne_saldi.tipoerr
+[]
+'tmp_terne_saldi.tipoter
+[]
+'tmp_terne_saldi.tipoterna
+[]
+'tmp_terne_saldi.tiprap
+[]
+}
+*--*

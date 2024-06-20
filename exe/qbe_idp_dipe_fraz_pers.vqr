@@ -1,0 +1,280 @@
+ 4
+"WEBANTI - Dipendenze"
+"webanti_anadip"
+"[PARAM2TBL(?tblanadip)]"
+ 0
+ 0
+*
+"WEBANTI - Frazionate"
+"webanti_fraziobo"
+"[PARAM2TBL(?tblfraziobo)]"
+ 0
+ 0
+*
+"WEBANTI - Soggetti"
+"webanti_personbo"
+"[PARAM2TBL(?tblpersonbo)]"
+ 0
+ 0
+*
+"WEBANTI - Dati Aggiutivi Soggetto"
+"webanti_personbo_agg"
+"[PARAM2TBL(?tblpersonbo_agg)]"
+ 0
+ 0
+*
+ 20
+"Fonte"
+"ýFý"
+"FONTE"
+"C"
+ 1
+ 0
+*
+"Idbase"
+"webanti_fraziobo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Codice Dipendenza"
+"webanti_fraziobo.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+*
+"Descrizione"
+"webanti_anadip.DESCRIZ"
+"DESCRIZ"
+"C"
+ 30
+ 0
+*
+"Nazionalità Agente"
+"webanti_anadip.NAZAGENTE"
+"NAZAGENTE"
+"C"
+ 3
+ 0
+*
+"Operazioni Sospette Cliente"
+"webanti_anadip.OPXSOSCLI"
+"OPXSOSCLI"
+"N"
+ 10
+ 0
+*
+"Operazioni Sospette Agente"
+"webanti_anadip.OPXSOSAGE"
+"OPXSOSAGE"
+"N"
+ 10
+ 0
+*
+"Valutazione Visita Compliance"
+"webanti_anadip.VALCOMPL"
+"VALCOMPL"
+"C"
+ 2
+ 0
+*
+"Anomalie Operative Riscontrate"
+"webanti_anadip.ANOMOPER"
+"ANOMOPER"
+"C"
+ 2
+ 0
+*
+"Regione Agente"
+"webanti_anadip.AGEREGIO"
+"AGEREGIO"
+"C"
+ 2
+ 0
+*
+"Provincia"
+"webanti_anadip.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"Totale Operazione"
+"webanti_fraziobo.TOTLIRE"
+"TOTLIRE"
+"N"
+ 15
+ 0
+*
+"Destinazione"
+"webanti_fraziobo.C_STA"
+"C_STA"
+"C"
+ 3
+ 0
+*
+"Codice Collegamento"
+"webanti_personbo.CONNES"
+"CONNES"
+"C"
+ 16
+ 0
+*
+"Codice Fiscale"
+"webanti_personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Codice Fiscale Estero"
+"webanti_personbo.CFESTERO"
+"CFESTERO"
+"N"
+ 10
+ 0
+*
+"Regione Residenza"
+"webanti_personbo_agg.REGRES"
+"REGRES"
+"C"
+ 2
+ 0
+*
+"BlackList"
+"webanti_personbo_agg.FLGBL"
+"FLGBL"
+"C"
+ 1
+ 0
+*
+"Codice Occupazione"
+"webanti_personbo_agg.CLOCCUPA"
+"CLOCCUPA"
+"N"
+ 3
+ 0
+*
+"Verifica Codice Fiscale"
+"0"
+"CHKCODFISC"
+"L"
+ 1
+ 0
+*
+ 3
+"Agenzie"
+"webanti_anadip.CODDIP=webanti_fraziobo.CODDIPE"
+"Right outer"
+"webanti_anadip"
+"webanti_fraziobo"
+*
+"Soggetti"
+"webanti_personbo.CONNES=webanti_fraziobo.CONNESCLI"
+"Right outer"
+"webanti_personbo"
+"webanti_fraziobo"
+*
+"Dati Soggetto"
+"webanti_personbo_agg.CONNES=webanti_personbo.CONNES"
+"Right outer"
+"webanti_personbo_agg"
+"webanti_personbo"
+*
+ 2
+"webanti_fraziobo.DATAOPE"
+""
+">="
+"?_dadata"
+"AND"
+""
+*
+"webanti_fraziobo.DATAOPE"
+""
+"<="
+"?_adata"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 6
+"_dadata"
+"Data Operazione"
+"D"
+"8"
+"0"
+""
+""
+*
+"_adata"
+"Data Operazione"
+"D"
+"8"
+"0"
+""
+""
+*
+"tblanadip"
+"tabella anadip"
+"C"
+"500"
+"0"
+""
+""
+*
+"tblfraziobo"
+"tabella fraziobo"
+"C"
+"500"
+"0"
+""
+""
+*
+"tblpersonbo"
+"tabella personbo"
+"C"
+"500"
+"0"
+""
+""
+*
+"tblpersonbo_agg"
+"tabella personbo_agg"
+"C"
+"500"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 16
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"D%2C6%29C%5D%24%5B%5BM7M%3F%3FCFGG%073%2B4FN%22F%22DB+%3F%21%17%28%24P4R%2BVWyE%40.%3E%2F_H%3F7%3D1%24%26%2C%1D%2BL%27vQY1%21%3C%2C3V%11%5C%28ETU%5DCI*%3E*RVCZC%3C%27%3B-OU*.%3FL%40V%24%28CW%25%22TUh%5CZ%3EO%27.%24%3A%3F%24%5BC%5B%23%21E+%5CZ*%3AM%5E%2BL%3DBX44%06%28NQ7%40A%10%3ENSMFZK%2C%3AN*%240SFX%2BM%06K*J%21933%25%5BKB%40%3D%11%2BO_%5B%274N%03BG-%298%5BTJR%3C.%3E%3BM%223+%25HKP%3D%29N%40V%26J%3A+Q%3CZE-%26B0%2C%22%3FL%60%5DD%26M%5BD%5D%3ECDO%5E%23%25I%3FO3%5EF%2B5%23%296%1F%00"
+"E%2BM%22GXA%40yV%3D%289%3AKE_0%3B%24Y%278%3C%2B%5C%29KH*B90%3F%25%5BD%04%22QS%2512IC%3AJ2ZI%3CE.%268GO%60%23T%5EK%40%29HD%2CY%3A-Y%25%5B%7BS%1E%14%236CB%3CCR%292%3FNJS8-%24YZ1%226J%23%25HX%25%23%40A%5CC7A9%5D18%19%24%3D37I%26RbWKS%2CSYHF%2FR%22%06.LZE1%3A%402%0BQiV%2F%3F%3B%2533%24ED.KTX%60226%3F%3A%28ZUv2*6E5%3A*IBDLY%2B%3B%3C%3A%25NCIVY%27%3F7%2528%223%2F%25%284WFKO*8FX6%3B%06EZ6C4EV%5EF1-6%3EM%3EDX%2722w7VP%223%25%08NN73Q7%25CAA%00"
+""
+""
+"native"
+ 0
+ 0
+*

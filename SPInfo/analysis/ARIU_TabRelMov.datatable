@@ -1,0 +1,543 @@
+﻿* --- Resource Vers. 0.9
+ariu_tabrelmov<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Soggetti Operazioni
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ARIU_TabRelMov
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'ariu_tabrelmov.numpromov
+'ariu_tabrelmov.codanasogrelmov
+'ariu_tabrelmov.tiprecrelmov
+'ariu_tabrelmov.tipintrelmov
+'ariu_tabrelmov.codintrelmov
+'ariu_tabrelmov.cognomrelmov
+'ariu_tabrelmov.nazestrelmov
+'ariu_tabrelmov.codcabcomrelmov
+'ariu_tabrelmov.descomrelmov
+'ariu_tabrelmov.codprocomrelmov
+'ariu_tabrelmov.indrelmov
+'ariu_tabrelmov.caprelmov
+'ariu_tabrelmov.codfisrelmov
+'ariu_tabrelmov.datnasrelmov
+'ariu_tabrelmov.comnasrelmov
+'ariu_tabrelmov.codsotattecorelmov
+'ariu_tabrelmov.codgruattecorelmov
+'ariu_tabrelmov.codsetsinrelmov
+'ariu_tabrelmov.codtipdocrelmov
+'ariu_tabrelmov.numdocrelmov
+'ariu_tabrelmov.datrildocrelmov
+'ariu_tabrelmov.autrildocrelmov
+'ariu_tabrelmov.codraprelmov
+'ariu_tabrelmov.tipraprelmov
+'ariu_tabrelmov.sexrelmov
+'ariu_tabrelmov.tipperrelmov
+'ariu_tabrelmov.codrapintmov
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'ariu_tabrelmov.autrildocrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Autorità Rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AutRilDocRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.caprelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAP Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CapRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.codanasogrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodAnaSogRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.codcabcomrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB RESIDENZA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodCabComRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.codfisrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodFisRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.codgruattecorelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='RAE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodGruAttEcoRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.codintrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodIntRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.codprocomrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodProComRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.codrapintmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='A che serve ?
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodRapIntMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.codraprelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodRapRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.codsetsinrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Settore Sintetico
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodSetSinRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.codsotattecorelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='SAE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodSotAttEcoRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.codtipdocrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CodTipDocRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.cognomrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nominativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CogNomRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.comnasrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Luogo Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ComNasRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.datnasrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DatNasRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.datrildocrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rilascio Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DatRilDocRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.descomrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Comune Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DesComRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.indrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IndRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.nazestrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Paese Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NazEstRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.numdocrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NumDocRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.numpromov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NumProMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.sexrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SexRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.tipintrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TipIntRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.tipperrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TipPerRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.tipraprelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Relazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TipRapRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+'ariu_tabrelmov.tiprecrelmov
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Interno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TipRecRelMov
+state=3
+table_name='ARIU_TabRelMov
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'ariu_tabrelmov.autrildocrelmov
+[]
+'ariu_tabrelmov.caprelmov
+[]
+'ariu_tabrelmov.codanasogrelmov
+[]
+'ariu_tabrelmov.codcabcomrelmov
+[]
+'ariu_tabrelmov.codfisrelmov
+[]
+'ariu_tabrelmov.codgruattecorelmov
+[]
+'ariu_tabrelmov.codintrelmov
+[]
+'ariu_tabrelmov.codprocomrelmov
+[]
+'ariu_tabrelmov.codrapintmov
+[]
+'ariu_tabrelmov.codraprelmov
+[]
+'ariu_tabrelmov.codsetsinrelmov
+[]
+'ariu_tabrelmov.codsotattecorelmov
+[]
+'ariu_tabrelmov.codtipdocrelmov
+[]
+'ariu_tabrelmov.cognomrelmov
+[]
+'ariu_tabrelmov.comnasrelmov
+[]
+'ariu_tabrelmov.datnasrelmov
+[]
+'ariu_tabrelmov.datrildocrelmov
+[]
+'ariu_tabrelmov.descomrelmov
+[]
+'ariu_tabrelmov.indrelmov
+[]
+'ariu_tabrelmov.nazestrelmov
+[]
+'ariu_tabrelmov.numdocrelmov
+[]
+'ariu_tabrelmov.numpromov
+[]
+'ariu_tabrelmov.sexrelmov
+[]
+'ariu_tabrelmov.tipintrelmov
+[]
+'ariu_tabrelmov.tipperrelmov
+[]
+'ariu_tabrelmov.tipraprelmov
+[]
+'ariu_tabrelmov.tiprecrelmov
+[]
+}
+*--*

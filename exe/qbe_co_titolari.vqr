@@ -1,0 +1,119 @@
+ 2
+"Intestatari Titolarità"
+"intestit"
+"intestit"
+ 0
+ 0
+*
+"Rapporto Titolare Effettivo"
+"rapotit"
+"rapotit"
+ 0
+ 0
+*
+ 1
+"Codice Titolare"
+"intestit.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+*
+ 1
+"Legami tra soggetti"
+"rapotit.CONNESCLI=intestit.CODCLI"
+"Inner"
+"rapotit"
+"intestit"
+*
+ 6
+"intestit.CODCLI"
+""
+"="
+"?pCODCLI"
+"AND"
+""
+*
+"([NOTEMPTYSTR(rapotit.STATOREG)]"
+""
+"="
+"0"
+"OR"
+""
+*
+"rapotit.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý))"
+"AND"
+""
+*
+"intestit.DATAINI"
+""
+"<="
+"?pDATOPE"
+"AND"
+""
+*
+"([NOTEMPTYDATE(intestit.DATAFINE)]"
+""
+"="
+"0"
+"OR"
+""
+*
+"intestit.DATAFINE"
+""
+">="
+"?pDATOPE)"
+"AND"
+""
+*
+ 0
+ 0
+ 1
+ 2
+"pCODCLI"
+"Soggetto"
+"C"
+"16"
+"0"
+""
+""
+*
+"pDATOPE"
+"Data Operazione"
+"D"
+"8"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 1
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+".L%5BZ2Uu8%23K7%290%23%2C%5D4%2B%5C-9%3AIBAX%2Cu3rU%5BCGC%5CE%04_%28k%23AMOEQ%7EQF%3D8%28+4%2B%1FB_%27%21o%2BF.*%3E59H%3A%28BA%2BRO%22%3C_+J9%26T%235%11E%24GLFAl%23cP3A%1A%28.P%3EYQ%27R%3F8%2C%3F%249D%2B%3B16%25-%3A%28%5C-uLq7%24%22%24%268K%2B%27WTI8%40HE%3DRZS%26%3E7%2B7%1B%29O4FN%3DC%3D38MB%3B0_%26W_%5BZ36MZ%7ETUGPK%5BJ6%1F+YF*YX1%2F%3F%23%24%223%23%26D5X%3B%3C%3A%3E0%25U%5C%187%25%3C-0OA6.vNST%5C*0%29%291%3E%3EB4PT%3B%3C%2B%3DLRW%4065RL9%3D%00"
+"GV%3BQY3%24XVn%3FA6%28CMJB%3B+7D%3C%2BLRCB_S%3F%2BDF7S%21%3C6t%5EK6D%23%3A%28%27%5CS073%3B%13%284Z%5D%40V%3D%22%5E%5D%3D50%3F%3A%05%2B%2CFEA%3AINXMKC%22%3BA9%2112%26%5BEt%3D%2Fc%2983%2F%2BG%5CRwIQF13%13%08YhA%24%04J%2BO%2F.%26%40wUVI4%26ODB%038.%3DB5A1G%15%217+kR%29%219%25%11M%3DWMQ-%5D%273%5B%3D6%3FX6*%3A%5C3%5E4%2F%15-7FHW%18%3B8%246MGDG%5Bu1BD8%3B+%26%2235%25%2F7H%3B6FFRJ7ONY%3A+%2F%3E5W9CvVZQY6%3FMQAZTVQK6%27%21I%23%27KOGVEW%3F%2B%24%00"
+""
+""
+"native"
+ 0
+ 0
+*

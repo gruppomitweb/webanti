@@ -1,0 +1,211 @@
+ 4
+"Soggetti conto informazioni"
+"intestbo"
+"intestbo"
+ 0
+ 0
+*
+"Anagrafica Rapporti"
+"anarapbo"
+"anarapbo"
+ 0
+ 0
+*
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Master)"
+"aetesta"
+"aetesta"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 6
+"idbase"
+"ýý"
+"IDBASE"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Rapporto (Copia della testata)"
+"intestbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Inizio"
+"intestbo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Fine"
+"intestbo.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo"
+"ýMý"
+"TIPO"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 3
+"Rapporti"
+"anarapbo.RAPPORTO=intestbo.RAPPORTO"
+"Inner"
+"anarapbo"
+"intestbo"
+*
+"Anagrafe Rapporti"
+"aetesta.RAPPORTO=intestbo.RAPPORTO"
+"Inner"
+"aetesta"
+"intestbo"
+*
+"Anagrafica Persone/Società/Legali Rappresentanti(Intestatario (Non Intermediario))"
+"personbo.CONNES=intestbo.CODINTER"
+"Right outer"
+"personbo"
+"intestbo"
+*
+ 4
+"anarapbo.NOPROT"
+""
+"<>"
+"1"
+"AND"
+""
+""
+*
+"([NOTEMPTYDATE(aetesta.DATAMODI)]"
+""
+"<>"
+"0"
+"AND"
+""
+""
+*
+"aetesta.DATAMODI"
+""
+">="
+"?w_dadata"
+"AND"
+""
+""
+*
+"aetesta.DATAMODI"
+""
+"<="
+"?w_a_data)"
+"AND"
+""
+""
+*
+ 2
+"Data Inizio"
+"DATAINI"
+"Ascending"
+*
+"Rapporto (Copia della testata)"
+"RAPPORTO"
+"Ascending"
+*
+ 0
+ 0
+ 2
+"w_dadata"
+"Data Inizio"
+"D"
+"8"
+"0"
+""
+""
+""
+.f.
+*
+"w_a_data"
+"Data Fine"
+"D"
+"8"
+"0"
+""
+""
+""
+.f.
+*
+""
+.f.
+"qbe_fam_chkperiodo_04"
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 10
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%2C-SQTQ%2CA%5BD%2F2JVN%40%3F%3B%03%1B%0A%1C%13%0Egpt%60aa%5D%06K%1EE%29%2F5%5DUYN%3DL+.0VDQO%3E4T%11B%1CB8%2F.%3BO%40-%28H8%2CH-_E7zY%25%24%3E%3F%24%5C6%3E%3C8%01%3A%1B%3C%27%3E+J4%5B4Z%22%3B%26%23E%5D%21I2_7G8FT-NR.%225%01FOO%2CC%27Q0%2B%609%3B%29CTHW4%29D%25A*4L%28%21%3AK%3CY7%22N7%3C%40St%5E1%29CP.%1D%25%3C4%3BQ%21Y%2F%3B%3EHK%2BZjG%3E6G%03H%2F6sXXvNSE+%2C6.-3%27%26R%3AV%3EF%23%26W%5B%3A_%3E743%2BN+ME%22T8%2CPRD0%3B%24%28%2FP%27%3CA76O%24%0BCSO%21.%15Y%3AAG%00"
+"%28Y%3EYG2%25HG%3F%3FA%3A3%24e%60%0E%10%13%01%13%14%09z%3B%5CE%40%21%3F%29%3BOE%3B+5VN%3DOl%1FO%3C_%21hF%27U79%3CBN%400Q%21WG1%23M%2FB%256%2F-HI%5CZ1+8%5E+Z%3F%2B%2F%40V%27%29%21-NWBZ%27GRN7D8+%3B%5CMG%21Q0%24%22%08%2B6%3E%3C3H+K6%3CFCNUW%5DV0%3CK%22%02MZ%29%29%40xQ%1FH%3D%3DIQ%3A%19%5C%3DY4%1A3QRtTH%28c%26O%24%40%3AN%5D%23J2%22lA%17%10%28GA0%1B%26*%3DF68O%3A%5EO0DC%5C%280%2F%2835%25%2C9E0%28C%21QW9_35%26%24L5MVJB*%3E%2C7%28G0J%5EB%23%07LEQ%5E%290%29Z%296%3BOYB%02%3E%246%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+*

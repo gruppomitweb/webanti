@@ -1,0 +1,63 @@
+﻿* --- Resource Vers. 0.9
+arrt_allinea_aerighe
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Importa esiti entratel
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_allinea_aerighe
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.ragsoc
+'personbo.codfisc
+'personbo.desccit
+'personbo.provincia
+'personbo.tipopers
+'personbo.cfestero
+'personbo.datanasc
+'personbo.nascomun
+'personbo.sesso
+'personbo.nasstato
+'personbo.nome
+'personbo.cognome
+'personbo.tipinter
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'tmp_list_imprich<table>
+'tmp_impesiti<table>
+'aerighe<table>
+'personbo<table>
+'aeoprig<table>
+'aederig<table>
+'tmp_imp_filae<table>
+]
+}
+I
+*--*
+￼[]
+*--*

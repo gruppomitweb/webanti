@@ -1,0 +1,150 @@
+ 2
+"Operazioni Frazionarte"
+"fraziobo"
+"fraziobo"
+ 0
+ 0
+*
+"Anagrafica Rapporti"
+"anarapbo"
+"anarapbo"
+ 0
+ 0
+*
+ 5
+"Idbase"
+"fraziobo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Codice Cliente Occasionale"
+"fraziobo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Soggetto Operante Conto Terzi"
+"fraziobo.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Beneficiario"
+"fraziobo.CONNESBEN"
+"CONNESBEN"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+""
+"fraziobo.CONNALTRO"
+"CONNALTRO"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 1
+"Rapporti"
+"anarapbo.RAPPORTO=fraziobo.RAPPORTO"
+"Right outer"
+"anarapbo"
+"fraziobo"
+*
+ 3
+"fraziobo.CDATREG"
+""
+"="
+"?w_dadata"
+"AND"
+""
+""
+*
+"(anarapbo.NOCANC"
+""
+"="
+"0"
+"OR"
+""
+""
+*
+"anarapbo.NOCANC"
+""
+"is null"
+")"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 0
+ 1
+"w_dadata"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 7
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"D%5DA%40%5E9D6KZ-%3B%2CXWW%5B%230FT%3E%3C%3FRc%2B+L%2CI%3D.%29LR1%07T%5DN%25Q%21EK*FS2%22XL3.J5%27Q%5EOl%23%3D%2CB.KY.3%5CW3HAL%29%2C%23IDRBR%24%27H1GM3-%2C%5B%2B6%3C+%3A%29%01%25.%04IIYn1F%23%5C+%5E2KSL%3C%10%213-S%2B-N%23%5B%5B%17CES%13+QSM*W.%15+9TEUHT5+O%189VBJ%5E2%2761LL-%3A%3BZ%25J4PZ.%22%3E%21OPK%2BP0RBBJ%29U%2C%21FHY4N7%2B%223%29%25EN+QN.%284%7E9_CQ%3A%3F88%1E%23%5BN%5CJ%2F%5B0F0NSI%3A1L3EQ%3D%26%23%25T%5D%5E%3FY%3BQ7DE%00"
+"t%29i%5B8Ju9%27%3F3757%5E4J%24%3AO%5CC%40J%5DZZXVFQ%06%16L8Z%400%07%40NV0E6*3NS82TM%018D%28L_%26ECq1%21*M%3B%26%3D-%28RX%5BEAKC%3FM%3CU+%5C9%3BL5OMB_.%3A%28PPCH%23%2698%2CPZYZ5%25%3FZF%5Bj9%2F.9C48%2CXQ%5Cn*6-94%3C4LY%22%40R%26NL%40L*OOS%3A1%27%0279HDSw%23MADXK%249%013%26RBW.FNM%3F%3B%40%5D%3F0%2FB%3FEI%3FD2F%27%3CWP%2F%16I%26%223-%26%262%232L%2F%21%28%27Z3+%284QC%29%29s7IL%3BLDY%2FO%29%2C%3C%04Q%23i%299%25G%3B9H%3A4%215%15%26+54%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

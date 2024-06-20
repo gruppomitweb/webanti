@@ -1,0 +1,134 @@
+ 1
+"Operazioni ExtraConto"
+"opextrbo"
+"opextrbo"
+ 0
+ 0
+*
+ 1
+"New Field"
+"COUNT(*)"
+"tot"
+"N"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 0
+ 6
+"(opextrbo.INVIATO"
+""
+"="
+"0"
+"AND"
+""
+"?inviato"
+*
+"opextrbo.ANNO"
+""
+">="
+"ý2011ý)"
+"AND"
+""
+"?inviato"
+*
+"(opextrbo.INVIATO"
+""
+"="
+"1"
+"AND"
+""
+"?modificato"
+*
+"opextrbo.DATAMODI"
+""
+"is not null"
+")"
+"AND"
+""
+"?modificato"
+*
+"(opextrbo.ANNULLA"
+""
+"="
+"0"
+"AND"
+""
+"?annullato"
+*
+"opextrbo.DATAANNU"
+""
+"is not null"
+")"
+"AND"
+""
+"?annullato"
+*
+ 0
+ 0
+ 0
+ 3
+"inviato"
+""
+"L"
+"1"
+"0"
+""
+""
+""
+.f.
+*
+"modificato"
+""
+"L"
+"1"
+"0"
+""
+""
+""
+.f.
+*
+"annullato"
+""
+"L"
+"1"
+"0"
+""
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 4
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%26JW%2BI%3Fv3*9.N%27%3FP73%18%5D%16W%3DC9G%3B%25QG%5E3%5EA%26G77%211XL%2B%5DCB+Z%5ER4E*%3FTFCF.%5C%5CHCC%3C28EA%3C%13%065OKT6%3A%24%22.%21CjI%5BN%5E%3B-1%2BcAHmIB%3DBCB%02%27%26T%285+P%40%3F82DP%5B+07_7KKIG%28vPZG%2F%27N%3C_%24T%5BEYA5%1F%28%40%0BBOKF%04%3D6%3DA%1ENS%23%27PRF2K%2C%23%01F%25%5BUFyS%3D.%21_%7E%3F%3DK%28*%5C13IMB-L0%22%5E%5C%15%3DM%223%2B%25%5B%5EZ%5B%1DL%3C%26*%3E1%25%5C04%11+%3BX8.%2CM.N%07%3A*.4%3C%3F%3DI%5E*60E%3F%22D1K%3D5%22PH%40%3A%00"
+"I%2ChxX7%2FkDAO%3B%3B3VV%3F%18%3E%17*38%22Y%3DRGR%5BV%278%40%26W%109.%28_DY%23D%13%3A%7C8D%3A00.-%3A4%26T%2C%23W%21N%2F+3H90Z.%2CY.n%40%3D*ZVFN%19%2F7%24O65LI%22%40nAF%2B%3DC%26QG%058RE_I%25%23C%2F*E2%21W4%27%27N0MB%2F*B%21R7KG8%28D%3A%22VASVB-6%08%24EO0%2C%25%23%2B9DQQ_H%40T1%5D%17828%3A%26%27%5E5%23K%28834LDE8%07A6O%40AI%5CT%298LP%5CNNL%223%23%26VTTn%285F%25%25%3B0D8D%00%3C83KQXK%3AZK..%2F0R%26%3C%21OXAMA%3E%122RhQ%1B%06.4O3%25%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

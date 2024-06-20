@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>Legge file excel sia xls che xlsx</description>
+    <note></note>
+    <function>
+        <name>openWb</name>
+        <description>Lettura del file e preparazione del Workbook</description>
+        <type>L</type>
+        <parameter>
+            <name>path</name>
+            <description>Path completa del docuneto da leggere</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>setSheet</name>
+        <description>Prende il foglio indicato</description>
+        <type>V</type>
+        <parameter>
+            <name>numeric_sheet</name>
+            <description>Numero del foglio da leggere</description>
+            <type>O</type>
+            <classname>int</classname>
+        </parameter>
+    </function>
+    <function>
+        <name>getRows</name>
+        <description>Ritorna un Iterator delle righe lette</description>
+        <type>V</type>
+    </function>
+    <function>
+        <name>getRow</name>
+        <description>ritorna la riga</description>
+        <type>V</type>
+    </function>
+    <function>
+        <name>hasNextRows</name>
+        <description>Verifica se ci sono ancora elementi nell&apos;Iterator</description>
+        <type>L</type>
+    </function>
+    <function>
+        <name>getCells</name>
+        <description>Crea un iterator con le celle</description>
+        <type>V</type>
+    </function>
+    <function>
+        <name>readall</name>
+        <description>leggi tutto</description>
+        <type>V</type>
+    </function>
+    <function>
+        <name>closeWb</name>
+        <description>chiudi il wb</description>
+        <type>L</type>
+        <parameter>
+            <name>path</name>
+            <description>path del file execl da salvare&#x0A;(lasciare vuoto se lettura file per semlice chiusura del wb)</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>getMcCelle</name>
+        <description>restituisce il mc delle celle</description>
+        <type>MC</type>
+        <classname>mcCellaExcel.MCRDef</classname>
+    </function>
+    <function>
+        <name>newWb</name>
+        <description>Creo un nuovo workbook per scrivere un file</description>
+        <type>V</type>
+        <parameter>
+            <name>xlsx</name>
+            <description>Crea un xlsx se true altrimenti un xls</description>
+            <type>L</type>
+        </parameter>
+    </function>
+    <function>
+        <name>newSheet</name>
+        <description>Funzione per creare un nuovo foglio dell&apos;excel in fase di scrittura</description>
+        <type>V</type>
+        <parameter>
+            <name>namesheet</name>
+            <description>Nome del foglio da creare</description>
+            <type>C</type>
+        </parameter>
+    </function>
+    <function>
+        <name>newRow</name>
+        <description>Creo un nuovo row sul file in scrittura</description>
+        <type>V</type>
+        <parameter>
+            <name>rowNum</name>
+            <description>Numero del record da aggiungere</description>
+            <type>O</type>
+            <classname>int</classname>
+        </parameter>
+    </function>
+    <function>
+        <name>newCell</name>
+        <description>Crea nuova cella in scrittura</description>
+        <type>V</type>
+        <parameter>
+            <name>cellNum</name>
+            <description>Numero della cella da aggiungere</description>
+            <type>O</type>
+            <classname>int</classname>
+        </parameter>
+    </function>
+    <function>
+        <name>setCellValue</name>
+        <description>Setta il valore nella cella</description>
+        <type>V</type>
+        <parameter>
+            <name>pCellStyle</name>
+            <description>Stile della cella da applicare</description>
+            <type>O</type>
+            <classname>CellStyle</classname>
+        </parameter>
+    </function>
+    <function>
+        <name>writeall</name>
+        <description>scrive tutto</description>
+        <type>V</type>
+        <parameter>
+            <name>autoSizeHeader</name>
+            <description>Autodimenziona le colonne sulla testa</description>
+            <type>L</type>
+        </parameter>
+    </function>
+    <function>
+        <name>setMcCelle</name>
+        <description>Funzione di valorizzazione del mc delle celle</description>
+        <type>V</type>
+        <parameter>
+            <name>pmcCelle</name>
+            <description>Mc da scrivere nel file excel</description>
+            <type>MC</type>
+            <classname>mcCellaExcel.MCRDef</classname>
+        </parameter>
+    </function>
+    <variable>
+        <name>pathFile</name>
+        <description>path completa del docuneto da leggere</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>wb</name>
+        <description>workbook da leggere</description>
+        <type>O</type>
+        <classname>Workbook</classname>
+    </variable>
+    <variable>
+        <name>nSheets</name>
+        <description>Numero di sheet del file da leggere</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>row</name>
+        <description>Oggetto del row da leggere</description>
+        <type>O</type>
+        <classname>Row</classname>
+    </variable>
+    <variable>
+        <name>cell</name>
+        <description>Oggetto della cella letta</description>
+        <type>O</type>
+        <classname>Cell</classname>
+    </variable>
+    <variable>
+        <name>sheet</name>
+        <description>Oggettod del foglio da leggere</description>
+        <type>O</type>
+        <classname>Sheet</classname>
+    </variable>
+    <variable>
+        <name>rows</name>
+        <description>Iteretor delle righe (contiene tutte le righe)</description>
+        <type>O</type>
+        <classname>Iterator&lt;Row&gt;</classname>
+    </variable>
+    <variable>
+        <name>cells</name>
+        <description>Iterator delle celle della riga letta</description>
+        <type>O</type>
+        <classname>Iterator&lt;Cell&gt;</classname>
+    </variable>
+    <variable>
+        <name>mcCelle</name>
+        <description>mc delle celle lette</description>
+        <type>MC</type>
+        <classname>mcCellaExcel.MCRDef</classname>
+    </variable>
+    <variable>
+        <name>riga_letta</name>
+        <description>Riga letta</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>colonna_letta</name>
+        <description>colonna letta</description>
+        <type>N</type>
+    </variable>
+    <variable>
+        <name>dateCellStyle</name>
+        <description>formattazione della cella di tipo data data &quot;dd-MM-yyyy&quot;</description>
+        <type>O</type>
+        <classname>CellStyle</classname>
+    </variable>
+</class>

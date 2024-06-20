@@ -1,0 +1,313 @@
+ 2
+"Operazioni ExtraConto"
+"opextrbo"
+"opextrbo"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 23
+"IDBASE"
+"opextrbo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Rapporto"
+"opextrbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"NDG"
+"opextrbo.COLLEG"
+"CONNESINT"
+"C"
+ 16
+ 0
+*
+"Data Operazione"
+"opextrbo.DATAOPE"
+"ADATA"
+"D"
+ 8
+ 0
+*
+"Progressivo"
+"NULL"
+"APROG"
+"C"
+ 25
+ 0
+*
+"Fiule"
+"NULL"
+"AFILE"
+"C"
+ 15
+ 0
+*
+"Tipo AGE"
+"ý98ý"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"No Codice Fiscale"
+"opextrbo.CFESTERO"
+"NOCODFISC"
+"C"
+ 1
+ 0
+*
+"COINT"
+"opextrbo.COINT"
+"COINT"
+"C"
+ 1
+ 0
+*
+"Codice Collegamento"
+"personbo.CONNES"
+"CONNES"
+"C"
+ 16
+ 0
+*
+"Codice MacroAgente"
+"personbo.MACROAGENTE"
+"MACROAGENTE"
+"C"
+ 5
+ 0
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Cognome"
+"personbo.COGNOME"
+"COGNOME"
+"C"
+ 26
+ 0
+*
+"Nome"
+"personbo.NOME"
+"NOME"
+"C"
+ 25
+ 0
+*
+"Stato di nascita"
+"personbo.NASSTATO"
+"NASSTATO"
+"C"
+ 30
+ 0
+*
+"Luogo di Nascita"
+"personbo.NASCOMUN"
+"NASCOMUN"
+"C"
+ 30
+ 0
+*
+"Data Nascita"
+"personbo.DATANASC"
+"DATANASC"
+"D"
+ 8
+ 0
+*
+"Prov. Di nascita"
+"personbo.TIPINTER"
+"TIPINTER"
+"C"
+ 2
+ 0
+*
+"Sesso"
+"personbo.SESSO"
+"SESSO"
+"C"
+ 1
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Città"
+"personbo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"personbo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"Codice Fiscale Estero"
+"personbo.CFESTERO"
+"CFESTERO"
+"N"
+ 1
+ 0
+*
+ 1
+"Soggetti"
+"personbo.CONNES=opextrbo.COLLEG"
+"Right outer"
+"personbo"
+"opextrbo"
+*
+ 7
+"opextrbo.DATAOPE"
+""
+">="
+"?w_DaDatOpe"
+"AND"
+""
+*
+"opextrbo.DATAOPE"
+""
+"<="
+"?w_ADatOpe"
+"AND"
+""
+*
+"personbo.MACROAGENTE"
+""
+"="
+"?w_codmage"
+"AND"
+""
+*
+"personbo.CODFISC"
+""
+"="
+"?w_codfisc"
+"AND"
+""
+*
+"personbo.NASSTATO"
+""
+"="
+"?w_statonas"
+"AND"
+""
+*
+"opextrbo.PROGOPEX"
+""
+">="
+"?_bottom"
+"AND"
+""
+*
+"opextrbo.PROGOPEX"
+""
+"<="
+"?_top"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 7
+"w_DaDatOpe"
+"Da Data Operazione"
+"D"
+"8"
+"0"
+"Remove"
+*
+"w_ADatOpe"
+"A Data Operazione"
+"D"
+"8"
+"0"
+"Remove"
+*
+"w_codmage"
+"Codice MacroAgente"
+"C"
+"5"
+"0"
+"Remove"
+*
+"w_codfisc"
+"Codice Fiscale"
+"C"
+"16"
+"0"
+"Remove"
+*
+"w_statonas"
+"Stato di nascita"
+"C"
+"30"
+"0"
+"Remove"
+*
+"_bottom"
+"Progressivo Riga"
+"N"
+"15"
+"0"
+""
+*
+"_top"
+"Progressivo Riga"
+"N"
+"15"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 12
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"v%26H_%40%3A%40J%40J6%26G6%5CEj%3F4%24%3AD%40B%275%5E_9%5Eb+7%26%22%02%11%07%2CC%40-%3DM4%13%3B*%3E%3F%27YM.F%3B%1FrMGX2q3W%28K%19%3B%3B1V%27h%25%5C%3F%3C%26%5BFjT%3C0H91.3RbK-NA%60%2F%3E%3BJ7M%3F7SHJ%3A%3B%40*5_kS.%3D%3A%01%12%2B%3D_JLw0NZ%2CG%2B%1A+L%3A+TNL%3B8%15%2C%2C*37K%29%24%27K%22H+FHO7U30H%2397%22%5DXK%5C.o%258%12XG6GK1AS%3A%27%24ULO%5BNs%5B%07FF%29%223+%26%258%25LH*J%3F%22_D75%3C1I%21%3DF3%23JV%27UP%28%25%19%28%40%287OTI0%23*96L%3FA5%5ELQ62*%00"
+"%23%25DF%3BRKB-AL*%3E0U%3FRK2B6E9%40BEEFP%239%24%28%2C%3D%5BO%07%06HW-4-%16K3Z_1B5L%26%3B%21E+%5EFE%3D%25%606%27%28A%5B%107T%23QGC7H%40%5BE8Q3%3B3%00%13CBE%5CXJT%2FDP%26F%1A%27G%25%2FZ%3CElJ%168Q%26%3DG%2F%3D*%02K%1BEY_ET%3EXc%04%3ALM9%24%2C%3DOQ%29Z2%277%25CHUL7%29%2510%2CNJwGl%5BGQ%2BF2V%22%23%5ETjxH%1D%3CCP+2H%1991SOIHM%3APW%3B+S0A%3DO%223%28%25wQLTH1D%3A%5C%3BA%2B%2C%26%2C%3D%2B%1E%238C*FZ%5E*G-%3D+H6Y%217%26L5.O%2C%2FSH%27%26FY0H1%00"
+""
+""
+"native"
+ 0
+ 0
+*

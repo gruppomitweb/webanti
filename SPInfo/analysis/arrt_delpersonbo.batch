@@ -1,0 +1,124 @@
+﻿* --- Resource Vers. 0.9
+arrt_delpersonbo
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Cancella Soggetto
+file_modified_on=#2022-08-24 11:03:02
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:11
+module_name='
+name='arrt_delpersonbo
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aerighe.connesint
+'personbo_agg.connes
+'personbo_dip.connes
+'personbo.connes
+'wersonbo_agg.connes
+'wersonbo.connes
+]
+'Tables
+[
+'xraziobo<table>
+'xperazbo<table>
+'xogopefbo<table>
+'xogopebo<table>
+'xntestit<table>
+'xntestbo<table>
+'xlientiope<table>
+'xlientifrz<table>
+'xerzistiope<table>
+'xerzistifrz<table>
+'xeneficope<table>
+'xeneficfrz<table>
+'xelegabo<table>
+'xapotit<table>
+'xapopebo<table>
+'wraziobo<table>
+'wperazbo<table>
+'wogopefbo<table>
+'wogopebo<table>
+'wntestbo<table>
+'wlientiope<table>
+'wlientifrz<table>
+'widuciabo<table>
+'werzistiope<table>
+'werzistifrz<table>
+'wersonbo<table>
+'weneficope<table>
+'weneficfrz<table>
+'wapopebo<table>
+'terzistiope<table>
+'terzistifrz<table>
+'sogopefbo<table>
+'sogopebo<table>
+'rapotit<table>
+'rapopebo<table>
+'personbo_dip<table>
+'personbo_agg<table>
+'personbo<table>
+'opextrbo<table>
+'operazbo<table>
+'kperazbo<table>
+'jperazbo<table>
+'jntestit<table>
+'jntestbo<table>
+'jelegabo<table>
+'japotit<table>
+'japopebo<table>
+'intestit<table>
+'intestbo<table>
+'fraziobo<table>
+'delegabo<table>
+'clientiope<table>
+'clientifrz<table>
+'beneficope<table>
+'beneficfrz<table>
+'aerighe<table>
+'aeoprig<table>
+'aederig<table>
+'woginfo<table>
+'fiduciabo<table>
+'soginfo<table>
+'garantbo<table>
+'xoginfo<table>
+'xiduciabo<table>
+'xarantbo<table>
+'welegabo<table>
+'warantbo<table>
+'jarantbo<table>
+'wersonbo_agg<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_delpersonbo|Error|core::document|Update dependencies|Table "wersonbo_dip" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:11
+message='Table "wersonbo_dip" not found.
+resource_key='arrt_delpersonbo
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

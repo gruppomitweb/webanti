@@ -1,0 +1,90 @@
+﻿* --- Resource Vers. 0.9
+arrt_estrai_bp_check_wu
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Estrazione dati mensili per BP (Tabellone e Check)
+file_modified_on=#2021-02-17 10:38:26
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:12
+module_name='
+name='arrt_estrai_bp_check_wu
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'analisi_sv.tipo
+'analisi_sv.numprog
+'analisi_sv.dataope
+'analisi_sv.segno
+'analisi_sv.coddipe
+'analisi_sv.descriz
+'analisi_sv.provincia1
+'analisi_sv.tiposv
+'analisi_sv.connescli
+'analisi_sv.ragsoc
+'analisi_sv.sotgrup
+'analisi_sv.provincia
+'analisi_sv.paese
+'analisi_sv.tipocont
+'analisi_sv.impout
+'analisi_sv.valuta
+]
+'Libraries
+[
+'LibreriaMit<project>
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_estrai_sv_ope_tab_wu_minmax.vqr
+'qbe_estrai_sv_ope_tab_wu.vqr
+'qbe_estrai_sv_frz_tab_wu_minmax.vqr
+'qbe_estrai_sv_frz_tab_wu.vqr
+'qbe_estrai_bp_ope_chk_wu.vqr
+'qbe_estrai_sv_ope_chk_wu.vqr
+]
+'Routines
+[
+'arfn_datesum
+'arfn_fdate
+'arfn_fdatetime
+'arfn_finemese
+'arrt_estrai_bp_check_wu
+]
+'Tables
+[
+'analisi_sv<table>
+'tbstati<table>
+'personbo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_estrai_bp_check_wu|Error|core::document|Update dependencies|Field "analisi_sv.ROWNUM" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:12
+message='Field "analisi_sv.ROWNUM" not found.
+resource_key='arrt_estrai_bp_check_wu
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

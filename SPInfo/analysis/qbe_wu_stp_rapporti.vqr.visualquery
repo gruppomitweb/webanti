@@ -1,0 +1,82 @@
+﻿* --- Resource Vers. 0.9
+qbe_wu_stp_rapporti.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:24
+description='
+file_modified_on=#2021-05-17 13:09:18
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:42
+module_name='
+name='qbe_wu_stp_rapporti.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'personbo.codfisc
+'personbo.cognome
+'personbo.nome
+'personbo.sesso
+'personbo.datanasc
+'personbo.nascomun
+'personbo.nasstato
+'personbo.tipinter
+'personbo.domicilio
+'personbo.desccit
+'personbo.provincia
+'personbo.cap
+'personbo.paese
+'personbo.tipodoc
+'tbtipdoc.descri
+'personbo.numdocum
+'personbo.datarilasc
+'personbo.autrilasc
+'personbo.datavali
+'intestbo.dataini
+'intestbo.datafine
+'personbo_agg.email
+'personbo_agg.flgemail
+'personbo_agg.telefono
+'personbo.codcab
+'tbstati.descri
+'anarapbo.rapporto
+'anarapbo.macodice
+]
+'Tables
+[
+'anarapbo<table>
+'personbo<table>
+'tbtipdoc<table>
+'intestbo<table>
+'personbo_agg<table>
+'tbstati<table>
+]
+}
+I
+*--*
+￼[]
+*--*

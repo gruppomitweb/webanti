@@ -1,0 +1,70 @@
+﻿* --- Resource Vers. 0.9
+qbe_oam_fraziobo.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:22
+description='
+file_modified_on=#2022-08-09 09:53:57
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:38
+module_name='
+name='qbe_oam_fraziobo.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'fraziobo.numprog
+'fraziobo.idbase2
+'fraziobo.dataope
+'fraziobo.valuta
+'fraziobo.segno
+'fraziobo.impin
+'fraziobo.impout
+'fraziobo.coddipe
+'fraziobo.connescli
+'fraziobo.datareg
+'fraziobo.statoreg
+'fraziobo.datarett
+'fraziobo.codana
+'anadip.desccit
+'anadip.cap
+'fraziobo.cambio
+]
+'Queries
+[
+'qbe_oam_jperazbo.vqr
+]
+'Tables
+[
+'fraziobo<table>
+'anadip<table>
+]
+}
+I
+*--*
+￼[]
+*--*

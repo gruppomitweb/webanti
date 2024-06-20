@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Anomalie Rapporti Continuativi / Operazioni Extraconto per invio Saldi Annuali -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_inviosaldi_anomalie||version||4.6||title||Stampa Anomalie Rapporti Continuativi / Operazioni Extraconto per invio Saldi Annuali||query||qbe_inviosaldi_anomalie||font||Tahoma||font_size||7||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-02-17||date_rev||2015-05-27||form_class|| ||grid_dx||8||grid_dy||7||grid_show||1||grid_use||1||snaplines_show||1||language|| ||merge||false||modcnt||22||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding|| ||hsl||false||lock_items||false||maxcount||37||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||91||uid||LIMWODQNWW||sequence||4||bb_sequence||2||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||193||uid||VUFWKCNVLQ||sequence||8||bb_sequence||3||page||1|||type||Group_top||comment||group0||exp||c_TIPORAP||name||group0||y||113||uid||XXOAHIMDJI||sequence||14||bb_sequence||25||page||1||start_each_on_page||true||reprint_header||true|||type||Group_down||comment||group0||exp||c_TIPORAP||name||group0||y||192||uid||GLEMSNTEMW||sequence||13||bb_sequence||24||page||1||start_each_on_page||true||reprint_header||true|||type||Group_top||comment||group1||exp||True||name||group1||y||154||uid||XUOQAMHDHV||sequence||17||bb_sequence||28||page||1|||type||Group_down||comment||group1||exp||True||name||group1||y||191||uid||MZZMIKVJOQ||sequence||16||bb_sequence||27||page||1|||type||Section_top||comment||section0||hidecond||c_TIPO=&#39;O&#39;||printblock||true||name||section0||y||116||uid||ZKGYOBOFRQ||sequence||23||bb_sequence||30||page||1|||type||Section_down||comment||section0||hidecond||c_TIPO=&#39;O&#39;||name||section0||y||134||uid||TFNJMDDINJ||sequence||22||bb_sequence||29||page||1|||type||Section_top||comment||section1||hidecond||c_TIPO=&#39;O&#39;||printblock||true||name||section1||y||135||uid||QESJTHWZHV||sequence||25||bb_sequence||32||page||1|||type||Section_down||comment||section1||hidecond||c_TIPORAP=&#39;O&#39;||name||section1||y||153||uid||OMDXABNXKT||sequence||24||bb_sequence||31||page||1|||type||Section_top||comment||section2||hidecond||c_TIPO=&#39;O&#39;||name||section2||y||155||uid||WDOJZMMONI||sequence||31||bb_sequence||38||page||1|||type||Section_down||comment||section2||hidecond||c_TIPO=&#39;O&#39;||name||section2||y||172||uid||KWUWQWYUTL||sequence||30||bb_sequence||37||page||1|||type||Section_top||comment||section3||hidecond||c_TIPO=&#39;R&#39;||name||section3||y||173||uid||ZXVQRLHVZI||sequence||35||bb_sequence||43||page||1|||type||Section_down||comment||section3||hidecond||c_TIPO=&#39;R&#39;||name||section3||y||190||uid||FUBUSYAYUL||sequence||34||bb_sequence||42||page||1|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||name||label0||uid||TWPXTLUFTH||page||1||x||8||y||7||w||719||h||21||sequence||12||global_font||false||font||Arial||font_size||11||font_weight||bold|||type||Box||name||Box1||x||8||y||35||w||1059||h||35||uid||EAZRQFADDM||sequence||1||page||1||bb_border_colour||false||border_width||1|||type||Label||value||STAMPA ANOMALIE RAPPORTI CONTINUATIVI / OPERAZIONI EXTRACONTO PER INVIO SALDI ANNUALI||text_type||constant||name||label2||uid||LMETHZJMJV||page||1||x||16||y||40||w||1048||h||26||sequence||2||global_font||false||font||Tahoma||font_size||14||font_weight||bold|||type||Label||value||&#39;ANNO DI RIFERIMENTO: &#39;+anno||text_type||expression||name||label3||uid||WGHHGZRXUL||page||1||x||8||y||74||w||952||h||16||sequence||3||global_font||false||font||Tahoma||font_size||9||font_weight||bold|||type||Expr||exp||iif(c_TIPORAP=&#39;R&#39;,&#39;RAPPORTI CONTINUATIVI&#39;,&#39;OPERAZIONI EXTRACONTO&#39;)||len||100||dec||0||name||expr4||uid||IJEJPWERBG||page||1||x||8||y||95||w||632||h||16||sequence||15||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box5||x||8||y||115||w||1059||h||0||uid||IMTJLQXHYO||sequence||18||page||1||bb_border_colour||false||border_width||1|||type||Label||value||Rapporto||text_type||constant||name||label6||uid||XHZUBQWWLJ||page||1||x||8||y||118||w||56||h||16||sequence||5||global_font||false||font||Tahoma||font_size||8||font_weight||bold||hidecond||c_TIPORAP=&#39;O&#39;|||type||Label||value||Errori||text_type||constant||name||label7||uid||QGAZOSOGIR||page||1||x||568||y||118||w||72||h||16||sequence||21||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box8||x||8||y||132||w||1059||h||0||uid||NPEDHTWAIC||sequence||6||page||1||bb_border_colour||false||border_width||1|||type||Label||value||NDG||text_type||constant||name||label9||uid||IKPZIGPRWW||page||1||x||8||y||137||w||104||h||16||sequence||27||align||center||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Nominativo||text_type||constant||name||label10||uid||EKVKJWBAQI||page||1||x||120||y||137||w||104||h||16||sequence||28||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Errori||text_type||constant||name||label11||uid||PEHZBKQJHF||page||1||x||568||y||137||w||72||h||16||sequence||29||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box12||x||8||y||151||w||1059||h||0||uid||XKWFWCZDTN||sequence||26||page||1||bb_border_colour||false||border_width||1|||type||Expr||exp||c_RAPPORTO||len||25||dec||0||name||expr13||uid||DTCLQQKEJM||page||1||x||8||y||157||w||144||h||14||sequence||32||global_font||false||font||Tahoma||font_size||7||font_weight||normal||hidecond||c_TIPORAP=&#39;O&#39;|||type||Expr||exp||c_DESCRAP1||len||50||dec||0||name||expr14||uid||NASOKSGNXH||page||1||x||160||y||157||w||320||h||14||sequence||33||hidecond||c_TIPORAP=&#39;O&#39;|||type||Expr||exp||c_TXTERR||len||100||dec||0||name||expr15||uid||UOHBTNXRGU||page||1||x||568||y||157||w||496||h||14||sequence||36||global_font||false||font||Tahoma||font_size||7||font_weight||normal|||type||Expr||exp||c_TXTERR||len||100||dec||0||name||expr16||uid||MJFHVZKXLG||page||1||x||568||y||175||w||496||h||14||sequence||7||global_font||false||font||Tahoma||font_size||7||font_weight||normal|||type||Expr||exp||qbe_inviosaldi_anomalie.c_CODINTEST||len||16||dec||0||name||expr17||uid||SJIDOPKNML||page||1||x||8||y||175||w||105||h||14||sequence||19||global_font||false||font||Tahoma||font_size||7||font_weight||normal|||type||Expr||exp||c_RAGSOC||len||70||dec||0||name||expr18||uid||UXEAUADOGT||page||1||x||120||y||175||w||440||h||14||sequence||20||global_font||false||font||Tahoma||font_size||7||font_weight||normal|||type||Box||name||Box19||x||8||y||195||w||1059||h||0||uid||ALIXGKXVVP||sequence||9||page||1||bb_border_colour||false||border_width||1|||type||Label||value||&#39;Data: &#39;+arfn_fdate(Date())||text_type||expression||name||label20||uid||JYALFCRFEE||page||1||x||8||y||197||w||165||h||16||sequence||10||global_font||false||font||Tahoma||font_size||8||font_weight||normal|||type||Label||value||&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))||text_type||expression||name||label21||uid||PRLPKWQQVB||page||1||x||662||y||197||w||405||h||16||sequence||11||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal||| -->
+
+<REPORT NAME="arrp_inviosaldi_anomalie" TITLE="Stampa Anomalie Rapporti Continuativi / Operazioni Extraconto per invio Saldi Annuali" QUERY="qbe_inviosaldi_anomalie" MAXDEPTH="2" GLBFONTNAME="Tahoma" GLBFONTSIZE="7" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_inviosaldi_anomalie.TIPO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_inviosaldi_anomalie.RAPPORTO" TYPE="C" LEN="25" DEC="0" />
+    <FIELD NAME="qbe_inviosaldi_anomalie.DESCRAP" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_inviosaldi_anomalie.CODINTEST" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_inviosaldi_anomalie.RAGSOC" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_inviosaldi_anomalie.TXTERR" TYPE="C" LEN="80" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="91" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="7" X="8" YY="28" XX="727"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="35" X="8" YY="70" XX="1067"
+                    ALIGN="L"
+                    UID="EAZRQFADDM" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="STAMPA ANOMALIE RAPPORTI CONTINUATIVI / OPERAZIONI EXTRACONTO PER INVIO SALDI ANNUALI" EXPRTYPE="constant"
+                    Y="40" X="16" YY="66" XX="1064"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="14"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="EAZRQFADDM"/>
+              <ITEM OBJ="stringa" NAME="&#39;ANNO DI RIFERIMENTO: &#39;+anno" EXPRTYPE="expression"
+                    Y="74" X="8" YY="90" XX="960"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="21" FOOTH="0" SYMNAME="" UID="XXOAHIMDJI" TOP="112" BOTTOM="180" EXPRESSION="c_TIPORAP" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="true" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+              <ITEM OBJ="espressione" NAME="iif(c_TIPORAP=&#39;R&#39;,&#39;RAPPORTI CONTINUATIVI&#39;,&#39;OPERAZIONI EXTRACONTO&#39;)" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="3" X="8" YY="19" XX="640"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    LEN="100"
+                    />
+          <SECTION TYPE="group" HEADH="36" FOOTH="0" SYMNAME="" UID="XUOQAMHDHV" TOP="148" BOTTOM="180" EXPRESSION="True" DISPLAY_EXPRESSION=""
+           STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+           PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+                      <ITEM OBJ="h_line" Y="1" X="8" XX="1068" BORDERWIDTH="1"
+                            ALIGN="L"
+                            />
+                        <SECTIONHIDE TYPE="section" UID="ZKGYOBOFRQ" HEADH="17" TOP="114" BOTTOM="131" EXPRESSION="c_TIPO=&#39;O&#39;" PRINTASBLOCK="true">
+                              <ITEM OBJ="stringa" NAME="Rapporto" EXPRTYPE="constant"
+                                    Y="3" X="8" YY="19" XX="64"
+                                    ALIGN="L"
+                                    HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                                    REPEATED="true"
+                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                    FONTSTYLE="B"
+                                    />
+                              <ITEM OBJ="stringa" NAME="Errori" EXPRTYPE="constant"
+                                    Y="3" X="568" YY="19" XX="640"
+                                    ALIGN="L"
+                                    REPEATED="true"
+                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                    FONTSTYLE="B"
+                                    />
+                              <ITEM OBJ="h_line" Y="17" X="8" XX="1068" BORDERWIDTH="1"
+                                    ALIGN="L"
+                                    />
+                        </SECTIONHIDE>
+                        <SECTIONHIDE TYPE="section" UID="QESJTHWZHV" HEADH="17" TOP="131" BOTTOM="148" EXPRESSION="c_TIPO=&#39;O&#39;" PRINTASBLOCK="true">
+                              <ITEM OBJ="stringa" NAME="NDG" EXPRTYPE="constant"
+                                    Y="20" X="8" YY="36" XX="112"
+                                    ALIGN="C"
+                                    REPEATED="true"
+                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                    FONTSTYLE="B"
+                                    />
+                              <ITEM OBJ="stringa" NAME="Nominativo" EXPRTYPE="constant"
+                                    Y="20" X="120" YY="36" XX="224"
+                                    ALIGN="L"
+                                    REPEATED="true"
+                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                    FONTSTYLE="B"
+                                    />
+                              <ITEM OBJ="stringa" NAME="Errori" EXPRTYPE="constant"
+                                    Y="20" X="568" YY="36" XX="640"
+                                    ALIGN="L"
+                                    REPEATED="true"
+                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                    FONTSTYLE="B"
+                                    />
+                              <ITEM OBJ="h_line" Y="34" X="8" XX="1068" BORDERWIDTH="1"
+                                    ALIGN="L"
+                                    />
+                        </SECTIONHIDE>
+                  <SECTION TYPE="group" HEADH="32" FOOTH="0" EXPRESSION="" SYMNAME=""
+                   STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+                   REPRINTHEADER="false" REPRINTFOOTER="false">
+                                <SECTIONHIDE TYPE="section" UID="WDOJZMMONI" HEADH="16" TOP="148" BOTTOM="164" EXPRESSION="c_TIPO=&#39;O&#39;" PRINTASBLOCK="false">
+                                      <ITEM OBJ="espressione" NAME="c_RAPPORTO" ITEMTYPE="C" EXPRTYPE="expression"
+                                            Y="1" X="8" YY="15" XX="152"
+                                            ALIGN="L"
+                                            HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                                            REPEATED="true"
+                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                                            LEN="25"
+                                            />
+                                      <ITEM OBJ="espressione" NAME="c_DESCRAP1" ITEMTYPE="C" EXPRTYPE="expression"
+                                            Y="1" X="160" YY="15" XX="480"
+                                            ALIGN="L"
+                                            HIDECONDITION="c_TIPORAP=&#39;O&#39;"
+                                            REPEATED="true"
+                                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="7"
+                                            LEN="50"
+                                            />
+                                      <ITEM OBJ="espressione" NAME="c_TXTERR" ITEMTYPE="C" EXPRTYPE="expression"
+                                            Y="1" X="568" YY="15" XX="1064"
+                                            ALIGN="L"
+                                            REPEATED="true"
+                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                                            LEN="100"
+                                            />
+                                </SECTIONHIDE>
+                                <SECTIONHIDE TYPE="section" UID="ZXVQRLHVZI" HEADH="16" TOP="164" BOTTOM="180" EXPRESSION="c_TIPO=&#39;R&#39;" PRINTASBLOCK="false">
+                                      <ITEM OBJ="espressione" NAME="c_TXTERR" ITEMTYPE="C" EXPRTYPE="expression"
+                                            Y="17" X="568" YY="31" XX="1064"
+                                            ALIGN="L"
+                                            REPEATED="true"
+                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                                            LEN="100"
+                                            />
+                                      <ITEM OBJ="espressione" NAME="qbe_inviosaldi_anomalie.c_CODINTEST" ITEMTYPE="C" EXPRTYPE="expression"
+                                            Y="17" X="8" YY="31" XX="113"
+                                            ALIGN="L"
+                                            REPEATED="true"
+                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                                            LEN="16"
+                                            />
+                                      <ITEM OBJ="espressione" NAME="c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                                            Y="17" X="120" YY="31" XX="560"
+                                            ALIGN="L"
+                                            REPEATED="true"
+                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                                            LEN="70"
+                                            />
+                                </SECTIONHIDE>
+                  </SECTION>
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="180" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="8" XX="1068" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="3" X="8" YY="19" XX="173"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+                    Y="3" X="662" YY="19" XX="1067"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

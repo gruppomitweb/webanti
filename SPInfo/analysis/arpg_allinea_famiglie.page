@@ -1,0 +1,86 @@
+﻿* --- Resource Vers. 0.9
+arpg_allinea_famiglie
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:30
+description='Allineamento famiglie da file SID
+file_modified_on=#2018-06-11 07:20:48
+location='
+measures={}
+modified_on=#2024-05-10 18:24:59
+module_name='
+name='arpg_allinea_famiglie
+state=1
+type='page
+used_resource_keys={
+'Hyperlinks
+[
+'arrt_allinea_famiglie
+'jsp\start_page_logo_portlet.jsp
+]
+'Others
+[
+'jsp\showmsg_portlet.jsp
+'jsp\showlog_portlet.jsp
+'arrt_imp_dati
+'arrt_imp_dati_multipli
+'arrt_imp_dati_ac
+'arrt_imp_dati_wubs
+]
+'Routines
+[
+'azzera_messaggi
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_allinea_famiglie|Error|core::document|Update dependencies|Resource "sp_huploadfile" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:59
+message='Resource "sp_huploadfile" not found.
+resource_key='arpg_allinea_famiglie
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_allinea_famiglie|Error|core::document|Update dependencies|Resource "arrt_imp_dati_telepass" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:59
+message='Resource "arrt_imp_dati_telepass" not found.
+resource_key='arpg_allinea_famiglie
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_allinea_famiglie|Error|core::document|Update dependencies|Resource "arrt_imp_dati_multipli_telepass" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:59
+message='Resource "arrt_imp_dati_multipli_telepass" not found.
+resource_key='arpg_allinea_famiglie
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

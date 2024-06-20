@@ -1,0 +1,961 @@
+﻿* --- Resource Vers. 0.9
+imp_opeage<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='OPEAGE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='imp_opeage
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'imp_opeage.dataope
+'imp_opeage.flagcont
+'imp_opeage.codana
+'imp_opeage.codvoc
+'imp_opeage.tipoint2
+'imp_opeage.codint2
+'imp_opeage.paese
+'imp_opeage.desc2
+'imp_opeage.prov2
+'imp_opeage.codcab2
+'imp_opeage.descinter
+'imp_opeage.rapporto
+'imp_opeage.flagrap
+'imp_opeage.tipoleg
+'imp_opeage.datareg
+'imp_opeage.flaglire
+'imp_opeage.valuta
+'imp_opeage.segno
+'imp_opeage.totlire
+'imp_opeage.totcont
+'imp_opeage.connescli
+'imp_opeage.connesoper
+'imp_opeage.cambio
+'imp_opeage.numprog
+'imp_opeage.tipooprap
+'imp_opeage.tipointer
+'imp_opeage.codinter
+'imp_opeage.coddipe
+'imp_opeage.desccit
+'imp_opeage.provincia
+'imp_opeage.codcab
+'imp_opeage.flagfraz
+'imp_opeage.connesben
+'imp_opeage.uniquecode
+'imp_opeage.agoper
+'imp_opeage.rifimp
+'imp_opeage.zcparte
+'imp_opeage.ragio
+'imp_opeage.modsvol
+'imp_opeage.areageo
+'imp_opeage.inform
+'imp_opeage.ammont
+'imp_opeage.durat
+'imp_opeage.tipo
+'imp_opeage.rragio
+'imp_opeage.rcomp
+'imp_opeage.rarea
+'imp_opeage.rimp
+'imp_opeage.rfreq
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'imp_opeage.agoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo operazione agenzia entrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AGOPER
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.ammont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Ammontare Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AMMONT
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Area Geografica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AREAGEO
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.cambio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cambio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAMBIO
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.codana
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Analitica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODANA
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Città Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.codcab2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Città Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB2
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.codint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINT2
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.codinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTER
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.codvoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Sintetica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODVOC
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.connesben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Beneficiario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESBEN
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.connescli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Cliente Occasionale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESCLI
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.connesoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Esecutore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESOPER
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.datareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAREG
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.desc2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Intermediario/Resistenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESC2
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Intermediario/Resistenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.descinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Intermediario Banca Estera
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCINTER
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.durat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Durata Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DURAT
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.flagcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='S se contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGCONT
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.flagfraz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Se compattata da frazionata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGFRAZ
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.flaglire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGLIRE
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.flagrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGRAP
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.inform
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Annotazioni Varie
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INFORM
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.modsvol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Modalità svolgimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MODSVOL
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Nazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESE
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.prov2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROV2
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Intermediario/Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.ragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Ragionevolezza rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGIO
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.rarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAREA
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.rcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RCOMP
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.rfreq
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RFREQ
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.rifimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Riferimento Import
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIFIMP
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.rimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RIMP
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.rragio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RRAGIO
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.segno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Segno OPerazione (Dare/Avere)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SEGNO
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Classe Rischio Tipo Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPO
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.tipoint2
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINT2
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.tipointer
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOINTER
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.tipoleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Legame Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOLEG
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.tipooprap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOOPRAP
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.totcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTCONT
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.totlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTLIRE
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.uniquecode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Univoco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='UNIQUECODE
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALUTA
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+'imp_opeage.zcparte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Semplifficata Int. Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ZCPARTE
+state=3
+table_name='imp_opeage
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'imp_opeage.agoper
+[]
+'imp_opeage.ammont
+[]
+'imp_opeage.areageo
+[]
+'imp_opeage.cambio
+[]
+'imp_opeage.codana
+[]
+'imp_opeage.codcab
+[]
+'imp_opeage.codcab2
+[]
+'imp_opeage.coddipe
+[]
+'imp_opeage.codint2
+[]
+'imp_opeage.codinter
+[]
+'imp_opeage.codvoc
+[]
+'imp_opeage.connesben
+[]
+'imp_opeage.connescli
+[]
+'imp_opeage.connesoper
+[]
+'imp_opeage.dataope
+[]
+'imp_opeage.datareg
+[]
+'imp_opeage.desc2
+[]
+'imp_opeage.desccit
+[]
+'imp_opeage.descinter
+[]
+'imp_opeage.durat
+[]
+'imp_opeage.flagcont
+[]
+'imp_opeage.flagfraz
+[]
+'imp_opeage.flaglire
+[]
+'imp_opeage.flagrap
+[]
+'imp_opeage.inform
+[]
+'imp_opeage.modsvol
+[]
+'imp_opeage.numprog
+[]
+'imp_opeage.paese
+[]
+'imp_opeage.prov2
+[]
+'imp_opeage.provincia
+[]
+'imp_opeage.ragio
+[]
+'imp_opeage.rapporto
+[]
+'imp_opeage.rarea
+[]
+'imp_opeage.rcomp
+[]
+'imp_opeage.rfreq
+[]
+'imp_opeage.rifimp
+[]
+'imp_opeage.rimp
+[]
+'imp_opeage.rragio
+[]
+'imp_opeage.segno
+[]
+'imp_opeage.tipo
+[]
+'imp_opeage.tipoint2
+[]
+'imp_opeage.tipointer
+[]
+'imp_opeage.tipoleg
+[]
+'imp_opeage.tipooprap
+[]
+'imp_opeage.totcont
+[]
+'imp_opeage.totlire
+[]
+'imp_opeage.uniquecode
+[]
+'imp_opeage.valuta
+[]
+'imp_opeage.zcparte
+[]
+}
+*--*

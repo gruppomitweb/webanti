@@ -1,0 +1,92 @@
+﻿* --- Resource Vers. 0.9
+arrt_esito_rap_cf
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Esamina Esiti Agenzia Entrate (Routine)
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:12
+module_name='
+name='arrt_esito_rap_cf
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_list_imprich.nomefile
+'tbesitoae.tipo
+'tbesitoae.codice
+'tbesitoae.descri
+'personbo.connes
+'personbo.cfestero
+'personbo.allineato
+'tmp_esiti_age.connes
+'tmp_esiti_age.ragsoc
+'tmp_esiti_age.prot
+'tmp_esiti_age.info
+'tmp_esiti_age.nfile
+'tmp_esiti_age.idfile
+'tmp_esiti_age.progrec
+'tmp_esiti_age.numprog
+'tmp_esiti_age.cod
+'tmp_esiti_age.sottcod
+'tmp_esiti_age.idesito
+'tmp_esiti_age.descricod
+'tmp_esiti_age.descriscod
+'aerighe.aprog
+'aerighe.afile
+'aerighe.rapporto
+'aerighe.adataret
+'aerighe.nocodfisc
+'aerighe.cprog
+'aerighe.cfile
+'aederig.aprog
+'aederig.afile
+'aederig.rapporto
+'aederig.adataret
+'aederig.nocodfisc
+'aederig.cprog
+'aederig.cfile
+'aeoprig.aprog
+'aeoprig.afile
+'aeoprig.connesint
+'aeoprig.adataret
+'aeoprig.nocodfisc
+'tmp_esiti_age.tipoesito
+'aerighe.connesint
+'aederig.connesint
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'tmp_list_imprich<table>
+'tmp_esiti_age<table>
+'tbesitoae<table>
+'aerighe<table>
+'aederig<table>
+'aeoprig<table>
+'aefiles_esiti<table>
+'personbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

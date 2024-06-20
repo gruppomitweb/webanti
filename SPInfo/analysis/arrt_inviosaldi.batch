@@ -1,0 +1,97 @@
+﻿* --- Resource Vers. 0.9
+arrt_inviosaldi
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:38
+description='Estrazione Dati per invio annuale saldi
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:22
+module_name='
+name='arrt_inviosaldi
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'anarapbo.rapporto
+'anarapbo.descrap
+'jnarapbo.rapporto
+'jnarapbo.descrap
+'tmp_stprapporti.tiporap
+'tmp_stprapporti.rapporto
+'tmp_stprapporti.codinter
+'tmp_stprapporti.dataini
+'tmp_stprapporti.datafine
+'tmp_stprapporti.idereg
+'tmp_stprapporti.descrap
+'aeinvio.rapporto
+'aeinvio.connesint
+'aeinvio.anno
+'aeinvio.tipo
+'aeinvio.fileanno
+'aetesta.rapporto
+'aetesta.descri
+'aetesta.valuta
+'aetesta.uniquecode
+'aeannora.rapporto
+'aeannora.anno
+'aeannora.idbase
+'tmp_esitosaldi.tipo
+'tmp_esitosaldi.rapporto
+'tmp_esitosaldi.codintest
+'tmp_esitosaldi.txterr
+'aeoprig.idbase
+'aeoprig.uniquecode
+'aeoprig.rapporto
+'aeoprig.anno
+'aeoprig.saldo
+'aeoprig.valuta
+'aeoprig.quantita
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+'ReportLibrary<painter>
+]
+'Queries
+[
+'qbe_inviosaldi_minmax_rap.vqr
+'qbe_inviosaldi_rap.vqr
+'qbe_inviosaldi_minmax_ope.vqr
+'qbe_inviosaldi_ope.vqr
+]
+'Routines
+[
+'arfn_agechar
+]
+'Tables
+[
+'anarapbo<table>
+'aetesta<table>
+'aerighe<table>
+'jnarapbo<table>
+'personbo<table>
+'aeoprig<table>
+'aederig<table>
+'opextrbo<table>
+'aeannora<table>
+'tmp_stprapporti<table>
+'tmp_esitosaldi<table>
+'aeinvio<table>
+'aecanc<table>
+'aeopcanc<table>
+]
+}
+I
+*--*
+￼[]
+*--*

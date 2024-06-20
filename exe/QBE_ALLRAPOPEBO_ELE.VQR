@@ -1,0 +1,199 @@
+ 3
+"Soggetti conto informazioni"
+"intestbo"
+"intestbo"
+ 131
+ 11
+*
+"Anagrafica Rapporti"
+"anarapbo"
+"anarapbo"
+ 21
+ 236
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 359
+ 237
+*
+ 9
+"Rapporto (Copia della testata)"
+"intestbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Descrizione"
+"anarapbo.DESCRAP"
+"DESCRAP"
+"Char"
+ 50
+ 0
+*
+"Intestatario (Non Intermediario)"
+"intestbo.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"Char"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Data Inizio"
+"intestbo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+"Numero Progressivo relativo"
+"intestbo.NUMPROG1"
+"NUMPROG1"
+"C"
+ 11
+ 0
+*
+"Data Fine"
+"intestbo.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+"Numero Progressivo Relativo Chiusura"
+"intestbo.NUMPROG2"
+"NUMPROG2"
+"C"
+ 11
+ 0
+*
+ 2
+"Anagrafica Persone/Società/Legali Rappresentanti(Intestatario (Non Intermediario))"
+"personbo.CONNES=intestbo.CODINTER"
+"Right outer"
+"personbo"
+"intestbo"
+*
+"Rapporti"
+"anarapbo.RAPPORTO=intestbo.RAPPORTO"
+"Right outer"
+"anarapbo"
+"intestbo"
+*
+ 6
+"intestbo.RAPPORTO"
+""
+">="
+"?w_DaRappo"
+"AND"
+""
+*
+"intestbo.RAPPORTO"
+""
+"<="
+"?w_ARappo"
+"AND"
+""
+*
+"intestbo.DATAINI"
+""
+">="
+"?w_DaDatIni"
+"AND"
+""
+*
+"intestbo.DATAINI"
+""
+"<="
+"?w_ADatIni"
+"AND"
+""
+*
+"intestbo.DATAFINE"
+""
+">="
+"?w_DaDatFin"
+"AND"
+""
+*
+"intestbo.DATAFINE"
+""
+"<="
+"?w_ADatFin"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 6
+"w_DaRappo"
+"Rapporto (Copia della testata)"
+"Char"
+"25"
+"0"
+"Remove"
+*
+"w_ARappo"
+"Rapporto (Copia della testata)"
+"Char"
+"25"
+"0"
+"Remove"
+*
+"w_DaDatIni"
+"Data Inizio"
+"Date"
+"8"
+"0"
+"Remove"
+*
+"w_ADatIni"
+"Data Inizio"
+"Date"
+"8"
+"0"
+"Remove"
+*
+"w_DaDatFin"
+"Data Fine"
+"Date"
+"8"
+"0"
+"Remove"
+*
+"w_ADatFin"
+"Data Fine"
+"Date"
+"8"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 5
+.f.
+""
+*

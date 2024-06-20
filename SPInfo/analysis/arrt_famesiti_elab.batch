@@ -1,0 +1,63 @@
+﻿* --- Resource Vers. 0.9
+arrt_famesiti_elab
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Lancia Esecuzione SID Esiti Elaborazione
+file_modified_on=#2023-03-17 17:07:37
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:13
+module_name='
+name='arrt_famesiti_elab
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aetesta.uniquecode
+'aetesta.rapporto
+'aetesta.tipoag
+'opextrbo.uniquer
+'opextrbo.rapporto
+'tmp_esitosid.annorif
+'tmp_esitosid.numprog
+'tmp_esitosid.rapporto
+'tmp_esitosid.tiporiga
+'tmp_esitosid.coderr
+'tmp_esitosid.datoerr
+'tmp_esitosid.txtmsg
+'tmp_esitosid.protocollo
+'opextrbo.idesito
+'aetesta.idesitofam
+]
+'Libraries
+[
+'FileLibMit<project>
+'LibreriaMit<project>
+]
+'Routines
+[
+'arrt_famesiti_elab
+]
+'Tables
+[
+'aetesta<table>
+'cpwarn<table>
+'intermbo<table>
+'opextrbo<table>
+'tbesielb<table>
+'tmp_esitosid<table>
+'aesaldi<table>
+]
+}
+I
+*--*
+￼[]
+*--*

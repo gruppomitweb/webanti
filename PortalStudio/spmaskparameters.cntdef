@@ -1,0 +1,609 @@
+NODE portalstudio/SPMaskParameters Portal Mask Parameters
+TEMPLATE portalstudio.css
+
+.spMaskParameters_element{
+  display:inline-block;
+}
+
+input.spMaskParameters_checkbox{
+  z-index:1;
+  position:relative;
+  display:inline-block;
+  height:13px;  
+  margin:0px;
+}
+
+.spMaskParameters_Zoom{
+  z-index:1;
+  position:relative;
+  width:19px;
+  display:inline-block;
+  height:22px;
+  box-sizing:border-box;
+  text-decoration:none;
+}
+
+.spMaskParameters_Calendar { 
+  position:relative;
+  width:19px;
+  display:inline-block;
+  height:22px;
+  box-sizing:border-box;
+  vertical-align:bottom;
+}
+
+.spMaskParameters_ImgButton {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:Transparent;
+  margin:0;
+  border-width:0;
+  padding:0;
+  z-index:1;
+  cursor:pointer;
+}
+
+.spMaskParameters_check_SmartEditor{
+  display:inline-block;
+}
+
+.spMaskParameters_FilterType{
+  text-align:center;
+  z-index:1;
+  display:inline-block; 
+  position:relative;
+}
+
+.spMaskParameters_Zoom_btn{
+  position:relative; 
+  display:inline-block;
+  border:0; 
+  background-repeat:no-repeat; 
+  background-color:transparent; 
+  cursor:pointer;
+}
+
+span.spMaskParameters_textbox_wrp{
+  position:relative;
+  display:inline-block;
+  height:22px;
+  box-sizing:border-box;  
+}
+
+span.spMaskParameters_label_tbl{
+  width:100%;
+}
+
+NODE_END
+
+NODE portalstudio/SPMaskParameters/spMaskParameters_textbox Textbox
+GROUP Font options
+{"name":"prmTextboxFontFamily","type":"TEXT","caption":"Font family", "default":"Arial"}
+{"name":"prmTextboxFontWeight","type":"TEXT","caption":"Font weight"}
+{"name":"prmTextboxFontStyle","type":"TEXT","caption":"Font style"}
+{"name": "prmTextboxFontSize","type":"FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+{"name":"prmTextboxFontColor","type":"COLOR","caption":"Font color"}
+GROUP_END
+GROUP Border options
+{"name":"prmTextboxBorderColor","type":"TEXT","caption":"Border color"}
+{"name":"prmTextboxBorderWidth","type":"TEXT","caption":"Border width"}
+{"name":"prmTextboxBorderStyle","type":"TEXT","caption":"Border style"}
+{"name":"prmTextboxBorderRadius","type":"NUMBER","caption":"Border radius"}
+GROUP_END
+GROUP Background options
+{"name":"prmTextboxBackgroundColor","type":"COLOR","caption":"Background color"}
+{"name":"prmTextboxBackgroundImage","type":"IMAGE","caption":"Background image"}
+{"name":"prmTextboxObligatoryBgSize","type":"TEXT","caption":"Background size"}
+{"name":"prmTextboxBackgroundRep","type":"TEXT","caption":"Background repeat"}
+{"name":"prmTextboxBackgroundPos","type":"TEXT","caption":"Background position"}
+{"name":"prmTextboxBoxShadow","type":"TEXT","caption":"Box shadow"}
+GROUP_END
+
+TEMPLATE portalstudio.css
+
+input.\controlName\, textarea.\controlName\{
+  font-family:\prmTextboxFontFamily!\;
+  font-weight:\prmTextboxFontWeight!\;
+  font-style:\prmTextboxFontStyle!\;
+  font-size:\prmTextboxFontSize!\;
+  color:\prmTextboxFontColor!\;
+  background-color:\prmTextboxBackgroundColor!\;
+  background-image:url(\prmTextboxBackgroundImage!\);
+  background-size:\prmTextboxObligatoryBgSize!\;
+  background-position: \prmTextboxBackgroundPos!\;
+  background-repeat: \prmTextboxBackgroundRep!\;
+  box-shadow: \prmTextboxBoxShadow!\;
+  border-width:\prmTextboxBorderWidth!\;
+  border-color:\prmTextboxBorderColor!\;
+  border-style:\prmTextboxBorderStyle!\;
+  border-radius:\prmTextboxBorderRadius!\;
+  z-index:1;
+  width:100%;
+  height:100%;
+  box-sizing:border-box;  
+}
+
+NODE_END
+
+NODE portalstudio/SPMaskParameters/spMaskParameters_textbox/Active Textbox Active
+GROUP Font options
+{"name":"prmTextboxFontFamily","type":"TEXT","caption":"Font family", "default":"Arial"}
+{"name":"prmTextboxFontWeight","type":"TEXT","caption":"Font weight"}
+{"name":"prmTextboxFontStyle","type":"TEXT","caption":"Font style"}
+{"name": "prmTextboxFontSize","type":"FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+{"name":"prmTextboxFontColor","type":"COLOR","caption":"Font color"}
+GROUP_END
+GROUP Border options
+{"name":"prmTextboxBorderColor","type":"TEXT","caption":"Border color"}
+{"name":"prmTextboxBorderWidth","type":"TEXT","caption":"Border width"}
+{"name":"prmTextboxBorderStyle","type":"TEXT","caption":"Border style"}
+{"name":"prmTextboxBorderRadius","type":"NUMBER","caption":"Border radius"}
+GROUP_END
+GROUP Background options
+{"name":"prmTextboxBackgroundColor","type":"COLOR","caption":"Background color"}
+{"name":"prmTextboxBackgroundImage","type":"IMAGE","caption":"Background image"}
+{"name":"prmTextboxObligatoryBgSize","type":"TEXT","caption":"Background size"}
+{"name":"prmTextboxBackgroundRep","type":"TEXT","caption":"Background repeat"}
+{"name":"prmTextboxBackgroundPos","type":"TEXT","caption":"Background position"}
+{"name":"prmTextboxBoxShadow","type":"TEXT","caption":"Box shadow"}
+GROUP_END
+
+STATE_MODIFIER
+
+TEMPLATE portalstudio.css
+
+input.\controlName\, textarea.\controlName\{
+  font-family:\prmTextboxFontFamily!\;
+  font-weight:\prmTextboxFontWeight!\;
+  font-style:\prmTextboxFontStyle!\;
+  font-size:\prmTextboxFontSize!\;
+  color:\prmTextboxFontColor!\;
+  background-color:\prmTextboxBackgroundColor!\;
+  background-image:url(\prmTextboxBackgroundImage!\);
+  background-size:\prmTextboxObligatoryBgSize!\;
+  background-position: \prmTextboxBackgroundPos!\;
+  background-repeat: \prmTextboxBackgroundRep!\;
+  box-shadow: \prmTextboxBoxShadow!\;
+  border-width:\prmTextboxBorderWidth!\;
+  border-color:\prmTextboxBorderColor!\;
+  border-style:\prmTextboxBorderStyle!\;
+  border-radius:\prmTextboxBorderRadius!\;
+  z-index:1;
+  width:100%;
+  height:100%;
+  box-sizing:border-box;  
+}
+
+NODE_END
+
+NODE portalstudio/SPMaskParameters/spMaskParameters_textbox/Disabled Textbox Disabled
+GROUP Font options
+{"name":"prmTextboxFontFamily","type":"TEXT","caption":"Font family", "default":"Arial"}
+{"name":"prmTextboxFontWeight","type":"TEXT","caption":"Font weight"}
+{"name":"prmTextboxFontStyle","type":"TEXT","caption":"Font style"}
+{"name": "prmTextboxFontSize","type":"FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+{"name":"prmTextboxFontColor","type":"COLOR","caption":"Font color"}
+GROUP_END
+GROUP Border options
+{"name":"prmTextboxBorderColor","type":"TEXT","caption":"Border color"}
+{"name":"prmTextboxBorderWidth","type":"TEXT","caption":"Border width"}
+{"name":"prmTextboxBorderStyle","type":"TEXT","caption":"Border style"}
+{"name":"prmTextboxBorderRadius","type":"NUMBER","caption":"Border radius"}
+GROUP_END
+GROUP Background options
+{"name":"prmTextboxBackgroundColor","type":"COLOR","caption":"Background color"}
+{"name":"prmTextboxBackgroundImage","type":"IMAGE","caption":"Background image"}
+{"name":"prmTextboxObligatoryBgSize","type":"TEXT","caption":"Background size"}
+{"name":"prmTextboxBackgroundRep","type":"TEXT","caption":"Background repeat"}
+{"name":"prmTextboxBackgroundPos","type":"TEXT","caption":"Background position"}
+{"name":"prmTextboxBoxShadow","type":"TEXT","caption":"Box shadow"}
+GROUP_END
+
+STATE_MODIFIER
+
+TEMPLATE portalstudio.css
+
+input.\controlName\, textarea.\controlName\{
+  font-family:\prmTextboxFontFamily!\;
+  font-weight:\prmTextboxFontWeight!\;
+  font-style:\prmTextboxFontStyle!\;
+  font-size:\prmTextboxFontSize!\;
+  color:\prmTextboxFontColor!\;
+  background-color:\prmTextboxBackgroundColor!\;
+  background-image:url(\prmTextboxBackgroundImage!\);
+  background-size:\prmTextboxObligatoryBgSize!\;
+  background-position: \prmTextboxBackgroundPos!\;
+  background-repeat: \prmTextboxBackgroundRep!\;
+  box-shadow: \prmTextboxBoxShadow!\;
+  border-width:\prmTextboxBorderWidth!\;
+  border-color:\prmTextboxBorderColor!\;
+  border-style:\prmTextboxBorderStyle!\;
+  border-radius:\prmTextboxBorderRadius!\;
+  z-index:1;
+  width:100%;
+  height:100%;
+  box-sizing:border-box;  
+}
+
+NODE_END
+
+NODE portalstudio/SPMaskParameters/spMaskParameters_textbox/Obligatory Textbox Obligatory
+GROUP Font options
+{"name":"prmTextboxFontFamily","type":"TEXT","caption":"Font family", "default":"Arial"}
+{"name":"prmTextboxFontWeight","type":"TEXT","caption":"Font weight"}
+{"name":"prmTextboxFontStyle","type":"TEXT","caption":"Font style"}
+{"name": "prmTextboxFontSize","type":"FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+{"name":"prmTextboxFontColor","type":"COLOR","caption":"Font color"}
+GROUP_END
+GROUP Border options
+{"name":"prmTextboxBorderColor","type":"TEXT","caption":"Border color"}
+{"name":"prmTextboxBorderWidth","type":"TEXT","caption":"Border width"}
+{"name":"prmTextboxBorderStyle","type":"TEXT","caption":"Border style"}
+{"name":"prmTextboxBorderRadius","type":"NUMBER","caption":"Border radius"}
+GROUP_END
+GROUP Background options
+{"name":"prmTextboxBackgroundColor","type":"COLOR","caption":"Background color"}
+{"name":"prmTextboxBackgroundImage","type":"IMAGE","caption":"Background image"}
+{"name":"prmTextboxObligatoryBgSize","type":"TEXT","caption":"Background size"}
+{"name":"prmTextboxBackgroundRep","type":"TEXT","caption":"Background repeat"}
+{"name":"prmTextboxBackgroundPos","type":"TEXT","caption":"Background position"}
+{"name":"prmTextboxBoxShadow","type":"TEXT","caption":"Box shadow"}
+GROUP_END
+
+STATE_MODIFIER
+
+TEMPLATE portalstudio.css
+
+input.\controlName\, textarea.\controlName\{
+  font-family:\prmTextboxFontFamily!\;
+  font-weight:\prmTextboxFontWeight!\;
+  font-style:\prmTextboxFontStyle!\;
+  font-size:\prmTextboxFontSize!\;
+  color:\prmTextboxFontColor!\;
+  background-color:\prmTextboxBackgroundColor!\;
+  background-image:url(\prmTextboxBackgroundImage!\);
+  background-size:\prmTextboxObligatoryBgSize!\;
+  background-position: \prmTextboxBackgroundPos!\;
+  background-repeat: \prmTextboxBackgroundRep!\;
+  box-shadow: \prmTextboxBoxShadow!\;
+  border-width:\prmTextboxBorderWidth!\;
+  border-color:\prmTextboxBorderColor!\;
+  border-style:\prmTextboxBorderStyle!\;
+  border-radius:\prmTextboxBorderRadius!\;
+  z-index:1;
+  width:100%;
+  height:100%;
+  box-sizing:border-box;  
+}
+
+NODE_END
+
+NODE portalstudio/SPMaskParameters/spMaskParameters_combobox Combobox
+GROUP Font options
+{"name":"prmComboboxFontFamily","type":"TEXT","caption":"Font family", "default":"Arial"}
+{"name":"prmComboboxFontWeight","type":"TEXT","caption":"Font weight"}
+{"name":"prmComboboxFontStyle","type":"TEXT","caption":"Font style"}
+{"name": "prmComboboxFontSize","type":"FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+{"name":"prmComboboxFontColor","type":"COLOR","caption":"Font color"}
+GROUP_END
+GROUP Border options
+{"name":"prmComboboxBorderColor","type":"TEXT","caption":"Border color"}
+{"name":"prmComboboxBorderWeight","type":"TEXT","caption":"Border width"}
+{"name":"prmComboboxBorderType","type":"TEXT","caption":"Border style"}
+{"name":"prmComboboxBorderRadius","type":"NUMBER","caption":"Border radius"}
+GROUP_END
+GROUP Background options
+{"name":"prmComboboxBackgroundColor","type":"COLOR","caption":"Background color"}
+{"name":"prmComboboxBackgroundImage","type":"BACKGROUNDIMAGE","caption":"Background image/gradient"}
+{"name":"prmComboboxBackgroundRep","type":"TEXT","caption":"Background repeat"}
+{"name":"prmComboboxBackgroundPos","type":"TEXT","caption":"Background position"}
+{"name":"prmComboboxBoxShadow","type":"TEXT","caption":"Box shadow"}
+GROUP_END
+
+TEMPLATE portalstudio.css
+
+select.\controlName\{
+  font-family:\prmComboboxFontFamily!\;
+  font-weight:\prmComboboxFontWeight!\;
+  font-style:\prmComboboxFontStyle!\;
+  font-size:\prmComboboxFontSize!\;
+  color:\prmComboboxFontColor!\;
+  background-color:\prmComboboxBackgroundColor!\;
+  background-image: \prmComboboxBackgroundImage!\;
+  background-position: \prmComboboxBackgroundPos!\;
+  background-repeat: \prmComboboxBackgroundRep!\;
+  border-width:\prmComboboxBorderWeight!\;
+  border-style:\prmComboboxBorderType!\;
+  border-color:\prmComboboxBorderColor!\;
+  border-radius:\prmComboboxBorderRadius!\;
+  box-shadow: \prmComboboxBoxShadow!\;
+  z-index:1;
+  position:relative;
+  display:inline-block;
+  height:22px;
+  box-sizing:border-box;
+}
+
+NODE_END
+
+NODE portalstudio/SPMaskParameters/spMaskParameters_combobox/Active Combobox Active
+GROUP Font options
+{"name":"prmComboboxFontFamily","type":"TEXT","caption":"Font family", "default":"Arial"}
+{"name":"prmComboboxFontWeight","type":"TEXT","caption":"Font weight"}
+{"name":"prmComboboxFontStyle","type":"TEXT","caption":"Font style"}
+{"name": "prmComboboxFontSize","type":"FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+{"name":"prmComboboxFontColor","type":"COLOR","caption":"Font color"}
+GROUP_END
+GROUP Border options
+{"name":"prmComboboxBorderColor","type":"TEXT","caption":"Border color"}
+{"name":"prmComboboxBorderWeight","type":"TEXT","caption":"Border width"}
+{"name":"prmComboboxBorderType","type":"TEXT","caption":"Border style"}
+{"name":"prmComboboxBorderRadius","type":"NUMBER","caption":"Border radius"}
+GROUP_END
+GROUP Background options
+{"name":"prmComboboxBackgroundColor","type":"COLOR","caption":"Background color"}
+{"name":"prmComboboxBackgroundImage","type":"BACKGROUNDIMAGE","caption":"Background image/gradient"}
+{"name":"prmComboboxBackgroundRep","type":"TEXT","caption":"Background repeat"}
+{"name":"prmComboboxBackgroundPos","type":"TEXT","caption":"Background position"}
+{"name":"prmComboboxBoxShadow","type":"TEXT","caption":"Box shadow"}
+GROUP_END
+
+STATE_MODIFIER
+
+TEMPLATE portalstudio.css
+
+select.\controlName\{
+  font-family:\prmComboboxFontFamily!\;
+  font-weight:\prmComboboxFontWeight!\;
+  font-style:\prmComboboxFontStyle!\;
+  font-size:\prmComboboxFontSize!\;
+  color:\prmComboboxFontColor!\;
+  background-color:\prmComboboxBackgroundColor!\;
+  background-image: \prmComboboxBackgroundImage!\;
+  background-position: \prmComboboxBackgroundPos!\;
+  background-repeat: \prmComboboxBackgroundRep!\;
+  border-width:\prmComboboxBorderWeight!\;
+  border-style:\prmComboboxBorderType!\;
+  border-color:\prmComboboxBorderColor!\;
+  border-radius:\prmComboboxBorderRadius!\;
+  box-shadow: \prmComboboxBoxShadow!\;
+  z-index:1;
+  position:relative;
+  display:inline-block;
+  height:22px;
+  box-sizing:border-box;
+}
+
+NODE_END
+
+NODE portalstudio/SPMaskParameters/spMaskParameters_combobox/Disabled Combobox Disabled
+GROUP Font options
+{"name":"prmComboboxFontFamily","type":"TEXT","caption":"Font family", "default":"Arial"}
+{"name":"prmComboboxFontWeight","type":"TEXT","caption":"Font weight"}
+{"name":"prmComboboxFontStyle","type":"TEXT","caption":"Font style"}
+{"name": "prmComboboxFontSize","type":"FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+{"name":"prmComboboxFontColor","type":"COLOR","caption":"Font color"}
+GROUP_END
+GROUP Border options
+{"name":"prmComboboxBorderColor","type":"TEXT","caption":"Border color"}
+{"name":"prmComboboxBorderWeight","type":"TEXT","caption":"Border width"}
+{"name":"prmComboboxBorderType","type":"TEXT","caption":"Border style"}
+{"name":"prmComboboxBorderRadius","type":"NUMBER","caption":"Border radius"}
+GROUP_END
+GROUP Background options
+{"name":"prmComboboxBackgroundColor","type":"COLOR","caption":"Background color"}
+{"name":"prmComboboxBackgroundImage","type":"BACKGROUNDIMAGE","caption":"Background image/gradient"}
+{"name":"prmComboboxBackgroundRep","type":"TEXT","caption":"Background repeat"}
+{"name":"prmComboboxBackgroundPos","type":"TEXT","caption":"Background position"}
+{"name":"prmComboboxBoxShadow","type":"TEXT","caption":"Box shadow"}
+GROUP_END
+
+
+STATE_MODIFIER
+
+TEMPLATE portalstudio.css
+
+select.\controlName\{
+  font-family:\prmComboboxFontFamily!\;
+  font-weight:\prmComboboxFontWeight!\;
+  font-style:\prmComboboxFontStyle!\;
+  font-size:\prmComboboxFontSize!\;
+  color:\prmComboboxFontColor!\;
+  background-color:\prmComboboxBackgroundColor!\;
+  background-image: \prmComboboxBackgroundImage!\;
+  background-position: \prmComboboxBackgroundPos!\;
+  background-repeat: \prmComboboxBackgroundRep!\;
+  border-width:\prmComboboxBorderWeight!\;
+  border-style:\prmComboboxBorderType!\;
+  border-color:\prmComboboxBorderColor!\;
+  border-radius:\prmComboboxBorderRadius!\;
+  box-shadow: \prmComboboxBoxShadow!\;
+  z-index:1;
+  position:relative;
+  display:inline-block;
+  height:22px;
+  box-sizing:border-box;
+}
+
+NODE_END
+
+NODE portalstudio/SPMaskParameters/spMaskParameters_combobox/Obligatory Combobox Obligatory
+GROUP Font options
+{"name":"prmComboboxFontFamily","type":"TEXT","caption":"Font family", "default":"Arial"}
+{"name":"prmComboboxFontWeight","type":"TEXT","caption":"Font weight"}
+{"name":"prmComboboxFontStyle","type":"TEXT","caption":"Font style"}
+{"name": "prmComboboxFontSize","type":"FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+{"name":"prmComboboxFontColor","type":"COLOR","caption":"Font color"}
+GROUP_END
+GROUP Border options
+{"name":"prmComboboxBorderColor","type":"TEXT","caption":"Border color"}
+{"name":"prmComboboxBorderWeight","type":"TEXT","caption":"Border width"}
+{"name":"prmComboboxBorderType","type":"TEXT","caption":"Border style"}
+{"name":"prmComboboxBorderRadius","type":"NUMBER","caption":"Border radius"}
+GROUP_END
+GROUP Background options
+{"name":"prmComboboxBackgroundColor","type":"COLOR","caption":"Background color"}
+{"name":"prmComboboxBackgroundImage","type":"BACKGROUNDIMAGE","caption":"Background image/gradient"}
+{"name":"prmComboboxBackgroundRep","type":"TEXT","caption":"Background repeat"}
+{"name":"prmComboboxBackgroundPos","type":"TEXT","caption":"Background position"}
+{"name":"prmComboboxBoxShadow","type":"TEXT","caption":"Box shadow"}
+GROUP_END
+
+
+STATE_MODIFIER
+
+TEMPLATE portalstudio.css
+
+select.\controlName\{
+  font-family:\prmComboboxFontFamily!\;
+  font-weight:\prmComboboxFontWeight!\;
+  font-style:\prmComboboxFontStyle!\;
+  font-size:\prmComboboxFontSize!\;
+  color:\prmComboboxFontColor!\;
+  background-color:\prmComboboxBackgroundColor!\;
+  background-image: \prmComboboxBackgroundImage!\;
+  background-position: \prmComboboxBackgroundPos!\;
+  background-repeat: \prmComboboxBackgroundRep!\;
+  border-width:\prmComboboxBorderWeight!\;
+  border-style:\prmComboboxBorderType!\;
+  border-color:\prmComboboxBorderColor!\;
+  border-radius:\prmComboboxBorderRadius!\;
+  box-shadow: \prmComboboxBoxShadow!\;
+  z-index:1;
+  position:relative;
+  display:inline-block;
+  height:22px;
+  box-sizing:border-box;
+}
+
+NODE_END
+
+NODE portalstudio/SPMaskParameters/spMaskParameters_label Label
+GROUP Label options
+{"name":"prmLabelFontFamily","type":"TEXT","caption":"Font family", "default":"Arial"}
+{"name":"prmLabelFontWeight","type":"TEXT","caption":"Font weight"}
+{"name":"prmLabelFontStyle","type":"TEXT","caption":"Font style"}
+{"name":"prmLabelFontSize","type":"FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+{"name":"prmLabelFontColor","type":"COLOR","caption":"Font color"}
+{"name":"prmLabelBackgroundColor","type":"COLOR","caption":"Background color"}
+{"name":"prmLabelTextAlign","type":"TEXT","caption":"Text align"}
+{"name":"prmLabelLineHeight","type":"NUMBER","caption":"Line height"}
+{"name":"prmLabelPadding","type":"TEXT","caption":"Padding"}
+GROUP_END
+
+TEMPLATE portalstudio.css
+
+span.\controlName\{
+  background-color:\prmLabelBackgroundColor!\;
+  font-family:\prmLabelFontFamily!\;
+  font-weight:\prmLabelFontWeight!\;
+  font-style:\prmLabelFontStyle!\;
+  font-size:\prmLabelFontSize!\;
+  color:\prmLabelFontColor!\;
+  text-align:\prmLabelTextAlign!\;
+  padding:\prmLabelPadding!\;
+  line-height:\prmLabelLineHeight!\;  
+  z-index:1;
+  position:relative;
+  display:inline-block;
+  box-sizing:border-box;  
+  height:auto;
+}
+
+
+NODE_END
+
+NODE portalstudio/SPMaskParameters/spMaskParameters_group Group
+
+GROUP Advanced group (collapsed)
+{"name":"prmGroupColFontFamily","type":"TEXT","caption":"Font family", "default":"Arial"}
+{"name":"prmGroupColFontWeight","type":"TEXT","caption":"Font weight"}
+{"name":"prmGroupColFontStyle","type":"TEXT","caption":"Font style"}
+{"name":"prmGroupColFontSize","type":"FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+{"name":"prmGroupColFontColor","type":"COLOR","caption":"Font color"}
+GROUP_END
+
+
+GROUP Adavnced group (expanded)
+{"name":"prmGroupExpFontFamily","type":"TEXT","caption":"Font family", "default":"Arial"}
+{"name":"prmGroupExpFontWeight","type":"TEXT","caption":"Font weight"}
+{"name":"prmGroupExpFontStyle","type":"TEXT","caption":"Font style"}
+{"name":"prmGroupExpFontSize","type":"FONT_SIZE", "caption": "Font size", "typeConversion":{"NUMBER":"SPTheme_2.NumberPtToDict"} }
+{"name":"prmGroupExpFontColor","type":"COLOR","caption":"Font color"}
+GROUP_END
+
+TEMPLATE portalstudio.css
+
+.spMaskParameters_group_collapsed{
+  font-family:\prmGroupColFontFamily!\;
+  font-weight:\prmGroupColFontWeight!\;
+  font-style:\prmGroupColFontStyle!\;
+  font-size:\prmGroupColFontSize!\;
+  color:\prmGroupColFontColor!\;
+}
+
+.spMaskParameters_group_expanded{
+  font-family:\prmGroupExpFontFamily!\;
+  font-weight:\prmGroupExpFontWeight!\;
+  font-style:\prmGroupExpFontStyle!\;
+  font-size:\prmGroupExpFontSize!\;
+  color:\prmGroupExpFontColor!\;
+}
+
+
+NODE_END
+
+NODE portalstudio/SPMaskParameters/Icon Icon
+GROUP Icon
+{"name":"prmAccept","type":"ICON","caption":"Accept image","default":""}
+{"name":"prmClose","type":"ICON","caption":"Close image","default":""}
+{"name":"prmPrint","type":"ICON","caption":"Print image","default":""}
+{"name":"prmApllyFilter","type":"ICON","caption":"Apply filters image","default":""}
+{"name":"prmAddFilter","type":"ICON","caption":"Add filters image","default":""}
+{"name":"prmRefresh","type":"ICON","caption":"Refresh image","default":""}
+{"name":"prmExtend","type":"ICON","caption":"Extend mask image","default":""}
+{"name":"prmReduce","type":"ICON","caption":"Reduce mask image","default":""}
+{"name":"prmPrevious","type":"ICON","caption":"Go to previous image","default":""}
+{"name":"prmNext","type":"ICON","caption":"Go to next image","default":""}
+{"name":"prmSmartEditorImage","type":"ICON","caption":"Open smart editor image","default":""}
+{"name":"prmFullEditorImage","type":"ICON","caption":"Open full editor image","default":""}
+GROUP_END
+
+VARIABLES prmClose prmAccept prmPrint prmApllyFilter prmRefresh prmExtend prmReduce prmAddFilter prmSmartEditorImage prmFullEditorImage prmPrevious prmNext
+
+TEMPLATE portalstudio.css
+
+NODE_END
+
+NODE portalstudio/SPMaskParameters/Version Version list
+GROUP Version list handler properties
+{"name":"prmVersionList","type":"ICON","caption":"Image handler"}
+{"name":"prmVersionListPadding","type":"TEXT","caption":"Padding(top,right,bottom,left)"}
+{"name":"prmVersionListMargin","type":"TEXT","caption":"Margin(top,right,bottom,left)"}
+{"name":"prmVersionListVerticalAlign","type":"TEXT","caption":"Vertical Align"}
+{"name":"prmVersionListCursor","type":"TEXT","caption":"Cursor","default":"pointer"}
+GROUP_END
+
+VARIABLES prmVersionList
+
+TEMPLATE portalstudio.css
+
+.spMaskParameter_versionhandler {
+  color: \prmVersionList.Color!\;
+  font-family: \prmVersionList.FontName!\;
+  font-size: \prmVersionList.Size!\px;
+  padding: \prmVersionListPadding!\;
+  margin: \prmVersionListMargin!\;
+  vertical-align: \prmVersionListVerticalAlign!\;
+  cursor: \prmVersionListCursor!\;
+  display: inline-block;
+}
+
+.spMaskParameter_versionhandler.menu_opened{
+  transform:rotate(180deg);
+}
+.spMaskParameter_versionhandler.menu_closed{
+  transform:rotate(0deg);
+}
+
+NODE_END

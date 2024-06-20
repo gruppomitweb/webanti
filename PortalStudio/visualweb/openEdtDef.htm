@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portlet Editor - Sitepainter Infinity Portalstudio</title>
+  <link type="text/css" rel="stylesheet" href="../properties.css">
+  <link type="text/css" rel="stylesheet" href="../classeditor/classeditor.css">
+  <script src='../stdFunctions.js'></script>
+  <script async>
+    function insertElement(el) {
+      GetOpener().loadNewObjDone(el.getAttribute("value"));
+      WindowClose();
+    }
+
+    function generateFileManager() {
+      var j;
+      var res = {},
+        files = "";
+
+      var components = new JSURL("../servlet/JSPReader?type=edtdef").Response();
+      components = JSON.parse(components);
+
+      for (var i = 0; i < components.length; i++) {
+        if (res[components[i].author] == undefined) {
+          res[components[i].author] = [];
+        }
+        if(components[i].error == undefined) {
+          res[components[i].author].push(components[i].name);
+        } else {
+          res[components[i].author].push(components[i].name + " <span class='reading_error'>[currupt component]</span>");
+        }
+      }
+
+      for (var gname in res) {
+        var group = res[gname]; // array dei componenti
+        if(gname == 'undefined') {
+          gname = 'No author';
+        } else if(gname == 'Error') {
+          error = ' reading_error';
+        }
+        files += '<section class="file"><div class="file-title"><span>' + gname + '</span></div>';
+        files += '<ul class="file-content" id="class-manager">';
+
+        for (j = 0; j < group.length; j++) {
+          files += '<li onclick="insertElement(this)" value="' + group[j] + '"><span>' + Strtran(group[j], ".edtdef", "") + '</span></li>';
+        }
+        files += '</ul></section>';
+      }
+
+
+
+      document.getElementById("class-manager").innerHTML = files;
+    }
+    window.onload = generateFileManager;
+
+  </script>
+</head>
+
+<body>
+  <div class="flexbox-parent">
+    <header class="header picker" id="class-manager-title">Available components</header>
+    <div class="fill-area flexbox-item-grow picker">
+      <section class="flexbox-item-grow class-manager" id="class-manager"></section>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+ 2
+"Deleghe"
+"aederig"
+"aederig"
+ 165
+ -1
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 256
+ 125
+*
+ 7
+"Codice Rapporto"
+"aederig.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"data Inizio"
+"aederig.ADATA"
+"ADATA"
+"D"
+ 8
+ 0
+*
+"Data Chiusura"
+"aederig.CDATA"
+"CDATA"
+"D"
+ 8
+ 0
+*
+"Tipo Agenzia Entrate"
+"aederig.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"Tipo Rapporto"
+"aederig.COINT"
+"COINT"
+"C"
+ 1
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+ 1
+"Persone"
+"personbo.CONNES=aederig.CONNESINT"
+"Right outer"
+"personbo"
+"aederig"
+*
+ 2
+"(aederig.ADATA"
+""
+"<="
+"?w_datpris"
+"OR"
+""
+*
+"aederig.CDATA"
+""
+">="
+"?w_datprif)"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_datpris"
+"data Inizio"
+"Date"
+"8"
+"0"
+""
+*
+"w_datprif"
+"Data Chiusura"
+"Date"
+"8"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 1
+.f.
+""
+*

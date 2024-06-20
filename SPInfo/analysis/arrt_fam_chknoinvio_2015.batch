@@ -1,0 +1,59 @@
+﻿* --- Resource Vers. 0.9
+arrt_fam_chknoinvio_2015
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Controlli Famiglie mai inviate
+file_modified_on=#2021-03-10 10:12:18
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:14
+module_name='
+name='arrt_fam_chknoinvio_2015
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_chkperiodo.idbase
+'tmp_chkperiodo.rapporto
+'tmp_chkperiodo.dataini
+'tmp_chkperiodo.datafine
+'tmp_chkperiodo.tipo
+'tmp_chkperiodo.msgtxt
+'tmp_chkperiodo.ndg
+]
+'Hyperlinks
+[
+'arrp_fam_chkperiodo_noerr.vrp
+'arrp_fam_chkperiodo.vrp
+]
+'Queries
+[
+'qbe_fam_minmax_noinvio_01.vqr
+'qbe_fam_chknoinvio_01_2015.vqr
+'qbe_famnoinvio_opx_minmax.vqr
+'qbe_fam_chknoinvio_03_2015.vqr
+]
+'Routines
+[
+'arfn_anomes_opex
+'arfn_anomes_rapp
+'arfn_fdatetime
+]
+'Tables
+[
+'tmp_chkperiodo<table>
+'tmp_listafile<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,60 @@
+﻿* --- Resource Vers. 0.9
+arrt_allinea_famiglie
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Allineamento famiglie da file SID
+file_modified_on=#2022-08-04 12:11:00
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_allinea_famiglie
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aetesta.uniquer
+'aetesta.rapporto
+'anarapbo.rapporto
+'anarapbo.tiporap
+'aetesta.tipoag
+'aetesta.rifana
+'aetesta.progaet
+'aetesta.descri
+'aetesta.uniquecode
+'aetesta.cab
+'aetesta.valuta
+'aetesta.codinter
+'aetesta.inviato
+'aetesta.datainvio
+'aetesta.coint
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+'FileLibMit<project>
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'intermbo<table>
+'aetesta<table>
+'anarapbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

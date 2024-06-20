@@ -1,0 +1,150 @@
+ 1
+"Operazioni Frazionate"
+"fraziobo"
+"fraziobo"
+ 0
+ 0
+*
+ 2
+"Codice Cliente Occasionale"
+"fraziobo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"TOTALE"
+"SUM(fraziobo.TOTLIRE)"
+"TOTALE"
+"N"
+ 15
+ 0
+*
+ 0
+ 8
+"fraziobo.CDATOPE"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"fraziobo.CDATOPE"
+""
+"<="
+"?w_adata"
+"AND"
+""
+*
+"[NOTEMPTYSTR(fraziobo.CONNESCLI)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYSTR(fraziobo.RAPPORTO)]"
+""
+"="
+"0"
+"AND"
+""
+*
+"fraziobo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+*
+"fraziobo.SEGNO"
+""
+"="
+"?w_segno"
+"AND"
+""
+*
+"fraziobo.TOTLIRE"
+""
+">="
+"?w_minfraz"
+"AND"
+""
+*
+"SUM(fraziobo.TOTLIRE)"
+""
+">="
+"?w_importo"
+"AND"
+"Having"
+*
+ 0
+ 1
+"Codice Cliente Occasionale"
+"CONNESCLI"
+*
+ 0
+ 5
+"w_dadata"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+*
+"w_adata"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+*
+"w_minfraz"
+"Importo Minimo"
+"N"
+"12"
+"0"
+""
+*
+"w_importo"
+"Totale Operazione"
+"N"
+"15"
+"0"
+""
+*
+"w_segno"
+"Segno OPerazione"
+"C"
+"1"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 7
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%28NO%26%5B3%28hB1%280%21%5C*27%3EXM.%40MDXSKE%40%2B5%05%288%1B9%2CX%23%2FEX3+DH%3B%29VA.9%3F+%3C0DHS%24F%3AS%3F-%29%28%23%5B4%3A%06IA*U-81_%26T%3BJ%23.T%3F%2B7V_%23DOMFR%3DL%25%5D%22%2C%26%23W%29T%40BC%2CITj2UC%5CF%3DINBDY%3A%28c9%3BK%2C%21%40%22%3CwE%40HE%17D%23NMUE%23%23YD%2F*KF%21C%5E*YQD8%3C%2C%409+NB%5D%3C%26034TPM%3E%3D%16%3D1B5ALHu8KPQ24%23%223%27%26%2CL%5D3LGB%5D%5DAj%1A%04%25R021%2B3%28wK%22%3C39H49FUZ%2FBZ6-A%28%3E%2FO%40%3F%06E%234H%2F%00"
+"D*%3B%21TQ-%5B%276-8M_OPDEW%25-8%28-%24V%40.1XH%21%17D*9AUVO%5CP%5E.I%25%21T28OT%2874.3_EI.E%28a_GGKZ%13SQF1xX*%3FE%5BLEO%25%2F0_%27%24%1C%22HOXN%2CZT%40%3F%3E9KQWFP%26R%3AG50WjG%19%3E2%21%3DA%21OLA%401TV%5CM%252%00F%2F%25ZMKXJI%3C2*RD*%28D1%257%2F%29Y.%25nsb%230BN%3A%2C%252*h_P-GB%2FD6%3D%23*%3A%26%293%3D%40HEV%40TaXL+%2C%223%27%25LS%7B%3D%2B%40%11%0A%7DNG%22S%21V%22%28%3DVR%5ES8%5CQ+%24M%3A96TXMTEXE%255T%2FVLK1K%3ED%237%00"
+""
+""
+"native"
+ 0
+ 0
+*

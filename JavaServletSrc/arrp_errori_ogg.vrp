@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ReportDescription v4.8 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:ERRORI COMUNICAZIONI OGGETTIVE -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:[{"type":"report","name":"arrp_errori_ogg","version":"4.8","title":"ERRORI COMUNICAZIONI OGGETTIVE","query":"qbe_errori_ogg","font":"Arial","font_size":"9","font_weight":"normal","font_effect":"","picture_date":"","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"false","security_public":"true","dict_name":"","security_access":"true","security_roles":"","author":"","client":"","date_creat":"2019-07-19","date_rev":"2019-07-23","modcnt":"4","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":"UTF-8","hsl":"false","lock_items":"false","maxcount":"20","rotation":"","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"73","uid":"FVOAHIIUZY","sequence":"2","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"103","uid":"WZCWXXGZLL","sequence":"3","page":"1"},{"type":"AutoCover","name":"autocoverwiz","y":"17","uid":"EJWTBJKFNA","page":"0"},{"type":"Group_top","comment":"Tipo/Operazione","exp":"qbe_errori_ogg.c_TIPO+qbe_errori_ogg.c_CODINTEST","name":"group1","y":"75","uid":"XGPYLFLLWE","sequence":"7","page":"1","reprint_header":"true"},{"type":"Group_down","comment":"Tipo/Operazione","exp":"qbe_errori_ogg.c_TIPO+qbe_errori_ogg.c_CODINTEST","name":"group1","y":"100","uid":"XOYLCDQFOD","sequence":"8","page":"1","reprint_header":"true"},{"type":"Label","value":"ERRORI COMUNICAZIONI OGGETTIVE","text_type":"constant","name":"label0","uid":"RJFOUSOGQP","page":"1","x":"16","y":"7","w":"768","h":"32","sequence":"17","align":"center","global_font":"false","font":"Arial","font_size":"16","font_weight":"bold"},{"type":"Label","value":"Tipo","text_type":"constant","name":"label6","uid":"JHZBNIBSTU","page":"1","x":"15","y":"50","w":"33","h":"19","sequence":"9","global_font":"false","font":"Tahoma","font_size":"9","font_weight":"bold"},{"type":"Label","value":"N. Operazione","text_type":"constant","name":"label8","uid":"PRTQIPLRQH","page":"1","x":"53","y":"50","w":"120","h":"19","sequence":"11","global_font":"false","font":"Tahoma","font_size":"9","font_weight":"bold"},{"type":"Label","value":"Errori Rilevati","text_type":"constant","name":"label10","uid":"IDMATLBXFO","page":"1","x":"179","y":"50","w":"126","h":"19","sequence":"13","global_font":"false","font":"Tahoma","font_size":"9","font_weight":"bold"},{"type":"Expr","comment":"Tipo","exp":"qbe_errori_ogg.c_TIPO","len":"1","dec":"0","name":"expr7","uid":"DHBGQCOZGD","output_name":"Tipo","column_title":"Tipo","page":"1","x":"15","y":"79","w":"33","h":"19","sequence":"10","global_font":"false","font":"Tahoma","font_size":"9","font_weight":"bold","print_always":"false","print_when_change_groupuid":"XGPYLFLLWE"},{"type":"Expr","comment":"N. Operazione","exp":"qbe_errori_ogg.c_CODINTEST","len":"16","dec":"0","name":"expr9","uid":"DVTQZHLEDU","output_name":"NOperazione","column_title":"N. Operazione","page":"1","x":"53","y":"79","w":"120","h":"19","sequence":"12","global_font":"false","font":"Tahoma","font_size":"9","font_weight":"bold","print_always":"false","print_when_change_groupuid":"XGPYLFLLWE"},{"type":"Expr","comment":"Errori Rilevati","exp":"qbe_errori_ogg.c_TXTERR","type_exp":"memo","dec":"0","name":"expr12","uid":"FSYICSWCWY","output_name":"ErroriRilevati","column_title":"Errori Rilevati","page":"1","x":"179","y":"79","w":"605","h":"19","sequence":"16"},{"type":"Label","value":"Format(DateTime(), 'DD-MM-YYYY hh:mm:ss')","text_type":"expression","name":"label3","uid":"DZMVVWULPL","page":"1","x":"16","y":"106","w":"341","h":"17","sequence":"20","global_font":"false","font":"Arial","font_size":"8","font_weight":"normal"},{"type":"Label","value":"'Pag. ' + Str(nNumPage, 4, 0) + ' / '","text_type":"expression","name":"label4","uid":"ENPVSYSPAV","page":"1","x":"446","y":"106","w":"225","h":"17","sequence":"21","align":"right","global_font":"false","font":"Arial","font_size":"8","font_weight":"normal"},{"type":"Label","value":"Str(nTotalPages, 4, 0)","text_type":"expression","name":"label5","uid":"HJANYBYSUC","page":"1","x":"676","y":"106","w":"103","h":"17","sequence":"22","global_font":"false","font":"Arial","font_size":"8","font_weight":"normal"}] -->
+
+<REPORT NAME="arrp_errori_ogg" TITLE="ERRORI COMUNICAZIONI OGGETTIVE" QUERY="qbe_errori_ogg" MAXDEPTH="1" VERSION="4.8" PUBLIC="true" ACCESS="true" ROLES=""
+  GLBFONTNAME="Arial" GLBFONTSIZE="9"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false" TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="17" EXPRESSION="Cover">
+          <AUTOCOVER TYPE="autocover" UID="EJWTBJKFNA" TOP="17"
+                LEFTMARGIN="0" RIGHTMARGIN="0" LINEHEIGHT="1"
+                />
+  </COVER>
+  <PAGEHEADER Y="0" H="73" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="ERRORI COMUNICAZIONI OGGETTIVE" EXPRTYPE="constant"
+                    Y="7" X="16" YY="39" XX="784"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="16"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Tipo" EXPRTYPE="constant"
+                    Y="50" X="15" YY="69" XX="48"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="N. Operazione" EXPRTYPE="constant"
+                    Y="50" X="53" YY="69" XX="173"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Errori Rilevati" EXPRTYPE="constant"
+                    Y="50" X="179" YY="69" XX="305"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="1" FOOTH="2" UID="XGPYLFLLWE" TOP="74" BOTTOM="98" EXPRESSION="qbe_errori_ogg.c_TIPO+qbe_errori_ogg.c_CODINTEST"
+   REPRINTHEADER="true">
+          <SECTION TYPE="group" HEADH="24" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="espressione" NAME="qbe_errori_ogg.c_TIPO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="15" YY="22" XX="48"
+                            SYMNAME="Tipo" COLUMNTITLE="Tipo"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                            FONTSTYLE="B"
+                            GLBPICTURE="true"
+                            LEN="1"
+                            PRINTGROUP="true" PRINTGROUPWHERE="XGPYLFLLWE"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_errori_ogg.c_CODINTEST" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="53" YY="22" XX="173"
+                            SYMNAME="NOperazione" COLUMNTITLE="N. Operazione"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                            FONTSTYLE="B"
+                            GLBPICTURE="true"
+                            LEN="16"
+                            PRINTGROUP="true" PRINTGROUPWHERE="XGPYLFLLWE"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_errori_ogg.c_TXTERR" ITEMTYPE="M" EXPRTYPE="expression"
+                            Y="3" X="179" YY="22" XX="784"
+                            SYMNAME="ErroriRilevati" COLUMNTITLE="Errori Rilevati"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="100" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="2" X="16" YY="19" XX="357"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="2" X="446" YY="19" XX="671"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="2" X="676" YY="19" XX="779"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

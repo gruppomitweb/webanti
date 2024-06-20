@@ -1,0 +1,258 @@
+ 5
+"Operazioni"
+"wperazbo"
+"wperazbo"
+ 0
+ 0
+*
+"Causali Sintetiche"
+"tbcausin"
+"tbcausin"
+ 0
+ 0
+*
+"Causali Analitiche"
+"tbcauana"
+"tbcauana"
+ 0
+ 0
+*
+"Anagrafica Rapporti"
+"knarapbo"
+"knarapbo"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 24
+""
+"[CASE(wperazbo.STATOREG,ý0ý,ý../images/grid_edit.gifý,ý1ý,ý../images/grid_edit.gifý,ý../images/grid_edit_x.gifý)]"
+"BTNEDT"
+"C"
+ 50
+ 0
+*
+""
+"[CASE(wperazbo.STATOREG,ý0ý,ý../images/grid_delete.gifý,ý1ý,ý../images/grid_delete.gifý,ý../images/grid_delete_x.gifý)]"
+"BTNDEL"
+"C"
+ 50
+ 0
+*
+""
+"[CASE(wperazbo.STATOREG,ý0ý,ý../images/stato01.gifý,ý2ý,ý../images/stato2.gifý,ý3ý,ý../images/stato3.gifý,ý1ý,ý../images/stato01.gifý,ýý)]"
+"STATOREG"
+"C"
+ 50
+ 0
+*
+"Idbase"
+"wperazbo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Numero Progressivo"
+"wperazbo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Operazione"
+"wperazbo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Data registrazione"
+"wperazbo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Rapporto Collegato"
+"wperazbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Totale Operazione"
+"[CASE(wperazbo.VALUTA,ý018ý,wperazbo.TOTLIRE,(wperazbo.TOTLIRE/100))]"
+"TOTLIRE"
+"N"
+ 15
+ 2
+*
+"di cui contanti"
+"[CASE(wperazbo.VALUTA,ý018ý,wperazbo.TOTCONT,(wperazbo.TOTCONT/100))]"
+"TOTCONT"
+"N"
+ 15
+ 2
+*
+"Codice Cliente Occasionale"
+"wperazbo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Soggetto Operante Conto Terzi"
+"wperazbo.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+*
+"Beneficiario"
+"wperazbo.CONNESBEN"
+"CONNESBEN"
+"C"
+ 16
+ 0
+*
+"Rapporto Beneficiario"
+"wperazbo.RAPPORTBEN"
+"RAPPORTBEN"
+"C"
+ 25
+ 0
+*
+"Stato registrazione"
+"wperazbo.STATOREG"
+"STATO"
+"C"
+ 1
+ 0
+*
+"Causale Analitica"
+"wperazbo.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+*
+"Descrizione"
+"tbcauana.DESCRI"
+"DESCRI"
+"C"
+ 165
+ 0
+*
+"Causale Sintetica"
+"wperazbo.CODVOC"
+"CODVOC"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbcausin.DESCRIZ"
+"DESCRIZ"
+"C"
+ 165
+ 0
+*
+"Descrizione"
+"knarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Riferimento operazione WU"
+"wperazbo.MTCN"
+"MTCN"
+"C"
+ 10
+ 0
+*
+"Identificativo File"
+"wperazbo.IDFILE"
+"IDFILE"
+"C"
+ 60
+ 0
+*
+"Riferimento Import"
+"wperazbo.RIFIMP"
+"RIFIMP"
+"C"
+ 20
+ 0
+*
+ 4
+"Causali Sintetiche(Causale Sintetica)"
+"tbcausin.CODVOC=wperazbo.CODVOC"
+"Right outer"
+"tbcausin"
+"wperazbo"
+*
+"Causali Analitiche(ID BASE Causale Analitica)"
+"tbcauana.idbase=wperazbo.idcauana"
+"Right outer"
+"tbcauana"
+"wperazbo"
+*
+"Rapporti"
+"knarapbo.RAPPORTO=wperazbo.RAPPORTO"
+"Right outer"
+"knarapbo"
+"wperazbo"
+*
+"Clienti"
+"personbo.CONNES=wperazbo.CONNESCLI"
+"Right outer"
+"personbo"
+"wperazbo"
+*
+ 0
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 19
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"VCMUFU%22GY63N%21X%7D%40T%3B62%3FKB%2FA%3B%24%23%3D%23LY2%2C%19.B-%24%26RDB%3B%15I%27%7EP%5D.8%40%3A%404%2CK%3A+TF%5C%3BQ-D%21R%12%5D%25ORTm5%15.%29%5B6QI9%2FUD%22*MI-JR%21O+E%3E1%02%3E%3CTt%3E%22U%26M%23%28DH6B%3B%156%2797RHBN6US%3D%3D1%18%3F%3D%5B%3E%28G_U-DF_UIh%3F6%2947D.q9F%2BSZD%05%2FH8%27-1%5Du%5CCG%2F%28.%3B%24hWI%5EM3LAKZAGD%40I%5E%25G%22%40%223%21%25QP%27l%1ED%13-IjL%25.5%3E%2CD%3C%5BM%23%5CmH%406%3E37%5C%3D%2C.JXW7%29B7WRUhK+1*F8%22%00"
+"%5CCJ-6GSA%26D%3B9%12YChU%2BQOT%23F8Q%40%23+P%27E2I6%2B%5B%21%24S%291W%3F%3F%3E0%09EGA%29XKTHL6%29U+AQP5P5%21%29%3B%10%5C%3E-%3AAW%24%16%138CBS6%3E%3A%25J-%2BTF%27HBC4%3C%16%3FB%3B9RUwXW6H%25%3A%23+DV.0H*%2BN2RbSFCP2U%3BD1%2CI%05%3E%26h*5%3F%22%25%3DU%3CBL1%14%23.M%3B*XOO1%26%606E%3F9%3CN%3C%22JYA%3BK73%09%276Q%2C%29%23%2CAJM%2BBtA%5EJR%2C+6%3C%223.%25.%3D%28M%216F%21%25Sk14O%2C%2COC%28%3FATZAMP37%1B63%3DW%27YyT%28%2232CT8%29%04.7%3DCC%00"
+""
+""
+"native"
+ 0
+ 0
+*

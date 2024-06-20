@@ -1,0 +1,695 @@
+﻿* --- Resource Vers. 0.9
+imp_archpers<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='ARCHPERS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='imp_archpers
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'imp_archpers.codcab
+'imp_archpers.ragsoc
+'imp_archpers.domicilio
+'imp_archpers.connes
+'imp_archpers.datanasc
+'imp_archpers.nascomun
+'imp_archpers.sotgrup
+'imp_archpers.ramogrup
+'imp_archpers.settsint
+'imp_archpers.tipodoc
+'imp_archpers.numdocum
+'imp_archpers.datarilasc
+'imp_archpers.autrilasc
+'imp_archpers.desccit
+'imp_archpers.provincia
+'imp_archpers.paese
+'imp_archpers.cap
+'imp_archpers.partiva
+'imp_archpers.sesso
+'imp_archpers.datavali
+'imp_archpers.cognome
+'imp_archpers.nome
+'imp_archpers.docfile
+'imp_archpers.provnas
+'imp_archpers.cfestero
+'imp_archpers.specie
+'imp_archpers.comport
+'imp_archpers.attiv
+'imp_archpers.areageo
+'imp_archpers.rnatgiu
+'imp_archpers.rcomp
+'imp_archpers.rattiv
+'imp_archpers.rarea
+'imp_archpers.codfisc
+'imp_archpers.pep
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'imp_archpers.areageo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio Area Georgafica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AREAGEO
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.attiv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Attività prevalente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ATTIV
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.autrilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Autorità Rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AUTRILASC
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAP Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAP
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.cfestero
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale non italiano
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CFESTERO
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.codcab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB COMUNE RESIDENZA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAB
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODFISC
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.cognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cognome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COGNOME
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.comport
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Rischio Comportamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COMPORT
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNES
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.datanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATANASC
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.datarilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rilascio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATARILASC
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.datavali
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Scadenza Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAVALI
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.docfile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='File o cartella documenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOCFILE
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOMICILIO
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.nascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Comune/ Stato di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASCOMUN
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.nome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOME
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.numdocum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='N° Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMDOCUM
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.paese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nazione Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESE
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.partiva
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Partita IVA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PARTIVA
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.pep
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Persona Esposta Politicamente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PEP
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia Residenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.provnas
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVNAS
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGSOC
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.ramogrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ramo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAMOGRUP
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.rarea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio Area Geografica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAREA
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.rattiv
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio Attività
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RATTIV
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.rcomp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Rischio Comportamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RCOMP
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.rnatgiu
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valiore Rischio Natura Giuridica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RNATGIU
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.sesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SESSO
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.settsint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Settore Sintetico
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SETTSINT
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.sotgrup
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sottogruppo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOTGRUP
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.specie
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Specie Giuridica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SPECIE
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+'imp_archpers.tipodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPODOC
+state=3
+table_name='imp_archpers
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'imp_archpers.areageo
+[]
+'imp_archpers.attiv
+[]
+'imp_archpers.autrilasc
+[]
+'imp_archpers.cap
+[]
+'imp_archpers.cfestero
+[]
+'imp_archpers.codcab
+[]
+'imp_archpers.codfisc
+[]
+'imp_archpers.cognome
+[]
+'imp_archpers.comport
+[]
+'imp_archpers.connes
+[]
+'imp_archpers.datanasc
+[]
+'imp_archpers.datarilasc
+[]
+'imp_archpers.datavali
+[]
+'imp_archpers.desccit
+[]
+'imp_archpers.docfile
+[]
+'imp_archpers.domicilio
+[]
+'imp_archpers.nascomun
+[]
+'imp_archpers.nome
+[]
+'imp_archpers.numdocum
+[]
+'imp_archpers.paese
+[]
+'imp_archpers.partiva
+[]
+'imp_archpers.pep
+[]
+'imp_archpers.provincia
+[]
+'imp_archpers.provnas
+[]
+'imp_archpers.ragsoc
+[]
+'imp_archpers.ramogrup
+[]
+'imp_archpers.rarea
+[]
+'imp_archpers.rattiv
+[]
+'imp_archpers.rcomp
+[]
+'imp_archpers.rnatgiu
+[]
+'imp_archpers.sesso
+[]
+'imp_archpers.settsint
+[]
+'imp_archpers.sotgrup
+[]
+'imp_archpers.specie
+[]
+'imp_archpers.tipodoc
+[]
+}
+*--*

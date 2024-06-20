@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="246699548">
+  <CodifyName>ardt_ae_soginfo</CodifyName>
+  <Name>ardt_ae_soginfo.dtldef</Name>
+  <Title>Soggetti Agenti per Conto Inform.</Title>
+  <Type>Detail</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="243046588"></Title>
+    <Note/>
+    <JPG x="5" y="8">ardt_ae_soginfo_usr_1</JPG>
+    <Item type="campo" x1="8" y1="24" x2="118" y2="44">
+      <Name LinkID="166714601">CODSOG</Name>
+      <Comment>Codice Soggetto</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="512" y1="24" x2="542" y2="44">
+      <Name LinkID="169015936">LEGAME</Name>
+      <Comment>Tipo Legame</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="152" y1="24" x2="496" y2="44">
+      <Name LinkID="196444796">xragsoc</Name>
+      <Comment>Ragione Sociale</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="96" y1="160" x2="560" y2="180">
+      <Name LinkID="42580580">xdescleg</Name>
+      <Comment>Descrizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

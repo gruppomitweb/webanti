@@ -1,0 +1,296 @@
+﻿* --- Resource Vers. 0.9
+tmp_trasfope<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Elenco operazioni per Passaggio da provvisorio a definitivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_trasfope
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_trasfope.numprog
+'tmp_trasfope.dataope
+'tmp_trasfope.rapporto
+'tmp_trasfope.valuta
+'tmp_trasfope.totlire
+'tmp_trasfope.totcont
+'tmp_trasfope.connescli
+'tmp_trasfope.flgsel
+'tmp_trasfope.idbase
+'tmp_trasfope.datareg
+'tmp_trasfope.coddip
+'tmp_trasfope.descrap
+'tmp_trasfope.colleg
+'tmp_trasfope.segno
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_trasfope.coddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Agenzia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODDIP
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.colleg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='COLLEG
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.connescli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Cliente Occasionale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CONNESCLI
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAOPE
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.datareg
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Data Registrazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DATAREG
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.descrap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='DESCRAP
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.flgsel
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Flag record selezionato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='FLGSEL
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Numero Progressivo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='NUMPROG
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rapporto Collegato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPPORTO
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.segno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Segno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='SEGNO
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.totcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='di cui contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TOTCONT
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.totlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Totale Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TOTLIRE
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+'tmp_trasfope.valuta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Divisa
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='VALUTA
+state=3
+table_name='tmp_trasfope
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_trasfope.coddip
+[]
+'tmp_trasfope.colleg
+[]
+'tmp_trasfope.connescli
+[]
+'tmp_trasfope.dataope
+[]
+'tmp_trasfope.datareg
+[]
+'tmp_trasfope.descrap
+[]
+'tmp_trasfope.flgsel
+[]
+'tmp_trasfope.idbase
+[]
+'tmp_trasfope.numprog
+[]
+'tmp_trasfope.rapporto
+[]
+'tmp_trasfope.segno
+[]
+'tmp_trasfope.totcont
+[]
+'tmp_trasfope.totlire
+[]
+'tmp_trasfope.valuta
+[]
+}
+*--*

@@ -1,0 +1,81 @@
+﻿* --- Resource Vers. 0.9
+arrt_fammigra_imp
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Importa fotografia per ricostruzione famiglie
+file_modified_on=#2024-01-26 09:05:35
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:13
+module_name='
+name='arrt_fammigra_imp
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.codfisc
+'personbo.cfestero
+'tbluonas.sigla
+'tbluonas.provincia
+'tbluonas.descri
+'personbo.ragsoc
+'personbo.sesso
+'personbo.nasstato
+'personbo.nascomun
+'personbo.datanasc
+'personbo.tipinter
+'personbo.desccit
+'personbo.provincia
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.uniquer
+'opextrbo.idbase
+'opextrbo.dataope
+'opextrbo.inviato
+'opextrbo.datainvio
+'opextrbo.invsaldo
+'opextrbo.progopex
+]
+'Libraries
+[
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_famesiti_minmax.vqr
+'qbe_famesiti_migra_sel.vqr
+]
+'Routines
+[
+'arfn_fdate
+'arfn_fdatetime
+'arrt_fammigra_imp
+]
+'Tables
+[
+'aeannora<table>
+'aetesta<table>
+'anarapbo<table>
+'famesiti<table>
+'famesitid<table>
+'intermbo<table>
+'jnarapbo<table>
+'opextrbo<table>
+'personbo<table>
+'tbluonas<table>
+'tbstati<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,70 @@
+.fieldstreeview table{
+	background:transparent;
+	color:#818181;
+	cursor:default;
+}
+
+.fieldstreeview .menuview_img_sx{
+
+}
+.fieldstreeview .menuview_img_sx_over{
+    
+}
+.fieldstreeview .menuview_font{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	cursor:pointer !important;
+	font-size:12px !important;
+    padding-left:0px;
+}
+.fieldstreeview td.menuview_font{
+    
+}
+
+.fieldstreeview .menuview_font_over{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	cursor:pointer !important;
+	font-size:12px !important;
+	text-decoration:underline;
+    padding-left:0px;
+}
+.fieldstreeview td.menuview_font_over{
+}
+
+.fieldstreeview .menuview_sub_font{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	cursor:pointer !important;
+	font-size:11px !important;
+	padding:2px;
+    padding-left:0px;
+    
+}
+
+.fieldstreeview .menuview_sub_font_over{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	cursor:pointer !important;
+	font-size:11px !important;
+	text-decoration:underline;
+	padding:2px;
+    padding-left:0px;
+}
+
+.fieldstreeview .closed .parent{
+    background:url(../portalstudio/images/catalogtreeview/treeicon-open.png) no-repeat center left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	cursor:pointer !important;
+	font-size:11px !important;
+    padding-left:15px;
+}
+
+.fieldstreeview .opened .parent{
+    background:url(../portalstudio/images/catalogtreeview/treeicon-close.png) no-repeat center left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	cursor:pointer !important;
+	font-size:11px !important;
+    padding-left:15px;
+}
+
+.fieldstreeview .menuview_sub_icon{
+	width:15px;
+	height:15px;
+}

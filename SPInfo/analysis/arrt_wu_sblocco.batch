@@ -1,0 +1,56 @@
+﻿* --- Resource Vers. 0.9
+arrt_wu_sblocco
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Sblocca transazioni
+file_modified_on=#2021-07-30 09:59:44
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='public
+I
+}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='arrt_wu_sblocco
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'wutrxchk.trxcodprg
+'wutrxchk.trxtinilav
+'wutrxchk.trxdinilav
+'wutrxchk.trxutente
+'wutrxchk.trflginlav
+'log_app.logcodice
+'log_app.logdatora
+'log_app.logutente
+'log_app.logtipope
+'log_app.logtesto
+'log_app.logtabella
+'log_app.logchiave
+'log_app.logtype
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_wu_sblocco.vqr
+]
+'Tables
+[
+'wutrxchk<table>
+'cpazi<table>
+'log_app<table>
+]
+}
+I
+*--*
+￼[]
+*--*

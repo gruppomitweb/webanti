@@ -1,0 +1,134 @@
+ 1
+"Operazioni Frazionarie Provvisorie"
+"xraziobo"
+"xraziobo"
+ 252
+ 25
+*
+ 11
+"Numero Progressivo"
+"xraziobo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Operazione"
+"xraziobo.DATAOPE"
+"DATAOPE"
+"Date"
+ 8
+ 0
+*
+"Rapporto Collegato"
+"xraziobo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Divisa"
+"xraziobo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+"Totale Operazione"
+"[CASE(valuta,ý018ý,TOTLIRE,TOTLIRE/100)]"
+"TOTLIRE"
+"Numeric"
+ 15
+ 2
+*
+"di cui contanti"
+"[CASE(valuta,ý018ý,TOTCONT,TOTCONT/100)]"
+"TOTCONT"
+"Numeric"
+ 15
+ 2
+*
+"Codice Cliente Occasionale"
+"xraziobo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Collegamento Operazione Multiple"
+"xraziobo.COLLEG"
+"COLLEG"
+"C"
+ 11
+ 0
+*
+"Flag Selezione"
+"ýSý"
+"FLGSEL"
+"Char"
+ 1
+ 0
+*
+"Data registrazione"
+"xraziobo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Idbase"
+"xraziobo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+ 0
+ 2
+"xraziobo.CDATOPE"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"xraziobo.CDATOPE"
+""
+"<="
+"?w_a_data"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_dadata"
+"Data Operazione in Carattere"
+"Char"
+"8"
+"0"
+"Remove"
+*
+"w_a_data"
+"Data Operazione in Carattere"
+"Char"
+"8"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.t.
+ 6
+.f.
+""
+.f.
+*

@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_discouic_rilievi_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:43
+description='Stampa Operazioni Rilievi Dati Aggregati (XBRL)
+file_modified_on=#2024-05-10 18:19:34
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='logged
+I
+}
+modified_on=#2024-05-10 18:24:45
+module_name='
+name='pg_discouic_rilievi_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Fields
+[
+'tbcausin.codvoc
+'tbcausin.descriz
+'anadip.coddip
+'anadip.descriz
+'anadip.cab
+'anadip.abicabsara
+'tbstati.codsta
+'tbstati.descri
+'tbtipint.tipoint
+'tbtipint.descri
+'tbsetsin.setsint
+'tbsetsin.descri
+]
+'Hyperlinks
+[
+'jsp\pg_upload_portlet.jsp
+'arfn_upload_file_doc
+'arrt_discouic_rilievi_pg
+'arfn_azzera_messaggi
+'arfn_readxml_rilievi
+]
+'Others
+[
+'jsp\showlog_portlet.jsp
+'jsp\showmsg_portlet.jsp
+]
+'Tables
+[
+'tbcausin<table>
+'anadip<table>
+'tbstati<table>
+'tbtipint<table>
+'tbsetsin<table>
+]
+'Zooms
+[
+'[tbcausin] default.vzm
+'[anadip] default.vzm
+'[tbstati] default.vzm
+'[tbtipint] default.vzm
+'[tbsetsin] default.vzm
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_discouic_rilievi_portlet.jsp|Error|core::document|Update dependencies|Resource "readxml_rilievi" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:45
+message='Resource "readxml_rilievi" not found.
+resource_key='jsp\pg_discouic_rilievi_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

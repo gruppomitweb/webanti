@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Actions Code</title>
+ <script type="text/javascript" src="../stdFunctions.js"></script>
+ <script type="text/javascript" src="../controls.js"></script>
+ <script type="text/javascript" src="../mootools.js"></script>
+ <script type="text/javascript" src="../mootools_more.js"></script>
+ <link rel="stylesheet" href="editItemEvent.css">
+ <link rel="stylesheet" href="../codemirror/lib/codemirror.css">
+ <link rel="stylesheet" href="../codemirror/addon/fold/foldgutter.css">
+ <link rel="stylesheet" href="../codemirror/addon/dialog/dialog.css">
+ <link rel="stylesheet" href="../codemirror/addon/hint/show-hint.css">
+ <link rel="stylesheet" href="../codemirror/theme/ambiance.css">
+ <link rel="stylesheet" href="../codemirror/theme/blackboard.css">
+ <link rel="stylesheet" href="../codemirror/theme/neat.css">
+ <link rel="stylesheet" href="../codemirror/theme/elegant.css">
+ <link rel="stylesheet" href="../codemirror/theme/erlang-dark.css">
+ <link rel="stylesheet" href="../codemirror/theme/lesser-dark.css">
+ <link rel="stylesheet" href="../codemirror/theme/night.css">
+ <link rel="stylesheet" href="../codemirror/theme/monokai.css">
+ <link rel="stylesheet" href="../codemirror/theme/cobalt.css">
+ <link rel="stylesheet" href="../codemirror/theme/eclipse.css">
+ <link rel="stylesheet" href="../codemirror/theme/midnight.css">
+ <link rel="stylesheet" href="../codemirror/theme/solarized.css">
+ <link rel="stylesheet" href="../codemirror/theme/rubyblue.css">
+ <link rel="stylesheet" href="../codemirror/theme/twilight.css">
+ <link rel="stylesheet" href="../codemirror/theme/vibrant-ink.css">
+ <link rel="stylesheet" href="../codemirror/theme/xq-dark.css">
+ <link rel="stylesheet" href="../codemirror/theme/xq-light.css">
+ <script type='text/javascript' src="../codemirror/lib/codemirror.js"></script>
+ <script type='text/javascript' src="../codemirror/mode/javascript/javascript.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/edit/matchbrackets.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/comment/comment.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/comment/continuecomment.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/dialog/dialog.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/hint/show-hint.js"></script>
+ <!--script type='text/javascript' src="../codemirror/addon/hint/javascript-hint.js"></script-->
+ <script type='text/javascript' src="../codemirror/addon/search/searchcursor.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/search/search.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/selection/active-line.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/selection/mark-selection.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/search/match-highlighter.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/fold/foldcode.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/fold/foldgutter.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/fold/brace-fold.js"></script>
+ <script type='text/javascript' src="../codemirror/addon/fold/xml-fold.js"></script>
+ <style type="text/css">
+      .breakpoints { width: 1em; }
+      li.CodeMirror-hint {
+        max-width: none;
+      }
+ </style>
+</head>
+<body>
+  <div id='topbar'>
+    <span class="title">Action Code</span>
+    <div class='float_right'>
+      <a id="toolbar_cancel" class="" href="javascript:void(0)" title='Cancel'>CANCEL</a>
+    </div>
+    <div class='float_right'>
+      <a id="toolbar_ok" class="" href="javascript:void(0)" title='Save and Close'>SAVE</a>
+    </div>
+    <div class="action_bar">
+      <!--div id='topbar_right' class='topbar_sides float_right'></div-->
+
+      <!--div id='topbar_left' class='topbar_sides float_lef'></div-->
+      <div class='float_lef topbar_padding'>
+        <label class='small' for="id_item">Items: </label>
+        <div id="selectname" class="select" style="display:inline"></div>
+      </div>
+      <!-- div class='topbar_separator float_lef'></div>
+      <div class='float_lef topbar_padding'>
+        <label class='small' for="event_item">Events: </label>
+        <div id="selectevent" class="select" style="display:inline"></div>
+      </div>
+      <div class='topbar_separator float_lef'></div>
+      <div class='float_lef topbar_padding'>
+        <label class='small' for="function_item">Functions: </label>
+        <div id="selectfunction" class="select" style="display:inline"></div>
+      </div -->
+      <div class='float_right topbar_padding' >
+        <a id="toolbar_search" class="toolbar_btn" href="javascript:void(0)" title='Search'></a>
+      </div>
+      <div class='float_right topbar_padding'>
+        <a id="toolbar_help" class="toolbar_btn" href="javascript:void(0)" title='Help'>
+        </a>
+          <div id='helpkeys_content' class='small'>
+           <table cellpadding="5" border="0"><tbody>
+           <tr><td>Search</td><td align="right" nowrap>Ctrl-F</td></tr>
+           <tr><td>Replace</td><td align="right" nowrap>Ctrl-R</td></tr>
+           <tr><td>Find Next</td><td align="right" nowrap>F3</td></tr>
+           <tr><td>Find Prev</td><td align="right" nowrap>Shift-F3</td></tr>
+           <tr><td>Toggle bookmark</td><td align="right" nowrap>Ctrl-F2</td></tr>
+           <tr><td>Next bookmark</td><td align="right" nowrap>F2</td></tr>
+           <tr><td>Prev bookmark</td><td align="right" nowrap>Shift-F2</td></tr>
+           <tr><td>Add/Remove Comment</td><td align="right" nowrap>Ctrl-Q</td></tr>
+           <tr><td>Save All</td><td align="right" nowrap>Ctrl-S</td></tr>
+           </tbody></table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id='editor'>
+      <div id="loader"></div>
+  </div>
+  <div id="opt_pane_top">
+    <div id="opt_pane_top_wrapper">
+      <div id='opt_pane_topbar_left' title='Show/Hide style pane' class='float_lef'>
+        <div class="toggler"></div><div class="toggler_icon"></div>
+      </div>
+      <div id="opt_pane_topbar" class='float_lef'>
+        <p class='label'>Styles</p>
+      </div>
+    </div>
+  </div>
+  <div id="opt_pane">
+    <div id="opt_pane_wrapper">
+      <div id="opt_pane_content">
+        <div id="opt_pane_toggler"></div>
+        <div>
+          <a class='opt_pane_mode' id="change_style_ambiance" href="javascript:void(0)">Ambiance</a>
+          <a class='opt_pane_mode' id="change_style_blackboard" href="javascript:void(0)">Blackboard</a>
+          <a class='opt_pane_mode' id="change_style_cobalt" href="javascript:void(0)">Cobalt</a>
+          <a class='opt_pane_mode' id="change_style_eclipse" href="javascript:void(0)">Eclipse</a>
+          <a class='opt_pane_mode' id="change_style_elegant" href="javascript:void(0)">Elegant</a>
+          <a class='opt_pane_mode' id="change_style_erlang-dark" href="javascript:void(0)">Erlang-dark</a>
+          <a class='opt_pane_mode' id="change_style_lesser-dark" href="javascript:void(0)">Lesser-dark</a>
+          <a class='opt_pane_mode' id="change_style_default" href="javascript:void(0)">Light</a>
+          <a class='opt_pane_mode' id="change_style_midnight" href="javascript:void(0)">Midnight</a>
+          <a class='opt_pane_mode' id="change_style_monokai" href="javascript:void(0)">Monokai</a>
+          <a class='opt_pane_mode' id="change_style_neat" href="javascript:void(0)">Neat</a>
+          <a class='opt_pane_mode' id="change_style_night" href="javascript:void(0)">Night</a>
+          <a class='opt_pane_mode' id="change_style_rubyblue" href="javascript:void(0)">Rubyblue</a>
+          <a class='opt_pane_mode' id="change_style_solarized" href="javascript:void(0)">Solarized</a>
+          <a class='opt_pane_mode' id="change_style_twilight" href="javascript:void(0)">Twilight</a>
+          <a class='opt_pane_mode' id="change_style_vibrant-ink" href="javascript:void(0)">Vibrant-ink</a>
+          <a class='opt_pane_mode' id="change_style_xq-dark" href="javascript:void(0)">Xq-dark</a>
+          <a class='opt_pane_mode' id="change_style_xq-light" href="javascript:void(0)">Xq-light</a>
+         </div>
+        <p id="slider">Font size - px </p>
+        <div style="padding:5px;">
+          <div id="fontSlider" class="slider">
+            <div class="knob">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<script type="text/javascript">
+(function(w){
+  'use strict';
+  // initialisation of codemirrorOptionObj
+  var	itemsHTML
+    ,	index
+    , nitem
+  	,	code
+  	,	codeEditor
+  	,	form
+  	,	RetVal
+    , z_ac_style = localStorage.getItem('zucchetti_ac_style')
+  	,	ac_style = !Empty(z_ac_style) ? JSON.parse(z_ac_style) : { fontSize: "", theme: "" }
+    , changed=false
+    , codeMirrorOpt={}
+    , opt_paneOpened = false
+    , opt_paneToggle
+    , opt_paneTopToggle
+    , resizeTimer
+    , status = { folded : {}, breakpoints : {}}
+    , ZTObjects
+  ;
+  /****** Gestione del LocalStorage *******/
+  localStorage.setItem('zucchetti_ac_style',JSON.encode(ac_style));
+  /*******codemirror options*******/
+  function thisHints(onlyItems) {
+    var toAdd = "";
+    if (onlyItems) toAdd = "_";
+    var ptlItems=[]
+    for (var i=0;i<itemsHTML.length;i++) {
+      if (itemsHTML[i].type!='Portlet')
+        ptlItems.push({text:itemsHTML[i].name+toAdd,displayText:itemsHTML[i].name});
+    }
+    ptlItems.sort(function(a, b) {
+      return a.displayText.toLowerCase() > b.displayText.toLowerCase() ? 1 : -1;
+    });
+
+    if (!onlyItems) {
+      ptlItems = ptlItems.concat(itemHints('this'));
+    }
+    return ptlItems;
+  }
+  var items=null;
+  function itemNames() {
+    if (items==null) {
+      items = [];
+      for (var i=0;i<itemsHTML.length;i++) {
+        if (itemsHTML[i].type!='Portlet')
+          items.push(itemsHTML[i].name);
+        }
+    }
+    return items;
+  }
+  function itemHints(itemName) {
+    var objFound = null, list = [];
+    if (itemName=='this') {
+      objFound = form;
+    } else {
+      for (var i=0;i<itemsHTML.length;i++) {
+        if (itemsHTML[i].name==itemName)
+          objFound = itemsHTML[i];
+      }
+    }
+    if (objFound) {
+      if (!Empty(objFound.objClass.functions)) {
+        objFound=objFound.objClass.functions.sort(function (a, b) {
+          if (a.length > 0) a = a[0];
+          if (b.length > 0) b = b[0];
+          return a.toLowerCase().localeCompare(b.toLowerCase());
+        });
+      }
+      if(objFound){
+        var descr,value,long_descr;
+        for(var i=0;i<objFound.length;i++){
+          if(IsA(objFound[i],'C')) value=descr=objFound[i]
+          else{
+            descr=objFound[i][0];
+            value=objFound[i][1];
+            if(!Empty(objFound[i][2])) long_descr=objFound[i][2];
+          }
+          var txt = value; //Substr(value,1,At("(",value));
+          list.push({text:txt,displayText:descr});
+        }
+      }
+    }
+    list.sort(function(a, b) {
+      return a.displayText.toLowerCase() > b.displayText.toLowerCase() ? 1 : -1;
+    });
+    return list;
+  }
+  function itemEvents(itemName) {
+    var objFound = null, list = [];
+    if (itemName=='this') {
+      objFound = form;
+    } else {
+      for (var i=0;i<itemsHTML.length;i++) {
+        if (itemsHTML[i].name==itemName)
+          objFound = itemsHTML[i];
+      }
+    }
+    if (objFound) {
+      objFound=objFound.objClass.events;
+      if(objFound){
+        var value,descr;
+        for(i=0;i<objFound.length;i++){
+          if(IsA(objFound[i],'C')){
+            value=descr=objFound[i];
+          }else{
+            descr=objFound[i][0];
+            value=objFound[i][1];
+          }
+          var toAdd='';
+          if(value.indexOf('(')==-1)
+            toAdd+='()';
+          if(value.indexOf('{')==-1)
+            toAdd+='{';
+          toAdd+='\n  ';
+
+
+          list.push({text:value+toAdd,displayText:descr});
+        }
+      }
+    }
+    list.sort(function(a, b) {
+      return a.displayText.toLowerCase() > b.displayText.toLowerCase() ? 1 : -1;
+    });
+    return list;
+  }
+
+  var originalList = null;
+  var initiator = null;
+  function helper(editor, options) {
+    /*se l'helper ritorna un array con un elemento non lo seleziona in automatico ma lascia la possibilita' all'utente di scegliere se selezionare il valore*/
+    options.completeSingle=false;
+    var cur = editor.getCursor(), curLine = editor.getLine(cur.line), prevCur = { line : cur.line, ch : cur.ch-1};
+    var start = cur.ch, end = start;
+    var currentToken = editor.getTokenAt(cur);
+    var prevToken = editor.getTokenAt(prevCur);
+    var list = [];
+    if (originalList!=null) {
+      start = currentToken.start;
+      var offset, token;
+      if (initiator=='_') {
+        offset = currentToken.string.lastIndexOf('_')+1;
+        token = currentToken.string.substr(offset);
+        start += offset;
+      } else {
+        offset = 0;
+        token = currentToken.string;
+      }
+      list = originalList.filter(function(el){ return el.displayText.lastIndexOf(token,0)==0 } );
+    } else if (currentToken.string=='.') {
+      if (prevToken.string=='this') { //variables
+        list = thisHints();
+      } else if (prevToken.type=='property' && itemNames().indexOf(prevToken.string)>-1 ) {
+        list = itemHints(prevToken.string);
+      }
+      originalList = list;
+      initiator = '.';
+    } else if (Right(currentToken.string,1)=='_') {
+      var item = Substr(prevToken.string,1,Len(prevToken.string)-1);
+      prevToken = editor.getTokenAt(CodeMirror.Pos(cur.line, prevToken.start));
+      if (prevToken.string==' ') {
+        prevToken = editor.getTokenAt(CodeMirror.Pos(cur.line, prevToken.start));
+        if (prevToken.string=='function') {
+          if (itemNames().indexOf(item) > -1 || item=='this') {
+            list = itemEvents(item);
+          }
+        }
+      }
+      originalList = list;
+      initiator = '_';
+    } else if (currentToken.string==' ') {
+      if (prevToken.string=='function') { //propongo tutti gli item
+        list = thisHints('_');
+        list.unshift({text:'this_',displayText:'this'});
+      }
+      originalList = list;
+      initiator = ' ';
+      }
+    return {list: list, from: CodeMirror.Pos(cur.line, start), to: CodeMirror.Pos(cur.line, end)};
+  }
+  codeMirrorOpt.mode="javascript";
+  CodeMirror.extendMode("javascript", {lineComment: "//"});
+
+  CodeMirror.registerHelper("hint", "javascript", helper);
+  //CodeMirror.registerHelper("hint", "anyword",helper);
+
+  codeMirrorOpt.extraKeys= {"Ctrl-R": "replace", "F3": "findNext", "Shift-F3": "findPrev", "Ctrl-Q": "toggleComment","Ctrl-S":function(){
+      (parent.parent.saveTool?parent.parent.saveTool():(parent.save?parent.save():void(0)));parent.managed=true
+    },
+    "F2" : function(cm) {
+      var pos = cm.getCursor(),
+          found = -1,
+          i;
+      for (i = pos.line+1; found == -1 && i < cm.lineCount(); i++) { //righe successive
+        var info = cm.lineInfo(i);
+        if (info.gutterMarkers && info.gutterMarkers.breakpoints ) {
+          found = i;
+        }
+      }
+      for (i = 0; found == -1 && i < pos.line; i++) { //righe precedenti
+        var info = cm.lineInfo(i);
+        if (info.gutterMarkers && info.gutterMarkers.breakpoints ) {
+          found = i;
+        }
+      }
+      if (found>-1) {
+        cm.setCursor({ line: found, ch: 0} );
+      }
+    },
+    "Shift-F2" : function(cm) {
+      var pos = cm.getCursor(),
+          found = -1,
+          i;
+      for (i = pos.line-1; found == -1 && i >= 0; i--) { //righe precedenti inverse
+        var info = cm.lineInfo(i);
+        if (info.gutterMarkers && info.gutterMarkers.breakpoints ) {
+          found = i;
+        }
+      }
+      for (i = cm.lineCount()-1; found == -1 && i > pos.line; i--) { //righe successive inverse
+        var info = cm.lineInfo(i);
+        if (info.gutterMarkers && info.gutterMarkers.breakpoints ) {
+          found = i;
+        }
+      }
+      if (found>-1) {
+        cm.setCursor({ line: found, ch: 0} );
+      }
+    },
+    "Ctrl-F2" : function(cm) {
+      var pos = cm.getCursor(),
+          info = cm.lineInfo(pos.line),
+          hadBP = info.gutterMarkers && info.gutterMarkers.breakpoints;
+      if (hadBP) {
+        delete status.breakpoints[pos.line];
+      } else {
+        status.breakpoints[pos.line]=true;
+      }
+      cm.setGutterMarker(pos.line, "breakpoints", hadBP ? null : makeMarker());
+    }
+    }
+  function makeMarker() {
+    var marker = document.createElement("img");
+    marker.src = "../portalstudio/images/icon/bookmark.png";
+    return marker;
+  }
+  codeMirrorOpt.tabMode= "shift";
+  codeMirrorOpt.theme=  ac_style && ac_style.theme ? ac_style.theme : 'default' ;
+  codeMirrorOpt.tabSize = 2;
+  codeMirrorOpt.indentUnit =2;
+  codeMirrorOpt.statementIndent =2;
+  codeMirrorOpt.lineNumbers =true;
+  codeMirrorOpt.styleActiveLine= true;
+  codeMirrorOpt.highlightSelectionMatches= true;
+  codeMirrorOpt.enterMode ='keep';
+  codeMirrorOpt.matchBrackets=true;
+  codeMirrorOpt.gutters= ["CodeMirror-linenumbers", "breakpoints", "CodeMirror-foldgutter"];
+  codeMirrorOpt.onChange=function(){changed=true};
+  codeMirrorOpt.foldGutter=true;
+
+  function createCodeArea(){
+    if(opt_paneOpened)
+      toggleOptPane();
+    var h = $('editor').offsetHeight-50;
+    codeEditor = CodeMirror($('editor'),codeMirrorOpt);
+    codeEditor.on("fold", function(cm, from, to) {
+      status.folded[from.line]=true;
+    });
+    codeEditor.on("unfold", function(cm, from, to) {
+      delete status.folded[from.line];
+    });
+    codeEditor.on("change", function(cm,changeObj) {
+      if (originalList!=null) return; //se autocompletamento gia' in funzione non faccio nulla
+      var txt;
+      if (changeObj.origin=='+delete') {
+        var tk = cm.getTokenAt(changeObj.from);
+        txt = Right(tk.string,1)
+      } else {
+        txt = changeObj.text[0];
+      }
+      if ([".","_"," "].indexOf(Right(txt,1))>-1) {
+        cm.execCommand('autocomplete');
+      }
+    });
+    codeEditor.on("endCompletion",function(cm) {
+      originalList = null;
+    });
+    //codeEditor.getScrollerElement().style.height =h +'px';
+    LibJavascript.CssClassNameUtils.addClass(codeEditor,'eventcode')
+    codeEditor.getWrapperElement().id='eventcode';
+    codeEditor.getWrapperElement().style.height='100%';
+
+    $(codeEditor.getWrapperElement()).setStyle('font-size',ac_style.fontSize)
+    codeEditor.getWrapperElement().value = codeEditor.getValue();
+
+    /* Breakpoints */
+    codeEditor.on("gutterClick", function(cm, n, type) {
+      if ( type == "breakpoints" ) {
+     var info = cm.lineInfo(n);
+        var hadBP = info.gutterMarkers && info.gutterMarkers.breakpoints;
+        if (hadBP) {
+          delete status.breakpoints[n];
+        } else {
+          status.breakpoints[n]=true;
+        }
+        cm.setGutterMarker(n, "breakpoints", hadBP ? null : makeMarker());
+      } else if ( type == "CodeMirror-linenumbers" ) {
+        var info = cm.lineInfo(n);
+        cm.setSelection( { line: n, ch : 0 }, {line: n , ch : info.text.length } );
+      }
+    });
+
+    for (var i in status.breakpoints) {
+      codeEditor.setGutterMarker(parseInt(i), "breakpoints", makeMarker());
+    }
+    for (var i in status.folded) {
+      codeEditor.foldCode(CodeMirror.Pos(parseInt(i), 0));
+    }
+    codeEditor.refresh();
+  }
+
+  function buildSlider(){
+    // Create the new slider instance
+    var el = $('fontSlider');
+    var font = $('eventcode');
+    var knob = el.getElement('.knob');
+    var val = new Element('p', {'class': 'value'}).inject(knob);
+    var slider = new Slider(el, knob, {
+      steps: 35,  // There are 35 steps
+      range: [12],  // Minimum value is 8
+      initialStep :ac_style.fontSize ? ac_style.fontSize : 13,
+      onChange: function(value){
+        // Everytime the value changes, we change the font of an element
+        ac_style.fontSize = value;
+        localStorage.setItem('zucchetti_ac_style', JSON.encode(ac_style));
+        font.setStyle('font-size', value);
+        $(codeEditor.getWrapperElement()).setStyle('font-size',value);
+        val.set('text', value);
+      }
+    }).set(font.getStyle('font-size').toInt());
+  }
+
+  function toggleOptPane(){
+    var range;
+    if(opt_paneOpened){
+      range = [0,-155];
+      opt_paneToggle.slideOut();
+      $('opt_pane_topbar_left').removeClass('open');
+      var fnToDelay = function(){
+        opt_paneTopToggle.start({
+          'right':range
+        });
+        opt_paneOpened = !opt_paneOpened;
+      }
+      fnToDelay.delay(301);
+    }else{
+      range = [-155,0];
+      $('opt_pane_topbar_left').addClass('open');
+      opt_paneTopToggle.start({
+        'right':range
+      });
+      var fnToDelay = function(){
+        opt_paneToggle.slideIn();
+        opt_paneOpened = !opt_paneOpened;
+      }
+      fnToDelay.delay(201);
+    }
+  }
+  function SaveAndClose(){
+    parent.codeevents = codeEditor.getValue();
+    parent.codeStatus = status;
+    parent.window.codeOpen=false;
+    parent.window.ActionCodeLayer.close();
+  }
+  function Save() {
+    parent.codeevents = codeEditor.getValue();
+    changed = false;
+  }
+  function ResizeEditor(){
+    clearTimeout(resizeTimer);
+    var size_editor = $('editor').getSize();
+    var size = parent.ActionCodeLayer.getContainer().getSize();
+    ac_style.width = size.x;
+    ac_style.height = size.y;
+    codeEditor.getScrollerElement().style.width=size_editor.x+'px';
+    codeEditor.getScrollerElement().style.height=size_editor.y+'px';
+    localStorage.setItem('zucchetti_ac_style', JSON.encode(ac_style));
+  }
+  /*********Gestione degli eventi************/
+  window.addEvent('domready',function(){
+    code = codeMirrorOpt.value = loadCode();
+    window.fireEvent('createEditorComponent');
+    opt_paneToggle = new Fx.Slide('opt_pane_wrapper',{
+      'transition':Fx.Transitions.linear.easeOut,
+      'duration':300
+    }).hide();
+    opt_paneTopToggle = new Fx.Morph('opt_pane_top_wrapper',{
+      'duration':200
+    });
+    $$('.opt_pane_mode').each(function(i){
+      i.addEvent('click',function(){
+        var theme=Strtran(i.id,'change_style_','');
+        codeEditor.setOption('theme',theme);
+        ac_style.theme = theme;
+        localStorage.setItem('zucchetti_ac_style', JSON.encode(ac_style));
+      });
+    });
+    createCodeArea();
+    buildSlider.delay(300);
+    setTimeout(function(){codeEditor.getScrollerElement().style.height =$('editor').offsetHeight +'px';},300);
+    codeEditor.focus();
+  });
+  document.getElementById('opt_pane_topbar_left').addEvent('click',toggleOptPane);
+  document.getElementById('toolbar_ok').addEvent('click',SaveAndClose);
+  document.getElementById('toolbar_help').addEvent('click',function(){
+    document.getElementById('helpkeys_content').toggleClass('visible');
+  });
+  document.getElementById('toolbar_search').addEvent('click',function() {
+    codeEditor.execCommand('find');
+  });
+
+  document.getElementById('toolbar_cancel').addEvent('click',function CheckClosefromX(){
+    if(changed){
+        if (confirm("Do you want to save Actions code ?\n\nClick OK to save\nClick Cancel to ignore changes"))
+          SaveAndClose()
+        else{
+          parent.window.codeOpen=false;
+          parent.window.ActionCodeLayer.close();
+        }
+    }else{
+      parent.window.codeOpen=false;
+      parent.window.ActionCodeLayer.close();
+    }
+  })
+  document.body.addEvent('keydown',function(e){
+    var domevt = new DOMEvent(e);
+    var code = domevt.code;
+    if(domevt.control && code==82){ //ctrl+r
+      //Annullo il Ctrl-r di default
+      if(e.preventDefault)e.preventDefault();
+    }
+  });
+  window.addEvents({
+    'restoreSize': function(spmodallayer){
+      ac_style.maximized = false;
+      localStorage.setItem('zucchetti_ac_style', JSON.encode(ac_style));
+    }
+  , 'maximized': function(spmodallayer){
+      ac_style.maximized = true;
+      localStorage.setItem('zucchetti_ac_style', JSON.encode(ac_style));
+    }
+  , 'resize': function(){ resizeTimer = ResizeEditor.delay(50) }
+  , 'save': Save
+  });
+
+  /**********Gestione dello specifico editor***************/
+  function loadCode(){
+    itemsHTML=parent.itemsHTML;;  // array generico degli items
+    index=parent.index;      // indice corrente mainitem
+    nitem=parent.nitem;
+    form=parent.formProp;
+    ZTObjects=parent.ZTObjects;
+    if (parent.codeStatus) {
+      status = parent.codeStatus;
+    }
+    return parent.codeevents;
+  }
+  window.addEvent('createEditorComponent',selectName);
+  function writeCode(name,obj){
+    /* effettua una ricerca della funzione nella text area. Se la trova posiziona il cursore, altrimenti la crea*/
+    var funct_evt=Ctrl("selectname").value;
+    if(funct_evt=='-') return;
+    var fnc="<" +name+ ">";
+    var idx = -1;
+    idx = Strtran(codeEditor.getValue(),"\r","").search(new RegExp(fnc,'m'));
+    if(idx!=-1){
+      var a = codeEditor.getSearchCursor(fnc)
+      if(a.find())
+        codeEditor.setSelection(a.from(),a.to())
+    } else {
+      var cursorPos = codeEditor.getCursor(true);
+      codeEditor.replaceRange(fnc, cursorPos, codeEditor.getCursor(false));
+      codeEditor.setCursor( { line : cursorPos.line + 1, ch : 2 } );
+    }
+    obj.blur();
+    codeEditor.focus();
+    insertItem(name);
+  }
+  function option(val,descr,long_descr){
+    var txt = (!Empty(long_descr)?long_descr:(arguments.length==1 ? val : descr));
+    return '<option title="'+txt+'" value="'+val+'">'+(arguments.length==1 ? val : descr)+'</option>';
+  }
+  function insertItem(type){
+    index = parent.index = itemsHTML.length;
+    if(ZTObjects[type+'Obj']){
+      itemsHTML[index] = new ZTObjects[type+'Obj']('item' + nitem, type + nitem, type, '', '', '', 0, 0, 0, 0);
+    } else {
+      itemsHTML[index] = new ZTObjects[type]('item' + nitem, type + nitem, type, '', '', '', 0, 0, 0, 0);
+    }
+
+    itemsHTML[index].page = parent.formProp.page; //imposta la pagina corrente
+    itemsHTML[index].zindex = parent.findMaxZIndex(true) + 1
+    if (Empty(itemsHTML[index].sequence)){
+      itemsHTML[index].sequence = ++parent.sequence_c;
+    }
+    parent.Properties();
+  }
+  function selectName(){
+    var name,src, i,
+    str='<select id="id_item" tabindex="2" accesskey="t">';
+    var comboSelectItems=["-"];
+    var objs = parent.ZTObjects.PSToolbarCtrl;
+    for(i=0;i<objs.length;i++) {
+      comboSelectItems.push(objs[i].action.par);
+    }
+    comboSelectItems.sort();
+    for(i=0;i<comboSelectItems.length;i++){
+      var item_tmp=comboSelectItems[i];
+      str+='<option ';
+      str+='value="'+item_tmp+'">'+item_tmp+'</option>';
+    }
+    str+='</select>';
+    Ctrl("selectname").innerHTML=str;
+    document.getElementById('id_item').addEvent('change', function(){
+      var idx=this.selectedIndex
+        , txt=this.options[idx].text
+        , val=this.options[idx].value
+      ;
+      writeCode(val,this);
+    });
+  }
+})()
+</script>

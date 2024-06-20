@@ -1,0 +1,54 @@
+﻿* --- Resource Vers. 0.9
+arrt_delinformazione
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Cancella Informazione Rapporto (Routine)
+file_modified_on=#2023-03-24 11:22:49
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:11
+module_name='
+name='arrt_delinformazione
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'rapopebo.idbase
+'rapopebo.dataope
+'rapopebo.numprog
+'rapopebo.statoreg
+'rapopebo.datarett
+'delegabo.numprog1
+'delegabo.datarett
+'delegabo.statoreg
+'delegabo.numprog2
+'delegabo.datafine
+'intestbo.numprog1
+'intestbo.datarett
+'intestbo.statoreg
+'intestbo.numprog2
+'intestbo.datafine
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Tables
+[
+'rapopebo<table>
+'intestbo<table>
+'delegabo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

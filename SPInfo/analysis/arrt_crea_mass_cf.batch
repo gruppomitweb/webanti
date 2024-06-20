@@ -1,0 +1,58 @@
+﻿* --- Resource Vers. 0.9
+arrt_crea_mass_cf
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Crea i file per il controllo massivo
+file_modified_on=#2023-02-07 17:44:54
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:10
+module_name='
+name='arrt_crea_mass_cf
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo_agg.connes
+'personbo_agg.flgvalido
+]
+'Libraries
+[
+'FileLibMit<project>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_mass_cf_min_max.vqr
+'qbe_mass_cf.vqr
+'qbe_mass_cf_selected.vqr
+]
+'Routines
+[
+'arfn_agechar
+'arfn_chkcodfis
+'arfn_exec_sid_sm
+'arfn_fdate_nd
+'arfn_fdatetime
+'arrt_crea_mass_cf
+]
+'Tables
+[
+'intermbo<table>
+'tbstati<table>
+'tmp_listafile<table>
+'personbo_agg<table>
+]
+}
+I
+*--*
+￼[]
+*--*

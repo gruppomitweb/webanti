@@ -1,0 +1,57 @@
+﻿* --- Resource Vers. 0.9
+arrt_aggrapporto
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Aggiorna Rapporto su intestatari
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_aggrapporto
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'rapopebo.idbase
+'rapopebo.rapporto
+'intestbo.idbase
+'intestbo.rapporto
+'statorap.rapporto
+'statorap.codinter
+'statorap.dataini
+'statorap.datafine
+'statorap.statorap
+'statorap.ragio
+'statorap.modsvol
+'statorap.areageo
+'statorap.scopo
+'statorap.natura
+'statorap.rtipo
+'statorap.rcomp
+'statorap.rimp
+'statorap.rfreq
+'statorap.rragio
+'statorap.rarea
+'statorap.tipo
+]
+'Tables
+[
+'rapopebo<table>
+'intestbo<table>
+'statorap<table>
+'anarapbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

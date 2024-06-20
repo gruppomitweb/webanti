@@ -1,0 +1,81 @@
+﻿* --- Resource Vers. 0.9
+arrt_dlgspecifici_telepass
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Crea il file campione.txt
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:12
+module_name='
+name='arrt_dlgspecifici_telepass
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'intermbo.codinter
+'intermbo.codcab
+'intermbo.desccit
+'intermbo.provincia
+'intermbo.coddipe
+'anadip.coddip
+'anadip.cab
+'anadip.desccit
+'anadip.provincia
+'tbcitta.citta
+'tbcitta.cab
+]
+'Libraries
+[
+'LibreriaMit<project>
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_uic_minmax.vqr
+'qbe_rapopebo_uic.vqr
+]
+'Tables
+[
+'operazbo<table>
+'intermbo<table>
+'anadip<table>
+'personbo<table>
+'intestbo<table>
+'rapopebo<table>
+'anarapbo<table>
+'tmp_apecod<table>
+'tmp_stpfileage<table>
+'aerighe<table>
+'tbcitta<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_dlgspecifici_telepass|Error|core::document|Update dependencies|Table "qbe_rapopebo_uic" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:12
+message='Table "qbe_rapopebo_uic" not found.
+resource_key='arrt_dlgspecifici_telepass
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

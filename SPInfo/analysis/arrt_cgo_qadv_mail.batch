@@ -1,0 +1,46 @@
+﻿* --- Resource Vers. 0.9
+arrt_cgo_qadv_mail
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:31
+description='Invia e mail se QADV supera limite
+file_modified_on=#2020-10-27 12:29:12
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:08
+module_name='
+name='arrt_cgo_qadv_mail
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'cgo_qadv_operazioni_dl.snainumope
+'cgo_qadv_operazioni_dl.qadv_flgcompleto
+'cgo_qadv_operazioni_dl.qadv_totale
+'cgo_qadv_operazioni.snainumope
+'cgo_qadv_operazioni.qadv_flgcompleto
+'cgo_qadv_operazioni.qadv_totale
+]
+'Libraries
+[
+'MailLibrary<painter>
+]
+'Tables
+[
+'intermbo<table>
+'destwarn<table>
+'cgo_qadv_operazioni_dl<table>
+'cgo_qadv_operazioni<table>
+]
+}
+I
+*--*
+￼[]
+*--*

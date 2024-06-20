@@ -1,0 +1,48 @@
+﻿* --- Resource Vers. 0.9
+allinea_sae
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:26
+description='Allinea SAE / Settore pe MT
+file_modified_on=#2021-03-25 13:05:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:47
+module_name='
+name='allinea_sae
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.paese
+'personbo.sotgrup
+'personbo.settsint
+]
+'Routines
+[
+'allinea_sae
+'arfn_datesum
+'arfn_fdate
+'arfn_fdatetime
+]
+'Tables
+[
+'opextrbo<table>
+'operazbo<table>
+'personbo<table>
+'tbstati<table>
+'fraziobo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,134 @@
+﻿* --- Resource Vers. 0.9
+arrt_stp_stdtec_tit
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Lancio Stampa Verifica Legami tra Soggetti (Std. tecnici) (Routine)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:30
+module_name='
+name='arrt_stp_stdtec_tit
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_stpoperazioni.idbase
+'tmp_stpoperazioni.numprog
+'tmp_stpoperazioni.dataope
+'tmp_stpoperazioni.tipointer
+'tmp_stpoperazioni.codinter
+'tmp_stpoperazioni.tipoinf
+'tmp_stpoperazioni.idereg
+'tmp_stpoperazioni.coddipe
+'tmp_stpoperazioni.desccit
+'tmp_stpoperazioni.provincia
+'tmp_stpoperazioni.codcab
+'tmp_stpoperazioni.rapporto
+'tmp_stpoperazioni.flagrap
+'tmp_stpoperazioni.datareg
+'tmp_stpoperazioni.tipooprap
+'tmp_stpoperazioni.statoreg
+'tmp_stpoperazioni.operazmod
+'tmp_stpoperazioni.datarett
+'tmp_stpoperazioni.colleg
+'tmp_stpoperazioni.tipoleg
+'tmp_soggettioper.idbase
+'tmp_soggettioper.tipopers
+'tmp_soggettioper.numprog
+'tmp_soggettioper.tipointer
+'tmp_soggettioper.codinter
+'tmp_soggettioper.tipoinf
+'tmp_soggettioper.idereg
+'tmp_soggettioper.connes
+'tmp_soggettioper.ragsoc
+'tmp_soggettioper.paese
+'tmp_soggettioper.codcab
+'tmp_soggettioper.desccit
+'tmp_soggettioper.provincia
+'tmp_soggettioper.domicilio
+'tmp_soggettioper.cap
+'tmp_soggettioper.codfisc
+'tmp_soggettioper.datanasc
+'tmp_soggettioper.nascomun
+'tmp_soggettioper.nasstato
+'tmp_soggettioper.sotgrup
+'tmp_soggettioper.ramogrup
+'tmp_soggettioper.settsint
+'tmp_soggettioper.tipodoc
+'tmp_soggettioper.numdocum
+'tmp_soggettioper.datarilasc
+'tmp_soggettioper.autrilasc
+'tmp_soggettioper.sesso
+'tmp_soggettioper.attiv
+'tmp_soggettioper.rapporto
+'tmp_soggettioper.flagrap
+]
+'Libraries
+[
+'ReportLibrary<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_allrapotit_tec.vqr
+'qbe_allxapotit_tec.vqr
+]
+'Routines
+[
+'arfn_chkspers
+]
+'Tables
+[
+'tmp_stpoperazioni<table>
+'tmp_soggettioper<table>
+'intermbo<table>
+'personbo<table>
+'wersonbo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_stp_stdtec_tit|Warning|core::document|Update dependencies|Field "1" not found in temporary table "tmp_stpoperazioni".{Accuracy:-10}
+explanation='
+found_on=#2024-05-10 18:25:30
+message='Field "1" not found in temporary table "tmp_stpoperazioni".
+resource_key='arrt_stp_stdtec_tit
+solvable=False
+status='unhandled
+tool='core::document
+type='Warning
+weights={
+'Accuracy
+-10
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_stp_stdtec_tit|Warning|core::document|Update dependencies|Field "1" not found in temporary table "tmp_soggettioper".{Accuracy:-10}
+explanation='
+found_on=#2024-05-10 18:25:30
+message='Field "1" not found in temporary table "tmp_soggettioper".
+resource_key='arrt_stp_stdtec_tit
+solvable=False
+status='unhandled
+tool='core::document
+type='Warning
+weights={
+'Accuracy
+-10
+}
+I
+]
+*--*

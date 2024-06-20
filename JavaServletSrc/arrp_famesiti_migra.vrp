@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v5.0 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Errori Esiti Migrazioni -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:[{"type":"report","name":"arrp_famesiti_migra","version":"5.0","title":"Stampa Errori Esiti Migrazioni","query":"qbe_famesiti_migra","queries_list":"","font":"Arial","font_size":"9","font_weight":"normal","font_effect":"","picture_date":"","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"false","security_public":"true","dict_name":"","security_access":"true","security_roles":"","author":"","client":"","date_creat":"2016-05-25","date_rev":"2023-01-27","modcnt":"19","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":"ISO-8859-1","hsl":"false","lock_items":"false","maxcount":"39","check_values":"","rotation":"","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","privacy":"0","identifier":"false","contentprivacy":"0","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"87","uid":"MIPZTTXFJK","sequence":"2","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"165","uid":"YIENXAMAEI","sequence":"3","page":"1"},{"type":"Group_top","comment":"Codice Univo Rapporto","name":"group1","uid":"QCLVUMABMD","page":"1","exp":"true","x":"0","y":"89","w":"1272","h":"0","sequence":"6","reprint_header":"true","rows":"15"},{"type":"Group_down","comment":"Codice Univo Rapporto","name":"group1","uid":"ZXSWBWCJQX","page":"1","exp":"true","x":"0","y":"163","w":"1272","h":"0","sequence":"7","reprint_header":"true","rows":"15"},{"type":"Section_top","comment":"section33","name":"section33","uid":"KYCFKFPCJK","page":"1","x":"0","y":"111","w":"1272","h":"0","sequence":"32","hidecond":"Empty(qbe_famesiti_migra.c_DATOMIT)"},{"type":"Section_down","comment":"section33","name":"section33","uid":"RPKBIQRULQ","page":"1","x":"0","y":"133","w":"1272","h":"0","sequence":"33","hidecond":"Empty(qbe_famesiti_migra.c_DATOMIT)"},{"type":"Section_top","comment":"section34","name":"section34","uid":"OBBWBVOBJT","page":"1","x":"0","y":"135","w":"1272","h":"0","sequence":"34","hidecond":"Empty(qbe_famesiti_migra.c_DATOAGE)"},{"type":"Section_down","comment":"section34","name":"section34","uid":"ICRDVESLXF","page":"1","x":"0","y":"159","w":"1272","h":"0","sequence":"35","hidecond":"Empty(qbe_famesiti_migra.c_DATOAGE)"},{"type":"Label","name":"label0_28","uid":"QOCNPWUOSL","page":"1","value":"\"SOCIETA': \" + LRTrim(DescAzi)","text_type":"expression","x":"16","y":"4","w":"1094","h":"21","sequence":"67","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Arial","font_size":"11","font_weight":"bold"},{"type":"Label","name":"label0","uid":"BGSAUUXMHN","page":"1","value":"Stampa Esiti Fotografia Anagrafe Rapporti","text_type":"constant","x":"16","y":"26","w":"1095","h":"32","sequence":"24","removefromout":"CSV,CSVS,XLS","align":"center","global_font":"false","font":"Arial","font_size":"16","font_weight":"bold"},{"type":"Box","name":"Box13_30","uid":"QBAWFXUUDJ","page":"1","border_width":"1","stretch_to_right":"true","x":"16","y":"61","w":"1095","h":"0","sequence":"15"},{"type":"Label","name":"label9","uid":"CSGEGXZOWM","page":"1","value":"NDG","text_type":"constant","x":"632","y":"64","w":"126","h":"19","sequence":"11","removefromout":"CSV,CSVS,XLS","global_font":"false","font":"Tahoma","font_size":"9","font_weight":"bold"},{"type":"Label","name":"label12","uid":"SUHDRBRRZF","page":"1","value":"Errore","text_type":"constant","x":"756","y":"64","w":"126","h":"19","sequence":"14","removefromout":"CSV,CSVS,XLS","global_font":"false","font":"Tahoma","font_size":"9","font_weight":"bold"},{"type":"Label","name":"label6","uid":"CDUUHPRHSK","page":"1","value":"Codice Univoco Famiglia","text_type":"constant","x":"16","y":"64","w":"163","h":"19","sequence":"8","removefromout":"CSV,CSVS,XLS","global_font":"false","font":"Tahoma","font_size":"9","font_weight":"bold"},{"type":"Label","name":"label7","uid":"FXSSMGXSIM","page":"1","value":"Rapporto / Oper. Extraconto","text_type":"constant","x":"430","y":"65","w":"189","h":"19","sequence":"9","removefromout":"CSV,CSVS,XLS","global_font":"false","font":"Tahoma","font_size":"9","font_weight":"bold"},{"type":"Box","name":"Box13","uid":"GIEYBTJECT","page":"1","border_width":"1","stretch_to_right":"true","x":"16","y":"82","w":"1095","h":"0","sequence":"15"},{"type":"Expr","name":"expr17","uid":"HVRYIIUPON","page":"1","exp":"qbe_famesiti_migra.c_NDGSOG","len":"16","dec":"0","output_name":"NDGSoggetto","x":"630","y":"91","w":"120","h":"18","sequence":"20","global_font":"false","font":"Tahoma","font_size":"7","font_weight":"normal"},{"type":"Expr","name":"expr20","uid":"IPEZABRIMU","page":"1","exp":"qbe_famesiti_migra.c_LSTERRORI","type_exp":"memo","dec":"0","output_name":"Errore","x":"756","y":"91","w":"353","h":"18","sequence":"23","global_font":"false","font":"Tahoma","font_size":"7","font_weight":"normal"},{"type":"Expr","name":"expr14","uid":"BWXRHOUNXU","page":"1","exp":"qbe_famesiti_migra.c_UNIQUECODE","len":"50","dec":"0","output_name":"CodiceUnivoco","x":"16","y":"91","w":"407","h":"18","sequence":"17","global_font":"false","font":"Tahoma","font_size":"7","font_weight":"bold"},{"type":"Expr","name":"expr15","uid":"GJZPZKYOFT","page":"1","exp":"qbe_famesiti_migra.c_RAPPORTO","len":"25","dec":"0","output_name":"Rapporto-OperazioneExtraconto","x":"430","y":"91","w":"171","h":"18","sequence":"18","global_font":"false","font":"Tahoma","font_size":"7","font_weight":"normal"},{"type":"Expr","name":"expr16","uid":"RCAOEYFNNV","page":"1","exp":"qbe_famesiti_migra.c_TIPORAP","len":"1","dec":"0","output_name":"Tipologia","x":"605","y":"91","w":"18","h":"18","sequence":"19","global_font":"false","font":"Tahoma","font_size":"7","font_weight":"normal"},{"type":"Expr","comment":"Codice Fiscale","name":"Expr37","uid":"MUERMFDLUR","page":"1","exp":"qbe_famesiti_migra.c_CODFISC","len":"16","dec":"0","output_name":"Codice_Fiscale","x":"1114","y":"91","w":"30","h":"18","sequence":"36"},{"type":"Expr","comment":"Cognome","name":"Expr37_38","uid":"TDMQRUMVXR","page":"1","exp":"qbe_famesiti_migra.c_COGNOME","len":"26","dec":"0","output_name":"COGNOME","x":"1147","y":"91","w":"30","h":"18","sequence":"36"},{"type":"Expr","comment":"Nome","name":"Expr37_38_39","uid":"LDKYHCSJHO","page":"1","exp":"qbe_famesiti_migra.c_NOME","len":"25","dec":"0","output_name":"NOME","x":"1182","y":"91","w":"30","h":"18","sequence":"36"},{"type":"Expr","name":"expr18","uid":"CRILINRZPX","page":"1","exp":"qbe_famesiti_migra.c_DATOMIT","type_exp":"memo","dec":"0","output_name":"DatoMIT","x":"17","y":"113","w":"1090","h":"18","sequence":"21","global_font":"false","font":"Tahoma","font_size":"7","font_weight":"normal"},{"type":"Expr","name":"expr19","uid":"ZPYRSGPQHI","page":"1","exp":"qbe_famesiti_migra.c_DATOAGE","type_exp":"memo","dec":"0","output_name":"DatoAGE","x":"17","y":"137","w":"1090","h":"18","sequence":"22","global_font":"false","font":"Tahoma","font_size":"7","font_weight":"normal"},{"type":"Box","name":"Box13_30_32","uid":"MOSQRNXTUY","page":"1","border_width":"1","stretch_to_right":"true","x":"16","y":"167","w":"1095","h":"0","sequence":"15"},{"type":"Label","name":"label3","uid":"EDUXAEWFZE","page":"1","value":"Format(DateTime(), 'DD-MM-YYYY hh:mm:ss')","text_type":"expression","x":"16","y":"170","w":"341","h":"17","sequence":"27","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Arial","font_size":"8","font_weight":"normal"},{"type":"Label","name":"label4","uid":"SVRJRIDFJV","page":"1","value":"'Pag. ' + Str(nNumPage, 4, 0) + ' / '","text_type":"expression","x":"772","y":"170","w":"225","h":"17","sequence":"28","removefromout":"CSV,CSVS,XLS,XLSX","align":"right","global_font":"false","font":"Arial","font_size":"8","font_weight":"normal"},{"type":"Label","name":"label5","uid":"CHFAVISHFH","page":"1","value":"Str(nTotalPages, 4, 0)","text_type":"expression","x":"1002","y":"170","w":"103","h":"17","sequence":"29","removefromout":"CSV,CSVS,XLS,XLSX","global_font":"false","font":"Arial","font_size":"8","font_weight":"normal"}] -->
+
+<REPORT NAME="arrp_famesiti_migra" TITLE="Stampa Errori Esiti Migrazioni" QUERY="qbe_famesiti_migra" MAXDEPTH="1" VERSION="5.0" PUBLIC="true" ACCESS="true" ROLES=""
+  GLBFONTNAME="Arial" GLBFONTSIZE="9"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="87" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="4" X="16" YY="25" XX="1110"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Stampa Esiti Fotografia Anagrafe Rapporti" EXPRTYPE="constant"
+                    Y="26" X="16" YY="58" XX="1111"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS"
+                    ALIGN="C"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="16"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="61" X="16" XX="1112" BORDERWIDTH="1"
+                    UID="QBAWFXUUDJ" 
+                    STRETCH="true"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="Codice Univoco Famiglia" EXPRTYPE="constant"
+                    Y="64" X="16" YY="83" XX="179"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="NDG" EXPRTYPE="constant"
+                    Y="64" X="632" YY="83" XX="758"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Errore" EXPRTYPE="constant"
+                    Y="64" X="756" YY="83" XX="882"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Rapporto / Oper. Extraconto" EXPRTYPE="constant"
+                    Y="65" X="430" YY="84" XX="619"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="82" X="16" XX="1112" BORDERWIDTH="1"
+                    UID="GIEYBTJECT" 
+                    STRETCH="true"
+                    ALIGN="L"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="1" FOOTH="1" UID="QCLVUMABMD" TOP="88" BOTTOM="157" EXPRESSION="true"
+   REPRINTHEADER="true" FIXEDROWSNUM="15">
+          <SECTION TYPE="group" HEADH="69" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="espressione" NAME="qbe_famesiti_migra.c_UNIQUECODE" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="16" YY="19" XX="423"
+                            SYMNAME="CodiceUnivoco"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            FONTSTYLE="B"
+                            GLBPICTURE="true"
+                            LEN="50"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_famesiti_migra.c_RAPPORTO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="430" YY="19" XX="601"
+                            SYMNAME="Rapporto-OperazioneExtraconto"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            GLBPICTURE="true"
+                            LEN="25"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_famesiti_migra.c_TIPORAP" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="605" YY="19" XX="623"
+                            SYMNAME="Tipologia"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            GLBPICTURE="true"
+                            LEN="1"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_famesiti_migra.c_NDGSOG" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="630" YY="19" XX="750"
+                            SYMNAME="NDGSoggetto"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            GLBPICTURE="true"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_famesiti_migra.c_LSTERRORI" ITEMTYPE="M" EXPRTYPE="expression"
+                            Y="1" X="756" YY="19" XX="1109"
+                            SYMNAME="Errore"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_famesiti_migra.c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="1114" YY="19" XX="1144"
+                            SYMNAME="Codice_Fiscale"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_famesiti_migra.c_COGNOME" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="1147" YY="19" XX="1177"
+                            SYMNAME="COGNOME"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="26"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_famesiti_migra.c_NOME" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="1182" YY="19" XX="1212"
+                            SYMNAME="NOME"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="25"
+                            />
+                        <SECTIONHIDE TYPE="section" UID="KYCFKFPCJK" Y="21" HEADH="21" TOP="109" BOTTOM="130" EXPRESSION="Empty(qbe_famesiti_migra.c_DATOMIT)">
+                              <ITEM OBJ="espressione" NAME="qbe_famesiti_migra.c_DATOMIT" ITEMTYPE="M" EXPRTYPE="expression"
+                                    Y="22" X="17" YY="40" XX="1107"
+                                    SYMNAME="DatoMIT"
+                                    REPEATED="true"
+                                    ALIGN="L"
+                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                                    GLBPICTURE="true"
+                                    LEN="10"
+                                    />
+                        </SECTIONHIDE>
+                        <SECTIONHIDE TYPE="section" UID="OBBWBVOBJT" Y="43" HEADH="23" TOP="131" BOTTOM="154" EXPRESSION="Empty(qbe_famesiti_migra.c_DATOAGE)">
+                              <ITEM OBJ="espressione" NAME="qbe_famesiti_migra.c_DATOAGE" ITEMTYPE="M" EXPRTYPE="expression"
+                                    Y="44" X="17" YY="62" XX="1107"
+                                    SYMNAME="DatoAGE"
+                                    REPEATED="true"
+                                    ALIGN="L"
+                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                                    GLBPICTURE="true"
+                                    LEN="10"
+                                    />
+                        </SECTIONHIDE>
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="158" H="22" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="16" XX="1112" BORDERWIDTH="1"
+                    UID="MOSQRNXTUY" 
+                    STRETCH="true"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="4" X="16" YY="21" XX="357"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="4" X="772" YY="21" XX="997"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="4" X="1002" YY="21" XX="1105"
+                    REPEATED="true"
+                    REMOVEON="CSV,CSVS,XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

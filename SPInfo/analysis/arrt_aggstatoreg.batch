@@ -1,0 +1,52 @@
+﻿* --- Resource Vers. 0.9
+arrt_aggstatoreg
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Aggiorna stato in cancellazione e modifica
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_aggstatoreg
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'operazbo.idbase
+'operazbo.statoreg
+'operazbo.datarett
+'fraziobo.idbase
+'fraziobo.statoreg
+'fraziobo.datarett
+'rapopebo.idbase
+'rapopebo.statoreg
+'rapopebo.datarett
+'rapotit.idbase
+'rapotit.statoreg
+'rapotit.datarett
+]
+'Libraries
+[
+'LibreriaMit<project>
+]
+'Tables
+[
+'operazbo<table>
+'fraziobo<table>
+'rapopebo<table>
+'rapotit<table>
+]
+}
+I
+*--*
+￼[]
+*--*

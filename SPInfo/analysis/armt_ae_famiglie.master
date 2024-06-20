@@ -1,0 +1,76 @@
+﻿* --- Resource Vers. 0.9
+armt_ae_famiglie
+￼Iresource.ResourceMaster
+created_on=#2024-05-10 18:24:30
+description='Famiglie (Agenzia Entrate)
+file_modified_on=#2022-12-28 09:37:01
+location='
+measures={}
+modified_on=#2024-05-10 18:24:55
+module_name='
+name='armt_ae_famiglie
+state=1
+type='master
+used_resource_keys={
+'Children
+[
+'ardt_ae_saldianno_rap
+]
+'Fields
+[
+'aetesta.rapporto
+'aetesta.tipoag
+'tbtipnat.tiponat
+'tbtipnat.descri
+'aetesta.coint
+'aetesta.descri
+'aetesta.oldinter
+'aetesta.valuta
+'aetesta.cab
+'aetesta.inviato
+'aetesta.datainvio
+'aetesta.datamodi
+'aetesta.annulla
+'aetesta.dataannu
+'aetesta.idesitofam
+'aetesta.uniquecode
+'aetesta.inviatoc
+'aetesta.datainvioc
+]
+'Hyperlinks
+[
+'arpg_fam_variazione
+'arpg_fam_cancella
+]
+'Others
+[
+'jsp\pg_ae_famiglia_portlet.jsp
+]
+'Security
+[
+'administrators<role>
+'utenti standard<role>
+'ruolo 3<role>
+'utenti confidi<role>
+'ruolo 5<role>
+'agenzia<role>
+'area finanza<role>
+'help desk<role>
+'consultazione<role>
+]
+'Tables
+[
+'aetesta<table>
+'tbrapp<table>
+'tbtipnat<table>
+'tbvalute<table>
+]
+'Zooms
+[
+'[aetesta] newdefault.vzm
+]
+}
+I
+*--*
+￼[]
+*--*

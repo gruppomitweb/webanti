@@ -1,0 +1,429 @@
+﻿* --- Resource Vers. 0.9
+cgo_vlt_sessioni<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='CGO VLT SESSIONI
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cgo_vlt_sessioni
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cgo_vlt_sessioni.vltses_idprog
+'cgo_vlt_sessioni.vltses_piattaforma
+'cgo_vlt_sessioni.vltses_idsessione
+'cgo_vlt_sessioni.vltses_sala
+'cgo_vlt_sessioni.vltses_vlt
+'cgo_vlt_sessioni.vltses_datini
+'cgo_vlt_sessioni.vltses_datfin
+'cgo_vlt_sessioni.vltses_betnum
+'cgo_vlt_sessioni.vltses_betimp
+'cgo_vlt_sessioni.vltses_groswin
+'cgo_vlt_sessioni.vltses_netwin
+'cgo_vlt_sessioni.vltses_totalin
+'cgo_vlt_sessioni.vltses_ticketin
+'cgo_vlt_sessioni.vltses_billin
+'cgo_vlt_sessioni.vltses_out
+'cgo_vlt_sessioni.vltses_idticketout
+'cgo_vlt_sessioni.vltses_ticketlist
+'cgo_vlt_sessioni.vltses_datacrea
+'cgo_vlt_sessioni.vltses_idxaff
+'cgo_vlt_sessioni.vltses_ticket_bc
+'cgo_vlt_sessioni.vltses_dataemi
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cgo_vlt_sessioni.vltses_betimp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo Giocate Effettuate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_BETIMP
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_betnum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='N. Giocate Effettuate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_BETNUM
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_billin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo totale introdotto con cash
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_BILLIN
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_datacrea
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data/Ora creazione del record
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_DATACREA
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_dataemi
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data/Ora Emissione Ticket
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_DATAEMI
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_datfin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data/Ora Fine Sessione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_DATFIN
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_datini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data/Ora Inizio Sessione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_DATINI
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_groswin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Vincita Totale Lorda
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_GROSWIN
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_idprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo di inserimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_IDPROG
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_idsessione
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID SESSIONE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_IDSESSIONE
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_idticketout
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Ticket emesso alla fine della sessione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_IDTICKETOUT
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_idxaff
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indica se soggetto a incongruenze
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_IDXAFF
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_netwin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Vincita Totale Netta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_NETWIN
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_out
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore Nominale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_OUT
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_piattaforma
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Piattaforma
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_PIATTAFORMA
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_sala
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Sala
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_SALA
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_ticket_bc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ticket Bar Code
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_TICKET_BC
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_ticketin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo totale introdotto con ticket
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_TICKETIN
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_ticketlist
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Lista Ticket
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_TICKETLIST
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_totalin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Importo totale introdotto (cash+ticket)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_TOTALIN
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+'cgo_vlt_sessioni.vltses_vlt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice AAMS VLT
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VLTSES_VLT
+state=3
+table_name='cgo_vlt_sessioni
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cgo_vlt_sessioni.vltses_betimp
+[]
+'cgo_vlt_sessioni.vltses_betnum
+[]
+'cgo_vlt_sessioni.vltses_billin
+[]
+'cgo_vlt_sessioni.vltses_datacrea
+[]
+'cgo_vlt_sessioni.vltses_dataemi
+[]
+'cgo_vlt_sessioni.vltses_datfin
+[]
+'cgo_vlt_sessioni.vltses_datini
+[]
+'cgo_vlt_sessioni.vltses_groswin
+[]
+'cgo_vlt_sessioni.vltses_idprog
+[]
+'cgo_vlt_sessioni.vltses_idsessione
+[]
+'cgo_vlt_sessioni.vltses_idticketout
+[]
+'cgo_vlt_sessioni.vltses_idxaff
+[]
+'cgo_vlt_sessioni.vltses_netwin
+[]
+'cgo_vlt_sessioni.vltses_out
+[]
+'cgo_vlt_sessioni.vltses_piattaforma
+[]
+'cgo_vlt_sessioni.vltses_sala
+[]
+'cgo_vlt_sessioni.vltses_ticket_bc
+[]
+'cgo_vlt_sessioni.vltses_ticketin
+[]
+'cgo_vlt_sessioni.vltses_ticketlist
+[]
+'cgo_vlt_sessioni.vltses_totalin
+[]
+'cgo_vlt_sessioni.vltses_vlt
+[]
+}
+*--*

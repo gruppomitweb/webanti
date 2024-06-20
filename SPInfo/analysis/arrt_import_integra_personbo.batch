@@ -1,0 +1,52 @@
+﻿* --- Resource Vers. 0.9
+arrt_import_integra_personbo
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Importa i dati aggiuntivi
+file_modified_on=#2019-10-17 08:06:38
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:15
+module_name='
+name='arrt_import_integra_personbo
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_list_imprich.nomefile
+'personbo.connes
+'personbo.cognome
+'personbo.nome
+'personbo.cfestero
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'anadip<table>
+'personbo_agg<table>
+'tmp_list_imprich<table>
+'xntestbo<table>
+'personbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

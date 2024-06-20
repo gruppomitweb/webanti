@@ -1,0 +1,63 @@
+﻿* --- Resource Vers. 0.9
+arrt_exec_sid
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Lancia Esecuzione SID
+file_modified_on=#2022-06-17 18:15:01
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:13
+module_name='
+name='arrt_exec_sid
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tberrorisid.sidcodice
+'tberrorisid.sidtipoelab
+'tberrorisid.siddescri
+'tmp_listafile.nomefile
+'tmp_listafile.hyperlynk
+'tmp_listafile.priorita
+'aesaldi.nomefile
+'aesaldi.anno
+'aesaldi.fileinv1
+'aesaldi.fileinv2
+'tberrsiddgn.dgntipo
+'tberrsiddgn.dgncodice
+'tberrsiddgn.dgntipoerr
+'tberrsiddgn.dgndescri
+'aeannora.fileanno
+'aeannora.prog1
+'aeannora.prog2
+'aeannora.progrec
+]
+'Libraries
+[
+'CriptoLibrary<painter>
+'FileLibMit<project>
+]
+'Tables
+[
+'intermbo<table>
+'cpwarn<table>
+'tberrorisid<table>
+'tberrsiddgn<table>
+'tmp_list_imprich<table>
+'aeannora<table>
+'aesaldi<table>
+'tmp_listafile<table>
+]
+}
+I
+*--*
+￼[]
+*--*

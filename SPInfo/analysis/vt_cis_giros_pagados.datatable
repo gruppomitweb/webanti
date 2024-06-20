@@ -1,0 +1,1132 @@
+﻿* --- Resource Vers. 0.9
+vt_cis_giros_pagados<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='CIS_GIROS_PAGADOS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='vt_cis_giros_pagados
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'vt_cis_giros_pagados.folio
+'vt_cis_giros_pagados.cve_confirmacion
+'vt_cis_giros_pagados.mon_beneficiario
+'vt_cis_giros_pagados.id_divisa
+'vt_cis_giros_pagados.com_agt
+'vt_cis_giros_pagados.com_agt_fin
+'vt_cis_giros_pagados.ret_agt
+'vt_cis_giros_pagados.ret_porc
+'vt_cis_giros_pagados.nom_beneficiario
+'vt_cis_giros_pagados.app_benef
+'vt_cis_giros_pagados.apm_benef
+'vt_cis_giros_pagados.dom_ben
+'vt_cis_giros_pagados.cp
+'vt_cis_giros_pagados.edo_ben
+'vt_cis_giros_pagados.cdad_ben
+'vt_cis_giros_pagados.pais_ben
+'vt_cis_giros_pagados.pais_nac_ben
+'vt_cis_giros_pagados.fec_nac_ben
+'vt_cis_giros_pagados.tel_ben
+'vt_cis_giros_pagados.tipo_id_ben
+'vt_cis_giros_pagados.num_id_ben
+'vt_cis_giros_pagados.nom_cte
+'vt_cis_giros_pagados.app_cte
+'vt_cis_giros_pagados.apm_cte
+'vt_cis_giros_pagados.edo_cte
+'vt_cis_giros_pagados.cdad_cte
+'vt_cis_giros_pagados.pais_cte
+'vt_cis_giros_pagados.tel_cte
+'vt_cis_giros_pagados.fec_cobro
+'vt_cis_giros_pagados.hor_cobro
+'vt_cis_giros_pagados.cod_agente
+'vt_cis_giros_pagados.id_usuario
+'vt_cis_giros_pagados.bandera
+'vt_cis_giros_pagados.ben_sexo
+'vt_cis_giros_pagados.ben_codfiscal
+'vt_cis_giros_pagados.ben_ocupacion
+'vt_cis_giros_pagados.ben_empleador
+'vt_cis_giros_pagados.ben_dom_pais
+'vt_cis_giros_pagados.ben_dom_edo
+'vt_cis_giros_pagados.ben_dom_ciudad
+'vt_cis_giros_pagados.ben_domicilio
+'vt_cis_giros_pagados.ben_dom_num
+'vt_cis_giros_pagados.ben_dom_col
+'vt_cis_giros_pagados.ben_dom_cp
+'vt_cis_giros_pagados.ben_tel_casa_lda
+'vt_cis_giros_pagados.ben_tel_casa
+'vt_cis_giros_pagados.ben_tel_ofna_lda
+'vt_cis_giros_pagados.ben_tel_ofna
+'vt_cis_giros_pagados.ben_email
+'vt_cis_giros_pagados.ben_comune
+'vt_cis_giros_pagados.cod_agente_orig
+'vt_cis_giros_pagados.cod_cliente
+'vt_cis_giros_pagados.cod_trans
+'vt_cis_giros_pagados.comi_vt
+'vt_cis_giros_pagados.questure
+'vt_cis_giros_pagados.fec_transmision
+'vt_cis_giros_pagados.id_divisa_origen
+'vt_cis_giros_pagados.notificar
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'vt_cis_giros_pagados.apm_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='apm_benef
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.apm_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='apm_cte
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.app_benef
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='app_benef
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.app_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='app_cte
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.bandera
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='bandera
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_codfiscal
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_codfiscal
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_comune
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_comune
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_dom_ciudad
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_dom_ciudad
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_dom_col
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_dom_col
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_dom_cp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_dom_cp
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_dom_edo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_dom_edo
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_dom_num
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_dom_num
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_dom_pais
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_dom_pais
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_domicilio
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_email
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_email
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_empleador
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_empleador
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_ocupacion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_ocupacion
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_sexo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_sexo
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_tel_casa
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_tel_casa
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_tel_casa_lda
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_tel_casa_lda
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_tel_ofna
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_tel_ofna
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ben_tel_ofna_lda
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ben_tel_ofna_lda
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.cdad_ben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cdad_ben
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.cdad_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cdad_cte
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.cod_agente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_agente
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.cod_agente_orig
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_agente_orig
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.cod_cliente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_cliente
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.cod_trans
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cod_trans
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.com_agt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='com_agt
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.com_agt_fin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='com_agt_fin
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.comi_vt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='comi_vt
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.cp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cp
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.cve_confirmacion
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='cve_confirmacion
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.dom_ben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='dom_ben
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.edo_ben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='edo_ben
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.edo_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='edo_cte
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.fec_cobro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_cobro
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.fec_nac_ben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_nac_ben
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.fec_transmision
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='fec_transmision
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.folio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='folio
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.hor_cobro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='hor_cobro
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.id_divisa
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_divisa
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.id_divisa_origen
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_divisa_origen
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.id_usuario
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='id_usuario
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.mon_beneficiario
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='mon_beneficiario
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.nom_beneficiario
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_beneficiario
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.nom_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='nom_cte
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.notificar
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='notificar
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.num_id_ben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='num_id_ben
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.pais_ben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='pais_ben
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.pais_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='pais_cte
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.pais_nac_ben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='pais_nac_ben
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.questure
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='questure
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ret_agt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ret_agt
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.ret_porc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ret_porc
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.tel_ben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tel_ben
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.tel_cte
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tel_cte
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+'vt_cis_giros_pagados.tipo_id_ben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tipo_id_ben
+state=3
+table_name='vt_cis_giros_pagados
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'vt_cis_giros_pagados.apm_benef
+[]
+'vt_cis_giros_pagados.apm_cte
+[]
+'vt_cis_giros_pagados.app_benef
+[]
+'vt_cis_giros_pagados.app_cte
+[]
+'vt_cis_giros_pagados.bandera
+[]
+'vt_cis_giros_pagados.ben_codfiscal
+[]
+'vt_cis_giros_pagados.ben_comune
+[]
+'vt_cis_giros_pagados.ben_dom_ciudad
+[]
+'vt_cis_giros_pagados.ben_dom_col
+[]
+'vt_cis_giros_pagados.ben_dom_cp
+[]
+'vt_cis_giros_pagados.ben_dom_edo
+[]
+'vt_cis_giros_pagados.ben_dom_num
+[]
+'vt_cis_giros_pagados.ben_dom_pais
+[]
+'vt_cis_giros_pagados.ben_domicilio
+[]
+'vt_cis_giros_pagados.ben_email
+[]
+'vt_cis_giros_pagados.ben_empleador
+[]
+'vt_cis_giros_pagados.ben_ocupacion
+[]
+'vt_cis_giros_pagados.ben_sexo
+[]
+'vt_cis_giros_pagados.ben_tel_casa
+[]
+'vt_cis_giros_pagados.ben_tel_casa_lda
+[]
+'vt_cis_giros_pagados.ben_tel_ofna
+[]
+'vt_cis_giros_pagados.ben_tel_ofna_lda
+[]
+'vt_cis_giros_pagados.cdad_ben
+[]
+'vt_cis_giros_pagados.cdad_cte
+[]
+'vt_cis_giros_pagados.cod_agente
+[]
+'vt_cis_giros_pagados.cod_agente_orig
+[]
+'vt_cis_giros_pagados.cod_cliente
+[]
+'vt_cis_giros_pagados.cod_trans
+[]
+'vt_cis_giros_pagados.com_agt
+[]
+'vt_cis_giros_pagados.com_agt_fin
+[]
+'vt_cis_giros_pagados.comi_vt
+[]
+'vt_cis_giros_pagados.cp
+[]
+'vt_cis_giros_pagados.cve_confirmacion
+[]
+'vt_cis_giros_pagados.dom_ben
+[]
+'vt_cis_giros_pagados.edo_ben
+[]
+'vt_cis_giros_pagados.edo_cte
+[]
+'vt_cis_giros_pagados.fec_cobro
+[]
+'vt_cis_giros_pagados.fec_nac_ben
+[]
+'vt_cis_giros_pagados.fec_transmision
+[]
+'vt_cis_giros_pagados.folio
+[]
+'vt_cis_giros_pagados.hor_cobro
+[]
+'vt_cis_giros_pagados.id_divisa
+[]
+'vt_cis_giros_pagados.id_divisa_origen
+[]
+'vt_cis_giros_pagados.id_usuario
+[]
+'vt_cis_giros_pagados.mon_beneficiario
+[]
+'vt_cis_giros_pagados.nom_beneficiario
+[]
+'vt_cis_giros_pagados.nom_cte
+[]
+'vt_cis_giros_pagados.notificar
+[]
+'vt_cis_giros_pagados.num_id_ben
+[]
+'vt_cis_giros_pagados.pais_ben
+[]
+'vt_cis_giros_pagados.pais_cte
+[]
+'vt_cis_giros_pagados.pais_nac_ben
+[]
+'vt_cis_giros_pagados.questure
+[]
+'vt_cis_giros_pagados.ret_agt
+[]
+'vt_cis_giros_pagados.ret_porc
+[]
+'vt_cis_giros_pagados.tel_ben
+[]
+'vt_cis_giros_pagados.tel_cte
+[]
+'vt_cis_giros_pagados.tipo_id_ben
+[]
+}
+*--*

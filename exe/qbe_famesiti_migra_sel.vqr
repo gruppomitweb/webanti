@@ -1,0 +1,284 @@
+ 1
+"Famiglie Esiti"
+"famesiti"
+"famesiti"
+ 0
+ 0
+*
+ 14
+"Codice Univoco Rapporto"
+"famesiti.FAMCODICE"
+"FAMCODICE"
+"C"
+ 50
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Tipo Rapporto"
+"famesiti.FAMTIPORAP"
+"FAMTIPORAP"
+"C"
+ 2
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Descrizione Rapporto"
+"famesiti.FAMDESCRI"
+"FAMDESCRI"
+"C"
+ 24
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Inizio Rapporto"
+"famesiti.FAMDATINI"
+"FAMDATINI"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Data Fine Rapporto"
+"famesiti.FAMDATFIN"
+"FAMDATFIN"
+"D"
+ 8
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Presenza Saldo 2011"
+"famesiti.FAMSAL2011"
+"FAMSAL2011"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Presenza Saldo 2012"
+"famesiti.FAMSAL2012"
+"FAMSAL2012"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Presenza Saldo 2013"
+"famesiti.FAMSAL2013"
+"FAMSAL2013"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Presenza Saldo 2014"
+"famesiti.FAMSAL2014"
+"FAMSAL2014"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Presenza Saldo 2015"
+"famesiti.FAMSAL2015"
+"FAMSAL2015"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Presenza Saldi 2016"
+"famesiti.FAMSAL2016"
+"FAMSAL2016"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Presenza Saldo 2017"
+"famesiti.FAMSAL2017"
+"FAMSAL2017"
+"C"
+ 1
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Contatore Riga"
+"famesiti.FAMCONTA"
+"FAMCONTA"
+"N"
+ 10
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+"Anno di riferimento"
+"famesiti.FAMANNORIF"
+"FAMANNORIF"
+"N"
+ 4
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 0
+ 4
+"famesiti.FAMCONTA"
+""
+">="
+"?_bottom"
+"AND"
+""
+""
+*
+"famesiti.FAMCONTA"
+""
+"<="
+"?_top"
+"AND"
+""
+""
+*
+"famesiti.FAMDATINI"
+""
+">="
+"?w_dadata"
+"AND"
+""
+""
+*
+"famesiti.FAMDATINI"
+""
+"<="
+"?w_a_data"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 0
+ 4
+"_bottom"
+"Contatore Riga"
+"N"
+"10"
+"0"
+""
+""
+""
+.f.
+*
+"_top"
+"Contatore Riga"
+"N"
+"10"
+"0"
+""
+""
+""
+.f.
+*
+"w_dadata"
+"Data Inizio Rapporto"
+"D"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+"w_a_data"
+"Data Inizio Rapporto"
+"D"
+"8"
+"0"
+"Remove"
+""
+""
+.f.
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 5
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"N%5CMFG8II.%3AG7%15%06vf%60%09%13%04%02%06%15%0FW%5C%2F%27T%28B%3E3M%21%26O%2F9%5Dh%278%1CFC5%5DNSA%5C%3E%29F%40LK7BBDI%5D%23G-6%02H%06.BGZ%3F9%27*7-%3D%3E6%5D%16%02-%26G_N%40%281ITX%2C4%21Z%21%21U%2B_F49H%23%21%2B2k+Z%40%25%21N%24KO%21YI%2FJ%2FF*K%03F%28+A%3D%2CA%3B%14%3D4XKK4%2F%14RC5%3A%24M*-A%24%5E%3AB4%3A%23+%2BTtU%26%3AJ.%29%5C%28TD-%3A%16+%3C1.+MD%29BASV%2C%24%27-3%29%25%23%3BF%40C83%5EVYHG%3B%14%5E%10%191%21IVYZWI%22+%22K%24CW%24%267%40V%1C4.%5E+%5CYD.%21T%23%29%24%00"
+"-Wk%26S5.OE%3D%27H%11%06v%7C%7E%1F%05%17%0D%06%13%28FCKDJ_E4%2F188+%5C%3ERLG%3D%1EF%3F7_D4%261LZ0K%2BA0%29WA%40B%27+%21%18%21%294UA0.o%3F%179S%5CKjG%5C+7%12%3A%27%242*%227*X9%15%2BIT%3B3%21_0%24nO%25%21%0BDWh93%15%3F%29%18%3Fs%3A%5DN%5B_N+%24%3DI%276%06Uw%3BZY*0M%29PGi%3B%283Q8%1B%40%21W%5D%27A.8UFM3Y%40%3D5tQOG27*%24R%3CM%25%2F%3E%5B%3F%401%27TGUC.%3E7%23%1F%24%283%2B%25DLIU%23%22%270GMME*I%5EH%256E6.LP%23b%06%3EI%24%29%2B%07R-9%28P%27%14%11*S9i%3A%2C%4072%274%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+""
+*

@@ -1,0 +1,324 @@
+#canvas{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  /*border:1px dashed;*/
+  background-color:#transparent;
+}
+#backcanvas{
+  background-color:#F3F3F3;
+  border:1px dotted #D5D5D5;
+  position:absolute;
+  width:595px;
+  height:595px;
+  overflow:hidden;
+  left:45px;
+  top:75px;
+  -moz-user-select:none;
+}
+
+a{
+  outline:none;
+}
+
+#loading{
+  height:70px;
+  width:100%;
+  position:absolute;
+  z-index:100;
+  top:50%;
+  margin-top:-25px;
+  padding-top:10px;
+  text-align:center;
+  font-family:Verdana;
+  font-size:10px;
+  color:#777777;
+  background:#FFFFFF url(../portalstudio/images/loader.gif) no-repeat center center;
+}
+
+#mask{
+  display:none;
+  background:#FF0000;
+  position:absolute;
+  z-index:97;
+  width:100%;
+  height:100%;
+}
+
+#canvasitems{
+  z-index:100;
+  position:absolute;
+}
+
+#canvashandlers{
+  z-index:101;
+  position:absolute;
+  width:0px;
+  height:0px;
+}
+
+#canvaslinks{
+  position:absolute;
+  width:100%;
+  height:100%;
+}
+
+
+/* Classi Css per i tab del disegnatore */
+#navmenu_tabcontainer{
+  top:55px;
+  position:absolute;
+}
+/* Fine Classi Css per i tab del disegnatore */
+
+.toolbarimg{
+  z-index:101;
+  position:absolute;
+  width:0px;
+  height:0px;
+}
+
+#toolbarfldz{
+  z-index:101;
+  position:relative;
+  top:0px;
+  left:10px;
+  width:90%;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+
+/* Classi Css per la visualizzazione di Zone e Field nell'area di lavoro e nella Zones Explorer */
+.transparent {
+  filter: alpha(opacity=70); /* ie */ 
+  opacity:.70;
+  overflow:hidden;
+  background:#00a0bd;
+  color:#000;
+  width:100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.transparentnum{
+  width:20px;
+  height:18px;
+  border: 1px solid #d5d5d5;
+  background:#00a0bd;
+  text-align:center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  filter: alpha(opacity=70); /* ie */ 
+  opacity:.70;
+  font-family:Open Sans;
+  font-weight: 300;
+}
+.transparent-field{ 
+  background:#477FBA;
+  color:#ffffff;
+  width:100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size:11px;
+  line-height:12pt;
+  height:20px;
+  font-family:Open Sans;
+  font-weight: 300;
+}
+.transparent-detail { 
+  background:#FF8040;
+  color:#EFEFEF;
+  width:100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family:Open Sans;
+  font-weight: 300;
+  font-size:11px;
+}
+/* Usata solo nel Zones Explorer */
+.transparent-fieldused{ 
+  background:#00a0bd;
+  color:#ffffff;
+  width:100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size:11px;
+  line-height:12pt;
+  height:20px;
+  font-family:Open Sans;
+  font-weight: 300;
+}
+.transparent-fieldlabel{ 
+  font-size:11px;
+  font-family:Open Sans;
+  font-weight: 300;
+}
+.transparent-fieldnumber{ 
+  text-align:center;
+  width:20px;
+  border:1px solid #d5d5d5;
+  height:100%;
+  background:#00a0bd;
+  font-size:11px;
+  font-family:Open Sans;
+  font-weight: 300;
+}
+/* Fine Classi Css per la visualizzazione di zone e Field */
+
+/* Classi Css per la Legenda */
+.legend_container{
+  padding-left:75px;
+  padding-top:10px
+}
+.legend_txt {
+  font-size:11px;
+  color: #818181;
+  width:100px;
+  border:0px solid;
+  padding-right:10px;
+  padding-bottom:5px;
+  text-align:right;
+  float:left;
+  font-family:Open Sans;
+  font-weight: 300;
+}
+/* Fine Classi Css per la visualizzazione di zone e Field */
+
+/* Classi Css per i Field nell'area di lavoro */
+.fld_wrapper{
+  position:relative;
+}
+.fld_title{
+  color: #818181;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 11px;
+  line-height:16px;
+  padding:2px;
+  width:200px;
+}
+.fld_title_txt{
+  width:180px;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  float:left;
+  position:relative;
+  font-size:11px;
+}
+.fld_title_ico{
+  display: block;
+  position: relative;
+  top: 0px;
+  right: 6px;
+  float:right;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+.fld_ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+  clear:both;
+}
+.fld_li{
+  padding:2px;
+}
+/* Fine Classi Css per i Field nell'area di lavoro */
+
+
+/* Classi Css per l'anteprima */
+.titoli {  /*Titolo dello scanpreview*/
+  background-color:#6F6F6F;
+  color:#FFFFFF;
+  font-weight:bold;
+  font-family:Tahoma;
+  font-size:12pt;
+  text-align: center;
+}
+
+.grid {  /*control:Grid*/
+  scrollbar-track-color: ;
+}
+.grid .grid_table{  /*control:Grid*/
+  width:100%;
+  background-color:#FFFFFF;
+  background-repeat:repeat-y;
+}
+.grid .grid_row {
+  background-color:transparent;
+  font-family:Tahoma;
+  color:#000000;
+  font-size:9pt;
+  text-decoration:none;
+}
+.grid .grid_row td{
+  padding:3px;
+  border-bottom:1px solid #E1E1E1;
+}
+.grid .grid_rowodd {
+  background-color:transparent;
+  font-family:Tahoma;
+  color:#000000;
+  font-size:9pt;
+  text-decoration:none;
+}
+.grid .grid_rowodd td{
+  padding:3px;
+  border-bottom:1px solid #E1E1E1;
+}
+.grid .grid_rowover {
+  background-color:#F0F2F9;
+  font-family:Tahoma;
+  color:#000000;
+  font-size:9pt;
+  padding:2px;
+}
+.grid .grid_rowover td{
+  background-color:#F0F2F9 !important;
+  font-family:Tahoma !important;
+  color:#000000 !important;
+  font-size:9pt !important;
+}
+.grid .grid_cell {
+  border-width:1;
+  border-style:1;
+  border-color:#C0C0C0;
+}
+.grid .toolsbar{
+  width:100%;
+}
+.grid .toolsbar_item {
+  font-family:Tahoma;
+  font-size:12pt;
+  color:#6B6B6B;
+  text-decoration:none;
+  padding:0 0 1px 3px;
+}
+.grid .toolsbar_item_text{
+  padding:0 6px 0 3px;
+  vertical-align:middle;
+}
+.grid .toolsbar_items {
+  background-color:#cccccc;
+  padding:4px 2px 3px 0;
+}
+/* Fine Classi Css per l'anteprima */
+
+.divContainerList {
+ height:auto;
+}

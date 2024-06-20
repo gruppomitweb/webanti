@@ -1,0 +1,486 @@
+﻿* --- Resource Vers. 0.9
+db_anadip<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='DB ANADIP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='db_anadip
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'db_anadip.coddip
+'db_anadip.descriz
+'db_anadip.idcitta
+'db_anadip.desccit
+'db_anadip.provincia
+'db_anadip.cab
+'db_anadip.idbase
+'db_anadip.agente
+'db_anadip.macroagente
+'db_anadip.terminalid
+'db_anadip.domicilio
+'db_anadip.telefono
+'db_anadip.codloc
+'db_anadip.abicabsara
+'db_anadip.nuovo
+'db_anadip.cap
+'db_anadip.agaccode
+'db_anadip.nazagente
+'db_anadip.opxsoscli
+'db_anadip.opxsosage
+'db_anadip.valcompl
+'db_anadip.anomoper
+'db_anadip.ageregio
+'db_anadip.flgatt
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'db_anadip.abicabsara
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ABI CAB Dipendenza per SARA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABICABSARA
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.agaccode
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AGACCODE
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.agente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AGENTE
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.ageregio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Regione Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='AGEREGIO
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.anomoper
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anomalie Operative Riscontrate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANOMOPER
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.cab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAB
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.cap
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAP
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.coddip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIP
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.codloc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Locale (CGO)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODLOC
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.desccit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCCIT
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.descriz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCRIZ
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.domicilio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Indirizzo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DOMICILIO
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.flgatt
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Agenzia Attiva (S/N)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGATT
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.idcitta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Città
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDCITTA
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.macroagente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Denominazione MacroAgente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MACROAGENTE
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.nazagente
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nazionalità Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NAZAGENTE
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.nuovo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nuovo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUOVO
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.opxsosage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazioni Sospette Agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPXSOSAGE
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.opxsoscli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazioni Sospette Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='OPXSOSCLI
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.telefono
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Telefono
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TELEFONO
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.terminalid
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Terrminale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TERMINALID
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+'db_anadip.valcompl
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valutazione Visita Compliance
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALCOMPL
+state=3
+table_name='db_anadip
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'db_anadip.abicabsara
+[]
+'db_anadip.agaccode
+[]
+'db_anadip.agente
+[]
+'db_anadip.ageregio
+[]
+'db_anadip.anomoper
+[]
+'db_anadip.cab
+[]
+'db_anadip.cap
+[]
+'db_anadip.coddip
+[]
+'db_anadip.codloc
+[]
+'db_anadip.desccit
+[]
+'db_anadip.descriz
+[]
+'db_anadip.domicilio
+[]
+'db_anadip.flgatt
+[]
+'db_anadip.idbase
+[]
+'db_anadip.idcitta
+[]
+'db_anadip.macroagente
+[]
+'db_anadip.nazagente
+[]
+'db_anadip.nuovo
+[]
+'db_anadip.opxsosage
+[]
+'db_anadip.opxsoscli
+[]
+'db_anadip.provincia
+[]
+'db_anadip.telefono
+[]
+'db_anadip.terminalid
+[]
+'db_anadip.valcompl
+[]
+}
+*--*

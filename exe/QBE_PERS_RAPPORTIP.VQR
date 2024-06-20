@@ -1,0 +1,151 @@
+ 3
+"Soggetti conto informazioni"
+"xntestbo"
+"xntestbo"
+ 0
+ 0
+*
+"Anagrafica Rapporti"
+"xnarapbo"
+"xnarapbo"
+ 0
+ 0
+*
+"Natura Conti"
+"tbtipnat"
+"tbtipnat"
+ 0
+ 0
+*
+ 7
+"Rapporto (Copia della testata)"
+"xntestbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Descrizione"
+"xnarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Data Inizio"
+"xntestbo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+"Data Fine"
+"xntestbo.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+"Stato"
+"[CASE([NOTEMPTYDATE(xntestbo.DATAFINE)],0,ýApertoý,ýChiusoý)]"
+"STATORAP"
+"C"
+ 6
+ 0
+*
+"Tipo Rapporto"
+"xnarapbo.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+*
+"Descrizione"
+"tbtipnat.DESCRI"
+"DESCRI"
+"C"
+ 110
+ 0
+*
+ 2
+"Rapporti"
+"xnarapbo.RAPPORTO=xntestbo.RAPPORTO"
+"Right outer"
+"xnarapbo"
+"xntestbo"
+*
+""
+"tbtipnat.TIPONAT=xnarapbo.TIPORAP"
+"Right outer"
+"tbtipnat"
+"xnarapbo"
+*
+ 4
+"xntestbo.CODINTER"
+""
+"="
+"?w_CONNES"
+"AND"
+""
+*
+"((xnarapbo.CODDIPE"
+""
+"="
+"[GLOBALVAR(gCodDip)]"
+"AND"
+""
+*
+"[USERGROUPS()]"
+""
+"="
+"3)"
+"OR"
+""
+*
+"[USERGROUPS()]"
+""
+"<>"
+"3)"
+"AND"
+""
+*
+ 0
+ 0
+ 1
+ 1
+"w_CONNES"
+"Intestatario (Non Intermediario)"
+"C"
+"16"
+"0"
+"Remove"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 11
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%21%22%3EI76%2FV%402I%140%26PO%5E8%292%29FGE%262%5E%29L%40LY1A%2F%5B9%04*CEGM%23N%279BChER%40.%3EL%3C%40XVGJF2Q1C*58%21%23%5B%5CO%3B%1DKG%27O0WO%26J%21+*%3D%22%3DtuC%22H%3D-K%26Y%401%3BYGX_5E%40Z%21M%3B%1945%3C%3B9%3B.%3BNu6QF%26%3F%2B%273F2%5DYi-JJ%17%23*X%3Ci%2BUFW%40G%3DP4%25VF%26U0%2CA6%27J3%2F%5CYPIHC%3B%3CRDM%3A%2F%3F1+G0MLt%5C3IJ.3%2C%18%223%2B%26XKT%5B%1E%28%25%5DO%5BjH-71%22%3B%3D%29R+%25WQ3%27-N6%5D%13%25%3CMROH*6%2F%28%5E%5CD%27%06%3E%2B%3E+A%00"
+"U%22kA4WvTN%3B8A73QM485+%03+%28HR%5C_DFNc-%3E%3F7%28%13*%21%5EAYA%3F%3A-X%230T%3A%29F%3A3E%2BVUE%23I.X-%24%1F%1A%231%243%5ENSG%25H%2F%08OLB8%2B%2628%25%22UKH%5C3pZ005C%23%3A-%3C.FSH%2F%17D%2F%2FWP%27+%15R%22%24%3CT0CBSW%40%28M%1FA%25%3E%27%5B%5DIM%3E%21%15J5YH2C%2C%3C%3CA%3A%1F%291%26F5Q98%28%3CJ2%3A%5E7X%5C%281%27%2F%3B%3E+AZ%2F%3D%24%3BKI%3CD%3AGH2%5DLZ%3AJH%223%2B%26%28%5D*J%3F-%21U%2F7A2X5%00%10D3BUR%2ClV0%3CM%1C9%27%13%3D%3CwK%5B8A-C*X3%5DLU%2B%27%2BM%2C%00"
+""
+""
+"native"
+ 0
+ 0
+*

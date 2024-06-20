@@ -1,0 +1,203 @@
+ 3
+"Saldi Annuali Rapporto"
+"aeannora"
+"aeannora"
+ 0
+ 0
+*
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Master)"
+"aetesta"
+"aetesta"
+ 0
+ 0
+*
+"QBE_STP_INVIOSALDI02I.VQR"
+"QBE_STP_INVIOSALDI02I"
+"QBE_STP_INVIOSALDI02I*"
+ 0
+ 0
+*
+ 16
+"Rapporto"
+"aeannora.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Anno Riferimento"
+"aeannora.ANNO"
+"ANNO"
+"C"
+ 4
+ 0
+*
+"Importo 1"
+"aeannora.IMPORTO1"
+"IMPORTO1"
+"N"
+ 17
+ 0
+*
+"Importo 2"
+"aeannora.IMPORTO2"
+"IMPORTO2"
+"N"
+ 17
+ 0
+*
+"Importo 3"
+"aeannora.IMPORTO3"
+"IMPORTO3"
+"N"
+ 17
+ 0
+*
+"Importo 4"
+"aeannora.IMPORTO4"
+"IMPORTO4"
+"N"
+ 17
+ 0
+*
+"Importo 5"
+"aeannora.IMPORTO5"
+"IMPORTO5"
+"N"
+ 6
+ 0
+*
+"Tipo Rapporto"
+"aetesta.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"Tipo Conto"
+"aetesta.COINT"
+"COINT"
+"C"
+ 1
+ 0
+*
+""
+"aetesta.DESCRI"
+"DESCRI"
+"C"
+ 24
+ 0
+*
+""
+"aetesta.UNIQUER"
+"UNIQUER"
+"C"
+ 50
+ 0
+*
+"Codice Intestatario"
+"QBE_STP_INVIOSALDI02I.CONNESINT"
+"CONNESINT"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"QBE_STP_INVIOSALDI02I.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Data Apertura"
+"QBE_STP_INVIOSALDI02I.ADATA"
+"ADATA"
+"D"
+ 8
+ 0
+*
+"Data Chiusura Rapporto"
+"QBE_STP_INVIOSALDI02I.CDATA"
+"CDATA"
+"D"
+ 8
+ 0
+*
+"Tipo"
+"QBE_STP_INVIOSALDI02I.TIPO"
+"TIPO"
+"C"
+ 1
+ 0
+*
+ 2
+"Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Master)(Rapporto)"
+"aetesta.RAPPORTO=aeannora.RAPPORTO"
+"Right outer"
+"aetesta"
+"aeannora"
+*
+"Intestatari/Delegati"
+"QBE_STP_INVIOSALDI02I.RAPPORTO=aeannora.RAPPORTO"
+"Right outer"
+"QBE_STP_INVIOSALDI02I"
+"aeannora"
+*
+ 1
+"aeannora.ANNO"
+""
+"="
+"?w_anno"
+"AND"
+""
+*
+ 1
+"Rapporto"
+"RAPPORTO"
+"Ascending"
+*
+ 0
+ 0
+ 2
+"w_anno"
+"Anno Riferimento"
+"C"
+"4"
+"0"
+"Remove"
+*
+"w_DescAzi"
+"Descrizione Società"
+"C"
+"70"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 4
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"GSQP%3FJG9ET2%40B6JY42%29F%3CHM%3A_%3D-%5E%5B%25S6H9%24T+%29T%2CJ*%3F.%215%3DG%3F7%19.%23%5B%2195%2CN%23KPK%3C%22%3AL.%24%131WV%3FWDK5%2C8%210A24%2B%5CM.%3D%2FSNA8JP7F%1C*%02%2836%5C%5BED%1E%3E%29%5D%2845%3C%3C%3D%3D%12GO.0u%22%3FZD%2BDG0%24F-%3D%27%3B%25T%40C%12%29ERI*%23C%3EL%3B.J%5CUVH%22%3D%3A+%1EH*.%2B4%26M%282+%2CE-UHH%3E%2C%3C%2B%25%28%3F%28TuA3D%3B8DO%1B%223%24%26%404xS-.5%3BV8Z%23%2FH%3EH7N+IA%29G-a3%3D%1F%22%5C%25-S_%5DH%5DFC%40SNIH%3F0%3C%24N%2B5%00"
+"WDE%2BMZL%3CTH-%26M_X4G%1B%2B%24%00G%3C%3C%29B%26T5A%5C33%2BJ%03%23T_%5DC-%5D8O5%3BL_k%3F%23FU%2BI%3F+KOHMJX%27%14BF%5B-%28WI%3FCK+%3AD%27CVW3XJ%29%24D8%26%5EGA%3EU0%5E0%3C%40%247XPT%3A%2B4D%3AB%5BZRX%3F%27-%2B%24%26G%221Mw%3D%2F%5E4%40D2%22%24.3Y%3C%2CHA%3B5%27%23N%3DG%23+6K-%1FW%3E%29ON%24%5D%21AK%2F%27L5%24uZxK%3F%15KY%7D%3C%3A%3F%3C%3B%3D%3F+I*cJL7-%3B%07%14%21%3F%223%26%25Bi%274E%26%13%27T89%24%21%14%2B%25B%24V%5B%22%28l+c%23%25%1ED%2BH9%2CDA%27O%24%25%3D7XhM%23V7_%23%25%2C%00"
+""
+""
+"native"
+ 0
+ 0
+*

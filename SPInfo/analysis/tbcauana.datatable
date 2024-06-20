@@ -1,0 +1,258 @@
+﻿* --- Resource Vers. 0.9
+tbcauana<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Causali Analitiche
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbcauana
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbcauana.idbase
+'tbcauana.descri
+'tbcauana.codcau
+'tbcauana.segno
+'tbcauana.causint
+'tbcauana.datavali
+'tbcauana.valperint
+'tbcauana.datini
+'tbcauana.flginter
+'tbcauana.mitbase
+'tbcauana.usebase
+'tbcauana.nosara
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbcauana.causint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Sintetica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAUSINT
+state=3
+table_name='tbcauana
+type='field
+used_resource_keys={}
+I
+'tbcauana.codcau
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCAU
+state=3
+table_name='tbcauana
+type='field
+used_resource_keys={}
+I
+'tbcauana.datavali
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine Validità
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAVALI
+state=3
+table_name='tbcauana
+type='field
+used_resource_keys={}
+I
+'tbcauana.datini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio Validità
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATINI
+state=3
+table_name='tbcauana
+type='field
+used_resource_keys={}
+I
+'tbcauana.descri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCRI
+state=3
+table_name='tbcauana
+type='field
+used_resource_keys={}
+I
+'tbcauana.flginter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='I=Italia,E=Estero
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGINTER
+state=3
+table_name='tbcauana
+type='field
+used_resource_keys={}
+I
+'tbcauana.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID BASE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='idbase
+state=3
+table_name='tbcauana
+type='field
+used_resource_keys={}
+I
+'tbcauana.mitbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MITBASE
+state=3
+table_name='tbcauana
+type='field
+used_resource_keys={}
+I
+'tbcauana.nosara
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Escludi le operazioni da SARA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOSARA
+state=3
+table_name='tbcauana
+type='field
+used_resource_keys={}
+I
+'tbcauana.segno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Segno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SEGNO
+state=3
+table_name='tbcauana
+type='field
+used_resource_keys={}
+I
+'tbcauana.usebase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='USEBASE
+state=3
+table_name='tbcauana
+type='field
+used_resource_keys={}
+I
+'tbcauana.valperint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valido per intermediario
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VALPERINT
+state=3
+table_name='tbcauana
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbcauana.causint
+[]
+'tbcauana.codcau
+[]
+'tbcauana.datavali
+[]
+'tbcauana.datini
+[]
+'tbcauana.descri
+[]
+'tbcauana.flginter
+[]
+'tbcauana.idbase
+[]
+'tbcauana.mitbase
+[]
+'tbcauana.nosara
+[]
+'tbcauana.segno
+[]
+'tbcauana.usebase
+[]
+'tbcauana.valperint
+[]
+}
+*--*

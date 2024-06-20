@@ -1,0 +1,31 @@
+/*JSON_START [{"class_name":"DBAdmin-item","current_state":"normal","font_list":[],"id":"form","selector":".DBAdmin-item","specific_states_value":{":after":{},":before":{},"hover":{"border_color":"","border_type":"","border_width":"","code":""},"normal":{"bg_color":"#FFFFFF","border_color":"#DEDEDE","border_radius_bl":"4px","border_radius_br":"4px","border_radius_tl":"4px","border_radius_tr":"4px","border_type":"solid","border_width":"1px","code":"flex-flow: column;\njustify-content: center;\nalign-items: center;","display":"flex","mar_bottom":"5px","mar_left":"5px","mar_right":"5px","mar_top":"5px","pad_bottom":"5px","pad_left":"5px","pad_right":"5px","pad_top":"5px"}},"type":"undefined_type","version":2},{"class_name":"DBAdmin-item-container","current_state":"normal","font_list":[],"id":"form","selector":".DBAdmin-item-container","specific_states_value":{":after":{},":before":{},"hover":{},"normal":{"code":"gap: 10px;","display":"flex","pad_bottom":"15px","pad_left":"15px","pad_right":"15px","pad_top":"15px"}},"type":"undefined_type","version":2},{"class_name":"Admin-border-grid","current_state":"normal","font_list":[],"id":"form","selector":".Admin-border-grid","specific_states_value":{":after":{},":before":{},"hover":{},"normal":{"border_color":"","border_radius_bl":"","border_radius_br":"","border_radius_tl":"","border_radius_tr":"","border_type":"","border_width":"","code":"border-width: 0 0 1px 0;\nborder-color: #CBCBCB;\nborder-style: solid;"}},"type":"undefined_type","version":2}] JSON_END*/
+.DBAdmin-item{
+  display: flex;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 4px 4px 4px 4px;
+  border: 1px solid #DEDEDE;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  background-color: #FFFFFF;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.DBAdmin-item-container{
+  display: flex;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  gap: 10px;
+}
+.Admin-border-grid{
+  border-width: 0 0 1px 0;
+  border-color: #CBCBCB;
+  border-style: solid;
+}

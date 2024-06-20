@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contents Builder</title>
+<script src="../jquery.js"></script>
+<script src="../jquery-ui.js"></script>
+<script src='../mootools.js'></script>
+  <script src='../mootools_more.js'></script>
+<script src="../portalstudio/styleVariables.js"></script>
+<script src="../stdFunctions.js"></script>
+<script src="../PortalCommonJS.js"></script>
+<script src="../visualweb/SPTableEditable.js"></script>
+<script src="../visualweb/SPProperties.js"></script>
+<script src="../Notimoo.js"></script>
+<script src="../spModalLayer.js"></script>
+<link rel="stylesheet" href="../Notimoo.css">
+<link rel="stylesheet" href="../filewindow.css">
+<link rel="stylesheet" href="../properties.css">
+<link rel="stylesheet" href="../visualweb/SPTableEditable.css">
+<script type="text/javascript">
+jQuery.noConflict();
+(function ( win, $ ) {
+  'use strict';
+
+  /* QueryString */
+
+  function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+  }
+
+  /* End QueryString */
+
+  /* Load Parameters */
+  var returnObjectId = getParameterByName( "for" ),
+    opener = GetOpener();
+
+  for (var i = 0; i < opener.itemsHTML.length; i++) {
+    if(opener.itemsHTML[i].id == returnObjectId) {
+      var returnObj = opener.itemsHTML[i];
+    }
+  }
+
+  var isCMS = opener.isCMS,
+    navIndex = 0,
+    ColArrObj = {
+      contents : Trim( returnObj.contents).split(','),
+      titles : Trim( returnObj.titles).split(','),
+      urls : Trim(returnObj.urls).split(','),
+      groups : Trim(returnObj.groups).split(','),
+      conditions : Trim(Strtran(returnObj.conditions,"#","|")).split(';'),
+      parameters : [],
+      included: []
+    };
+
+  if(Empty(returnObj.contents_type)) {
+    var res = "";
+    for(var i = 0; i < ColArrObj.contents.length-1; i++) {
+      res += ",";
+    }
+    ColArrObj.contents_type = Trim(res).split(',');
+  } else {
+    ColArrObj.contents_type = Trim(returnObj.contents_type).split(',');
+  }
+
+  ColArrObj.urls.forEach( function(url, idx){
+    if( url.indexOf("?")>-1 ){
+      url=Strtran(url, '#', ',');
+      ColArrObj.parameters.push(url.substring(url.indexOf("?")+1));
+      url = url.substring(0,url.indexOf("?"));
+    } else {
+      ColArrObj.parameters.push("");
+    }
+    if( url.charAt(0)=='!' ){
+      ColArrObj.included[idx] = "!";
+      url = url.substring(1);
+    } else {
+      ColArrObj.included.push("");
+    }
+    ColArrObj.urls[idx] = url;
+  });
+
+  ColArrObj.contents.forEach( function(content, idx){
+    if( content.charAt(0)=="*" ){
+      ColArrObj.included[idx] = "*";
+      ColArrObj.contents[idx] = content.substring(1);
+    }
+  });
+
+  /* End Load Parameters */
+
+  /* Global var */
+  var sptable;
+  var sppagelettable;
+  /* End Global var */
+
+  var tableOpt = {
+    struct: [
+      {
+        title: 'Group',
+        editable: true,
+        cssClass: 'table-group',
+        input_type: 'text',
+        alias: 'table-group'
+      },{
+        title: 'Resources',
+        editable: true,
+        cssClass: 'table-resource',
+        input_type: 'text',
+        alias: 'table-resource'
+      }
+    ],
+    theadClass: 'thead_table title',
+    tbodyClass: 'table_content',
+    trClass: 'table_row',
+    rowSelectedClass: 'row_selected',
+    onSelectRow: SelectRes,  // parameter: idx
+    sortable: true,
+    sortHandle: '#sort-handler'
+  }
+
+  var pageletTableOpt = {
+    struct: [
+      {
+        title: 'Type',
+        editable: false,
+        cssClass: 'table-pagelet-type',
+        input_type: 'text',
+        alias: 'table-pagelet-type'
+      },{
+        title: 'Fields',
+        editable: false,
+        cssClass: 'table-pagelet-field',
+        input_type: 'text',
+        alias: 'table-pagelet-field'
+      },{
+        title: 'Select',
+        editable: true,
+        cssClass: 'table-pagelet-field-selected',
+        input_type: 'checkbox',
+        alias: 'pagelet-field-selected'
+      }
+    ],
+    theadClass: 'thead_table title',
+    tbodyClass: 'table_content',
+    trClass: 'table_row',
+    rowSelectedClass: 'row_selected',
+  }
+
+  function SelectRes(idx) {
+    var rowId = idx;
+    if( typeof(idx) == 'undefined' )
+      rowId = sptable.getSelectedRowIdx();
+    if(rowId!=-1 && (ColArrObj.contents[rowId] || ColArrObj.groups[rowId])){
+      ResetProperties();
+      $('.ps-prop').each( function ( ii, prop ) {
+        var value = '';
+        switch ( prop.id ) {
+          case "contents":
+            value = ( typeof(ColArrObj[prop.id][rowId]) !='undefined' ? ColArrObj[prop.id][rowId] : "");
+            if( value.charAt(0) == '*' ){
+              value = value.substr(1);
+              ColArrObj.included[rowId] = '*';
+            }
+            break;
+          case "urls":
+            value = ( typeof(ColArrObj[prop.id][rowId]) !='undefined' ? ColArrObj[prop.id][rowId] : "");
+            if( value.charAt(0) == '!' ){
+              value = value.substr(1);
+              ColArrObj.included[rowId] = '!';
+            }
+            break;
+          default:
+            value = ( typeof(ColArrObj[prop.id][rowId]) !='undefined' ? ColArrObj[prop.id][rowId] : "");
+        };
+        // console.log( [prop.id, typeof(ColArrObj[rowId][prop.id]), ColArrObj[rowId][prop.id], value]);
+        $(prop).data('custom-SPPropertie').value(value);
+      });
+    }
+    var active_row_editable = sptable.getSelectedRow().find( 'span.table-resource.cell');
+    var sort_handler = $( '#sort-handler' );
+    sort_handler.appendTo( active_row_editable ).show();
+    sort_handler.attr( 'for', rowId );
+  }
+
+  function ResetProperties() {
+    $('.ps-prop').each( function ( idx, prop ) {
+      $(prop).data('custom-SPPropertie').value("");
+    });
+  }
+
+  function GetPageletResources() {
+    var data = [];
+    var resources = new JSURL('../servlet/JSPReader?name='+returnObj.template+'&folder_path=&type=template_resources',true)
+    resources=resources.Response()
+    if( !Empty(resources)){
+      var rs = JSON.parse(resources);
+      for( var i=0; i<rs.length; i++ )
+        data.push([rs[i].type, rs[i].name, 'false']);
+    }
+    return data;
+  }
+
+  function PopolateAndShowPageletTable() {
+    sppagelettable.reset();
+    var data = GetPageletResources();
+      sppagelettable.option( 'data', data );
+    $( '#dialog' ).show();
+    $( '#cinema' ).show();
+  }
+
+  function CreateFieldDialog() {
+    $('#picker-cancel').on('click', function(event) {
+      $( '#dialog' ).hide();
+      $( '#cinema' ).hide();
+    });
+
+    $('#picker-ok').on('click', function(event) {
+      var data = sppagelettable.getData();
+      var lastIndex = ColArrObj.contents.length;
+      var selectedRowData = sptable.getRowData(sptable.getSelectedRowIdx());
+      var newRow = false;
+      for( var d in selectedRowData ){  // table-group: "", table-resource: "aa"
+        if( !Empty(selectedRowData[d]) ){
+          newRow = true;
+          break;
+        }
+      }
+      /* evita di inserire doppioni */
+      data.forEach ( function( field, ii ) {
+        if( field[2] ) { //type field checkbox
+          if( !newRow )
+            lastIndex = 0;
+          if( field[0] == 'resource'){
+            ColArrObj.contents[lastIndex] = field[1];
+            if( newRow ){
+              sptable.addNewRow( ["",field[1]] );
+            } else {
+              newRow = true;
+              sptable.updateRow( sptable.getSelectedRowIdx(), "table-resource", field[1] );
+            }
+          } else {
+            ColArrObj.contents[lastIndex] = "";
+          }
+          ColArrObj.titles[lastIndex] = "";
+          ColArrObj.urls[lastIndex] = "";
+          ColArrObj.parameters[lastIndex] = "";
+          ColArrObj.contents_type[lastIndex] = "";
+          if( field[0] == 'group') {
+            ColArrObj.groups[lastIndex] = field[1];
+            if( newRow ){
+              sptable.addNewRow( [field[1],""] );
+            } else {
+              sptable.updateRow( sptable.getSelectedRowIdx(), "table-group", field[1] );
+              newRow = true;
+            }
+          } else {
+            ColArrObj.groups[lastIndex] = "";
+          }
+          ColArrObj.conditions[lastIndex] = "";
+          ColArrObj.included[lastIndex] = "";
+          lastIndex++;
+        }
+      });
+
+      $( '#dialog' ).hide();
+      $( '#cinema' ).hide();
+    });
+
+  }
+
+  /* OnLoad */
+
+  $(win.document).ready( function(){
+    $( document ).tooltip({
+      tooltipClass: 'tooltip',
+      track: true
+    });
+
+    document.title = getParameterByName( "title" );
+
+    /* dialog build */
+
+    CreateFieldDialog();
+
+    /* end dialog build */
+
+    /* table build */
+
+    sptable = $( "#table" ).SPTableEditable( tableOpt ).data( "custom-SPTableEditable" );
+    sppagelettable = $( "#pageletTable" ).SPTableEditable( pageletTableOpt ).data( "custom-SPTableEditable" );
+
+    /* Apply Props */
+
+    $('.ps-prop').each( function ( idx, it ) {
+      /* Create Properties */
+      var p = $(it).SPPropertie().data("custom-SPPropertie");
+      if( !(/(contents|urls|group)/ig.test( this.id )) ){
+        $(it).on('valueChange', function ( event, newValue ) {
+          var rowId = sptable.getSelectedRowIdx();
+          if( rowId > -1 ) {
+            ColArrObj[this.id][rowId] = newValue;
+          }
+        }.bind(it));
+      }
+    });
+
+    /*$('#contents.ps-prop').on('valueChange', function ( event, newValue ) {
+      var rowId = sptable.getSelectedRowIdx();
+      if( rowId > -1 ) {
+        ColArrObj[this.id][rowId] = newValue;
+        if( newValue == '*' ){
+            $('#contents.ps-prop').data('custom-SPPropertie').value('*');
+            newValue = newValue.substr(1);
+            $(this).data('custom-SPPropertie').value(newValue);
+        }
+      }
+    });*/
+
+    $('#contents.ps-prop').on('valueChange', function ( event, newValue ) {
+      var rowId = sptable.getSelectedRowIdx();
+      if( rowId > -1 ) {
+        ColArrObj.contents[rowId] = newValue;
+        if( Empty(newValue)){
+          PSAlert.alert("Resource name is required");
+        // }else if(ColArrObj.groups.contains(newValue)) {
+        //   PSAlert.alert("Not allowed, resources name "+newValue+" already used for Group");
+        //   $(this).data('custom-SPPropertie').Input.val("");
+        }else if( newValue.charAt(0) == '*' ){
+          $('#included.ps-prop').data('custom-SPPropertie').value('*');
+          newValue = newValue.substr(1);
+          $(this).data('custom-SPPropertie').value(newValue);
+          sptable.updateRow(sptable.getSelectedRowIdx(), "table-resource", newValue, true);
+          if(ColArrObj.groups.contains(newValue)) {
+            PSAlert.alert("Not allowed, resources name "+newValue+" already used for Group");
+          }
+        } else {
+          $(this).data('custom-SPPropertie').value(newValue);
+          sptable.updateRow(sptable.getSelectedRowIdx(), "table-resource", newValue, true);
+        }
+      }
+    });
+
+    $('#groups.ps-prop').on('valueChange', function ( event, newValue ) {
+      var rowId = sptable.getSelectedRowIdx();
+      if( rowId > -1 ) {
+        // if( ColArrObj.contents.contains(newValue) ){
+        //   PSAlert.alert("Group's name "+newValue+" already used for Resource");
+        //   $(this).data('custom-SPPropertie').Input.val("");
+        // } else {
+          ColArrObj.groups[rowId] = newValue;
+          sptable.updateRow(sptable.getSelectedRowIdx(), "table-group", newValue, true);
+          if( ColArrObj.contents.contains(newValue) ){
+            PSAlert.alert("Group's name "+newValue+" already used for Resource");
+         }
+      }
+    });
+
+    if( !isCMS) {
+      $('#groups.ps-prop').data('custom-SPPropertie').getButton(0).attr('disabled',true);
+    }
+
+    $('#urls.ps-prop').on('valueChange', function ( event, newValue ) {
+      var rowId = sptable.getSelectedRowIdx();
+      if( rowId > -1 ) {
+        ColArrObj.urls[rowId] = newValue;
+        if( Empty(newValue)){
+            PSAlert.alert("Url is required");
+        } else if( newValue.charAt(0) == '!' ){
+          $('#included.ps-prop').data('custom-SPPropertie').value('!');
+          newValue = newValue.substr(1);
+          $(this).data('custom-SPPropertie').value(newValue);
+        } else if( newValue.indexOf('vqr:')>-1 ){
+          $('#parameters.ps-prop').data('custom-SPPropertie').getButton(0).attr('disabled',true);
+        } else {
+          $('#parameters.ps-prop').data('custom-SPPropertie').getButton(0).attr('disabled',false);
+        }
+      }
+    });
+
+    /* End Apply Props */
+
+    /* Set Button Functions */
+
+    $('#add').on('click', function() {
+      if( !Empty(ColArrObj.contents[ColArrObj.contents.length-1]) && !Empty(ColArrObj.urls[ColArrObj.contents.length-1])){
+        ResetProperties();
+        var last = ColArrObj.contents.length;
+        ColArrObj.contents[last] = ""; //clone defaultValue
+        ColArrObj.titles[last] = "";
+        ColArrObj.urls[last] = "";
+        ColArrObj.parameters[last] = "";
+        ColArrObj.groups[last] = "";
+        ColArrObj.conditions[last] = "";
+        ColArrObj.contents_type[last] = "";
+        ColArrObj.included[last] = "";
+        sptable.addNewRow(['']);
+      } else {
+        PSAlert.alert("Resource name and Url are required");
+      }
+    });
+
+    $('#remove').on('click', function() {
+      /* Preserve sort-handler */
+      $( '#sort-handler' ).hide()
+        .appendTo( $('body') );
+      var removedRowId = sptable.getSelectedRowIdx();
+      sptable.removeSelectedRow();
+      /* Remove obj */
+      /* no remove contents because it will be erease in save time
+      ColArrObj.contents.splice(removedRowId, 1); //clone defaultValue
+      ColArrObj.urls.splice(removedRowId, 1);
+      ColArrObj.parameters.splice(removedRowId, 1);
+      ColArrObj.groups.splice(removedRowId, 1);
+      ColArrObj.conditions.splice(removedRowId, 1);
+      ColArrObj.included.splice(removedRowId, 1);
+      */
+      if( removedRowId > 0 ) {
+        sptable.selectRow( Math.max( removedRowId -1, 0) );
+      } else {
+        ResetProperties();
+      }
+    });
+
+    $('#addFromPagelet').on('click', function(){
+      if( Empty(returnObj.template) ){
+        PSAlert.alert( 'Empty page template name!' );
+      } else {
+        PopolateAndShowPageletTable()
+      }
+    });
+
+    $('#cinema').on('click', function(event){
+      event.stopPropagation();
+    });
+    $('#addPageletRes').on('click', function(){
+
+    });
+    $('#closedialog').on('click', function(){
+      $('#dialog').hide();
+      $('#cinema').hide();
+    });
+
+    $('#ok').on('click', function(event) {
+      /* sort array like sptable */
+      var order = sptable.getRowOrder(),
+        check = true;
+      var returnArray = { conditions:[], parameters: [], urls: [], contents:[], groups: [], titles:[], contents_type:[]};
+      for( var ii=0; ii < order.length; ii++ ){
+        if( Empty(Trim(ColArrObj.urls[order[ii]])) ){
+          check=false;
+          break;
+        }
+        returnArray.contents.push(
+          (ColArrObj.included[order[ii]] == "*" ? "*" : "")+
+          ColArrObj.contents[order[ii]]
+        );
+        returnArray.titles.push(ColArrObj.titles[order[ii]]);
+        returnArray.conditions.push(Strtran(ColArrObj.conditions[order[ii]],'|','#'));
+        returnArray.contents_type.push(Strtran(ColArrObj.contents_type[order[ii]],',','#'));
+        returnArray.parameters.push(Strtran(ColArrObj.parameters[order[ii]],',','#'));
+        returnArray.urls.push(
+          (ColArrObj.included[order[ii]] == "!" ? "!" : "")+
+          ColArrObj.urls[order[ii]]+
+          (!Empty(ColArrObj.parameters[order[ii]]) ? "?" + Strtran(ColArrObj.parameters[order[ii]],',','#'): '')
+        );
+        returnArray.groups.push(ColArrObj.groups[order[ii]]);
+      }
+      if( check ) {
+        returnObj.titles = returnArray.titles.join(',');
+        returnObj.conditions = returnArray.conditions.join(';');
+        returnObj.parameters = returnArray.parameters.join(',');
+        returnObj.contents_type = returnArray.contents_type.join(',');
+        returnObj.urls = returnArray.urls.join(',');
+        returnObj.contents = returnArray.contents.join(',');
+        returnObj.groups = returnArray.groups.join(',');
+        opener.Properties();
+        opener.writeHTML();
+        opener.drawLinks(true);
+        opener.m_bUpdated=true;
+        window.close();
+      } else {
+        PSAlert.alert( 'Empty Url or Resurce name!' );
+      }
+    });
+
+    $('#cancel').on('click', function(event) {
+      window.close();
+    });
+
+    /* Update value on table change */
+    $( "#table" ).on( 'rowValueChange', function( event, rowid, alias, value ) {
+      if( Empty(ColArrObj.contents[rowid]) && Empty(ColArrObj.groups[rowid]) ) { //add new field
+        if( alias == "table-resource" )
+          ColArrObj.contents[rowid] = value; //clone defaultValue
+        else
+          ColArrObj.contents[rowid] = "";
+        ColArrObj.titles[rowid] = "";
+        ColArrObj.urls[rowid] = "";
+        ColArrObj.parameters[rowid] = "";
+        if( alias == "table-group" )
+          ColArrObj.groups[rowid] = value;
+        else
+          ColArrObj.groups[rowid] = "";
+        ColArrObj.conditions[rowid] = "";
+        ColArrObj.contents_type[rowid] = "";
+        ColArrObj.included[rowid] = "";
+        /* if row is new set default value */
+        ResetProperties();
+      }
+      /* update properies */
+      if( alias == "table-resource" ){
+        ColArrObj.contents[rowid] = value
+        $('#contents.ps-prop').data('custom-SPPropertie').value(value);
+      }
+      if( alias == "table-group" ){
+        ColArrObj.groups[rowid] = value;
+        $('#groups.ps-prop').data('custom-SPPropertie').value(value);
+      }
+    });
+
+    /* End Update */
+
+    /* End Set Button Function*/
+    var data = [];
+    for(var i=0; i < ColArrObj.contents.length; i++) {
+      data[i] = [ColArrObj.groups[i],ColArrObj.contents[i]];
+    }
+
+    sptable.option( 'data', data );
+
+    window.focus();
+    sptable.selectRow(0);
+    PSAlert.init(window, '');
+  });
+  /* End OnLoad*/
+
+}) ( window, jQuery )
+
+
+function editPortlet( button, input, prop ){
+  var url = input.value;
+  if(url.indexOf("_portlet.jsp")>-1){
+    url=Strtran(url,"_portlet.jsp","")
+    if(GetOpener().parent.selectCurrentObj)
+      GetOpener().parent.selectCurrentObj(null,url,"portlet");
+    else
+      window.open("../visualweb/editor.htm?id="+url);
+  }
+}
+/*function updateResource(idx, parms) {
+  document.getElementById(idx).value=parms;
+} */
+function editParameters( button, input, prop ){
+  var idx = prop.id+"_input";
+  var url = document.getElementById("urls").getAttribute('value');
+  if( url=='SPPortalZoomBase_portlet.jsp' || url=='SPPortalZoomBaseOL_portlet.jsp' ) {
+    window.layerOpenForeground("zoom_builder.html?type=base&idx="+idx,"Select Parameters",'',600,600,true,1);
+  } else if(url=='SPPortalZoomParameters_portlet.jsp') {
+    window.layerOpenForeground("zoom_builder.html?type=parameters&idx="+idx,"Select Parameters",'',600,600,true,1);
+  } else {
+    window.layerOpenForeground("../portalstudio/parameter_edit.html?idx="+idx+"&filename="+url,"Select Parameters",'',600,400,true,1);
+  }
+}
+
+function selectPortlet(button, input, prop,left,top ){
+  //var idx = prop.id+"_input";
+  //window.layerOpenForeground("insert.jsp?for="+idx,"SelectPortlet",'',400,600,true,1);
+  //window.open("insert.jsp?for="+retTo, "SelectPortlet", "width=350,height=350,top=300,left=300,scroll=no,status=no,toolbar=no,resizable=yes");
+
+  PickItems('portlet',prop.id+"_input",null, null, 800, 600);
+  //var l =(left!=null?left:(screen.width) ? (screen.width - 800) / 2 : 100) ;
+  //var t =(top!=null?top:(screen.height) ? (screen.height - 600) / 2 : 100) ;
+  //var offlinemode='';
+  //if(GetOpener().index!=null && GetOpener().itemsHTML[GetOpener().index].offline=='true') offlinemode="&offlinemode=true";
+
+  //window.layerOpenForeground("../portalstudio/open.jsp?tool=portlet&onetool=true&ExpressionID="+prop.id+"_input&callerFunction=ExpressionBuilderReturn&SPModalLayerId=querySPModalLayer"+offlinemode,"SelectPortlet",'',600,800,true,1);
+
+  //openSPModalLayer("../portalstudio/open.jsp?tool=portlet&onetool=true&ExpressionID="+prop.id+"_input&callerFunction=ExpressionBuilderReturn&SPModalLayerId=querySPModalLayer"+offlinemode, t, l, 800, 600, true, 1, false, false);
+}
+
+function selectGroups(button, input, prop ){
+  var idx = prop.id+"_input";
+	if(!Empty(GetOpener().formProp.template_folder) && !Empty(GetOpener().itemsHTML[GetOpener().index].layout)){
+		var layout = "/"+GetOpener().formProp.template_folder+"/"+GetOpener().itemsHTML[GetOpener().index].layout+".jsp";
+    window.layerOpenForeground("insert.jsp?element=groups&layout="+layout+"&for="+idx,"SelectGroups",'',400,600,true,1);
+		//window.open("insert.jsp?element=groups&layout="+layout+"&for="+retTo, "SelectGroups", "width=350,height=350,top=300,left=300,scroll=no,status=no,toolbar=no,resizable=yes");
+	}else{
+		var alertMsg = (Empty(GetOpener().formProp.template_folder)) ? "No template has been chosen for the site" : "No layout has been chosen for the page";
+		alert(alertMsg);
+	}
+}
+
+function Help(the_property){
+  var i;
+  var anchor='';
+  var prop='';
+  var anchorToFeature = GetOpener().anchorToFeature;
+  if(typeof(anchorToFeature)!='undefined'){
+    if(typeof(the_property)!='undefined')
+      prop+="planeditor_contentsbuilder_"+the_property.toLowerCase();
+    if(prop in anchorToFeature && prop!='')
+      i=anchorToFeature[prop];
+    else if("planeditor_contentsbuilder" in anchorToFeature)
+      i=anchorToFeature["planeditor_contentsbuilder"]
+    else
+      i= anchorToFeature["planeditor"]
+    windowOpenForeground(m_cHelpUrl+'help/portalstudio/ps_urg_navigator.htm?'+URLenc(i+(prop!=""?'||'+prop:"")),'','toolbar=0,menubar=0,directories=0,width=720,height=600,resizable=1,scrollbars=1');
+  }
+}
+
+function Ctrl(id) {
+  return document.getElementById(id);
+}
+</script>
+<style>
+  html, body{
+    height: 100%
+  }
+
+  body {
+    *border: 1px solid #D5D5D5;
+    border-bottom: 2px solid #000000;
+    box-sizing: border-box;
+    background: #F3F3F3;
+    overflow: hidden;
+  }
+
+  .ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 0px;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 0px;
+    top: 0px;
+    left:0px;
+  }
+  .ui-tooltip {
+    position: absolute;
+  }
+  .tooltip {
+    font-family: Open Sans;
+    font-weight: 300;
+    color: #000;
+    font-size: 10px;
+    display: inline-block;
+    background: #D5D5D5;
+    padding: 5px;
+  }
+  #table-wrapper {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-bottom: 2px solid #000;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D5D5D5;
+    background: #FFFFFF;
+  }
+
+  #table-pagelet-wrapper{
+    width: 400px;
+    height: 300px;
+    border-bottom: 2px solid #000;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D5D5D5;
+    background: #FFFFFF;
+  }
+
+  #table {
+    height: calc(100% - 23px);
+    width: 100%;
+  }
+
+  .table_content */* ,
+  #table-field-list  .table_content *,*/
+  /*#pageletTable .table_content * */{
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 11px;
+  }
+
+  #table .table_row,
+  #pageletTable .table_row {
+    height: 30px;
+  }
+  #table .table-group {
+    width: 35%;
+    position: relative;
+  }
+  #table .table-resource {
+    width: 65%;
+    position: relative;
+  }
+  #table .row_selected,
+  #pageletTable .row_selected {
+    background: #F3F3F3;
+  }
+  #table .table_row input,
+  #pageletTable .table_row input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px;
+    background: transparent;
+    padding: 0px;
+    margin: 0px;
+    line-height: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+  #pageletTable .table_row input[type=checkbox] {
+    width: auto;
+  }
+  #table input:disabled {
+    background: transparent;
+  }
+  #table .table-expr, #table .table-edit  { /* to contain picker and sort */
+    position: relative;
+  }
+  .table-pagelet-type{
+    width: 30%;
+  }
+  .table-pagelet-field{
+    width: 60%;
+  }
+  .table_footer {
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 12px;
+    display: block;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+  }
+  #sort-handler{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: #00A0BD;
+    font-family: iMobileIcon;
+    font-size: 16px;
+    line-height: 30px;
+    display: none;
+    right: 0px;
+    top: 0px;
+  }
+  #sort-handler::after{
+    content: '\e6dc';
+  }
+  #properties {
+    display: inline-block;
+    min-width: none;
+    max-width: none;
+    position: static;
+    height: 300px;
+    background: #E3E3E3;
+    padding: 7px 5px 5px;
+    border: 0px;
+    width: 398px;
+  }
+  .ps-prop table, .ps-prop tr, .ps-prop td{
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    border: 0px;
+    width: 100%;
+  }
+  #properties .properties_label {
+    margin: 0px;
+  }
+  #properties .property_item {
+    padding: 0px;
+    width: 100%;
+  }
+  .picker[disabled="disabled"] {
+    cursor: default;
+  }
+  .input_inline_btn.picker::after{
+    content: '\e6f6' !important;
+  }
+
+  .input_inline_btn[disabled]::after{
+    color: #D5D5D5 !important;
+  }
+
+  .input_inline_btn.edit::after{
+    content: '\e603' !important;
+  }
+
+  .input_inline_btn.plus::after{
+    content: '\e626' !important;
+  }
+
+  .input_inline_btn.info::after{
+    content: '\e6f7' !important;
+  }
+
+  .title{
+    font-size: 11px;
+    color: #232323;
+    background: #D5D5D5;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 0px 4px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  #footer {
+    position: absolute;
+    bottom: 26px;
+    width: 100%;
+  }
+  #add,
+   #remove,
+   #ok,
+   #cancel,
+   #addFromPagelet,
+   #picker-ok,
+   #picker-cancel {
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 12px;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 3px 5px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+  }
+  #ok,
+   #cancel {
+    width: 50px;
+    position: absolute;
+  }
+  #ok, #add, #addFromPagelet,  #picker-ok {
+    background: #00A0BD;
+  }
+  #ok {
+    left: calc(50% - 70px);
+  }
+  #cancel, #remove, #picker-cancel {
+    background: #333333;
+  }
+  #cancel {
+    left: calc(50% + 10px);
+  }
+  #cinema{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    display: none;
+  }
+  #dialog {
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 100px;
+  }
+</style>
+</head>
+<body style="margin:0" onhelp="CancelHelp()">
+  <div class="title">Contents Builder</div>
+  <div id="table-wrapper">
+    <div id="table"></div>
+    <div id="table_footer" class="table_footer">
+      <div id="add" class="button" title="Add content">ADD</div>
+      <div id="addFromPagelet" class="button" title="Add content">ADD FROM PAGELET</div>
+      <div id="remove" class="button" title="Remove content">REMOVE</div>
+    </div>
+  </div><div id="properties" >
+    <div id="contents" class="ps-prop" ps-label="Resource name" ps-type="text" ps-help="Help('resource');" ></div>
+    <div id="titles" class="ps-prop" ps-label="Resource Title" ps-type="text" ps-help="Help('title');" ></div>
+    <div id="urls" class="ps-prop" ps-label="Url" ps-type="text" ps-help="Help('url');" ps-button='[{"type": "edit", "action": "editPortlet"}, {"type": "picker", "action": "selectPortlet"}]' ></div>
+    <div id="parameters" class="ps-prop" ps-label="Parameters" ps-type="text" ps-help="Help('parameters')" ps-button='[{"type": "edit", "action": "editParameters"}]' ></div>
+    <div id="groups" class="ps-prop" ps-label="Group" ps-type="text" ps-help="Help('group')" ps-button='[{"type": "picker", "action": "selectGroups"}]' ></div>
+    <div id="included" class="ps-prop" ps-label="Included" ps-type="select" ps-help="Help('included')" ps-value='[{"name": "-", "value": ""},{"name": "Merge", "value": "*"},{"name": "Iframed", "value": "!"}]'></div>
+    <div id="conditions" class="ps-prop" ps-label="Condition" ps-type="text" ps-help="Help('condition')" ></div>
+  </div>
+  <div id="footer">
+    <div id="ok" class="button">SAVE</div><div id="cancel" class="button">CANCEL</div>
+  </div>
+  <span id="sort-handler" title="Move resource"></span>
+  <div id="cinema"></div>
+  <div id="dialog">
+    <div id="table-pagelet-wrapper">
+      <div id="pageletTable"></div>
+      <div id="pageletTable-footer" class="table_footer">
+        <div id="picker-ok" class="button">ADD</div><div id="picker-cancel" class="button">CANCEL</div>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="../portalstudio/psHelp.js"></script>
+</html>

@@ -1,0 +1,2053 @@
+￼[
+Icpcomponent.CPIssue
+descr='Portlet collassabili.
+type='NEW_FEATURE
+version='1.2
+I
+Icpcomponent.CPIssue
+descr='Correzioni generiche nelle pagelet.
+type='BUG_FIXED
+version='1.3
+I
+Icpcomponent.CPIssue
+descr='Aggiunto il CSS Editor.
+type='NEW_FEATURE
+version='1.4
+I
+Icpcomponent.CPIssue
+descr='Corretto il parser di css.
+type='BUG_FIXED
+version='1.5
+I
+Icpcomponent.CPIssue
+descr='Nel VisualQuery, alla modifica del valore di un checkbox, non veniva segnalato che la query risulta modificata e quindi non veniva salvato il file VQR.
+type='BUG_FIXED
+version='1.6
+I
+Icpcomponent.CPIssue
+descr='Ottimizzazione disegnatore portlet.
+type='BUG_FIXED
+version='1.6
+I
+Icpcomponent.CPIssue
+descr='Corretto formattazione date.
+type='BUG_FIXED
+version='1.6
+I
+Icpcomponent.CPIssue
+descr='Nuovo tool Pagelet:﷯- drag and drop dei portlet, delle zone  e dei gruppi;﷯- possibilità di specificare le proprietà di ogni colonna;﷯- possibilità di specificare le proprietà di ogni portlet, gruppo o zona;
+type='NEW_FEATURE
+version='1.7
+I
+Icpcomponent.CPIssue
+descr='Disegnatore dei Portlet:﷯- possibilità di aggiungere elementi anche all'esterno del form;﷯- possibilità di selezionare elementi esterni al form tramite dragging;﷯- SHIFT + tasti direzionali modifica le dimensioni degli elementi selezionati;﷯- la richiesta di salvataggio alla chiusura della finestra di action code avviene solo se il codice è stato modificato;﷯- gestione del tab per indentare l'action code. Per uscire dal textBox premere CTRL + Tab;﷯- selezionando una funzione già presente nell'action code non viene riscritta: il cursore si posiziona sulla prima riga del corpo;
+type='IMPROVEMENT
+version='1.7
+I
+Icpcomponent.CPIssue
+descr='Generale:﷯- resa più intuitiva la maschera "New";
+type='IMPROVEMENT
+version='1.7
+I
+Icpcomponent.CPIssue
+descr='Aggiunto l'evento RecordChanged a XMLDataprovider e SQLDataProvider
+type='NEW_FEATURE
+version='1.7
+I
+Icpcomponent.CPIssue
+descr='Segnalazione degli errori in SPLinker﷯﷯In un SPLinker, se viene chiamata una routine di tipo Function e se la Function non termina correttamente a causa di problemi sul server, viene lanciata un'eccezione Javascript.
+type='IMPROVEMENT
+version='1.8
+I
+Icpcomponent.CPIssue
+descr='Aggiunti gli oggetti EventEmitter ed EventReceiver (BETA).﷯Questi due oggetti sono stati introdotti per comunicare cambiamenti avvenuti all'interno di un portlet a tutti i portlet presenti nella medesima pagelet.﷯Ogni evento prodotto tramite EventEmitter può essere ascoltato da nessuno o più portlet tramite EventReceiver.﷯﷯Gli eventi sono corredati da un insieme di dati formato da coppie nome-valore; i dati dell'evento vengono impostati dall'EventEmitter.﷯Attualmente EventEmitter può essere agganciato solo agli eventi generati da pulsanti o dataobject.﷯﷯Attualemente l'oggetto EventReceiver viene attivato quando un EventEmitter omonimo lancia un evento.﷯All'attivazione l'oggetto è in grado di leggere i valori dell'evento ed assegnarli a variabili, rinfrescare dataprovider oppure richiamare funzioni interne al portlet.
+type='NEW_FEATURE
+version='1.8
+I
+Icpcomponent.CPIssue
+descr='Implementato filtro su griglia (Grid Control)﷯﷯Impostando la proprietà Filters della griglia a TRUE, viene attivata l'opzione di filtri sui dati della giglia.
+type='NEW_FEATURE
+version='1.8
+I
+Icpcomponent.CPIssue
+descr='Compatibilità report﷯﷯Compatibilità della generazione dei BOX nei report con il Report Painter di site.
+type='BUG_FIXED
+version='1.8
+I
+Icpcomponent.CPIssue
+descr='Report Expression Builder﷯﷯Aggiunto nuove migliorie al Expression Builder nel disegnatore di report.
+type='IMPROVEMENT
+version='1.8
+I
+Icpcomponent.CPIssue
+descr='Box nei Portlet﷯﷯Sistemato css dell'oggetto box che non prendeva le proprietà del bordo.
+type='BUG_FIXED
+version='1.9
+I
+Icpcomponent.CPIssue
+descr='Box nei Report﷯﷯Sistemata generazione tag <box_end>.
+type='BUG_FIXED
+version='1.9
+I
+Icpcomponent.CPIssue
+descr='Implementazioni disegnatore portlet﷯﷯- Shift+freccia cambiano le dimensioni dell'elemento selezionato﷯- Cliccando ripetutamente le freccie per lo spostamento di un elemento non avviene piu quel fastidioso refresh delle proprietà﷯- Copia incolla elementi con Ctrl-C Ctrl-V﷯- Nella grid evento onContextMenu legato alla riga﷯- Aggiunta nuova proprieta rs.nomeCampo al dataobj che restituisce il valore del campo specificato del record corrente
+type='NEW_FEATURE
+version='1.9
+I
+Icpcomponent.CPIssue
+descr='Gruppi plan editor﷯﷯L'ordine interno dei gruppi del plan segue l'ordine di inserimento.
+type='IMPROVEMENT
+version='1.9
+I
+Icpcomponent.CPIssue
+descr='Pagelet﷯sistemato bug riguardante creazione oggetti portlet dei gruppi e delle zone
+type='NEW_FEATURE
+version='1.9
+I
+Icpcomponent.CPIssue
+descr='EventEmitter associato a pulsante senza funzione Click﷯﷯Se si associava un EventEmitter al click di un pulsante e non si definiva nell'action code la funzione relativa alla gestione dell'evento click del pulsante, l'EventEmitter non emettva l'evento.
+type='BUG_FIXED
+version='1.10
+I
+Icpcomponent.CPIssue
+descr='EventReceiver: chiamata di funzione con passaggio di 2 o più parametri﷯﷯Se all'EventReceiver si associava l'esecuzione di una funzione a cui si passava più di un parametro, la funzione riceveva l'OR bitwise (bit a bit) tra i parametri.﷯Esempio di  chiamata:﷯this.miafunzione(paramentro1|parametro2); //bug﷯this.miafunzione(paramentro1,parametro2); //correzione
+type='BUG_FIXED
+version='1.10
+I
+Icpcomponent.CPIssue
+descr='EventEmitter: impossibilità di lancio senza parametri﷯﷯Se si provava a lanciare un evento senza parametri si causava un errore di esecuzione JavaScript.
+type='BUG_FIXED
+version='1.10
+I
+Icpcomponent.CPIssue
+descr='EventEmitter / EventReceiver: errore JS in chiusura finestra delle proprietà﷯﷯In alcuni casi la chiusura della finestra delle proprietà tramite il pulsante Ok poteva causare un errore JavaScript.
+type='BUG_FIXED
+version='1.10
+I
+Icpcomponent.CPIssue
+descr='Ottimizazioni del filtro sulla griglia﷯﷯Sono state fatte varie modifiche sull filtro della control GRID:﷯- Colori.﷯- Immagini.﷯- Tasto INS sull'ultimo filtro aggiunge un filtro vuoto.﷯- I filtri sulle date non funzionavano correttamente.
+type='IMPROVEMENT
+version='1.10
+I
+Icpcomponent.CPIssue
+descr='TabIndex nei Portlet﷯﷯Implementato il TabIndex nei portlet.
+type='NEW_FEATURE
+version='1.10
+I
+Icpcomponent.CPIssue
+descr='Pagelet﷯﷯Nuovo aspetto grafico gruppi e zone.
+type='IMPROVEMENT
+version='1.10
+I
+Icpcomponent.CPIssue
+descr='Portlet﷯﷯Sintassi function per la chiamata di funzioni dal link di una label.
+type='NEW_FEATURE
+version='1.10
+I
+Icpcomponent.CPIssue
+descr='Report﷯﷯Aggiunte nuove proprietà già implementate in site sui gruppi.
+type='NEW_FEATURE
+version='1.10
+I
+Icpcomponent.CPIssue
+descr='Plan﷯﷯Corretto "Save As" se New.
+type='BUG_FIXED
+version='1.10
+I
+Icpcomponent.CPIssue
+descr='Css﷯﷯Corretta la lettura della lista dei css.
+type='BUG_FIXED
+version='1.10
+I
+Icpcomponent.CPIssue
+descr='Compatibilità con SitePainter﷯﷯Questa versione di PortalStudio è utilizzabile come SitePainter Stable del 09-05-2006 e successive.
+type='NEW_BUG
+version='1.10
+I
+Icpcomponent.CPIssue
+descr='Comportamento dei DateTime﷯﷯In seguito a modifiche il comportamento dei DateTime è il seguente:﷯- Se è presente un campo DateTime ed il data-object utilizza return field = FALSE => viene visualizzato AAAA-MM-GG HH:MM:SS.mmmm (Standard Portal Studio).﷯- Se è presente un campo DateTime ed il data-object utilizza return field = TRUE => viene visualizzato MM/GG/AAAAA HH:MM.﷯- Se nell'action code utilizzavate DateTime ricordo che:﷯    - prima la funzione ritornava la data in formato stringa AAAA-MM-GG HH:MM:SS.mmmm.﷯    - ora ritorna la data in formato stringa MM/GG/AAAAA HH:MM:SS.﷯    - è possibile riconvertire in oggetto Date usando la funzione ZtVWeb.formatDateTime oppure ZtVWeb.formatDate.
+type='NEW_BUG
+version='1.11
+I
+Icpcomponent.CPIssue
+descr='Novità in Portlet editor﷯﷯Implementazione Ctrl-Z per undo e sistemazione piccoli bugs.
+type='NEW_FEATURE
+version='1.11
+I
+Icpcomponent.CPIssue
+descr='Evento OnChange per Checkbox﷯﷯Sistemato l'evento onChange del Checkbox.
+type='BUG_FIXED
+version='1.11
+I
+Icpcomponent.CPIssue
+descr='Report Editor di PS﷯﷯Sistemato bug di selezione Query e campi nelle Alternative Query.﷯Allineato con SitePainter il  nome della Proprietà "Enable Under Condition".﷯Aggiunte proprietà "Output name" e "into variable" negli oggetti in cui mancavano rispetto a SitePainter.
+type='BUG_FIXED
+version='1.11
+I
+Icpcomponent.CPIssue
+descr='Nuova proprietà SPLinker﷯﷯Nuova proprietà SPLinker nella Grid permette di creare una colonna in automatico con le classiche operazioni di view,edit e cancel.﷯La nuova sintassi "Image:URL" nei campi della grid permette di caricare l'immagine dell'url specificato.﷯La nuova sintassi "SPLink:nome:action"  nell'url della grid permette di forzare lo SPLinker all'action specificato.
+type='NEW_FEATURE
+version='1.11
+I
+Icpcomponent.CPIssue
+descr='Image Upload﷯﷯Aggiunto filtro sulle estensioni dei file per Upload delle immagini.
+type='BUG_FIXED
+version='1.11
+I
+Icpcomponent.CPIssue
+descr='Portlet﷯﷯Sistemata variabile atcion_tmp nell'Splinker
+type='BUG_FIXED
+version='1.12
+I
+Icpcomponent.CPIssue
+descr='Pagelet﷯﷯Sistemata generazione di zone e gruppi collassabili﷯Sistemato il passaggio di parametri anche nei portlet collassabili
+type='BUG_FIXED
+version='1.12
+I
+Icpcomponent.CPIssue
+descr='EventEmitter non associato ad eventi:﷯﷯Quando un EventEmitter non veniva associato ad eventi di oggetti interni al portlet non componeva correttamente la lista di valori passati all'EventReceiver.﷯﷯Per risolvere il problema è necessario salvare nuovamente i portlet contenenti EventEmitter non associati ad eventi.
+type='BUG_FIXED
+version='1.13
+I
+Icpcomponent.CPIssue
+descr='Interazione EventEmitter EventReceiver﷯﷯Implemantata nuova gestione degli eventi tra  pagelet, portlet e portlet inclusi in iframe (compresi quelli collassabili).Ora il nuovo sistema di container permette di far dialogare tutte le parti senza dover ricorrere a "parent." o "nomeIframe" .﷯﷯Per utilizzare Emitter/Receiver non è più necessario che i portlet siano presenti in una pagelet: ora il meccanismo funziona anche tra portlet inclusi tramite l'oggetto Portlet o tramite l'oggetto Iframe ed un portlet principale.
+type='IMPROVEMENT
+version='1.14
+I
+Icpcomponent.CPIssue
+descr='Pagelet: nuove proprietà﷯﷯- "Parameters": consente di passare parametri ai porltet inclusi;﷯﷯- "Substitute resource": specifica la risorsa che sostituisce quella specificata nel plan togliendola dalla zona o dal gruppo;﷯﷯- "Condition": permette di condizionare l'inclusione della risorsa.
+type='IMPROVEMENT
+version='1.15
+I
+Icpcomponent.CPIssue
+descr='Pagelet: nuovi layout﷯﷯Aggiunti alcuni layout di default quando si crea una nuova pagelet.
+type='IMPROVEMENT
+version='1.15
+I
+Icpcomponent.CPIssue
+descr='Portlet: pagine + tabstrip﷯﷯Possibilità di aggiungere piu pagine interne nello stesso portlet.﷯In esecuzione il portlet viene corredato da tabstrip che permettono la selezione della pagina.﷯I tabstrip utilizzati sono quelli impostati dal tema in uso.﷯Attualmente l'implementazione dei tabstrip è iperfetta in quanto non è possibile avere più portlet paginati inclusi nello stesso document (oggetto document del DOM); se i portlet paginati risiedono in iframe diversi l'implementazione funziona correttamente.﷯La causa di tale difetto è la condivisione del sistema di paginazione tra SitePainter e PortalStudio.﷯Non appena i tabs di SitePainter saranno migliorati in modo da coprire questa deficienza sarà segnalato.
+type='IMPROVEMENT
+version='1.15
+I
+Icpcomponent.CPIssue
+descr='Portlet: Label width %﷯﷯Aggiunta possibilità di specificare la larghezza delle label in %.
+type='IMPROVEMENT
+version='1.15
+I
+Icpcomponent.CPIssue
+descr='PortalStudio: menu Options -> Generate portlets﷯﷯Aggiunta voce di menu "Generate portlets" che permette di rigenerare tutti i portlet.
+type='NEW_FEATURE
+version='1.15
+I
+Icpcomponent.CPIssue
+descr='SPLinker: Alternative interface﷯﷯Aggiunta la proprietà "Alternative interface" che permette di aprire una gestione con una specifica interfaccia alternativa. Aggiunta anche la corrispondente funzione utilizzabile nell'Action code.
+type='IMPROVEMENT
+version='1.15
+I
+Icpcomponent.CPIssue
+descr='SPLinker: action "autozoom"﷯﷯Aggiunta la modalità autozoom per fare si che la gestione di apra direttamente in modalità autozoom.
+type='IMPROVEMENT
+version='1.15
+I
+Icpcomponent.CPIssue
+descr='SQLDataProvider: vzm.﷯﷯E' possibile utilizzare una configurazione di zoom come dataprovider: è sufficiente impostare la proprietà query al valore﷯vzm: <nome_tabella>.<nome_configurazione>.
+type='IMPROVEMENT
+version='1.15
+I
+Icpcomponent.CPIssue
+descr='SQLDataProvider: evento QueryExecuted﷯﷯L'evento QueryExecuted viene lanciato al termine dell'esecuzione della query del dataprovider e prima del rinfresco dei dataconsumer associati
+type='IMPROVEMENT
+version='1.15
+I
+Icpcomponent.CPIssue
+descr='Grid: [Before/After]RowChange[_Click]﷯﷯Aggiunti gli eventi:﷯- BeforeRowChange﷯- BeforeRowChange_Click (quando il cambio di riga viene da click)﷯- AfterRowChange﷯- AfterRowChange_Click (quando il cambio di riga viene da click)
+type='IMPROVEMENT
+version='1.15
+I
+Icpcomponent.CPIssue
+descr='EventEmitter/Receiver: errore script liberato﷯﷯In alcuni casi l'utilizzo di Emitter/Receiver causava l'errore JavaScript "Impossibile eseguire script liberato".﷯L'errore si presentava solo con InternetExplorer.
+type='BUG_FIXED
+version='1.15
+I
+Icpcomponent.CPIssue
+descr='Pagelet properties﷯﷯Nuova proprietà Tabs nei gruppi che genera in automatico i tabstrips﷯Nuova proprietà  In_Iframe nei portlet e zone che genera in automatico un iframe contenente la risorsa
+type='IMPROVEMENT
+version='1.16
+I
+Icpcomponent.CPIssue
+descr='Pagelet﷯﷯Possibilità di inserire direttamente una gestione
+type='IMPROVEMENT
+version='1.16
+I
+Icpcomponent.CPIssue
+descr='Portlet images﷯﷯Aggiunta prop Z-Index
+type='IMPROVEMENT
+version='1.16
+I
+Icpcomponent.CPIssue
+descr='Portlet Grid﷯﷯Se impostato SPLinker nuova icona per New record
+type='NEW_FEATURE
+version='1.16
+I
+Icpcomponent.CPIssue
+descr='Pagelet﷯﷯Possibilità di includere un'altra pagelet﷯Possibilità di specificare in una zona una page del plan e quindi includere una page in una page
+type='IMPROVEMENT
+version='1.16
+I
+Icpcomponent.CPIssue
+descr='Plan﷯﷯Corretta generazione gruppi.
+type='BUG_FIXED
+version='1.17
+I
+Icpcomponent.CPIssue
+descr='Pagelet﷯﷯Corretta generazione entità SitePainter nei gruppi.
+type='BUG_FIXED
+version='1.17
+I
+Icpcomponent.CPIssue
+descr='Portlet Action Code﷯﷯Corretto bug di chiusura action code causato dall'aggiornamento di explorer.
+type='BUG_FIXED
+version='1.17
+I
+Icpcomponent.CPIssue
+descr='Portal Studio Help﷯﷯Il Help di PortalStudio è stato rimosso dallo zip del modulo e viene distribuito come componente aggiuntivo del modulo Portal Studio. In questo modo, viene ridotta la dimensione dello zip che contiene il modulo e ottimizza la velocità di update.
+type='IMPROVEMENT
+version='1.18
+I
+Icpcomponent.CPIssue
+descr='Pagelet Css﷯﷯E' stata cambiato l'ordine di generazione dell'import dei css. Ora il css di una Pagelet comanda sul css di una page del Plan.
+type='IMPROVEMENT
+version='1.18
+I
+Icpcomponent.CPIssue
+descr='Pagelet column﷯﷯Nuova proprietà collapsable che consente di far collassare lateralmente una colonna.
+type='NEW_FEATURE
+version='1.18
+I
+Icpcomponent.CPIssue
+descr='Pagelet tabs﷯﷯Corretto bug nella generazione dei tabs.
+type='BUG_FIXED
+version='1.18
+I
+Icpcomponent.CPIssue
+descr='Grid - Aggiunto layer di riga﷯Il layer di riga visualizza tutti campi della riga corrente disponibili nel dataprovider. Attualmente è sempre visibile.
+type='NEW_FEATURE
+version='1.19
+I
+Icpcomponent.CPIssue
+descr='Grid - Layer di colonna﷯Aggiunta la fuzione ColumnLayers per impostare i layer di colonna.﷯﷯ESEMPIO﷯﷯I campi disponibili al dataprovider associato alla griglia sono CODICE, NOME, COGNOME, TEL_1, TEL_2, TEL_3, EMAIL.﷯La griglia visualizza NOME,COGNOME,TEL_1.﷯Si vuole visualizzare un layer ai campi della colonna TEL_1.﷯Nell'action code utilizzare la funzione ColumnLayers come segue:﷯﷯var tel_layer="TEL_2,TEL_3";﷯var layers=[null, null, tel_layer];﷯this.grid.ColumnLayers(layers):﷯﷯o più  brevemente﷯﷯this.grid.ColumnLayers([null, null, "TEL_2,TEL_3"]):
+type='NEW_FEATURE
+version='1.19
+I
+Icpcomponent.CPIssue
+descr='Plan editor﷯﷯Mascherine che facilitano l'inserimento dei parametri.﷯Possibilità di aprire la risorsa cliccata direttamente nella pagina giusta del contents builder.﷯Mascherina  per l'inserimento dei parametri fissi del SuperZoom.
+type='IMPROVEMENT
+version='1.19
+I
+Icpcomponent.CPIssue
+descr='Compatibilità con SitePainter﷯﷯E' necessario utilizzare una versione di SitePainter Preview rilasciata dopo il 11-09-2006.
+type='NEW_BUG
+version='1.19
+I
+Icpcomponent.CPIssue
+descr='Plan Editor﷯﷯Corretto bug che apre template da plan.﷯
+type='BUG_FIXED
+version='1.20
+I
+Icpcomponent.CPIssue
+descr='Pagelet﷯﷯Aggiunti dei div nelle celle per ottenere un migliore effetto visivo impostando delle celle in percentuale.
+type='IMPROVEMENT
+version='1.20
+I
+Icpcomponent.CPIssue
+descr='PortalStudio﷯﷯- Corretti vari bugs nel mostrare il nome del file dopo un Save As.﷯- Corretto bug nel caso di reload dopo aver effettuato un Save As.
+type='BUG_FIXED
+version='1.20
+I
+Icpcomponent.CPIssue
+descr='Pagelet colonne﷯﷯Nuove proprietà collapsable "true closed" e "true open".
+type='NEW_FEATURE
+version='1.20
+I
+Icpcomponent.CPIssue
+descr='Plan Editor﷯﷯Aggiunta la possibilità di cambiare l'ordine dei contenuti.
+type='IMPROVEMENT
+version='1.20
+I
+Icpcomponent.CPIssue
+descr='Gliglia funzione SetSPLinkerActions﷯Permette di impostare le azioni possibili dell'eventuale SPLinker associato alla griglia.﷯La funzione accetta un parametro di tipo String.﷯Può assumere una combinazione in qualsiasi ordine, maiuscola o minuscola, senza spazi dei seguenti valori:﷯-n : toglie l'icona New;﷯-e : toglie l'icona Edit;﷯-v : toglie l'icona View;﷯-d: toglie l'icona Delete.﷯Runtime è possibile modificare l'impostazione precedente attraverso la stessa chiamata ma omettendo il carattere - o sostituendolo con il carattere +.
+type='NEW_FEATURE
+version='1.20
+I
+Icpcomponent.CPIssue
+descr='Griglia funzione/proprietà AllowRowLayer.﷯permette di visualizzare o meno il layer di riga.﷯La funzione accetta un parametro booleano.﷯Il valore di default per la proprietà è false.
+type='NEW_FEATURE
+version='1.20
+I
+Icpcomponent.CPIssue
+descr='Griglia SPLinker alternativo﷯è possibile impostare un splinker specializzato da utilizzare alla pressione del pulsante New della griglia.﷯Per abilitarlo concatenarne il nome a quello dell'splinker primario (utilizzato per le funzioni di edit delete e view) utilizzando il carattere virgola come separatore.
+type='NEW_FEATURE
+version='1.20
+I
+Icpcomponent.CPIssue
+descr='Griglia funzione ColumnLayers﷯permette di assegnare un layer diverso ad ogni colonna.﷯Accetta un parametro di tipo Array. L'n-esimo elemento imposta i contenuti del layer per l'n-esima colonna.﷯L'n-esimo elemento può valere:﷯ - null o stringa vuota: nessun layer (valore di default);﷯ - stringa composta da un elenco di campi separati da virgola che compongono il layer.
+type='NEW_FEATURE
+version='1.20
+I
+Icpcomponent.CPIssue
+descr='Compatibilità con SitePainter﷯﷯E' necessario utilizzare una versione di SitePainter Preview rilasciata dopo il 24-09-2006.
+type='NEW_BUG
+version='1.20
+I
+Icpcomponent.CPIssue
+descr='Griglia: ColumnLayers﷯Al passaggio del mouse su celle con layer venivano lanciati errori JavaScript
+type='BUG_FIXED
+version='1.21
+I
+Icpcomponent.CPIssue
+descr='Salvataggio nel Visual Query﷯﷯Salvando un VQR dopo aver fatto una modifica in una query attraverso l'Expression Builder non veniva fatto.
+type='BUG_FIXED
+version='1.21
+I
+Icpcomponent.CPIssue
+descr='Griglia: funzione SetRowLayer/proprietà Row layer﷯Imposta il layer associato alla riga.﷯Accetta un parametro di tipo stringa formato nel seguente modo:﷯sequenza di coppie "label:campo" separate dal carattere ',' (virgola).﷯Se la parte "label" viene omessa il valore assunto da "campo" viene riportato di seguito (separato dal carattere spazio) al valore del campo che lo precede nel layer.
+type='NEW_FEATURE
+version='1.22
+I
+Icpcomponent.CPIssue
+descr='Griglia: RIMOSSA FUNZIONE/PROPRIETA' AllowRowLayer﷯Sostituita dalla funzione SetRowLayer e dalla proprietà Row layer
+type='NEW_BUG
+version='1.22
+I
+Icpcomponent.CPIssue
+descr='Griglia: funzione SetColumnLayer﷯Accetta due parametri di tipo stringa.﷯Il primo parametro deve coincidere con il nome del campo in griglia a cui si vuole associare il layer.﷯Il secondo parametro segue la sintassi della proprietà Row layer.
+type='NEW_FEATURE
+version='1.22
+I
+Icpcomponent.CPIssue
+descr='Griglia: funzione GetColumnLayerFields﷯Restitiusce l'array dei campi che compongono il layer di colonna per il campo specificato.﷯Accetta un parametro di tipo String che rappresenta il nome del campo in griglia di cui si vogliono conoscere i campi che componegono il layer.
+type='NEW_FEATURE
+version='1.22
+I
+Icpcomponent.CPIssue
+descr='Griglia: funzione GetColumnLayerCaptions﷯Restitiusce l'array delle captions che compongono il layer di colonna per il campo specificato.﷯Accetta un parametro di tipo String che rappresenta il nome del campo in griglia di cui si vogliono conoscere le captions che componegono il layer.
+type='NEW_FEATURE
+version='1.22
+I
+Icpcomponent.CPIssue
+descr='Griglia: funzione GetRowLayerFields﷯Restitiusce l'array dei campi che compongono il layer di riga.
+type='NEW_FEATURE
+version='1.22
+I
+Icpcomponent.CPIssue
+descr='Griglia: funzione GetRowLayerCaptions﷯Restitiusce l'array delle captions che compongono il layer di riga.
+type='NEW_FEATURE
+version='1.22
+I
+Icpcomponent.CPIssue
+descr='Plan editor﷯﷯Modifiche grafiche sulla visualizzazione dei contenuti e dei gruppi.
+type='IMPROVEMENT
+version='1.22
+I
+Icpcomponent.CPIssue
+descr='Griglia: Layer con XMLDataProvider﷯I layer di griglia con XMLDataProvide non sono ancora stati implementati
+type='NEW_BUG
+version='1.23
+I
+Icpcomponent.CPIssue
+descr='Griglia + XMLDataProvider﷯Le griglie associate ad XMLDataProvider causavano errori JS
+type='BUG_FIXED
+version='1.23
+I
+Icpcomponent.CPIssue
+descr='RowLayer su Grid da Generate portlets﷯﷯Generando i portlet dall'opzione di menu Oprions -> Generate portlets le griglie con proprietà Row layer non impostata visualizzavano comunque il layer di griglia. Salvando i portlet singolarmente dal menu File -> Save il problema non si manifesta...anzi si corregge
+type='BUG_FIXED
+version='1.23
+I
+Icpcomponent.CPIssue
+descr='Grid + RowLayer﷯﷯in questa configurazione la cella di titolo per il layer di riga non aveva la classe delle altre celle di titolo
+type='BUG_FIXED
+version='1.23
+I
+Icpcomponent.CPIssue
+descr='Griglia: SPLinker position﷯﷯Aggiunta la proprietà SPLinker position al control Grid.﷯Permette di scegliere la posizione dei controlli del SPLinker associato: a sinistra (default) oppure a destra
+type='NEW_FEATURE
+version='1.23
+I
+Icpcomponent.CPIssue
+descr='Grid + orderby﷯﷯al click delle immagini di ordinameto la query veniva eseguita 2 volte
+type='BUG_FIXED
+version='1.23
+I
+Icpcomponent.CPIssue
+descr='Visual Query﷯﷯La modifica di un VQR usato come tabella (tramite il tasto ADD del tool VisualQuery) non toglieva il file dalla cache e rendeva necessario riavviare l'applicazione.
+type='BUG_FIXED
+version='1.23
+I
+Icpcomponent.CPIssue
+descr='Grid Layers﷯﷯migliorata la visualizzazione dei campi nei layer: ora i campi immagine vengono visualizzati come imagine e i campi data vengono visualizzati allo stesso modo sia in griglia che in layer﷯
+type='IMPROVEMENT
+version='1.24
+I
+Icpcomponent.CPIssue
+descr='Portlet titles:﷯﷯Aggiunta proprietà "titled" (true/false) che prende il portlet titolo di default dal tema corrente dalla cartella "jsp-decorators" se presente altrimenti dalla cartella "jsp-decorators" della root.﷯Mentre la proprietà "portlet as title" imposta come titolo il portlet specificato dalla carttella "jsp" se "titlted" è false o dalla cartella "jsp-decorators" se è true .
+type='IMPROVEMENT
+version='1.24
+I
+Icpcomponent.CPIssue
+descr='Portlet decorators﷯﷯Introdotto il nuovo concetto di decoratori (titoli, collassamento colonne, ecc) come portlet predefiniti presenti nella cartella "jsp-decorators" modificabili dall'utente e salvabili sotto tema.
+type='NEW_FEATURE
+version='1.24
+I
+Icpcomponent.CPIssue
+descr='Portlet variables﷯﷯Le variabili ora vengono generate in parallelo anche lato server con lo stesso nome per poter essere utilizzate ad es. nel caso di Query Server side (Repeater) , chiamate di Routine, ecc
+type='NEW_FEATURE
+version='1.24
+I
+Icpcomponent.CPIssue
+descr='Portlet sequence prop.﷯﷯La nuova proprietà "sequence" negli items dei portlet determina l'ordine di generazione del codice. Ad esempio una variabile passata ad una Query Server Side deve essere generata prima dell'oggetto in questione.
+type='NEW_FEATURE
+version='1.24
+I
+Icpcomponent.CPIssue
+descr='CSS di tema﷯﷯Possibilità di salvare i css sotto tema, quindi in esecuzione è stata aggiunta l'inclusione del CSS dal tema corrente se presente.
+type='IMPROVEMENT
+version='1.24
+I
+Icpcomponent.CPIssue
+descr='Grid layers + XMLDataProvider﷯﷯I layer di griglia con XMLDataProvide sono stati implementati
+type='BUG_FIXED
+version='1.24
+I
+Icpcomponent.CPIssue
+descr='Toolbar layer su Grid +SPLinker﷯﷯Aggiunte due nuove opzioni alla proprietà "Toolbar position" (ex SPlinker position):﷯ - left-layer;﷯ - right-layer.﷯﷯Selezionando una delle suddette opzioni le icone di "New", "View", "Edit" e "Delete" vengono nascoste. Al loro posto compare un'unica icona per ogni riga. Al click sull'icona compare in modalità "flottante" la toolbar con le relative icone per operare sul record.
+type='NEW_FEATURE
+version='1.24
+I
+Icpcomponent.CPIssue
+descr='EventReceiver:﷯﷯un event Receiver con associate 2 o più funzioni eseguiva solo l'ultima dell'ordine
+type='BUG_FIXED
+version='1.24
+I
+Icpcomponent.CPIssue
+descr='SPLinker: proprietà Type﷯﷯Aggiunta la proprietà type.﷯Rappresenta il tipo di entità verso cui si linka.﷯Attualmente viene utilizzato solo nel caso in cui l'SPlinker sia associato ad una griglia: nel caso in cui venga specificato il valore "Detail" l'azione di cancellazione dalla toolbar della griglia viene trasformata da "Delete" a "Deleterow" permettendo così di cancellare un'unica riga (quella selezionata nella griglia)
+type='NEW_FEATURE
+version='1.25
+I
+Icpcomponent.CPIssue
+descr='SPLinker, Action "Deleterow"﷯﷯Specificando il valore "Deleterow" per entità di tipo detail è possibile cancellare una singola riga
+type='NEW_FEATURE
+version='1.25
+I
+Icpcomponent.CPIssue
+descr='Compatibilità con SitePainter﷯﷯E' necessario utilizzare una versione di SitePainter Preview rilasciata dopo il 09-11-2006.
+type='NEW_BUG
+version='1.25
+I
+Icpcomponent.CPIssue
+descr='Grid+SPLinker : titoli "sfasati"﷯﷯configurando la griglia con splinker per togliere sia il recmak che il pulsante di new i titoli delle colonne risultavano shiftati rispeto alla colonna di appartenenza.
+type='BUG_FIXED
+version='1.26
+I
+Icpcomponent.CPIssue
+descr='Grid﷯﷯Aggiunta nuova proprietà "show empty rows" che consente di visualizzare le righe vuote.
+type='NEW_FEATURE
+version='1.26
+I
+Icpcomponent.CPIssue
+descr='SPLinker﷯﷯Aggiunta la proprietà "function autoexec" che chiama in automatico la funzione Link().﷯Aggiunta la proprietà "function server autoexec" che chiama in automatico la Function di site server side i parametri devono essere specificati con la stesso ordine della Function.﷯La proprietà "Target" in questi casi imposta la variabile specificata come target del risultato della Function.﷯﷯
+type='NEW_FEATURE
+version='1.26
+I
+Icpcomponent.CPIssue
+descr='Tipo campo in Visual Query﷯﷯Il il tipo dei campi usato nelle query poteva risultare errato se il file VQR veniva dal tool Visual Query del frontend. Ora invece viene fatto un controllo dal lettore del VQR che eventualmente corregge il tipo.
+type='BUG_FIXED
+version='1.26
+I
+Icpcomponent.CPIssue
+descr='Eventi persi:﷯﷯ad esclusione del primo evento, tutti i successivi andavano persi, rendendo di fatto inutilizzabili i portlet
+type='BUG_FIXED
+version='1.27
+I
+Icpcomponent.CPIssue
+descr='Pagelet﷯﷯In questa versione, bisogna rigenerare tutte le pagelet che contengono una gestione SitePainter.
+type='NEW_BUG
+version='1.27
+I
+Icpcomponent.CPIssue
+descr='Compatibilità con SitePainter﷯﷯E' necessario utilizzare una versione di SitePainter Preview rilasciata dopo il 15-11-2006.
+type='NEW_BUG
+version='1.27
+I
+Icpcomponent.CPIssue
+descr='Grid vuote + SPLinker﷯﷯nelle griglie con splinker spariva il pulsante new quando non c'erano record visualizzati
+type='BUG_FIXED
+version='1.28
+I
+Icpcomponent.CPIssue
+descr='Variabili con Init par = request:<...>﷯﷯Le variabili inizializzate da parametro producevano nel documento dell'html indesiderato ( this.<nome_var>.Value('<valore_par>') )
+type='BUG_FIXED
+version='1.28
+I
+Icpcomponent.CPIssue
+descr='Pagelet: popup parametri﷯﷯Resa dimensionabile la finestra per l'assegnazione dei parametri del disegnatore delle pagelet
+type='IMPROVEMENT
+version='1.28
+I
+Icpcomponent.CPIssue
+descr='Plan e Pagelet: popup parametri dimensionabile
+type='IMPROVEMENT
+version='1.28
+I
+Icpcomponent.CPIssue
+descr='Plan: parametri SPPortalZoomBase_portlet﷯﷯E' stato aggiornato il popup dei parametri per il portlet SPPortalZoomBase_portlet.jsp del componente SPPortalZoom con tutti i parametri attualmente in uso
+type='NEW_FEATURE
+version='1.28
+I
+Icpcomponent.CPIssue
+descr='Grid: proprietà Extensible [fields]﷯﷯Aggiunta la proprietà "Extensible" per rendere visibili i campi impostati come opzionali. I valori possibili sono:﷯- False: è l'imposazione di default.Tutti i campi sono visibili. Corrisponde al comportamento precedente l'implementazione;﷯- Open-extended: visualizza la griglia con tutti i suoi campi come per il valore "False"; aggiunge un pulsante in alto a destra per collassare i campi opzionali della griglia;﷯- Open-collapsed: visualizza la griglia con i campi opzionali collassati; aggiunge un pulsante in alto a destra per espandere i campi opzionali collassati.﷯﷯I campi opzionali vengono impostati tramite la proprietà "Extensible fields"  come elenco di nomi separati da virgola
+type='NEW_FEATURE
+version='1.28
+I
+Icpcomponent.CPIssue
+descr='Generazione Portlet e Pagelet﷯﷯Aggiunta la gererazione totale delle pagelet.﷯﷯Ora la generazione prevede anche la cartella jsp-decorators e le cartelle dei Temi.
+type='IMPROVEMENT
+version='1.28
+I
+Icpcomponent.CPIssue
+descr='Plan﷯﷯Corretti alcuni bugs nel inserimento delle resources.
+type='BUG_FIXED
+version='1.28
+I
+Icpcomponent.CPIssue
+descr='Compatibilità con SitePainter﷯﷯E' necessario utilizzare una versione di SitePainter Preview rilasciata dopo il 05-12-2006.
+type='NEW_BUG
+version='1.28
+I
+Icpcomponent.CPIssue
+descr='Copia/Incolla nel Plan﷯﷯Implementato il Copia/Incolla nel Plan.
+type='IMPROVEMENT
+version='1.29
+I
+Icpcomponent.CPIssue
+descr='Pagelet e risorse titolate chiuse﷯﷯Ora le risorse titolate vengono incluse tramite javascript nell'HTML al momento dell'apertura. In questo modo vengono eliminati tutti i problemi causati dall'Iframe come ad esempio il resize.
+type='IMPROVEMENT
+version='1.29
+I
+Icpcomponent.CPIssue
+descr='Pagelet Zone﷯﷯Se la risorsa della zona è settata In Iframe il nome di tale Iframe è il nome della zona.
+type='IMPROVEMENT
+version='1.29
+I
+Icpcomponent.CPIssue
+descr='Portlet titolo﷯﷯Nel portlet devono essere presenti le quattro variabili  presenti nel titolo_default con init par a request.﷯Attenzione questi portlet devono trovarsi dentro la cartella Jsp-decorators.
+type='NEW_BUG
+version='1.29
+I
+Icpcomponent.CPIssue
+descr='Compatibilità con SitePainter﷯﷯E' necessario utilizzare una versione di SitePainter Preview rilasciata dopo il 01-01-2007.
+type='NEW_BUG
+version='1.29
+I
+Icpcomponent.CPIssue
+descr='Portltet titolato chiuso con XMLDataProvider﷯﷯L'apertura di un portlet titolato chiuso con XMLDataProvider causava un errore javascript solo su Internet Explorer.
+type='BUG_FIXED
+version='1.30
+I
+Icpcomponent.CPIssue
+descr='Compatibilità con Internet Explorer 7 e Firefox﷯﷯E' stata migliorata la compatibilità di PortalStudio con IE 7 e Firefox nelle finestre a popup lanciate dai menu e nella finestra di aggiunta risorse dell'editor di pagelet.
+type='IMPROVEMENT
+version='1.30
+I
+Icpcomponent.CPIssue
+descr='Apertura portlet titolati chiusi con tabs﷯﷯L'apertura di portlet titolati chiusi con tabs causava una visualizzazione errata del portlet e l'assenza dei tabs.
+type='BUG_FIXED
+version='1.30
+I
+Icpcomponent.CPIssue
+descr='Plan include plan﷯﷯L'inclusione di default di plan in altri plan non funzionava correttamente.
+type='BUG_FIXED
+version='1.30
+I
+Icpcomponent.CPIssue
+descr='Plan: inclusione plan Merged﷯﷯La modalità di inclusione "merged" di un plan non funzionava correttamente.
+type='BUG_FIXED
+version='1.30
+I
+Icpcomponent.CPIssue
+descr='Librerie JS Portlet titolati chiusi﷯﷯Le librerie JS non venivano importate all'apertura di portlet titolati chiusi.
+type='BUG_FIXED
+version='1.30
+I
+Icpcomponent.CPIssue
+descr='Portlet titolati chiusi con componenti﷯﷯L'apertura di portlet titolati chiusi che fanno uso di componenti causava un errore JS.
+type='NEW_FEATURE
+version='1.30
+I
+Icpcomponent.CPIssue
+descr='Dimensionamento portlet titolati﷯﷯In alcuni casi un portlet titolato aperto che veniva chiuso e poi riaperto poteva avere dimensioni maggiori all'apertura precedente.
+type='BUG_FIXED
+version='1.30
+I
+Icpcomponent.CPIssue
+descr='Script CPU 100%﷯﷯Corretto errore nella gestione degli eventi che causava il blocco del bowser portando al 100% l'utilizzo della CPU.
+type='BUG_FIXED
+version='1.31
+I
+Icpcomponent.CPIssue
+descr='Spazio vuoto sopra portlet﷯﷯I portlet generati con PS 1.30 generavano sempre in alto un div vuoto che causava la visualizzazione di una "riga bianca" non desiderata.
+type='BUG_FIXED
+version='1.31
+I
+Icpcomponent.CPIssue
+descr='Passaggio eventi a portlet aperti﷯﷯Quando un portlet titolato chiuso veniva aperto per la prima volta non riceceva gli eventi avvenuti prima della sua apertura.
+type='BUG_FIXED
+version='1.31
+I
+Icpcomponent.CPIssue
+descr='Pagelet margin-bottom﷯﷯Veniva generato il margin anche sotto i titoli.
+type='BUG_FIXED
+version='1.31
+I
+Icpcomponent.CPIssue
+descr='Import css﷯﷯Aggiunto controllo per importare portalstudio.css una sola volta.
+type='BUG_FIXED
+version='1.31
+I
+Icpcomponent.CPIssue
+descr='Grid + XMLDataProvider﷯﷯Una grigli abasata su XMLDataProvider causava il lancio di un errore javascript
+type='BUG_FIXED
+version='1.32
+I
+Icpcomponent.CPIssue
+descr='Portlet: evento Loaded﷯﷯Aggiunto l'evento "Loaded" al portlet; tale evento viene chiamato al termine della generazione del portlet garantendo l'esistenza della variabile globale che lo identifica.
+type='NEW_FEATURE
+version='1.32
+I
+Icpcomponent.CPIssue
+descr='GridToolbar aperta su portlet collassato﷯﷯Collassando un portlet titolato contenente una griglia con la toolbar a layer aperta, questa restava visibile.
+type='BUG_FIXED
+version='1.32
+I
+Icpcomponent.CPIssue
+descr='Pagelet: drag and drop tra colonne﷯﷯Implmentato il drag and drop tra colonne dei contenuti titolati.
+type='IMPROVEMENT
+version='1.32
+I
+Icpcomponent.CPIssue
+descr='Tool Visual Query: mancata codifica risultati query﷯﷯Viene ora usata la codifica di applicazione eliminando i caratteri ? indice di mancata mappatura.
+type='BUG_FIXED
+version='1.32
+I
+Icpcomponent.CPIssue
+descr='Portlet variabili﷯﷯Introdotta nuova sintassi var:nomeVar (nelle value di label, textbox, ecc) che consente di assegnare il valore di una variabile senza dover scrivere nell'action script.
+type='IMPROVEMENT
+version='1.32
+I
+Icpcomponent.CPIssue
+descr='Disegnatore portlet﷯﷯Corretto bug in cui spariva la properties bar.
+type='BUG_FIXED
+version='1.32
+I
+Icpcomponent.CPIssue
+descr='Portlet variabili﷯﷯Corretto bug per l'inizializzazione di variabili di tipo data.
+type='BUG_FIXED
+version='1.32
+I
+Icpcomponent.CPIssue
+descr='Nuovo tool dei temi﷯﷯Implementato il file portalstudio_skin.cntdef contenente tutte le informazione def per il nuovo tool dei temi di SitePainter e i template css per ogni control standard di Portalstudio.
+type='NEW_FEATURE
+version='1.32
+I
+Icpcomponent.CPIssue
+descr='Proprietà css class nei Portlet﷯﷯La lista delle classi disponibili fa vedere in testa quelle relative al control selezionato poi tutte le altre.
+type='IMPROVEMENT
+version='1.32
+I
+Icpcomponent.CPIssue
+descr='Colonne﷯﷯Corretto bug dell'import del titolo della colonna collassabile.
+type='BUG_FIXED
+version='1.33
+I
+Icpcomponent.CPIssue
+descr='Checkbox﷯﷯Non venivano visualizzati i checkbox.
+type='BUG_FIXED
+version='1.33
+I
+Icpcomponent.CPIssue
+descr='Politica gestione cache eventi﷯﷯la cache degli eventi non trattiene più eventi generati da portlet non più esistenti.
+type='BUG_FIXED
+version='1.34
+I
+Icpcomponent.CPIssue
+descr='Portlet security﷯﷯Aggiunta la proprietà isAdministrator che consente l'esecuzione del portlet ai soli amministratori.
+type='NEW_FEATURE
+version='1.34
+I
+Icpcomponent.CPIssue
+descr='Portlet label﷯﷯Sistemata generazione della class di default delle Label.
+type='BUG_FIXED
+version='1.34
+I
+Icpcomponent.CPIssue
+descr='Portlet dataobj﷯﷯Aggiunta funzione isEmpty al dataobj.
+type='NEW_FEATURE
+version='1.34
+I
+Icpcomponent.CPIssue
+descr='Nuova gestione dei css﷯﷯Numerose modifiche sia in portalstudio_skin.cntdef sia in visualweb.js per ottenere gli effetti desiderati.
+type='IMPROVEMENT
+version='1.34
+I
+Icpcomponent.CPIssue
+descr='Visualquery﷯﷯Gli amministratori potranno vedere le query di sistema che iniziano con "spquery_".
+type='NEW_FEATURE
+version='1.34
+I
+Icpcomponent.CPIssue
+descr='EventReceiver <nome_gestione>_savedEntity﷯﷯Le gestioni emettono l'evento <nome_gestione>_savedEntity (client-side) al momento del salvataggio riuscito.﷯E' possibile catturare l'evento da portlet tramite l'oggetto Receiver. L'evento non porta con se parametri.﷯Il meccanismo funziona sia per gestioni incorporate in pagine PortalStudio che per gestioni lanciate a popup.
+type='IMPROVEMENT
+version='1.34
+I
+Icpcomponent.CPIssue
+descr='Tabs control: Cell distribution mode﷯﷯la nuova proprietà "Cell distribution mode" sui tab orizzontali permettere di stabilire la distribuzione dello spazio disponibile tra tutte le celle.﷯﷯Il valore di default è "None" e corrisponde al comportamento che si aveva precedentemente: il browser gestisce autonomamante lo spazio occupato dalle singole celle in funzione del loro contenuto.﷯﷯Il valore "Equispaced" richiede al browser di impostare tutte le celle alla stessa larghezza percentuale (100 / n.tabs).
+type='NEW_FEATURE
+version='1.34
+I
+Icpcomponent.CPIssue
+descr='Compatibilità con SitePainter﷯﷯E' necessario utilizzare una versione di SitePainter Preview rilasciata dopo il 01-04-2007.
+type='NEW_BUG
+version='1.34
+I
+Icpcomponent.CPIssue
+descr='NECESSARIA RIGENERAZIONE PORTLET﷯﷯Cambiata firma del costruttore del control Checkbox. E' stato inserito al secondo posto il parametro "name" che rappresenta il nome del control.﷯﷯
+type='NEW_BUG
+version='1.35
+I
+Icpcomponent.CPIssue
+descr='Checkbox - onChange﷯﷯Ora l'evento onChange viene sempre lanciato al cambio di stato del checkbox, non solo al click. Questo permette di trappare il cambio di stato anche quando avviene programmaticamente (chiamando la funzione Value(...) associata al checkbox).
+type='IMPROVEMENT
+version='1.35
+I
+Icpcomponent.CPIssue
+descr='Checkbox - Value(...)﷯﷯La funzione Value restituisce un valore anche quando viene invocata con parametro per impostare lo stato; in questa situazione restituisce il valore dello stato precedente all'invocazione.
+type='IMPROVEMENT
+version='1.35
+I
+Icpcomponent.CPIssue
+descr='Grid - Orderby "selettivo" + font﷯﷯Griglia con orderby=true, e almeno una colonna senza ordinamento.﷯I titoli delle colonne senza ordinamento perdevano la formattazione del font.
+type='BUG_FIXED
+version='1.35
+I
+Icpcomponent.CPIssue
+descr='Pagelet colonne collassabili﷯﷯Corretto il calcolo delle altezze.
+type='BUG_FIXED
+version='1.36
+I
+Icpcomponent.CPIssue
+descr='Grid﷯﷯Corretto bug su Next e Prev.
+type='BUG_FIXED
+version='1.36
+I
+Icpcomponent.CPIssue
+descr='Splinker Delete﷯﷯Ora in caso di errore viene visualizzato l'alert con il messaggio.
+type='IMPROVEMENT
+version='1.36
+I
+Icpcomponent.CPIssue
+descr='Plan﷯﷯Nell'url della risorsa si può specificare un valore parametrico e uno di default in questo modo:﷯﷯request:nomeParametro:risorsaDefault
+type='NEW_FEATURE
+version='1.36
+I
+Icpcomponent.CPIssue
+descr='Grid: Draggable columns﷯﷯L'opzione "Draggable columns" permette di riordinare le colonne della griglia, portare campi nle layer di riga o in un layer di colonna
+type='NEW_FEATURE
+version='1.36
+I
+Icpcomponent.CPIssue
+descr='PushButton: implementata Value﷯﷯Aggiunta funzione Value all'oggetto PushButton che legge/assegna la caption al pulsante;
+type='NEW_FEATURE
+version='1.36
+I
+Icpcomponent.CPIssue
+descr='Portlet: evento Loaded lanciato 2 volte﷯﷯L'evento "Loaded" dei portlet veniva lanciato 2 volte quando questi erano inclusi in un iframe.
+type='BUG_FIXED
+version='1.36
+I
+Icpcomponent.CPIssue
+descr='Grid: errore su layer﷯﷯Visualizzando un layer e poi cambiando pagina si presentava un errore javascript tentando di riaprire il layer﷯﷯L'errore poteva presentarsi anche in altre condizioni dovute alla visualizzazione di un layer ed al successivo ridisegno della grid
+type='BUG_FIXED
+version='1.36
+I
+Icpcomponent.CPIssue
+descr='VisualQuery: creazione prototipo vzm (Alpha)﷯﷯E' possibilie creare un prototipo di vzm a partire da vqr.﷯﷯ATTENZIONE﷯E' necessaria la presenza del componente SPPortalZoom almeno dalla versione 0.18
+type='NEW_FEATURE
+version='1.36
+I
+Icpcomponent.CPIssue
+descr='Grid: Layer "bloccabili"﷯﷯Cliccando sull'area di hovering dei layer è possibile tenerli aperti (o chiuderli se già aperti)
+type='IMPROVEMENT
+version='1.36
+I
+Icpcomponent.CPIssue
+descr='Grid: campi in Layer con Link﷯﷯Quando i layer vengono aperti tramite click allora i campi configurati con link diventano cliccabli
+type='NEW_FEATURE
+version='1.36
+I
+Icpcomponent.CPIssue
+descr='Compatibilità con SitePainter﷯﷯E' necessario utilizzare una versione di SitePainter Preview rilasciata dopo il 01-06-2007.
+type='NEW_BUG
+version='1.36
+I
+Icpcomponent.CPIssue
+descr='Checkbox: assegnazione da request﷯﷯E' possibile assegnare il valore di un checkbox da request. E' stata aggiunta l'opzione "Request" alla combo box "Init par"
+type='NEW_FEATURE
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='Grid Column Layer: SetColumnLayer﷯﷯La creazione di un column layer tramite invocazione della funzione SetColumnLayer causava il lancio di una errere JS all'apertura del layer
+type='BUG_FIXED
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='Grid: SetColumnLayer con letterale oggetto﷯﷯Il secondo parametro della funzione SetColumnLayer può essere un letterale oggetto (noto anche come JSON). In questo caso è possibile impostare link e target di un campo del layer.﷯L'oggetto deve avere le seguenti due proprietà di tipo array di stringhe: Fields e Captions.﷯Altre tre proprietà sono opzionali (ma sempre di tipo array di stringhe): Links, OnClicks e Targets.﷯Segue un esempio applicativo.﷯﷯Layer con codice e descrizione:﷯this.grid.SetColumnLayer("Codice:cod_art,Descrizione:desc_art")﷯﷯equivalente tramite letterale oggetto:﷯this.grid.SetColumnLayer({﷯  Captions: ["Codice", "Descrizione"],﷯  Fields: ["cod_art", "desc_art"]﷯}):﷯﷯o ancora equivalentemente﷯this.grid.SetColumnLayer({﷯  Captions: ["Codice", "Descrizione"],﷯  Fields: ["cod_art", "desc_art"],﷯  Links: ["", ""], Targets: ["", ""], OnClicks: ["", ""]﷯}):﷯﷯
+type='IMPROVEMENT
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='Pagelet: posizione griglie in colonne chiuse﷯﷯In alcune circostanze la posizione delle griglie contenute in colonne chiuse e successivamente aperte poteva essere sbagliata causando problemi di layout.
+type='BUG_FIXED
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='Lettua parametri da Stop﷯﷯In caso di lancio di risorse jsp PortalStudio da Stop SitePainter era possibile che alcuni parametri letti da request andassero "persi"
+type='BUG_FIXED
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='Grid: layer di riga sempre presente﷯﷯Il layer di riga veniva sempre presentato, anche quando vuoto
+type='BUG_FIXED
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='Structure Painter﷯﷯Nuovo tool che consente di selezionare una set di pagine di partenza.﷯Ora una nuova applicazione punterà direttamente su .../jsp/index.jsp.
+type='NEW_FEATURE
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='Skin:Cambio skin corrente﷯﷯In generazione della skin viene creato un jsp (index_nomeSkin.jsp) il quale imposta la nomeSkin come nuova skin corrente.﷯Inoltre è possibile settare la nuova skin passando il parametro skinName alla pagina index.jsp.
+type='NEW_FEATURE
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='SPLinker action start﷯﷯Aggiunta action "start" alla lista
+type='IMPROVEMENT
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='Pagelet Column: opzione draggable﷯﷯Aggiunta l'opzione dragglable agli elementi di colonna titolati.﷯Il valore di default per le nuove pagelet è true, mentre per le nuove è false﷯
+type='NEW_FEATURE
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='Checkbox in griglia﷯﷯Aggiunta alla griglia l'opzione "Checkbox grid" che se true fa comparire un checkbox su ogni riga.﷯Nella proprietà "Checkbox fields" e "Checkbox homogeneity criteria" si può specificare una lista separata da virgola di campi della griglia. Quando si seleziona un checkbox vengono selezionate tutte le righe che hanno ugual valore nelle colonne specificate in "Checkbox fields", mentre in tutte le righe che hanno un valore diverso nelle colonne di "Checkbox homogeneity criteria" rispetto a quella selezionata viene disattivato il checkbox.﷯Nella combobox "Checkbox data output" è possibile selezionare un SQLDataProvider vuoto. Questo dataobj verrà riempito con le colonne specificate in  "Checkbox fields" e "Checkbox homogeneity criteria" delle righe selezionate. In questo modo è possibile aggiungere per esempio una griglia che leggendo in input da questo dataobj visualizzi i campi delle righe via via selezionate.
+type='NEW_FEATURE
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='Expression Builder: insermento nuova colonna﷯﷯E' stato modificato il modo in cui vengono aggiunte/modificate le colonne della griglia. Ora per inserire una nuova colonna è sufficiente selezionare un campo nella finestrella "Available Fields" e premere il bottone "Add Col.". In automatico verrà aggiunta una nuova colonna con Titolo uguale alla descrizione del campo e il campo stesso come Espression. Nella finestrella "Column list" le colonne senza titolo non vengono più visualizzate come "Untitled" ma con l'espressione specificata. Il resto del funzionamento è rimasto invariato.
+type='IMPROVEMENT
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='Grid skin: classi per draggin e record mark non propagate ai cloni e ai sottotipi.﷯﷯Le classi CSS grid_column_dragging, grid_record_mark e grid_record_mark_sel venivano sempre generate con il selettore .grid impedendone quindi il corretto funzionamento per i sottotipi GridHeavy e GridLight e i cloni
+type='BUG_FIXED
+version='1.37
+I
+Icpcomponent.CPIssue
+descr='Portlet Grid: funzione SetSPLinkerActions﷯﷯Non funzionava correttamente: le icone del splinker venivano sempre visualizzate
+type='BUG_FIXED
+version='1.38
+I
+Icpcomponent.CPIssue
+descr='Portlet Checbox: errore Mozilla/Firefox﷯﷯In Mozilla/Firefox i checkbox dei portlet causavano un errore all'inizializzazione.
+type='BUG_FIXED
+version='1.38
+I
+Icpcomponent.CPIssue
+descr='Pagelet Groups: ignorata proprietà open﷯﷯Tutti i portlet dei gruppi venivano generati ingorando il valore assunto dalla  proprietà open e venivano sempre presentati come chiusi
+type='BUG_FIXED
+version='1.38
+I
+Icpcomponent.CPIssue
+descr='Pagelet Groups: ignorata proprietà margin-bottom﷯﷯Tutti i portlet dei gruppi venivano generati ingorando il valore assunto dalla  proprietà margin-bottom
+type='BUG_FIXED
+version='1.38
+I
+Icpcomponent.CPIssue
+descr='Grid Toolsbar:﷯il control Grid è stato arricchito del nuovo elemento toolsbar che permetterà di ospitare pulsanti in grado lanciare comandi.﷯Attualmente sono stati sposati nella toolsbar il pulsate dei filtri e quello per visualizzare o nascondere i campi opzionali (impostazione Expand/collapse)
+type='NEW_FEATURE
+version='1.38
+I
+Icpcomponent.CPIssue
+descr='Portlet - TextBox control:﷯l'impostazione "Anchor" "top-left-right" è stata resa funzionante
+type='BUG_FIXED
+version='1.38
+I
+Icpcomponent.CPIssue
+descr='Portlet - TextBox control: cambiata firma del costruttore﷯﷯NECESSARIA RIGENERAZIONE DEI PORTLET
+type='NEW_BUG
+version='1.38
+I
+Icpcomponent.CPIssue
+descr='Compatibilità con SitePainter﷯﷯E' necessario utilizzare una versione di SitePainter Preview rilasciata dopo il 25-07-2007.
+type='NEW_BUG
+version='1.38
+I
+Icpcomponent.CPIssue
+descr='Contenuto modulo﷯﷯A partire da questa versione, una parte del modulo PortalStudio è stata spostata a Sitepainter per rendere funzionante l'uso delle parti fatti con PortalStudio senza doverlo importare.
+type='NEW_FEATURE
+version='2.0
+I
+Icpcomponent.CPIssue
+descr='Portlet editor﷯﷯Aggiunta prop z-index sui TextBox e Images per evitare problemi di sovrapposizione.
+type='IMPROVEMENT
+version='2.0
+I
+Icpcomponent.CPIssue
+descr='Pictures nei portlet﷯ ﷯Ottimizzazione del codice nella gestione delle pictures per i Textbox, Label ,Combobox e Grid.﷯E' stata definita una nuova proprietà 'picture' per la Label , Textbox e Combobox.﷯Ora viene tutto gestito da un'unica funzione globale la quale cerca di  formattare correttamente il dato partendo dalla Picture o dal Type.﷯Nel caso non sia specificato nè la picture nè il type il dato viene visualizzato come tipo stringa nel formato presente nel Database.﷯﷯Note:﷯Potrebbero esserci dei problemi nel caso in cui siano stati fatti dei confronti tra date nel Action code.
+type='IMPROVEMENT
+version='2.1
+I
+Icpcomponent.CPIssue
+descr='Grid: SPLinker tools postion (ex Toolbar position)﷯﷯E' stata rinominata la combo box Toolbar position in SPLinker tools postion ed è stato aggiunto il valore Toolsbar; questo valore inserisce i comandi del SPLinker nella toolsbar della griglia
+type='NEW_FEATURE
+version='2.1
+I
+Icpcomponent.CPIssue
+descr='Grid Filters - combobox operatori﷯﷯Nei filtri della Grid cambiando il valore della combobox degli operatori la frase SQL prodotta era sbagliata causando la restituzione di zero record.
+type='BUG_FIXED
+version='2.2
+I
+Icpcomponent.CPIssue
+descr='Grid - Editable Fields﷯:﷯aggiunte le funzioni per i campi editabili della grid : Calculate,  Validate StartEdit e EditValue.﷯Validate(fld) consente di procedere con il calcolo del campo specificato.﷯Calculate(fld) consente di fare eventuali calcoli in base al campo passato.﷯StrtEdit():consente di fare alcune operazioni nella fase di pre Edit.﷯EditValue(fld,value) consente di restituire o impostare il campo specificato.﷯
+type='NEW_FEATURE
+version='2.2
+I
+Icpcomponent.CPIssue
+descr='Pagelet: colonne collassabili chiuse﷯﷯In Firefox il decoratore di default per le colonne collassabili in stato chiuso poteva impedire il click del mouse su una piccola area "vicina" al decoratore
+type='BUG_FIXED
+version='2.2
+I
+Icpcomponent.CPIssue
+descr='Portlet: Combobox da XMLDataProvider﷯﷯se la combobox era basata su XMLDataProvider risultava sempre vuota
+type='BUG_FIXED
+version='2.2
+I
+Icpcomponent.CPIssue
+descr='Portlet: Textbox﷯﷯La funzione ReadOnly agisce sulla proprietà readOnly degli input allo stesso modo della funzione Value per la proprietà value.﷯﷯Accetta un parametro opzionale booleano.﷯﷯Se invocata senza parametro resituisce il valore della proprietà readOnly.﷯Se invocata con un parametro imposta la proprietà readOnly dell'input e restituiscce il valore precente all'assegnazione.﷯﷯Si ricorda che readOnly è diverso da disabled: un campo disabled non può ricevere il focus e conseguentemente il suo contenuto non è selezionabile e copiabile.
+type='NEW_FEATURE
+version='2.2
+I
+Icpcomponent.CPIssue
+descr='Portlet: Grid funzioni Show/HideTopToolsbar﷯﷯le funzioni Show/HideTopToolsbar non spostavano i controls sottostanti all'apertura/chiusura della toolsbar
+type='BUG_FIXED
+version='2.2
+I
+Icpcomponent.CPIssue
+descr='Pagelet: errori JS portlet con tab titolati chiusi o in gruppi orizzontali chiusi﷯﷯all'apertura di una zona titolata chiusa o alla selezione di un tab chiuso il caricamento del portlet dava errori JS se questo conteneva dei tab (cioè era composto da più pagine)
+type='NEW_FEATURE
+version='2.2
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione di PortalStudio è compatibile con SitePainter Allouin RC1.
+type='NEW_BUG
+version='2.4
+I
+Icpcomponent.CPIssue
+descr='Ottimizzazione Grid FilterByExample﷯﷯griglie con molte righe e molte colonne con l'opzione FilterByExample risultavano molto lente nella fase di rendering in IE.﷯﷯﷯La causa del rallentamento era data dalla gestione dell'evento "mouseover" agganciata ad ogni singola cella della griglia ( = n righe * m colonne).﷯La correzione toglie completamente la gestione dell'evento dal HTML prodotto.﷯L'assegnazione della gestione dell'evento viene delegata alla funzione di mouseover sulla riga che finora non ha mai causato lamentele per motivi di prestazioni; tale funzione viene incaricata (solo la prima volta incui viene chiamata) di asseganare a tutte le celle della riga stessa la funzione di gestione mouseover per il posizionamento del'immagine per il filter by example.
+type='IMPROVEMENT
+version='2.5
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione di PortalStudio è compatibile con SitePainter Allouin.
+type='NEW_BUG
+version='2.5
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione di PortalStudio è compatibile con SitePainter Allouin SP1.
+type='NEW_BUG
+version='2.6
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione di PortalStudio è compatibile con SitePainter Allouin SP1.
+type='NEW_BUG
+version='2.8
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione di PortalStudio è compatibile con SitePainter Andorra Preview a partire dal 25-01-2008.
+type='NEW_BUG
+version='2.9
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione di PortalStudio è compatibile con SitePainter Andorra Preview a partire dal 05-02-2008.
+type='NEW_BUG
+version='2.10
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione di PortalStudio è compatibile con SitePainter Andorra Preview a partire dal 22-02-2008.
+type='NEW_BUG
+version='2.11
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione di PortalStudio è compatibile con SitePainter Andorra Preview a partire dal 04-03-2008.
+type='NEW_BUG
+version='2.12
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Austria Preview del 28-03-2008.
+type='NEW_BUG
+version='2.13
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Austria Preview del 09-04-2008.
+type='NEW_BUG
+version='2.14
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Austria Preview del 24-04-2008.
+type='NEW_BUG
+version='2.15
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Austria RC1.
+type='NEW_BUG
+version='2.16
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Austria RC3.
+type='NEW_BUG
+version='2.17
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Austria RC4.
+type='NEW_BUG
+version='2.18
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Austria RC5.
+type='NEW_BUG
+version='2.19
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Austria.
+type='NEW_BUG
+version='2.20
+I
+Icpcomponent.CPIssue
+descr='SPPortalZoom integrato﷯﷯A partire da questa versione, il componente SPPortalZoom è stato integrato dentro PortalStudio.
+type='NEW_FEATURE
+version='2.21
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Azerbaijan.
+type='NEW_BUG
+version='2.21
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Azerbaijan SP1 Preview del 28-10-2008.
+type='NEW_BUG
+version='2.22
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Azerbaijan SP1.
+type='NEW_BUG
+version='2.23
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Belgio Preview del 03-12-2008.
+type='NEW_BUG
+version='2.24
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Belgio Preview del 05-12-2008.
+type='NEW_BUG
+version='2.25
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Belgio Preview del 17-12-2008.
+type='NEW_BUG
+version='2.26
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Belgio.
+type='NEW_BUG
+version='2.27
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Bulgaria Preview del 17-02-2009.
+type='NEW_BUG
+version='2.28
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Bulgaria.
+type='NEW_BUG
+version='2.29
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Cipro Preview del 25-03-2009.
+type='NEW_BUG
+version='2.30
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Cipro Preview del 01-04-2009.
+type='NEW_BUG
+version='2.31
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Cipro Preview del 09-04-2009.
+type='NEW_BUG
+version='2.32
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Cipro RC1.
+type='NEW_BUG
+version='2.33
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Croazia Preview del 15-05-2009.
+type='NEW_BUG
+version='2.34
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Croazia Preview del 03-06-2009.
+type='NEW_BUG
+version='2.36
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Croazia Preview del 15-06-2009.
+type='NEW_BUG
+version='2.37
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Croazia.
+type='NEW_BUG
+version='2.39
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Danimarca Preview del 23-07-2009.
+type='NEW_BUG
+version='2.40
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Danimarca Preview del 23-09-2009.
+type='NEW_BUG
+version='2.41
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Danimarca Preview del 23-10-2009.
+type='NEW_BUG
+version='2.42
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Danimarca.
+type='NEW_BUG
+version='2.43
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Danimarca_SP1 Preview del 23-11-2009.
+type='NEW_BUG
+version='2.44
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Danimarca SP1.
+type='NEW_BUG
+version='2.45
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Danimarca SP2.
+type='NEW_BUG
+version='2.46
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build 56.
+type='NEW_BUG
+version='56.0
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build 56 RC1.﷯﷯Versione 900, inizio preview.
+type='NEW_BUG
+version='56.900
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build 56.﷯﷯Versione 901 Preview.
+type='NEW_BUG
+version='56.901
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire dalla Preview del 18-02-2010.
+type='NEW_BUG
+version='56.902
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire dalla Preview del 11-03-2010.
+type='NEW_BUG
+version='56.903
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire dalla Preview del 13-04-2010.
+type='NEW_BUG
+version='56.904
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Estonia Preview del 07-05-2010.
+type='NEW_BUG
+version='56.905
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Estonia Preview del 01-06-2010.
+type='NEW_BUG
+version='56.906
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Estonia Preview del 12-07-2010.
+type='NEW_BUG
+version='56.907
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Estonia Preview del 03-08-2010.
+type='NEW_BUG
+version='56.908
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Finlandia Preview del 26-10-2010.
+type='NEW_BUG
+version='57.900
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Finlandia Preview del 26-10-2010.﷯﷯Rilascio del modulo in data 9-11-2010
+type='NEW_BUG
+version='57.901
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Finlandia Preview del 10-12-2010.
+type='NEW_BUG
+version='57.902
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Finlandia Preview del 23-12-2010.
+type='NEW_BUG
+version='57.903
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Finlandia Preview del 28-02-2011.
+type='NEW_BUG
+version='57.904
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Finlandia Preview del 23-03-2011.
+type='NEW_BUG
+version='57.905
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Finlandia Preview del 05-04-2011.
+type='NEW_BUG
+version='57.906
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Finlandia Preview del 19-04-2011.
+type='NEW_BUG
+version='57.907
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Finlandia Preview del 28-04-2011.
+type='NEW_BUG
+version='57.908
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Finlandia Preview del 03-05-2011.
+type='NEW_BUG
+version='57.909
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build 58 RC1.
+type='NEW_BUG
+version='57.910
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build 58 RC2.
+type='NEW_BUG
+version='58.0
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Francia Preview del 18-11-2011.
+type='NEW_BUG
+version='58.901
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Francia Preview del 25-11-2011.
+type='NEW_BUG
+version='58.902
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Francia Preview del 02-12-2011.
+type='NEW_BUG
+version='58.903
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Francia Preview del 12-12-2011.
+type='NEW_BUG
+version='58.904
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build 59 RC1 del 22-12-2011.
+type='NEW_BUG
+version='59.0
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build 59 RC2 del 22-12-2011.
+type='NEW_BUG
+version='59.1
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build 59 RC3 del 11-01-2012.
+type='NEW_BUG
+version='59.2
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 05-04-2012.
+type='NEW_BUG
+version='59.901
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 30-05-2012.
+type='NEW_BUG
+version='59.902
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 04-06-2012.
+type='NEW_BUG
+version='59.903
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 12-06-2012.
+type='NEW_BUG
+version='59.904
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 22-06-2012.
+type='NEW_BUG
+version='59.905
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 06-07-2012.
+type='NEW_BUG
+version='59.906
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 17-07-2012.
+type='NEW_BUG
+version='59.907
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 27-09-2012.
+type='NEW_BUG
+version='59.913
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 15-10-2012.
+type='NEW_BUG
+version='59.915
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 31-10-2012.
+type='NEW_BUG
+version='59.916
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 13-11-2012.
+type='NEW_BUG
+version='59.917
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 26-11-2012.
+type='NEW_BUG
+version='59.918
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 27-11-2012.
+type='NEW_BUG
+version='59.919
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Germania Preview del 05-12-2012.
+type='NEW_BUG
+version='59.920
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC1 del 19-12-2012.
+type='NEW_BUG
+version='59.921
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC2 del 23-01-2013.
+type='NEW_BUG
+version='59.922
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC3 del 28-01-2013.
+type='NEW_BUG
+version='59.923
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC5 del 11-02-2013.
+type='NEW_BUG
+version='59.926
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC6 del 21-02-2013.
+type='NEW_BUG
+version='59.927
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC7 del 01-03-2013.
+type='NEW_BUG
+version='59.928
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC7 del 20-03-2013.
+type='NEW_BUG
+version='59.930
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC7 del 21-03-2013.
+type='NEW_BUG
+version='59.931
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC8 del 28-03-2013.
+type='NEW_BUG
+version='59.932
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC9 del 19-04-2013.
+type='NEW_BUG
+version='59.933
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC10 del 02-05-2013.
+type='NEW_BUG
+version='59.934
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC11 del 08-05-2013.
+type='NEW_BUG
+version='59.935
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC12 del 14-05-2013.
+type='NEW_BUG
+version='59.936
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC13 del 23-05-2013.
+type='NEW_BUG
+version='59.937
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC14 del 28-05-2013.
+type='NEW_BUG
+version='59.938
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC15 del 28-05-2013.
+type='NEW_BUG
+version='59.939
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC16 del 06-06-2013.
+type='NEW_BUG
+version='59.940
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC17 del 20-06-2013.
+type='NEW_BUG
+version='59.941
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC18 del 25-06-2013.
+type='NEW_BUG
+version='59.942
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC19 del 05-07-2013.
+type='NEW_BUG
+version='59.943
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC20 del 30-07-2013.
+type='NEW_BUG
+version='59.944
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC21 del 08-08-2013.
+type='NEW_BUG
+version='59.945
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC22 del 03-09-2013.
+type='NEW_BUG
+version='59.946
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC23 del 13-09-2013.
+type='NEW_BUG
+version='59.947
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC24 del 17-09-2013.
+type='NEW_BUG
+version='59.948
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC25.
+type='NEW_BUG
+version='60.0
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 RC26.
+type='NEW_BUG
+version='60.1
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60.
+type='NEW_BUG
+version='60.2
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build60 LMUPD1.
+type='NEW_BUG
+version='60.3
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 08-04-2014.
+type='NEW_BUG
+version='60.900
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 28-04-2014.
+type='NEW_BUG
+version='60.901
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 11-11-2014.
+type='NEW_BUG
+version='60.902
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 12-01-2015.
+type='NEW_BUG
+version='60.903
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 27-01-2015.
+type='NEW_BUG
+version='60.905
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 23-02-2015.
+type='NEW_BUG
+version='60.906
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 05-03-2015.
+type='NEW_BUG
+version='60.907
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 25-03-2015.
+type='NEW_BUG
+version='60.908
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 08-04-2015.
+type='NEW_BUG
+version='60.909
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 22-05-2015.
+type='NEW_BUG
+version='60.910
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 07-09-2015.
+type='NEW_BUG
+version='60.911
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 16-11-2015.
+type='NEW_BUG
+version='60.912
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 02-12-2015.
+type='NEW_BUG
+version='60.913
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 15-12-2015.
+type='NEW_BUG
+version='60.914
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Gibilterra Preview del 23-12-2015.
+type='NEW_BUG
+version='60.915
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC1 del 15-01-2016.
+type='NEW_BUG
+version='60.916
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC2 del 05-02-2016.
+type='NEW_BUG
+version='60.917
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC3 del 24-02-2016.
+type='NEW_BUG
+version='60.918
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC4 del 24-03-2016.
+type='NEW_BUG
+version='60.919
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC5 del 20-04-2016.
+type='NEW_BUG
+version='60.920
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC6 del 29-04-2016.
+type='NEW_BUG
+version='60.921
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC7 del 11-05-2016.
+type='NEW_BUG
+version='60.922
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC8 del 14-06-2016.
+type='NEW_BUG
+version='60.923
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC9 del 01-07-2016.
+type='NEW_BUG
+version='60.924
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC10 del 08-07-2016.
+type='NEW_BUG
+version='60.925
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC11 del 29-07-2016.
+type='NEW_BUG
+version='60.926
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC12 del 01-09-2016.
+type='NEW_BUG
+version='60.927
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 RC13 del 23-09-2016.
+type='NEW_BUG
+version='60.928
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 ILo del 03-10-2016.
+type='NEW_BUG
+version='60.929
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 ILoHR del 05-10-2016.
+type='NEW_BUG
+version='60.930
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 61.0.14 del 18-10-2016.
+type='NEW_BUG
+version='60.931
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 61.0.15 del 28-10-2016.
+type='NEW_BUG
+version='60.932
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 61.0.16 del 04-11-2016.
+type='NEW_BUG
+version='60.933
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 61.0.17 del 28-11-2016.
+type='NEW_BUG
+version='60.934
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61 del 23-12-2016.
+type='NEW_BUG
+version='60.1001
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.0.19 del 13-02-2017.
+type='NEW_BUG
+version='60.1002
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.1.0 del 03-03-2017.
+type='NEW_BUG
+version='60.1003
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.2.0 del 31-03-2017.
+type='NEW_BUG
+version='60.1100
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.2.1 del 07-04-2017.
+type='NEW_BUG
+version='60.1101
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.2.2 del 04-05-2017.
+type='NEW_BUG
+version='60.1102
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.2.3 del 19-06-2017.
+type='NEW_BUG
+version='60.1103
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.2.4 del 04-07-2017.
+type='NEW_BUG
+version='60.1104
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.2.6 del 25-07-2017.
+type='NEW_BUG
+version='60.1105
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.2.7 del 06-09-2017.
+type='NEW_BUG
+version='60.1106
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.2.8 del 18-09-2017.
+type='NEW_BUG
+version='60.1107
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.2.9 del 29-09-2017.
+type='NEW_BUG
+version='60.1108
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.2.10 del 02-11-2017.
+type='NEW_BUG
+version='60.1109
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.3.0 del 28-11-2017.
+type='NEW_BUG
+version='60.1110
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.4.1 del 10-01-2018.
+type='NEW_BUG
+version='60.1200
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.4.2 del 19-02-2018.
+type='NEW_BUG
+version='60.1201
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.4.3 del 21-03-2018.
+type='NEW_BUG
+version='60.1202
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.4.4 del 05-04-2018.
+type='NEW_BUG
+version='60.1203
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.4.5 del 01-06-2018.
+type='NEW_BUG
+version='60.1204
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.4.6 del 27-08-2018.
+type='NEW_BUG
+version='60.1205
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.4.7 del 25-09-2018.
+type='NEW_BUG
+version='61.4002
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.4.8 del 17-01-2019.
+type='NEW_BUG
+version='61.4003
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.5.0 del 18-06-2019.
+type='NEW_BUG
+version='61.5000
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.6.1 del 29-11-2019.
+type='NEW_BUG
+version='61.6000
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.6.2 del 05-03-2020.
+type='NEW_BUG
+version='61.6001
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.6.3 del 25-03-2020.
+type='NEW_BUG
+version='61.6002
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.6.4 del 30-04-2020.
+type='NEW_BUG
+version='61.6003
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.1 del 10-02-2022.
+type='NEW_BUG
+version='61.8001
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.2 del 21-11-2022.
+type='NEW_BUG
+version='61.8002
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.3 del 27-12-2022.
+type='NEW_BUG
+version='61.8003
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.4 del 03-02-2023.
+type='NEW_BUG
+version='61.8004
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.5 del 01-03-2023.
+type='NEW_BUG
+version='61.8005
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.6 del 24-03-2023.
+type='NEW_BUG
+version='61.8006
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.7 del 14-04-2023.
+type='NEW_BUG
+version='61.8007
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.8 del 05-05-2023.
+type='NEW_BUG
+version='61.8008
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.9 del 12-05-2023.
+type='NEW_BUG
+version='61.8009
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.10 del 01-06-2023.
+type='NEW_BUG
+version='61.8010
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.11 del 22-06-2023.
+type='NEW_BUG
+version='61.8011
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.12 del 30-06-2023.
+type='NEW_BUG
+version='61.8012
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.13 del 14-07-2023.
+type='NEW_BUG
+version='61.8013
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.14 del 26-07-2023.
+type='NEW_BUG
+version='61.8014
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.15 del 04-08-2023.
+type='NEW_BUG
+version='61.8015
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.8.16 del 07-09-2023.
+type='NEW_BUG
+version='61.8016
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.9.0 del 18-09-2023.
+type='NEW_BUG
+version='61.9000
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.9.1 del 06-10-2023.
+type='NEW_BUG
+version='61.9001
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.9.2 del 14-11-2023.
+type='NEW_BUG
+version='61.9002
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.9.3 del 27-11-2023.
+type='NEW_BUG
+version='61.9003
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.9.4 del 29-11-2023.
+type='NEW_BUG
+version='61.9004
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.9.5 del 07-12-2023.
+type='NEW_BUG
+version='61.9005
+I
+Icpcomponent.CPIssue
+descr='Compatibilità SitePainter﷯﷯Questa versione è compatibile con SitePainter a partire da Build61.9.6 del 16-01-2024.
+type='NEW_BUG
+version='61.9006
+I
+]
+*--*

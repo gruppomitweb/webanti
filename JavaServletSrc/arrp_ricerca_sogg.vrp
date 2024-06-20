@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter Report (http://www.zucchetti.it) -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_ricerca_sogg||version||4.1||title||Stampa Con Esito Positivo||query||stampa_seek_sogg||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name||plan||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-03-16||date_rev||2010-05-21||form_class|| ||grid_dx||0||grid_dy||0||grid_show||0||grid_use||0||snaplines_show||1||language|| ||merge||false||modcnt||4||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| |||type||HeaderBar_top||name||bar_PageHeader_start||y||144||x||0||uid||JNZPHKSSZY||sequence||8||bb_sequence||2|||type||HeaderBar_bottom||name||bar_PageHeader_end||y||279||x||0||uid||QNESQRFMQO||sequence||21||bb_sequence||3|||type||Group_top||name||group0||y||145||uid||WNVDPRRWSQ||sequence||9||bb_sequence||4||comment|| ||exp||c_IDBASE||start_each_on_page||false||as_page_header||false||print_group_footer||false||as_page_footer||false||reset_page_number||false||numpage_expr|| ||printblock||false||reprint_header||false||reprint_footer||false||rows||0||output_name|| ||display_expr|| ||ingroup_expr|| ||outgroup_expr|| |||type||Group_down||name||group0||y||278||uid||DIMXEXYGKG||sequence||19||bb_sequence||5||comment|| ||exp||c_IDBASE||start_each_on_page||false||as_page_header||false||print_group_footer||false||as_page_footer||false||reset_page_number||false||numpage_expr|| ||printblock||false||reprint_header||false||reprint_footer||false||rows||0||output_name|| ||display_expr|| ||ingroup_expr|| ||outgroup_expr|| |||type||Section_top||name||section0||y||258||uid||JRXDLCDUIC||sequence||25||bb_sequence||25||comment|| ||hidecond||flgnote=&#39;N&#39;||printblock||false|||type||Section_down||name||section0||y||277||uid||AGKHFHPGZN||sequence||24||bb_sequence||24||comment|| ||hidecond||flgnote=&#39;N&#39;||printblock||false|||type||Box||name||Box0||x||8||y||9||h||68||w||976||uid||GMXXJAVLCH||sequence||1||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label1||x||16||y||18||h||26||w||960||uid||EZNRROVDYJ||sequence||2||value||ESITO DI RICERCA TRA SOGGETTI SEGNALATI||text_type||constant||comment|| ||align||center||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||WNVDPRRWSQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||14||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label2||x||16||y||54||h||16||w||960||uid||NXABQWTQOP||sequence||3||value||&quot;ARCHIVI DI RICERCA AGGIORNATI AL &quot;+ultaggsog||text_type||expression||comment|| ||align||center||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid||WNVDPRRWSQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||10||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box3||x||8||y||81||h||36||w||976||uid||TNJCIHGJYC||sequence||4||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Expr||name||expr4||x||16||y||90||h||16||w||960||uid||BEHSEGWTUZ||sequence||5||exp||iif(criterio=&#39;D&#39;,&#39;[DENOMINAZIONE]: &#39;+denomin,iif(criterio=&#39;C&#39;,&#39;[CODICE FISCALE]: &#39;+codfisc,&#39;[RICERCA A BLOCCHI]: &#39;+ simili))||comment|| ||type_exp||character||len||40||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label5||x||8||y||126||h||16||w||267||uid||OYMTHOBTLD||sequence||6||value||DATI DALL&#39;ELENCO SOGGETTI SEGNALATI||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box6||x||8||y||141||h||1||w||976||uid||VSRLIPAHKG||sequence||7||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Expr||name||expr7||x||8||y||151||h||16||w||912||uid||SNSLRPAAPD||sequence||10||exp||&#39;Ragione Sociale: &#39; + c_RAGSOC||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||WNVDPRRWSQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr8||x||272||y||169||h||16||w||648||uid||BVXPYVDJRI||sequence||11||exp||&#39;Specifica: &#39; + c_DESCRI||comment|| ||type_exp||character||len||120||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||WNVDPRRWSQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr9||x||8||y||169||h||16||w||256||uid||FMAKQOCEVU||sequence||12||exp||&#39;Codice Fiscale: &#39; + c_CODFISC||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||WNVDPRRWSQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr10||x||272||y||187||h||16||w||420||uid||GYVZYKSWYI||sequence||13||exp||&#39;Luogo Nascita: &#39; + c_LUOGONAS||comment|| ||type_exp||character||len||70||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||WNVDPRRWSQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr11||x||8||y||187||h||16||w||256||uid||IVJRBKDATL||sequence||14||exp||&#39;Data Nascita: &#39; + aosfn_fdate(c_DATANAS)||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||WNVDPRRWSQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr12||x||8||y||205||h||16||w||912||uid||LXGUQWJFGN||sequence||15||exp||&#39;Stato Residenza: &#39; + c_RESPAESE||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||WNVDPRRWSQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr13||x||8||y||223||h||16||w||912||uid||KAYSWBBDAK||sequence||16||exp||&#39;Città Residenza: &#39; + c_RESCITTA||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||WNVDPRRWSQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr14||x||8||y||241||h||16||w||912||uid||PXUOGIWNDN||sequence||17||exp||&#39;Indirizzo Residenza: &#39; + c_RESIND||comment|| ||type_exp||character||len||120||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group||c_IDBASE||print_when_change_groupuid||WNVDPRRWSQ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr15||x||8||y||260||h||16||w||912||uid||TCTKDRMBIC||sequence||18||exp||&#39;NOTE: &#39;+ c_NOTE||comment|| ||type_exp||memo||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||true||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Box||name||Box16||x||8||y||282||h||1||w||976||uid||VZVEFZTSRY||sequence||20||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label17||x||8||y||285||h||16||w||165||uid||JYALFCRFEE||sequence||22||value||&#39;Data: &#39;+arfn_fdate(Date())||text_type||expression||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||false|||type||Label||name||label18||x||579||y||285||h||16||w||405||uid||PRLPKWQQVB||sequence||23||value||&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))||text_type||expression||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||false|||-->
+
+<REPORT NAME="arrp_ricerca_sogg" TITLE="Stampa Con Esito Positivo" QUERY="stampa_seek_sogg" MAXDEPTH="1" GLBFONTNAME="Verdana" GLBFONTSIZE="8" VERSION="4.0" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES="">
+    <FIELD NAME="stampa_seek_sogg.IDBASE" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RAGSOC" TYPE="C" LEN="120" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.DATANAS" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.LUOGONAS" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.CODFISC" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RESPAESE" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RESCITTA" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RESIND" TYPE="C" LEN="200" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.NOTE" TYPE="M" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.TIPO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.FONTE" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RAGSOCX" TYPE="C" LEN="120" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RAGSOCBLK" TYPE="C" LEN="120" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.FLAG" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.APPOGGIO" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.SPEC" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.DESCRI" TYPE="C" LEN="100" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RIFERIM" TYPE="C" LEN="200" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.COSAFARE" TYPE="C" LEN="1" DEC="0" />
+    <PAGEHEADER Y="0" H="144" EXPRESSION="Page header">
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="9" X="8" YY="77" XX="984"
+              ALIGN="L"
+              UID="GMXXJAVLCH"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="stringa" NAME="ESITO DI RICERCA TRA SOGGETTI SEGNALATI" EXPRTYPE="constant"
+              Y="18" X="16" YY="44" XX="976"
+              ALIGN="C"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Verdana" FONTSIZE="14"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              PRINTGROUP="true" PRINTGROUPWHERE="WNVDPRRWSQ"
+              />
+        <ITEM OBJ="stringa" NAME="&quot;ARCHIVI DI RICERCA AGGIORNATI AL &quot;+ultaggsog" EXPRTYPE="expression"
+              Y="54" X="16" YY="70" XX="976"
+              ALIGN="C"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="10"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box_end" UID="GMXXJAVLCH"/>
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="81" X="8" YY="117" XX="984"
+              ALIGN="L"
+              UID="TNJCIHGJYC"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="espressione" NAME="iif(criterio=&#39;D&#39;,&#39;[DENOMINAZIONE]: &#39;+denomin,iif(criterio=&#39;C&#39;,&#39;[CODICE FISCALE]: &#39;+codfisc,&#39;[RICERCA A BLOCCHI]: &#39;+ simili))" ITEMTYPE="C" EXPRTYPE="expression"
+              Y="90" X="16" YY="106" XX="976"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+              LEN="40"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box_end" UID="TNJCIHGJYC"/>
+        <ITEM OBJ="stringa" NAME="DATI DALL&#39;ELENCO SOGGETTI SEGNALATI" EXPRTYPE="constant"
+              Y="126" X="8" YY="142" XX="275"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="h_line" Y="141" X="8" XX="985" BORDERWIDTH="1"
+              ALIGN="L"
+              />
+    </PAGEHEADER>
+    <SECTION TYPE="group" HEADH="0" FOOTH="0" SYMNAME="" UID="WNVDPRRWSQ" TOP="144" BOTTOM="274" EXPRESSION="c_IDBASE" DISPLAY_EXPRESSION=""
+     STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+     PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" INWITHEXPR="" OUTWITHEXPR="">
+        <SECTION TYPE="group" HEADH="130" FOOTH="0" EXPRESSION="" SYMNAME=""
+         STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+         REPRINTHEADER="false" REPRINTFOOTER="false">
+            <ITEM OBJ="espressione" NAME="&#39;Ragione Sociale: &#39; + c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="5" X="8" YY="21" XX="920"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="WNVDPRRWSQ"
+                  />
+            <ITEM OBJ="espressione" NAME="&#39;Specifica: &#39; + c_DESCRI" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="23" X="272" YY="39" XX="920"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+                  LEN="120"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="WNVDPRRWSQ"
+                  />
+            <ITEM OBJ="espressione" NAME="&#39;Codice Fiscale: &#39; + c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="23" X="8" YY="39" XX="264"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="WNVDPRRWSQ"
+                  />
+            <ITEM OBJ="espressione" NAME="&#39;Luogo Nascita: &#39; + c_LUOGONAS" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="41" X="272" YY="57" XX="692"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+                  LEN="70"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="WNVDPRRWSQ"
+                  />
+            <ITEM OBJ="espressione" NAME="&#39;Data Nascita: &#39; + aosfn_fdate(c_DATANAS)" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="41" X="8" YY="57" XX="264"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="WNVDPRRWSQ"
+                  />
+            <ITEM OBJ="espressione" NAME="&#39;Stato Residenza: &#39; + c_RESPAESE" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="59" X="8" YY="75" XX="920"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="WNVDPRRWSQ"
+                  />
+            <ITEM OBJ="espressione" NAME="&#39;Città Residenza: &#39; + c_RESCITTA" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="77" X="8" YY="93" XX="920"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="WNVDPRRWSQ"
+                  />
+            <ITEM OBJ="espressione" NAME="&#39;Indirizzo Residenza: &#39; + c_RESIND" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="95" X="8" YY="111" XX="920"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+                  LEN="120"
+                  PRINTPAGE="true"
+                  PRINTGROUP="true" PRINTGROUPWHERE="WNVDPRRWSQ"
+                  />
+            <SECTIONHIDE TYPE="section" UID="JRXDLCDUIC" HEADH="18" TOP="256" BOTTOM="274" EXPRESSION="flgnote=&#39;N&#39;" PRINTASBLOCK="false">
+                <ITEM OBJ="espressione" NAME="&#39;NOTE: &#39;+ c_NOTE" ITEMTYPE="M" EXPRTYPE="expression"
+                      Y="113" X="8" YY="129" XX="920"
+                      ALIGN="L"
+                      STRETCH="true"
+                      REPEATED="true"
+                      GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+                      LEN="10"
+                      PRINTPAGE="true"
+                      />
+            </SECTIONHIDE>
+        </SECTION>
+    </SECTION>
+    <PAGEFOOTER Y="274" H="22" EXPRESSION="Page footer">
+        <ITEM OBJ="h_line" Y="2" X="8" XX="985" BORDERWIDTH="1"
+              ALIGN="L"
+              />
+        <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+              Y="5" X="8" YY="21" XX="173"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+              Y="5" X="579" YY="21" XX="984"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Verdana" FONTSIZE="8"
+              PRINTPAGE="true"
+              />
+    </PAGEFOOTER>
+</REPORT>

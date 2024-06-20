@@ -1,0 +1,144 @@
+﻿* --- Resource Vers. 0.9
+cptsrvr<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Server DB
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='cptsrvr
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'cptsrvr.servername
+'cptsrvr.serverdesc
+'cptsrvr.odbcdatasource
+'cptsrvr.whenconn
+'cptsrvr.postit
+'cptsrvr.databasetype
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'cptsrvr.databasetype
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DatabaseType
+state=3
+table_name='cptsrvr
+type='field
+used_resource_keys={}
+I
+'cptsrvr.odbcdatasource
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stringa Connessione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ODBCDataSource
+state=3
+table_name='cptsrvr
+type='field
+used_resource_keys={}
+I
+'cptsrvr.postit
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ci sono i postit
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PostIt
+state=3
+table_name='cptsrvr
+type='field
+used_resource_keys={}
+I
+'cptsrvr.serverdesc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ServerDesc
+state=3
+table_name='cptsrvr
+type='field
+used_resource_keys={}
+I
+'cptsrvr.servername
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome Server
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ServerName
+state=3
+table_name='cptsrvr
+type='field
+used_resource_keys={}
+I
+'cptsrvr.whenconn
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='WhenConn
+state=3
+table_name='cptsrvr
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'cptsrvr.databasetype
+[]
+'cptsrvr.odbcdatasource
+[]
+'cptsrvr.postit
+[]
+'cptsrvr.serverdesc
+[]
+'cptsrvr.servername
+[]
+'cptsrvr.whenconn
+[]
+}
+*--*

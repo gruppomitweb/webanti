@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter Report (http://www.zucchetti.it) -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_stp_stdtec_tit||version||4.1||title||Stampa Verifica Legami Soggetti (Standard Tecnici)||query||qbe_stp_stdtec||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-03-16||date_rev||2013-02-07||form_class|| ||grid_dx||8||grid_dy||8||grid_show||1||grid_use||1||snaplines_show||1||language|| ||merge||false||modcnt||50||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| |||type||HeaderBar_top||name||bar_PageHeader_start||y||82||x||0||uid||VSKZFNLZNU||sequence||1||bb_sequence||2|||type||HeaderBar_bottom||name||bar_PageHeader_end||y||521||x||0||uid||QQSXLXKEPK||sequence||4||bb_sequence||3|||type||Group_top||name||group0||y||83||uid||RXDXNVMXRM||sequence||2||bb_sequence||6||comment|| ||exp||c_IDBASE||start_each_on_page||true||as_page_header||false||print_group_footer||false||as_page_footer||false||reset_page_number||false||numpage_expr|| ||printblock||false||reprint_header||false||reprint_footer||false||rows||0||output_name|| ||display_expr|| ||ingroup_expr|| ||outgroup_expr|| |||type||Group_down||name||group0||y||520||uid||MJOYCOTZUD||sequence||3||bb_sequence||7||comment|| ||exp||c_IDBASE||start_each_on_page||false||as_page_header||false||print_group_footer||false||as_page_footer||false||reset_page_number||false||numpage_expr|| ||printblock||false||reprint_header||false||reprint_footer||false||rows||0||output_name|| ||display_expr|| ||ingroup_expr|| ||outgroup_expr|| |||type||Label||name||label0||x||8||y||4||h||21||w||719||uid||TWPXTLUFTH||sequence||67||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||11||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box1||x||8||y||27||h||54||w||119||uid||PRLTKAFRPY||sequence||50||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label2||x||128||y||27||h||19||w||600||uid||TPFOSEFDGQ||sequence||51||value||Filtri attivi sulla stampa||text_type||constant||comment|| ||align||center||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||10||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box3||x||128||y||27||h||54||w||600||uid||KGUYZZGEZL||sequence||52||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label4||x||8||y||32||h||21||w||119||uid||TZYHZQXBDI||sequence||69||value||Legami Soggetti||text_type||constant||comment|| ||align||center||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||11||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label5||x||128||y||44||h||16||w||131||uid||LTUYDDXLTN||sequence||53||value||Da Data Operazione:||text_type||constant||comment|| ||align||right||hidecond||c_dadata=&#39;&#39; or Empty(c_dadata)||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Expr||name||expr6||x||264||y||44||h||16||w||80||uid||BSHGRPOMKF||sequence||54||exp||arfn_fdate(CharToDate(c_dadata))||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond||c_dadata=&#39;&#39; or Empty(c_dadata)||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset|| ||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label7||x||344||y||44||h||16||w||82||uid||UOTNIWARLD||sequence||55||value||Da Cliente:||text_type||constant||comment|| ||align||right||hidecond||Empty(daCodCli)||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Expr||name||expr8||x||429||y||44||h||16||w||126||uid||AFTZGFPNYR||sequence||56||exp||daCodCli||comment|| ||type_exp||character||len||18||dec||0||picture|| ||output_name|| ||hidecond||Empty(daCodCli)||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset|| ||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label9||x||560||y||44||h||16||w||103||uid||VDABOAFDNA||sequence||63||value||Da Dipendenza:||text_type||constant||comment|| ||align||right||hidecond||Empty(daCodDip)||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Expr||name||expr10||x||664||y||44||h||16||w||60||uid||KFDXSNINVU||sequence||65||exp||daCodDip||comment|| ||type_exp||character||len||6||dec||0||picture|| ||output_name|| ||hidecond||Empty(daCodDip)||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset|| ||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label11||x||576||y||45||h||29||w||144||uid||EFSWEGCROV||sequence||68||value||Filtro da dipendenza a &lt;br&gt;dipendenza disattivato||text_type||constant||comment|| ||align||left||hidecond||not(Empty(daCodDip) and Empty(aCodDip))||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label12||x||364||y||46||h||29||w||148||uid||NGWBDLIRDH||sequence||57||value||Filtro da cliente a cliente&lt;br&gt;disattivato||text_type||constant||comment|| ||align||left||hidecond||not(Empty(daCodCli) and Empty(aCodCli))||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label13||x||140||y||46||h||29||w||120||uid||XKTCGYHCPM||sequence||58||value||Filtro da data a data &lt;br&gt;disattivato||text_type||constant||comment|| ||align||left||hidecond||not((c_dadata=&#39;&#39; or Empty(c_dadata)) and (c_adata=&#39;&#39; or Empty(c_adata)))||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label14||x||8||y||55||h||21||w||119||uid||BNDKUSXAYP||sequence||70||value||iif(pAUI=&#39;D&#39;,&#39;A.U.I.&#39;,&#39;Provvisorie&#39;)||text_type||expression||comment|| ||align||center||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Arial||font_size||11||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label15||x||344||y||61||h||16||w||82||uid||ZGABCNHETS||sequence||59||value||A Cliente:||text_type||constant||comment|| ||align||right||hidecond||Empty(aCodCli)||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label16||x||144||y||61||h||16||w||115||uid||GFNFZSFVJF||sequence||60||value||A Data Operazione:||text_type||constant||comment|| ||align||right||hidecond||c_adata=&#39;&#39; or Empty(c_adata)||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Expr||name||expr17||x||264||y||61||h||16||w||80||uid||XWBMPREVEM||sequence||61||exp||arfn_fdate(CharToDate(c_adata))||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond||c_adata=&#39;&#39; or Empty(c_adata)||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset|| ||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Expr||name||expr18||x||429||y||61||h||16||w||126||uid||CTMQAAGVKO||sequence||62||exp||aCodCli||comment|| ||type_exp||character||len||18||dec||0||picture|| ||output_name|| ||hidecond||Empty(aCodCli)||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset|| ||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label19||x||560||y||61||h||16||w||103||uid||QGIMQSWGGU||sequence||64||value||A  Dipendenza:||text_type||constant||comment|| ||align||right||hidecond||Empty(aCodDip)||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||bold||font_effect|| ||global_font||false|||type||Expr||name||expr20||x||664||y||61||h||16||w||60||uid||HPBSGXRERD||sequence||66||exp||aCodDip||comment|| ||type_exp||character||len||6||dec||0||picture|| ||output_name|| ||hidecond||Empty(aCodDip)||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false||calculations||nothing||reset|| ||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label21||x||8||y||88||h||17||w||720||uid||GCYJTGMZXQ||sequence||8||value||&#39;Informazione: &#39;+c_IDEREG+ &quot; - Dati Caratteristici del legame tra soggetti (TIPO INFORMAZIONE 1)&quot;||text_type||expression||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||9||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label22||x||8||y||112||h||16||w||312||uid||CGDTVHPPIR||sequence||43||value||IDENTIFICATIVO INFORMAZIONE||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Label||name||label23||x||16||y||128||h||16||w||312||uid||IFQYVGARJX||sequence||44||value||A01 - INTERMEDIARIO CHE ESEGUE LA REGISTRAZIONE||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Label||name||label24||x||32||y||144||h||16||w||312||uid||VQKLICSRVK||sequence||9||value||A01A - Tipo Intermediario (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr25||x||352||y||144||h||16||w||376||uid||ANITIOTFNF||sequence||13||exp||c_TIPOINTER+&quot; - &quot;+arfn_dectabs(&#39;INT&#39;,c_TIPOINTER)||comment|| ||type_exp||character||len||60||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label26||x||32||y||160||h||16||w||312||uid||LDTPBYQYXA||sequence||10||value||A01B - Codice Intermediario (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr27||x||352||y||160||h||16||w||376||uid||GQNXNDIZNL||sequence||14||exp||c_CODINTER||comment|| ||type_exp||character||len||11||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label28||x||16||y||176||h||16||w||312||uid||CAIAJURTPE||sequence||11||value||A02 - Tipo Informazione (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr29||x||352||y||176||h||16||w||376||uid||HBDKAUJOCQ||sequence||15||exp||c_TIPOINF||comment|| ||type_exp||character||len||1||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label30||x||16||y||192||h||16||w||312||uid||BOAJKCOIPQ||sequence||12||value||A03 - Identificativo Registrazione (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr31||x||352||y||192||h||16||w||376||uid||EHPSWEIAQX||sequence||16||exp||c_IDEREG||comment|| ||type_exp||character||len||20||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label32||x||8||y||208||h||16||w||312||uid||KNSRPRGSIW||sequence||45||value||DIPENDENZA INTERESSATA DALL&#39;OPERAZIONE||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Label||name||label33||x||16||y||224||h||16||w||312||uid||LTYOTCFSHZ||sequence||17||value||A11 - Codice Interno della dipendenza (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr34||x||352||y||224||h||16||w||376||uid||ZWLAWLQOAC||sequence||21||exp||c_CODDIPE||comment|| ||type_exp||character||len||6||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label35||x||16||y||240||h||16||w||312||uid||OLFIRAAZQY||sequence||46||value||A12 - Comune della Dipendenza Interessata||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Label||name||label36||x||32||y||256||h||16||w||312||uid||CIXRPGQIOY||sequence||18||value||A12A - Codice CAB Comune (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr37||x||352||y||256||h||16||w||376||uid||PGAHOJRLUZ||sequence||22||exp||c_DIPCAB||comment|| ||type_exp||character||len||6||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label38||x||32||y||272||h||16||w||312||uid||BPVGJLNVLL||sequence||19||value||A12B - Descrizione in chiaro (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr39||x||352||y||272||h||16||w||376||uid||VQBCOSWZDT||sequence||23||exp||c_DIPCIT||comment|| ||type_exp||character||len||30||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label40||x||32||y||288||h||16||w||312||uid||UDMCGYUKMD||sequence||20||value||A12C - Sigla Provincia (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr41||x||352||y||288||h||16||w||376||uid||PDUJZYEIEM||sequence||24||exp||c_DIPPRV||comment|| ||type_exp||character||len||2||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label42||x||8||y||304||h||16||w||312||uid||VGITSSWJKU||sequence||47||value||DATA DEL LEGAME||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Label||name||label43||x||16||y||320||h||16||w||312||uid||SAEACZROTJ||sequence||25||value||A21 - Data di Riferimento (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr44||x||352||y||320||h||16||w||376||uid||IBAZFPZZPU||sequence||34||exp||arfn_fdate(c_DATAOPE)||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label45||x||16||y||336||h||16||w||312||uid||VHQNEKTKBN||sequence||26||value||A41 - Rapporto (C)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr46||x||352||y||336||h||16||w||376||uid||MGANWQVIMQ||sequence||35||exp||c_RAPPORTO||comment|| ||type_exp||character||len||25||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label47||x||16||y||352||h||16||w||312||uid||OMULFCTVVN||sequence||27||value||A42 - Tipo Rapporto (C)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr48||x||352||y||352||h||16||w||376||uid||AMCSIRASVV||sequence||36||exp||c_FLAGRAP+&quot; - &quot;+arfn_dectabs(&#39;RAP&#39;,c_FLAGRAP)||comment|| ||type_exp||character||len||62||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label49||x||16||y||368||h||16||w||312||uid||LONURMJJKE||sequence||71||value||A43 - Tipo Legame (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr50||x||352||y||368||h||16||w||376||uid||IGJOQCVAWZ||sequence||72||exp||c_TIPOLEG+&quot; - &quot;+arfn_dec_tbtipleg(c_DATAOPE,c_TIPOLEG)||comment|| ||type_exp||character||len||60||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label51||x||8||y||392||h||16||w||312||uid||LKMIJLDGUU||sequence||48||value||DATI SULLA REGISTRAZIONE||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Label||name||label52||x||16||y||408||h||16||w||312||uid||UJLJTJTSVK||sequence||28||value||A51 - Data di Registrazione (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr53||x||352||y||408||h||16||w||376||uid||ZRMVTITMCB||sequence||37||exp||arfn_fdate(c_DATAREG)||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label54||x||16||y||424||h||16||w||312||uid||UFWNYYTQXW||sequence||29||value||A52 - Tipo di Registrazione (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr55||x||352||y||424||h||16||w||376||uid||KAPKGKOVRK||sequence||38||exp||c_TIPOOPRAP+&quot; - &quot;+arfn_dectabs(&#39;REG&#39;,c_TIPOOPRAP)||comment|| ||type_exp||character||len||62||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label56||x||16||y||440||h||16||w||312||uid||KMOWAZCUVZ||sequence||30||value||A53 - Connessione tra registrazioni||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr57||x||352||y||440||h||16||w||376||uid||DUIZKQRZAB||sequence||39||exp||c_COLLEG||comment|| ||type_exp||character||len||11||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label58||x||16||y||456||h||16||w||312||uid||LTNZVJAZVV||sequence||49||value||A54 - Stato della Registrazione||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Label||name||label59||x||32||y||472||h||16||w||312||uid||NPYDBUEWWU||sequence||31||value||A54A - Codice Stato (O)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr60||x||352||y||472||h||16||w||376||uid||ZYRFGHOZQH||sequence||40||exp||c_STATOREG+&quot; - &quot;+arfn_dectabs(&#39;STS&#39;,c_STATOREG)||comment|| ||type_exp||character||len||62||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label61||x||32||y||488||h||16||w||312||uid||LWWVHRJMHZ||sequence||32||value||A54B - Data della Rettifica (C)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr62||x||352||y||488||h||16||w||376||uid||YOZUBJMGOS||sequence||41||exp||arfn_fdate(c_DATARETT)||comment|| ||type_exp||character||len||10||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Label||name||label63||x||32||y||504||h||16||w||312||uid||WTSBDYNRRC||sequence||33||value||A54C - Identificativo Registrazione Modificata (C)||text_type||constant||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true|||type||Expr||name||expr64||x||352||y||504||h||16||w||376||uid||PSPAJYESMT||sequence||42||exp||c_OPERAZMOD||comment|| ||type_exp||character||len||20||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Box||name||Box65||x||12||y||523||h||1||w||718||uid||ALIXGKXVVP||sequence||5||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label66||x||12||y||525||h||16||w||165||uid||JYALFCRFEE||sequence||6||value||&#39;Data: &#39;+arfn_fdate(Date())||text_type||expression||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false|||type||Label||name||label67||x||322||y||525||h||16||w||405||uid||PRLPKWQQVB||sequence||7||value||&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))||text_type||expression||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false|||-->
+
+<REPORT NAME="arrp_stp_stdtec_tit" TITLE="Stampa Verifica Legami Soggetti (Standard Tecnici)" QUERY="qbe_stp_stdtec" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.0" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES="">
+    <FIELD NAME="qbe_stp_stdtec.IDBASE" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.NUMPROG" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.DATAOPE" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.TIPOINTER" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CODINTER" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.TIPOINF" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.IDEREG" TYPE="C" LEN="20" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CODDIPE" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.DESCCIT" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.PROVINCIA" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CODCAB" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.FLAGFRAZ" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.FLAGCONT" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CODANA" TYPE="C" LEN="4" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CODVOC" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.TIPOINT2" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CODINT2" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.PAESE" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.DESC2" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.PROV2" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CODCAB2" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.DESCINTER" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RAPPORTO" TYPE="C" LEN="25" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.FLAGRAP" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.TIPOLEG" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.DATAREG" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.OPRAP" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.TIPOOPRAP" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.FLAGLIRE" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.VALUTA" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.SEGNO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.TOTLIRE" TYPE="N" LEN="15" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.TOTCONT" TYPE="N" LEN="15" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.STATOREG" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.OPERAZMOD" TYPE="C" LEN="20" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.DATARETT" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CONNESCLI" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CONNESOPER" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CONNESBEN" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.COLLEG" TYPE="C" LEN="11" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CAMBIO" TYPE="N" LEN="9" DEC="4" />
+    <FIELD NAME="qbe_stp_stdtec.RAPPORTBEN" TYPE="C" LEN="25" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.FLAGRAP2" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.OPERATORE" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.AUTOM" TYPE="C" LEN="5" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.idcauana" TYPE="C" LEN="4" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.OPERAG" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.DOCFILE" TYPE="C" LEN="100" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RESPINS" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.INFORM" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CDATOPE" TYPE="C" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.NOPROT" TYPE="N" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.UCODE" TYPE="C" LEN="7" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CDATAOPE" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.ZCPARTE" TYPE="C" LEN="69" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RAGIO" TYPE="C" LEN="5" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.MODSVOL" TYPE="C" LEN="5" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.AREAGEO" TYPE="C" LEN="5" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RIFIMP" TYPE="C" LEN="20" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.SCOPO" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.NATURA" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RTIPO" TYPE="N" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RCOMP" TYPE="N" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RIMP" TYPE="N" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RFREQ" TYPE="N" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RRAGIO" TYPE="N" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RAREA" TYPE="N" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.TIPO" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.PRGIMPOPE" TYPE="N" LEN="15" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.UNIQUECODE" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CONNESDOC" TYPE="C" LEN="40" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CONNESCOL" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RAGCLI" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RAGOPE" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.RAGBEN" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.C_RAG" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.C_STA" TYPE="C" LEN="3" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.C_CTA" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.C_CAB" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.C_PRV" TYPE="C" LEN="2" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.C_IND" TYPE="C" LEN="35" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.C_CAP" TYPE="C" LEN="5" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.DATAIMP" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.C_RAPPORTO" TYPE="C" LEN="25" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.PAGASOGOP" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.MTCN" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.IDFILE" TYPE="C" LEN="60" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.CDATREG" TYPE="C" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.IPCOLLEG" TYPE="C" LEN="20" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.ORACOLLEG" TYPE="T" LEN="14" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.DUCOLLEG" TYPE="N" LEN="10" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.DIPCAB" TYPE="C" LEN="6" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.DIPCIT" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="qbe_stp_stdtec.DIPPRV" TYPE="C" LEN="2" DEC="0" />
+    <PAGEHEADER Y="0" H="82" EXPRESSION="Page header">
+        <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+              Y="4" X="8" YY="25" XX="727"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="27" X="8" YY="81" XX="127"
+              ALIGN="L"
+              UID="PRLTKAFRPY"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="stringa" NAME="Filtri attivi sulla stampa" EXPRTYPE="constant"
+              Y="27" X="128" YY="46" XX="728"
+              ALIGN="C"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="27" X="128" YY="81" XX="728"
+              ALIGN="L"
+              UID="KGUYZZGEZL"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="stringa" NAME="Legami Soggetti" EXPRTYPE="constant"
+              Y="32" X="8" YY="53" XX="127"
+              ALIGN="C"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="Da Data Operazione:" EXPRTYPE="constant"
+              Y="44" X="128" YY="60" XX="259"
+              ALIGN="R"
+              HIDECONDITION="c_dadata=&#39;&#39; or Empty(c_dadata)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(c_dadata))" ITEMTYPE="C" EXPRTYPE="expression"
+              Y="44" X="264" YY="60" XX="344"
+              ALIGN="L"
+              HIDECONDITION="c_dadata=&#39;&#39; or Empty(c_dadata)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              LEN="10"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="Da Cliente:" EXPRTYPE="constant"
+              Y="44" X="344" YY="60" XX="426"
+              ALIGN="R"
+              HIDECONDITION="Empty(daCodCli)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="espressione" NAME="daCodCli" ITEMTYPE="C" EXPRTYPE="expression"
+              Y="44" X="429" YY="60" XX="555"
+              ALIGN="L"
+              HIDECONDITION="Empty(daCodCli)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              LEN="18"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="Da Dipendenza:" EXPRTYPE="constant"
+              Y="44" X="560" YY="60" XX="663"
+              ALIGN="R"
+              HIDECONDITION="Empty(daCodDip)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="espressione" NAME="daCodDip" ITEMTYPE="C" EXPRTYPE="expression"
+              Y="44" X="664" YY="60" XX="724"
+              ALIGN="L"
+              HIDECONDITION="Empty(daCodDip)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              LEN="6"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="Filtro da dipendenza a &#10;dipendenza disattivato" EXPRTYPE="constant"
+              Y="45" X="576" YY="74" XX="720"
+              ALIGN="L"
+              HIDECONDITION="not(Empty(daCodDip) and Empty(aCodDip))"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="Filtro da cliente a cliente&#10;disattivato" EXPRTYPE="constant"
+              Y="46" X="364" YY="75" XX="512"
+              ALIGN="L"
+              HIDECONDITION="not(Empty(daCodCli) and Empty(aCodCli))"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="Filtro da data a data &#10;disattivato" EXPRTYPE="constant"
+              Y="46" X="140" YY="75" XX="260"
+              ALIGN="L"
+              HIDECONDITION="not((c_dadata=&#39;&#39; or Empty(c_dadata)) and (c_adata=&#39;&#39; or Empty(c_adata)))"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="iif(pAUI=&#39;D&#39;,&#39;A.U.I.&#39;,&#39;Provvisorie&#39;)" EXPRTYPE="expression"
+              Y="55" X="8" YY="76" XX="127"
+              ALIGN="C"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="A Cliente:" EXPRTYPE="constant"
+              Y="61" X="344" YY="77" XX="426"
+              ALIGN="R"
+              HIDECONDITION="Empty(aCodCli)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="A Data Operazione:" EXPRTYPE="constant"
+              Y="61" X="144" YY="77" XX="259"
+              ALIGN="R"
+              HIDECONDITION="c_adata=&#39;&#39; or Empty(c_adata)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="espressione" NAME="arfn_fdate(CharToDate(c_adata))" ITEMTYPE="C" EXPRTYPE="expression"
+              Y="61" X="264" YY="77" XX="344"
+              ALIGN="L"
+              HIDECONDITION="c_adata=&#39;&#39; or Empty(c_adata)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              LEN="10"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="espressione" NAME="aCodCli" ITEMTYPE="C" EXPRTYPE="expression"
+              Y="61" X="429" YY="77" XX="555"
+              ALIGN="L"
+              HIDECONDITION="Empty(aCodCli)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              LEN="18"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="A  Dipendenza:" EXPRTYPE="constant"
+              Y="61" X="560" YY="77" XX="663"
+              ALIGN="R"
+              HIDECONDITION="Empty(aCodDip)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="espressione" NAME="aCodDip" ITEMTYPE="C" EXPRTYPE="expression"
+              Y="61" X="664" YY="77" XX="724"
+              ALIGN="L"
+              HIDECONDITION="Empty(aCodDip)"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              LEN="6"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box_end" UID="PRLTKAFRPY"/>
+        <ITEM OBJ="box_end" UID="KGUYZZGEZL"/>
+    </PAGEHEADER>
+    <SECTION TYPE="group" HEADH="0" FOOTH="0" SYMNAME="" UID="RXDXNVMXRM" TOP="82" BOTTOM="518" EXPRESSION="c_IDBASE" DISPLAY_EXPRESSION=""
+     STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+     PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" INWITHEXPR="" OUTWITHEXPR="">
+        <SECTION TYPE="group" HEADH="436" FOOTH="0" EXPRESSION="" SYMNAME=""
+         STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+         REPRINTHEADER="false" REPRINTFOOTER="false">
+            <ITEM OBJ="stringa" NAME="&#39;Informazione: &#39;+c_IDEREG+ &quot; - Dati Caratteristici del legame tra soggetti (TIPO INFORMAZIONE 1)&quot;" EXPRTYPE="expression"
+                  Y="4" X="8" YY="21" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                  FONTSTYLE="B"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="IDENTIFICATIVO INFORMAZIONE" EXPRTYPE="constant"
+                  Y="28" X="8" YY="44" XX="320"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A01 - INTERMEDIARIO CHE ESEGUE LA REGISTRAZIONE" EXPRTYPE="constant"
+                  Y="44" X="16" YY="60" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A01A - Tipo Intermediario (O)" EXPRTYPE="constant"
+                  Y="60" X="32" YY="76" XX="344"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_TIPOINTER+&quot; - &quot;+arfn_dectabs(&#39;INT&#39;,c_TIPOINTER)" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="60" X="352" YY="76" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="60"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A01B - Codice Intermediario (O)" EXPRTYPE="constant"
+                  Y="76" X="32" YY="92" XX="344"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CODINTER" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="76" X="352" YY="92" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="11"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A02 - Tipo Informazione (O)" EXPRTYPE="constant"
+                  Y="92" X="16" YY="108" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_TIPOINF" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="92" X="352" YY="108" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="1"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A03 - Identificativo Registrazione (O)" EXPRTYPE="constant"
+                  Y="108" X="16" YY="124" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_IDEREG" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="108" X="352" YY="124" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="20"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="DIPENDENZA INTERESSATA DALL&#39;OPERAZIONE" EXPRTYPE="constant"
+                  Y="124" X="8" YY="140" XX="320"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A11 - Codice Interno della dipendenza (O)" EXPRTYPE="constant"
+                  Y="140" X="16" YY="156" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_CODDIPE" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="140" X="352" YY="156" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="6"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A12 - Comune della Dipendenza Interessata" EXPRTYPE="constant"
+                  Y="156" X="16" YY="172" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A12A - Codice CAB Comune (O)" EXPRTYPE="constant"
+                  Y="172" X="32" YY="188" XX="344"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DIPCAB" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="172" X="352" YY="188" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="6"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A12B - Descrizione in chiaro (O)" EXPRTYPE="constant"
+                  Y="188" X="32" YY="204" XX="344"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DIPCIT" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="188" X="352" YY="204" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="30"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A12C - Sigla Provincia (O)" EXPRTYPE="constant"
+                  Y="204" X="32" YY="220" XX="344"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_DIPPRV" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="204" X="352" YY="220" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="2"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="DATA DEL LEGAME" EXPRTYPE="constant"
+                  Y="220" X="8" YY="236" XX="320"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A21 - Data di Riferimento (O)" EXPRTYPE="constant"
+                  Y="236" X="16" YY="252" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="arfn_fdate(c_DATAOPE)" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="236" X="352" YY="252" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A41 - Rapporto (C)" EXPRTYPE="constant"
+                  Y="252" X="16" YY="268" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_RAPPORTO" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="252" X="352" YY="268" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="25"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A42 - Tipo Rapporto (C)" EXPRTYPE="constant"
+                  Y="268" X="16" YY="284" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_FLAGRAP+&quot; - &quot;+arfn_dectabs(&#39;RAP&#39;,c_FLAGRAP)" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="268" X="352" YY="284" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="62"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A43 - Tipo Legame (O)" EXPRTYPE="constant"
+                  Y="284" X="16" YY="300" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_TIPOLEG+&quot; - &quot;+arfn_dec_tbtipleg(c_DATAOPE,c_TIPOLEG)" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="284" X="352" YY="300" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="60"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="DATI SULLA REGISTRAZIONE" EXPRTYPE="constant"
+                  Y="308" X="8" YY="324" XX="320"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A51 - Data di Registrazione (O)" EXPRTYPE="constant"
+                  Y="324" X="16" YY="340" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="arfn_fdate(c_DATAREG)" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="324" X="352" YY="340" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A52 - Tipo di Registrazione (O)" EXPRTYPE="constant"
+                  Y="340" X="16" YY="356" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_TIPOOPRAP+&quot; - &quot;+arfn_dectabs(&#39;REG&#39;,c_TIPOOPRAP)" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="340" X="352" YY="356" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="62"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A53 - Connessione tra registrazioni" EXPRTYPE="constant"
+                  Y="356" X="16" YY="372" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_COLLEG" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="356" X="352" YY="372" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="11"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A54 - Stato della Registrazione" EXPRTYPE="constant"
+                  Y="372" X="16" YY="388" XX="328"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A54A - Codice Stato (O)" EXPRTYPE="constant"
+                  Y="388" X="32" YY="404" XX="344"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_STATOREG+&quot; - &quot;+arfn_dectabs(&#39;STS&#39;,c_STATOREG)" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="388" X="352" YY="404" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="62"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A54B - Data della Rettifica (C)" EXPRTYPE="constant"
+                  Y="404" X="32" YY="420" XX="344"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="arfn_fdate(c_DATARETT)" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="404" X="352" YY="420" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="10"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="stringa" NAME="A54C - Identificativo Registrazione Modificata (C)" EXPRTYPE="constant"
+                  Y="420" X="32" YY="436" XX="344"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  PRINTPAGE="true"
+                  />
+            <ITEM OBJ="espressione" NAME="c_OPERAZMOD" ITEMTYPE="C" EXPRTYPE="expression"
+                  Y="420" X="352" YY="436" XX="728"
+                  ALIGN="L"
+                  REPEATED="true"
+                  GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                  LEN="20"
+                  PRINTPAGE="true"
+                  />
+        </SECTION>
+    </SECTION>
+    <PAGEFOOTER Y="518" H="20" EXPRESSION="Page footer">
+        <ITEM OBJ="h_line" Y="1" X="12" XX="731" BORDERWIDTH="1"
+              ALIGN="L"
+              />
+        <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+              Y="3" X="12" YY="19" XX="177"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+              Y="3" X="322" YY="19" XX="727"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              PRINTPAGE="true"
+              />
+    </PAGEFOOTER>
+</REPORT>

@@ -1,0 +1,97 @@
+﻿* --- Resource Vers. 0.9
+qbe_stplegami1.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:23
+description='
+file_modified_on=#2021-05-17 13:09:20
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:40
+module_name='
+name='qbe_stplegami1.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'tmp_stplegami.idbase
+'tmp_stplegami.dataope
+'tmp_stplegami.numprog
+'tmp_stplegami.connescli
+'tmp_stplegami.ragsoc
+'tmp_stplegami.colleg
+'tmp_stplegami.datareg
+'tmp_stplegami.statoreg
+'tmp_stplegami.idereg
+'tmp_stplegami.tipoleg
+'tmp_stplegami.descriz
+'tmp_stplegami.tipooprap
+'tmp_stplegami.des1
+'tmp_stplegami.rapporto
+'tmp_stplegami.descinter
+'tmp_stplegami.codinter
+'tmp_stplegami.ragtit
+'tmp_stplegami.dataini
+'tmp_stplegami.datafine
+'tmp_stplegami.numprog1
+'tmp_stplegami.numprog2
+'personbo.domicilio
+'personbo.codfisc
+'personbo.datanasc
+'personbo.nascomun
+'personbo.tipinter
+'personbo.sotgrup
+'personbo.settsint
+'personbo.attiv
+'personbo.tipodoc
+'personbo.numdocum
+'personbo.datarilasc
+'personbo.autrilasc
+'personbo.desccit
+'personbo.provincia
+'personbo.paese
+'personbo.cap
+'personbo.sesso
+'personbo.nasstato
+'personbo.datavali
+'personbo.ramogrup
+'tbstgru.descri
+'tbsetsin.descri
+'tbtipatt.descri
+]
+'Tables
+[
+'tmp_stplegami<table>
+'personbo<table>
+'tbstgru<table>
+'tbsetsin<table>
+'tbtipatt<table>
+]
+}
+I
+*--*
+￼[]
+*--*

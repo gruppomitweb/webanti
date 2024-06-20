@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="227179427">
+  <CodifyName>arpg_dlgspecifici</CodifyName>
+  <Name>arpg_dlgspecifici.pagedef</Name>
+  <Title>Disco per la cancellazione da Banca d&apos;Italia / UIF</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="97326515"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_dlgspecifici_usr_1</JPG>
+    <Item type="variabile" x1="128" y1="44" x2="206" y2="64">
+      <Name LinkID="124839122">codinter</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="128" y1="70" x2="584" y2="90">
+      <Name LinkID="125605330">tipinter</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="312" y1="217" x2="384" y2="237">
+      <Name LinkID="18811469">passwd</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="312" y1="252" x2="384" y2="277">
+      <Name LinkID="31857719">Cancella</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="216" y1="252" x2="288" y2="277">
+      <Name LinkID="154678768">Telepass</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="bottone" x1="216" y1="252" x2="288" y2="277">
+      <Name LinkID="28180659">Esegui</Name>
+      <Bitmap></Bitmap>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="192" y1="173" x2="272" y2="193">
+      <Name LinkID="252332109">numreg</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="384" y1="175" x2="464" y2="195">
+      <Name LinkID="252332109">numrec</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="128" y1="98" x2="344" y2="118">
+      <Name LinkID="266114313">tipofile</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="352" y1="98" x2="592" y2="119">
+      <Name LinkID="125022285">flgint</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

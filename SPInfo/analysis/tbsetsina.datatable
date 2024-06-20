@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+tbsetsina<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='ATECO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbsetsina
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbsetsina.idsetsin
+'tbsetsina.setsint
+'tbsetsina.codateco
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbsetsina.codateco
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice ATECO (Primi Tre)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODATECO
+state=3
+table_name='tbsetsina
+type='field
+used_resource_keys={}
+I
+'tbsetsina.idsetsin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Settore Sintetico
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDSETSIN
+state=3
+table_name='tbsetsina
+type='field
+used_resource_keys={}
+I
+'tbsetsina.setsint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Settore Sintetico
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SETSINT
+state=3
+table_name='tbsetsina
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbsetsina.codateco
+[]
+'tbsetsina.idsetsin
+[]
+'tbsetsina.setsint
+[]
+}
+*--*

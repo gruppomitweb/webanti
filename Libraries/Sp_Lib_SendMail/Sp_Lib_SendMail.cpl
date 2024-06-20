@@ -1,0 +1,7 @@
+import GenericLibrary
+
+class Sp_Lib_SendMail(GenericLibrary.Library)
+  proc Init()
+    LoadXML(thismodule.SourceName.Strtran(".cpl",".xml"))
+  end
+end

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter Report (http://www.zucchetti.it) -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_ricerca_sogg_neg||version||4.1||title||Stampa Con Esito Negativo||query||stampa_seek_sogg||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-03-16||date_rev||2010-05-21||form_class|| ||grid_dx||0||grid_dy||0||grid_show||0||grid_use||0||snaplines_show||1||language|| ||merge||false||modcnt||4||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| |||type||HeaderBar_top||name||bar_PageHeader_start||y||0||x||0||uid||LVBDDMSXUV||sequence||1||bb_sequence||2|||type||HeaderBar_bottom||name||bar_PageHeader_end||y||260||x||0||uid||NOCGBZOJAK||sequence||9||bb_sequence||3|||type||Box||name||Box0||x||8||y||6||h||72||w||720||uid||GKYDUJEDJX||sequence||2||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label1||x||16||y||15||h||26||w||704||uid||XGPJJNGPRS||sequence||3||value||ESITO DI RICERCA TRA NOMI SEGNALATI||text_type||constant||comment|| ||align||center||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||14||font_weight||bold||font_effect|| ||global_font||false|||type||Label||name||label2||x||16||y||51||h||16||w||704||uid||YZILAEYOLP||sequence||4||value||&quot;ARCHIVI DI RICERCA AGGIORNATI AL &quot;+ultaggsog||text_type||expression||comment|| ||align||center||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||10||font_weight||bold||font_effect|| ||global_font||false|||type||Box||name||Box3||x||8||y||80||h||36||w||720||uid||ONRAYPPSUI||sequence||5||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||2||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label4||x||16||y||87||h||21||w||704||uid||JPVOQLILEJ||sequence||6||value||La ricerca di soggetto segnalato, in base ai criteri sotto esposti, ha dato esito negativo||text_type||constant||comment|| ||align||center||hidecond|| ||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||11||font_weight||italic||font_effect|| ||global_font||false|||type||Box||name||Box5||x||8||y||116||h||144||w||720||uid||SIHLIGZVLD||sequence||7||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Expr||name||expr6||x||16||y||125||h||16||w||704||uid||SHEYKNZUDN||sequence||8||exp||iif(criterio=&#39;D&#39;,&#39;[DENOMINAZIONE]: &#39;+denomin,iif(criterio=&#39;C&#39;,&#39;[CODICE FISCALE]: &#39;+codfisc,&#39;[RICERCA A BLOCCHI]: &#39;+ simili))||comment|| ||type_exp||character||len||40||dec||0||picture|| ||output_name|| ||hidecond|| ||stretch||false||align||left||print_always||true||print_in_newpage||true||print_group||false||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Verdana||font_size||8||font_weight||normal||font_effect|| ||global_font||true||calculations||nothing||reset||end of report||resetuid|| ||into_variable|| ||calculate_on||each record||calculate_onuid|| ||bb_calculate_on||false||note|| ||technote|| |||type||Box||name||Box7||x||10||y||263||h||1||w||718||uid||ALIXGKXVVP||sequence||10||bg_color|| ||bb_bg_colour||true||border_color||#000000||bb_border_colour||false||border_width||1||stretch_to_right||false||align_to_right||false||hidecond|| |||type||Label||name||label8||x||10||y||265||h||16||w||165||uid||JYALFCRFEE||sequence||11||value||&#39;Data: &#39;+arfn_fdate(Date())||text_type||expression||comment|| ||align||left||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false|||type||Label||name||label9||x||320||y||265||h||16||w||405||uid||PRLPKWQQVB||sequence||12||value||&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))||text_type||expression||comment|| ||align||right||hidecond|| ||print_always||true||print_in_newpage||true||print_group||true||print_when_change_group|| ||print_when_change_groupuid|| ||color||#000000||bb_colour||true||link_type||web_hyperlink||link_expr||constant||link_name|| ||link_action||query||link_parameters|| ||link_parameters_value|| ||link_target_src||same window||link_target|| ||link_w||0||link_h||0||exit_at_end||false||link_enable_cond|| ||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||global_font||false|||-->
+
+<REPORT NAME="arrp_ricerca_sogg_neg" TITLE="Stampa Con Esito Negativo" QUERY="stampa_seek_sogg" MAXDEPTH="0" GLBFONTNAME="Verdana" GLBFONTSIZE="8" VERSION="4.0" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES="">
+    <FIELD NAME="stampa_seek_sogg.IDBASE" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RAGSOC" TYPE="C" LEN="120" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.DATANAS" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.LUOGONAS" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.CODFISC" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RESPAESE" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RESCITTA" TYPE="C" LEN="50" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RESIND" TYPE="C" LEN="200" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.NOTE" TYPE="M" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.TIPO" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.FONTE" TYPE="C" LEN="30" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RAGSOCX" TYPE="C" LEN="120" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RAGSOCBLK" TYPE="C" LEN="120" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.FLAG" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.APPOGGIO" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.SPEC" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.DESCRI" TYPE="C" LEN="100" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.RIFERIM" TYPE="C" LEN="200" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.COSAFARE" TYPE="C" LEN="1" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.ULTAGGSOG" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg.ULTAGGCON" TYPE="D" LEN="8" DEC="0" />
+    <PAGEHEADER Y="0" H="0" EXPRESSION="Page header">
+    </PAGEHEADER>
+    <SECTION TYPE="group" HEADH="259" FOOTH="0" EXPRESSION="" SYMNAME=""
+     STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+     REPRINTHEADER="false" REPRINTFOOTER="false">
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="5" X="8" YY="77" XX="728"
+              ALIGN="L"
+              UID="GKYDUJEDJX"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="stringa" NAME="ESITO DI RICERCA TRA NOMI SEGNALATI" EXPRTYPE="constant"
+              Y="14" X="16" YY="40" XX="720"
+              ALIGN="C"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Verdana" FONTSIZE="14"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="&quot;ARCHIVI DI RICERCA AGGIORNATI AL &quot;+ultaggsog" EXPRTYPE="expression"
+              Y="50" X="16" YY="66" XX="720"
+              ALIGN="C"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="10"
+              FONTSTYLE="B"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box_end" UID="GKYDUJEDJX"/>
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="79" X="8" YY="115" XX="728"
+              ALIGN="L"
+              UID="ONRAYPPSUI"
+              BORDERWIDTH="2"
+              />
+        <ITEM OBJ="stringa" NAME="La ricerca di soggetto segnalato, in base ai criteri sotto esposti, ha dato esito negativo" EXPRTYPE="constant"
+              Y="86" X="16" YY="107" XX="720"
+              ALIGN="C"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Verdana" FONTSIZE="11"
+              FONTSTYLE="I"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box_end" UID="ONRAYPPSUI"/>
+        <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+              Y="115" X="8" YY="259" XX="728"
+              ALIGN="L"
+              UID="SIHLIGZVLD"
+              BORDERWIDTH="1"
+              />
+        <ITEM OBJ="espressione" NAME="iif(criterio=&#39;D&#39;,&#39;[DENOMINAZIONE]: &#39;+denomin,iif(criterio=&#39;C&#39;,&#39;[CODICE FISCALE]: &#39;+codfisc,&#39;[RICERCA A BLOCCHI]: &#39;+ simili))" ITEMTYPE="C" EXPRTYPE="expression"
+              Y="124" X="16" YY="140" XX="720"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="true" FONTNAME="Verdana" FONTSIZE="8"
+              LEN="40"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="box_end" UID="SIHLIGZVLD"/>
+    </SECTION>
+    <PAGEFOOTER Y="259" H="21" EXPRESSION="Page footer">
+        <ITEM OBJ="h_line" Y="2" X="10" XX="729" BORDERWIDTH="1"
+              ALIGN="L"
+              />
+        <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+              Y="4" X="10" YY="20" XX="175"
+              ALIGN="L"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              PRINTPAGE="true"
+              />
+        <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+              Y="4" X="320" YY="20" XX="725"
+              ALIGN="R"
+              REPEATED="true"
+              GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+              PRINTPAGE="true"
+              />
+    </PAGEFOOTER>
+</REPORT>

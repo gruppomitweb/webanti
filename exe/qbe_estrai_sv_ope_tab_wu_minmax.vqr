@@ -1,0 +1,107 @@
+ 1
+"Operazioni"
+"operazbo"
+"operazbo"
+ 0
+ 0
+*
+ 3
+"Minimo"
+"MIN(operazbo.PRGIMPOPE)"
+"MINOPE"
+"N"
+ 15
+ 0
+*
+"Massimo"
+"MAX(operazbo.PRGIMPOPE)"
+"MAXOPE"
+"N"
+ 15
+ 0
+*
+"Totale"
+"COUNT(operazbo.PRGIMPOPE)"
+"TOTOPE"
+"N"
+ 15
+ 0
+*
+ 0
+ 4
+"operazbo.CDATOPE"
+""
+">="
+"?pDADATA"
+"AND"
+""
+*
+"operazbo.CDATOPE"
+""
+"<="
+"?pA_DATA"
+"AND"
+""
+*
+"operazbo.CODANA"
+""
+"not in"
+"(ýDCý,ýDBý)"
+"AND"
+""
+*
+"operazbo.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"pDADATA"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+""
+*
+"pA_DATA"
+"Data Operazione"
+"C"
+"8"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+"Estrazioni operazioni per SV (Limiti) (WU)"
+.t.
+.t.
+ 26
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"+T%3BIHLVnvg%10%1F%02%1Fmi%7D%15%15J0%2B%19FXSY%5B5M%3C1%3A%3C%19%03D7%3BHO%5DP.9%2B%09%23%3C%3FK%07A+.%23JRHFUoNU%26%3A%21%3AX%251%24B%3FGS%23%22L%23%7EWKB4M80-%26%5D%3FFL%5B*J%5D%3A%40%22%5EM%04%25RE%40%3C6%3F55R4%5E34M%3D%3B9A%5BFItJ%242_%278%2636%3D%22%259%23M%24+%11%27_F%40%1B%26%3D%2BM%22%28%22%3Fw%40F%28T%2118%3A%3A%2F%5EUHY%5E_H4%2BRXOH0%22O%3FF%23J%21%3A*XH%25O%2F%2CH%23-3%22%25S_%24%40C%2C7SS%5BTCQ%22%27%2B%19DK%5C%22CAYE1%21J7Q%24%3B%28JXX%40%2C%27%22%29%2BZi%27%27%3F%24%11%284%00"
+"U-grxzrhz%60%0A%1FF%5EO9C.R%2CS%28KIV%3DFHQPKWD%22%3B0%2C%24%07SNxJ%26%2BI%21QQA%3B%3B%27%25F%21IJ%40%28F%5CS9%04%17.%19%2659%3A%26%5BK7.%2935%7CRRI%26%27P9%3A%26I%3BZEV.DSI%40.%03BZ%23A%3DJR%1E2%28%5BL%5CI%403%144%40M*%22b%5CABpEP%22H0%5D%3B+%07%407N_I%23J%5D+5O.+8R%2B%3CFP3%28v%3C%27%5EW%16L%181C3%24WLy%3A%3B8.%5D%5B4I%18X3SI%3E*_S%5EuVp2%078%1DL%283%26%25%5E9ZI%2467%3A%7EXV0%04%2BYH%22J%2FXGN9%2CIP6H%3F%5C%21XYDQ+3*633H%3B71%2B%25%3DN%18%3E%00"
+""
+""
+"native"
+ 0
+ 0
+*

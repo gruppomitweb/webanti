@@ -1,0 +1,46 @@
+﻿* --- Resource Vers. 0.9
+arrt_stprappo_elenco_ae
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:41
+description='Lancio Stampa Rapporti AE (Routine)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:27
+module_name='
+name='arrt_stprappo_elenco_ae
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_stprapporti_ele.rapporto
+'tmp_stprapporti_ele.descrap
+'tmp_stprapporti_ele.codinter
+'tmp_stprapporti_ele.codfisc
+'tmp_stprapporti_ele.ragsoc
+'tmp_stprapporti_ele.dataini
+'tmp_stprapporti_ele.numprog1
+'tmp_stprapporti_ele.datafine
+'tmp_stprapporti_ele.numprog2
+]
+'Queries
+[
+'qbe_allrapopebo_ele_ae.vqr
+]
+'Tables
+[
+'tmp_stprapporti_ele<table>
+]
+}
+I
+*--*
+￼[]
+*--*

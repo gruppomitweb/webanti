@@ -1,0 +1,1273 @@
+ 17
+"Appoggio per stampa operazioni con dettagio anagrafico"
+"tmp_stpope_dett_anag"
+"tmp_stpope_dett_anag"
+ 0
+ 0
+*
+"Tipo Registrazione"
+"tbtipreg"
+"tbtipreg"
+ 0
+ 0
+*
+"Causali Sintetiche"
+"tbcausin"
+"tbcausin"
+ 0
+ 0
+*
+"Causali Analitiche"
+"tbcauana"
+"tbcauana"
+ 0
+ 0
+*
+"Divise"
+"tbvalute"
+"tbvalute"
+ 0
+ 0
+*
+"Stati"
+"tbstati"
+"tbstati"
+ 0
+ 0
+*
+"Stati(1)"
+"tbstati1"
+"tbstati"
+ 0
+ 0
+*
+"Tipi Legami"
+"tbtipleg"
+"tbtipleg"
+ 0
+ 0
+*
+"Tipo Intermediario"
+"tbtipint"
+"tbtipint"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+"Sottogruppi Att.Ec."
+"tbstgru"
+"tbstgru"
+ 0
+ 0
+*
+"Ramo Gruppo"
+"tbramgru"
+"tbramgru"
+ 0
+ 0
+*
+"Settorizzazione UIC"
+"tbsetsin"
+"tbsetsin"
+ 0
+ 0
+*
+"Tipo Documento"
+"tbtipdoc"
+"tbtipdoc"
+ 0
+ 0
+*
+"Dipendenze"
+"anadip"
+"anadip"
+ 0
+ 0
+*
+"Rapporti Definitivi + Provvisori"
+"knarapbo"
+"knarapbo"
+ 0
+ 0
+*
+"Tipo Attività Svolta"
+"tbtipatt"
+"tbtipatt"
+ 0
+ 0
+*
+ 132
+"Idbase"
+"tmp_stpope_dett_anag.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Numero Progressivo"
+"tmp_stpope_dett_anag.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Data Operazione"
+"tmp_stpope_dett_anag.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Tipo Intermediaro"
+"tmp_stpope_dett_anag.TIPOINTER"
+"TIPOINTER"
+"C"
+ 2
+ 0
+*
+"Codice Intermediario"
+"tmp_stpope_dett_anag.CODINTER"
+"CODINTER"
+"C"
+ 11
+ 0
+*
+"Tipo Informazione"
+"tmp_stpope_dett_anag.TIPOINF"
+"TIPOINF"
+"C"
+ 1
+ 0
+*
+"ID Registrazione"
+"tmp_stpope_dett_anag.IDEREG"
+"IDEREG"
+"C"
+ 20
+ 0
+*
+"Codice Dipendenza"
+"tmp_stpope_dett_anag.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+*
+"Città Dipendenza"
+"tmp_stpope_dett_anag.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia Dipendenza"
+"tmp_stpope_dett_anag.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"CAB Dipendenza"
+"tmp_stpope_dett_anag.CODCAB"
+"CODCAB"
+"C"
+ 6
+ 0
+*
+"Frazionata (S/N)"
+"tmp_stpope_dett_anag.FLAGFRAZ"
+"FLAGFRAZ"
+"C"
+ 1
+ 0
+*
+"Causale Analitica"
+"tmp_stpope_dett_anag.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+*
+"Causale Sintetica"
+"tmp_stpope_dett_anag.CODVOC"
+"CODVOC"
+"C"
+ 2
+ 0
+*
+"Tipo Intermediario C/Parte"
+"tmp_stpope_dett_anag.TIPOINT2"
+"TIPOINT2"
+"C"
+ 2
+ 0
+*
+"Codice Intermediario C/Parte"
+"tmp_stpope_dett_anag.CODINT2"
+"CODINT2"
+"C"
+ 11
+ 0
+*
+"Stato Intermediario C/Parte"
+"tmp_stpope_dett_anag.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+*
+"Denominazione Intermediario C/Parte"
+"tmp_stpope_dett_anag.DESC2"
+"DESC2"
+"C"
+ 30
+ 0
+*
+"Provincia Intermediario C/Parte"
+"tmp_stpope_dett_anag.PROV2"
+"PROV2"
+"C"
+ 2
+ 0
+*
+"CAB Intermediario C/Parte"
+"tmp_stpope_dett_anag.CODCAB2"
+"CODCAB2"
+"C"
+ 6
+ 0
+*
+""
+"tmp_stpope_dett_anag.DESCINTER"
+"DESCINTER"
+"C"
+ 50
+ 0
+*
+"Rapporto Collegato"
+"tmp_stpope_dett_anag.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Tipo Rapporto Collegato"
+"tmp_stpope_dett_anag.FLAGRAP"
+"FLAGRAP"
+"C"
+ 1
+ 0
+*
+"Tipo Legame sogg. Operante"
+"tmp_stpope_dett_anag.TIPOLEG"
+"TIPOLEG"
+"C"
+ 1
+ 0
+*
+"Data registrazione"
+"tmp_stpope_dett_anag.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Tipo operazione"
+"tmp_stpope_dett_anag.OPRAP"
+"OPRAP"
+"C"
+ 1
+ 0
+*
+"Tipo Operazione Completa"
+"tmp_stpope_dett_anag.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+"Lire Euro Valuta"
+"tmp_stpope_dett_anag.FLAGLIRE"
+"FLAGLIRE"
+"C"
+ 1
+ 0
+*
+"Divisa"
+"tmp_stpope_dett_anag.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+"Segno"
+"tmp_stpope_dett_anag.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+*
+"Totale Operazione"
+"[CASE(tmp_stpope_dett_anag.VALUTA,ý018ý,tmp_stpope_dett_anag.TOTLIRE,tmp_stpope_dett_anag.TOTLIRE/100)]"
+"TOTLIRE"
+"N"
+ 15
+ 0
+*
+"di cui contanti"
+"[CASE(tmp_stpope_dett_anag.valuta,ý018ý,TOTCONT,TOTCONT/100)]"
+"TOTCONT"
+"N"
+ 15
+ 0
+*
+"Stato registrazione"
+"tmp_stpope_dett_anag.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+"Operazione Modificata"
+"tmp_stpope_dett_anag.OPERAZMOD"
+"OPERAZMOD"
+"C"
+ 20
+ 0
+*
+"Data Rettifica"
+"tmp_stpope_dett_anag.DATARETT"
+"DATARETT"
+"D"
+ 8
+ 0
+*
+"Codice Cliente Occasionale"
+"tmp_stpope_dett_anag.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+"Soggetto Operante Conto Terzi"
+"tmp_stpope_dett_anag.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+*
+"Beneficiario"
+"tmp_stpope_dett_anag.CONNESBEN"
+"CONNESBEN"
+"C"
+ 16
+ 0
+*
+"Collegamento Operazione Multiple"
+"tmp_stpope_dett_anag.COLLEG"
+"COLLEG"
+"C"
+ 11
+ 0
+*
+"Cambio"
+"tmp_stpope_dett_anag.CAMBIO"
+"CAMBIO"
+"N"
+ 9
+ 4
+*
+"Rapporto Beneficiario"
+"tmp_stpope_dett_anag.RAPPORTBEN"
+"RAPPORTBEN"
+"C"
+ 25
+ 0
+*
+"Tipo Rapporto Beneficiario"
+"tmp_stpope_dett_anag.FLAGRAP2"
+"FLAGRAP2"
+"C"
+ 1
+ 0
+*
+"Operatore"
+"tmp_stpope_dett_anag.OPERATORE"
+"OPERATORE"
+"C"
+ 70
+ 0
+*
+"Importazione da file esterno"
+"tmp_stpope_dett_anag.AUTOM"
+"AUTOM"
+"C"
+ 5
+ 0
+*
+"ID BASE Causale Analitica"
+"tmp_stpope_dett_anag.idcauana"
+"idcauana"
+"C"
+ 4
+ 0
+*
+""
+"tmp_stpope_dett_anag.OPERAG"
+"OPERAG"
+"C"
+ 3
+ 0
+*
+"Tipo (O/F)"
+"tmp_stpope_dett_anag.DOCFILE"
+"DOCFILE"
+"C"
+ 100
+ 0
+*
+""
+"tmp_stpope_dett_anag.RESPINS"
+"RESPINS"
+"C"
+ 30
+ 0
+*
+""
+"tmp_stpope_dett_anag.INFORM"
+"INFORM"
+"C"
+ 30
+ 0
+*
+"Data Operazione in Carattere"
+"tmp_stpope_dett_anag.CDATOPE"
+"CDATOPE"
+"C"
+ 8
+ 0
+*
+""
+"tmp_stpope_dett_anag.NOPROT"
+"NOPROT"
+"N"
+ 1
+ 0
+*
+""
+"tmp_stpope_dett_anag.UCODE"
+"UCODE"
+"C"
+ 7
+ 0
+*
+""
+"tmp_stpope_dett_anag.CDATAOPE"
+"CDATAOPE"
+"C"
+ 10
+ 0
+*
+""
+"tmp_stpope_dett_anag.ZCPARTE"
+"ZCPARTE"
+"C"
+ 69
+ 0
+*
+"Ragionevolezza"
+"tmp_stpope_dett_anag.RAGIO"
+"RAGIO"
+"C"
+ 5
+ 0
+*
+"Modalità Svolgimento"
+"tmp_stpope_dett_anag.MODSVOL"
+"MODSVOL"
+"C"
+ 5
+ 0
+*
+"Area Geografica"
+"tmp_stpope_dett_anag.AREAGEO"
+"AREAGEO"
+"C"
+ 5
+ 0
+*
+""
+"tmp_stpope_dett_anag.RIFIMP"
+"RIFIMP"
+"C"
+ 15
+ 0
+*
+""
+"tmp_stpope_dett_anag.SCOPO"
+"SCOPO"
+"C"
+ 50
+ 0
+*
+""
+"tmp_stpope_dett_anag.NATURA"
+"NATURA"
+"C"
+ 50
+ 0
+*
+""
+"tmp_stpope_dett_anag.RTIPO"
+"RTIPO"
+"N"
+ 3
+ 0
+*
+""
+"tmp_stpope_dett_anag.RCOMP"
+"RCOMP"
+"N"
+ 3
+ 0
+*
+""
+"tmp_stpope_dett_anag.RIMP"
+"RIMP"
+"N"
+ 3
+ 0
+*
+""
+"tmp_stpope_dett_anag.RFREQ"
+"RFREQ"
+"N"
+ 3
+ 0
+*
+""
+"tmp_stpope_dett_anag.RRAGIO"
+"RRAGIO"
+"N"
+ 3
+ 0
+*
+""
+"tmp_stpope_dett_anag.RAREA"
+"RAREA"
+"N"
+ 3
+ 0
+*
+""
+"tmp_stpope_dett_anag.TIPO"
+"TIPO"
+"C"
+ 3
+ 0
+*
+"Progressivo Import"
+"tmp_stpope_dett_anag.PRGIMPOPE"
+"PRGIMPOPE"
+"N"
+ 15
+ 0
+*
+"Codice univoco per importazioni di n sogetti operanti"
+"tmp_stpope_dett_anag.UNIQUECODE"
+"UNIQUECODE"
+"C"
+ 10
+ 0
+*
+"Connessione Tabella Documenti"
+"tmp_stpope_dett_anag.CONNESDOC"
+"CONNESDOC"
+"C"
+ 40
+ 0
+*
+"Intestatari"
+"tmp_stpope_dett_anag.CONNESCOL"
+"CONNESCOL"
+"C"
+ 16
+ 0
+*
+"Codice Collegamento"
+"tmp_stpope_dett_anag.ACONNES"
+"ACONNES"
+"C"
+ 16
+ 0
+*
+"CAB"
+"tmp_stpope_dett_anag.ACODCAB"
+"ACODCAB"
+"C"
+ 6
+ 0
+*
+"Ragione Sociale"
+"tmp_stpope_dett_anag.ARAGSOC"
+"ARAGSOC"
+"C"
+ 70
+ 0
+*
+"Indirizzo"
+"tmp_stpope_dett_anag.ADOMICILIO"
+"ADOMICILIO"
+"C"
+ 35
+ 0
+*
+"Codice Fiscale"
+"tmp_stpope_dett_anag.ACODFISC"
+"ACODFISC"
+"C"
+ 16
+ 0
+*
+"Data Nascita"
+"tmp_stpope_dett_anag.ADATANASC"
+"ADATANASC"
+"D"
+ 8
+ 0
+*
+"Luogo di Nascita"
+"tmp_stpope_dett_anag.ANASCOMUN"
+"ANASCOMUN"
+"C"
+ 30
+ 0
+*
+"Sottogruppo Att. Ec."
+"tmp_stpope_dett_anag.ASOTGRUP"
+"ASOTGRUP"
+"C"
+ 3
+ 0
+*
+"Ramo Gruppo Att. Ec."
+"tmp_stpope_dett_anag.ARAMOGRUP"
+"ARAMOGRUP"
+"C"
+ 3
+ 0
+*
+"Settorizzazione UIC"
+"tmp_stpope_dett_anag.ASETTSINT"
+"ASETTSINT"
+"C"
+ 3
+ 0
+*
+"Tipo Documento"
+"tmp_stpope_dett_anag.ATIPODOC"
+"ATIPODOC"
+"C"
+ 2
+ 0
+*
+"Numero Doc."
+"tmp_stpope_dett_anag.ANUMDOCUM"
+"ANUMDOCUM"
+"C"
+ 15
+ 0
+*
+"Data Rilascio Doc."
+"tmp_stpope_dett_anag.ADATARILASC"
+"ADATARILASC"
+"D"
+ 8
+ 0
+*
+"Autorità di rilascio"
+"tmp_stpope_dett_anag.AAUTRILASC"
+"AAUTRILASC"
+"C"
+ 30
+ 0
+*
+"Città"
+"tmp_stpope_dett_anag.ADESCCIT"
+"ADESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"tmp_stpope_dett_anag.APROVINCIA"
+"APROVINCIA"
+"C"
+ 2
+ 0
+*
+"Stato"
+"tmp_stpope_dett_anag.APAESE"
+"APAESE"
+"C"
+ 3
+ 0
+*
+"CAP"
+"tmp_stpope_dett_anag.ACAP"
+"ACAP"
+"C"
+ 9
+ 0
+*
+""
+"tmp_stpope_dett_anag.ACODINTER"
+"ACODINTER"
+"C"
+ 11
+ 0
+*
+""
+"tmp_stpope_dett_anag.ATIPINTER"
+"ATIPINTER"
+"C"
+ 2
+ 0
+*
+""
+"tmp_stpope_dett_anag.ATIPOPERS"
+"ATIPOPERS"
+"C"
+ 1
+ 0
+*
+""
+"tmp_stpope_dett_anag.ACODDIPE"
+"ACODDIPE"
+"C"
+ 6
+ 0
+*
+"Partita IVA"
+"tmp_stpope_dett_anag.APARTIVA"
+"APARTIVA"
+"C"
+ 14
+ 0
+*
+"Sesso"
+"tmp_stpope_dett_anag.ASESSO"
+"ASESSO"
+"C"
+ 1
+ 0
+*
+""
+"tmp_stpope_dett_anag.ASOSPMAF"
+"ASOSPMAF"
+"C"
+ 1
+ 0
+*
+"Codice Città"
+"tmp_stpope_dett_anag.Aidcitta"
+"Aidcitta"
+"C"
+ 10
+ 0
+*
+""
+"tmp_stpope_dett_anag.ADATAVALI"
+"ADATAVALI"
+"D"
+ 8
+ 0
+*
+"Stato di nascita"
+"tmp_stpope_dett_anag.ANASSTATO"
+"ANASSTATO"
+"C"
+ 30
+ 0
+*
+""
+"tmp_stpope_dett_anag.ADOCFILE"
+"ADOCFILE"
+"C"
+ 100
+ 0
+*
+"Nome"
+"tmp_stpope_dett_anag.ANOME"
+"ANOME"
+"C"
+ 25
+ 0
+*
+"Cognome"
+"tmp_stpope_dett_anag.ACOGNOME"
+"ACOGNOME"
+"C"
+ 26
+ 0
+*
+"Codice Fiscale Estero"
+"tmp_stpope_dett_anag.ACFESTERO"
+"ACFESTERO"
+"N"
+ 1
+ 0
+*
+"Descrizione"
+"tbtipreg.DES1"
+"DES1"
+"C"
+ 90
+ 0
+*
+"Descrizione"
+"tbcauana.DESCRI"
+"DESCRI"
+"C"
+ 165
+ 0
+*
+"Descrizione"
+"tbcausin.DESCRIZ"
+"DESCRIZ"
+"C"
+ 165
+ 0
+*
+"Descrizione"
+"tbvalute.DESCRI"
+"DESCRI1"
+"C"
+ 45
+ 0
+*
+"Descrizione"
+"tbstati.DESCRI"
+"DESCRI2"
+"C"
+ 40
+ 0
+*
+"Descrizione"
+"tbtipleg.DESCRIZ"
+"DESCRI3"
+"C"
+ 50
+ 0
+*
+"Descrizione"
+"tbstati1.DESCRI"
+"ADESCPAESE"
+"C"
+ 40
+ 0
+*
+"Descrizione"
+"tbtipint.DESCRI"
+"DESCRITIPO"
+"C"
+ 80
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC1"
+"C"
+ 70
+ 0
+*
+"Descrizione"
+"tbstgru.DESCRI"
+"ADESCSGRU"
+"C"
+ 200
+ 0
+*
+"Descrizione"
+"tbramgru.DESCRI"
+"ADESCRGRU"
+"C"
+ 70
+ 0
+*
+"Descrizione"
+"tbsetsin.DESCRI"
+"ADESCSUIC"
+"C"
+ 200
+ 0
+*
+"Descrizione"
+"tbtipdoc.DESCRI"
+"ADESCRI"
+"C"
+ 30
+ 0
+*
+""
+"tmp_stpope_dett_anag.C_RAG"
+"C_RAG"
+"C"
+ 70
+ 0
+*
+""
+"tmp_stpope_dett_anag.C_STA"
+"C_STA"
+"C"
+ 3
+ 0
+*
+""
+"tmp_stpope_dett_anag.C_CTA"
+"C_CTA"
+"C"
+ 30
+ 0
+*
+""
+"tmp_stpope_dett_anag.C_CAB"
+"C_CAB"
+"C"
+ 6
+ 0
+*
+""
+"tmp_stpope_dett_anag.C_PRV"
+"C_PRV"
+"C"
+ 2
+ 0
+*
+""
+"tmp_stpope_dett_anag.C_IND"
+"C_IND"
+"C"
+ 35
+ 0
+*
+""
+"tmp_stpope_dett_anag.C_CAP"
+"C_CAP"
+"C"
+ 5
+ 0
+*
+"Descrizione"
+"anadip.DESCRIZ"
+"DIPDES"
+"C"
+ 30
+ 0
+*
+"Città"
+"anadip.DESCCIT"
+"DIPCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"anadip.PROVINCIA"
+"DIPPRV"
+"C"
+ 2
+ 0
+*
+"CAB"
+"anadip.CAB"
+"DIPCAB"
+"C"
+ 6
+ 0
+*
+"Descrizione"
+"knarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Descrizione"
+"tbtipatt.DESCRI"
+"DESCRI4"
+"C"
+ 250
+ 0
+*
+""
+"tmp_stpope_dett_anag.AATTIV"
+"AATTIV"
+"C"
+ 10
+ 0
+*
+"1-Intestatario, 2-Esecutore, 3-Controparte, 4-Soggetti Terzi"
+"tmp_stpope_dett_anag.TIPOSOG"
+"TIPOSOG"
+"C"
+ 1
+ 0
+*
+"Progressivo di inserimento per lýordinamento dei soggetti"
+"tmp_stpope_dett_anag.PROGINS"
+"PROGINS"
+"N"
+ 5
+ 0
+*
+ 16
+"Tipo Registrazione(Tipo Operazione Completa)"
+"tmp_stpope_dett_anag.TIPOOPRAP=tbtipreg.CODICE"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbtipreg"
+*
+"Causali Analitiche(Causale Sintetica)"
+"tmp_stpope_dett_anag.CODANA=tbcauana.CODCAU and tmp_stpope_dett_anag.CODVOC=tbcauana.CAUSINT"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbcauana"
+*
+"Causali Sintetiche(Causale Sintetica)"
+"tmp_stpope_dett_anag.CODVOC=tbcausin.CODVOC"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbcausin"
+*
+"Divise(Divisa)"
+"tmp_stpope_dett_anag.VALUTA=tbvalute.CODVAL"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbvalute"
+*
+"Stati(Stato Intermediario C/Parte)"
+"tmp_stpope_dett_anag.PAESE=tbstati.CODSTA"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbstati"
+*
+"Stato Residenza"
+"tmp_stpope_dett_anag.APAESE=tbstati1.CODSTA"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbstati1"
+*
+"Tipo Intermediario"
+"tmp_stpope_dett_anag.TIPOINT2=tbtipint .TIPOINT"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbtipint"
+*
+"Tipo Legame"
+"tmp_stpope_dett_anag.TIPOLEG=tbtipleg .TIPLEG"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbtipleg"
+*
+"Sogge. Operante C Terzi"
+"tmp_stpope_dett_anag.CONNESOPER=personbo.CONNES"
+"Left outer"
+"tmp_stpope_dett_anag"
+"personbo"
+*
+"Settorizzazine UIC"
+"tmp_stpope_dett_anag.ASETTSINT=tbsetsin.SETSINT"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbsetsin"
+*
+"Sottogruppi Att. Ec."
+"tmp_stpope_dett_anag.ASOTGRUP=tbstgru.SOTGRU"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbstgru"
+*
+"Ramo/Gruppo"
+"tmp_stpope_dett_anag.ARAMOGRUP=tbramgru.RAMGRU"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbramgru"
+*
+"Tipo documento intestatario"
+"tmp_stpope_dett_anag.ATIPODOC=tbtipdoc .TIPDOC"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbtipdoc"
+*
+"Dipendenza"
+"tmp_stpope_dett_anag.CODDIPE=anadip.CODDIP"
+"Left outer"
+"tmp_stpope_dett_anag"
+"anadip"
+*
+"Rapporto"
+"tmp_stpope_dett_anag.RAPPORTO=knarapbo.RAPPORTO"
+"Left outer"
+"tmp_stpope_dett_anag"
+"knarapbo"
+*
+"ATECO"
+"tmp_stpope_dett_anag.AATTIV=tbtipatt.CODICE"
+"Left outer"
+"tmp_stpope_dett_anag"
+"tbtipatt"
+*
+ 1
+"[AT([GLOBALVAR(gTipInter)],tbcauana.VALPERINT)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+ 3
+"Numero Progressivo"
+"NUMPROG"
+"Ascending"
+*
+"Idbase"
+"IDBASE"
+"Ascending"
+*
+"Progressivo di inserimento per lýordinamento dei soggetti"
+"PROGINS"
+"Ascending"
+*
+ 0
+ 1
+ 12
+"w_c_dadataope"
+"Da Data Operazione"
+"C"
+"8"
+"0"
+""
+""
+*
+"w_c_adataope"
+"A Data Operazione"
+"C"
+"8"
+"0"
+""
+""
+*
+"w_c_dadatareg"
+"Da data Registrazione"
+"C"
+"8"
+"0"
+""
+""
+*
+"w_c_adatareg"
+"A data Registrazione"
+"C"
+"8"
+"0"
+""
+""
+*
+"w_c_dadataret"
+"Da Data Rettifica"
+"C"
+"8"
+"0"
+""
+""
+*
+"w_c_adataret"
+"A Data Rettifica"
+"C"
+"8"
+"0"
+""
+""
+*
+"w_CodCli"
+"Codice Intestatario"
+"C"
+"16"
+"0"
+""
+""
+*
+"w_CodDip"
+"Codice Dipendenza"
+"C"
+"16"
+"0"
+""
+""
+*
+"w_OrderBy"
+"Ordinamento"
+"C"
+"7"
+"0"
+""
+""
+*
+"tipo_arch"
+"Tipo Archivio (provvisorio, A.U.I.)"
+"C"
+"20"
+"0"
+""
+""
+*
+"fonte_arch"
+"Fonte (operazioni, frazionate o entrambe)"
+"C"
+"20"
+"0"
+""
+""
+*
+"DescAzi"
+"Descrizione Azienda"
+"C"
+"70"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 69
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"GH%5D%21%5ESGTQ%3A8%14%138%26G1%404I%21%12F%1EQ%60%25.E%21%5C7%26-A%2C5%212%28B%2F%3E%1CCC%25%26Qj8+%17%29%10%22%3EqZ-J0%2BO%04%15L%3ER*5%07XUKJM%3A%3C%29D7L7%5DD5.E%26A3uvD%5EY%28%2BIE1%3A%267TUZRH3%134X%5E62%3D%25-%2FG4%27VIY%3FXM%3B%157%247%28%29%3FwH%5E7%23M%40%3F%7EBNL%07%15%3CA%28%2BJ%5DPKIA%3E2%2CB%27T%3F%2C8KL%5BW%3C%3C9%24KLH%2CX%255%40MHUGY%22FM7%5C%25AD%223+%26%21%3BZnM%3DFP%290%3B%27.%14%3C%29%2FES2H.1VE%2B%40%25F%253S%2B_%5B%2765%176+A7C%2B%5D%24Q*%3D%3C%00"
+"H+I%5B17BR*%5B%3B%159SV5%5B%3E%079%01%28F%22UESM%3F%2C0%3CL8L5E%04XWV%5C%3A%26%3CK2E3OJ1C+%40%2FAW9%24EJWC%2C%21%230%24%2F7WtH%5ER.G%28%3C%2B54B%25F%3C%24%22H%23KP%27BOR%26G0%2B%28G0W%2CCF%40D%3D%11W%23%3EOOR%16%3D%2B14IXQ%5ECQ%5DP0%23%25%03M%3B%2F%28%3E.G%3F0%2BZKEGK%269%03G%18%1F.%3EBD1XOR95O*%3F%5D8BK%24UK%218%21MYX%27YE7%2455H%3CFQH%2B6%3C%3C-%3D%223%22%26NDP%5C%3C%40ASOSK1W%283D%28+V6U%5ERN8%261J%3D7%3D%24-tE%5C%3C5%3D31%40OS%2B3%21Y8%40%2F%00"
+""
+""
+"native"
+ 0
+ 0
+*

@@ -1,0 +1,43 @@
+﻿* --- Resource Vers. 0.9
+arrt_wutrxchk_aua_edit
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Lancia correzioni aua settando l'utente
+file_modified_on=#2018-06-13 18:45:04
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:31
+module_name='
+name='arrt_wutrxchk_aua_edit
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'wutrxchk.trxcodprg
+'wutrxchk.trflginlav
+'wutrxchk.trxutente
+'wutrxchk.trxtinilav
+'wutrxchk.trxdinilav
+]
+'Routines
+[
+'arrt_wutrxchk_aua_edit
+]
+'Tables
+[
+'wutrxchk<table>
+'tmp_list_imprich<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="143549744">
+  <CodifyName>armt_rapotit</CodifyName>
+  <Name>armt_rapotit.mstdef</Name>
+  <Title>Titolare Effettivo (A.U.I.)</Title>
+  <Type>Master</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="237856153">Dati</Title>
+    <Note></Note>
+    <JPG x="8" y="7">armt_rapotit_usr_1</JPG>
+    <Item type="campo" x1="104" y1="21" x2="182" y2="42">
+      <Name LinkID="59503015">CODINTER</Name>
+      <Comment>Codice Intermediario</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="232" y1="21" x2="280" y2="42">
+      <Name LinkID="64878076">CODDIPE</Name>
+      <Comment>Codice Dipendenza</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="488" y1="21" x2="648" y2="42">
+      <Name LinkID="231542109">DESCCIT</Name>
+      <Comment>Città Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="21" x2="696" y2="42">
+      <Name LinkID="196417514">PROVINCIA</Name>
+      <Comment>Provincia Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="728" y1="21" x2="776" y2="42">
+      <Name LinkID="65164413">CODCAB</Name>
+      <Comment>CAB Dipendenza</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="72" x2="246" y2="92">
+      <Name LinkID="251794226">CONNESCLI</Name>
+      <Comment></Comment>
+      <Key>key4</Key>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="96" x2="214" y2="116">
+      <Name LinkID="30274975">DATAOPE</Name>
+      <Comment>Data Operazione</Comment>
+      <Key>key2</Key>
+      <Zoom>Standard</Zoom>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="704" y1="96" x2="784" y2="116">
+      <Name LinkID="30269551">DATAREG</Name>
+      <Comment>Data registrazione</Comment>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="120" x2="568" y2="140">
+      <Name LinkID="59516305">TIPOOPRAP</Name>
+      <Comment>Tipo Informazione</Comment>
+      <Key>key5</Key>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="144" x2="246" y2="164">
+      <Name LinkID="222122802">CONNESOPER</Name>
+      <Comment>Soggetto Operante Conto Terzi</Comment>
+      <Key>key6</Key>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="168" x2="568" y2="188">
+      <Name LinkID="147710145">TIPOLEG</Name>
+      <Comment>Tipo Legame Sogg.</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="192" x2="296" y2="212">
+      <Name LinkID="10355600">RAPPORTO</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="672" y1="168" x2="752" y2="188">
+      <Name LinkID="24711279">DATARETT</Name>
+      <Comment>Data Rettifica</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="576" y1="168" x2="664" y2="188">
+      <Name LinkID="227996556">STATOREG</Name>
+      <Comment>Stato Registrazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="416" y1="96" x2="512" y2="116">
+      <Name LinkID="221107808">NUMPROG</Name>
+      <Comment>Numero Progressivo</Comment>
+      <Key>key2</Key>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="128" y1="216" x2="464" y2="236">
+      <Name LinkID="141035517">DESCINTER</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

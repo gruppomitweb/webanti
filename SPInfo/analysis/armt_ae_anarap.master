@@ -1,0 +1,102 @@
+﻿* --- Resource Vers. 0.9
+armt_ae_anarap
+￼Iresource.ResourceMaster
+created_on=#2024-05-10 18:24:30
+description='Rapporti (AGE)
+file_modified_on=#2022-12-28 09:37:27
+location='
+measures={}
+modified_on=#2024-05-10 18:24:55
+module_name='
+name='armt_ae_anarap
+state=1
+type='master
+used_resource_keys={
+'Children
+[
+'ardt_ae_delegabo
+'ardt_saldioro
+'ardt_jarantbo
+'ardt_ae_saldianno_rap
+]
+'Fields
+[
+'jnarapbo.rapporto
+'jnarapbo.descrap
+'jnarapbo.tiporap
+'jnarapbo.tipoag
+'jnarapbo.isoage
+'jnarapbo.flaglire
+'jnarapbo.valuta
+'tbvalute.codval
+'tbvalute.descri
+'jnarapbo.prgimprap
+'jnarapbo.coddip
+'jnarapbo.noprot
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Others
+[
+'jsp\pg_intestbo_ae_portlet.jsp
+'jsp\pg_rapopebo_ae_portlet.jsp
+'jsp\pg_operazbo_ae_portlet.jsp
+'arrt_crea_3132
+]
+'Queries
+[
+'qbe_tbtipnat.vqr
+'qbe_tbrapp.vqr
+]
+'Routines
+[
+'arrt_writelog
+'arrt_numopecoll
+'arrt_ae_agg_aetesta_anarap
+]
+'Security
+[
+'administrators<role>
+'utenti standard<role>
+'ruolo 3<role>
+'utenti confidi<role>
+'ruolo 5<role>
+'agenzia<role>
+'area finanza<role>
+'help desk<role>
+'consultazione<role>
+'utilità<role>
+]
+'Tables
+[
+'jnarapbo<table>
+'anadip<table>
+'personbo<table>
+'tbareegeog<table>
+'tbareegeog_p<table>
+'tbdurata<table>
+'tbdurata_p<table>
+'tbimporto<table>
+'tbimporto_p<table>
+'tbmacage<table>
+'tbplauso<table>
+'tbplauso_p<table>
+'tbrapp<table>
+'tbrappogg<table>
+'tbstati<table>
+'tbsvolgim<table>
+'tbsvolgim_p<table>
+'tbtipatt<table>
+'tbtipnat<table>
+'tbtiporisc<table>
+'tbtiporisc_p<table>
+'tbvalute<table>
+]
+}
+I
+*--*
+￼[]
+*--*

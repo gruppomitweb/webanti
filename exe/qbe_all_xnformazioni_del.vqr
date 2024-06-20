@@ -1,0 +1,346 @@
+ 7
+"Deleghe su rapporti"
+"xelegabo"
+"xelegabo"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+"Stati"
+"tbstati"
+"tbstati"
+ 0
+ 0
+*
+"Sottogruppi Att.Ec."
+"tbstgru"
+"tbstgru"
+ 0
+ 0
+*
+"Settorizzazione UIF"
+"tbsetsin"
+"tbsetsin"
+ 0
+ 0
+*
+"Tipo Documento"
+"tbtipdoc"
+"tbtipdoc"
+ 0
+ 0
+*
+"Tipo Attività Svolta"
+"tbtipatt"
+"tbtipatt"
+ 0
+ 0
+*
+ 32
+"Soggetto"
+"xelegabo.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Data Inizio"
+"xelegabo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+"Data Fine"
+"xelegabo.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+"N° Progressivo"
+"xelegabo.NUMPROG1"
+"NUMPROG1"
+"C"
+ 11
+ 0
+*
+"N° Registrazione"
+"xelegabo.NUMPROG2"
+"NUMPROG2"
+"C"
+ 11
+ 0
+*
+"Indirizzo"
+"personbo.DOMICILIO"
+"DOMICILIO"
+"C"
+ 35
+ 0
+*
+"Stato"
+"personbo.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+*
+"Città"
+"personbo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"personbo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"CAP"
+"personbo.CAP"
+"CAP"
+"C"
+ 9
+ 0
+*
+"CAB"
+"personbo.CODCAB"
+"CODCAB"
+"C"
+ 6
+ 0
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+"Partita IVA"
+"personbo.PARTIVA"
+"PARTIVA"
+"C"
+ 14
+ 0
+*
+"Sottogruppo Att. Ec."
+"personbo.SOTGRUP"
+"SOTGRUP"
+"C"
+ 3
+ 0
+*
+"ATECO"
+"personbo.ATTIV"
+"ATTIV"
+"C"
+ 10
+ 0
+*
+"Settorizzazione UIC"
+"personbo.SETTSINT"
+"SETTSINT"
+"C"
+ 3
+ 0
+*
+"Luogo di Nascita"
+"personbo.NASCOMUN"
+"NASCOMUN"
+"C"
+ 30
+ 0
+*
+"Stato di nascita"
+"personbo.NASSTATO"
+"NASSTATO"
+"C"
+ 30
+ 0
+*
+"Provincia Nascita"
+"personbo.TIPINTER"
+"TIPINTER"
+"C"
+ 2
+ 0
+*
+"Data Nascita"
+"personbo.DATANASC"
+"DATANASC"
+"D"
+ 8
+ 0
+*
+"Tipo Documento"
+"personbo.TIPODOC"
+"TIPODOC"
+"C"
+ 2
+ 0
+*
+"Numero Doc."
+"personbo.NUMDOCUM"
+"NUMDOCUM"
+"C"
+ 15
+ 0
+*
+"Autorità di rilascio"
+"personbo.AUTRILASC"
+"AUTRILASC"
+"C"
+ 30
+ 0
+*
+"Data Rilascio Doc."
+"personbo.DATARILASC"
+"DATARILASC"
+"D"
+ 8
+ 0
+*
+"Data Scadenza Doc."
+"personbo.DATAVALI"
+"DATAVALI"
+"D"
+ 8
+ 0
+*
+"Sesso"
+"personbo.SESSO"
+"SESSO"
+"C"
+ 1
+ 0
+*
+"Descrizione"
+"tbstati.DESCRI"
+"DESCPAESE"
+"C"
+ 40
+ 0
+*
+"Descrizione"
+"tbsetsin.DESCRI"
+"DESCSUIC"
+"C"
+ 200
+ 0
+*
+"Descrizione"
+"tbstgru.DESCRI"
+"DESCSGRU"
+"C"
+ 200
+ 0
+*
+"Descrizione"
+"tbtipdoc.DESCRI"
+"DESCDOC"
+"C"
+ 30
+ 0
+*
+"Descrizione"
+"tbtipatt.DESCRI"
+"DESCATT"
+"C"
+ 250
+ 0
+*
+ 6
+"Soggetti"
+"personbo.CONNES=xelegabo.CODINTER"
+"Right outer"
+"personbo"
+"xelegabo"
+*
+"Stati"
+"tbstati.CODSTA=personbo.PAESE"
+"Right outer"
+"tbstati"
+"personbo"
+*
+"SAE"
+"tbstgru.SOTGRU=personbo.SOTGRUP"
+"Right outer"
+"tbstgru"
+"personbo"
+*
+"Settori Sintetici"
+"tbsetsin.SETSINT=personbo.SETTSINT"
+"Right outer"
+"tbsetsin"
+"personbo"
+*
+"Tipo Documento"
+"tbtipdoc.TIPDOC=personbo.TIPODOC"
+"Right outer"
+"tbtipdoc"
+"personbo"
+*
+"ATECO"
+"tbtipatt.CODICE=personbo.ATTIV"
+"Right outer"
+"tbtipatt"
+"personbo"
+*
+ 0
+ 2
+"N° Progressivo"
+"NUMPROG1"
+"Ascending"
+*
+"N° Registrazione"
+"NUMPROG2"
+"Ascending"
+*
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 6
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"CGY%7BA2H%3FD1%1EFL%28%5B64N%269%5B8M%3F%23BTpczl%0E%05%0A%0B%02%06%0A%16G7H%3D3%17*2F_2%29%3A%24T2%18%22p9R%21m%2B6%5B%2C%3E%3B50%29%2B%5Bk*57%273%5EA5D%2F%25%40S7%28%2BY%5DL+_YF%0577%236-%2C%3Dw1HEH%2FO%5E%5E%3C0%23%3A%229%211+TXt%2F%3AUN%050388B%23%2BG1S%3CKAG%27HHZ%26R%2B2%2B%3A%24LXR%226N%3AQ+K%25_%3E%22Z%5EGZ7%3F%3C%21%3D_jR6YC%3B2%21%1EDY%27WJP37%408F-3.%26%22LxI9%2B%21RR4H5X*%25%11DA%292T-%3Er%3E4.%25MXAR%25V7%21o%3A%3B%13%3ALi%3F4%2C%28%3AF9%26%00"
+"%22-NYNYAO%40Q..5TKI3-%3AJ.%21H%1CqNJyggu%02%14%1F%17%17%1B%3A%21%27I%25%3E%25%29O%3C%23Mk%18%2B%17%260.9%5BcVXCVL-B%1E0%24%402V%5B%3B+%40L%3AN%3DFEZ.46%5CG%2F%1D*bVQDB%3B%2C%25+%243%13P%3AD%5E%278%3FIL2GIU%3C%21%2C71%21%23P%5EU%5BXFP%3F2%27E%5E%3B%2F%07Z6GP%3C%25*%3AH48.4%21.0AHSB%5D.%5CD%3A%24%149%28%26%2F8%3D%5B9OBA2%2C8*35%29+%3DU*%3D%3B%5CIJ%40T%27W*%24%3F8%283%29%26uC%26V%23%24%22.%2F7E%18%21B%03%10%3BE%29FC%5CPG%3D3%25%257%26%2207FPPW*F%3D%23QFM%25%06L9%2F%22M%00"
+""
+""
+"native"
+ 0
+ 0
+*

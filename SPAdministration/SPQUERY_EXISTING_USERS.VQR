@@ -1,0 +1,57 @@
+ 2
+"cpprgsec"
+"cpprgsec"
+"cpprgsec"
+ 0
+ 0
+*
+"cpusers"
+"cpusers"
+"cpusers"
+ 0
+ 0
+*
+ 1
+"User Code"
+"cpprgsec.usrcode"
+"usrcode"
+"N"
+ 6
+ 0
+*
+ 1
+"cpusers(User Code)"
+"cpusers.code=cpprgsec.usrcode"
+"Left outer"
+"cpusers"
+"cpprgsec"
+*
+ 1
+"cpprgsec.usrcode"
+"Not"
+"="
+"0"
+"AND"
+""
+*
+ 0
+ 0
+ 1
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 1
+.f.
+""
+.f.
+.f.
+""
+*

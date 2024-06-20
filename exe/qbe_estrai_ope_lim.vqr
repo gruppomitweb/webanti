@@ -1,0 +1,229 @@
+ 2
+"Operazioni"
+"operazbo"
+"operazbo"
+ 0
+ 0
+*
+"Dipendenze"
+"anadip"
+"anadip"
+ 0
+ 0
+*
+ 3
+"Progressivo Import"
+"MIN(operazbo.PRGIMPOPE)"
+"minope"
+"N"
+ 15
+ 0
+*
+"Progressivo Import"
+"MAX(operazbo.PRGIMPOPE)"
+"maxope"
+"N"
+ 15
+ 0
+*
+"Progressivo Import"
+"COUNT(*)"
+"totope"
+"N"
+ 15
+ 0
+*
+ 1
+"Dipendenze (Codice Dipendenza)"
+"anadip.CODDIP=operazbo.CODDIPE"
+"Right outer"
+"anadip"
+"operazbo"
+*
+ 11
+"operazbo.CDATOPE"
+""
+">="
+"?w_cdadata"
+"AND"
+""
+*
+"operazbo.CDATOPE"
+""
+"<="
+"?w_c_adata"
+"AND"
+""
+*
+"operazbo.CODDIPE"
+""
+"="
+"?w_cDIP"
+"AND"
+""
+*
+"operazbo.MTCN"
+""
+"="
+"?w_cMTCN"
+"AND"
+""
+*
+"operazbo.CONNESCLI"
+""
+"="
+"?w_connes"
+"AND"
+""
+*
+"operazbo.CONNESCLI"
+""
+"="
+"?w_cCODFISC"
+"AND"
+""
+*
+"anadip.MACROAGENTE"
+""
+"="
+"?w_codmag"
+"AND"
+""
+*
+"operazbo.STATOREG"
+""
+"in"
+"([MACRO(?_mstato)])"
+"AND"
+""
+*
+"operazbo.C_STA"
+""
+"in"
+"([MACRO(?_lststati)])"
+"AND"
+""
+*
+"anadip.PROVINCIA"
+""
+"in"
+"([MACRO(?_lstprov)])"
+"AND"
+""
+*
+"operazbo.TOTLIRE"
+""
+">="
+"?_importo"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 11
+"w_cdadata"
+"Data Operazione"
+"C"
+"8"
+"0"
+"Remove"
+*
+"w_c_adata"
+"Data Operazione"
+"C"
+"8"
+"0"
+"Remove"
+*
+"w_cDIP"
+"Codice Dipendenza"
+"C"
+"6"
+"0"
+"Remove"
+*
+"w_cCODFISC"
+"Codice Cliente Occasionale"
+"C"
+"16"
+"0"
+"Remove"
+*
+"w_cMTCN"
+"Riferimento operazione WU"
+"C"
+"10"
+"0"
+"Remove"
+*
+"w_codmag"
+"Denominazione MacroAgente"
+"C"
+"5"
+"0"
+"Remove"
+*
+"_mstato"
+"Stato Operazione"
+"C"
+"15"
+"0"
+"Remove"
+*
+"_lststati"
+"Paese Destinazione"
+"C"
+"128"
+"0"
+"Remove"
+*
+"_lstprov"
+"Provincia Agenzia"
+"C"
+"128"
+"0"
+"Remove"
+*
+"w_connes"
+"Codice Cliente Occasionale"
+"C"
+"16"
+"0"
+"Remove"
+*
+"_importo"
+"Totale Operazione"
+"N"
+"15"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.f.
+ 24
+.f.
+""
+.t.
+.f.
+""
+ 0
+ 0
+""
+""
+"%5E%23R-5m%22%5C%5ER%27%23%10%3DYFW-%29DZA06BI%29%26F%2C00CN%22.%23%261%5DOSXG.5%5DYO7.%241%5B%2B56QP%21%21C%28O%5D%16%1EA%5E%10%5D2GLyN%1CI%3F-XF684%40X%23OKX0R%2FHsb%298%24CY-W*%225%2FH%3B0%3F%3A%22O83%3B%21%21ND1NJ%28%23%3D%5B9%3A7%3FD%5E8-PtFUN%2C3%21%22%5CFVK%285*%13%1A*YU%28I%3F%5CX%3E*%237%211%3BZH6F4%3F%3E%3F%5D%5EC%40B.%29%5D%3C%23%28%27H.v%3C%5Ea_5%1E%22%223.%25Jj*S+E%11%2FTQ%5C%2FR%29%23HGIP%5DwPQ%24A%07JHIW%28%26%3CMR%23%3FG%22O++J%5C%40%3E.%2B67*%00"
+"MS%40%5CZMMVAY%3E%14F%3E%405WN%3F0%3C%3A%195%2FQOCnXT%2B%16%3E%3F3.9%5E%5CJRI%23%26FVPLk%3D%291%28JM*Y%3D%2B%23%5BI%5D-KF%22%5B%10%3C5Q%5DKJ+%16+%3E+1j%3DUMSC%27%3FGI%21WIG97%15CJ_C*%23%40Z-G8F%119%5C%5BY%279%3D%3D%409%25%230%26E%5E*%5E%3D%21%24L+%27X%3B%5D5Em%2FG%3A2+U%5B-%5E%27WCO%3E%29%5EM%21NZ%3A66*1%25E%3CQ%5E%5BNC%3B%2FE%3FSHN%2BQ5%2BF6%3B%5CTNJK%5BV%22C2%23%223%27%25_8RKL23%29Uk%5CE%3F-%3FL%3FF%24%40Z%5B2J%3C%26%3C-%3D0F%5B%07JS%2CU%28D%3CPP7%3BN%054%28%3A%40G%00"
+""
+""
+"native"
+ 0
+ 0
+*

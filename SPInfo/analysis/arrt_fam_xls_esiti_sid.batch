@@ -1,0 +1,99 @@
+﻿* --- Resource Vers. 0.9
+arrt_fam_xls_esiti_sid
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Lancia Stampa Errori Ricevuta SID
+file_modified_on=#2023-03-02 09:44:40
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:14
+module_name='
+name='arrt_fam_xls_esiti_sid
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'opextrbo.uniquer
+'opextrbo.rapporto
+'opextrbo.colleg
+'opextrbo.dataope
+'tmp_chkperiodo.idbase
+'tmp_chkperiodo.rapporto
+'tmp_chkperiodo.tipo
+'tmp_chkperiodo.msgtxt
+'tmp_chkperiodo.ndg
+'tmp_chkperiodo.dataini
+'personbo.connes
+'personbo.tipodoc
+'personbo.numdocum
+'personbo.datarilasc
+'personbo.autrilasc
+'tmp_impesiti.aprog
+'tmp_impesiti.cfile
+'tmp_impesiti.codcab
+'tmp_impesiti.codfisc
+'tmp_impesiti.cognome
+'tmp_impesiti.connes
+'tmp_impesiti.cprog
+'tmp_impesiti.datanasc
+'tmp_impesiti.desccit
+'tmp_impesiti.errore
+'tmp_impesiti.esito
+'tmp_impesiti.idbase
+'tmp_impesiti.nascomun
+'tmp_impesiti.nome
+'tmp_impesiti.nomefile
+'tmp_impesiti.progimpesiti
+'tmp_impesiti.provincia
+'tmp_impesiti.ragsoc
+'tmp_impesiti.rapporto
+'tmp_impesiti.sesso
+'tmp_impesiti.tipinter
+'tmp_impesiti.tipoac
+'tmp_impesiti.trueident
+'tmp_impesiti.afile
+'cgo_stampeav.escodice
+'cgo_stampeav.escoddip
+'cgo_stampeav.esdatrep
+'cgo_stampeav.esnumrep
+'cgo_stampeav.esnomrep
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_fam_chkerrori_01.vqr
+'qbe_tmp_impesiti_max_min.vqr
+]
+'Routines
+[
+'arfn_fdate
+'arfn_fdatetime
+'arrt_fam_xls_esiti_sid
+]
+'Tables
+[
+'tmp_esitosid<table>
+'tmp_chkperiodo<table>
+'tmp_impesiti<table>
+'opextrbo<table>
+'personbo<table>
+'personbo_agg<table>
+'cgo_stampeav<table>
+]
+}
+I
+*--*
+￼[]
+*--*

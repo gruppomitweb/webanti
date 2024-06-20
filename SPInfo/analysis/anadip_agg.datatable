@@ -1,0 +1,182 @@
+﻿* --- Resource Vers. 0.9
+anadip_agg<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Anomalie e SOS
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='anadip_agg
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'anadip_agg.coddipe
+'anadip_agg.annorif
+'anadip_agg.meserif
+'anadip_agg.dataini
+'anadip_agg.datafine
+'anadip_agg.anomage
+'anadip_agg.sosclienti
+'anadip_agg.sosagenzia
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'anadip_agg.annorif
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno di riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNORIF
+state=3
+table_name='anadip_agg
+type='field
+used_resource_keys={}
+I
+'anadip_agg.anomage
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anomalie Operative
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANOMAGE
+state=3
+table_name='anadip_agg
+type='field
+used_resource_keys={}
+I
+'anadip_agg.coddipe
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODDIPE
+state=3
+table_name='anadip_agg
+type='field
+used_resource_keys={}
+I
+'anadip_agg.datafine
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine Periodo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAFINE
+state=3
+table_name='anadip_agg
+type='field
+used_resource_keys={}
+I
+'anadip_agg.dataini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio Periodo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAINI
+state=3
+table_name='anadip_agg
+type='field
+used_resource_keys={}
+I
+'anadip_agg.meserif
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mese di Riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MESERIF
+state=3
+table_name='anadip_agg
+type='field
+used_resource_keys={}
+I
+'anadip_agg.sosagenzia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sos sull'agente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOSAGENZIA
+state=3
+table_name='anadip_agg
+type='field
+used_resource_keys={}
+I
+'anadip_agg.sosclienti
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sos sui clienti dell'agenzia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SOSCLIENTI
+state=3
+table_name='anadip_agg
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'anadip_agg.annorif
+[]
+'anadip_agg.anomage
+[]
+'anadip_agg.coddipe
+[]
+'anadip_agg.datafine
+[]
+'anadip_agg.dataini
+[]
+'anadip_agg.meserif
+[]
+'anadip_agg.sosagenzia
+[]
+'anadip_agg.sosclienti
+[]
+}
+*--*

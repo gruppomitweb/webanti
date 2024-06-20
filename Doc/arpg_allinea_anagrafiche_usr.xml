@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="93006929">
+  <CodifyName>arpg_allinea_anagrafiche</CodifyName>
+  <Name>arpg_allinea_anagrafiche.pagedef</Name>
+  <Title>Allineamenti anagrafiche</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="151454384"></Title>
+    <Note/>
+    <JPG x="8" y="9">arpg_allinea_anagrafiche_usr_1</JPG>
+    <Item type="variabile" x1="100" y1="27" x2="395" y2="48">
+      <Name LinkID="99853792">ccab</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="100" y1="45" x2="395" y2="66">
+      <Name LinkID="89556547">ccodfisc</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="115" y1="99" x2="384" y2="144">
+      <Name LinkID="47333168">rvalcampi</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="411" y1="27" x2="641" y2="48">
+      <Name LinkID="158918624">cutf8</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="411" y1="45" x2="641" y2="66">
+      <Name LinkID="254546798">cstandard</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="288" x2="776" y2="506">
+      <Name LinkID="203560576">msgproc</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="224" y1="513" x2="264" y2="545">
+      <Name LinkID="93007024">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>Elabora()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="288" y1="513" x2="328" y2="545">
+      <Name LinkID="93007024">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>arrt_allinea_anagrafiche_report</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

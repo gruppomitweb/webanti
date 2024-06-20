@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="198381561">
+  <CodifyName>arpg_stpfraz_sa</CodifyName>
+  <Name>arpg_stpfraz_sa.pagedef</Name>
+  <Title>Stampa Frazionate (Pagina)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="194728601"></Title>
+    <Note/>
+    <JPG x="8" y="9">arpg_stpfraz_sa_usr_1</JPG>
+    <Item type="variabile" x1="144" y1="18" x2="216" y2="38">
+      <Name LinkID="107525541">DaDatOpe</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="45" x2="216" y2="65">
+      <Name LinkID="8623496">ADatOpe</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="290" y1="234" x2="330" y2="267">
+      <Name LinkID="198381561">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>arrt_stpfraz_sa</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="346" y1="234" x2="386" y2="267">
+      <Name LinkID="198381561">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="189" x2="145" y2="242">
+      <Name LinkID="29731702">OrderBy</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="72" x2="238" y2="92">
+      <Name LinkID="188208773">daCodCli</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="100" x2="238" y2="120">
+      <Name LinkID="70689688">aCodCli</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

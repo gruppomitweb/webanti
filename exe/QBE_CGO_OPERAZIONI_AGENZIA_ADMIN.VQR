@@ -1,0 +1,260 @@
+ 4
+"CGO Operazioni Agenzie"
+"cgo_operazioni"
+"cgo_operazioni"
+ 0
+ 0
+*
+"Dipendenze"
+"anadip"
+"anadip"
+ 0
+ 0
+*
+"Esiti Contatti (CGO)"
+"cgo_esiticon"
+"cgo_esiticon"
+ 0
+ 0
+*
+"Tipologie Registrazione"
+"cgo_tgtiporeg"
+"cgo_tgtiporeg"
+ 0
+ 0
+*
+ 19
+"Data Operazione"
+"cgo_operazioni.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Codice Causale"
+"cgo_operazioni.CAFLGOPE"
+"CACODICE"
+"C"
+ 1
+ 0
+*
+"Descrizione"
+"cgo_tgtiporeg.TRDESREG"
+"TRDESREG"
+"C"
+ 30
+ 0
+*
+"N° Operazione"
+"cgo_operazioni.SNAINUMOPE"
+"SNAINUMOPE"
+"C"
+ 15
+ 0
+*
+"Totale Operazione"
+"cgo_operazioni.TOTLIRE"
+"TOTLIRE"
+"N"
+ 15
+ 2
+*
+"Segno"
+"cgo_operazioni.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+*
+"ID BIGLIETTO"
+"cgo_operazioni.CAIDBIGLIETTO"
+"CAIDBIGLIETTO"
+"C"
+ 28
+ 0
+*
+"Codice Dipendenza"
+"cgo_operazioni.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+*
+"Agenzia (IDBASE)"
+"anadip.IDBASE"
+"IDDIP"
+"C"
+ 10
+ 0
+*
+"Tipo gioco"
+"cgo_operazioni.TIPOGIOCO"
+"TIPOGIOCO"
+"C"
+ 3
+ 0
+*
+"Giorni"
+"[DIFFDAY(cgo_operazioni.DATAOPE,[CURRENTDATE()])]"
+"GIORNI"
+"N"
+ 10
+ 0
+*
+"Data Contatto"
+"cgo_operazioni.CGODATCON"
+"CGODATCON"
+"D"
+ 8
+ 0
+*
+"Esito Contatto"
+"cgo_operazioni.CGOESICON"
+"CGOESICON"
+"C"
+ 1
+ 0
+*
+"Note Contatto"
+"cgo_operazioni.CGONOTCON"
+"CGONOTCON"
+"M"
+ 10
+ 0
+*
+"Descrizione"
+"cgo_esiticon.ECDESCRI"
+"ECDESCRI"
+"C"
+ 40
+ 0
+*
+"Descrizione"
+"anadip.DESCRIZ"
+"DESCRIZ"
+"C"
+ 30
+ 0
+*
+"Telefono"
+"anadip.TELEFONO"
+"TELEFONO"
+"C"
+ 15
+ 0
+*
+"Codice Locale (CGO)"
+"anadip.CODLOC"
+"CODLOC"
+"C"
+ 25
+ 0
+*
+"Flag Documentazione Completa"
+"cgo_operazioni.FLGDOCALL"
+"FLGDOCALL"
+"C"
+ 1
+ 0
+*
+ 3
+"Agenzie"
+"anadip.CODDIP=cgo_operazioni.CODDIPE"
+"Right outer"
+"anadip"
+"cgo_operazioni"
+*
+"Esiti Contatti"
+"cgo_esiticon.ECCODICE=cgo_operazioni.CGOESICON"
+"Right outer"
+"cgo_esiticon"
+"cgo_operazioni"
+*
+"Tipo Biglietto"
+"cgo_tgtiporeg.TRCODGIO=cgo_operazioni.TIPOGIOCO and cgo_tgtiporeg.TRTIPREG=cgo_operazioni.CAFLGOPE"
+"Left outer"
+"cgo_tgtiporeg"
+"cgo_operazioni"
+*
+ 4
+"cgo_operazioni.CODDIPE"
+""
+"="
+"?w_agenzia"
+"AND"
+""
+*
+"cgo_operazioni.CGODIPCOM"
+""
+"="
+"ýNý"
+"AND"
+""
+*
+"cgo_operazioni.CAIDBIGLIETTO"
+""
+"="
+"?w_idticket"
+"AND"
+""
+*
+"cgo_operazioni.TIPOGIOCO"
+""
+"="
+"?w_tipogio"
+"AND"
+""
+*
+ 0
+ 0
+ 1
+ 3
+"w_agenzia"
+"Agenzia"
+"C"
+"6"
+"0"
+"Remove"
+*
+"w_idticket"
+"ID BIGLIETTO"
+"C"
+"20"
+"0"
+"Remove"
+*
+"w_tipogio"
+"Tipo gioco"
+"C"
+"3"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 33
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"*+X%7BNHE8%404GI40%5BUSE%2CM+I%21M_O%2B%2BI%22a3N9J+KP%05%2ChQH%21%3A8%5CFTQ%27%07%3E_.%244Gc_V%3C%27KXFN%29%00%23%2F%2BYPE%3DO%2B%3F%3E.i%40.6L%2C%3E7%3C%290%5CtP.E9%3AI5%5C%3B%259VD%25n%3AM4.PUP6+.%5E%3AL%1D%2F3%21%2FP+c10*8%5EM84%5BK%21Y%1FE%3AZ%2BR1%265%3ET*%266NMKPl%26%3D*A%2744%3E28KZWE%3B%3F%10%5C.15L%3EH%03G3B%5C_A%28%3EP2.%23J%22%223*%25NkKZGM%3B%2FQkL54A.7BBq6w%40YOCP%23.5%26D%28W%2BFzWAL%29Z%25HML%3D%3E%2F%2BK%1C%00"
+".KN_JPvhD%3B%2FB%13%25Wj8%2F%05J%03%12%3A%24WEI%2B6Vc*7%3B%24%03K%06SLXGBNKC%29L5D%1A%28%249D%1B%3CGBMNXqO60-N*63T%5CD%282N03T-iG%3B%5CHTAE%3FpC%40R%5BX%3A%5EO%28%2CQ%3D%24V_%5BL%3B%1EKE%3D_jIL8KXI%3FL%28%40%5DC4q3%5E%15%1DB%21%40Y*NiD5G0N9%7CRK%3D1C3I%40Bs1F%29%5DW2%5B%14%21%19Z23%2C%240NK%3E25%0BFYU%3C%25OW%24AK%5BU*%2C%3D%5C%5D%28%3D40%223%24%25%40ER_%3BE%3C%3DD048%05%3D%23%28G%23YSC-A+N%3AG5%3B%028%27*%245%40%3D%1DD%26%5D%2C%5EE8U%40%5C-BC%00"
+""
+""
+"native"
+ 0
+ 0
+*

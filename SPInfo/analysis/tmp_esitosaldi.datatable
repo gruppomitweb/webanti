@@ -1,0 +1,106 @@
+﻿* --- Resource Vers. 0.9
+tmp_esitosaldi<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Errori Import Saldi Rapporti/Opex
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_esitosaldi
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_esitosaldi.tipo
+'tmp_esitosaldi.rapporto
+'tmp_esitosaldi.codintest
+'tmp_esitosaldi.txterr
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_esitosaldi.codintest
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Intestatario rapporto / operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODINTEST
+state=3
+table_name='tmp_esitosaldi
+type='field
+used_resource_keys={}
+I
+'tmp_esitosaldi.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPPORTO
+state=3
+table_name='tmp_esitosaldi
+type='field
+used_resource_keys={}
+I
+'tmp_esitosaldi.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Rapporto / Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TIPO
+state=3
+table_name='tmp_esitosaldi
+type='field
+used_resource_keys={}
+I
+'tmp_esitosaldi.txterr
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Errori Rilevati
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TXTERR
+state=3
+table_name='tmp_esitosaldi
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_esitosaldi.codintest
+[]
+'tmp_esitosaldi.rapporto
+[]
+'tmp_esitosaldi.tipo
+[]
+'tmp_esitosaldi.txterr
+[]
+}
+*--*

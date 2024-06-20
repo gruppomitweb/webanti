@@ -1,0 +1,501 @@
+@import url('../fonts/OpenSans.css');
+@font-face {
+  font-family: 'iMobileIcon';
+  src: url('../fonts/iMobileIcon.eot');
+  src: url('../fonts/iMobileIcon.eot#iMobileIcon') format('embedded-opentype'), url('../fonts/iMobileIcon.woff') format('woff'), url('../fonts/iMobileIcon.ttf') format('truetype'), url('../fonts/iMobileIcon.svg#iMobileIcon') format('svg');
+}
+
+* {
+  /* reset generico per open.jsp */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: default;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFF;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
+.loader {
+  background: url(../visualweb/images/dialog_loader.gif) no-repeat center center;
+}
+
+.child-scrollable {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.flexbox-parent {
+  width: 100%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  /* align items in Main Axis */
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  /* align items in Cross Axis */
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  /* Extra space in Cross Axis */
+}
+
+.wrapper,
+.wrapper-tag {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper-tag {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper > *,
+.wrapper-tag > * {
+  -ms-flex: 1 100%;
+  flex: 1 100%;
+}
+
+.wrapper-tag > div {
+  position: relative;
+  -ms-flex: 1 auto;
+  flex: 1 auto;
+}
+
+.header {
+  background: #C3C3C3;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > h1 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #232323;
+}
+
+.header .extra-filter {
+  margin-right: 10px;
+}
+
+.header .extra-filter .tabright {
+  display: inline-block;
+  font-size: 12px;
+  background: #F3F3F3;
+  cursor: pointer;
+  margin: 0 4px 0 0;
+  padding: 4px 5px;
+  font-weight: 400;
+  color: #888;
+  text-transform: capitalize;
+}
+
+.search {
+  display: flex;
+}
+
+.search > div {
+  display: inline-block;
+}
+
+.search #search-container {
+  position: relative;
+}
+
+.search #search-handler > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.search #search-handler > span,
+.search #search-handler input {
+  height: 26px;
+  outline: none;
+  padding: 4px 5px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #888;
+  background-color: #F3F3F3;
+}
+
+.search #search-handler > span {
+  cursor: pointer;
+  text-transform: capitalize;
+  border-right: 1px solid #C3C3C3;
+}
+
+.search #search-handler > span:nth-child(1) {
+  border-radius: 5px 0 0 5px;
+}
+
+.search #search-handler input {
+  cursor: text;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 4px 20px 4px 4px;
+}
+
+.search #search-handler input.only-search{
+  border-radius: 5px 5px 5px 5px;
+}
+
+.search #clear {
+  width: 11px;
+  height: 11px;
+  line-height: 11px;
+  cursor: pointer;
+  position: absolute;
+  top: 7px;
+  right: 5px;
+}
+
+.search #clear::after {
+  content: '\e6fd';
+  font-family: 'iMobileIcon';
+  font-size: 11px;
+  color: #00A0BD;
+}
+
+.list-container {
+  position: relative;
+  text-align: left;
+  -ms-flex: 1;
+  flex: 1;
+  cursor: pointer;
+}
+
+.list-container * {
+  -webkit-user-select: auto;
+     -moz-user-select: auto;
+      -ms-user-select: auto;
+          user-select: auto;
+}
+
+.list-container h2 {
+  background-color: #E3E3E3;
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  padding: 4px;
+  font-weight: 500;
+}
+
+.wrapper-tag h2 {
+  height: 28px;
+}
+
+.wrapper-tag .child-scrollable {
+  height: calc(100% - 28px);
+}
+
+.list-container .wrapper-tag > div {
+  text-align: left;
+  border-right: 1px solid #E3E3E3;
+}
+
+.list-container .wrapper-tag > div:last-child {
+  border-right: none;
+}
+
+.list-container .empty-list {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.list-container .empty-list span {
+  margin-top: 30px;
+  display: block;
+}
+
+.list-container .empty-list span::before {
+  content: '\e6f4';
+  color: #EDC87E;
+  font-family: 'iMobileIcon';
+  display: block;
+  margin-bottom: 8px;
+}
+
+.list-container .file-item {
+  padding: 3px 5px;
+  border-bottom: 1px dotted #DEDEDE;
+  background-color: #FFF;
+  font-weight: 400;
+}
+
+.list-container .file-item:hover {
+  background-color: #F0F4FE;
+}
+
+.list-container .file-item.selected-file {
+  border: 1px solid #00A0BD;
+  background-color: #F0F4FE;
+}
+
+.list-container .file-item p {
+  margin: 0;
+}
+
+.list-container .file-item .name {
+  font-size: 12px;
+  color: #898989;
+}
+
+.list-container .file-item .description {
+  font-size: 10px;
+  color: #BCBCBC;
+  font-style: italic;
+  padding: 2px 0 0 5px;
+}
+
+.row-edit {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-edit-item {
+  flex: 1 1 0px;
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+  border-right: 1px solid #BCBCBC;
+  border-bottom: 1px solid #BCBCBC;
+}
+
+.list-edit-item .content {
+  width:100%;
+}
+
+.tools-container {
+  position: relative;
+  -ms-flex: 1 auto;
+  flex: 1 auto;
+  background-color: #E3E3E3;
+  max-width: 260px;
+}
+
+.tools-container.mini{
+  max-width: 150px;
+}
+
+.tools-container .tab, #nav2 .interfacesFolder {
+  padding: 6px;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.tools-container .tab.active, #nav2 .selected-interfacesFolder {
+  font-weight: 600;
+}
+
+.tools-container .tab.active::after, #nav2 .selected-interfacesFolder::after {
+  content: '\e70a';
+  line-height: 22px;
+  position: absolute;
+  right: 8px;
+  font-family: 'iMobileIcon';
+}
+
+#nav2 .selected-interfacesFolder::after{
+  position: relative;
+  float:right;
+  right:0;
+}
+
+.flexbox-item-grow {
+  -ms-flex: 1;
+  flex: 1;
+  /* same as flex: 1 1 auto; */
+}
+
+.fill-area {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  /* align items in Main Axis */
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  /* align items in Cross Axis */
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  /* Extra space in Cross Axis */
+}
+
+.footer {
+  background: #C3C3C3;
+}
+
+.footer.flex-around{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer > div {
+  padding: 8px;
+}
+
+.footer .skin-tab {
+  display: inline-block;
+  font-size: 12px;
+  background: #F3F3F3;
+  cursor: pointer;
+  margin: 0 4px 0 0;
+  padding: 4px 5px;
+  font-weight: 400;
+  color: #888;
+  text-transform: capitalize;
+}
+
+.footer span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #232323;
+}
+
+.footer .addRemoveButtonsContainer {
+  padding: 3px;
+}
+
+.addRemoveButtonsContainer span {
+  font-size: 12px;
+  width: 12px;
+  height: 12px;
+  font-family: 'iMobileIcon';
+  color: #5c9ff0;
+}
+
+.addRemoveButtonsContainer div {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+}
+
+.addRemoveButtonsContainer div:hover span {
+  color: #F3F3F3;
+}
+
+.addRemoveButtonsContainer div:hover{
+  background-color: #5c9ff0;
+}
+
+#add span::after{
+  content: '\e702';
+}
+
+#remove span::after{
+  content: '\e701';
+}
+
+#pickerSaveButton:hover {
+  background-color: #5c9ff0;
+  color: #F3F3F3;
+}
+#pickerSaveButton {
+  display: inline-block;
+  font-size: 12px;
+  background: #F3F3F3;
+  cursor: pointer;
+  margin: 2px 4px 0 0;
+  height: 27px;
+  padding: 3px;
+  font-weight: 400;
+  color: #888;
+  text-transform: capitalize;
+}
+
+.footer #filter > div {
+  display: inline-block;
+}
+
+.footer #filter input[type=checkbox] {
+  outline: none;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+}
+
+.text-found {
+  background: #E9E9E9;
+  color: #000;
+  font-weight: 600;
+}
+
+.active,
+.footer .skin-tab.active,
+.header .extra-filter .tabright.active,
+.search #search-handler > span.active,
+.selected-interfacesFolder {
+  background: #00A0BD;
+  cursor: default;
+  color: #FFF;
+}
+
+.hide-element {
+  display: none !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #E3E3E3;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #E3E3E3;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #C3C3C3;
+}
+
+.listInterfaces{
+  width:80%;
+  display:inline-block;
+  left:20%;
+}
+
+#nav2{
+  display:none;
+  background-color: #F3F3F3;
+  width:20%;
+  height:100%;
+  overflow-y:auto;
+  height:100%;
+  position:absolute;
+}

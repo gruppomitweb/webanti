@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ReportDescription v5.0 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Errori Import -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:[{"type":"report","name":"arrp_stp_errimp","version":"5.0","title":"Stampa Errori Import","query":"qbe_stp_errimp","queries_list":"","font":"Tahoma","font_size":"8","font_weight":"normal","font_effect":"","picture_date":"","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"true","security_public":"false","dict_name":"","security_access":"true","security_roles":"","author":"","client":"","date_creat":"2010-03-16","date_rev":"2022-10-03","modcnt":"7","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":"","hsl":"false","lock_items":"false","maxcount":"26","check_values":"","rotation":" ","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","privacy":"0","identifier":"false","contentprivacy":"0","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"120","uid":"EXDKRVKNVE","sequence":"4","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"142","uid":"MRMFVVWOWF","sequence":"9","page":"1"},{"type":"ReportBar_top","name":"bar_ReportHeader_start","x":"0","y":"60","uid":"SNXXITMCLT","sequence":"2","page":"1"},{"type":"ReportBar_bottom","name":"bar_ReportHeader_end","x":"0","y":"162","uid":"JWCBRRMKQS","sequence":"13","page":"1"},{"type":"Group_top","comment":"group0","name":"group0","uid":"BMREBVCOWE","page":"1","exp":"c_nomearch","x":"0","y":"122","w":"1272","h":"0","sequence":"18","start_each_on_page":"true","reprint_header":"true"},{"type":"Group_down","comment":"group0","name":"group0","uid":"ZNXWPZRHTP","page":"1","exp":"c_nomearch","x":"0","y":"141","w":"1272","h":"0","sequence":"17","start_each_on_page":"true","reprint_header":"true"},{"type":"Label","name":"label0","uid":"IIMNRXHNZQ","page":"1","value":"ERRORI RILEVATI NELL'IMPORT","text_type":"constant","x":"8","y":"5","w":"490","h":"32","sequence":"1","print_always":"false","print_in_newpage":"true","print_group":"true","global_font":"false","font":"Tahoma","font_size":"18","font_weight":"bold"},{"type":"Label","name":"label1","uid":"IZIANOZCMG","page":"1","value":"Errore Rilevato","text_type":"constant","x":"169","y":"42","w":"85","h":"16","sequence":"23","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label2","uid":"LXVFYCYVUB","page":"1","value":"N. Riga","text_type":"constant","x":"113","y":"42","w":"46","h":"16","sequence":"24","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label3","uid":"XQDUZGIPNX","page":"1","value":"Archivio","text_type":"constant","x":"9","y":"42","w":"46","h":"16","sequence":"25","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Box","name":"Box4","uid":"NYSTEOYVHF","page":"1","border_width":"1","x":"9","y":"57","w":"720","h":"0","sequence":"26"},{"type":"Label","name":"label5","uid":"JVGHGPNWGE","page":"1","value":"ERRORI RILEVATI NELL'IMPORT","text_type":"constant","x":"8","y":"67","w":"490","h":"32","sequence":"3","print_always":"false","print_in_newpage":"true","print_group":"true","global_font":"false","font":"Tahoma","font_size":"18","font_weight":"bold"},{"type":"Label","name":"label6","uid":"XQTWWBAIDU","page":"1","value":"Errore Rilevato","text_type":"constant","x":"168","y":"102","w":"85","h":"16","sequence":"19","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label7","uid":"PAWOHCHLML","page":"1","value":"N. Riga","text_type":"constant","x":"112","y":"102","w":"46","h":"16","sequence":"20","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","name":"label8","uid":"FFOCZIUCFC","page":"1","value":"Archivio","text_type":"constant","x":"8","y":"102","w":"46","h":"16","sequence":"21","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Box","name":"Box9","uid":"QOFCYEYPIR","page":"1","border_width":"1","x":"8","y":"117","w":"720","h":"0","sequence":"22"},{"type":"Expr","name":"expr10","uid":"XGZFPUMIPQ","page":"1","exp":"c_numriga","type_exp":"numeric","len":"6","dec":"0","output_name":"N_riga","x":"112","y":"124","w":"48","h":"16","sequence":"5"},{"type":"Expr","name":"expr11","uid":"JSNIBHUGPB","page":"1","exp":"1","type_exp":"numeric","dec":"0","x":"736","y":"124","w":"16","h":"16","hidecond":"True","sequence":"6","removefromout":"XLS,XLSX"},{"type":"Expr","name":"expr12","uid":"WVTSMORIRW","page":"1","exp":"c_nomearch","len":"15","dec":"0","output_name":"Archivio","x":"8","y":"124","w":"96","h":"16","sequence":"7","print_always":"false","print_in_newpage":"true","print_group":"true","print_when_change_groupuid":"BMREBVCOWE"},{"type":"Expr","name":"expr13","uid":"UOTIIFPHAG","page":"1","exp":"c_errore","type_exp":"memo","dec":"0","output_name":"Errore Rilevato","x":"168","y":"124","w":"560","h":"16","sequence":"8"},{"type":"Box","name":"Box14","uid":"LUKYAMOTNV","page":"1","border_width":"1","x":"8","y":"144","w":"720","h":"0","sequence":"10"},{"type":"Label","name":"label15","uid":"ZQHFEAWTIF","page":"1","value":"'Pagina: '+ LRTrim(Str(nNumPage,4))","text_type":"expression","x":"331","y":"146","w":"397","h":"16","sequence":"11","align":"right"},{"type":"Label","name":"label16","uid":"VFHXWCCTJG","page":"1","value":"'Data: '+arfn_fdate(Date())","text_type":"expression","x":"8","y":"146","w":"165","h":"16","sequence":"12","removefromout":"XLS,XLSX"},{"type":"Box","name":"Box17","uid":"ELLMOUOMGF","page":"1","border_width":"1","x":"8","y":"164","w":"720","h":"0","sequence":"14"},{"type":"Expr","name":"expr18","uid":"JBZZFMUZEC","page":"1","exp":"1","type_exp":"numeric","dec":"0","output_name":"TOTALE_ERRORI_RILEVATI","x":"648","y":"169","w":"80","h":"16","sequence":"15","global_picture":"false","picture":"\"9,999,999,999\"","align":"right","calculations":"sum"},{"type":"Label","name":"label19","uid":"RBRTAASKSE","page":"1","value":"TOTALE ERRORI RILEVATI","text_type":"constant","x":"437","y":"169","w":"208","h":"16","sequence":"16","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"}] -->
+
+<REPORT NAME="arrp_stp_errimp" TITLE="Stampa Errori Import" QUERY="qbe_stp_errimp" MAXDEPTH="1" VERSION="5.0" PUBLIC="false" ACCESS="true" ROLES=""
+  GLBFONTNAME="Tahoma" GLBFONTSIZE="8"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <REPORTHEADER Y="0" H="60" EXPRESSION="Report header">
+              <ITEM OBJ="stringa" NAME="ERRORI RILEVATI NELL&#39;IMPORT" EXPRTYPE="constant"
+                    Y="5" X="8" YY="37" XX="498"
+                    PRINTPAGE="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="18"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Errore Rilevato" EXPRTYPE="constant"
+                    Y="42" X="169" YY="58" XX="254"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="N. Riga" EXPRTYPE="constant"
+                    Y="42" X="113" YY="58" XX="159"
+                    REPEATED="true"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Archivio" EXPRTYPE="constant"
+                    Y="42" X="9" YY="58" XX="55"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="57" X="9" XX="730" BORDERWIDTH="1"
+                    UID="NYSTEOYVHF" 
+                    ALIGN="L"
+                    />
+  </REPORTHEADER>
+  <PAGEHEADER Y="60" H="59" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="ERRORI RILEVATI NELL&#39;IMPORT" EXPRTYPE="constant"
+                    Y="6" X="8" YY="38" XX="498"
+                    PRINTPAGE="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="18"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Errore Rilevato" EXPRTYPE="constant"
+                    Y="41" X="168" YY="57" XX="253"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="N. Riga" EXPRTYPE="constant"
+                    Y="41" X="112" YY="57" XX="158"
+                    REPEATED="true"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Archivio" EXPRTYPE="constant"
+                    Y="41" X="8" YY="57" XX="54"
+                    REPEATED="true"
+                    ALIGN="L"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="56" X="8" XX="729" BORDERWIDTH="1"
+                    UID="QOFCYEYPIR" 
+                    ALIGN="L"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="1" FOOTH="0" UID="BMREBVCOWE" TOP="120" BOTTOM="138" EXPRESSION="c_nomearch"
+   STARTNEWPAGE="true"
+   REPRINTHEADER="true">
+          <SECTION TYPE="group" HEADH="18" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="espressione" NAME="c_numriga" ITEMTYPE="N" EXPRTYPE="expression"
+                            Y="1" X="112" YY="17" XX="160"
+                            SYMNAME="N_riga"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="6"
+                            />
+                      <ITEM OBJ="espressione" NAME="1" ITEMTYPE="N" EXPRTYPE="expression"
+                            Y="1" X="736" YY="17" XX="752"
+                            HIDECONDITION="True"
+                            REPEATED="true"
+                            REMOVEON="XLS,XLSX"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_nomearch" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="8" YY="17" XX="104"
+                            SYMNAME="Archivio"
+                            PRINTPAGE="true"
+                            PRINTGROUP="true" PRINTGROUPWHERE="BMREBVCOWE"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="15"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_errore" ITEMTYPE="M" EXPRTYPE="expression"
+                            Y="1" X="168" YY="17" XX="728"
+                            SYMNAME="Errore Rilevato"
+                            REPEATED="true"
+                            ALIGN="L"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="138" H="19" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="8" XX="729" BORDERWIDTH="1"
+                    UID="LUKYAMOTNV" 
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+                    Y="3" X="331" YY="19" XX="728"
+                    REPEATED="true"
+                    ALIGN="R"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="3" X="8" YY="19" XX="173"
+                    REPEATED="true"
+                    REMOVEON="XLS,XLSX"
+                    ALIGN="L"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+  <REPORTFOOTER Y="157" H="23" EXPRESSION="Report footer">
+              <ITEM OBJ="h_line" Y="1" X="8" XX="729" BORDERWIDTH="1"
+                    UID="ELLMOUOMGF" 
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="espressione" NAME="1" ITEMTYPE="N" EXPRTYPE="expression"
+                    Y="6" X="648" YY="22" XX="728"
+                    SYMNAME="TOTALE_ERRORI_RILEVATI"
+                    REPEATED="true"
+                    ALIGN="R"
+                    GLBFONT="true"
+                    SAYPIC="&quot;9,999,999,999&quot;"
+                    LEN="10"
+                    CALCULATION="sum"
+                    />
+              <ITEM OBJ="stringa" NAME="TOTALE ERRORI RILEVATI" EXPRTYPE="constant"
+                    Y="6" X="437" YY="22" XX="645"
+                    REPEATED="true"
+                    ALIGN="R"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+  </REPORTFOOTER>
+</REPORT>

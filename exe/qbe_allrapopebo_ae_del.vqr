@@ -1,0 +1,157 @@
+ 2
+"Deleghe su rapporti"
+"jelegabo"
+"jelegabo"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 7
+"Codice Rapporto"
+"jelegabo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+""
+"jelegabo.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGDELEG"
+"C"
+ 70
+ 0
+*
+"Data Inizio"
+"jelegabo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+"Data Fine"
+"jelegabo.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+"N° Progressivo"
+"jelegabo.NUMPROG1"
+"NUMPROG1"
+"C"
+ 11
+ 0
+*
+"N° Registrazione"
+"jelegabo.NUMPROG2"
+"NUMPROG2"
+"C"
+ 11
+ 0
+*
+ 1
+"Soggetti"
+"personbo.CONNES=jelegabo.CODINTER"
+"Right outer"
+"personbo"
+"jelegabo"
+*
+ 4
+"(jelegabo.DATAINI"
+""
+">="
+"?w_DaData"
+"AND"
+""
+*
+"jelegabo.DATAINI"
+""
+"<="
+"?w_AData)"
+"OR"
+""
+*
+"(jelegabo.DATAFINE"
+""
+">="
+"?w_DaData"
+"AND"
+""
+*
+"jelegabo.DATAFINE"
+""
+"<="
+"?w_AData)"
+"AND"
+""
+*
+ 3
+"Codice Rapporto"
+"RAPPORTO"
+"Ascending"
+*
+"N° Progressivo"
+"NUMPROG1"
+"Ascending"
+*
+"N° Registrazione"
+"NUMPROG2"
+"Ascending"
+*
+ 0
+ 0
+ 2
+"w_DaData"
+"Da Data"
+"D"
+"8"
+"0"
+"Remove"
+*
+"w_AData"
+"A Data"
+"D"
+"8"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 2
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"NI%3CTPHwGJC6%3FB%3EK%3A0%29_%2CWD%27I%5CO.HR%27N18%21N%2F8%07%3D%5EP%22S%26JK%23L%5E%3D%29%288P-42BJABEXA%236%21%3F%5BG%05%3FA%3BIO%3E8%23%23UBG-%2F%295AMJYCICn*8%3CLJ4%3B%28U6-BR8N%22%3D1DDh%3D%25%25REAFUT%2C%228Nc%24G0NP10UOjz%5B2%26%10%24TjK5Z.%5DOE%25%2BI%2Bu%5EF%3B_%24%1CH7%10%3F_%21M_JBJ%26%2C.A%405%287%23K%3C%2BDU%2FC4%25L%3D%3E1O%223%29%25-%3B.m%23%27A%2CXEVA_.4JK%21%29bF*mRR8%22%24%2FV4%06%27D%3FGE%29%15%3F*H77E23T%26+%23%00"
+"%25%2FLYR%5C%2B%3C+QKIF6+%5BO%2F%2F3%2FBN-B%60v%2C%5BGVS%2C8%27%26%10*%3C%22%5CDWH8%24%2FX5EH+.%2F74%23%5DV%25G2G%5E3%24L+%3F%3C_6W%5D%22D%3F0M6N%5Ci%2B%05A9%2FD9%24b%2B%24o%24Y%21MB%19-*V%3DJM_V*%3A0%21%7CH%3BIZ3%26O4%22W1S%5B%5BO7%24K%3D%2846P%22GhN0%1EA%2B-.%3ES2S6%2C9%28%1FG7Bu0XE%04%3D%259Q%2F%06X.9%7B8%23%3D%24%23%7EV0LS%27%3EN%3D%3F%2B%3A%27%27lO43%3A%25%21%223%28%26P%3F.C+28%5DFD%5E%26%5D%3ERJ%2F%27%29BQ%21F.G%26KILTJ0%05UM+W%21%237%28W%3E66%25%3D5C%217%00"
+""
+""
+"native"
+ 0
+ 0
+*

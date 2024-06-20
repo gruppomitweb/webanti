@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+waldi_idp<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Storico Saldi IDP
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='waldi_idp
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'waldi_idp.rapporto
+'waldi_idp.anno
+'waldi_idp.trimestre
+'waldi_idp.importo
+'waldi_idp.idbase
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'waldi_idp.anno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Anno
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ANNO
+state=3
+table_name='waldi_idp
+type='field
+used_resource_keys={}
+I
+'waldi_idp.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='IDBASE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IDBASE
+state=3
+table_name='waldi_idp
+type='field
+used_resource_keys={}
+I
+'waldi_idp.importo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Importo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='IMPORTO
+state=3
+table_name='waldi_idp
+type='field
+used_resource_keys={}
+I
+'waldi_idp.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='RAPPORTO
+state=3
+table_name='waldi_idp
+type='field
+used_resource_keys={}
+I
+'waldi_idp.trimestre
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Trimestre
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='TRIMESTRE
+state=3
+table_name='waldi_idp
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'waldi_idp.anno
+[]
+'waldi_idp.idbase
+[]
+'waldi_idp.importo
+[]
+'waldi_idp.rapporto
+[]
+'waldi_idp.trimestre
+[]
+}
+*--*

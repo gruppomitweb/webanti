@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="191830667">
+  <CodifyName>arpg_cgo_anadip_err</CodifyName>
+  <Name>arpg_cgo_anadip_err.pagedef</Name>
+  <Title>Correzione Agenzie Scartate (CGO)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="235481690"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_cgo_anadip_err_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="74" x2="1246" y2="87">
+      <Name LinkID="132248278">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="61" x2="1246" y2="74">
+      <Name LinkID="250948235">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="44" x2="112" y2="60">
+      <Name LinkID="191441547">c_CODDIP</Name>
+      <Help></Help>
+      <Expression>c_CODDIP</Expression>
+      <Hyperlink>arrt_cgo_anadip_err_load</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="120" y1="44" x2="448" y2="60">
+      <Name LinkID="191441547">c_DESCRIZ</Name>
+      <Help></Help>
+      <Expression>c_DESCRIZ</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="456" y1="44" x2="640" y2="60">
+      <Name LinkID="191441547">c_DESCCIT</Name>
+      <Help></Help>
+      <Expression>c_DESCCIT</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="648" y1="44" x2="738" y2="60">
+      <Name LinkID="191441547">c_IDBASE</Name>
+      <Help></Help>
+      <Expression>c_IDBASE</Expression>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

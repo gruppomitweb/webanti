@@ -1,0 +1,74 @@
+﻿* --- Resource Vers. 0.9
+qbe_ric_denom_afon_web.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:22
+description='
+file_modified_on=#2021-09-30 13:07:06
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:39
+module_name='
+name='qbe_ric_denom_afon_web.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'webaos_soggettiweb.idbase
+'webaos_soggettiweb.ragsoc
+'webaos_soggettiweb.note
+'webaos_soggettiweb.tipo
+'webaos_soggettiweb.ragsocx
+'webaos_soggettiweb.ragsocblk
+'webaos_soggettiweb.flag
+'webaos_soggettiweb.appoggio
+'webaos_soggettiweb.spec
+'webaos_soggettiweb.riferim
+'webaos_soggettiweb.cosafare
+'webaos_soggettiweb.soundmax
+'webaos_soggettiweb.progimp
+'webaos_soggettiweb.lista
+'webaos_soggettiweb.carica
+'webaos_soggettiweb.pdf
+'webaos_soggettiweb.idorig
+'webaos_soggettiweb.nome_compl
+'webaos_soggettiweb.entity_id
+'webaos_soggettiweb.reg_date
+'webaos_soggettiweb.programm
+'webaos_soggettiweb.legal_b
+'webaos_soggettiweb.cut
+'webaos_soggettiweb.ragsocblok
+'webaos_soggettiweb.chiaverep
+]
+'Tables
+[
+'webaos_soggettiweb<table>
+]
+}
+I
+*--*
+￼[]
+*--*

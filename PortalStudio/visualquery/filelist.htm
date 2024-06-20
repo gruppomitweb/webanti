@@ -1,0 +1,88 @@
+<html>
+<head>
+  <title>Select file</title>
+  <script type="text/javascript" src="../stdFunctions.js"></script>
+  <script type="text/javascript" src="../controls.js"></script>
+  <script type="text/javascript" src="filelist.js"></script>
+  <link type="text/css" rel="stylesheet" href="../filewindow.css">
+  <style  type="text/css">
+    * html #remote_password, * html #remote_user { /* trick: IE only */
+      width: 270px;
+    }
+  </style>
+</head>
+<body onload="DoLoad()" style="border:0;overflow:hidden;margin:0;background-color:#E4E4E4">
+ <table width="100%" height="100%" align="center" class="contornointerno" cellpadding="0" cellspacing="1" border="0">
+  <tr id="server_container" style="display:none; height:20;">
+   <td valign="middle" align="left">
+    <table cellpadding=0 cellspacing=2 style="width:100%;">
+      <tr>
+        <td class="titoli" style="width:70px;">
+         <label accesskey="e" for="remote_server" class="label" style="font-weight:bold;width:70px;">S<u>e</u>rver:</b></label>
+        </td><td class="col_2">        
+          <table cellpadding=0 cellspacing=0 style="width:100%"><tr><td class="col_2">
+            <input type="text" name="remote_server" class="testo" style="width:100%" onkeyup="remote_details_keypress(event)" onfocus="this.select();" onblur="remote_server_blur();">
+            <input type="hidden" id="remote_mode" value="" style="display:none;">
+          </td><td>
+            <input type="button" value="Reload" onclick="FillList();" title="Reload list" class="bottoni"  style="margin-left:4;height:22;width:auto">
+          </td></tr></table>
+        </td>
+      </tr>
+      <tbody id="remote_details" style="display:none">
+        <tr>
+          <td class="col_1">
+            <label for="remote_user" class="label">User:</label>
+          </td><td class="col_2">
+            <input type="text" id="remote_user" class="testo" onkeyup="remote_details_keypress(event)" onfocus="this.select();">
+          </td>
+        </tr><tr>
+          <td class="col_1">
+            <label for="remote_password" class="label">Password:</label>
+          </td><td class="col_2">
+            <input type="password" id="remote_password" class="testo" onkeyup="remote_details_keypress(event)" onfocus="this.select();">
+          </td>
+        </tr><tr>
+          <td class="col_1">
+            <label for="remote_company" class="label">Company:</label>
+          </td><td class="col_2">
+            <input type="text" id="remote_company" class="testo" onkeyup="remote_details_keypress(event)" onfocus="this.select();">
+          </td>
+        </tr><tr>
+          <td class="col_1">
+            <label for="remote_instance" class="label">Instance:</label>
+          </td><td class="col_2">
+            <input type="text" id="remote_instance" class="testo" onkeyup="remote_details_keypress(event)" onfocus="this.select();">
+          </td>
+        </tr>
+      </tbody>
+      <tr>
+        <td colspan="2" id="remote_details_toggle" onclick="ToggleRemoteDetails();" onmouseover="this.style.backgroundColor = '#999C9C';" onmouseout="this.style.backgroundColor = '';" title="Expand/collapse remote server connection details"> </td>
+      </tr>
+    </table>
+   </td>
+  </tr>
+  <tr>
+   <td class="titoli" align="center" height="22"><b>A<u>v</u>ailable files</b></td>
+  </tr>
+  <tr>
+   <td class="contenuto" style="height:100%;">
+    <select id="allFiles" size="2" style="width:100%;height:100%;overflow:auto;" onchange="SelectFile(true)" ondblclick="SelectFromList()" onkeyup="allFiles_onkeyup(event)" accesskey="v"></select>
+   </td>
+  </tr>
+  <tr>
+   <td class="titoli" align="center" height="22"><b>File <u>n</u>ame</b></td>
+  </tr>
+  <tr style="height:20">
+   <td valign="middle" class="footer">
+    <table cellpadding=0 cellspacing=2 style="width:100%;"><tr><td style="width:100%">
+      <input type="text" id="filename" style="width:100%" value="" accesskey="n" class="testo" onfocus="this.select();" onkeypress="filename_onkeypress(event)" onkeyup="filename_onkeyup(event)" onkeydown="filename_onkeydown(event)" title="TIP: type will search inside listed results">
+    </td><td>
+      <input id="OperationButton" type="button" value="" onclick="SelectThisFile()" class="bottoni">
+    </td><td>
+      <input id="CancelButton" type="button" value="Cancel" onclick="WindowClose();" class="bottoni">
+    </td></tr></table>
+   </td> 
+  </tr>
+ </table>
+</body>
+</html>

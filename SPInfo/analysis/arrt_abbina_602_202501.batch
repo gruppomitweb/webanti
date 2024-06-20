@@ -1,0 +1,84 @@
+﻿* --- Resource Vers. 0.9
+arrt_abbina_602_202501
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Seleziona Rapporti in 6.2 da Abbinare Rapporti in 2.02 / 5.01
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_abbina_602_202501
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aetesta.rapporto
+'aetesta.tipoag
+'aetesta.coint
+'intestbo.rapporto
+'intestbo.codinter
+'intestbo.abbinato
+'aerighe.rapporto
+'aerighe.cprownum
+'aerighe.abbinato
+'jntestbo.rapporto
+'jntestbo.codinter
+'jntestbo.abbinato
+'tmp_allinearap.agerapporto
+'tmp_allinearap.agenrig
+'tmp_allinearap.agedataope
+'tmp_allinearap.agedatachiu
+'tmp_allinearap.ageconnescli
+'tmp_allinearap.agetipo
+'tmp_allinearap.agecoin
+'tmp_allinearap.auirapporto
+'tmp_allinearap.auinrig
+'tmp_allinearap.auidataope
+'tmp_allinearap.auidatachiu
+'tmp_allinearap.auiconnescli
+'tmp_allinearap.auitipo
+'tmp_allinearap.auicoin
+'tmp_allinearap.flgsel
+'tmp_allinearap.numriga
+]
+'Libraries
+[
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_rapporti_202501_a1.vqr
+'qbe_rapporti_202501_a2.vqr
+'qbe_rapporti_202501_a3.vqr
+'qbe_rapporti_202501_a4.vqr
+]
+'Routines
+[
+'arrt_abbina_602_202501
+]
+'Tables
+[
+'rapopebo<table>
+'aerighe<table>
+'delegabo<table>
+'personbo<table>
+'intestbo<table>
+'jntestbo<table>
+'aetesta<table>
+'tmp_imprappo<table>
+'tmp_allinearap<table>
+]
+}
+I
+*--*
+￼[]
+*--*

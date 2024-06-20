@@ -1,0 +1,163 @@
+﻿* --- Resource Vers. 0.9
+decodenascita<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Nascita per decodifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DecodeNascita
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'decodenascita.id
+'decodenascita.account
+'decodenascita.sigla
+'decodenascita.descri
+'decodenascita.datini
+'decodenascita.datfin
+'decodenascita.provincia
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'decodenascita.account
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome Nazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='account
+state=3
+table_name='DecodeNascita
+type='field
+used_resource_keys={}
+I
+'decodenascita.datfin
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Fine Validità
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATFIN
+state=3
+table_name='DecodeNascita
+type='field
+used_resource_keys={}
+I
+'decodenascita.datini
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Inizio Validità
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATINI
+state=3
+table_name='DecodeNascita
+type='field
+used_resource_keys={}
+I
+'decodenascita.descri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DESCRI
+state=3
+table_name='DecodeNascita
+type='field
+used_resource_keys={}
+I
+'decodenascita.id
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Autonumber
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='id
+state=3
+table_name='DecodeNascita
+type='field
+used_resource_keys={}
+I
+'decodenascita.provincia
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Provincia
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROVINCIA
+state=3
+table_name='DecodeNascita
+type='field
+used_resource_keys={}
+I
+'decodenascita.sigla
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sigla
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SIGLA
+state=3
+table_name='DecodeNascita
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'decodenascita.account
+[]
+'decodenascita.datfin
+[]
+'decodenascita.datini
+[]
+'decodenascita.descri
+[]
+'decodenascita.id
+[]
+'decodenascita.provincia
+[]
+'decodenascita.sigla
+[]
+}
+*--*

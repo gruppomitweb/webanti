@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="35559397">
+  <CodifyName>arpg_statoidrap</CodifyName>
+  <Name>arpg_statoidrap.pagedef</Name>
+  <Title>Stato Intermediari / Delegati</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="229223099"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_statoidrap_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="79" x2="964" y2="92">
+      <Name LinkID="165378918">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="66" x2="964" y2="79">
+      <Name LinkID="232430503">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="48" x2="136" y2="64">
+      <Name LinkID="232876059">c_CODINTER</Name>
+      <Help></Help>
+      <Expression>c_CODINTER</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="144" y1="48" x2="440" y2="64">
+      <Name LinkID="232876059">Left(c_RAGSOC,40)</Name>
+      <Help></Help>
+      <Expression>Left(c_RAGSOC,40)</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="448" y1="48" x2="528" y2="64">
+      <Name LinkID="232876059">c_DATAINI</Name>
+      <Help></Help>
+      <Expression>c_DATAINI</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="536" y1="48" x2="620" y2="64">
+      <Name LinkID="232876059">c_DATAFINE</Name>
+      <Help></Help>
+      <Expression>c_DATAFINE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="624" y1="48" x2="656" y2="64">
+      <Name LinkID="232876059">c_TIPOPERS</Name>
+      <Help></Help>
+      <Expression>c_TIPOPERS</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="664" y1="48" x2="720" y2="64">
+      <Name LinkID="232876059">c_STATORAP</Name>
+      <Help></Help>
+      <Expression>c_STATORAP</Expression>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

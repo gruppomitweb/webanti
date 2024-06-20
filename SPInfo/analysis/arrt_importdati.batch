@@ -1,0 +1,114 @@
+﻿* --- Resource Vers. 0.9
+arrt_importdati
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Import Tabelle
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:14
+module_name='
+name='arrt_importdati
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.codcab
+'personbo.ragsoc
+'personbo.domicilio
+'personbo.codfisc
+'personbo.datanasc
+'personbo.nascomun
+'personbo.sotgrup
+'personbo.ramogrup
+'personbo.settsint
+'personbo.tipodoc
+'personbo.numdocum
+'personbo.datarilasc
+'personbo.autrilasc
+'personbo.desccit
+'personbo.provincia
+'personbo.paese
+'personbo.cap
+'personbo.codinter
+'personbo.tipinter
+'personbo.tipopers
+'personbo.coddipe
+'personbo.partiva
+'personbo.note
+'personbo.sesso
+'personbo.sospmaf
+'personbo.idcitta
+'personbo.datavali
+'personbo.nasstato
+'personbo.docfile
+'personbo.nome
+'personbo.cognome
+'personbo.cfestero
+'personbo.oldconnes
+'personbo.datextra
+'personbo.pktbspecie
+'personbo.comport
+'personbo.attiv
+]
+'Hyperlinks
+[
+'centrale
+]
+'Tables
+[
+'tbcauana<table>
+'fraziobo<table>
+'f_fraziobo<table>
+'cauanainter<table>
+'tbcausin<table>
+'z_personbo<table>
+'personbo<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_importdati|Error|core::document|Update dependencies|Table "f_tbcauana" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:14
+message='Table "f_tbcauana" not found.
+resource_key='arrt_importdati
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_importdati|Error|core::document|Update dependencies|Table "f_tbcausin" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:14
+message='Table "f_tbcausin" not found.
+resource_key='arrt_importdati
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

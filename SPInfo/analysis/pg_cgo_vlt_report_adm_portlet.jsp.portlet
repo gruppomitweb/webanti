@@ -1,0 +1,61 @@
+﻿* --- Resource Vers. 0.9
+jsp\pg_cgo_vlt_report_adm_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:43
+description='Stampa Autocorrezioni
+file_modified_on=#2024-05-10 18:19:34
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:24:45
+module_name='
+name='pg_cgo_vlt_report_adm_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Fields
+[
+'anadip.coddip
+'anadip.descriz
+'anadip.codiceaams
+]
+'Hyperlinks
+[
+'jsp\start_page_logo_portlet.jsp
+]
+'Tables
+[
+'anadip<table>
+]
+'Zooms
+[
+'[anadip] default.vzm
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\pg_cgo_vlt_report_adm_portlet.jsp|Error|core::document|Update dependencies|Resource "arrp_cgo_vlt_report.vrp.vrp" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:45
+message='Resource "arrp_cgo_vlt_report.vrp.vrp" not found.
+resource_key='jsp\pg_cgo_vlt_report_adm_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

@@ -1,0 +1,68 @@
+﻿* --- Resource Vers. 0.9
+tmp_mtcn_cf<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='Appoggio Estrazione MTCN/CF
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_mtcn_cf
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_mtcn_cf.mtcn
+'tmp_mtcn_cf.codfisc
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_mtcn_cf.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='CODFISC
+state=3
+table_name='tmp_mtcn_cf
+type='field
+used_resource_keys={}
+I
+'tmp_mtcn_cf.mtcn
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='MTCN
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='MTCN
+state=3
+table_name='tmp_mtcn_cf
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_mtcn_cf.codfisc
+[]
+'tmp_mtcn_cf.mtcn
+[]
+}
+*--*

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<class>
+    <description>Per verificaer presenza di transazioni doppie</description>
+    <note></note>
+    <variable>
+        <name>MTCN</name>
+        <description>MTCN</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>DATAOPE</name>
+        <description>Data Operazione</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>SEGNO</name>
+        <description>Segno</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>CAUSALE</name>
+        <description>Causale</description>
+        <type>C</type>
+    </variable>
+</class>

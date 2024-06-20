@@ -1,0 +1,117 @@
+ 2
+"Deleghe"
+"aederig"
+"aederig"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 8
+"Codice Rapporto"
+"aederig.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"IDBASE"
+"aederig.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"data Inizio"
+"aederig.ADATA"
+"ADATA"
+"D"
+ 8
+ 0
+*
+"Data Chiusura"
+"aederig.CDATA"
+"CDATA"
+"D"
+ 8
+ 0
+*
+"Ragione Sociale"
+"[CASE([NOTEMPTYSTR(personbo.RAGSOC)],0,ý(ERRORE)ý,personbo.RAGSOC)]"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Tipo"
+"ýDý"
+"TIPO"
+"C"
+ 1
+ 0
+*
+"SCELTO"
+"0"
+"SCELTO"
+"N"
+ 1
+ 0
+*
+"Nuovo Codice Rappporto"
+"ýý"
+"NEWRAPPORTO"
+"C"
+ 10
+ 0
+*
+ 1
+"anagrafiche corrispondente"
+"personbo.CONNES=aederig.CONNESINT"
+"Right outer"
+"personbo"
+"aederig"
+*
+ 1
+"aederig.ABBINATO"
+""
+"="
+"0"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 8
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"FY_WlDS0%5D%3CF7A%5D%5DDCH*4%29+7I%25L%25ul%5BIUN%3FB%3FD%073GBW1*FMQ+UW5%5D*6%138%26H%3E%21K%3FHZ%21K%24%2BZ%3D%3F.*G%2BC53H3%23kY%1B7D*A%23%3F+A%40J7_I%22%17M%3D%5E8-%22V%3A%22J0%3D%29%22%7E2A6%5E96BLF%2C%3C%24VNH7%22%16L%211G80%23%5E%7BYG6%125XI2*%2B%3B%2B%13+6V%3F%23_Y.%5D-6*N+%23+W%5E%3CSH%1C%2C%3A%5D%40LHC3%28%25%12%236C%3Ct%5D7N%3B%5B%3D%3D%3B%223-%25%2B%5BzW%23-%27%2B%5DB%3E%2322X78%1ER%3C%40I6L%3E-%266J%01JR%05%407PZ%28+%23%08%7E7G%28T%3C1%3E%3E4%00"
+"IRKPBNFOL%5E0F%21TFJEB%28AT6B0B2FtlRb%5CI+%3F%24D%3A_uSA1%1F80-%28Uk78%3D56O5E1T%5BOE%3F%5C67%2C%23%12%5E%04*%5D*0%23%2B3.%2CP%5C%2B4%25%5B-K5G%5DEI3K0%3CJ%22-%3DO9TMJT_%2B20Y%2B06%2F%5B*5E%25%21%2BMI%29UP%5C%3AKEMS4+_%5E9%7BD%28%23A0%251H%2BU7%3A%251%23D4%26WA%2Ca%3A%28I.%00%10%3B%05D%40%40T%3B%25%10%0A%2C%3CH%2F*%3B%026%3A7Y8*%5BMG35%23%40D%223%29%26QAJ8D%1545PJ1%21%3B26*F1H%3DQI9%5DT7A07%25%13%22Q%26QK54NG%3C*63%29V%3C-%27%295%00"
+""
+""
+"native"
+ 0
+ 0
+*

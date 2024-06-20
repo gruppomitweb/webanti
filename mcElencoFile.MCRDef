@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <description>MC dei file letti in una cartella ed eventuali sottocartelle</description>
+    <note></note>
+    <variable>
+        <name>Path</name>
+        <description>Percoro del file compresivo del nome</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>File</name>
+        <description>Nome del file</description>
+        <type>C</type>
+    </variable>
+    <variable>
+        <name>Directory</name>
+        <description>True/False</description>
+        <type>L</type>
+    </variable>
+</class>

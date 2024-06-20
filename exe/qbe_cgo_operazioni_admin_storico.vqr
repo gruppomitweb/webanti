@@ -1,0 +1,183 @@
+ 4
+"CGO Storico Operazioni Agenzie"
+"cgo_operazioni_storico"
+"cgo_operazioni_storico"
+ 0
+ 0
+*
+"Tipologie Gioco (CGO)"
+"cgo_tbtipgio"
+"cgo_tbtipgio"
+ 0
+ 0
+*
+"Dipendenze"
+"anadip"
+"anadip"
+ 0
+ 0
+*
+"CGO Questionario ADV Storico"
+"cgo_qadv_operazioni_storico"
+"cgo_qadv_operazioni_storico"
+ 0
+ 0
+*
+ 15
+"Data Operazione"
+"cgo_operazioni_storico.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Completamento Area Finanza"
+"cgo_operazioni_storico.CGODATDIPCOM"
+"CGODATFINCOM"
+"D"
+ 8
+ 0
+*
+"N° Operazione"
+"cgo_operazioni_storico.SNAINUMOPE"
+"SNAINUMOPE"
+"C"
+ 15
+ 0
+*
+"Totale Operazione"
+"cgo_operazioni_storico.TOTLIRE"
+"TOTLIRE"
+"N"
+ 15
+ 2
+*
+"Segno"
+"cgo_operazioni_storico.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+*
+"ID BIGLIETTO"
+"cgo_operazioni_storico.CAIDBIGLIETTO"
+"CAIDBIGLIETTO"
+"C"
+ 28
+ 0
+*
+"Flag Documentazione Completa"
+"cgo_operazioni_storico.FLGDOCALL"
+"FLGDOCALL"
+"C"
+ 1
+ 0
+*
+"Tipo gioco"
+"cgo_operazioni_storico.TIPOGIOCO"
+"TIPOGIOCO"
+"C"
+ 3
+ 0
+*
+"Tipo Registrazione"
+"[CASE(cgo_operazioni_storico.CAFLGOPE,ýGý,ýGiocataý,ýVý,ýVincitaý,ýPý,ýPrelievoý,ýRý,ýVersamentoý,ýý)]"
+"CAFLGOPE"
+"C"
+ 12
+ 0
+*
+"Descrizione"
+"cgo_tbtipgio.DESTPGIO"
+"DESTPGIO"
+"C"
+ 50
+ 0
+*
+"Codice Dipendenza"
+"cgo_operazioni_storico.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+*
+"Descrizione"
+"anadip.DESCRIZ"
+"DESCRIZ"
+"C"
+ 30
+ 0
+*
+"Sblocco Operazione"
+"cgo_operazioni_storico.FLGSBLOCCO"
+"FLGSBLOCCO"
+"C"
+ 1
+ 0
+*
+"Numero Sblocchi applicazioni"
+"cgo_operazioni_storico.NUMSBLOCCO"
+"NUMSBLOCCO"
+"N"
+ 2
+ 0
+*
+"Punteggio Questionario"
+"cgo_qadv_operazioni_storico.QADV_TOTALE"
+"QADV_TOTALE"
+"N"
+ 3
+ 0
+*
+ 3
+"Tipologia Giochi"
+"cgo_tbtipgio.CODTPGIO=cgo_operazioni_storico.TIPOGIOCO"
+"Right outer"
+"cgo_tbtipgio"
+"cgo_operazioni_storico"
+*
+"Agenzie"
+"anadip.CODDIP=cgo_operazioni_storico.CODDIPE"
+"Right outer"
+"anadip"
+"cgo_operazioni_storico"
+*
+"Questionari ADV"
+"cgo_qadv_operazioni_storico.SNAINUMOPE=cgo_operazioni_storico.SNAINUMOPE"
+"Right outer"
+"cgo_qadv_operazioni_storico"
+"cgo_operazioni_storico"
+*
+ 0
+ 0
+ 0
+ 1
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 36
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"LR4%23RQX8y%3CFI%3D%3D%7F9Q%26%04G%28%104%24QENUN%210%22C02%27%2CX4P6DD%1C%22%29%0BB%40PO.%14.%3F4%3D%23Ev%2F1O_6-%1D%3EV%21%224IR%5EE%21%26CW%24kP0X%3A-54DJ%3A.SAQL%260-C%3B.4%26KWD%3F%1C%17%256G%3DZ%26%23%16T%2B%409%40Av-%5E%2B7S%3DF%25.%3E%07%05%26XV%5EI%3A6*RJiC%3FF%5E%11%40IFAU%2F9%231%3E%2B4F*.%2F%3Bt%5EDO-N+PNi_%2F%3A7%3B%288*%21O%26%5ELL%3B%3A%3C%1DB%223%21%26%40QY7C%3E%12ZLBS7%3BK1%40%1BN+b%29CHQ%3F%2C0M%3E920YF%3F.9LD%2F%24B5J%219%1775%2C*%00"
+"+%24TMBoNGD%3D%3BOJ2%221W%22S%2C%2258%3D*YBVZTP.%2FC%183L%26%3AO%3C.RG%3B46%5CFC5.%17.%2714%5EPBT3MU%2CK-%25%5CE%05%26*Vz9JG%13%25%7FGBL%29NQDLB%5EbQ%5BN%5C%3CW50+%5BIZ%06%5E1%28YG%3CO%25H%3DR%21%5D87*%29%24Y%3AURm%5D2%065J%29%22%12.2%21J%229%1DK*PBBXA%3D%16%2B%13%3DC%294WVP%25V%28N%3F%3D%5E%3B.Q%251%2Bm%255KXL33%3F-%23%02A%19%29-6RuA%244ZM*1%223%29%26RQMKN%2BC%5CYX%3D%1BY8*2%1A%24ZJvW%3D%28M%2FIJ+%3F%3F1%05MN%5C%3A8%16%24Q%40LI.4D%3A%401%1C%00"
+""
+""
+"native"
+ 0
+ 0
+*

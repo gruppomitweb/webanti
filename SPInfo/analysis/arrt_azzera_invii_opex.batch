@@ -1,0 +1,58 @@
+﻿* --- Resource Vers. 0.9
+arrt_azzera_invii_opex
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Estrazione Dati da A.U.I per Agenzia Entrate (Routine)
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:07
+module_name='
+name='arrt_azzera_invii_opex
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aeoprig.adata
+'opextrbo.dataope
+'opextrbo.numprog1
+'aederig.adata
+'aederig.cdata
+'aederig.cspedito
+'aederig.cfile
+]
+'Libraries
+[
+'LibreriaMit<project>
+'FileLibMit<project>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_azzera_invii_opx_1.vqr
+'qbe_azzera_invii_opx_2.vqr
+'qbe_azzera_invii_opx_3.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'aeoprig<table>
+'aederig<table>
+'opextrbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

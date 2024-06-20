@@ -1,0 +1,78 @@
+ 3
+" Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Master)"
+"aetesta"
+"aetesta"
+ 25
+ 25
+*
+" Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Detail)"
+"aerighe"
+"aerighe"
+ 5
+ 5
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 136
+ 123
+*
+ 4
+"Codice Rapporto"
+"aetesta.RAPPORTO"
+"RAPPORTO"
+"Char"
+ 25
+ 0
+*
+"Codice Intestatario"
+"aerighe.CONNESINT"
+"CONNESINT"
+"C"
+ 16
+ 0
+*
+"Ragione Sociale"
+"personbo.RAGSOC"
+"RAGSOC"
+"C"
+ 70
+ 0
+*
+"Codice Fiscale"
+"personbo.CODFISC"
+"CODFISC"
+"C"
+ 16
+ 0
+*
+ 2
+"Persone / Società"
+"personbo.CONNES=aerighe.CONNESINT"
+"Right outer"
+"personbo"
+"aerighe"
+*
+" Informazioni Rapporti per Agenzia delle Entrate (DDR 2007/9647) (Master)(Codice Rapporto)"
+"aetesta.RAPPORTO=aerighe.RAPPORTO"
+"Left outer"
+"aetesta"
+"aerighe"
+*
+ 0
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 3
+*

@@ -1,0 +1,82 @@
+﻿* --- Resource Vers. 0.9
+arfn_com_oggettive
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:28
+description='Crea file per comunicazioni oggettive
+file_modified_on=#2019-10-17 08:06:34
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:24:51
+module_name='
+name='arfn_com_oggettive
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_appo_co1.tipo
+'tmp_appo_co1.idbase
+'tmp_appo_co1.numprog
+'tmp_appo_co1.ndg
+'tmp_appo_co1.totcont
+'tmp_esitosaldi.tipo
+'tmp_esitosaldi.rapporto
+'tmp_esitosaldi.codintest
+'tmp_esitosaldi.txterr
+'tbstatna.descri
+'tbstatna.codsta
+'tbcittna.citta
+'tbcittna.prov
+'tbcittna.cab
+]
+'Libraries
+[
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_co_totalerec.vqr
+'qbe_co_operazbo.vqr
+'qbe_co_validi.vqr
+'qbe_co_validi_totale.vqr
+'qbe_co_operazioni_valide.vqr
+'qbe_co_titolari.vqr
+]
+'Routines
+[
+'arfn_agechar
+'arfn_com_oggettive
+'arfn_fdatetime
+'arfn_fdatetime_bp
+'arfn_finemese
+]
+'Tables
+[
+'intermbo<table>
+'tmp_appo_co1<table>
+'clientiope<table>
+'clientifrz<table>
+'sogopebo<table>
+'sogopefbo<table>
+'operazbo<table>
+'anadip<table>
+'anarapbo<table>
+'fraziobo<table>
+'personbo<table>
+'tbstatna<table>
+'tbcittna<table>
+'tmp_esitosaldi<table>
+'jperazbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

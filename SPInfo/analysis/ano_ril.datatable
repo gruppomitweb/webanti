@@ -1,0 +1,125 @@
+﻿* --- Resource Vers. 0.9
+ano_ril<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Anomalie rilevate
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ano_ril
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'ano_ril.idmod
+'ano_ril.rowril
+'ano_ril.idind
+'ano_ril.idsubind
+'ano_ril.nota
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'ano_ril.idind
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID del indicatore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDIND
+state=3
+table_name='ano_ril
+type='field
+used_resource_keys={}
+I
+'ano_ril.idmod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID del modello
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDMOD
+state=3
+table_name='ano_ril
+type='field
+used_resource_keys={}
+I
+'ano_ril.idsubind
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID del subindicatore 
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDSUBIND
+state=3
+table_name='ano_ril
+type='field
+used_resource_keys={}
+I
+'ano_ril.nota
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nota della rilevazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOTA
+state=3
+table_name='ano_ril
+type='field
+used_resource_keys={}
+I
+'ano_ril.rowril
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo rilevazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ROWRIL
+state=3
+table_name='ano_ril
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'ano_ril.idind
+[]
+'ano_ril.idmod
+[]
+'ano_ril.idsubind
+[]
+'ano_ril.nota
+[]
+'ano_ril.rowril
+[]
+}
+*--*

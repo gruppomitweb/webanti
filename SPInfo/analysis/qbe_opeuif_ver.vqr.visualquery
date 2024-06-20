@@ -1,0 +1,111 @@
+﻿* --- Resource Vers. 0.9
+qbe_opeuif_ver.vqr
+￼Iresource.ResourceQuery
+created_on=#2024-05-10 18:24:22
+description='
+file_modified_on=#2021-05-17 13:09:18
+location='exe\
+measures={
+'Security Access
+Imeasure.BooleanMeasure
+description='Public
+false_label='False
+name='Security Access
+true_label='True
+value=False
+I
+'Security Executable
+Imeasure.BooleanMeasure
+description='Executable only by routine
+false_label='False
+name='Security Executable
+true_label='True
+value=False
+I
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='none
+I
+}
+modified_on=#2024-05-10 18:25:38
+module_name='
+name='qbe_opeuif_ver.vqr
+state=1
+type='visualquery
+used_resource_keys={
+'Fields
+[
+'operazbo.idbase
+'operazbo.numprog
+'operazbo.dataope
+'operazbo.tipointer
+'operazbo.codinter
+'operazbo.tipoinf
+'operazbo.idereg
+'operazbo.desccit
+'operazbo.coddipe
+'operazbo.provincia
+'operazbo.codcab
+'operazbo.flagfraz
+'operazbo.flagcont
+'operazbo.codana
+'operazbo.codvoc
+'operazbo.tipoint2
+'operazbo.codint2
+'operazbo.paese
+'operazbo.desc2
+'operazbo.prov2
+'operazbo.codcab2
+'operazbo.descinter
+'operazbo.rapporto
+'operazbo.flagrap
+'operazbo.tipoleg
+'operazbo.datareg
+'operazbo.oprap
+'operazbo.tipooprap
+'operazbo.flaglire
+'operazbo.valuta
+'operazbo.segno
+'operazbo.totlire
+'operazbo.totcont
+'operazbo.statoreg
+'operazbo.operazmod
+'operazbo.datarett
+'operazbo.connescli
+'operazbo.connesoper
+'operazbo.connesben
+'operazbo.colleg
+'operazbo.cambio
+'operazbo.rapportben
+'operazbo.flagrap2
+'operazbo.operatore
+'operazbo.autom
+'operazbo.idcauana
+'operazbo.operag
+'operazbo.docfile
+'operazbo.respins
+'operazbo.inform
+'operazbo.cdatope
+'operazbo.noprot
+'operazbo.ucode
+'operazbo.cdataope
+'operazbo.zcparte
+'operazbo.ragio
+'operazbo.modsvol
+'operazbo.areageo
+]
+'Queries
+[
+'qbe_kpeuif_ver.vqr
+]
+'Tables
+[
+'operazbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

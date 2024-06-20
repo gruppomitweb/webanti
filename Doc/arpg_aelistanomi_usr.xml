@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="265974554">
+  <CodifyName>arpg_aelistanomi</CodifyName>
+  <Name>arpg_aelistanomi.pagedef</Name>
+  <Title>Selezione per Lista Rapporti</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="55986553"></Title>
+    <Note/>
+    <JPG x="8" y="7">arpg_aelistanomi_usr_1</JPG>
+    <Item type="variabile" x1="24" y1="21" x2="456" y2="77">
+      <Name LinkID="5994505">iniz</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="96" y1="119" x2="162" y2="139">
+      <Name LinkID="125691207">dadata</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="272" y1="119" x2="338" y2="139">
+      <Name LinkID="125691767">a_data</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="416" y1="112" x2="456" y2="142">
+      <Name LinkID="265974649">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="368" y1="112" x2="408" y2="142">
+      <Name LinkID="265974649">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>arrt_aelistanomi</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

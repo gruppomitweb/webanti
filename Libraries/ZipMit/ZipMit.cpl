@@ -1,0 +1,7 @@
+import GenericLibrary
+
+class ZipMit(GenericLibrary.Library)
+  proc Init()
+    LoadXML(thismodule.SourceName.Strtran(".cpl",".xml"))
+  end
+end

@@ -1,0 +1,58 @@
+﻿* --- Resource Vers. 0.9
+arrt_cgo_operazioni_admin_xls
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:31
+description='Estrazione Operazioni da completare
+file_modified_on=#2023-02-01 11:11:14
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='roles assigned
+I
+}
+modified_on=#2024-05-10 18:25:08
+module_name='
+name='arrt_cgo_operazioni_admin_xls
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'anadip.coddip
+'anadip.descriz
+'anadip.telefono
+'anadip.idbase
+]
+'Queries
+[
+'qbe_cgo_operazioni_agenzia_admin.vqr
+]
+'Routines
+[
+'arfn_fdate
+]
+'Security
+[
+'administrators<role>
+'utenti standard<role>
+'ruolo 3<role>
+'utenti confidi<role>
+'ruolo 5<role>
+'agenzia<role>
+'area finanza<role>
+'help desk<role>
+'consultazione<role>
+]
+'Tables
+[
+'intermbo<table>
+'anadip<table>
+]
+}
+I
+*--*
+￼[]
+*--*

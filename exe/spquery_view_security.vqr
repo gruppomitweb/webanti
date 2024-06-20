@@ -1,0 +1,99 @@
+ 1
+"cpprgsec"
+"cpprgsec"
+"cpprgsec"
+ 0
+ 0
+*
+ 2
+"Type"
+"[CASE2([LEFT(cpprgsec.progname,3)]=ýps/ý,ýPortletý,[LEFT(cpprgsec.progname,4)]=ývqr/ý,ýQueryý,[LEFT(cpprgsec.progname,4)]=ývrp/ý,ýReportý,[LEFT(cpprgsec.progname,5)]=ýwsrp/ý,ýSOAPReportý,[LEFT(cpprgsec.progname,11)]=ýsoap/query/ý,ýSOAPEP_Queryý,[LEFT(cpprgsec.progname,9)]=ýsoap/vrp/ý,ýSOAPEP_Reportý,[LEFT(cpprgsec.progname,5)]=ýsoap/ý,ýSOAPEPý,[LEFT(cpprgsec.progname,2)]=ýr/ý,ýROLEý,ýProcedureý)]"
+"sectype"
+"C"
+ 30
+ 0
+*
+"Entity Name"
+"cpprgsec.progname"
+"progname"
+"C"
+ 50
+ 0
+*
+ 0
+ 3
+"?type"
+""
+"="
+"[CASE2([LEFT(cpprgsec.progname,3)]=ýps/ý,ýPortletý,[LEFT(cpprgsec.progname,4)]=ývqr/ý,ýQueryý,[LEFT(cpprgsec.progname,4)]=ývrp/ý,ýReportý,[LEFT(cpprgsec.progname,5)]=ýwsrp/ý,ýSOAPReportý,[LEFT(cpprgsec.progname,12)]=ýsoap/vrp/ý,ýSOAPEP_Reportý,[LEFT(cpprgsec.progname,11)]=ýsoap/query/ý,ýSOAPEP_Queryý,[LEFT(cpprgsec.progname,5)]=ýsoap/ý,ýSOAPEPý,[LEFT(cpprgsec.progname,2)]=ýr/ý,ýROLEý,ýProcedureý)]"
+"AND"
+""
+*
+"(cpprgsec.progname"
+""
+"like"
+"ý%ý[CONCAT()][CASE2([LEFT(cpprgsec.progname,3)]=ýps/ý,ýps/ý,[LEFT(cpprgsec.progname,4)]=ývqr/ý,ývqr/ý,[LEFT(cpprgsec.progname,4)]=ývrp/ý,ývrp/ý,[LEFT(cpprgsec.progname,5)]=ýwsrp/ý,ýwsrp/ý,[LEFT(cpprgsec.progname,12)]=ýsoap/vrp/ý,ýsoap/vrp/ý,[LEFT(cpprgsec.progname,11)]=ýsoap/query/ý,ýsoap/query/ý,[LEFT(cpprgsec.progname,5)]=ýsoap/ý,ýsoap/ý,[LEFT(cpprgsec.progname,2)]=ýr/ý,ýr/ý,ýý)] [CONCAT] ?progname[CONCAT()]ý%ý"
+"OR"
+""
+*
+"?progname"
+""
+"="
+"ýý)"
+"AND"
+""
+*
+ 2
+"Type"
+"sectype"
+"Ascending"
+*
+"Entity Name"
+"progname"
+"Ascending"
+*
+ 0
+ 1
+ 2
+"progname"
+"Entity Name"
+"C"
+"50"
+"0"
+""
+*
+"type"
+"Entity Type"
+"C"
+"30"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.t.
+ 153
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"FZDTC%3FFLyM+F83%2FhS-%23A2%21%24J%23A-E8LU%04%2CF%2C-6%29%5C%28hJM%2B0%24S*LhFW%40%5D1%3B8C%5C.%27UBX%2F%24OE2L2R%5D%5BWoOL%2C%08%5DQh4X%21%2FLJ%3EN%3BINI%2B%5B4LL%267N%04YB4%23X0KD1%27S_%23%24.%5DNK%23p6t-UZQ%2B%16%3C%28%5C%4024X%40DZ7+MQW3%3D%241J%28%3D17OIWv3S4%22F%27O%3A%3ER%3DCWMOA07%21UO%5B%2B%5EO%02%2B%3E0A%5CJU%3E%28%3D%23%3B%3EJ%2235%25C2KXA4%276FhRBT%407G%3C5%27LOKGTG8A4BW%12*%22%40V-VL-C0%40S5%3D%21%28X%25%21A%00"
+"EP1+Tl%27%3F%5CD%22-G%3E.HZ%28T%15%035J%1F%24Gv-K%272%3EE3G%25+%25R%40XVG%243H%21+6M454**-1BQLVl%40%3D5%3B%1D%21%3EA%27_PIP%40%28%24%24+-R92%2F%4037C%1E*_%22_nHQ_L3%2F%02%29%5C%24P%3FPmF%24EU%25I%3ADS7%2C%40%40%1CQDH%26L%28a%3CKI%28%0347%07.0_Z%2BB%13Q.K165%3A%5E.7.WA%28_%5DMLR%14L1TF%22SWSx_A%2B%23%25AV%3DMVG*J%3E%2FJG%25%5E1%2133FG0%223%24%25IHK%3EK5-%5EB_%3B%3B8GU9%2CIG3%2B%27SM58D+9T4%23%04%28%5E%27S%1D%29%3F%26_%3CI%22%3CN%3B4%28%22%00"
+""
+""
+"native"
+ 0
+ 0
+*

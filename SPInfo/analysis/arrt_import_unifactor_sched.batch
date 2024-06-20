@@ -1,0 +1,39 @@
+﻿* --- Resource Vers. 0.9
+arrt_import_unifactor_sched
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:36
+description='Lancia import schedulato (Unifactor / IFIR)
+file_modified_on=#2023-12-06 09:39:29
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:16
+module_name='
+name='arrt_import_unifactor_sched
+state=1
+type='batch
+used_resource_keys={
+'Libraries
+[
+'FileLibMit<project>
+'MailLibrary<painter>
+]
+'Routines
+[
+'arrt_import_unifactor
+]
+'Tables
+[
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

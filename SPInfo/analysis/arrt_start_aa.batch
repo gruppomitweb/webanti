@@ -1,0 +1,59 @@
+﻿* --- Resource Vers. 0.9
+arrt_start_aa
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:40
+description='Lancia allineamento anagrafiche
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:25
+module_name='
+name='arrt_start_aa
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.cognome
+'personbo.nome
+'personbo.ragsoc
+'personbo.allineatonomecnome
+'tmp_allin_anag.idbase
+'tmp_allin_anag.connes
+'tmp_allin_anag.ragsoc
+'tmp_allin_anag.codfisc
+'tmp_allin_anag.nome
+'tmp_allin_anag.cognome
+'tmp_allin_anag.allineamento
+]
+'Libraries
+[
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_max_personbo.vqr
+'qbe_allinea_personbo.vqr
+]
+'Routines
+[
+'arfn_verifica_cf_nome_cognome
+]
+'Tables
+[
+'tmp_allin_anag<table>
+'personbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

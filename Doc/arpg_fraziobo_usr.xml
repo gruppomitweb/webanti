@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="113541749">
+  <CodifyName>arpg_fraziobo</CodifyName>
+  <Name>arpg_fraziobo.pagedef</Name>
+  <Title>Frazionarie relative al rapporto (A.U.I.)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="13912766"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_fraziobo_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="74" x2="964" y2="87">
+      <Name LinkID="107166304">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="60" y1="44" x2="140" y2="60">
+      <Name LinkID="13927029">c_DATAOPE</Name>
+      <Help></Help>
+      <Expression>c_DATAOPE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="148" y1="44" x2="236" y2="60">
+      <Name LinkID="13927029">c_NUMPROG</Name>
+      <Help></Help>
+      <Expression>c_NUMPROG</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="308" y1="44" x2="412" y2="60">
+      <Name LinkID="13927029">c_TOTLIRE</Name>
+      <Help></Help>
+      <Expression>c_TOTLIRE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="244" y1="44" x2="300" y2="60">
+      <Name LinkID="13927029">c_VALUTA</Name>
+      <Help></Help>
+      <Expression>c_VALUTA</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="420" y1="44" x2="524" y2="60">
+      <Name LinkID="13927029">c_TOTCONT</Name>
+      <Help></Help>
+      <Expression>c_TOTCONT</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="61" x2="964" y2="74">
+      <Name LinkID="53183568">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="22" y1="44" x2="38" y2="60">
+      <Name LinkID="13927029">images/edit.gif</Name>
+      <Image>images/edit.gif</Image>
+      <Hyperlink>arpg_edt_fraziobo</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="41" y1="44" x2="57" y2="60">
+      <Name LinkID="13927029">images/remove.gif</Name>
+      <Image>images/remove.gif</Image>
+      <Hyperlink>arpg_del_fraziobo</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="532" y1="44" x2="652" y2="60">
+      <Name LinkID="13927029">c_STATO</Name>
+      <Help></Help>
+      <Expression>c_STATO</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="3" y1="44" x2="19" y2="60">
+      <Name LinkID="13927029">images/view.png</Name>
+      <Image>images/view.png</Image>
+      <Hyperlink>armt_ofrazionate</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

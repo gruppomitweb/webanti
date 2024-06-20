@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ReportDescription v4.8 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Anomalie Documenti Persone / Societ&#224; / Fornitori (Report) -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:[{"type":"report","name":"arrp_stpanomdoc","version":"4.8","title":"Stampa Anomalie Documenti Persone / Società / Fornitori (Report)","query":"qbe_anomaliedoc1","font":"Tahoma","font_size":"8","font_weight":"normal","font_effect":"","picture_date":"DD-MM-YYYY","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"false","security_public":"false","dict_name":"","security_access":"true","security_roles":"","author":"","client":"","date_creat":"2010-03-16","date_rev":"2019-10-14","modcnt":"47","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":" ","hsl":"false","lock_items":"false","maxcount":"46","rotation":"","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"102","uid":"BKETMFOEIT","sequence":"16","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"124","uid":"YTWZYXAWHN","sequence":"25","page":"1"},{"type":"Group_top","comment":"group0","name":"group0","y":"104","uid":"WCHBLALSXS","sequence":"30","page":"1"},{"type":"Group_down","comment":"group0","name":"group0","y":"123","uid":"LVNJPBBEAF","sequence":"29","page":"1"},{"type":"Box","comment":"Titolo","name":"Box0","x":"8","y":"7","w":"1063","h":"36","uid":"RZEKSDNAPL","sequence":"1","page":"1","bg_color":"#FFFFFF","border_width":"1"},{"type":"Label","value":"'AZIENDA: '+ desazi","text_type":"expression","name":"label1","uid":"HTDRLNBSMG","page":"1","x":"13","y":"16","w":"696","h":"19","sequence":"2","global_font":"false","font":"Arial","font_size":"10","font_weight":"bold"},{"type":"Box","comment":"Sottotitolo","name":"Box2","x":"10","y":"49","w":"272","h":"18","uid":"VQMPKLPYYP","sequence":"3","page":"1","bg_color":"#FFFFFF","border_width":"1"},{"type":"Label","value":"ANOMALIE DOCUMENTI","text_type":"constant","name":"label3","uid":"GEIWVPEJEW","page":"1","x":"16","y":"49","w":"264","h":"19","sequence":"4","global_font":"false","font":"Arial","font_size":"10","font_weight":"bold"},{"type":"Expr","comment":"DATA DI RIFERIMENTO","exp":"DaData","type_exp":"date","len":"8","dec":"0","name":"expr4","uid":"PLSRPWOEOA","page":"1","x":"983","y":"50","w":"88","h":"18","sequence":"5","global_font":"false","font":"Arial","font_size":"9","font_weight":"normal"},{"type":"Label","value":"Data Riferimento:","text_type":"constant","name":"label5","uid":"FLNYRSHLFW","page":"1","x":"838","y":"50","w":"141","h":"18","sequence":"6","align":"right","global_font":"false","font":"Arial","font_size":"9","font_weight":"bold"},{"type":"Box","comment":"Testata","name":"Box6","x":"8","y":"73","w":"1063","h":"28","uid":"HEAESETPUE","sequence":"7","page":"1","bg_color":"#FFFFFF","border_width":"1"},{"type":"Label","value":"Data Ril.","text_type":"constant","name":"label7","uid":"RPXBGYEXDT","page":"1","x":"858","y":"80","w":"72","h":"16","sequence":"8","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","value":"Numero","text_type":"constant","name":"label8","uid":"EXJKGAZQGD","page":"1","x":"572","y":"80","w":"96","h":"16","sequence":"9","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","value":"Autorità","text_type":"constant","name":"label10","uid":"QBGXXKUNKP","page":"1","x":"671","y":"80","w":"184","h":"16","sequence":"11","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","value":"Tipo","text_type":"constant","name":"label11","uid":"ATVSDJYVXK","page":"1","x":"387","y":"80","w":"179","h":"16","sequence":"12","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","value":"Data Sca.","text_type":"constant","name":"label12","uid":"HPTKFLOUKW","page":"1","x":"934","y":"80","w":"72","h":"16","sequence":"13","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","value":"Ragione Sociale","text_type":"constant","name":"label13","uid":"UNPIVTMBMD","page":"1","x":"13","y":"80","w":"272","h":"16","sequence":"14","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","value":"Codice Fiscale","text_type":"constant","name":"label14","uid":"LWEANAXCJW","page":"1","x":"288","y":"80","w":"96","h":"16","sequence":"15","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Expr","comment":"Tipo documento","exp":"c_TIPODOC","len":"2","dec":"0","name":"expr20","uid":"WCGGXDVUQP","page":"1","x":"387","y":"106","w":"16","h":"16","sequence":"22","coltype":"expression","colexp":"iif(Empty(qbe_anomaliedoc1.c_TIPODOC),'#FF0000','#000000')"},{"type":"Expr","comment":"Autorità di rilascio","exp":"c_AUTRILASC","len":"30","dec":"0","name":"expr17","uid":"BPOMZMFZHN","page":"1","x":"671","y":"106","w":"184","h":"16","sequence":"19","coltype":"expression","colexp":"iif(Empty(qbe_anomaliedoc1.c_AUTRILASC),'#FF0000','#000000')"},{"type":"Expr","comment":"Data Rilascio Doc.","exp":"c_DATARILASC","type_exp":"date","len":"8","dec":"0","name":"expr18","uid":"EZBMWDRVQN","page":"1","x":"858","y":"106","w":"72","h":"16","sequence":"20","coltype":"expression","colexp":"iif(Empty(qbe_anomaliedoc1.c_DATARILASC),'#FF0000','#000000')"},{"type":"Expr","comment":"Data scadenza","exp":"c_DATAVALI","type_exp":"date","len":"8","dec":"0","name":"expr19","uid":"RKXJYAEFFH","page":"1","x":"934","y":"106","w":"72","h":"16","sequence":"21","font":"Tahoma","font_size":"8","font_weight":"normal","coltype":"expression","colexp":"iif(Empty(qbe_anomaliedoc1.c_DATAVALI) OR qbe_anomaliedoc1.c_DATAVALI<DaData,'#FF0000','#000000')"},{"type":"Expr","comment":"Numero Doc.","exp":"c_NUMDOCUM","len":"15","dec":"0","name":"expr16","uid":"QONYKAGXAQ","page":"1","x":"572","y":"106","w":"96","h":"16","sequence":"18","coltype":"expression","colexp":"iif(Empty(qbe_anomaliedoc1.c_NUMDOCUM),'#FF0000','#000000')"},{"type":"Expr","comment":"Ragione Sociale","exp":"Left(c_RAGSOC,45)","len":"45","dec":"0","name":"expr21","uid":"ROIQCESTSW","page":"1","x":"13","y":"106","w":"272","h":"16","sequence":"23"},{"type":"Expr","comment":"Codice Fiscale","exp":"qbe_anomaliedoc1.c_CODFISC","len":"16","dec":"0","name":"Expr35","uid":"TTXIMDNEIW","page":"1","x":"288","y":"106","w":"96","h":"16","sequence":"34"},{"type":"Expr","comment":"Descrizione","exp":"qbe_anomaliedoc1.c_DESCRI_DOC","len":"30","dec":"0","name":"Expr36","uid":"NWAFLXVAIL","page":"1","x":"406","y":"106","w":"163","h":"16","sequence":"35","coltype":"expression","colexp":"iif(Empty(qbe_anomaliedoc1.c_TIPODOC),'#FF0000','#000000')"},{"type":"Box","comment":"Tipo","name":"Box37","x":"387","y":"120","w":"179","h":"0","uid":"ZTPCZWJWBZ","sequence":"36","page":"1","border_coltype":"expression","border_color":"#FF0000","border_colexp":"iif(Empty(qbe_anomaliedoc1.c_TIPODOC),'#FF0000','#FFFFFF')","border_width":"1"},{"type":"Box","comment":"Numero doc","name":"Box38","x":"572","y":"120","w":"93","h":"0","uid":"XJCXVRSJFM","sequence":"38","page":"1","border_coltype":"expression","border_color":"#FF0000","border_colexp":"iif(Empty(qbe_anomaliedoc1.c_NUMDOCUM),'#FF0000','#FFFFFF')","border_width":"1"},{"type":"Box","comment":"Autorità di rilascio","name":"Box39","x":"671","y":"120","w":"173","h":"0","uid":"CDCPJORIRK","sequence":"40","page":"1","border_coltype":"expression","border_color":"#FF0000","border_colexp":"iif(Empty(qbe_anomaliedoc1.c_AUTRILASC),'#FF0000','#FFFFFF')","border_width":"1"},{"type":"Box","comment":"Data rilascio","name":"Box40","x":"858","y":"120","w":"67","h":"0","uid":"ZTHGMRISOO","sequence":"42","page":"1","border_coltype":"expression","border_color":"#FF0000","border_colexp":"iif(Empty(qbe_anomaliedoc1.c_DATARILASC),'#FF0000','#FFFFFF')","border_width":"1"},{"type":"Box","comment":"Data scadenza","name":"Box41","x":"934","y":"120","w":"67","h":"0","uid":"XZIZTPRIMI","sequence":"44","page":"1","border_coltype":"expression","border_color":"#FF0000","border_colexp":"iif(Empty(qbe_anomaliedoc1.c_DATAVALI),'#FF0000','#FFFFFF')","border_width":"1"},{"type":"Box","comment":"Fine pagina","name":"Box23","x":"8","y":"126","w":"1063","h":"0","uid":"POHHDOPOIS","sequence":"26","page":"1","bg_color":"#FFFFFF","border_width":"1"},{"type":"Label","value":"'Data: ' +arfn_fdate(Date())","text_type":"expression","name":"label24","uid":"FVTXPXSOYH","page":"1","x":"15","y":"130","w":"143","h":"18","sequence":"27","global_font":"false","font":"Arial","font_size":"9","font_weight":"normal"},{"type":"Label","value":"'Pag.: ' + LRTrim(Str(nNumPage,5,0))","text_type":"expression","name":"label25","uid":"VKBDJSOLLI","page":"1","x":"860","y":"130","w":"208","h":"18","sequence":"28","align":"right","global_font":"false","font":"Arial","font_size":"9","font_weight":"normal"}] -->
+
+<REPORT NAME="arrp_stpanomdoc" TITLE="Stampa Anomalie Documenti Persone / Societ&#224; / Fornitori (Report)" QUERY="qbe_anomaliedoc1" MAXDEPTH="1" VERSION="4.8" PUBLIC="false" ACCESS="true" ROLES=""
+  GLBFONTNAME="Tahoma" GLBFONTSIZE="8"
+  GLBPICTUREDATE="DD-MM-YYYY"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false" TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="102" EXPRESSION="Page header">
+              <ITEM OBJ="box" UID="RZEKSDNAPL"
+                    Y="7" X="8" YY="43" XX="1071"
+                    BACKGROUNDCOLORTYPE="constant" BACKGROUNDCOLOR="255,255,255"
+                    BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;AZIENDA: &#39;+ desazi" EXPRTYPE="expression"
+                    Y="16" X="13" YY="35" XX="709"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="RZEKSDNAPL"/>
+              <ITEM OBJ="box" UID="VQMPKLPYYP"
+                    Y="49" X="10" YY="67" XX="282"
+                    BACKGROUNDCOLORTYPE="constant" BACKGROUNDCOLOR="255,255,255"
+                    BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="ANOMALIE DOCUMENTI" EXPRTYPE="constant"
+                    Y="49" X="16" YY="68" XX="280"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="espressione" NAME="DaData" ITEMTYPE="D" EXPRTYPE="expression"
+                    Y="50" X="983" YY="68" XX="1071"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    GLBPICTURE="true"
+                    LEN="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Riferimento:" EXPRTYPE="constant"
+                    Y="50" X="838" YY="68" XX="979"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="VQMPKLPYYP"/>
+              <ITEM OBJ="box" UID="HEAESETPUE"
+                    Y="73" X="8" YY="101" XX="1071"
+                    BACKGROUNDCOLORTYPE="constant" BACKGROUNDCOLOR="255,255,255"
+                    BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Ril." EXPRTYPE="constant"
+                    Y="80" X="858" YY="96" XX="930"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Numero" EXPRTYPE="constant"
+                    Y="80" X="572" YY="96" XX="668"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Autorit&#224;" EXPRTYPE="constant"
+                    Y="80" X="671" YY="96" XX="855"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Tipo" EXPRTYPE="constant"
+                    Y="80" X="387" YY="96" XX="566"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Data Sca." EXPRTYPE="constant"
+                    Y="80" X="934" YY="96" XX="1006"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Ragione Sociale" EXPRTYPE="constant"
+                    Y="80" X="13" YY="96" XX="285"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Codice Fiscale" EXPRTYPE="constant"
+                    Y="80" X="288" YY="96" XX="384"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="HEAESETPUE"/>
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="1" FOOTH="0" UID="WCHBLALSXS" TOP="103" BOTTOM="121" EXPRESSION="">
+          <SECTION TYPE="group" HEADH="18" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="espressione" NAME="c_NUMDOCUM" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="572" YY="17" XX="668"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            COLORTYPE="expression"
+                            COLOREXP="iif(Empty(qbe_anomaliedoc1.c_NUMDOCUM),&#39;#FF0000&#39;,&#39;#000000&#39;)"
+                            GLBPICTURE="true"
+                            LEN="15"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_AUTRILASC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="671" YY="17" XX="855"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            COLORTYPE="expression"
+                            COLOREXP="iif(Empty(qbe_anomaliedoc1.c_AUTRILASC),&#39;#FF0000&#39;,&#39;#000000&#39;)"
+                            GLBPICTURE="true"
+                            LEN="30"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DATARILASC" ITEMTYPE="D" EXPRTYPE="expression"
+                            Y="1" X="858" YY="17" XX="930"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            COLORTYPE="expression"
+                            COLOREXP="iif(Empty(qbe_anomaliedoc1.c_DATARILASC),&#39;#FF0000&#39;,&#39;#000000&#39;)"
+                            GLBPICTURE="true"
+                            LEN="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_DATAVALI" ITEMTYPE="D" EXPRTYPE="expression"
+                            Y="1" X="934" YY="17" XX="1006"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            COLORTYPE="expression"
+                            COLOREXP="iif(Empty(qbe_anomaliedoc1.c_DATAVALI) OR qbe_anomaliedoc1.c_DATAVALI&lt;DaData,&#39;#FF0000&#39;,&#39;#000000&#39;)"
+                            GLBPICTURE="true"
+                            LEN="8"
+                            />
+                      <ITEM OBJ="espressione" NAME="c_TIPODOC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="387" YY="17" XX="403"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            COLORTYPE="expression"
+                            COLOREXP="iif(Empty(qbe_anomaliedoc1.c_TIPODOC),&#39;#FF0000&#39;,&#39;#000000&#39;)"
+                            GLBPICTURE="true"
+                            LEN="2"
+                            />
+                      <ITEM OBJ="espressione" NAME="Left(c_RAGSOC,45)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="13" YY="17" XX="285"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="45"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_anomaliedoc1.c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="288" YY="17" XX="384"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_anomaliedoc1.c_DESCRI_DOC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="406" YY="17" XX="569"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            COLORTYPE="expression"
+                            COLOREXP="iif(Empty(qbe_anomaliedoc1.c_TIPODOC),&#39;#FF0000&#39;,&#39;#000000&#39;)"
+                            GLBPICTURE="true"
+                            LEN="30"
+                            />
+                      <ITEM OBJ="h_line" Y="15" X="387" XX="567" BORDERWIDTH="1"
+                            UID="ZTPCZWJWBZ" 
+                            COLORTYPE="expression" COLOREXP="iif(Empty(qbe_anomaliedoc1.c_TIPODOC),'#FF0000','#FFFFFF')"
+                            ALIGN="L"
+                            />
+                      <ITEM OBJ="h_line" Y="15" X="572" XX="666" BORDERWIDTH="1"
+                            UID="XJCXVRSJFM" 
+                            COLORTYPE="expression" COLOREXP="iif(Empty(qbe_anomaliedoc1.c_NUMDOCUM),'#FF0000','#FFFFFF')"
+                            ALIGN="L"
+                            />
+                      <ITEM OBJ="h_line" Y="15" X="671" XX="845" BORDERWIDTH="1"
+                            UID="CDCPJORIRK" 
+                            COLORTYPE="expression" COLOREXP="iif(Empty(qbe_anomaliedoc1.c_AUTRILASC),'#FF0000','#FFFFFF')"
+                            ALIGN="L"
+                            />
+                      <ITEM OBJ="h_line" Y="15" X="858" XX="926" BORDERWIDTH="1"
+                            UID="ZTHGMRISOO" 
+                            COLORTYPE="expression" COLOREXP="iif(Empty(qbe_anomaliedoc1.c_DATARILASC),'#FF0000','#FFFFFF')"
+                            ALIGN="L"
+                            />
+                      <ITEM OBJ="h_line" Y="15" X="934" XX="1002" BORDERWIDTH="1"
+                            UID="XZIZTPRIMI" 
+                            COLORTYPE="expression" COLOREXP="iif(Empty(qbe_anomaliedoc1.c_DATAVALI),'#FF0000','#FFFFFF')"
+                            ALIGN="L"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="121" H="24" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="8" XX="1072" BORDERWIDTH="1"
+                    UID="POHHDOPOIS" 
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39; +arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="5" X="15" YY="23" XX="158"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag.: &#39; + LRTrim(Str(nNumPage,5,0))" EXPRTYPE="expression"
+                    Y="5" X="860" YY="23" XX="1068"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="9"
+                    />
+  </PAGEFOOTER>
+</REPORT>

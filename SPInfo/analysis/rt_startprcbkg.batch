@@ -1,0 +1,53 @@
+﻿* --- Resource Vers. 0.9
+rt_startprcbkg
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:24
+description='avvio da scheduler
+file_modified_on=#2024-03-18 12:25:38
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='public
+I
+}
+modified_on=#2024-05-10 18:25:42
+module_name='
+name='rt_startprcbkg
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tbprcbck.pbcodice
+'tbprcbck.pblastend
+'tbprcbck.pbnomprc
+'tbprcbck.pblaststart
+'tbprcbck.pbforzaesec
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_tab_mmc.vqr
+]
+'Routines
+[
+'afterlogin
+]
+'Tables
+[
+'tbprcbck<table>
+'cpazi<table>
+'cpazi_add<table>
+'tbprcbck_param<table>
+]
+}
+I
+*--*
+￼[]
+*--*

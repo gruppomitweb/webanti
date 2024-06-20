@@ -1,0 +1,79 @@
+﻿* --- Resource Vers. 0.9
+jsp\spadministration_users_otp_cgo_portlet.jsp
+￼Iresource.ResourcePortlet
+created_on=#2024-05-10 18:24:24
+description='
+file_modified_on=#2024-05-10 18:19:38
+location='jsp\
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='profiled
+I
+}
+modified_on=#2024-05-10 18:25:45
+module_name='
+name='spadministration_users_otp_cgo_portlet.jsp
+state=1
+type='portlet
+used_resource_keys={
+'Tables
+[
+'cpusers<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\spadministration_users_otp_cgo_portlet.jsp|Error|core::document|Update dependencies|Resource "sp_totpsecret_save" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:45
+message='Resource "sp_totpsecret_save" not found.
+resource_key='jsp\spadministration_users_otp_cgo_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\spadministration_users_otp_cgo_portlet.jsp|Error|core::document|Update dependencies|Resource "spadministration_users" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:45
+message='Resource "spadministration_users" not found.
+resource_key='jsp\spadministration_users_otp_cgo_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]jsp\spadministration_users_otp_cgo_portlet.jsp|Error|core::document|Update dependencies|Resource "[cpusers] spadministration_user_otp.vzm" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:45
+message='Resource "[cpusers] spadministration_user_otp.vzm" not found.
+resource_key='jsp\spadministration_users_otp_cgo_portlet.jsp
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

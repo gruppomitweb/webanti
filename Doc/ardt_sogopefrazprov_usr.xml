@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="119534930">
+  <CodifyName>ardt_sogopefrazprov</CodifyName>
+  <Name>ardt_sogopefrazprov.dtldef</Name>
+  <Title>Soggetti Agenti per Conto Oper. Frazionate Provvisorie</Title>
+  <Type>Detail</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="75883907"></Title>
+    <Note/>
+    <JPG x="5" y="9">ardt_sogopefrazprov_usr_1</JPG>
+    <Item type="campo" x1="8" y1="27" x2="133" y2="49">
+      <Name LinkID="262608367">CODSOG</Name>
+      <Comment>Codice Soggetto</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="456" y1="27" x2="494" y2="49">
+      <Name LinkID="222172689">LEGAME</Name>
+      <Comment>Tipo Legame</Comment>
+      <Zoom>Standard</Zoom>
+      <Obligatory>TRUE</Obligatory>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="160" y1="27" x2="448" y2="49">
+      <Name LinkID="264130485">xragsoc</Name>
+      <Comment>Ragione Sociale</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="96" y1="225" x2="459" y2="247">
+      <Name LinkID="48625109">xdescriz</Name>
+      <Comment>Descrizione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

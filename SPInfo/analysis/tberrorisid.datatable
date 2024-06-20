@@ -1,0 +1,87 @@
+﻿* --- Resource Vers. 0.9
+tberrorisid<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Errori SID Esiti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tberrorisid
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tberrorisid.sidcodice
+'tberrorisid.sidtipoelab
+'tberrorisid.siddescri
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tberrorisid.sidcodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SIDCODICE
+state=3
+table_name='tberrorisid
+type='field
+used_resource_keys={}
+I
+'tberrorisid.siddescri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione Errore
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SIDDESCRI
+state=3
+table_name='tberrorisid
+type='field
+used_resource_keys={}
+I
+'tberrorisid.sidtipoelab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Elaborazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SIDTIPOELAB
+state=3
+table_name='tberrorisid
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tberrorisid.sidcodice
+[]
+'tberrorisid.siddescri
+[]
+'tberrorisid.sidtipoelab
+[]
+}
+*--*

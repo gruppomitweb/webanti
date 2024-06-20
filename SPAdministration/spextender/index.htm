@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Table Extender</title>
+ <link type="text/css" rel="stylesheet" href="extender.css">
+
+ <script src="../stdFunctions.js"></script>
+ <script src="../controls.js"></script>
+ <!-- <script src="PortalCommonJS.js"></script> -->
+ <script src="extender.js"></script>
+ <script src="selectableelements.js"></script>
+ <script src="selectabletablerows.js"></script>
+ <script src="../spadministration_help.js"></script>
+ <script>
+  QueryString.keys = new Array();
+  QueryString.values = new Array();
+
+  function QueryString(key) {
+    var value = null;
+    for (var i=0;i<QueryString.keys.length;i++) {
+      if (QueryString.keys[i]==key) {
+        value = QueryString.values[i];
+        break;
+      }
+    }
+    return value;
+  }
+
+  function QueryString_Parse() {
+    var query = window.location.search.substring(1);
+    var pairs = query.split("&");
+
+    for (var i=0;i<pairs.length;i++) {
+      var pos = pairs[i].indexOf('=');
+      if (pos >= 0) {
+        var argname = pairs[i].substring(0,pos);
+        var value = pairs[i].substring(pos+1);
+        QueryString.keys[QueryString.keys.length] = argname;
+        QueryString.values[QueryString.values.length] = value;
+      }
+    }
+  }
+  QueryString_Parse();
+ </script>
+</head>
+
+<body onload="DoLoad()" onhelp="CancelHelp()">
+
+<div id="saving"><span>Saving, please wait...</span></div>
+<div id="dictionaryPanel">
+ <table style="width:100%;" onselectstart="return false" cellspacing="0">
+  <tr>
+   <td colspan="2" align="center">
+    <div class="header extender-title">
+      <span class="titolo">Table Extender</span>
+      <div class="icons-container" onMouseDown="event.cancelBubble = true;if (event.stopPropagation) event.stopPropagation();">
+        <a  title="Help" style="height: 34px;" href="javascript:Help()">
+          <span class="icon help">Help</span>
+        </a>
+        <a  title="Edit" style="height: 34px;" href="javascript:ItemAction('edit')">
+          <span class="icon edit">Edit</span>
+        </a>
+        <a  title="Delete" style="height: 34px;" href="javascript:ItemAction('delete')">
+          <span class="icon delete">Delete</span>
+        </a>
+        <a  title="Save" style="height: 34px;" href="javascript:SaveExtenderXDC(false)">
+          <span class="icon save">Save</span>
+        </a>
+        <a  title="Save & Admin" style="height: 34px;" href="javascript:SaveExtenderXDC(true)">
+          <span class="icon savegenerate">Generate</span>
+        </a>
+      </div>
+    </div>
+   </td>
+  </tr>
+
+  <tr id="dictPanelTitleTr">
+   <td style="vertical-align:top;width:55%" class="left-div">
+    <table style="width:100%" class="tables-container">
+     <tr class="header-tr">
+      <td align="center" valign="middle" class="titoli">Tables</td>
+      <td align="center" valign="middle" class="titoli button-container" style="width:50px">
+       <input type="button" value="Add" onclick="AddTable()">
+      </td>
+      <td align="center" valign="middle" style="width:50px" class="titoli button-container">
+       <input type="button" value="Add from" onclick="AddTableFrom()">
+      </td>
+     </tr>
+     <tr>
+      <td colspan="3">
+       <div id="dictTablesDiv" class="content-container">
+        <table id="dictTables" style="width:100%" class="tableGrid" onkeydown="MoveUpDownDictTables()" ondblclick="ItemAction('edit')" onclick="UnSelectOthers(this)" onselectstart="return false" cellspacing="0"></table>
+        <script>
+          var o_dictTables = new SelectableTableRows(document.getElementById("dictTables"), false);
+          o_dictTables.onchange = function () {
+            UpdateFields();
+          }
+        </script>
+       </div>
+      </td>
+     </tr>
+    </table>
+   </td>
+   <td style="vertical-align:top" class="right-div">
+    <table style="width:100%" cellspacing="2" class="right-section-container">
+     <tr class="header-tr">
+      <td align="center" valign="middle" class="titoli" nowrap style="width:100%">
+       <div id="lbl_fields">Fields</div>
+      </td>
+      <td align="center" valign="middle" style="width:50px" class="titoli button-container">
+       <input type="button" value="Add" onclick="AddField()">
+      </td>
+      <td align="center" valign="middle" style="width:50px" class="titoli button-container">
+       <input type="button" value="Add from" onclick="AddFieldFrom()">
+      </td>
+     </tr>
+
+     <tr>
+      <td colspan="3">
+       <div id="dictFieldsDiv" class="content-container">
+        <table id="dictFields" cellspacing="0" style="width:100%" class="tableGrid" ondblclick="ItemAction('edit')" onkeydown="MoveUpDownDictFields()" onclick="UnSelectOthers(this)" onselectstart="return false">
+         <tr>
+          <td>&nbsp</td>
+         </tr>
+        </table>
+        <script>
+          var o_dictFields = new SelectableTableRows(document.getElementById("dictFields"), false);
+          o_dictFields.onchange = function () {
+          }
+        </script>
+       </div>
+      </td>
+     </tr>
+
+     <tr id="dictIndexesTitleTr" class="header-tr">
+      <td align="center" valign="middle" style="width:100%" class="titoli" nowrap colspan="2">
+       <div id="lbl_indexes">Indexes</div>
+      </td>
+      <td align="center" valign="middle" style="width:50px" class="titoli button-container">
+       <input type="button" value="Add" onclick="AddIndex()">
+      </td>
+     </tr>
+
+     <tr>
+      <td colspan="3">
+       <div id="dictIndexesDiv" class="content-container">
+        <table id="dictIndexes" class="tableGrid" ondblclick="ItemAction('edit')" onkeydown="MoveUpDownDictIndexes()" onclick="UnSelectOthers(this)" onselectstart="return false" cellspacing="0">
+         <tr>
+          <td>&nbsp</td>
+         </tr>
+        </table>
+        <script>
+          var o_dictIndexes = new SelectableTableRows(document.getElementById("dictIndexes"), false);
+          o_dictIndexes.onchange = function () {
+          }
+        </script>
+       </div>
+      </td>
+     </tr>
+
+     <tr id="dictRelationsTitleTr" class="header-tr">
+      <td align="center" valign="middle" class="titoli" nowrap colspan="2">
+       <div id="lbl_relations">Relations</div>
+      </td>
+      <td align="center" valign="middle" class="titoli button-container">
+       <input type="button" value="Add" onclick="AddRelation()">
+      </td>
+     </tr>
+
+     <tr>
+      <td colspan="3">
+       <div id="dictRelationsDiv" class="content-container">
+        <table id="dictRelations" class="tableGrid" ondblclick="ItemAction('edit')" onkeydown="MoveUpDownDictRelations()" onclick="UnSelectOthers(this)" onselectstart="return false" cellspacing="0">
+         <tr>
+          <td>&nbsp</td>
+         </tr>
+        </table>
+        <script>
+          var o_dictRelations = new SelectableTableRows(document.getElementById("dictRelations"), false);
+          o_dictRelations.onchange = function () {
+          }
+        </script>
+       </div>
+      </td>
+     </tr>
+    </table>
+   </td>
+	</tr>
+ </table>
+</div>
+
+<!-- Iframe in cui viene eseguita la save delle query. Per compatibilit� con mozilla, ho usato la visibility. -->
+<iframe name="FormSender" id="FormSender" style="visibility:hidden;width:0px;height:0px"></iframe>
+
+</body>
+</html>

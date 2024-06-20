@@ -1,0 +1,100 @@
+﻿* --- Resource Vers. 0.9
+arrt_stprappo_all
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:41
+description='Lancio Stampa Rapporti (Routine)
+file_modified_on=#2023-06-07 15:15:12
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:27
+module_name='
+name='arrt_stprappo_all
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.ragsoc
+'tmp_sog_rappo.rapporto
+'tmp_sog_rappo.numprog
+'tmp_sog_rappo.codinter
+'tmp_sog_rappo.ragsoc
+'tmp_sog_rappo.datini
+'tmp_sog_rappo.datfin
+'tmp_sog_rappo.tipsog
+'tmp_sog_rappo.statoreg
+'tbrisglob.codice
+'tbrisglob.descri
+'personbo.codfisc
+'tbstati.codsta
+'tbstati.descri
+'tbtipdoc.tipdoc
+'tbtipdoc.descri
+'tbstgru.sotgru
+'tbstgru.descri
+'tbtipatt.codice
+'tbtipatt.descri
+'tbsetsin.setsint
+'tbsetsin.descri
+'tbramgru.ramgru
+'tbramgru.descri
+]
+'Queries
+[
+'qbe_allrapopebo.vqr
+'qbe_allxapopebo.vqr
+'qbe_allrapopebo_ae.vqr
+'qbe_allrapopebo_sto.vqr
+'qbe_rapporti_xls.vqr
+'qbe_rapporti_xls_prov.vqr
+'qbe_rapporti_xls_ae.vqr
+'qbe_rapporti_xls_sto.vqr
+'qbe_rapporti_xls_dett.vqr
+'qbe_rapporti_xls_dett_prov.vqr
+'qbe_rapporti_xls_dett_ae.vqr
+'qbe_rapporti_xls_dett_sto.vqr
+]
+'Routines
+[
+'arfn_fdate
+]
+'Tables
+[
+'delegabo<table>
+'intestbo<table>
+'intestit<table>
+'personbo<table>
+'rapotit<table>
+'tbramgru<table>
+'tbsetsin<table>
+'tbstati<table>
+'tbstgru<table>
+'tbtipatt<table>
+'tbtipdoc<table>
+'tmp_stprapporti<table>
+'tmp_sog_rappo<table>
+'fiduciabo<table>
+'tbrisglob<table>
+'xntestbo<table>
+'xelegabo<table>
+'jntestbo<table>
+'jelegabo<table>
+'jntestit<table>
+'xntestit<table>
+'wntestbo<table>
+'welegabo<table>
+'wntestit<table>
+]
+}
+I
+*--*
+￼[]
+*--*

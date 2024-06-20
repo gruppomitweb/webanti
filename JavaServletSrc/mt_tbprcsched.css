@@ -1,0 +1,17 @@
+.FormDefault {margin:0;position:relative;font-family:Tahoma;font-size:8pt;}
+INPUT {font-family:Tahoma;font-size:8pt;}
+SELECT {font-family:Tahoma;font-size:8pt;}
+TEXTAREA {font-family:Tahoma;font-size:8pt;}
+IMG {border:0;}
+#SQTPJSDVUJ {top:7px;position:absolute;left:80px;height:20px;width:384px;z-index:1; }
+#HEKZKSOODJ_DIV {top:11px;position:absolute;text-align:right;z-index:1;}
+BODY:not([ettl]) #HEKZKSOODJ_DIV {left:0px;height:16px;width:79px;}
+BODY[ettl='old'] #HEKZKSOODJ_DIV {left:0px;height:16px;width:79px;}
+BODY[ettl='yes'] #HEKZKSOODJ_DIV {right:calc(100% - 79px);}
+#STCWFBIBRL {top:35px;position:absolute;left:80px;height:20px;width:504px;z-index:1; }
+#FNDTXLYPTK_DIV {top:39px;position:absolute;text-align:right;z-index:1;}
+BODY:not([ettl]) #FNDTXLYPTK_DIV {left:0px;height:16px;width:79px;}
+BODY[ettl='old'] #FNDTXLYPTK_DIV {left:0px;height:16px;width:79px;}
+BODY[ettl='yes'] #FNDTXLYPTK_DIV {right:calc(100% - 79px);}
+#HEKZKSOODJ_DIV, #FNDTXLYPTK_DIV {overflow:hidden;}
+#SQTPJSDVUJ, #STCWFBIBRL {box-sizing : border-box;}

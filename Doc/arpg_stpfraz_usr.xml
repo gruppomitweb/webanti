@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="194899975">
+  <CodifyName>arpg_stpfraz</CodifyName>
+  <Name>arpg_stpfraz.pagedef</Name>
+  <Title>Stampa Frazionate</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="33354620"></Title>
+    <Note/>
+    <JPG x="8" y="9">arpg_stpfraz_usr_1</JPG>
+    <Item type="variabile" x1="144" y1="18" x2="214" y2="38">
+      <Name LinkID="62114486">daCodDip</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="46" x2="214" y2="66">
+      <Name LinkID="183242597">aCodCli</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="72" x2="216" y2="92">
+      <Name LinkID="27870888">DaDatOpe</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="360" y1="72" x2="432" y2="92">
+      <Name LinkID="200034965">ADatOpe</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="99" x2="238" y2="119">
+      <Name LinkID="61667766">daCodCli</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="127" x2="238" y2="147">
+      <Name LinkID="183242597">aCodCli</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="171" x2="264" y2="237">
+      <Name LinkID="96667786">Tipop</Name>
+      <Comment>Tipo operazione</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="440" y1="171" x2="680" y2="250">
+      <Name LinkID="120387435">stato</Name>
+      <Comment>Stato delle operazione da rendere visibile sul report</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="496" y1="279" x2="677" y2="332">
+      <Name LinkID="63084614">tipstp</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="272" y1="306" x2="312" y2="339">
+      <Name LinkID="201125895">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>arrt_stpfraz</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="368" y1="306" x2="408" y2="339">
+      <Name LinkID="201125895">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="16" y1="279" x2="184" y2="332">
+      <Name LinkID="49596812">OrderBy</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="320" y1="306" x2="360" y2="339">
+      <Name LinkID="201125895">images/excel.gif</Name>
+      <Image>images/excel.gif</Image>
+      <Hyperlink>arrt_stpfraz_xls</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa Con Esito Positivo (Liste WEB) -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||aosrp_ricerca_sogg_web||version||4.6||title||Stampa Con Esito Positivo (Liste WEB)||query||stampa_seek_sogg_web||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2008-01-25||date_rev||2017-09-13||form_class|| ||grid_dx||8||grid_dy||9||grid_show||1||grid_use||1||snaplines_show||1||language|| ||merge||false||modcnt||40||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding|| ||hsl||false||lock_items||false||maxcount||49||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||146||uid||ORVBAVMOHH||sequence||2||bb_sequence||2||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||481||uid||OROLCQHEVJ||sequence||1||bb_sequence||1||page||1|||type||AltQuery_top||comment||AltQuery0||query||stampa_seek_sogg_web_nas||exp||stampa_seek_sogg_web_nas.c_CHIAVEREP = stampa_seek_sogg_web.c_CHIAVEREP||name||AltQuery0||y||259||uid||GZHDWPBGDW||sequence||20||bb_sequence||23||output_name||Dati_Nascita||page||1|||type||AltQuery_down||comment||AltQuery0||query||stampa_seek_sogg_web_nas||exp||stampa_seek_sogg_web_nas.c_CHIAVEREP = stampa_seek_sogg_web.c_CHIAVEREP||name||AltQuery0||y||315||uid||IHEUPSFWFS||sequence||19||bb_sequence||22||output_name||Dati_Nascita||page||1|||type||AltQuery_top||comment||AltQuery1||query||stampa_seek_sogg_web_ind||exp||stampa_seek_sogg_web_ind.c_CHIAVEREP = stampa_seek_sogg_web.c_CHIAVEREP||name||AltQuery1||y||316||uid||NTYXQJUZLT||sequence||25||bb_sequence||28||output_name||Indirizzi||page||1|||type||AltQuery_down||comment||AltQuery1||query||stampa_seek_sogg_web_ind||exp||stampa_seek_sogg_web_ind.c_CHIAVEREP = stampa_seek_sogg_web.c_CHIAVEREP||name||AltQuery1||y||374||uid||CRSSERKXAQ||sequence||24||bb_sequence||27||output_name||Indirizzi||page||1|||type||AltQuery_top||comment||AltQuery2||query||stampa_seek_sogg_web_pas||exp||stampa_seek_sogg_web_pas.c_CHIAVEREP=stampa_seek_sogg_web.c_CHIAVEREP||name||AltQuery2||y||375||uid||AHYORJKRXP||sequence||42||bb_sequence||42||output_name||Documenti||page||1|||type||AltQuery_down||comment||AltQuery2||query||stampa_seek_sogg_web_pas||exp||stampa_seek_sogg_web_pas.c_CHIAVEREP=stampa_seek_sogg_web.c_CHIAVEREP||name||AltQuery2||y||429||uid||YDFXKSSFUS||sequence||41||bb_sequence||41||output_name||Documenti||page||1|||type||AltQuery_top||comment||AltQuery3||query||stampa_seek_sogg_web_onu||exp||stampa_seek_sogg_web_onu.c_CHIAVEREP = stampa_seek_sogg_web.c_CHIAVEREP||name||AltQuery3||y||430||uid||HOUBXJJPHF||sequence||29||bb_sequence||32||output_name||Commenti_ONU||page||1|||type||AltQuery_down||comment||AltQuery3||query||stampa_seek_sogg_web_onu||exp||stampa_seek_sogg_web_onu.c_CHIAVEREP = stampa_seek_sogg_web.c_CHIAVEREP||name||AltQuery3||y||451||uid||BJPWEQXFKN||sequence||28||bb_sequence||31||output_name||Commenti_ONU||page||1|||type||Group_top||comment||group0||exp||c_IDBASE||name||group0||y||147||uid||KACFMEPNZU||sequence||9||bb_sequence||9||page||1|||type||Group_down||comment||group0||exp||c_IDBASE||name||group0||y||452||uid||PMJODEVJCY||sequence||8||bb_sequence||8||page||1|||type||Group_top||comment||group1||exp||stampa_seek_sogg_web_nas.c_CHIAVEREP||name||group1||y||278||uid||OUYWTPIKGO||sequence||32||bb_sequence||35||page||1|||type||Group_down||comment||group1||exp||stampa_seek_sogg_web_nas.c_CHIAVEREP||name||group1||y||314||uid||XONXBNDDUI||sequence||31||bb_sequence||34||page||1|||type||Group_top||comment||group2||exp||stampa_seek_sogg_web_ind.c_CHIAVEREP||name||group2||y||336||uid||ONVMWQRRYO||sequence||35||bb_sequence||35||page||1|||type||Group_down||comment||group2||exp||stampa_seek_sogg_web_ind.c_CHIAVEREP||name||group2||y||373||uid||AKAXFQZGOT||sequence||34||bb_sequence||34||page||1|||type||Group_top||comment||group3||exp||stampa_seek_sogg_web_pas.c_CHIAVEREP||name||group3||y||392||uid||SSUZWAHREN||sequence||45||bb_sequence||45||page||1|||type||Group_down||comment||group3||exp||stampa_seek_sogg_web_pas.c_CHIAVEREP||name||group3||y||428||uid||YVPLNTZSNH||sequence||44||bb_sequence||44||page||1|||type||Section_top||comment||section4||hidecond||flgnote=&#39;N&#39;||name||section4||y||455||uid||QUUUIIUCXD||sequence||38||bb_sequence||38||page||1|||type||Section_down||comment||section4||hidecond||flgnote=&#39;N&#39;||name||section4||y||475||uid||GPETSSBSKX||sequence||37||bb_sequence||37||page||1|||type||Box||name||Box0||x||8||y||9||w||1056||h||72||uid||JRMZMFGQCP||sequence||3||page||1||bb_border_colour||false||border_width||1|||type||Label||value||ESITO DI RICERCA TRA SOGGETTI SEGNALATI (LISTE WEB)||text_type||constant||name||label1||uid||QERDGABDUR||page||1||x||16||y||18||w||1040||h||26||sequence||4||align||center||global_font||false||font||Verdana||font_size||14||font_weight||bold|||type||Label||value||&quot;ARCHIVI DI RICERCA AGGIORNATI AL &quot;+arfn_fdate(c_ULTAGGSOG)||text_type||expression||name||label2||uid||KYEYKYQHVK||page||1||x||16||y||51||w||1040||h||19||sequence||16||align||center||global_font||false||font||Tahoma||font_size||10||font_weight||bold|||type||Box||name||Box3||x||8||y||84||w||1056||h||36||uid||ZQLIRDKBXJ||sequence||5||page||1||bb_border_colour||false||border_width||1|||type||Expr||exp||iif(criterio=&#39;D&#39;,&#39;[DENOMINAZIONE]: &#39;+denomin,&#39;[RICERCA A BLOCCHI]: &#39;+ simili)||len||40||dec||0||name||expr4||uid||MPHGXRCXGA||page||1||x||16||y||93||w||1040||h||16||sequence||6|||type||Label||value||DATI DALL&#39;ELENCO SOGGETTI SEGNALATI||text_type||constant||name||label5||uid||QONLXWDXFZ||page||1||x||8||y||123||w||496||h||19||sequence||10||global_font||false||font||Verdana||font_size||10||font_weight||bold|||type||Box||name||Box6||x||8||y||144||w||1056||h||0||uid||RPXZDLNTYV||sequence||12||page||1||bb_border_colour||false||border_width||1|||type||Expr||exp||&#39;Denominazione: &#39; + c_RAGSOC||dec||0||name||expr7||uid||RJNXALUQRD||page||1||x||8||y||149||w||1056||h||17||sequence||7||global_font||false||font||Tahoma||font_size||9||font_weight||bold|||type||Expr||exp||&#39;Carica: &#39; + c_CARICA||len||120||dec||0||name||expr8||uid||TNFSOEYOBM||page||1||x||8||y||168||w||1056||h||16||sequence||11|||type||Expr||exp||&#39;Riferimenti: &#39; + c_RIFERIM||len||120||dec||0||name||expr9||uid||RPCXRPYOYU||page||1||x||8||y||186||w||1056||h||16||sequence||18|||type||Expr||exp||&#39;Lista: &#39; + c_LISTA + &#39; -Identificativo Lista: &#39;+LRTrim(Str(c_ENTITY_ID,10,0))||len||120||dec||0||name||expr10||uid||TRXYWUPLWU||page||1||x||8||y||204||w||1056||h||16||sequence||17|||type||Expr||exp||&#39;Legal Basis: &#39; + c_LEGAL_B||len||120||dec||0||name||expr10_48||uid||HHZUFCKSVS||page||1||x||8||y||222||w||1056||h||16||sequence||17|||type||Expr||exp||&#39;Link PDF: &#39; + c_PDF||len||120||dec||0||name||expr10_48_49||uid||EJYGASCMTQ||page||1||x||8||y||240||w||1056||h||16||sequence||17|||type||Label||value||DATI DI NASCITA||text_type||constant||name||label11||uid||CLLFPZHRTQ||page||1||x||8||y||262||w||96||h||16||sequence||33||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||&#39;Paese Nascita: &#39;+LRTrim(stampa_seek_sogg_web_nas.c_PAESENAS)||len||254||dec||0||name||expr13||uid||YASLMGYPAG||page||1||x||248||y||280||w||816||h||16||sequence||22|||type||Expr||exp||&#39;Nato il: &#39;+stampa_seek_sogg_web_nas.c_DATANAS||len||100||dec||0||name||expr12||uid||TWMWTRKCOP||page||1||x||8||y||280||w||237||h||16||sequence||21|||type||Expr||exp||&#39;Luogo Nascita: &#39;+LRTrim(stampa_seek_sogg_web_nas.c_LUOGONAS_R)||len||254||dec||0||name||expr14||uid||ZMOQHYGHJE||page||1||x||8||y||297||w||1056||h||16||sequence||23|||type||Label||value||DATI RESIDENZA||text_type||constant||name||label15||uid||HCKPVOYWMW||page||1||x||8||y||320||w||96||h||16||sequence||36||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||&#39;Nazione Residenza: &#39;+LRTrim(stampa_seek_sogg_web_ind.c_NAZIONE)||dec||0||name||expr16||uid||HFMJQJUNRP||page||1||x||8||y||338||w||1056||h||16||sequence||26|||type||Expr||exp||&#39;Indirizzo Residenza: &#39;+LRTrim(stampa_seek_sogg_web_ind.c_INDIRIZZO)||dec||0||name||expr17||uid||HEMBUNMNVU||page||1||x||8||y||355||w||1056||h||16||sequence||27|||type||Label||value||DATI DOCUMENTI||text_type||constant||name||label18||uid||CDICGLASBH||page||1||x||8||y||376||w||97||h||16||sequence||43||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Expr||exp||&#39;Numero Passaporto:&#39; + stampa_seek_sogg_web_pas.c_NUMEROPASS||dec||0||name||expr19||uid||KOCYFIKSTK||page||1||x||8||y||394||w||1056||h||16||sequence||46|||type||Expr||exp||&#39;Paese Passaporto:&#39; + stampa_seek_sogg_web_pas.c_PAESEPASS||dec||0||name||expr20||uid||ZDGZXPXDSP||page||1||x||8||y||411||w||1056||h||16||sequence||47|||type||Expr||exp||&#39;Commento ONU: &#39;+LRTrim(stampa_seek_sogg_web_onu.c_NOTE)||type_exp||memo||dec||0||name||expr21||uid||EKZFXOPMQV||page||1||x||8||y||433||w||1056||h||16||sequence||30||stretch||true|||type||Expr||exp||&#39;Note: &#39;+stampa_seek_sogg_web.c_NOTE||type_exp||memo||dec||0||name||expr22||uid||LXSUICTSZB||page||1||x||8||y||458||w||1056||h||16||sequence||39||stretch||true|||type||Box||name||Box23||x||8||y||478||w||1056||h||0||uid||RQRXJPAEZA||sequence||13||page||1||bb_border_colour||false||border_width||1|||type||Box||name||Box24||x||8||y||484||w||1056||h||0||uid||DYWXQBEUDA||sequence||40||page||1||bb_border_colour||false||border_width||1|||type||Label||value||&#39;Data: &#39;+arfn_fdate(Date())||text_type||expression||name||label25||uid||XOBEFMMLJP||page||1||x||8||y||486||w||165||h||16||sequence||14|||type||Label||value||&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))||text_type||expression||name||label26||uid||BFYOURVXKD||page||1||x||659||y||486||w||405||h||16||sequence||15||align||right||| -->
+
+<REPORT NAME="aosrp_ricerca_sogg_web" TITLE="Stampa Con Esito Positivo (Liste WEB)" QUERY="stampa_seek_sogg_web" MAXDEPTH="4" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="stampa_seek_sogg_web.IDBASE" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web.RAGSOC" TYPE="C" LEN="120" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web.NOTE" TYPE="M" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web.RIFERIM" TYPE="C" LEN="200" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web.ULTAGGSOG" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web.ULTAGGCON" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web.LISTA" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web.CARICA" TYPE="C" LEN="254" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web.ENTITY_ID" TYPE="N" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web.CHIAVEREP" TYPE="C" LEN="20" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web.PDF" TYPE="C" LEN="254" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web.LEGAL_B" TYPE="C" LEN="120" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_nas.LISTA" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_nas.ENTITY_ID" TYPE="N" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_nas.DATANAS" TYPE="C" LEN="100" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_nas.PAESENAS" TYPE="C" LEN="254" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_nas.LUOGONAS_R" TYPE="C" LEN="254" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_nas.CPROWNUM" TYPE="N" LEN="4" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_nas.CHIAVEREP" TYPE="C" LEN="20" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_ind.LISTA" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_ind.ENTITY_ID" TYPE="N" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_ind.CPROWNUM" TYPE="N" LEN="4" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_ind.NAZIONE" TYPE="C" LEN="150" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_ind.INDIRIZZO" TYPE="C" LEN="254" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_ind.CITTA" TYPE="C" LEN="150" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_ind.CHIAVEREP" TYPE="C" LEN="20" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_pas.LISTA" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_pas.ENTITY_ID" TYPE="N" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_pas.CPROWNUM" TYPE="N" LEN="4" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_pas.NUMEROPASS" TYPE="C" LEN="150" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_pas.PAESEPASS" TYPE="C" LEN="100" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_pas.CHIAVEREP" TYPE="C" LEN="20" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_onu.LISTA" TYPE="C" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_onu.ENTITY_ID" TYPE="N" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_onu.CPROWNUM" TYPE="N" LEN="4" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_onu.NOTE" TYPE="M" LEN="10" DEC="0" />
+    <FIELD NAME="stampa_seek_sogg_web_onu.CHIAVEREP" TYPE="C" LEN="20" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="146" EXPRESSION="Page header">
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="9" X="8" YY="81" XX="1064"
+                    ALIGN="L"
+                    UID="JRMZMFGQCP" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="ESITO DI RICERCA TRA SOGGETTI SEGNALATI (LISTE WEB)" EXPRTYPE="constant"
+                    Y="18" X="16" YY="44" XX="1056"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Verdana" FONTSIZE="14"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="&quot;ARCHIVI DI RICERCA AGGIORNATI AL &quot;+arfn_fdate(c_ULTAGGSOG)" EXPRTYPE="expression"
+                    Y="51" X="16" YY="70" XX="1056"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="JRMZMFGQCP"/>
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="84" X="8" YY="120" XX="1064"
+                    ALIGN="L"
+                    UID="ZQLIRDKBXJ" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="espressione" NAME="iif(criterio=&#39;D&#39;,&#39;[DENOMINAZIONE]: &#39;+denomin,&#39;[RICERCA A BLOCCHI]: &#39;+ simili)" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="93" X="16" YY="109" XX="1056"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="40"
+                    />
+              <ITEM OBJ="box_end" UID="ZQLIRDKBXJ"/>
+              <ITEM OBJ="stringa" NAME="DATI DALL&#39;ELENCO SOGGETTI SEGNALATI" EXPRTYPE="constant"
+                    Y="123" X="8" YY="142" XX="504"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Verdana" FONTSIZE="10"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="144" X="8" XX="1065" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="0" FOOTH="26" SYMNAME="" UID="KACFMEPNZU" TOP="146" BOTTOM="436" EXPRESSION="c_IDBASE" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+          <SECTION TYPE="group" HEADH="290" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="espressione" NAME="&#39;Denominazione: &#39; + c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="1" X="8" YY="18" XX="1064"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="9"
+                            FONTSTYLE="B"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="&#39;Carica: &#39; + c_CARICA" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="20" X="8" YY="36" XX="1064"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="120"
+                            />
+                      <ITEM OBJ="espressione" NAME="&#39;Riferimenti: &#39; + c_RIFERIM" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="38" X="8" YY="54" XX="1064"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="120"
+                            />
+                      <ITEM OBJ="espressione" NAME="&#39;Lista: &#39; + c_LISTA + &#39; -Identificativo Lista: &#39;+LRTrim(Str(c_ENTITY_ID,10,0))" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="56" X="8" YY="72" XX="1064"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="120"
+                            />
+                      <ITEM OBJ="espressione" NAME="&#39;Legal Basis: &#39; + c_LEGAL_B" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="74" X="8" YY="90" XX="1064"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="120"
+                            />
+                      <ITEM OBJ="espressione" NAME="&#39;Link PDF: &#39; + c_PDF" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="92" X="8" YY="108" XX="1064"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="120"
+                            />
+                  <SECTIONQUERY TYPE="alternatequery" UID="GZHDWPBGDW" SYMNAME="Dati_Nascita" Y="111" TOP="257" BOTTOM="310" ALTERNATEQUERY="stampa_seek_sogg_web_nas" DISPLAY_EXPRESSION="" HIDECONDITION="" EXPRESSION="stampa_seek_sogg_web_nas.c_CHIAVEREP = stampa_seek_sogg_web.c_CHIAVEREP">
+                          <SECTION TYPE="group" HEADH="18" FOOTH="0" SYMNAME="" UID="OUYWTPIKGO" TOP="275" BOTTOM="310" EXPRESSION="stampa_seek_sogg_web_nas.c_CHIAVEREP" DISPLAY_EXPRESSION=""
+                           STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+                           PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+                                      <ITEM OBJ="stringa" NAME="DATI DI NASCITA" EXPRTYPE="constant"
+                                            Y="2" X="8" YY="18" XX="104"
+                                            ALIGN="L"
+                                            REPEATED="true"
+                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                            FONTSTYLE="B"
+                                            />
+                                  <SECTION TYPE="group" HEADH="35" FOOTH="0" EXPRESSION="" SYMNAME=""
+                                   STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+                                   REPRINTHEADER="false" REPRINTFOOTER="false">
+                                              <ITEM OBJ="espressione" NAME="&#39;Nato il: &#39;+stampa_seek_sogg_web_nas.c_DATANAS" ITEMTYPE="C" EXPRTYPE="expression"
+                                                    Y="1" X="8" YY="17" XX="245"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    LEN="100"
+                                                    />
+                                              <ITEM OBJ="espressione" NAME="&#39;Paese Nascita: &#39;+LRTrim(stampa_seek_sogg_web_nas.c_PAESENAS)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                    Y="1" X="248" YY="17" XX="1064"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    LEN="254"
+                                                    />
+                                              <ITEM OBJ="espressione" NAME="&#39;Luogo Nascita: &#39;+LRTrim(stampa_seek_sogg_web_nas.c_LUOGONAS_R)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                    Y="18" X="8" YY="34" XX="1064"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    LEN="254"
+                                                    />
+                                  </SECTION>
+                          </SECTION>
+                  </SECTIONQUERY>
+                  <SECTIONQUERY TYPE="alternatequery" UID="NTYXQJUZLT" SYMNAME="Indirizzi" Y="0" TOP="310" BOTTOM="365" ALTERNATEQUERY="stampa_seek_sogg_web_ind" DISPLAY_EXPRESSION="" HIDECONDITION="" EXPRESSION="stampa_seek_sogg_web_ind.c_CHIAVEREP = stampa_seek_sogg_web.c_CHIAVEREP">
+                          <SECTION TYPE="group" HEADH="19" FOOTH="0" SYMNAME="" UID="ONVMWQRRYO" TOP="329" BOTTOM="365" EXPRESSION="stampa_seek_sogg_web_ind.c_CHIAVEREP" DISPLAY_EXPRESSION=""
+                           STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+                           PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+                                      <ITEM OBJ="stringa" NAME="DATI RESIDENZA" EXPRTYPE="constant"
+                                            Y="3" X="8" YY="19" XX="104"
+                                            ALIGN="L"
+                                            REPEATED="true"
+                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                            FONTSTYLE="B"
+                                            />
+                                  <SECTION TYPE="group" HEADH="36" FOOTH="0" EXPRESSION="" SYMNAME=""
+                                   STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+                                   REPRINTHEADER="false" REPRINTFOOTER="false">
+                                              <ITEM OBJ="espressione" NAME="&#39;Nazione Residenza: &#39;+LRTrim(stampa_seek_sogg_web_ind.c_NAZIONE)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                    Y="1" X="8" YY="17" XX="1064"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    LEN="10"
+                                                    />
+                                              <ITEM OBJ="espressione" NAME="&#39;Indirizzo Residenza: &#39;+LRTrim(stampa_seek_sogg_web_ind.c_INDIRIZZO)" ITEMTYPE="C" EXPRTYPE="expression"
+                                                    Y="18" X="8" YY="34" XX="1064"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    LEN="10"
+                                                    />
+                                  </SECTION>
+                          </SECTION>
+                  </SECTIONQUERY>
+                  <SECTIONQUERY TYPE="alternatequery" UID="AHYORJKRXP" SYMNAME="Documenti" Y="0" TOP="365" BOTTOM="416" ALTERNATEQUERY="stampa_seek_sogg_web_pas" DISPLAY_EXPRESSION="" HIDECONDITION="" EXPRESSION="stampa_seek_sogg_web_pas.c_CHIAVEREP=stampa_seek_sogg_web.c_CHIAVEREP">
+                          <SECTION TYPE="group" HEADH="16" FOOTH="0" SYMNAME="" UID="SSUZWAHREN" TOP="381" BOTTOM="416" EXPRESSION="stampa_seek_sogg_web_pas.c_CHIAVEREP" DISPLAY_EXPRESSION=""
+                           STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+                           PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+                                      <ITEM OBJ="stringa" NAME="DATI DOCUMENTI" EXPRTYPE="constant"
+                                            Y="0" X="8" YY="16" XX="105"
+                                            ALIGN="L"
+                                            REPEATED="true"
+                                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                                            FONTSTYLE="B"
+                                            />
+                                  <SECTION TYPE="group" HEADH="35" FOOTH="0" EXPRESSION="" SYMNAME=""
+                                   STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+                                   REPRINTHEADER="false" REPRINTFOOTER="false">
+                                              <ITEM OBJ="espressione" NAME="&#39;Numero Passaporto:&#39; + stampa_seek_sogg_web_pas.c_NUMEROPASS" ITEMTYPE="C" EXPRTYPE="expression"
+                                                    Y="1" X="8" YY="17" XX="1064"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    LEN="10"
+                                                    />
+                                              <ITEM OBJ="espressione" NAME="&#39;Paese Passaporto:&#39; + stampa_seek_sogg_web_pas.c_PAESEPASS" ITEMTYPE="C" EXPRTYPE="expression"
+                                                    Y="18" X="8" YY="34" XX="1064"
+                                                    ALIGN="L"
+                                                    REPEATED="true"
+                                                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                                    LEN="10"
+                                                    />
+                                  </SECTION>
+                          </SECTION>
+                  </SECTIONQUERY>
+                  <SECTIONQUERY TYPE="alternatequery" UID="HOUBXJJPHF" SYMNAME="Commenti_ONU" Y="0" TOP="416" BOTTOM="436" ALTERNATEQUERY="stampa_seek_sogg_web_onu" DISPLAY_EXPRESSION="" HIDECONDITION="" EXPRESSION="stampa_seek_sogg_web_onu.c_CHIAVEREP = stampa_seek_sogg_web.c_CHIAVEREP">
+                          <SECTION TYPE="group" HEADH="20" FOOTH="0" EXPRESSION="" SYMNAME=""
+                           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+                           REPRINTHEADER="false" REPRINTFOOTER="false">
+                                      <ITEM OBJ="espressione" NAME="&#39;Commento ONU: &#39;+LRTrim(stampa_seek_sogg_web_onu.c_NOTE)" ITEMTYPE="M" EXPRTYPE="expression"
+                                            Y="2" X="8" YY="18" XX="1064"
+                                            ALIGN="L"
+                                            STRETCH="true"
+                                            REPEATED="true"
+                                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                                            LEN="10"
+                                            />
+                          </SECTION>
+                  </SECTIONQUERY>
+          </SECTION>
+                <SECTIONHIDE TYPE="section" UID="QUUUIIUCXD" HEADH="19" TOP="438" BOTTOM="457" EXPRESSION="flgnote=&#39;N&#39;" PRINTASBLOCK="false">
+                      <ITEM OBJ="espressione" NAME="&#39;Note: &#39;+stampa_seek_sogg_web.c_NOTE" ITEMTYPE="M" EXPRTYPE="expression"
+                            Y="4" X="8" YY="20" XX="1064"
+                            ALIGN="L"
+                            STRETCH="true"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="10"
+                            />
+                </SECTIONHIDE>
+              <ITEM OBJ="h_line" Y="23" X="8" XX="1065" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+  </SECTION>
+  <PAGEFOOTER Y="462" H="21" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="2" X="8" XX="1065" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="4" X="8" YY="20" XX="173"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+                    Y="4" X="659" YY="20" XX="1064"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

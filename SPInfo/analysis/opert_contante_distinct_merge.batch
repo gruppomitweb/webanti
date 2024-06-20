@@ -1,0 +1,54 @@
+﻿* --- Resource Vers. 0.9
+opert_contante_distinct_merge
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Allinea tabella con i soli dati comuni
+file_modified_on=#2023-03-09 10:41:22
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='opert_contante_distinct_merge
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'ope_contante.taglio
+'ope_contante.tipoattiv
+'ope_contante_distinct.idope
+'ope_contante_distinct.billsrit
+'ope_contante_distinct.billssov
+'ope_contante_distinct.tipatt
+'ope_contante_distinct.tipoattiv
+'ope_contante_distinct.codicegln
+'ope_contante_distinct.abiinter
+'ope_contante_distinct.abipropr
+'ope_contante_distinct.glnaltrosog
+'ope_contante_distinct.glnaltrasc
+'ope_contante_distinct.codclicon
+'ope_contante_distinct.codcomcon
+'ope_contante_distinct.ateco_con
+'ope_contante_distinct.coddipe
+]
+'Queries
+[
+'qbe_ope_contante_distinct.vqr
+]
+'Tables
+[
+'ope_contante<table>
+'ope_contante_distinct<table>
+]
+}
+I
+*--*
+￼[]
+*--*

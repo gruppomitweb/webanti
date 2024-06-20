@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="98799532">
+  <CodifyName>arpg_trasfrap</CodifyName>
+  <Name>arpg_trasfrap.pagedef</Name>
+  <Title>Trasferimento Rapporti</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="267606005"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_trasfrap_usr_1</JPG>
+    <Item type="immagine" x1="704" y1="9" x2="744" y2="39">
+      <Name LinkID="267620268">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_trasfrap</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Esecuzione trasferimento dati da provvisorie a definitive</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="656" y1="9" x2="696" y2="39">
+      <Name LinkID="267620268">images/save.gif</Name>
+      <Image>images/save.gif</Image>
+      <Hyperlink>Update()</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Conferma i record selezionati</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="608" y1="9" x2="648" y2="39">
+      <Name LinkID="267620268">images/dese_all.gif</Name>
+      <Image>images/dese_all.gif</Image>
+      <Hyperlink>arrt_seldes_trasfrap</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Deseleziona tutti i rapporti</Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="560" y1="9" x2="600" y2="39">
+      <Name LinkID="267620268">images/sel_all.gif</Name>
+      <Image>images/sel_all.gif</Image>
+      <Hyperlink>arrt_seldes_trasfrap</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Seleziona tutti i rapporti</Help>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="129" x2="1246" y2="142">
+      <Name LinkID="121908521">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="116" x2="1246" y2="129">
+      <Name LinkID="67925785">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="8" y1="97" x2="192" y2="113">
+      <Name LinkID="267620268">c_RAPPORTO</Name>
+      <Help></Help>
+      <Expression>c_RAPPORTO</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="200" y1="97" x2="520" y2="113">
+      <Name LinkID="267620268">c_DESCRAP</Name>
+      <Help></Help>
+      <Expression>c_DESCRAP</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="544" y1="95" x2="627" y2="116">
+      <Name LinkID="166626613">FLGSEL</Name>
+      <Comment>Selezionato per Passaggio</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="752" y1="9" x2="792" y2="39">
+      <Name LinkID="267620268">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help>Esci dalla procedura</Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

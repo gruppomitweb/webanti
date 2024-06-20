@@ -1,0 +1,75 @@
+﻿* --- Resource Vers. 0.9
+arrt_allinea_age
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:30
+description='Allinea dati per Agenzia Entrate
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:06
+module_name='
+name='arrt_allinea_age
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'aeopcanc.idbase
+'aeopcanc.spedito
+'aeopcanc.datarif
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.inviato
+'opextrbo.datainvio
+'opextrbo.annulla
+'opextrbo.dataannu
+'opextrbo.uniquer
+'opextrbo.rapporto
+'aetesta.rapporto
+'aetesta.inviato
+'aetesta.datainvio
+'aetesta.annulla
+'aetesta.dataannu
+'aetesta.inviatoc
+'aetesta.datainvioc
+'intermbo.aggage
+]
+'Libraries
+[
+'FileLibMit<project>
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_minmax_opex.vqr
+'qbe_opextrbo_age.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'opextrbo<table>
+'tmp_newpers<table>
+'tbmacage<table>
+'aeoprig<table>
+'aeopcanc<table>
+'aetesta<table>
+'aerighe<table>
+'aecanc<table>
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

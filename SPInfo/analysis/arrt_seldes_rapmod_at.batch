@@ -1,0 +1,56 @@
+﻿* --- Resource Vers. 0.9
+arrt_seldes_rapmod_at
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:40
+description='Seleziona/Deseleziona tutte le operazioni da trasferire
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:25
+module_name='
+name='arrt_seldes_rapmod_at
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_newrapp.tipo
+]
+'Hyperlinks
+[
+'arpg_rapmod_at
+]
+'Tables
+[
+'tmp_trasfope<table>
+'tmp_newrapp<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_seldes_rapmod_at|Warning|core::document|Update dependencies|Field "1" not found in temporary table "tmp_newrapp".{Accuracy:-10}
+explanation='
+found_on=#2024-05-10 18:25:24
+message='Field "1" not found in temporary table "tmp_newrapp".
+resource_key='arrt_seldes_rapmod_at
+solvable=False
+status='unhandled
+tool='core::document
+type='Warning
+weights={
+'Accuracy
+-10
+}
+I
+]
+*--*

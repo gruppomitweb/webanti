@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="48002792">
+  <CodifyName>arpg_pers_rapporti</CodifyName>
+  <Name>arpg_pers_rapporti.pagedef</Name>
+  <Title>Rapporti relativi a Persona / Società / Fornitore (Effettivi)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="21834264"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_pers_rapporti_usr_1</JPG>
+    <Item type="sezione" x1="0" y1="75" x2="964" y2="88">
+      <Name LinkID="250263204">output area</Name>
+      <Section>output area</Section>
+      <Note></Note>
+    </Item>
+    <Item type="sezione" x1="0" y1="62" x2="964" y2="75">
+      <Name LinkID="6023704">True</Name>
+      <Section>True</Section>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="44" y1="44" x2="196" y2="60">
+      <Name LinkID="48027112">c_RAPPORTO</Name>
+      <Help></Help>
+      <Expression>c_RAPPORTO</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="204" y1="44" x2="504" y2="60">
+      <Name LinkID="48027112">c_DESCRAP</Name>
+      <Help></Help>
+      <Expression>c_DESCRAP</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="512" y1="44" x2="584" y2="60">
+      <Name LinkID="48027112">c_DATAINI</Name>
+      <Help></Help>
+      <Expression>c_DATAINI</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="592" y1="44" x2="664" y2="60">
+      <Name LinkID="48027112">c_DATAFINE</Name>
+      <Help></Help>
+      <Expression>c_DATAFINE</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="espressione" x1="672" y1="44" x2="792" y2="60">
+      <Name LinkID="48027112">iif(c_TIPORAP=&apos;0&apos;,&apos;Persona Fisica&apos;,iif(c_TIPORAP=&apos;1&apos;,&apos;Cointestato&apos;,&apos;Persona Giuridica&apos;))</Name>
+      <Help></Help>
+      <Expression>iif(c_TIPORAP=&apos;0&apos;,&apos;Persona Fisica&apos;,iif(c_TIPORAP=&apos;1&apos;,&apos;Cointestato&apos;,&apos;Persona Giuridica&apos;))</Expression>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="7" y1="44" x2="23" y2="60">
+      <Name LinkID="48027112">images/edit.gif</Name>
+      <Image>images/edit.gif</Image>
+      <Hyperlink>armt_anarap</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="24" y1="44" x2="40" y2="60">
+      <Name LinkID="48027112">images/view.png</Name>
+      <Image>images/view.png</Image>
+      <Hyperlink>armt_anarap</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

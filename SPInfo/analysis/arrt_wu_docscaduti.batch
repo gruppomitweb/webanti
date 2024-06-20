@@ -1,0 +1,54 @@
+﻿* --- Resource Vers. 0.9
+arrt_wu_docscaduti
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:43
+description='Disabilita documenti scaduti
+file_modified_on=#2020-08-16 11:05:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:32
+module_name='
+name='arrt_wu_docscaduti
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'dersonbo.tipodoc
+'dersonbo.numdocum
+'dersonbo.flgdisabled
+'log_app.logcodice
+'log_app.logdatora
+'log_app.logutente
+'log_app.logtipope
+'log_app.logtesto
+'log_app.logtabella
+'log_app.logchiave
+'log_app.logtype
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Routines
+[
+'arfn_fdatetime
+]
+'Tables
+[
+'dersonbo<table>
+'cpazi<table>
+'log_app<table>
+]
+}
+I
+*--*
+￼[]
+*--*

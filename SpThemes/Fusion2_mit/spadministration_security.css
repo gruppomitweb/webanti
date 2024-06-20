@@ -1,0 +1,169 @@
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+.tab_item a.security_edit,
+.tab_item a.security_padlock,
+.Tabstrip.tabWrapper.useStyleColor .tab_item a.security_padlock,
+.Tabstrip.tabWrapper.useStyleColor .tab_item a.security_edit{
+  position: relative;
+  padding: 7px 7px 7px 0;
+}
+.padlockright .BoxContainer a.security_padlock {
+  position:absolute;
+  right:0px;
+  top:0px;
+}
+.padlockleft .BoxContainer a.security_padlock {
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+.padlockright .BoxContainer a.security_edit {
+  position:absolute;
+  right:calc(0px + 25px);
+  top:0px;
+}
+.padlockleft .BoxContainer a.security_edit {
+  position:absolute;
+  left:calc(0px + 25px);
+  top:0px;
+}
+
+div.BoxContainer.security_element_role_modified {
+  background-color:#ECECEC;
+}
+
+div.BoxContainer.security_element_role_modified a.security_element_initialize,
+div.BoxContainer.security_element_role_modified a.security_element_closed,
+div.BoxContainer.security_element_role_modified a.security_element_opened {
+  color:rgba(0,0,0,.93);
+}
+
+div.PageContainer.security_element_role_modified {
+  background-color:#ECECEC;
+}
+
+div.PageContainer.security_element_role_modified a.security_element_initialize,
+div.PageContainer.security_element_role_modified a.security_element_closed,
+div.PageContainer.security_element_role_modified a.security_element_opened {
+  color:rgba(0,0,0,.93);
+}
+
+.tab_item a.security_edit {
+  visibility: hidden;
+}
+.tab_item.selected a.security_edit, .BoxContainer a.security_edit {
+  visibility: visible;
+}
+
+.tab_item.selected a.security_edit a::after, .BoxContainer a.security_edit a::after {
+  content: "\EBB9";
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+  color: #777777;
+}
+
+.BoxTabstrip .BoxContainer a.security_edit a::after,
+.BoxTabstrip .tab_item.selected a.security_edit a::after,
+.BoxTabstrip .BoxContainer a.security_padlock a::after,
+.BoxTabstrip .tab_item.selected a.security_padlock a::after {
+  color: #FFFFFF;
+}
+a.security_edit a::after,
+a.security_padlock a::after {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@font-face {
+font-display: block;
+font-family: 'icons8_win10';
+src: url('../fonts/icons8_win10.woff2') format('woff2'),
+url('../fonts/icons8_win10.woff') format('woff'),
+url('../fonts/icons8_win10.ttf') format('ttf')}
+
+a.security_padlock {
+}
+.padlockright .menuview_item a.security_padlock {
+  position:absolute;
+  right:0px;
+}
+
+a.security_padlock a.opened::after {
+  content: "\E91C";
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+  color: #00FF00;
+}
+
+.hoverable a.security_padlock a.opened:hover::after {
+  content: "\ED02";
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+  color: #EC7872;
+}
+
+
+a.security_padlock a.closed::after {
+  content: "\ED02";
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+  color: #EC7872;
+}
+.hoverable a.security_padlock a.closed:hover::after {
+  content: "\E91C";
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+  color: #00FF00;
+}
+
+a.security_padlock a.initialize::after {
+  content: "\EF7B";
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+  color: #737373;
+}
+.hoverable a.security_padlock a.initialize:hover::after {
+  content: "\E91C";
+  font-family: icons8_win10;
+  font-weight: normal;
+  font-size: 20px;
+  color: #00FF00;
+}
+
+.menuview_content li a.security_element_opened {
+  color:rgba(0,0,0,0.93);
+  vertical-align:top;
+}
+.menuview_content li a.security_element_closed {
+  color:rgba(0,0,0,.30);
+  vertical-align:top;
+}
+
+.menuview_content li a.security_element_initialize {
+  vertical-align:top;
+}
+
+.hide_element_closed li.security_element_closed,
+.hide_element_closed div.security_element_closed {
+  display:none;
+}
+
+.menuview_content li.security_element_role_modified {
+  background-color:#ECECEC;
+}
+
+.menuview_content li.security_element_role_modified a.security_element_initialize,
+.menuview_content li.security_element_role_modified a.security_element_closed,
+.menuview_content li.security_element_role_modified a.security_element_opened {
+  color:rgba(0,0,0,.93);
+}

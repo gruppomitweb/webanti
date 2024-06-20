@@ -1,0 +1,89 @@
+﻿* --- Resource Vers. 0.9
+arrt_cgo_operazioni_match
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:31
+description='Match Operazioni (CGO)
+file_modified_on=#2024-02-27 16:21:16
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='public
+I
+}
+modified_on=#2024-05-10 18:25:08
+module_name='
+name='arrt_cgo_operazioni_match
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'cgo_operazioni.snainumope
+'cgo_operazioni.codfisc
+'cgo_operazioni.ragsoc
+'cgo_operazioni.domicilio
+'cgo_operazioni.datanasc
+'cgo_operazioni.nascomun
+'cgo_operazioni.tipodoc
+'cgo_operazioni.numdocum
+'cgo_operazioni.datarilasc
+'cgo_operazioni.autrilasc
+'cgo_operazioni.desccit
+'cgo_operazioni.provincia
+'cgo_operazioni.paese
+'cgo_operazioni.cap
+'cgo_operazioni.tipinter
+'cgo_operazioni.sesso
+'cgo_operazioni.datavali
+'cgo_operazioni.nasstato
+'cgo_operazioni.nome
+'cgo_operazioni.cognome
+'cgo_operazioni.cfestero
+'cgo_operazioni.mezpagam
+'cgo_operazioni.codcab
+'cgo_operazioni.pep
+'cgo_operazioni.flagcont
+'cgo_operazioni.totcont
+'cgo_operazioni.iban
+'cgo_operazioni.attiv
+'cgo_operazioni.cgoflgvlt
+'cgo_operazioni.assegno
+'cgo_operazioni.rdcodaut
+'cgo_operazioni.rdlocaut
+'cgo_operazioni.cc4cifre
+'cgo_operazioni.numtel
+'cgo_operazioni.iddocall
+'cgo_operazioni.flgdocall
+'cgo_operazioni.ccannsca
+'cgo_operazioni.ccmessca
+'cgo_operazioni.numopedl
+'cgo_operazioni.tipopedl
+]
+'Libraries
+[
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_cgo_match_concessionario.vqr
+]
+'Routines
+[
+'arfn_fdatetime
+'arrt_snai_oper_save
+'arrt_writelog
+]
+'Tables
+[
+'cpazi<table>
+'cgo_operazioni_dl<table>
+'cgo_operazioni<table>
+]
+}
+I
+*--*
+￼[]
+*--*

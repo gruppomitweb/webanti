@@ -1,0 +1,429 @@
+﻿* --- Resource Vers. 0.9
+dersonbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Soggetti/Documenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='dersonbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'dersonbo.tipodoc
+'dersonbo.numdocum
+'dersonbo.connes
+'dersonbo.ragsoc
+'dersonbo.codfisc
+'dersonbo.sesso
+'dersonbo.datanasc
+'dersonbo.nasstato
+'dersonbo.nascomun
+'dersonbo.tipinter
+'dersonbo.datarilasc
+'dersonbo.datavali
+'dersonbo.nome
+'dersonbo.cognome
+'dersonbo.progimport
+'dersonbo.luogonas
+'dersonbo.flgcfvalido
+'dersonbo.flgcgformat
+'dersonbo.flgcieuropa
+'dersonbo.flgdisabled
+'dersonbo.datultope
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'dersonbo.codfisc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODFISC
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.cognome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cognome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='COGNOME
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.connes
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Collegamento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNES
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.datanasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATANASC
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.datarilasc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rilascio Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATARILASC
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.datavali
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAVALI
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.datultope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Ultima Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATULTOPE
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.flgcfvalido
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Validato AGE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGCFVALIDO
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.flgcgformat
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Fiscale Formalmente Valido
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGCGFORMAT
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.flgcieuropa
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Carta Identità Europea
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGCIEUROPA
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.flgdisabled
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Disabilitato per il confronto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGDISABLED
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.luogonas
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Luogo di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='LUOGONAS
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.nascomun
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Luogo di Nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASCOMUN
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.nasstato
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Stato di nascita
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NASSTATO
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.nome
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NOME
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.numdocum
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Numero Doc.
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMDOCUM
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.progimport
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo d'importazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGIMPORT
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Ragione Sociale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAGSOC
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.sesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Sesso
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SESSO
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.tipinter
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPINTER
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+'dersonbo.tipodoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Documento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPODOC
+state=3
+table_name='dersonbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'dersonbo.codfisc
+[]
+'dersonbo.cognome
+[]
+'dersonbo.connes
+[]
+'dersonbo.datanasc
+[]
+'dersonbo.datarilasc
+[]
+'dersonbo.datavali
+[]
+'dersonbo.datultope
+[]
+'dersonbo.flgcfvalido
+[]
+'dersonbo.flgcgformat
+[]
+'dersonbo.flgcieuropa
+[]
+'dersonbo.flgdisabled
+[]
+'dersonbo.luogonas
+[]
+'dersonbo.nascomun
+[]
+'dersonbo.nasstato
+[]
+'dersonbo.nome
+[]
+'dersonbo.numdocum
+[]
+'dersonbo.progimport
+[]
+'dersonbo.ragsoc
+[]
+'dersonbo.sesso
+[]
+'dersonbo.tipinter
+[]
+'dersonbo.tipodoc
+[]
+}
+*--*

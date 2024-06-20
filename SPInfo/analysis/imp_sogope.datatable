@@ -1,0 +1,163 @@
+﻿* --- Resource Vers. 0.9
+imp_sogope<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='SOGOPE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='imp_sogope
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'imp_sogope.idbase
+'imp_sogope.idfilebo
+'imp_sogope.codsog
+'imp_sogope.numcol
+'imp_sogope.tipofile
+'imp_sogope.legame
+'imp_sogope.rapcol
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'imp_sogope.codsog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Soggetto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODSOG
+state=3
+table_name='imp_sogope
+type='field
+used_resource_keys={}
+I
+'imp_sogope.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codic
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='imp_sogope
+type='field
+used_resource_keys={}
+I
+'imp_sogope.idfilebo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valore di UniqueCode di ARCHINF/ARCHOPE
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDFILEBO
+state=3
+table_name='imp_sogope
+type='field
+used_resource_keys={}
+I
+'imp_sogope.legame
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Legame
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='LEGAME
+state=3
+table_name='imp_sogope
+type='field
+used_resource_keys={}
+I
+'imp_sogope.numcol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMCOL
+state=3
+table_name='imp_sogope
+type='field
+used_resource_keys={}
+I
+'imp_sogope.rapcol
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Solo se collegato a rapporto continuativo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPCOL
+state=3
+table_name='imp_sogope
+type='field
+used_resource_keys={}
+I
+'imp_sogope.tipofile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='O=Operazioni - R=Rapporto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOFILE
+state=3
+table_name='imp_sogope
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'imp_sogope.codsog
+[]
+'imp_sogope.idbase
+[]
+'imp_sogope.idfilebo
+[]
+'imp_sogope.legame
+[]
+'imp_sogope.numcol
+[]
+'imp_sogope.rapcol
+[]
+'imp_sogope.tipofile
+[]
+}
+*--*

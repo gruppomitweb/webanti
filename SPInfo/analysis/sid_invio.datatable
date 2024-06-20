@@ -1,0 +1,239 @@
+﻿* --- Resource Vers. 0.9
+sid_invio<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='INVII SID
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='sid_invio
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'sid_invio.codinvio
+'sid_invio.tipinvio
+'sid_invio.tpcinvio
+'sid_invio.datinvio
+'sid_invio.anninvio
+'sid_invio.mesinvio
+'sid_invio.prtinvio
+'sid_invio.fleinvio
+'sid_invio.fl1invio
+'sid_invio.fl2invio
+'sid_invio.flginvio
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'sid_invio.anninvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno di Riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNINVIO
+state=3
+table_name='sid_invio
+type='field
+used_resource_keys={}
+I
+'sid_invio.codinvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice INVIO
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINVIO
+state=3
+table_name='sid_invio
+type='field
+used_resource_keys={}
+I
+'sid_invio.datinvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Creazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATINVIO
+state=3
+table_name='sid_invio
+type='field
+used_resource_keys={}
+I
+'sid_invio.fl1invio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome File 1 SID
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FL1INVIO
+state=3
+table_name='sid_invio
+type='field
+used_resource_keys={}
+I
+'sid_invio.fl2invio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome File 2 SID
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FL2INVIO
+state=3
+table_name='sid_invio
+type='field
+used_resource_keys={}
+I
+'sid_invio.fleinvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome File Creato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLEINVIO
+state=3
+table_name='sid_invio
+type='field
+used_resource_keys={}
+I
+'sid_invio.flginvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Creati File
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLGINVIO
+state=3
+table_name='sid_invio
+type='field
+used_resource_keys={}
+I
+'sid_invio.mesinvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mese di Riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MESINVIO
+state=3
+table_name='sid_invio
+type='field
+used_resource_keys={}
+I
+'sid_invio.prtinvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Protocollo Comunicazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRTINVIO
+state=3
+table_name='sid_invio
+type='field
+used_resource_keys={}
+I
+'sid_invio.tipinvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Invio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPINVIO
+state=3
+table_name='sid_invio
+type='field
+used_resource_keys={}
+I
+'sid_invio.tpcinvio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Comunicazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TPCINVIO
+state=3
+table_name='sid_invio
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'sid_invio.anninvio
+[]
+'sid_invio.codinvio
+[]
+'sid_invio.datinvio
+[]
+'sid_invio.fl1invio
+[]
+'sid_invio.fl2invio
+[]
+'sid_invio.fleinvio
+[]
+'sid_invio.flginvio
+[]
+'sid_invio.mesinvio
+[]
+'sid_invio.prtinvio
+[]
+'sid_invio.tipinvio
+[]
+'sid_invio.tpcinvio
+[]
+}
+*--*

@@ -1,0 +1,237 @@
+ 2
+"Deleghe su rapporti"
+"jelegabo"
+"jelegabo"
+ 215
+ 89
+*
+"Anagrafica Rapporti"
+"jnarapbo"
+"jnarapbo"
+ 25
+ 25
+*
+ 16
+"Codice Rapporto"
+"jelegabo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"N° Riga"
+"jelegabo.CPROWNUM"
+"CPROWNUM"
+"N"
+ 4
+ 0
+*
+""
+"jelegabo.CODINTER"
+"CODINTER"
+"C"
+ 16
+ 0
+*
+""
+"jelegabo.DESCINTER"
+"DESCINTER"
+"C"
+ 70
+ 0
+*
+"Data Inizio"
+"jelegabo.DATAINI"
+"DATAINI"
+"D"
+ 8
+ 0
+*
+"Data Fine"
+"jelegabo.DATAFINE"
+"DATAFINE"
+"D"
+ 8
+ 0
+*
+"Tipo Rapporto"
+"jelegabo.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+*
+"Tipo Persona"
+"jelegabo.TIPOPERS"
+"TIPOPERS"
+"C"
+ 1
+ 0
+*
+"Stato Registrazione"
+"jelegabo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+""
+"jelegabo.OPERAZMOD"
+"OPERAZMOD"
+"C"
+ 20
+ 0
+*
+"Identificativo Registrazione"
+"jelegabo.IDEREG"
+"IDEREG"
+"C"
+ 20
+ 0
+*
+"Collegamento"
+"jelegabo.COLLEGAMEN"
+"COLLEGAMEN"
+"C"
+ 20
+ 0
+*
+"N° Progressivo"
+"jelegabo.NUMPROG1"
+"NUMPROG1"
+"C"
+ 11
+ 0
+*
+"N° Registrazione"
+"jelegabo.NUMPROG2"
+"NUMPROG2"
+"C"
+ 11
+ 0
+*
+""
+"jnarapbo.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"Tipo Rapporto"
+"jnarapbo.TIPORAP"
+"TIPORAP1"
+"C"
+ 1
+ 0
+*
+ 1
+"Anagrafica Rapporti"
+"jnarapbo.RAPPORTO=jelegabo.RAPPORTO"
+"Right outer"
+"jnarapbo"
+"jelegabo"
+*
+ 10
+"([NOTEMPTYSTR(jelegabo.CODINTER)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(jelegabo.DATAINI)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"jelegabo.NOAGE"
+""
+"<>"
+"ýSý"
+"AND"
+""
+*
+"[NOTEMPTYDATE(jelegabo.DATAFINE)]"
+""
+"="
+"0"
+"AND"
+""
+*
+"jelegabo.DATAINI"
+""
+"<="
+"?w_a_data)"
+"OR"
+""
+*
+"([NOTEMPTYSTR(jelegabo.CODINTER)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"[NOTEMPTYDATE(jelegabo.DATAINI)]"
+""
+"<>"
+"0"
+"AND"
+""
+*
+"jelegabo.DATAINI"
+""
+"<="
+"?w_a_data"
+"AND"
+""
+*
+"jelegabo.DATAFINE"
+""
+">="
+"?w_dadata)"
+"AND"
+""
+*
+"jnarapbo.NOPROT"
+""
+"="
+"0"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 2
+"w_a_data"
+"Data Inizio"
+"Date"
+"8"
+"0"
+""
+*
+"w_dadata"
+"Data Fine"
+"Date"
+"8"
+"0"
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.f.
+ 9
+.f.
+""
+.f.
+*

@@ -1,0 +1,23 @@
+<link rel="stylesheet" type="text/css" href='../<%=SPPrxycizer.proxycizedPath("portalstudio/preview.css")%>' />
+<script src='../<%=SPPrxycizer.proxycizedPath("portalstudio/preview.js")%>'></script>
+<script src='../<%=SPPrxycizer.proxycizedPath("visualweb/qrcode2.js")%>'></script>
+<div id='i_preview_wrapper'>
+  <div id='i_preview_title'>
+    <div id="i_preview_close_button" onclick="togglePreview()"></div>
+    <div id="i_preview_parameters_button" onclick="toggleParameters()"></div>
+    <div id="i_preview_caption">Preview</div>
+    <div id='steps_preview' class='steps_preview'>
+      <a class='steps_preview_icon iphone vertical' onclick='setPreview(320,568,"iphone_v",this)'></a>
+      <a class='steps_preview_icon iphone horizontal' onclick='setPreview(568,320,"iphone_o",this)'></a>
+      <a class='steps_preview_icon ipad vertical' onclick='setPreview(768,1024,"ipad_v",this)'></a>
+      <a class='steps_preview_icon ipad horizontal' onclick='setPreview(1024,760,"ipad_o",this)'></a>
+      <a class='steps_preview_icon desktop' onclick='setPreview(-1,-1,"desktop",this)'></a>
+      <a class='steps_preview_icon qrcode' onclick='setPreview(-1,-1,"qrcode",this)'></a>
+    </div>
+  </div>
+  <div id='i_preview_container' class='desktop'>
+  <div id='i_preview_qrcode'></div>
+  <iframe allowtransparency="true" frameborder="0" toResize='no' id='i_preview' name='i_preview'></iframe>
+  </div>
+  <div id='parameters_wrapper'>Parameters List</div>
+</div>

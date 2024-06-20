@@ -1,0 +1,152 @@
+﻿* --- Resource Vers. 0.9
+aosdt_anom_ril
+￼Iresource.ResourceDetail
+created_on=#2024-05-10 18:24:27
+description='Anomalie rilevate
+file_modified_on=#2023-11-29 15:40:22
+location='
+measures={}
+modified_on=#2024-05-10 18:24:47
+module_name='
+name='aosdt_anom_ril
+state=1
+type='detail
+used_resource_keys={
+'Fields
+[
+'ind_def.idmod
+'ind_def.idind
+'ind_def.progind
+'ind_def.descri
+'ind_def.noapplic
+'sub_ind_def.idmod
+'sub_ind_def.idind
+'sub_ind_def.idsubind
+'sub_ind_def.progsubind
+'sub_ind_def.descri
+'sub_ind_def.noapplic
+]
+'Tables
+[
+'rilevazione<table>
+'ind_def<table>
+'sub_ind_def<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]aosdt_anom_ril|Error|core::document|Update dependencies|Table "anom_ril" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:47
+message='Table "anom_ril" not found.
+resource_key='aosdt_anom_ril
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]aosdt_anom_ril|Error|core::document|Update dependencies|Field "anom_ril.IDMOD" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:47
+message='Field "anom_ril.IDMOD" not found.
+resource_key='aosdt_anom_ril
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]aosdt_anom_ril|Error|core::document|Update dependencies|Field "anom_ril.ROWRIL" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:47
+message='Field "anom_ril.ROWRIL" not found.
+resource_key='aosdt_anom_ril
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]aosdt_anom_ril|Error|core::document|Update dependencies|Field "anom_ril.IDIND" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:47
+message='Field "anom_ril.IDIND" not found.
+resource_key='aosdt_anom_ril
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]aosdt_anom_ril|Error|core::document|Update dependencies|Field "anom_ril.IDSUBIND" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:47
+message='Field "anom_ril.IDSUBIND" not found.
+resource_key='aosdt_anom_ril
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]aosdt_anom_ril|Error|core::document|Update dependencies|Field "anom_ril.NOTA" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:47
+message='Field "anom_ril.NOTA" not found.
+resource_key='aosdt_anom_ril
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]aosdt_anom_ril|Error|core::document|Update dependencies|Field "anom_ril.CONNES" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:47
+message='Field "anom_ril.CONNES" not found.
+resource_key='aosdt_anom_ril
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

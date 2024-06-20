@@ -1,0 +1,505 @@
+﻿* --- Resource Vers. 0.9
+storicoxbrl_dett<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Storico XBRL Dettaglio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='storicoxbrl_dett
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'storicoxbrl_dett.annorif
+'storicoxbrl_dett.meserif
+'storicoxbrl_dett.progrif
+'storicoxbrl_dett.tipope
+'storicoxbrl_dett.numprog
+'storicoxbrl_dett.dataope
+'storicoxbrl_dett.codvoc
+'storicoxbrl_dett.flaglire
+'storicoxbrl_dett.segno
+'storicoxbrl_dett.totlire
+'storicoxbrl_dett.totcont
+'storicoxbrl_dett.codintdip
+'storicoxbrl_dett.abicabdip
+'storicoxbrl_dett.codcabdip
+'storicoxbrl_dett.rapporto
+'storicoxbrl_dett.connescli
+'storicoxbrl_dett.perpaese
+'storicoxbrl_dett.percab
+'storicoxbrl_dett.settsint
+'storicoxbrl_dett.connesben
+'storicoxbrl_dett.paesecp
+'storicoxbrl_dett.codcabcp
+'storicoxbrl_dett.intcontro
+'storicoxbrl_dett.paeseicp
+'storicoxbrl_dett.cabicp
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'storicoxbrl_dett.abicabdip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ABI CAB della DIPENDENZA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ABICABDIP
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.annorif
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Anno di Riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='ANNORIF
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.cabicp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Comune Intermediario Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CABICP
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.codcabcp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Comune Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCABCP
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.codcabdip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB DIPENDENZA
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODCABDIP
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.codintdip
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Dipendenza
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODINTDIP
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.codvoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale Aggregata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODVOC
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.connesben
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESBEN
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.connescli
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CONNESCLI
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.dataope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='DATAOPE
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.flaglire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Valuta
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='FLAGLIRE
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.intcontro
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Intermediario Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='INTCONTRO
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.meserif
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Mese di Riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='MESERIF
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.numprog
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='NUMPROG
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.paesecp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='PAESE Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESECP
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.paeseicp
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Paese Intermediario Controparte
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PAESEICP
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.percab
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='CAB Comune Residenza Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PERCAB
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.perpaese
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Paese Residenza Cliente
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PERPAESE
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.progrif
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Progressivo di riferimento
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PROGRIF
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.rapporto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='RAPPORTO
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.segno
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Segno (Dare - Avere)
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SEGNO
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.settsint
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Settorizzazione Sintetica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='SETTSINT
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.tipope
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Operazione-Frazionata-Quotata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOPE
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.totcont
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Contanti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTCONT
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+'storicoxbrl_dett.totlire
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Totale Generale
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TOTLIRE
+state=3
+table_name='storicoxbrl_dett
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'storicoxbrl_dett.abicabdip
+[]
+'storicoxbrl_dett.annorif
+[]
+'storicoxbrl_dett.cabicp
+[]
+'storicoxbrl_dett.codcabcp
+[]
+'storicoxbrl_dett.codcabdip
+[]
+'storicoxbrl_dett.codintdip
+[]
+'storicoxbrl_dett.codvoc
+[]
+'storicoxbrl_dett.connesben
+[]
+'storicoxbrl_dett.connescli
+[]
+'storicoxbrl_dett.dataope
+[]
+'storicoxbrl_dett.flaglire
+[]
+'storicoxbrl_dett.intcontro
+[]
+'storicoxbrl_dett.meserif
+[]
+'storicoxbrl_dett.numprog
+[]
+'storicoxbrl_dett.paesecp
+[]
+'storicoxbrl_dett.paeseicp
+[]
+'storicoxbrl_dett.percab
+[]
+'storicoxbrl_dett.perpaese
+[]
+'storicoxbrl_dett.progrif
+[]
+'storicoxbrl_dett.rapporto
+[]
+'storicoxbrl_dett.segno
+[]
+'storicoxbrl_dett.settsint
+[]
+'storicoxbrl_dett.tipope
+[]
+'storicoxbrl_dett.totcont
+[]
+'storicoxbrl_dett.totlire
+[]
+}
+*--*

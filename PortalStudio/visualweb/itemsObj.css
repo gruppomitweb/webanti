@@ -1,0 +1,331 @@
+@import url('../fonts/OpenSans.css');
+
+/* Form */
+
+.form_ctrl.form_ctrl_tab.form_ctrl_titled .tabstrip {
+  top: -61px;
+}
+
+.form_titled {
+  position: absolute;
+  top: -32px;
+  border: 1px solid #D5D5D5;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 20px;
+  color: #818181;
+  left: -1px;
+}
+
+.tabstrip {
+  position: absolute;
+  top: -30px;
+  left: -1px;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+.tabstrip .tab {
+  height: 30px;
+  float: left;
+  width: 60px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px 1px 1px 0;
+  border-color: #D5D5D5;
+  background: #F3F3F3;
+}
+
+.tabstrip .tab:first-child,
+.tabstrip.wizard .tab:first-child {
+  /*border-width: 1px 0 1px 1px;*/
+  border-left-width: 1px;
+}
+
+.tabstrip .tab[data-selected=true],
+.tabstrip.wizard .tab[data-selected=true] {
+  /*border-width: 1px 1px 0 1px;*/
+  border-bottom-width: 0 ;
+  background: #FFF;
+}
+
+/*
+.tabstrip .tab[data-selected=false],
+.tabstrip.wizard .tab[data-selected=false] {
+  border-width: 1px 1px 1px 1px;
+  background: #F3F3F3;
+}
+*/
+.tabstrip.wizard .tab {
+  position: relative;
+  border-width: 1px 0;
+}
+
+.tabstrip.wizard .tab::after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+  border-style: solid;
+  border-width: 1px 1px 0 0;
+  border-color: #D5D5D5;
+  position: absolute;
+  right: -20px;
+  -ms-transform-origin: 0 0;
+      transform-origin: 0 0;
+  box-sizing: border-box;
+  z-index: 1;
+  background: #F3F3F3;
+}
+
+.tabstrip.wizard .tab[data-selected=true]::after {
+  background: #FFF;
+}
+
+
+/* End Form */
+.labelName {
+  width: 100%;
+  height: 100%;
+  color: #898989;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+  /* text-align: center; */
+  background-color: #EBEBE4;
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.labelName > img {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 3px;
+}
+.labelName > span {
+  display: inline;
+  vertical-align: middle;
+  padding-left: 3px;
+}
+input {
+  color: #898989;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.Ctrl {
+  border: 1px dashed #D3D3D3;
+  overflow: hidden;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #888;
+}
+
+.Ctrl.outside {
+  border-color: rgb(182, 0, 0);
+}
+
+.Ctrl-background {
+  background-color: rgba(228, 228, 228, .4);
+  background-image: -webkit-repeating-linear-gradient(45deg, transparent, transparent 15px, rgba(255, 255, 255, .5) 15px, rgba(255, 255, 255, .5) 30px);
+  background-image:         repeating-linear-gradient(45deg, transparent, transparent 15px, rgba(255, 255, 255, .5) 15px, rgba(255, 255, 255, .5) 30px);
+}
+
+.Ctrl-background.outside {
+  background-color: rgba(228, 228, 228, .4);
+  background-image: -webkit-repeating-linear-gradient(45deg, transparent, transparent 15px, rgba(255, 0, 0, 0.1) 15px, rgba(255, 0, 0, 0.1) 30px);
+  background-image:         repeating-linear-gradient(45deg, transparent, transparent 15px, rgba(255, 0, 0, 0.1) 15px, rgba(255, 0, 0, 0.1) 30px);
+}
+
+.Label {
+  white-space: pre;
+}
+
+.Label.left {
+  text-align: left;
+}
+
+.Label.center {
+  text-align: center;
+}
+
+.Label.right {
+  text-align: right;
+}
+
+.Label.justify {
+  text-align: justify;
+}
+
+.Button {
+  background-color: #6C6C6C;
+  text-align: center;
+  color: #FFF;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.Image {
+  height: 100%;
+}
+
+.image-default {
+  background-image: url(../portalstudio/images/icon/imageicon.svg);
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.image-circle {
+  border-radius: 50%;
+  border: 1px solid #D2D2D2;
+  box-sizing: border-box;
+}
+
+.image-thumbnail {
+  border-radius: 20%;
+  border: 1px solid #D2D2D2;
+}
+
+.Portlet {
+  height: 100%;
+  width: 100%;
+  background-image: url(../portalstudio/images/icon/portletimage.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.Textbox {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  padding-left: 10px;
+  background: #ECEAEA;
+}
+
+.Combobox {
+  width: 100%;
+  height: 100%;
+}
+
+.Checkbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin: 0;
+  border-left: 1px solid #888;
+  border-top: 1px solid #888;
+  display: block;
+  border: 1px inset;
+  background-color: white;
+}
+
+.Checkbox.CheckboxLabel {
+  -webkit-appearance: checkbox;
+     -moz-appearance: checkbox;
+          appearance: checkbox;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Grid {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.Grid th {
+  background: #E3E3E3;
+  height: 20px;
+  min-height: 20px;
+  border: 1px solid #6C6C6C;
+}
+
+.Grid tr:first-child {
+  display: none;
+}
+
+.Grid td {
+  min-height: 20px;
+  background: #FFF;
+  border: 1px solid #6C6C6C;
+}
+
+.Grid td:nth-child(1) {
+  width: 5%;
+}
+
+.Grid td:nth-child(2) {
+  width: 20%;
+}
+
+.Grid td:nth-child(3) {
+  width: 40%;
+}
+
+.Grid td.sanitize_none {
+  background: #FFBABA;
+}
+
+.Grid input[type=checkbox] {
+  border: 1px solid #6C6C6C;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 10px;
+  height: 10px;
+}
+
+.Grid.Titles tr:first-child {
+  display: table-row;
+}
+
+.Grid.CheckboxGrid td:nth-child(1) {
+  width: 1px;
+}
+
+.Grid.Nodata {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+  text-align: center;
+}
+
+.Grid .Bo {
+  display: inline-block;
+  font-family: 'iMobileIcon';
+  font-size: 14px;
+  color: #888;
+  float: right;
+}
+
+.Grid .inputText {
+  width: 50px;
+  height: 10px;
+  margin-left: 20px;
+}
+
+.Template {
+  height: 100% !important;
+}

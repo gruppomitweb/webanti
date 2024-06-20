@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="50093571">
+  <CodifyName>arpg_stprappo_ae</CodifyName>
+  <Name>arpg_stprappo_ae.pagedef</Name>
+  <Title>Stampa Rapporti Continuativi (Pagina)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="108541026"></Title>
+    <Note/>
+    <JPG x="8" y="9">arpg_stprappo_ae_usr_1</JPG>
+    <Item type="variabile" x1="144" y1="18" x2="252" y2="38">
+      <Name LinkID="94181982">daRappo</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="54" x2="252" y2="74">
+      <Name LinkID="109918606">aRappo</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="688" y1="178" x2="728" y2="210">
+      <Name LinkID="50093666">images/print.gif</Name>
+      <Image>images/print.gif</Image>
+      <Hyperlink>arrt_stprappo_ae</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="744" y1="178" x2="784" y2="210">
+      <Name LinkID="50093666">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="632" y1="178" x2="672" y2="210">
+      <Name LinkID="50093666">images/excel.gif</Name>
+      <Image>images/excel.gif</Image>
+      <Hyperlink>arrt_stprappo_ae</Hyperlink>
+      <HyperlinkOpenOn>New Window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="24" y1="153" x2="192" y2="198">
+      <Name LinkID="57855650">tipo</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="600" y1="90" x2="784" y2="111">
+      <Name LinkID="9238110">detope</Name>
+      <Comment></Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="90" x2="210" y2="110">
+      <Name LinkID="73268318">DaData</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="376" y1="90" x2="442" y2="110">
+      <Name LinkID="159823474">AData</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

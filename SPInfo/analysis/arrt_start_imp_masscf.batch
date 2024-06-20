@@ -1,0 +1,34 @@
+﻿* --- Resource Vers. 0.9
+arrt_start_imp_masscf
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:40
+description='Lancia la maschera per l'import controllo massivo cf
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:25
+module_name='
+name='arrt_start_imp_masscf
+state=1
+type='batch
+used_resource_keys={
+'Hyperlinks
+[
+'arpg_import_masscf
+]
+'Tables
+[
+'tmp_list_imprich<table>
+]
+}
+I
+*--*
+￼[]
+*--*

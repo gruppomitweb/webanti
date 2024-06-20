@@ -1,0 +1,68 @@
+﻿* --- Resource Vers. 0.9
+tbprcsched<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Procesi schedulabili
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='tbprcsched
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tbprcsched.psprocesso
+'tbprcsched.psdescriz
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tbprcsched.psdescriz
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PSDESCRIZ
+state=3
+table_name='tbprcsched
+type='field
+used_resource_keys={}
+I
+'tbprcsched.psprocesso
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Processo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PSPROCESSO
+state=3
+table_name='tbprcsched
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tbprcsched.psdescriz
+[]
+'tbprcsched.psprocesso
+[]
+}
+*--*

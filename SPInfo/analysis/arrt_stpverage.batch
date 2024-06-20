@@ -1,0 +1,55 @@
+﻿* --- Resource Vers. 0.9
+arrt_stpverage
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:41
+description='Crea file per stampa verifica AGE
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:28
+module_name='
+name='arrt_stpverage
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_stpverage.numrap
+'tmp_stpverage.descriz
+'tmp_stpverage.tipoerr
+'tmp_stpverage.motivo
+'tmp_stpverage.datope
+'aetesta.rapporto
+'personbo.connes
+'tbcitta.sigla
+'tbcitta.citta
+'tbcitta.prov
+'tbstati.sigla
+'tbstati.descri
+]
+'Routines
+[
+'arfn_chkcodfis
+]
+'Tables
+[
+'intermbo<table>
+'tmp_stpverage<table>
+'aerighe<table>
+'aetesta<table>
+'personbo<table>
+'tbcitta<table>
+'tbstati<table>
+]
+}
+I
+*--*
+￼[]
+*--*

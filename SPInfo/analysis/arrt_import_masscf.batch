@@ -1,0 +1,103 @@
+﻿* --- Resource Vers. 0.9
+arrt_import_masscf
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Importa i dati controllo massivo cf
+file_modified_on=#2024-04-22 10:25:01
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:15
+module_name='
+name='arrt_import_masscf
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo_agg.connes
+'personbo_agg.flgvalido
+'personbo_agg.flganaval
+'tmp_scarti.erconnes
+'tmp_scarti.erragsoc
+'tmp_scarti.ercodfisc
+'tmp_scarti.ercodice
+'tmp_scarti.erdescri
+'tmp_scarti.ertesto
+'tmp_scarti.erazione
+'personbo.progimport
+'personbo.connes
+'personbo.ragsoc
+'personbo.codfisc
+'personbo.cfestero
+'personbo.cognome
+'personbo.nome
+'personbo.datanasc
+'personbo.nascomun
+'personbo.sesso
+'personbo.nasstato
+'personbo.tipinter
+'opextrbo.colleg
+'opextrbo.anno
+'opextrbo.datamodi
+'opextrbo.cfestero
+'tmp_esitosid.annorif
+'tmp_esitosid.numprog
+'tmp_esitosid.protocollo
+'tmp_esitosid.fileprot
+'tmp_esitosid.txtmsg
+'tmp_esitosid.tiporiga
+'tmp_esitosid.coderr
+'kersonbo.connes
+'kersonbo.codfisc
+'kersonbo.cfestero
+'kersonbo.ragsoc
+'kersonbo.datanasc
+'kersonbo.nascomun
+'kersonbo.sesso
+'kersonbo.nasstato
+'kersonbo.nome
+'kersonbo.cognome
+'kersonbo.tipinter
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_masscf_kersonbo_o.vqr
+]
+'Routines
+[
+'arfn_dectabs
+'arfn_exec_sid_sm_ric
+'arfn_fdatetime
+'arrt_import_masscf
+'arrt_storicopers_old
+]
+'Tables
+[
+'intermbo<table>
+'personbo<table>
+'personbo_agg<table>
+'tmp_list_imprich<table>
+'tmp_scarti<table>
+'opextrbo<table>
+'aesaldi<table>
+'tmp_esitosid<table>
+'kersonbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

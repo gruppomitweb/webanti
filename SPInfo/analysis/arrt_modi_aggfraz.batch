@@ -1,0 +1,53 @@
+﻿* --- Resource Vers. 0.9
+arrt_modi_aggfraz
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Scrive i dati per agenzia Entrate da pagina (Frazionate)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:23
+module_name='
+name='arrt_modi_aggfraz
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'fraziobo.idbase
+'fraziobo.respins
+'fraziobo.inform
+'fraziobo.noprot
+'fraziobo.ragio
+'fraziobo.modsvol
+'fraziobo.areageo
+'fraziobo.operag
+'fraziobo.scopo
+'fraziobo.natura
+'fraziobo.rtipo
+'fraziobo.rcomp
+'fraziobo.rimp
+'fraziobo.rfreq
+'fraziobo.rragio
+'fraziobo.rarea
+'fraziobo.tipo
+'fraziobo.durat
+'fraziobo.ammont
+]
+'Tables
+[
+'operazbo<table>
+'fraziobo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

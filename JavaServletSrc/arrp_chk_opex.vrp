@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Stampa controllo OPEX non collegate -->
+<!-- DefaultConf:rotation||PORTRAIT -->
+
+<!--Def:type||report||name||arrp_chk_opex||version||4.6||title||Stampa controllo OPEX non collegate||query||qbe_chk_opex||font||Tahoma||font_size||7||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||false||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2010-02-17||date_rev||2017-02-13||form_class|| ||grid_dx||8||grid_dy||7||grid_show||1||grid_use||1||snaplines_show||1||language|| ||merge||false||modcnt||10||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding|| ||hsl||false||lock_items||false||maxcount||22||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||91||uid||LIMWODQNWW||sequence||4||bb_sequence||2||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||152||uid||VUFWKCNVLQ||sequence||7||bb_sequence||3||page||1|||type||Group_top||comment||group0||exp||c_TIPERR||name||group0||y||113||uid||XXOAHIMDJI||sequence||13||bb_sequence||25||page||1||start_each_on_page||true||reprint_header||true|||type||Group_down||comment||group0||exp||c_TIPERR||name||group0||y||151||uid||GLEMSNTEMW||sequence||12||bb_sequence||24||page||1||start_each_on_page||true||reprint_header||true|||type||Group_top||comment||group1||exp||True||name||group1||y||133||uid||XUOQAMHDHV||sequence||16||bb_sequence||28||page||1|||type||Group_down||comment||group1||exp||True||name||group1||y||150||uid||MZZMIKVJOQ||sequence||15||bb_sequence||27||page||1|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)||text_type||expression||name||label0||uid||TWPXTLUFTH||page||1||x||8||y||7||w||719||h||21||sequence||11||global_font||false||font||Arial||font_size||11||font_weight||bold||removefromout||CSV,CSVS,XLS|||type||Box||name||Box1||x||8||y||35||w||720||h||35||uid||EAZRQFADDM||sequence||1||page||1||bb_border_colour||false||border_width||1|||type||Label||value||CONTROLLO OPERAZIONI EXTRACONTO SCOLLEGATE||text_type||constant||name||label2||uid||LMETHZJMJV||page||1||x||16||y||40||w||680||h||26||sequence||2||global_font||false||font||Tahoma||font_size||14||font_weight||bold||removefromout||CSV,CSVS,XLS|||type||Label||value||&#39;ANNO DI RIFERIMENTO: &#39;+canno||text_type||expression||name||label3||uid||WGHHGZRXUL||page||1||x||8||y||74||w||720||h||16||sequence||3||global_font||false||font||Tahoma||font_size||8||font_weight||bold||removefromout||CSV,CSVS,XLS|||type||Expr||exp||arfn_tipoerrore(&#39;O&#39;,c_TIPERR)||len||100||dec||0||name||expr4||uid||IJEJPWERBG||page||1||x||8||y||95||w||632||h||16||sequence||14||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box5||x||8||y||116||w||720||h||0||uid||IMTJLQXHYO||sequence||17||page||1||bb_border_colour||false||border_width||1|||type||Label||value||Anno||text_type||constant||name||label6||uid||XHZUBQWWLJ||page||1||x||8||y||117||w||32||h||16||sequence||5||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||NDG||text_type||constant||name||label7||uid||LDTNKGPPNT||page||1||x||49||y||117||w||104||h||16||sequence||19||align||center||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Data Operazione||text_type||constant||name||label8||uid||AOYDHISLGM||page||1||x||160||y||117||w||104||h||16||sequence||22||align||center||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||Box9||x||8||y||131||w||720||h||0||uid||NPEDHTWAIC||sequence||6||page||1||bb_border_colour||false||border_width||1|||type||Expr||exp||c_COLLEG||len||16||dec||0||name||expr10||uid||SJIDOPKNML||output_name||NDG||page||1||x||49||y||135||w||104||h||14||sequence||18||global_font||false||font||Tahoma||font_size||7||font_weight||normal|||type||Expr||exp||c_ANNO||type_exp||numeric||len||4||dec||0||name||expr11||uid||BLNCPKXIYM||output_name||Anno||page||1||x||8||y||135||w||32||h||14||sequence||20|||type||Expr||exp||c_DATAOPE||type_exp||date||len||8||dec||0||name||expr12||uid||JBLMWSPNKQ||output_name||DataOperazione||page||1||x||160||y||135||w||104||h||14||sequence||21||global_font||false||font||Tahoma||font_size||7||font_weight||normal|||type||Box||name||Box13||x||8||y||154||w||720||h||0||uid||ALIXGKXVVP||sequence||8||page||1||bb_border_colour||false||border_width||1|||type||Label||value||&#39;Data: &#39;+arfn_fdate(Date())||text_type||expression||name||label14||uid||JYALFCRFEE||page||1||x||8||y||156||w||165||h||16||sequence||9||global_font||false||font||Tahoma||font_size||8||font_weight||normal||removefromout||CSV,CSVS,XLS|||type||Label||value||&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))||text_type||expression||name||label15||uid||PRLPKWQQVB||page||1||x||323||y||156||w||405||h||16||sequence||10||align||right||global_font||false||font||Tahoma||font_size||8||font_weight||normal||removefromout||CSV,CSVS,XLS||| -->
+
+<REPORT NAME="arrp_chk_opex" TITLE="Stampa controllo OPEX non collegate" QUERY="qbe_chk_opex" MAXDEPTH="2" GLBFONTNAME="Tahoma" GLBFONTSIZE="7" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="false" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_chk_opex.COLLEG" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_chk_opex.ANNO" TYPE="C" LEN="4" DEC="0" />
+    <FIELD NAME="qbe_chk_opex.DATAOPE" TYPE="D" LEN="8" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="91" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(DescAzi)" EXPRTYPE="expression"
+                    Y="7" X="8" YY="28" XX="727"
+                    ALIGN="L"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="11"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="35" X="8" YY="70" XX="728"
+                    ALIGN="L"
+                    UID="EAZRQFADDM" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="stringa" NAME="CONTROLLO OPERAZIONI EXTRACONTO SCOLLEGATE" EXPRTYPE="constant"
+                    Y="40" X="16" YY="66" XX="696"
+                    ALIGN="L"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="14"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box_end" UID="EAZRQFADDM"/>
+              <ITEM OBJ="stringa" NAME="&#39;ANNO DI RIFERIMENTO: &#39;+canno" EXPRTYPE="expression"
+                    Y="74" X="8" YY="90" XX="728"
+                    ALIGN="L"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="21" FOOTH="0" SYMNAME="" UID="XXOAHIMDJI" TOP="112" BOTTOM="147" EXPRESSION="c_TIPERR" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="true" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+              <ITEM OBJ="espressione" NAME="arfn_tipoerrore(&#39;O&#39;,c_TIPERR)" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="3" X="8" YY="19" XX="640"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    LEN="100"
+                    />
+          <SECTION TYPE="group" HEADH="19" FOOTH="0" SYMNAME="" UID="XUOQAMHDHV" TOP="131" BOTTOM="147" EXPRESSION="True" DISPLAY_EXPRESSION=""
+           STARTNEWPAGE="false" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+           PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+                      <ITEM OBJ="h_line" Y="2" X="8" XX="729" BORDERWIDTH="1"
+                            ALIGN="L"
+                            />
+                      <ITEM OBJ="stringa" NAME="Anno" EXPRTYPE="constant"
+                            Y="3" X="8" YY="19" XX="40"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="stringa" NAME="NDG" EXPRTYPE="constant"
+                            Y="3" X="49" YY="19" XX="153"
+                            ALIGN="C"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="stringa" NAME="Data Operazione" EXPRTYPE="constant"
+                            Y="3" X="160" YY="19" XX="264"
+                            ALIGN="C"
+                            REPEATED="true"
+                            GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                            FONTSTYLE="B"
+                            />
+                      <ITEM OBJ="h_line" Y="17" X="8" XX="729" BORDERWIDTH="1"
+                            ALIGN="L"
+                            />
+                  <SECTION TYPE="group" HEADH="16" FOOTH="0" EXPRESSION="" SYMNAME=""
+                   STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+                   REPRINTHEADER="false" REPRINTFOOTER="false">
+                              <ITEM OBJ="espressione" NAME="c_COLLEG" ITEMTYPE="C" EXPRTYPE="expression"
+                                    Y="1" X="49" YY="15" XX="153"
+                                    SYMNAME="NDG"
+                                    ALIGN="L"
+                                    REPEATED="true"
+                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                                    LEN="16"
+                                    />
+                              <ITEM OBJ="espressione" NAME="c_ANNO" ITEMTYPE="N" EXPRTYPE="expression"
+                                    Y="1" X="8" YY="15" XX="40"
+                                    SYMNAME="Anno"
+                                    ALIGN="L"
+                                    REPEATED="true"
+                                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="7"
+                                    LEN="4"
+                                    />
+                              <ITEM OBJ="espressione" NAME="c_DATAOPE" ITEMTYPE="D" EXPRTYPE="expression"
+                                    Y="1" X="160" YY="15" XX="264"
+                                    SYMNAME="DataOperazione"
+                                    ALIGN="L"
+                                    REPEATED="true"
+                                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="7"
+                                    LEN="8"
+                                    />
+                  </SECTION>
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="147" H="20" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="8" XX="729" BORDERWIDTH="1"
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="3" X="8" YY="19" XX="173"
+                    ALIGN="L"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+                    Y="3" X="323" YY="19" XX="728"
+                    ALIGN="R"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

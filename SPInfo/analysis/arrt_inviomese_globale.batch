@@ -1,0 +1,90 @@
+﻿* --- Resource Vers. 0.9
+arrt_inviomese_globale
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:38
+description='Estrazione Dati da A.U.I per Agenzia Entrate (Routine)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:22
+module_name='
+name='arrt_inviomese_globale
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'anarapbo.impape
+'anarapbo.impchiu
+'jnarapbo.impape
+'jnarapbo.impchiu
+'intestbo.abbinato
+'jntestbo.abbinato
+'aetesta.rapporto
+'aetesta.tipoag
+'aetesta.rifana
+'aetesta.coint
+'aetesta.progaet
+'aerighe.rapporto
+'aerighe.connesint
+'aerighe.cprownum
+'aerighe.adata
+'aerighe.nrigrif
+'aerighe.idrif
+'aerighe.idbase
+'aerighe.aspedito
+'aerighe.progaer
+'aerighe.nocodfisc
+'aerighe.abbinato
+'anarapbo.rapporto
+'intestbo.rapporto
+'intestbo.codinter
+'aerighe.cdata
+'aerighe.cspedito
+'jnarapbo.rapporto
+'jntestbo.rapporto
+'jntestbo.codinter
+]
+'Libraries
+[
+'LibreriaMit<project>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_inviomens_9_max_min.vqr
+'qbe_inviomens_9.vqr
+'qbe_inviomens_10_max_min.vqr
+'qbe_inviomens_10.vqr
+'qbe_inviomens_11_max_min.vqr
+'qbe_inviomens_11.vqr
+'qbe_inviomens_12_max_min.vqr
+'qbe_inviomens_12.vqr
+]
+'Tables
+[
+'anarapbo<table>
+'aetesta<table>
+'aerighe<table>
+'intestbo<table>
+'aefiles<table>
+'jnarapbo<table>
+'personbo<table>
+'jntestbo<table>
+'aecanc<table>
+'aestor<table>
+'aeannora<table>
+'aesaldi<table>
+]
+}
+I
+*--*
+￼[]
+*--*

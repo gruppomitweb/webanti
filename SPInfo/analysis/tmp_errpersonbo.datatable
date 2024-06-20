@@ -1,0 +1,144 @@
+﻿* --- Resource Vers. 0.9
+tmp_errpersonbo<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:26
+description='errori allinea anagrafiche
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=True
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tmp_errpersonbo
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'tmp_errpersonbo.idbase
+'tmp_errpersonbo.errore
+'tmp_errpersonbo.tipo
+'tmp_errpersonbo.ragsoc
+'tmp_errpersonbo.progerrore
+'tmp_errpersonbo.progerr_c
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'tmp_errpersonbo.errore
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='errore
+state=3
+table_name='tmp_errpersonbo
+type='field
+used_resource_keys={}
+I
+'tmp_errpersonbo.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='idbase
+state=3
+table_name='tmp_errpersonbo
+type='field
+used_resource_keys={}
+I
+'tmp_errpersonbo.progerr_c
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='Progressivo Errore in carattere
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PROGERR_C
+state=3
+table_name='tmp_errpersonbo
+type='field
+used_resource_keys={}
+I
+'tmp_errpersonbo.progerrore
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='PROGERRORE
+state=3
+table_name='tmp_errpersonbo
+type='field
+used_resource_keys={}
+I
+'tmp_errpersonbo.ragsoc
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='ragsoc
+state=3
+table_name='tmp_errpersonbo
+type='field
+used_resource_keys={}
+I
+'tmp_errpersonbo.tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:26
+description='
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:26
+module_name='
+name='tipo
+state=3
+table_name='tmp_errpersonbo
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'tmp_errpersonbo.errore
+[]
+'tmp_errpersonbo.idbase
+[]
+'tmp_errpersonbo.progerr_c
+[]
+'tmp_errpersonbo.progerrore
+[]
+'tmp_errpersonbo.ragsoc
+[]
+'tmp_errpersonbo.tipo
+[]
+}
+*--*

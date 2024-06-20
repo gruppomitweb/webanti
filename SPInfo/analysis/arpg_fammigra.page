@@ -1,0 +1,88 @@
+﻿* --- Resource Vers. 0.9
+arpg_fammigra
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:30
+description='Lettura Fotografia Anagrafe Rapporti
+file_modified_on=#2018-12-27 18:59:22
+location='
+measures={}
+modified_on=#2024-05-10 18:25:01
+module_name='
+name='arpg_fammigra
+state=1
+type='page
+used_resource_keys={
+'Hyperlinks
+[
+'arrt_fammigra
+'arrt_fammigra_stp
+'arrt_fam_xls_esiti_sid
+]
+'Others
+[
+'jsp\showmsg_portlet.jsp
+'jsp\showlog_portlet.jsp
+'jsp\list_impfile_portlet.jsp
+'arrt_imp_dati
+'arrt_imp_dati_multipli
+'arrt_imp_dati_ac
+'arrt_imp_dati_wubs
+]
+'Routines
+[
+'azzera_messaggi
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_fammigra|Error|core::document|Update dependencies|Resource "sp_huploadfile" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "sp_huploadfile" not found.
+resource_key='arpg_fammigra
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_fammigra|Error|core::document|Update dependencies|Resource "arrt_imp_dati_telepass" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "arrt_imp_dati_telepass" not found.
+resource_key='arpg_fammigra
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_fammigra|Error|core::document|Update dependencies|Resource "arrt_imp_dati_multipli_telepass" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:01
+message='Resource "arrt_imp_dati_multipli_telepass" not found.
+resource_key='arpg_fammigra
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

@@ -1,0 +1,97 @@
+﻿* --- Resource Vers. 0.9
+arrt_discouic
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:33
+description='Scrittura file per invio UIF
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:11
+module_name='
+name='arrt_discouic
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'filedatiuic.idfile
+'filedatiuic.datafile
+'filedatiuic.nomefile
+'filedatiuic.descfile
+'personbo.connes
+'personbo.settsint
+'tmp_settorbo.settsint
+'tmp_settorbo.conta
+'tmp_dischebo.codcab
+'tmp_dischebo.provincia
+'tmp_dischebo.codvoc
+'tmp_dischebo.flaglire
+'tmp_dischebo.segno
+'tmp_dischebo.settsint
+'tmp_dischebo.totlire
+'tmp_dischebo.totcont
+'tmp_dischebo.operazioni
+'tmp_dischebo.contanti
+'tmp_dischebo.perpaese
+'tmp_dischebo.percab
+'tmp_dischebo.perprov
+'tmp_dischebo.paese
+'tmp_dischebo.codcab2
+'tmp_dischebo.prov2
+'tmp_invio.codcab
+'tmp_invio.provincia
+'tmp_invio.codvoc
+'tmp_invio.flaglire
+'tmp_invio.segno
+'tmp_invio.settsint
+'tmp_invio.perpaese
+'tmp_invio.percab
+'tmp_invio.perprov
+'tmp_invio.paese
+'tmp_invio.codcab2
+'tmp_invio.prov2
+'tmp_invio.totlire
+'tmp_invio.totcont
+'tmp_invio.operazioni
+'tmp_invio.contanti
+]
+'Hyperlinks
+[
+'arpg_filesuic
+]
+'Libraries
+[
+'Utilities<painter>
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_opeuif.vqr
+'qbe_frauif.vqr
+'qbe_tmp_dischebo.vqr
+]
+'Routines
+[
+'arfn_fdate
+]
+'Tables
+[
+'intestbo<table>
+'personbo<table>
+'tmp_invio<table>
+'tmp_dischebo<table>
+'tmp_settorbo<table>
+'filedatiuic<table>
+]
+}
+I
+*--*
+￼[]
+*--*

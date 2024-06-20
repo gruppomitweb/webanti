@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ReportDescription v4.6 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Elenco Titolari Effettivi -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:type||report||name||arrp_stplegami_sint||version||4.6||title||Elenco Titolari Effettivi||query||qbe_stplegami_sint_select||font||Tahoma||font_size||8||font_weight||normal||font_effect|| ||pageheadfoot||true||reportheadfoot||false||security_public||true||dict_name|| ||security_access||true||security_roles|| ||author|| ||client|| ||date_creat||2014-02-03||date_rev||2014-02-03||form_class|| ||grid_dx|| ||grid_dy|| ||grid_show||0||grid_use||0||snaplines_show||0||language|| ||merge||false||modcnt||23||os|| ||note|| ||technote|| ||usr_def|| ||vers|| ||libraries|| ||v_line||0||workunit||px||pdffile|| ||vdmfile|| ||encoding||ISO-8859-1||hsl||false||lock_items||false||maxcount||52||rotation|| ||pformat||A4||cwidth||0||cheight||0||tmargin||14||bmargin||14||lmargin||14||fiscaldoc||false||attributes|| |||type||HeaderBar_top||name||bar_PageHeader_start||x||0||y||152||uid||IVDIYFXQJC||sequence||2||bb_sequence||3||page||1|||type||HeaderBar_bottom||name||bar_PageHeader_end||x||0||y||183||uid||ZSYBSXAEHA||sequence||3||bb_sequence||4||page||1|||type||Group_top||comment||group3||exp||1=1||name||group1||y||154||uid||YAWGTTVLQP||sequence||6||bb_sequence||7||page||1||start_each_on_page||true|||type||Group_down||comment||group3||exp||1=1||name||group1||y||181||uid||ZIHOTONKUF||sequence||7||bb_sequence||8||page||1|||type||Label||value||&quot;SOCIETA&#39;: &quot; + LRTrim(w_DescAzi)||text_type||expression||name||label0_50||uid||NSZRZFIRZO||page||1||x||12||y||6||w||1110||h||21||sequence||49||global_font||false||font||Arial||font_size||12||font_weight||bold|||type||Label||value||Elenco Titolari Effettivi||text_type||constant||name||label0||uid||WUAHXQRTAG||page||1||x||11||y||35||w||1110||h||26||sequence||32||global_font||false||font||Arial Narrow||font_size||14||font_weight||bold|||type||Box||name||Box51||x||9||y||65||w||1113||h||56||uid||PDZLYCXPIH||sequence||50||page||1||border_width||1|||type||Expr||exp||&#39;Da Data Inizio: &#39;+arfn_fdate(w_DaDatIni)||name||Expr44||uid||WZXJTHDCBI||page||1||x||547||y||71||w||167||h||22||sequence||43|||type||Expr||exp||&#39;Da Soggetto: &#39;+w_daSoc+&quot; - &quot;+w_descsoc1||name||Expr41||uid||VFXZAQCENZ||page||1||x||18||y||71||w||497||h||22||sequence||40|||type||Expr||exp||&#39;Da Data Fine: &#39;+arfn_fdate(w_DaDatFin)||name||Expr44_48||uid||RITMRRTLSZ||page||1||x||743||y||73||w||156||h||22||sequence||47|||type||Expr||exp||&#39;A Data Inizio: &#39;+arfn_fdate(w_ADatIni)||name||Expr44_45||uid||QWLVEJMICG||page||1||x||547||y||97||w||167||h||22||sequence||44|||type||Expr||exp||&#39;A Data Fine: &#39;+arfn_fdate(w_ADatFin)||name||Expr44_48_49||uid||DVOJVTHIVA||page||1||x||743||y||97||w||156||h||22||sequence||48|||type||Expr||exp||&#39;A Soggetto: &#39;+w_aSoc+&quot; - &quot;+w_descsoc2||name||Expr41_43||uid||GLJZQKADIC||page||1||x||18||y||97||w||497||h||22||sequence||42|||type||Label||value||Titolare||text_type||constant||name||label35_36||uid||GXSRAZRWUN||page||1||x||571||y||128||w||55||h||13||sequence||34||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Soggetto||text_type||constant||name||label35||uid||LMEPTABLRB||page||1||x||11||y||128||w||55||h||13||sequence||34||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Fine||text_type||constant||name||label35_38||uid||OXBJVNPENA||page||1||x||1046||y||132||w||55||h||13||sequence||34||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Label||value||Inizio||text_type||constant||name||label35_37||uid||JTLWELPNAR||page||1||x||962||y||132||w||55||h||13||sequence||34||global_font||false||font||Tahoma||font_size||8||font_weight||bold|||type||Box||name||BoxCaption1||x||11||y||148||w||1110||h||1||uid||TMLLIUAUAP||sequence||8||page||1||border_width||1||stretch_to_right||true|||type||Expr||exp||arfn_fdate(qbe_stplegami_sint_select.c_DATAFINE)||dec||0||name||expr6||uid||CYZZVMJUKT||output_name||DATAFINE||page||1||x||1044||y||160||w||74||h||18||sequence||21|||type||Expr||exp||qbe_stplegami_sint_select.c_CODCLI||len||16||dec||0||name||expr6||uid||QVZQBQBWZK||output_name||CODCLI||page||1||x||11||y||160||w||120||h||18||sequence||11|||type||Expr||exp||arfn_fdate(qbe_stplegami_sint_select.c_DATAINI)||dec||0||name||expr6||uid||PSKWVJPIRB||output_name||DATAINI||page||1||x||961||y||160||w||74||h||18||sequence||19|||type||Expr||exp||qbe_stplegami_sint_select.c_CODINTER||len||16||dec||0||name||expr6||uid||BYFSPNWRAX||output_name||CODINTER||page||1||x||571||y||160||w||120||h||18||sequence||15|||type||Expr||exp||qbe_stplegami_sint_select.c_RAGTIT||len||70||dec||0||name||expr6||uid||ARZNPMXMBM||output_name||RagioneSociale||page||1||x||701||y||160||w||252||h||18||sequence||17|||type||Expr||exp||qbe_stplegami_sint_select.c_RAGCLI||len||70||dec||0||name||expr6||uid||RDATUGDFKB||output_name||RagioneSociale||page||1||x||141||y||160||w||422||h||18||sequence||13|||type||Box||name||BoxCaption1_40||x||11||y||186||w||1110||h||1||uid||TIZUQRPHUB||sequence||8||page||1||border_width||1||stretch_to_right||true|||type||Label||value||Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)||text_type||expression||name||label12||uid||CTHAQXYDDP||page||1||x||11||y||192||w||341||h||17||sequence||35||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||Str(nTotalPages, 4, 0)||text_type||expression||name||label13||uid||VWFGZCICHI||page||1||x||1018||y||192||w||103||h||17||sequence||37||global_font||false||font||Arial||font_size||8||font_weight||normal|||type||Label||value||&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;||text_type||expression||name||label11||uid||WXSGREPGZG||page||1||x||788||y||192||w||225||h||17||sequence||36||align||right||global_font||false||font||Arial||font_size||8||font_weight||normal||| -->
+
+<REPORT NAME="arrp_stplegami_sint" TITLE="Elenco Titolari Effettivi" QUERY="qbe_stplegami_sint_select" MAXDEPTH="1" GLBFONTNAME="Tahoma" GLBFONTSIZE="8" VERSION="4.6" GLBFONTSTYLE="" PUBLIC="true" ACCESS="true" ROLES=""
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false"
+  TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+    <FIELD NAME="qbe_stplegami_sint_select.CODCLI" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stplegami_sint_select.RAGCLI" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stplegami_sint_select.CODINTER" TYPE="C" LEN="16" DEC="0" />
+    <FIELD NAME="qbe_stplegami_sint_select.RAGTIT" TYPE="C" LEN="70" DEC="0" />
+    <FIELD NAME="qbe_stplegami_sint_select.DATAINI" TYPE="D" LEN="8" DEC="0" />
+    <FIELD NAME="qbe_stplegami_sint_select.DATAFINE" TYPE="D" LEN="8" DEC="0" />
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <PAGEHEADER Y="0" H="152" EXPRESSION="Page header">
+              <ITEM OBJ="stringa" NAME="&quot;SOCIETA&#39;: &quot; + LRTrim(w_DescAzi)" EXPRTYPE="expression"
+                    Y="6" X="12" YY="27" XX="1122"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="12"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Elenco Titolari Effettivi" EXPRTYPE="constant"
+                    Y="35" X="11" YY="61" XX="1121"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial Narrow" FONTSIZE="14"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="box" NAME="" EXPRTYPE="constant"
+                    Y="65" X="9" YY="121" XX="1122"
+                    ALIGN="L"
+                    UID="PDZLYCXPIH" 
+                    BORDERWIDTH="1"
+                    />
+              <ITEM OBJ="espressione" NAME="&#39;Da Soggetto: &#39;+w_daSoc+&quot; - &quot;+w_descsoc1" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="71" X="18" YY="93" XX="515"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="10"
+                    />
+              <ITEM OBJ="espressione" NAME="&#39;Da Data Inizio: &#39;+arfn_fdate(w_DaDatIni)" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="71" X="547" YY="93" XX="714"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="10"
+                    />
+              <ITEM OBJ="espressione" NAME="&#39;Da Data Fine: &#39;+arfn_fdate(w_DaDatFin)" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="73" X="743" YY="95" XX="899"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="10"
+                    />
+              <ITEM OBJ="espressione" NAME="&#39;A Soggetto: &#39;+w_aSoc+&quot; - &quot;+w_descsoc2" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="97" X="18" YY="119" XX="515"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="10"
+                    />
+              <ITEM OBJ="espressione" NAME="&#39;A Data Inizio: &#39;+arfn_fdate(w_ADatIni)" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="97" X="547" YY="119" XX="714"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="10"
+                    />
+              <ITEM OBJ="espressione" NAME="&#39;A Data Fine: &#39;+arfn_fdate(w_ADatFin)" ITEMTYPE="C" EXPRTYPE="expression"
+                    Y="97" X="743" YY="119" XX="899"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                    LEN="10"
+                    />
+              <ITEM OBJ="box_end" UID="PDZLYCXPIH"/>
+              <ITEM OBJ="stringa" NAME="Titolare" EXPRTYPE="constant"
+                    Y="128" X="571" YY="141" XX="626"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Soggetto" EXPRTYPE="constant"
+                    Y="128" X="11" YY="141" XX="66"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Fine" EXPRTYPE="constant"
+                    Y="132" X="1046" YY="145" XX="1101"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Inizio" EXPRTYPE="constant"
+                    Y="132" X="962" YY="145" XX="1017"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="148" X="11" XX="1122" BORDERWIDTH="1"
+                    ALIGN="L"
+                    STRETCH="true"
+                    />
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="1" FOOTH="1" SYMNAME="" UID="YAWGTTVLQP" TOP="153" BOTTOM="179" EXPRESSION="1=1" DISPLAY_EXPRESSION=""
+   STARTNEWPAGE="true" GROUPHEADERASPAGEHEADER="false" PRINTFOOTERATENDPAGE="false" GROUPFOOTERASPAGEFOOTER="false" RESETPAGENUMBER="false" SETPAGENUMBEREXPR=""
+   PRINTASBLOCK="false" REPRINTHEADER="false" REPRINTFOOTER="false" FIXEDROWSNUM="0" HIDECONDITION="" INWITHEXPR="" OUTWITHEXPR="">
+          <SECTION TYPE="group" HEADH="26" FOOTH="0" EXPRESSION="" SYMNAME=""
+           STARTNEWPAGE="false" PRINTFOOTERATENDPAGE="false" RESETPAGENUMBER="false"
+           REPRINTHEADER="false" REPRINTFOOTER="false">
+                      <ITEM OBJ="espressione" NAME="qbe_stplegami_sint_select.c_CODCLI" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="5" X="11" YY="23" XX="131"
+                            SYMNAME="CODCLI"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stplegami_sint_select.c_RAGCLI" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="5" X="141" YY="23" XX="563"
+                            SYMNAME="RagioneSociale"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stplegami_sint_select.c_CODINTER" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="5" X="571" YY="23" XX="691"
+                            SYMNAME="CODINTER"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_stplegami_sint_select.c_RAGTIT" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="5" X="701" YY="23" XX="953"
+                            SYMNAME="RagioneSociale"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_stplegami_sint_select.c_DATAINI)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="5" X="961" YY="23" XX="1035"
+                            SYMNAME="DATAINI"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="arfn_fdate(qbe_stplegami_sint_select.c_DATAFINE)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="5" X="1044" YY="23" XX="1118"
+                            SYMNAME="DATAFINE"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true" FONTNAME="Tahoma" FONTSIZE="8"
+                            LEN="10"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="180" H="26" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="2" X="11" XX="1122" BORDERWIDTH="1"
+                    ALIGN="L"
+                    STRETCH="true"
+                    />
+              <ITEM OBJ="stringa" NAME="Format(DateTime(), &#39;DD-MM-YYYY hh:mm:ss&#39;)" EXPRTYPE="expression"
+                    Y="8" X="11" YY="25" XX="352"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pag. &#39; + Str(nNumPage, 4, 0) + &#39; / &#39;" EXPRTYPE="expression"
+                    Y="8" X="788" YY="25" XX="1013"
+                    ALIGN="R"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="Str(nTotalPages, 4, 0)" EXPRTYPE="expression"
+                    Y="8" X="1018" YY="25" XX="1121"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+</REPORT>

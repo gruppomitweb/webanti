@@ -1,0 +1,122 @@
+ 2
+"Informazioni Provvisorie"
+"xapopebo"
+"xapopebo"
+ 117
+ 24
+*
+"Rapporti Definitivi + Provvisori"
+"knarapbo"
+"knarapbo"
+ 328
+ 139
+*
+ 6
+"Data Operazione"
+"xapopebo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Data registrazione"
+"xapopebo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+"Numero Progressivo"
+"xapopebo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+"Idbase"
+"xapopebo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+"Descrizione"
+"knarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Rapporto Collegato"
+"xapopebo.RAPPORTO"
+"RAPPORTO"
+"Char"
+ 25
+ 0
+*
+ 1
+"Rapporti Definitivi + Provvisori"
+"knarapbo.RAPPORTO=xapopebo.RAPPORTO"
+"Right outer"
+"knarapbo"
+"xapopebo"
+*
+ 3
+"xapopebo.CDATOPE"
+""
+">="
+"?w_dadata"
+"AND"
+""
+*
+"xapopebo.CDATOPE"
+""
+"<="
+"?w_a_data"
+"AND"
+""
+*
+"xapopebo.TIPOOPRAP"
+""
+"in"
+"(ý26ý,ý28ý,ý46ý,ý36ý,ý38ý)"
+"AND"
+""
+*
+ 1
+"Data Operazione"
+"xapopebo.DATAOPE"
+"Ascending"
+*
+ 0
+ 0
+ 2
+"w_dadata"
+"Data Operazione in Carattere"
+"Char"
+"8"
+"0"
+"Remove"
+*
+"w_a_data"
+"Data Operazione in Carattere"
+"Char"
+"8"
+"0"
+"Remove"
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+"                                                                                                                                                                                                        "
+""
+.f.
+.t.
+ 12
+.f.
+""
+.f.
+*

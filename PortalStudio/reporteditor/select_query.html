@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <title>Select query</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=windows-1252">
+    <script type="text/javascript" src="../stdFunctions.js"></script>
+    <script type="text/javascript" src="../controls.js"></script>
+    <link type="text/css" rel="stylesheet" href="../filewindow.css">
+    <script type="text/javascript">
+      QueryString.keys = new Array();
+      QueryString.values = new Array();
+      function QueryString(key) {
+        var value = null;
+        for (var i = 0; i < QueryString.keys.length; i++) {
+          if (QueryString.keys[i] == key) {
+            value = QueryString.values[i];
+            break;
+          }
+        }
+        return value;
+      }
+      function QueryString_Parse() {
+        var query = window.location.search.substring(1);
+        var pairs = query.split("&");
+        var pos, argname, value;
+        for (var i = 0; i < pairs.length; i++) {
+          pos = pairs[i].indexOf('=');
+          if (pos >= 0) {
+            argname = pairs[i].substring(0, pos);
+            value = pairs[i].substring(pos + 1);
+            QueryString.keys[QueryString.keys.length] = argname;
+            QueryString.values[QueryString.values.length] = value;
+          }
+        }
+      }
+      var returnObject = null;
+      function Init() {
+        var QueryList = window.opener.getQueryArray();
+        QueryString_Parse();
+        returnObject = QueryString("for");
+        for (var i = 0; i < QueryList.length; i++) {
+          Ctrl("querylist").options[Ctrl("querylist").options.length] = new Option(QueryList[i], QueryList[i], false, false);
+        }
+        window.focus();
+      }
+      function setField() {
+        if (Ctrl("querylist").options.selectedIndex < 0) { return; }
+        if (window.opener.reportProp) {
+          if (returnObject == -1 || returnObject == "null" || returnObject == "undefined") {
+            window.opener.reportProp.query = Ctrl("querylist").options[Ctrl("querylist").options.selectedIndex].value;
+            index = null;
+            window.opener.selectForm();
+          }
+          else {
+            window.opener.itemsHTML[returnObject].query = Ctrl("querylist").options[Ctrl("querylist").options.selectedIndex].value;
+            window.opener.Properties();
+          }
+          window.opener.writeHTML();
+          window.opener.NavForm();
+        }
+        else { //returnObject as html control/id
+          //if(window.opener.ExpressionBuilderReturn) window.opener.ExpressionBuilderReturn(returnObject,Ctrl("querylist").options[Ctrl("querylist").options.selectedIndex].value);
+          var portlet_id = window.opener.ZtVWeb.getPortletId();
+          var v = Ctrl("querylist").options[Ctrl("querylist").options.selectedIndex].value;
+          if (portlet_id != null && portlet_id != 'undefined') {
+            var portletobj = window.opener.ZtVWeb.getPortletById(portlet_id);
+            eval("portletobj." + returnObject + ".Value(v)");
+          }
+          else {
+            var w_ReturnObjectName = "w_" + returnObject;
+            eval("window.opener." + w_ReturnObjectName + "=v");
+            window.opener.SetControlsValue();
+            window.opener.EnableControlsUnderCondition();
+          }
+        }
+        window.close();
+      }
+    </script>
+  </head>
+  <body style="border:0;overflow:hidden;margin:0;background-color:#D6D3CE" onload="Init()">
+    <table border="1" width="100%" height="100%" cellpadding="0" cellspacing="1" align="center">
+      <tr style="height:20">
+        <td class="contorno" align="center" onselectstart="return false">
+          <b>A<u>v</u>ailable queries</b>
+        </td>
+      </tr>
+      <tr>
+        <td class="contorno">
+          <select id="querylist" size="8" style="width:100%;height:100%" ondblclick="setField()" accesskey="v"></select>
+        </td>
+      </tr>
+      <tr class="contorno" style="height:20">
+        <td valign="middle" align="center" nowrap>
+          <button onclick="setField()" accesskey="s" class="bottoni"><u>S</u>elect</button>&nbsp;
+          <button onclick="window.close();" accesskey="c" class="bottoni"><u>C</u>ancel</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ReportDescription v4.8 written by SitePainter PortalStudio Report Editor (http://www.zucchetti.it) -->
+<!-- Description:Elenco Anagrafiche -->
+<!-- DefaultConf:rotation||LANDSCAPE -->
+
+<!--Def:[{"type":"report","name":"arrp_elenco_anagrafiche","version":"4.8","title":"Elenco Anagrafiche","query":"qbe_prn_elenco_anagrafiche","font":"Tahoma","font_size":"8","font_weight":"normal","font_effect":"","picture_date":"","picture_time":"","picture_text":"","picture_num":"","pageheadfoot":"true","reportheadfoot":"true","security_public":"false","dict_name":"","security_access":"false","security_roles":"","author":"","client":"","date_creat":"2019-09-26","date_rev":"2019-11-07","modcnt":"58","note":"","technote":"","vers":"","v_line":"0","workunit":"px","pdffile":"","vdmfile":"","encoding":"UTF-8","hsl":"false","lock_items":"false","maxcount":"35","rotation":"","pformat":"A4","cwidth":"0","cheight":"0","tmargin":"14","bmargin":"14","lmargin":"14","fiscaldoc":"false","attributes":""},{"type":"HeaderBar_top","name":"bar_PageHeader_start","x":"0","y":"38","uid":"KTDRGEOXQI","sequence":"0","page":"1"},{"type":"HeaderBar_bottom","name":"bar_PageHeader_end","x":"0","y":"107","uid":"AGSGPQXOOH","sequence":"1","page":"1"},{"type":"ReportBar_top","name":"bar_ReportHeader_start","x":"0","y":"35","uid":"IKEFQLJWVW","sequence":"2","page":"1"},{"type":"ReportBar_bottom","name":"bar_ReportHeader_end","x":"0","y":"133","uid":"LEPXPBCIGM","sequence":"3","page":"1"},{"type":"Group_top","comment":"Dati","exp":"True","name":"group2","y":"75","uid":"NKUHMCBLMQ","sequence":"10","page":"1","reprint_header":"true"},{"type":"Group_down","comment":"Dati","exp":"True","name":"group2","y":"103","uid":"YJMZWOAKKC","sequence":"11","page":"1","reprint_header":"true"},{"type":"Label","comment":"Elenco Anagrafiche","value":"Elenco Anagrafiche","text_type":"constant","name":"label0_5","uid":"HRQFLZTRFT","page":"1","x":"5","y":"2","w":"1104","h":"32","sequence":"26","align":"center","global_font":"false","font":"Arial","font_size":"16","font_weight":"bold"},{"type":"Label","comment":"Domicilio","value":"Domicilio","text_type":"constant","name":"label2_10_17","uid":"CUYGNYPWAO","page":"1","x":"299","y":"42","w":"239","h":"13","sequence":"6","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","comment":"Natura giuridica","value":"Natura Giuridica","text_type":"constant","name":"label2_10_17_20_22_24","uid":"VSWAOHLZZC","page":"1","x":"659","y":"42","w":"51","h":"29","sequence":"6","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","comment":"Ragione Sociale","value":"Ragione Sociale","text_type":"constant","name":"label2","uid":"RDGHQARRGN","page":"1","x":"5","y":"42","w":"183","h":"13","sequence":"6","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","comment":"Condotta Tenuta","value":"Condotta Tenuta","text_type":"constant","name":"label2_10_17_20","uid":"LCXXSWIBQQ","page":"1","x":"541","y":"42","w":"51","h":"29","sequence":"6","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","comment":"Area Geografica","value":"Area Geografica","text_type":"constant","name":"label2_10_17_20_22_24_26","uid":"GQJFYDMVYT","page":"1","x":"716","y":"42","w":"65","h":"29","sequence":"6","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","comment":"Codice Fiscale","value":"Codice Fiscale","text_type":"constant","name":"label2_10","uid":"HVPQMXSGLL","page":"1","x":"192","y":"42","w":"104","h":"13","sequence":"6","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","comment":"Attività","value":"Attività","text_type":"constant","name":"label2_10_17_20_22","uid":"VVWUBEQXVO","page":"1","x":"597","y":"42","w":"58","h":"13","sequence":"6","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Label","comment":"Documento: Tipo, Numero, Autorità rilasciante, Data","value":"Documento: Tipo, Numero, Autorità rilasciante, Data","text_type":"constant","name":"label2_10_17_20_22_24_26_28","uid":"DVXFYDIHUG","page":"1","x":"787","y":"42","w":"286","h":"13","sequence":"6","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"bold"},{"type":"Box","comment":"prima linea","name":"Box32","x":"1","y":"72","w":"1080","h":"0","uid":"XQBNRBRMEJ","sequence":"31","page":"1","border_width":"1"},{"type":"Expr","comment":"Codice Fiscale","exp":"qbe_prn_elenco_anagrafiche.c_CODFISC","len":"16","dec":"0","name":"Expr4","uid":"QDVAVZIXVZ","output_name":"CodiceFiscale","page":"1","x":"192","y":"79","w":"104","h":"22","sequence":"8"},{"type":"Expr","comment":"Domicilio","exp":"qbe_prn_elenco_anagrafiche.c_DOMICILIO+' - '+qbe_prn_elenco_anagrafiche.c_CAP+' '+qbe_prn_elenco_anagrafiche.c_DESCCIT+' ('+qbe_prn_elenco_anagrafiche.c_PROVINCIA+')'","len":"78","dec":"0","name":"Expr6","uid":"FXGTYDEASY","output_name":"Domicilio","page":"1","x":"299","y":"79","w":"239","h":"22","sequence":"12"},{"type":"Expr","comment":"Condotta Tenuta","exp":"qbe_prn_elenco_anagrafiche.c_COMPORT","len":"5","dec":"0","name":"Expr19","uid":"DRRNIWSKLY","output_name":"Condotta","page":"1","x":"541","y":"79","w":"31","h":"22","sequence":"18"},{"type":"Expr","comment":"Attività","exp":"qbe_prn_elenco_anagrafiche.c_ATTIV","dec":"0","name":"Expr21","uid":"YWBTIUCBYS","output_name":"Attivita","page":"1","x":"597","y":"79","w":"58","h":"22","sequence":"20"},{"type":"Expr","comment":"PKTBSPECIE","exp":"qbe_prn_elenco_anagrafiche.c_PKTBSPECIE","len":"4","dec":"0","name":"Expr23","uid":"EMIEIYAGEI","output_name":"NaturaGiuridica","page":"1","x":"659","y":"79","w":"26","h":"22","sequence":"22"},{"type":"Expr","comment":"Area Geografica","exp":"qbe_prn_elenco_anagrafiche.c_AREAGEO","len":"3","dec":"0","name":"Expr25","uid":"UQQYQVZBHR","output_name":"AreaGeografica","page":"1","x":"716","y":"79","w":"21","h":"22","sequence":"24"},{"type":"Expr","comment":"Tipo Documento","exp":"qbe_prn_elenco_anagrafiche.c_TIPODOC+', '+qbe_prn_elenco_anagrafiche.c_NUMDOCUM+', '+qbe_prn_elenco_anagrafiche.c_AUTRILASC+', '+arfn_fdate(qbe_prn_elenco_anagrafiche.c_DATARILASC)","len":"57","dec":"0","name":"Expr27","uid":"JCXZHDZLTB","output_name":"Documento","page":"1","x":"789","y":"79","w":"286","h":"22","sequence":"26"},{"type":"Expr","comment":"Ragione Sociale","exp":"qbe_prn_elenco_anagrafiche.c_RAGSOC","len":"70","dec":"0","name":"Expr1","uid":"ZKIKFSZPEL","output_name":"RagioneSociale","page":"1","x":"5","y":"79","w":"183","h":"22","sequence":"5"},{"type":"Box","comment":"seconda linea","name":"Box32_35","x":"1","y":"109","w":"1080","h":"0","uid":"VUAOPHCWMY","sequence":"31","page":"1","border_width":"1"},{"type":"Label","value":"'Data: '+arfn_fdate(Date())","text_type":"expression","name":"label19","uid":"YRGGZNYBLE","page":"1","x":"11","y":"113","w":"165","h":"16","sequence":"22","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal","removefromout":"CSV,CSVS,XLS"},{"type":"Label","value":"'Pagina: '+ LRTrim(Str(nNumPage,4))","text_type":"expression","name":"label20","uid":"YTTVFYKHKG","page":"1","x":"668","y":"113","w":"405","h":"16","sequence":"23","align":"right","global_font":"false","font":"Tahoma","font_size":"8","font_weight":"normal","removefromout":"CSV,CSVS,XLS"}] -->
+
+<REPORT NAME="arrp_elenco_anagrafiche" TITLE="Elenco Anagrafiche" QUERY="qbe_prn_elenco_anagrafiche" MAXDEPTH="1" VERSION="4.8" PUBLIC="false" ACCESS="false" ROLES=""
+  GLBFONTNAME="Tahoma" GLBFONTSIZE="8"
+  VDMFILE="" PDFBACKGROUND=""
+  ROTATION="" PAGEFORMAT="A4" CWIDTH="0.0" CHEIGHT="0.0" FISCALDOC="false" TOPMARGIN="14.0" BOTTOMMARGIN="14.0" LEFTMARGIN="14.0">
+  <COVER Y="0" H="1" EXPRESSION="Cover">
+  </COVER>
+  <REPORTHEADER Y="0" H="35" EXPRESSION="Report header">
+              <ITEM OBJ="stringa" NAME="Elenco Anagrafiche" EXPRTYPE="constant"
+                    Y="2" X="5" YY="34" XX="1109"
+                    ALIGN="C"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Arial" FONTSIZE="16"
+                    FONTSTYLE="B"
+                    />
+  </REPORTHEADER>
+  <PAGEHEADER Y="35" H="2" EXPRESSION="Page header">
+  </PAGEHEADER>
+  <SECTION TYPE="group" HEADH="36" FOOTH="3" UID="NKUHMCBLMQ" TOP="73" BOTTOM="100" EXPRESSION="True"
+   REPRINTHEADER="true">
+              <ITEM OBJ="stringa" NAME="Domicilio" EXPRTYPE="constant"
+                    Y="3" X="299" YY="16" XX="538"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Natura Giuridica" EXPRTYPE="constant"
+                    Y="3" X="659" YY="32" XX="710"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Ragione Sociale" EXPRTYPE="constant"
+                    Y="3" X="5" YY="16" XX="188"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Condotta Tenuta" EXPRTYPE="constant"
+                    Y="3" X="541" YY="32" XX="592"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Area Geografica" EXPRTYPE="constant"
+                    Y="3" X="716" YY="32" XX="781"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Codice Fiscale" EXPRTYPE="constant"
+                    Y="3" X="192" YY="16" XX="296"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Attivit&#224;" EXPRTYPE="constant"
+                    Y="3" X="597" YY="16" XX="655"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="stringa" NAME="Documento: Tipo, Numero, Autorit&#224; rilasciante, Data" EXPRTYPE="constant"
+                    Y="3" X="787" YY="16" XX="1073"
+                    ALIGN="L"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    FONTSTYLE="B"
+                    />
+              <ITEM OBJ="h_line" Y="33" X="1" XX="1082" BORDERWIDTH="1"
+                    UID="XQBNRBRMEJ" 
+                    ALIGN="L"
+                    />
+          <SECTION TYPE="group" HEADH="27" FOOTH="0" EXPRESSION="">
+                      <ITEM OBJ="espressione" NAME="qbe_prn_elenco_anagrafiche.c_RAGSOC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="5" YY="25" XX="188"
+                            SYMNAME="RagioneSociale"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="70"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_prn_elenco_anagrafiche.c_CODFISC" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="192" YY="25" XX="296"
+                            SYMNAME="CodiceFiscale"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="16"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_prn_elenco_anagrafiche.c_DOMICILIO+&#39; - &#39;+qbe_prn_elenco_anagrafiche.c_CAP+&#39; &#39;+qbe_prn_elenco_anagrafiche.c_DESCCIT+&#39; (&#39;+qbe_prn_elenco_anagrafiche.c_PROVINCIA+&#39;)&#39;" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="299" YY="25" XX="538"
+                            SYMNAME="Domicilio"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="78"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_prn_elenco_anagrafiche.c_COMPORT" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="541" YY="25" XX="572"
+                            SYMNAME="Condotta"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="5"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_prn_elenco_anagrafiche.c_ATTIV" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="597" YY="25" XX="655"
+                            SYMNAME="Attivita"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="10"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_prn_elenco_anagrafiche.c_PKTBSPECIE" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="659" YY="25" XX="685"
+                            SYMNAME="NaturaGiuridica"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="4"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_prn_elenco_anagrafiche.c_AREAGEO" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="716" YY="25" XX="737"
+                            SYMNAME="AreaGeografica"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="3"
+                            />
+                      <ITEM OBJ="espressione" NAME="qbe_prn_elenco_anagrafiche.c_TIPODOC+&#39;, &#39;+qbe_prn_elenco_anagrafiche.c_NUMDOCUM+&#39;, &#39;+qbe_prn_elenco_anagrafiche.c_AUTRILASC+&#39;, &#39;+arfn_fdate(qbe_prn_elenco_anagrafiche.c_DATARILASC)" ITEMTYPE="C" EXPRTYPE="expression"
+                            Y="3" X="789" YY="25" XX="1075"
+                            SYMNAME="Documento"
+                            ALIGN="L"
+                            REPEATED="true"
+                            GLBFONT="true"
+                            GLBPICTURE="true"
+                            LEN="57"
+                            />
+          </SECTION>
+  </SECTION>
+  <PAGEFOOTER Y="103" H="25" EXPRESSION="Page footer">
+              <ITEM OBJ="h_line" Y="1" X="1" XX="1082" BORDERWIDTH="1"
+                    UID="VUAOPHCWMY" 
+                    ALIGN="L"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Data: &#39;+arfn_fdate(Date())" EXPRTYPE="expression"
+                    Y="5" X="11" YY="21" XX="176"
+                    ALIGN="L"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+              <ITEM OBJ="stringa" NAME="&#39;Pagina: &#39;+ LRTrim(Str(nNumPage,4))" EXPRTYPE="expression"
+                    Y="5" X="668" YY="21" XX="1073"
+                    ALIGN="R"
+                    REMOVEON="CSV,CSVS,XLS"
+                    REPEATED="true"
+                    GLBFONT="false" FONTNAME="Tahoma" FONTSIZE="8"
+                    />
+  </PAGEFOOTER>
+  <REPORTFOOTER Y="128" H="1" EXPRESSION="Report footer">
+  </REPORTFOOTER>
+</REPORT>

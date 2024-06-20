@@ -1,0 +1,58 @@
+﻿* --- Resource Vers. 0.9
+arpg_import_unicredit
+￼Iresource.ResourcePage
+created_on=#2024-05-10 18:24:30
+description='Import Rapporti UNICREDIT
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={}
+modified_on=#2024-05-10 18:25:02
+module_name='
+name='arpg_import_unicredit
+state=1
+type='page
+used_resource_keys={
+'Fields
+[
+'tbmacage.macodice
+'tbmacage.madescri
+'tbmacage.maflgrap
+'tbmacage.maflgope
+'tbmacage.maflgbon
+'tbmacage.madipstd
+]
+'Hyperlinks
+[
+'arrt_import_unicredit
+]
+'Others
+[
+'jsp\showmsg_portlet.jsp
+'jsp\showlog_portlet.jsp
+]
+'Tables
+[
+'tbmacage<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arpg_import_unicredit|Error|core::document|Update dependencies|Resource "sp_huploadfile" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:02
+message='Resource "sp_huploadfile" not found.
+resource_key='arpg_import_unicredit
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

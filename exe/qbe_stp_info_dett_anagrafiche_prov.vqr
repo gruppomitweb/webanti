@@ -1,0 +1,875 @@
+ 9
+"Informazioni su rapporti"
+"xapopebo"
+"xapopebo"
+ 0
+ 0
+*
+"Anagrafica Rapporti"
+"xnarapbo"
+"xnarapbo"
+ 0
+ 0
+*
+"Dipendenze"
+"anadip"
+"anadip"
+ 0
+ 0
+*
+"Soggetti conto informazioni"
+"xntestbo"
+"xntestbo"
+ 0
+ 0
+*
+"Tipo Registrazione"
+"tbtipreg_rap"
+"tbtipreg"
+ 0
+ 0
+*
+"Deleghe su rapporti"
+"xelegabo"
+"xelegabo"
+ 0
+ 0
+*
+"Rapporto Titolare Effettivo"
+"xapotit"
+"xapotit"
+ 0
+ 0
+*
+"Intestatari Titolarità"
+"xntestit"
+"xntestit"
+ 0
+ 0
+*
+"Tipo Registrazione titolari"
+"tbtipreg_tit"
+"tbtipreg"
+ 0
+ 0
+*
+ 67
+"Data Inizio / Fine Rapporto"
+"xapopebo.DATAOPE"
+"DATAOPE"
+"D"
+ 8
+ 0
+*
+"Numero Progressivo"
+"xapopebo.NUMPROG"
+"NUMPROG"
+"C"
+ 11
+ 0
+*
+""
+"xapopebo.TIPOINTER"
+"TIPOINTER"
+"C"
+ 2
+ 0
+*
+"Codice Interm."
+"xapopebo.CODINTER"
+"CODINTER"
+"C"
+ 11
+ 0
+*
+""
+"xapopebo.TIPOINF"
+"TIPOINF"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.IDEREG"
+"IDEREG"
+"C"
+ 20
+ 0
+*
+"Codice Dipendenza"
+"xapopebo.CODDIPE"
+"CODDIPE"
+"C"
+ 6
+ 0
+*
+"Citta Int."
+"xapopebo.DESCCIT"
+"DESCCIT"
+"C"
+ 30
+ 0
+*
+"Provincia"
+"xapopebo.PROVINCIA"
+"PROVINCIA"
+"C"
+ 2
+ 0
+*
+"CAB"
+"xapopebo.CODCAB"
+"CODCAB"
+"C"
+ 6
+ 0
+*
+""
+"xapopebo.FLAGFRAZ"
+"FLAGFRAZ"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.FLAGCONT"
+"FLAGCONT"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.CODANA"
+"CODANA"
+"C"
+ 4
+ 0
+*
+""
+"xapopebo.CODVOC"
+"CODVOC"
+"C"
+ 2
+ 0
+*
+""
+"xapopebo.TIPOINT2"
+"TIPOINT2"
+"C"
+ 2
+ 0
+*
+""
+"xapopebo.CODINT2"
+"CODINT2"
+"C"
+ 11
+ 0
+*
+""
+"xapopebo.PAESE"
+"PAESE"
+"C"
+ 3
+ 0
+*
+""
+"xapopebo.DESC2"
+"DESC2"
+"C"
+ 30
+ 0
+*
+""
+"xapopebo.PROV2"
+"PROV2"
+"C"
+ 2
+ 0
+*
+""
+"xapopebo.CODCAB2"
+"CODCAB2"
+"C"
+ 6
+ 0
+*
+"Note Brevi"
+"xapopebo.DESCINTER"
+"DESCINTER"
+"C"
+ 50
+ 0
+*
+""
+"xapopebo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+""
+"xapopebo.FLAGRAP"
+"FLAGRAP"
+"C"
+ 1
+ 0
+*
+"Tipo Legame Sogg."
+"xapopebo.TIPOLEG"
+"TIPOLEG"
+"C"
+ 1
+ 0
+*
+"Data Registrazione"
+"xapopebo.DATAREG"
+"DATAREG"
+"D"
+ 8
+ 0
+*
+""
+"xapopebo.OPRAP"
+"OPRAP"
+"C"
+ 1
+ 0
+*
+"Tipo Informazione"
+"xapopebo.TIPOOPRAP"
+"TIPOOPRAP"
+"C"
+ 2
+ 0
+*
+""
+"xapopebo.FLAGLIRE"
+"FLAGLIRE"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+""
+"xapopebo.SEGNO"
+"SEGNO"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.TOTLIRE"
+"TOTLIRE"
+"N"
+ 15
+ 0
+*
+""
+"xapopebo.TOTCONT"
+"TOTCONT"
+"N"
+ 15
+ 0
+*
+"Stato Registrazione"
+"xapopebo.STATOREG"
+"STATOREG"
+"C"
+ 1
+ 0
+*
+""
+"xapopebo.OPERAZMOD"
+"OPERAZMOD"
+"C"
+ 20
+ 0
+*
+""
+"xapopebo.DATARETT"
+"DATARETT"
+"D"
+ 8
+ 0
+*
+""
+"xapopebo.CONNESCLI"
+"CONNESCLI"
+"C"
+ 16
+ 0
+*
+""
+"xelegabo.CODINTER"
+"CODINTER_DEL"
+"C"
+ 16
+ 0
+*
+"Intestatario (Non Intermediario)"
+"xntestbo.CODINTER"
+"CODINTER_INTEST"
+"C"
+ 16
+ 0
+*
+"Titolari"
+"xntestit.CODINTER"
+"CODINTER_TITO"
+"C"
+ 16
+ 0
+*
+"Soggetto Operante Conto Terzi"
+"xapopebo.CONNESOPER"
+"CONNESOPER"
+"C"
+ 16
+ 0
+*
+""
+"ýý"
+"DESOPER"
+"C"
+ 70
+ 0
+*
+""
+"xapopebo.CONNESBEN"
+"CONNESBEN"
+"C"
+ 16
+ 0
+*
+""
+"xapopebo.COLLEG"
+"COLLEG"
+"C"
+ 12
+ 0
+*
+""
+"xapopebo.CAMBIO"
+"CAMBIO"
+"N"
+ 9
+ 4
+*
+""
+"xapopebo.RAPPORTBEN"
+"RAPPORTBEN"
+"C"
+ 25
+ 0
+*
+""
+"xapopebo.FLAGRAP2"
+"FLAGRAP2"
+"C"
+ 1
+ 0
+*
+"idbase"
+"xapopebo.IDBASE"
+"IDBASE"
+"C"
+ 10
+ 0
+*
+""
+"xapopebo.OPERATORE"
+"OPERATORE"
+"C"
+ 70
+ 0
+*
+""
+"xapopebo.AUTOM"
+"AUTOM"
+"C"
+ 5
+ 0
+*
+""
+"xapopebo.RESPINS"
+"RESPINS"
+"C"
+ 30
+ 0
+*
+""
+"xapopebo.INFORM"
+"INFORM"
+"C"
+ 30
+ 0
+*
+""
+"xapopebo.DATAAGE"
+"DATAAGE"
+"D"
+ 8
+ 0
+*
+""
+"xapopebo.UCODE"
+"UCODE"
+"C"
+ 7
+ 0
+*
+""
+"ýý"
+"TIPO_REC"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"xnarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Descrizione"
+"tbtipreg_rap.DES1"
+"DES1_RAP"
+"C"
+ 90
+ 0
+*
+"Dati della dipendenza"
+"[IIF([NOTEMPTYSTR(anadip.CODDIP)]>0,ýCodice: ý[CONCAT()][TRIM(anadip.CODDIP)][CONCAT()]ý ý[CONCAT()][TRIM(anadip.DESCRIZ)][CONCAT()][IIF(anadip.AGENTE=1,ý Agente mediatoreý,ýý)][CONCAT()][IIF([NOTEMPTYSTR(anadip.DESCCIT)]>0,ý Residenza: ý[CONCAT()][TRIM(anadip.DESCCIT)][CONCAT()]ý (ý[CONCAT()][TRIM(anadip.PROVINCIA)][CONCAT()]ý)ý[CONCAT()][IIF([NOTEMPTYSTR(anadip.CAB)]>0,ý CAB: ý[CONCAT()][TRIM(anadip.CAB)],ýý)],ýý)] ,ýý)]"
+"DATI_DIPEND"
+"C"
+ 254
+ 0
+*
+"Data Inizio intestatario"
+"xntestbo.DATAINI"
+"DATAINI_INTEST"
+"D"
+ 8
+ 0
+*
+"Data Fine intestatario"
+"xntestbo.DATAFINE"
+"DATAFINE_INTEST"
+"D"
+ 8
+ 0
+*
+"Data Inizio titolare"
+"xntestit.DATAINI"
+"DATAINI_TITO"
+"D"
+ 8
+ 0
+*
+"Data Fine titolare"
+"xntestit.DATAFINE"
+"DATAFINE_TITO"
+"D"
+ 8
+ 0
+*
+"Data Inizio delegato"
+"xelegabo.DATAINI"
+"DATAINI_DELEG"
+"D"
+ 8
+ 0
+*
+"Data Fine delegato"
+"xelegabo.DATAFINE"
+"DATAFINE_DELEG"
+"D"
+ 8
+ 0
+*
+"Tipo informazione titolare"
+"xapotit.TIPOOPRAP"
+"TIPOOPRAP_TIT"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbtipreg_tit.DES1"
+"DES1_TIT"
+"C"
+ 90
+ 0
+*
+"Data ope informazione titolarità"
+"xapotit.DATAOPE"
+"DATAOPE_TIT"
+"D"
+ 8
+ 0
+*
+"Stato informazione titolare"
+"xapotit.STATOREG"
+"STATOREG_TIT"
+"C"
+ 1
+ 0
+*
+ 8
+"Informazioni su rapporti()"
+"xnarapbo.RAPPORTO=xapopebo.RAPPORTO"
+"Right outer"
+"xnarapbo"
+"xapopebo"
+*
+"Dipendenze(Codice Dipendenza)"
+"anadip.CODDIP=xapopebo.CODDIPE"
+"Right outer"
+"anadip"
+"xapopebo"
+*
+"Tipo Registrazione(Tipo Informazione)"
+"tbtipreg_rap.CODICE=xapopebo.TIPOOPRAP"
+"Right outer"
+"tbtipreg_rap"
+"xapopebo"
+*
+"Intestatari"
+"xntestbo.RAPPORTO=xapopebo.RAPPORTO AND (xntestbo.NUMPROG1=xapopebo.NUMPROG OR xntestbo.NUMPROG2=xapopebo.NUMPROG)"
+"Right outer"
+"xntestbo"
+"xapopebo"
+*
+"Delegati"
+"xelegabo.RAPPORTO=xapopebo.RAPPORTO"
+"Right outer"
+"xelegabo"
+"xapopebo"
+*
+"Legami collegati all intestatario"
+"xapotit.CONNESCLI=xntestbo.CODINTER"
+"Right outer"
+"xapotit"
+"xntestbo"
+*
+""
+"tbtipreg_tit.CODICE=xapotit.TIPOOPRAP"
+"Right outer"
+"tbtipreg_tit"
+"xapotit"
+*
+"Legami collegati ai titolari"
+"xntestit.CODCLI=xapotit.CONNESCLI AND (xntestit.NUMPROG1=xapotit.NUMPROG OR xntestit.NUMPROG2=xapotit.NUMPROG)"
+"Right outer"
+"xntestit"
+"xapotit"
+*
+ 28
+"(xapotit.STATOREG"
+""
+"in"
+"(ý0ý,ý1ý)"
+"OR"
+""
+*
+"xntestit.CODINTER"
+""
+"is null"
+")"
+"AND"
+""
+*
+"((0"
+""
+"="
+"?essere"
+"AND"
+""
+*
+"xapopebo.DATAOPE"
+""
+">="
+"?dadata_info"
+"AND"
+""
+*
+"xapopebo.DATAOPE"
+""
+"<="
+"?adata_info"
+"AND"
+""
+*
+"1"
+""
+"="
+"1)"
+"OR"
+""
+*
+"(1"
+""
+"="
+"?essere"
+"AND"
+""
+*
+"(xapopebo.TIPOOPRAP"
+""
+"in"
+"(ý21ý,ý22ý,ý23ý,ý24ý,ý27ý,ý33ý,ý34ý,ý35ý,ý37ý,ý43ý,ý44ý,ý45ý,ý50ý,ý52ý,ý58ý)"
+"AND"
+""
+*
+"xapopebo.DATAOPE"
+""
+"<="
+"?adata_info"
+"AND"
+""
+*
+"1"
+""
+"="
+"1)"
+"OR"
+""
+*
+"(xapopebo.TIPOOPRAP"
+""
+"in"
+"(ý26ý,ý36ý,ý38ý,ý46ý,ý51ý,ý53ý)"
+"AND"
+""
+*
+"xapopebo.DATAOPE"
+""
+">="
+"?dadata_info"
+"AND"
+""
+*
+"1"
+""
+"="
+"1)))"
+"AND"
+""
+*
+"xapopebo.DATAREG"
+""
+">="
+"?dadata_reg"
+"AND"
+""
+*
+"xapopebo.DATAREG"
+""
+"<="
+"?adata_reg"
+"AND"
+""
+*
+"(xapotit.CONNESCLI"
+""
+"is null"
+""
+"OR"
+""
+*
+"((ýSý"
+""
+"="
+"?TitEssere"
+"AND"
+""
+*
+"(xapotit.TIPOOPRAP"
+""
+"="
+"ý50ý"
+"AND"
+""
+*
+"xapotit.DATAOPE"
+""
+"<="
+"?adata_info"
+"AND"
+""
+*
+"1"
+""
+"="
+"1)"
+"OR"
+""
+*
+"(xapotit.TIPOOPRAP"
+""
+"="
+"ý51ý"
+"AND"
+""
+*
+"xapotit.DATAOPE"
+""
+"<="
+"?dadata_info"
+"AND"
+""
+*
+"1"
+""
+"="
+"1))"
+"OR"
+""
+*
+"(ýNý"
+""
+"="
+"?TitEssere)))"
+"AND"
+""
+*
+"xapotit.DATAREG"
+""
+">="
+"?dadata_reg"
+"AND"
+""
+*
+"xapotit.DATAREG"
+""
+"<="
+"?adata_reg"
+"AND"
+""
+*
+"xapopebo.CODDIPE"
+""
+"="
+"?dipendenza"
+"AND"
+""
+*
+"ýPý"
+""
+"="
+"?tiporep"
+"AND"
+""
+*
+ 0
+ 0
+ 0
+ 9
+"respons"
+"responsabile inserimento dati"
+"C"
+"0"
+"0"
+""
+""
+*
+"dadata_info"
+"Da Data Inizio / Fine Rapporto"
+"D"
+"8"
+"0"
+"Remove"
+""
+*
+"adata_info"
+"A data Data Inizio / Fine Rapporto"
+"D"
+"8"
+"0"
+"Remove"
+""
+*
+"dadata_reg"
+"Da Data Registrazione"
+"D"
+"8"
+"0"
+"Remove"
+""
+*
+"adata_reg"
+"A Data Registrazione"
+"D"
+"8"
+"0"
+"Remove"
+""
+*
+"essere"
+"solo rapporti in essere"
+"L"
+"1"
+"0"
+""
+""
+*
+"TitEssere"
+"Solo titolari in essere"
+"C"
+"1"
+"0"
+""
+""
+*
+"dipendenza"
+"Codice della dipendenza su cui filtrare"
+"C"
+"6"
+"0"
+"Remove"
+""
+*
+"tiporep"
+""
+"C"
+"1"
+"0"
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 66
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+".+%3D%5BnN%237%2123%3E1RZ0V%2B%24H%5B%22F%1DIT+tY%23O%04IJ%1A%5E%3B4%22ABJmG6ETQ%3CT9%25%25299%22F9CB7RA%2F5F%211%2F%3EZt%3FUJB%2B0X%7DGT%18%07A3%3C0%24Q5PF5rP%3CK%1E%2F7%27-XI%5BO5M9%3F3%2C6%5B96%3F9*L%25S%40.%227V%3D**E.Q%10%3A%5B%5E1RJ%255%134%40%5D9%190C%29OOE*7ANDXY%04%2CD%24.F%23.AA.%3E%1E%21E-%2C%3EY%2F%3B%2B%3CF%27%3B%23XX.%40.J0%3B%227%223.%25%5CMQP-%246XI_O%3A%06%296%11%3D-Y%5CFU%3CHD*%2CNA43%28%23%23INn5D%3B7NK1%18%3B%26U%3A%187%00"
+"%23CYLDEA%5EGO6EO%2BGAi93%3E29-%1F%260A%27LJ%5CP%280%2F2%21X%27VH%22%5C%23*N.JIHM38%01%3B45KPE%5DS%239-%3E%3B%3F16P9%263+1%249M%2C_%5Ch1%070%28%3BN1sO%2FAAOO%07%2722+%24R4VKG2-B%29%2BHZA4%21%2BUD.CNaE%266V%3EV%176%2B%02%29UU%292QB2%24K4YR7C%281%5B26B%2B0K.%5D%23%5C-%27%22L7E5%3C%26LMm%1F%3EA9O%3B48%3B%2C%2B*H%3B*KFV3DK%5CDBI%223%26%25W6LT%28%3B%139F9%3A%21V%24%3CO51Z%5E+MoIX7*8%28%2B4%26%28%400%23B7.%3A6BURBQJ%27DNA%00"
+""
+""
+"native"
+ 0
+ 0
+*

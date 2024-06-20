@@ -1,0 +1,113 @@
+﻿* --- Resource Vers. 0.9
+armt_wersonbo_agg
+￼Iresource.ResourceMaster
+created_on=#2024-05-10 18:24:30
+description='Storico Dati Aggiuntivi Persone/Clienti
+file_modified_on=#2023-09-11 12:12:03
+location='
+measures={}
+modified_on=#2024-05-10 18:24:58
+module_name='
+name='armt_wersonbo_agg
+state=1
+type='master
+used_resource_keys={
+'Fields
+[
+'wersonbo_agg.connes
+'wersonbo_agg.email
+'wersonbo_agg.flgemail
+'wersonbo_agg.telefono
+'wersonbo_agg.flgvalido
+'wersonbo_agg.flganaval
+'wersonbo_agg.cloccupa
+'wersonbo_agg.nazione
+'tbstati.codsta
+'tbstati.descri
+'wersonbo_agg.clprvdom
+'wersonbo_agg.regres
+'wersonbo_agg.flgbl
+'wersonbo_agg.categ01
+'tbcateg01.c1codice
+'tbcateg01.c1descri
+'tbcateg01.c1codtab
+'wersonbo_agg.categ02
+'tbcateg02.c2codice
+'tbcateg02.c2descri
+'tbcateg02.c2codtab
+'wersonbo_agg.categ03
+'tbcateg03.c3codice
+'tbcateg03.c3descri
+'tbcateg03.c3codtab
+'wersonbo_agg.categ04
+'tbcateg04.c4codice
+'tbcateg04.c4descri
+'tbcateg04.c4codtab
+'wersonbo_agg.categ05
+'tbcateg05.c5codice
+'tbcateg05.c5descri
+'tbcateg05.c5codtab
+'wersonbo_agg.flgpregiud
+'wersonbo_agg.flgtrust
+'wersonbo_agg.flgrischio
+'wersonbo_agg.flgfalsadic
+'wersonbo_agg.flgequifin
+'wersonbo_agg.flgricinf
+'wersonbo_agg.categoria
+'wersonbo_agg.numcel
+'wersonbo_agg.pec
+'wersonbo_agg.referente
+'wersonbo_agg.sanumpro
+]
+'Routines
+[
+'fwfn_calc_categoria
+]
+'Tables
+[
+'wersonbo_agg<table>
+'tbstati<table>
+'tbcateg01<table>
+'tbcateg02<table>
+'tbcateg03<table>
+'tbcateg04<table>
+'tbcateg05<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]armt_wersonbo_agg|Error|core::document|Update dependencies|Field "wersonbo_agg.CONALTO" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:58
+message='Field "wersonbo_agg.CONALTO" not found.
+resource_key='armt_wersonbo_agg
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]armt_wersonbo_agg|Error|core::document|Update dependencies|Field "wersonbo_agg.APPALTO" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:24:58
+message='Field "wersonbo_agg.APPALTO" not found.
+resource_key='armt_wersonbo_agg
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

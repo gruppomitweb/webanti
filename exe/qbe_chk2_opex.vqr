@@ -1,0 +1,134 @@
+ 2
+"Operazioni ExtraConto"
+"opextrbo"
+"opextrbo"
+ 0
+ 0
+*
+"Anagrafica Persone/Società/Legali Rappresentanti"
+"personbo"
+"personbo"
+ 0
+ 0
+*
+ 1
+"Collegamento"
+"opextrbo.COLLEG"
+"COLLEG"
+"C"
+ 16
+ 0
+ 0
+.f.
+""
+""
+.f.
+*
+ 1
+"Soggetti"
+"personbo.CONNES=opextrbo.COLLEG"
+"Right outer"
+"personbo"
+"opextrbo"
+*
+ 5
+"opextrbo.ANNO"
+""
+"="
+"?w_annoc"
+"AND"
+""
+""
+*
+"opextrbo.PROGOPEX"
+""
+">="
+"?_bottom"
+"AND"
+""
+""
+*
+"opextrbo.PROGOPEX"
+""
+"<="
+"?_top"
+"AND"
+""
+""
+*
+"opextrbo.INVIATO"
+""
+"="
+"1"
+"AND"
+""
+""
+*
+"opextrbo.ANNULLA"
+""
+"<>"
+"1"
+"AND"
+""
+""
+*
+ 0
+ 0
+ 0
+ 3
+"w_annoc"
+"Anno riferimento"
+"C"
+"4"
+"0"
+""
+""
+""
+*
+"_bottom"
+"Progressivo Import"
+"N"
+"10"
+"0"
+""
+""
+""
+*
+"_top"
+"Progressivo Import"
+"N"
+"10"
+"0"
+""
+""
+""
+*
+""
+.f.
+""
+ 0
+ 0
+ 1
+""
+""
+.f.
+.t.
+ 5
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"%25%2C6L%5DXMNI%3F%1FN.%09%5BTHCP%3D-1GFQH%5BK3OU%5E%24%3EN%28N%5B%29%25E%27Q%28H%23%2CTQ7G*05%114%21ODPvRBL4E%243W20%29NJ%7B%3DI%23%401FkR%1B%2FF3%26%22%1EPX%25IGZMV%3B%2C%3CUO%3F%5E%289%5B9B7%2BQEKLI2N%5E%2188M8Q%22nL6.+%29*%285_SJhGK%21GL3%5BU%3F._%2C%02%2B-+ZaP-TY%5C2%3F6%2F10%25%05L1%2F73%3E%27%0B%7CF%3D%3E6%25%27%3E47M2+QO%21A%278%2FH%223%28%25C%5CT%3BB4J9HQN%27R83%23N%3B%5DUTN7GX8EHMZ%3F*%3BJi%40U7%2F04-S%3BJ%07%210%2B%2F-%00"
+"%5Cp8xlV%2F6z%3F30EU%23%5B9A37%22%3F.%24%5CR%22+W%25ST5A%18%00A%05W%26Z_mJ%3AE_N3%3AF%25%2C%2FA25%22%3CQ%29OZ5%212KCV%2635%241%2CC+G%3D%23%2B%3D%3A0%3A%28R1%3A7%5EGHtUI%3D%3B%3BO+9O%3CX%5E5PB1%29-PB%3F9L%3BF7%2CJ8UCE%28MGS%25%23CMU-_3IG%2CMHH7+%29%3FW%198%21Y%24%29%25+ZXu%5E%2C_%23-87%2F%3A%5CUIEN9%23B55Z7O%23%22%16%5DJ4G-MFvGC%40RH8%27%223*%25F%40+1H+%29%27FA4OZ42%12%40%29_UISlL%3C9D%2BGX%2C1RZJ%22A%3C+8TO%3BWN61%3F%3FB%3B%00"
+""
+""
+"native"
+ 0
+ 0
+ 0
+*

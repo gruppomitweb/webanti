@@ -1,0 +1,60 @@
+﻿* --- Resource Vers. 0.9
+arrt_trasfdafra_aoped_stp
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:42
+description='Consolidamento Frazionate (Routine)
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:30
+module_name='
+name='arrt_trasfdafra_aoped_stp
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'tmp_trasfope.numprog
+]
+'Hyperlinks
+[
+'arrp_trasfraz_stp_no.vrp
+'arrp_trasfraz_stp.vrp
+]
+'Libraries
+[
+'Utilities<painter>
+'LibreriaMit<project>
+]
+'Queries
+[
+'qbe_trasfraz_conta.vqr
+]
+'Tables
+[
+'anadip<table>
+'beneficfrz<table>
+'beneficope<table>
+'clientifrz<table>
+'clientiope<table>
+'fraziobo<table>
+'intermbo<table>
+'operazbo<table>
+'sogopebo<table>
+'sogopefbo<table>
+'terzistifrz<table>
+'terzistiope<table>
+'tmp_trasfope<table>
+]
+}
+I
+*--*
+￼[]
+*--*

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="157870096">
+  <CodifyName>ardt_sogope</CodifyName>
+  <Name>ardt_sogope.dtldef</Name>
+  <Title>Soggetti Agenti per Conto Oper.</Title>
+  <Type>Detail</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="201521119"></Title>
+    <Note/>
+    <JPG x="5" y="9">ardt_sogope_usr_1</JPG>
+    <Item type="campo" x1="8" y1="27" x2="116" y2="47">
+      <Name LinkID="265292975">CODSOG</Name>
+      <Comment>Codice Soggetto</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="campo" x1="592" y1="27" x2="614" y2="47">
+      <Name LinkID="37293197">LEGAME</Name>
+      <Comment>Tipo Legame</Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="144" y1="27" x2="576" y2="47">
+      <Name LinkID="13274541">xragsoc</Name>
+      <Comment>Ragione Sociale</Comment>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

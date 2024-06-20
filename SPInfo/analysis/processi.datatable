@@ -1,0 +1,220 @@
+﻿* --- Resource Vers. 0.9
+processi<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='Registrazione Processi
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='processi
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'processi.pr_tipo
+'processi.prcodice
+'processi.prdescri
+'processi.prdostart
+'processi.prdostop
+'processi.presito
+'processi.prfileout
+'processi.ptripoout
+'processi.prgmsgsta
+'processi.prnomefile
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'processi.pr_tipo
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Processo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PR_TIPO
+state=3
+table_name='processi
+type='field
+used_resource_keys={}
+I
+'processi.prcodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Processo
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRCODICE
+state=3
+table_name='processi
+type='field
+used_resource_keys={}
+I
+'processi.prdescri
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Descrizione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRDESCRI
+state=3
+table_name='processi
+type='field
+used_resource_keys={}
+I
+'processi.prdostart
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data E Ora Inizio
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRDOSTART
+state=3
+table_name='processi
+type='field
+used_resource_keys={}
+I
+'processi.prdostop
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data e Ora Fine
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRDOSTOP
+state=3
+table_name='processi
+type='field
+used_resource_keys={}
+I
+'processi.presito
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Esito
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRESITO
+state=3
+table_name='processi
+type='field
+used_resource_keys={}
+I
+'processi.prfileout
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome File Output
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRFILEOUT
+state=3
+table_name='processi
+type='field
+used_resource_keys={}
+I
+'processi.prgmsgsta
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Messaggio di stato
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRGMSGSTA
+state=3
+table_name='processi
+type='field
+used_resource_keys={}
+I
+'processi.prnomefile
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Nome File senza Path
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PRNOMEFILE
+state=3
+table_name='processi
+type='field
+used_resource_keys={}
+I
+'processi.ptripoout
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo File Output
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='PTRIPOOUT
+state=3
+table_name='processi
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'processi.pr_tipo
+[]
+'processi.prcodice
+[]
+'processi.prdescri
+[]
+'processi.prdostart
+[]
+'processi.prdostop
+[]
+'processi.presito
+[]
+'processi.prfileout
+[]
+'processi.prgmsgsta
+[]
+'processi.prnomefile
+[]
+'processi.ptripoout
+[]
+}
+*--*

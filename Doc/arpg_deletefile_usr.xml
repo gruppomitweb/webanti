@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="User.xsl"?>
+<Codify LinkID="136989658">
+  <CodifyName>arpg_deletefile</CodifyName>
+  <Name>arpg_deletefile.pagedef</Name>
+  <Title>Aggiorna Record Appartenenti a file invio (Anagrafe Rapporti)</Title>
+  <Type>Page</Type>
+  <Note></Note>
+  <Pag number="1">
+    <Title LinkID="133336698"></Title>
+    <Note/>
+    <JPG x="0" y="0">arpg_deletefile_usr_1</JPG>
+    <Item type="immagine" x1="360" y1="119" x2="400" y2="150">
+      <Name LinkID="136989658">images/elaborazione.gif</Name>
+      <Image>images/elaborazione.gif</Image>
+      <Hyperlink>arrt_deletefile</Hyperlink>
+      <HyperlinkOpenOn>Frame</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="immagine" x1="416" y1="119" x2="456" y2="150">
+      <Name LinkID="136989658">images/exit.gif</Name>
+      <Image>images/exit.gif</Image>
+      <Hyperlink>jsp/start_page_logo_portlet.jsp</Hyperlink>
+      <HyperlinkOpenOn>Same window</HyperlinkOpenOn>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+    <Item type="variabile" x1="256" y1="91" x2="394" y2="111">
+      <Name LinkID="181565572">nomefile</Name>
+      <Comment></Comment>
+      <Zoom>Standard</Zoom>
+      <Help></Help>
+      <Note></Note>
+    </Item>
+  </Pag>
+</Codify>

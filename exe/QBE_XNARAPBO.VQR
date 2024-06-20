@@ -1,0 +1,139 @@
+ 4
+"Anagrafica Rapporti"
+"xnarapbo"
+"xnarapbo"
+ 0
+ 0
+*
+"Natura Conti"
+"tbtipnat"
+"tbtipnat"
+ 0
+ 0
+*
+"Tipi Rapporti Agenzia Entrate"
+"tbrapp"
+"tbrapp"
+ 0
+ 0
+*
+"Divise"
+"tbvalute"
+"tbvalute"
+ 0
+ 0
+*
+ 9
+"Codice Rapporto"
+"xnarapbo.RAPPORTO"
+"RAPPORTO"
+"C"
+ 25
+ 0
+*
+"Descrizione"
+"xnarapbo.DESCRAP"
+"DESCRAP"
+"C"
+ 50
+ 0
+*
+"Tipo Rapporto"
+"xnarapbo.TIPORAP"
+"TIPORAP"
+"C"
+ 1
+ 0
+*
+"Descrizione"
+"tbtipnat.DESCRI"
+"DESCNAT"
+"C"
+ 60
+ 0
+*
+"Tipo AgE"
+"xnarapbo.TIPOAG"
+"TIPOAG"
+"C"
+ 2
+ 0
+*
+"Descrizione"
+"tbrapp.DESCRI"
+"DESCAGE"
+"C"
+ 50
+ 0
+*
+"Codice Divisa"
+"xnarapbo.VALUTA"
+"VALUTA"
+"C"
+ 3
+ 0
+*
+"Descrizione"
+"tbvalute.DESCRI"
+"DESCRI"
+"C"
+ 45
+ 0
+*
+"Customer ID (WUBS)"
+"xnarapbo.SPLITCODE"
+"SPLITCODE"
+"C"
+ 15
+ 0
+*
+ 3
+"Natura Conti(Tipo Rapporto)"
+"tbtipnat.TIPONAT=xnarapbo.TIPORAP"
+"Right outer"
+"tbtipnat"
+"xnarapbo"
+*
+"Tipi Rapporti Agenzia Entrate"
+"tbrapp.CODICE=xnarapbo.TIPOAG"
+"Right outer"
+"tbrapp"
+"xnarapbo"
+*
+"Divise(Codice Divisa)"
+"tbvalute.CODVAL=xnarapbo.VALUTA"
+"Right outer"
+"tbvalute"
+"xnarapbo"
+*
+ 0
+ 0
+ 0
+ 0
+ 0
+""
+.f.
+""
+ 0
+ 0
+ 0
+""
+""
+.f.
+.f.
+ 3
+.f.
+""
+.f.
+.f.
+""
+ 0
+ 0
+""
+""
+"OQTRnV%28Rx3%3A%15%2C%26LGQ%3DP*%3D%25*%3D%2BCXD%3Es%5C2%3C*1PJ.Q%26CO3J7%11P_%3B%3B%290%3B3C1%23OOF%24_VY+%16+%3F%5C220D%3F%25%3EHH%2C.%24%3BE4PF%03%24L%25sT%5E%2CCG7%5B3C+%3CAUYZW*W%24J%3D%5E%222E-895M%3F4*7%25Z%3EQ2R7G7%5E0X5-P%25Z*D%25%27F3O5%3C+%257%2B%3Cs7%5E%5B%3EWO%29%24KDX**%3E%25GWC%3B%17%282HUY%40%27L%00DD%26WO+H7AH%5D*%21%3B%223*%25t%5DUH%24E%3BXF_8%3F7E.%24%255q_VGCGX%06%22%28.%5E%25R%2C-V%40AKIN%22%5CS39T%21%2B%13C+%00"
+"%29_T%5BIOE%3BNM%285%3E8EPC%2251XK1NCLFvFPV2NH%3E%3D4%3D%3B*EBH%1F1*%5D%2BTk2%2F%2BUJ%184UDC%23%5E%28X%25%15%1CI%3CK%048+W%5E2%2C%3D.2H951_%3E%24%3B%236MLP%2B%3B%297%289*G_%3A%2C+u%5DXT1-6%22L%5E%3D%25Q%15%2F%3B%3E8%25%5ESUFp60%27%23%289%29X_%23h%40Y93%2CV%7F%3AGK32T%10+%2CEV%5BAAC0%25%3B%241%3BL%27%2FHQL%3F%2FMKP%224h4%3C%29-%21H%1ED0%29S%3C%40%5D%3E9+%2C%223%21%25%5EW%23%5BK%2FJ%24%21%5CQA%2F12%294AE%3AUMG%4046F%28*%2C%26Z2R%5BNOB07%26L7%3A%2CP%40T%13L%25%00"
+""
+""
+"native"
+*

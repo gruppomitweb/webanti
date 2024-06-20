@@ -1,0 +1,61 @@
+﻿* --- Resource Vers. 0.9
+arrt_cgo_alert_documenti
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:31
+description='Invio alert per documentazioni non chiuse
+file_modified_on=#2019-10-17 08:06:36
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:07
+module_name='
+name='arrt_cgo_alert_documenti
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'anadip.coddip
+'anadip.descriz
+'anadip.domicilio
+'anadip.codloc
+'anadip.desccit
+'cgo_tbtipgio.codtpgio
+'cgo_tbtipgio.destpgio
+]
+'Libraries
+[
+'FileLibMit<project>
+'Sp_Lib_SendMail<project>
+'Utilities<painter>
+]
+'Queries
+[
+'qbe_cgo_operazioni_agenzia_docs.vqr
+]
+'Routines
+[
+'arfn_dectabs
+'arfn_fdate
+'arfn_fdatetime
+]
+'Tables
+[
+'cgo_operazioni<table>
+'cpazi<table>
+'anadip<table>
+'cgo_tbtipgio<table>
+'cgo_dest_alert<table>
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

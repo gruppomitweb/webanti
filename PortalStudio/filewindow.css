@@ -1,0 +1,283 @@
+@import url("fonts/OpenSans.css");
+@font-face {
+  font-family: 'iMobileIcon';
+  src: url('../fonts/iMobileIcon.eot');
+  src:  url('../fonts/iMobileIcon.eot#iMobileIcon') format('embedded-opentype'),
+    url('../fonts/iMobileIcon.svg#iMobileIcon') format('svg'),
+    url('../fonts/iMobileIcon.woff') format('woff'),
+    url('../fonts/iMobileIcon.ttf') format('truetype');
+}
+body{
+ !background-color#FF0000;
+}
+
+.label { font-family: "Open Sans"; font-size: 11px; }
+/*Deprecato*/
+.contorno {
+  border-right: #D6D3CE 1px solid;
+  padding-right: 1px;
+  border-top: #EFEFEF 1px solid;
+  padding-top: 0px;
+  border-left: #EFEFEF 1px solid;
+  padding-left: 0px;
+  border-bottom: 1px solid #75AD5B;
+  font-weight: normal;
+  font-size: 8pt;
+  color:#787878;
+  font-family:Open Sans;
+  text-decoration: none;
+  padding:5px;
+  background:#E8E8E8;
+  overflow:hidden;
+
+  background:url(./portalstudio/images/tabstrip-background.png) repeat-x top #CDCDCD;
+}
+.titoli{
+  border: 0px;
+  font-size: 14px;
+  color :#FFFFFF;
+  font-family: Open Sans;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 0px;
+  overflow:hidden;
+  height:20px;
+  background: #333333;
+  text-align: center;
+}
+.titoli_small{
+  border:1px solid #989898;
+  border-bottom: 1px solid #75AD5B;
+  font-weight: normal;
+  font-size: 12px;
+  color:#787878;
+  font-family:"Open Sans";
+  text-decoration: none;
+  padding:2px;
+  background:#E8E8E8;
+  overflow:hidden;
+  height:16px;
+  background:url(./portalstudio/images/tabstrip-background.png) repeat-x top #CDCDCD;
+}
+.contenuto{
+  border: 0px;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size:12px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contenuto a{
+  text-decoration:none;
+  color: #000000;
+}
+.contenuto textarea{
+  background-color:#FFFFFF;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 300;
+  padding: 2px;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.contenuto [type="checkbox"]{
+  border: 1px solid #F00;
+}
+.footer {
+  border:0;
+  background-color:#E4E4E4;
+  color:#787878;
+  font-family:"Open Sans";
+  font-size:11px;
+  font-weight:normal;
+  padding:1px;
+  margin:0;
+}
+.footer .actions {
+  display: table;
+  margin: 0 auto;
+}
+.internobianco{
+  border:1px solid #989898;
+  background-color:#FFFFFF;
+  color:#787878;
+  font-family:"Open Sans";
+  font-size:12px;
+  font-weight:normal;
+  padding:1px;
+  margin:0;
+}
+.contornotitolo{
+  border-right: #D2D2D2 2px solid;
+  padding-right: 1px;
+  border-top: #EFEFEF 2px solid;
+  padding-top: 0px;
+  border-left: #EFEFEF 2px solid;
+  padding-left: 0px;
+  border-bottom: #D2D2D2 2px solid;
+  padding-bottom: 1px;
+  background:#FFFFFF url(portalstudio/images/toolbar_bg.gif) repeat-x bottom;
+  font-weight: normal;
+  font-size: 12px;
+  color:#585858;
+  font-family: "Open Sans";
+  text-decoration: none;
+}
+.tabellainterna1{
+  border-right: #808080 1px solid;
+  padding-right: 1px;
+  border-top: #808080 1px solid;
+  padding-top: 0px;
+  border-left: #808080 1px solid;
+  padding-left: 3px;
+  border-bottom: #808080 1px solid;
+  padding-bottom: 0px;
+  background-color: #D6D3CE;
+  font-weight: normal;
+  font-size: 12px;
+  color: black;
+  font-family: "Open Sans";
+  text-decoration: none;
+}
+.tabellainterna2{
+  border-right: #808080 1px solid;
+  padding-right: 1px;
+  border-top: #808080 1px solid;
+  padding-top: 0px;
+  border-left: #808080 1px solid;
+  padding-left: 3px;
+  border-bottom: #808080 1px solid;
+  padding-bottom: 0px;
+  background-color: #FFFFFF;
+  font-weight: normal;
+  font-size: 12px;
+  color: black;
+  font-family: "Open Sans";
+  text-decoration: none;
+}
+.testo {
+  font-weight: normal;
+  font-size: 12px;
+  color: black;
+  font-family: "Open Sans";
+  text-decoration: none;
+}
+.bottoni {
+  cursor: pointer;
+  color: #FFFFFF;
+  border: 0;
+  padding: 3px 5px;
+  font-size: 12px;
+  font-family: Open Sans;
+  font-weight: 300;
+  text-decoration: none;
+  background-color: #43AFC3;
+}
+.bottoni2 {
+  cursor: pointer;
+  color: #FFFFFF;
+  border: 0;
+  padding: 3px 5px;
+  font-size: 12px;
+  font-family: Open Sans;
+  font-weight: 300;
+  text-decoration: none;
+  background-color: #333333;
+}
+.contornoicone {
+  padding:1px;
+  background:transparent url(visualweb/images/backbutton.png) no-repeat center;
+  font-weight: normal;
+  font-size: 12px;
+  color: black;
+  font-family: "Open Sans";
+  text-decoration: none;
+}
+
+
+.col_1 {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.col_2 {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.col_2 input {
+  width: 100%;
+}
+
+#remote_details_toggle {
+  background: url(portalstudio/images/openclose.png) no-repeat scroll center bottom;
+  cursor: pointer;
+  height: 4px;
+  -moz-background-clip: border;
+  -moz-background-origin: padding;
+  -moz-background-inline-policy: continuous;
+}
+option{
+  font-size:12px;
+  color:#898989;
+  background-color:#FFFFFF;
+  border-bottom:1px dotted #DEDEDE;
+  font-weight:normal;
+  text-align: left;
+}
+option:hover{
+  background-color:#F0F4FE;
+}
+#list{
+  border-top:1px solid #989898;
+  top:37px;
+  bottom:0;
+  width:100%;
+  overflow-x:hidden;
+  z-index:1;
+  background: #FFFFFF url(./visualweb/images/dialog_loader.gif) no-repeat center center;
+  bottom:0;
+}
+#list .file-item{
+  margin:0;
+  padding:0;
+  padding:3px 5px;
+  cursor:default;
+  border-bottom:1px dotted #DEDEDE;
+  background:#FFFFFF;
+}
+#list .file-item p{
+  padding:0;
+  margin:0;
+}
+#list .file-item .name{
+  font-size:12px;
+  font-weight:bold;
+  color:#898989;
+}
+#list .file-item .description{
+  font-size:9px;
+  color:#BCBCBC;
+  font-style:italic;
+  padding:2px 0px 0px 5px;
+}
+select{
+  border:0;
+  font-size:12px;
+  color: #000000;
+  font-family: Open Sans;
+  font-weight: 300;
+}
+thead tr td {
+  padding: 2px;
+}
+input{
+  color:#898989;
+  font-family:"Open Sans";
+  font-size:12px;
+}

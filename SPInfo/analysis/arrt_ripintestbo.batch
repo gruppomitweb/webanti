@@ -1,0 +1,71 @@
+﻿* --- Resource Vers. 0.9
+arrt_ripintestbo
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Sistema Intestbo
+file_modified_on=#2018-06-11 07:20:50
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:24
+module_name='
+name='arrt_ripintestbo
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'intestbo.idbase
+'intestbo.cprownum
+'intestbo.dataini
+'intestbo.tipopers
+'intestbo.codinter
+'intestbo.datafine
+'intestbo.numprog1
+'intestbo.numprog2
+'intestbo.rapporto
+'intestbo.tiporap
+'intestbo.statoreg
+'intestbo.descinter
+'intestbo.operazmod
+'intestbo.datarett
+'intestbo.idereg
+'intestbo.collegamen
+'intestbo.ucode
+'tmp_intestbo.rapporto
+]
+'Tables
+[
+'tmp_intestbo<table>
+'intestbo<table>
+'appointestbo<table>
+'aefiles<table>
+]
+}
+I
+*--*
+￼[
+Iresource.LogEvent
+action='Update dependencies
+cached_key='[resource,LogEvent]arrt_ripintestbo|Error|core::document|Update dependencies|Field "intestbo.1" not found.{Accuracy:-100}
+explanation='
+found_on=#2024-05-10 18:25:24
+message='Field "intestbo.1" not found.
+resource_key='arrt_ripintestbo
+solvable=False
+status='unhandled
+tool='core::document
+type='Error
+weights={
+'Accuracy
+-100
+}
+I
+]
+*--*

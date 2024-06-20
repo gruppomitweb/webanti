@@ -1,0 +1,372 @@
+﻿* --- Resource Vers. 0.9
+db_fraziobo_agg<table>
+￼Iresource.ResourceDataTable
+created_on=#2024-05-10 18:24:25
+description='DB FRAZIOBO_AGG
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+isTemporary=False
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='db_fraziobo_agg
+state=3
+type='datatable
+used_resource_keys={
+'Fields
+[
+'db_fraziobo_agg.idbase
+'db_fraziobo_agg.codlob
+'db_fraziobo_agg.tipogioco
+'db_fraziobo_agg.cacodice
+'db_fraziobo_agg.idbiglietto
+'db_fraziobo_agg.cadataora
+'db_fraziobo_agg.catipgio
+'db_fraziobo_agg.catipcon
+'db_fraziobo_agg.capv_cod
+'db_fraziobo_agg.iddocall
+'db_fraziobo_agg.vpcodice
+'db_fraziobo_agg.wudatret
+'db_fraziobo_agg.categ01
+'db_fraziobo_agg.categ02
+'db_fraziobo_agg.categ03
+'db_fraziobo_agg.categ04
+'db_fraziobo_agg.categ05
+'db_fraziobo_agg.categoria
+]
+}
+I
+*--*
+￼[]
+*--*
+￼{
+'db_fraziobo_agg.cacodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Causale SNAI
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CACODICE
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.cadataora
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data e Ora Giocata
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CADATAORA
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.capv_cod
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='PV_COD
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CAPV_COD
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.categ01
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 1
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG01
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.categ02
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 2
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG02
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.categ03
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 3
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG03
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.categ04
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 4
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG04
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.categ05
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria 5
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEG05
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.categoria
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Categoria
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATEGORIA
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.catipcon
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Concessione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATIPCON
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.catipgio
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Gioco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CATIPGIO
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.codlob
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Line Of Business
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='CODLOB
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.idbase
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Operazione
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBASE
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.idbiglietto
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='ID Biglietto
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDBIGLIETTO
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.iddocall
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Collegamento Documenti
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='IDDOCALL
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.tipogioco
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Tipo Gioco
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='TIPOGIOCO
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.vpcodice
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Codice Piattaforma VLT
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='VPCODICE
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+'db_fraziobo_agg.wudatret
+Iresource.ResourceField
+created_on=#2024-05-10 18:24:25
+description='Data Rettifica
+dic_name='plan
+file_modified_on=#2024-05-09 16:40:02
+location='
+measures={}
+modified_on=#2024-05-10 18:24:25
+module_name='
+name='WUDATRET
+state=3
+table_name='db_fraziobo_agg
+type='field
+used_resource_keys={}
+I
+}
+*--*
+￼{
+'db_fraziobo_agg.cacodice
+[]
+'db_fraziobo_agg.cadataora
+[]
+'db_fraziobo_agg.capv_cod
+[]
+'db_fraziobo_agg.categ01
+[]
+'db_fraziobo_agg.categ02
+[]
+'db_fraziobo_agg.categ03
+[]
+'db_fraziobo_agg.categ04
+[]
+'db_fraziobo_agg.categ05
+[]
+'db_fraziobo_agg.categoria
+[]
+'db_fraziobo_agg.catipcon
+[]
+'db_fraziobo_agg.catipgio
+[]
+'db_fraziobo_agg.codlob
+[]
+'db_fraziobo_agg.idbase
+[]
+'db_fraziobo_agg.idbiglietto
+[]
+'db_fraziobo_agg.iddocall
+[]
+'db_fraziobo_agg.tipogioco
+[]
+'db_fraziobo_agg.vpcodice
+[]
+'db_fraziobo_agg.wudatret
+[]
+}
+*--*

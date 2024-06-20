@@ -1,0 +1,81 @@
+﻿* --- Resource Vers. 0.9
+arrt_fammigra_stp
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:35
+description='Esegui il confronto delle famiglie
+file_modified_on=#2024-01-23 09:42:09
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:13
+module_name='
+name='arrt_fammigra_stp
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.codfisc
+'personbo.nome
+'personbo.cognome
+'tmp_esitierr.uniquecode
+'tmp_esitierr.tiporap
+'tmp_esitierr.rapporto
+'tmp_esitierr.ndgsog
+'tmp_esitierr.lsterrori
+'tmp_esitierr.datomit
+'tmp_esitierr.datoage
+'tmp_esitierr.cognome
+'tmp_esitierr.nome
+'tmp_esitierr.codfisc
+'tbstati.descri
+'tbstati.codsta
+'anarapbo.rapporto
+'anarapbo.noprot
+'jnarapbo.rapporto
+]
+'Queries
+[
+'qbe_famesiti_minmax.vqr
+'qbe_famesiti_migra_sel.vqr
+'qbe_famesiti_jntestbo_minmax.vqr
+'qbe_famesiti_intestbo_minmax.vqr
+'qbe_famesiti_noopex.vqr
+'qbe_famesiti_norapp.vqr
+]
+'Routines
+[
+'arfn_ae_famiglia
+'arfn_agechar
+'arfn_clear_nascita
+'arfn_fammigra_datamax
+'arfn_fdate
+'arfn_fdatetime
+'arrt_fammigra_stp
+]
+'Tables
+[
+'famesiti<table>
+'opextrbo<table>
+'famesitid<table>
+'personbo<table>
+'tbstati<table>
+'tmp_esitierr<table>
+'aetesta<table>
+'aeannora<table>
+'anarapbo<table>
+'jnarapbo<table>
+'intermbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

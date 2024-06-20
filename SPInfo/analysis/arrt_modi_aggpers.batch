@@ -1,0 +1,47 @@
+﻿* --- Resource Vers. 0.9
+arrt_modi_aggpers
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:39
+description='Scrive i dati per agenzia Entrate da pagina (soggetti)
+file_modified_on=#2020-10-23 09:42:22
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:23
+module_name='
+name='arrt_modi_aggpers
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'personbo.connes
+'personbo.areageo
+'personbo.comport
+'personbo.pktbspecie
+'personbo.rarea
+'personbo.rcomp
+'personbo.rnatgiu
+'personbo.bancaben
+'personbo.cittadin1
+'personbo.cittadin2
+'personbo.resfisc
+'personbo.mitig
+'personbo.mitigdoc
+]
+'Tables
+[
+'operazbo<table>
+'personbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*

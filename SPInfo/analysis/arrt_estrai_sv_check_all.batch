@@ -1,0 +1,105 @@
+﻿* --- Resource Vers. 0.9
+arrt_estrai_sv_check_all
+￼Iresource.ResourceRoutine
+created_on=#2024-05-10 18:24:34
+description='Estrazione dati Trimestrali e Semestrali per SV (Check)
+file_modified_on=#2024-05-06 14:44:59
+location='
+measures={
+'Security Mode
+Imeasure.StringMeasure
+description='Security access
+name='Security Mode
+value='not protected
+I
+}
+modified_on=#2024-05-10 18:25:12
+module_name='
+name='arrt_estrai_sv_check_all
+state=1
+type='batch
+used_resource_keys={
+'Fields
+[
+'analisi_sv.dataope
+'analisi_sv.tipo
+'analisi_sv.numprog
+'analisi_sv.segno
+'analisi_sv.coddipe
+'analisi_sv.descriz
+'analisi_sv.provincia1
+'analisi_sv.tiposv
+'analisi_sv.connescli
+'analisi_sv.ragsoc
+'analisi_sv.sotgrup
+'analisi_sv.provincia
+'analisi_sv.paese
+'analisi_sv.tipocont
+'analisi_sv.impout
+'analisi_sv.rownumber
+'analisi_sv.valuta
+'analisi_sv.sourcepers
+'analisi_sv.flagfraud
+'analisi_fr.tipo
+'analisi_fr.numprog
+'analisi_fr.dataope
+'analisi_fr.segno
+'analisi_fr.coddipe
+'analisi_fr.descriz
+'analisi_fr.provincia1
+'analisi_fr.tiposv
+'analisi_fr.connescli
+'analisi_fr.ragsoc
+'analisi_fr.sotgrup
+'analisi_fr.provincia
+'analisi_fr.paese
+'analisi_fr.tipocont
+'analisi_fr.impout
+'analisi_fr.rownumber
+'analisi_fr.valuta
+'analisi_fr.sourcepers
+'analisi_fr.flagfraud
+]
+'Libraries
+[
+'LibreriaMit<project>
+'FileLibMit<project>
+]
+'Queries
+[
+'qbe_statisv.vqr
+'qbe_provsv.vqr
+'qbe_stgru.vqr
+'qbe_estrai_sv_ope_tab_wu_minmax.vqr
+'qbe_estrai_sv_ope_tab_all.vqr
+'qbe_estrai_sv_frz_tab_wu_minmax.vqr
+'qbe_estrai_sv_frz_tab_all.vqr
+'qbe_estrai_sv_ope_chk_all.vqr
+'qbe_estrai_sv_all_ip_1.vqr
+'qbe_sv_idp_rapporti.vqr
+'qbe_estrai_sv_all_ip_2_a.vqr
+]
+'Routines
+[
+'arfn_agg_fraudolente
+'arfn_chkspers
+'arfn_datesum
+'arfn_fdate
+'arfn_fdatetime
+'arrt_estrai_sv_check_all
+]
+'Tables
+[
+'analisi_fr<table>
+'analisi_sv<table>
+'operazbo_agg<table>
+'personbo<table>
+'tbstati<table>
+'tbstgru<table>
+'wersonbo<table>
+]
+}
+I
+*--*
+￼[]
+*--*
